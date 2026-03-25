@@ -35,7 +35,7 @@ The exporter reads `web/src/main/webapp/static/sitemap.xml`, JSPs from `web/src/
 ## Deploy
 
 GitHub Actions publishes the generated `dist/` directory to GitHub Pages.
-It also checks out the `freetoolonline` source repo using the repository secret `SOURCE_REPO_TOKEN`, which must have read access to `dangkhoaow/freetoolonline`.
+It also checks out the public `freetoolonline` source repo alongside this project so the exporter can render from the JSP and shared-fragment sources.
 
 ## Cutover notes
 

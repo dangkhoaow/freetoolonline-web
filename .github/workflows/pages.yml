@@ -29,7 +29,7 @@ jobs:
           ref: main
           path: source
           fetch-depth: 1
-          token: ${{ secrets.SOURCE_REPO_TOKEN }}
+          token: ${{ github.token }}
           persist-credentials: false
 
       - name: Setup Node
