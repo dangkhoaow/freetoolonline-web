@@ -32,15 +32,6 @@ const distDir = path.resolve(repoRoot, process.env.DIST_DIR ?? 'dist');
 const siteOrigin = stripTrailingSlash(process.env.SITE_URL ?? DEFAULT_SITE_ORIGIN);
 const apiOrigin = ensureTrailingSlash(process.env.API_ORIGIN ?? DEFAULT_API_ORIGIN);
 const shortenDomain = stripTrailingSlash(process.env.SHORTEN_DOMAIN ?? DEFAULT_SHORTEN_DOMAIN);
-const runtimeConfig = {
-  appVersion: process.env.APP_VERSION ?? DEFAULT_APP_VERSION,
-  ioVersion: process.env.IO_VERSION ?? DEFAULT_IO_VERSION,
-  unsplashKey: process.env.UNSPLASH_KEY ?? DEFAULT_UNSPLASH_KEY,
-  randomString: process.env.RANDOM_STRING ?? DEFAULT_RANDOM_STRING,
-  bgsCollection: process.env.BGS_COLLECTION ?? DEFAULT_BGS_COLLECTION,
-  ioInfos: process.env.IO_INFOS ?? DEFAULT_IO_INFOS,
-  getAlterUploaderDelayMs: process.env.GET_ALTER_UPLOADER_DELAY_MS ?? DEFAULT_ALTER_UPLOADER_DELAY_MS,
-};
 
 const sourceRepoRoot = await resolveSourceRepoRoot();
 const sourceWebRoot = path.join(sourceRepoRoot, 'web', 'src', 'main', 'webapp');
@@ -53,6 +44,7 @@ const sitemapPath = path.join(staticAssetsRoot, 'sitemap.xml');
 const robotsPath = path.join(staticAssetsRoot, 'robots.txt');
 const adsPath = path.join(staticAssetsRoot, 'ads.txt');
 const themeCssPath = path.join(tagsRoot, 'style-all-default.tag');
+const runtimeConfig = await loadRuntimeConfig(staticAssetsRoot);
 
 async function main() {
   await mkdir(distDir, { recursive: true });
@@ -187,6 +179,29 @@ async function writeGeneratedSitemap(routes) {
     '',
   ].join('\n');
   await writeFile(path.join(distDir, 'sitemap.xml'), xml, 'utf8');
+}
+
+async function loadRuntimeConfig(staticAssetsRoot) {
+  const snapshotConfigPath = path.join(staticAssetsRoot, 'runtime-config.json');
+  const snapshotText = (await loadTextIfExists(snapshotConfigPath)).trim();
+  const snapshot = snapshotText ? JSON.parse(snapshotText) : {};
+
+  return {
+    appVersion: snapshot.appVersion ?? DEFAULT_APP_VERSION,
+    ioVersion: snapshot.ioVersion ?? DEFAULT_IO_VERSION,
+    unsplashKey: snapshot.unsplashKey ?? DEFAULT_UNSPLASH_KEY,
+    randomString: snapshot.randomString ?? DEFAULT_RANDOM_STRING,
+    bgsCollection: snapshot.bgsCollection ?? DEFAULT_BGS_COLLECTION,
+    ioInfos: snapshot.ioInfos ?? DEFAULT_IO_INFOS,
+    getAlterUploaderDelayMs: snapshot.getAlterUploaderDelayMs ?? DEFAULT_ALTER_UPLOADER_DELAY_MS,
+    ...(process.env.APP_VERSION ? { appVersion: process.env.APP_VERSION } : {}),
+    ...(process.env.IO_VERSION ? { ioVersion: process.env.IO_VERSION } : {}),
+    ...(process.env.UNSPLASH_KEY ? { unsplashKey: process.env.UNSPLASH_KEY } : {}),
+    ...(process.env.RANDOM_STRING ? { randomString: process.env.RANDOM_STRING } : {}),
+    ...(process.env.BGS_COLLECTION ? { bgsCollection: process.env.BGS_COLLECTION } : {}),
+    ...(process.env.IO_INFOS ? { ioInfos: process.env.IO_INFOS } : {}),
+    ...(process.env.GET_ALTER_UPLOADER_DELAY_MS ? { getAlterUploaderDelayMs: process.env.GET_ALTER_UPLOADER_DELAY_MS } : {}),
+  };
 }
 
 async function resolveSourceRepoRoot() {

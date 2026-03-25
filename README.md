@@ -41,6 +41,7 @@ It uses the committed `source/` snapshot in this repository, so no cross-repo ch
 
 - Edit page content under `source/static/src/main/webapp/resources/view/**`, especially `source/static/src/main/webapp/resources/view/CMS/**`.
 - If a page route, JSP shell, or sitemap entry changes, update `source/web/src/main/webapp/WEB-INF/jsp/**` or `source/web/src/main/webapp/static/sitemap.xml` as needed.
+- Runtime defaults (background images, uploader endpoints, versions) live in `source/web/src/main/webapp/static/runtime-config.json`.
 - Push the change and let GitHub Actions rebuild Pages; this replaces the old S3 upload plus `/admin/update-configs` refresh flow.
 
 ## Cutover notes

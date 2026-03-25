@@ -187,14 +187,35 @@ export function renderPageDocument({ route, siteOrigin, apiOrigin, shortenDomain
   const pageName = pageData.pageName;
   const pageUrl = pageData.pageUrl;
   const isHome = normalizedRoute === '/';
-  const browserTitle = pageAttrs.browserTitle || pageData.pageBrowserTitle || pageData.bodyTitle;
-  const pageTitle = pageAttrs.pageTitle || '';
-  const description = pageAttrs.description || pageData.bodyDesc || '';
-  const keyword = pageAttrs.keyword || pageData.bodyKeyword || '';
-  const customStyle = pageAttrs.customStyle || '';
+  const expressionCtx = {
+    pageBodyTitle: pageData.bodyTitle,
+    pageBodyDesc: pageData.bodyDesc,
+    pageBodyKeyword: pageData.bodyKeyword,
+    pageBodyHTML: pageData.bodyHtml,
+    pageBodyJS: pageData.bodyJs,
+    pageBodyWelcome: pageData.bodyWelcome,
+    pageBodyFileType: pageData.bodyFileType,
+    pageBodyFileType2: pageData.bodyFileType2,
+    pageFaq: pageData.faq,
+    pageStyle: pageData.pageStyle,
+    pageBrowserTitle: pageData.pageBrowserTitle,
+    pageHasSettings: pageData.pageHasSettings,
+    privacyContent: sharedFragments.privacyContent,
+    shortenDomain,
+    pageUrl,
+    pageName,
+  };
+  const resolveAttr = (value) => replaceExpressions(value ?? '', expressionCtx).trim();
+
+  const browserTitle = resolveAttr(pageAttrs.browserTitle) || pageData.pageBrowserTitle || pageData.bodyTitle;
+  const pageTitle = resolveAttr(pageAttrs.pageTitle) || '';
+  const description = resolveAttr(pageAttrs.description) || pageData.bodyDesc || '';
+  const keyword = resolveAttr(pageAttrs.keyword) || pageData.bodyKeyword || '';
+  const customStyle = resolveAttr(pageAttrs.customStyle) || '';
   const pageStyle = pageData.pageStyle || '';
-  const lang = pageAttrs.lang || 'en';
-  const hasSettings = pageAttrs.hasSettings === 'true' || pageAttrs.hasSettings === 'TRUE' || pageData.pageHasSettings;
+  const lang = resolveAttr(pageAttrs.lang) || 'en';
+  const hasSettingsAttr = resolveAttr(pageAttrs.hasSettings);
+  const hasSettings = hasSettingsAttr === 'true' || hasSettingsAttr === 'TRUE' || pageData.pageHasSettings;
   const hasUpload = /id=['"]hasUploadFunc['"]/.test(bodyHtml) || /uploadContainerSecond/.test(bodyHtml) || /uploadContainer/.test(bodyHtml);
   const showAds = !isHome && !isInfoRoute(normalizedRoute) && normalizedRoute !== '/alternatead.html';
   const canonicalUrl = pageData.canonicalUrl || canonicalForRoute(siteOrigin, normalizedRoute);
