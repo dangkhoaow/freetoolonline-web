@@ -22,6 +22,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Checkout source repo
+        uses: actions/checkout@v4
+        with:
+          repository: dangkhoaow/freetoolonline
+          path: source
+          fetch-depth: 1
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -31,10 +38,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Install Playwright browser
-        run: npx playwright install --with-deps chromium
-
       - name: Export static site
+        env:
+          SOURCE_REPO_ROOT: ${{ github.workspace }}/source
         run: npm run export
 
       - name: Configure Pages

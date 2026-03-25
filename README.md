@@ -4,25 +4,33 @@ Static GitHub Pages site for FreeToolOnline.
 
 ## What this repo does
 
-- Crawls the live site or a local preview site and exports rendered HTML into `dist/`.
+- Reads JSPs and shared fragments from a checked-out `freetoolonline` source repo and exports rendered HTML into `dist/`.
 - Keeps the site origin as `https://freetoolonline.com` while routing AJAX calls to the API origin.
 - Deploys the static output to GitHub Pages through GitHub Actions.
 
 ## Environment
 
-- `SOURCE_URL`: source site to crawl, default `https://freetoolonline.com`
+- `SOURCE_REPO_ROOT`: path to the `freetoolonline` source checkout, default `../freetoolonline` when present
+- `SITE_URL`: public site origin, default `https://freetoolonline.com`
 - `API_ORIGIN`: API root injected into `getRootPath()`, default `https://service.us-east-1a.freetool.online/`
+- `SHORTEN_DOMAIN`: share-link origin used by the page shell, default `https://freetool.online`
+- `APP_VERSION`: cache-busting version for CDN assets
+- `IO_VERSION`: uploader version stamp
+- `UNSPLASH_KEY`: background image key used by the page shell
+- `RANDOM_STRING`: seed string used by the page shell
+- `BGS_COLLECTION`: JSON-encoded background list used by the page shell
+- `IO_INFOS`: JSON-encoded uploader list used by the page shell
+- `GET_ALTER_UPLOADER_DELAY_MS`: delay used by the uploader bootstrap
 - `DIST_DIR`: output directory, default `dist`
 
 ## Local build
 
 ```bash
 npm install
-npx playwright install chromium
 npm run export
 ```
 
-The exporter fetches `sitemap.xml`, downloads each page, and rewrites the client bootstrap so AJAX endpoints point at `API_ORIGIN`.
+The exporter reads `web/src/main/webapp/static/sitemap.xml`, JSPs from `web/src/main/webapp/WEB-INF/jsp/`, and shared fragments from `static/src/main/webapp/resources/view/`. If your source checkout lives somewhere else, set `SOURCE_REPO_ROOT` before running the build.
 
 ## Deploy
 
