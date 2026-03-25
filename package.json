@@ -1,0 +1,21 @@
+{
+  "name": "freetoolonline-web",
+  "version": "1.0.0",
+  "description": "Static GitHub Pages site for FreeToolOnline.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "npm run export",
+    "export": "node scripts/export-site.mjs",
+    "test": "node --check scripts/export-site.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2"
+  }
+}
