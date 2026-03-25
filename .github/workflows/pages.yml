@@ -24,14 +24,13 @@ jobs:
 
       - name: Checkout source repo
         run: |
-          set +e
-          git clone --depth 1 https://github.com/dangkhoaow/freetoolonline.git source 2>&1 | tee /tmp/source-clone.log
-          status=${PIPESTATUS[0]}
-          if [ "$status" -ne 0 ]; then
-            message=$(tail -n 20 /tmp/source-clone.log | tr '\n' ' ' | sed 's/%/%25/g; s/\r/%0D/g; s/\n/%0A/g')
-            echo "::error title=Source repo checkout failed::${message}"
-            exit "$status"
+          if [ -z "${SOURCE_REPO_TOKEN:-}" ]; then
+            echo "::error title=Missing SOURCE_REPO_TOKEN::Set a repository secret named SOURCE_REPO_TOKEN with read access to dangkhoaow/freetoolonline."
+            exit 1
           fi
+          git clone --depth 1 --branch master "https://x-access-token:${SOURCE_REPO_TOKEN}@github.com/dangkhoaow/freetoolonline.git" source
+        env:
+          SOURCE_REPO_TOKEN: ${{ secrets.SOURCE_REPO_TOKEN }}
 
       - name: Setup Node
         uses: actions/setup-node@v4
