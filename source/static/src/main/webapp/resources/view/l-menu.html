@@ -460,28 +460,46 @@
         }
     };
 
-    $('.menuToogle').removeAttr('onclick');
-    $('body.new-style-body').click(function(){
-        ($('html.menu-open').length > 0 && isClickedToggle) ? toggleMenu() : '';
-    });
-    $('.menuToogle').click(function(e){
-        e.preventDefault();
-        e.stopPropagation();
-        toggleMenu();
-    });
-    $('#menu-content-id, #mainNavBar').click(function(e){
-        e.stopPropagation();
-    });
+    document.addEventListener(
+        'DOMContentLoaded',
+        function() {
+            try {
+                if (typeof window.$ !== 'function') {
+                    return;
+                }
 
+                $('.menuToogle').removeAttr('onclick');
+                $('body.new-style-body').click(function() {
+                    ($('html.menu-open').length > 0 && isClickedToggle) ? toggleMenu() : '';
+                });
+                $('.menuToogle').click(function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    toggleMenu();
+                });
+                $('#menu-content-id, #mainNavBar').click(function(e) {
+                    e.stopPropagation();
+                });
 
-    focusCurrentMenu = function(_el) {
-        $('#nav_menu').find(_el).each(function() {
-            if (typeof $(this).attr('href') !== 'undefined' && $(this).attr('href').indexOf($('.pageNameContainer').attr('href')) > -1) {
-                $(this).addClass('active');
-                $("#nav_menu .menuGroup").removeClass("w3-show");
-                $(this).closest('.menuGroup').addClass('w3-show');
-                $('#nav_menu .menu-content').scrollTop($(this).offset().top);
+                focusCurrentMenu = function(_el) {
+                    $('#nav_menu').find(_el).each(function() {
+                        if (typeof $(this).attr('href') !== 'undefined' && $(this).attr('href').indexOf($('.pageNameContainer').attr('href')) > -1) {
+                            $(this).addClass('active');
+                            $("#nav_menu .menuGroup").removeClass("w3-show");
+                            $(this).closest('.menuGroup').addClass('w3-show');
+                            $('#nav_menu .menu-content').scrollTop($(this).offset().top);
+                        }
+                    });
+                };
+
+                // Ensure current route is highlighted even when the menu is inlined (static build).
+                try {
+                    focusCurrentMenu('a');
+                } catch (e) {}
+            } catch (e) {
+                console.log(e);
             }
-        });
-    };
+        },
+        { once: true }
+    );
 </script>
