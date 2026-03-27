@@ -2188,7 +2188,7 @@ footer.page-footer .footer-inner *{
     max-width: 1600px;
 }
 
-.page-section, .ad-section:not(.ad-panel) {
+.page-section {
     overflow: hidden;
     position: relative;
     margin: auto;
@@ -2199,6 +2199,19 @@ footer.page-footer .footer-inner *{
     max-width: 1240px;
 	width: calc(100% - 20px);
     background-color: rgba(255,255,255,0.93);
+}
+
+/* Ad slots only: match common.css — do not use the page-section card fill (breaks dark mode + mobile top-ad title band). */
+.ad-section:not(.ad-panel) {
+    overflow: hidden;
+    position: relative;
+    margin: auto auto 10px;
+    margin-bottom: 0;
+    max-width: 1240px;
+    width: calc(100% - 20px);
+    background: none;
+    background-color: transparent;
+    box-shadow: none;
 }
 
 footer.page-footer .footer-inner {
@@ -2308,6 +2321,20 @@ header.navBarContainer .new-style-nav-bar.w3-white {
 
 .main-html.menu-open header.navBarContainer .new-style-nav-bar {
     box-shadow: none !important;
+}
+
+/* Dark mode: mirror key rules from CloudFront dark.css so tool pages match before/without late-loaded dark.css (preload). */
+@media (max-width: 999px) {
+    html.main-html.dark:not([style*="background-color"]) .ad-section:not(.ad-panel) > ins:after {
+        background-color: #2F3437 !important;
+        color: #FFFFFF !important;
+    }
+}
+
+html.main-html.dark:not([style*="background-color"]) .page-main-content .page-section {
+    background-color: #2F3437 !important;
+    border: 1px solid #37352F !important;
+    color: #FFFFFF !important;
 }
 
 .ad-section.top-ad, .bg-credit, .bg-credit-des{
