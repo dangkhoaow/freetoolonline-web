@@ -1902,6 +1902,15 @@ a {
     background: transparent
 }
 
+/* Drawer sub-links: theme .w3-bar-block .w3-bar-item uses 16px L padding; production common.css uses 37px so bullets align under section titles */
+#nav_menu .menuGroup .w3-bar-item {
+    padding: 8px 10px 8px 37px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+
 header .new-style-nav-bar {
     box-shadow: none !important;
 }
@@ -2240,10 +2249,6 @@ footer.page-footer .footer-inner * {
 
 header.navBarContainer:not(.w3-top) {
     background: #151d28;
-}
-
-#disableAds {
-    display: none !important;
 }
 
 @media(min-width: 768px) {
