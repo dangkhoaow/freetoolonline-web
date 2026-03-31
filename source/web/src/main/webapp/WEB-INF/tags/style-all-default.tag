@@ -2371,8 +2371,18 @@ html.main-html.dark:not([style*="background-color"]) .page-main-content .page-se
         display: none !important;
     }
 
-    header.navBarContainer #disableAds,
-    header.navBarContainer .settingsBtn[title*="tool settings"],
+    header.navBarContainer #disableAds {
+        margin-top: 8.5px !important;
+        margin-bottom: 0 !important;
+        height: 24px !important;
+        min-height: 24px;
+        padding: 2px 7px !important;
+        box-sizing: border-box;
+        line-height: 1 !important;
+        vertical-align: middle;
+    }
+
+    header.navBarContainer .settingsBtn[title*="tool settings"]:not(#disableAds),
     #buyMeACoffeeBtnID {
         display: inline-flex !important;
         align-items: center;
@@ -2391,8 +2401,7 @@ html.main-html.dark:not([style*="background-color"]) .page-main-content .page-se
         vertical-align: middle;
     }
 
-    header.navBarContainer #disableAds i,
-    header.navBarContainer .settingsBtn[title*="tool settings"] i,
+    header.navBarContainer .settingsBtn[title*="tool settings"]:not(#disableAds) i,
     #buyMeACoffeeBtnID i {
         font-size: 14px;
         margin: 0 !important;
