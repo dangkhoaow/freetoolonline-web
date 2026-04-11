@@ -154,7 +154,7 @@ function renderToolSections(ctx) {
   if (!ctx.showAds) {
     return '';
   }
-  return `<div class="w3-row page-section relatedToolsSection"><p style="margin-bottom: 0px;">Related tools:</p><div class="relatedTools"></div><script>loadRelatedTools = function(){ loadScript('https://dkbg1jftzfsd2.cloudfront.net/script/related-tools.js?v=' + APP_VERSION, function(){}); };</script></div><div class="w3-row page-section"><div id="star-rating-container">Loading reviews...</div></div>${ctx.pageFaq ? ctx.pageFaq : ''}${ctx.bottomPageBannerAd || ''}`;
+  return `<div class="w3-row page-section relatedToolsSection"><p style="margin-bottom: 0px;">Related tools:</p><div class="relatedTools"></div><script>loadRelatedTools = function(){try{if(window.__relatedToolsRequested)return;if(document.querySelector('script[src*="related-tools.js"]')){window.__relatedToolsRequested=!0;return;}window.__relatedToolsRequested=!0;loadScript('/script/related-tools.js?v=' + APP_VERSION, function(){});}catch(e){}};document.addEventListener('DOMContentLoaded',function(){try{if(window.__relatedToolsBootstrapped)return;window.__relatedToolsBootstrapped=!0;loadRelatedTools();}catch(e){}});</script></div><div class="w3-row page-section"><div id="star-rating-container">Loading reviews...</div></div>${ctx.pageFaq ? ctx.pageFaq : ''}${ctx.bottomPageBannerAd || ''}`;
 }
 
 export function parseJspPageSource(jspSource) {

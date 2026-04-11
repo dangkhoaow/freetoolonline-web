@@ -1,4 +1,4 @@
-import { access, mkdir, writeFile } from 'node:fs/promises';
+import { access, copyFile, mkdir, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import {
@@ -48,6 +48,7 @@ const runtimeConfig = await loadRuntimeConfig(staticAssetsRoot);
 
 async function main() {
   await mkdir(distDir, { recursive: true });
+  await copyStaticAssets(staticAssetsRoot, distDir);
 
   const jspIndex = await buildJspIndex(jspRoot);
   const sharedFragments = await loadSharedFragments(staticViewRoot, themeCssPath);
@@ -81,6 +82,29 @@ async function main() {
   await writeFile(path.join(distDir, 'CNAME'), `${new URL(siteOrigin).hostname}\n`);
 
   console.log(`Rendered ${routeCandidates.length} routes and published ${canonicalRoutes.length} pages to ${distDir}`);
+}
+
+async function copyStaticAssets(sourceDir, targetDir) {
+  const entries = await readdir(sourceDir, { withFileTypes: true });
+  for (const entry of entries) {
+    if (entry.name.startsWith('.')) {
+      continue;
+    }
+
+    const sourcePath = path.join(sourceDir, entry.name);
+    const targetPath = path.join(targetDir, entry.name);
+
+    if (entry.isDirectory()) {
+      await mkdir(targetPath, { recursive: true });
+      await copyStaticAssets(sourcePath, targetPath);
+      continue;
+    }
+
+    if (entry.isFile()) {
+      await mkdir(path.dirname(targetPath), { recursive: true });
+      await copyFile(sourcePath, targetPath);
+    }
+  }
 }
 
 async function renderRoute(route, { jspIndex, sharedFragments }) {
