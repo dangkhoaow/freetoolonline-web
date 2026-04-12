@@ -41,40 +41,79 @@ function sendDonateDlgEv() {
 
 function appendDonateBannerAd() {
 	try {
-		if ((typeof getParamValue === 'function' && getParamValue('noads') != null) || (typeof getCookie === 'function' && getCookie('disableAd') !== '' && getCookie('disableAd') !== 'false')) {
+		var noadsParam = typeof getParamValue === 'function' ? getParamValue('noads') : null;
+		var disableAdCookie = typeof getCookie === 'function' ? getCookie('disableAd') : '';
+		var existingSlotCount = $('#donate-confirm .donate-banner-ad-slot').length;
+		console.log('[donate] appendDonateBannerAd start', {
+			pageName: typeof pageName === 'undefined' ? '' : pageName,
+			noadsParam: noadsParam,
+			disableAdCookie: disableAdCookie,
+			existingSlotCount: existingSlotCount,
+			htmlAdsDisabled: $('html').hasClass('ads-disabled')
+		});
+		if (noadsParam != null || (disableAdCookie !== '' && disableAdCookie !== 'false')) {
+			console.log('[donate] appendDonateBannerAd skipped because ads are disabled', {
+				noadsParam: noadsParam,
+				disableAdCookie: disableAdCookie
+			});
 			return;
 		}
-		if ($('#donate-confirm .donate-banner-ad-slot').length > 0) {
+		if (existingSlotCount > 0) {
+			console.log('[donate] appendDonateBannerAd skipped because slot already exists');
 			return;
 		}
+		var adFragmentUrl = 'view/top-page-banner-ad.html?v=' + APP_VERSION;
+		console.log('[donate] loading donate banner ad fragment', { url: adFragmentUrl });
 		$.ajax({
 			context: this,
 			dataType: "html",
-			url: "view/top-page-banner-ad.html?v=" + APP_VERSION,
+			url: adFragmentUrl,
 			success: function(result) {
 				try {
+					console.log('[donate] donate banner ad fragment loaded', {
+						length: result ? result.length : 0
+					});
 					if ($('#donate-confirm .donate-banner-ad-slot').length > 0) {
+						console.log('[donate] appendDonateBannerAd skipped after load because slot already exists');
 						return;
 					}
 					var $adContainer = $('<div class="donate-banner-ad-slot" style="margin-top: 12px;"></div>');
 					$('#donate-confirm .w3-modal-content').append($adContainer);
 					$adContainer.append(result);
+					console.log('[donate] donate banner ad appended; preparing adsbygoogle push');
 					var pushAd = function() {
 						try {
+							console.log('[donate] adsbygoogle push invoked');
 							(adsbygoogle = window.adsbygoogle || []).push({});
 						} catch (e) {}
 					};
 					if (document.querySelector('script[src*="pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"]')) {
+						console.log('[donate] adsbygoogle script already present');
 						pushAd();
 					} else if (typeof loadScript === 'function') {
-						loadScript('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', pushAd);
+						console.log('[donate] loading adsbygoogle script before push');
+						loadScript('https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js', function() {
+							console.log('[donate] adsbygoogle script loaded');
+							pushAd();
+						});
 					} else {
+						console.log('[donate] loadScript unavailable; pushing adsbygoogle directly');
 						pushAd();
 					}
-				} catch (e) {}
+				} catch (e) {
+					console.log('[donate] appendDonateBannerAd success handler error', e);
+				}
+			},
+			error: function(xhr, status, error) {
+				console.log('[donate] failed to load donate banner ad fragment', {
+					status: status,
+					error: error
+				});
 			}
 		});
-	} catch (e) {}
+	} catch (e) {
+		console.log('[donate] appendDonateBannerAd outer error', e);
+	}
 }
 
 window.__appendDonateBannerAd = appendDonateBannerAd;
