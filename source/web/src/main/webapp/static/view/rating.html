@@ -330,16 +330,10 @@
                 url: "view/donate.html?v=" + APP_VERSION,
                 success: function(result) {
                     $('.w3-rest.page-main-content').append(result);
-                    if (typeof window.__appendDonateBannerAd === 'function') {
-                        window.__appendDonateBannerAd();
-                    }
                 }
             });
         } else {
             $('#donate-confirm').show();
-            if (typeof window.__appendDonateBannerAd === 'function') {
-                window.__appendDonateBannerAd();
-            }
             localStorage[proDName] = true;
         }
 	};
