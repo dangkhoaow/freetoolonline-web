@@ -181,7 +181,7 @@ At the freetoolonline-web\seo-reports\20260415-2\IMPLEMENTATION_PLAN.md
 
 Pls make the implemetation plan to do at ./freetoolonline-web-test first, then roll out needed changes into ./freetoolonline-web 
 
-For 'CRITICAL -- Do Immediately (Protect Rankings)' items
+For 'CRITICAL -- Do Immediately (Protect Rankings)' and 'HIGH PRIORITY -- Do This Week' items
 
 Technical Noted:
 - For 'Pre-render related tools links (SSR)' - use github build to generated related tools for extractly what related-tools.js did. Keep the css style, UI, UI logic rule as current
