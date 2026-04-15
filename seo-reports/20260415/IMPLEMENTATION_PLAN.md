@@ -39,13 +39,32 @@ Focus on **trust cleanup and structural fixes** that require minimal code change
 
 ---
 
+## 1.5 Implementation Status (Production)
+
+**Last verified:** April 15, 2026  
+**Scope:** Production deployment (`https://freetoolonline.com`) only
+
+**CRITICAL items**
+- ✅ 2.1 Remove Fabricated AggregateRating Schema (API-backed ratings live on tool pages, not hubs)
+- ✅ 2.2 Remove UTM Parameters from Internal Links (no `utm_source=internal` in sampled production HTML)
+- ✅ 2.3 Add FAQPage Structured Data (FAQPage JSON-LD present on sampled tool pages)
+
+**Quick Wins**
+- ✅ 1 Remove fake AggregateRating schema
+- ✅ 2 Remove UTM params from internal links
+- ⏳ 3 Fix multiple H1 tags
+- ✅ 4 Add FAQPage JSON-LD schema
+- ⏳ 5 Add `<lastmod>` to sitemaps (no `<lastmod>` in production sitemaps)
+
+---
+
 ## 2. Priority Action List
 
 ### CRITICAL -- Do Immediately (Protect Rankings)
 
 **Execution order:** implement and validate in `freetoolonline-web-test` first, then port identical changes to `freetoolonline-web`.
 
-#### 2.1 Remove Fabricated AggregateRating Schema
+#### 2.1 Remove Fabricated AggregateRating Schema ✅
 
 | Attribute | Detail |
 |-----------|--------|
@@ -59,7 +78,7 @@ Focus on **trust cleanup and structural fixes** that require minimal code change
 
 ---
 
-#### 2.2 Remove UTM Parameters from Internal Links
+#### 2.2 Remove UTM Parameters from Internal Links ✅
 
 | Attribute | Detail |
 |-----------|--------|
@@ -73,7 +92,7 @@ Focus on **trust cleanup and structural fixes** that require minimal code change
 
 ---
 
-#### 2.3 Add FAQPage Structured Data (JSON-LD)
+#### 2.3 Add FAQPage Structured Data (JSON-LD) ✅
 
 | Attribute | Detail |
 |-----------|--------|
@@ -208,11 +227,11 @@ These items are the fastest, safest changes with the highest immediate ROI:
 
 | # | Action | Time | Impact | File(s) to Change |
 |---|--------|------|--------|-------------------|
-| 1 | Remove fake AggregateRating schema | 5 min | Eliminates #1 spam risk | `scripts/page-renderer.mjs` |
-| 2 | Remove UTM params from internal links | 1 hr | Fixes GA4 data + crawl waste | `footer.html`, `related-tools.js` |
-| 3 | Fix multiple H1 tags | 30 min | Improves heading hierarchy sitewide | `scripts/page-renderer.mjs` |
-| 4 | Add FAQPage JSON-LD schema | 2-4 hrs | CTR recovery via rich snippets | `scripts/page-renderer.mjs` |
-| 5 | Add `<lastmod>` to sitemaps | 1-2 hrs | Better recrawl prioritization | `scripts/sitemap-writer.mjs` |
+| 1 | ✅ Remove fake AggregateRating schema | 5 min | Eliminates #1 spam risk | `scripts/page-renderer.mjs` |
+| 2 | ✅ Remove UTM params from internal links | 1 hr | Fixes GA4 data + crawl waste | `footer.html`, `related-tools.js` |
+| 3 | ⏳ Fix multiple H1 tags | 30 min | Improves heading hierarchy sitewide | `scripts/page-renderer.mjs` |
+| 4 | ✅ Add FAQPage JSON-LD schema | 2-4 hrs | CTR recovery via rich snippets | `scripts/page-renderer.mjs` |
+| 5 | ⏳ Add `<lastmod>` to sitemaps | 1-2 hrs | Better recrawl prioritization | `scripts/sitemap-writer.mjs` |
 
 **Estimated total for all quick wins: ~5-8 hours**
 **Expected outcome: Spam risk eliminated, CTR recovery initiated, analytics data cleaned**
