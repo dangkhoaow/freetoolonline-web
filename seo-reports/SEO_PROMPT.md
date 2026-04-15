@@ -189,3 +189,19 @@ Pls make the implemetation plan to implement all items for 3 groups above at ./f
 
 Technical Noted:
 - For 'Pre-render related tools links (SSR)' - use github build to generated related tools for extractly what related-tools.js did. Keep the css style, UI, UI logic rule as current (refer the current project setup, and follow)
+
+======
+
+I have deployed to staging site, the latest change on at https://dangkhoaow.github.io/freetoolonline-web-test/zip-file.html  and view-source:https://dangkhoaow.github.io/freetoolonline-web-test/zip-file.html and more other all rest routes/pages
+
+Pls run check and audit if they are were implemented follow the plan?
+
+======
+
+I have deployed to prod site, the latest change on at https://freetoolonline.com/zip-file.html  and view-source:https://freetoolonline.com/zip-file.html and more other all rest routes/pages
+
+Pls run check and audit if they are were implemented follow the plan?
+
+======
+
+Finally, pls update the plan for current context and implemetation status
