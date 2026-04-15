@@ -48,8 +48,8 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 
 ## 1.5 Implementation Status (Carried Forward from Phase 1)
 
-**Last verified:** April 15, 2026
-**Scope:** Production deployment (`https://freetoolonline.com`)
+**Last verified:** April 15, 2026 (staging + production deploy + audit)
+**Scope:** Staging (`https://dangkhoaow.github.io/freetoolonline-web-test`) + Production (`https://freetoolonline.com`)
 
 **Phase 1 CRITICAL items**
 - ✅ Remove Fabricated AggregateRating Schema (API-backed ratings live)
@@ -59,16 +59,24 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 **Phase 1 Quick Wins**
 - ✅ Remove fake AggregateRating schema
 - ✅ Remove UTM params from internal links
-- ⏳ Fix multiple H1 tags → **Phase 2 item 2.1**
+- ✅ Fix multiple H1 tags → **Phase 2 item 2.1** (deployed; 56/58 sitemap routes have a single H1)
 - ✅ Add FAQPage JSON-LD schema
-- ⏳ Add `<lastmod>` to sitemaps → **Phase 2 item 2.3**
+- ✅ Add `<lastmod>` to sitemaps → **Phase 2 item 2.3** (live `sitemap-tools.xml`, `sitemap-hubs.xml`, `sitemap-pages.xml`)
 
 **Phase 1 HIGH/MEDIUM items still pending**
-- ⏳ Server-Side Render Related Tools Links → **Phase 2 item 2.4**
-- ⏳ Add BreadcrumbList Structured Data → **Phase 2 item 2.6**
+- ✅ Server-Side Render Related Tools Links → **Phase 2 item 2.4** (SSR list visible in view-source)
+- ✅ Add BreadcrumbList Structured Data → **Phase 2 item 2.6** (tool + hub routes verified)
 - ⏳ Audit and Fix 4XX Crawl Errors → **Phase 2 item 2.11**
 - ⏳ Enrich Content on Top Tool Pages → **Phase 2 item 2.8**
 - ⏳ Implement Cross-Cluster Linking → **Phase 2 Optional**
+
+**Phase 2 (Top 3 groups) implementation status**
+- ✅ 2.1–2.7 deployed to staging + production; all 58 sitemap routes pass plan checks except two pages missing `<h1>` (see Follow-up).
+- ✅ JSON-LD now uses `https://schema.org` for WebApplication/WebSite/BreadcrumbList/CollectionPage.
+- ✅ Related Tools SSR confirmed in view-source; client injection guarded to avoid duplicates.
+
+**Follow-up (outside Phase 2 scope)**
+- ⏳ Add missing `<h1>` to CMS for `/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html` and `/do-nong-do-con-truc-tuyen.html`.
 
 ---
 
@@ -88,7 +96,7 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 > - Re-run the same validations (`npm run export` + spot-check affected pages in `dist/`)
 > - Deploy + monitor (GSC coverage, structured data, crawl stats)
 
-#### 2.1 Fix Duplicate H1 Tags ⏳
+#### 2.1 Fix Duplicate H1 Tags ✅
 
 | Attribute | Detail |
 |-----------|--------|
@@ -102,7 +110,7 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 
 ---
 
-#### 2.2 Fix Invalid Author Meta Tag ⏳
+#### 2.2 Fix Invalid Author Meta Tag ✅
 
 | Attribute | Detail |
 |-----------|--------|
@@ -116,7 +124,7 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 
 ---
 
-#### 2.3 Add `<lastmod>` to Sitemaps ⏳
+#### 2.3 Add `<lastmod>` to Sitemaps ✅
 
 | Attribute | Detail |
 |-----------|--------|
@@ -144,7 +152,7 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 > - Re-run the same validations (`npm run export` + spot-check affected pages in `dist/`)
 > - Deploy + monitor (GSC coverage, structured data, crawl stats)
 
-#### 2.4 Pre-Render Related Tools Links (Server-Side) ⏳
+#### 2.4 Pre-Render Related Tools Links (Server-Side) ✅
 
 | Attribute | Detail |
 |-----------|--------|
@@ -176,7 +184,7 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 
 ---
 
-#### 2.5 Convert Hub Page Schema to CollectionPage + ItemList ⏳
+#### 2.5 Convert Hub Page Schema to CollectionPage + ItemList ✅
 
 | Attribute | Detail |
 |-----------|--------|
@@ -190,7 +198,7 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 
 ---
 
-#### 2.6 Add BreadcrumbList Structured Data ⏳
+#### 2.6 Add BreadcrumbList Structured Data ✅
 
 | Attribute | Detail |
 |-----------|--------|
@@ -204,7 +212,7 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 
 ---
 
-#### 2.7 Standardize JSON-LD @context to HTTPS ⏳
+#### 2.7 Standardize JSON-LD @context to HTTPS ✅
 
 | Attribute | Detail |
 |-----------|--------|
@@ -282,14 +290,14 @@ These items are the fastest, safest changes with the highest immediate ROI:
 
 | # | Action | Time | Impact | File(s) to Change |
 |---|--------|------|--------|-------------------|
-| 1 | ⏳ Fix duplicate H1 tags | 30 min | Heading hierarchy for 56/63 pages | `scripts/page-renderer.mjs` |
-| 2 | ⏳ Fix invalid author meta tag | 15 min | HTML validation cleanup | `scripts/page-renderer.mjs` |
-| 3 | ⏳ Add `<lastmod>` to sitemaps | 1-2 hrs | Crawl freshness signals for 63 URLs | `scripts/sitemap-writer.mjs` |
-| 4 | ⏳ Standardize `@context` to HTTPS | 15 min | JSON-LD consistency | `scripts/page-renderer.mjs` |
-| 5 | ⏳ Add BreadcrumbList JSON-LD | 2-3 hrs | Rich breadcrumb snippets in SERP | `scripts/page-renderer.mjs` |
+| 1 | ✅ Fix duplicate H1 tags | 30 min | Heading hierarchy for 56/63 pages | `scripts/page-renderer.mjs` |
+| 2 | ✅ Fix invalid author meta tag | 15 min | HTML validation cleanup | `scripts/page-renderer.mjs` |
+| 3 | ✅ Add `<lastmod>` to sitemaps | 1-2 hrs | Crawl freshness signals for 63 URLs | `scripts/sitemap-writer.mjs` |
+| 4 | ✅ Standardize `@context` to HTTPS | 15 min | JSON-LD consistency | `scripts/page-renderer.mjs` |
+| 5 | ✅ Add BreadcrumbList JSON-LD | 2-3 hrs | Rich breadcrumb snippets in SERP | `scripts/page-renderer.mjs` |
 
 **Estimated total for all quick wins: ~4-6 hours**
-**Expected outcome: Clean heading hierarchy sitewide, proper meta tags, improved sitemap signals, breadcrumb rich snippets enabled**
+**Expected outcome: Clean heading hierarchy sitewide, proper meta tags, improved sitemap signals, breadcrumb rich snippets enabled (completed in staging + production).**
 
 > **Staging-first gate:** Every item in this table follows the same two-repo rollout — implement in `freetoolonline-web-test` → validate (`npm run export` + spot-check) → port identical change to `freetoolonline-web` → validate + deploy. Quick Wins do not bypass the `web-test` safety step.
 
