@@ -15,6 +15,7 @@ import {
   DEFAULT_UNSPLASH_KEY,
   JSP_BY_ROUTE,
   SPECIAL_ROUTES,
+  isInfoRoute,
   buildJspIndex,
   loadCmsPageData,
   loadSharedFragments,
@@ -161,6 +162,14 @@ async function renderRoute(route, { jspIndex, sharedFragments, canonicalOrigin, 
 
   const { attrs: pageAttrs, innerHtml: bodyHtml } = parseJspPageSource(jspSource);
   const pageData = await loadCmsPageData(cmsRoot, normalizedRoute);
+  const isHubPage = normalizedRoute.endsWith('-tools.html');
+  const showRating = !isHubPage && !isInfoRoute(normalizedRoute) && normalizedRoute !== '/' && normalizedRoute !== '/alternatead.html';
+  const aggregateRating = showRating
+    ? await loadAggregateRating({ apiOrigin, pageName: pageData.pageName, route: normalizedRoute })
+    : null;
+  if (!showRating) {
+    console.log(`[ratings] Skip rating fetch for ${normalizedRoute} (showRating=false).`);
+  }
 
   return {
     html: renderPageDocument({
@@ -184,9 +193,100 @@ async function renderRoute(route, { jspIndex, sharedFragments, canonicalOrigin, 
       pageAttrs,
       bodyHtml,
       themeCss: sharedFragments.themeCss,
+      aggregateRating,
     }),
     canonical: true,
   };
+}
+
+async function loadAggregateRating({ apiOrigin, pageName, route }) {
+  if (!pageName) {
+    console.log(`[ratings] Omit rating for ${route}: missing pageName.`);
+    return null;
+  }
+
+  const ratingUrl = new URL('ajax/get-rating', apiOrigin);
+  ratingUrl.searchParams.set('pageName', pageName);
+  const ratingOrigin = resolveRatingOrigin(siteOrigin);
+  const timeoutMs = Number.parseInt(process.env.RATING_FETCH_TIMEOUT_MS ?? '5000', 10);
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
+  console.log(`[ratings] Fetching rating for ${pageName} (${route}) from ${ratingUrl.href} (origin=${ratingOrigin})`);
+
+  try {
+    const response = await fetch(ratingUrl, {
+      method: 'POST',
+      headers: {
+        Accept: 'application/json, text/javascript, */*; q=0.01',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Cache-Control': 'no-cache',
+        'Content-Type': 'application/json; charset=UTF-8',
+        Origin: ratingOrigin,
+        Pragma: 'no-cache',
+        Referer: `${ratingOrigin}/`,
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+        'X-Requested-With': 'XMLHttpRequest',
+      },
+      body: '{}',
+      signal: controller.signal,
+    });
+    const responseUrl = response.url;
+    const contentType = response.headers.get('content-type') ?? '';
+    if (!response.ok) {
+      console.log(`[ratings] Omit rating for ${pageName}: HTTP ${response.status} (content-type=${contentType}, url=${responseUrl}).`);
+      return null;
+    }
+
+    const payload = await response.json();
+    const ratingCountRaw = payload?.total ?? payload?.ratingCount ?? payload?.reviewCount;
+    const ratingValueRaw = payload?.avg ?? payload?.ratingValue;
+    const ratingCount = Number.parseInt(ratingCountRaw, 10);
+    const ratingValue = Number.parseFloat(ratingValueRaw);
+
+    if (!Number.isFinite(ratingCount) || !Number.isFinite(ratingValue)) {
+      console.log(`[ratings] Omit rating for ${pageName}: invalid numeric payload ${JSON.stringify(payload).slice(0, 200)} (content-type=${contentType}, url=${responseUrl}).`);
+      return null;
+    }
+
+    if (ratingCount < 1 || ratingValue < 1 || ratingValue > 5) {
+      console.log(`[ratings] Omit rating for ${pageName}: out-of-range avg=${ratingValue}, total=${ratingCount}.`);
+      return null;
+    }
+
+    const normalizedRatingValue = Number.parseFloat(ratingValue.toFixed(1));
+    console.log(`[ratings] Using rating for ${pageName}: avg=${normalizedRatingValue}, total=${ratingCount}.`);
+    return { ratingValue: normalizedRatingValue, ratingCount };
+  } catch (error) {
+    console.log(`[ratings] Omit rating for ${pageName}: ${error instanceof Error ? error.message : 'unknown error'}.`);
+    return null;
+  } finally {
+    clearTimeout(timeoutId);
+  }
+}
+
+function normalizeOrigin(value) {
+  const raw = String(value ?? '').trim();
+  if (!raw) {
+    return '';
+  }
+  try {
+    return new URL(raw).origin;
+  } catch {
+    return raw.replace(/\/+$/, '');
+  }
+}
+
+function resolveRatingOrigin(siteOriginValue) {
+  const override = String(process.env.RATING_ORIGIN ?? '').trim();
+  if (override) {
+    return normalizeOrigin(override);
+  }
+
+  const origin = normalizeOrigin(siteOriginValue);
+  if (/github\.io$/i.test(origin)) {
+    return 'https://dangkhoaow.github.io';
+  }
+  return 'https://freetoolonline.com';
 }
 
 async function writeOutput(outputPath, contents) {
