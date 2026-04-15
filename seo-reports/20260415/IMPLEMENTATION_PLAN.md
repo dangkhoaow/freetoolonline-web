@@ -43,6 +43,8 @@ Focus on **trust cleanup and structural fixes** that require minimal code change
 
 ### CRITICAL -- Do Immediately (Protect Rankings)
 
+**Execution order:** implement and validate in `freetoolonline-web-test` first, then port identical changes to `freetoolonline-web`.
+
 #### 2.1 Remove Fabricated AggregateRating Schema
 
 | Attribute | Detail |
@@ -50,9 +52,9 @@ Focus on **trust cleanup and structural fixes** that require minimal code change
 | **Report consensus** | 7/7 reports flag as P0/CRITICAL |
 | **Issue** | Every tool page hardcodes `ratingValue: 5`, `ratingCount: 1` in JSON-LD -- a textbook schema manipulation pattern |
 | **Root cause** | `scripts/page-renderer.mjs` line ~148 statically injects the aggregateRating block |
-| **Recommended fix** | Delete the entire `aggregateRating` object from the JSON-LD template. Only reinstate if connected to real user rating data from the star-rating widget |
+| **Recommended fix** | Replace the hardcoded values with **API-backed per-page ratings** during the static export (via `API_ORIGIN/ajax/get-rating?pageName=...`). If the API fails or returns invalid data, **omit `aggregateRating` entirely** for that page |
 | **Expected SEO impact** | HIGH -- Eliminates the #1 spam risk signal. The March 2026 Spam Update explicitly targets this pattern. Prevents potential manual action or algorithmic demotion |
-| **Implementation difficulty** | LOW (5 minutes -- single line removal) |
+| **Implementation difficulty** | MEDIUM (2-4 hours -- build-time fetch + JSON-LD update) |
 | **Risk level** | LOW -- Removing fake data cannot hurt rankings; keeping it is the actual risk |
 
 ---
