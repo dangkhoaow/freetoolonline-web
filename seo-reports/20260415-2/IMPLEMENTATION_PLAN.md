@@ -74,9 +74,19 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 
 ## 2. Priority Action List
 
-### CRITICAL -- Do Immediately (Template & Config Fixes)
+### CRITICAL -- Do Immediately (Protect Rankings)
 
-**Execution order:** implement and validate in `freetoolonline-web-test` first, then port identical changes to `freetoolonline-web`.
+> **Two-Repo Execution & Rollout Gate**
+>
+> **Step 1 — Work in `./freetoolonline-web-test`**
+> - Apply the change under `freetoolonline-web-test/`
+> - Run `npm run export` and validate output artifacts (HTML + sitemaps + JSON-LD)
+> - Run a lightweight crawl/verification pass focused on the changed SEO surface
+>
+> **Step 2 — Roll out to `./freetoolonline-web`**
+> - Port the identical patch (no extra refactors)
+> - Re-run the same validations (`npm run export` + spot-check affected pages in `dist/`)
+> - Deploy + monitor (GSC coverage, structured data, crawl stats)
 
 #### 2.1 Fix Duplicate H1 Tags ⏳
 
@@ -122,6 +132,18 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 
 ### HIGH PRIORITY -- Do This Week
 
+> **Two-Repo Execution & Rollout Gate**
+>
+> **Step 1 — Work in `./freetoolonline-web-test`**
+> - Apply the change under `freetoolonline-web-test/`
+> - Run `npm run export` and validate output artifacts (HTML + sitemaps + JSON-LD)
+> - Run a lightweight crawl/verification pass focused on the changed SEO surface
+>
+> **Step 2 — Roll out to `./freetoolonline-web`**
+> - Port the identical patch (no extra refactors)
+> - Re-run the same validations (`npm run export` + spot-check affected pages in `dist/`)
+> - Deploy + monitor (GSC coverage, structured data, crawl stats)
+
 #### 2.4 Pre-Render Related Tools Links (Server-Side) ⏳
 
 | Attribute | Detail |
@@ -129,10 +151,28 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 | **Report consensus** | 20/20+ reports flag as top priority |
 | **Issue** | The "Related Tools" section is rendered entirely via client-side JavaScript (`related-tools.js`, 261 lines). Approximately 8-15 internal links per page (~500-900 total) are invisible to static HTML crawlers. Composer analysis confirms ~30% link deficit: 20-30 static links vs 35-45 total with JS |
 | **Root cause** | `related-tools.js` runs tag-matching logic in the browser and injects links via `$.html()`. Static HTML crawl sees only nav + footer links |
-| **Recommended fix** | Port the tag-matching logic into the Node.js build pipeline (`export-site.mjs` or `page-renderer.mjs`). Pre-render the related tools `<ul>` as static HTML using existing `urlMaps` data. Keep JS version as progressive enhancement only. Alternative: add `<noscript>` fallback block (GPT-5.2 suggestion) |
+| **Recommended fix** | During the GitHub Pages build (in `scripts/export-site.mjs` / `scripts/page-renderer.mjs`), generate SSR HTML for the Related Tools section using the same `urlMaps` data and selection logic as `related-tools.js`. Inject the generated `<ul>` directly into `<div class="relatedTools">` and inject the `Tags:` paragraph immediately after it, so the server-rendered DOM matches the post-JS DOM exactly (same markup, same inline styles, same CSS classes). Keep the existing client-side loader as **progressive enhancement only**, guarded so it does not overwrite SSR output when `.relatedTools` is already populated |
 | **Expected SEO impact** | **HIGH** -- Single largest internal linking improvement available. Makes ~500-900 cross-links visible to crawlers, significantly improving PageRank distribution across all tool pages |
 | **Implementation difficulty** | **MEDIUM** (4-8 hours) |
-| **Risk level** | **LOW** -- No layout or UI changes; same links, just rendered server-side |
+| **Risk level** | **LOW** -- No layout, UI, or CSS changes; same links and markup, rendered server-side instead of client-side |
+
+**Technical Notes — item 2.4**
+
+- **Requirement:** The GitHub Pages build must generate *the exact same* Related Tools list as `related-tools.js` — same selection rules, same ordering, same `<ul>` markup, same inline styles (e.g., `margin-top: 0px; display: block; padding-inline-start: 40px; list-style-type: disc;`), same `<li class="d-inline">` structure, same green tag links — while preserving current UI/CSS and client behavior.
+
+- **Implementation approach (in `scripts/page-renderer.mjs` or `scripts/export-site.mjs`):**
+  1. Import `urlMaps` from the same source used by `related-tools.js` (or parse it from `source/web/.../static/script/related-tools.js` at build time).
+  2. Replicate the two-pass selection logic: (a) tag-overlap matching (green links), then (b) title-word matching requiring 2+ overlapping words (blue links).
+  3. Build the identical `<ul style="margin-top: 0px;display: block;padding-inline-start: 40px;list-style-type: disc;">...<li class="d-inline">...</li>...</ul>` string and the `<p>Tags: ...</p>` block using the same inline styles.
+  4. Inject the `<ul>` as the initial inner HTML of `<div class="relatedTools">` and append the `Tags:` paragraph immediately after the div.
+  5. Guard the client loader: before executing `$.html(list)`, check if `.relatedTools` already contains children (i.e., SSR populated it) and skip injection if so, to prevent duplicates and preserve current styling.
+
+- **Non-goals:** No UI changes, no CSS changes, no mock/fallback data.
+
+- **Validation gate:**
+  - Pick 5–10 representative tool pages across clusters (e.g., `/zip-file.html`, `/heic-to-jpg.html`, `/json-formatter.html`, `/compress-image.html`, `/pdf-to-word.html`).
+  - For each page, compare: (a) SSR-generated Related Tools HTML in `dist/` vs (b) the current `related-tools.js` client output (run via headless browser).
+  - Require an exact match: same link count, same `href` values, same order, same `Tags:` block content.
 
 ---
 
@@ -251,6 +291,8 @@ These items are the fastest, safest changes with the highest immediate ROI:
 **Estimated total for all quick wins: ~4-6 hours**
 **Expected outcome: Clean heading hierarchy sitewide, proper meta tags, improved sitemap signals, breadcrumb rich snippets enabled**
 
+> **Staging-first gate:** Every item in this table follows the same two-repo rollout — implement in `freetoolonline-web-test` → validate (`npm run export` + spot-check) → port identical change to `freetoolonline-web` → validate + deploy. Quick Wins do not bypass the `web-test` safety step.
+
 ---
 
 ## 4. Optional Next Steps
@@ -286,7 +328,9 @@ These are lower-priority improvements to consider after completing the items abo
 
 ## 5. Files Reference
 
-| File | Path | Role |
+> **Dual-repo convention:** All relative paths below apply **first** to `freetoolonline-web-test/<path>` (staging) and **then**, after staging validation passes, to `freetoolonline-web/<path>` (production). Never edit `freetoolonline-web/` directly without a green staging run.
+
+| File | Path (relative to package root) | Role |
 |------|------|------|
 | `page-renderer.mjs` | `scripts/page-renderer.mjs` | Meta tags, JSON-LD, H1, page layout -- **most changes here** |
 | `seo-clusters.mjs` | `scripts/seo-clusters.mjs` | Content cluster definitions, hub backlinks, breadcrumb data |

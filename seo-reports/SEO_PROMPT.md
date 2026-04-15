@@ -179,12 +179,13 @@ Response:
 
 At the freetoolonline-web\seo-reports\20260415-2\IMPLEMENTATION_PLAN.md
 
-Pls make the implemetation plan to do at ./freetoolonline-web-test first, then roll out needed changes into ./freetoolonline-web 
-
 For 
 - CRITICAL -- Do Immediately (Protect Rankings)
 - HIGH PRIORITY -- Do This Week
 - Quick Wins (High Impact - Low Effort)
+
+Pls make the implemetation plan to implement all items for 3 groups above at ./freetoolonline-web-test first, then roll out needed changes into ./freetoolonline-web 
+
 
 Technical Noted:
 - For 'Pre-render related tools links (SSR)' - use github build to generated related tools for extractly what related-tools.js did. Keep the css style, UI, UI logic rule as current (refer the current project setup, and follow)
