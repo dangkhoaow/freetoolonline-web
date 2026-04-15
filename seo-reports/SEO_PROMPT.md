@@ -1,3 +1,4 @@
+
 First, perform a **high-level evaluation of the website [https://freetoolonline.com](https://freetoolonline.com)**, covering:
 
 * UX/UI
@@ -30,7 +31,7 @@ Next, conduct a **deep SEO audit**, including:
 
 ### **Analysis Context (Must Be Incorporated)**
 
-Incorporate insights from (refer attached files/images):
+Incorporate insights from (refer attached files/images at ./freetoolonline-web/seo-reports/20260415-2/raw/ dir):
 
 * GA4
 * Google AdSense
@@ -57,7 +58,7 @@ Also consider the impact of the following **recent Google Core Updates**:
 Generate a file named:
 
 ```
-SEO_ANALYSIS_[LLM_MODEL_NAME_USAGE].md
+./freetoolonline-web/seo-reports/20260415-2/analyts/SEO_ANALYSIS_[LLM_MODEL_NAME_USAGE]_[CURRENT_DATE_IN_YYYYMMDDHHMMSS_7GMT24HFORMAT].md
 ```
 
 The file should include:
@@ -79,22 +80,23 @@ The file should include:
      * Require **minimal structural changes**
      * Deliver **maximum SEO improvement**
 
-================================================================================================================
+============================================================================================
 
-First, read and analyze **all report files** located in:
+First, read and analyze **all report files** and prev plan located in:
 
 ```
-freetoolonline-web\seo-reports\20260415\analyts
+freetoolonline-web\seo-reports\20260415-2\analyts
+freetoolonline-web/seo-reports/20260415/IMPLEMENTATION_PLAN.md
 ```
 
 ---
 
 ### **Task**
 
-Based on these analysis files, create an **implementation plan** at:
+Based on these analysis files, create an **implementation plan** at with style follow previous plan files:
 
 ```
-freetoolonline-web\seo-reports\20260415\IMPLEMENTATION_PLAN_[LLM_MODEL_NAME_USAGE].md
+freetoolonline-web\seo-reports\20260415-2\IMPLEMENTATION_PLAN.md
 ```
 
 ---
@@ -142,9 +144,9 @@ The implementation plan should include:
    * Additional improvements that can be considered later
 
 
-================================================================================================================
+============================================================================================
 
-at the freetoolonline-web\seo-reports\20260415\IMPLEMENTATION_PLAN.md (i just renamed)
+at the freetoolonline-web\seo-reports\20260415-2\IMPLEMENTATION_PLAN.md (i just renamed)
 
 pls make the implemetation plan to do at ./freetoolonline-web-test first, for 'CRITICAL -- Do Immediately (Protect Rankings)' items
 
@@ -171,3 +173,35 @@ curl ^"https://service.us-east-1a.freetool.online/ajax/get-rating?pageName=heic-
 
 Response:
   {"one":74,"two":32,"three":75,"four":130,"five":2232,"total":2543,"avg":4.7}
+
+
+=======
+
+At the freetoolonline-web\seo-reports\20260415-2\IMPLEMENTATION_PLAN.md
+
+For 
+- CRITICAL -- Do Immediately (Protect Rankings)
+- HIGH PRIORITY -- Do This Week
+- Quick Wins (High Impact - Low Effort)
+
+Pls make the implemetation plan to implement all items for 3 groups above at ./freetoolonline-web-test first, then roll out needed changes into ./freetoolonline-web 
+
+
+Technical Noted:
+- For 'Pre-render related tools links (SSR)' - use github build to generated related tools for extractly what related-tools.js did. Keep the css style, UI, UI logic rule as current (refer the current project setup, and follow)
+
+======
+
+I have deployed to staging site, the latest change on at https://dangkhoaow.github.io/freetoolonline-web-test/zip-file.html  and view-source:https://dangkhoaow.github.io/freetoolonline-web-test/zip-file.html and more other all rest routes/pages
+
+Pls run check and audit if they are were implemented follow the plan?
+
+======
+
+I have deployed to prod site, the latest change on at https://freetoolonline.com/zip-file.html  and view-source:https://freetoolonline.com/zip-file.html and more other all rest routes/pages
+
+Pls run check and audit if they are were implemented follow the plan?
+
+======
+
+Finally, pls update the plan for current context and implemetation status
