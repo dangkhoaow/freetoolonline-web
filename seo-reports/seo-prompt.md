@@ -31,7 +31,7 @@ Next, conduct a **deep SEO audit**, including:
 
 ### **Analysis Context (Must Be Incorporated)**
 
-Incorporate insights from (refer attached files/images/csv at ./freetoolonline-web/seo-reports/20260415-4/raw/ dir):
+Incorporate insights from (refer attached files/images/csv and at ./freetoolonline-web/seo-reports/20260416/raw/ dir):
 
 * GA4
 * Google AdSense
@@ -58,7 +58,7 @@ Also consider the impact of the following **recent Google Core Updates**:
 Generate a file named:
 
 ```
-./freetoolonline-web/seo-reports/20260415-4/analyts/SEO_ANALYSIS_[LLM_MODEL_NAME_USAGE]_[CURRENT_DATE_TIME_IN_MILLSECOND].md
+./freetoolonline-web/seo-reports/20260416/analyts/SEO_ANALYSIS_[LLM_MODEL_NAME_USAGE]_[CURRENT_DATE_TIME_IN_MILLSECOND].md
 ```
 
 The file should include:
@@ -79,16 +79,15 @@ The file should include:
 
      * Require **minimal structural changes**
      * Deliver **maximum SEO improvement**
+  
 
-============================================================================================
+===========================================================================
 
 First, read and analyze **all report files** and prev plan located in:
 
 ```
-freetoolonline-web\seo-reports\20260415-4\analyts
-freetoolonline-web/seo-reports/20260415/IMPLEMENTATION_PLAN.md
-freetoolonline-web/seo-reports/20260415-2/IMPLEMENTATION_PLAN.md
-freetoolonline-web/seo-reports/20260415-3/IMPLEMENTATION_PLAN.md
+freetoolonline-web/seo-reports/*/analyts
+freetoolonline-web/seo-reports/*/IMPLEMENTATION_PLAN.md
 ```
 
 ---
@@ -98,7 +97,7 @@ freetoolonline-web/seo-reports/20260415-3/IMPLEMENTATION_PLAN.md
 Based on these analysis files, create an **implementation plan** at with style follow previous plan files:
 
 ```
-freetoolonline-web\seo-reports\20260415-4\IMPLEMENTATION_PLAN.md
+freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md
 ```
 
 ---
@@ -149,7 +148,7 @@ The implementation plan should include:
 ============================================================================================
 
 
-At the freetoolonline-web\seo-reports\20260415-4\IMPLEMENTATION_PLAN.md
+At the freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md
 
 For 
 - CRITICAL -- Do Immediately (Protect Rankings)
@@ -164,7 +163,7 @@ Technical Noted:
 
 ======
 
-At the freetoolonline-web\seo-reports\20260415-4\IMPLEMENTATION_PLAN.md
+At the freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md
 
 For 
 - CRITICAL -- Do Immediately (Protect Rankings)
@@ -188,4 +187,4 @@ Pls run check and audit if they are were implemented follow the plan?
 
 ======
 
-Finally, pls update the plan ./freetoolonline-web/seo-reports/20260415-4/IMPLEMENTATION_PLAN.md for current context and implemetation status
+Finally, pls update the plan ./freetoolonline-web/seo-reports/20260416/IMPLEMENTATION_PLAN.md for current context and implemetation status
