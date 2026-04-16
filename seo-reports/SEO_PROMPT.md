@@ -31,7 +31,7 @@ Next, conduct a **deep SEO audit**, including:
 
 ### **Analysis Context (Must Be Incorporated)**
 
-Incorporate insights from (refer attached files/images at ./freetoolonline-web/seo-reports/20260415-2/raw/ dir):
+Incorporate insights from (refer attached files/images at ./freetoolonline-web/seo-reports/20260415-3/raw/ dir):
 
 * GA4
 * Google AdSense
@@ -58,7 +58,7 @@ Also consider the impact of the following **recent Google Core Updates**:
 Generate a file named:
 
 ```
-./freetoolonline-web/seo-reports/20260415-2/analyts/SEO_ANALYSIS_[LLM_MODEL_NAME_USAGE]_[CURRENT_DATE_IN_YYYYMMDDHHMMSS_7GMT24HFORMAT].md
+./freetoolonline-web/seo-reports/20260415-3/analyts/SEO_ANALYSIS_[LLM_MODEL_NAME_USAGE]_[CURRENT_DATE_IN_YYYYMMDDHHMMSS_7GMT24HFORMAT].md
 ```
 
 The file should include:
@@ -85,8 +85,9 @@ The file should include:
 First, read and analyze **all report files** and prev plan located in:
 
 ```
-freetoolonline-web\seo-reports\20260415-2\analyts
+freetoolonline-web\seo-reports\20260415-3\analyts
 freetoolonline-web/seo-reports/20260415/IMPLEMENTATION_PLAN.md
+freetoolonline-web/seo-reports/20260415-2/IMPLEMENTATION_PLAN.md
 ```
 
 ---
@@ -96,7 +97,7 @@ freetoolonline-web/seo-reports/20260415/IMPLEMENTATION_PLAN.md
 Based on these analysis files, create an **implementation plan** at with style follow previous plan files:
 
 ```
-freetoolonline-web\seo-reports\20260415-2\IMPLEMENTATION_PLAN.md
+freetoolonline-web\seo-reports\20260415-3\IMPLEMENTATION_PLAN.md
 ```
 
 ---
@@ -146,38 +147,8 @@ The implementation plan should include:
 
 ============================================================================================
 
-at the freetoolonline-web\seo-reports\20260415-2\IMPLEMENTATION_PLAN.md (i just renamed)
 
-pls make the implemetation plan to do at ./freetoolonline-web-test first, for 'CRITICAL -- Do Immediately (Protect Rankings)' items
-
-at 'Remove Fabricated AggregateRating Schema', is there any a way when running the github pages building. Fetch by the api get rating (based what pages we had), then parse the response and push it to json ld by the curl and response below:
-
-Request:
-curl ^"https://service.us-east-1a.freetool.online/ajax/get-rating?pageName=heic-to-jpg^" ^
-  -H ^"Accept: application/json, text/javascript, */*; q=0.01^" ^
-  -H ^"Accept-Language: en-US,en;q=0.9,vi;q=0.8^" ^
-  -H ^"Cache-Control: no-cache^" ^
-  -H ^"Connection: keep-alive^" ^
-  -H ^"Content-Type: application/json; charset=UTF-8^" ^
-  -H ^"Origin: https://freetoolonline.com^" ^
-  -H ^"Pragma: no-cache^" ^
-  -H ^"Referer: https://freetoolonline.com/^" ^
-  -H ^"Sec-Fetch-Dest: empty^" ^
-  -H ^"Sec-Fetch-Mode: cors^" ^
-  -H ^"Sec-Fetch-Site: cross-site^" ^
-  -H ^"User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36^" ^
-  -H ^"sec-ch-ua: ^\^"Not)A;Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"138^\^", ^\^"Google Chrome^\^";v=^\^"138^\^"^" ^
-  -H ^"sec-ch-ua-mobile: ?0^" ^
-  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
-  --data-raw ^"^{^}^"
-
-Response:
-  {"one":74,"two":32,"three":75,"four":130,"five":2232,"total":2543,"avg":4.7}
-
-
-=======
-
-At the freetoolonline-web\seo-reports\20260415-2\IMPLEMENTATION_PLAN.md
+At the freetoolonline-web\seo-reports\20260415-3\IMPLEMENTATION_PLAN.md
 
 For 
 - CRITICAL -- Do Immediately (Protect Rankings)
@@ -189,6 +160,18 @@ Pls make the implemetation plan to implement all items for 3 groups above at ./f
 
 Technical Noted:
 - For 'Pre-render related tools links (SSR)' - use github build to generated related tools for extractly what related-tools.js did. Keep the css style, UI, UI logic rule as current (refer the current project setup, and follow)
+
+======
+
+At the freetoolonline-web\seo-reports\20260415-3\IMPLEMENTATION_PLAN.md
+
+For 
+- CRITICAL -- Do Immediately (Protect Rankings)
+- HIGH PRIORITY -- Do This Week
+- Quick Wins (High Impact - Low Effort)
+
+Pls make the implemetation plan to implement all items for 3 groups above at ./freetoolonline-web-test first, then roll out needed changes into ./freetoolonline-web 
+
 
 ======
 
@@ -204,4 +187,4 @@ Pls run check and audit if they are were implemented follow the plan?
 
 ======
 
-Finally, pls update the plan for current context and implemetation status
+Finally, pls update the plan ./freetoolonline-web/seo-reports/20260415-3/IMPLEMENTATION_PLAN.md for current context and implemetation status
