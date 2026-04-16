@@ -127,9 +127,21 @@ html.page-root footer.page-footer .footer-inner * {
     color: #fff !important;
 }
 
-#content.w3-content,.page-main-content {
-    overflow-x: hidden;
-    overflow-y: visible
+html.page-root header.navBarContainer.w3-top .new-style-nav-bar:not(.w3-white),
+html.page-root header.navBarContainer.w3-top .new-style-nav-bar:not(.w3-white) * {
+    color: #fff !important;
+}
+
+html.page-root header.navBarContainer.w3-top .donateBtn,
+html.page-root header.navBarContainer.w3-top .settingsBtn,
+html.page-root header.navBarContainer.w3-top #buyMeACoffeeBtnID {
+    border-color: #fff !important;
+    color: #fff !important;
+}
+
+#content.w3-content,
+.page-main-content {
+    overflow: visible !important;
 }
 
 .bgimg-1 {
