@@ -1019,7 +1019,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: #7558e9;
     z-index: 2
 }
 
@@ -2223,6 +2223,19 @@ footer.page-footer .footer-inner *{
 
 footer.page-footer .footer-inner {
     max-width: 1240px!important;
+}
+
+/* Large desktop: align footer with the main content container on key static pages. */
+@media (min-width: 1000px) {
+    html.page-contact-usroot footer.page-footer .footer-inner,
+    html.page-privacy-policyroot footer.page-footer .footer-inner,
+    html.page-about-usroot footer.page-footer .footer-inner {
+        max-width: 1240px !important;
+        width: calc(100% - 20px) !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        box-sizing: border-box;
+    }
 }
 
 @media (max-width: 599px){
