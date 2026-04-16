@@ -31,7 +31,7 @@ Next, conduct a **deep SEO audit**, including:
 
 ### **Analysis Context (Must Be Incorporated)**
 
-Incorporate insights from (refer attached files/images at ./freetoolonline-web/seo-reports/20260415-3/raw/ dir):
+Incorporate insights from (refer attached files/images/csv at ./freetoolonline-web/seo-reports/20260415-3/raw/ dir):
 
 * GA4
 * Google AdSense
@@ -58,7 +58,7 @@ Also consider the impact of the following **recent Google Core Updates**:
 Generate a file named:
 
 ```
-./freetoolonline-web/seo-reports/20260415-3/analyts/SEO_ANALYSIS_[LLM_MODEL_NAME_USAGE]_[CURRENT_DATE_IN_YYYYMMDDHHMMSS_7GMT24HFORMAT].md
+./freetoolonline-web/seo-reports/20260415-3/analyts/SEO_ANALYSIS_[LLM_MODEL_NAME_USAGE]_[CURRENT_DATE_TIME_IN_MILLSECOND].md
 ```
 
 The file should include:
