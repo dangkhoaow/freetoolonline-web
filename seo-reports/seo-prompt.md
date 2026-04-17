@@ -183,6 +183,7 @@ Pls run check and audit if they are were implemented follow the plan?
 
 ======
 
+
 # **Continuous QA + Fix Loop (Plan-Driven, Staging-First, Git-Safe)**
 
 ## **Core Principles**
@@ -244,7 +245,7 @@ Repeat the following steps **in every cycle** until fully aligned:
 ### **Step 2 — Full Rendered Audit (Mandatory)**
 
 * Do NOT rely on static HTML
-* Use a **browser engine (e.g., Playwright)**
+* Use a **browser engine (e.g., Playwright)** with FULL PAGE HEIGHT
 
 #### Required:
 
@@ -259,7 +260,7 @@ Repeat the following steps **in every cycle** until fully aligned:
 
 #### Breakpoints:
 
-* 320 / 390 / 768 / 1024 / 1440
+* 390 / 1440 / 1920
 
 #### Screenshot output:
 
@@ -394,4 +395,4 @@ Provide:
 
   * Rendering audit completed
   * Visual QA passed or failed
-  * PROGRESS updated
+  * PROGRESS updated   
