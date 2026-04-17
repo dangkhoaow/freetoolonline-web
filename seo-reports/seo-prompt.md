@@ -145,7 +145,7 @@ The implementation plan should include:
    * Additional improvements that can be considered later
 
 
-============================================================================================
+======
 
 
 At the freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md under 
@@ -181,21 +181,7 @@ Pls run check and audit if they are were implemented follow the plan?
 
 ======
 
-Finally, pls update the plan ./freetoolonline-web/seo-reports/20260416/IMPLEMENTATION_PLAN.md for current context and implemetation status
-
-======
-
 # **Continuous QA + Fix Loop (Plan-Driven, Staging-First, Git-Safe)**
-
-Please execute a **continuous validation and improvement loop** based on the **single source of truth**:
-
-* Plan file (WHAT must be done):
-  `./freetoolonline-web-test/plan/HOME_PAGE_REVAMP_PLAN.md`
-
-* Progress file (WHAT has been done):
-  `./freetoolonline-web-test/plan/HOME_PAGE_REVAMP_PROGRESS.md`
-
----
 
 ## **Core Principles**
 
@@ -216,7 +202,7 @@ Please execute a **continuous validation and improvement loop** based on the **s
   `./freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md`
 
 * Progress file (WHAT has been done):
-  `./freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md`
+  `./freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PROGRESS.md`
 
 ---
 
@@ -276,7 +262,7 @@ Repeat the following steps **in every cycle** until fully aligned:
 #### Screenshot output:
 
 ```
-./freetoolonline-web-test/test/homepage/screenshoot/[TIMESTAMP]/
+./freetoolonline-web-test/test/20260416/screenshoot/[TIMESTAMP]/
 ```
 
 #### Coverage:
@@ -360,7 +346,7 @@ At the **end of EACH loop iteration**:
 
 ### 1. Update PROGRESS file
 
-`./freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md`
+`./freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PROGRESS.md`
 
 * Correct status (Not Started / In Progress / Done / Blocked)
 * Add:
