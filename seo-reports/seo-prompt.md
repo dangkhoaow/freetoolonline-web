@@ -180,3 +180,228 @@ Pls run check and audit if they are were implemented follow the plan?
 ======
 
 Finally, pls update the plan ./freetoolonline-web/seo-reports/20260416/IMPLEMENTATION_PLAN.md for current context and implemetation status
+
+======
+
+# **Continuous QA + Fix Loop (Plan-Driven, Staging-First, Git-Safe)**
+
+Please execute a **continuous validation and improvement loop** based on the **single source of truth**:
+
+* Plan file (WHAT must be done):
+  `./freetoolonline-web-test/plan/HOME_PAGE_REVAMP_PLAN.md`
+
+* Progress file (WHAT has been done):
+  `./freetoolonline-web-test/plan/HOME_PAGE_REVAMP_PROGRESS.md`
+
+---
+
+## **Core Principles**
+
+* PLAN = source of truth for scope
+* PROGRESS = source of truth for execution status
+* ACTUAL (staging site) = source of truth for reality
+
+👉 The goal is to continuously converge:
+**PLAN = PROGRESS = ACTUAL**
+
+---
+
+# **Continuous QA + Fix Loop (Plan-Driven, Staging-First, Git-Safe)**
+
+Please execute a **continuous validation and improvement loop** based on the **single source of truth**:
+
+* Plan file (WHAT must be done):
+  `./freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md`
+
+* Progress file (WHAT has been done):
+  `./freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md`
+
+---
+
+## **Core Principles**
+
+* PLAN = source of truth for scope
+* PROGRESS = source of truth for execution status
+* ACTUAL (staging site) = source of truth for reality
+
+👉 The goal is to continuously converge:
+**PLAN = PROGRESS = ACTUAL**
+
+---
+
+## **Continuous Execution Loop**
+
+Repeat the following steps **in every cycle** until fully aligned:
+
+---
+
+### **Step 1 — Cross-check (Plan vs Progress vs Reality)**
+
+* Compare:
+
+  * PLAN (expected)
+  * PROGRESS (reported)
+  * ACTUAL staging site (rendered result)
+
+* Identify gaps:
+
+  * Marked “Done” but not actually implemented
+  * Implemented but not tracked
+  * Missing / partial items
+
+---
+
+### **Step 2 — Full Rendered Audit (Mandatory)**
+
+* Do NOT rely on static HTML
+* Use a **browser engine (e.g., Playwright)**
+
+#### Required:
+
+* Test both **desktop + mobile**
+* Perform **visual QA (UI/UX)**, not just functional checks
+* Validate:
+
+  * Layout, spacing, alignment
+  * Typography, contrast
+  * Component behavior
+  * Responsiveness across breakpoints
+
+#### Breakpoints:
+
+* 320 / 390 / 768 / 1024 / 1440
+
+#### Screenshot output:
+
+```
+./freetoolonline-web-test/test/homepage/screenshoot/[TIMESTAMP]/
+```
+
+#### Coverage:
+
+* Crawl all pages/routes
+* Use fallback methods (`fetch`, `curl`, `wget`) to avoid missing content
+
+---
+
+### **Step 3 — Strict Visual QA Rules**
+
+Treat these as **REAL FAILURES**:
+
+* Low contrast / unreadable text
+* Overlapping or clipped UI
+* Layout shift / CLS issues
+* Broken mobile layout
+* Horizontal scroll
+* Sticky elements blocking content
+* Misalignment between sections
+* Any inconsistency vs other pages
+* Any mismatch vs reference screenshots
+
+---
+
+### **Step 4 — Layout Alignment Audit (Programmatic)**
+
+For each breakpoint:
+
+* Render via browser
+* Compute layout using `getBoundingClientRect()`
+
+Validate:
+
+* Left/right alignment consistency across:
+
+  * Main container
+  * Hero
+  * Key sections/cards
+  * Footer
+
+Rules:
+
+* Alignment delta must be ≤ 1px
+* Any deviation → FAIL
+
+Log results into PROGRESS:
+
+* `{viewport, positions, deltas}`
+* Include diagnostic screenshots (with guide lines)
+
+---
+
+### **Step 5 — Fix & Re-verify (Staging Only)**
+
+If ANY issue is found:
+
+1. Identify **root cause in code**
+2. Apply **real fix (no workaround)**
+3. Commit → push to **staging repo only** (trigger build & deploy)
+4. Re-run full audit (Step 2 → Step 4)
+5. Repeat until all issues are resolved
+
+---
+
+## **Git Flow Rules (STRICT)**
+
+* ❌ DO NOT push directly to `main` (production)
+* ✅ All changes must go through **staging branch/repo**
+
+After staging is verified and stable:
+
+* Only **mirror necessary file changes** from staging → production
+* No direct development on production
+
+---
+
+## **End-of-Cycle Mandatory Updates**
+
+At the **end of EACH loop iteration**:
+
+### 1. Update PROGRESS file
+
+`./freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md`
+
+* Correct status (Not Started / In Progress / Done / Blocked)
+* Add:
+
+  * Issues found
+  * Root causes
+  * Fixes applied
+  * Test evidence (screenshots, logs)
+
+---
+
+### 2. Sync back to PLAN (if needed)
+
+Update PLAN file ONLY if:
+
+* Scope clarification is required, or
+* A previously undefined but necessary fix is identified
+
+File:
+`./freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md`
+
+---
+
+## **Exit Condition (STOP LOOP ONLY WHEN)**
+
+* 100% PLAN items implemented
+* PROGRESS fully accurate and up-to-date
+* All visual + layout + responsive tests pass
+* No regression across breakpoints
+* Staging matches expected 2026 UX/UI quality
+
+---
+
+## **Final Output (Per Cycle)**
+
+Provide:
+
+* Completion % vs PLAN
+* List of gaps found
+* List of fixes applied in this cycle
+* Remaining issues (if any)
+* Confirmation of:
+
+  * Rendering audit completed
+  * Visual QA passed or failed
+  * PROGRESS updated

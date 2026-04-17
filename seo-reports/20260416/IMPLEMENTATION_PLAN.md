@@ -166,7 +166,7 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 | **Status (codebase)** | ⏳ Implemented in `web-test` CMS (`BODYHTML*tools.html`) but not yet ported to `web` |
 | **Report consensus** | 12/12 reports flag as highest-priority content gap |
 | **Issue** | All 8 hub pages average 100-200 words of body content -- navigation scaffolding only. Zero clicks and zero impressions in GSC. Vulnerable to Helpful Content Update. These pages fail to serve as cluster authority anchors |
-| **Target hubs** | `/zip-tools.html`, `/pdf-tools.html`, `/image-tools.html`, `/image-converter-tools.html`, `/developer-tools.html`, `/video-tools.html`, `/device-test-tools.html`, `/utility-tools.html` |
+| **Target hubs (non-ZIP priority)** | `/image-tools.html`, `/image-converter-tools.html`, `/device-test-tools.html`, `/developer-tools.html`, `/utility-tools.html`, `/pdf-tools.html`, `/video-tools.html` (**defer** `/zip-tools.html`) |
 | **Recommended fix** | Expand each hub's `BODYHTML<hubslug>.html` with 400-600 words of unique editorial content: cluster overview, use cases, tool comparison guidance, expert tips, file format advice. Append-only -- do not rewrite existing content. **Priority order (exclude ZIP cluster per technical note):** Image Tools → Image Converter Tools → Device Test Tools → Developer Tools → Utility Tools → PDF Tools → Video Tools. Defer ZIP Tools |
 | **Expected SEO impact** | **HIGH** -- Transforms 8 hubs from navigation scaffolding into ranking cluster authority pages. Strengthens E-E-A-T signals for entire clusters |
 | **Implementation difficulty** | **MEDIUM-HIGH** (3-5 hours per hub -- content research + writing + CMS updates) |
@@ -205,6 +205,11 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 ---
 
 ### MEDIUM PRIORITY -- Do This Month
+
+**Inputs required (now tracked):**
+- ✅ GSC Coverage drilldown: **Crawled — currently not indexed** (18 URLs, export 2026-04-17)
+- ✅ GSC Crawl Stats (4XX response detail, export 2026-04-17)
+- ✅ EN↔VI pairing: **none** (treat Vietnamese routes as VI-only; use `x-default` to EN homepage)
 
 #### 2.6 Implement Hreflang for Vietnamese Pages ⏳
 
@@ -317,6 +322,10 @@ These items are the fastest, safest changes with the highest immediate ROI:
 
 > **Staging-first gate:** Every item follows the same two-repo rollout -- implement in `freetoolonline-web-test` -> validate (`npm run export` + spot-check) -> port identical change to `freetoolonline-web` -> validate + deploy.
 
+**Current staging-only diffs to port (non-ZIP priority):**
+- **Meta descriptions (`BODYDESC*`)**: `BODYDESCcameratest.txt`, `BODYDESCheictojpg.txt`, `BODYDESClcdtest.txt`, `BODYDESCmd5converter.txt`, `BODYDESCcomposepdf.txt`, `BODYDESCimagestopdf.txt`, `BODYDESCdevicetesttools.txt`, `BODYDESCimagetools.txt`, `BODYDESCimageconvertertools.txt`, `BODYDESCdevelopertools.txt`, `BODYDESCutilitytools.txt`, `BODYDESCpdftools.txt`, `BODYDESCvideotools.txt`
+- **Hub content (`BODYHTML*tools.html`)**: `BODYHTMLdevicetesttools.html`, `BODYHTMLimagetools.html`, `BODYHTMLimageconvertertools.html`, `BODYHTMLdevelopertools.html`, `BODYHTMLutilitytools.html`, `BODYHTMLpdftools.html`, `BODYHTMLvideotools.html` (**defer** `BODYHTMLziptools.html`)
+
 ---
 
 ## 4. Optional Next Steps
@@ -362,6 +371,9 @@ These are lower-priority improvements to consider after completing the items abo
 | `site-data.mjs` | `scripts/site-data.mjs` | Route definitions, `ALIAS_ROUTES` for 4XX fixes |
 | `export-site.mjs` | `scripts/export-site.mjs` | Main build script, static HTML generation |
 | `related-tools.js` | `source/web/.../static/script/related-tools.js` | Tag taxonomy for dynamic related-tools linking |
+| `rating.html` | `source/web/src/main/webapp/static/view/rating.html` | Rating widget UI; currently triggers `/ajax/get-rating` 4XXs |
+| `module-loader.js` | `source/web/src/main/webapp/static/script/module-loader.js` | Loads rating widget and other static fragments |
+| CMS `BODYJSunzipfile.html` | `source/static/.../CMS/BODYJSunzipfile.html` | File-tree icon path rewrite (fixes `/image/file-type/` crawl artifacts) |
 | CMS `BODYTITLE*.txt` | `source/static/.../CMS/BODYTITLE*.txt` | Title tag optimization (CTR recovery) |
 | CMS `BODYDESC*.txt` | `source/static/.../CMS/BODYDESC*.txt` | Meta description optimization (CTR recovery) |
 | CMS `BODYHTML*.html` | `source/static/.../CMS/BODYHTML*.html` | Hub enrichment, answer blocks, content depth |
@@ -377,14 +389,14 @@ These are lower-priority improvements to consider after completing the items abo
 - **Expected Result:** CTR recovery initiated; measurement infrastructure restored
 
 ### Weeks 2-3 (HIGH PRIORITY Phase)
-- 4 highest-traffic hub pages enriched (ZIP, PDF, Image, Developer)
+- 4 highest-ROI non-ZIP hub pages enriched (Image, Image Converter, Device Test, Developer)
 - US-market-specific optimizations deployed
 - HowTo structured data added to top 20 tool pages
 - Hreflang implementation for Vietnamese pages
 - **Expected Result:** Hub pages gaining topical authority; US CTR improving; rich results appearing
 
 ### Weeks 3-4 (MEDIUM PRIORITY Phase)
-- Remaining 4 hub pages enriched (Video, Device Test, Utility, Image Converter)
+- Remaining non-ZIP hubs enriched (Utility, PDF, Video; ZIP deferred)
 - 18 "crawled not indexed" pages content-enriched and resubmitted
 - Cross-cluster links added for bridge tools
 - 4XX crawl errors audited and fixed
