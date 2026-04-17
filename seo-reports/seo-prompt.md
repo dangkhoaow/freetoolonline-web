@@ -227,7 +227,7 @@ Please execute a **continuous validation and improvement loop** based on the **s
 👉 The goal is to continuously converge:
 **PLAN = PROGRESS = ACTUAL**
 
----
+---###---
 
 ## **Continuous Execution Loop**
 
@@ -334,8 +334,8 @@ If ANY issue is found:
 
 1. Identify **root cause in code**
 2. Apply **real fix (no workaround)**
-3. Commit → push to **staging repo only** (trigger build & deploy)
-4. Re-run full audit (Step 2 → Step 4)
+3. Commit → push to **staging repo only** (trigger build & deploy) to make change at https://dangkhoaow.github.io/freetoolonline-web-test/
+4. Re-run full audit (Step 2 → Step 4) at https://dangkhoaow.github.io/freetoolonline-web-test/*
 5. Repeat until all issues are resolved
 
 ---
