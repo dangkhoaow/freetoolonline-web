@@ -159,12 +159,14 @@ Pls make the implemetation plan:
 1 - recheck the codebase and older plan, and update them to latest status (can be include the latest plan if any item already done, update it as well) by in progress of done icon (✅, ⏳) at each item or row on table
 2 - to implement all items for 3 groups above at ./freetoolonline-web-test first, then roll out needed changes into ./freetoolonline-web 
 
+Positioning: Act as 20 year expirence content writer and 10 years SEO expertize
 
 Technical Noted:
 - Pls make the plan for priority to implement follow 3 pillars above, but exclude top performance cluster is zip-tools
 - Focus other high ROI cluster that with high impression but low CTR or low position like heic-to-jpg, device test,...
+- Implement at ./freetoolonline-web-test first, then roll out needed changes into ./freetoolonline-web 
 - For prod repo, do not commit or push into 'main' branch. Always push it into 'seo-boost' branch
-
+ 
 ======
 
 I have deployed to staging site, the latest change on at https://dangkhoaow.github.io/freetoolonline-web-test/zip-file.html  and view-source:https://dangkhoaow.github.io/freetoolonline-web-test/zip-file.html and more other all rest routes/pages
