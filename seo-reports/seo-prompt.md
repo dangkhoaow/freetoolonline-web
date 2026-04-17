@@ -245,7 +245,7 @@ Repeat the following steps **in every cycle** until fully aligned:
 ### **Step 2 — Full Rendered Audit (Mandatory)**
 
 * Do NOT rely on static HTML
-* Use a **browser engine (e.g., Playwright)** with FULL PAGE HEIGHT
+* Use a **browser engine (e.g., Playwright)** with FULL PAGE HEIGHT, and refer config at ./freetoolonline-web-test/scripts/qa-visual-audit-20260416.mjs
 
 #### Required:
 
