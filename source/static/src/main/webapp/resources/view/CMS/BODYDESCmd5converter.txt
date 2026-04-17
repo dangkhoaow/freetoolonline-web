@@ -1,1 +1,1 @@
-Securely convert text to MD5 hashes online. Use the MD5 converter to transform text into unique hashes for data security.
+Generate an MD5 hash from text online for quick checksums and debugging. Paste a string, get the MD5 instantly, and copy the result—fast and free.

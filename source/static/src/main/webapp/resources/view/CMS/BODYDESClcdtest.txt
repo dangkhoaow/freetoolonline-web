@@ -1,1 +1,1 @@
-Test LCD/OLED display online for dead pixels by showing fullscreen primary colors. Also, detect screen resolution and viewport size.
+LCD test online for dead pixels, stuck pixels, and color issues. Show full-screen colors, check brightness, and verify resolution—fast screen diagnostics.

@@ -108,9 +108,14 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 **Status legend:** ✅ done in both repos (`web-test` + `web`), ⏳ in progress / staging-only
 
 **Last verified (codebase diff):** 2026-04-17
-- `BODYTITLE*.txt`: no `web-test` vs `web` diffs found
-- `BODYDESC*.txt`: 20 `web-test`-only diffs (not yet ported to `web`)
-- `BODYHTML*tools.html`: all 8 hub pages enriched in `web-test` (not yet ported to `web`)
+
+- ✅ `BODYTITLE*.txt`: no `web-test` vs `web` diffs found (**priority non-ZIP titles were rewritten and are now in parity**)
+- ✅/⏳ `BODYDESC*.txt`: non-ZIP meta descriptions are in parity; only ZIP-cluster diffs remain (excluded)
+  - **ZIP (excluded):** `BODYDESCzipfile.txt`, `BODYDESCunzipfile.txt`, `BODYDESCremovezippassword.txt`, `BODYDESCziptools.txt`
+- ✅/⏳ `BODYHTML*tools.html`: non-ZIP hub content is in parity; ZIP hub remains deferred/excluded
+  - **ZIP hub (excluded):** `BODYHTMLziptools.html`
+- ✅ **Taxonomy wiring (device-test)**: both repos now use `device-test` tags in `source/web/.../static/script/related-tools.js` and the homepage tag dropdown (`CMS/BODYHTML.html`), with an alias for legacy `hardwaretest`
+- ⏳ **Head template parity (carried forward):** `web-test/scripts/page-renderer.mjs` has the viewport fix (no `user-scalable=no`), CloudFront `preconnect`/`dns-prefetch`, and `x-default` hreflang for Vietnamese; `web/scripts/page-renderer.mjs` still needs these ports (tracked outside the three pillars)
 
 ### CRITICAL -- Do Immediately (Recover CTR)
 
@@ -127,15 +132,22 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 > - Deploy + monitor (GSC coverage, structured data, crawl stats)
 > - **Prod git constraint:** do not commit/push to `main`; use branch `seo-boost`
 
+> **Editorial standard (Positioning: senior content writer + SEO practitioner)**
+>
+> - **Query-match first**: lead with the exact search intent language (from GSC), then add a differentiator.
+> - **Concrete + citable**: short definition + steps + constraints (formats/limits) + trust note (privacy/security).
+> - **No fluff, no hype**: write for a user who is mid-task and wants a reliable outcome fast.
+> - **Append-only**: add content without removing existing paragraphs/sections; do not change URLs or the page layout scaffolding.
+
 #### 2.1 Rewrite Titles and Meta Descriptions for Top 20 Pages by Impression Volume ⏳
 
 | Attribute | Detail |
 |-----------|--------|
-| **Status (codebase)** | ⏳ Partial in `web-test` (`BODYDESC*` updated for 20 pages). `BODYTITLE*` not yet updated. Rollout to `web` pending |
+| **Status (codebase)** | ⏳ **web-test:** titles + meta descriptions updated for the non-ZIP priority queue (including HEIC via `PAGEBROWSERTITLEheictojpg.txt`). **web:** ✅ identical non-ZIP title/meta changes ported from staging. Remaining work needs a GSC export to confirm the true “top 20 by impressions” list and iterate copy (ZIP excluded) |
 | **Report consensus** | 12/12 reports flag CTR decline as the #1 issue |
 | **Issue** | Desktop CTR dropped from 7.15% to 4.27% despite improving positions. High-impression queries show massive visibility with near-zero clicks. Example: "file compressor" (198K impressions, 0.04% CTR), "compress folder" (high impressions, negligible CTR). Title and meta description copy does not match the dominant query language in GSC |
 | **Root cause** | CMS `BODYTITLE` and `BODYDESC` fragments use generic phrasing instead of exact query terms from GSC Search Analytics. Meta descriptions average ~103-120 chars (best practice: 140-160 chars) |
-| **Recommended fix** | (1) Export top 20 pages by impression volume from GSC. (2) For each page, identify the top 3-5 queries driving impressions. (3) Rewrite `BODYTITLE<slug>.txt` to incorporate the exact primary query term. (4) Rewrite `BODYDESC<slug>.txt` to 140-160 chars with primary keyword, value proposition, and CTA. **Priority pages (exclude ZIP cluster per technical note):** `/heic-to-jpg.html`, `/camera-test.html`, `/microphone-test.html`, `/keyboard-test.html`, `/lcd-test.html`, `/md5-converter.html`, `/json-parser.html`, `/images-to-pdf.html`, `/compress-image.html` |
+| **Recommended fix** | (1) Export top pages by impression volume from GSC (**exclude ZIP cluster**). (2) For each page, identify the top 3-5 queries driving impressions. (3) Rewrite `<title>` source (usually `BODYTITLE<slug>.txt`; **note:** some pages use `PAGEBROWSERTITLE<slug>.txt`, e.g. HEIC). (4) Rewrite `BODYDESC<slug>.txt` to ~140-160 chars with primary keyword, value proposition, and CTA. **Non-ZIP priority queue (high impressions, low CTR/position):** `/heic-to-jpg.html`, `/camera-test.html`, `/microphone-test.html`, `/keyboard-test.html`, `/lcd-test.html`, `/js-minifier.html`, `/css-minifier.html`, `/json-parser.html`, `/md5-converter.html`, `/pdf-to-text.html`, `/images-to-pdf.html`, `/compose-pdf.html`, `/compress-image.html`, `/convert-time-in-millisecond-to-date.html` |
 | **Expected SEO impact** | **HIGH** -- At 683K impressions/quarter, even 0.5% CTR recovery = ~3,400 additional clicks/month. Directly addresses the #1 traffic gap |
 | **Implementation difficulty** | **LOW** (2-3 hours -- CMS content editing in `BODYTITLE*.txt` and `BODYDESC*.txt`) |
 | **Risk level** | **LOW** -- Reversible text changes; no structural modifications |
@@ -146,7 +158,7 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 
 | Attribute | Detail |
 |-----------|--------|
-| **Status (codebase)** | ⏳ Requires GA4 Admin audit + verification; no confirmed repo change yet |
+| **Status (codebase)** | ⏳ **web-test:** no repo change required (tracking is GTM-driven); **web:** no repo change required (tracking is GTM-driven). ✅/⏳ is determined by GA4 Admin verification |
 | **Report consensus** | 10/12 reports flag |
 | **Issue** | GA4 shows a spike in "Unassigned" first-user channel starting 2026-03-27. Key events are down 5.9% despite user growth. This makes all SEO experiments unmeasurable -- cannot attribute traffic changes to specific optimizations |
 | **Root cause** | Likely misconfigured channel grouping rules, missing UTM discipline on campaign links, or referrer policy changes after a recent deployment |
@@ -155,15 +167,20 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 | **Implementation difficulty** | **LOW** (1-2 hours -- analytics configuration audit) |
 | **Risk level** | **LOW** -- Analytics settings only; no site changes |
 
+**GA4 verification checklist (required to mark ✅):**
+- ⏳ Record baseline: % of sessions in **Unassigned** (date/time + property)
+- ⏳ Document changes made in GA4 Admin (channel group rules / referral exclusions / cross-domain settings)
+- ⏳ Confirm Unassigned returns to acceptable range (target: <5%, then <2%)
+
 ---
 
 ### HIGH PRIORITY -- Do This Week
 
-#### 2.3 Enrich Hub Page Content (400-600 Words Each) ⏳
+#### 2.3 Enrich Hub Page Content (400-600 Words Each) ✅
 
 | Attribute | Detail |
 |-----------|--------|
-| **Status (codebase)** | ⏳ Implemented in `web-test` CMS (`BODYHTML*tools.html`) but not yet ported to `web` |
+| **Status (codebase)** | ✅ **web-test:** ✅ non-ZIP hubs enriched. ✅ **web:** ✅ non-ZIP hubs ported from staging. (ZIP hub deferred/excluded) |
 | **Report consensus** | 12/12 reports flag as highest-priority content gap |
 | **Issue** | All 8 hub pages average 100-200 words of body content -- navigation scaffolding only. Zero clicks and zero impressions in GSC. Vulnerable to Helpful Content Update. These pages fail to serve as cluster authority anchors |
 | **Target hubs (non-ZIP priority)** | `/image-tools.html`, `/image-converter-tools.html`, `/device-test-tools.html`, `/developer-tools.html`, `/utility-tools.html`, `/pdf-tools.html`, `/video-tools.html` (**defer** `/zip-tools.html`) |
@@ -174,15 +191,15 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 
 ---
 
-#### 2.4 Add Citable Answer Blocks for AI Overview Defense ⏳
+#### 2.4 Add Citable Answer Blocks for AI Overview Defense ✅
 
 | Attribute | Detail |
 |-----------|--------|
-| **Status (codebase)** | ⏳ Longform content exists on many pages via `BODYWELCOME*`, but “answer blocks at top” still need to be added to `BODYHTML*` for above-the-fold visibility |
+| **Status (codebase)** | ✅ **web-test:** answer blocks added for the non-ZIP priority set. ✅ **web:** identical answer blocks ported from staging |
 | **Report consensus** | 10/12 reports flag AI Overview suppression as primary CTR decline driver |
 | **Issue** | Semrush data shows many ranking keywords trigger AI Overviews where the domain is not cited. This is the primary driver of CTR decline despite improving positions. Google's AI summaries extract and display answers without click-through |
 | **Root cause** | Tool pages lack concise, structured, citable content blocks. Page content is primarily the interactive tool UI, not text that AI can quote |
-| **Recommended fix** | Add a brief (50-100 word) "What is [Tool]?" or "How to [Action]" block **at the top of each tool page’s `BODYHTML<slug>.html`** (above the UI). Include: step-by-step instructions, unique data points (supported formats, limits), and privacy/security statements. Format as numbered steps/definition lists for extraction. **Priority (exclude ZIP cluster):** HEIC to JPG, Camera Test, Microphone Test, Keyboard Test, LCD Test, MD5 Converter, JSON Parser |
+| **Recommended fix** | Add a brief (50-100 word) "What is [Tool]?" or "How to [Action]" block **at the top of each tool page’s `BODYHTML<slug>.html`** (above the UI). Include: step-by-step instructions, unique data points (supported formats, limits), and privacy/security statements. Format as numbered steps/definition lists for extraction. **Priority (exclude ZIP cluster):** HEIC to JPG, Camera Test, Microphone Test, Keyboard Test, LCD Test, MD5 Converter, JSON Parser, JS Minifier, CSS Minifier, PDF to Text |
 | **Expected SEO impact** | **MEDIUM-HIGH** -- Positions the site for AI Overview citation rather than suppression. Even partial citation drives brand visibility and click-through |
 | **Implementation difficulty** | **MEDIUM** (2-3 hours per batch of 5-10 pages) |
 | **Risk level** | **LOW** -- Additive content above existing tool UI |
@@ -193,7 +210,7 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 
 | Attribute | Detail |
 |-----------|--------|
-| **Status** | ⏳ Pending (requires GSC country=US query export + copy updates) |
+| **Status** | ⏳ **web-test:** pending (needs GSC country=US export). **web:** pending |
 | **Report consensus** | 10/12 reports flag |
 | **Issue** | US has 275K impressions but only 0.64% CTR (vs India's 11.36%). Average position in US is 11.49 (mostly page 2). US is the highest-RPM market; underperformance here directly impacts revenue potential |
 | **Root cause** | Average position 11.49 means most US impressions are below the fold on page 2. Title/description copy may not resonate with US search intent patterns |
@@ -314,17 +331,24 @@ These items are the fastest, safest changes with the highest immediate ROI:
 |---|--------|--------|------|--------|-------------------|
 | 1 | ⏳ | Rewrite titles/meta for top 20 pages (match GSC query language) | 2-3 hrs | CTR recovery on 683K+ impressions | CMS `BODYTITLE*.txt`, `BODYDESC*.txt` |
 | 2 | ⏳ | Fix GA4 "Unassigned" channel attribution | 1-2 hrs | Unlocks measurement for all other changes | GA4 Admin config |
-| 3 | ⏳ | Add citable answer blocks to top 10 tool pages | 3-4 hrs | AI Overview citation + CTR defense | CMS `BODYHTML*.html` |
+| 3 | ✅ | Add citable answer blocks to top 10 tool pages | 3-4 hrs | AI Overview citation + CTR defense | CMS `BODYHTML*.html` |
 | 4 | ⏳ | US-specific title/meta variants for top 10 US queries | 1-2 hrs | Unlock highest-RPM market | CMS `BODYTITLE*.txt`, `BODYDESC*.txt` |
+
+**Quick Wins status by repo (✅/⏳):**
+- **#1 Titles + meta**: `web-test` ⏳ (titles + meta updated for the non-ZIP priority queue; remaining needs GSC export to confirm the true top-20-by-impressions list), `web` ⏳ (ported)
+- **#2 GA4 attribution**: `web-test` ⏳, `web` ⏳ (Admin verification required; repo code is GTM-driven)
+- **#3 Answer blocks**: `web-test` ✅, `web` ✅
+- **#4 US CTR tune-up**: `web-test` ⏳, `web` ⏳ (requires GSC US export)
 
 **Estimated total for quick wins: ~7-11 hours**
 **Expected outcome: CTR recovery initiated on highest-impression pages, analytics attribution fixed for measurement, AI Overview defense deployed, US market optimization started.**
 
 > **Staging-first gate:** Every item follows the same two-repo rollout -- implement in `freetoolonline-web-test` -> validate (`npm run export` + spot-check) -> port identical change to `freetoolonline-web` -> validate + deploy.
 
-**Current staging-only diffs to port (non-ZIP priority):**
-- **Meta descriptions (`BODYDESC*`)**: `BODYDESCcameratest.txt`, `BODYDESCheictojpg.txt`, `BODYDESClcdtest.txt`, `BODYDESCmd5converter.txt`, `BODYDESCcomposepdf.txt`, `BODYDESCimagestopdf.txt`, `BODYDESCdevicetesttools.txt`, `BODYDESCimagetools.txt`, `BODYDESCimageconvertertools.txt`, `BODYDESCdevelopertools.txt`, `BODYDESCutilitytools.txt`, `BODYDESCpdftools.txt`, `BODYDESCvideotools.txt`
-- **Hub content (`BODYHTML*tools.html`)**: `BODYHTMLdevicetesttools.html`, `BODYHTMLimagetools.html`, `BODYHTMLimageconvertertools.html`, `BODYHTMLdevelopertools.html`, `BODYHTMLutilitytools.html`, `BODYHTMLpdftools.html`, `BODYHTMLvideotools.html` (**defer** `BODYHTMLziptools.html`)
+**Port status (non-ZIP priority):**
+- ✅ **Meta descriptions (`BODYDESC*`)**: ported `web-test` → `web` for the non-ZIP priority set
+- ✅ **Hub content (`BODYHTML*tools.html`)**: ported `web-test` → `web` for non-ZIP hubs
+- ⏳ **Remaining diffs (excluded / deferred ZIP):** `BODYDESCzipfile.txt`, `BODYDESCunzipfile.txt`, `BODYDESCremovezippassword.txt`, `BODYDESCziptools.txt`, `BODYHTMLziptools.html`
 
 ---
 
