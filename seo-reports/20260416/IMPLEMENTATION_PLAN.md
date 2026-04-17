@@ -90,20 +90,27 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 **Phase 3 items**
 - Missing `<h1>` on 7 pages: completed (63/63)
 - Homepage content enriched: completed
-- `user-scalable=no` removed: completed
-- CDN preconnect hints: added
+- ⏳ `user-scalable=no` removed: done in `web-test`, pending in `web` (verify `scripts/page-renderer.mjs`)
+- ⏳ CDN preconnect hints: done in `web-test`, pending in `web` (verify `scripts/page-renderer.mjs`)
 - Tag/cluster naming unified: completed
 
 **Carried forward from Phase 3 (pending)**
 - Enrich hub page content (400-600 words) -> **Phase 4 item 2.3**
 - Implement hreflang for Vietnamese pages -> **Phase 4 item 2.6**
-- Audit and fix 4XX crawl errors -> **Phase 4 item 2.7**
+- Audit and fix 4XX crawl errors -> **Phase 4 item 2.10**
 - Implement cross-cluster linking -> **Phase 4 item 2.8**
 - Meta description optimization (expanded scope) -> **Phase 4 item 2.1**
 
 ---
 
 ## 2. Priority Action List
+
+**Status legend:** ✅ done in both repos (`web-test` + `web`), ⏳ in progress / staging-only
+
+**Last verified (codebase diff):** 2026-04-17
+- `BODYTITLE*.txt`: no `web-test` vs `web` diffs found
+- `BODYDESC*.txt`: 20 `web-test`-only diffs (not yet ported to `web`)
+- `BODYHTML*tools.html`: all 8 hub pages enriched in `web-test` (not yet ported to `web`)
 
 ### CRITICAL -- Do Immediately (Recover CTR)
 
@@ -118,29 +125,32 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 > - Port the identical patch (no extra refactors)
 > - Re-run the same validations (`npm run export` + spot-check affected pages in `dist/`)
 > - Deploy + monitor (GSC coverage, structured data, crawl stats)
+> - **Prod git constraint:** do not commit/push to `main`; use branch `seo-boost`
 
-#### 2.1 Rewrite Titles and Meta Descriptions for Top 20 Pages by Impression Volume
+#### 2.1 Rewrite Titles and Meta Descriptions for Top 20 Pages by Impression Volume ⏳
 
 | Attribute | Detail |
 |-----------|--------|
+| **Status (codebase)** | ⏳ Partial in `web-test` (`BODYDESC*` updated for 20 pages). `BODYTITLE*` not yet updated. Rollout to `web` pending |
 | **Report consensus** | 12/12 reports flag CTR decline as the #1 issue |
 | **Issue** | Desktop CTR dropped from 7.15% to 4.27% despite improving positions. High-impression queries show massive visibility with near-zero clicks. Example: "file compressor" (198K impressions, 0.04% CTR), "compress folder" (high impressions, negligible CTR). Title and meta description copy does not match the dominant query language in GSC |
 | **Root cause** | CMS `BODYTITLE` and `BODYDESC` fragments use generic phrasing instead of exact query terms from GSC Search Analytics. Meta descriptions average ~103-120 chars (best practice: 140-160 chars) |
-| **Recommended fix** | (1) Export top 20 pages by impression volume from GSC. (2) For each page, identify the top 3-5 queries driving impressions. (3) Rewrite `BODYTITLE<slug>.txt` to incorporate the exact primary query term. (4) Rewrite `BODYDESC<slug>.txt` to 140-160 chars with primary keyword, value proposition, and CTA. Priority pages: `/zip-file.html`, `/remove-zip-password.html`, `/md5-converter.html`, `/heic-to-jpg.html`, `/camera-test.html`, `/file-compressor.html` |
+| **Recommended fix** | (1) Export top 20 pages by impression volume from GSC. (2) For each page, identify the top 3-5 queries driving impressions. (3) Rewrite `BODYTITLE<slug>.txt` to incorporate the exact primary query term. (4) Rewrite `BODYDESC<slug>.txt` to 140-160 chars with primary keyword, value proposition, and CTA. **Priority pages (exclude ZIP cluster per technical note):** `/heic-to-jpg.html`, `/camera-test.html`, `/microphone-test.html`, `/keyboard-test.html`, `/lcd-test.html`, `/md5-converter.html`, `/json-parser.html`, `/images-to-pdf.html`, `/compress-image.html` |
 | **Expected SEO impact** | **HIGH** -- At 683K impressions/quarter, even 0.5% CTR recovery = ~3,400 additional clicks/month. Directly addresses the #1 traffic gap |
 | **Implementation difficulty** | **LOW** (2-3 hours -- CMS content editing in `BODYTITLE*.txt` and `BODYDESC*.txt`) |
 | **Risk level** | **LOW** -- Reversible text changes; no structural modifications |
 
 ---
 
-#### 2.2 Fix GA4 "Unassigned" Channel Attribution
+#### 2.2 Fix GA4 "Unassigned" Channel Attribution ⏳
 
 | Attribute | Detail |
 |-----------|--------|
+| **Status (codebase)** | ⏳ Requires GA4 Admin audit + verification; no confirmed repo change yet |
 | **Report consensus** | 10/12 reports flag |
 | **Issue** | GA4 shows a spike in "Unassigned" first-user channel starting 2026-03-27. Key events are down 5.9% despite user growth. This makes all SEO experiments unmeasurable -- cannot attribute traffic changes to specific optimizations |
 | **Root cause** | Likely misconfigured channel grouping rules, missing UTM discipline on campaign links, or referrer policy changes after a recent deployment |
-| **Recommended fix** | (1) Audit GA4 Admin > Channel Groups for custom rules that may be misclassifying organic traffic. (2) Check `referrer-policy` meta tag in `page-renderer.mjs` -- ensure it allows origin information. (3) Verify cross-domain measurement settings if any. (4) Review any UTM-tagged internal links that may have been reintroduced |
+| **Recommended fix** | (1) Audit GA4 Admin > Channel Groups for custom rules that may be misclassifying organic traffic. (2) Verify referrer behavior and any recent analytics/script changes in `scripts/page-renderer.mjs` / third-party loaders. (3) Verify cross-domain measurement settings if any. (4) Review any UTM-tagged internal links that may have been reintroduced |
 | **Expected SEO impact** | **MEDIUM** -- Not a ranking fix, but **critical for measuring the impact of all other Phase 4 changes**. Without clean attribution, ROI of every action is unverifiable |
 | **Implementation difficulty** | **LOW** (1-2 hours -- analytics configuration audit) |
 | **Risk level** | **LOW** -- Analytics settings only; no site changes |
@@ -149,38 +159,41 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 
 ### HIGH PRIORITY -- Do This Week
 
-#### 2.3 Enrich Hub Page Content (400-600 Words Each)
+#### 2.3 Enrich Hub Page Content (400-600 Words Each) ⏳
 
 | Attribute | Detail |
 |-----------|--------|
+| **Status (codebase)** | ⏳ Implemented in `web-test` CMS (`BODYHTML*tools.html`) but not yet ported to `web` |
 | **Report consensus** | 12/12 reports flag as highest-priority content gap |
 | **Issue** | All 8 hub pages average 100-200 words of body content -- navigation scaffolding only. Zero clicks and zero impressions in GSC. Vulnerable to Helpful Content Update. These pages fail to serve as cluster authority anchors |
 | **Target hubs** | `/zip-tools.html`, `/pdf-tools.html`, `/image-tools.html`, `/image-converter-tools.html`, `/developer-tools.html`, `/video-tools.html`, `/device-test-tools.html`, `/utility-tools.html` |
-| **Recommended fix** | Expand each hub's `BODYHTML<hubslug>.html` with 400-600 words of unique editorial content: cluster overview, use cases, tool comparison guidance, expert tips, file format advice. Append-only -- do not rewrite existing content. Prioritize ZIP, PDF, and Image hubs (highest traffic clusters) first |
+| **Recommended fix** | Expand each hub's `BODYHTML<hubslug>.html` with 400-600 words of unique editorial content: cluster overview, use cases, tool comparison guidance, expert tips, file format advice. Append-only -- do not rewrite existing content. **Priority order (exclude ZIP cluster per technical note):** Image Tools → Image Converter Tools → Device Test Tools → Developer Tools → Utility Tools → PDF Tools → Video Tools. Defer ZIP Tools |
 | **Expected SEO impact** | **HIGH** -- Transforms 8 hubs from navigation scaffolding into ranking cluster authority pages. Strengthens E-E-A-T signals for entire clusters |
 | **Implementation difficulty** | **MEDIUM-HIGH** (3-5 hours per hub -- content research + writing + CMS updates) |
 | **Risk level** | **LOW** -- Additive content; existing structure and layout preserved |
 
 ---
 
-#### 2.4 Add Citable Answer Blocks for AI Overview Defense
+#### 2.4 Add Citable Answer Blocks for AI Overview Defense ⏳
 
 | Attribute | Detail |
 |-----------|--------|
+| **Status (codebase)** | ⏳ Longform content exists on many pages via `BODYWELCOME*`, but “answer blocks at top” still need to be added to `BODYHTML*` for above-the-fold visibility |
 | **Report consensus** | 10/12 reports flag AI Overview suppression as primary CTR decline driver |
 | **Issue** | Semrush data shows many ranking keywords trigger AI Overviews where the domain is not cited. This is the primary driver of CTR decline despite improving positions. Google's AI summaries extract and display answers without click-through |
 | **Root cause** | Tool pages lack concise, structured, citable content blocks. Page content is primarily the interactive tool UI, not text that AI can quote |
-| **Recommended fix** | Add a brief (50-100 word) "What is [Tool]?" or "How to [Action]" block at the top of each tool page's `BODYHTML` with: step-by-step instructions, unique data points (supported formats, size limits, compression ratios), and privacy/security statements. Format as definition lists or numbered steps for easy extraction |
+| **Recommended fix** | Add a brief (50-100 word) "What is [Tool]?" or "How to [Action]" block **at the top of each tool page’s `BODYHTML<slug>.html`** (above the UI). Include: step-by-step instructions, unique data points (supported formats, limits), and privacy/security statements. Format as numbered steps/definition lists for extraction. **Priority (exclude ZIP cluster):** HEIC to JPG, Camera Test, Microphone Test, Keyboard Test, LCD Test, MD5 Converter, JSON Parser |
 | **Expected SEO impact** | **MEDIUM-HIGH** -- Positions the site for AI Overview citation rather than suppression. Even partial citation drives brand visibility and click-through |
 | **Implementation difficulty** | **MEDIUM** (2-3 hours per batch of 5-10 pages) |
 | **Risk level** | **LOW** -- Additive content above existing tool UI |
 
 ---
 
-#### 2.5 Target US Market CTR Recovery
+#### 2.5 Target US Market CTR Recovery ⏳
 
 | Attribute | Detail |
 |-----------|--------|
+| **Status** | ⏳ Pending (requires GSC country=US query export + copy updates) |
 | **Report consensus** | 10/12 reports flag |
 | **Issue** | US has 275K impressions but only 0.64% CTR (vs India's 11.36%). Average position in US is 11.49 (mostly page 2). US is the highest-RPM market; underperformance here directly impacts revenue potential |
 | **Root cause** | Average position 11.49 means most US impressions are below the fold on page 2. Title/description copy may not resonate with US search intent patterns |
@@ -193,38 +206,61 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 
 ### MEDIUM PRIORITY -- Do This Month
 
-#### 2.6 Implement Hreflang for Vietnamese Pages
+#### 2.6 Implement Hreflang for Vietnamese Pages ⏳
 
 | Attribute | Detail |
 |-----------|--------|
+| **Status (codebase)** | ⏳ Self hreflang exists, but no EN↔VI pairing is implemented. Vietnamese pages are Vietnamese-only in current route set |
 | **Report consensus** | 7/12 reports recommend |
 | **Issue** | Vietnamese pages exist but lack reciprocal `hreflang` tags. English pages don't reference Vietnamese alternates. Causes language signal dilution and potential duplicate content risk in Vietnamese search results |
-| **Root cause** | Not implemented in `page-renderer.mjs`; only `en-us` hreflang present |
-| **Recommended fix** | Implement reciprocal `hreflang` tags: English pages get `<link rel="alternate" hreflang="vi" href="...">` for matching Vietnamese pages, and Vietnamese pages get `<link rel="alternate" hreflang="en" href="...">`. Both include `x-default` pointing to English canonical |
+| **Root cause** | No explicit hreflang strategy beyond self hreflang; no EN↔VI mapping in `page-renderer.mjs` |
+| **Recommended fix** | Since the Vietnamese routes are Vietnamese-only (no EN equivalents), implement a minimal, safe hreflang policy: keep self `vi-vn` hreflang for VI pages, and add `x-default` pointing to the English homepage (or the most relevant EN hub like `/utility-tools.html`). **Do not emit non-existent EN alternates** until true EN↔VI pairs exist |
 | **Expected SEO impact** | **MEDIUM** -- Proper international targeting reduces duplicate content risk and improves ranking in Vietnamese search results |
-| **Implementation difficulty** | **MEDIUM** (3-5 hours -- mapping EN/VI URL pairs + template changes in `page-renderer.mjs`) |
+| **Implementation difficulty** | **LOW-MEDIUM** (1-2 hours -- template change in `page-renderer.mjs`) |
 | **Risk level** | **LOW** -- Additive meta tags; no content or layout changes |
 
 ---
 
-#### 2.7 Recover 18 "Crawled Not Indexed" Pages
+#### 2.7 Recover 18 "Crawled Not Indexed" Pages ⏳
 
 | Attribute | Detail |
 |-----------|--------|
+| **Status (GSC 2026-04-17)** | ⏳ 18 URLs in this bucket; only one is an index-worthy canonical hub (`/device-test-tools.html`). The rest are variants/resources/legacy paths |
 | **Report consensus** | 12/12 reports note the indexing gap (62 indexed vs 139 not indexed) |
-| **Issue** | 18 pages are stuck in "Crawled -- currently not indexed" status (quality/selection exclusion). The 108 "Alternate page with proper canonical" are mostly expected from `ALIAS_ROUTES`, but the 18 quality-excluded pages represent lost ranking opportunities |
-| **Root cause** | Thin content, template similarity, or insufficient uniqueness signals on these pages |
-| **Recommended fix** | (1) Identify the 18 specific URLs from GSC > Indexing > Pages. (2) For each, add 300-500 words of unique content (How it works, FAQ, limitations). (3) Ensure strong internal linking from hub pages. (4) Request re-indexing via GSC after content enrichment |
+| **Issue** | GSC drilldown shows 18 URLs “crawled — currently not indexed”. This set includes a mix of real pages and non-target URLs (assets, tag parameters, legacy paths). The most important actionable item is the canonical hub `/device-test-tools.html` |
+| **Root cause** | Not a single root cause across all 18. Likely contributors: thin hub content in production (`/device-test-tools.html`), URL variant churn (`?v`, `tags.html?tag=...`), and relative-path quirks that generate accidental URLs (e.g., `/unzip-file.html/image/file-type/`) |
+| **Recommended fix** | (1) **Recover the canonical hub**: roll out the enriched hub content + meta description for `/device-test-tools.html` from `web-test` → `web`, then request re-indexing. (2) **Stop generating accidental URLs**: fix `BODYJSunzipfile.html` to rewrite file-tree icon URLs robustly to the CDN (covers `/unzip-file.html/image/file-type/`). (3) **Deprioritize non-target URLs**: accept that assets, sitemaps, tag filters, and legacy redirect URLs may be crawled without indexing; focus effort on pages that should rank |
 | **Expected SEO impact** | **MEDIUM-HIGH** -- Recovering 18 quality-excluded pages could add meaningful long-tail traffic |
 | **Implementation difficulty** | **MEDIUM** (2-4 hours investigation + 2-3 hours per page content fixes) |
 | **Risk level** | **LOW** -- Additive content only |
 
+**GSC drilldown URL list (18) — Crawled, currently not indexed (export 2026-04-17):**
+- `https://freetoolonline.com/device-test-tools.html`
+- `https://freetoolonline.com/script/related-tools.js?v`
+- `https://freetoolonline.com/tags.html?tag=resize`
+- `https://freetoolonline.com/split-pdf-to-single-pages.html?v`
+- `https://freetoolonline.com/tags.html?tag=pdf`
+- `https://freetoolonline.com/mov-to-mp3.html`
+- `https://freetoolonline.com/mov-to-mp4.html`
+- `https://freetoolonline.com/tags.html?tag=ai`
+- `https://freetoolonline.com/sitemap.xml`
+- `https://freetoolonline.com/tags.html?tag=editor&utm_source=internal&utm_medium=home&utm_content=search`
+- `https://freetoolonline.com/heic-to-jpg.html?v`
+- `https://freetoolonline.com/view`
+- `https://freetoolonline.com/tags.html?tag=base64`
+- `https://freetoolonline.com/heic`
+- `https://freetoolonline.com/tags.html?tag=video`
+- `https://freetoolonline.com/tags.html?tag=parser`
+- `https://freetoolonline.com/unzip-file.html/image/file-type/`
+- `https://freetoolonline.com/image/file-type/`
+
 ---
 
-#### 2.8 Implement Cross-Cluster Linking for Bridge Tools
+#### 2.8 Implement Cross-Cluster Linking for Bridge Tools ⏳
 
 | Attribute | Detail |
 |-----------|--------|
+| **Status** | ⏳ Not implemented; current cluster model provides only single-hub backlinks |
 | **Report consensus** | 6/12 reports recommend |
 | **Issue** | Zero explicit cross-cluster links exist. Bridge tools (e.g., `/images-to-pdf.html`) don't link to related hubs in other clusters, keeping link equity siloed and reinforcing traffic concentration on the ZIP cluster |
 | **Root cause** | `seo-clusters.mjs` only defines single-cluster membership per tool |
@@ -235,10 +271,11 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 
 ---
 
-#### 2.9 Add HowTo Structured Data for Tool Pages
+#### 2.9 Add HowTo Structured Data for Tool Pages ⏳
 
 | Attribute | Detail |
 |-----------|--------|
+| **Status** | ⏳ Not implemented in `page-renderer.mjs` |
 | **Report consensus** | 7/12 reports recommend |
 | **Issue** | Tool pages have step-by-step instructions but no `HowTo` JSON-LD schema. Missing an opportunity for step-by-step rich results in SERPs, which could offset AI Overview click suppression |
 | **Root cause** | JSON-LD generation in `page-renderer.mjs` does not include HowTo schema |
@@ -249,14 +286,15 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 
 ---
 
-#### 2.10 Audit and Fix 4XX Crawl Errors
+#### 2.10 Audit and Fix 4XX Crawl Errors ⏳
 
 | Attribute | Detail |
 |-----------|--------|
+| **Status (GSC 2026-04-17)** | ⏳ 4XX crawl stats show mostly rating endpoints: `/ajax/get-rating` (307), `/ajax/mins-to-del-file` (6), `/view/rating.html` (4) |
 | **Report consensus** | 6/12 reports mention |
-| **Issue** | ~6% of crawl requests return 4XX errors -- wasted crawl budget and lost link equity from external links to old/renamed URLs |
-| **Root cause** | Missing alias routes for renamed or removed URLs in `site-data.mjs` |
-| **Recommended fix** | (1) Check GSC > Indexing > Pages for specific 4XX URLs. (2) Add entries to `ALIAS_ROUTES` in `scripts/site-data.mjs`. (3) Create a custom `404.html` page with popular tool links |
+| **Issue** | 4XX crawl requests waste crawl budget. The current errors are dominated by **rating widget calls** (not missing page redirects) |
+| **Root cause** | Rating widget requests same-origin endpoints on `freetoolonline.com` (e.g., `/ajax/get-rating`) that do not exist / are not served, plus potential missing/incorrect `/view/rating.html` availability in production builds |
+| **Recommended fix** | (1) Update the rating widget so it calls the real backend origin (`API_ORIGIN` / `DEFAULT_API_ORIGIN`) instead of same-origin `/ajax/*`. (2) Ensure `/view/rating.html` is emitted into `dist/view/rating.html` and reachable after deploy. (3) Only then, use any remaining page-level 4XX URL list to extend `ALIAS_ROUTES` for legacy page URLs (if needed) |
 | **Expected SEO impact** | **MEDIUM** -- Recovers wasted crawl budget and recaptures traffic from external links |
 | **Implementation difficulty** | **MEDIUM** (2-4 hours for investigation + fixes) |
 | **Risk level** | **LOW** |
@@ -267,12 +305,12 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 
 These items are the fastest, safest changes with the highest immediate ROI:
 
-| # | Action | Time | Impact | File(s) to Change |
-|---|--------|------|--------|-------------------|
-| 1 | Rewrite titles/meta for top 20 pages (match GSC query language) | 2-3 hrs | CTR recovery on 683K+ impressions | CMS `BODYTITLE*.txt`, `BODYDESC*.txt` |
-| 2 | Fix GA4 "Unassigned" channel attribution | 1-2 hrs | Unlocks measurement for all other changes | GA4 Admin config |
-| 3 | Add citable answer blocks to top 10 tool pages | 3-4 hrs | AI Overview citation + CTR defense | CMS `BODYHTML*.html` |
-| 4 | US-specific title/meta variants for top 10 US queries | 1-2 hrs | Unlock highest-RPM market | CMS `BODYTITLE*.txt`, `BODYDESC*.txt` |
+| # | Status | Action | Time | Impact | File(s) to Change |
+|---|--------|--------|------|--------|-------------------|
+| 1 | ⏳ | Rewrite titles/meta for top 20 pages (match GSC query language) | 2-3 hrs | CTR recovery on 683K+ impressions | CMS `BODYTITLE*.txt`, `BODYDESC*.txt` |
+| 2 | ⏳ | Fix GA4 "Unassigned" channel attribution | 1-2 hrs | Unlocks measurement for all other changes | GA4 Admin config |
+| 3 | ⏳ | Add citable answer blocks to top 10 tool pages | 3-4 hrs | AI Overview citation + CTR defense | CMS `BODYHTML*.html` |
+| 4 | ⏳ | US-specific title/meta variants for top 10 US queries | 1-2 hrs | Unlock highest-RPM market | CMS `BODYTITLE*.txt`, `BODYDESC*.txt` |
 
 **Estimated total for quick wins: ~7-11 hours**
 **Expected outcome: CTR recovery initiated on highest-impression pages, analytics attribution fixed for measurement, AI Overview defense deployed, US market optimization started.**
