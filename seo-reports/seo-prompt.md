@@ -148,30 +148,22 @@ The implementation plan should include:
 ============================================================================================
 
 
-At the freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md
+At the freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md under 
 
-For 
-- CRITICAL -- Do Immediately (Protect Rankings)
-- HIGH PRIORITY -- Do This Week
+For pillars
+- CRITICAL 
+- HIGH PRIORITY
 - Quick Wins (High Impact - Low Effort)
 
-Pls make the implemetation plan to implement all items for 3 groups above at ./freetoolonline-web-test first, then roll out needed changes into ./freetoolonline-web 
+Pls make the implemetation plan:
+1 - recheck the codebase and older plan, and update them to latest status (can be include the latest plan if any item already done, update it as well) by in progress of done icon (✅, ⏳) at each item or row on table
+2 - to implement all items for 3 groups above at ./freetoolonline-web-test first, then roll out needed changes into ./freetoolonline-web 
 
 
 Technical Noted:
-- For 'Pre-render related tools links (SSR)' - use github build to generated related tools for extractly what related-tools.js did. Keep the css style, UI, UI logic rule as current (refer the current project setup, and follow)
-
-======
-
-At the freetoolonline-web\seo-reports\20260416\IMPLEMENTATION_PLAN.md
-
-For 
-- CRITICAL -- Do Immediately (Protect Rankings)
-- HIGH PRIORITY -- Do This Week
-- Quick Wins (High Impact - Low Effort)
-
-Pls make the implemetation plan to implement all items for 3 groups above at ./freetoolonline-web-test first, then roll out needed changes into ./freetoolonline-web 
-
+- Pls make the plan for priority to implement follow 3 pillars above, but exclude top performance cluster is zip-tools
+- Focus other high ROI cluster that with high impression but low CTR or low position like heic-to-jpg, device test,...
+- For prod repo, do not commit or push into 'main' branch. Always push it into 'seo-boost' branch
 
 ======
 
