@@ -2358,6 +2358,57 @@ html.main-html.dark:not([style*="background-color"]) .page-main-content .page-se
     color: #FFFFFF !important;
 }
 
+/* Mirror the minimum dark-mode body + section wrappers inline so pages do not
+   flash light-mode content before the external dark.css finishes loading.
+   Full dark palette still comes from the CloudFront dark.css; these are the
+   critical rules that control the container backgrounds. */
+html.main-html.dark:not(.html-fill-img):not([style*="background-color"]) .new-style-body {
+    background: #191919 !important;
+}
+html.main-html.dark:not([style*="background-color"]) .welcomeTag,
+html.main-html.dark:not([style*="background-color"]) .relatedToolsSection,
+html.main-html.dark:not([style*="background-color"]) .tagsTag {
+    background-color: #2F3437 !important;
+    color: #FFFFFF !important;
+}
+html.main-html.dark:not([style*="background-color"]) body,
+html.main-html.dark:not([style*="background-color"]) .welcomeTag,
+html.main-html.dark:not([style*="background-color"]) .welcomeTag p,
+html.main-html.dark:not([style*="background-color"]) .welcomeTag li,
+html.main-html.dark:not([style*="background-color"]) .welcomeTag h1,
+html.main-html.dark:not([style*="background-color"]) .welcomeTag h2,
+html.main-html.dark:not([style*="background-color"]) .welcomeTag h3,
+html.main-html.dark:not([style*="background-color"]) .relatedToolsSection p,
+html.main-html.dark:not([style*="background-color"]) .relatedToolsSection a {
+    color: #FFFFFF !important;
+}
+
+/* Dark-mode tables: the w3.css defaults (#fff / #f1f1f1 row backgrounds, black cell color)
+   override cleanly via the .page-section dark rule for text, but row backgrounds and cell
+   borders keep their light values because .w3-table-all has its own selectors. Force the
+   dark palette here so comparison tables inside BODYWELCOME/BODYHTML read correctly. */
+html.main-html.dark:not([style*="background-color"]) .w3-table,
+html.main-html.dark:not([style*="background-color"]) .w3-table-all {
+    color: #FFFFFF !important;
+}
+html.main-html.dark:not([style*="background-color"]) .w3-table-all tr:nth-child(odd) {
+    background-color: #2F3437 !important;
+}
+html.main-html.dark:not([style*="background-color"]) .w3-table-all tr:nth-child(even) {
+    background-color: #262A2D !important;
+}
+html.main-html.dark:not([style*="background-color"]) .w3-table td,
+html.main-html.dark:not([style*="background-color"]) .w3-table th,
+html.main-html.dark:not([style*="background-color"]) .w3-table-all td,
+html.main-html.dark:not([style*="background-color"]) .w3-table-all th {
+    color: #FFFFFF !important;
+    border-color: #37352F !important;
+}
+html.main-html.dark:not([style*="background-color"]) .w3-bordered tr,
+html.main-html.dark:not([style*="background-color"]) .w3-table-all tr {
+    border-color: #37352F !important;
+}
+
 /* Mobile polish (menu + header + dialogs) */
 
 /* Drawer menu: fix corrupted hover/focus/active states (especially iOS "stuck" focus). */
