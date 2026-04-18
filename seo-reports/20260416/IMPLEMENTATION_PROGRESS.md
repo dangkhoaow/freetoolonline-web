@@ -1,6 +1,6 @@
 # Implementation Progress: Phase 4 (20260416)
 
-**Last updated:** 2026-04-17  
+**Last updated:** 2026-04-18  
 **Scope source:** `./freetoolonline-web/seo-reports/20260416/IMPLEMENTATION_PLAN.md`  
 **Reality source:** Staging site `https://dangkhoaow.github.io/freetoolonline-web-test/`
 
@@ -73,4 +73,27 @@
 - Full rendered audit output: `./freetoolonline-web-test/test/20260416/screenshoot/20260417T163049Z/`
 - Audit coverage: `73` routes x `3` viewports (`390`, `1440`, `1920`) = `219` checks.
 - Audit result: `0` failures; `73` screenshots per viewport; diagnostic folders empty (no failures).
+
+### Cycle 4 — 2026-04-18 (Related tools regression fix + shorter answer panels + targeted 1920 evidence)
+
+**Issue found (staging reality):**
+- "Related tools:" list regressed on pages whose `BODYTITLE*` changed (commonly collapsing to only a self-link).
+
+**Root cause:**
+- Related tools logic (SSR in `scripts/page-renderer.mjs` + client `static/script/related-tools.js`) identified the current page by matching rendered title text against `urlMaps[].title`. Title edits from `213fdaa` broke that match, so current tags were empty and SSR output degraded.
+
+**Fix applied (staging-first):**
+- **Staging repo (`freetoolonline-web-test`)**: commit `eb9ec64` matches the current page by **route/URL** (SSR + client), so Related Tools no longer depends on title strings.
+- Rewrote the 10 pale-green answer panels from `213fdaa` (`BODYHTML*`) to be shorter and non-duplicative (kept below the tool UI).
+- Updated the Playwright audit runner to be hang-safe (8s fetch abort + explicit navigation timeouts) and support targeted runs (`--routes`, `--viewport`, `--mode`).
+
+**Validation (live staging + Playwright full-page screenshots @ 1920px):**
+- Output: `./freetoolonline-web-test/test/20260416/screenshoot/20260418T025116Z/`
+- Coverage:
+  - `noads/`: `10` routes x `1` viewport (`1920`) = `10` checks, `0` failures.
+  - `ads/`: `10` routes x `1` viewport (`1920`) = `10` full-page screenshots captured.
+- Routes validated: `heic-to-jpg`, `pdf-to-text`, `md5-converter`, `json-parser`, `css-minifier`, `js-minifier`, `microphone-test`, `camera-test`, `lcd-test`, `keyboard-test`.
+
+**Production mirror (no commit/push):**
+- Mirrored the same Related Tools + `BODYHTML*` answer panel updates into `freetoolonline-web/` working tree and re-validated with `npm run export` ✅.
 
