@@ -2208,7 +2208,7 @@ footer.page-footer .footer-inner *{
     background-color: rgba(255,255,255,0.93);
 }
 
-/* Ad slots only: match common.css — do not use the page-section card fill (breaks dark mode + mobile top-ad title band). */
+/* Ad slots only: match common.css - do not use the page-section card fill (breaks dark mode + mobile top-ad title band). */
 .ad-section:not(.ad-panel) {
     overflow: hidden;
     position: relative;
@@ -2223,6 +2223,18 @@ footer.page-footer .footer-inner *{
 
 footer.page-footer .footer-inner {
     max-width: 1240px!important;
+    width: calc(100% - 20px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box;
+}
+
+/* Wide desktop: keep footer aligned with the 1240px content column.
+   Overrides common.css `@media (min-width:1900px)` that widens the footer container. */
+@media (min-width: 1900px) {
+    html body footer.page-footer .footer-inner {
+        max-width: 1240px !important;
+    }
 }
 
 /* Large desktop: align footer with the main content container on key static pages. */

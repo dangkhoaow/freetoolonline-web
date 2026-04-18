@@ -1,1 +1,1 @@
-Minify CSS online to shrink stylesheets and speed up page loads. Paste CSS, click Minify, and copy the compressed output—fast, free, no installs.
+Minify CSS online to shrink stylesheets and speed up page loads. Paste CSS, click Minify, and copy the compressed output-fast, free, no installs.
