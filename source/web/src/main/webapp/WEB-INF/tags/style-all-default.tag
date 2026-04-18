@@ -1019,7 +1019,7 @@ a {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0,0,0,0.5);
+    background-color: #7558e9;
     z-index: 2
 }
 
@@ -1585,6 +1585,13 @@ b,strong {
     font-size: 15px!important;
     padding: 12px 2px!important;
     margin: 0!important;
+}
+
+@media (min-width: 1000px) {
+    html.has-upload .pageNameContainer > .navPageName {
+        font-size: 18px !important;
+        padding: 11px 6px !important;
+    }
 }
 
 .w3-bar .w3-button {
@@ -2216,6 +2223,19 @@ footer.page-footer .footer-inner *{
 
 footer.page-footer .footer-inner {
     max-width: 1240px!important;
+}
+
+/* Large desktop: align footer with the main content container on key static pages. */
+@media (min-width: 1000px) {
+    html.page-contact-usroot footer.page-footer .footer-inner,
+    html.page-privacy-policyroot footer.page-footer .footer-inner,
+    html.page-about-usroot footer.page-footer .footer-inner {
+        max-width: 1240px !important;
+        width: calc(100% - 20px) !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        box-sizing: border-box;
+    }
 }
 
 @media (max-width: 599px){

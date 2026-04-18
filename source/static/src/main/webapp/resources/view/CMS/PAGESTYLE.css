@@ -54,10 +54,6 @@ a {
     pointer-events: none
 }
 
-#content.w3-content {
-    margin-top: 0!important
-}
-
 .headerLogo path:first-child,.main-html.menu-open header.navBarContainer .headerLogo path:first-child {
     fill: #ff4d00
 }
@@ -70,7 +66,7 @@ a {
     fill: #00436e
 }
 
-.navBarContainer,.page-footer .w3-row.first,.welcomeTag,.tagsTag {
+.welcomeTag,.tagsTag {
     display: none!important
 }
 
@@ -81,8 +77,9 @@ a {
 .page-main-content>.page-section {
     margin: 0!important;
     padding: 0;
-    width: 100vw;
-    max-width: unset
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box
 }
 
 .page-section {
@@ -100,11 +97,125 @@ a {
 
 body,html {
     height: 100%;
-    line-height: 1.8
+    line-height: 1.8;
+    overflow-x: hidden;
+    overflow-y: auto
 }
 
-#content.w3-content,body,html,.page-main-content {
-    overflow: hidden
+/* Homepage: avoid double scrollbars by keeping BODY non-scrollable (HTML is the scrolling element). */
+html.page-root body.new-style-body {
+    overflow: visible !important;
+}
+
+html.page-root {
+    background-color: #7558e9;
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Homepage background should extend under footer and beyond #home. */
+html.page-root body.new-style-body {
+    background: inherit !important;
+}
+
+/* Dark mode can inject its own body background; keep homepage background image visible. */
+html.page-root.dark body.new-style-body,
+html.page-root.dark body.new-style-body.load-cookie-info {
+    background: inherit !important;
+}
+
+html.main-html.page-root.dark body.new-style-body.load-cookie-info {
+    background: inherit !important;
+}
+
+html.page-root #content.w3-content {
+    background: transparent !important;
+}
+
+html.page-root footer.page-footer,
+html.page-root footer.page-footer .footer-inner,
+html.page-root footer.page-footer .footer-inner .first,
+html.page-root footer.page-footer .footer-inner .second {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+html.page-root footer.page-footer .footer-inner * {
+    color: #fff !important;
+}
+
+/* Homepage: keep footer aligned with the main content container at ultra-wide widths (e.g. 1920px). */
+html.page-root footer.page-footer .footer-inner {
+    max-width: 1240px !important;
+    width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box;
+}
+
+html.page-root header.navBarContainer.w3-top .new-style-nav-bar:not(.w3-white),
+html.page-root header.navBarContainer.w3-top .new-style-nav-bar:not(.w3-white) * {
+    color: #fff !important;
+}
+
+/* Homepage: remove transparent seams caused by fixed header/footer margins.
+   Keep header total height at 51px (41px + old 10px margin) but without a margin gap. */
+html.page-root header.navBarContainer {
+    margin-bottom: 0 !important;
+}
+
+html.page-root header.navBarContainer.w3-top,
+html.page-root header.navBarContainer.w3-top .new-style-nav-bar {
+    height: 42px !important;
+    line-height: 42px !important;
+}
+
+html.page-root #nav_menu {
+    top: 52px !important;
+}
+
+html.page-root footer.page-footer {
+    margin-top: 0 !important;
+}
+
+html.page-root #home.bgimg-1 .ui-autocomplete-input {
+    filter: none !important;
+    background-color: rgba(0,0,0,0.18) !important;
+    border: 1.5px solid rgba(255,255,255,0.85) !important;
+    color: #fff !important;
+}
+
+/* Header action buttons: white outline at top, black outline after scroll. */
+html.page-root header.navBarContainer.w3-top .new-style-nav-bar:not(.w3-white) #donateBtnID,
+html.page-root header.navBarContainer.w3-top .new-style-nav-bar:not(.w3-white) #buyMeACoffeeBtnID,
+html.page-root header.navBarContainer.w3-top .new-style-nav-bar:not(.w3-white) .settingsBtn {
+    border-color: #fff !important;
+    color: #fff !important;
+    background-color: transparent !important;
+}
+
+html.page-root header.navBarContainer.w3-top .new-style-nav-bar.w3-white #donateBtnID,
+html.page-root header.navBarContainer.w3-top .new-style-nav-bar.w3-white #buyMeACoffeeBtnID,
+html.page-root header.navBarContainer.w3-top .new-style-nav-bar.w3-white .settingsBtn {
+    border-color: #000 !important;
+    color: #000 !important;
+    background-color: transparent !important;
+}
+
+/* Dark mode: keep homepage header actions in the outlined style (avoid forced blue fills). */
+html.page-root.dark header.navBarContainer.w3-top .new-style-nav-bar #donateBtnID,
+html.page-root.dark header.navBarContainer.w3-top .new-style-nav-bar #buyMeACoffeeBtnID,
+html.page-root.dark header.navBarContainer.w3-top .new-style-nav-bar .settingsBtn {
+    border-color: #fff !important;
+    color: #fff !important;
+    background-color: transparent !important;
+}
+
+#content.w3-content,
+.page-main-content {
+    overflow: visible !important;
 }
 
 .bgimg-1 {
@@ -112,7 +223,60 @@ body,html {
     background-size: cover;
     min-height: 100vh;
     background-blend-mode: darken;
-    background-color: rgba(0,0,0,0.5)
+    background-color: #7558e9
+}
+
+/* Dark mode regression: a global `header { box-shadow: ... }` rule adds unwanted shadow seams
+   at the top/bottom of the homepage hero because `#home` is a <header>. */
+html.page-root header#home.bgimg-1 {
+    box-shadow: none !important;
+}
+
+.main-text {
+    max-width: 1240px;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box
+}
+
+html.main-html:not(.dark) .main-text .w3-tag.w3-white,
+html.main-html:not(.dark) .main-text .w3-card.w3-white .w3-button,
+html.main-html:not(.dark) .main-text .w3-card.w3-white p,
+html.main-html:not(.dark) .main-text .w3-card.w3-white li,
+html.main-html:not(.dark) .main-text .w3-card.w3-white .main-content {
+    color: #111 !important
+}
+
+html.main-html:not(.dark) .main-text .w3-card.w3-white h2,
+html.main-html:not(.dark) .main-text .w3-card.w3-white h3 {
+    color: #2196f3 !important
+}
+
+html.main-html.dark.page-root #home.bgimg-1 .main-text .w3-tag.w3-white,
+html.main-html.dark.page-root #home.bgimg-1 .main-text .w3-card.w3-white .w3-button,
+html.main-html.dark.page-root #home.bgimg-1 .main-text .w3-card.w3-white p,
+html.main-html.dark.page-root #home.bgimg-1 .main-text .w3-card.w3-white li,
+html.main-html.dark.page-root #home.bgimg-1 .main-text .w3-card.w3-white .main-content {
+    color: #e7eef7 !important;
+}
+
+html.main-html.dark.page-root #home.bgimg-1 .main-text .w3-card.w3-white h2,
+html.main-html.dark.page-root #home.bgimg-1 .main-text .w3-card.w3-white h3 {
+    color: #90caf9 !important;
+}
+
+html.main-html.dark.page-root #home.bgimg-1 .main-text .w3-card.w3-white .w3-button.w3-light-grey {
+    background-color: rgba(255,255,255,0.08) !important;
+    border: 1px solid rgba(255,255,255,0.18) !important;
+}
+
+html.main-html.dark.page-root #home.bgimg-1 .main-text .w3-card.w3-white .w3-ul li {
+    border-bottom-color: rgba(255,255,255,0.14) !important;
+}
+
+.main-text .w3-card.w3-white .w3-button {
+    white-space: normal;
+    line-height: 1.35;
 }
 
 .w3-text-white {
@@ -133,29 +297,47 @@ body,html {
 .relatedToolsSection {
     background-color: transparent;
     margin-left: 0 !important;
-    left: 0 !important;
-    padding-left: 0 !important;
+    padding-left: 0 !important
 }
 
-.relatedToolsSection,.relatedToolsSection * {
-    color: #fff!important;
-    left: 50px;
-    font-size: 18px
+/* Dark mode: keep the Popular tools wrapper transparent so the cookie gutter doesn't render as a solid block. */
+html.page-root.dark #home.bgimg-1 .relatedToolsSection {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+
+@media (min-width: 1000px) {
+    html.page-root body.load-cookie-info #home.bgimg-1 .main-text > .relatedToolsSection .w3-card,
+    html.page-root body.load-cookie-info #home.bgimg-1 .main-text > .w3-row.w3-margin-top > .w3-card {
+        margin-right: 320px;
+    }
+
+    html.page-root #home.bgimg-1 .main-text > .w3-row-padding {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    html.page-root #home.bgimg-1 .main-text > .w3-row-padding > .w3-col.l7 {
+        padding-left: 0 !important;
+        padding-right: 8px !important;
+    }
+
+    html.page-root #home.bgimg-1 .main-text > .w3-row-padding > .w3-col.l5 {
+        padding-left: 8px !important;
+        padding-right: 0 !important;
+    }
 }
 
 .page-footer {
-    position: fixed;
-    bottom: 20px;
-    margin: 0!important
-}
-
-.page-footer * {
-    color: #fff!important
+    position: static;
+    margin: 20px 0 0
 }
 
 .page-footer .w3-row.second {
     display: block;
-    width: 100vw;
+    width: 100%;
     text-align: center;
     box-sizing: border-box
 }
@@ -173,32 +355,32 @@ footer.page-footer .footer-inner {
 }
 
 @media(max-width: 767px) {
-    .main-text {
-        padding: 10px!important;
+    html.page-root #home.bgimg-1 .main-text {
+        padding: 56px 12px 32px !important;
     }
 
-    #add-info {
-        display: none
+    html.page-root #home.bgimg-1 .main-text > .w3-row-padding {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    html.page-root #home.bgimg-1 .main-text > .w3-row-padding > .w3-col {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 
     .shareBtns {
         left: 8px
     }
 
-    .relatedToolsSection {
-        bottom: 0;
-        left: 8px
-    }
-
-    .relatedToolsSection,.relatedToolsSection *,.main-content {
+    .main-content {
         font-size: 13px!important
     }
 
     .page-footer {
-        bottom: 40px;
-        left: 0;
-        right: 0;
-        padding: 0 8px
+        padding: 0 12px
     }
 
     .page-footer .w3-row.second {
@@ -230,14 +412,6 @@ footer.page-footer .footer-inner {
     .w3-large {
         font-size: 16px!important;
     }
-
-    .relatedToolsSection, .relatedToolsSection * {
-        font-size: 16px!important;
-    }
-
-    .main-text.w3-display-left {
-        top: 60%;
-    }
 }
 
 .w3-rest.page-main-content>.ad-section.top-ad {
@@ -245,15 +419,13 @@ footer.page-footer .footer-inner {
 }
 
 @media (max-width: 375px) {
-    .relatedToolsSection {
-        display: none !important;
-    }
-    
     .page-footer {
         padding: 0 12px
     }
-    
-    .main-text {
-        padding: 12px!important;
+}
+
+@media (min-width: 1024px) {
+    html.page-root #home.bgimg-1 .w3-col.l5 .w3-card.w3-white {
+        margin-top: 0 !important;
     }
 }
