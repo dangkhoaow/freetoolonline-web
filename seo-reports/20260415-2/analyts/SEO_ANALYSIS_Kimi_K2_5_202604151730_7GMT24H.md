@@ -1,4 +1,4 @@
-# freetoolonline.com — Deep SEO Audit (2026 Perspective)
+# freetoolonline.com - Deep SEO Audit (2026 Perspective)
 
 **Analysis date:** April 15, 2026 (17:30 GMT+7)  
 **Analyst mode:** 20-year SEO lens with March/February 2026 core update context  
@@ -233,7 +233,7 @@ This is a valid foundation for semantic expansion, but the structure is not yet 
 
 ## Recommendations (Prioritized by Impact / Risk)
 
-### Tier 1 — Immediate, high impact, low risk
+### Tier 1 - Immediate, high impact, low risk
 
 1. **Demote `navPageName` from heading semantics** (`<div>`/`<span>` without heading role).  
    - Expected impact: better topical clarity, reduced noise in SERPs and semantic parsers.
@@ -252,7 +252,7 @@ This is a valid foundation for semantic expansion, but the structure is not yet 
    - Expected impact: stronger anti-spam resilience.
    - Effort: Low | Risk: Low
 
-### Tier 2 — High impact, medium effort
+### Tier 2 - High impact, medium effort
 
 1. **Pre-render related-tools markup from cluster data into static HTML during export.**  
    - Keep current JS fallback for interactive UX, but render a canonical static list in HTML source.
@@ -268,7 +268,7 @@ This is a valid foundation for semantic expansion, but the structure is not yet 
    - Expected impact: better localization routing clarity.
    - Effort: Low-Medium | Risk: Low
 
-### Tier 3 — Strategic, highest leverage over 30-90 days
+### Tier 3 - Strategic, highest leverage over 30-90 days
 
 1. Expand all 8 hubs from short intros into 400+ word cluster pages with use-case and comparison sections.
 2. Add cross-cluster entity content (e.g., conversion workflows, tool comparisons).

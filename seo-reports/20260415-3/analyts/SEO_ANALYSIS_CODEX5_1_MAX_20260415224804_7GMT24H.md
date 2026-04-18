@@ -1,4 +1,4 @@
-# SEO Analysis — freetoolonline.com (Codex 5.1 Max, 2026-04-15 22:48:04 GMT+7)
+# SEO Analysis - freetoolonline.com (Codex 5.1 Max, 2026-04-15 22:48:04 GMT+7)
 
 ## Executive Summary
 - Rendered crawl (Playwright, 63 sitemap URLs) shows very fast load (avg load 255 ms, median 206 ms) and no console errors; Core Web Vitals are “all good” for 55 URLs (mobile/desktop).
@@ -14,15 +14,15 @@
 - CWV: GSC shows 55 good URLs, 0 poor/needs improvement (mobile & desktop) as of 2026-04-13 → UX baseline is strong.
 - Crawl stats (GSC): 7.02K requests / 65.4MB / 89 ms avg; 88% 200, 4% 301, 4% 302, 1% 304; 67% HTML, 18% JSON; 42% Smartphone, 25% Page resource, 18% AdsBot. Host healthy; minimal errors.
 - Sitemaps: index plus `/sitemap-tools.xml` (50 tools), `/sitemap-hubs.xml` (8 hubs), `/sitemap-pages.xml` (5 static pages); all “Success” on 2026-04-12 with 63 discovered pages.
-- Headings: 7 pages missing `<h1>` (home, tags, contact, privacy, about, alcohol test, Vietnamese converter) — weakens semantics and CTR.
+- Headings: 7 pages missing `<h1>` (home, tags, contact, privacy, about, alcohol test, Vietnamese converter) - weakens semantics and CTR.
 - Internal linking: dynamic related-tools via `related-tools.js` loads tag-based links; hubs exist for PDF/ZIP/Image/Developer/Video/Device/Utility/Image-conversion. Reliance on client-side JS for related links means crawlers without execution may see fewer internal signals (though server render injects related section if available).
 
 ### Content & Engagement
 - GA4 (Home dashboard): 37K active users, 680K events (+7.8%), 144K key events (-4.4%), 55K views (+7.8%); active users last 30 mins: 39 (US 12, India 11). Channel mix last 7 days: Organic Search 50%, Direct 26%, Unassigned 14%, Referral 8%, Organic Social 4%.
-- GA4 top pages by views last 7 days: Compose/Zip/Remove-zip, Camera Test, LCD Test, MD5 converter, Home — confirms ZIP/PDF and device-test clusters lead engagement.
+- GA4 top pages by views last 7 days: Compose/Zip/Remove-zip, Camera Test, LCD Test, MD5 converter, Home - confirms ZIP/PDF and device-test clusters lead engagement.
 - GSC (3 months): 76.1K clicks, 1.3M impressions, CTR 5.9%, avg position 11.5. Top queries: “compress folder”, “folder compressor”, “zip file password remover online”, “md5 to text”.
 - GSC (last 28d vs prev): clicks 30K vs 22K (+36%), impressions 657K vs 283K (+132%), CTR 4.6% (down from 7.2%), avg position 9.4 (improved). Top pages by clicks: `/zip-file.html` (13.7K, +4.5K), `/remove-zip-password.html` (6.7K, +2.2K), `/md5-converter.html` (2.0K, +0.8K), `/camera-test.html` (1.1K, +0.75K), `/lcd-test.html` (0.9K, +0.79K).
-- Semrush Domain Overview (Apr 15): Authority Score ~32; est. organic traffic ~270K; organic keywords ~31K; backlinks ~2.2M. Positions and top changes dominated by ZIP/PDF compression/password themes — cannibalization risk.
+- Semrush Domain Overview (Apr 15): Authority Score ~32; est. organic traffic ~270K; organic keywords ~31K; backlinks ~2.2M. Positions and top changes dominated by ZIP/PDF compression/password themes - cannibalization risk.
 - AdSense (last 28d): Page RPM $3.24 (-32%), impressions 90.6K (+67%), clicks 875 (+79%), CPC $0.12 (+11%), CTR 2.67% (-16%). Revenue concentrated on Google Search traffic (~92%); desktop share ~57% → monetization efficiency is slipping despite traffic growth.
 
 ### Site Structure

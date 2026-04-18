@@ -1,4 +1,4 @@
-# SEO & holistic site analysis — freetoolonline.com
+# SEO & holistic site analysis - freetoolonline.com
 
 **Analyst lens:** Principal SEO (20+ years), 2026 search ecosystem  
 **Primary domain:** [https://freetoolonline.com](https://freetoolonline.com)  
@@ -24,17 +24,17 @@ The workspace snapshot did **not** include raster/PDF exports from that folder; 
 
 **What is working well**
 
-- **Performance:** Rendered-page timings are tight and consistent (min **2037 ms**, median **2120 ms**, p90 **2200 ms**, max **2565 ms** for domcontentloaded + 1.8 s — includes artificial wait). This matches the **“excellent CWV / fast TTFB”** narrative in the internal GSC-themed summary.
-- **Structured data coverage:** Live DOM shows **`WebApplication`** on **58** URLs, **`FAQPage`** on **43** (paired with tools that ship FAQ HTML), **`WebSite`** on the remaining **5** “info” style URLs — consistent with `buildWebApplicationJsonLd` / `buildFaqJsonLd` / `buildWebSiteJsonLd` in `page-renderer.mjs`.
+- **Performance:** Rendered-page timings are tight and consistent (min **2037 ms**, median **2120 ms**, p90 **2200 ms**, max **2565 ms** for domcontentloaded + 1.8 s - includes artificial wait). This matches the **“excellent CWV / fast TTFB”** narrative in the internal GSC-themed summary.
+- **Structured data coverage:** Live DOM shows **`WebApplication`** on **58** URLs, **`FAQPage`** on **43** (paired with tools that ship FAQ HTML), **`WebSite`** on the remaining **5** “info” style URLs - consistent with `buildWebApplicationJsonLd` / `buildFaqJsonLd` / `buildWebSiteJsonLd` in `page-renderer.mjs`.
 - **Spam-risk reduction:** `aggregateRating` is **not** hardcoded sitewide; the exporter can call the rating API (`loadAggregateRating` in `export-site.mjs`), which is the right direction for **March 2026 spam update** resilience *if* visible UI and JSON-LD stay aligned.
-- **Cluster logic:** Eight topical groups are **explicitly defined** in `scripts/seo-clusters.mjs` (hub route + member tools) — good **internal modeling** for related-tool and hub backlinks.
+- **Cluster logic:** Eight topical groups are **explicitly defined** in `scripts/seo-clusters.mjs` (hub route + member tools) - good **internal modeling** for related-tool and hub backlinks.
 
 **Highest-impact gaps**
 
 1. **Heading semantics:** **56 / 63** URLs show **more than one `<h1>`** in the rendered DOM (Playwright). That pattern usually **splits** the primary topic signal (snippets, accessibility, some quality heuristics).
-2. **Hub / collection schema:** Hubs still emit **`WebApplication`** JSON-LD (e.g. `/zip-tools.html`) — semantically weaker than **`CollectionPage` + `ItemList`** for category pages (see `page-renderer.mjs` hub detection via `isHubPage` / `endsWith('-tools.html')`).
-3. **Internal discovery of related tools:** Related tools are injected behind **`SEO_BLOCK:RELATED_TOOLS`** and **`related-tools.js`** — crawlers that weight **first HTML** see fewer contextual links than users see after JS.
-4. **Sitemap freshness:** Live `sitemap-*.xml` **omits `<lastmod>`** (verified via `curl`), while `sitemap-writer.mjs` **can** emit `lastmod` when CMS file mtimes resolve — production may be an older build or CMS paths not resolving at publish time.
+2. **Hub / collection schema:** Hubs still emit **`WebApplication`** JSON-LD (e.g. `/zip-tools.html`) - semantically weaker than **`CollectionPage` + `ItemList`** for category pages (see `page-renderer.mjs` hub detection via `isHubPage` / `endsWith('-tools.html')`).
+3. **Internal discovery of related tools:** Related tools are injected behind **`SEO_BLOCK:RELATED_TOOLS`** and **`related-tools.js`** - crawlers that weight **first HTML** see fewer contextual links than users see after JS.
+4. **Sitemap freshness:** Live `sitemap-*.xml` **omits `<lastmod>`** (verified via `curl`), while `sitemap-writer.mjs` **can** emit `lastmod` when CMS file mtimes resolve - production may be an older build or CMS paths not resolving at publish time.
 5. **Business / monetization pressure (from bundled-summary themes):** **AdSense revenue** and **query mix** stress are called out in [`ANALYSIS_SUMMARY.md`](./ANALYSIS_SUMMARY.md); **February 2026 Discover update** quality bar reinforces **thin or ad-first** experiences as risky for **Discover**, not only blue-link SEO.
 
 ---
@@ -51,8 +51,8 @@ The workspace snapshot did **not** include raster/PDF exports from that folder; 
 | **Validity** | Well-formed XML | Parsed from live responses |
 | **`<lastmod>`** | **Absent** on live child sitemaps | `curl` first lines show `<loc>` only; generator supports lastmod in `sitemap-writer.mjs` |
 | **Canonical** | Emitted per page | `renderMetaTags` → `<link rel="canonical" href="...">` in `page-renderer.mjs` |
-| **hreflang** | Single `alternate` with `hreflang` per page | Same function — **not** a full EN/VI matrix |
-| **JSON-LD** | `WebSite` / `WebApplication` / `FAQPage` | Parsed from rendered HTML; `@context` uses **`http://schema.org/`** in code — minor consistency opportunity vs `https` |
+| **hreflang** | Single `alternate` with `hreflang` per page | Same function - **not** a full EN/VI matrix |
+| **JSON-LD** | `WebSite` / `WebApplication` / `FAQPage` | Parsed from rendered HTML; `@context` uses **`http://schema.org/`** in code - minor consistency opportunity vs `https` |
 | **Meta author** | **Invalid pattern** | `<meta rel="author" ...>` should be `<link rel="author" ...>` per HTML5 |
 | **Cache headers** | Aggressive `no-cache` meta | May interact with CDN/browser caching strategy |
 | **Ratings** | Conditional `aggregateRating` | `export-site.mjs` + `buildWebApplicationJsonLd`; omit when API invalid |
@@ -70,13 +70,13 @@ The workspace snapshot did **not** include raster/PDF exports from that folder; 
 | **Tool pages** | Generally **strong**: FAQs drive **`FAQPage`** markup when `extractFaqItems` succeeds (`page-renderer.mjs`). |
 | **Hub pages** | Often **thin** vs best-practice pillar depth (internal summaries flag ~100–300 words); limits **topical authority** for clusters. |
 | **Homepage** | Title pattern **"Home Page - Free Tool Online"** under-uses commercial/utility keywords (prior analyses and CMS copy). |
-| **Vietnamese / niche tools** | Dedicated routes (e.g. Tiếq Việt converter, Đo nồng độ cồn) — good **long-tail** coverage; ensure **one H1** and consistent language meta. |
+| **Vietnamese / niche tools** | Dedicated routes (e.g. Tiếq Việt converter, Đo nồng độ cồn) - good **long-tail** coverage; ensure **one H1** and consistent language meta. |
 
 ### 2.3 Site structure
 
 - **Information architecture:** **Hubs** (`*-tools.html`) → **tools** (`*.html`) + **info** routes (`/`, `/about-us.html`, etc.).  
 - **Internal links:** Global nav + footer are **static HTML**; **related tools** load after **`DOMContentLoaded`** (`renderToolSections` in `page-renderer.mjs`).  
-- **Aliases:** `ALIAS_ROUTES` in `site-data.mjs` consolidates legacy URLs — good for consolidation; monitor GSC for **404** noise on old paths.
+- **Aliases:** `ALIAS_ROUTES` in `site-data.mjs` consolidates legacy URLs - good for consolidation; monitor GSC for **404** noise on old paths.
 
 ### 2.4 Clustering strategy
 
@@ -136,7 +136,7 @@ Official incident pages (fetched 2026-04-15):
 
 Focus: **minimal structural change**, **maximum SEO lift**, **low regression risk**.
 
-### Critical / high impact — low to medium effort
+### Critical / high impact - low to medium effort
 
 1. **Normalize to a single `<h1>` per page**  
    - **Change:** Demote nav / duplicate title heading to **`<p>`** or **`<div>`** with class, or merge into one visible title region.  
@@ -155,11 +155,11 @@ Focus: **minimal structural change**, **maximum SEO lift**, **low regression ris
    - **Change:** Ensure export runs with **`cmsRoot`** so `resolveLastmodForRoute` finds CMS files, or set **build timestamp** fallback consistently.  
    - **Impact:** Medium **freshness** signal; easier **debugging** in GSC.
 
-### Medium impact — low effort
+### Medium impact - low effort
 
 5. **Fix author markup:** replace invalid `<meta rel="author">` with `<link rel="author" href="...">`.  
 6. **Standardize JSON-LD `@context`** to `https://schema.org`.  
-7. **Homepage title + meta** — replace generic “Home Page” pattern with **keyword-led** title and **150–160 char** description (CMS + `renderMetaTags` home branch).
+7. **Homepage title + meta** - replace generic “Home Page” pattern with **keyword-led** title and **150–160 char** description (CMS + `renderMetaTags` home branch).
 
 ### Strategic (higher effort / longer horizon)
 

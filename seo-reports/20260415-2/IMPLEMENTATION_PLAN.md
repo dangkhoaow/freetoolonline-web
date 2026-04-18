@@ -86,12 +86,12 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 
 > **Two-Repo Execution & Rollout Gate**
 >
-> **Step 1 — Work in `./freetoolonline-web-test`**
+> **Step 1 - Work in `./freetoolonline-web-test`**
 > - Apply the change under `freetoolonline-web-test/`
 > - Run `npm run export` and validate output artifacts (HTML + sitemaps + JSON-LD)
 > - Run a lightweight crawl/verification pass focused on the changed SEO surface
 >
-> **Step 2 — Roll out to `./freetoolonline-web`**
+> **Step 2 - Roll out to `./freetoolonline-web`**
 > - Port the identical patch (no extra refactors)
 > - Re-run the same validations (`npm run export` + spot-check affected pages in `dist/`)
 > - Deploy + monitor (GSC coverage, structured data, crawl stats)
@@ -142,12 +142,12 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 
 > **Two-Repo Execution & Rollout Gate**
 >
-> **Step 1 — Work in `./freetoolonline-web-test`**
+> **Step 1 - Work in `./freetoolonline-web-test`**
 > - Apply the change under `freetoolonline-web-test/`
 > - Run `npm run export` and validate output artifacts (HTML + sitemaps + JSON-LD)
 > - Run a lightweight crawl/verification pass focused on the changed SEO surface
 >
-> **Step 2 — Roll out to `./freetoolonline-web`**
+> **Step 2 - Roll out to `./freetoolonline-web`**
 > - Port the identical patch (no extra refactors)
 > - Re-run the same validations (`npm run export` + spot-check affected pages in `dist/`)
 > - Deploy + monitor (GSC coverage, structured data, crawl stats)
@@ -164,9 +164,9 @@ Phase 2 is **structural cleanup with zero layout risk**: fix semantic HTML, comp
 | **Implementation difficulty** | **MEDIUM** (4-8 hours) |
 | **Risk level** | **LOW** -- No layout, UI, or CSS changes; same links and markup, rendered server-side instead of client-side |
 
-**Technical Notes — item 2.4**
+**Technical Notes - item 2.4**
 
-- **Requirement:** The GitHub Pages build must generate *the exact same* Related Tools list as `related-tools.js` — same selection rules, same ordering, same `<ul>` markup, same inline styles (e.g., `margin-top: 0px; display: block; padding-inline-start: 40px; list-style-type: disc;`), same `<li class="d-inline">` structure, same green tag links — while preserving current UI/CSS and client behavior.
+- **Requirement:** The GitHub Pages build must generate *the exact same* Related Tools list as `related-tools.js` - same selection rules, same ordering, same `<ul>` markup, same inline styles (e.g., `margin-top: 0px; display: block; padding-inline-start: 40px; list-style-type: disc;`), same `<li class="d-inline">` structure, same green tag links - while preserving current UI/CSS and client behavior.
 
 - **Implementation approach (in `scripts/page-renderer.mjs` or `scripts/export-site.mjs`):**
   1. Import `urlMaps` from the same source used by `related-tools.js` (or parse it from `source/web/.../static/script/related-tools.js` at build time).
@@ -299,7 +299,7 @@ These items are the fastest, safest changes with the highest immediate ROI:
 **Estimated total for all quick wins: ~4-6 hours**
 **Expected outcome: Clean heading hierarchy sitewide, proper meta tags, improved sitemap signals, breadcrumb rich snippets enabled (completed in staging + production).**
 
-> **Staging-first gate:** Every item in this table follows the same two-repo rollout — implement in `freetoolonline-web-test` → validate (`npm run export` + spot-check) → port identical change to `freetoolonline-web` → validate + deploy. Quick Wins do not bypass the `web-test` safety step.
+> **Staging-first gate:** Every item in this table follows the same two-repo rollout - implement in `freetoolonline-web-test` → validate (`npm run export` + spot-check) → port identical change to `freetoolonline-web` → validate + deploy. Quick Wins do not bypass the `web-test` safety step.
 
 ---
 

@@ -226,7 +226,7 @@ Repeat the following steps **in every cycle** until fully aligned:
 
 ---
 
-### **Step 1 — Cross-check (Plan vs Progress vs Reality)**
+### **Step 1 - Cross-check (Plan vs Progress vs Reality)**
 
 * Compare:
 
@@ -242,7 +242,7 @@ Repeat the following steps **in every cycle** until fully aligned:
 
 ---
 
-### **Step 2 — Full Rendered Audit (Mandatory)**
+### **Step 2 - Full Rendered Audit (Mandatory)**
 
 * Do NOT rely on static HTML
 * Use a **browser engine (e.g., Playwright)** with FULL PAGE HEIGHT, and refer config at ./freetoolonline-web-test/scripts/qa-visual-audit-20260416.mjs
@@ -275,7 +275,7 @@ Repeat the following steps **in every cycle** until fully aligned:
 
 ---
 
-### **Step 3 — Strict Visual QA Rules**
+### **Step 3 - Strict Visual QA Rules**
 
 Treat these as **REAL FAILURES**:
 
@@ -291,7 +291,7 @@ Treat these as **REAL FAILURES**:
 
 ---
 
-### **Step 4 — Layout Alignment Audit (Programmatic)**
+### **Step 4 - Layout Alignment Audit (Programmatic)**
 
 For each breakpoint:
 
@@ -319,7 +319,7 @@ Log results into PROGRESS:
 
 ---
 
-### **Step 5 — Fix & Re-verify (Staging Only)**
+### **Step 5 - Fix & Re-verify (Staging Only)**
 
 If ANY issue is found:
 

@@ -3,7 +3,7 @@
 - Traffic and revenue: GA4 shows 38k active users, 694k events, 145k key events, 57k views (last 28 days). AdSense last 7 days ~$30, month ~$67, CTR ~2.67%, page RPM ~$3 and page views ~33.5k (screenshot); monetization can improve via higher-value geos and layout/testing.
 - Top assets are ZIP/security utilities: /zip-file.html (19.4k clicks), /remove-zip-password.html (6.0k), MD5 converter (2.0k), device tests rising (LCD/camera). Queries heavily “compress folder/zip password” with high CTR; translated results contribute 4k clicks (Search appearance.csv).
 - Technical health is generally solid: Playwright crawl (63 URLs, 100% sitemap coverage) shows canonical+viewport on every page, valid breadcrumbs/FAQ/review rich results, HTTPS fully green, Core Web Vitals: 55 good URLs for mobile/desktop. Crawl stats: 7.08k requests/90d, 88 ms avg response, host healthy.
-- Indexing gap: GSC indexing shows 62 indexed vs 139 not indexed—mostly “Alternate page with proper canonical” (108) plus redirects and “crawled currently not indexed,” indicating duplication/canonical or thin-supporting pages.
+- Indexing gap: GSC indexing shows 62 indexed vs 139 not indexed-mostly “Alternate page with proper canonical” (108) plus redirects and “crawled currently not indexed,” indicating duplication/canonical or thin-supporting pages.
 - Clusters exist but are unbalanced: zip cluster drives majority of clicks; image/PDF/dev clusters under-monetized with low CTR and thin SERP coverage; related-tools clustering logic exists (scripts/seo-clusters.mjs) but some satellites (e.g., video-maker, QR, image optimizer) lack stronger semantic/contextual copy.
 
 ## Detailed Analysis
@@ -55,7 +55,7 @@
 **Medium Impact / Low Effort**
 - Cluster reinforcement: add contextual links within body copy of hubs to top-performing satellites and underperforming ones (e.g., from /zip-tools to /reduce-zip-size variants; from /image-tools to /photo-editor/insights-image-optimizer). Use existing related-tools system; avoid hardcoded blocks.
 - Localized snippets: add 1–2 localized sentences (ID/ES/VI) in BODYDESC/BODYHTML for pages with high translated-result clicks to improve snippet relevance without creating separate URLs.
-- Update sitemap source if any new satellites are promoted; ensure no orphan tools (tags.html currently zero clicks—either enrich with content or consider deindexing via robots meta if not needed).
+- Update sitemap source if any new satellites are promoted; ensure no orphan tools (tags.html currently zero clicks-either enrich with content or consider deindexing via robots meta if not needed).
 
 **Medium Impact / Medium Effort**
 - Add lightweight E-E-A-T cues: author/maintainer line, last-updated stamp, and usage safety notes (especially for security-related tools) to improve resilience to spam/core updates.

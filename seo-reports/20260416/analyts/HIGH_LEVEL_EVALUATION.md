@@ -10,9 +10,9 @@
 - Back-to-hub links on all tool pages
 
 ⚠️ **Issues Identified:**
-- **Hub pages not visible in navigation** — 8 hubs exist but don't rank in search (0 clicks)
-- **Mobile navigation unclear** — CTR 55% higher on mobile, but traffic only 19.9% (suggests UX problem)
-- **Internal linking sparse** — Tool-to-tool links missing; only hub backlinks present
+- **Hub pages not visible in navigation** - 8 hubs exist but don't rank in search (0 clicks)
+- **Mobile navigation unclear** - CTR 55% higher on mobile, but traffic only 19.9% (suggests UX problem)
+- **Internal linking sparse** - Tool-to-tool links missing; only hub backlinks present
 
 ### Interface Design
 ✅ **Strengths:**
@@ -22,9 +22,9 @@
 - File upload/drag-drop interfaces visible in screenshots
 
 ⚠️ **Issues:**
-- **Ad placement** — AdSense ads visible in mobile screenshots, may be interfering with tool interaction
-- **Tool accessibility** — Some tools require file upload; file picker may not work properly on all browsers
-- **Error messaging** — No clear error handling visible in screenshots
+- **Ad placement** - AdSense ads visible in mobile screenshots, may be interfering with tool interaction
+- **Tool accessibility** - Some tools require file upload; file picker may not work properly on all browsers
+- **Error messaging** - No clear error handling visible in screenshots
 
 ### Overall UX Rating: 7.5/10
 - Functional and clean, but lacks mobile-first considerations
@@ -73,17 +73,17 @@
 - Content is functional (tools actually work)
 
 ⚠️ **Weaknesses:**
-- **H1/Title duplication** — Many pages have identical H1 and title (no content hierarchy)
-- **Hub page content thin** — Hub pages lack unique value; may be pure aggregation
-- **Missing context** — Tool pages lack "why use this," "when to use," etc.
-- **No FAQ section visible** — Missed SEO opportunity despite having FAQ schema
+- **H1/Title duplication** - Many pages have identical H1 and title (no content hierarchy)
+- **Hub page content thin** - Hub pages lack unique value; may be pure aggregation
+- **Missing context** - Tool pages lack "why use this," "when to use," etc.
+- **No FAQ section visible** - Missed SEO opportunity despite having FAQ schema
 
 ### Content Specificity
-- **Zip Tools:** Excellent — Clear focus on ZIP file operations
-- **PDF Tools:** Excellent — Comprehensive coverage of PDF operations
-- **Image Tools:** Good — Mix of editing and conversion, but scattered
-- **Developer Tools:** Fair — Too broad (CSS, JS, JSON, MD5 mixed)
-- **Utility Tools:** Poor — 5 unrelated tools (Vietnamese text, QR code, time conversion)
+- **Zip Tools:** Excellent - Clear focus on ZIP file operations
+- **PDF Tools:** Excellent - Comprehensive coverage of PDF operations
+- **Image Tools:** Good - Mix of editing and conversion, but scattered
+- **Developer Tools:** Fair - Too broad (CSS, JS, JSON, MD5 mixed)
+- **Utility Tools:** Poor - 5 unrelated tools (Vietnamese text, QR code, time conversion)
 
 ### Content Quality Rating: 7/10
 - Functional content with good topical clustering
@@ -127,9 +127,9 @@ Home Page (/index.html)
 - Breadcrumb schema on all pages
 
 ⚠️ **Weaknesses:**
-- **Hubs not integrated into navigation** — Users can't easily discover hubs
-- **Limited lateral linking** — Tool A doesn't link to Tool B within same cluster
-- **Homepage visibility** — Homepage gets only 438 clicks (should be higher as entry point)
+- **Hubs not integrated into navigation** - Users can't easily discover hubs
+- **Limited lateral linking** - Tool A doesn't link to Tool B within same cluster
+- **Homepage visibility** - Homepage gets only 438 clicks (should be higher as entry point)
 
 ### Site Structure Rating: 8/10
 - Excellent conceptual design
@@ -153,16 +153,16 @@ Home Page (/index.html)
 ## 6. KEY OBSERVATIONS FOR SEO PROFESSIONALS
 
 ### Positive Signals
-1. **Static site generator advantage** — Perfect Core Web Vitals = no performance penalties
-2. **Topic clustering** — Clear topical authority structure
-3. **Mobile-first hints** — High mobile CTR suggests users interested despite traffic low
-4. **Query alignment** — Top queries map to top pages (good keyword strategy)
+1. **Static site generator advantage** - Perfect Core Web Vitals = no performance penalties
+2. **Topic clustering** - Clear topical authority structure
+3. **Mobile-first hints** - High mobile CTR suggests users interested despite traffic low
+4. **Query alignment** - Top queries map to top pages (good keyword strategy)
 
 ### Red Flags
-1. **Indexing disaster** — 69% of pages not indexed (likely canonical issue)
-2. **Mobile disconnect** — High CTR but low traffic suggests broken functionality
-3. **Hub invisibility** — Zero search visibility for category pages (wasted architecture)
-4. **CTR anomalies** — Some high-ranking pages have 0% CTR (title mismatch)
+1. **Indexing disaster** - 69% of pages not indexed (likely canonical issue)
+2. **Mobile disconnect** - High CTR but low traffic suggests broken functionality
+3. **Hub invisibility** - Zero search visibility for category pages (wasted architecture)
+4. **CTR anomalies** - Some high-ranking pages have 0% CTR (title mismatch)
 
 ---
 

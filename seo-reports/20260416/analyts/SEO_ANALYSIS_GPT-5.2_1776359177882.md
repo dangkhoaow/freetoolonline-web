@@ -1,4 +1,4 @@
-## SEO & Experience Analysis — freetoolonline.com (2026)
+## SEO & Experience Analysis - freetoolonline.com (2026)
 
 **Generated:** 2026-04-16  
 **Model identifier:** GPT-5.2  
@@ -133,13 +133,13 @@ freetoolonline.com has **strong technical SEO fundamentals** (fast server respon
 - Not indexed: **139**
   - Alternate page with proper canonical: **108**
   - Page with redirect: **13**
-  - Crawled — currently not indexed: **18**
+  - Crawled - currently not indexed: **18**
 
 **Interpretation**
 - A large portion of “not indexed” is consistent with **deliberate consolidation**:
   - **Alias routes** (`ALIAS_ROUTES` in `scripts/site-data.mjs`) export as redirect pages.
   - Parameterized discovery (e.g., `tags.html?tag=...`) canonicals back to the clean route.
-- The only bucket worth active intervention is **“crawled — currently not indexed”** (true quality/selection problems).
+- The only bucket worth active intervention is **“crawled - currently not indexed”** (true quality/selection problems).
 
 ### 2.6 Sitemap audit (structure, coverage, validity)
 
@@ -220,7 +220,7 @@ freetoolonline.com has **strong technical SEO fundamentals** (fast server respon
 
 ## 5. Recommendations (Prioritized by Impact, Minimal Structural Change)
 
-### Tier A — High impact, low risk (do first)
+### Tier A - High impact, low risk (do first)
 
 1. **CTR-first snippet optimization on the 5 pages that dominate impressions**
    - **Targets**: `/zip-file.html`, `/remove-zip-password.html`, `/heic-to-jpg.html`, `/lcd-test.html`, `/convert-time-in-millisecond-to-date.html`
@@ -236,19 +236,19 @@ freetoolonline.com has **strong technical SEO fundamentals** (fast server respon
    - Investigate the **2026-03-27 Unassigned spike**: UTM hygiene, channel rules, referral exclusions.
    - Outcome: make future SEO changes measurable (reduce false positives/negatives).
 
-### Tier B — Medium impact, still minimal structural change
+### Tier B - Medium impact, still minimal structural change
 
 4. **Align `related-tools.js` tags with `seo-clusters.mjs` membership**
    - Goal: reinforce topical clusters and reduce unrelated lateral linking.
    - Low-risk implementation: tighten tags (precision over recall) without changing UI/template.
 
-5. **Treat “crawled — currently not indexed” as a content-quality queue**
+5. **Treat “crawled - currently not indexed” as a content-quality queue**
    - For each URL in that bucket: verify uniqueness (examples, constraints, edge cases), strengthen the “why this tool is different” sections, and ensure internal links from hub + related tools are present.
 
 6. **Add light internal linking from info pages to hubs**
    - About/Contact/Privacy/Tags can link to hub pages in their existing CMS content (no layout changes), helping distribute authority.
 
-### Tier C — Longer-term moat (not structural, but high leverage)
+### Tier C - Longer-term moat (not structural, but high leverage)
 
 7. **Authority building for the ZIP + conversion clusters**
    - Semrush Authority Score (~16) indicates the biggest competitive gap is still **links + brand demand**, especially for broad head terms with AI Overviews.

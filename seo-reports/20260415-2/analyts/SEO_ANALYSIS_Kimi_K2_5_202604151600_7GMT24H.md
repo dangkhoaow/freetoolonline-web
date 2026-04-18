@@ -1,4 +1,4 @@
-# freetoolonline.com — Comprehensive SEO Analysis Report
+# freetoolonline.com - Comprehensive SEO Analysis Report
 
 **Analysis Date:** April 15, 2026 (16:00 GMT)  
 **Analyst:** 20-Year SEO Professional (2026 Algorithm Context)  
@@ -34,10 +34,10 @@
 
 **Critical Issues Requiring Immediate Attention:**
 - 🔴 **Duplicate `<h1>` tags** on all pages (navigation title + page title both use `<h1>`)
-- 🔴 **Related tools links rendered via JavaScript only** — not crawlable in static HTML
-- 🔴 **Hub pages too thin** (100-200 words) — vulnerable to Helpful Content Update
-- 🔴 **Missing `<lastmod>` in sitemap** — reduces crawl freshness signals
-- 🔴 **Invalid `<meta rel="author">` syntax** — should be `<link rel="author">`
+- 🔴 **Related tools links rendered via JavaScript only** - not crawlable in static HTML
+- 🔴 **Hub pages too thin** (100-200 words) - vulnerable to Helpful Content Update
+- 🔴 **Missing `<lastmod>` in sitemap** - reduces crawl freshness signals
+- 🔴 **Invalid `<meta rel="author">` syntax** - should be `<link rel="author">`
 - ⚠️ **Traffic concentration risk:** ~60% of clicks from ZIP tools cluster only
 
 ---
@@ -60,7 +60,7 @@
 
 | Issue | Location | Impact | Severity |
 |-------|----------|--------|----------|
-| `user-scalable=no` on viewport | All pages | Accessibility concern — prevents zooming | Medium |
+| `user-scalable=no` on viewport | All pages | Accessibility concern - prevents zooming | Medium |
 | Duplicate `<h1>` tags | All pages | Confuses semantic structure, splits ranking signals | High |
 | Thin hub pages | 8 hub pages | <300 words typical, weak topical authority | High |
 | Missing breadcrumb navigation | All pages | Reduced context for users and crawlers | Low |
@@ -90,10 +90,10 @@
 | FAQ sections | 100-300 words | Good | ✅ Good |
 
 **Content Issues:**
-1. **Hub pages lack depth** — No unique value beyond tool listings
-2. **Missing comparative content** — No "vs" or comparison content for related tools
-3. **Thin meta descriptions** — Many <100 characters
-4. **Generic titles on some pages** — Privacy page previously showed as "Home Page..."
+1. **Hub pages lack depth** - No unique value beyond tool listings
+2. **Missing comparative content** - No "vs" or comparison content for related tools
+3. **Thin meta descriptions** - Many <100 characters
+4. **Generic titles on some pages** - Privacy page previously showed as "Home Page..."
 
 ### 2.2 Technical SEO Deep Dive
 
@@ -105,7 +105,7 @@
 | `WebApplication` | Tool pages | ✅ Present | API-backed ratings; semantically correct |
 | `WebApplication` | Hub pages | ⚠️ Present | Should be `CollectionPage` |
 | `FAQPage` | Tool pages with FAQ | ✅ Present | Correctly extracted from HTML |
-| `AggregateRating` | Per-page API values | ✅ Present | Varied ratings (1.6-4.7 range) — credible |
+| `AggregateRating` | Per-page API values | ✅ Present | Varied ratings (1.6-4.7 range) - credible |
 | `BreadcrumbList` | Missing | 🔴 Missing | Should be added for all pages |
 | `@context` | Mixed HTTP/HTTPS | ⚠️ Minor | Should standardize to HTTPS |
 
@@ -137,12 +137,12 @@
 |---------|---------------|-------|--------|
 | `<title>` | Format: `{Title} - Free Tool Online` | Generic on some info pages | Medium |
 | `<meta name="description">` | Thin (<100 chars typical) | Low CTR potential | Medium |
-| `<h1>` | **Two per page** — nav title + body title | 🔴 Confuses topic signal | **High** |
+| `<h1>` | **Two per page** - nav title + body title | 🔴 Confuses topic signal | **High** |
 | `<h2>`-`<h6>` | Proper hierarchy on tool pages | None | ✅ Good |
 | `canonical` | Present on all pages | None | ✅ Good |
 | `hreflang` | Only `en-us` present | Missing `vi-vn` for Vietnamese pages | Medium |
 | `robots` | Only on staging (noindex) | None | ✅ Good |
-| `author` | `<meta rel="author">` | 🔴 Invalid HTML — should be `<link>` | Low |
+| `author` | `<meta rel="author">` | 🔴 Invalid HTML - should be `<link>` | Low |
 
 **Critical Issue: Duplicate H1 Tags**
 
@@ -193,7 +193,7 @@ The `navPageName` div is styled as a navigation element but is not semantically 
 ```
 
 **Missing in Sitemaps:**
-- No `<lastmod>` tags — from `sitemap-writer.mjs` (line 33), the tag is conditionally added based on file modification time
+- No `<lastmod>` tags - from `sitemap-writer.mjs` (line 33), the tag is conditionally added based on file modification time
 - The code exists but may not be detecting file changes properly
 - Impact: Reduced crawl freshness signals
 
@@ -337,7 +337,7 @@ const ALIAS_ROUTES = {
 | Uniform rating pattern (spam signal) | ✅ Ratings now vary by page | Pattern eliminated |
 
 **Vulnerabilities Remaining:**
-1. Rating API credibility — ensure ratings come from real user interactions
+1. Rating API credibility - ensure ratings come from real user interactions
 2. Low review counts on some pages may still trigger scrutiny
 3. Recommendation: Add threshold (e.g., show rating only if count ≥ 10)
 
@@ -362,7 +362,7 @@ const ALIAS_ROUTES = {
 
 ---
 
-## 4. Key Issues — Root Cause Analysis
+## 4. Key Issues - Root Cause Analysis
 
 ### 4.1 Issue #1: Duplicate `<h1>` Tags (High Impact)
 
@@ -511,29 +511,29 @@ const jsonLd = isHubPage
 
 | Priority | Action | Expected Impact | Effort | Timeline |
 |----------|--------|-----------------|--------|----------|
-| 1.1 | **Fix duplicate `<h1>`** — Demote nav title to `<span>` | Medium-High SEO impact | Low (1-2 hours) | Immediate |
-| 1.2 | **Fix invalid author tag** — Change `<meta rel="author">` to `<link rel="author">` | Low impact, credibility | Trivial (15 min) | Immediate |
-| 1.3 | **Add `<lastmod>` to sitemap** — Fix file detection logic | Medium (crawl freshness) | Low (2-3 hours) | 1-2 days |
-| 1.4 | **Standardize `@context` to HTTPS** — Update schema.org URLs | Minor consistency | Trivial (30 min) | Immediate |
+| 1.1 | **Fix duplicate `<h1>`** - Demote nav title to `<span>` | Medium-High SEO impact | Low (1-2 hours) | Immediate |
+| 1.2 | **Fix invalid author tag** - Change `<meta rel="author">` to `<link rel="author">` | Low impact, credibility | Trivial (15 min) | Immediate |
+| 1.3 | **Add `<lastmod>` to sitemap** - Fix file detection logic | Medium (crawl freshness) | Low (2-3 hours) | 1-2 days |
+| 1.4 | **Standardize `@context` to HTTPS** - Update schema.org URLs | Minor consistency | Trivial (30 min) | Immediate |
 
 ### 5.2 Tier 2: High-Impact Medium Effort
 
 | Priority | Action | Expected Impact | Effort | Timeline |
 |----------|--------|-----------------|--------|----------|
-| 2.1 | **Pre-render related tools links** — Generate static `<ul>` at build time | **High** (internal PR + crawl) | Medium (4-8 hours) | 1-2 weeks |
-| 2.2 | **Convert hub schema to CollectionPage** — Add ItemList with tools | Medium (rich results) | Medium (4-6 hours) | 1-2 weeks |
-| 2.3 | **Expand hub content** — 400-600 words per hub | Medium-High (E-E-A-T) | Medium-High (4-8 hrs/hub) | 2-4 weeks |
-| 2.4 | **Add BreadcrumbList schema** — Navigation path markup | Medium (understanding) | Medium (3-4 hours) | 1-2 weeks |
-| 2.5 | **Add hreflang for Vietnamese pages** — EN/VI pairs | Medium (intl. queries) | Medium (3-5 hours) | 1-2 weeks |
+| 2.1 | **Pre-render related tools links** - Generate static `<ul>` at build time | **High** (internal PR + crawl) | Medium (4-8 hours) | 1-2 weeks |
+| 2.2 | **Convert hub schema to CollectionPage** - Add ItemList with tools | Medium (rich results) | Medium (4-6 hours) | 1-2 weeks |
+| 2.3 | **Expand hub content** - 400-600 words per hub | Medium-High (E-E-A-T) | Medium-High (4-8 hrs/hub) | 2-4 weeks |
+| 2.4 | **Add BreadcrumbList schema** - Navigation path markup | Medium (understanding) | Medium (3-4 hours) | 1-2 weeks |
+| 2.5 | **Add hreflang for Vietnamese pages** - EN/VI pairs | Medium (intl. queries) | Medium (3-5 hours) | 1-2 weeks |
 
 ### 5.3 Tier 3: Strategic Initiatives (Higher Effort)
 
 | Priority | Action | Expected Impact | Effort | Timeline |
 |----------|--------|-----------------|--------|----------|
-| 3.1 | **Diversify traffic clusters** — Expand Image, Dev tools content | Medium-High (risk reduction) | High (weeks) | Months |
-| 3.2 | **Implement user review system** — Real ratings for credibility | Medium (trust) | High (backend + frontend) | Months |
-| 3.3 | **Add comparison content** — Tool vs tool pages | Medium (long-tail) | Medium-High | Months |
-| 3.4 | **Create formal cluster landing pages** — Enhanced hub structure | Medium (navigation) | Medium | 1-2 months |
+| 3.1 | **Diversify traffic clusters** - Expand Image, Dev tools content | Medium-High (risk reduction) | High (weeks) | Months |
+| 3.2 | **Implement user review system** - Real ratings for credibility | Medium (trust) | High (backend + frontend) | Months |
+| 3.3 | **Add comparison content** - Tool vs tool pages | Medium (long-tail) | Medium-High | Months |
+| 3.4 | **Create formal cluster landing pages** - Enhanced hub structure | Medium (navigation) | Medium | 1-2 months |
 
 ### 5.4 Implementation Priority Matrix
 
@@ -618,10 +618,10 @@ ORT │   Fix author tag   │   User review      │
 freetoolonline.com is a well-structured static site with excellent performance fundamentals. The March 2026 critical issues (fake ratings) have been resolved, and the site now uses API-backed, varied ratings per page.
 
 **Primary opportunities:**
-1. **Semantic HTML fixes** — Duplicate H1 is the highest-impact quick win
-2. **Internal link optimization** — Pre-render related tools for full crawl visibility
-3. **Hub page expansion** — Build topical authority with deeper content
-4. **Schema refinement** — Correct CollectionPage markup for hubs
+1. **Semantic HTML fixes** - Duplicate H1 is the highest-impact quick win
+2. **Internal link optimization** - Pre-render related tools for full crawl visibility
+3. **Hub page expansion** - Build topical authority with deeper content
+4. **Schema refinement** - Correct CollectionPage markup for hubs
 
 ### Immediate Action Plan (This Week)
 

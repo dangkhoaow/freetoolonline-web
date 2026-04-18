@@ -1,4 +1,4 @@
-# freetoolonline.com — SEO Analysis
+# freetoolonline.com - SEO Analysis
 
 **Date (UTC):** 2026-04-15 13:37  
 **Model:** GPT4o  
@@ -24,7 +24,7 @@
 - **Structured data**:  
   - `WebApplication` emitted globally (including hubs) from `page-renderer.mjs`; `@context` mixed http/https.  
   - `FAQPage` JSON-LD appears on **44 pages** where FAQ HTML exists.  
-  - `AggregateRating` now API-backed (varied values) — spam risk reduced.  
+  - `AggregateRating` now API-backed (varied values) - spam risk reduced.  
   - No `BreadcrumbList`; no hreflang pairing for EN/VI.  
 - **Sitemap / robots**: `sitemap.xml` has **no `<lastmod>`**, single-level URLs only; `robots.txt` allows all, lists sitemap.  
 - **Internal linking**: nav/footer links are server-rendered; **related tools are injected via `/static/script/related-tools.js` at runtime**, so crawl-time link graph is weaker. Link counts high (e.g., `/photo-editor.html` 127 links) but hub/tool crosslinks are JS-only.  
@@ -49,7 +49,7 @@
 ---
 
 ## 3) Impact of Google Core Updates
-- **March 2026 Spam Update**: Primary risk (fake ratings) mitigated — API-backed, varied ratings; keep counts credible and visible.  
+- **March 2026 Spam Update**: Primary risk (fake ratings) mitigated - API-backed, varied ratings; keep counts credible and visible.  
 - **February 2026 Helpful Content Update**: Hubs remain thin → risk for demotion; broaden topical depth and schema clarity.  
 - **Crawl/CWV context (GSC)**: 55/55 good CWV and ~89 ms TTFB support fast recrawl; leverage with improved semantic signals.
 
@@ -61,7 +61,7 @@
 3) **Related-tools links JS-only**, so internal graph is under-exposed in HTML.  
 4) **Sitemap freshness absent** (no `<lastmod>`), reducing crawl cues.  
 5) **Missing hreflang/breadcrumbs** for EN/VI and hierarchy clarity.  
-6) **AdSense revenue gap** despite traffic growth (GA4 +20%, GSC 1.3M impressions) — tied to ZIP-heavy mix and thin hubs.
+6) **AdSense revenue gap** despite traffic growth (GA4 +20%, GSC 1.3M impressions) - tied to ZIP-heavy mix and thin hubs.
 
 ---
 
@@ -81,9 +81,9 @@
 
 ---
 
-## Appendix — Crawl & Data Notes
+## Appendix - Crawl & Data Notes
 - **Crawl method**: Chromium headless via Playwright across all sitemap URLs; all **63 pages = 200**, avg load 0.64s, p95 1.13s, max 4.2s.  
 - **Coverage**: Sitemap index (curl) → tools/hubs/pages XML fetched; wget unavailable on host; no fetch errors.  
-- **Content depth examples**: Low — `/tags.html` 78 words, `/video-tools.html` 110; High — `/heic-to-jpg.html` 1,335, `/qr-code-generator.html` 1,323.  
+- **Content depth examples**: Low - `/tags.html` 78 words, `/video-tools.html` 110; High - `/heic-to-jpg.html` 1,335, `/qr-code-generator.html` 1,323.  
 - **Link density**: Highest `/photo-editor.html` (127 links); nav/footer + related-tools JS drive counts.  
 - **Analytics references**: GSC ~76K clicks / 1.3M impressions (3mo); GA4 ~37K users/mo; AdSense ~$106/28d (−85% YoY); Semrush Authority 18, ~1,920 queries.

@@ -1,4 +1,4 @@
-# SEO & Site Analysis — freetoolonline.com
+# SEO & Site Analysis - freetoolonline.com
 
 **Analyst lens:** Senior SEO (20+ years), 2026 search ecosystem  
 **Live verification:** Playwright (Chromium) full render of all sitemap URLs; `curl` for `robots.txt` and XML sitemaps  
@@ -17,8 +17,8 @@ Google Analytics 4, Google AdSense, Google Search Console (performance, Core Web
 **Highest-impact findings**
 
 1. **Heading semantics:** On **56 of 63** sitemap URLs, the rendered DOM contains **more than one `<h1>`**, which dilutes the primary topic signal for snippets and accessibility. This is visible in the live shell (e.g. tool + hub-style titling) and aligns with header/content patterns in `page-renderer.mjs`.
-2. **Review / rating structured data:** **50** tool URLs include `aggregateRating` in the rendered HTML (JSON-LD path). The codebase **already** sources ratings from the live API at build time (`loadAggregateRating` in `export-site.mjs`), which is the correct direction for **trust** and for **March 2026 spam-update** resilience—provided ratings stay aligned with visible on-page review UI and are not perceived as decorative.
-3. **Sitemaps:** **Valid sitemap index** (`/sitemap.xml`) → three children (`sitemap-tools.xml` **50** URLs, `sitemap-hubs.xml` **8**, `sitemap-pages.xml` **5**). **Total 63** URLs—aligned with route inventory. **Production XML currently omits `<lastmod>`** on sampled URLs (curl), reducing freshness signaling versus what the generator supports when CMS mtimes resolve (`sitemap-writer.mjs`).
+2. **Review / rating structured data:** **50** tool URLs include `aggregateRating` in the rendered HTML (JSON-LD path). The codebase **already** sources ratings from the live API at build time (`loadAggregateRating` in `export-site.mjs`), which is the correct direction for **trust** and for **March 2026 spam-update** resilience-provided ratings stay aligned with visible on-page review UI and are not perceived as decorative.
+3. **Sitemaps:** **Valid sitemap index** (`/sitemap.xml`) → three children (`sitemap-tools.xml` **50** URLs, `sitemap-hubs.xml` **8**, `sitemap-pages.xml` **5**). **Total 63** URLs-aligned with route inventory. **Production XML currently omits `<lastmod>`** on sampled URLs (curl), reducing freshness signaling versus what the generator supports when CMS mtimes resolve (`sitemap-writer.mjs`).
 4. **Clusters:** Eight topical clusters are **explicitly encoded** in `seo-clusters.mjs` (hub route + member tools). Internal linking is reinforced in HTML for nav/footer; **related tools** are still bootstrapped via script (`SEO_BLOCK:RELATED_TOOLS` in `page-renderer.mjs`), which limits how much link equity and anchor diversity search engines see in the **initial HTML**.
 5. **Google updates (see §3):** The **March 2026 spam update** and **February 2026 Discover update** reinforce **quality, trust, and spam-pattern avoidance** (reviews, thin hubs, ad-heavy low-value pages). The site should prioritize **demonstrable quality** on hubs and **honest structured data** over aggressive templates.
 
@@ -40,7 +40,7 @@ Google Analytics 4, Google AdSense, Google Search Console (performance, Core Web
 | **Canonical** | Present on sampled pages | Playwright: `link[rel=canonical]` resolved on `/`, `/heic-to-jpg.html`, hubs |
 | **JSON-LD** | `WebSite` on home; `WebApplication` on tools; FAQ when FAQ HTML exists; optional `aggregateRating` | `page-renderer.mjs`; live DOM script count |
 | **Meta** | Description and robots handled in export; aggressive cache-control meta | `renderMetaTags` in `page-renderer.mjs` |
-| **Author link** | Invalid pattern: `<meta rel="author" ...>` | `page-renderer.mjs` — should be `link rel="author"` for standards compliance |
+| **Author link** | Invalid pattern: `<meta rel="author" ...>` | `page-renderer.mjs` - should be `link rel="author"` for standards compliance |
 
 **Crawl / render methodology**
 
@@ -50,21 +50,21 @@ Google Analytics 4, Google AdSense, Google Search Console (performance, Core Web
 **Rendered SEO signals (63 URLs, Playwright)**
 
 - **Duplicate / multiple H1:** **56** pages with `h1` count **> 1** (tool and hub templates dominate).
-- **Meta description present:** **0** URLs with empty description in this pass (many are **short**, e.g. privacy **33** characters—still a content-quality issue for CTR).
+- **Meta description present:** **0** URLs with empty description in this pass (many are **short**, e.g. privacy **33** characters-still a content-quality issue for CTR).
 - **`aggregateRating` in HTML:** **50** pages (tool pages; hubs/info excluded by `showRating` logic in `export-site.mjs`).
 
 ### 2.2 Content
 
 - **Tool pages:** Generally strongest: FAQs (when provided in CMS), operational copy, and JSON-LD FAQ pipeline in `page-renderer.mjs` support rich-result eligibility.
-- **Hub pages:** Often function as **navigation + lists**; for **topical authority** (especially post–core-update expectations), hubs may still read as **thin** versus competitors’ long-form category guides (word count and unique framing—not fully scored here).
-- **Language / markets:** Clusters include Vietnamese utility pages; `hreflang` is limited to a single alternate in meta generation—**VI/EN pairs** may be under-modeled for international clarity.
+- **Hub pages:** Often function as **navigation + lists**; for **topical authority** (especially post–core-update expectations), hubs may still read as **thin** versus competitors’ long-form category guides (word count and unique framing-not fully scored here).
+- **Language / markets:** Clusters include Vietnamese utility pages; `hreflang` is limited to a single alternate in meta generation-**VI/EN pairs** may be under-modeled for international clarity.
 - **Analytics / monetization (bundle):** AdSense and GA4 screenshots in `raw/fto-seo-pages/` provide **business context** (traffic mix, revenue). Interpret together with GSC **search analytics** exports: concentration in a small set of high-traffic tools is a **strategic risk** if algorithms shift; diversification via **hub depth** and **supporting content** is lower-risk than chasing new tool URLs alone.
 
 ### 2.3 Site structure
 
 - **Hierarchy:** Home → **8 hub** routes (`*-tools.html`) → **50** tool routes + **informational** routes (`about`, `contact`, `privacy`, `tags`, home).
 - **Internal linking:** Global nav + footers provide stable internal links. **Related tools** are injected after load via `related-tools.js` (see `renderToolSections` / `SEO_BLOCK:RELATED_TOOLS` in `page-renderer.mjs`), so **crawlers primarily see the script**, not a full static `<a href>` list in the first HTML chunk.
-- **Aliases:** `ALIAS_ROUTES` in `site-data.mjs` consolidates legacy URLs—good for consolidation if redirects/export paths are consistently enforced.
+- **Aliases:** `ALIAS_ROUTES` in `site-data.mjs` consolidates legacy URLs-good for consolidation if redirects/export paths are consistently enforced.
 
 ### 2.4 Clustering strategy (existing + implementation)
 
@@ -74,7 +74,7 @@ Clusters are **first-class in code**: `SEO_CLUSTER_GROUPS` in `seo-clusters.mjs`
 
 - **Hub content depth:** Hubs risk being **category menus** unless each hub earns **unique, query-targeted copy** (definitions, use cases, comparisons).
 - **Cross-link graph in HTML:** The ideal cluster has **dense, crawlable** links among siblings; **JS-loaded related tools** delays or hides that graph from static analysis.
-- **Schema on hubs:** Tool pages carry `WebApplication`; hubs could use **`CollectionPage` + `ItemList`** (or similar) to explicitly describe the cluster—**not observed** as a dedicated pattern in the snippets reviewed.
+- **Schema on hubs:** Tool pages carry `WebApplication`; hubs could use **`CollectionPage` + `ItemList`** (or similar) to explicitly describe the cluster-**not observed** as a dedicated pattern in the snippets reviewed.
 
 ---
 
@@ -85,7 +85,7 @@ References: [March 2026 spam update](https://status.search.google.com/incidents/
 ### March 2026 spam update (global, ranking impact)
 
 - **Theme:** Spam **quality**; Google explicitly ties to [spam updates](https://developers.google.com/search/docs/appearance/spam-updates) documentation.
-- **Site relevance:** Uniform or **fabricated** review stars are a classic spam signal. This codebase **fetches** `ajax/get-rating` during export (`export-site.mjs`) and only emits JSON-LD when numeric payload validates—**aligned with “real data”**. Continued risk if: (a) on-page UI does not reflect the same ratings, or (b) patterns revert to **identical** values across pages.
+- **Site relevance:** Uniform or **fabricated** review stars are a classic spam signal. This codebase **fetches** `ajax/get-rating` during export (`export-site.mjs`) and only emits JSON-LD when numeric payload validates-**aligned with “real data”**. Continued risk if: (a) on-page UI does not reflect the same ratings, or (b) patterns revert to **identical** values across pages.
 - **Action:** Treat **rating JSON-LD** as **audit-sensitive**: monitor GSC **rich result** reports and **manual actions**; keep rating display and schema synchronized.
 
 ### February 2026 Discover update (English US; ranking on Discover surfaces)
@@ -116,7 +116,7 @@ References: [March 2026 spam update](https://status.search.google.com/incidents/
 
 **Legend:** Impact **H** = high, **M** = medium, **L** = low · Effort **L/M/H** · Structural change **minimal** where noted.
 
-### Tier 1 — High impact, minimal structural change
+### Tier 1 - High impact, minimal structural change
 
 1. **Fix single-H1 semantics (Impact H, Effort M, structural: low)**  
    - Reserve **one** visible `h1` per URL (primary tool or hub title). Demote secondary titles to `h2` / `p` with classes.  
@@ -134,7 +134,7 @@ References: [March 2026 spam update](https://status.search.google.com/incidents/
    - Target &lt;120 char descriptions first (privacy, short CMS pages).  
    - **Why:** CTR and query matching without template rewrites.
 
-### Tier 2 — Medium impact
+### Tier 2 - Medium impact
 
 5. **Hub copy expansion (Impact M, Effort M–H)**  
    - 400–600 words unique per hub: who it’s for, tasks, safety, comparisons, internal links to top tools.  
@@ -148,7 +148,7 @@ References: [March 2026 spam update](https://status.search.google.com/incidents/
    - Tighten `applicationCategory` / consider `SoftwareApplication` where appropriate; add `ItemList` on hubs.  
    - **Why:** Clearer entity typing; potential rich enhancements.
 
-### Tier 3 — Ongoing governance
+### Tier 3 - Ongoing governance
 
 8. **Rating JSON-LD monitoring (Impact H for risk reduction, Effort L ongoing)**  
    - Quarterly audit: JSON-LD vs visible stars vs API payload; watch GSC enhancements.  
@@ -172,5 +172,5 @@ References: [March 2026 spam update](https://status.search.google.com/incidents/
 
 ## Change summary (repository)
 
-- **Added:** `seo-reports/20260415-2/analyts/SEO_ANALYSIS_Composer_Auto_20260415204931_7GMT24H.md` — consolidated audit (live crawl + code + bundled analytics exports + Google incident notes).  
+- **Added:** `seo-reports/20260415-2/analyts/SEO_ANALYSIS_Composer_Auto_20260415204931_7GMT24H.md` - consolidated audit (live crawl + code + bundled analytics exports + Google incident notes).  
 - **No application source files were modified** for this deliverable.

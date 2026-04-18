@@ -224,7 +224,7 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 ### MEDIUM PRIORITY -- Do This Month
 
 **Inputs required (now tracked):**
-- ✅ GSC Coverage drilldown: **Crawled — currently not indexed** (18 URLs, export 2026-04-17)
+- ✅ GSC Coverage drilldown: **Crawled - currently not indexed** (18 URLs, export 2026-04-17)
 - ✅ GSC Crawl Stats (4XX response detail, export 2026-04-17)
 - ✅ EN↔VI pairing: **none** (treat Vietnamese routes as VI-only; use `x-default` to EN homepage)
 
@@ -249,14 +249,14 @@ Phase 4 is **CTR-first and measurement-enabled**: fix the analytics attribution 
 |-----------|--------|
 | **Status (GSC 2026-04-17)** | ⏳ 18 URLs in this bucket; only one is an index-worthy canonical hub (`/device-test-tools.html`). The rest are variants/resources/legacy paths |
 | **Report consensus** | 12/12 reports note the indexing gap (62 indexed vs 139 not indexed) |
-| **Issue** | GSC drilldown shows 18 URLs “crawled — currently not indexed”. This set includes a mix of real pages and non-target URLs (assets, tag parameters, legacy paths). The most important actionable item is the canonical hub `/device-test-tools.html` |
+| **Issue** | GSC drilldown shows 18 URLs “crawled - currently not indexed”. This set includes a mix of real pages and non-target URLs (assets, tag parameters, legacy paths). The most important actionable item is the canonical hub `/device-test-tools.html` |
 | **Root cause** | Not a single root cause across all 18. Likely contributors: thin hub content in production (`/device-test-tools.html`), URL variant churn (`?v`, `tags.html?tag=...`), and relative-path quirks that generate accidental URLs (e.g., `/unzip-file.html/image/file-type/`) |
 | **Recommended fix** | (1) **Recover the canonical hub**: roll out the enriched hub content + meta description for `/device-test-tools.html` from `web-test` → `web`, then request re-indexing. (2) **Stop generating accidental URLs**: fix `BODYJSunzipfile.html` to rewrite file-tree icon URLs robustly to the CDN (covers `/unzip-file.html/image/file-type/`). (3) **Deprioritize non-target URLs**: accept that assets, sitemaps, tag filters, and legacy redirect URLs may be crawled without indexing; focus effort on pages that should rank |
 | **Expected SEO impact** | **MEDIUM-HIGH** -- Recovering 18 quality-excluded pages could add meaningful long-tail traffic |
 | **Implementation difficulty** | **MEDIUM** (2-4 hours investigation + 2-3 hours per page content fixes) |
 | **Risk level** | **LOW** -- Additive content only |
 
-**GSC drilldown URL list (18) — Crawled, currently not indexed (export 2026-04-17):**
+**GSC drilldown URL list (18) - Crawled, currently not indexed (export 2026-04-17):**
 - `https://freetoolonline.com/device-test-tools.html`
 - `https://freetoolonline.com/script/related-tools.js?v`
 - `https://freetoolonline.com/tags.html?tag=resize`

@@ -1,4 +1,4 @@
-# freetoolonline.com — SEO Analysis (Rendered Crawl + Codebase Review)
+# freetoolonline.com - SEO Analysis (Rendered Crawl + Codebase Review)
 
 **Date (GMT+7):** 2026-04-15 20:00  
 **Analyst:** 20-year SEO professional (2026 context)  

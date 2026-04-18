@@ -60,22 +60,22 @@ High-level overview structured for decision-makers:
 ## 📊 Audit Methodology
 
 ### Data Sources
-1. **Live Playwright Crawl** — Chromium-based rendering of 14 representative URLs
+1. **Live Playwright Crawl** - Chromium-based rendering of 14 representative URLs
    - Full DOM capture
    - Navigation timing metrics
    - JSON-LD extraction
    - Performance baseline
 
-2. **Codebase Analysis** — Deep dive into SEO-critical files
+2. **Codebase Analysis** - Deep dive into SEO-critical files
    - `scripts/page-renderer.mjs` (template, schema generation)
    - `scripts/export-site.mjs` (rating API integration)
    - Structured data generation logic
 
-3. **Synthesis of Prior Audits** — 8 comprehensive reports from April 2026
+3. **Synthesis of Prior Audits** - 8 comprehensive reports from April 2026
    - Convergent findings on schema, linking, structure
    - Validation of fixes claimed in `IMPLEMENTATION_PLAN.md`
 
-4. **Analytics Context** — From prior reports
+4. **Analytics Context** - From prior reports
    - GSC: 76.1K clicks, 1.3M impressions (3 months)
    - GA4: 37K monthly users (+20.4%)
    - AdSense: $106.33/28d (−85% vs prior)
@@ -87,23 +87,23 @@ High-level overview structured for decision-makers:
 
 ### Tier 1: Quick Wins (High Impact, Low Effort)
 **Timeline: 1–3 hours each**
-1. **Fix duplicate `<h1>` tags** — Demote nav title to `<p>` (Medium–High impact)
-2. **Remove invalid author meta** — Syntax error cleanup (Low impact, trust signal)
-3. **Add sitemap `<lastmod>`** — Crawl freshness signal (Medium impact)
-4. **Audit AdSense policy** — Revenue problem diagnosis (Critical for business)
+1. **Fix duplicate `<h1>` tags** - Demote nav title to `<p>` (Medium–High impact)
+2. **Remove invalid author meta** - Syntax error cleanup (Low impact, trust signal)
+3. **Add sitemap `<lastmod>`** - Crawl freshness signal (Medium impact)
+4. **Audit AdSense policy** - Revenue problem diagnosis (Critical for business)
 
 ### Tier 2: High-Impact Medium Effort
 **Timeline: 4–8 hours each**
-1. **Pre-render related-tools links in HTML** — Unlock full internal link graph (High impact)
-2. **Convert hubs from WebApplication to CollectionPage** — Better schema typing (Medium impact)
-3. **Enrich hub copy to 400–600 words** — Build topical authority (Medium–High impact)
-4. **Add proper hreflang tags** — Support EN/VI language pairs (Medium impact)
+1. **Pre-render related-tools links in HTML** - Unlock full internal link graph (High impact)
+2. **Convert hubs from WebApplication to CollectionPage** - Better schema typing (Medium impact)
+3. **Enrich hub copy to 400–600 words** - Build topical authority (Medium–High impact)
+4. **Add proper hreflang tags** - Support EN/VI language pairs (Medium impact)
 
 ### Tier 3: Strategic, Higher Effort
 **Timeline: Weeks**
-1. **Diversify traffic beyond ZIP cluster** — Reduce business risk (Medium–High impact)
-2. **Implement real user review system** — Strengthen rating credibility (Medium impact)
-3. **Create formal cluster landing pages** — Formalize SEO clustering (Medium impact)
+1. **Diversify traffic beyond ZIP cluster** - Reduce business risk (Medium–High impact)
+2. **Implement real user review system** - Strengthen rating credibility (Medium impact)
+3. **Create formal cluster landing pages** - Formalize SEO clustering (Medium impact)
 
 ---
 
@@ -179,12 +179,12 @@ High-level overview structured for decision-makers:
 
 ### March 2026 Spam Update
 **Target:** Scaled manipulation (fake reviews, AI spam)  
-**Site status:** ✅ **Mitigated** — No longer shows uniform fake ratings  
+**Site status:** ✅ **Mitigated** - No longer shows uniform fake ratings  
 **Recommendation:** Audit rating API to ensure counts are real user reviews
 
 ### February 2026 Helpful Content Update
 **Target:** Thin, unhelpful pages  
-**Site status:** ⚠️ **At Risk** — Hub pages vulnerable due to thin content  
+**Site status:** ⚠️ **At Risk** - Hub pages vulnerable due to thin content  
 **Recommendation:** Prioritize hub content expansion
 
 ---

@@ -200,7 +200,7 @@ Two incidents were explicitly included in this audit scope:
 
 > Prioritized by impact with minimal structural change and maximum SEO upside.
 
-### P1 — Immediate (1–2 days, low effort)
+### P1 - Immediate (1–2 days, low effort)
 1. **Introduce a build-time content validation pass** (in `export-site.mjs` pipeline) for:
    - missing/short `description` (<140 chars target),
    - missing `h1` on non-home pages,
@@ -214,7 +214,7 @@ Two incidents were explicitly included in this audit scope:
    - align committed `sitemap.xml` semantics with live split-sitemap contract,
    - ensure source artifacts are the same logical shape as emitted files.
 
-### P2 — High impact (1–2 weeks)
+### P2 - High impact (1–2 weeks)
 4. **Rewrite short meta copy for 42 weak pages**:
    - unique, intent-oriented description patterns,
    - include exact/near-exact long-tail variants where relevant,
@@ -224,7 +224,7 @@ Two incidents were explicitly included in this audit scope:
    - every page with notable impressions should include 4–8 practical Q&A pairs,
    - this supports both snippet expansion and trust signals.
 
-### P3 — Clustering upgrades (2–4 weeks)
+### P3 - Clustering upgrades (2–4 weeks)
 6. **Deepen cluster hub pages (especially ZIP and PDF)**:
    - each hub should include:
      - short comparison matrix,
@@ -237,7 +237,7 @@ Two incidents were explicitly included in this audit scope:
    - PDF ↔ developer utilities,
    to improve topical flow and reduce rank-only dependence on direct query match.
 
-### P4 — Monetization-aware UX (parallel to SEO)
+### P4 - Monetization-aware UX (parallel to SEO)
 8. **Retain CTR-first page UX** for high-traffic landing pages:
    - reduce noise between primary call-to-action and analytics-ad-related sections,
    - test title/meta + lead section variants with low-risk A/B changes,

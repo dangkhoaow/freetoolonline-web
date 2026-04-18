@@ -163,7 +163,7 @@ Key opportunity: **tighten tags** to reduce irrelevant cross-cluster linking (ex
 - Risk areas for this site category:
   - scaled/templated pages that feel thin or repetitive
   - over-optimized headings/keyword stuffing patterns
-  - misleading structured data (ratings, reviews) — your current build-time API rating fetch is safer than hardcoded schema, but reliability matters
+  - misleading structured data (ratings, reviews) - your current build-time API rating fetch is safer than hardcoded schema, but reliability matters
 
 ## Key Issues (Root Causes)
 
@@ -174,7 +174,7 @@ Key opportunity: **tighten tags** to reduce irrelevant cross-cluster linking (ex
 
 ## Recommendations (prioritized by impact, minimal structural change first)
 
-### P0 — Do immediately (protect & grow rankings)
+### P0 - Do immediately (protect & grow rankings)
 
 - **Fix to exactly one `<h1>` per page**
   - Convert the secondary `<h1>` on tool pages into `<h2>` (or `<p>` styled as a headline).
@@ -186,7 +186,7 @@ Key opportunity: **tighten tags** to reduce irrelevant cross-cluster linking (ex
   - Keep layout unchanged: append content below the existing hub header/tool list.
   - Expected impact: boosts hub authority + improves cluster distribution.
 
-### P1 — High impact, low/medium effort
+### P1 - High impact, low/medium effort
 
 - **Tighten `related-tools.js` taxonomy**
   - Remove cross-cluster tags from hub definitions unless they are truly core (e.g., avoid tagging ZIP hub with `pdf` unless you want deliberate cross-cluster mixing).
@@ -200,7 +200,7 @@ Key opportunity: **tighten tags** to reduce irrelevant cross-cluster linking (ex
   - Add `<time itemprop="dateUpdated">…</time>` to the 15 pages missing it (home + hubs are top priority).
   - This aligns with sitemap `<lastmod>` and supports freshness expectations after core updates.
 
-### P2 — Medium impact (CTR + SERP feature improvements)
+### P2 - Medium impact (CTR + SERP feature improvements)
 
 - **Improve snippet CTR on high-impression pages**
   - GSC shows impressions grew much faster than clicks (CTR dropped from 7.2% → 4.6%).
@@ -210,7 +210,7 @@ Key opportunity: **tighten tags** to reduce irrelevant cross-cluster linking (ex
   - Focus on the top-performing tools first; keep FAQs short, practical, and truthful.
   - Benefit: better on-page completeness, possible rich result eligibility (where supported).
 
-### P3 — Opportunistic technical hardening
+### P3 - Opportunistic technical hardening
 
 - **Audit 4xx sources from Crawl stats**
   - 6% of crawl responses are 4xx; identify the top broken URLs and either restore, redirect (301), or remove internal links.

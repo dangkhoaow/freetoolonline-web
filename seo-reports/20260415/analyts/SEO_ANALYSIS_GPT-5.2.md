@@ -1,4 +1,4 @@
-## SEO Analysis — `freetoolonline.com`
+## SEO Analysis - `freetoolonline.com`
 
 - **Analysis date**: 2026-04-15
 - **Model**: GPT-5.2
@@ -110,7 +110,7 @@
 
 - Rendered crawl: **58/63 pages** include `WebApplication` JSON‑LD **with `aggregateRating`**.
 - **Root cause**: hardcoded JSON‑LD in `freetoolonline-web/scripts/page-renderer.mjs` for all non-info pages.
-- **Risk (2026)**: high after the **March 2026 spam update**—hardcoded ratings across dozens of pages is a well-known spam signature.
+- **Risk (2026)**: high after the **March 2026 spam update**-hardcoded ratings across dozens of pages is a well-known spam signature.
 
 #### Hreflang / language signals
 
@@ -126,7 +126,7 @@
 - Internal linking systems:
   - **Sidebar navigation** (static HTML)
   - **Hub backlinks** from `seo-clusters.mjs` (build-time injected)
-  - **Related tools** (`source/web/.../static/script/related-tools.js`) — JS-rendered, but confirmed to render in headless Chrome DOM dumps.
+  - **Related tools** (`source/web/.../static/script/related-tools.js`) - JS-rendered, but confirmed to render in headless Chrome DOM dumps.
 - **Important nuance**: many “related tools” links include **UTM query params** (e.g. `utm_medium=relatedtools`). Canonicals prevent indexing duplication, but these params can still:
   - waste crawl on parameter variants
   - pollute GA4 attribution (internal clicks look like new campaign traffic)
@@ -135,14 +135,14 @@
 #### Sitemap quality
 
 - Structure is excellent and matches GSC “Success” status.
-- **Gap**: no `<lastmod>`—Google still uses `lastmod` as a crawl scheduling hint. Adding it is low effort and helps with re-crawl efficiency.
+- **Gap**: no `<lastmod>`-Google still uses `lastmod` as a crawl scheduling hint. Adding it is low effort and helps with re-crawl efficiency.
 
 ### Content & topical authority
 
 - Strength: many spokes (tool pages) include real explanatory content + FAQs.
 - Gaps:
   - Hub pages and info pages often lack “Last updated” and FAQ blocks (crawl counts: **15 without last updated**, **14 without FAQ**).
-  - 2026 core systems reward “helpful, experienced” content—hubs should be mini-guides, not only lists.
+  - 2026 core systems reward “helpful, experienced” content-hubs should be mini-guides, not only lists.
 
 ### Clustering strategy (existing + implementation)
 

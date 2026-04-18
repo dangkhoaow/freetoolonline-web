@@ -31,14 +31,14 @@ The workspace does not currently contain the `./freetoolonline-web/seo-reports/2
 
 **freetoolonline.com** is a **static-export**, GitHub Pages–hosted utility site (~**63** canonical URLs in sitemaps) organized as **eight topical clusters** (hubs) feeding **~50 tool pages** plus a small set of **informational pages**. Technically it is in **strong shape**: production sitemaps are **valid, split, and fully discoverable**; the **April 15, 2026 Playwright crawl achieved 100% success** with rich JSON-LD on tool pages.
 
-**Business / search picture (dashboard synthesis):** strong **impression and click growth** in recent windows, but **CTR compression** versus earlier periods, **low off-site authority** (Semrush authority score and referring domains), and **revenue concentration** tied to a narrow query/tool mix (notably ZIP-related demand). **Core Web Vitals** in GSC have been reported as **all good** for indexed URLs — a major 2026 advantage.
+**Business / search picture (dashboard synthesis):** strong **impression and click growth** in recent windows, but **CTR compression** versus earlier periods, **low off-site authority** (Semrush authority score and referring domains), and **revenue concentration** tied to a narrow query/tool mix (notably ZIP-related demand). **Core Web Vitals** in GSC have been reported as **all good** for indexed URLs - a major 2026 advantage.
 
 **Highest-leverage SEO themes for 2026:**
 
 1. **Trust and manipulation risk:** The **March 2026 spam update** rewards honest, verifiable signals and punishes patterns that look like **scaled schema manipulation**. The codebase has moved toward **API-backed ratings** and **FAQPage** JSON-LD; ongoing compliance means **never** reintroducing uniform fake ratings and keeping structured data aligned with visible page content.
 2. **Internal linking depth:** **Related tools** are still primarily **hydrated in the browser** (`related-tools.js`). Crawlers that do not execute JS (or execute late) under-count this portion of the **internal link graph**. **Server-side or build-time** rendering of the same links is the **largest structural SEO win** with a bounded code change.
-3. **On-page semantics:** **Duplicate `<h1>`** patterns (navigation/title vs. hero) appeared on **56 of 63** Playwright-checked URLs — a **low-effort, high-clarity** fix for headings and snippet selection.
-4. **Discover / engagement surfaces:** The **February 2026 Discover core update** (US English first) stresses **overall content quality** and user satisfaction on feeds — relevant if you pursue Discover; it reinforces the same **E-E-A-T** and **thin hub** concerns as core search.
+3. **On-page semantics:** **Duplicate `<h1>`** patterns (navigation/title vs. hero) appeared on **56 of 63** Playwright-checked URLs - a **low-effort, high-clarity** fix for headings and snippet selection.
+4. **Discover / engagement surfaces:** The **February 2026 Discover core update** (US English first) stresses **overall content quality** and user satisfaction on feeds - relevant if you pursue Discover; it reinforces the same **E-E-A-T** and **thin hub** concerns as core search.
 
 ---
 
@@ -48,14 +48,14 @@ The workspace does not currently contain the `./freetoolonline-web/seo-reports/2
 
 **Strengths**
 
-- **Familiar utility layout:** top bar, clear page title, tool body, secondary blocks — predictable for repeat users.
+- **Familiar utility layout:** top bar, clear page title, tool body, secondary blocks - predictable for repeat users.
 - **Dark/light toggle** and donation CTAs are visible without overwhelming the tool area.
 - **Mobile-first meta** and fixed nav patterns match how utility sites are used on phones.
 
 **Friction / polish**
 
 - **`user-scalable=no`** on the viewport (`page-renderer.mjs` meta block) is a **usability and accessibility** negative; it does not help SEO directly but can indirectly affect engagement signals on some surfaces.
-- **Two `<h1>` elements** on most tool pages (nav block + main hero) create **ambiguous primary topic** for browsers and assistive tech — confirmed in rendered DOM via Playwright (`multiH1Count: 56` across the crawl).
+- **Two `<h1>` elements** on most tool pages (nav block + main hero) create **ambiguous primary topic** for browsers and assistive tech - confirmed in rendered DOM via Playwright (`multiH1Count: 56` across the crawl).
 - **Informational pages** (about, contact, privacy, tags) correctly show **no** “related tools” block; Playwright measured **`.relatedTools` innerHTML length 0** on those routes only (expected).
 
 ### 2.2 Performance (speed, loading behavior)
@@ -73,7 +73,7 @@ The workspace does not currently contain the `./freetoolonline-web/seo-reports/2
 
 **Rendered behavior (Playwright)**
 
-- Pages load **WebApplication + FAQPage** JSON-LD on many tools; **aggregateRating** appears on **50** URLs in JSON-LD text — consistent with **per-tool** schema, not sitewide boilerplate.
+- Pages load **WebApplication + FAQPage** JSON-LD on many tools; **aggregateRating** appears on **50** URLs in JSON-LD text - consistent with **per-tool** schema, not sitewide boilerplate.
 - **Related tools** container is **non-empty in initial HTML** on **58** tool/hub-style URLs in this crawl; **empty** only on routes **without** that section (home + 4 info pages).
 
 **AdSense / third parties**
@@ -84,8 +84,8 @@ The workspace does not currently contain the `./freetoolonline-web/seo-reports/2
 
 **Tool pages**
 
-- Typically include **instructional copy**, **FAQ HTML**, and sometimes **long-form headings** — appropriate depth for long-tail queries.
-- **Meta descriptions** averaged **~103 characters** across crawled pages — usable but often **below** the 140–160 character band that maximizes SERP snippet control in competitive SERPs.
+- Typically include **instructional copy**, **FAQ HTML**, and sometimes **long-form headings** - appropriate depth for long-tail queries.
+- **Meta descriptions** averaged **~103 characters** across crawled pages - usable but often **below** the 140–160 character band that maximizes SERP snippet control in competitive SERPs.
 
 **Hub pages**
 
@@ -100,16 +100,16 @@ The workspace does not currently contain the `./freetoolonline-web/seo-reports/2
 **Information architecture**
 
 - **Home** → **8 hub pages** (`zip-tools.html`, `pdf-tools.html`, …) → **tool detail pages** → **supporting info** (`about-us.html`, `privacy-policy.html`, `contact-us.html`, `tags.html`).
-- **Aliases** in `site-data.mjs` consolidate legacy URLs — good for continuity; monitor GSC for **4xx** noise from external links to retired paths.
+- **Aliases** in `site-data.mjs` consolidate legacy URLs - good for continuity; monitor GSC for **4xx** noise from external links to retired paths.
 
 **Internal linking**
 
 - **Global nav + footer** provide a **baseline mesh**.
-- **Related tools** add **dense cross-links** inside each topical neighborhood **after JS runs** — valuable for users and PageRank flow, but **under-credited** if not pre-rendered.
+- **Related tools** add **dense cross-links** inside each topical neighborhood **after JS runs** - valuable for users and PageRank flow, but **under-credited** if not pre-rendered.
 
 **Rendering model**
 
-- Static HTML from `export-site.mjs` + **client enhancement** for related tools and star ratings UI — sound for performance, but **SEO-critical links should be mirrored in HTML** where possible.
+- Static HTML from `export-site.mjs` + **client enhancement** for related tools and star ratings UI - sound for performance, but **SEO-critical links should be mirrored in HTML** where possible.
 
 ---
 
@@ -117,10 +117,10 @@ The workspace does not currently contain the `./freetoolonline-web/seo-reports/2
 
 | Signal | Finding |
 |--------|---------|
-| **Canonicals** | Present on sampled pages; home uses `https://freetoolonline.com` (no trailing slash) — ensure **one** preferred host variant sitewide. |
+| **Canonicals** | Present on sampled pages; home uses `https://freetoolonline.com` (no trailing slash) - ensure **one** preferred host variant sitewide. |
 | **hreflang** | Single `alternate` per page in `page-renderer.mjs`; **EN/VI** or multi-market expansion would need a fuller map. |
-| **Robots** | Production: indexable; staging uses `noindex` in renderer — correct pattern. |
-| **Structured data** | `WebSite` on home; `WebApplication` + optional `aggregateRating` + `FAQPage` on tools — **good coverage** post-recent fixes. |
+| **Robots** | Production: indexable; staging uses `noindex` in renderer - correct pattern. |
+| **Structured data** | `WebSite` on home; `WebApplication` + optional `aggregateRating` + `FAQPage` on tools - **good coverage** post-recent fixes. |
 | **Invalid author tag** | `<meta rel="author" ...>` is **non-standard**; should be `<link rel="author" href="...">` if kept. |
 
 **Hierarchy issue:** duplicate **H1** pairs dilute the **single primary heading** Google prefers for page understanding.
@@ -170,7 +170,7 @@ The workspace does not currently contain the `./freetoolonline-web/seo-reports/2
 **Assessment**
 
 - **Strategy is correct** (hub-and-spoke for topical authority).
-- **Execution gap:** hub pages should carry **more unique, query-aligned copy**, internal links into **money tools**, and **FAQ or HowTo** blocks where appropriate — **without** changing the overall URL scheme.
+- **Execution gap:** hub pages should carry **more unique, query-aligned copy**, internal links into **money tools**, and **FAQ or HowTo** blocks where appropriate - **without** changing the overall URL scheme.
 
 **Traffic concentration risk**
 
@@ -212,19 +212,19 @@ The workspace does not currently contain the `./freetoolonline-web/seo-reports/2
 
 Impact: **H** = high, **M** = medium, **L** = low. Effort: **low** = minimal structural change.
 
-### P0 — **H impact, low–medium effort (do first)**
+### P0 - **H impact, low–medium effort (do first)**
 
 1. **Pre-render “Related tools” links in static HTML** (keep JS as enhancement).  
    - **Why:** Largest **internal linking** gain for crawlers; matches how Google still weights **HTML anchors**.  
    - **Where:** `export-site.mjs` / `page-renderer.mjs` + reuse logic from `seo-clusters.mjs` / `related-tools.js`.
 
 2. **Resolve duplicate `<h1>` (one primary H1 per view)**.  
-   - **Why:** Clearer topical signal, better accessibility, cleaner snippets — **markup-only** in header/body templates.
+   - **Why:** Clearer topical signal, better accessibility, cleaner snippets - **markup-only** in header/body templates.
 
 3. **Expand meta descriptions** on high-impression URLs (top 20 from GSC).  
    - **Why:** **CTR recovery** without new URLs; aligns with observed **CTR compression**.
 
-### P1 — **H–M impact, low risk**
+### P1 - **H–M impact, low risk**
 
 4. **Strengthen hub pages** (300–600 words unique per hub + 3–6 deep links to priority tools).  
    - **Why:** Improves **cluster authority** and **Discover/search quality** alignment.
@@ -235,16 +235,16 @@ Impact: **H** = high, **M** = medium, **L** = low. Effort: **low** = minimal str
 6. **Add or refine `<lastmod>` in sitemaps** from build metadata or CMS.  
    - **Why:** Better **recrawl scheduling**; no user-visible change.
 
-### P2 — **M impact**
+### P2 - **M impact**
 
 7. **BreadcrumbList JSON-LD** on tools and hubs (if not already universal).  
    - **Why:** Additional SERP features; reinforces **hierarchy**.
 
-8. **Hreflang strategy** if Vietnamese pages are strategic — only if you commit to **paired** URLs and content.
+8. **Hreflang strategy** if Vietnamese pages are strategic - only if you commit to **paired** URLs and content.
 
 9. **GSC 4xx audit** → add **aliases** for legacy inbound URLs (`ALIAS_ROUTES` pattern).
 
-### P3 — **Ongoing**
+### P3 - **Ongoing**
 
 10. **Monitor post–spam-update** rankings and **enhancements** reports for schema or spam flags.  
 11. **Diversify demand** beyond ZIP-heavy queries via **new tools** or **content** in weaker clusters.
@@ -269,5 +269,5 @@ Impact: **H** = high, **M** = medium, **L** = low. Effort: **low** = minimal str
 
 - **Created** `freetoolonline-web/seo-reports/2026041520_7GMT/analyts/SEO_ANALYSIS_Composer.md` with executive summary, technical/content/structure/cluster analysis, Google update tie-in, root causes, and prioritized recommendations.
 - **Verified** production **robots**, **sitemap index**, and **child sitemaps** via **`curl`** (63 URLs); **`wget`** unavailable here.
-- **Ran** full-site **`scripts/seo-playwright-audit-temp.mjs`** (Playwright Chromium) against all sitemap URLs — **63/63** success.
+- **Ran** full-site **`scripts/seo-playwright-audit-temp.mjs`** (Playwright Chromium) against all sitemap URLs - **63/63** success.
 - **Cross-referenced** `IMPLEMENTATION_PLAN.md`, `ANALYSIS_SUMMARY.md`, `seo-clusters.mjs`, and `page-renderer.mjs` for codebase-grounded conclusions.

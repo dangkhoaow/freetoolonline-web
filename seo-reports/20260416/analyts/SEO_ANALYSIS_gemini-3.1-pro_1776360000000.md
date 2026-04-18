@@ -19,7 +19,7 @@ However, while the technical foundation is robust, the site faces challenges wit
   * **H2 Tags:** Categorization tags like `[ 'BROWSE BY CATEGORY', 'POPULAR TOOLS', 'GET MORE DONE IN ONE PLACE' ]`
   * **Internal Links:** 92 highly accessible anchor links on the homepage, allowing efficient crawler propagation to deep tool pages.
 * **Core Web Vitals:** Flawless. 55 URLs recognized as "Good" on both Mobile and Desktop, largely attributed to the static-build methodology (`scripts/export-site.mjs` exporting pre-compiled HTML).
-* **Indexing & HTTPS:** 62 indexed pages out of 139 discovered. The unindexed pages largely consist of "Alternate page with proper canonical tag" (108 URLs)—a sign that your canonicalization (`PAGECANO.txt` config) is functioning correctly. However, 18 pages are "Crawled - currently not indexed", indicating Googlebot views them as thin or duplicative.
+* **Indexing & HTTPS:** 62 indexed pages out of 139 discovered. The unindexed pages largely consist of "Alternate page with proper canonical tag" (108 URLs)-a sign that your canonicalization (`PAGECANO.txt` config) is functioning correctly. However, 18 pages are "Crawled - currently not indexed", indicating Googlebot views them as thin or duplicative.
 
 ### 2.2 Site Structure & Codebase Architecture
 * **Static Export Architecture:** The codebase uses a bespoke build script (`export-site.mjs`) that resolves `.html` routes using template merging (`loadSharedFragments`, `loadCmsPageData`). This completely eliminates TTFB (Time to First Byte) latency typical of dynamic Next.js/React setups, providing an enormous competitive advantage in Core Web Vitals.

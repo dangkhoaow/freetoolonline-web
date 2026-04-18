@@ -55,12 +55,12 @@
 📊 **Location:** `raw/` directory
 
 **Includes:**
-- `crawl-results.json` — Website structure and metadata analysis
-- `Queries.csv` — Top 1,300 search queries (28-day performance)
-- `Pages.csv` — Top 63 pages by clicks
-- `Devices.csv` — Desktop/Mobile/Tablet breakdown
-- `Countries.csv` — Geographic traffic distribution
-- `Search appearance.csv` — HTTPS, breadcrumb, FAQ status
+- `crawl-results.json` - Website structure and metadata analysis
+- `Queries.csv` - Top 1,300 search queries (28-day performance)
+- `Pages.csv` - Top 63 pages by clicks
+- `Devices.csv` - Desktop/Mobile/Tablet breakdown
+- `Countries.csv` - Geographic traffic distribution
+- `Search appearance.csv` - HTTPS, breadcrumb, FAQ status
 - Screenshots (14 images):
   - Google AdSense performance
   - GA4 analytics overview
@@ -76,7 +76,7 @@
   - Semrush organic changes
   - Semrush organic positions
   - Semrush analytics
-- `seo-report-20260416.pdf` — Semrush analysis
+- `seo-report-20260416.pdf` - Semrush analysis
 
 ---
 
@@ -120,10 +120,10 @@
 - **Core Web Vitals:** 55/55 passing (100%) ✅
 
 ### Top Issues
-1. **Indexing Crisis** (CRITICAL) — 69% of pages not indexed (-50-70% traffic)
-2. **Mobile Gap** (HIGH) — 19.9% mobile traffic (should be 55%) (-30-50% growth)
-3. **Hub Invisibility** (HIGH) — 8 hubs = 0 clicks (wasted authority)
-4. **CTR Collapse** (MEDIUM) — 6 pages with 0% CTR despite ranking
+1. **Indexing Crisis** (CRITICAL) - 69% of pages not indexed (-50-70% traffic)
+2. **Mobile Gap** (HIGH) - 19.9% mobile traffic (should be 55%) (-30-50% growth)
+3. **Hub Invisibility** (HIGH) - 8 hubs = 0 clicks (wasted authority)
+4. **CTR Collapse** (MEDIUM) - 6 pages with 0% CTR despite ranking
 
 ### Action Plan
 | Priority | Task | Effort | Impact |
@@ -154,13 +154,13 @@
 
 ## 🔬 DATA SOURCES
 
-✅ **Google Search Console** — 201 pages, 62 indexed, 30K+ clicks  
-✅ **Google Analytics 4** — 38K+ users, 694K events, 57K+ page views  
-✅ **Core Web Vitals Report** — 55/55 pages passing  
-✅ **Google AdSense** — $59.65 earnings, ad performance  
-✅ **Semrush** — Organic rankings, position changes  
-✅ **Website Crawler** — Sitemap structure, internal links  
-✅ **Google Core Update Status** — Recovery analysis  
+✅ **Google Search Console** - 201 pages, 62 indexed, 30K+ clicks  
+✅ **Google Analytics 4** - 38K+ users, 694K events, 57K+ page views  
+✅ **Core Web Vitals Report** - 55/55 pages passing  
+✅ **Google AdSense** - $59.65 earnings, ad performance  
+✅ **Semrush** - Organic rankings, position changes  
+✅ **Website Crawler** - Sitemap structure, internal links  
+✅ **Google Core Update Status** - Recovery analysis  
 
 ---
 

@@ -11,23 +11,23 @@ This directory is the **documentation hub** for the SEO program: implementation 
 
 ## Quick navigation (wired index)
 
-### Phase 4 — `20260416/` (CTR recovery + AI-overview defense)
+### Phase 4 - `20260416/` (CTR recovery + AI-overview defense)
 
 - **Plan**: [`20260416/IMPLEMENTATION_PLAN.md`](./20260416/IMPLEMENTATION_PLAN.md)
 - **Progress**: [`20260416/IMPLEMENTATION_PROGRESS.md`](./20260416/IMPLEMENTATION_PROGRESS.md)
 - **Analysis index**: [`20260416/analyts/INDEX.md`](./20260416/analyts/INDEX.md)
 
-### Phase 3 — `20260415-3/` (content depth + semantic completeness)
+### Phase 3 - `20260415-3/` (content depth + semantic completeness)
 
 - **Plan**: [`20260415-3/IMPLEMENTATION_PLAN.md`](./20260415-3/IMPLEMENTATION_PLAN.md)
 - **Analysis index**: [`20260415-3/analyts/INDEX.md`](./20260415-3/analyts/INDEX.md)
 
-### Phase 2 — `20260415-2/` (structural optimization)
+### Phase 2 - `20260415-2/` (structural optimization)
 
 - **Plan**: [`20260415-2/IMPLEMENTATION_PLAN.md`](./20260415-2/IMPLEMENTATION_PLAN.md)
 - **Analysis index**: [`20260415-2/analyts/INDEX.md`](./20260415-2/analyts/INDEX.md)
 
-### Phase 1 — `20260415/` (trust cleanup + structural fixes)
+### Phase 1 - `20260415/` (trust cleanup + structural fixes)
 
 - **Plan**: [`20260415/IMPLEMENTATION_PLAN.md`](./20260415/IMPLEMENTATION_PLAN.md)
 - **Analyses**: See the folder [`20260415/analyts/`](./20260415/analyts/)

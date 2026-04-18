@@ -4,7 +4,7 @@
 
 freetoolonline.com is **technically solid** (clean canonicals, consistent meta, valid split sitemaps, strong schema coverage) and **fast at the edge** (GSC crawl stats show **89ms avg response time**; Core Web Vitals show **55 “Good” URLs** on both mobile and desktop). A full **Playwright-rendered crawl of 63/63 sitemap URLs** succeeded with **0 failures** and **0 duplicate titles/canonicals**, confirming stable rendering and indexability.
 
-The biggest SEO headroom is **not crawlability**—it’s **semantic + content quality signals on a small set of high-visibility pages** and **cluster reinforcement**:
+The biggest SEO headroom is **not crawlability**-it’s **semantic + content quality signals on a small set of high-visibility pages** and **cluster reinforcement**:
 
 - **7 important pages are missing an `<h1>`**, including the **homepage** and key trust pages (About/Contact/Privacy/Tags).
 - High-traffic “upload tools” show a **large above-fold loading state** (“Finding optimal server…”) that can hurt perceived performance and engagement.
@@ -27,7 +27,7 @@ The biggest SEO headroom is **not crawlability**—it’s **semantic + content q
   - Hub pages are clean and scannable (short intro + clear tool list + related tools).
 - **Friction points**
   - **Homepage** is visually attractive (hero image + short pitch) but **weak as a navigational gateway**: primary discovery relies on search/autocomplete and “Popular tools” JS population (less explicit browsing).
-  - Upload-based tools (e.g., ZIP/FFmpeg flows) show a **large blank loader** before the upload UI appears, which can increase bounce—especially on mobile.
+  - Upload-based tools (e.g., ZIP/FFmpeg flows) show a **large blank loader** before the upload UI appears, which can increase bounce-especially on mobile.
   - Tags page is “functionally correct” but **looks thin** (tag cloud only) and doesn’t explain the site’s primary clusters clearly.
 
 ### Performance (speed + loading behavior)
@@ -177,7 +177,7 @@ The biggest SEO headroom is **not crawlability**—it’s **semantic + content q
 ### March 2026 spam update (global)
 
 - Spam systems increasingly penalize manipulative patterns and reward genuinely useful experiences.
-- Your data suggests **no negative hit**—in fact, the last-28-days GSC comparison shows **strong growth** during the period that includes the March 24–25 rollout.
+- Your data suggests **no negative hit**-in fact, the last-28-days GSC comparison shows **strong growth** during the period that includes the March 24–25 rollout.
 - The main “spam-adjacent” risks for this site are structural, not “link spam”:
   - Thin/JS-dependent trust pages
   - Over-broad related-tools cross-linking
@@ -198,7 +198,7 @@ The biggest SEO headroom is **not crawlability**—it’s **semantic + content q
 
 ## Recommendations (Prioritized by Impact Level)
 
-### P0 — High impact, minimal structural change
+### P0 - High impact, minimal structural change
 
 - **Add one clear `<h1>` + 1–2 sentence intro** to the 7 pages missing H1 (especially `/`, About, Contact, Privacy, Tags).
   - Keep existing copy (append-only); just add semantic scaffolding.
@@ -212,7 +212,7 @@ The biggest SEO headroom is **not crawlability**—it’s **semantic + content q
   - Enforce a **single primary cluster tag** per tool (one of the 8 hubs).
   - Modify related-tools selection to **prefer same-cluster links first**, then fall back to secondary attribute tags.
 
-### P1 — Medium impact
+### P1 - Medium impact
 
 - **Strengthen hub pages as true “pillar” pages**
   - Add original guidance: “which tool to use”, workflows, common mistakes, short FAQ; keep list of tools.
@@ -226,7 +226,7 @@ The biggest SEO headroom is **not crawlability**—it’s **semantic + content q
 - **Remove legacy UA `analytics.js` if GA4 via GTM is authoritative**
   - Reduces third-party weight and avoids double-counting/measurement noise.
 
-### P2 — Lower impact / hygiene
+### P2 - Lower impact / hygiene
 
 - **Add `Organization` JSON-LD and a `WebSite` SearchAction** (site has a strong internal search affordance).
 - **Hreflang cleanup**: add `x-default` and ensure alternates are only used when real language variants exist.

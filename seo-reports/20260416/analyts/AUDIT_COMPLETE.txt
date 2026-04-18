@@ -108,7 +108,7 @@ DATA SOURCES ANALYZED
 ✅ Core Web Vitals Report (55/55 pages passing)
 ✅ Google AdSense Dashboard ($59.65 earnings, ad metrics)
 ✅ Semrush (organic rankings, position changes, competitive analysis)
-✅ Website Crawler (Playwright) — sitemap structure, internal links
+✅ Website Crawler (Playwright) - sitemap structure, internal links
 ✅ GSC Performance Data (Queries, Pages, Devices, Countries, Search Appearance)
 ✅ Google Core Update Status (Recovery analysis for 2 recent updates)
 

@@ -25,11 +25,11 @@
 
 ## Cycle log
 
-### Cycle 1 — 2026-04-17 (Code parity + rollout prep)
+### Cycle 1 - 2026-04-17 (Code parity + rollout prep)
 
 **Code changes (staging-first):**
-- **Staging repo (`freetoolonline-web-test`)**: commit `213fdaa` (local; pending push) — improved non-ZIP titles/meta + added answer blocks.
-- **Production repo (`freetoolonline-web`)**: commit `6964e3d` on branch `seo-boost` (local; pending push) — mirrored non-ZIP changes + device-test tag alignment.
+- **Staging repo (`freetoolonline-web-test`)**: commit `213fdaa` (local; pending push) - improved non-ZIP titles/meta + added answer blocks.
+- **Production repo (`freetoolonline-web`)**: commit `6964e3d` on branch `seo-boost` (local; pending push) - mirrored non-ZIP changes + device-test tag alignment.
 
 **Validation (local export):**
 - `web-test`: `npm run export` ✅; spot-checked rendered `<title>`, meta descriptions, and answer blocks in `dist/`.
@@ -40,7 +40,7 @@
 - Run the mandatory Playwright rendered audit + layout alignment checks (screenshots + logs) against staging URLs.
 - Update this file with evidence (paths, pass/fail, root causes, fixes).
 
-### Cycle 2 — 2026-04-17 (QA noads footer alignment fix + full audit pass)
+### Cycle 2 - 2026-04-17 (QA noads footer alignment fix + full audit pass)
 
 **Code changes (staging-first):**
 - **Staging repo (`freetoolonline-web-test`)**: commit `be8d819` preserved `?noads=1` through redirect pages so QA routes stay on the audited page.
@@ -64,7 +64,7 @@
 - PLAN scope did not change; no plan-file update was required.
 - PROGRESS now reflects the final staging reality for the QA loop.
 
-### Cycle 3 — 2026-04-17 (Audit runner stabilization + confirmation rerun)
+### Cycle 3 - 2026-04-17 (Audit runner stabilization + confirmation rerun)
 
 **Code changes (staging-first):**
 - **Staging repo (`freetoolonline-web-test`)**: commit `fd42b50` keeps the Playwright browser alive across viewports (prevents intermittent `browser.newContext` crash).
@@ -74,7 +74,7 @@
 - Audit coverage: `73` routes x `3` viewports (`390`, `1440`, `1920`) = `219` checks.
 - Audit result: `0` failures; `73` screenshots per viewport; diagnostic folders empty (no failures).
 
-### Cycle 4 — 2026-04-18 (Related tools regression fix + shorter answer panels + targeted 1920 evidence)
+### Cycle 4 - 2026-04-18 (Related tools regression fix + shorter answer panels + targeted 1920 evidence)
 
 **Issue found (staging reality):**
 - "Related tools:" list regressed on pages whose `BODYTITLE*` changed (commonly collapsing to only a self-link).

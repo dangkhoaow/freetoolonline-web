@@ -1,7 +1,7 @@
-# freetoolonline.com — SEO & Experience Analysis
+# freetoolonline.com - SEO & Experience Analysis
 
 **Report ID:** `SEO_ANALYSIS_Composer_20260415205203_7GMT24H`  
-**Generated:** 2026-04-15 (Asia/Ho_Chi_Minh, +07) — technical timestamp aligned with crawl completion  
+**Generated:** 2026-04-15 (Asia/Ho_Chi_Minh, +07) - technical timestamp aligned with crawl completion  
 **Primary URL:** [https://freetoolonline.com](https://freetoolonline.com)  
 **Method:** Live `curl` + Node `fetch` sitemap ingestion, **Chromium (Playwright) full-DOM render** of **all 63** sitemap URLs, codebase review (`scripts/page-renderer.mjs`, `scripts/site-data.mjs`, `scripts/seo-clusters.mjs`, `scripts/sitemap-writer.mjs`), synthesis with bundled reports under `seo-reports/20260415-2/raw/` and `analyts/INDEX.md` / `ANALYSIS_SUMMARY.md`.  
 **Perspective:** Senior SEO practitioner (20+ years), 2026 ranking systems context.
@@ -14,7 +14,7 @@
 
 **Live Playwright audit (2026-04-15)** across **63/63** URLs found **no render failures**. It confirmed a **systemic on-page issue**: **56 pages** show **two `<h1>` elements** after JS enhancement (nav page title + primary content title), diluting heading hierarchy. **50 tool pages** expose **`aggregateRating`** in JSON-LD (aligned with build-time/API integration). **Hubs** use **`WebApplication`** schema (semantically loose vs. a collection model).
 
-**Sitemaps** are **valid, well-partitioned** (tools / hubs / pages), but **production child sitemaps currently omit `<lastmod>`** on sampled URLs — a missed **recrawl prioritization** signal (the export pipeline in `sitemap-writer.mjs` supports lastmod when file metadata resolves).
+**Sitemaps** are **valid, well-partitioned** (tools / hubs / pages), but **production child sitemaps currently omit `<lastmod>`** on sampled URLs - a missed **recrawl prioritization** signal (the export pipeline in `sitemap-writer.mjs` supports lastmod when file metadata resolves).
 
 **Analytics bundle (screenshots + prior synthesis in `analyts/`):** traffic and impressions are **healthy in scale**, but **monetization (AdSense)** has been **severely stressed** versus earlier baselines; **Semrush** shows **moderate authority** and a **broad but uneven** keyword footprint; **GSC** materials in the raw pack emphasize **CWV “Good”** and standard **coverage/sitemaps** monitoring.
 
@@ -28,14 +28,14 @@
 
 | Strength | Evidence / implication |
 |----------|-------------------------|
-| Consistent shell | Shared header, dark-mode toggle, donate CTAs — predictable for repeat users. |
-| Tool-first layout | Primary action areas and page sections follow a repeated pattern — good learnability. |
+| Consistent shell | Shared header, dark-mode toggle, donate CTAs - predictable for repeat users. |
+| Tool-first layout | Primary action areas and page sections follow a repeated pattern - good learnability. |
 | Hub navigation | Category hubs (`*-tools.html`) organize tools by intent. |
 
 | Issue | Evidence / implication |
 |-------|-------------------------|
 | **Duplicate H1** | Playwright: **56** URLs with `h1Count === 2`; typical pair: **nav short title** + **marketing H1** in content. Confuses **accessibility** and **semantic “main topic”** for crawlers. |
-| **Viewport** | `user-scalable=no` in `page-renderer.mjs` — **accessibility** concern (pinch zoom). |
+| **Viewport** | `user-scalable=no` in `page-renderer.mjs` - **accessibility** concern (pinch zoom). |
 | **Invalid author markup** | `<meta rel="author" href="...">` is **non-standard**; should be `<link rel="author" ...>` if used. |
 
 **Rendered layout:** Chromium confirms real DOM structure (nav bar, `w3-content` main column, related-tools block present on sampled tool/hub pages).
@@ -48,7 +48,7 @@
 |--------|----------------|
 | **DOMContentLoaded (lab)** | Home ~**261 ms**; representative tool/hub pages ~**92–98 ms** after warm connection (Playwright, `waitUntil: 'domcontentloaded'`). |
 | **Third-party weight** | Ads / analytics load after shell; `networkidle` not used as primary metric (avoids ad noise). |
-| **Caching headers in HTML** | `pragma`/`expires` **0** patterns in meta — fine for **HTML freshness**; ensure **CDN** still caches **static assets** aggressively. |
+| **Caching headers in HTML** | `pragma`/`expires` **0** patterns in meta - fine for **HTML freshness**; ensure **CDN** still caches **static assets** aggressively. |
 
 **Interpretation:** Performance is **not** the primary SEO bottleneck versus **semantics**, **internal link HTML**, and **hub depth**.
 
@@ -59,15 +59,15 @@
 | Surface | Assessment |
 |---------|------------|
 | **Tool pages** | Generally **substantive** (FAQs, instructions). `FAQPage` JSON-LD is **data-driven** from HTML when Q/A structure matches (`extractFaqItems` in `page-renderer.mjs`). |
-| **Hub pages** | Often **short** marketing blurbs + listings; **limited unique editorial** vs. competitors’ pillar pages — **Discover / helpfulness** angles favor **deeper** cluster intros. |
-| **Vietnamese utility page** | Present in sitemap (`cong-cu-chuyen-doi-...html`) — **international** opportunity; **hreflang** coverage is **minimal** (single `alternate` in template). |
+| **Hub pages** | Often **short** marketing blurbs + listings; **limited unique editorial** vs. competitors’ pillar pages - **Discover / helpfulness** angles favor **deeper** cluster intros. |
+| **Vietnamese utility page** | Present in sitemap (`cong-cu-chuyen-doi-...html`) - **international** opportunity; **hreflang** coverage is **minimal** (single `alternate` in template). |
 
 ---
 
 ### 2.4 Overall site structure
 
-- **Topology:** **Home** + **8 hubs** + **50 tools** + **4 info routes** (excluding `alternatead`) ≈ **63** canonical URLs in sitemap — matches export design.
-- **Internal linking:** **Nav + footer** provide baseline mesh; **“Related tools”** loads **`related-tools.js`** after DOM ready — **links may not appear in static HTML**, limiting **first-pass crawl link discovery** (see Technical SEO).
+- **Topology:** **Home** + **8 hubs** + **50 tools** + **4 info routes** (excluding `alternatead`) ≈ **63** canonical URLs in sitemap - matches export design.
+- **Internal linking:** **Nav + footer** provide baseline mesh; **“Related tools”** loads **`related-tools.js`** after DOM ready - **links may not appear in static HTML**, limiting **first-pass crawl link discovery** (see Technical SEO).
 
 ---
 
@@ -81,12 +81,12 @@
 | **Canonical** | Present on sampled pages via `<link rel="canonical">`. |
 | **Robots** | Production allows indexing; staging path uses `noindex` in renderer (not verified live here). |
 | **JSON-LD** | `WebApplication` + optional `FAQPage`; `aggregateRating` when rating data exists (`renderPageDocument` in `page-renderer.mjs`). Live API check: **histogram + avg** returned for `heic-to-jpg`. |
-| **`@context`** | Uses `http://schema.org/` — **prefer `https://schema.org`** for consistency. |
+| **`@context`** | Uses `http://schema.org/` - **prefer `https://schema.org`** for consistency. |
 
 #### Internal linking & hierarchy
 
-- **Root cause of weak hierarchy signal:** **two H1s** — header uses a **nav region** with **page name** that ends up **H1-associated** alongside the body H1 (Playwright also flagged `navPageName` inside H1-like structure on samples).
-- **Related tools:** Injected post-load — **internal link graph** in raw HTML is **shallower** than user-perceived site.
+- **Root cause of weak hierarchy signal:** **two H1s** - header uses a **nav region** with **page name** that ends up **H1-associated** alongside the body H1 (Playwright also flagged `navPageName` inside H1-like structure on samples).
+- **Related tools:** Injected post-load - **internal link graph** in raw HTML is **shallower** than user-perceived site.
 
 #### Sitemap: structure, coverage, validity
 
@@ -96,8 +96,8 @@
 | **Index** | References `sitemap-tools.xml`, `sitemap-hubs.xml`, `sitemap-pages.xml` |
 | **Counts** | **50** + **8** + **5** = **63** `<loc>` entries (via `curl` + grep) |
 | **Validity** | **Well-formed** XML; standard sitemap namespace |
-| **`<lastmod>`** | **Not present** on inspected production URLs (export code can emit lastmod when CMS/git times resolve — **implementation gap** on live build) |
-| **Fetch methods** | **curl** and **Node fetch** succeeded; **wget** unavailable in this environment — recommend CI also try **Python `urllib`** or **Node** as fallback |
+| **`<lastmod>`** | **Not present** on inspected production URLs (export code can emit lastmod when CMS/git times resolve - **implementation gap** on live build) |
+| **Fetch methods** | **curl** and **Node fetch** succeeded; **wget** unavailable in this environment - recommend CI also try **Python `urllib`** or **Node** as fallback |
 
 **Coverage:** Sitemap scope matches **canonical export list** from `export-site.mjs` (merged routes from sitemap file, JSP index, aliases, specials).
 
@@ -107,14 +107,14 @@
 
 **Implemented clusters** (code: `scripts/seo-clusters.mjs`):
 
-1. **ZIP** — `zip-tools.html`  
-2. **Image editing** — `image-tools.html`  
-3. **Image conversion** — `image-converter-tools.html`  
-4. **PDF** — `pdf-tools.html`  
-5. **Developer** — `developer-tools.html`  
-6. **Video** — `video-tools.html`  
-7. **Device test** — `device-test-tools.html`  
-8. **Utility / datetime / QR / locale** — `utility-tools.html`
+1. **ZIP** - `zip-tools.html`  
+2. **Image editing** - `image-tools.html`  
+3. **Image conversion** - `image-converter-tools.html`  
+4. **PDF** - `pdf-tools.html`  
+5. **Developer** - `developer-tools.html`  
+6. **Video** - `video-tools.html`  
+7. **Device test** - `device-test-tools.html`  
+8. **Utility / datetime / QR / locale** - `utility-tools.html`
 
 **Mechanisms:**
 
@@ -123,7 +123,7 @@
 
 **Gaps:**
 
-- **Hubs** behave like **category landings** but **schema** still **`WebApplication`** on hubs (Playwright: `pdf-tools.html` → `WebApplication` only) — **CollectionPage + ItemList** would better match **intent**.
+- **Hubs** behave like **category landings** but **schema** still **`WebApplication`** on hubs (Playwright: `pdf-tools.html` → `WebApplication` only) - **CollectionPage + ItemList** would better match **intent**.
 - **No dedicated “pillar” copy** on hubs (400–600 words) limits **topical authority** vs. competitors.
 - **JS-only related links** underrepresent **HTML-native** PageRank paths.
 
@@ -135,13 +135,13 @@ Official dashboard references (fetched 2026-04-15):
 
 1. **[March 2026 spam update](https://status.search.google.com/incidents/VbnSXAH4SmEcxPtx4YSD)**  
    - **Window:** 2026-03-24 12:00 – 2026-03-25 07:30 US/Pacific (global).  
-   - **Focus:** **[Spam update](https://developers.google.com/search/docs/appearance/spam-updates)** — targets **manipulative behaviors** (including review spam, scaled abuse).  
+   - **Focus:** **[Spam update](https://developers.google.com/search/docs/appearance/spam-updates)** - targets **manipulative behaviors** (including review spam, scaled abuse).  
    - **Site linkage:** Previously **uniform** `aggregateRating` across pages was **high risk**; **current** API-backed, **non-uniform** ratings **align better** with **trust**. Continue ensuring **visible** user feedback **matches** structured data.
 
 2. **[February 2026 Discover update](https://status.search.google.com/incidents/mYbNTqV1ytDc2fA8hUz4)**  
    - **Window:** 2026-02-05 – 2026-02-27 US/Pacific.  
    - **Scope:** **Discover** (initially **English, US**).  
-   - **Site linkage:** Reinforces **original, people-first** content on **feed-oriented** surfaces; for **web SEO**, treat as a **quality barometer** — **thin hubs** are the main vulnerability.
+   - **Site linkage:** Reinforces **original, people-first** content on **feed-oriented** surfaces; for **web SEO**, treat as a **quality barometer** - **thin hubs** are the main vulnerability.
 
 **Coherent narrative:** **Spam update** + **Discover quality** both **punish shallow, repetitive, or manipulative** patterns. This property is **strongest** on **individual tool utility** and **weakest** on **cluster editorial depth** + **semantic HTML discipline**.
 
@@ -154,9 +154,9 @@ Official dashboard references (fetched 2026-04-15):
 | Source | Insight (synthesis) |
 |--------|---------------------|
 | **GA4** | User volumes **growing** in recent internal reporting; use for **landing** and **engagement** QA after template changes. |
-| **Google AdSense** | **Sharp revenue decline** vs prior period in internal narrative — **not** purely an SEO issue; investigate **policy**, **RPM**, **ad layout**, and **query mix**. |
-| **Semrush** | **Moderate domain authority**, **thousands** of ranked queries — opportunity to **grow** non-ZIP clusters. |
-| **Google Search Console** | Screens include **CWV**, **performance**, **crawl stats**, **sitemaps** — confirms **technical health** focus areas; pair with **query-level** **CTR** and **position** for page-type diagnostics. |
+| **Google AdSense** | **Sharp revenue decline** vs prior period in internal narrative - **not** purely an SEO issue; investigate **policy**, **RPM**, **ad layout**, and **query mix**. |
+| **Semrush** | **Moderate domain authority**, **thousands** of ranked queries - opportunity to **grow** non-ZIP clusters. |
+| **Google Search Console** | Screens include **CWV**, **performance**, **crawl stats**, **sitemaps** - confirms **technical health** focus areas; pair with **query-level** **CTR** and **position** for page-type diagnostics. |
 
 **Raw artifacts (filenames):** include `screencapture-analytics-google-analytics-web-*.png`, `screencapture-adsense-google-adsense-*.png`, `screencapture-semrush-analytics-*.png`, `screencapture-search-google-*-search-console-*.png`, plus `fto-seo-raw-report.pdf`.
 
@@ -167,12 +167,12 @@ Official dashboard references (fetched 2026-04-15):
 | Priority | Issue | Root cause (technical) |
 |----------|-------|-------------------------|
 | **P1** | **Duplicate H1** on most tool/hub pages | Template composes **nav title** and **body title** both as **top-level headings** in rendered DOM. |
-| **P2** | **Related tools** not in initial HTML | `renderToolSections` loads **`related-tools.js`** on `DOMContentLoaded` — crawlers see **fewer** static internal links. |
+| **P2** | **Related tools** not in initial HTML | `renderToolSections` loads **`related-tools.js`** on `DOMContentLoaded` - crawlers see **fewer** static internal links. |
 | **P3** | **Thin hub** content vs. competitors | CMS/body copy for hubs is **short**; limited **unique** editorial. |
-| **P4** | **Sitemap lastmod** gap in production | Build **can** compute lastmod (`sitemap-writer.mjs`) — **live output** lacked `<lastmod>` on sampled URLs. |
-| **P5** | **Schema typing** on hubs | Hubs modeled as **`WebApplication`** — **mismatch** with **category** intent. |
+| **P4** | **Sitemap lastmod** gap in production | Build **can** compute lastmod (`sitemap-writer.mjs`) - **live output** lacked `<lastmod>` on sampled URLs. |
+| **P5** | **Schema typing** on hubs | Hubs modeled as **`WebApplication`** - **mismatch** with **category** intent. |
 | **P6** | **Invalid / weak meta** | `<meta rel="author">` invalid; **`@context` http**; **viewport** zoom lock. |
-| **P7** | **Business concentration** | Large share of value from **ZIP** cluster — **algorithm / CPC** concentration risk (per internal summaries). |
+| **P7** | **Business concentration** | Large share of value from **ZIP** cluster - **algorithm / CPC** concentration risk (per internal summaries). |
 
 ---
 
@@ -180,10 +180,10 @@ Official dashboard references (fetched 2026-04-15):
 
 Sorted by **impact** (descending), favoring **low-risk, template/build** edits.
 
-### Critical / High impact — low structural risk
+### Critical / High impact - low structural risk
 
 1. **Fix duplicate H1**  
-   - **Action:** Demote **nav page title** to **`span`/`p`** with existing CSS, or **`h2`** if hierarchy demands — **one** primary **`h1`** per page in main content.  
+   - **Action:** Demote **nav page title** to **`span`/`p`** with existing CSS, or **`h2`** if hierarchy demands - **one** primary **`h1`** per page in main content.  
    - **Why:** Clearest **topic** signal; aligns with **spam/helpfulness** quality cues.  
    - **Effort:** Low (template-only).
 
@@ -197,13 +197,13 @@ Sorted by **impact** (descending), favoring **low-risk, template/build** edits.
    - **Why:** Strong **recrawl** hint with **no UI change**.  
    - **Effort:** Low–medium.
 
-### High impact — content (still localized)
+### High impact - content (still localized)
 
 4. **Expand hub intros** to **400–600 words** (unique, human-edited): use cases, comparisons, internal links to **top tools**.  
    - **Why:** Addresses **thin hub** weakness under **Discover / helpfulness** lens.  
    - **Effort:** Medium per hub.
 
-### Medium impact — schema / metadata
+### Medium impact - schema / metadata
 
 5. **Hub schema:** `CollectionPage` + `ItemList` of tool URLs; keep **`WebApplication`** on true tools.  
 6. **Replace** `<meta rel="author">` with `<link rel="author" href="...">` **or** drop.  
@@ -212,7 +212,7 @@ Sorted by **impact** (descending), favoring **low-risk, template/build** edits.
 
 ### Monetization / analytics (parallel track)
 
-9. **AdSense deep-dive** (policy, categories, ad balance, **RPM by landing**) — **revenue** recovery is **orthogonal** but **funds** further SEO content.
+9. **AdSense deep-dive** (policy, categories, ad balance, **RPM by landing**) - **revenue** recovery is **orthogonal** but **funds** further SEO content.
 
 ---
 
@@ -221,7 +221,7 @@ Sorted by **impact** (descending), favoring **low-risk, template/build** edits.
 | Step | Command / tool |
 |------|----------------|
 | Sitemaps | `curl -sL https://freetoolonline.com/sitemap.xml` and child files |
-| Full render | **Playwright** `chromium` — `page.goto` + `page.content()` for **63** URLs |
+| Full render | **Playwright** `chromium` - `page.goto` + `page.content()` for **63** URLs |
 | Rating API | `POST https://service.us-east-1a.freetool.online/ajax/get-rating?pageName=heic-to-jpg` with JSON body `{}` |
 
 ---

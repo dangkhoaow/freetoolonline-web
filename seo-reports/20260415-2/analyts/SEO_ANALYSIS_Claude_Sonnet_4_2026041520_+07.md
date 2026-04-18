@@ -1,4 +1,4 @@
-# freetoolonline.com — Master SEO Analysis Report
+# freetoolonline.com - Master SEO Analysis Report
 
 **Analysis Date:** April 15, 2026 (20:00 GMT+7)  
 **Analyst:** 20-Year SEO Expert (2026 Algorithm Context)  
@@ -328,7 +328,7 @@ Home → Hub Pages (8) → Tool Pages (50+)
 
 ## 8. Prioritized Recommendations
 
-### 8.1 CRITICAL — Do Immediately (Protect Rankings)
+### 8.1 CRITICAL - Do Immediately (Protect Rankings)
 
 **Priority 1: Fix Duplicate H1 Tags**
 - **Implementation**: Change navigation title from `<h1>` to `<div>` or `<span>`
@@ -354,7 +354,7 @@ Home → Hub Pages (8) → Tool Pages (50+)
 - **Risk Level**: Low  
 - **Revenue Impact**: $10-20/month from increased engagement
 
-### 8.2 HIGH IMPACT — Do This Month
+### 8.2 HIGH IMPACT - Do This Month
 
 **Priority 4: Hub Page Content Expansion**
 - **Focus Areas**: ZIP tools, Developer tools, Image processing hubs
@@ -373,7 +373,7 @@ Home → Hub Pages (8) → Tool Pages (50+)
 - **Timeline**: 1 day
 - **Risk Level**: None
 
-### 8.3 STRATEGIC — Do Next Quarter
+### 8.3 STRATEGIC - Do Next Quarter
 
 **Priority 6: New Tool Cluster Development**
 - **Focus**: PDF tools cluster (high search volume, complements ZIP tools)

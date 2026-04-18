@@ -1,1 +1,1 @@
-Minify JavaScript online to reduce file size for production. Paste code, click Minify, and copy the result—fast, free, and no installs needed.
+Minify JavaScript online to reduce file size for production. Paste code, click Minify, and copy the result-fast, free, and no installs needed.

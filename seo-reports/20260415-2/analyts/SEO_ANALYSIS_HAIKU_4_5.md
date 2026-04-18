@@ -1,4 +1,4 @@
-# SEO Analysis — freetoolonline.com
+# SEO Analysis - freetoolonline.com
 
 **Analysis date:** 2026-04-15 (UTC context for crawl: `202604151311_GMT`)  
 **Analyst perspective:** Senior SEO practitioner (20-year lens), 2026 algorithm context  
@@ -14,7 +14,7 @@
 
 | Topic | Prior consensus (Apr 2026 reports) | Verified live (Playwright, this run) |
 |--------|-------------------------------------|----------------------------------------|
-| `aggregateRating` | “Hardcoded 5 / 1 on all tool pages” | **Per-page API-style values** (e.g. 3.6/226, 1.6/328) — not the old uniform spam pattern |
+| `aggregateRating` | “Hardcoded 5 / 1 on all tool pages” | **Per-page API-style values** (e.g. 3.6/226, 1.6/328) - not the old uniform spam pattern |
 | `FAQPage` JSON-LD | “Missing on FAQ pages” | **Present** on sampled tool pages with FAQ HTML (e.g. `/zip-file.html`, `/compress-image.html`) |
 | Internal UTMs | “Still on related/footer links” | **Not observed** in sampled internal anchors (aligns with `IMPLEMENTATION_PLAN.md` ✅) |
 
@@ -28,12 +28,12 @@
 
 **Method:** Node `playwright` Chromium, `waitUntil: 'networkidle'`, post-load wait 1.5s, full `page.content()` for JSON-LD extraction. Sitemap index fetched via `fetch()`; **63** URLs reported in index.
 
-**Sample coverage:** Home, priority tools (ZIP cluster), PDF hub, privacy, Vietnamese tools, plus additional sitemap URLs — **14** full renders in this session.
+**Sample coverage:** Home, priority tools (ZIP cluster), PDF hub, privacy, Vietnamese tools, plus additional sitemap URLs - **14** full renders in this session.
 
 ### 1.1 Rendered HTML & structure
 
 - **HTTP:** Sampled pages returned **200**.
-- **Headings:** Tool pages consistently show **two `<h1>` elements** (nav/page title + body) — matches GPT-5.2 / Claude findings (**56/63** multi-`h1` pattern).
+- **Headings:** Tool pages consistently show **two `<h1>` elements** (nav/page title + body) - matches GPT-5.2 / Claude findings (**56/63** multi-`h1` pattern).
 - **Internal links (DOM):** Roughly **64–95** same-origin anchor elements on sampled pages (nav + footer + content); “Related tools” list is still **populated client-side** in the template (see §4).
 
 ### 1.2 Performance (Navigation Timing API, sampled)
@@ -47,9 +47,9 @@
 
 Figures are **lab** metrics on a single run; they align with the site’s reputation for **fast TTFB / static HTML** in earlier audits.
 
-### 1.3 JSON-LD — structured data (rendered DOM)
+### 1.3 JSON-LD - structured data (rendered DOM)
 
-**Home:** `WebSite` only — appropriate.
+**Home:** `WebSite` only - appropriate.
 
 **Tool pages (with ads / ratings):** `WebApplication` + **`FAQPage`** when FAQ HTML parses successfully (`extractFaqItems` in `page-renderer.mjs`). Example live (`/zip-file.html`):
 
@@ -60,14 +60,14 @@ Figures are **lab** metrics on a single run; they align with the site’s reputa
 
 **Residual schema risks (2026):**
 
-1. **`applicationCategory` / `applicationSuite` set to `"Online"`** — weak / non-standard for Google’s expectations; prefer concrete Schema.org application categories or drop.
-2. **`@context` mix** — `http://schema.org/` on `WebApplication` vs `https://schema.org` on `FAQPage` (minor consistency issue).
-3. **Hub as `WebApplication`** — semantically a **category/listing**; better fit: `CollectionPage` / `ItemList` + linked `WebApplication` items.
+1. **`applicationCategory` / `applicationSuite` set to `"Online"`** - weak / non-standard for Google’s expectations; prefer concrete Schema.org application categories or drop.
+2. **`@context` mix** - `http://schema.org/` on `WebApplication` vs `https://schema.org` on `FAQPage` (minor consistency issue).
+3. **Hub as `WebApplication`** - semantically a **category/listing**; better fit: `CollectionPage` / `ItemList` + linked `WebApplication` items.
 4. **Trust:** If Google cannot reconcile ratings with **visible, crawlable review content**, rich results may be suppressed or flagged; keep **one source of truth** (API = on-page disclosure).
 
 ### 1.4 Site structure & internal linking
 
-- **Flat URLs** + **8 hub** pages (`*-tools.html`) + tools + info pages — unchanged architecture.
+- **Flat URLs** + **8 hub** pages (`*-tools.html`) + tools + info pages - unchanged architecture.
 - **Effectiveness:** Footer and nav provide static internal links; **contextual “related” links** still depend on **`related-tools.js`** after `DOMContentLoaded`, so the **first HTML payload** under-represents that cluster graph (consensus across Gemini / Claude / GPT reports).
 
 ---
@@ -78,7 +78,7 @@ Eight reports were reviewed. **Strong consensus:**
 
 | Finding | Agreement | Status vs production (this audit) |
 |---------|-----------|-------------------------------------|
-| Fake / risky `aggregateRating` | Universal P0 | **Mitigated** — live HTML shows **varied** API-backed ratings |
+| Fake / risky `aggregateRating` | Universal P0 | **Mitigated** - live HTML shows **varied** API-backed ratings |
 | Missing `FAQPage` JSON-LD | 6–8/8 | **Addressed** on FAQ-capable tool pages |
 | Internal UTMs | Most | **Reported fixed** in `IMPLEMENTATION_PLAN.md`; not seen in samples |
 | JS-only related tools | Universal | **Still relevant** |
@@ -94,8 +94,8 @@ The requested folder **`20260415-2/raw/fto-seo-pages/`** was **empty / missing**
 
 - **GSC-style story:** Strong impressions and clicks with **CTR compression** as coverage widens (position improves but snippet competition increases).
 - **GA4:** Organic-heavy acquisition; top paths align with ZIP and device-test tools.
-- **AdSense:** Revenue **not** tracking traffic growth proportionally in some reports — investigate **RPM**, **policy**, **ad layout**, and **query mix** (informational vs transactional).
-- **Semrush:** Low authority / few referring domains — limits off-site trust; on-page and technical excellence matter more.
+- **AdSense:** Revenue **not** tracking traffic growth proportionally in some reports - investigate **RPM**, **policy**, **ad layout**, and **query mix** (informational vs transactional).
+- **Semrush:** Low authority / few referring domains - limits off-site trust; on-page and technical excellence matter more.
 
 ---
 
@@ -103,16 +103,16 @@ The requested folder **`20260415-2/raw/fto-seo-pages/`** was **empty / missing**
 
 ### 4.1 `scripts/page-renderer.mjs`
 
-- **Meta tags:** Invalid **`<meta rel="author"`** (line ~24) — `rel` belongs on `<link>`, not `<meta>`.
-- **Robots / cache:** `pragma` / `expires` / `cache-control` meta — may conflict with CDN caching goals.
-- **Viewport:** `user-scalable=no` — accessibility / mobile UX concern (not a direct “ranking factor” but affects quality signals).
-- **`renderMetaTags`:** Single `hreflang` alternate — insufficient for **vi** pages (needs `vi` + `x-default` / paired `en` where applicable).
-- **`buildWebApplicationJsonLd`:** `aggregateRating` only when `showRating && aggregateRating` — **clean** when API omits data.
-- **`extractFaqItems` + `buildFaqJsonLd`:** Implements **FAQPage** when `<h2>` FAQ header and `<h3>`+`<p>` pairs match — **fragile** if CMS HTML drifts from that pattern.
+- **Meta tags:** Invalid **`<meta rel="author"`** (line ~24) - `rel` belongs on `<link>`, not `<meta>`.
+- **Robots / cache:** `pragma` / `expires` / `cache-control` meta - may conflict with CDN caching goals.
+- **Viewport:** `user-scalable=no` - accessibility / mobile UX concern (not a direct “ranking factor” but affects quality signals).
+- **`renderMetaTags`:** Single `hreflang` alternate - insufficient for **vi** pages (needs `vi` + `x-default` / paired `en` where applicable).
+- **`buildWebApplicationJsonLd`:** `aggregateRating` only when `showRating && aggregateRating` - **clean** when API omits data.
+- **`extractFaqItems` + `buildFaqJsonLd`:** Implements **FAQPage** when `<h2>` FAQ header and `<h3>`+`<p>` pairs match - **fragile** if CMS HTML drifts from that pattern.
 
 ### 4.2 `scripts/export-site.mjs`
 
-- **`loadAggregateRating`:** POST to `ajax/get-rating` with validation (`ratingCount` ≥ 1, score 1–5). Failures **omit** schema — **correct** pattern.
+- **`loadAggregateRating`:** POST to `ajax/get-rating` with validation (`ratingCount` ≥ 1, score 1–5). Failures **omit** schema - **correct** pattern.
 - **SEO risk:** If API ever returns **stale or gamed** aggregates, the same pipeline propagates them site-wide at build time.
 
 ---
@@ -133,7 +133,7 @@ The requested folder **`20260415-2/raw/fto-seo-pages/`** was **empty / missing**
 
 ## 7. Root causes (prioritized themes)
 
-1. **Template / DOM:** Duplicate `<h1>` and occasional **wrong titles** (e.g. privacy page title reported as home in one sample — verify CMS attrs).
+1. **Template / DOM:** Duplicate `<h1>` and occasional **wrong titles** (e.g. privacy page title reported as home in one sample - verify CMS attrs).
 2. **Link graph:** Related tools not **fully pre-rendered** in HTML.
 3. **Schema semantics:** Generic `WebApplication` + **`Online`** category; hubs mistyped.
 4. **Freshness:** Missing or weak **`<lastmod>`** in sitemaps (per implementation plan).
@@ -145,7 +145,7 @@ The requested folder **`20260415-2/raw/fto-seo-pages/`** was **empty / missing**
 
 | # | Recommendation | Est. SEO impact | Difficulty | Notes |
 |---|----------------|-----------------|------------|--------|
-| 1 | **Single H1 per page** — demote nav title to `<p>`/`<span>` with CSS | **Medium–High** (clarity, accessibility, snippet focus) | **Low** | Template-only change in `renderHeader` / CSS |
+| 1 | **Single H1 per page** - demote nav title to `<p>`/`<span>` with CSS | **Medium–High** (clarity, accessibility, snippet focus) | **Low** | Template-only change in `renderHeader` / CSS |
 | 2 | **Pre-render “Related tools”** into static HTML at build (`export-site.mjs` + cluster data) | **High** (internal PR / discovery) | **Medium** | Largest remaining structural win |
 | 3 | **Fix invalid author meta;** add proper `link rel=author` if desired | **Low** direct; credibility | **Trivial** | `page-renderer.mjs` |
 | 4 | **Hub schema:** `CollectionPage` + `ItemList` of tools; tool pages keep `WebApplication` | **Medium** (rich results / clarity) | **Medium** | Conditional JSON-LD by route |
@@ -159,8 +159,8 @@ The requested folder **`20260415-2/raw/fto-seo-pages/`** was **empty / missing**
 
 ## 9. Conclusion
 
-Production **no longer matches** the most alarming **March 2026** scenario from early-April reports (**uniform fake stars** + **no FAQ schema**). The live site shows **API-derived ratings** and **working FAQPage JSON-LD** on tested tools. The **next tier** of gains comes from **semantic HTML fixes**, **server-rendered related links**, **tighter schema typing**, **sitemap freshness**, and **content depth** on hubs — all aligned with **high impact, moderate effort** except hub content, which is **higher effort** but strategically important.
+Production **no longer matches** the most alarming **March 2026** scenario from early-April reports (**uniform fake stars** + **no FAQ schema**). The live site shows **API-derived ratings** and **working FAQPage JSON-LD** on tested tools. The **next tier** of gains comes from **semantic HTML fixes**, **server-rendered related links**, **tighter schema typing**, **sitemap freshness**, and **content depth** on hubs - all aligned with **high impact, moderate effort** except hub content, which is **higher effort** but strategically important.
 
 ---
 
-*End of report — `SEO_ANALYSIS_HAIKU_4_5.md`*
+*End of report - `SEO_ANALYSIS_HAIKU_4_5.md`*

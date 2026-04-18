@@ -1,4 +1,4 @@
-# freetoolonline.com — SEO Analysis Summary
+# freetoolonline.com - SEO Analysis Summary
 **Timestamp:** 2026-04-15 13:11 GMT  
 **Report File:** `./analyts/SEO_ANALYSIS_HAIKU_4_5.md`  
 **Analysis Method:** Playwright live crawl + codebase review + synthesis of 8 prior reports + implementation plan  
@@ -10,12 +10,12 @@
 
 | Issue | Previously Flagged (Critical) | Current Status (Verified) | Impact |
 |-------|------------------------------|--------------------------|--------|
-| **Hardcoded fake `aggregateRating`** | 5.0/1 on ALL 58 pages (spam pattern) | ✅ **Resolved** — API-backed, varied per page | Crisis averted |
+| **Hardcoded fake `aggregateRating`** | 5.0/1 on ALL 58 pages (spam pattern) | ✅ **Resolved** - API-backed, varied per page | Crisis averted |
 | **Missing `FAQPage` JSON-LD** | Not on any FAQ tool pages | ✅ **Present** on tool pages with FAQ HTML | Rich results enabled |
 | **Internal UTMs in links** | On related/footer links | ✅ **Removed** per implementation plan | Clean internal linking |
-| **JavaScript-only related links** | Still true in HTML | ⚠️ **Still present** — opportunity for SSR | Medium impact opportunity |
-| **Traffic concentration (ZIP)** | 60% of clicks from 2 pages | ⚠️ **Unchanged** — business risk | Needs diversification |
-| **AdSense revenue collapse** | −85% vs prior period | ⚠️ **Still unresolved** — tied to query mix | Revenue problem |
+| **JavaScript-only related links** | Still true in HTML | ⚠️ **Still present** - opportunity for SSR | Medium impact opportunity |
+| **Traffic concentration (ZIP)** | 60% of clicks from 2 pages | ⚠️ **Unchanged** - business risk | Needs diversification |
+| **AdSense revenue collapse** | −85% vs prior period | ⚠️ **Still unresolved** - tied to query mix | Revenue problem |
 
 ---
 
@@ -29,8 +29,8 @@
   - Good navigation structure (hub → tools model)
 
 - **Issues:**
-  - Duplicate `<h1>` tags (nav title + page title) — confuses semantic structure and snippet selection
-  - `user-scalable=no` on viewport — accessibility/UX concern
+  - Duplicate `<h1>` tags (nav title + page title) - confuses semantic structure and snippet selection
+  - `user-scalable=no` on viewport - accessibility/UX concern
   - Thin hub pages lack persuasive copy (< 300 words typically)
 
 ### Performance
@@ -43,7 +43,7 @@
 
 ### Content Quality
 - **Tool pages:** Good depth (FAQ content, technical explanations)
-- **Hub pages:** Weak — typically 100–200 words; missed opportunity for cluster authority
+- **Hub pages:** Weak - typically 100–200 words; missed opportunity for cluster authority
 - **Cluster approach:** Sound logic, but not fully utilized in static HTML
 - **Title/Meta:** Some titles are generic (e.g., privacy page showing as "Home Page…")
 
@@ -63,10 +63,10 @@
 | **WebSite** (home) | Present | ✅ Correct |
 | **WebApplication** (tool pages) | Present, with API ratings | ⚠️ Weak category ("Online"), semantically incorrect for hubs |
 | **FAQPage** (tool pages) | Present when FAQ HTML detected | ✅ Correct; robust extraction logic |
-| **aggregateRating** | Per-page API values (1.6–4.7 range) | ✅ **Credible** — no longer uniform spam pattern |
+| **aggregateRating** | Per-page API values (1.6–4.7 range) | ✅ **Credible** - no longer uniform spam pattern |
 | **`@context`** | Mixed (http vs https) | ⚠️ Consistency issue; minor |
 
-**Risk Assessment:** March 2026 Spam Update targeted uniform fake ratings — site **no longer exhibits** that worst case, but **ongoing diligence required**: ratings must stay **verifiable** from real user feedback visible on page.
+**Risk Assessment:** March 2026 Spam Update targeted uniform fake ratings - site **no longer exhibits** that worst case, but **ongoing diligence required**: ratings must stay **verifiable** from real user feedback visible on page.
 
 ### On-Page SEO
 | Element | Status | Issue |
@@ -82,8 +82,8 @@
 ### Crawlability & Indexing
 - **Sitemap:** Present, 63 URLs; **missing `<lastmod>`** for freshness signals
 - **Robots.txt:** (not sampled, assume standard)
-- **4XX errors:** ~6% of GSC crawl (per prior reports) — investigate 404s in related-tools logic
-- **Crawl stats:** Fast (89ms avg TTFB) — excellent for recrawl
+- **4XX errors:** ~6% of GSC crawl (per prior reports) - investigate 404s in related-tools logic
+- **Crawl stats:** Fast (89ms avg TTFB) - excellent for recrawl
 
 ### Internal Linking & Link Structure
 - **Quantity:** ~64–95 links per page (nav + footer + content)
@@ -204,20 +204,20 @@
 
 ## Expected SEO Improvement Timeline
 
-### After Tier 1 (Quick Wins) — 2–4 weeks
+### After Tier 1 (Quick Wins) - 2–4 weeks
 - ✅ Improved snippet clarity (single `<h1>`)
 - ✅ Better sitemap crawl signals (`<lastmod>`)
 - ✅ Cleaner on-page structure (removed invalid author tag)
 - **Expected impact:** +5–10% organic impressions, +2–3% CTR lift (snippet clarity)
 
-### After Tier 2 (Medium Effort) — 4–8 weeks
+### After Tier 2 (Medium Effort) - 4–8 weeks
 - ✅ Internal link graph fully represented in HTML
 - ✅ Hub pages establish topical authority (thicker copy)
 - ✅ Correct schema typing (hubs as collections, tools as apps)
 - ✅ Hreflang reduces duplicate content risk
 - **Expected impact:** +15–25% organic impressions, +10–15% click growth, improved cluster rankings
 
-### After Tier 3 (Strategic) — Months
+### After Tier 3 (Strategic) - Months
 - ✅ Reduced traffic concentration risk
 - ✅ Stronger monetization via higher-value clusters
 - ✅ Formalized cluster structure supports broader ranking expansion
