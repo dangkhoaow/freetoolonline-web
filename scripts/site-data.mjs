@@ -244,6 +244,8 @@ export async function loadSharedFragments(viewRoot, runtimeViewRoot = viewRoot, 
     privacyContent: await loadTextIfExists(path.join(viewRoot, 'privacy-content.html')),
     cookieInfo: await loadTextIfExists(path.join(viewRoot, 'cookie-info.html')),
     clearAdConfirm: await loadTextIfExists(path.join(viewRoot, 'clear-ad-confirm.html')),
+    editorialByline: await loadTextIfExists(path.join(viewRoot, 'editorial-byline.html')),
+    editorialTrust: await loadTextIfExists(path.join(viewRoot, 'editorial-trust.html')),
     themeCss: themeCssPath ? await loadTextIfExists(themeCssPath) : '',
   };
 }
@@ -283,6 +285,10 @@ export async function loadCmsPageData(cmsRoot, route) {
   const faq = await read('FAQ', 'html');
   const pageStyle = await read('PAGESTYLE', 'css');
   const pageBrowserTitle = await read('PAGEBROWSERTITLE', 'txt', bodyTitle);
+  const pageBrowserTitleMobile = (await loadFirstExistingText(
+    cmsRoot,
+    suffix ? [`PAGEBROWSERTITLE${suffix}-mobile.txt`] : ['PAGEBROWSERTITLE-mobile.txt'],
+  )).trim();
   const pageHasSettings = await read('PAGEHASSETTINGS', 'txt');
   const canonicalUrl = await read('PAGECANO', 'txt');
   const hubBacklink = resolveHubBacklink(route);
@@ -305,6 +311,7 @@ export async function loadCmsPageData(cmsRoot, route) {
     faq,
     pageStyle,
     pageBrowserTitle,
+    pageBrowserTitleMobile,
     pageHasSettings: /^true$/i.test(pageHasSettings),
     canonicalUrl,
   };

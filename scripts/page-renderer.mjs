@@ -54,6 +54,8 @@ function renderMetaTags(ctx) {
   const selfHreflang = isVietnamese ? 'vi-vn' : 'en-us';
   const title = ctx.isHome ? 'Home Page - Free Tool Online' : `${ctx.browserTitle} - Free Tool Online`;
   const ogTitle = ctx.isHome ? 'Free Tool Online - Home Page' : `Free Tool Online - ${ctx.browserTitle}`;
+  const mobileTitleBase = String(ctx.mobileBrowserTitle ?? '').trim();
+  const mobileTitle = mobileTitleBase ? `${mobileTitleBase} - Free Tool Online` : '';
   const description = escapeHtml(ctx.description || '');
   const keywords = escapeHtml(ctx.keyword || '');
   const resolvedCanonical = canonicalUrl || siteUrl;
@@ -69,12 +71,19 @@ function renderMetaTags(ctx) {
   // where the EN equivalent slug is unknown, fall back to the site origin.
   const xDefaultHref = isVietnamese ? canonicalOrigin : resolvedCanonical;
   console.log(`[seo:hreflang] route=${ctx.route} lang=${ctx.lang} canonical=${resolvedCanonical} self=${selfHreflang} x-default=${xDefaultHref || 'none'}.`);
+  if (ctx.isStaging && !ctx.isHome && mobileTitleBase) {
+    console.log(`[seo:mobile-title] route=${ctx.route} mobileTitle="${mobileTitleBase}".`);
+  }
   const alternateLinks = [
     `<link rel='alternate' href='${canonical}' hreflang='${selfHreflang}' />`,
     xDefaultHref ? `<link rel='alternate' href='${escapeHtml(xDefaultHref)}' hreflang='x-default' />` : '',
   ].filter(Boolean);
+  const mobileTitleScript = ctx.isStaging && !ctx.isHome && mobileTitle
+    ? `<script>(function(){try{var t=${JSON.stringify(mobileTitle)};var m=(window.matchMedia?window.matchMedia('(max-width: 480px)').matches:((window.innerWidth||0)<=480));if(m&&t){document.title=t;}}catch(e){}})();</script>`
+    : '';
   return [
     `<title>${escapeHtml(title)}</title>`,
+    mobileTitleScript,
     `<meta http-equiv='cache-control' content='max-age=0, public'/>`,
     `<meta http-equiv='expires' content='0'/>`,
     `<meta http-equiv='pragma' content='no-cache'/>`,
@@ -177,12 +186,26 @@ function buildOrganizationJsonLd({ canonicalOrigin }) {
     '@type': 'Organization',
     '@id': orgId,
     name: 'Free Tool Online',
+    alternateName: 'freetoolonline',
     url: siteUrl,
     logo: 'https://dkbg1jftzfsd2.cloudfront.net/image/logo.200x200.png',
+    foundingDate: '2015',
+    description: 'A collection of 100+ free, in-browser online tools (ZIP, PDF, image conversion, device tests, developer utilities, video) curated by the freetoolonline editorial team since 2015.',
+    slogan: 'In-browser tools, no upload, no install.',
     sameAs: [
       'https://twitter.com/freetoolonline1',
       'https://www.buymeacoffee.com/freetoolonline.com',
       'https://www.trustpilot.com/review/freetoolonline.com',
+      'https://github.com/dangkhoaow/freetoolonline-web',
+    ],
+    knowsAbout: [
+      'file compression',
+      'image conversion',
+      'PDF tools',
+      'HEIC to JPG conversion',
+      'browser-based hardware diagnostics',
+      'JavaScript and CSS minification',
+      'video format conversion',
     ],
     contactPoint: [
       {
@@ -672,6 +695,7 @@ export function renderPageDocument({ route, siteOrigin, canonicalOrigin, basePat
     isHome,
     isStaging,
     browserTitle,
+    mobileBrowserTitle: pageData.pageBrowserTitleMobile,
     description,
     keyword,
     canonicalUrl,
@@ -730,6 +754,12 @@ export function renderPageDocument({ route, siteOrigin, canonicalOrigin, basePat
   const relatedStyles = !hasUpload ? `<style>#content.w3-content { margin-top: 50px; }</style>` : '';
   const showDisableAdsScript = showAds ? `<script>isLoadAds = true;</script>` : '';
   const toolContent = showAds ? toolSections : '';
+  const showEditorialSurface = isHome || isHubPage;
+  const editorialByline = showEditorialSurface ? (sharedFragments.editorialByline || '') : '';
+  const editorialTrust = showEditorialSurface ? (sharedFragments.editorialTrust || '') : '';
+  if (showEditorialSurface && (editorialByline || editorialTrust)) {
+    console.log(`[seo:editorial] Injected byline/trust on ${normalizedRoute}.`);
+  }
   const stagingBanner = isStaging ? buildStagingBannerHtml() : '';
   const bodyMarkup = rewriteInternalContent(`
 <body class="new-style-body">
@@ -747,6 +777,8 @@ ${sharedFragments.topPageBannerAd || ''}
 <div class='w3-row page-section'>
 <div class='w3-container w3-padding-0'>
 ${body}
+${editorialByline}
+${editorialTrust}
 ${relatedStyles}
 </div>
 </div>
