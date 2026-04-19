@@ -219,6 +219,13 @@ html.page-root.dark header.navBarContainer.w3-top .new-style-nav-bar .settingsBt
     overflow: visible !important;
 }
 
+@media (min-width: 1000px) {
+    html.has-upload .pageNameContainer > .navPageName {
+        font-size: 18px !important;
+        padding: 11px 6px !important;
+    }
+}
+
 .bgimg-1 {
     background-position: center;
     background-size: cover;
