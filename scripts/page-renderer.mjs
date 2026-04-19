@@ -45,6 +45,8 @@ const HOWTO_ROUTES = new Set([
   '/convert-time-in-millisecond-to-date.html',
   '/pdf-to-images.html',
   '/extract-gif-to-image-frames.html',
+  '/remove-pdf-password.html',
+  '/protect-pdf-by-password.html',
 ]);
 
 function renderMetaTags(ctx) {
@@ -777,11 +779,11 @@ ${sharedFragments.topPageBannerAd || ''}
 <div class='w3-row page-section'>
 <div class='w3-container w3-padding-0'>
 ${body}
-${editorialByline}
-${editorialTrust}
 ${relatedStyles}
 </div>
 </div>
+${editorialByline}
+${editorialTrust}
 ${sharedFragments.inContentBannerAd || ''}
 ${toolContent}
 </main>
