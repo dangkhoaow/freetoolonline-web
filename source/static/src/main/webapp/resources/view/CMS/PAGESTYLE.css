@@ -74,7 +74,19 @@ a {
     max-width: unset
 }
 
-.page-main-content>.page-section {
+/*
+ * Direct-child .page-section under .page-main-content is stripped of card
+ * chrome so the outer body wrapper is flush to the content column and its
+ * NESTED .page-section cards (inside BODYHTML) carry the chrome instead.
+ *
+ * Exempt the editorial-byline and editorial-trust fragments — they are direct
+ * children of <main> by design (see Phase 7 Cycle 1 fix cc72f78: direct-child
+ * placement prevents a 31px inset) but visually MUST match the nested body
+ * cards (width 1240px, padding 20px, box-shadow, margin-bottom 10px). Before
+ * this exemption they rendered full-viewport flush, breaking width + vertical
+ * margin consistency against the cards above them on home + hub pages.
+ */
+.page-main-content>.page-section:not(.editorial-byline):not(.editorial-trust) {
     margin: 0!important;
     padding: 0;
     width: 100%;
@@ -85,6 +97,18 @@ a {
 
 .page-section {
     border: none!important;
+}
+
+/*
+ * The stripping rule above sets margin: 0 !important on the direct-child
+ * .page-section body wrapper, which kills its margin-bottom: 10px. Without
+ * an explicit margin-top on editorial-byline, the card is flush against
+ * the body wrapper (no visible gap, body gradient cannot show through).
+ * Restore a 10px gap above editorial-byline so the two exempt cards match
+ * the rhythm of the nested .page-section cards above them on home + hubs.
+ */
+.page-main-content>.page-section.editorial-byline {
+    margin-top: 10px !important;
 }
 
 .ui-widget.ui-widget-content.ui-autocomplete {
@@ -114,6 +138,15 @@ html.page-root {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    /*
+     * Keep the JS-loaded hero image painted behind the full scroll range
+     * (hero → editorial-byline → editorial-trust → footer). With default
+     * background-attachment: scroll the image is sized to html's own box
+     * (100vh) and the area below the hero falls through to the solid
+     * #7558e9 fill. `fixed` anchors the image to the viewport so it stays
+     * visible as the user scrolls past the hero.
+     */
+    background-attachment: fixed;
 }
 
 /* Homepage background should extend under footer and beyond #home. */
@@ -217,6 +250,13 @@ html.page-root.dark header.navBarContainer.w3-top .new-style-nav-bar .settingsBt
 #content.w3-content,
 .page-main-content {
     overflow: visible !important;
+}
+
+@media (min-width: 1000px) {
+    html.has-upload .pageNameContainer > .navPageName {
+        font-size: 18px !important;
+        padding: 11px 6px !important;
+    }
 }
 
 .bgimg-1 {

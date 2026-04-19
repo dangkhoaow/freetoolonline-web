@@ -1,4 +1,4 @@
-import { canonicalForRoute, isInfoRoute } from './site-data.mjs';
+import { canonicalForRoute, isInfoRoute, isGuideRoute } from './site-data.mjs';
 import { getSeoClusterGroups, resolveHubBacklink } from './seo-clusters.mjs';
 import { DEFAULT_PAGE_SVG_LOGO, escapeHtml, renderBaseScript, renderDownloadTag, renderLoadingTag, renderShareButtons, renderUploadSecondTag, renderUploadStartupSecondTag, renderUploadStartupTag, renderUploadTag, renderWelcomeTag, replaceExpressions, unwrapStyleBlock } from './page-fragments.mjs';
 import { buildStagingBannerHtml, normalizeBasePath, resolveCanonicalUrl } from './staging-utils.mjs';
@@ -45,6 +45,11 @@ const HOWTO_ROUTES = new Set([
   '/convert-time-in-millisecond-to-date.html',
   '/pdf-to-images.html',
   '/extract-gif-to-image-frames.html',
+  '/remove-pdf-password.html',
+  '/protect-pdf-by-password.html',
+  '/video-maker.html',
+  '/ffmpeg-online.html',
+  '/pdf-to-html.html',
 ]);
 
 function renderMetaTags(ctx) {
@@ -54,6 +59,8 @@ function renderMetaTags(ctx) {
   const selfHreflang = isVietnamese ? 'vi-vn' : 'en-us';
   const title = ctx.isHome ? 'Home Page - Free Tool Online' : `${ctx.browserTitle} - Free Tool Online`;
   const ogTitle = ctx.isHome ? 'Free Tool Online - Home Page' : `Free Tool Online - ${ctx.browserTitle}`;
+  const mobileTitleBase = String(ctx.mobileBrowserTitle ?? '').trim();
+  const mobileTitle = mobileTitleBase ? `${mobileTitleBase} - Free Tool Online` : '';
   const description = escapeHtml(ctx.description || '');
   const keywords = escapeHtml(ctx.keyword || '');
   const resolvedCanonical = canonicalUrl || siteUrl;
@@ -69,12 +76,19 @@ function renderMetaTags(ctx) {
   // where the EN equivalent slug is unknown, fall back to the site origin.
   const xDefaultHref = isVietnamese ? canonicalOrigin : resolvedCanonical;
   console.log(`[seo:hreflang] route=${ctx.route} lang=${ctx.lang} canonical=${resolvedCanonical} self=${selfHreflang} x-default=${xDefaultHref || 'none'}.`);
+  if (ctx.isStaging && !ctx.isHome && mobileTitleBase) {
+    console.log(`[seo:mobile-title] route=${ctx.route} mobileTitle="${mobileTitleBase}".`);
+  }
   const alternateLinks = [
     `<link rel='alternate' href='${canonical}' hreflang='${selfHreflang}' />`,
     xDefaultHref ? `<link rel='alternate' href='${escapeHtml(xDefaultHref)}' hreflang='x-default' />` : '',
   ].filter(Boolean);
+  const mobileTitleScript = ctx.isStaging && !ctx.isHome && mobileTitle
+    ? `<script>(function(){try{var t=${JSON.stringify(mobileTitle)};var m=(window.matchMedia?window.matchMedia('(max-width: 480px)').matches:((window.innerWidth||0)<=480));if(m&&t){document.title=t;}}catch(e){}})();</script>`
+    : '';
   return [
     `<title>${escapeHtml(title)}</title>`,
+    mobileTitleScript,
     `<meta http-equiv='cache-control' content='max-age=0, public'/>`,
     `<meta http-equiv='expires' content='0'/>`,
     `<meta http-equiv='pragma' content='no-cache'/>`,
@@ -134,7 +148,14 @@ function renderToolSections(ctx) {
     : `<div class="w3-row page-section"><div id="star-rating-container">Loading reviews...</div></div>`;
   const relatedToolsHtml = ctx.relatedToolsHtml ?? '';
   const relatedToolsTagsHtml = ctx.relatedToolsTagsHtml ?? '';
-  return `<!-- SEO_BLOCK:RELATED_TOOLS --><div class="w3-row page-section relatedToolsSection"><p style="margin-bottom: 0px;">Related tools:</p><div class="relatedTools">${relatedToolsHtml}</div>${relatedToolsTagsHtml}<script>loadRelatedTools = function(){try{var relatedEl=document.querySelector('.relatedTools');if(relatedEl&&relatedEl.children&&relatedEl.children.length>0){window.__relatedToolsRequested=!0;return;}if(window.__relatedToolsRequested)return;if(document.querySelector('script[src*="related-tools.js"]')){window.__relatedToolsRequested=!0;return;}window.__relatedToolsRequested=!0;loadScript('${ctx.relatedToolsScriptPath}?v=' + APP_VERSION, function(){});}catch(e){}};document.addEventListener('DOMContentLoaded',function(){try{if(window.__relatedToolsBootstrapped)return;window.__relatedToolsBootstrapped=!0;loadRelatedTools();}catch(e){}});</script></div>${ratingBlock}${ctx.pageFaq ? ctx.pageFaq : ''}${ctx.bottomPageBannerAd || ''}<!-- END_SEO_BLOCK:RELATED_TOOLS -->`;
+  // Cluster-hub callout — single anchor above the related-tools band. Cluster-aware
+  // via seo-clusters.mjs::resolveHubBacklink. Renders only for tool pages that have
+  // a resolvable cluster hub (§3.12).
+  const clusterHubLink = ctx.clusterHubLink;
+  const clusterHubBlock = clusterHubLink && clusterHubLink.href && clusterHubLink.label
+    ? `<div class="w3-row page-section clusterHubCallout"><p style="margin: 0 0 8px;"><a href="${escapeHtml(clusterHubLink.href)}" style="color: #4caf50; font-weight: 600;">See all ${escapeHtml(clusterHubLink.label)} &rarr;</a></p></div>`
+    : '';
+  return `<!-- SEO_BLOCK:RELATED_TOOLS -->${clusterHubBlock}<div class="w3-row page-section relatedToolsSection"><p style="margin-bottom: 0px;">Related tools:</p><div class="relatedTools">${relatedToolsHtml}</div>${relatedToolsTagsHtml}<script>loadRelatedTools = function(){try{var relatedEl=document.querySelector('.relatedTools');if(relatedEl&&relatedEl.children&&relatedEl.children.length>0){window.__relatedToolsRequested=!0;return;}if(window.__relatedToolsRequested)return;if(document.querySelector('script[src*="related-tools.js"]')){window.__relatedToolsRequested=!0;return;}window.__relatedToolsRequested=!0;loadScript('${ctx.relatedToolsScriptPath}?v=' + APP_VERSION, function(){});}catch(e){}};document.addEventListener('DOMContentLoaded',function(){try{if(window.__relatedToolsBootstrapped)return;window.__relatedToolsBootstrapped=!0;loadRelatedTools();}catch(e){}});</script></div>${ratingBlock}${ctx.pageFaq ? ctx.pageFaq : ''}${ctx.bottomPageBannerAd || ''}<!-- END_SEO_BLOCK:RELATED_TOOLS -->`;
 }
 
 function buildJsonLdScript(payload) {
@@ -160,6 +181,30 @@ function buildWebApplicationJsonLd({ browserTitle, canonicalUrl, description, ap
   return buildJsonLdScript(jsonLd);
 }
 
+// Article JSON-LD for /guides/* routes. Attributes the article to the
+// freetoolonline editorial team (Person schema added to Organization) and
+// records the publication/modified date for freshness signals.
+function buildArticleJsonLd({ canonicalUrl, canonicalOrigin, headline, description, datePublished, dateModified }) {
+  const siteUrl = canonicalForRoute(canonicalOrigin, '/');
+  const orgId = `${siteUrl}#organization`;
+  const editorialTeamId = `${siteUrl}#editorial-team`;
+  return buildJsonLdScript({
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline,
+    ...(description ? { description } : {}),
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': canonicalUrl,
+    },
+    author: { '@id': editorialTeamId },
+    publisher: { '@id': orgId },
+    ...(datePublished ? { datePublished } : {}),
+    ...(dateModified ? { dateModified } : {}),
+    image: 'https://dkbg1jftzfsd2.cloudfront.net/image/logo.200x200.png',
+  });
+}
+
 function buildWebSiteJsonLd({ canonicalUrl, name }) {
   return buildJsonLdScript({
     '@context': 'https://schema.org',
@@ -172,17 +217,32 @@ function buildWebSiteJsonLd({ canonicalUrl, name }) {
 function buildOrganizationJsonLd({ canonicalOrigin }) {
   const siteUrl = canonicalForRoute(canonicalOrigin, '/');
   const orgId = `${siteUrl}#organization`;
+  const editorialTeamId = `${siteUrl}#editorial-team`;
   return buildJsonLdScript({
     '@context': 'https://schema.org',
     '@type': 'Organization',
     '@id': orgId,
     name: 'Free Tool Online',
+    alternateName: 'freetoolonline',
     url: siteUrl,
     logo: 'https://dkbg1jftzfsd2.cloudfront.net/image/logo.200x200.png',
+    foundingDate: '2015',
+    description: 'A collection of 100+ free, in-browser online tools (ZIP, PDF, image conversion, device tests, developer utilities, video) curated by the freetoolonline editorial team since 2015.',
+    slogan: 'In-browser tools, no upload, no install.',
     sameAs: [
       'https://twitter.com/freetoolonline1',
       'https://www.buymeacoffee.com/freetoolonline.com',
       'https://www.trustpilot.com/review/freetoolonline.com',
+      'https://github.com/dangkhoaow/freetoolonline-web',
+    ],
+    knowsAbout: [
+      'file compression',
+      'image conversion',
+      'PDF tools',
+      'HEIC to JPG conversion',
+      'browser-based hardware diagnostics',
+      'JavaScript and CSS minification',
+      'video format conversion',
     ],
     contactPoint: [
       {
@@ -190,6 +250,26 @@ function buildOrganizationJsonLd({ canonicalOrigin }) {
         contactType: 'customer support',
         url: canonicalForRoute(canonicalOrigin, '/contact-us.html'),
         availableLanguage: ['en', 'vi'],
+      },
+    ],
+    // Editorial team surfaced as a named Person for E-E-A-T reinforcement.
+    // Matches the editorial-byline.html fragment shipped in Phase 7 HIGH PRIORITY.
+    employee: [
+      {
+        '@type': 'Person',
+        '@id': editorialTeamId,
+        name: 'freetoolonline editorial team',
+        jobTitle: 'Editorial team',
+        worksFor: { '@id': orgId },
+        description: 'The freetoolonline editorial team has shipped browser-based utilities since 2015. Each tool is audited for privacy (no upload), accuracy (vs native reference tools), and readability (US English, plain-language steps).',
+        knowsAbout: [
+          'in-browser file processing',
+          'image and video conversion',
+          'PDF manipulation',
+          'browser hardware diagnostics',
+          'JavaScript and CSS minification',
+          'technical SEO',
+        ],
       },
     ],
   });
@@ -382,7 +462,10 @@ function extractFaqItems(faqHtml, pageName = '') {
   }
 
   const logPrefix = pageName ? `[faq:${pageName}]` : '[faq]';
-  const headerRegex = /<h2[^>]*>[\s\S]*?frequently asked questions[\s\S]*?<\/h2>/i;
+  // Primary: canonical "Frequently Asked Questions" header.
+  // Extended: also accept FAQ-variant headers ("FAQ:", "FAQs", or "FAQ <topic>")
+  // so fragments whose H2 uses a non-canonical phrasing still emit FAQPage JSON-LD.
+  const headerRegex = /<h2[^>]*>[\s\S]*?(?:frequently asked questions|\bfaqs?\b[:\s][\s\S]*?)[\s\S]*?<\/h2>/i;
   let headerIndex = -1;
   let headerHtml = '';
   const headerMatch = raw.match(headerRegex);
@@ -393,7 +476,12 @@ function extractFaqItems(faqHtml, pageName = '') {
     console.log(`${logPrefix} FAQ header matched with <h2> tag.`);
   } else {
     const lower = raw.toLowerCase();
-    const textIndex = lower.indexOf('frequently asked questions');
+    const probes = ['frequently asked questions', 'faq:', 'faqs:', 'faqs '];
+    let textIndex = -1;
+    for (const needle of probes) {
+      const idx = lower.indexOf(needle);
+      if (idx >= 0 && (textIndex < 0 || idx < textIndex)) textIndex = idx;
+    }
     if (textIndex >= 0) {
       const startIndex = raw.lastIndexOf('<h2', textIndex);
       const endIndex = raw.indexOf('</h2>', textIndex);
@@ -651,9 +739,28 @@ export function renderPageDocument({ route, siteOrigin, canonicalOrigin, basePat
   const breadcrumbJsonLd = breadcrumbItems.length > 0
     ? buildBreadcrumbJsonLd({ canonicalOrigin, items: breadcrumbItems })
     : '';
-  const organizationJsonLd = (isHome || isHubPage) ? buildOrganizationJsonLd({ canonicalOrigin }) : '';
+  const isGuide = isGuideRoute(normalizedRoute);
+  // Organization JSON-LD: emit on home, hub pages, AND guide pages (guide Article
+  // schema references the Organization and its editorial-team Person by @id).
+  const organizationJsonLd = (isHome || isHubPage || isGuide) ? buildOrganizationJsonLd({ canonicalOrigin }) : '';
   if (organizationJsonLd) {
     console.log(`[schema:org] Injected Organization JSON-LD on ${normalizedRoute}.`);
+  }
+  // Article JSON-LD for /guides/* routes. Uses the page's browserTitle as headline,
+  // meta description as abstract, and the hardcoded 2026-04-19 publish date (matches
+  // the <time> element in each guide BODYHTML).
+  const articleJsonLd = isGuide
+    ? buildArticleJsonLd({
+        canonicalUrl,
+        canonicalOrigin,
+        headline: browserTitle,
+        description,
+        datePublished: '2026-04-19T08:00:00Z',
+        dateModified: '2026-04-19T08:00:00Z',
+      })
+    : '';
+  if (articleJsonLd) {
+    console.log(`[schema:article] ${normalizedRoute} headline="${browserTitle}".`);
   }
   const shouldIncludeHowTo = showAds && !isHubPage && HOWTO_ROUTES.has(normalizedRoute);
   const howToSteps = shouldIncludeHowTo ? extractHowToSteps(pageData.bodyHtml, pageName, normalizedRoute) : [];
@@ -663,7 +770,7 @@ export function renderPageDocument({ route, siteOrigin, canonicalOrigin, basePat
   if (shouldIncludeHowTo) {
     console.log(`[schema:howto] ${normalizedRoute} steps=${howToSteps.length}.`);
   }
-  const jsonLdBlock = [jsonLd, organizationJsonLd, breadcrumbJsonLd, howToJsonLd, faqJsonLd].filter(Boolean).join('\n');
+  const jsonLdBlock = [jsonLd, organizationJsonLd, articleJsonLd, breadcrumbJsonLd, howToJsonLd, faqJsonLd].filter(Boolean).join('\n');
   const head = renderMetaTags({
     siteOrigin,
     route: normalizedRoute,
@@ -672,6 +779,7 @@ export function renderPageDocument({ route, siteOrigin, canonicalOrigin, basePat
     isHome,
     isStaging,
     browserTitle,
+    mobileBrowserTitle: pageData.pageBrowserTitleMobile,
     description,
     keyword,
     canonicalUrl,
@@ -718,6 +826,14 @@ export function renderPageDocument({ route, siteOrigin, canonicalOrigin, basePat
   if (showAds && relatedToolsData?.urlMaps) {
     console.log(`[related-tools:ssr] ${normalizedRoute} links=${relatedToolsState.linkCount} tags=${relatedToolsState.tagsCount}.`);
   }
+  // Cluster-hub link above related-tools on tool pages (not hubs/home/info).
+  // resolveHubBacklink returns { href, label } for tool pages in a cluster; null otherwise.
+  const clusterHubLink = !isHubPage && !isHome && !isInfoRoute(normalizedRoute)
+    ? resolveHubBacklink(normalizedRoute)
+    : null;
+  if (clusterHubLink) {
+    console.log(`[seo:cluster-hub] ${normalizedRoute} → ${clusterHubLink.href} (${clusterHubLink.label}).`);
+  }
   const toolSections = renderToolSections({
     showAds,
     showRating,
@@ -726,15 +842,22 @@ export function renderPageDocument({ route, siteOrigin, canonicalOrigin, basePat
     relatedToolsScriptPath,
     relatedToolsHtml: relatedToolsState.listHtml,
     relatedToolsTagsHtml: relatedToolsState.tagsHtml,
+    clusterHubLink,
   });
   const relatedStyles = !hasUpload ? `<style>#content.w3-content { margin-top: 50px; }</style>` : '';
   const showDisableAdsScript = showAds ? `<script>isLoadAds = true;</script>` : '';
   const toolContent = showAds ? toolSections : '';
+  const showEditorialSurface = isHome || isHubPage || isGuide;
+  const editorialByline = showEditorialSurface ? (sharedFragments.editorialByline || '') : '';
+  const editorialTrust = showEditorialSurface ? (sharedFragments.editorialTrust || '') : '';
+  if (showEditorialSurface && (editorialByline || editorialTrust)) {
+    console.log(`[seo:editorial] Injected byline/trust on ${normalizedRoute}.`);
+  }
   const stagingBanner = isStaging ? buildStagingBannerHtml() : '';
   const bodyMarkup = rewriteInternalContent(`
 <body class="new-style-body">
 ${sharedFragments.topBodyContent || ''}
-${renderBaseScript({ siteOrigin, apiOrigin, pageUrl, pageName, appVersion, ioVersion, getAlterUploaderDelayMs, bgsCollection, ioInfos, unsplashKey, randomString })}
+${renderBaseScript({ siteOrigin, apiOrigin, pageUrl, pageName, appVersion, ioVersion, getAlterUploaderDelayMs, bgsCollection, ioInfos, unsplashKey, randomString, basePath: normalizedBasePath })}
 ${showDisableAdsScript}
 ${renderHeader({ siteOrigin, pageUrl, pageName, browserTitle, pageTitle, hasSettings, showAds, pageSvgLogo: sharedFragments.pageSvgLogo, })}
 ${stagingBanner}
@@ -750,6 +873,8 @@ ${body}
 ${relatedStyles}
 </div>
 </div>
+${editorialByline}
+${editorialTrust}
 ${sharedFragments.inContentBannerAd || ''}
 ${toolContent}
 </main>
@@ -779,7 +904,10 @@ ${bodyMarkup}
 export function renderRedirectPage({ siteOrigin, canonicalOrigin, sourceRoute, targetRoute }) {
   const targetUrl = canonicalForRoute(siteOrigin, targetRoute);
   const canonicalUrl = canonicalForRoute(canonicalOrigin, targetRoute);
-  return `<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8"/>\n<meta name="robots" content="noindex, nofollow"/>\n<meta http-equiv="refresh" content="0; url=${escapeHtml(targetUrl)}"/>\n<link rel="canonical" href="${escapeHtml(canonicalUrl)}"/>\n<title>Redirecting...</title>\n<script>\n(function(){\n  var target = ${JSON.stringify(targetUrl)};\n  var suffix = (window.location.search || '') + (window.location.hash || '');\n  window.location.replace(target + suffix);\n})();\n</script>\n</head>\n<body>\n<p>Redirecting from ${escapeHtml(sourceRoute)} to <a href="${escapeHtml(targetUrl)}">${escapeHtml(targetUrl)}</a>.</p>\n</body>\n</html>`;
+  // noindex,follow consolidates canonical authority from alias URLs onto the target
+  // page (plan §3.8). `follow` lets crawlers pass link equity through to the target,
+  // which is what we want for alias→canonical redirects.
+  return `<!DOCTYPE html>\n<html lang="en">\n<head>\n<meta charset="utf-8"/>\n<meta name="robots" content="noindex, follow"/>\n<meta http-equiv="refresh" content="0; url=${escapeHtml(targetUrl)}"/>\n<link rel="canonical" href="${escapeHtml(canonicalUrl)}"/>\n<title>Redirecting...</title>\n<script>\n(function(){\n  var target = ${JSON.stringify(targetUrl)};\n  var suffix = (window.location.search || '') + (window.location.hash || '');\n  window.location.replace(target + suffix);\n})();\n</script>\n</head>\n<body>\n<p>Redirecting from ${escapeHtml(sourceRoute)} to <a href="${escapeHtml(targetUrl)}">${escapeHtml(targetUrl)}</a>.</p>\n</body>\n</html>`;
 }
 
 export function renderAlternateAdPage({ canonicalOrigin }) {
