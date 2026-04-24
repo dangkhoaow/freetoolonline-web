@@ -50,7 +50,42 @@ const HOWTO_ROUTES = new Set([
   '/video-maker.html',
   '/ffmpeg-online.html',
   '/pdf-to-html.html',
+  // P10.2.5 Phase 10 Cycle 4 — HowTo +3. (html-to-pdf.html route does not
+  // exist in JSP_BY_ROUTE; base64-to-image.html substituted as the
+  // developer-cluster peer.) Each slug listed here has a w3-pale-green
+  // answer panel with a 3-step <ol> that extractHowToSteps picks up.
+  '/gif-maker.html',
+  '/qr-code-generator.html',
+  '/base64-to-image.html',
 ]);
+
+// P10.3.1 — Per-tool og:image differentiation (Phase 10 Cycle 4).
+// The default og:image (CloudFront logo) is identical across 82 URLs which
+// produces zero Discover / Twitter / LinkedIn preview differentiation. This
+// map targets the top 5 non-ZIP URLs with per-tool 1200×630 PNGs once the
+// assets are uploaded to the existing CloudFront bucket under
+// `image/og/<slug>-1200x630.png`. Until the assets exist, the lookup is
+// gated behind USE_TOOL_OG_IMAGES so stale references never reach prod.
+//
+// Owner action remaining: produce the 5 PNGs (heic-to-jpg, lcd-test,
+// md5-converter, camera-test, css-minifier) + upload to CDN + flip
+// USE_TOOL_OG_IMAGES=true in the build env. No site-level changes required.
+const TOOL_OG_IMAGE_MAP = {
+  '/heic-to-jpg.html': 'https://dkbg1jftzfsd2.cloudfront.net/image/og/heic-to-jpg-1200x630.png',
+  '/lcd-test.html': 'https://dkbg1jftzfsd2.cloudfront.net/image/og/lcd-test-1200x630.png',
+  '/md5-converter.html': 'https://dkbg1jftzfsd2.cloudfront.net/image/og/md5-converter-1200x630.png',
+  '/camera-test.html': 'https://dkbg1jftzfsd2.cloudfront.net/image/og/camera-test-1200x630.png',
+  '/css-minifier.html': 'https://dkbg1jftzfsd2.cloudfront.net/image/og/css-minifier-1200x630.png',
+};
+const DEFAULT_OG_IMAGE = 'https://dkbg1jftzfsd2.cloudfront.net/image/logo.200x200.png';
+
+function resolveOgImage(route) {
+  const useToolOgImages = process.env.USE_TOOL_OG_IMAGES === 'true';
+  if (!useToolOgImages) {
+    return DEFAULT_OG_IMAGE;
+  }
+  return TOOL_OG_IMAGE_MAP[route] ?? DEFAULT_OG_IMAGE;
+}
 
 function renderMetaTags(ctx) {
   const canonicalUrl = ctx.canonicalUrl;
@@ -114,7 +149,7 @@ function renderMetaTags(ctx) {
     ctx.isStaging ? `<meta name="robots" content="noindex, nofollow">` : '',
     `<meta property='og:title' content='${escapeHtml(ogTitle)}'/>`,
     `<meta property='og:description' content='${description}'/>`,
-    `<meta property='og:image' content='https://dkbg1jftzfsd2.cloudfront.net/image/logo.200x200.png'/>`,
+    `<meta property='og:image' content='${resolveOgImage(ctx.route)}'/>`,
     `<meta property='og:type' content='${ctx.isGuide ? 'article' : 'website'}'/>`,
     ctx.isGuide ? `<meta property='article:author' content='freetoolonline editorial team'/>` : '',
     ctx.isGuide ? `<meta property='article:publisher' content='${escapeHtml(ctx.siteOrigin)}'/>` : '',
@@ -214,8 +249,12 @@ function buildArticleJsonLd({ canonicalUrl, canonicalOrigin, headline, descripti
     ...(dateModified ? { dateModified } : {}),
     image: 'https://dkbg1jftzfsd2.cloudfront.net/image/logo.200x200.png',
     speakable: {
+      // P10.3.7 — `.answer` selector was a dead match on guides (0/19 guide
+      // pages emit that class; it's a tool-page idiom). Drop it and keep the
+      // two selectors that resolve reliably on every guide: the H1 and the
+      // pale-green answer/definition panel.
       '@type': 'SpeakableSpecification',
-      cssSelector: ['h1', '.answer', '.w3-pale-green'],
+      cssSelector: ['h1', '.w3-pale-green'],
     },
   });
 }
@@ -333,7 +372,7 @@ function buildCollectionPageJsonLd({ canonicalOrigin, canonicalUrl, name, itemRo
     name,
     url: canonicalUrl,
     inLanguage: 'en-US',
-    lastReviewed: '2026-04-21',
+    lastReviewed: '2026-04-23',
     mainEntity: {
       '@type': 'ItemList',
       itemListElement,
@@ -795,7 +834,7 @@ export function renderPageDocument({ route, siteOrigin, canonicalOrigin, basePat
         headline: browserTitle,
         description,
         datePublished: '2026-04-19T08:00:00Z',
-        dateModified: '2026-04-21T08:00:00Z',
+        dateModified: '2026-04-23T08:00:00Z',
       })
     : '';
   if (articleJsonLd) {
@@ -819,7 +858,7 @@ export function renderPageDocument({ route, siteOrigin, canonicalOrigin, basePat
     isStaging,
     isGuide,
     articlePublishedAt: isGuide ? '2026-04-19T08:00:00Z' : '',
-    articleModifiedAt: isGuide ? '2026-04-21T08:00:00Z' : '',
+    articleModifiedAt: isGuide ? '2026-04-23T08:00:00Z' : '',
     browserTitle,
     mobileBrowserTitle: pageData.pageBrowserTitleMobile,
     description,
@@ -896,9 +935,21 @@ export function renderPageDocument({ route, siteOrigin, canonicalOrigin, basePat
     console.log(`[seo:editorial] Injected byline/trust on ${normalizedRoute}.`);
   }
   const stagingBanner = isStaging ? buildStagingBannerHtml() : '';
+  // P10.1.2 — Staging GA4 isolation. Staging must not emit the prod GA4/GTM
+  // property; `noindex` does not suppress GA event transmission. Default ON for
+  // production builds (isStaging=false). Flip GA4_DISABLED=1 for any build to
+  // suppress all GTM + GA injection (used by staging CI to prevent prod GA4
+  // property pollution from `/freetoolonline-web-test/*` pageviews).
+  const ga4Disabled = isStaging || process.env.GA4_DISABLED === '1';
+  const gtmHead = ga4Disabled ? '' : (sharedFragments.firstLoadJsThirdParty || '');
+  const gtmNoscript = ga4Disabled ? '' : (sharedFragments.topBodyContent || '');
+  const gaExtendedScript = ga4Disabled ? '' : (sharedFragments.extendedJsThirdParty || '');
+  if (ga4Disabled) {
+    console.log(`[seo:ga4] disabled route=${normalizedRoute} reason=${isStaging ? 'staging' : 'env-flag'}.`);
+  }
   const bodyMarkup = rewriteInternalContent(`
 <body class="new-style-body">
-${sharedFragments.topBodyContent || ''}
+${gtmNoscript}
 ${renderBaseScript({ siteOrigin, apiOrigin, pageUrl, pageName, appVersion, ioVersion, getAlterUploaderDelayMs, bgsCollection, ioInfos, unsplashKey, randomString, basePath: normalizedBasePath })}
 ${showDisableAdsScript}
 ${renderHeader({ siteOrigin, pageUrl, pageName, browserTitle, pageTitle, hasSettings, showAds, pageSvgLogo: sharedFragments.pageSvgLogo, })}
@@ -927,7 +978,7 @@ ${sharedFragments.footer || ''}
 <div id='nav_menu' class='w3-sidebar w3-bar-block new-style-nav_menu w3-hide-small' style="display: none">
 ${sharedFragments.lMenu || ''}
 </div>
-<script>${sharedFragments.extendedJsThirdParty || ''}</script>
+<script>${gaExtendedScript}</script>
 <style type="text/css">
 ${sharedFragments.extendedBodyContent ? '' : ''}
 </style>
@@ -936,7 +987,7 @@ ${sharedFragments.extendedBodyContent || ''}
   return `<!DOCTYPE html>
 <html lang="${escapeHtml(lang)}" class="main-html ads-init ads-disabled page-${escapeHtml(pageName)}root${hasUpload ? ' has-upload' : ''}">
 <head>
-${sharedFragments.firstLoadJsThirdParty || ''}
+${gtmHead}
 ${head}
 </head>
 ${bodyMarkup}
