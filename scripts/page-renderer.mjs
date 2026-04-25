@@ -72,6 +72,20 @@ const HOWTO_ROUTES = new Set([
   '/css-gradient-generator.html',
   '/split-pdf-by-range.html',
   '/svg-to-png.html',
+  // P12.2.2 Phase 12 Cycle 2 - HowTo wave 4 (+4 -> 34/51 = 67%). Image-editing
+  // cluster backfill: existing 2/8 (compress-image, gif-maker) -> 6/8 with these
+  // additions. Each tool gets a w3-pale-green answer panel with a 3-step <ol>
+  // authored via seo-content-writer.
+  '/crop-image.html',
+  '/resize-image.html',
+  '/photo-editor.html',
+  '/insights-image-optimizer.html',
+  // P12.2.6 Phase 12 Cycle 3 - HowTo backfill image-conversion. Plan called
+  // for png-to-svg + extract-gif-to-image-frames; extract-gif was already in
+  // HOWTO_ROUTES + already had a w3-pale-green answer panel from a prior
+  // phase, so net addition is +1 -> 35/51. Answer panel authored via
+  // seo-content-writer (raster-to-vector tracing 3-step).
+  '/png-to-svg.html',
 ]);
 
 // P10.3.1 - Per-tool og:image differentiation (Phase 10 Cycle 4).
@@ -387,7 +401,7 @@ function buildCollectionPageJsonLd({ canonicalOrigin, canonicalUrl, name, itemRo
     name,
     url: canonicalUrl,
     inLanguage: 'en-US',
-    lastReviewed: '2026-04-23',
+    lastReviewed: '2026-04-25',
     mainEntity: {
       '@type': 'ItemList',
       itemListElement,
@@ -849,7 +863,7 @@ export function renderPageDocument({ route, siteOrigin, canonicalOrigin, basePat
         headline: browserTitle,
         description,
         datePublished: '2026-04-19T08:00:00Z',
-        dateModified: '2026-04-23T08:00:00Z',
+        dateModified: '2026-04-25T08:00:00Z',
       })
     : '';
   if (articleJsonLd) {
