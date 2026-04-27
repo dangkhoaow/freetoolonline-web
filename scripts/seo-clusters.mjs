@@ -56,6 +56,55 @@ const SEO_CLUSTER_GROUPS = [
     hubLabel: 'Back to Utility Tools',
     routes: ['/convert-time-in-millisecond-to-date.html', '/get-time-in-millisecond.html', '/qr-code-generator.html', '/do-nong-do-con-truc-tuyen.html', '/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html'],
   },
+  // Phase 16 P16.G3 - register the /guides/* cluster. Cycle B activates the
+  // full route list now that P16.G1 ships /guides.html. resolveHubBacklink
+  // returns { href: '/guides.html', label: 'Back to All Guides' } for every
+  // route in this list, which causes (a) the renderer's breadcrumb chain to
+  // become Home > All Guides > <guide title> and (b) site-data.mjs::
+  // appendHubBacklink to auto-append "<- Back to All Guides" to each
+  // guide's BODYHTML (or BODYWELCOME if present). Append-only at the
+  // markup level - the existing guide BODYHTML/BODYWELCOME files are not
+  // edited; the renderer adds the backlink at build time.
+  {
+    cluster: 'guides',
+    hubRoute: '/guides.html',
+    hubLabel: 'Back to All Guides',
+    routes: [
+      // Phase 7-13 published guides (chronological).
+      '/guides/heic-vs-jpg-vs-webp.html',
+      '/guides/dead-pixel-testing-guide.html',
+      '/guides/unix-timestamps-explained.html',
+      '/guides/pdf-password-types-owner-vs-user.html',
+      '/guides/png-vs-svg-when-to-use.html',
+      '/guides/css-minifier-vs-compressor.html',
+      '/guides/mp4-vs-webm-for-web.html',
+      '/guides/jpg-vs-png-for-web.html',
+      '/guides/md5-vs-sha256-when-to-hash.html',
+      '/guides/csv-vs-json-data-formats.html',
+      '/guides/pdf-vs-heic-for-document-archival.html',
+      '/guides/ffmpeg-online-vs-local-ffmpeg-when-each-wins.html',
+      '/guides/how-to-convert-100-heic-photos-to-jpg.html',
+      '/guides/how-to-test-for-dead-pixels-before-returning-a-monitor.html',
+      '/guides/how-to-sign-pdf-after-removing-a-password.html',
+      '/guides/how-to-extract-frames-from-a-gif-for-a-social-post.html',
+      '/guides/how-to-check-webcam-and-microphone-before-an-interview.html',
+      '/guides/how-to-minify-css-js-for-cloud-run-cold-start.html',
+      '/guides/what-we-learned-running-free-in-browser-image-tools-for-100k-monthly-users.html',
+      '/guides/when-to-compress-vs-convert-an-image.html',
+      '/guides/how-to-compress-a-folder-for-email.html',
+      '/guides/device-test-checklist-for-remote-work.html',
+      '/guides/pdf-editing-ladder.html',
+      '/guides/file-compressor-vs-zip-what-to-pick.html',
+      '/guides/heic-vs-jpg-converter-when-each-wins.html',
+      // Phase 16 Cycle A.
+      '/guides/what-is-a-file-compressor-and-which-to-use.html',
+      '/guides/how-to-compress-a-file-online.html',
+      '/guides/how-to-reduce-zip-file-size-online.html',
+      // Phase 16 Cycle B.
+      '/guides/how-to-convert-heic-to-jpg-step-by-step.html',
+      '/guides/what-an-lcd-test-does-and-when-to-run-one.html',
+    ],
+  },
 ];
 
 const ROUTE_TO_HUB_LINK = new Map(
