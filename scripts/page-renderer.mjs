@@ -121,8 +121,8 @@ function renderMetaTags(ctx) {
   const siteUrl = canonicalForRoute(ctx.siteOrigin, ctx.route);
   const isVietnamese = ctx.lang === 'vi';
   const selfHreflang = isVietnamese ? 'vi-vn' : 'en-us';
-  const title = ctx.isHome ? 'Home Page - Free Tool Online' : `${ctx.browserTitle} - Free Tool Online`;
-  const ogTitle = ctx.isHome ? 'Free Tool Online - Home Page' : `Free Tool Online - ${ctx.browserTitle}`;
+  const title = ctx.isHome ? 'Free Online Tools: PDF, Image, Dev, Device' : `${ctx.browserTitle} - Free Tool Online`;
+  const ogTitle = ctx.isHome ? 'Free Online Tools: PDF, Image, Dev, Device' : `Free Tool Online - ${ctx.browserTitle}`;
   const mobileTitleBase = String(ctx.mobileBrowserTitle ?? '').trim();
   const mobileTitle = mobileTitleBase ? `${mobileTitleBase} - Free Tool Online` : '';
   const description = escapeHtml(ctx.description || '');
@@ -770,7 +770,13 @@ export function renderPageDocument({ route, siteOrigin, canonicalOrigin, basePat
   };
   const resolveAttr = (value) => replaceExpressions(value ?? '', expressionCtx).trim();
 
-  const browserTitle = resolveAttr(pageAttrs.browserTitle) || pageData.pageBrowserTitle || pageData.bodyTitle;
+  // Priority: PAGEBROWSERTITLE<slug>.txt fragment wins over the JSP attribute (which
+  // historically defaulted to `${pageBodyTitle}` across 120 JSPs and was shadowing
+  // per-route SEO title overrides). Fragment-based override is the cycle-11 truth-source
+  // mechanism for trimming `<title>` to the G4 30-65 char band without rewriting BODYTITLE
+  // (which still drives the in-page H1 brand voice). Falls back to JSP attr (for routes
+  // that explicitly want a JSP-driven title) or BODYTITLE if neither override exists.
+  const browserTitle = pageData.pageBrowserTitle || resolveAttr(pageAttrs.browserTitle) || pageData.bodyTitle;
   const pageTitle = resolveAttr(pageAttrs.pageTitle) || '';
   const description = resolveAttr(pageAttrs.description) || pageData.bodyDesc || '';
   const keyword = resolveAttr(pageAttrs.keyword) || pageData.bodyKeyword || '';
