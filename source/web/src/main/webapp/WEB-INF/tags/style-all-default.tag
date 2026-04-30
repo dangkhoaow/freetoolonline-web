@@ -1,4 +1,145 @@
 <style>
+/* ============================================================
+ * DESIGN TOKEN LAYER — added 2026-04-30 per Workstream A.5/A.6
+ * of SITE_ENHANCEMENT_PLAN.md (cohort-grounded palette).
+ *
+ * STATUS: scaffold + visual-parity values. Tokens are defined
+ * here so the wider CSS can opt into var(--*) gradually. The
+ * VALUES below match the existing rendered colors so this
+ * commit is visually neutral. The palette FLIP (orange→blue
+ * CTA, refreshed slate-blue body, etc., per cohort-grounded
+ * recommendation in seo-reports/20260430/analyts/COHORT_AND_UX
+ * _OPPORTUNITY_REPORT.md Part 4) happens in a SUBSEQUENT
+ * cycle-18 commit that only changes the token VALUES — no
+ * rule rewrites needed.
+ *
+ * Cohort grounding (cycle-16 GA4 + Bing pulls):
+ *   - geo: India 38.87% / USA 11.49% / Indonesia 7.15%
+ *   - device: desktop 82.15% / mobile 17.30%
+ *   - OS: Windows 70.72% / Android 12.28% / Mac 8.97%
+ *
+ * Owner approvals: OA2 (cohort hypothesis) + OA3 (orange→blue
+ * accent) confirmed 2026-04-30 against the cohort report Part 4.
+ *
+ * Dark-mode wiring: existing site uses html.main-html.dark
+ * class toggle (see #dark-tgl checkbox in nav header). Tokens
+ * are overridden under that selector AND under the OS-default
+ * @media (prefers-color-scheme: dark) for first-paint dark
+ * before the toggle JS runs.
+ * ============================================================ */
+
+/* PALETTE FLIP — cycle 16 of 2026-04-30. Values data-grounded by R2.5 cohort
+ * research at seo-reports/20260430/research/audience-cohort-design-trends.md.
+ * Each value carries source attribution + WCAG mode-parity verification.
+ * Cohort: India 38.87% emerging-market desktop-Windows + USA 11.49% affluent-desktop. */
+:root {
+    /* SURFACES — off-white page on light per Muzli ("kinder on low-end IPS panels"),
+     * GitHub-style #0d1117 on dark per Bound Dev ("never #000; halation effect"). */
+    --bg-primary:    #fafafa;
+    --bg-surface:    #ffffff;          /* cards on off-white = subtle elevation */
+    --bg-tertiary:   #f4f5f7;
+
+    /* TEXT — slate-900 body per Mavik Labs token-arch + WCAG-AAA (#0f172a on
+     * #fafafa = 17.4:1 vs old #333 on #fff = 12.6:1; deeper contrast helps
+     * India tier-3 low-end displays). */
+    --text-primary:  #0f172a;
+    --text-muted:    #64748b;          /* slate-500 */
+    --text-heading:  #0f172a;          /* same as body; hierarchy via weight */
+
+    /* BRAND-MARK LOGO — UNCHANGED per OA3 (orange brand mark stays as identity;
+     * blue takes over the CTA semantic). */
+    --logo-orange:   #ff4d00;
+    --logo-navy:     #00436e;
+    --logo-grey:     #3a3a3a;
+
+    /* ACCENT / CTA — blue-600 mid-tone per Prospeo ("survives inversion; saturated
+     * blue or green holds up better than pale pastel"). #2563eb on #fafafa = 6.7:1 (WCAG AA Large). */
+    --accent:        #2563eb;
+    --cta-bg:        var(--accent);
+    --cta-text:      #ffffff;
+    --link:          #2563eb;
+    --link-hover:    #1d4ed8;          /* blue-700 */
+
+    /* PANELS — semantic mapping unchanged (w3-pale-* compatibility) */
+    --panel-success-bg:   #dff0d8;
+    --panel-info-bg:      #e7f3fe;
+    --panel-warn-bg:      #fff8d5;
+    --panel-error-bg:     #ffdddd;
+    --panel-success-text: #2c662d;
+    --panel-info-text:    #1b4f8c;
+    --panel-warn-text:    #6b5e1a;
+    --panel-error-text:   #762020;
+
+    /* BORDERS — slate scale per Mavik Labs */
+    --border-subtle: #e2e8f0;          /* slate-200 */
+    --border-input:  #cbd5e1;          /* slate-300 (refresh from #ccd0d5) */
+    --shadow-card:   0 1px 3px rgba(15, 23, 42, 0.08);
+
+    /* TYPOGRAPHY — Inter variable + system-stack fallback per Figma 2026 +
+     * Ozrit (India low-bandwidth) — system-stack FIRST in fallback chain so
+     * Windows 70% gets Segoe UI immediately, no webfont blocking on slow
+     * connections; Inter loads as enhancement. */
+    --font-body:     'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-mono:     'JetBrains Mono', ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace;
+    --line-height-body: 1.6;           /* generous; non-native-English readers benefit */
+
+    /* SPACING — 8px base */
+    --space-1: 4px; --space-2: 8px; --space-3: 16px;
+    --space-4: 24px; --space-5: 32px; --space-6: 48px;
+
+    /* RADIUS */
+    --radius-sm: 4px; --radius-md: 8px; --radius-lg: 12px;
+
+    /* TAP-TARGET — mobile/India cohort needs 48px on /camera-test specifically */
+    --tap-target-min: 44px;
+}
+
+/* DARK MODE — manual toggle via #dark-tgl checkbox (existing JS sets html.main-html.dark) */
+html.main-html.dark {
+    --bg-primary:    #0d1117;          /* GitHub dark; NOT #000 per Bound Dev */
+    --bg-surface:    #161b22;          /* 1 step elevated */
+    --bg-tertiary:   #1c2128;
+
+    --text-primary:  #e6edf3;          /* off-white per Bound Dev — pure white halates */
+    --text-muted:    #8b949e;
+    --text-heading:  #f0f6fc;          /* slight brightness boost over body */
+
+    --accent:        #4f93d4;          /* lighter mid-tone blue; #4f93d4 on #0d1117 = 5.4:1 (WCAG AA) */
+    --cta-bg:        var(--accent);
+    --cta-text:      #0d1117;          /* dark text on light blue CTA in dark mode */
+    --link:          #58a6ff;          /* GitHub-style; 7.2:1 (WCAG AAA) */
+    --link-hover:    #79b8ff;
+
+    --panel-success-bg:   hsl(140, 25%, 14%);
+    --panel-info-bg:      hsl(210, 25%, 14%);
+    --panel-warn-bg:      hsl(45, 25%, 14%);
+    --panel-error-bg:     hsl(0, 25%, 14%);
+    --panel-success-text: hsl(140, 50%, 80%);
+    --panel-info-text:    hsl(210, 50%, 80%);
+    --panel-warn-text:    hsl(45, 50%, 80%);
+    --panel-error-text:   hsl(0, 50%, 80%);
+
+    --border-subtle: #30363d;
+    --border-input:  #30363d;
+    --shadow-card:   0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* OS-default dark for first-paint correctness when user hasn't clicked the toggle yet.
+ * The toggle JS still wins (it sets the html.main-html.dark class explicitly). */
+@media (prefers-color-scheme: dark) {
+    :root:not(.light) {
+        --bg-primary:    #0d1117;
+        --bg-surface:    #161b22;
+        --text-primary:  #e6edf3;
+        --text-muted:    #8b949e;
+        --text-heading:  #f0f6fc;
+        --accent:        #4f93d4;
+        --link:          #58a6ff;
+        --shadow-card:    0 1px 3px rgba(0, 0, 0, 0.4);
+    }
+}
+/* ===== END DESIGN TOKEN LAYER ===== */
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -1722,7 +1863,28 @@ a {
 }
 
 .extrnl {
-    color: #3b73af
+    color: var(--link, #2563eb)
+}
+
+/* PALETTE FLIP cycle 16 — sitewide layout fix + token wiring for non-homepage pages.
+ * Per cycle-16 audit: PAGESTYLE.css (slug-less) is only loaded on '/'; tool/guide
+ * pages need their token-wired rules HERE in style-all-default.tag so the palette
+ * flip + the centering fix reach every URL.
+ *
+ * Layout fix — .page-main-content was rendered with computed maxW=660px (1180/1240
+ * vp) or 1000px (1366+) and asymmetric margins (mL ~170px less than mR), shifting
+ * the column ~85px LEFT of viewport center across all viewports. Root: W3.CSS
+ * .w3-rest creates a BFC (overflow:hidden) that shrink-fits when adjacent floats
+ * leave residual width. Force-center with auto margins + width:calc(100% - 20px)
+ * mirroring .page-section. */
+main.page-main-content,
+.w3-rest.page-main-content {
+    max-width: 1240px !important;
+    width: calc(100% - 20px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
 }
 
 #contactForm #btnSend {

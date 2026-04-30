@@ -1,9 +1,18 @@
+/*
+ * PAGESTYLE.css (slug-less) — homepage-only stylesheet per site-data.mjs
+ * `read('PAGESTYLE','css')` lookup pattern (slug pages use PAGESTYLE<slug>.css).
+ *
+ * Cycle-16 token-wiring: the .headerLogo SVG fills below route via tokens
+ * (--logo-orange/-navy/-grey, no dark override = both palettes hit fallback).
+ * The .extrnl + .ui-autocomplete-input + layout-fix rules previously lived
+ * here are MOVED to style-all-default.tag so they reach every URL, not just '/'.
+ */
 a {
     text-decoration: none
 }
 
 .extrnl {
-    color: #3b73af
+    color: var(--link, #2563eb)
 }
 
 .searchContainer {
@@ -11,11 +20,11 @@ a {
 }
 
 .ui-autocomplete-input {
-    border: 1px solid #ccd0d5!important;
-    background-color: #fff!important;
-    color: #333!important;
+    border: 1px solid var(--border-input, #cbd5e1)!important;
+    background-color: var(--bg-surface, #ffffff)!important;
+    color: var(--text-primary, #0f172a)!important;
     padding: 8px!important;
-    border-radius: 8px!important;
+    border-radius: var(--radius-md, 8px)!important;
     height: 37px!important;
     background: url(https://dkbg1jftzfsd2.cloudfront.net/image/search-icon.svg) right 5px center no-repeat!important;
     background-size: 20px!important;
@@ -55,15 +64,15 @@ a {
 }
 
 .headerLogo path:first-child,.main-html.menu-open header.navBarContainer .headerLogo path:first-child {
-    fill: #ff4d00
+    fill: var(--logo-orange, #ff4d00)
 }
 
 .headerLogo path:last-child,.main-html.menu-open header.navBarContainer .headerLogo path:last-child {
-    fill: #3a3a3a
+    fill: var(--logo-grey, #3a3a3a)
 }
 
 .headerLogo path:nth-child(2),.main-html.menu-open header.navBarContainer .headerLogo path:nth-child(2) {
-    fill: #00436e
+    fill: var(--logo-navy, #00436e)
 }
 
 .welcomeTag,.tagsTag {
@@ -251,6 +260,8 @@ html.page-root.dark header.navBarContainer.w3-top .new-style-nav-bar .settingsBt
 .page-main-content {
     overflow: visible !important;
 }
+/* The .page-main-content centering layout fix lives in style-all-default.tag
+ * (line ~1875) so it reaches every URL, not just '/' (homepage-only PAGESTYLE.css). */
 
 @media (min-width: 1000px) {
     html.has-upload .pageNameContainer > .navPageName {
