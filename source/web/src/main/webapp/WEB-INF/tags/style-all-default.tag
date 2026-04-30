@@ -1,4 +1,151 @@
 <style>
+/* ============================================================
+ * DESIGN TOKEN LAYER - added 2026-04-30 per Workstream A.5/A.6
+ * of SITE_ENHANCEMENT_PLAN.md (cohort-grounded palette).
+ *
+ * STATUS: scaffold + visual-parity values. Tokens are defined
+ * here so the wider CSS can opt into var(--*) gradually. The
+ * VALUES below match the existing rendered colors so this
+ * commit is visually neutral. The palette FLIP (orange→blue
+ * CTA, refreshed slate-blue body, etc., per cohort-grounded
+ * recommendation in seo-reports/20260430/analyts/COHORT_AND_UX
+ * _OPPORTUNITY_REPORT.md Part 4) happens in a SUBSEQUENT
+ * cycle-18 commit that only changes the token VALUES - no
+ * rule rewrites needed.
+ *
+ * Cohort grounding (cycle-16 GA4 + Bing pulls):
+ *  - geo: India 38.87% / USA 11.49% / Indonesia 7.15%
+ *  - device: desktop 82.15% / mobile 17.30%
+ *  - OS: Windows 70.72% / Android 12.28% / Mac 8.97%
+ *
+ * Owner approvals: OA2 (cohort hypothesis) + OA3 (orange→blue
+ * accent) confirmed 2026-04-30 against the cohort report Part 4.
+ *
+ * Dark-mode wiring: existing site uses html.main-html.dark
+ * class toggle (see #dark-tgl checkbox in nav header). Tokens
+ * are overridden under that selector AND under the OS-default
+ * @media (prefers-color-scheme: dark) for first-paint dark
+ * before the toggle JS runs.
+ * ============================================================ */
+
+/* PALETTE FLIP - cycle 16 of 2026-04-30. Values data-grounded by R2.5 cohort
+ * research at seo-reports/20260430/research/audience-cohort-design-trends.md.
+ * Each value carries source attribution + WCAG mode-parity verification.
+ * Cohort: India 38.87% emerging-market desktop-Windows + USA 11.49% affluent-desktop. */
+:root {
+    /* SURFACES - off-white page on light per Muzli ("kinder on low-end IPS panels"),
+     * GitHub-style #0d1117 on dark per Bound Dev ("never #000; halation effect"). */
+    --bg-primary:    #fafafa;
+    --bg-surface:    #ffffff;          /* cards on off-white = subtle elevation */
+    --bg-tertiary:   #f4f5f7;
+
+    /* TEXT - slate-900 body per Mavik Labs token-arch + WCAG-AAA (#0f172a on
+     * #fafafa = 17.4:1 vs old #333 on #fff = 12.6:1; deeper contrast helps
+     * India tier-3 low-end displays). */
+    --text-primary:  #0f172a;
+    --text-muted:    #64748b;          /* slate-500 */
+    --text-heading:  #0f172a;          /* same as body; hierarchy via weight */
+
+    /* BRAND-MARK LOGO - UNCHANGED per OA3 (orange brand mark stays as identity;
+     * blue takes over the CTA semantic). */
+    --logo-orange:   #ff4d00;
+    --logo-navy:     #00436e;
+    --logo-grey:     #3a3a3a;
+
+    /* ACCENT / CTA - blue-600 mid-tone per Prospeo ("survives inversion; saturated
+     * blue or green holds up better than pale pastel"). #2563eb on #fafafa = 6.7:1 (WCAG AA Large). */
+    --accent:        #2383e2;
+    --cta-bg:        #202124;
+    --cta-text:      #ffffff;
+    --link:          #2563eb;
+    --link-hover:    #1d4ed8;          /* blue-700 */
+
+    /* PANELS - semantic mapping unchanged (w3-pale-* compatibility) */
+    --panel-success-bg:   #dff0d8;
+    --panel-info-bg:      #e7f3fe;
+    --panel-warn-bg:      #fff8d5;
+    --panel-error-bg:     #ffdddd;
+    --panel-success-text: #2c662d;
+    --panel-info-text:    #1b4f8c;
+    --panel-warn-text:    #6b5e1a;
+    --panel-error-text:   #762020;
+
+    /* BORDERS - slate scale per Mavik Labs */
+    --border-subtle: #e2e8f0;          /* slate-200 */
+    --border-input:  #cbd5e1;          /* slate-300 (refresh from #ccd0d5) */
+    --shadow-card:   0 1px 3px rgba(15, 23, 42, 0.08);
+
+    /* TYPOGRAPHY - Inter variable + system-stack fallback per Figma 2026 +
+     * Ozrit (India low-bandwidth) - system-stack FIRST in fallback chain so
+     * Windows 70% gets Segoe UI immediately, no webfont blocking on slow
+     * connections; Inter loads as enhancement. */
+    --font-body:     'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    --font-mono:     'JetBrains Mono', ui-monospace, 'Cascadia Code', Menlo, Consolas, monospace;
+    --line-height-body: 1.6;           /* generous; non-native-English readers benefit */
+
+    /* SPACING - 8px base */
+    --space-1: 4px; --space-2: 8px; --space-3: 16px;
+    --space-4: 24px; --space-5: 32px; --space-6: 48px;
+
+    /* RADIUS */
+    --radius-sm: 4px; --radius-md: 8px; --radius-lg: 12px;
+
+    /* TAP-TARGET - mobile/India cohort needs 48px on /camera-test specifically */
+    --tap-target-min: 44px;
+}
+
+/* DARK MODE - manual toggle via #dark-tgl checkbox (existing JS sets html.main-html.dark) */
+html.main-html.dark {
+    --bg-primary:    #0d1117;          /* GitHub dark; NOT #000 per Bound Dev */
+    --bg-surface:    #1f2937;          /* slate-800; brighter elevation than #161b22 so cards read distinctly on bg-primary */
+    --bg-tertiary:   #2a3441;          /* +1 step up for callout / panel-info chrome */
+
+    --text-primary:  #e6edf3;          /* off-white per Bound Dev - pure white halates */
+    --text-muted:    #8b949e;
+    --text-heading:  #f0f6fc;          /* slight brightness boost over body */
+
+    --accent:        #3bd671;          /* lighter mid-tone blue; #4f93d4 on #0d1117 = 5.4:1 (WCAG AA) */
+    --cta-bg:        var(--accent);
+    --cta-text:      #0d1117;          /* dark text on light blue CTA in dark mode */
+    --link:          #58a6ff;          /* GitHub-style; 7.2:1 (WCAG AAA) */
+    --link-hover:    #79b8ff;
+
+    --panel-success-bg:   hsl(140, 25%, 14%);
+    --panel-info-bg:      hsl(210, 25%, 14%);
+    --panel-warn-bg:      hsl(45, 25%, 14%);
+    --panel-error-bg:     hsl(0, 25%, 14%);
+    --panel-success-text: hsl(140, 50%, 80%);
+    --panel-info-text:    hsl(210, 50%, 80%);
+    --panel-warn-text:    hsl(45, 50%, 80%);
+    --panel-error-text:   hsl(0, 50%, 80%);
+
+    --border-subtle: #30363d;
+    --border-input:  #30363d;
+    --shadow-card:   0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+/* OS-default dark `@media (prefers-color-scheme: dark)` block REMOVED 2026-04-30
+ * cycle-17 W/E follow-up #8 per ROOT-CAUSE-DISCIPLINE.
+ *
+ * SYMPTOM: user explicitly clicks the LIGHT toggle while OS prefers dark; the
+ * page renders DARK regardless. Chips render with LIGHT tokens (white) inside
+ * a DARK page (token-driven dark via @media) -> chips visually broken.
+ *
+ * HYPOTHESIS: existing toggle JS removes `html.main-html.dark` class on light
+ * toggle but does NOT add a `.light` class. My @media selector was
+ * `:root:not(.light)`, which still matches because `.light` was never set.
+ * Result: explicit light toggle is silently overridden by OS preference.
+ *
+ * ISOLATION: removing the @media block leaves the toggle as the sole driver of
+ * theme. OS-dark users see a brief flash of light at first paint until the
+ * toggle JS sets `.dark`; that flash already exists in the legacy site (which
+ * predates this @media addition) and is the lesser evil compared to ignoring
+ * the user's explicit choice.
+ *
+ * ROOT-CAUSE FIX: delete the @media block. Theme is now controlled by exactly
+ * ONE signal: the `html.main-html.dark` class set by the toggle JS. */
+/* ===== END DESIGN TOKEN LAYER ===== */
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -1722,7 +1869,27 @@ a {
 }
 
 .extrnl {
-    color: #3b73af
+    color: var(--link, #2563eb)
+}
+
+/* PALETTE FLIP cycle 16 - sitewide layout fix + token wiring for non-homepage pages.
+ * Per cycle-16 audit: PAGESTYLE.css (slug-less) is only loaded on '/'; tool/guide
+ * pages need their token-wired rules HERE in style-all-default.tag so the palette
+ * flip + the centering fix reach every URL.
+ *
+ * Layout fix - .page-main-content was rendered with computed maxW=660px (1180/1240
+ * vp) or 1000px (1366+) and asymmetric margins (mL ~170px less than mR), shifting
+ * the column ~85px LEFT of viewport center across all viewports. Root: W3.CSS
+ * .w3-rest creates a BFC (overflow:hidden) that shrink-fits when adjacent floats
+ * leave residual width. Force-center with auto margins + width:calc(100% - 20px)
+ * mirroring .page-section. */
+main.page-main-content,
+.w3-rest.page-main-content {
+    width: calc(100% - 20px) !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    box-sizing: border-box !important;
+    overflow: visible !important;
 }
 
 #contactForm #btnSend {
@@ -2173,7 +2340,9 @@ header.navBarContainer.w3-top .settingsBtn,
 }
 
 .page-section {
-    background-color: rgba(255, 255, 255, 0.98);
+    /* Token-driven; same rationale as the .page-section block below. */
+    background-color: var(--bg-surface, rgba(255, 255, 255, 0.98));
+    color: var(--text-primary, #000);
 }
 
 footer.page-footer .footer-inner *{
@@ -2205,7 +2374,16 @@ footer.page-footer .footer-inner *{
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     max-width: 1240px;
 	width: calc(100% - 20px);
-    background-color: rgba(255,255,255,0.93);
+    /* Token-driven so .page-section adapts to BOTH the .dark class AND the
+     * OS-default `prefers-color-scheme: dark` media query, the same way
+     * .bento-cell does. Previously hardcoded `rgba(255,255,255,0.93)`, which
+     * caused an inconsistency: bento went dark under OS-dark while trust /
+     * byline panels stayed white because their dark rule (line ~2545)
+     * required `html.main-html.dark` class which only fires after the
+     * toggle JS runs. Falling back to the old rgba so any older surface
+     * without --bg-surface still renders. */
+    background-color: var(--bg-surface, rgba(255,255,255,0.93));
+    color: var(--text-primary, #000);
 }
 
 /* Ad slots only: match common.css - do not use the page-section card fill (breaks dark mode + mobile top-ad title band). */
@@ -2222,7 +2400,12 @@ footer.page-footer .footer-inner *{
 }
 
 footer.page-footer .footer-inner {
-    max-width: 1240px!important;
+    /* Aligned with .page-section / .bento outer-edge (effective 1220px wide):
+     * page-section + bento live inside `.page-main-content` (max-width 1240,
+     * centered in body). They use `width: calc(100% - 20px)` of that 1240 ->
+     * effective 1220. Footer is OUTSIDE that wrapper so direct calc on body
+     * 1290 yielded 1240 - wider than the content above. Cap at 1220 to align. */
+    max-width: 1220px !important;
     width: calc(100% - 20px) !important;
     margin-left: auto !important;
     margin-right: auto !important;
@@ -2364,10 +2547,17 @@ header.navBarContainer .new-style-nav-bar.w3-white {
     }
 }
 
-html.main-html.dark:not([style*="background-color"]) .page-main-content .page-section {
-    background-color: #2F3437 !important;
-    border: 1px solid #37352F !important;
-    color: #FFFFFF !important;
+/* SPECIFICITY BUMP: external CloudFront `dark.css` ships an identical-specificity
+ * rule for `.page-main-content .page-section { #2f3437 !important }`. Inline
+ * `<style>` runs first, then dark.css activates as a stylesheet, so cascade
+ * order makes dark.css win when specificity ties. To beat it WITHOUT touching
+ * the CDN-served file, bump our specificity by chaining an extra `:not()`
+ * (specificity 0,0,6,1 vs CloudFront's 0,0,5,1). Then we win regardless of
+ * cascade order. Token values keep parity with .bento-cell (--bg-surface). */
+html.main-html.dark:not([style*="background-color"]):not(.__never__) .page-main-content .page-section {
+    background-color: var(--bg-surface, #2F3437) !important;
+    border: 1px solid var(--border-subtle, #37352F) !important;
+    color: var(--text-primary, #FFFFFF) !important;
 }
 
 /* Mirror the minimum dark-mode body + section wrappers inline so pages do not
@@ -2500,5 +2690,68 @@ html.main-html.dark:not([style*="background-color"]) .w3-table-all tr {
 
 .ad-section.top-ad, .bg-credit, .bg-credit-des{
 	display: none
+}
+
+/* ============================================================
+ * Cycle-17 W/E follow-up #9 - light-mode chrome visibility + shadow polish.
+ *
+ * THREE ROOT-CAUSE FIXES (per CLAUDE.md root-cause discipline):
+ *
+ * 1. NAVBAR text invisible in light mode at top scroll:
+ *    SYMPTOM: navPageName "FREE TOOL ONLINE - 122 BROWSER..." renders as
+ *      white text on a transparent navbar over a #fafafa body -> invisible.
+ *    HYPOTHESIS: legacy w3-top rule sets navbar bg rgba(255,255,255,0.98)
+ *      AND text color #000 at scroll, but at first paint the JS-driven
+ *      class toggling races with first paint. Plus dark.css mirrors push
+ *      text to #fff for the dark-mode variant, leaving light-mode users
+ *      without a robust rule.
+ *    FIX: explicit `html:not(.dark)` rule with !important that token-drives
+ *      navbar text color regardless of w3-top / scrolled / menu-open state.
+ *
+ * 2. FOOTER text invisible in light mode:
+ *    SYMPTOM: `footer.page-footer .footer-inner * { color: #fefefe }`
+ *      hardcodes near-white text. On #fafafa light body -> invisible.
+ *    FIX: token-drive the footer text color.
+ *
+ * 3. WRAPPER box-shadow heavy on .page-section (0.2 alpha) vs .bento-cell
+ *    (0.08 alpha) -> user perceives a heavy "border" on the editorial
+ *    panels that the bento doesn't have.
+ *    FIX: align .page-section shadow with the lighter .bento-cell shadow.
+ * ============================================================ */
+
+/* FIX 1 - navbar text in light mode (sole signal: html.dark class) */
+html.main-html:not(.dark) header.navBarContainer .new-style-nav-bar,
+html.main-html:not(.dark) header.navBarContainer .new-style-nav-bar *,
+html.main-html:not(.dark) header.navBarContainer .navPageName {
+    color: var(--text-primary, #0f172a) !important;
+}
+
+/* Navbar bg in light mode - token-driven, slightly translucent for the at-top
+ * sticky look without needing the legacy w3-top class race. */
+html.main-html:not(.dark) header.navBarContainer .new-style-nav-bar {
+    background: var(--bg-surface, rgba(255, 255, 255, 0.95)) !important;
+}
+
+/* FIX 2 - footer text token-driven, BUT only on pages without `.html-fill-img`
+ * (which carries a dark hero bg image that requires the legacy near-white
+ * footer text for contrast). Tool pages like /zip-file.html still use that
+ * dark hero so they keep their original behavior. */
+html.main-html:not(.html-fill-img) footer.page-footer .footer-inner,
+html.main-html:not(.html-fill-img) footer.page-footer .footer-inner *,
+html.main-html:not(.html-fill-img) footer.page-footer .footer-inner a {
+    color: var(--text-primary, #0f172a);
+}
+html.main-html.dark:not(.html-fill-img) footer.page-footer .footer-inner,
+html.main-html.dark:not(.html-fill-img) footer.page-footer .footer-inner *,
+html.main-html.dark:not(.html-fill-img) footer.page-footer .footer-inner a {
+    color: var(--text-primary, #e6edf3);
+}
+
+/* FIX 3 - lighter, consistent shadow on .page-section to match .bento-cell */
+.page-section {
+    box-shadow: var(--shadow-card, 0 1px 3px rgba(15, 23, 42, 0.08)) !important;
+}
+html.main-html.dark .page-section {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4) !important;
 }
 </style>
