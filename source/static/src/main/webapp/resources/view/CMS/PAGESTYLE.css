@@ -24,7 +24,7 @@ a {
     background-color: var(--bg-surface, #ffffff)!important;
     color: var(--text-primary, #0f172a)!important;
     padding: 8px!important;
-    border-radius: var(--radius-md, 8px)!important;
+    border-radius: var(--radius-sm, 4px)!important;
     height: 37px!important;
     background: url(https://dkbg1jftzfsd2.cloudfront.net/image/search-icon.svg) right 5px center no-repeat!important;
     background-size: 20px!important;
@@ -96,16 +96,20 @@ a {
  * margin consistency against the cards above them on home + hub pages.
  */
 .page-main-content>.page-section:not(.editorial-byline):not(.editorial-trust) {
-    margin: 0!important;
+    margin: 0 auto !important;
     padding: 0;
-    width: 100%;
-    max-width: 100%;
+    width: calc(100% - 20px);
+    max-width: 1240px;
     box-sizing: border-box;
     box-shadow: none !important;
 }
 
 .page-section {
     border: none!important;
+}
+
+html.page-root:not(.dark) .page-section {
+    border: 1px solid var(--border-subtle, #e2e8f0) !important;
 }
 
 /*
@@ -585,7 +589,7 @@ html.main-html.dark .home-hero-bento {
 
 .bento-cell {
     background: var(--bg-surface, #ffffff);
-    border-radius: var(--radius-lg, 12px);
+    border-radius: var(--radius-sm, 4px);
     padding: 12px 18px;       /* user feedback: top/bottom felt large; was 16px 20px */
     box-shadow: var(--shadow-card, 0 1px 3px rgba(15, 23, 42, 0.08));
     box-sizing: border-box;
@@ -665,7 +669,7 @@ html.main-html.dark .home-hero-tagline { color: var(--text-muted, #8b949e); }
     gap: 8px;
     padding: 0 14px;
     border: 2px solid var(--border-input, #cbd5e1);
-    border-radius: var(--radius-md, 8px);
+    border-radius: var(--radius-sm, 4px);
     background: var(--bg-surface, #ffffff);
     transition: border-color .15s ease;
 }
@@ -682,15 +686,37 @@ html.main-html.dark .home-search-label {
     background: transparent;
     color: inherit;
     font: inherit;
-    padding: 12px 0;
+    padding: 0 32px 0 0;
     font-size: 16px;
-    min-height: 44px;  /* tap-target floor */
+    height: var(--tap-target-min, 44px);
+    line-height: var(--tap-target-min, 44px);
+    min-height: var(--tap-target-min, 44px);  /* tap-target floor */
+}
+.home-search-input {
+    -webkit-appearance: none;
+    appearance: none;
+}
+.home-search-input::-webkit-search-cancel-button,
+.home-search-input::-webkit-search-decoration,
+.home-search-input::-webkit-search-results-button,
+.home-search-input::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none;
+}
+.home-search-input::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    display: none;
+}
+.home-search-input::-ms-clear,
+.home-search-input::-ms-reveal {
+    display: none;
 }
 .home-search-submit {
     background: var(--cta-bg, #2563eb);
     color: var(--cta-text, #ffffff);
     border: 0;
-    border-radius: var(--radius-md, 8px);
+    border-radius: var(--radius-sm, 4px);
     padding: 0 24px;
     font-weight: 600;
     cursor: pointer;
@@ -705,7 +731,7 @@ html.main-html.dark .home-search-label {
     padding: 6px 14px;
     background: var(--bg-tertiary, #f4f5f7);
     color: var(--text-primary, #0f172a) !important;
-    border-radius: 999px;
+    border-radius: var(--radius-sm, 4px);
     font-size: 14px;
     font-weight: 500;
     text-decoration: none !important;
