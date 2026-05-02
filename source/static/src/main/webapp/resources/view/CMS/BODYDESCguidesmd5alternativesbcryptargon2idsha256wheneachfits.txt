@@ -1,0 +1,1 @@
+MD5 is wrong for passwords and adversarial integrity. Pick bcrypt or Argon2id for passwords, HMAC-SHA-256 for MAC, SHA-256 for integrity.

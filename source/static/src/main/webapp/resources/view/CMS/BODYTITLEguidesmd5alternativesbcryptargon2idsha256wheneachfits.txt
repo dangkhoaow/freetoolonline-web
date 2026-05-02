@@ -1,0 +1,1 @@
+MD5 Alternatives: bcrypt, Argon2id, SHA-256
