@@ -172,6 +172,25 @@ export const INFO_ROUTES = new Set([
   // ("preview is a black rectangle") no existing guide covers.
   // Lane-D PA-mode mandatory; device-test cluster.
   '/guides/camera-test-shows-black-screen-four-fixes.html',
+  // Cycle 34 P34.A - microphone-test "no sound / flat waveform"
+  // diagnostic-flow guide. Targets Bing "microphone test" /
+  // "test microphone" / "microphone test online free" cluster
+  // (~1500 impressions @ pos 9 / 0.13% CTR) by addressing the
+  // failure-mode reader task ("test runs but the meter is flat")
+  // no existing guide covers. Closes the last device-test cluster
+  // gap (camera/screen/keyboard already have troubleshooting guides).
+  // Lane-D PA-mode mandatory; device-test cluster.
+  '/guides/microphone-test-no-sound-four-fixes.html',
+  // Cycle 35 P35.A - keyboard-test "keys not detected / some keys
+  // don't highlight" diagnostic-flow guide. Targets Bing
+  // "keyboard test" / "online keyboard test" / "keyboard tester" /
+  // "test keyboard" cluster (~20,238 impressions @ pos 8-9 / 0.08%
+  // CTR per bing_query_stats.json 99 query rows) by addressing the
+  // failure-mode reader task ("I pressed keys but nothing highlights")
+  // no existing guide covers. Closes the LAST remaining device-test
+  // cluster gap (camera + microphone already shipped 31/34; LCD has
+  // dead-pixel-testing-guide). Lane-D PA-mode mandatory.
+  '/guides/keyboard-test-keys-not-detected-four-fixes.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -260,6 +279,10 @@ export const GUIDE_ROUTES = new Set([
   '/guides/md5-alternatives-bcrypt-argon2id-sha256-when-each-fits.html',
   // Cycle 31 P31.A - camera-test black-screen diagnostic-flow guide.
   '/guides/camera-test-shows-black-screen-four-fixes.html',
+  // Cycle 34 P34.A - microphone-test no-sound diagnostic-flow guide.
+  '/guides/microphone-test-no-sound-four-fixes.html',
+  // Cycle 35 P35.A - keyboard-test keys-not-detected diagnostic-flow guide.
+  '/guides/keyboard-test-keys-not-detected-four-fixes.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -353,6 +376,8 @@ export const JSP_BY_ROUTE = {
   '/guides/gif-frames-extract-vs-frame-rate-fps-explained.html': 'guide/gif-frames-extract-vs-frame-rate-fps-explained.jsp',
   '/guides/md5-alternatives-bcrypt-argon2id-sha256-when-each-fits.html': 'guide/md5-alternatives-bcrypt-argon2id-sha256-when-each-fits.jsp',
   '/guides/camera-test-shows-black-screen-four-fixes.html': 'guide/camera-test-shows-black-screen-four-fixes.jsp',
+  '/guides/microphone-test-no-sound-four-fixes.html': 'guide/microphone-test-no-sound-four-fixes.jsp',
+  '/guides/keyboard-test-keys-not-detected-four-fixes.html': 'guide/keyboard-test-keys-not-detected-four-fixes.jsp',
   '/guides/why-md5-cannot-be-decrypted.html': 'guide/why-md5-cannot-be-decrypted.jsp',
   '/guides/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html': 'guide/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.jsp',
   '/guides/json-vs-yaml-vs-toml-config-formats-explained.html': 'guide/json-vs-yaml-vs-toml-config-formats-explained.jsp',
