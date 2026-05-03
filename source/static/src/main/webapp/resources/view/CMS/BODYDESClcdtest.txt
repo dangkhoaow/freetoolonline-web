@@ -1,1 +1,1 @@
-Free LCD dead pixel test: full-screen color cycle (red, green, blue, black, white, yellow) checks stuck pixels and backlight bleed instantly in your browser. No download needed.
+Free LCD test (or screen / display test) — full-screen color cycle finds stuck pixels & backlight bleed in your browser. No install.

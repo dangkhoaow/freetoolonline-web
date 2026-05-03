@@ -120,7 +120,12 @@ try {
     { title: "QR Code Generator - Best Practices", url: "https://freetoolonline.com/guides/qr-code-generator-best-practices.html", include: !1, tags: "guide,utility" },
     { title: "How to Compress a Folder", url: "https://freetoolonline.com/guides/how-to-compress-a-folder.html", include: !1, tags: "guide,zip,compress" },
     { title: "What an LCD Test Actually Checks", url: "https://freetoolonline.com/guides/lcd-test-what-it-checks.html", include: !1, tags: "guide,device-test,lcd-test" },
+    { title: "LCD Test vs Display Test vs Monitor Test", url: "https://freetoolonline.com/guides/lcd-test-vs-display-test-which-do-you-need.html", include: !1, tags: "guide,device-test,lcd-test" },
     { title: "MD5 to Text - Why You Cannot Convert It Back", url: "https://freetoolonline.com/guides/md5-to-text-why-you-cannot-convert-back.html", include: !1, tags: "guide,developer,md5,hash" },
+    { title: "Before a Video Call - Which Tools to Run", url: "https://freetoolonline.com/guides/before-a-video-call-which-tools-to-run.html", include: !1, tags: "guide,device-test,camera-test,lcd-test,microphone-test" },
+    { title: "Screen Test for Laptop - 5-Minute Checklist", url: "https://freetoolonline.com/guides/screen-test-for-laptop-5-minute-checklist.html", include: !1, tags: "guide,device-test,lcd-test" },
+    { title: "FFmpeg Online vs Video Converter - Which to Pick", url: "https://freetoolonline.com/guides/ffmpeg-online-vs-video-converter-which-to-pick.html", include: !1, tags: "guide,video,ffmpeg" },
+    { title: "ImageMagick Online vs Task-Specific Tools - Which to Pick", url: "https://freetoolonline.com/guides/imagemagick-online-vs-task-specific-tools-which-to-pick.html", include: !1, tags: "guide,image-editing,imagemagick,image-conversion" },
     { title: "All Guides - Browser Tool Library", url: "https://freetoolonline.com/guides.html", include: !1, tags: "guide" }
   ],
     currentTitle = $.trim($(".navPageName").text()),

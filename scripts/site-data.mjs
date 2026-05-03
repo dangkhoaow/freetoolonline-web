@@ -198,12 +198,9 @@ export const INFO_ROUTES = new Set([
   // the GA4 -28.8% page-view decay on /compress-image.html (28d). Pure
   // educational guide on the quality-vs-size tradeoff (50/75/85/95)
   // mapped to the four common reader tasks (web, archival, social,
-  // email) plus AI auto-mode. Cluster: image-editing. Lane-D PA-mode
-  // mandatory; non-ZIP, non-destructive. The originally-planned
-  // satellite backlink on /compress-image.html was reverted on
-  // staging this cycle pending the tool-compressimage E2E flow
-  // contract amendment (deferred-approval card cycle37-compressimage-
-  // e2e-contract-bug-revert) — no /compress-image.html edit ships.
+  // email) plus AI auto-mode. Append-only satellite backlink on
+  // /compress-image.html. Cluster: image-editing. Lane-D PA-mode
+  // mandatory; non-ZIP, non-destructive.
   '/guides/compress-jpeg-without-losing-quality-quality-vs-size.html',
   // Cycle 38 P38.A - "is this long number a timestamp?" diagnostic-flow
   // guide for the GSC `milliseconds to date` (1,662 imp / pos 6.6) +
@@ -308,6 +305,52 @@ export const INFO_ROUTES = new Set([
   // BODYWELCOMEmd5converter.html. Cluster: guide,developer. Lane-D PA-mode
   // mandatory; non-ZIP, non-destructive.
   '/guides/md5-to-text-why-you-cannot-convert-back.html',
+  // Cycle 46 P46.B - pre-call checklist guide. Reader question: "I have 5 minutes
+  // before a video call - which checks do I run on the screen, the webcam, and
+  // the microphone?" Bridges the cycle-42 lcd-test-vs-display-test guide and the
+  // cycle-43 camera-test-vs-webcam-test guide as a procedural HOW-DO-I-RUN-THESE
+  // sequence (different reader job: which-tools-to-run, not which-tool-is-which).
+  // Outbound links: /lcd-test.html, /camera-test.html, /microphone-test.html,
+  // /keyboard-test.html, plus three companion device-test guides. Cluster:
+  // guide,device-test. Lane-D PA-mode mandatory; non-ZIP, non-destructive.
+  '/guides/before-a-video-call-which-tools-to-run.html',
+  // Cycle 48 P48.A - laptop-specific screen-test 5-minute checklist guide.
+  // Targets Bing 'screen test for laptop' (5,222 imp / 1.13% CTR) + 'cek lcd
+  // laptop online' (6,639 imp / 2.27% CTR) cluster, both under-served by the
+  // existing desktop-monitor-framed lcd-test guides. Five reader-task checks
+  // not covered elsewhere: dead pixels, brightness battery-vs-AC, IPS lid
+  // tilt color shift, glossy-vs-matte glare in actual room, HiDPI scaling
+  // readability. Outbound links: /lcd-test.html (tool), /camera-test.html,
+  // /microphone-test.html, plus companion device-test guides. Cluster:
+  // guide,device-test,lcd-test. Lane-D PA-mode mandatory; non-ZIP,
+  // non-destructive; append-only on every existing surface.
+  '/guides/screen-test-for-laptop-5-minute-checklist.html',
+  // Cycle 49 P49.A - "FFmpeg Online vs Video Converter - which tool to open"
+  // routing guide. Targets the GSC "ffmpeg online" 1,843 imp / 94 clicks /
+  // pos 6.5 / op_score 270.97 row plus the "convert mov to mp4" / "video
+  // converter online" routing-decision intent. Five rules: defaults vs
+  // non-default flags vs GIF output vs troubleshooting vs local-FFmpeg.
+  // Routes intent across three already-verified tool skills (ffmpegonline,
+  // videoconverter, gifmaker) without editing any of them; complements (not
+  // duplicates) the cycle-40 ffmpeg-stalled guide and the existing
+  // ffmpeg-vs-local-ffmpeg guide. Cluster: guide,video,ffmpeg. Lane-D PA-
+  // mode mandatory; non-ZIP, non-destructive; append-only on every existing
+  // surface.
+  '/guides/ffmpeg-online-vs-video-converter-which-to-pick.html',
+  // Cycle 50 P50.A - "ImageMagick Online vs Task-Specific Tools - which to
+  // pick" routing guide. Image-editing-cluster parallel to cycle 49 P49.A
+  // (FFmpeg-vs-Video-Converter routing). Targets the GA4 /imagemagick-
+  // online.html 114-sessions / 0.51-engagement cohort plus the GSC
+  // "imagemagick online" / "convert image online imagemagick" routing
+  // intent. Five rules: task-specific defaults vs non-default flags vs
+  // chained operations vs huge/sensitive files vs troubleshooting. Routes
+  // intent across tool-imagemagickonline (framing menu hand-verified
+  // 2026-05-03 cycle 11 Workstream D) plus already-verified task-specific
+  // tool skills (cropimage, resizeimage, compressimage, heictojpg,
+  // svgtopng) without editing any of them. Cluster: guide,image-editing,
+  // imagemagick. Lane-D PA-mode mandatory; non-ZIP, non-destructive;
+  // append-only on every existing surface.
+  '/guides/imagemagick-online-vs-task-specific-tools-which-to-pick.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -416,6 +459,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/camera-test-vs-webcam-test-which-do-you-need.html',
   // Cycle 44 P44.A - "MD5 to text - why you cannot convert it back, and what to do instead" disambiguation/decision guide.
   '/guides/md5-to-text-why-you-cannot-convert-back.html',
+  // Cycle 46 P46.B - "Before a video call - which tools to run (screen / camera / microphone)" pre-call checklist guide.
+  '/guides/before-a-video-call-which-tools-to-run.html',
+  // Cycle 48 P48.A - laptop-specific screen-test 5-minute checklist guide (Bing under-served laptop reader-task gap).
+  '/guides/screen-test-for-laptop-5-minute-checklist.html',
+  // Cycle 49 P49.A - "FFmpeg Online vs Video Converter - which tool to open" routing guide (GSC "ffmpeg online" op_score 270.97 row).
+  '/guides/ffmpeg-online-vs-video-converter-which-to-pick.html',
+  // Cycle 50 P50.A - "ImageMagick Online vs Task-Specific Tools - which to pick" routing guide (image-editing-cluster parallel to cycle 49 P49.A; GA4 /imagemagick-online.html 114 sess / 0.51 engagement cohort).
+  '/guides/imagemagick-online-vs-task-specific-tools-which-to-pick.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -519,6 +570,10 @@ export const JSP_BY_ROUTE = {
   '/guides/lcd-test-vs-display-test-which-do-you-need.html': 'guide/lcd-test-vs-display-test-which-do-you-need.jsp',
   '/guides/camera-test-vs-webcam-test-which-do-you-need.html': 'guide/camera-test-vs-webcam-test-which-do-you-need.jsp',
   '/guides/md5-to-text-why-you-cannot-convert-back.html': 'guide/md5-to-text-why-you-cannot-convert-back.jsp',
+  '/guides/before-a-video-call-which-tools-to-run.html': 'guide/before-a-video-call-which-tools-to-run.jsp',
+  '/guides/screen-test-for-laptop-5-minute-checklist.html': 'guide/screen-test-for-laptop-5-minute-checklist.jsp',
+  '/guides/ffmpeg-online-vs-video-converter-which-to-pick.html': 'guide/ffmpeg-online-vs-video-converter-which-to-pick.jsp',
+  '/guides/imagemagick-online-vs-task-specific-tools-which-to-pick.html': 'guide/imagemagick-online-vs-task-specific-tools-which-to-pick.jsp',
   '/guides/why-md5-cannot-be-decrypted.html': 'guide/why-md5-cannot-be-decrypted.jsp',
   '/guides/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html': 'guide/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.jsp',
   '/guides/json-vs-yaml-vs-toml-config-formats-explained.html': 'guide/json-vs-yaml-vs-toml-config-formats-explained.jsp',
