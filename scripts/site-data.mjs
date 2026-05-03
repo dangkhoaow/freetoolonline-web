@@ -231,6 +231,38 @@ export const INFO_ROUTES = new Set([
   // monitors open until 2026-05-10). Cluster: image-editing.
   // Lane-D PA-mode mandatory; non-ZIP, non-destructive.
   '/guides/compressed-jpg-looks-blurry-three-causes.html',
+  // Cycle 40 P40.A - "online ffmpeg conversion stalled, why?" reactive
+  // diagnostic-flow guide complementing the cycle-12 PROACTIVE
+  // online-vs-local decision guide. Three named causes (browser memory
+  // cap on WASM ffmpeg, backgrounded-tab worker suspension, codec the
+  // WASM build does not include) + 30-second small-file bisection +
+  // FAQ. Targets the long-tail GSC `ffmpeg online stalled` / `ffmpeg
+  // online stuck` / `ffmpeg online not working` / `ffmpeg online
+  // memory error` reactive-bounce queries that aggregate behind the
+  // GSC head term `ffmpeg online` (1,787 imp / 28d / 5.1% CTR / pos
+  // 6.5 per gsc_keyword_opportunities_28d.json) plus bing_query_stats
+  // `ffmpeg online` long-tail. Outbound link only to /ffmpeg-online.html
+  // (action tool, last edited cycle 14b 2026-04-25, NOT in any active
+  // Day-monitor window) and the proactive companion guide; NO satellite
+  // backlinks (cycles 30/31/32/34/35/37/38/39 monitors open until
+  // 2026-05-10/2026-05-11). Cluster: video / image-conversion.
+  // Lane-D PA-mode mandatory; non-ZIP, non-destructive.
+  '/guides/ffmpeg-online-conversion-stalled-three-fixes.html',
+  // Cycle 41 P41.A - "GIF frame extractor output looks wrong, why?" reactive
+  // diagnostic-flow guide. Lane-D pivot because all 7 cycle-41 decision rows
+  // are blocked (cycles 30/31/32/34/35/37/38/39/40 active monitors + ZIP-
+  // CRITICAL-CARE + operator-held + research-only). The GIF-frame-extractor
+  // reactive bounce-back cluster is the largest under-covered long-tail
+  // (gif to frames 1600/0.31% + gif frame extractor 847/0.83% + split gif
+  // into frames 832/1.80% = ~3.3 K imp / 28d at < 1 % avg CTR per
+  // gsc_low_ctr_high_imp_28d.json) plus ga4_content_decay_28d.json
+  // /extract-gif-to-image-frames.html 26.3% decay. Outbound link only to
+  // /extract-gif-to-image-frames.html (action tool, operator-held under
+  // cycle32-extractgif-g11-firstfold-sitewide-jsp - inbound link only,
+  // no satellite backlink) and the four proactive companion guides; NO
+  // satellite backlinks anywhere this cycle. Cluster: image-conversion /
+  // animation. Lane-D PA-mode mandatory; non-ZIP, non-destructive.
+  '/guides/gif-frame-extractor-output-looks-wrong-three-causes.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -329,6 +361,10 @@ export const GUIDE_ROUTES = new Set([
   '/guides/long-number-millisecond-or-second.html',
   // Cycle 39 P39.A - "compressed JPG looks blurry, why?" reactive diagnostic-flow guide.
   '/guides/compressed-jpg-looks-blurry-three-causes.html',
+  // Cycle 40 P40.A - "online ffmpeg conversion stalled, why?" reactive diagnostic-flow guide.
+  '/guides/ffmpeg-online-conversion-stalled-three-fixes.html',
+  // Cycle 41 P41.A - "GIF frame extractor output looks wrong, why?" reactive diagnostic-flow guide.
+  '/guides/gif-frame-extractor-output-looks-wrong-three-causes.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -427,6 +463,8 @@ export const JSP_BY_ROUTE = {
   '/guides/compress-jpeg-without-losing-quality-quality-vs-size.html': 'guide/compress-jpeg-without-losing-quality-quality-vs-size.jsp',
   '/guides/long-number-millisecond-or-second.html': 'guide/long-number-millisecond-or-second.jsp',
   '/guides/compressed-jpg-looks-blurry-three-causes.html': 'guide/compressed-jpg-looks-blurry-three-causes.jsp',
+  '/guides/ffmpeg-online-conversion-stalled-three-fixes.html': 'guide/ffmpeg-online-conversion-stalled-three-fixes.jsp',
+  '/guides/gif-frame-extractor-output-looks-wrong-three-causes.html': 'guide/gif-frame-extractor-output-looks-wrong-three-causes.jsp',
   '/guides/why-md5-cannot-be-decrypted.html': 'guide/why-md5-cannot-be-decrypted.jsp',
   '/guides/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html': 'guide/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.jsp',
   '/guides/json-vs-yaml-vs-toml-config-formats-explained.html': 'guide/json-vs-yaml-vs-toml-config-formats-explained.jsp',
