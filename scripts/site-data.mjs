@@ -381,6 +381,63 @@ export const INFO_ROUTES = new Set([
   // ZIP-rewrite (only links to ZIP cluster URLs - ZIP-CRITICAL-CARE
   // preserved).
   '/guides/how-to-extract-a-file-online-zip-rar-7z.html',
+  // Cycle 54 P54.A - "How to choose a compression level - quality vs file
+  // size, with examples" guide. Captures the long-tail "compress image to
+  // 100kb / 200kb / 500kb / target file size" intent + "what compression
+  // level should I use" decision question that the head term "file
+  // compressor" (257,359 imp / 0% CTR / pos 9.9 per
+  // gsc_low_ctr_high_imp_28d.json on run 20260504-14) surfaces in
+  // long-tail. Anchors level 50 / 70 / 85 / 100 with concrete output-size
+  // ranges + visible-quality descriptions; routes the reader to
+  // /compress-image.html (verified) for the action tool, /resize-image.html
+  // for the pixel-dimension fallback, and to format-choice guides
+  // (jpg-vs-png-for-web, heic-vs-jpg-vs-webp) when the format is wrong.
+  // Lane-D PA-mode mandatory; non-ZIP, non-destructive; append-only on every
+  // existing surface (only the new guide page is created).
+  '/guides/how-to-choose-a-compression-level.html',
+  // Cycle 55 P55.A - "ZIP password types - strong vs weak, explained" guide.
+  // Trust-gate education for the highest-traffic ZIP-cluster URL
+  // (/remove-zip-password.html: 8 849 28d pageviews / 79.2% engagement /
+  // $1.43 RPM per ga4_page_perf__remove_zip_password_html_28d.json +
+  // ads_top_url_channels_28d.json on run 20260504-17). Explains the three
+  // recoverability cases (legacy ZIP 2.0 + short password = recoverable;
+  // AES-256 + strong password = not recoverable; AES-256 + weak password =
+  // possibly recoverable, slower). Gives readers a 30-second decision
+  // before they upload a 200 MB file to a tool that may not help. Every
+  // factual claim in the guide BODYHTML traces to ZIP 2.0 / WinZip AES-256 /
+  // 7-Zip public docs cited in the SKILL.md ## Citations block. Lane-D
+  // PA-mode mandatory; non-ZIP-cluster URL (/guides/* sits OUTSIDE the
+  // ZIP-CRITICAL-CARE cluster); append-only on every existing surface.
+  '/guides/zip-password-types-strong-vs-weak-explained.html',
+  // Cycle 56 P56.A - "PDF preflight online: what it actually checks" guide.
+  // Lane-D fresh-capture against the search-vocabulary gap upstream of
+  // /preflight-pdf.html. Bing query_stats (run 20260504-20) shows persistent
+  // rolling impressions across 2025 for "pdf preflight" / "online pdf
+  // validator" / "pdf flatten online" / "check pdf" / "preflight pdf"
+  // with /preflight-pdf.html ranking pos 3-20. PDF cluster has only 4
+  // existing guides vs 13+ PDF tools — clearest cluster gap on the site.
+  // Explains what preflight actually means (a check step, not a fix step),
+  // what /preflight-pdf.html validates (PDF/A archival conformance), and
+  // what it does NOT validate (PDF/X print preflight, signature legal-
+  // validity, corrupt-PDF repair, PDF/UA accessibility tagging). Routes
+  // readers to the right tool when "preflight" is not the right word for
+  // their actual question. Every factual claim in BODYHTML traces to
+  // PDF/A ISO 19005 / PDF/X ISO 15930 / Adobe Acrobat preflight docs cited
+  // in the SKILL.md ## Citations block. Lane-D PA-mode mandatory; non-ZIP
+  // cluster; append-only on every existing surface.
+  '/guides/pdf-preflight-online-what-it-actually-checks.html',
+  // Cycle 58 P58.A - "Read and compare MD5 hashes correctly: case,
+  // whitespace, hex format" guide. Lane-D PA-mode mandatory; guide,
+  // developer, md5 cluster (non-ZIP). Bridges the post-conversion
+  // verification gap downstream of /md5-converter.html (11,599 imp /
+  // 953 clicks / 8.22% CTR / pos 6.7 28d): readers generate a hash,
+  // then need to compare it to a published expected value. Distinct
+  // from the 4 existing MD5 guides (md5-vs-sha256, why-md5-cannot-be-
+  // decrypted, md5-alternatives, md5-to-text). Every BODYHTML claim
+  // traces to public RFC 1321 / NIST FIPS 180-4 spec + the
+  // tool-md5converter SKILL.md framing-menu D1 line. Append-only on
+  // every existing surface.
+  '/guides/read-and-compare-md5-hashes-correctly.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -501,6 +558,27 @@ export const GUIDE_ROUTES = new Set([
   '/guides/file-compressor-online-when-to-zip-vs-when-to-compress-image.html',
   // Cycle 53 P53.A - "How to Extract a File Online - ZIP, RAR, 7z" routing guide (GSC "extract file online" -9.3 pos in 7d, "file zipper" -8.9 pos; neither owned by an existing guide. .zip -> /unzip-file.html; .rar / .7z -> local OS tool; forgotten-password .zip -> /remove-zip-password.html).
   '/guides/how-to-extract-a-file-online-zip-rar-7z.html',
+  // Cycle 54 P54.A - "How to choose a compression level - quality vs file size, with examples" guide. Captures the long-tail "compress image to 100kb / 200kb / 500kb" + "what compression level should I use" decision intent on /compress-image.html. Routes to /resize-image.html when pixel dimensions matter and to format-choice guides when the format is wrong. Append-only Lane-D guide.
+  '/guides/how-to-choose-a-compression-level.html',
+  // Cycle 55 P55.A - "ZIP password types - strong vs weak, explained" guide.
+  // Trust-gate education on /remove-zip-password.html (top-2 traffic ZIP-cluster URL).
+  // Explains legacy ZIP 2.0 vs WinZip AES-256, password strength interaction, and the
+  // 30-second decision flow before a reader uploads. Append-only Lane-D guide; non-ZIP-cluster URL.
+  '/guides/zip-password-types-strong-vs-weak-explained.html',
+  // Cycle 56 P56.A - "PDF preflight online: what it actually checks" guide.
+  // Lane-D fresh-capture on the search-vocabulary gap upstream of /preflight-pdf.html
+  // (Bing pos 3-20 across the preflight/validator/check vocabulary). PDF cluster
+  // had only 4 existing guides vs 13+ PDF tools - clearest cluster gap on the site.
+  // Explains preflight as a check step (not a fix step), what /preflight-pdf.html
+  // validates (PDF/A archival conformance), and what is out-of-scope (PDF/X print,
+  // signature legal-validity, corrupt-PDF repair, PDF/UA). Append-only Lane-D guide.
+  '/guides/pdf-preflight-online-what-it-actually-checks.html',
+  // Cycle 58 P58.A - "Read and compare MD5 hashes correctly" guide.
+  // Post-conversion verification flow downstream of /md5-converter.html.
+  // Distinct from 4 existing MD5 guides; covers cosmetic vs real
+  // differences (case, whitespace, BOM, hex format) plus the 5-step
+  // compare flow. Append-only Lane-D guide; non-ZIP cluster.
+  '/guides/read-and-compare-md5-hashes-correctly.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -610,6 +688,10 @@ export const JSP_BY_ROUTE = {
   '/guides/imagemagick-online-vs-task-specific-tools-which-to-pick.html': 'guide/imagemagick-online-vs-task-specific-tools-which-to-pick.jsp',
   '/guides/file-compressor-online-when-to-zip-vs-when-to-compress-image.html': 'guide/file-compressor-online-when-to-zip-vs-when-to-compress-image.jsp',
   '/guides/how-to-extract-a-file-online-zip-rar-7z.html': 'guide/how-to-extract-a-file-online-zip-rar-7z.jsp',
+  '/guides/how-to-choose-a-compression-level.html': 'guide/how-to-choose-a-compression-level.jsp',
+  '/guides/zip-password-types-strong-vs-weak-explained.html': 'guide/zip-password-types-strong-vs-weak-explained.jsp',
+  '/guides/pdf-preflight-online-what-it-actually-checks.html': 'guide/pdf-preflight-online-what-it-actually-checks.jsp',
+  '/guides/read-and-compare-md5-hashes-correctly.html': 'guide/read-and-compare-md5-hashes-correctly.jsp',
   '/guides/why-md5-cannot-be-decrypted.html': 'guide/why-md5-cannot-be-decrypted.jsp',
   '/guides/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html': 'guide/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.jsp',
   '/guides/json-vs-yaml-vs-toml-config-formats-explained.html': 'guide/json-vs-yaml-vs-toml-config-formats-explained.jsp',
