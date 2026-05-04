@@ -1,0 +1,1 @@
+Flattening a PDF bakes form fields, annotations, and signatures into static page graphics. Read what flattening does, when you need it, and when you do not.
