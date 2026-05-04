@@ -1,0 +1,1 @@
+How /heic-to-jpg.html actually works: libheif decode, JPG re-encode, EXIF + quality controls, plus the claims the tool does NOT make. Read before you upload.

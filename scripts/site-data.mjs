@@ -483,10 +483,24 @@ export const INFO_ROUTES = new Set([
   // Lane-D PA-mode mandatory; troubleshooting cluster (non-ZIP);
   // append-only on every existing surface.
   '/guides/download-link-not-appearing-after-conversion-five-fixes.html',
+  // Cycle 64 P64.A - "Why HEIC won't open on Windows - three quick
+  // fixes" troubleshooting guide. Bridges /heic-to-jpg.html (top
+  // revenue page) for the Windows-side codec gap that turns iPhone
+  // HEIC photos into "Windows can't open this file" errors. Lane-D
+  // PA-mode mandatory; image-conversion cluster (non-ZIP); append-only.
+  '/guides/why-heic-wont-open-on-windows-three-fixes.html',
   // Cycle 70 P70.A - "Zip file converter - what it actually does"
   // disambiguation guide. Targets ~5K imp/28d at 0.5-1.8% CTR / pos 8-9.
   // Lane-D PA-mode mandatory; non-ZIP-cluster identity; append-only.
   '/guides/zip-file-converter-what-it-actually-does.html',
+  // Cycle 71 P71.F - "HEIC to JPG: what the converter actually does
+  // (and what it does not)" trust-anchor guide. Sourced verbatim from
+  // tool-heictojpg/SKILL.md ## Implemented features + ## NOT implemented
+  // (anti-claims). Bridges /heic-to-jpg.html (top revenue page +
+  // baseline G15_accretion_drift HIGH on prod) at a NEW URL without
+  // touching the indexed copy of /heic-to-jpg.html. Lane-D PA-mode
+  // mandatory; image-conversion cluster (non-ZIP); append-only.
+  '/guides/heic-to-jpg-claims-what-actually-works.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -648,6 +662,10 @@ export const GUIDE_ROUTES = new Set([
   // 5 fixes" diagnostic guide. Bridges multiple converter tools.
   // Troubleshooting cluster; non-ZIP; append-only Lane-D guide.
   '/guides/download-link-not-appearing-after-conversion-five-fixes.html',
+  // Cycle 64 P64.A - "Why HEIC won't open on Windows - three quick
+  // fixes" troubleshooting guide. Bridges /heic-to-jpg.html top revenue
+  // page; image-conversion cluster; non-ZIP; append-only Lane-D guide.
+  '/guides/why-heic-wont-open-on-windows-three-fixes.html',
   // Cycle 70 P70.A - "Zip file converter - what it actually does"
   // disambiguation guide. Targets the GSC `zip file converter` /
   // `zip files online` / `make zip file online` / `folder to zip
@@ -658,6 +676,13 @@ export const GUIDE_ROUTES = new Set([
   // /zip-file.html (ZIP-CRITICAL-CARE 24h cooldown). Cluster: zip
   // entry-point. Lane-D PA-mode mandatory; non-ZIP-cluster identity.
   '/guides/zip-file-converter-what-it-actually-does.html',
+  // Cycle 71 P71.F - "HEIC to JPG: what the converter actually does
+  // (and what it does not)" trust-anchor guide. Source-cited claims
+  // from tool-heictojpg/SKILL.md (libheif, SlimJpg, EXIF toggle, quality
+  // slider, multi-format output). Anti-claims also surfaced (NOT
+  // browser-only, NOT account-gated, does NOT extract live-photo
+  // motion). Lane-D PA-mode mandatory; image-conversion cluster.
+  '/guides/heic-to-jpg-claims-what-actually-works.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -775,6 +800,7 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-flatten-a-pdf-and-when-to-do-it.html': 'guide/how-to-flatten-a-pdf-and-when-to-do-it.jsp',
   '/guides/png-to-svg-when-to-vectorize-a-raster-image.html': 'guide/png-to-svg-when-to-vectorize-a-raster-image.jsp',
   '/guides/download-link-not-appearing-after-conversion-five-fixes.html': 'guide/download-link-not-appearing-after-conversion-five-fixes.jsp',
+  '/guides/why-heic-wont-open-on-windows-three-fixes.html': 'guide/why-heic-wont-open-on-windows-three-fixes.jsp',
   '/guides/why-md5-cannot-be-decrypted.html': 'guide/why-md5-cannot-be-decrypted.jsp',
   '/guides/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html': 'guide/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.jsp',
   '/guides/json-vs-yaml-vs-toml-config-formats-explained.html': 'guide/json-vs-yaml-vs-toml-config-formats-explained.jsp',
@@ -793,6 +819,8 @@ export const JSP_BY_ROUTE = {
   '/guides/screen-display-test-synonyms.html': 'guide/screen-display-test-synonyms.jsp',
   // Cycle 70 P70.A - "Zip file converter - what it actually does" disambiguation guide.
   '/guides/zip-file-converter-what-it-actually-does.html': 'guide/zip-file-converter-what-it-actually-does.jsp',
+  // Cycle 71 P71.F - "HEIC to JPG: what the converter actually does (and what it does not)" trust-anchor guide.
+  '/guides/heic-to-jpg-claims-what-actually-works.html': 'guide/heic-to-jpg-claims-what-actually-works.jsp',
 
   '/compose-pdf.html': 'pdf/compose-pdf.jsp',
   '/split-pdf-by-range.html': 'pdf/split-by-range.jsp',
