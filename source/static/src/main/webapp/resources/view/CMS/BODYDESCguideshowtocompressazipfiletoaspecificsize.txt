@@ -1,0 +1,1 @@
+Hitting an exact ZIP size (2 MB, 25 MB email cap, 100 KB form cap) is not deterministic. Three things actually decide it. The right tool order, per cap.
