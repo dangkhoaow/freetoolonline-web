@@ -42,6 +42,36 @@ export const INFO_ROUTES = new Set([
   // for /convert-time-in-millisecond-to-date.html. Cluster: developer. Non-cannibalizing - existing long-number-millisecond-or-second covers ms-vs-s
   // disambiguation, unix-timestamps-explained covers epoch fundamentals; this guide covers the timezone-display angle (UTC vs local).
   '/guides/milliseconds-to-date-utc-vs-local-time.html',
+  // Cycle 76 P76.A - "Screen test online vs app: which is more accurate, and when each one wins" Lane-D guide for the device-test cluster.
+  // Companion to lcd-test-vs-display-test-which-do-you-need (cycle 42) and lcd-test-what-it-checks. Non-cannibalizing - covers the
+  // browser-vs-app diagnostic surface comparison, not panel-vs-display-vs-monitor scope. Sourced from sibling tool-guideslcdtestvsdisplaytestwhichdoyouneed
+  // framing-menu lines extended with browser/native abstraction-layer claims (W3C CSSOM color-model, browser fullscreen API).
+  '/guides/screen-test-online-vs-app-which-is-more-accurate.html',
+  // Cycle 77 P77.A - "How to compress a ZIP file to a specific size (2 MB / 25 MB / 100 KB)" Lane-D append-only guide for the file-compressor / ZIP intent gap.
+  // GSC evidence (28d): "compress zip file to 25mb" 2,932 imp pos 4.9; "compress zip file to 2mb" 1,365 imp pos 4.3; "compress zip file to 100kb" 787 imp pos 4.7.
+  // Forward-links to /zip-file.html, /compress-image.html. Does NOT modify any indexed ZIP-cluster page (ZIP-CRITICAL-CARE not gated).
+  // Non-cannibalizing vs how-to-make-a-zip-file-smaller (cycle ?) and how-to-compress-zip-file-to-smaller-size; covers the "specific target cap (2/25/100)" sub-intent.
+  '/guides/how-to-compress-a-zip-file-to-a-specific-size.html',
+  // Cycle 78 P78.A - "QR code error correction and scan failures: why your QR will not scan" Lane-D append-only guide.
+  // Companion to /qr-code-generator.html (one of the 4 R7_thin_content fixes in P78.B). Reader-task gap: no QR-related guide existed
+  // pre-cycle-78. Diagnoses the four common scan-failure causes (payload size, error-correction level, contrast, print scale) so a
+  // reader who generated a QR with our tool and got a non-scannable result can self-diagnose without leaving the site. Append-only
+  // (new URL); non-cannibalizing (no other QR guide on /guides/).
+  '/guides/qr-code-error-correction-and-scan-failures.html',
+  // Cycle 79 P79.B - "Image to Base64: embed in HTML/CSS vs link the image file" Lane-D append-only guide.
+  // Companion to /image-to-base64.html and /base64-to-image.html (both client-only). Reader-task gap: existing
+  // /guides/base64-when-to-use-and-when-not-to.html covers the broader theory; this guide is the practical
+  // decision rule (concrete byte thresholds, HTTP/2 break-even, 30-second sanity check) for the developer who
+  // already knows what base64 is. Append-only (new URL); non-cannibalizing.
+  '/guides/image-to-base64-embed-in-html-vs-link.html',
+  // Cycle 80 P80.G - "How to test a touchscreen for bad spots" Lane-D append-only guide (device-test cluster).
+  // Reader-task gap: existing /lcd-test.html and 8+ lcd-test cluster guides cover the visual / pixel half of a
+  // screen check (color cycle, dead-pixel-vs-stuck taxonomy, warranty threshold, return-monitor evidence,
+  // online-vs-app accuracy, screen-vs-camera routing); none cover the *touch* half (digitizer dead spots,
+  // edge-only failures, vertical-stripe digitizer faults, ghost touches). Bing-only "test my screen" 3,170 imp +
+  // "screen tester" 2,849 imp + "screen checker" 2,592 imp cohort lands on /lcd-test.html and bounces because
+  // that tool only runs the color cycle. Append-only (new URL); non-cannibalizing.
+  '/guides/how-to-test-a-touchscreen-for-bad-spots.html',
   // Phase 8 Cycle 3 §3.4 greenfield guides - 4 pillar + 2 comparison + 6 how-to + 1 case-study.
   '/guides/mp4-vs-webm-for-web.html',
   '/guides/jpg-vs-png-for-web.html',
@@ -531,6 +561,16 @@ export const GUIDE_ROUTES = new Set([
   '/guides/json-parser-validate-vs-format-vs-tree-view.html',
   // Cycle 75 P75.B - milliseconds-to-date UTC-vs-local-time Lane-D guide.
   '/guides/milliseconds-to-date-utc-vs-local-time.html',
+  // Cycle 76 P76.A - screen-test-online-vs-app accuracy Lane-D guide (device-test cluster).
+  '/guides/screen-test-online-vs-app-which-is-more-accurate.html',
+  // Cycle 77 P77.A - "compress ZIP to a specific size" Lane-D append-only guide.
+  '/guides/how-to-compress-a-zip-file-to-a-specific-size.html',
+  // Cycle 78 P78.A - "QR code error correction and scan failures" Lane-D guide (companion to /qr-code-generator.html).
+  '/guides/qr-code-error-correction-and-scan-failures.html',
+  // Cycle 79 P79.B - "Image to Base64: embed in HTML/CSS vs link the image file" Lane-D guide.
+  '/guides/image-to-base64-embed-in-html-vs-link.html',
+  // Cycle 80 P80.G - "How to test a touchscreen for bad spots" Lane-D guide (device-test cluster).
+  '/guides/how-to-test-a-touchscreen-for-bad-spots.html',
   // Phase 8 Cycle 3 §3.4 greenfield guides.
   '/guides/mp4-vs-webm-for-web.html',
   '/guides/jpg-vs-png-for-web.html',
@@ -748,6 +788,16 @@ export const JSP_BY_ROUTE = {
   '/guides/json-parser-validate-vs-format-vs-tree-view.html': 'guide/json-parser-validate-vs-format-vs-tree-view.jsp',
   // Cycle 75 P75.B - milliseconds-to-date UTC-vs-local-time Lane-D guide.
   '/guides/milliseconds-to-date-utc-vs-local-time.html': 'guide/milliseconds-to-date-utc-vs-local-time.jsp',
+  // Cycle 76 P76.A - screen-test-online-vs-app accuracy Lane-D guide (device-test cluster).
+  '/guides/screen-test-online-vs-app-which-is-more-accurate.html': 'guide/screen-test-online-vs-app-which-is-more-accurate.jsp',
+  // Cycle 77 P77.A - "compress ZIP to a specific size" Lane-D append-only guide.
+  '/guides/how-to-compress-a-zip-file-to-a-specific-size.html': 'guide/how-to-compress-a-zip-file-to-a-specific-size.jsp',
+  // Cycle 78 P78.A - "QR code error correction and scan failures" Lane-D guide (companion to /qr-code-generator.html).
+  '/guides/qr-code-error-correction-and-scan-failures.html': 'guide/qr-code-error-correction-and-scan-failures.jsp',
+  // Cycle 79 P79.B - "Image to Base64: embed in HTML/CSS vs link the image file" Lane-D guide (companion to /image-to-base64.html + /base64-to-image.html).
+  '/guides/image-to-base64-embed-in-html-vs-link.html': 'guide/image-to-base64-embed-in-html-vs-link.jsp',
+  // Cycle 80 P80.G - "How to test a touchscreen for bad spots" Lane-D guide (device-test cluster, companion to /lcd-test.html).
+  '/guides/how-to-test-a-touchscreen-for-bad-spots.html': 'guide/how-to-test-a-touchscreen-for-bad-spots.jsp',
   // Phase 8 Cycle 3 §3.4 greenfield guides.
   '/guides/mp4-vs-webm-for-web.html': 'guide/mp4-vs-webm-for-web.jsp',
   '/guides/jpg-vs-png-for-web.html': 'guide/jpg-vs-png-for-web.jsp',
