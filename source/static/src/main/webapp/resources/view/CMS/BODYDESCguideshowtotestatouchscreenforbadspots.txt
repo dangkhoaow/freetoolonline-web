@@ -1,0 +1,1 @@
+A 60-second browser-only check for unresponsive areas on phone, tablet, or laptop touchscreens. What each failure pattern means and when to call warranty.
