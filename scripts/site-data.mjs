@@ -34,6 +34,10 @@ export const INFO_ROUTES = new Set([
   // §3.5 comparison guides (Cycle 4).
   '/guides/png-vs-svg-when-to-use.html',
   '/guides/css-minifier-vs-compressor.html',
+  // Cycle 74 P74.B - "JSON parser online: validate vs format vs tree view - which feature do you need?" Lane-D disambiguation guide for the
+  // /json-parser.html sub-feature triad. Cluster: developer. Non-cannibalizing - no existing guide on this disambiguation; complements the cycle-74
+  // jsonparser BODYHTML thin-content fix.
+  '/guides/json-parser-validate-vs-format-vs-tree-view.html',
   // Phase 8 Cycle 3 §3.4 greenfield guides - 4 pillar + 2 comparison + 6 how-to + 1 case-study.
   '/guides/mp4-vs-webm-for-web.html',
   '/guides/jpg-vs-png-for-web.html',
@@ -291,6 +295,13 @@ export const INFO_ROUTES = new Set([
   // P42.A LCD-test guide cross-link. NO satellite backlinks anywhere this cycle.
   // Cluster: device-test. Lane-D PA-mode mandatory; non-ZIP, non-destructive.
   '/guides/camera-test-vs-webcam-test-which-do-you-need.html',
+  // Cycle 73 P73.B - "Screen test vs camera test - which one do you actually need?" cross-cluster
+  // disambiguation guide for the ambiguous "test my device" head query. Distinct from cycle-42
+  // (within-screen-cluster: lcd vs display vs monitor) and cycle-43 (within-camera-cluster:
+  // camera vs webcam) - this one disambiguates ACROSS the two action tools. Sourced from
+  // DEC.20260505-18.001/003/004 + opportunity-scout OPP.20260505-18.02/04. Lane-D PA-mode
+  // (DASHBOARD-PA contract); cluster: device-test; non-ZIP, non-destructive.
+  '/guides/screen-test-vs-camera-test-pick-the-right-tool.html',
   // Cycle 44 P44.A - "MD5 to text - why you cannot convert it back, and what to
   // do instead" disambiguation/decision guide for the `md5 to text` (1,385 imp /
   // 28d / pos 3.5 / 20.07% CTR) + `md5 decrypt` (3,158 imp / pos 9.2) demand
@@ -512,6 +523,8 @@ export const GUIDE_ROUTES = new Set([
   '/guides/pdf-password-types-owner-vs-user.html',
   '/guides/png-vs-svg-when-to-use.html',
   '/guides/css-minifier-vs-compressor.html',
+  // Cycle 74 P74.B - JSON parser sub-feature disambiguation Lane-D guide.
+  '/guides/json-parser-validate-vs-format-vs-tree-view.html',
   // Phase 8 Cycle 3 §3.4 greenfield guides.
   '/guides/mp4-vs-webm-for-web.html',
   '/guides/jpg-vs-png-for-web.html',
@@ -607,6 +620,8 @@ export const GUIDE_ROUTES = new Set([
   '/guides/lcd-test-vs-display-test-which-do-you-need.html',
   // Cycle 43 P43.B - "Camera test vs webcam test vs camera quality - which one do you actually need?" reactive disambiguation-flow guide.
   '/guides/camera-test-vs-webcam-test-which-do-you-need.html',
+  // Cycle 73 P73.B - "Screen test vs camera test - which one do you actually need?" cross-cluster disambiguation Lane-D guide.
+  '/guides/screen-test-vs-camera-test-pick-the-right-tool.html',
   // Cycle 44 P44.A - "MD5 to text - why you cannot convert it back, and what to do instead" disambiguation/decision guide.
   '/guides/md5-to-text-why-you-cannot-convert-back.html',
   // Cycle 46 P46.B - "Before a video call - which tools to run (screen / camera / microphone)" pre-call checklist guide.
@@ -723,6 +738,8 @@ export const JSP_BY_ROUTE = {
   // §3.5 comparison guides (Cycle 4).
   '/guides/png-vs-svg-when-to-use.html': 'guide/png-vs-svg-when-to-use.jsp',
   '/guides/css-minifier-vs-compressor.html': 'guide/css-minifier-vs-compressor.jsp',
+  // Cycle 74 P74.B - JSON parser sub-feature disambiguation Lane-D guide.
+  '/guides/json-parser-validate-vs-format-vs-tree-view.html': 'guide/json-parser-validate-vs-format-vs-tree-view.jsp',
   // Phase 8 Cycle 3 §3.4 greenfield guides.
   '/guides/mp4-vs-webm-for-web.html': 'guide/mp4-vs-webm-for-web.jsp',
   '/guides/jpg-vs-png-for-web.html': 'guide/jpg-vs-png-for-web.jsp',
@@ -785,6 +802,7 @@ export const JSP_BY_ROUTE = {
   '/guides/gif-frame-extractor-output-looks-wrong-three-causes.html': 'guide/gif-frame-extractor-output-looks-wrong-three-causes.jsp',
   '/guides/lcd-test-vs-display-test-which-do-you-need.html': 'guide/lcd-test-vs-display-test-which-do-you-need.jsp',
   '/guides/camera-test-vs-webcam-test-which-do-you-need.html': 'guide/camera-test-vs-webcam-test-which-do-you-need.jsp',
+  '/guides/screen-test-vs-camera-test-pick-the-right-tool.html': 'guide/screen-test-vs-camera-test-pick-the-right-tool.jsp',
   '/guides/md5-to-text-why-you-cannot-convert-back.html': 'guide/md5-to-text-why-you-cannot-convert-back.jsp',
   '/guides/before-a-video-call-which-tools-to-run.html': 'guide/before-a-video-call-which-tools-to-run.jsp',
   '/guides/screen-test-for-laptop-5-minute-checklist.html': 'guide/screen-test-for-laptop-5-minute-checklist.jsp',
