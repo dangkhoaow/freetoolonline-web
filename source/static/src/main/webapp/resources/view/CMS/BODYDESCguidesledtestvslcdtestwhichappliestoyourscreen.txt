@@ -1,0 +1,1 @@
+LED is the backlight; LCD is the panel. On almost every modern screen, both names mean the same hardware - one full-screen color cycle answers either query.
