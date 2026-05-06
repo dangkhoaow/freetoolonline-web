@@ -1,0 +1,1 @@
+First QR code? Pick the right content type. URL vs vCard vs Wi-Fi vs plain text - what each encodes, how scanners respond, which fits a business card or flyer.
