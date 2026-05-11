@@ -1,6 +1,6 @@
 import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
-import { resolveHubBacklink } from './seo-clusters.mjs';
+import { resolveHubBacklink, getSeoClusterGroups } from './seo-clusters.mjs';
 
 export const DEFAULT_SITE_ORIGIN = 'https://freetoolonline.com';
 export const DEFAULT_API_ORIGIN = 'https://service.us-east-1a.freetool.online/';
@@ -864,6 +864,12 @@ export const GUIDE_ROUTES = new Set([
   // browser-only, NOT account-gated, does NOT extract live-photo
   // motion). Lane-D PA-mode mandatory; image-conversion cluster.
   '/guides/heic-to-jpg-claims-what-actually-works.html',
+  // Backfill: cycle 88 + cycle 90 guides were added to INFO_ROUTES but
+  // omitted from GUIDE_ROUTES. Without GUIDE_ROUTES membership they
+  // lose Article JSON-LD, Organization JSON-LD, editorial-byline, AND
+  // (post-2026-05-11 showAdSlots split) AdSense loading. Append-only.
+  '/guides/qr-code-content-types-url-vcard-wifi-text-which-to-pick.html',
+  '/guides/image-compression-and-exif-metadata-what-gets-stripped.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -873,40 +879,139 @@ export function isGuideRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
-  '/svg-to-image.html': '/svg-to-png.html',
-  '/split-pdf-to-single-pages.html': '/split-pdf-by-range.html',
-  '/pdf-merge-from-multiple-files.html': '/join-pdf-from-multiple-files.html',
-  '/mov-to-mp4.html': '/video-converter.html',
-  '/mov-to-mp3.html': '/video-converter.html',
-  '/zip-file-with-password.html': '/zip-file.html',
-  '/unzip-file-with-password.html': '/unzip-file.html',
-  '/heic-to-pdf.html': '/heic-to-jpg.html',
-  '/insights-optimize-image.html': '/insights-image-optimizer.html',
-  '/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tiew-viet-kieu-moi-phan-2.html': '/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html',
+  // Hub directory-form safety redirects (added 2026-05-11). Search engines
+  // and external links may guess `/cluster-tools/` from the clustered tool
+  // URLs (`/cluster-tools/<slug>.html`). Without these entries GitHub Pages
+  // returns 404 and may index the broken URL. Map each to its canonical
+  // .html hub so crawlers see a single soft-redirect signal pointing back
+  // to the canonical hub. The hub URL form-change to canonical-directory
+  // was deferred per plan §E.3; until then `/cluster-tools.html` stays
+  // canonical and the directory form is a redirect alias.
+  '/zip-tools/': '/zip-tools.html',
+  '/utility-tools/': '/utility-tools.html',
+  '/video-tools/': '/video-tools.html',
+  '/image-tools/': '/image-tools.html',
+  '/image-converter-tools/': '/image-converter-tools.html',
+  '/developer-tools/': '/developer-tools.html',
+  '/device-test-tools/': '/device-test-tools.html',
+  '/pdf-tools/': '/pdf-tools.html',
+  '/svg-to-image.html': '/image-converter-tools/svg-to-png.html',
+  '/split-pdf-to-single-pages.html': '/pdf-tools/split-pdf-by-range.html',
+  '/pdf-merge-from-multiple-files.html': '/pdf-tools/join-pdf-from-multiple-files.html',
+  '/mov-to-mp4.html': '/video-tools/video-converter.html',
+  '/mov-to-mp3.html': '/video-tools/video-converter.html',
+  '/zip-file-with-password.html': '/zip-tools/zip-file.html',
+  '/unzip-file-with-password.html': '/zip-tools/unzip-file.html',
+  '/heic-to-pdf.html': '/image-converter-tools/heic-to-jpg.html',
+  '/insights-optimize-image.html': '/image-tools/insights-image-optimizer.html',
+  '/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tiew-viet-kieu-moi-phan-2.html': '/utility-tools/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html',
   '/how-to-compress-a-folder.html': '/guides/how-to-compress-a-folder.html',
   // Cycle142 P142.A — capture bare URL traffic to canonical LCD test page (4843 imp / 28d, pos 7.8, CTR 1.28% per GSC; per granted P141.LaneD-residual-saturated-guides option-a).
-  '/test-lcd.html': '/lcd-test.html',
+  '/test-lcd.html': '/device-test-tools/lcd-test.html',
   // Cycle143 P143.A — capture bare URL traffic for "how to compress a file" head-query (5384 imp / 28d, pos 10.65, CTR 0.02% per GSC). Bare URL currently 200-serves the homepage (canonical=/), so Google sees a homepage routing for a file-compression intent. Aliasing into the existing canonical guide page captures the traffic without authoring a parallel page that would cannibalize.
   '/how-to-compress-a-file.html': '/guides/how-to-compress-a-file-online.html',
   // Cycle144 P144.A — capture bare URL traffic for "zip file compressor" head-query (16,772 imp / 28d, pos 6.2, CTR 5.31% per GSC). Bare URL currently 200-serves the homepage (canonical=/) so Google routes ~890 monthly clicks to a generic 122-tool index. Aliasing to the existing /zip-file.html ZIP-compress tool re-routes the traffic without editing the indexed ZIP cluster page. Same alias-only playbook as P141.A / P142.A / P143.A.
-  '/zip-file-compressor.html': '/zip-file.html',
+  '/zip-file-compressor.html': '/zip-tools/zip-file.html',
   // Cycle145 P145.A — capture bare URL traffic for "compress zip file" head-query (16,542 imp / 28d, pos 6.3, CTR 6.47% per GSC). Bare URL currently 200-serves the homepage (canonical=/) so Google routes those clicks to a generic index. Aliasing to /zip-file.html re-routes the traffic without editing the indexed ZIP cluster page (ZIP-CARE preserved — no edit to /zip-file.html HTML). Same alias-only playbook as P141.A / P142.A / P143.A / P144.A.
-  '/compress-zip-file.html': '/zip-file.html',
+  '/compress-zip-file.html': '/zip-tools/zip-file.html',
   // Cycle146 P146.A — capture bare URL traffic for "zip compressor" head-query (~4,223 imp / 28d, pos 7.0, CTR 5.09% per GSC). Bare URL currently 200-serves the GitHub-Pages 404 fallback (homepage HTML, canonical=/) so Google routes those clicks to a generic index. Aliasing to /zip-file.html re-routes the traffic without editing the indexed ZIP cluster page (ZIP-CARE preserved — no edit to /zip-file.html HTML). Same alias-only playbook as P141.A / P142.A / P143.A / P144.A / P145.A.
-  '/zip-compressor.html': '/zip-file.html',
+  '/zip-compressor.html': '/zip-tools/zip-file.html',
   // Cycle147 P147.A — capture bare URL traffic for "compress zip" head-query (~4,220 imp / 28d, pos 7.4, CTR 3.46% per GSC). Bare URL currently 200-serves the GitHub-Pages 404 fallback (homepage HTML, canonical=/) so Google routes those clicks to a generic index. Aliasing to /zip-file.html re-routes the traffic without editing the indexed ZIP cluster page (ZIP-CARE preserved — no edit to /zip-file.html HTML). Same alias-only playbook as P141.A / P142.A / P143.A / P144.A / P145.A / P146.A.
-  '/compress-zip.html': '/zip-file.html',
+  '/compress-zip.html': '/zip-tools/zip-file.html',
   // Cycle148 P148.A — capture bare URL traffic for "how to make a zip file smaller" head-query (~2,429 imp / 28d, pos 5.6, CTR 0.33% per GSC; 113 missed clicks). Bare URL currently 200-serves the GitHub-Pages 404 fallback (homepage HTML, canonical=/) so Google routes those clicks to a generic index instead of the actual ZIP-compress tool.
   // Cycle173 P173.B amendment (2026-05-10) — operator-granted P171.B + P172.B (zip_care chain length=11). Re-target alias from /zip-file.html (generic ZIP tool, doesn't directly answer the head query "how to make a zip file smaller") to /guides/how-to-make-a-zip-file-smaller.html (long-form guide that already exists since Phase-16 cycle-8 N-series; ranks for the same query). Consolidates the 2,429 imp/28d 301 traffic into ONE canonical destination instead of two cannibalizing pages. ZIP-CARE preserved — no edit to indexed copy on /zip-file.html or /guides/how-to-make-a-zip-file-smaller.html; route table edit only. Tier-A protocol applied: pre-deploy snapshot at seo-reports/20260510-47/zip-pre-deploy/howtomakeazipfilesmaller/, halved Day +1/+3/+7 rollback thresholds, four-skill gate N/A (route-only change). Operator approve evidence: seo-reports/20260510-45/.approvals/granted/P171.B-howtomakeazipfilesmaller-zip-care-cooldown.json (2026-05-10T09:58:14.373Z) + seo-reports/20260510-46/.approvals/granted/P172.B-howtomakeazipfilesmaller-zip-care-cooldown.json (2026-05-10T09:58:18.077Z).
   '/how-to-make-a-zip-file-smaller.html': '/guides/how-to-make-a-zip-file-smaller.html',
   // Cycle149 P149.A — capture bare URL traffic for "zip file size reducer" head-query (2,754 imp / 28d, pos 5.66, CTR 10.46% per GSC; 288 clicks routed to homepage). Bare URL currently 200-serves the GitHub-Pages 404 fallback (homepage HTML, canonical=/). Aliasing to /zip-file.html re-routes the 288 clicks/28d to the actual ZIP-compress action page (ZIP-CARE preserved — no edit to /zip-file.html HTML). Same alias-only playbook as P141.A / P142.A / P143.A / P144.A / P145.A / P146.A / P147.A / P148.A.
-  '/zip-file-size-reducer.html': '/zip-file.html',
+  '/zip-file-size-reducer.html': '/zip-tools/zip-file.html',
   // Cycle150 P150.A — capture bare URL traffic for "reduce zip file size" head-query (2,769 imp / 28d, pos 6.2, CTR 10.69% per GSC; 296 clicks routed to homepage). Bare URL currently 200-serves the GitHub-Pages 404 fallback (homepage HTML, canonical=/). Aliasing to /zip-file.html re-routes the 296 clicks/28d to the actual ZIP-compress action page (ZIP-CARE preserved — no edit to /zip-file.html HTML). Same alias-only playbook as P141.A / P142.A / P143.A / P144.A / P145.A / P146.A / P147.A / P148.A / P149.A.
-  '/reduce-zip-file-size.html': '/zip-file.html',
+  '/reduce-zip-file-size.html': '/zip-tools/zip-file.html',
   // Cycle151 P151.A — capture bare URL traffic for "gif to frames" head-query (1,674 imp / 28d, pos 8.7, CTR 0.30% per GSC; 5 clicks currently routed to homepage). Bare URL currently 200-serves the GitHub-Pages 404 fallback (homepage HTML 201,113 bytes, canonical=/). Aliasing to the existing /extract-gif-to-image-frames.html action page re-routes the traffic to the canonical extractor without editing it. NOT a ZIP-cluster URL — ZIP-CRITICAL-CARE 24h cooldown does not apply (cooldown anchor 2026-05-09T05:53:00Z still active until 2026-05-10T05:53:00Z; this cycle deliberately ships a non-ZIP alias). Same alias-only playbook as P141.A / P142.A / P143.A / P144.A / P145.A / P146.A / P147.A / P148.A / P149.A / P150.A.
-  '/gif-to-frames.html': '/extract-gif-to-image-frames.html',
+  '/gif-to-frames.html': '/image-converter-tools/extract-gif-to-image-frames.html',
   // Cycle152 P152.A — capture bare URL traffic for "lcd tester" head-query (2,260 imp / 28d, pos 5.11, CTR 2.65% per GSC; 60 clicks currently routed to homepage). Bare URL currently 200-serves the GitHub-Pages 404 fallback (homepage HTML 201,113 bytes, canonical=/, last-modified Sat, 09 May 2026 11:04:31 GMT — post-PR-#117 rebuild). Aliasing to the existing /lcd-test.html canonical device-test tool re-routes the traffic without editing it. NOT a ZIP-cluster URL — ZIP-CRITICAL-CARE 24h cooldown deliberately not engaged (cooldown anchor 2026-05-09T05:53:00Z still active until 2026-05-10T05:53:00Z; this cycle ships a non-ZIP alias). Same alias-only playbook as P141.A / P142.A / P143.A / P144.A / P145.A / P146.A / P147.A / P148.A / P149.A / P150.A / P151.A.
-  '/lcd-tester.html': '/lcd-test.html',
+  '/lcd-tester.html': '/device-test-tools/lcd-test.html',
+  // Cohort device-test URL migration — generated by update-jsp-by-route.mjs (URLMIG-19 sub-step 3.N.b).
+  // Operator-override-2026-05-10 (option B, meta-refresh fallback). Old flat tool URLs alias single-hop
+  // to the new clustered canonical URLs registered above. The renderer's renderRedirectPage() emits a
+  // <meta refresh 0> + JS replace + <link rel=canonical> + noindex,follow page at each old URL.
+  '/microphone-test.html': '/device-test-tools/microphone-test.html',
+  '/camera-test.html': '/device-test-tools/camera-test.html',
+  '/lcd-test.html': '/device-test-tools/lcd-test.html',
+  '/keyboard-test.html': '/device-test-tools/keyboard-test.html',
+  // Cohort utility URL migration — generated by update-jsp-by-route.mjs (URLMIG-19 sub-step 3.N.b).
+  // Operator-override-2026-05-10 (option B, meta-refresh fallback). Old flat tool URLs alias single-hop
+  // to the new clustered canonical URLs registered above. The renderer's renderRedirectPage() emits a
+  // <meta refresh 0> + JS replace + <link rel=canonical> + noindex,follow page at each old URL.
+  '/file-compressor.html': '/utility-tools/file-compressor.html',
+  '/convert-time-in-millisecond-to-date.html': '/utility-tools/convert-time-in-millisecond-to-date.html',
+  '/get-time-in-millisecond.html': '/utility-tools/get-time-in-millisecond.html',
+  '/qr-code-generator.html': '/utility-tools/qr-code-generator.html',
+  '/do-nong-do-con-truc-tuyen.html': '/utility-tools/do-nong-do-con-truc-tuyen.html',
+  '/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html': '/utility-tools/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html',
+  // Cohort video URL migration — generated by update-jsp-by-route.mjs (URLMIG-19 sub-step 3.N.b).
+  // Operator-override-2026-05-10 (option B, meta-refresh fallback). Old flat tool URLs alias single-hop
+  // to the new clustered canonical URLs registered above. The renderer's renderRedirectPage() emits a
+  // <meta refresh 0> + JS replace + <link rel=canonical> + noindex,follow page at each old URL.
+  '/video-converter.html': '/video-tools/video-converter.html',
+  '/video-maker.html': '/video-tools/video-maker.html',
+  '/ffmpeg-online.html': '/video-tools/ffmpeg-online.html',
+  // Cohort image-editing URL migration — generated by update-jsp-by-route.mjs (URLMIG-19 sub-step 3.N.b).
+  // Operator-override-2026-05-10 (option B, meta-refresh fallback). Old flat tool URLs alias single-hop
+  // to the new clustered canonical URLs registered above. The renderer's renderRedirectPage() emits a
+  // <meta refresh 0> + JS replace + <link rel=canonical> + noindex,follow page at each old URL.
+  '/compress-image.html': '/image-tools/compress-image.html',
+  '/resize-image.html': '/image-tools/resize-image.html',
+  '/crop-image.html': '/image-tools/crop-image.html',
+  '/photo-editor.html': '/image-tools/photo-editor.html',
+  '/gif-maker.html': '/image-tools/gif-maker.html',
+  '/insights-image-optimizer.html': '/image-tools/insights-image-optimizer.html',
+  '/get-jpeg-compression-level.html': '/image-tools/get-jpeg-compression-level.html',
+  '/imagemagick-online.html': '/image-tools/imagemagick-online.html',
+  // Cohort developer URL migration — generated by update-jsp-by-route.mjs (URLMIG-19 sub-step 3.N.b).
+  // Operator-override-2026-05-10 (option B, meta-refresh fallback). Old flat tool URLs alias single-hop
+  // to the new clustered canonical URLs registered above. The renderer's renderRedirectPage() emits a
+  // <meta refresh 0> + JS replace + <link rel=canonical> + noindex,follow page at each old URL.
+  '/json-parser.html': '/developer-tools/json-parser.html',
+  '/css-minifier.html': '/developer-tools/css-minifier.html',
+  '/css-unminifier.html': '/developer-tools/css-unminifier.html',
+  '/js-minifier.html': '/developer-tools/js-minifier.html',
+  '/js-unminifier.html': '/developer-tools/js-unminifier.html',
+  '/text-diff.html': '/developer-tools/text-diff.html',
+  '/md5-converter.html': '/developer-tools/md5-converter.html',
+  '/css-gradient-generator.html': '/developer-tools/css-gradient-generator.html',
+  '/text-html-editor.html': '/developer-tools/text-html-editor.html',
+  // Cohort pdf URL migration — generated by update-jsp-by-route.mjs (URLMIG-19 sub-step 3.N.b).
+  // Operator-override-2026-05-10 (option B, meta-refresh fallback). Old flat tool URLs alias single-hop
+  // to the new clustered canonical URLs registered above. The renderer's renderRedirectPage() emits a
+  // <meta refresh 0> + JS replace + <link rel=canonical> + noindex,follow page at each old URL.
+  '/compose-pdf.html': '/pdf-tools/compose-pdf.html',
+  '/split-pdf-by-range.html': '/pdf-tools/split-pdf-by-range.html',
+  '/split-pdf-to-each-pages.html': '/pdf-tools/split-pdf-to-each-pages.html',
+  '/join-pdf-from-multiple-files.html': '/pdf-tools/join-pdf-from-multiple-files.html',
+  '/protect-pdf-by-password.html': '/pdf-tools/protect-pdf-by-password.html',
+  '/remove-pdf-password.html': '/pdf-tools/remove-pdf-password.html',
+  '/preflight-pdf.html': '/pdf-tools/preflight-pdf.html',
+  '/flatten-pdf.html': '/pdf-tools/flatten-pdf.html',
+  '/pdf-to-text.html': '/pdf-tools/pdf-to-text.html',
+  '/pdf-to-images.html': '/pdf-tools/pdf-to-images.html',
+  '/pdf-to-html.html': '/pdf-tools/pdf-to-html.html',
+  '/images-to-pdf.html': '/pdf-tools/images-to-pdf.html',
+  // Cohort image-conversion URL migration — generated by update-jsp-by-route.mjs (URLMIG-19 sub-step 3.N.b).
+  // Operator-override-2026-05-10 (option B, meta-refresh fallback). Old flat tool URLs alias single-hop
+  // to the new clustered canonical URLs registered above. The renderer's renderRedirectPage() emits a
+  // <meta refresh 0> + JS replace + <link rel=canonical> + noindex,follow page at each old URL.
+  '/heic-to-jpg.html': '/image-converter-tools/heic-to-jpg.html',
+  '/svg-to-png.html': '/image-converter-tools/svg-to-png.html',
+  '/png-to-svg.html': '/image-converter-tools/png-to-svg.html',
+  '/image-to-base64.html': '/image-converter-tools/image-to-base64.html',
+  '/base64-to-image.html': '/image-converter-tools/base64-to-image.html',
+  '/extract-gif-to-image-frames.html': '/image-converter-tools/extract-gif-to-image-frames.html',
+  // Cohort zip URL migration — generated by update-jsp-by-route.mjs (URLMIG-19 sub-step 3.N.b).
+  // Operator-override-2026-05-10 (option B, meta-refresh fallback). Old flat tool URLs alias single-hop
+  // to the new clustered canonical URLs registered above. The renderer's renderRedirectPage() emits a
+  // <meta refresh 0> + JS replace + <link rel=canonical> + noindex,follow page at each old URL.
+  '/zip-file.html': '/zip-tools/zip-file.html',
+  '/unzip-file.html': '/zip-tools/unzip-file.html',
+  '/remove-zip-password.html': '/zip-tools/remove-zip-password.html',
 };
 
 export const JSP_BY_ROUTE = {
@@ -1064,26 +1169,26 @@ export const JSP_BY_ROUTE = {
   // Cycle 71 P71.F - "HEIC to JPG: what the converter actually does (and what it does not)" trust-anchor guide.
   '/guides/heic-to-jpg-claims-what-actually-works.html': 'guide/heic-to-jpg-claims-what-actually-works.jsp',
 
-  '/compose-pdf.html': 'pdf/compose-pdf.jsp',
-  '/split-pdf-by-range.html': 'pdf/split-by-range.jsp',
-  '/split-pdf-to-each-pages.html': 'pdf/split-to-single-pages.jsp',
-  '/join-pdf-from-multiple-files.html': 'pdf/merge-from-multiple-files.jsp',
-  '/protect-pdf-by-password.html': 'pdf/encrypt-by-password.jsp',
-  '/remove-pdf-password.html': 'pdf/remove-password.jsp',
-  '/preflight-pdf.html': 'pdf/preflight.jsp',
-  '/flatten-pdf.html': 'pdf/flatten-pdf.jsp',
-  '/get-time-in-millisecond.html': 'datetime/get-current-time-in-millisecond.jsp',
-  '/convert-time-in-millisecond-to-date.html': 'convert/convert-time-in-millisecond-to-date.jsp',
-  '/zip-file.html': 'file/zip-file.jsp',
-  '/unzip-file.html': 'file/unzip-file.jsp',
-  '/remove-zip-password.html': 'file/remove-zip-password.jsp',
+  '/pdf-tools/compose-pdf.html': 'pdf/compose-pdf.jsp',
+  '/pdf-tools/split-pdf-by-range.html': 'pdf/split-by-range.jsp',
+  '/pdf-tools/split-pdf-to-each-pages.html': 'pdf/split-to-single-pages.jsp',
+  '/pdf-tools/join-pdf-from-multiple-files.html': 'pdf/merge-from-multiple-files.jsp',
+  '/pdf-tools/protect-pdf-by-password.html': 'pdf/encrypt-by-password.jsp',
+  '/pdf-tools/remove-pdf-password.html': 'pdf/remove-password.jsp',
+  '/pdf-tools/preflight-pdf.html': 'pdf/preflight.jsp',
+  '/pdf-tools/flatten-pdf.html': 'pdf/flatten-pdf.jsp',
+  '/utility-tools/get-time-in-millisecond.html': 'datetime/get-current-time-in-millisecond.jsp',
+  '/utility-tools/convert-time-in-millisecond-to-date.html': 'convert/convert-time-in-millisecond-to-date.jsp',
+  '/zip-tools/zip-file.html': 'file/zip-file.jsp',
+  '/zip-tools/unzip-file.html': 'file/unzip-file.jsp',
+  '/zip-tools/remove-zip-password.html': 'file/remove-zip-password.jsp',
   '/zip-tools.html': 'utility/zip-tools.jsp',
   // Cycle 134 P134.A — top-level "file compressor" tool-hub page (head query
   // 203,069 imp/28d at pos 10.0, CTR 0.05% — operator-authorized via cycle 133
   // P133.C grant accepting cannibalization risk vs the long-form
   // /guides/file-compressor.html decision-tree guide; this bare-URL page is a
   // concise tool-finder layout). new_guide_page real-work-floor satisfier.
-  '/file-compressor.html': 'utility/file-compressor.jsp',
+  '/utility-tools/file-compressor.html': 'utility/file-compressor.jsp',
   '/image-converter-tools.html': 'utility/image-converter-tools.jsp',
   '/image-tools.html': 'utility/image-tools.jsp',
   '/pdf-tools.html': 'utility/pdf-tools.jsp',
@@ -1091,43 +1196,43 @@ export const JSP_BY_ROUTE = {
   '/video-tools.html': 'utility/video-tools.jsp',
   '/device-test-tools.html': 'utility/device-test-tools.jsp',
   '/utility-tools.html': 'utility/utility-tools.jsp',
-  '/resize-image.html': 'image/resize-image.jsp',
-  '/crop-image.html': 'image/crop-image.jsp',
-  '/compress-image.html': 'image/compress-image.jsp',
-  '/insights-image-optimizer.html': 'image/insights-image-optimizer.jsp',
-  '/gif-maker.html': 'image/gif-maker.jsp',
-  '/ffmpeg-online.html': 'image/ffmpeg-online.jsp',
-  '/imagemagick-online.html': 'image/imagemagick-online.jsp',
-  '/photo-editor.html': 'image/photo-editor.jsp',
-  '/get-jpeg-compression-level.html': 'image/get-jpeg-compression-level.jsp',
-  '/json-parser.html': 'utility/json-parser.jsp',
-  '/text-diff.html': 'utility/text-diff.jsp',
-  '/css-minifier.html': 'utility/css-minifier.jsp',
-  '/css-unminifier.html': 'utility/css-unminifier.jsp',
-  '/js-minifier.html': 'utility/js-minifier.jsp',
-  '/js-unminifier.html': 'utility/js-unminifier.jsp',
-  '/video-maker.html': 'utility/video-maker.jsp',
-  '/microphone-test.html': 'utility/microphone-test.jsp',
-  '/camera-test.html': 'utility/camera-test.jsp',
-  '/lcd-test.html': 'utility/lcd-test.jsp',
-  '/keyboard-test.html': 'utility/keyboard-test.jsp',
-  '/css-gradient-generator.html': 'utility/css-gradient-generator.jsp',
-  '/do-nong-do-con-truc-tuyen.html': 'utility/do-nong-do-con-truc-tuyen.jsp',
-  '/pdf-to-text.html': 'convert/pdf-to-text.jsp',
-  '/images-to-pdf.html': 'convert/images-to-pdf.jsp',
-  '/pdf-to-images.html': 'convert/pdf-to-images.jsp',
-  '/pdf-to-html.html': 'convert/pdf-to-html.jsp',
-  '/md5-converter.html': 'convert/md5-converter.jsp',
-  '/text-html-editor.html': 'convert/text-html-editor.jsp',
-  '/svg-to-png.html': 'convert/svg-to-png.jsp',
-  '/png-to-svg.html': 'convert/png-to-svg.jsp',
-  '/heic-to-jpg.html': 'convert/heic-to-jpg.jsp',
-  '/image-to-base64.html': 'convert/image-to-base64.jsp',
-  '/base64-to-image.html': 'convert/base64-to-image.jsp',
-  '/qr-code-generator.html': 'convert/qr-code-generator.jsp',
-  '/video-converter.html': 'convert/video-converter.jsp',
-  '/extract-gif-to-image-frames.html': 'convert/extract-gif-to-image-frames.jsp',
-  '/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html': 'convert/new-vietnamese-converter.jsp',
+  '/image-tools/resize-image.html': 'image/resize-image.jsp',
+  '/image-tools/crop-image.html': 'image/crop-image.jsp',
+  '/image-tools/compress-image.html': 'image/compress-image.jsp',
+  '/image-tools/insights-image-optimizer.html': 'image/insights-image-optimizer.jsp',
+  '/image-tools/gif-maker.html': 'image/gif-maker.jsp',
+  '/video-tools/ffmpeg-online.html': 'image/ffmpeg-online.jsp',
+  '/image-tools/imagemagick-online.html': 'image/imagemagick-online.jsp',
+  '/image-tools/photo-editor.html': 'image/photo-editor.jsp',
+  '/image-tools/get-jpeg-compression-level.html': 'image/get-jpeg-compression-level.jsp',
+  '/developer-tools/json-parser.html': 'utility/json-parser.jsp',
+  '/developer-tools/text-diff.html': 'utility/text-diff.jsp',
+  '/developer-tools/css-minifier.html': 'utility/css-minifier.jsp',
+  '/developer-tools/css-unminifier.html': 'utility/css-unminifier.jsp',
+  '/developer-tools/js-minifier.html': 'utility/js-minifier.jsp',
+  '/developer-tools/js-unminifier.html': 'utility/js-unminifier.jsp',
+  '/video-tools/video-maker.html': 'utility/video-maker.jsp',
+  '/device-test-tools/microphone-test.html': 'utility/microphone-test.jsp',
+  '/device-test-tools/camera-test.html': 'utility/camera-test.jsp',
+  '/device-test-tools/lcd-test.html': 'utility/lcd-test.jsp',
+  '/device-test-tools/keyboard-test.html': 'utility/keyboard-test.jsp',
+  '/developer-tools/css-gradient-generator.html': 'utility/css-gradient-generator.jsp',
+  '/utility-tools/do-nong-do-con-truc-tuyen.html': 'utility/do-nong-do-con-truc-tuyen.jsp',
+  '/pdf-tools/pdf-to-text.html': 'convert/pdf-to-text.jsp',
+  '/pdf-tools/images-to-pdf.html': 'convert/images-to-pdf.jsp',
+  '/pdf-tools/pdf-to-images.html': 'convert/pdf-to-images.jsp',
+  '/pdf-tools/pdf-to-html.html': 'convert/pdf-to-html.jsp',
+  '/developer-tools/md5-converter.html': 'convert/md5-converter.jsp',
+  '/developer-tools/text-html-editor.html': 'convert/text-html-editor.jsp',
+  '/image-converter-tools/svg-to-png.html': 'convert/svg-to-png.jsp',
+  '/image-converter-tools/png-to-svg.html': 'convert/png-to-svg.jsp',
+  '/image-converter-tools/heic-to-jpg.html': 'convert/heic-to-jpg.jsp',
+  '/image-converter-tools/image-to-base64.html': 'convert/image-to-base64.jsp',
+  '/image-converter-tools/base64-to-image.html': 'convert/base64-to-image.jsp',
+  '/utility-tools/qr-code-generator.html': 'convert/qr-code-generator.jsp',
+  '/video-tools/video-converter.html': 'convert/video-converter.jsp',
+  '/image-converter-tools/extract-gif-to-image-frames.html': 'convert/extract-gif-to-image-frames.jsp',
+  '/utility-tools/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html': 'convert/new-vietnamese-converter.jsp',
 };
 
 export function normalizeRoute(route) {
@@ -1140,14 +1245,48 @@ export function normalizeRoute(route) {
   return route.startsWith('/') ? route : `/${route}`;
 }
 
+// URL-migration cluster path prefixes to strip from clustered tool URLs for
+// CMS-fragment slug lookup. Built lazily on first call to avoid module-load
+// cycles. Excludes the `guides` cluster (which preserves its joined-slug
+// behavior since /guides/* CMS fragments are named guides<title>).
+let _CLUSTER_TOOL_PATH_PREFIXES = null;
+function getClusterToolPathPrefixes() {
+  if (_CLUSTER_TOOL_PATH_PREFIXES !== null) return _CLUSTER_TOOL_PATH_PREFIXES;
+  const prefixes = [];
+  try {
+    const groups = getSeoClusterGroups();
+    for (const g of groups) {
+      if (g.cluster === 'guides') continue;
+      prefixes.push(g.hubRoute.replace(/\.html$/, '') + '/');
+    }
+  } catch {
+    // seo-clusters.mjs not available; cluster-aware logic disabled.
+  }
+  _CLUSTER_TOOL_PATH_PREFIXES = prefixes;
+  return prefixes;
+}
+
 export function routeToSlug(route) {
   const normalized = normalizeRoute(route);
   if (normalized === '/') {
     return '';
   }
-  // Remove leading slash, .html suffix, hyphens, AND interior slashes so that
-  // subpath routes (e.g., /guides/heic-vs-jpg-vs-webp.html) map to a single CMS
-  // fragment suffix (guidesheicvsjpgvswebp) - no filesystem conflict.
+  // URL-migration support (operator-override 2026-05-10): for clustered tool
+  // URLs (e.g. /device-test-tools/microphone-test.html), strip the cluster
+  // prefix and return the tool slug only (microphonetest) so the existing
+  // BODYTITLE/BODYDESC/BODYHTML/etc. CMS fragments authored under the flat
+  // slug still resolve. This makes URL migration a routing-layer change
+  // without requiring 144 BODY*.html fragment file renames.
+  for (const prefix of getClusterToolPathPrefixes()) {
+    if (normalized.startsWith(prefix)) {
+      const tail = normalized.slice(prefix.length);
+      if (tail) return tail.replace(/\.html$/i, '').toLowerCase().replace(/[-/]/g, '');
+      // Hub directory-index form (/cluster-name/) — fall through to default.
+    }
+  }
+  // Default: remove leading slash, .html suffix, hyphens, AND interior slashes
+  // so that subpath routes (e.g., /guides/heic-vs-jpg-vs-webp.html) map to a
+  // single CMS fragment suffix (guidesheicvsjpgvswebp) - no filesystem conflict.
   return normalized.replace(/^\//, '').replace(/\.html$/i, '').toLowerCase().replace(/[-/]/g, '');
 }
 
@@ -1155,6 +1294,29 @@ export function routeToPageName(route) {
   const normalized = normalizeRoute(route);
   if (normalized === '/') {
     return '';
+  }
+  // URL-migration support (operator-override 2026-05-10): for clustered tool
+  // URLs (e.g. /device-test-tools/lcd-test.html), strip the cluster prefix and
+  // return the leaf pageName ("lcd-test") — preserving hyphens, unlike
+  // routeToSlug which strips them for CMS-fragment filename matching. Two
+  // backward-compat reasons:
+  //   (1) the rating API (service.us-east-1a.freetool.online/ajax/get-rating)
+  //       stores rating data keyed by the pre-migration pageName. Sending the
+  //       new clustered pageName (with a slash) causes a lookup miss → empty
+  //       response → rating.html's error handler removes the parent div →
+  //       rating section disappears from the page. Forcing example: cycle193
+  //       2026-05-11, /device-test-tools/lcd-test.html lost its star-rating
+  //       widget on staging because pageName flipped from "lcd-test" to
+  //       "device-test-tools/lcd-test".
+  //   (2) the rendered HTML uses pageName in the body class (`page-${pageName}root`).
+  //       A slash in the class name (e.g. "page-device-test-tools/lcd-testroot")
+  //       breaks any CSS rule that targets `.page-lcd-testroot` directly.
+  for (const prefix of getClusterToolPathPrefixes()) {
+    if (normalized.startsWith(prefix)) {
+      const tail = normalized.slice(prefix.length);
+      if (tail) return tail.replace(/\.html$/i, '').toLowerCase();
+      // Hub directory-index form (/cluster-name/) — fall through to default.
+    }
   }
   return normalized.replace(/^\//, '').replace(/\.html$/i, '').toLowerCase();
 }

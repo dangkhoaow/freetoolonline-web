@@ -3,15 +3,15 @@
     <p>Use these ZIP tools to manage archives quickly in your browser. Compress files into ZIP folders, remove ZIP passwords, or unzip archives without installing extra software.</p>
     <ul>
         <li>
-            <a href="/zip-file.html">Compress ZIP File</a>
+            <a href="/zip-tools/zip-file.html">Compress ZIP File</a>
             <p>Create ZIP archives from files and folders</p>
         </li>
         <li>
-            <a href="/remove-zip-password.html">Remove ZIP Password</a>
+            <a href="/zip-tools/remove-zip-password.html">Remove ZIP Password</a>
             <p>Open password-protected ZIP archives when you know the password</p>
         </li>
         <li>
-            <a href="/unzip-file.html">Unzip File</a>
+            <a href="/zip-tools/unzip-file.html">Unzip File</a>
             <p>Extract ZIP archives and access their contents online</p>
         </li>
     </ul>
@@ -26,9 +26,9 @@
     </ul>
     <h2 class="text-uppercase"><b>Which tool should you use?</b></h2>
     <ul>
-        <li><a href="/zip-file.html">Compress ZIP File</a> when you need a new archive from a folder or a group of files.</li>
-        <li><a href="/remove-zip-password.html">Remove ZIP Password</a> if you already know the password and want a copy of the archive without the password requirement.</li>
-        <li><a href="/unzip-file.html">Unzip File</a> to extract the contents of an archive you received or downloaded.</li>
+        <li><a href="/zip-tools/zip-file.html">Compress ZIP File</a> when you need a new archive from a folder or a group of files.</li>
+        <li><a href="/zip-tools/remove-zip-password.html">Remove ZIP Password</a> if you already know the password and want a copy of the archive without the password requirement.</li>
+        <li><a href="/zip-tools/unzip-file.html">Unzip File</a> to extract the contents of an archive you received or downloaded.</li>
     </ul>
     <h2 class="text-uppercase"><b>Tips for better ZIP results</b></h2>
     <p>For large projects, organize files into clear folders before compressing so the archive stays tidy when it is unpacked. If speed matters more than size, a standard compression level is usually enough; heavy compression can take longer for small gains. When sharing sensitive data, always use a strong password and send it through a separate channel. After unzipping, open a few files to verify integrity before deleting the original archive.</p>
@@ -45,7 +45,7 @@
 
     <h2 class="text-uppercase"><b>When a ZIP is the wrong format</b></h2>
     <p>For a single file you only want to send compressed, ZIP adds packaging overhead without much benefit. Use the file's native compression instead: a JPG, PNG, or WebP is already compressed; an MP4 video is already compressed; a PDF can be re-saved at lower quality with the <a href="/pdf-tools.html">PDF tools</a>. ZIP wins when you have multiple files and folders that you want to keep together as a single download.</p>
-    <p>For long-term archives where you want to verify the bundle has not been tampered with, ZIP's checksum is weak. Add a separate hash (MD5 or SHA-256) using the <a href="/md5-converter.html">MD5 converter</a> after creating the archive, and store the hash alongside the file. When a recipient downloads the archive, they can re-hash and confirm the values match. For files that need to remain readable on machines decades from now, plain folders with descriptive file names beat any compressed format.</p>
+    <p>For long-term archives where you want to verify the bundle has not been tampered with, ZIP's checksum is weak. Add a separate hash (MD5 or SHA-256) using the <a href="/developer-tools/md5-converter.html">MD5 converter</a> after creating the archive, and store the hash alongside the file. When a recipient downloads the archive, they can re-hash and confirm the values match. For files that need to remain readable on machines decades from now, plain folders with descriptive file names beat any compressed format.</p>
 
     <h2 class="text-uppercase"><b>Browser support for ZIP</b></h2>
     <p>Every modern browser handles the ZIP format the same way: Chrome, Firefox, Safari, and Edge all extract standard archives, all let JavaScript build new archives in memory, and all support password protection through the same JavaScript libraries. Mobile Safari and Chrome on Android share the desktop behaviour, with the smaller working-memory caveat noted above. If a ZIP refuses to open in one browser but opens in another, the cause is usually the archive itself - a non-standard compression method, a corrupted entry, or a ZIP64 file on a tool that does not support ZIP64. Re-creating the archive with default settings usually resolves the problem.</p>
