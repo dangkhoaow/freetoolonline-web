@@ -1,14 +1,14 @@
 <div class="w3-container w3-margin-top">
     <h1 class="text-uppercase"><b>How to Make a Zip File Smaller</b></h1>
-    <p><em>Last reviewed 2026-04-27. Open <a href="/zip-file.html">the zip tool</a> to compress in your browser without uploading the files.</em></p>
+    <p><em>Last reviewed 2026-04-27. Open <a href="/zip-tools/zip-file.html">the zip tool</a> to compress in your browser without uploading the files.</em></p>
 
     <div class="w3-panel w3-pale-green w3-leftbar w3-border-green">
-        <p style="margin-bottom: 0;"><b>30-second answer.</b> A zip's final size is set by what is inside, not by the zip format. Three things move the number down: pick the right compression level (9 for documents, 0 for already-compressed media), drop or shrink the heavy files first (compress images and PDFs before zipping), and split the archive if it must clear a fixed size cap (Gmail's 25 MB, most chat apps' 100 MB). Open <a href="/zip-file.html">the zip tool</a>, drag the files in, set Best compression for documents and Store for media, and download.</p>
+        <p style="margin-bottom: 0;"><b>30-second answer.</b> A zip's final size is set by what is inside, not by the zip format. Three things move the number down: pick the right compression level (9 for documents, 0 for already-compressed media), drop or shrink the heavy files first (compress images and PDFs before zipping), and split the archive if it must clear a fixed size cap (Gmail's 25 MB, most chat apps' 100 MB). Open <a href="/zip-tools/zip-file.html">the zip tool</a>, drag the files in, set Best compression for documents and Store for media, and download.</p>
     </div>
 
     <h2 class="text-uppercase"><b>Why a zip sometimes looks the same size as the input</b></h2>
     <p>Zip uses Deflate, a lossless compression that works on patterns. Plain text and source code are 60-80% repeating bytes; Deflate squeezes them to 20-40% of the original. JPEG, PNG, MP4, MP3, and most other media are already compressed by their own format, so Deflate finds almost nothing left to remove. A folder of vacation photos zipped at maximum will come out 1-3% smaller than the input. That is normal, not a tool bug.</p>
-    <p>The fix is to compress the heavy files <em>before</em> zipping. <a href="/compress-image.html">Compress an image</a> drops a 5 MB photo to 600 KB without a visible quality loss; <a href="/extract-gif-to-image-frames.html">extract a GIF to frames</a> followed by re-encoding usually wins; <a href="/compose-pdf.html">composing a PDF</a> with image-quality settings dialed back makes a measurable dent. After that, the zip step is doing what it can.</p>
+    <p>The fix is to compress the heavy files <em>before</em> zipping. <a href="/image-tools/compress-image.html">Compress an image</a> drops a 5 MB photo to 600 KB without a visible quality loss; <a href="/image-converter-tools/extract-gif-to-image-frames.html">extract a GIF to frames</a> followed by re-encoding usually wins; <a href="/pdf-tools/compose-pdf.html">composing a PDF</a> with image-quality settings dialed back makes a measurable dent. After that, the zip step is doing what it can.</p>
 
     <h2 class="text-uppercase"><b>Pick the compression level deliberately</b></h2>
     <p>The browser tool exposes Store, Fast, Default, and Best. Use them like this:</p>

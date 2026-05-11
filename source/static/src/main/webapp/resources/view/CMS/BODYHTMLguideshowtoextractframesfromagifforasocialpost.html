@@ -10,7 +10,7 @@
 
 <br/><h2 class="text-uppercase"><b>The in-browser extraction workflow</b></h2>
 <ol>
-<li><b>Open</b> <a href="/extract-gif-to-image-frames.html">extract GIF to image frames</a> in your browser. Nothing uploads; the GIF stays on your device.</li>
+<li><b>Open</b> <a href="/image-converter-tools/extract-gif-to-image-frames.html">extract GIF to image frames</a> in your browser. Nothing uploads; the GIF stays on your device.</li>
 <li><b>Drop the GIF.</b> Drag the .gif file onto the page, or click the upload control and pick it. The tool reads the file, decodes each frame with wasm LZW + GIF disposal logic, and shows a scrollable preview grid.</li>
 <li><b>Pick frames.</b> Scrub the preview to find the frame you want - click to select. Multi-select with Shift+Click for a range or Cmd/Ctrl+Click for individual frames.</li>
 <li><b>Choose output format.</b> PNG preserves transparency if the GIF has any; JPG is ~40% smaller for photo-heavy frames. PNG is usually the right choice for GIF extractions because GIFs rarely have photographic content.</li>
@@ -31,11 +31,11 @@
 
 <br/><h2 class="text-uppercase"><b>Multi-frame use cases</b></h2>
 <p><b>Step-by-step visual.</b> A 3- or 4-frame sequence from the same GIF makes a compact before/during/after layout in a post. Extract each key frame, arrange as a horizontal strip in an image editor, export as a single wider image.</p>
-<p><b>Animation source for a video platform.</b> If you need the GIF on Instagram (which rejects GIF uploads), extract every frame, then use <a href="/video-maker.html">video maker</a> or <a href="/ffmpeg-online.html">FFmpeg online</a> to stitch the frames into an MP4. Most platforms that reject GIF accept MP4.</p>
+<p><b>Animation source for a video platform.</b> If you need the GIF on Instagram (which rejects GIF uploads), extract every frame, then use <a href="/video-tools/video-maker.html">video maker</a> or <a href="/video-tools/ffmpeg-online.html">FFmpeg online</a> to stitch the frames into an MP4. Most platforms that reject GIF accept MP4.</p>
 <p><b>Reference material for design.</b> A long screen-recording GIF can be extracted to 100+ PNGs for inclusion in a design spec, user guide, or bug report.</p>
 
 <br/><h2 class="text-uppercase"><b>Optimising the final image</b></h2>
-<p>After picking the hero frame, consider file-size optimisation - most social platforms impose a caption-bar overlay and recompress, so starting with a smaller, pre-optimised image produces better final output. Use <a href="/compress-image.html">compress image</a> for JPG or <a href="/resize-image.html">resize image</a> to match the destination platform's native dimensions:</p>
+<p>After picking the hero frame, consider file-size optimisation - most social platforms impose a caption-bar overlay and recompress, so starting with a smaller, pre-optimised image produces better final output. Use <a href="/image-tools/compress-image.html">compress image</a> for JPG or <a href="/image-tools/resize-image.html">resize image</a> to match the destination platform's native dimensions:</p>
 <ul>
 <li>Twitter/X: 1200&times;675 (16:9), 1200&times;1200 (1:1)</li>
 <li>Instagram: 1080&times;1080 (1:1), 1080&times;1350 (4:5)</li>
@@ -49,10 +49,10 @@
 
 <br/><h2 class="text-uppercase"><b>Related tools</b></h2>
 <ul>
-    <li><a href="/extract-gif-to-image-frames.html">Extract GIF Frames</a> - the primary tool for this workflow.</li>
-    <li><a href="/gif-maker.html">GIF Maker</a> - build a new GIF from individual frames.</li>
-    <li><a href="/compress-image.html">Compress Image</a> - reduce PNG/JPG size for faster social loading.</li>
-    <li><a href="/resize-image.html">Resize Image</a> - match destination-platform dimensions.</li>
+    <li><a href="/image-converter-tools/extract-gif-to-image-frames.html">Extract GIF Frames</a> - the primary tool for this workflow.</li>
+    <li><a href="/image-tools/gif-maker.html">GIF Maker</a> - build a new GIF from individual frames.</li>
+    <li><a href="/image-tools/compress-image.html">Compress Image</a> - reduce PNG/JPG size for faster social loading.</li>
+    <li><a href="/image-tools/resize-image.html">Resize Image</a> - match destination-platform dimensions.</li>
 </ul>
 
 <p><br/><a href="/image-converter-tools.html">&larr; Back to Image Converter Tools</a></p>
