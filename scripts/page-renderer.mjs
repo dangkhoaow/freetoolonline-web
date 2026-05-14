@@ -673,7 +673,10 @@ function extractFaqItems(faqHtml, pageName = '') {
   const afterHeader = raw.slice(headerIndex + headerHtml.length);
   const nextHeaderIndex = afterHeader.search(/<h2[^>]*>/i);
   const faqSection = nextHeaderIndex >= 0 ? afterHeader.slice(0, nextHeaderIndex) : afterHeader;
-  const qaRegex = /<h3[^>]*>([\s\S]*?)<\/h3>\s*<p[^>]*>([\s\S]*?)<\/p>/gi;
+  // Cycle 20260514-9 — collapsible FAQ migration. New canonical shape is
+  // <details class="faq-item"><summary>Q?</summary><p>A.</p></details>.
+  // Regex accepts BOTH new <summary> + legacy <h3> shapes during migration.
+  const qaRegex = /<(?:h3|summary)[^>]*>([\s\S]*?)<\/(?:h3|summary)>\s*<p[^>]*>([\s\S]*?)<\/p>/gi;
   const items = [];
   let match = null;
 
