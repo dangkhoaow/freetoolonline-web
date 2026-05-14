@@ -23,7 +23,6 @@
     <p>The site is run by four editors, each accountable to you for a specific part of what you see on every page. The composite titles below describe the role; each role has a concrete outcome a reader can hold us to.</p>
 
     <h3 id="editor-content-seo"><b>Editor - Content &amp; User Experience Lead</b></h3>
-    <p><em>Twelve years writing help content for consumer software.</em> Owns every paragraph you read on a tool page: the one-sentence definition at the top, the step-by-step instructions, and the FAQ at the bottom. If a tool's instructions are wrong, unclear, or miss a format you are trying to use, this editor owns the fix - and reviews each tool page for accuracy at least once a quarter. Works most on: <a href="/pdf-tools.html">PDF tools</a>, <a href="/image-converter-tools.html">image converters</a>, and the <a href="/guides/device-test-checklist-for-remote-work.html">device-test checklist for remote work</a>.</p>
 
     <h3 id="editor-engineering"><b>Editor - Tool Engineering Lead</b></h3>
     <p><em>Ten years shipping browser-based applications.</em> Owns the code that runs the actual tool - the part that converts your file, runs the microphone check, or hashes your text. Verifies every tool works in the current versions of Chrome, Firefox, Safari, and Edge before it goes live, and is responsible for the per-tool architecture: tools that can run client-side do; tools that need a native binary (HEIC, ffmpeg, PDF preflight / flatten / split / merge, video conversion, image optimisation) upload over HTTPS to our processing service and the file is removed shortly after. Works most on: <a href="/video-tools/video-converter.html">video converter</a>, <a href="/video-tools/ffmpeg-online.html">FFmpeg online</a>, and the <a href="/developer-tools/md5-converter.html">MD5 converter</a>.</p>
@@ -31,7 +30,7 @@
     <h3 id="editor-qa"><b>Editor - Quality &amp; Cross-Device Review</b></h3>
     <p><em>Seven years in front-end quality assurance.</em> Owns the visual and functional check on every page before publishing. Opens the site on phone, tablet, laptop, and external-monitor screen sizes, catches broken layouts, and confirms that buttons, file pickers, and keyboard navigation respond the way they should on each device. If a tool looks off or misbehaves on your screen, this review is the first line of defense. Works across every page on the site, on every device class readers use.</p>
 
-    <h2 class="text-uppercase"><b>Editorial policy</b></h2>
+    <h3 class="text-uppercase"><b>Editorial policy</b></h3>
     <p>Our editorial policy is intentionally short and operational: we want it auditable in one screen, not buried across a policy PDF. The full workflow is described in the <a href="#content-review-process">content-review process</a> below; the two bright-line commitments are:</p>
     <details class="content-collapse">
       <summary>Read the two commitments</summary>
@@ -64,7 +63,7 @@
       </ol>
     </details>
 
-    <h2 class="text-uppercase"><b>What we base our answers on</b></h2>
+    <h3 class="text-uppercase"><b>What we base our answers on</b></h3>
     <p>When a tool page or a guide says &quot;PDFs do X&quot; or &quot;HEIC can store Y&quot;, the claim has a source. We check each claim against one of the following before publishing:</p>
     <details class="content-collapse">
       <summary>Read the sources we verify against</summary>
@@ -75,7 +74,7 @@
       </ul>
     </details>
 
-    <h2 class="text-uppercase"><b>How the site is built</b></h2>
+    <h3 class="text-uppercase"><b>How the site is built</b></h3>
     <p>The site is delivered as plain static HTML pages. Lightweight tools run entirely as browser applications. Tools that need a native binary (HEIC decoding, ffmpeg / ImageMagick command runners, PDF flatten / merge / split / preflight, video conversion, image optimisation) upload over HTTPS to our processing service, run server-side, and the file is removed shortly after. The full source code is public, so anyone can verify each tool's actual data flow against the code itself rather than having to take our word for it.</p>
     <p>For the background on why the site is built this way - the trade-offs, the cost story, the user-trust observations - read the case study <a href="/guides/what-we-learned-running-free-in-browser-image-tools-for-100k-monthly-users.html">what we learned running free in-browser image tools for 100K monthly users</a>.</p>
 
