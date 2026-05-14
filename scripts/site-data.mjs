@@ -421,6 +421,11 @@ export const INFO_ROUTES = new Set([
   // satellite backlinks anywhere this cycle. Cluster: image-conversion /
   // animation. Lane-D PA-mode mandatory; non-ZIP, non-destructive.
   '/guides/gif-frame-extractor-output-looks-wrong-three-causes.html',
+  // Cycle 20260514-9 create_new_guide_page - "gif frame extractor" head-term
+  // Lane-D guide (1,022 imp / 28d, pos 7.77, CTR 1.08%; opportunity score 130).
+  // Implementing tool: /extract-gif-to-image-frames.html. Single-cycle complete
+  // ship per cycle 20260514-5 contract.
+  '/guides/gif-frame-extractor.html',
   // Cycle 42 P42.A - "LCD test vs display test vs monitor test - which?"
   // reactive disambiguation-flow guide. Lane-D pivot because all 6 cycle-42
   // decision rows touch active-monitor or auto-status tool URLs (/lcd-test.html
@@ -694,6 +699,18 @@ export const INFO_ROUTES = new Set([
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
 // JSON-LD and to inject editorial-byline/trust surface on guide pages.
+//
+// ⛔ KEBAB-CASE NON-NEGOTIABLE (cycle 20260514-6-followup):
+// Every NEW entry MUST be `^/guides/[a-z0-9]+(-[a-z0-9]+)*\.html$`.
+// Multi-word slugs MUST use hyphens. Single-token slugs ≥ 13 chars are
+// smashed multi-word queries → CRITICAL audit failure → BLOCK Phase 5.
+//   ✅ /guides/how-to-compress-a-folder.html
+//   ❌ /guides/howtocompressafolder.html
+// See CLAUDE.md "⛔ URL convention" block + the JSP_BY_ROUTE comment below.
+//
+// Removing an entry here while keeping it in JSP_BY_ROUTE = "abort-in-place":
+// the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
+// no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
   '/guides/heic-vs-jpg-vs-webp.html',
   '/guides/dead-pixel-testing-guide.html',
@@ -840,6 +857,9 @@ export const GUIDE_ROUTES = new Set([
   '/guides/ffmpeg-online-conversion-stalled-three-fixes.html',
   // Cycle 41 P41.A - "GIF frame extractor output looks wrong, why?" reactive diagnostic-flow guide.
   '/guides/gif-frame-extractor-output-looks-wrong-three-causes.html',
+  // Cycle 20260514-9 create_new_guide_page - "gif frame extractor" head-term
+  // Lane-D guide. Implementing tool: /extract-gif-to-image-frames.html.
+  '/guides/gif-frame-extractor.html',
   // Cycle 42 P42.A - "LCD test vs display test vs monitor test - which one do you actually need?" reactive disambiguation-flow guide.
   '/guides/lcd-test-vs-display-test-which-do-you-need.html',
   // Cycle 43 P43.B - "Camera test vs webcam test vs camera quality - which one do you actually need?" reactive disambiguation-flow guide.
@@ -1081,8 +1101,41 @@ export const ALIAS_ROUTES = {
   '/zip-file.html': '/zip-tools/zip-file.html',
   '/unzip-file.html': '/zip-tools/unzip-file.html',
   '/remove-zip-password.html': '/zip-tools/remove-zip-password.html',
+  // Cycle 20260514-6-followup URL-convention cleanup. Both URLs below
+  // shipped to staging+prod with smashed-multi-word slugs (non-kebab),
+  // were caught by qa-content-quality-gates CRITICAL on subsequent
+  // cycles, and are now redirected via alias to the kebab-canonical
+  // page (preserves any inbound link 200s while pointing search engines
+  // + readers to the canonical URL).
+  '/guides/lcdtest.html': '/guides/lcd-test-online.html',         // smashed "lcd test"; canonical = lcd-test-online (new guide created cycle 20260514-5)
+  '/guides/foldertozipconverter.html': '/zip-tools/zip-file.html', // smashed "folder to zip converter"; redirect to working tool (no dedicated guide)
 };
 
+// ─────────────────────────────────────────────────────────────────────────
+// JSP_BY_ROUTE — URL → JSP wrapper mapping. EVERY new key MUST match the
+// kebab-case convention:
+//
+//   ^/(guides/)?[a-z0-9]+(-[a-z0-9]+)*\.html$
+//
+// Rules (cycle 20260514-6-followup, NON-NEGOTIABLE — see CLAUDE.md
+// "⛔ URL convention" block):
+//
+//   ✅ /guides/how-to-compress-a-folder.html   (multi-word, hyphenated)
+//   ✅ /lcd-test.html                          (multi-word, hyphenated)
+//   ✅ /sitemap.html                           (genuine single-word ≤ 12 chars)
+//   ❌ /guides/howtocompressafolder.html       (smashed multi-word, CRITICAL)
+//   ❌ /guides/lcdtest.html                    (shadows /lcd-test.html, CRITICAL)
+//   ❌ /guides/foldertozipconverter.html       (smashed, CRITICAL)
+//
+// Audit gate: node .agent/skills/qa-content-quality-gates/scripts/scan.mjs
+//   emits CRITICAL on smashed_multi_word_guide_route +
+//   guide_shadows_existing_route → BLOCKs Phase 5 mirror.
+//
+// Legacy non-kebab URLs that already shipped are kept here for inbound-link
+// 200s but REMOVED from GUIDE_ROUTES (abort-in-place, sitemap-excluded).
+// Operator can rename them to kebab in a future cycle; do NOT add NEW
+// non-kebab entries to this map.
+// ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
   '/': 'index.jsp',
   '/about-us.html': 'about-us.jsp',
@@ -1204,6 +1257,7 @@ export const JSP_BY_ROUTE = {
   '/guides/compressed-jpg-looks-blurry-three-causes.html': 'guide/compressed-jpg-looks-blurry-three-causes.jsp',
   '/guides/ffmpeg-online-conversion-stalled-three-fixes.html': 'guide/ffmpeg-online-conversion-stalled-three-fixes.jsp',
   '/guides/gif-frame-extractor-output-looks-wrong-three-causes.html': 'guide/gif-frame-extractor-output-looks-wrong-three-causes.jsp',
+  '/guides/gif-frame-extractor.html': 'guide/gif-frame-extractor.jsp',
   '/guides/lcd-test-vs-display-test-which-do-you-need.html': 'guide/lcd-test-vs-display-test-which-do-you-need.jsp',
   '/guides/camera-test-vs-webcam-test-which-do-you-need.html': 'guide/camera-test-vs-webcam-test-which-do-you-need.jsp',
   '/guides/screen-test-vs-camera-test-pick-the-right-tool.html': 'guide/screen-test-vs-camera-test-pick-the-right-tool.jsp',
