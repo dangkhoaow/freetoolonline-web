@@ -272,6 +272,15 @@ export const INFO_ROUTES = new Set([
   // Two proof-of-pattern guides for cycle-18 batch-1 ship-loop.
   '/guides/how-to-compress-a-folder.html',
   '/guides/lcd-test-what-it-checks.html',
+  // Cycle 20260514-6-followup URL-convention cleanup: /guides/lcdtest.html
+  // moved to ALIAS_ROUTES → /guides/lcd-test-online.html. CMS fragments
+  // renamed guideslcdtest → guideslcdtestonline. Comment kept for git-blame
+  // forensic recall on cycles 20260513-19+ that originally shipped the
+  // non-kebab slug; the URL still 200s via the alias redirect.
+  // Cycle 20260514-6-followup URL-convention cleanup: /guides/foldertozipconverter.html
+  // moved to ALIAS_ROUTES → /zip-tools/zip-file.html (the working tool that
+  // does folder-to-zip compression). CMS fragments deleted; the alias
+  // auto-renders a redirect page.
   // Cycle 19 P19.4 - synonym disambiguation guide for "screen test" /
   // "display test" / "monitor test" Bing-only impression gap (KI-19.3:
   // Bing serves 100,484 imp on `camera test` and 51,081 on `screen test`
@@ -788,6 +797,18 @@ export const GUIDE_ROUTES = new Set([
   // Workstream B sample batch - 2026-04-30
   '/guides/how-to-compress-a-folder.html',
   '/guides/lcd-test-what-it-checks.html',
+  // /guides/lcdtest.html ALIAS → /guides/lcd-test-online.html (cycle 20260514-6-followup)
+  // — see ALIAS_ROUTES. The kebab URL below is the canonical one in sitemap-guides.xml.
+  '/guides/lcd-test-online.html',
+  // Cycle 20260514-2 Phase A scaffold for "folder to zip converter" was
+  // aborted-in-place per granted card
+  // create-guide-foldertozipconverter-cannibalisation-1778696200000
+  // (cannibalisation against /zip-tools/zip-file.html + existing
+  // /guides/how-to-compress-a-folder.html; non-kebab slug). Cycle 20260514-3
+  // P1.A implements the "exclude from sitemap" half of the abort-in-place
+  // decision by REMOVING the URL from GUIDE_ROUTES so sitemap-guides.xml
+  // no longer publishes it. The JSP_BY_ROUTE entry stays so the URL still
+  // renders (200, not 404) for any inbound link that already references it.
   // Cycle 19 P19.4 - screen/display/monitor synonym disambiguation guide.
   '/guides/screen-display-test-synonyms.html',
   // Cycle 27 P27.C - keyboard-test how-to guide (Lane-D PA-mode mandatory).
@@ -1103,6 +1124,10 @@ export const JSP_BY_ROUTE = {
   '/guides/led-test-vs-lcd-test-which-applies-to-your-screen.html': 'guide/led-test-vs-lcd-test-which-applies-to-your-screen.jsp',
   // Cycle 233 P233.E - "OLED test vs LCD test: what changes on an OLED panel" Lane-D guide (device-test / lcd-test sub-cluster, companion to /lcd-test.html). Multi-cycle skeleton phase 1.
   '/guides/oled-test-vs-lcd-test-what-changes-on-oled.html': 'guide/oled-test-vs-lcd-test-what-changes-on-oled.jsp',
+  // Cycle1/20260514-5 P1.A - "LCD test online" Lane-D guide (device-test / lcd-test sub-cluster, companion to /lcd-test.html). Multi-cycle Phase A skeleton (route scaffolding only).
+  '/guides/lcd-test-online.html': 'guide/lcd-test-online.jsp',
+  // Cycle1/20260514-5 create_new_guide_page - "Split GIF into frames" Lane-D guide (image-editing / gif-maker sub-cluster, companion to /gif-maker.html). Multi-cycle Phase A skeleton (route scaffolding only).
+  '/guides/split-gif-into-frames.html': 'guide/split-gif-into-frames.jsp',
   // Cycle 84 P84.A - "How to compress a JPG for email attachment size limits" Lane-D guide (image-conversion / compression sub-cluster, companion to /compress-image.html).
   '/guides/how-to-compress-a-jpg-for-email-attachment-limits.html': 'guide/how-to-compress-a-jpg-for-email-attachment-limits.jsp',
   // Cycle 85 P85.A - "Microphone test levels: what quiet, normal, and peak mean" Lane-D guide (device-test / microphone-test sub-cluster, companion to /microphone-test.html).
@@ -1212,6 +1237,8 @@ export const JSP_BY_ROUTE = {
   // Workstream B sample batch - 2026-04-30
   '/guides/how-to-compress-a-folder.html': 'guide/how-to-compress-a-folder.jsp',
   '/guides/lcd-test-what-it-checks.html': 'guide/lcd-test-what-it-checks.jsp',
+  // Cycle 20260513-19+ multi-cycle - "lcd test" long-tail guide.
+  // Cycle 20260514-2 cycle 1 - Phase A scaffold for "folder to zip converter".
   // Cycle 19 P19.4 - screen/display/monitor synonym disambiguation guide.
   '/guides/screen-display-test-synonyms.html': 'guide/screen-display-test-synonyms.jsp',
   // Cycle 70 P70.A - "Zip file converter - what it actually does" disambiguation guide.
