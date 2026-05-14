@@ -272,17 +272,15 @@ export const INFO_ROUTES = new Set([
   // Two proof-of-pattern guides for cycle-18 batch-1 ship-loop.
   '/guides/how-to-compress-a-folder.html',
   '/guides/lcd-test-what-it-checks.html',
-  // Cycle 20260513-19+ multi-cycle task new_guide_lcdtest_1778608545179 -
-  // non-kebab guide URL for the bare query "lcd test" (slug `guideslcdtest` to
-  // avoid clobbering /lcd-test.html's tool-page metadata). Phase A (route)
-  // shipped in 20260514-2 cycle 1 alongside Phase E (related-tools wiring).
-  '/guides/lcdtest.html',
-  // Cycle 20260514-2 cycle 1 - Phase A scaffold for "folder to zip converter"
-  // long-tail (non-kebab slug; orphan-queue pick from create_new_guide_page
-  // category). Subject to operator review per deferred-approval card
-  // foldertozipconverter-cannibalisation-* — Phase B+ ship only after that
-  // card is GRANTED with decision (a) PROCEED.
-  '/guides/foldertozipconverter.html',
+  // Cycle 20260514-6-followup URL-convention cleanup: /guides/lcdtest.html
+  // moved to ALIAS_ROUTES → /guides/lcd-test-online.html. CMS fragments
+  // renamed guideslcdtest → guideslcdtestonline. Comment kept for git-blame
+  // forensic recall on cycles 20260513-19+ that originally shipped the
+  // non-kebab slug; the URL still 200s via the alias redirect.
+  // Cycle 20260514-6-followup URL-convention cleanup: /guides/foldertozipconverter.html
+  // moved to ALIAS_ROUTES → /zip-tools/zip-file.html (the working tool that
+  // does folder-to-zip compression). CMS fragments deleted; the alias
+  // auto-renders a redirect page.
   // Cycle 19 P19.4 - synonym disambiguation guide for "screen test" /
   // "display test" / "monitor test" Bing-only impression gap (KI-19.3:
   // Bing serves 100,484 imp on `camera test` and 51,081 on `screen test`
@@ -799,16 +797,9 @@ export const GUIDE_ROUTES = new Set([
   // Workstream B sample batch - 2026-04-30
   '/guides/how-to-compress-a-folder.html',
   '/guides/lcd-test-what-it-checks.html',
-  // Cycle 20260513-19+ multi-cycle - new long-tail guide for "lcd test" query.
-  // Cycle 20260514-4-followup: REMOVED from GUIDE_ROUTES (sitemap-excluded
-  // via abort-in-place). Reason: slug "lcdtest" smashes the kebab form of
-  // /lcd-test.html (alias of /device-test-tools/lcd-test.html) and shadows
-  // that canonical route — flagged CRITICAL by scan-guide-quality-gates.mjs
-  // (guide_shadows_existing_route). JSP_BY_ROUTE entry stays so the URL
-  // still renders (200) for any inbound link, but sitemap-guides.xml no
-  // longer promotes it. Operator can rename to e.g. `/guides/lcd-test-online.html`
-  // in a future cycle if they want this guide back in the sitemap.
-  // '/guides/lcdtest.html',
+  // /guides/lcdtest.html ALIAS → /guides/lcd-test-online.html (cycle 20260514-6-followup)
+  // — see ALIAS_ROUTES. The kebab URL below is the canonical one in sitemap-guides.xml.
+  '/guides/lcd-test-online.html',
   // Cycle 20260514-2 Phase A scaffold for "folder to zip converter" was
   // aborted-in-place per granted card
   // create-guide-foldertozipconverter-cannibalisation-1778696200000
@@ -1247,9 +1238,7 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-compress-a-folder.html': 'guide/how-to-compress-a-folder.jsp',
   '/guides/lcd-test-what-it-checks.html': 'guide/lcd-test-what-it-checks.jsp',
   // Cycle 20260513-19+ multi-cycle - "lcd test" long-tail guide.
-  '/guides/lcdtest.html': 'guide/lcdtest.jsp',
   // Cycle 20260514-2 cycle 1 - Phase A scaffold for "folder to zip converter".
-  '/guides/foldertozipconverter.html': 'guide/foldertozipconverter.jsp',
   // Cycle 19 P19.4 - screen/display/monitor synonym disambiguation guide.
   '/guides/screen-display-test-synonyms.html': 'guide/screen-display-test-synonyms.jsp',
   // Cycle 70 P70.A - "Zip file converter - what it actually does" disambiguation guide.
