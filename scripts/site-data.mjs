@@ -960,6 +960,10 @@ export const GUIDE_ROUTES = new Set([
   // Cycle6 of 20260513-6 — "Compress ZIP" Lane-D guide. Phase A skeleton
   // (route + JSP wrapper) only. Kebab + singular guide/ JSP subdir.
   '/guides/compress-zip.html',
+  // Cycle 20260515-16 — "Compress ZIP Size" Lane-D guide. Complete single-cycle
+  // ship: compressibility table + DEFLATE level explainer + routing to
+  // /zip-tools/zip-file.html. Cluster=zip.
+  '/guides/compress-zip-size.html',
   // Cycle 20260515-12 — "Make Zip File Online" Lane-D guide (zip cluster,
   // companion to /zip-tools/zip-file.html). Complete single-cycle ship.
   '/guides/make-zip-file-online.html',
@@ -967,6 +971,11 @@ export const GUIDE_ROUTES = new Set([
   // Spanish-keyword sibling of /guides/make-zip-file-online.html;
   // companion to /zip-tools/zip-file.html). Complete single-cycle ship.
   '/guides/comprimir-zip-online.html',
+  // Cycle 20260515-15 — "Zip File Compressor Online" Lane-D guide (zip
+  // cluster head-query; 799 imp / 73 clicks / pos 6.2 / CTR 9.1% per 28d
+  // GSC; opportunity_score 117.19). Companion to /zip-tools/zip-file.html.
+  // Phase A complete single-cycle ship.
+  '/guides/zip-file-compressor-online.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -1242,6 +1251,8 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-compress-a-file-online.html': 'guide/how-to-compress-a-file-online.jsp',
   '/guides/how-to-reduce-zip-file-size-online.html': 'guide/how-to-reduce-zip-file-size-online.jsp',
   '/guides/how-to-reduce-zip-file-size.html': 'guide/how-to-reduce-zip-file-size.jsp',
+  // Cycle 20260515-15 — "Zip File Compressor Online" Lane-D guide.
+  '/guides/zip-file-compressor-online.html': 'guide/zip-file-compressor-online.jsp',
   // Phase 16 Cycle B P16.G1 hub + P16.N11 + P16.N16.
   '/guides.html': 'utility/guides.jsp',
   '/guides/how-to-convert-heic-to-jpg-step-by-step.html': 'guide/how-to-convert-heic-to-jpg-step-by-step.jsp',
@@ -1324,6 +1335,8 @@ export const JSP_BY_ROUTE = {
   // Cycle6 of 20260513-6 — "Compress ZIP" Lane-D guide. Phase A skeleton.
   // Kebab URL + guide/ singular subdir per granted-card convention.
   '/guides/compress-zip.html': 'guide/compress-zip.jsp',
+  // Cycle 20260515-16 — "Compress ZIP Size" Lane-D guide.
+  '/guides/compress-zip-size.html': 'guide/compress-zip-size.jsp',
 
   '/pdf-tools/compose-pdf.html': 'pdf/compose-pdf.jsp',
   '/pdf-tools/split-pdf-by-range.html': 'pdf/split-by-range.jsp',
