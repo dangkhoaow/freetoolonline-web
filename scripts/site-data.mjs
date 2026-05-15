@@ -960,6 +960,10 @@ export const GUIDE_ROUTES = new Set([
   // Cycle6 of 20260513-6 — "Compress ZIP" Lane-D guide. Phase A skeleton
   // (route + JSP wrapper) only. Kebab + singular guide/ JSP subdir.
   '/guides/compress-zip.html',
+  // Cycle 20260515-16 — "Compress ZIP Size" Lane-D guide. Complete single-cycle
+  // ship: compressibility table + DEFLATE level explainer + routing to
+  // /zip-tools/zip-file.html. Cluster=zip.
+  '/guides/compress-zip-size.html',
   // Cycle 20260515-12 — "Make Zip File Online" Lane-D guide (zip cluster,
   // companion to /zip-tools/zip-file.html). Complete single-cycle ship.
   '/guides/make-zip-file-online.html',
@@ -1331,6 +1335,8 @@ export const JSP_BY_ROUTE = {
   // Cycle6 of 20260513-6 — "Compress ZIP" Lane-D guide. Phase A skeleton.
   // Kebab URL + guide/ singular subdir per granted-card convention.
   '/guides/compress-zip.html': 'guide/compress-zip.jsp',
+  // Cycle 20260515-16 — "Compress ZIP Size" Lane-D guide.
+  '/guides/compress-zip-size.html': 'guide/compress-zip-size.jsp',
 
   '/pdf-tools/compose-pdf.html': 'pdf/compose-pdf.jsp',
   '/pdf-tools/split-pdf-by-range.html': 'pdf/split-by-range.jsp',
