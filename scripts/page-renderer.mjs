@@ -673,9 +673,14 @@ function extractFaqItems(faqHtml, pageName = '') {
   const afterHeader = raw.slice(headerIndex + headerHtml.length);
   const nextHeaderIndex = afterHeader.search(/<h2[^>]*>/i);
   const faqSection = nextHeaderIndex >= 0 ? afterHeader.slice(0, nextHeaderIndex) : afterHeader;
-  // Cycle 20260514-9 — collapsible FAQ migration. New canonical shape is
-  // <details class="faq-item"><summary>Q?</summary><p>A.</p></details>.
-  // Regex accepts BOTH new <summary> + legacy <h3> shapes during migration.
+  // Cycle 20260514-9 — collapsible FAQ migration. The new canonical FAQ
+  // entry shape is `<details class="faq-item"><summary>Question?</summary>
+  // <p>Answer.</p></details>` (default-collapsed disclosure widget; reduces
+  // page-height bloat so readers can scan the question list and expand only
+  // what they want). The regex below accepts BOTH the new <summary>Q</summary>
+  // shape AND the legacy <h3>Q</h3> shape so FAQPage JSON-LD continues
+  // emitting during the migration. Once every FAQ file is migrated, the
+  // legacy alternation can be removed.
   const qaRegex = /<(?:h3|summary)[^>]*>([\s\S]*?)<\/(?:h3|summary)>\s*<p[^>]*>([\s\S]*?)<\/p>/gi;
   const items = [];
   let match = null;
