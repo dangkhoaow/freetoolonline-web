@@ -256,6 +256,8 @@ export const INFO_ROUTES = new Set([
   // Cycle 20260517-9 create_new_guide_page - exact-match "compress zip file to smaller size" landing.
   '/guides/compress-zip-file-to-smaller-size.html',
   '/guides/compress-zip-file-to-100kb.html',
+  // Cycle 20260517-10 create_new_guide_page - exact-match "zip size reducer" landing (GSC 605 imp / 56 clicks / pos 5.67 / CTR 9.26%; opportunity_score 96.84).
+  '/guides/zip-size-reducer.html',
   '/guides/online-zip-vs-7z-vs-rar-which-to-pick.html',
   '/guides/how-to-zip-multiple-files-into-one.html',
   '/guides/how-to-zip-folder-online-step-by-step.html',
@@ -706,6 +708,18 @@ export const INFO_ROUTES = new Set([
   // chain: filecompressor, lcdtest, zipfilecompressor, compresszipfile,
   // howtocompressafolder, zipcompressor; this is the seventh).
   '/guides/compress-zip.html',
+  // Cycle 20260518-21 create_new_guide_page - "Zip password recovery online"
+  // Lane-D truthful-framing guide (zip cluster, GSC "zip password recovery
+  // online" 690 imp / 147 clicks / pos 6.17 / CTR 21.3% / opportunity_score
+  // 87.95). Critical truthful framing: tool-removezippassword/SKILL.md N2
+  // says the unlocker does NOT crack, guess, or brute-force unknown
+  // passwords (BODYWELCOMEremovezippassword L19 + FAQ Q4). This guide
+  // explicitly addresses the "recovery" search intent with the truthful
+  // answer — there is no online ZIP cracker that defeats strong encryption;
+  // recovery paths are: (1) known-password unlock via /zip-tools/remove-zip-password.html,
+  // (2) re-create the archive via /zip-tools/zip-file.html when you have
+  // the source files, (3) ask the sender. Append-only kebab URL.
+  '/guides/zip-password-recovery-online.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -807,6 +821,8 @@ export const GUIDE_ROUTES = new Set([
   // Cycle 20260517-9 create_new_guide_page - exact-match "compress zip file to smaller size" landing.
   '/guides/compress-zip-file-to-smaller-size.html',
   '/guides/compress-zip-file-to-100kb.html',
+  // Cycle 20260517-10 create_new_guide_page - exact-match "zip size reducer" landing (GSC 605 imp / 56 clicks / pos 5.67 / CTR 9.26%; opportunity_score 96.84).
+  '/guides/zip-size-reducer.html',
   '/guides/online-zip-vs-7z-vs-rar-which-to-pick.html',
   '/guides/how-to-zip-multiple-files-into-one.html',
   '/guides/how-to-zip-folder-online-step-by-step.html',
@@ -994,6 +1010,17 @@ export const GUIDE_ROUTES = new Set([
   // per 28d GSC; opportunity_score 102.3). Companion to /zip-tools/zip-file.html.
   // Complete single-cycle ship per cycle 20260514-5 contract.
   '/guides/online-zip-file-compressor.html',
+  // Cycle 20260518-20 create_new_guide_page - "Zip Compress" Lane-D guide (zip
+  // cluster head-query sibling; 744 imp / 26 clicks / pos 7.71 / CTR 3.49%
+  // per 28d GSC; opportunity_score 93.06). Companion to /zip-tools/zip-file.html.
+  // Complete single-cycle ship per cycle 20260514-5 contract.
+  '/guides/zip-compress.html',
+  // Cycle 20260518-21 create_new_guide_page - "Zip password recovery online"
+  // Lane-D truthful-framing guide. Cluster: zip. GSC 690 imp / 147 clicks /
+  // pos 6.17 / CTR 21.3% / opportunity_score 87.95. Sourced from
+  // tool-removezippassword/SKILL.md F1-F7 + N2 + N6 (the tool unlocks when
+  // password is KNOWN; explicitly does NOT crack unknown passwords).
+  '/guides/zip-password-recovery-online.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -1149,6 +1176,17 @@ export const ALIAS_ROUTES = {
   // + readers to the canonical URL).
   '/guides/lcdtest.html': '/guides/lcd-test-online.html',         // smashed "lcd test"; canonical = lcd-test-online (new guide created cycle 20260514-5)
   '/guides/foldertozipconverter.html': '/zip-tools/zip-file.html', // smashed "folder to zip converter"; redirect to working tool (no dedicated guide)
+  // Cycle 20260518 create_new_guide_page synth picked "lcd tes" (GSC query
+  // 635 imp / 3 clicks / pos 6.6 — typo of "lcd test"). Authoring a full
+  // /guides/lcd-tes.html guide would near-clone /guides/lcd-test-online.html
+  // (axis-F cluster_narrative dupe). Routing via alias captures the typo'd
+  // query traffic and 301s to the canonical guide — same pattern as the
+  // /guides/lcdtest.html cycle 20260514-6-followup cleanup above. Deferred-
+  // approval card explains the deviation from the synth's "author a complete
+  // page" contract: cluster is saturated (7+ existing lcd-* guides) and the
+  // typo'd intent is best served by re-using the canonical lcd-test-online
+  // guide rather than authoring an 8th near-duplicate.
+  '/guides/lcd-tes.html': '/guides/lcd-test-online.html',         // typo of "lcd test"; canonical = lcd-test-online (cluster anti-cannibalization)
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -1229,6 +1267,10 @@ export const JSP_BY_ROUTE = {
   '/guides/comprimir-zip-online.html': 'guide/comprimir-zip-online.jsp',
   // Cycle 20260517-8 create_new_guide_page - "Online Zip File Compressor" Lane-D guide (zip cluster head-query sibling, companion to /zip-tools/zip-file.html). Complete single-cycle ship per cycle 20260514-5 contract.
   '/guides/online-zip-file-compressor.html': 'guide/online-zip-file-compressor.jsp',
+  // Cycle 20260518-20 create_new_guide_page - "Zip Compress" Lane-D guide (zip cluster head-query sibling, companion to /zip-tools/zip-file.html). Complete single-cycle ship per cycle 20260514-5 contract.
+  '/guides/zip-compress.html': 'guide/zip-compress.jsp',
+  // Cycle 20260518-21 create_new_guide_page - "Zip password recovery online" Lane-D truthful-framing guide. Companion to /zip-tools/remove-zip-password.html. Source: tool-removezippassword/SKILL.md F1-F7 + N2 + N6.
+  '/guides/zip-password-recovery-online.html': 'guide/zip-password-recovery-online.jsp',
   // Cycle 84 P84.A - "How to compress a JPG for email attachment size limits" Lane-D guide (image-conversion / compression sub-cluster, companion to /compress-image.html).
   '/guides/how-to-compress-a-jpg-for-email-attachment-limits.html': 'guide/how-to-compress-a-jpg-for-email-attachment-limits.jsp',
   // Cycle 85 P85.A - "Microphone test levels: what quiet, normal, and peak mean" Lane-D guide (device-test / microphone-test sub-cluster, companion to /microphone-test.html).
@@ -1289,6 +1331,8 @@ export const JSP_BY_ROUTE = {
   // Cycle 20260517-9 create_new_guide_page - exact-match "compress zip file to smaller size" landing.
   '/guides/compress-zip-file-to-smaller-size.html': 'guide/compress-zip-file-to-smaller-size.jsp',
   '/guides/compress-zip-file-to-100kb.html': 'guide/compress-zip-file-to-100kb.jsp',
+  // Cycle 20260517-10 create_new_guide_page - exact-match "zip size reducer" landing.
+  '/guides/zip-size-reducer.html': 'guide/zip-size-reducer.jsp',
   '/guides/online-zip-vs-7z-vs-rar-which-to-pick.html': 'guide/online-zip-vs-7z-vs-rar-which-to-pick.jsp',
   '/guides/how-to-zip-multiple-files-into-one.html': 'guide/how-to-zip-multiple-files-into-one.jsp',
   '/guides/how-to-zip-folder-online-step-by-step.html': 'guide/how-to-zip-folder-online-step-by-step.jsp',
