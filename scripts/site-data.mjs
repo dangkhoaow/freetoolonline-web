@@ -749,6 +749,8 @@ export const GUIDE_ROUTES = new Set([
   '/guides/led-test-vs-lcd-test-which-applies-to-your-screen.html',
   // Cycle 233 P233.E - "OLED test vs LCD test: what changes on an OLED panel" Lane-D guide (device-test / lcd-test sub-cluster, companion to /lcd-test.html). Multi-cycle skeleton phase 1.
   '/guides/oled-test-vs-lcd-test-what-changes-on-oled.html',
+  // Cycle 20260517-7 P7.A - "LED test" Lane-D create_new_guide_page (device-test / lcd-test sub-cluster, companion to /lcd-test.html). GSC 28d "led test" 888 imp at pos 8.5 CTR 2% with no dedicated short-tail guide; existing /guides/led-test-vs-lcd-test-which-applies-to-your-screen.html answers the disambiguation question but the bare "led test" query lands on /lcd-test.html with no on-page framing. New URL routes the short query to the implementing tool with one paragraph of context. Append-only.
+  '/guides/led-test.html',
   // Cycle 84 P84.A - "How to compress a JPG for email attachment size limits" Lane-D guide (image-conversion / compression sub-cluster, companion to /compress-image.html).
   '/guides/how-to-compress-a-jpg-for-email-attachment-limits.html',
   // Cycle 85 P85.A - "Microphone test levels: what quiet, normal, and peak mean" Lane-D guide (device-test / microphone-test sub-cluster, companion to /microphone-test.html).
@@ -983,6 +985,11 @@ export const GUIDE_ROUTES = new Set([
   // GSC; opportunity_score 117.19). Companion to /zip-tools/zip-file.html.
   // Phase A complete single-cycle ship.
   '/guides/zip-file-compressor-online.html',
+  // Cycle 20260517-8 — "Online Zip File Compressor" Lane-D create_new_guide_page
+  // (zip cluster head-query sibling; 634 imp / 27 clicks / pos 5.93 / CTR 4.3%
+  // per 28d GSC; opportunity_score 102.3). Companion to /zip-tools/zip-file.html.
+  // Complete single-cycle ship per cycle 20260514-5 contract.
+  '/guides/online-zip-file-compressor.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -1206,6 +1213,8 @@ export const JSP_BY_ROUTE = {
   '/guides/led-test-vs-lcd-test-which-applies-to-your-screen.html': 'guide/led-test-vs-lcd-test-which-applies-to-your-screen.jsp',
   // Cycle 233 P233.E - "OLED test vs LCD test: what changes on an OLED panel" Lane-D guide (device-test / lcd-test sub-cluster, companion to /lcd-test.html). Multi-cycle skeleton phase 1.
   '/guides/oled-test-vs-lcd-test-what-changes-on-oled.html': 'guide/oled-test-vs-lcd-test-what-changes-on-oled.jsp',
+  // Cycle 20260517-7 P7.A - "LED test" Lane-D create_new_guide_page guide (device-test / lcd-test sub-cluster, companion to /lcd-test.html).
+  '/guides/led-test.html': 'guide/led-test.jsp',
   // Cycle1/20260514-5 P1.A - "LCD test online" Lane-D guide (device-test / lcd-test sub-cluster, companion to /lcd-test.html). Multi-cycle Phase A skeleton (route scaffolding only).
   '/guides/lcd-test-online.html': 'guide/lcd-test-online.jsp',
   // Cycle1/20260514-5 create_new_guide_page - "Split GIF into frames" Lane-D guide (image-editing / gif-maker sub-cluster, companion to /gif-maker.html). Multi-cycle Phase A skeleton (route scaffolding only).
@@ -1214,6 +1223,8 @@ export const JSP_BY_ROUTE = {
   '/guides/make-zip-file-online.html': 'guide/make-zip-file-online.jsp',
   // Cycle 20260515-13 create_new_guide_page - "Comprimir Zip Online" Lane-D guide (zip cluster, Spanish-keyword sibling of /guides/make-zip-file-online.html; companion to /zip-tools/zip-file.html). Complete single-cycle ship per cycle 20260514-5 contract.
   '/guides/comprimir-zip-online.html': 'guide/comprimir-zip-online.jsp',
+  // Cycle 20260517-8 create_new_guide_page - "Online Zip File Compressor" Lane-D guide (zip cluster head-query sibling, companion to /zip-tools/zip-file.html). Complete single-cycle ship per cycle 20260514-5 contract.
+  '/guides/online-zip-file-compressor.html': 'guide/online-zip-file-compressor.jsp',
   // Cycle 84 P84.A - "How to compress a JPG for email attachment size limits" Lane-D guide (image-conversion / compression sub-cluster, companion to /compress-image.html).
   '/guides/how-to-compress-a-jpg-for-email-attachment-limits.html': 'guide/how-to-compress-a-jpg-for-email-attachment-limits.jsp',
   // Cycle 85 P85.A - "Microphone test levels: what quiet, normal, and peak mean" Lane-D guide (device-test / microphone-test sub-cluster, companion to /microphone-test.html).
