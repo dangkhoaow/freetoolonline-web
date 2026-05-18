@@ -227,6 +227,14 @@ export const INFO_ROUTES = new Set([
   // action tool while the existing 8 /guides/lcd-* / /guides/dead-pixel-*
   // / /guides/screen-* pages keep their long-tail intents. Append-only.
   '/guides/test-lcd.html',
+  // Cycle 20260518-30 P30.E - "lcd checker" / "lcd check" / "monitor checker" /
+  // "screen checker" Lane-D create_new_guide_page. Sibling to /guides/test-lcd.html
+  // and /guides/led-test.html. Covers the "checker" / "check" wording family
+  // (verification framing) vs the "tester" / "test" wording family (active
+  // verb framing). Both routes point at the same in-browser tool /lcd-test.html.
+  // Append-only, kebab-case, does not shadow /lcd-test.html (smashed form
+  // "lcdchecker" differs from existing slugs).
+  '/guides/lcd-checker.html',
   // Phase 16 Cycle A P16.N2 - "how to compress a file" + variants
   // (~10K impr / 0.02% CTR / pos 10.5). Greenfield how-to guide.
   '/guides/how-to-compress-a-file-online.html',
@@ -747,6 +755,13 @@ export const INFO_ROUTES = new Set([
   // Kebab URL passes URL convention regex; smashed form "onlinezipfile" does
   // not shadow any existing primary route.
   '/guides/online-zip-file.html',
+  // Cycle 20260518-31 create_new_guide_page - "Create Zip File Online" Lane-D
+  // guide (zip cluster, GSC "create zip file online" 702 imp / 8 clicks /
+  // pos 10.08 / CTR 1.14% / opportunity_score 68.87). Companion to
+  // /zip-tools/zip-file.html (the in-browser archive creator). Kebab URL
+  // passes URL convention regex; smashed form "createzipfileonline" does not
+  // shadow any existing primary route.
+  '/guides/create-zip-file-online.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -838,6 +853,10 @@ export const GUIDE_ROUTES = new Set([
   // disambiguation aggregator (combined ~7.7K impr/28d at pos 5-8); routes
   // intent to /lcd-test.html action tool.
   '/guides/test-lcd.html',
+  // Cycle 20260518-30 P30.E - "lcd checker" / "lcd check" / "monitor checker"
+  // / "screen checker" Lane-D guide. Sibling to /guides/test-lcd.html for
+  // the verification-framing query family. Same destination tool.
+  '/guides/lcd-checker.html',
   // Phase 16 Cycle B P16.N11 / P16.N16.
   '/guides/how-to-convert-heic-to-jpg-step-by-step.html',
   '/guides/what-an-lcd-test-does-and-when-to-run-one.html',
@@ -1076,6 +1095,21 @@ export const GUIDE_ROUTES = new Set([
   // intent (zip-file as a noun, not as a verb). Paraphrases tool-zipfile/SKILL.md
   // M1-M7 (in-browser creator) and tool-ziptools/SKILL.md M1 (one-click routing).
   '/guides/online-zip-file.html',
+  // Cycle 20260518-31 create_new_guide_page - "Create Zip File Online" Lane-D
+  // guide (zip cluster, companion to /zip-tools/zip-file.html). GSC 702 imp /
+  // 8 clicks / pos 10.08 / CTR 1.14% / opportunity_score 68.87 - "create zip
+  // file online" intent (the verb-led companion to "online zip file"). Paraphrases
+  // tool-zipfile/SKILL.md implemented features (upload + server-side build +
+  // optional password + cross-platform output) and the existing in-browser
+  // creator copy in BODYHTMLzipfile / BODYWELCOMEzipfile.
+  '/guides/create-zip-file-online.html',
+  // Cycle 20260518-29 create_new_guide_page - "zip password unlocker" Lane-D
+  // guide (zip cluster, companion to /remove-zip-password.html). GSC 432 imp /
+  // 44 clicks / pos 5.29 / CTR 10.18% / opportunity_score 73.32. Honest framing:
+  // splits the search intent into "remove a known password" (real, points at
+  // /remove-zip-password.html) vs "crack an unknown password" (not solvable
+  // online; cites tool-removezippassword/SKILL.md N2 + N6 anti-claims).
+  '/guides/zip-password-unlocker.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -1111,6 +1145,12 @@ export const ALIAS_ROUTES = {
   '/pdf-merge-from-multiple-files.html': '/pdf-tools/join-pdf-from-multiple-files.html',
   '/mov-to-mp4.html': '/video-tools/video-converter.html',
   '/mov-to-mp3.html': '/video-tools/video-converter.html',
+  // Cycle 20260518-29 — new_tool_page_discovery proposal candidate "video-converter-mp4" failed
+  // the seo-tool-page-builder verb-detection guard ("slug ends with format token mp4, no I/O
+  // verb"). Aliasing the proposed URL into the existing canonical video-converter routes the
+  // synonym query traffic to a real working tool without authoring a near-clone that would
+  // cannibalize. Same pattern as /mov-to-mp4.html above + /video-converter.html below.
+  '/video-converter-mp4.html': '/video-tools/video-converter.html',
   '/zip-file-with-password.html': '/zip-tools/zip-file.html',
   '/unzip-file-with-password.html': '/zip-tools/unzip-file.html',
   '/heic-to-pdf.html': '/image-converter-tools/heic-to-jpg.html',
@@ -1332,6 +1372,8 @@ export const JSP_BY_ROUTE = {
   '/guides/folder-to-zip.html': 'guide/folder-to-zip.jsp',
   // Cycle 20260518-25 create_new_guide_page - "Online Zip File" Lane-D guide. Companion to /zip-tools/zip-file.html. Sourced from tool-zipfile/SKILL.md M1-M7 + tool-ziptools/SKILL.md M1.
   '/guides/online-zip-file.html': 'guide/online-zip-file.jsp',
+  // Cycle 20260518-31 create_new_guide_page - "Create Zip File Online" Lane-D guide. Companion to /zip-tools/zip-file.html. Sourced from tool-zipfile/SKILL.md implemented features + BODYHTMLzipfile reader-task copy.
+  '/guides/create-zip-file-online.html': 'guide/create-zip-file-online.jsp',
   // Cycle 84 P84.A - "How to compress a JPG for email attachment size limits" Lane-D guide (image-conversion / compression sub-cluster, companion to /compress-image.html).
   '/guides/how-to-compress-a-jpg-for-email-attachment-limits.html': 'guide/how-to-compress-a-jpg-for-email-attachment-limits.jsp',
   // Cycle 85 P85.A - "Microphone test levels: what quiet, normal, and peak mean" Lane-D guide (device-test / microphone-test sub-cluster, companion to /microphone-test.html).
@@ -1373,6 +1415,8 @@ export const JSP_BY_ROUTE = {
   '/guides/file-compressor.html': 'guide/file-compressor.jsp',
   // Cycle 122 P122.A - HEAD-query disambiguation aggregator for "test lcd" / "lcd tester" / "lcd test online".
   '/guides/test-lcd.html': 'guide/test-lcd.jsp',
+  // Cycle 20260518-30 P30.E - "lcd checker" / "lcd check" / "monitor checker" verification-framing sibling guide.
+  '/guides/lcd-checker.html': 'guide/lcd-checker.jsp',
   '/guides/how-to-compress-a-file-online.html': 'guide/how-to-compress-a-file-online.jsp',
   '/guides/how-to-reduce-zip-file-size-online.html': 'guide/how-to-reduce-zip-file-size-online.jsp',
   '/guides/how-to-reduce-zip-file-size.html': 'guide/how-to-reduce-zip-file-size.jsp',
@@ -1538,6 +1582,8 @@ export const JSP_BY_ROUTE = {
   '/video-tools/video-converter.html': 'convert/video-converter.jsp',
   '/image-converter-tools/extract-gif-to-image-frames.html': 'convert/extract-gif-to-image-frames.jsp',
   '/utility-tools/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html': 'convert/new-vietnamese-converter.jsp',
+  // Cycle 20260518-29 create_new_guide_page - zip-password-unlocker Lane-D guide.
+  '/guides/zip-password-unlocker.html': 'guide/zip-password-unlocker.jsp',
 };
 
 export function normalizeRoute(route) {
