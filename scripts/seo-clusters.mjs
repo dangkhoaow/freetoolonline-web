@@ -24,7 +24,7 @@ const SEO_CLUSTER_GROUPS = [
     cluster: 'image-conversion',
     hubRoute: '/image-converter-tools.html',
     hubLabel: 'Back to Image Converters',
-    routes: ['/heic-to-jpg.html', '/svg-to-png.html', '/png-to-svg.html', '/image-to-base64.html', '/base64-to-image.html', '/extract-gif-to-image-frames.html'],
+    routes: ['/heic-to-jpg.html', '/svg-to-png.html', '/png-to-svg.html', '/image-to-base64.html', '/base64-to-image.html', '/extract-gif-to-image-frames.html', '/hd-video-converter.html'],
   },
   {
     cluster: 'pdf',
@@ -36,7 +36,7 @@ const SEO_CLUSTER_GROUPS = [
     cluster: 'developer',
     hubRoute: '/developer-tools.html',
     hubLabel: 'Back to Developer Tools',
-    routes: ['/json-parser.html', '/css-minifier.html', '/css-unminifier.html', '/js-minifier.html', '/js-unminifier.html', '/text-diff.html', '/md5-converter.html', '/css-gradient-generator.html', '/text-html-editor.html'],
+    routes: ['/json-parser.html', '/css-minifier.html', '/css-unminifier.html', '/js-minifier.html', '/js-unminifier.html', '/text-diff.html', '/md5-converter.html', '/css-gradient-generator.html', '/text-html-editor.html', '/json-formatter.html'],
   },
   {
     cluster: 'video',
