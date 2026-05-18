@@ -368,10 +368,6 @@ a {
     background-color: transparent
 }
 
-.page-section a:not(.fa):not([style*="color"]) {
-    color: var(--link, #2563eb) !important;
-}
-
 abbr[title] {
     border-bottom: none;
     text-decoration: underline;
@@ -2427,10 +2423,6 @@ footer.page-footer .footer-inner * {
 
 header.navBarContainer:not(.w3-top) {
     background: #151d28;
-}
-
-#disableAds {
-    display: none !important;
 }
 
 @media(min-width: 768px) {
