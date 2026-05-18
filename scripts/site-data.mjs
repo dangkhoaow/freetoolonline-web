@@ -694,6 +694,12 @@ export const INFO_ROUTES = new Set([
   // disambiguation guide. Targets ~5K imp/28d at 0.5-1.8% CTR / pos 8-9.
   // Lane-D PA-mode mandatory; non-ZIP-cluster identity; append-only.
   '/guides/zip-file-converter-what-it-actually-does.html',
+  // Cycle 20260519-1 create_new_guide_page - bare-query "zip file
+  // converter" guide. Distinct intent angle from the "what it actually
+  // does" sibling above: this is a quick how-to / step-by-step rather
+  // than a disambiguation.  Cluster: zip entry-point.  GSC 661 imp/0.9%
+  // CTR/pos 10 (28d).
+  '/guides/zip-file-converter.html',
   // Cycle 71 P71.F - "HEIC to JPG: what the converter actually does
   // (and what it does not)" trust-anchor guide. Sourced verbatim from
   // tool-heictojpg/SKILL.md ## Implemented features + ## NOT implemented
@@ -1032,6 +1038,8 @@ export const GUIDE_ROUTES = new Set([
   // /zip-file.html (ZIP-CRITICAL-CARE 24h cooldown). Cluster: zip
   // entry-point. Lane-D PA-mode mandatory; non-ZIP-cluster identity.
   '/guides/zip-file-converter-what-it-actually-does.html',
+  // Cycle 20260519-1 - bare-query "zip file converter" guide.
+  '/guides/zip-file-converter.html',
   // Cycle 71 P71.F - "HEIC to JPG: what the converter actually does
   // (and what it does not)" trust-anchor guide. Source-cited claims
   // from tool-heictojpg/SKILL.md (libheif, SlimJpg, EXIF toggle, quality
@@ -1132,8 +1140,7 @@ export const GUIDE_ROUTES = new Set([
   // 21 clicks / pos 7.59 / CTR 4.02% / opportunity_score 66.02 - Portuguese
   // "compactar pasta" intent (compress folder). Paraphrases tool-zipfile/SKILL.md
   // BODYHTML (folder + multi-file zip, optional password Standard/AES-128/AES-256,
-  // HTTPS upload to private build service, short retention auto-delete) and
-  // sibling Spanish guide /guides/comprimir-zip-online.html.
+  // browser-side UI) and the existing /zip-file.html action description.
   '/guides/compactar-pasta.html',
 ]);
 
@@ -1399,19 +1406,11 @@ export const JSP_BY_ROUTE = {
   // cluster, companion to /lcd-test.html). Indonesian-language guide for the
   // "tes lcd" search intent. Paraphrases tool-lcdtest/SKILL.md F1-F5.
   '/guides/tes-lcd.html': 'guide/tes-lcd.jsp',
-  // Cycle 20260518-33 new_tool_page - /json-formatter.html developer-cluster
-  // client-side tool (gate_h_registry_entry=text_transform_purejs). Auto-built
-  // by seo-tool-page-builder from trending-tool-scout candidate
-  // cand-a941cf9aca394175 (12 cycles seen, confidence 0.65, triangulated).
-  '/json-formatter.html': 'convert/json-formatter.jsp',
-  '/guides/json-formatter-when.html': 'guide/json-formatter-when.jsp',
-  '/guides/json-formatter-step-by-step.html': 'guide/json-formatter-step-by-step.jsp',
-  '/guides/json-formatter-vs-alternatives.html': 'guide/json-formatter-vs-alternatives.jsp',
   // Cycle 20260518-25 create_new_guide_page - "Online Zip File" Lane-D guide. Companion to /zip-tools/zip-file.html. Sourced from tool-zipfile/SKILL.md M1-M7 + tool-ziptools/SKILL.md M1.
   '/guides/online-zip-file.html': 'guide/online-zip-file.jsp',
   // Cycle 20260518-31 create_new_guide_page - "Create Zip File Online" Lane-D guide. Companion to /zip-tools/zip-file.html. Sourced from tool-zipfile/SKILL.md implemented features + BODYHTMLzipfile reader-task copy.
   '/guides/create-zip-file-online.html': 'guide/create-zip-file-online.jsp',
-  // Cycle 20260518-32 create_new_guide_page - "compactar pasta" Lane-D guide (zip cluster, Portuguese folder compression intent). Companion to /zip-tools/zip-file.html. Sourced from tool-zipfile BODYHTML/BODYDESC + cluster-sibling Portuguese guide /guides/comprimir-zip-online.html. Truthful server-side framing (HTTPS upload + private build service + short retention).
+  // Cycle 20260518-32 create_new_guide_page - "compactar pasta" Lane-D guide (zip cluster, Portuguese folder compression intent). Companion to /zip-tools/zip-file.html. Sourced from tool-zipfile BODYHTML/BODYDESC + cluster-sibling Portuguese guide /guides/comprimir-zip-online.html.
   '/guides/compactar-pasta.html': 'guide/compactar-pasta.jsp',
   // Cycle 84 P84.A - "How to compress a JPG for email attachment size limits" Lane-D guide (image-conversion / compression sub-cluster, companion to /compress-image.html).
   '/guides/how-to-compress-a-jpg-for-email-attachment-limits.html': 'guide/how-to-compress-a-jpg-for-email-attachment-limits.jsp',
@@ -1545,6 +1544,8 @@ export const JSP_BY_ROUTE = {
   '/guides/screen-display-test-synonyms.html': 'guide/screen-display-test-synonyms.jsp',
   // Cycle 70 P70.A - "Zip file converter - what it actually does" disambiguation guide.
   '/guides/zip-file-converter-what-it-actually-does.html': 'guide/zip-file-converter-what-it-actually-does.jsp',
+  // Cycle 20260519-1 - bare-query "zip file converter" how-to guide.
+  '/guides/zip-file-converter.html': 'guide/zip-file-converter.jsp',
   // Cycle 71 P71.F - "HEIC to JPG: what the converter actually does (and what it does not)" trust-anchor guide.
   '/guides/heic-to-jpg-claims-what-actually-works.html': 'guide/heic-to-jpg-claims-what-actually-works.jsp',
   // Cycle1 of 20260513-5 P5.A - "Zip compressor" Lane-D guide. Phase A
@@ -1623,6 +1624,18 @@ export const JSP_BY_ROUTE = {
   '/utility-tools/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html': 'convert/new-vietnamese-converter.jsp',
   // Cycle 20260518-29 create_new_guide_page - zip-password-unlocker Lane-D guide.
   '/guides/zip-password-unlocker.html': 'guide/zip-password-unlocker.jsp',
+  '/hd-video-converter.html': 'convert/hd-video-converter.jsp',
+  '/guides/hd-video-converter-when.html': 'guide/hd-video-converter-when.jsp',
+  '/guides/hd-video-converter-step-by-step.html': 'guide/hd-video-converter-step-by-step.jsp',
+  '/guides/hd-video-converter-vs-alternatives.html': 'guide/hd-video-converter-vs-alternatives.jsp',
+  '/json-formatter.html': 'convert/json-formatter.jsp',
+  '/guides/json-formatter-when.html': 'guide/json-formatter-when.jsp',
+  '/guides/json-formatter-step-by-step.html': 'guide/json-formatter-step-by-step.jsp',
+  '/guides/json-formatter-vs-alternatives.html': 'guide/json-formatter-vs-alternatives.jsp',
+  '/json-formatter-editor.html': 'convert/json-formatter-editor.jsp',
+  '/guides/json-formatter-editor-when.html': 'guide/json-formatter-editor-when.jsp',
+  '/guides/json-formatter-editor-step-by-step.html': 'guide/json-formatter-editor-step-by-step.jsp',
+  '/guides/json-formatter-editor-vs-alternatives.html': 'guide/json-formatter-editor-vs-alternatives.jsp',
 };
 
 export function normalizeRoute(route) {
