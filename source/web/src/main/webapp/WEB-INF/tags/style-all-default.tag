@@ -1108,7 +1108,7 @@ a {
 
 @media (min-width:993px) {
     .w3-modal-content {
-        width: 900px
+        width: 60vw
     }
 
     .w3-hide-large {
@@ -2346,7 +2346,6 @@ footer.page-footer .footer-inner *{
     overflow: hidden;
     position: relative;
     margin: auto;
-    margin-bottom: 10px;
     -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.2);
     box-shadow: 0 2px 6px rgba(0,0,0,0.2);
