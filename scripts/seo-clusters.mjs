@@ -24,7 +24,11 @@ const SEO_CLUSTER_GROUPS = [
     cluster: 'image-conversion',
     hubRoute: '/image-converter-tools.html',
     hubLabel: 'Back to Image Converters',
-    // Cycle 20260520-8 cleanup: /hd-video-converter.html moved to video cluster (mirror from staging).
+    // Cycle 20260520-8 cleanup: /hd-video-converter.html moved to video cluster (it's a VIDEO
+    // converter with ffmpeg audio-bitrate options, not an image converter). It was mis-clustered
+    // here so the axis_F scanner flagged its template paragraph as a 1.0 jaccard duplicate of
+    // /image-format-converter.html's same template paragraph. Re-tagged in related-tools.js
+    // commit 765e1d8 + moved here.
     routes: ['/heic-to-jpg.html', '/svg-to-png.html', '/png-to-svg.html', '/image-to-base64.html', '/base64-to-image.html', '/extract-gif-to-image-frames.html', '/image-format-converter.html'],
   },
   {
@@ -37,9 +41,9 @@ const SEO_CLUSTER_GROUPS = [
     cluster: 'developer',
     hubRoute: '/developer-tools.html',
     hubLabel: 'Back to Developer Tools',
-    // Cycle 20260520-8 P.B cleanup: pre-mirrored from staging. 5 dupe json-formatter variants +
-    // chatgpt-json-tree-viewer removed (301-aliased to /json-formatter.html in staging commit
-    // 8f159ad). Fix the false-positive axis_F paragraph_jaccard 1.0 finding on developer cluster.
+    // Cycle 20260520-8 P.B cleanup: 5 dupe json-formatter variants + chatgpt-json-tree-viewer
+    // removed. They were 301-aliased to /json-formatter.html in commit 8f159ad. Their orphan
+    // presence here made cluster-narrative axis_F detect false-positive paragraph_jaccard 1.0.
     routes: ['/json-parser.html', '/css-minifier.html', '/css-unminifier.html', '/js-minifier.html', '/js-unminifier.html', '/text-diff.html', '/md5-converter.html', '/css-gradient-generator.html', '/text-html-editor.html', '/json-formatter.html'],
   },
   {
