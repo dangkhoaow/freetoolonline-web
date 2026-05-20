@@ -795,6 +795,10 @@ export const INFO_ROUTES = new Set([
   // passes URL convention regex; smashed form "compactarpasta" does not
   // shadow any existing primary route.
   '/guides/compactar-pasta.html',
+  // Cycle 20260520-11 new_guide_page_proposal (developer cluster):
+  // implementing tool /js-unminifier.html. GSC 545 imp / 3 clicks /
+  // pos 10.12 / CTR 0.55% / opportunity_score 53.55.
+  '/guides/unminify-js.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -942,6 +946,8 @@ export const GUIDE_ROUTES = new Set([
   '/guides/mp4-vs-mov-vs-mkv-which-container-when.html',
   '/guides/free-online-tools-that-work-without-uploading-files.html',
   '/guides/qr-code-generator-best-practices.html',
+  // Cycle 20260520-10 - "gif into frames" head-query guide; companion to /extract-gif-to-image-frames.html
+  '/guides/gif-into-frames.html',
   // Workstream B sample batch - 2026-04-30
   '/guides/how-to-compress-a-folder.html',
   '/guides/lcd-test-what-it-checks.html',
@@ -1176,6 +1182,9 @@ export const GUIDE_ROUTES = new Set([
   // BODYHTML (folder + multi-file zip, optional password Standard/AES-128/AES-256,
   // browser-side UI) and the existing /zip-file.html action description.
   '/guides/compactar-pasta.html',
+  // Cycle 20260520-11 new_guide_page_proposal (developer cluster):
+  // implementing tool /js-unminifier.html.
+  '/guides/unminify-js.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -1218,13 +1227,24 @@ export const ALIAS_ROUTES = {
   // See dedupe-against-existing.mjs (cycle 20260520) — escalated
   // substring + token-prefix overlap from SOFT to CRITICAL collision
   // so this pattern cannot recur from the trending-scout pipeline.
-  '/json-formatter-check.html':     '/json-formatter.html',
-  '/json-formatter-editor.html':    '/json-formatter.html',
-  '/json-formatter-viewer.html':    '/json-formatter.html',
-  '/json-formatter-compare.html':   '/json-formatter.html',
-  '/json-formatter-extension.html': '/json-formatter.html',
-  '/json-formatter-validator.html': '/json-formatter.html',
-  '/chatgpt-json-tree-viewer.html': '/json-formatter.html',
+  // Cycle 20260520-followup cluster-URL convention: canonical now lives at
+  // /developer-tools/json-formatter.html. Root /json-formatter.html + the
+  // 6 dupe SEO-synonyms (-editor, -viewer, -compare, -extension, -validator,
+  // -check, chatgpt-json-tree-viewer) all 301-alias DIRECTLY to the cluster
+  // canonical (no intermediate hop through root). Preserves inbound link
+  // equity from cycles 20260518-23 .. 20260519-15.
+  '/json-formatter.html':           '/developer-tools/json-formatter.html',
+  '/json-formatter-check.html':     '/developer-tools/json-formatter.html',
+  '/json-formatter-editor.html':    '/developer-tools/json-formatter.html',
+  '/json-formatter-viewer.html':    '/developer-tools/json-formatter.html',
+  '/json-formatter-compare.html':   '/developer-tools/json-formatter.html',
+  '/json-formatter-extension.html': '/developer-tools/json-formatter.html',
+  '/json-formatter-validator.html': '/developer-tools/json-formatter.html',
+  '/chatgpt-json-tree-viewer.html': '/developer-tools/json-formatter.html',
+  // Cycle 20260520-followup: cluster-URL convention aliases for 2 other tools
+  // shipped at root by the pre-fix builder.
+  '/hd-video-converter.html':       '/video-tools/hd-video-converter.html',
+  '/image-format-converter.html':   '/image-converter-tools/image-format-converter.html',
   '/mov-to-mp4.html': '/video-tools/video-converter.html',
   '/mov-to-mp3.html': '/video-tools/video-converter.html',
   // Cycle 20260518-29 — new_tool_page_discovery proposal candidate "video-converter-mp4" failed
@@ -1472,6 +1492,11 @@ export const JSP_BY_ROUTE = {
   '/guides/create-zip-file-online.html': 'guide/create-zip-file-online.jsp',
   // Cycle 20260518-32 create_new_guide_page - "compactar pasta" Lane-D guide (zip cluster, Portuguese folder compression intent). Companion to /zip-tools/zip-file.html. Sourced from tool-zipfile BODYHTML/BODYDESC + cluster-sibling Portuguese guide /guides/comprimir-zip-online.html.
   '/guides/compactar-pasta.html': 'guide/compactar-pasta.jsp',
+  // Cycle 20260520-11 new_guide_page_proposal (developer cluster):
+  // companion to /js-unminifier.html.
+  '/guides/unminify-js.html': 'guide/unminify-js.jsp',
+  // Cycle 20260520-10 create_new_guide_page - "GIF into frames" Lane-D guide (image-editing cluster, companion to /extract-gif-to-image-frames.html). Sourced from tool-extractgiftoimageframes BODYTITLE/BODYDESC + Implemented features. Single-cycle ship per cycle 20260514-5 contract. Cannibalization chain from -6 expired (4-cycle window closed).
+  '/guides/gif-into-frames.html': 'guide/gif-into-frames.jsp',
   // Cycle 84 P84.A - "How to compress a JPG for email attachment size limits" Lane-D guide (image-conversion / compression sub-cluster, companion to /compress-image.html).
   '/guides/how-to-compress-a-jpg-for-email-attachment-limits.html': 'guide/how-to-compress-a-jpg-for-email-attachment-limits.jsp',
   // Cycle 85 P85.A - "Microphone test levels: what quiet, normal, and peak mean" Lane-D guide (device-test / microphone-test sub-cluster, companion to /microphone-test.html).
@@ -1690,7 +1715,13 @@ export const JSP_BY_ROUTE = {
   '/utility-tools/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html': 'convert/new-vietnamese-converter.jsp',
   // Cycle 20260518-29 create_new_guide_page - zip-password-unlocker Lane-D guide.
   '/guides/zip-password-unlocker.html': 'guide/zip-password-unlocker.jsp',
-  '/hd-video-converter.html': 'convert/hd-video-converter.jsp',
+  // Cycle 20260520-followup: canonical moved from /hd-video-converter.html (root)
+  // to /video-tools/hd-video-converter.html per the site cluster-URL convention.
+  // Existing canonical pattern: /<cluster>-tools/<slug>.html (canonical) +
+  // /<slug>.html (alias). Root URL now lives in ALIAS_ROUTES (see top of file).
+  // Pre-cycle-20260520 builder bug: ctx.url hardcoded as /{slug}.html ignoring
+  // cluster; fixed in build-tool-page.mjs::deriveUrlsForCluster().
+  '/video-tools/hd-video-converter.html': 'convert/hd-video-converter.jsp',
   '/guides/hd-video-converter-when.html': 'guide/hd-video-converter-when.jsp',
   '/guides/hd-video-converter-step-by-step.html': 'guide/hd-video-converter-step-by-step.jsp',
   '/guides/hd-video-converter-vs-alternatives.html': 'guide/hd-video-converter-vs-alternatives.jsp',
@@ -1704,11 +1735,17 @@ export const JSP_BY_ROUTE = {
   // {when,step-by-step,vs-alternatives}.html support the canonical tool and
   // stay in place. See dedupe-against-existing.mjs (cycle 20260520) — that
   // dedupe escalation prevents future variants from re-emerging.
-  '/json-formatter.html': 'convert/json-formatter.jsp',
+  // Cycle 20260520-followup: canonical moved to /developer-tools/json-formatter.html
+  // per cluster-URL convention. Root /json-formatter.html aliased in ALIAS_ROUTES.
+  // The 7 dupe aliases (json-formatter-{editor,viewer,compare,extension,validator},
+  // -check, chatgpt-json-tree-viewer) also re-pointed at the new canonical.
+  '/developer-tools/json-formatter.html': 'convert/json-formatter.jsp',
   '/guides/json-formatter-when.html': 'guide/json-formatter-when.jsp',
   '/guides/json-formatter-step-by-step.html': 'guide/json-formatter-step-by-step.jsp',
   '/guides/json-formatter-vs-alternatives.html': 'guide/json-formatter-vs-alternatives.jsp',
-  '/image-format-converter.html': 'convert/image-format-converter.jsp',
+  // Cycle 20260520-followup: canonical moved to /image-converter-tools/image-format-converter.html
+  // (image-conversion cluster). Root /image-format-converter.html aliased in ALIAS_ROUTES.
+  '/image-converter-tools/image-format-converter.html': 'convert/image-format-converter.jsp',
   '/guides/image-format-converter-when.html': 'guide/image-format-converter-when.jsp',
   '/guides/image-format-converter-step-by-step.html': 'guide/image-format-converter-step-by-step.jsp',
   '/guides/image-format-converter-vs-alternatives.html': 'guide/image-format-converter-vs-alternatives.jsp',
