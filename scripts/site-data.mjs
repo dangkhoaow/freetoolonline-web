@@ -1187,6 +1187,18 @@ export const GUIDE_ROUTES = new Set([
   // Cycle 20260520-11 new_guide_page_proposal (developer cluster):
   // implementing tool /js-unminifier.html.
   '/guides/unminify-js.html',
+  // Cycle 20260520-13 new_guide_page_proposal (device-test cluster, companion
+  // to /lcd-test.html). "lcd screen test" head-tail query. Paraphrases
+  // tool-lcdtest/SKILL.md F1-F5. Kebab slug /guides/lcd-screen-test.html
+  // does not shadow /lcd-test.html (smashed form "lcdscreentest" is unique).
+  '/guides/lcd-screen-test.html',
+  // Cycle 20260520-15 new_guide_page_proposal (zip cluster, disambiguation
+  // guide for "unlock zip file online" query — routes between
+  // /remove-zip-password.html (password-protected ZIPs) and
+  // /unzip-file.html (plain ZIPs). GSC: 421 impressions / 40 clicks / pos 7.4.
+  // Kebab slug /guides/unlock-zip-file-online.html does not shadow any
+  // existing route (smashed form "unlockzipfileonline" is unique).
+  '/guides/unlock-zip-file-online.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -1497,6 +1509,25 @@ export const JSP_BY_ROUTE = {
   // Cycle 20260520-11 new_guide_page_proposal (developer cluster):
   // companion to /js-unminifier.html.
   '/guides/unminify-js.html': 'guide/unminify-js.jsp',
+  // Cycle 20260520-13 new_guide_page_proposal (device-test cluster, companion
+  // to /lcd-test.html). "lcd screen test" query - GSC 382 imp / 6 clicks /
+  // pos 7.11 / CTR 1.57% / opportunity_score 52.9. Paraphrases
+  // tool-lcdtest/SKILL.md F1-F5 (six-color full-viewport fill + reset hook +
+  // viewport metrics + no-upload disclosure). Kebab slug
+  // /guides/lcd-screen-test.html does not shadow any existing primary tool
+  // route (urlToSlug() smashes to "lcdscreentest" which is not in JSP_BY_ROUTE).
+  '/guides/lcd-screen-test.html': 'guide/lcd-screen-test.jsp',
+  // Cycle 20260520-15 new_guide_page_proposal (zip cluster). "unlock zip file
+  // online" query - GSC 421 imp / 40 clicks / pos 7.4 / CTR 9.5% /
+  // opportunity_score 51.51. Disambiguation guide routing between
+  // /remove-zip-password.html (password-protected ZIPs) and /unzip-file.html
+  // (plain ZIPs). Kebab slug /guides/unlock-zip-file-online.html does not
+  // shadow any existing primary route (smashed form "unlockzipfileonline" is
+  // unique against JSP_BY_ROUTE). Hand-verified at authoring time —
+  // tool-guidesunlockzipfileonline/SKILL.md cites BODYHTML claims back to
+  // /unzip-file.html and /remove-zip-password.html behaviour visible on
+  // those pages at cycle authoring SHA.
+  '/guides/unlock-zip-file-online.html': 'guide/unlock-zip-file-online.jsp',
   // Cycle 20260520-10 create_new_guide_page - "GIF into frames" Lane-D guide (image-editing cluster, companion to /extract-gif-to-image-frames.html). Sourced from tool-extractgiftoimageframes BODYTITLE/BODYDESC + Implemented features. Single-cycle ship per cycle 20260514-5 contract. Cannibalization chain from -6 expired (4-cycle window closed).
   '/guides/gif-into-frames.html': 'guide/gif-into-frames.jsp',
   // Cycle 84 P84.A - "How to compress a JPG for email attachment size limits" Lane-D guide (image-conversion / compression sub-cluster, companion to /compress-image.html).
