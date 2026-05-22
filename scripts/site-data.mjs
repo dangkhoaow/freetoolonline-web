@@ -150,6 +150,14 @@ export const INFO_ROUTES = new Set([
   // "allow camera in browser" / "camera permission denied" demand; Bing query_stats reinforces.
   // Append-only (new URL); non-cannibalizing per seo-agency-check anti-cannibalization gate.
   '/guides/camera-test-permission-blocked-how-to-allow-it.html',
+  // Cycle 46 (20260522-7) P46.H - "Camera Check" synonym-disambiguation guide.
+  // GSC "camera check" 451 imp / 5 clicks / pos 11.85 28d (op_score 37.63). Routes the
+  // reader to /camera-test.html (the implementing tool) while explaining the synonym
+  // mapping ("camera check" = "camera test") and the three end-states (allowed /
+  // blocked / ignored). Append-only; non-cannibalising vs camera-test-permission-blocked
+  // (covers synonym intent, not permission diagnosis) and vs camera-test-shows-black-
+  // screen-four-fixes (covers terminology, not hardware failure).
+  '/guides/camera-check.html',
   // Cycle 87 P87.A - "Microphone test permission blocked: how to allow mic access in your browser" Lane-D guide
   // (device-test / microphone-test sub-cluster, companion to /microphone-test.html, symmetric peer to cycle-86's
   // /guides/camera-test-permission-blocked-how-to-allow-it.html). Reader-task gap: existing microphone-test guides
@@ -1035,6 +1043,8 @@ export const GUIDE_ROUTES = new Set([
   '/guides/md5-to-text-why-you-cannot-convert-back.html',
   // Cycle 46 P46.B - "Before a video call - which tools to run (screen / camera / microphone)" pre-call checklist guide.
   '/guides/before-a-video-call-which-tools-to-run.html',
+  // Cycle 46 (20260522-7) P46.H - Camera Check synonym-disambiguation guide.
+  '/guides/camera-check.html',
   // Cycle 48 P48.A - laptop-specific screen-test 5-minute checklist guide (Bing under-served laptop reader-task gap).
   '/guides/screen-test-for-laptop-5-minute-checklist.html',
   // Cycle 49 P49.A - "FFmpeg Online vs Video Converter - which tool to open" routing guide (GSC "ffmpeg online" op_score 270.97 row).
@@ -1704,6 +1714,8 @@ export const JSP_BY_ROUTE = {
   '/guides/screen-test-vs-camera-test-pick-the-right-tool.html': 'guide/screen-test-vs-camera-test-pick-the-right-tool.jsp',
   '/guides/md5-to-text-why-you-cannot-convert-back.html': 'guide/md5-to-text-why-you-cannot-convert-back.jsp',
   '/guides/before-a-video-call-which-tools-to-run.html': 'guide/before-a-video-call-which-tools-to-run.jsp',
+  // Cycle 46 (20260522-7) P46.H — camera-check synonym-disambiguation guide.
+  '/guides/camera-check.html': 'guide/camera-check.jsp',
   '/guides/screen-test-for-laptop-5-minute-checklist.html': 'guide/screen-test-for-laptop-5-minute-checklist.jsp',
   '/guides/ffmpeg-online-vs-video-converter-which-to-pick.html': 'guide/ffmpeg-online-vs-video-converter-which-to-pick.jsp',
   '/guides/imagemagick-online-vs-task-specific-tools-which-to-pick.html': 'guide/imagemagick-online-vs-task-specific-tools-which-to-pick.jsp',
