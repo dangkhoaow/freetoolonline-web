@@ -5,15 +5,7 @@
 <p class="w3-small w3-text-grey" style="margin:0 0 4px 0;">Also called a <b>screen test</b>, <b>display test</b>, <b>panel test</b>, or <b>monitor test</b> - the same full-screen color cycle covers all four names and works on LCD, OLED, and LED panels.</p>
 <p>Wondering if your screen has dead pixels or other display issues? Use our free online dead pixel checker to quickly identify faulty pixels on LCD, OLED, or LED screens. With full-screen color testing, you can spot dead, stuck, or discolored pixels and verify your screen's resolution without any downloads. This screen/display test runs a full-screen color cycle so the pixel pattern is easy to spot.</p>
 
-    <div class="w3-panel w3-pale-green w3-leftbar w3-border-green" style="margin-top: 10px;">
-        <p><b>LCD test (dead pixel test)</b> shows solid colors in full screen to help spot dead/stuck pixels and color issues.</p>
-        <ol style="margin-top: 6px; margin-bottom: 6px;">
-            <li>Enable <b>full screen</b>, then click a color (red/green/blue/black/white/yellow).</li>
-            <li>Look for dots that don't change color or uneven brightness.</li>
-            <li>Use <b>Reset</b> to exit the test.</li>
-        </ol>
-        <p style="margin-bottom: 0;"><b>Tip:</b> For the most accurate results, increase brightness and temporarily disable Night Shift / blue-light filters.</p>
-    </div>
+<p><b>What the three resolution readouts mean.</b> Under the color tiles the page lists three live numbers: your viewport, your screen resolution, and your native screen resolution (the resolution multiplied by <code>window.devicePixelRatio</code>). Confirm the native number matches your laptop or monitor spec sheet before flagging a suspect dot - on a hi-DPI panel a single CSS pixel hides several physical sub-pixels behind it, and a stuck sub-pixel can hide between them.</p>
 
 <br/><h2 class="text-uppercase"><b>Key features include:</b></h2>
 <ul>
@@ -46,7 +38,13 @@
   <h3>Screen test on a hi-DPI or retina laptop</h3>
   <p>On a retina or hi-DPI laptop panel a single dot the eye reads as "one pixel" is usually four or six physical sub-pixels behind a `devicePixelRatio` of 2 or 3, so a stuck pixel can hide between the CSS pixels the browser paints. The on-page readout names the live viewport size, the screen resolution the operating system reports, and the native screen resolution (the resolution multiplied by `window.devicePixelRatio`) - confirm the third number matches the laptop's spec sheet before declaring a pixel dead, otherwise the suspect dot may just be a sub-pixel anti-aliasing artifact on a scaled display.</p>
 </section>
-<p><b>Want a deliberate sweep order rather than random clicks?</b> The six color tiles map to different defect classes - run them in a sensible order so each tile earns its place in the test. Red and green make stuck pixels stand out against a uniform field (a stuck pixel emits one of the three sub-pixel primaries). Black surfaces backlight bleed and edge glow on LCD panels; on OLED the same tile reads as the brightest dark-uniformity check. White shows dust, hot pixels, and uniformity dips across the panel. Blue and yellow read color tint and any panel-shift the bezel might be applying. Press Reset (or Escape if true fullscreen is on) between tiles to return to the picker so the next color is a deliberate choice; the page does not record anything between presses.</p>
+<p><b>Free, in your browser, with nothing uploaded.</b> The LCD dead-pixel test is built around a single decision: render a perfectly uniform color across the entire viewport so the reader can spot defects by eye, without installing software or creating an account. No tile click leaves the browser, no still is captured, and the page does not record anything between presses. Closing the tab is the only cleanup the test needs.</p>
+
+<p><b>Need the full device-check index?</b> Go back to the <a href="/device-test-tools.html">Device Test Tools hub</a> - the central page lists this LCD test, plus the camera test, keyboard test, and microphone test in the order that catches the most pre-meeting faults first. The hub is the place to land when the screen check passes but another layer (audio, lens, key registration) may still be at fault.</p>
+
+<p><b>When to uncheck the "Test in full screen mode" box.</b> The box is checked by default because a true fullscreen paint hides the browser chrome and lifts the test color edge-to-edge, which makes a stuck sub-pixel easier to catch at arm's length. Uncheck it in three situations: when you want the color tile and a second reference window (a spec sheet, a photo of the suspect dot) visible side-by-side without alt-tabbing; when you are on a kiosk or work laptop where the Fullscreen API is policy-blocked and the request silently fails; or when you want to repeat the same sweep quickly without pressing Escape between tiles. With the box unchecked, each tile click paints the page background instead of the whole display, and Reset returns you to the picker with one click.</p>
+
+<p>Read the guide: <a href="/guides/lcd-screen-test.html">LCD Screen Test</a></p>
 
 <br/>
 <p class="byline">Reviewed by FreetoolOnline editorial team</p>

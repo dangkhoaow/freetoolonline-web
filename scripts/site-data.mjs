@@ -52,6 +52,15 @@ export const INFO_ROUTES = new Set([
   // Forward-links to /zip-file.html, /compress-image.html. Does NOT modify any indexed ZIP-cluster page (ZIP-CRITICAL-CARE not gated).
   // Non-cannibalizing vs how-to-make-a-zip-file-smaller (cycle ?) and how-to-compress-zip-file-to-smaller-size; covers the "specific target cap (2/25/100)" sub-intent.
   '/guides/how-to-compress-a-zip-file-to-a-specific-size.html',
+  // Cycle 20260519-10 create_new_guide_page - "how to compress a zip file" bare-query step-by-step guide.
+  // GSC evidence (28d): "how to compress a zip file" 557 imp / 8 clicks / pos 8.8 / CTR 1.43% / opportunity_score 62.38.
+  // Distinct intent from the "to a specific size" / "to smaller size" / "to 100kb" siblings: this captures the bare-query
+  // reader who just wants the 3-step recipe. Implementing tool: /zip-file.html. Append-only (new URL).
+  '/guides/how-to-compress-a-zip-file.html',
+  // Cycle 20260519-11 create_new_guide_page - "zip folder online free" bare-query step-by-step guide.
+  // GSC evidence (28d): "zip folder online free" 488 imp / 16 clicks / pos 7.81 / CTR 3.28% / opportunity_score 60.41.
+  // Implementing tool: /zip-file.html. Cluster: zip. Append-only (new URL).
+  '/guides/zip-folder-online-free.html',
   // Cycle 78 P78.A - "QR code error correction and scan failures: why your QR will not scan" Lane-D append-only guide.
   // Companion to /qr-code-generator.html (one of the 4 R7_thin_content fixes in P78.B). Reader-task gap: no QR-related guide existed
   // pre-cycle-78. Diagnoses the four common scan-failure causes (payload size, error-correction level, contrast, print scale) so a
@@ -141,6 +150,14 @@ export const INFO_ROUTES = new Set([
   // "allow camera in browser" / "camera permission denied" demand; Bing query_stats reinforces.
   // Append-only (new URL); non-cannibalizing per seo-agency-check anti-cannibalization gate.
   '/guides/camera-test-permission-blocked-how-to-allow-it.html',
+  // Cycle 46 (20260522-7) P46.H - "Camera Check" synonym-disambiguation guide.
+  // GSC "camera check" 451 imp / 5 clicks / pos 11.85 28d (op_score 37.63). Routes the
+  // reader to /camera-test.html (the implementing tool) while explaining the synonym
+  // mapping ("camera check" = "camera test") and the three end-states (allowed /
+  // blocked / ignored). Append-only; non-cannibalising vs camera-test-permission-blocked
+  // (covers synonym intent, not permission diagnosis) and vs camera-test-shows-black-
+  // screen-four-fixes (covers terminology, not hardware failure).
+  '/guides/camera-check.html',
   // Cycle 87 P87.A - "Microphone test permission blocked: how to allow mic access in your browser" Lane-D guide
   // (device-test / microphone-test sub-cluster, companion to /microphone-test.html, symmetric peer to cycle-86's
   // /guides/camera-test-permission-blocked-how-to-allow-it.html). Reader-task gap: existing microphone-test guides
@@ -246,6 +263,13 @@ export const INFO_ROUTES = new Set([
   // this bare-form covers users who omit it). 723 imp / 5.39 pos /
   // 7.5% CTR per GSC 28d.
   '/guides/how-to-reduce-zip-file-size.html',
+  // Cycle 20260520-9 create_new_guide_page - exact-match "reduce zip
+  // file size online" landing (GSC 397 imp / 54 clicks / pos 5.01 /
+  // CTR 13.6% / opportunity_score 68.46). Implementing tool /zip-file.html.
+  // Append-only; non-cannibalizing vs how-to-reduce-zip-file-size-online
+  // (this guide is the bare-noun phrase, the existing one is the how-to
+  // framing for the same intent family).
+  '/guides/reduce-zip-file-size-online.html',
   // Phase 16 Cycle B P16.N11 - "convert heic to jpg" head query
   // (5,500+ impr / <2% CTR / pos 11-24). Pure step-by-step how-to;
   // pairs with existing heic-vs-jpg-vs-webp (which covers the WHEN).
@@ -264,8 +288,16 @@ export const INFO_ROUTES = new Set([
   // Cycle 20260517-9 create_new_guide_page - exact-match "compress zip file to smaller size" landing.
   '/guides/compress-zip-file-to-smaller-size.html',
   '/guides/compress-zip-file-to-100kb.html',
+  // Cycle 20260521-12 P29.A create_new_guide_page - "compress zip file to 2mb" enterprise-SMTP-cap-specific landing. Operator-approved via card cycle29-create_new_guide_page-compresszipfileto2mb-cannibalisation-1779338089590 (option a). 2 MB is the historical Exchange / SMTP-relay / legacy-webmail attachment cap; distinct angle from the 100kb sibling. Implementing tool /zip-file.html.
+  '/guides/compress-zip-file-to-2mb.html',
   // Cycle 20260517-10 create_new_guide_page - exact-match "zip size reducer" landing (GSC 605 imp / 56 clicks / pos 5.67 / CTR 9.26%; opportunity_score 96.84).
   '/guides/zip-size-reducer.html',
+  // Cycle 20260519-12 create_new_guide_page - exact-match "zip file size compressor" landing (GSC 354 imp / 44 clicks / pos 5.43 / CTR 12.43%; opportunity_score 57.07). Implementing tool /zip-file.html. Append-only; non-cannibalizing vs /guides/how-to-make-a-zip-file-smaller.html, /guides/zip-size-reducer.html, /guides/compress-zip-file-to-smaller-size.html (each targets a distinct head-tail intent).
+  '/guides/zip-file-size-compressor.html',
+  // Cycle 20260519-15 create_new_guide_page — "resize zip file" routing/disambiguation Lane-D guide (GSC 406 imp / 19 clicks / pos 6.83 / CTR 4.68%; opportunity_score 56.6). Distinguishing role: addresses the three-way wording ambiguity (shrink vs split vs shrink-photo-inputs-first), routes to the existing shrink / split / image-resize guides — not a 10th compress-zip duplicate.
+  '/guides/resize-zip-file.html',
+  // Cycle 20260520-16 create_new_guide_page — Indonesian-language guide "kompres file zip" (GSC 338 imp / 13 clicks / pos 6.36 / CTR 3.85%; opportunity_score 51.12). Implementing tool /zip-file.html. Companion sibling to /guides/comprimir-zip-online.html (Spanish) and /guides/compactar-pasta.html (Portuguese).
+  '/guides/kompres-file-zip.html',
   '/guides/online-zip-vs-7z-vs-rar-which-to-pick.html',
   '/guides/how-to-zip-multiple-files-into-one.html',
   '/guides/how-to-zip-folder-online-step-by-step.html',
@@ -286,6 +318,8 @@ export const INFO_ROUTES = new Set([
   // /guides/why-md5-cannot-be-decrypted.html (cryptographic walkthrough) and /guides/md5-decode.html (broader
   // wording routing). Outbound link to /md5-converter.html.
   '/guides/md5-decrypt-online.html',
+  // Cycle 20260520-17 — "md5 hash decrypt" dictionary-attack-feasibility guide.
+  '/guides/md5-hash-decrypt.html',
   '/guides/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html',
   '/guides/json-vs-yaml-vs-toml-config-formats-explained.html',
   '/guides/css-minifier-vs-uglifier-vs-tree-shaking.html',
@@ -694,6 +728,12 @@ export const INFO_ROUTES = new Set([
   // disambiguation guide. Targets ~5K imp/28d at 0.5-1.8% CTR / pos 8-9.
   // Lane-D PA-mode mandatory; non-ZIP-cluster identity; append-only.
   '/guides/zip-file-converter-what-it-actually-does.html',
+  // Cycle 20260519-1 create_new_guide_page - bare-query "zip file
+  // converter" guide. Distinct intent angle from the "what it actually
+  // does" sibling above: this is a quick how-to / step-by-step rather
+  // than a disambiguation.  Cluster: zip entry-point.  GSC 661 imp/0.9%
+  // CTR/pos 10 (28d).
+  '/guides/zip-file-converter.html',
   // Cycle 71 P71.F - "HEIC to JPG: what the converter actually does
   // (and what it does not)" trust-anchor guide. Sourced verbatim from
   // tool-heictojpg/SKILL.md ## Implemented features + ## NOT implemented
@@ -769,6 +809,24 @@ export const INFO_ROUTES = new Set([
   // passes URL convention regex; smashed form "compactarpasta" does not
   // shadow any existing primary route.
   '/guides/compactar-pasta.html',
+  // Cycle 20260521-20 P37.H create_new_guide_page (zip cluster, Portuguese):
+  // implementing tool /zip-file.html. Target query "comprimir pasta zipada"
+  // (compress an already-zipped folder) — distinct from /guides/compactar-pasta.html
+  // (compact a folder) and /guides/comprimir-zip-online.html (compress to ZIP).
+  // GSC 398 imp / 17 clicks / pos 8.84 / CTR 4.27% / opportunity_score 43.1.
+  // Tier-C (new URL, no GA4 history); Tier-A protocol N/A because this is
+  // not modifying an existing high-traffic URL.
+  '/guides/comprimir-pasta-zipada.html',
+  // Cycle 20260521-22 P39.H create_new_guide_page - "zipar pasta" Lane-D guide
+  // (ZIP cluster, Portuguese). Implementing tool /zip-file.html. GSC 367 imp /
+  // 15 clicks / pos 8.84 / CTR 4.09% / opportunity_score 39.8. Tier-A protocol
+  // N/A because this is a net-new GUIDE route, not a modification of an indexed
+  // tool URL.
+  '/guides/zipar-pasta.html',
+  // Cycle 20260520-11 new_guide_page_proposal (developer cluster):
+  // implementing tool /js-unminifier.html. GSC 545 imp / 3 clicks /
+  // pos 10.12 / CTR 0.55% / opportunity_score 53.55.
+  '/guides/unminify-js.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -800,6 +858,10 @@ export const GUIDE_ROUTES = new Set([
   '/guides/screen-test-online-vs-app-which-is-more-accurate.html',
   // Cycle 77 P77.A - "compress ZIP to a specific size" Lane-D append-only guide.
   '/guides/how-to-compress-a-zip-file-to-a-specific-size.html',
+  // Cycle 20260519-10 create_new_guide_page - "how to compress a zip file" bare-query step-by-step guide.
+  '/guides/how-to-compress-a-zip-file.html',
+  // Cycle 20260519-11 create_new_guide_page - "zip folder online free" bare-query step-by-step guide (companion to /zip-file.html).
+  '/guides/zip-folder-online-free.html',
   // Cycle 78 P78.A - "QR code error correction and scan failures" Lane-D guide (companion to /qr-code-generator.html).
   '/guides/qr-code-error-correction-and-scan-failures.html',
   // Cycle 79 P79.B - "Image to Base64: embed in HTML/CSS vs link the image file" Lane-D guide.
@@ -871,13 +933,23 @@ export const GUIDE_ROUTES = new Set([
   '/guides/ms-to-date.html',
   // Cycle 20260517-21 create_new_guide_page - "convert milliseconds to date" exact-match landing (GSC 482 imp / 3 clicks / pos 6.02 / CTR 0.62% / opp 79.59). Implementing tool: /convert-time-in-millisecond-to-date.html. Non-cannibalizing - existing ms-to-date covers the short synonym; this guide covers the full natural-language query.
   '/guides/convert-milliseconds-to-date.html',
+  // Cycle 20260520-12 create_new_guide_page - "millisecond to date" singular-noun landing (GSC 368 imp / 2 clicks / pos 6.86 / CTR 0.54% / opp 53.38). Implementing tool: /convert-time-in-millisecond-to-date.html. Non-cannibalizing - existing /guides/ms-to-date.html covers the abbreviated synonym; /guides/convert-milliseconds-to-date.html covers the verb-led natural-language plural; this guide covers the bare singular-noun query.
+  '/guides/millisecond-to-date.html',
   '/guides/how-to-make-a-zip-file-smaller.html',
   '/guides/how-to-compress-zip-file-to-smaller-size.html',
   // Cycle 20260517-9 create_new_guide_page - exact-match "compress zip file to smaller size" landing.
   '/guides/compress-zip-file-to-smaller-size.html',
   '/guides/compress-zip-file-to-100kb.html',
+  // Cycle 20260521-12 P29.A create_new_guide_page - "compress zip file to 2mb" enterprise-SMTP-cap-specific landing. Operator-approved via card cycle29-create_new_guide_page-compresszipfileto2mb-cannibalisation-1779338089590 (option a). 2 MB is the historical Exchange / SMTP-relay / legacy-webmail attachment cap; distinct angle from the 100kb sibling. Implementing tool /zip-file.html.
+  '/guides/compress-zip-file-to-2mb.html',
   // Cycle 20260517-10 create_new_guide_page - exact-match "zip size reducer" landing (GSC 605 imp / 56 clicks / pos 5.67 / CTR 9.26%; opportunity_score 96.84).
   '/guides/zip-size-reducer.html',
+  // Cycle 20260519-12 create_new_guide_page - exact-match "zip file size compressor" landing (GSC 354 imp / 44 clicks / pos 5.43 / CTR 12.43%; opportunity_score 57.07). Implementing tool /zip-file.html. Append-only; non-cannibalizing vs /guides/how-to-make-a-zip-file-smaller.html, /guides/zip-size-reducer.html, /guides/compress-zip-file-to-smaller-size.html (each targets a distinct head-tail intent).
+  '/guides/zip-file-size-compressor.html',
+  // Cycle 20260519-15 create_new_guide_page — "resize zip file" routing/disambiguation Lane-D guide (GSC 406 imp / 19 clicks / pos 6.83 / CTR 4.68%; opportunity_score 56.6). Distinguishing role: addresses the three-way wording ambiguity (shrink vs split vs shrink-photo-inputs-first), routes to the existing shrink / split / image-resize guides — not a 10th compress-zip duplicate.
+  '/guides/resize-zip-file.html',
+  // Cycle 20260520-16 create_new_guide_page — Indonesian-language guide "kompres file zip" (GSC 338 imp / 13 clicks / pos 6.36 / CTR 3.85%; opportunity_score 51.12). Implementing tool /zip-file.html. Companion sibling to /guides/comprimir-zip-online.html (Spanish) and /guides/compactar-pasta.html (Portuguese).
+  '/guides/kompres-file-zip.html',
   '/guides/online-zip-vs-7z-vs-rar-which-to-pick.html',
   '/guides/how-to-zip-multiple-files-into-one.html',
   '/guides/how-to-zip-folder-online-step-by-step.html',
@@ -898,6 +970,8 @@ export const GUIDE_ROUTES = new Set([
   // /guides/why-md5-cannot-be-decrypted.html (cryptographic walkthrough) and /guides/md5-decode.html (broader
   // wording routing). Outbound link to /md5-converter.html.
   '/guides/md5-decrypt-online.html',
+  // Cycle 20260520-17 — "md5 hash decrypt" dictionary-attack-feasibility guide.
+  '/guides/md5-hash-decrypt.html',
   '/guides/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html',
   '/guides/json-vs-yaml-vs-toml-config-formats-explained.html',
   '/guides/css-minifier-vs-uglifier-vs-tree-shaking.html',
@@ -908,6 +982,8 @@ export const GUIDE_ROUTES = new Set([
   '/guides/mp4-vs-mov-vs-mkv-which-container-when.html',
   '/guides/free-online-tools-that-work-without-uploading-files.html',
   '/guides/qr-code-generator-best-practices.html',
+  // Cycle 20260520-10 - "gif into frames" head-query guide; companion to /extract-gif-to-image-frames.html
+  '/guides/gif-into-frames.html',
   // Workstream B sample batch - 2026-04-30
   '/guides/how-to-compress-a-folder.html',
   '/guides/lcd-test-what-it-checks.html',
@@ -974,6 +1050,8 @@ export const GUIDE_ROUTES = new Set([
   // Cycle 50 P50.A - "ImageMagick Online vs Task-Specific Tools - which to pick" routing guide (image-editing-cluster parallel to cycle 49 P49.A; GA4 /imagemagick-online.html 114 sess / 0.51 engagement cohort).
   '/guides/imagemagick-online-vs-task-specific-tools-which-to-pick.html',
   // Cycle 51 P51.A - "File Compressor Online: ZIP a Folder vs Compress an Image" routing guide (GSC "file compressor" 258,156 imp / 0.04% CTR / pos 9.9 / 12,797 missed clicks 28d - cross-cluster routing surface for the head term that neither /zip-file.html nor /compress-image.html owns alone).
+  // Cycle 46 (20260522-7) P46.H — "Camera Check" synonym-disambiguation guide. GSC "camera check" 451 imp / 5 clicks / pos 11.85 28d (opportunity score 37.63). Routes the reader to /camera-test.html (the implementing tool) while explaining the synonym mapping ("camera check" = "camera test") and the three end-states (allowed / blocked / ignored). Sibling guides: camera-test-permission-blocked-how-to-allow-it (permissions deep-dive), camera-test-shows-black-screen-four-fixes (hardware failures), camera-mirror-vs-flip-explained (preview semantics).
+  '/guides/camera-check.html',
   '/guides/file-compressor-online-when-to-zip-vs-when-to-compress-image.html',
   // Cycle 53 P53.A - "How to Extract a File Online - ZIP, RAR, 7z" routing guide (GSC "extract file online" -9.3 pos in 7d, "file zipper" -8.9 pos; neither owned by an existing guide. .zip -> /unzip-file.html; .rar / .7z -> local OS tool; forgotten-password .zip -> /remove-zip-password.html).
   '/guides/how-to-extract-a-file-online-zip-rar-7z.html',
@@ -1032,6 +1110,8 @@ export const GUIDE_ROUTES = new Set([
   // /zip-file.html (ZIP-CRITICAL-CARE 24h cooldown). Cluster: zip
   // entry-point. Lane-D PA-mode mandatory; non-ZIP-cluster identity.
   '/guides/zip-file-converter-what-it-actually-does.html',
+  // Cycle 20260519-1 - bare-query "zip file converter" guide.
+  '/guides/zip-file-converter.html',
   // Cycle 71 P71.F - "HEIC to JPG: what the converter actually does
   // (and what it does not)" trust-anchor guide. Source-cited claims
   // from tool-heictojpg/SKILL.md (libheif, SlimJpg, EXIF toggle, quality
@@ -1062,6 +1142,12 @@ export const GUIDE_ROUTES = new Set([
   // Spanish-keyword sibling of /guides/make-zip-file-online.html;
   // companion to /zip-tools/zip-file.html). Complete single-cycle ship.
   '/guides/comprimir-zip-online.html',
+  // Cycle 20260519-14 — "Comprimir Carpeta Zip Online Gratis" Lane-D guide
+  // (zip cluster, Spanish folder-compression intent; 348 imp / 36 clicks /
+  // pos 5.49 / CTR 10.34% per 28d GSC; opportunity_score 56.79). Companion
+  // to /zip-file.html. Native Spanish prose authored against tool-zipfile
+  // SKILL features. Phase A complete single-cycle ship.
+  '/guides/comprimir-carpeta-zip-online-gratis.html',
   // Cycle 20260515-15 — "Zip File Compressor Online" Lane-D guide (zip
   // cluster head-query; 799 imp / 73 clicks / pos 6.2 / CTR 9.1% per 28d
   // GSC; opportunity_score 117.19). Companion to /zip-tools/zip-file.html.
@@ -1110,6 +1196,16 @@ export const GUIDE_ROUTES = new Set([
   // optional password + cross-platform output) and the existing in-browser
   // creator copy in BODYHTMLzipfile / BODYWELCOMEzipfile.
   '/guides/create-zip-file-online.html',
+  // Cycle 20260518-33 create_new_guide_page - "Tes LCD" Lane-D guide (device-test
+  // cluster, companion to /lcd-test.html). GSC 503 imp / 17 clicks / pos 7.38 /
+  // CTR 3.38% / opportunity_score 65.84 - Indonesian-language "tes lcd" intent
+  // (Indonesian for "lcd test"). Authored in Indonesian to serve the actual
+  // search audience (GA4 ID share ~6% of sessions). Paraphrases
+  // tool-lcdtest/SKILL.md F1-F5 (six-color full-viewport fill + full-screen
+  // toggle + reset + display metrics + no-upload disclosure). Kebab slug
+  // /guides/tes-lcd.html does not shadow any existing primary tool route
+  // (urlToSlug() smashes to "teslcd" which is not in JSP_BY_ROUTE).
+  '/guides/tes-lcd.html',
   // Cycle 20260518-29 create_new_guide_page - "zip password unlocker" Lane-D
   // guide (zip cluster, companion to /remove-zip-password.html). GSC 432 imp /
   // 44 clicks / pos 5.29 / CTR 10.18% / opportunity_score 73.32. Honest framing:
@@ -1122,9 +1218,32 @@ export const GUIDE_ROUTES = new Set([
   // 21 clicks / pos 7.59 / CTR 4.02% / opportunity_score 66.02 - Portuguese
   // "compactar pasta" intent (compress folder). Paraphrases tool-zipfile/SKILL.md
   // BODYHTML (folder + multi-file zip, optional password Standard/AES-128/AES-256,
-  // HTTPS upload to private build service, short retention auto-delete) and
-  // sibling Spanish guide /guides/comprimir-zip-online.html.
+  // browser-side UI) and the existing /zip-file.html action description.
   '/guides/compactar-pasta.html',
+  // Cycle 20260521-20 P37.H create_new_guide_page (zip cluster, Portuguese).
+  '/guides/comprimir-pasta-zipada.html',
+  // Cycle 20260520-11 new_guide_page_proposal (developer cluster):
+  // implementing tool /js-unminifier.html.
+  '/guides/unminify-js.html',
+  // Cycle 20260520-13 new_guide_page_proposal (device-test cluster, companion
+  // to /lcd-test.html). "lcd screen test" head-tail query. Paraphrases
+  // tool-lcdtest/SKILL.md F1-F5. Kebab slug /guides/lcd-screen-test.html
+  // does not shadow /lcd-test.html (smashed form "lcdscreentest" is unique).
+  '/guides/lcd-screen-test.html',
+  // Cycle 20260520-15 new_guide_page_proposal (zip cluster, disambiguation
+  // guide for "unlock zip file online" query — routes between
+  // /remove-zip-password.html (password-protected ZIPs) and
+  // /unzip-file.html (plain ZIPs). GSC: 421 impressions / 40 clicks / pos 7.4.
+  // Kebab slug /guides/unlock-zip-file-online.html does not shadow any
+  // existing route (smashed form "unlockzipfileonline" is unique).
+  '/guides/unlock-zip-file-online.html',
+  // Cycle 20260522-8 (cycle 47) P47.H new_guide_page_proposal — "current millis"
+  // query (gsc 289 imp / 2 clk / pos 7.92 / CTR 0.69%; opportunity_score 36.24).
+  // Companion to /convert-time-in-millisecond-to-date.html (the implementing
+  // tool). Developer-utility cluster; kebab slug /guides/current-millis.html
+  // does not shadow any existing route (smashed form "currentmillis" is
+  // unique). Complete single-cycle ship per cycle 20260514-5 contract.
+  '/guides/current-millis.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -1158,8 +1277,57 @@ export const ALIAS_ROUTES = {
   '/svg-to-image.html': '/image-converter-tools/svg-to-png.html',
   '/split-pdf-to-single-pages.html': '/pdf-tools/split-pdf-by-range.html',
   '/pdf-merge-from-multiple-files.html': '/pdf-tools/join-pdf-from-multiple-files.html',
+  // Cycle 20260520 SEO-synonym-mill cleanup. The trending-scout shipped
+  // 6 near-duplicate json-formatter-* variants + chatgpt-json-tree-viewer
+  // as broken stubs (every click threw "Error: convertForSlug() not
+  // implemented"). /json-formatter.html now ships a real working JSON
+  // parse + pretty-print + validate impl; the 7 dupes 301-alias here so
+  // existing inbound links + sitemap entries route to the canonical tool.
+  // See dedupe-against-existing.mjs (cycle 20260520) — escalated
+  // substring + token-prefix overlap from SOFT to CRITICAL collision
+  // so this pattern cannot recur from the trending-scout pipeline.
+  // Cycle 20260520-followup cluster-URL convention: canonical now lives at
+  // /developer-tools/json-formatter.html. Root /json-formatter.html + the
+  // 6 dupe SEO-synonyms (-editor, -viewer, -compare, -extension, -validator,
+  // -check, chatgpt-json-tree-viewer) all 301-alias DIRECTLY to the cluster
+  // canonical (no intermediate hop through root). Preserves inbound link
+  // equity from cycles 20260518-23 .. 20260519-15.
+  // Cycle 20260521-12 semantic-dedup cleanup: /developer-tools/json-formatter.html
+  // was a SEMANTIC DUPLICATE of /developer-tools/json-parser.html (titled "JSON
+  // Parser & Formatter (Tree View)"). The 2026-05-20 trending-scout candidate
+  // passed LEXICAL dedup (token-prefix only 1, JW ~0.85-0.88) but lost on
+  // SEMANTIC overlap with json-parser's existing reader-task contract (validate
+  // / format / tree / copy beautified JSON — all already implemented). Retargeted
+  // all 8 aliases to the real canonical tool. Tool route + CMS fragments +
+  // manifest entry + tool-skill deleted in same commit.
+  '/json-formatter.html':           '/developer-tools/json-parser.html',
+  '/json-formatter-check.html':     '/developer-tools/json-parser.html',
+  '/json-formatter-editor.html':    '/developer-tools/json-parser.html',
+  '/json-formatter-viewer.html':    '/developer-tools/json-parser.html',
+  '/json-formatter-compare.html':   '/developer-tools/json-parser.html',
+  '/json-formatter-extension.html': '/developer-tools/json-parser.html',
+  '/json-formatter-validator.html': '/developer-tools/json-parser.html',
+  '/chatgpt-json-tree-viewer.html': '/developer-tools/json-parser.html',
+  // Cycle 20260520-followup: cluster-URL convention aliases for 2 other tools
+  // shipped at root by the pre-fix builder.
+  '/hd-video-converter.html':       '/video-tools/hd-video-converter.html',
+  // Cycle 20260521-12 cleanup: /image-format-converter.html was shipped (cycle 20260520-5)
+  // with a SILENT no-op BODYJS stub — user clicks did nothing, no console error either.
+  // Better UX (and SEO hygiene) to NOT alias to a broken tool. The /image-converter-tools/
+  // hub page already captures the "image format converter" reader query with 6 working
+  // converters (heic-to-jpg, png-to-svg, svg-to-png, image-to-base64, base64-to-image,
+  // extract-gif-to-image-frames). Removing the alias + CMS fragments + manifest entry
+  // entirely. Future search-intent ranking is preserved by the hub page.
   '/mov-to-mp4.html': '/video-tools/video-converter.html',
   '/mov-to-mp3.html': '/video-tools/video-converter.html',
+  // Cycle 20260521-19 chain-breaker resolution: /guides/ios-to-jpg.html was flagged
+  // as cannibalisation against the existing /guides/how-to-convert-iphone-photo-to-jpg.html
+  // for 4 consecutive cycles (chain_length=6, predecessor cycle 35). Per CLAUDE.md
+  // "Deferred-approval chain-breaker" L3 + "Semantic dedup" rules, ship as 301 alias
+  // (not as a full duplicate guide). Captures the bare-query "ios to jpg" SERP impressions
+  // (309 imp/28d at pos 6.6) at ~95-100% equity transfer, no duplicate content.
+  // Companion: CloudFront REDIRECTS in url-migration-301.js mirrors this entry.
+  '/guides/ios-to-jpg.html': '/guides/how-to-convert-iphone-photo-to-jpg.html',
   // Cycle 20260518-29 — new_tool_page_discovery proposal candidate "video-converter-mp4" failed
   // the seo-tool-page-builder verb-detection guard ("slug ends with format token mp4, no I/O
   // verb"). Aliasing the proposed URL into the existing canonical video-converter routes the
@@ -1187,6 +1355,10 @@ export const ALIAS_ROUTES = {
   // Cycle148 P148.A — capture bare URL traffic for "how to make a zip file smaller" head-query (~2,429 imp / 28d, pos 5.6, CTR 0.33% per GSC; 113 missed clicks). Bare URL currently 200-serves the GitHub-Pages 404 fallback (homepage HTML, canonical=/) so Google routes those clicks to a generic index instead of the actual ZIP-compress tool.
   // Cycle173 P173.B amendment (2026-05-10) — operator-granted P171.B + P172.B (zip_care chain length=11). Re-target alias from /zip-file.html (generic ZIP tool, doesn't directly answer the head query "how to make a zip file smaller") to /guides/how-to-make-a-zip-file-smaller.html (long-form guide that already exists since Phase-16 cycle-8 N-series; ranks for the same query). Consolidates the 2,429 imp/28d 301 traffic into ONE canonical destination instead of two cannibalizing pages. ZIP-CARE preserved — no edit to indexed copy on /zip-file.html or /guides/how-to-make-a-zip-file-smaller.html; route table edit only. Tier-A protocol applied: pre-deploy snapshot at seo-reports/20260510-47/zip-pre-deploy/howtomakeazipfilesmaller/, halved Day +1/+3/+7 rollback thresholds, four-skill gate N/A (route-only change). Operator approve evidence: seo-reports/20260510-45/.approvals/granted/P171.B-howtomakeazipfilesmaller-zip-care-cooldown.json (2026-05-10T09:58:14.373Z) + seo-reports/20260510-46/.approvals/granted/P172.B-howtomakeazipfilesmaller-zip-care-cooldown.json (2026-05-10T09:58:18.077Z).
   '/how-to-make-a-zip-file-smaller.html': '/guides/how-to-make-a-zip-file-smaller.html',
+  // Cycle 20260519-18 P18.E (create_new_guide_page re-route per cannibalization grant cycle 17). Capture bare-query traffic for "make zip file smaller" (369 imp / 24 clicks / pos 6.17 / CTR 6.5% per GSC) without splitting rank with the existing canonical guide. Bare URL /guides/make-zip-file-smaller.html aliases to /guides/how-to-make-a-zip-file-smaller.html (the canonical long-form guide). Per cycle 17 grant `new-guide-make-zip-file-smaller-cannibalization-cycle17` option (b) — "re-route the synth to /guides/how-to-make-a-zip-file-smaller.html". Route-table-only edit; no indexed-copy change.
+  '/guides/make-zip-file-smaller.html': '/guides/how-to-make-a-zip-file-smaller.html',
+  // Cycle 20260519-18 P18.F (new_tool_page_discovery re-route per cannibalization grant cycle 16+17). Capture bare-URL traffic for trending-tool candidate cand-50f0efbf185cfb91 ("Image Compressor Online", cycles_seen=19, confidence=0.65) without splitting rank with /compress-image.html canonical. Bare URL /image-compressor.html aliases to /compress-image.html (the canonical client-side image compression tool). Per cycle 16+17 grants `new-tool-image-compressor-cannibalization-intent-overlap-cycle16` option (b/c) — rename to a non-overlapping slug OR drop from candidate pool. Alias is the lightest-touch realisation of intent capture without cannibalization. Route-table-only edit; no indexed-copy change.
+  '/image-compressor.html': '/compress-image.html',
   // Cycle149 P149.A — capture bare URL traffic for "zip file size reducer" head-query (2,754 imp / 28d, pos 5.66, CTR 10.46% per GSC; 288 clicks routed to homepage). Bare URL currently 200-serves the GitHub-Pages 404 fallback (homepage HTML, canonical=/). Aliasing to /zip-file.html re-routes the 288 clicks/28d to the actual ZIP-compress action page (ZIP-CARE preserved — no edit to /zip-file.html HTML). Same alias-only playbook as P141.A / P142.A / P143.A / P144.A / P145.A / P146.A / P147.A / P148.A.
   '/zip-file-size-reducer.html': '/zip-tools/zip-file.html',
   // Cycle150 P150.A — capture bare URL traffic for "reduce zip file size" head-query (2,769 imp / 28d, pos 6.2, CTR 10.69% per GSC; 296 clicks routed to homepage). Bare URL currently 200-serves the GitHub-Pages 404 fallback (homepage HTML, canonical=/). Aliasing to /zip-file.html re-routes the 296 clicks/28d to the actual ZIP-compress action page (ZIP-CARE preserved — no edit to /zip-file.html HTML). Same alias-only playbook as P141.A / P142.A / P143.A / P144.A / P145.A / P146.A / P147.A / P148.A / P149.A.
@@ -1351,6 +1523,10 @@ export const JSP_BY_ROUTE = {
   '/guides/screen-test-online-vs-app-which-is-more-accurate.html': 'guide/screen-test-online-vs-app-which-is-more-accurate.jsp',
   // Cycle 77 P77.A - "compress ZIP to a specific size" Lane-D append-only guide.
   '/guides/how-to-compress-a-zip-file-to-a-specific-size.html': 'guide/how-to-compress-a-zip-file-to-a-specific-size.jsp',
+  // Cycle 20260519-10 create_new_guide_page - "how to compress a zip file" bare-query step-by-step guide (companion to /zip-file.html).
+  '/guides/how-to-compress-a-zip-file.html': 'guide/how-to-compress-a-zip-file.jsp',
+  // Cycle 20260519-11 create_new_guide_page - "zip folder online free" bare-query step-by-step guide (companion to /zip-file.html).
+  '/guides/zip-folder-online-free.html': 'guide/zip-folder-online-free.jsp',
   // Cycle 78 P78.A - "QR code error correction and scan failures" Lane-D guide (companion to /qr-code-generator.html).
   '/guides/qr-code-error-correction-and-scan-failures.html': 'guide/qr-code-error-correction-and-scan-failures.jsp',
   // Cycle 79 P79.B - "Image to Base64: embed in HTML/CSS vs link the image file" Lane-D guide (companion to /image-to-base64.html + /base64-to-image.html).
@@ -1375,6 +1551,8 @@ export const JSP_BY_ROUTE = {
   '/guides/make-zip-file-online.html': 'guide/make-zip-file-online.jsp',
   // Cycle 20260515-13 create_new_guide_page - "Comprimir Zip Online" Lane-D guide (zip cluster, Spanish-keyword sibling of /guides/make-zip-file-online.html; companion to /zip-tools/zip-file.html). Complete single-cycle ship per cycle 20260514-5 contract.
   '/guides/comprimir-zip-online.html': 'guide/comprimir-zip-online.jsp',
+  // Cycle 20260519-14 create_new_guide_page - "Comprimir Carpeta Zip Online Gratis" Lane-D guide (zip cluster, Spanish folder-compression intent; companion to /zip-file.html). Native-Spanish prose authored against tool-zipfile SKILL features. Complete single-cycle ship per cycle 20260514-5 contract.
+  '/guides/comprimir-carpeta-zip-online-gratis.html': 'guide/comprimir-carpeta-zip-online-gratis.jsp',
   // Cycle 20260517-8 create_new_guide_page - "Online Zip File Compressor" Lane-D guide (zip cluster head-query sibling, companion to /zip-tools/zip-file.html). Complete single-cycle ship per cycle 20260514-5 contract.
   '/guides/online-zip-file-compressor.html': 'guide/online-zip-file-compressor.jsp',
   // Cycle 20260518-20 create_new_guide_page - "Zip Compress" Lane-D guide (zip cluster head-query sibling, companion to /zip-tools/zip-file.html). Complete single-cycle ship per cycle 20260514-5 contract.
@@ -1385,12 +1563,60 @@ export const JSP_BY_ROUTE = {
   '/guides/zip-compressor-online.html': 'guide/zip-compressor-online.jsp',
   // Cycle 20260518-23 create_new_guide_page - "Folder to zip" Lane-D guide. Companion to /zip-tools/zip-file.html. Sourced from tool-ziptools/SKILL.md M1 + tool-guidescompresszip/SKILL.md C1-C5.
   '/guides/folder-to-zip.html': 'guide/folder-to-zip.jsp',
+  // Cycle 20260518-33 create_new_guide_page - "Tes LCD" Lane-D guide (device-test
+  // cluster, companion to /lcd-test.html). Indonesian-language guide for the
+  // "tes lcd" search intent. Paraphrases tool-lcdtest/SKILL.md F1-F5.
+  '/guides/tes-lcd.html': 'guide/tes-lcd.jsp',
+  // Cycle 20260520-16 create_new_guide_page - "Kompres File Zip" Lane-D guide
+  // (zip cluster, Indonesian-language sibling to /guides/comprimir-zip-online.html).
+  // Companion to /zip-file.html. GSC 28d "kompres file zip" 338 imp / 13 clicks /
+  // pos 6.36 / CTR 3.85% / opportunity_score 51.12. Paraphrases tool-zipfile
+  // implemented features (server-side bundling, optional AES password, S3-backed
+  // download with short retention) into Indonesian reader-task prose.
+  '/guides/kompres-file-zip.html': 'guide/kompres-file-zip.jsp',
   // Cycle 20260518-25 create_new_guide_page - "Online Zip File" Lane-D guide. Companion to /zip-tools/zip-file.html. Sourced from tool-zipfile/SKILL.md M1-M7 + tool-ziptools/SKILL.md M1.
   '/guides/online-zip-file.html': 'guide/online-zip-file.jsp',
   // Cycle 20260518-31 create_new_guide_page - "Create Zip File Online" Lane-D guide. Companion to /zip-tools/zip-file.html. Sourced from tool-zipfile/SKILL.md implemented features + BODYHTMLzipfile reader-task copy.
   '/guides/create-zip-file-online.html': 'guide/create-zip-file-online.jsp',
-  // Cycle 20260518-32 create_new_guide_page - "compactar pasta" Lane-D guide (zip cluster, Portuguese folder compression intent). Companion to /zip-tools/zip-file.html. Sourced from tool-zipfile BODYHTML/BODYDESC + cluster-sibling Portuguese guide /guides/comprimir-zip-online.html. Truthful server-side framing (HTTPS upload + private build service + short retention).
+  // Cycle 20260518-32 create_new_guide_page - "compactar pasta" Lane-D guide (zip cluster, Portuguese folder compression intent). Companion to /zip-tools/zip-file.html. Sourced from tool-zipfile BODYHTML/BODYDESC + cluster-sibling Portuguese guide /guides/comprimir-zip-online.html.
   '/guides/compactar-pasta.html': 'guide/compactar-pasta.jsp',
+  // Cycle 20260521-20 P37.H create_new_guide_page - "comprimir pasta zipada"
+  // Lane-D guide (zip cluster, Portuguese). Implementing tool /zip-file.html.
+  '/guides/comprimir-pasta-zipada.html': 'guide/comprimir-pasta-zipada.jsp',
+  // Cycle 20260521-22 P39.H create_new_guide_page - "zipar pasta" Lane-D guide
+  // (ZIP cluster, Portuguese - "zipar" = to ZIP, "pasta" = folder). GSC 367 imp
+  // / 15 clicks / pos 8.84 / CTR 4.09% / opportunity_score 39.8. Implementing
+  // tool /zip-file.html. Sister to /guides/comprimir-pasta-zipada.html (same
+  // implementing tool, different intent: "zipar" = create new zip from folder,
+  // "comprimir pasta zipada" = re-compress existing zip). Net-additive (new URL);
+  // Tier-A protocol: ZIP cluster but this is a new GUIDE route (not modifying an
+  // indexed tool URL), so the staged-rollout one-URL-per-deploy constraint does
+  // not apply to net-new guide additions in the cluster.
+  '/guides/zipar-pasta.html': 'guide/zipar-pasta.jsp',
+  // Cycle 20260520-11 new_guide_page_proposal (developer cluster):
+  // companion to /js-unminifier.html.
+  '/guides/unminify-js.html': 'guide/unminify-js.jsp',
+  // Cycle 20260520-13 new_guide_page_proposal (device-test cluster, companion
+  // to /lcd-test.html). "lcd screen test" query - GSC 382 imp / 6 clicks /
+  // pos 7.11 / CTR 1.57% / opportunity_score 52.9. Paraphrases
+  // tool-lcdtest/SKILL.md F1-F5 (six-color full-viewport fill + reset hook +
+  // viewport metrics + no-upload disclosure). Kebab slug
+  // /guides/lcd-screen-test.html does not shadow any existing primary tool
+  // route (urlToSlug() smashes to "lcdscreentest" which is not in JSP_BY_ROUTE).
+  '/guides/lcd-screen-test.html': 'guide/lcd-screen-test.jsp',
+  // Cycle 20260520-15 new_guide_page_proposal (zip cluster). "unlock zip file
+  // online" query - GSC 421 imp / 40 clicks / pos 7.4 / CTR 9.5% /
+  // opportunity_score 51.51. Disambiguation guide routing between
+  // /remove-zip-password.html (password-protected ZIPs) and /unzip-file.html
+  // (plain ZIPs). Kebab slug /guides/unlock-zip-file-online.html does not
+  // shadow any existing primary route (smashed form "unlockzipfileonline" is
+  // unique against JSP_BY_ROUTE). Hand-verified at authoring time —
+  // tool-guidesunlockzipfileonline/SKILL.md cites BODYHTML claims back to
+  // /unzip-file.html and /remove-zip-password.html behaviour visible on
+  // those pages at cycle authoring SHA.
+  '/guides/unlock-zip-file-online.html': 'guide/unlock-zip-file-online.jsp',
+  // Cycle 20260520-10 create_new_guide_page - "GIF into frames" Lane-D guide (image-editing cluster, companion to /extract-gif-to-image-frames.html). Sourced from tool-extractgiftoimageframes BODYTITLE/BODYDESC + Implemented features. Single-cycle ship per cycle 20260514-5 contract. Cannibalization chain from -6 expired (4-cycle window closed).
+  '/guides/gif-into-frames.html': 'guide/gif-into-frames.jsp',
   // Cycle 84 P84.A - "How to compress a JPG for email attachment size limits" Lane-D guide (image-conversion / compression sub-cluster, companion to /compress-image.html).
   '/guides/how-to-compress-a-jpg-for-email-attachment-limits.html': 'guide/how-to-compress-a-jpg-for-email-attachment-limits.jsp',
   // Cycle 85 P85.A - "Microphone test levels: what quiet, normal, and peak mean" Lane-D guide (device-test / microphone-test sub-cluster, companion to /microphone-test.html).
@@ -1437,6 +1663,8 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-compress-a-file-online.html': 'guide/how-to-compress-a-file-online.jsp',
   '/guides/how-to-reduce-zip-file-size-online.html': 'guide/how-to-reduce-zip-file-size-online.jsp',
   '/guides/how-to-reduce-zip-file-size.html': 'guide/how-to-reduce-zip-file-size.jsp',
+  // Cycle 20260520-9 create_new_guide_page - bare-noun landing for "reduce zip file size online" (implementing tool /zip-file.html).
+  '/guides/reduce-zip-file-size-online.html': 'guide/reduce-zip-file-size-online.jsp',
   // Cycle 20260515-15 — "Zip File Compressor Online" Lane-D guide.
   '/guides/zip-file-compressor-online.html': 'guide/zip-file-compressor-online.jsp',
   // Phase 16 Cycle B P16.G1 hub + P16.N11 + P16.N16.
@@ -1447,6 +1675,8 @@ export const JSP_BY_ROUTE = {
   '/guides/ms-to-date.html': 'guide/ms-to-date.jsp',
   // Cycle 20260517-21 create_new_guide_page - "convert milliseconds to date" exact-match landing.
   '/guides/convert-milliseconds-to-date.html': 'guide/convert-milliseconds-to-date.jsp',
+  // Cycle 20260520-12 create_new_guide_page - "millisecond to date" singular-noun landing. Implementing tool /convert-time-in-millisecond-to-date.html.
+  '/guides/millisecond-to-date.html': 'guide/millisecond-to-date.jsp',
   // Phase 16 cycle 8 N-series guides (25 new).
 
   // Phase 16 cycle 8 N-series guides (25 new).
@@ -1455,8 +1685,12 @@ export const JSP_BY_ROUTE = {
   // Cycle 20260517-9 create_new_guide_page - exact-match "compress zip file to smaller size" landing.
   '/guides/compress-zip-file-to-smaller-size.html': 'guide/compress-zip-file-to-smaller-size.jsp',
   '/guides/compress-zip-file-to-100kb.html': 'guide/compress-zip-file-to-100kb.jsp',
+  // Cycle 20260521-12 P29.A create_new_guide_page - operator-approved "compress zip file to 2mb" enterprise-SMTP-cap-specific landing.
+  '/guides/compress-zip-file-to-2mb.html': 'guide/compress-zip-file-to-2mb.jsp',
   // Cycle 20260517-10 create_new_guide_page - exact-match "zip size reducer" landing.
   '/guides/zip-size-reducer.html': 'guide/zip-size-reducer.jsp',
+  // Cycle 20260519-12 create_new_guide_page — /guides/zip-file-size-compressor.html (implementing tool /zip-file.html).
+  '/guides/zip-file-size-compressor.html': 'guide/zip-file-size-compressor.jsp',
   '/guides/online-zip-vs-7z-vs-rar-which-to-pick.html': 'guide/online-zip-vs-7z-vs-rar-which-to-pick.jsp',
   '/guides/how-to-zip-multiple-files-into-one.html': 'guide/how-to-zip-multiple-files-into-one.jsp',
   '/guides/how-to-zip-folder-online-step-by-step.html': 'guide/how-to-zip-folder-online-step-by-step.jsp',
@@ -1487,6 +1721,8 @@ export const JSP_BY_ROUTE = {
   '/guides/screen-test-vs-camera-test-pick-the-right-tool.html': 'guide/screen-test-vs-camera-test-pick-the-right-tool.jsp',
   '/guides/md5-to-text-why-you-cannot-convert-back.html': 'guide/md5-to-text-why-you-cannot-convert-back.jsp',
   '/guides/before-a-video-call-which-tools-to-run.html': 'guide/before-a-video-call-which-tools-to-run.jsp',
+  // Cycle 46 (20260522-7) P46.H — camera-check synonym-disambiguation guide.
+  '/guides/camera-check.html': 'guide/camera-check.jsp',
   '/guides/screen-test-for-laptop-5-minute-checklist.html': 'guide/screen-test-for-laptop-5-minute-checklist.jsp',
   '/guides/ffmpeg-online-vs-video-converter-which-to-pick.html': 'guide/ffmpeg-online-vs-video-converter-which-to-pick.jsp',
   '/guides/imagemagick-online-vs-task-specific-tools-which-to-pick.html': 'guide/imagemagick-online-vs-task-specific-tools-which-to-pick.jsp',
@@ -1504,6 +1740,8 @@ export const JSP_BY_ROUTE = {
   '/guides/why-md5-cannot-be-decrypted.html': 'guide/why-md5-cannot-be-decrypted.jsp',
   '/guides/md5-decode.html': 'guide/md5-decode.jsp',
   '/guides/md5-decrypt-online.html': 'guide/md5-decrypt-online.jsp',
+  // Cycle 20260520-17 create_new_guide_page — "md5 hash decrypt" narrow-frame guide on dictionary-attack vs rainbow-table feasibility. Distinct angle from the existing 7 MD5 guides (md5-decrypt-online = wording routing, why-md5-cannot-be-decrypted = cryptographic math, md5-decode = vocabulary distinguish, md5-alternatives = recommendation, md5-to-text = why-cannot-convert-back, md5-vs-sha256 = algorithm comparison, read-and-compare = verification). New angle: the practical feasibility question - "for the hash I have right now, will a dictionary attack actually find the input?" Append-only on every existing surface.
+  '/guides/md5-hash-decrypt.html': 'guide/md5-hash-decrypt.jsp',
   '/guides/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html': 'guide/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.jsp',
   '/guides/json-vs-yaml-vs-toml-config-formats-explained.html': 'guide/json-vs-yaml-vs-toml-config-formats-explained.jsp',
   '/guides/css-minifier-vs-uglifier-vs-tree-shaking.html': 'guide/css-minifier-vs-uglifier-vs-tree-shaking.jsp',
@@ -1523,6 +1761,8 @@ export const JSP_BY_ROUTE = {
   '/guides/screen-display-test-synonyms.html': 'guide/screen-display-test-synonyms.jsp',
   // Cycle 70 P70.A - "Zip file converter - what it actually does" disambiguation guide.
   '/guides/zip-file-converter-what-it-actually-does.html': 'guide/zip-file-converter-what-it-actually-does.jsp',
+  // Cycle 20260519-1 - bare-query "zip file converter" how-to guide.
+  '/guides/zip-file-converter.html': 'guide/zip-file-converter.jsp',
   // Cycle 71 P71.F - "HEIC to JPG: what the converter actually does (and what it does not)" trust-anchor guide.
   '/guides/heic-to-jpg-claims-what-actually-works.html': 'guide/heic-to-jpg-claims-what-actually-works.jsp',
   // Cycle1 of 20260513-5 P5.A - "Zip compressor" Lane-D guide. Phase A
@@ -1534,6 +1774,8 @@ export const JSP_BY_ROUTE = {
   '/guides/compress-zip.html': 'guide/compress-zip.jsp',
   // Cycle 20260515-16 — "Compress ZIP Size" Lane-D guide.
   '/guides/compress-zip-size.html': 'guide/compress-zip-size.jsp',
+  // Cycle 20260519-15 create_new_guide_page — "resize zip file" wording-disambiguation Lane-D guide (GSC 406 imp / 19 clicks / pos 6.83 / CTR 4.68%; opportunity_score 56.6). Implementing tool /zip-tools/zip-file.html. Append-only routing/disambiguation guide (NOT a 10th compress-zip duplicate); distinguishes from /guides/how-to-make-a-zip-file-smaller.html, /guides/zip-size-reducer.html, /guides/compress-zip-size.html (which all assume "shrink"), by addressing the three-way reader intent ambiguity (shrink vs split vs shrink-inputs-first).
+  '/guides/resize-zip-file.html': 'guide/resize-zip-file.jsp',
 
   '/pdf-tools/compose-pdf.html': 'pdf/compose-pdf.jsp',
   '/pdf-tools/split-pdf-by-range.html': 'pdf/split-by-range.jsp',
@@ -1601,6 +1843,48 @@ export const JSP_BY_ROUTE = {
   '/utility-tools/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html': 'convert/new-vietnamese-converter.jsp',
   // Cycle 20260518-29 create_new_guide_page - zip-password-unlocker Lane-D guide.
   '/guides/zip-password-unlocker.html': 'guide/zip-password-unlocker.jsp',
+  // Cycle 20260520-followup: canonical moved from /hd-video-converter.html (root)
+  // to /video-tools/hd-video-converter.html per the site cluster-URL convention.
+  // Existing canonical pattern: /<cluster>-tools/<slug>.html (canonical) +
+  // /<slug>.html (alias). Root URL now lives in ALIAS_ROUTES (see top of file).
+  // Pre-cycle-20260520 builder bug: ctx.url hardcoded as /{slug}.html ignoring
+  // cluster; fixed in build-tool-page.mjs::deriveUrlsForCluster().
+  '/video-tools/hd-video-converter.html': 'convert/hd-video-converter.jsp',
+  '/guides/hd-video-converter-when.html': 'guide/hd-video-converter-when.jsp',
+  '/guides/hd-video-converter-step-by-step.html': 'guide/hd-video-converter-step-by-step.jsp',
+  '/guides/hd-video-converter-vs-alternatives.html': 'guide/hd-video-converter-vs-alternatives.jsp',
+  // Cycle 20260520 SEO-synonym-mill cleanup. The 5 dupe variants of
+  // /json-formatter.html (-extension, -editor, -viewer, -compare, -validator)
+  // shipped as broken stubs that threw "Error: convertForSlug() not implemented"
+  // on every user click. /json-formatter.html now ships a working
+  // JSON.parse + pretty-print impl (cycle 20260520 working converter-text
+  // skeleton); the 5 dupes are 301-aliased to /json-formatter.html via
+  // ALIAS_ROUTES (~line 1216). The 3 KEPT guides under /guides/json-formatter-
+  // {when,step-by-step,vs-alternatives}.html support the canonical tool and
+  // stay in place. See dedupe-against-existing.mjs (cycle 20260520) — that
+  // dedupe escalation prevents future variants from re-emerging.
+  // Cycle 20260521-12 semantic-dedup cleanup: /developer-tools/json-formatter.html
+  // route + CMS fragments + manifest entry + tool-skill deleted. The reader
+  // intent (pretty-print + validate JSON) is fully covered by the existing
+  // /developer-tools/json-parser.html ("JSON Parser & Formatter (Tree View)").
+  // 8 aliases retargeted to json-parser. The 3 companion guides remain but
+  // their implementing-tool reference is retargeted to json-parser.
+  '/guides/json-formatter-when.html': 'guide/json-formatter-when.jsp',
+  '/guides/json-formatter-step-by-step.html': 'guide/json-formatter-step-by-step.jsp',
+  '/guides/json-formatter-vs-alternatives.html': 'guide/json-formatter-vs-alternatives.jsp',
+  // Cycle 20260521-12 cleanup: deleted /image-converter-tools/image-format-converter.html
+  // tool + 3 companion guides. Reasons: (1) BODYJS stub was a silent no-op IIFE that ships
+  // a non-functional tool, (2) cluster /image-converter-tools/ already provides 6 working
+  // converters covering the same reader intent, (3) avoiding the SEO-synonym mill pattern
+  // (alias-to-broken-tool dilutes link equity AND offers a worse user experience than a
+  // 301 to a working hub). See cycle 20260520-5 commit d0eb7c0 for the original (broken) ship.
+  // Cycle 20260520 cleanup: /chatgpt-json-tree-viewer.html also shipped as
+  // a broken "Error: convertForSlug() not implemented" stub. Aliased to
+  // /json-formatter.html (which now has a real JSON parser/tree-viewer
+  // impl), guides removed. See dedupe-against-existing.mjs SEO-synonym-mill
+  // fix that prevents this pattern recurring.
+  // Cycle 20260522-8 (cycle 47) P47.H new_guide_page_proposal - /guides/current-millis.html
+  '/guides/current-millis.html': 'guide/current-millis.jsp',
 };
 
 export function normalizeRoute(route) {

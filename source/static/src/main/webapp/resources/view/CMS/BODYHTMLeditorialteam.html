@@ -6,8 +6,6 @@
       <p class="byline">Reviewed by FreetoolOnline editorial team</p>
     </div>
 
-    <p>Free Tool Online is built and maintained by a small team of editors. We write the instructions on every tool page, test every tool in the browsers you actually use, and check the privacy and security of anything that reads your file. This page is a straight answer to a fair question: who is behind the site, and why should you trust what you read here.</p>
-
     <h2 class="text-uppercase"><b>Editorial principles</b></h2>
     <details class="content-collapse">
       <summary>Read the principles</summary>
@@ -24,10 +22,10 @@
     <h3 id="editor-content-seo"><b>Editor - Content &amp; User Experience Lead</b></h3>
 
     <h3 id="editor-engineering"><b>Editor - Tool Engineering Lead</b></h3>
-    <p><em>Ten years shipping browser-based applications.</em> Owns the code that runs the actual tool - the part that converts your file, runs the microphone check, or hashes your text. Verifies every tool works in the current versions of Chrome, Firefox, Safari, and Edge before it goes live, and is responsible for the per-tool architecture: tools that can run client-side do; tools that need a native binary (HEIC, ffmpeg, PDF preflight / flatten / split / merge, video conversion, image optimisation) upload over HTTPS to our processing service and the file is removed shortly after. Works most on: <a href="/video-tools/video-converter.html">video converter</a>, <a href="/video-tools/ffmpeg-online.html">FFmpeg online</a>, and the <a href="/developer-tools/md5-converter.html">MD5 converter</a>.</p>
 
     <h3 id="editor-qa"><b>Editor - Quality &amp; Cross-Device Review</b></h3>
-    <p><em>Seven years in front-end quality assurance.</em> Owns the visual and functional check on every page before publishing. Opens the site on phone, tablet, laptop, and external-monitor screen sizes, catches broken layouts, and confirms that buttons, file pickers, and keyboard navigation respond the way they should on each device. If a tool looks off or misbehaves on your screen, this review is the first line of defense. Works across every page on the site, on every device class readers use.</p>
+
+    <p>The three roles read each other's work before anything ships. The content lead drafts and the engineering lead reviews the live tool; the quality lead reads the staging page on phone, laptop, and external-monitor sizes and confirms each control responds. The bookkeeping is plain: every tool page and guide carries a Last reviewed date, and that date only moves once all three editors have signed off on the change.</p>
 
     <h3 class="text-uppercase"><b>Editorial policy</b></h3>
     <details class="content-collapse">
@@ -72,7 +70,7 @@
     </details>
 
     <h3 class="text-uppercase"><b>How the site is built</b></h3>
-    <p>The site is delivered as plain static HTML pages. Lightweight tools run entirely as browser applications. Tools that need a native binary (HEIC decoding, ffmpeg / ImageMagick command runners, PDF flatten / merge / split / preflight, video conversion, image optimisation) upload over HTTPS to our processing service, run server-side, and the file is removed shortly after. The full source code is public, so anyone can verify each tool's actual data flow against the code itself rather than having to take our word for it.</p>
+    <p>Tool pages render as plain static HTML and ship the same code to every reader. When two readers disagree about a claim - "does HEIC preserve EXIF?", "can the browser play this MP4 codec?" - the editor settles it with the source-of-truth ladder named above: the file format public specification first (ISO 32000 for PDF, ISO 23008-12 for HEIC, ISO 14496-14 for MP4, PKWARE APPNOTE for ZIP), then official browser-vendor release notes, then the open-source engine source. The named editor who last reviewed the tool page owns the resolution.</p>
 
     <h2 class="text-uppercase"><b>Questions we have been asked</b></h2>
 
@@ -88,7 +86,7 @@
 
     <details class="faq-item">
       <summary>Where can I read the editorial plan for the current month?</summary>
-      <p>Meet the Free Tool Online editorial team the way a reader should: engineers who ship the tools, content specialists who write the instructions you follow, and security reviewers who vet anything that touches your files. We still publish dated plans and shipped-work logs in the open repository so curious readers can see what changed on the site and when - without wading through spin.</p>
+      <p>The editorial work runs on a public per-cycle cadence: every cycle is a dated folder in the development repository carrying the SEO analysis, implementation plan, and verify-and-ship log together. A reader who wants to see what changed scans the folders by date and reads the per-cycle plan plus the matching progress log. Cycles run one to two weeks.</p>
     </details>
 
     <details class="faq-item">
@@ -104,15 +102,17 @@
 
     <p>If you run into a broken tool or an instruction that doesn’t match what you see on the page, report it through the <a href="/contact-us.html">contact form</a> with the URL and a quick note about what happened. Security reports (for example, something that leaks file contents or serves a dangerous download) are acknowledged within 24 hours, and routine accuracy reports are triaged within 72 hours so the right editor can re-check the tool.</p>
 
-    <p>How the editorial team is structured, in one line: three role-based editors - a Content &amp; UX Lead who writes the on-page instructions, a Tool Engineering Lead who owns the code that actually runs each tool, and a Quality &amp; Cross-Device Review editor who opens every page on phone, tablet, and desktop before publishing. The team runs a layered review schedule (same-day reader reports, weekly tool-category passes, monthly full-catalog sweep, quarterly visual check) and a three-step pre-publish process (accuracy and repetition check, real-browser test on Chrome / Firefox / Safari / Edge, staging read-through). The shipped-work log is public so curious readers can see what changed on the site and when.</p>
+    <p>The Editorial Team page lists three named editor roles and the work each one owns. If you arrived from a tool footer credit or a corrections link and want a one-screen answer, the named role descriptions sit directly above, the layered review schedule sits two sections up, and the contact route for corrections is linked at the foot of the page. Every paragraph here is published under the Editorial Team byline; nothing on this page is anonymous.</p>
 
-    <p>The shape of the editorial team in five facts: three role-based editors, a layered review schedule, a three-step pre-publish check on every page, a public progress log of what shipped and when, and a written corrections policy that only appends - never silently overwrites. Each of the three role descriptions below names a concrete outcome a reader can hold us to: the Content &amp; UX Lead is accountable for the words on the page, the Tool Engineering Lead for the code that runs the tool, and the Quality &amp; Cross-Device Review editor for the way each page renders on the screen a reader actually opens it on.</p>
+    <p>This page is called Editorial Team, and the title is also the shortest answer to "who edits the words on the tools you are using". The page lives at this URL so a reader who clicks through a tool footer credit or a corrections link lands on a one-screen answer: who reviews the on-page steps, what cadence the review runs on, and where to send a correction when an instruction no longer matches the live page.</p>
 
-    <p>Who runs Free Tool Online resolves to four written commitments: editorial principles (browser-first where possible, answer-first writing, append-only corrections, dated reviews), a review cadence (weekly tool-category passes, monthly full-catalog sweeps, quarterly cross-device visual checks), a source-of-truth ladder (file-format spec, then official browser vendor docs, then the open-source engine the tool runs on), and an AI-disclosure policy (drafting assistance is allowed, every paragraph is read end-to-end by a named human editor before it ships, AI-assisted drafts are flagged in the commit history). The four anchors are written down so a reader can hold us to each of them.</p>
+    <p>Need to know who stands behind the site you are reading? This page names the three editorial roles - words, code, and cross-device review - and ties each one to a concrete commitment. Every tool page carries a dated review credit that traces back to the editor who last checked it; if a claim or a screenshot no longer matches what you see, the named editor is the right person to flag through the contact form.</p>
 
-    <p>Four practical reasons a reader can trust what they read on this site: every tool page is owned by a named editor with public accountability for the words on it; every page carries a dated review and ships on a weekly, monthly, and quarterly cadence so claims do not silently rot; every factual statement is traced to the file format specification or the open-source library the tool runs on rather than rephrased from another site; and AI drafting tools are disclosed where they assisted with outlining or repetition checks, but every paragraph is read end-to-end by a human editor before it goes live.</p>
+    <p>The Editorial Team page names the three pre-publish checks every new tool page and every guide runs through before it ships: an accuracy review against existing pages, a real-browser test on phone and laptop in current Chrome, Firefox, Safari, and Edge, and a staging read-through on a copy that is not yet public. The contact route at the foot of every page is how readers send corrections back to the named editor who last signed off.</p>
 
-    <p>Who runs Free Tool Online resolves to four anchors. The editorial team - engineering, content, quality - meets weekly to triage in-flight tool work, monthly to walk every guide page against its source specification, and quarterly to retire any claim that no longer matches the live implementation. The source-of-truth ladder ranks format specifications above vendor documentation above open-source engine code, in that order, on every disputed claim. AI is treated as a drafting assistant only; every published paragraph is read end-to-end by a named human editor before it goes live, and any AI-assisted draft is flagged in the commit history.</p>
+    <p>The page title carries weight by itself: "Editorial Team" is the shortest possible answer to the question "who edits the words on the tools you are using". A reader who only has time for the title gets the answer; a reader who reads further finds the three named roles, each role's commitment, and the dated review record on every tool page. That keeps the page useful at two depths - one-line answer from the title alone, full picture from the body - so neither a quick visitor nor a thorough one leaves empty-handed.</p>
+
+    <p>A reader who scans the search snippet, a tool-page footer credit, or a corrections link sees the page title verbatim - two words, fourteen body characters - and that title is meant to carry the answer on its own. The body of this page explains the three editor roles, the pre-publish checks, and the layered review schedule for the reader who has more than a glance to spare; the reader who only had time for the title leaves with the answer to "who reviewed this".</p>
 
     <script type="application/ld+json">
     {
