@@ -143,6 +143,33 @@
     html.menu-open>body:after {
         z-index: 1 !important;
     }
+
+    /* Dynamic-l-menu kind indicators (cycle 50 follow-up: distinguish tool
+       vs guide items now that l-menu is build-generated from JSP_BY_ROUTE
+       + GUIDE_ROUTES). See sitemap-html-builder.mjs::buildDynamicLMenuBody. */
+    #nav_menu .lmenu-kind-badge {
+        font-size: 10px;
+        color: #777;
+        background: #f0f0f0;
+        border: 1px solid #ddd;
+        padding: 1px 5px;
+        border-radius: 3px;
+        margin-left: 6px;
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+    #nav_menu .lmenu-sep {
+        border: 0;
+        border-top: 1px dashed #e0e0e0;
+        margin: 6px 12px;
+        height: 0;
+    }
+    #nav_menu .fa-book[data-kind="guide"] {
+        color: #6b7280;
+    }
 </style>
 <div id="menu-content-id" class="menu-content">
     <div class='w3-row-padding'>
@@ -251,6 +278,7 @@
                 <a class='w3-bar-item w3-button' href='https://freetoolonline.com/guides/millisecond-to-date.html'>Millisecond To Date</a>
                 <a class='w3-bar-item w3-button' href='https://freetoolonline.com/guides/lcd-screen-test.html'>LCD Screen Test</a>
                 <a class='w3-bar-item w3-button' href='https://freetoolonline.com/guides/current-millis.html'>Current Millis</a>
+                <a class='w3-bar-item w3-button' href='https://freetoolonline.com/guides/md5-password.html'>MD5 Password (guide)</a>
             </div>
         </div>
         <div class='w3-col l2 m6'>
@@ -301,6 +329,7 @@
                 <a class='w3-bar-item w3-button' href='https://freetoolonline.com/guides/kompres-file-zip.html'>Kompres File Zip</a>
                 <a class='w3-bar-item w3-button' href='https://freetoolonline.com/guides/comprimir-pasta-zipada.html'>Comprimir Pasta Zipada</a>
                 <a class='w3-bar-item w3-button' href='https://freetoolonline.com/guides/zipar-pasta.html'>Zipar Pasta</a>
+                <a class='w3-bar-item w3-button' href='https://freetoolonline.com/guides/comprimir-arquivo-zip.html'>Comprimir Arquivo Zip</a>
             </div>
         </div>
         <div class='w3-col l2 m6'>
@@ -343,6 +372,7 @@
                     ImageMagick online
                 </a>
                 <a class='w3-bar-item w3-button' href='https://freetoolonline.com/guides/gif-into-frames.html'>GIF Into Frames</a>
+                <a class='w3-bar-item w3-button' href='https://freetoolonline.com/guides/crop-and-rotate-image.html'>Crop and Rotate Image</a>
             </div>
         </div>
         <div class='w3-col l2 m6'>

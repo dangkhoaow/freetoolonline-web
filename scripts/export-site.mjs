@@ -30,7 +30,7 @@ import { parseJspPageSource, renderAlternateAdPage, renderPageDocument, renderRe
 import { resolvePageMtime } from './page-mtimes.mjs';
 import { createInternalContentRewriter, normalizeBasePath } from './staging-utils.mjs';
 import { writeSplitSitemaps } from './sitemap-writer.mjs';
-import { buildDynamicSitemapBody } from './sitemap-html-builder.mjs';
+import { buildDynamicSitemapBody, buildDynamicGuidesHubBody, buildDynamicLMenuBody, buildDynamicHomeSearchData } from './sitemap-html-builder.mjs';
 
 const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const distDir = path.resolve(repoRoot, process.env.DIST_DIR ?? 'dist');
@@ -81,6 +81,37 @@ async function main() {
     lastReviewedIso: new Date().toISOString(),
   });
   console.log(`[sitemap-html] Generated dynamic /sitemap.html body (${sitemapDynamicBody.length} chars).`);
+  // /guides.html hub body regenerates on every build from GUIDE_ROUTES +
+  // BODYTITLE/BODYDESC fragments. Adding a guide to site-data.mjs +
+  // creating the per-slug fragments is sufficient — no more hand-edit of
+  // BODYHTMLguides.html. The static fragment is now a placeholder; the
+  // dynamic body computed once here wins in renderRoute below.
+  const guidesHubDynamicBody = await buildDynamicGuidesHubBody({ cmsRoot });
+  console.log(`[guides-hub] Generated dynamic /guides.html body (${guidesHubDynamicBody.length} chars).`);
+  // l-menu (left navigation sidebar) — splice the dynamic body into the
+  // static l-menu.html shell which keeps the inline <style> + <script>
+  // blocks. The body is everything between </style> and the closing
+  // <script>. Same defect-class fix as /guides.html — agents no longer
+  // need to hand-edit the sidebar when shipping a new tool or guide.
+  // Homepage search box — datalist + tagline/placeholder counts. Splice
+  // into pageData.bodyHtml when renderRoute hits `/`. Closes the same
+  // "agent forgot to update the homepage search options" defect class
+  // /guides.html + l-menu just fixed.
+  const homeSearchData = await buildDynamicHomeSearchData({ cmsRoot });
+  console.log(`[home-search] Built dynamic datalist: ${homeSearchData.totalCount} options (${homeSearchData.toolCount} tools + ${homeSearchData.guideCount} guides).`);
+  const lMenuDynamicBody = await buildDynamicLMenuBody({ cmsRoot });
+  if (sharedFragments.lMenu) {
+    const styleEndIdx = sharedFragments.lMenu.indexOf('</style>');
+    const scriptStartIdx = sharedFragments.lMenu.indexOf('<script>', styleEndIdx >= 0 ? styleEndIdx : 0);
+    if (styleEndIdx >= 0 && scriptStartIdx > styleEndIdx) {
+      const cssPrefix = sharedFragments.lMenu.slice(0, styleEndIdx + '</style>'.length);
+      const scriptSuffix = sharedFragments.lMenu.slice(scriptStartIdx);
+      sharedFragments.lMenu = `${cssPrefix}\n${lMenuDynamicBody}\n${scriptSuffix}`;
+      console.log(`[lmenu] Spliced dynamic body into l-menu.html (${lMenuDynamicBody.length} chars).`);
+    } else {
+      console.warn('[lmenu] Could not locate </style>/<script> boundaries in l-menu.html — leaving static body in place.');
+    }
+  }
   // Route candidates come exclusively from the in-code route registry so
   // the build has a single source of truth. The static `source/.../static/
   // sitemap.xml` is no longer parsed (and no longer copied to dist) - the
@@ -107,6 +138,8 @@ async function main() {
       isStaging,
       rewriteInternalContent,
       sitemapDynamicBody,
+      guidesHubDynamicBody,
+      homeSearchData,
     });
     await writeOutput(outputPathForRoute(route), html);
     if (canonical) {
@@ -199,7 +232,7 @@ async function loadRelatedToolsData(staticAssetsRootPath) {
   }
 }
 
-async function renderRoute(route, { jspIndex, sharedFragments, relatedToolsData, canonicalOrigin, basePath, isStaging, rewriteInternalContent, sitemapDynamicBody }) {
+async function renderRoute(route, { jspIndex, sharedFragments, relatedToolsData, canonicalOrigin, basePath, isStaging, rewriteInternalContent, sitemapDynamicBody, guidesHubDynamicBody, homeSearchData }) {
   const normalizedRoute = normalizeRoute(route);
 
   if (Object.prototype.hasOwnProperty.call(ALIAS_ROUTES, normalizedRoute)) {
@@ -239,6 +272,34 @@ async function renderRoute(route, { jspIndex, sharedFragments, relatedToolsData,
   // dynamic body computed once in main() wins here.
   if (normalizedRoute === '/sitemap.html' && sitemapDynamicBody) {
     pageData.bodyHtml = sitemapDynamicBody;
+  }
+  // /guides.html hub body is build-generated from GUIDE_ROUTES so it never
+  // falls out of sync with the actual published guides. The static
+  // `BODYHTMLguides.html` fragment is a placeholder; the dynamic body
+  // computed once in main() wins here.
+  if (normalizedRoute === '/guides.html' && guidesHubDynamicBody) {
+    pageData.bodyHtml = guidesHubDynamicBody;
+  }
+  // Homepage: splice live counts + dynamic datalist into BODYHTML.html.
+  // 3 surgical replacements preserve all surrounding hero/bento markup.
+  // If a regex misses (e.g. operator restructured the hero), leave the
+  // static value in place and emit a console.warn — no silent breakage.
+  if (normalizedRoute === '/' && homeSearchData && pageData.bodyHtml) {
+    const { toolCount, guideCount, totalCount, datalistInnerHTML } = homeSearchData;
+    const taglineRe = /(\d+)\s+fast tools/;
+    const placeholderRe = /placeholder="Search \d+ tools - try ([^"]*)"/;
+    const datalistRe = /<datalist id="home-tool-list">[\s\S]*?<\/datalist>/;
+    let next = pageData.bodyHtml;
+    let hit = 0;
+    if (taglineRe.test(next)) { next = next.replace(taglineRe, `${toolCount} fast tools + ${guideCount} guides`); hit++; }
+    if (placeholderRe.test(next)) { next = next.replace(placeholderRe, `placeholder="Search ${totalCount} tools and guides - try $1"`); hit++; }
+    if (datalistRe.test(next)) { next = next.replace(datalistRe, `<datalist id="home-tool-list">\n${datalistInnerHTML}\n      </datalist>`); hit++; }
+    if (hit === 3) {
+      pageData.bodyHtml = next;
+      console.log(`[home-search] Spliced into / bodyHtml: ${toolCount}+${guideCount}=${totalCount}.`);
+    } else {
+      console.warn(`[home-search] Only ${hit}/3 regex hits on / bodyHtml — leaving static values in place. Check BODYHTML.html structure.`);
+    }
   }
   // Per-page "last modified" stamp from git history of this page's CMS
   // fragments + JSP wrapper. Drives Schema.org dateModified (JSON-LD +
