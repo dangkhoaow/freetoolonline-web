@@ -320,6 +320,12 @@ export const INFO_ROUTES = new Set([
   '/guides/md5-decrypt-online.html',
   // Cycle 20260520-17 — "md5 hash decrypt" dictionary-attack-feasibility guide.
   '/guides/md5-hash-decrypt.html',
+  // Cycle 20260523 P50.H create_new_guide_page — "md5 password" reader-intent
+  // guide. Frames the hashing intent (one-way MD5 of a password string) and
+  // routes the password-recovery cohort to the MD5-alternatives guide. Honors
+  // cycle 30/35/40/43/44 decrypt-md5 cannibalisation guard: NOT titled or
+  // framed as "decrypt md5 password". Outbound link to /md5-converter.html.
+  '/guides/md5-password.html',
   '/guides/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html',
   '/guides/json-vs-yaml-vs-toml-config-formats-explained.html',
   '/guides/css-minifier-vs-uglifier-vs-tree-shaking.html',
@@ -823,10 +829,22 @@ export const INFO_ROUTES = new Set([
   // N/A because this is a net-new GUIDE route, not a modification of an indexed
   // tool URL.
   '/guides/zipar-pasta.html',
+  // Cycle 20260522-10 P10.E create_new_guide_page - "comprimir arquivo zip"
+  // Lane-D guide (zip cluster, Portuguese). Implementing tool /zip-file.html.
+  // GSC 361 imp / 14 clicks / pos 9.99 / CTR 3.88% / opportunity_score 34.72.
+  // Disambiguation between "create a new zip" and "shrink an existing zip"
+  // (deflate already removes redundancy on first pass). Tier-A protocol N/A.
+  '/guides/comprimir-arquivo-zip.html',
   // Cycle 20260520-11 new_guide_page_proposal (developer cluster):
   // implementing tool /js-unminifier.html. GSC 545 imp / 3 clicks /
   // pos 10.12 / CTR 0.55% / opportunity_score 53.55.
   '/guides/unminify-js.html',
+  // Cycle 20260523-3 (cycle 50) create_new_guide_page - "crop and rotate image"
+  // Lane-D guide (image-editing cluster). Implementing tool /crop-image.html.
+  // GSC "crop and rotate image" 223 imp / 23 clicks / pos 6.13 / CTR 10.31% /
+  // opportunity_score 32.65. Kebab slug passes URL convention regex; smashed
+  // form "cropandrotateimage" does not shadow any existing primary route.
+  '/guides/crop-and-rotate-image.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -1252,6 +1270,9 @@ export const GUIDE_ROUTES = new Set([
   // form "zipunlockeronline" is unique). Complete single-cycle ship per cycle
   // 20260514-5 contract.
   '/guides/zip-unlocker-online.html',
+  // Cycle 20260523-3 (cycle 50) create_new_guide_page - "crop and rotate image"
+  // Lane-D guide (image-editing cluster, companion to /crop-image.html).
+  '/guides/crop-and-rotate-image.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -1601,6 +1622,19 @@ export const JSP_BY_ROUTE = {
   // indexed tool URL), so the staged-rollout one-URL-per-deploy constraint does
   // not apply to net-new guide additions in the cluster.
   '/guides/zipar-pasta.html': 'guide/zipar-pasta.jsp',
+  // Cycle 20260522-10 P10.E create_new_guide_page - "comprimir arquivo zip"
+  // Lane-D guide (zip cluster, Portuguese - "comprimir arquivo zip" = compress
+  // zip file/archive). GSC 28d 361 imp / 14 clicks / pos 9.99 / CTR 3.88% /
+  // opportunity_score 34.72. Implementing tool /zip-file.html. Disambiguation
+  // guide between two reader tasks: (a) create a new .zip from a file/folder
+  // and (b) reduce the size of an existing .zip (deflate already removes
+  // redundancy on the first pass; <1% gain on a second pass). Sister to
+  // /guides/compactar-pasta.html (Portuguese, folder-first intent) and
+  // /guides/comprimir-pasta-zipada.html (Portuguese, re-compress an existing
+  // zipped folder). Kebab slug passes regex; smashed form "comprimirarquivozip"
+  // does not shadow any existing primary route. Tier-A protocol N/A — net-new
+  // guide route, not a modification of an indexed tool URL.
+  '/guides/comprimir-arquivo-zip.html': 'guide/comprimir-arquivo-zip.jsp',
   // Cycle 20260520-11 new_guide_page_proposal (developer cluster):
   // companion to /js-unminifier.html.
   '/guides/unminify-js.html': 'guide/unminify-js.jsp',
@@ -1750,6 +1784,13 @@ export const JSP_BY_ROUTE = {
   '/guides/md5-decrypt-online.html': 'guide/md5-decrypt-online.jsp',
   // Cycle 20260520-17 create_new_guide_page — "md5 hash decrypt" narrow-frame guide on dictionary-attack vs rainbow-table feasibility. Distinct angle from the existing 7 MD5 guides (md5-decrypt-online = wording routing, why-md5-cannot-be-decrypted = cryptographic math, md5-decode = vocabulary distinguish, md5-alternatives = recommendation, md5-to-text = why-cannot-convert-back, md5-vs-sha256 = algorithm comparison, read-and-compare = verification). New angle: the practical feasibility question - "for the hash I have right now, will a dictionary attack actually find the input?" Append-only on every existing surface.
   '/guides/md5-hash-decrypt.html': 'guide/md5-hash-decrypt.jsp',
+  // Cycle 20260523 P50.H create_new_guide_page — "md5 password" reader-intent guide.
+  // Distinct angle from the 8 existing MD5 guides: this one frames the hashing intent
+  // (one-way MD5 of a password string for checksum / fingerprint use) and explicitly
+  // routes the password-storage cohort to /guides/md5-alternatives-bcrypt-argon2id-...
+  // Honors cycle 30/35/40/43/44 decrypt-md5 cannibalisation guard: NOT titled or
+  // framed as "decrypt md5 password". Implementing tool: /md5-converter.html.
+  '/guides/md5-password.html': 'guide/md5-password.jsp',
   '/guides/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html': 'guide/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.jsp',
   '/guides/json-vs-yaml-vs-toml-config-formats-explained.html': 'guide/json-vs-yaml-vs-toml-config-formats-explained.jsp',
   '/guides/css-minifier-vs-uglifier-vs-tree-shaking.html': 'guide/css-minifier-vs-uglifier-vs-tree-shaking.jsp',
@@ -1895,6 +1936,8 @@ export const JSP_BY_ROUTE = {
   '/guides/current-millis.html': 'guide/current-millis.jsp',
   // Cycle 20260522-9 (cycle 48) P48.H new_guide_page_proposal - /guides/zip-unlocker-online.html (companion to /remove-zip-password.html)
   '/guides/zip-unlocker-online.html': 'guide/zip-unlocker-online.jsp',
+  // Cycle 20260523-3 (cycle 50) create_new_guide_page - /guides/crop-and-rotate-image.html (companion to /crop-image.html, image-editing cluster)
+  '/guides/crop-and-rotate-image.html': 'guide/crop-and-rotate-image.jsp',
 };
 
 export function normalizeRoute(route) {
