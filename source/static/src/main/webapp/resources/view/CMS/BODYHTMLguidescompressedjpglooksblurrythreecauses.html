@@ -14,7 +14,7 @@
     <p><em>Last reviewed 2026-05-03. You compressed a JPG to make it smaller and the result looks blurry, blocky, or pixelated. This guide names the three common causes, gives a one-line fix per cause, and shows a 30-second side-by-side test to figure out which one you hit.</em></p>
 
     <div class="w3-panel w3-pale-green w3-leftbar w3-border-green">
-        <p style="margin-bottom: 0;"><b>30-second answer.</b> The compression quality dropped below 50, OR the source you compressed was already a JPG re-saved several times, OR the source had been upscaled to a larger resolution before you compressed it. Re-compress the original at quality 70-85 with <a href="/image-tools/compress-image.html">a JPG / PNG / WebP image compressor</a> and the result usually goes back to looking normal.</p>
+        <p style="margin-bottom: 0;"><b>30-second answer.</b> The compression quality dropped below 50, OR the source you compressed was already a JPG re-saved several times, OR the source had been upscaled to a larger resolution before you compressed it. Re-compress the original at quality 70-85 with <a href="/image-tools/compress-image.html">a JPG / PNG / WebP image compressor</a> and the result usually goes back to looking normal. If you can spare another 30 seconds, open the original and the compressed copy side by side at 100% zoom: blocky patches in flat areas point to the quality value, speckle noise on fine textures points to repeated re-encodes, and wavy edges or smeared straight lines point to an upscaled source.</p>
     </div>
 
     <h2 class="text-uppercase"><b>Cause 1: compression quality was too aggressive</b></h2>
@@ -24,6 +24,7 @@
     <h2 class="text-uppercase"><b>Cause 2: the source was already a JPG, re-saved multiple times</b></h2>
     <p>Every JPG re-encode loses information; re-encoding a JPG that has already been compressed amplifies the blocking and chroma artifacts from the previous round. If you saved the photo from a chat app, then dragged it into a presentation, then exported the presentation, then ran the export through an image compressor, the file you fed to the compressor was a third- or fourth-generation JPG. Each generation built on top of the previous one's artifacts.</p>
     <p><b>Fix.</b> Find the original. On an iPhone, the original is usually a HEIC file in the Camera Roll - export the HEIC, then compress that, not a JPG that was sent through Messages or WhatsApp. The guide <a href="/guides/iphone-photo-format-explained-heic-jpg-png-raw.html">iPhone photo format explained: HEIC, JPG, PNG, RAW</a> shows where each format lives. On a desktop, look for the camera RAW (.CR2, .NEF, .ARW) or the first-generation JPG straight from the camera, not the version embedded in a Word document or a PDF export.</p>
+    <p>The hard rule for a re-saved Messenger or WhatsApp JPG: the lost detail cannot be recovered. Locate the iPhone HEIC original or the camera RAW (.CR2 / .NEF / .ARW) and compress that instead - any other path just hides the artifacts, it does not recover the pixels.</p>
     <p>If the original is genuinely lost and the only copy you have is a re-saved JPG, the artifacts cannot be removed - only hidden. Compressing at high quality (90+) will not reintroduce the lost detail; the right move is to use the re-saved JPG at the resolution it was actually shot, not enlarge it back to the original size.</p>
 
     <h2 class="text-uppercase"><b>Cause 3: the source was upscaled before you compressed it</b></h2>
@@ -38,6 +39,8 @@
         <li><b>Straight edges and sharp corners:</b> if edges look <b>wavy, smeared, or "stairstepped"</b>, the cause is <b>upscaled source (Cause 3)</b>. Compress at the original resolution.</li>
     </ul>
     <p>If you see all three at once, the source was probably both upscaled AND re-saved several times - the fix is to find the original-resolution, first-generation copy and compress only that.</p>
+
+    <p>Keep the three-line mnemonic handy for the next time you do this check at 100 percent zoom: flat-colour blocking points to a quality value that was too low, speckle-noise on fine textures points to repeated re-encodes, and wavy edges or smeared straight lines point to an upscaled source. The 30-second side-by-side narrows the blur to one cause every time, and the right fix follows from the matching cue rather than from trying every compressor setting in sequence.</p>
 
     <h2 class="text-uppercase"><b>FAQ</b></h2>
     <details class="faq-item">
