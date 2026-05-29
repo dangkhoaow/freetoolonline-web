@@ -859,6 +859,10 @@ export const INFO_ROUTES = new Set([
   '/guides/vi/convert-milliseconds-to-date.html',
   '/guides/id/convert-milliseconds-to-date.html',
   '/guides/de/convert-milliseconds-to-date.html',
+  // plan-warm-pascal-v3 S2 batch 3 (2026-05-29) - 5 locale variants × 3 guides
+  '/guides/pt/lcd-screen-test.html', '/guides/es/lcd-screen-test.html', '/guides/vi/lcd-screen-test.html', '/guides/id/lcd-screen-test.html', '/guides/de/lcd-screen-test.html',
+  '/guides/pt/hd-video-converter-when.html', '/guides/es/hd-video-converter-when.html', '/guides/vi/hd-video-converter-when.html', '/guides/id/hd-video-converter-when.html', '/guides/de/hd-video-converter-when.html',
+  '/guides/pt/json-formatter-when.html', '/guides/es/json-formatter-when.html', '/guides/vi/json-formatter-when.html', '/guides/id/json-formatter-when.html', '/guides/de/json-formatter-when.html',
 
   // 2026-05-28 plan-warm-pascal-v2 S1 multilingual migration (locale-prefixed guide URLs).
   '/guides/pt/compress-folder.html', // pt canonical of /guides/compactar-pasta.html
@@ -897,6 +901,10 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/convert-milliseconds-to-date.html',
   '/guides/id/convert-milliseconds-to-date.html',
   '/guides/de/convert-milliseconds-to-date.html',
+  // plan-warm-pascal-v3 S2 batch 3 (2026-05-29) - 5 locale variants × 3 guides
+  '/guides/pt/lcd-screen-test.html', '/guides/es/lcd-screen-test.html', '/guides/vi/lcd-screen-test.html', '/guides/id/lcd-screen-test.html', '/guides/de/lcd-screen-test.html',
+  '/guides/pt/hd-video-converter-when.html', '/guides/es/hd-video-converter-when.html', '/guides/vi/hd-video-converter-when.html', '/guides/id/hd-video-converter-when.html', '/guides/de/hd-video-converter-when.html',
+  '/guides/pt/json-formatter-when.html', '/guides/es/json-formatter-when.html', '/guides/vi/json-formatter-when.html', '/guides/id/json-formatter-when.html', '/guides/de/json-formatter-when.html',
   '/guides/en/heic-vs-jpg-vs-webp.html',
   '/guides/en/dead-pixel-testing-guide.html',
   '/guides/en/unix-timestamps-explained.html',
@@ -2224,6 +2232,22 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/convert-milliseconds-to-date.html': 'guide/vi/convert-milliseconds-to-date.jsp',
   '/guides/id/convert-milliseconds-to-date.html': 'guide/id/convert-milliseconds-to-date.jsp',
   '/guides/de/convert-milliseconds-to-date.html': 'guide/de/convert-milliseconds-to-date.jsp',
+  // plan-warm-pascal-v3 S2 batch 3 (2026-05-29) - 5 locale variants × 3 guides
+  '/guides/pt/lcd-screen-test.html': 'guide/pt/lcd-screen-test.jsp',
+  '/guides/es/lcd-screen-test.html': 'guide/es/lcd-screen-test.jsp',
+  '/guides/vi/lcd-screen-test.html': 'guide/vi/lcd-screen-test.jsp',
+  '/guides/id/lcd-screen-test.html': 'guide/id/lcd-screen-test.jsp',
+  '/guides/de/lcd-screen-test.html': 'guide/de/lcd-screen-test.jsp',
+  '/guides/pt/hd-video-converter-when.html': 'guide/pt/hd-video-converter-when.jsp',
+  '/guides/es/hd-video-converter-when.html': 'guide/es/hd-video-converter-when.jsp',
+  '/guides/vi/hd-video-converter-when.html': 'guide/vi/hd-video-converter-when.jsp',
+  '/guides/id/hd-video-converter-when.html': 'guide/id/hd-video-converter-when.jsp',
+  '/guides/de/hd-video-converter-when.html': 'guide/de/hd-video-converter-when.jsp',
+  '/guides/pt/json-formatter-when.html': 'guide/pt/json-formatter-when.jsp',
+  '/guides/es/json-formatter-when.html': 'guide/es/json-formatter-when.jsp',
+  '/guides/vi/json-formatter-when.html': 'guide/vi/json-formatter-when.jsp',
+  '/guides/id/json-formatter-when.html': 'guide/id/json-formatter-when.jsp',
+  '/guides/de/json-formatter-when.html': 'guide/de/json-formatter-when.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
