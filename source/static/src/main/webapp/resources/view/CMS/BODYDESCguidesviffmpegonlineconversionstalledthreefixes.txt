@@ -1,0 +1,1 @@
+Chuyen doi FFmpeg bi dung? Ba nguyen nhan pho bien - gioi han bo nho trinh duyet, tab nen, codec khong ho tro - moi cai co cach khac phuc va test 30 giay.

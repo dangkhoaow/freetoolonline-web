@@ -1,0 +1,1 @@
+Doc thoi gian hien tai bang mili giay ke tu epoch Unix trong trinh duyet, sao chep cho dong log hoac goi API, va tranh nham lan 10-chu-so-vs-13-chu-so giay-vs-mili-giay.

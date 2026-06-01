@@ -1,0 +1,74 @@
+<style>
+    details.faq-item { margin: 8px 0; border-bottom: 1px solid #e0e0e0; padding: 6px 0; }
+    details.faq-item > summary { list-style: none; cursor: pointer; padding: 8px 0 8px 28px; position: relative; font-weight: 600; }
+    details.faq-item > summary::-webkit-details-marker { display: none; }
+    details.faq-item > summary::before { content: '▸'; position: absolute; left: 8px; top: 8px; transition: transform 0.15s ease; color: #555; font-size: 0.9em; }
+    details.faq-item[open] > summary::before { transform: rotate(90deg); }
+    details.faq-item > summary:hover { color: #1a73e8; }
+    details.faq-item > p, details.faq-item > div { padding: 0 8px 8px 28px; margin: 0; }
+</style>
+<div class="w3-container w3-margin-top">
+    <h1 class="text-uppercase"><b>Test camera vs test webcam vs test chat luong camera - ban thuc su can cai nao?</b></h1>
+    <p><em>Cap nhat lan cuoi: 2026-05-03. Ba thuat ngu, ba bo kiem tra khac nhau. Test camera nhin vao phan cung dien thoai - ong kinh truoc va sau, man trap, motor lay net tu dong. Test webcam them lop he dieu hanh - quyen trinh duyet, thiet bi dau vao dung duoc chon, tat tieng he thong. Test chat luong camera nhin vao chinh buc hinh - tieu cu, phoi sang, can bang mau, nhieu. Huong dan nay neu ten nhung gi moi test thuc su kiem tra, khi nao moi cai la diem khoi dau dung, va lien ket den cong cu chay chan doan dung.</em></p>
+
+    <div class="w3-panel w3-pale-green w3-leftbar w3-border-green">
+        <p style="margin-bottom: 0;"><b>Dap an 30 giay.</b> Neu ung dung camera tren dien thoai khong mo, xem truoc den, hoac nut man trap khong lam gi, chay <a href="/device-test-tools/camera-test.html">test camera</a> - no tai ong kinh truoc roi ong kinh sau qua trinh duyet va xac nhan moi cai tra ve khung truc tiep. Neu ban tham gia cuoc goi Zoom/Meet/Teams va o video trong trong khi camera dien thoai van hoat dong tot, van de o muc laptop hoac desktop (quyen trinh duyet, cong tac rieng tu he dieu hanh, thiet bi sai duoc chon) - chay cung <a href="/device-test-tools/camera-test.html">test camera</a> trong trinh duyet ban dung cho cuoc goi. Neu camera hoat dong nhung hinh anh mo, toi, hoac sai mau, do la van de <i>chat luong</i>, khong phai van de phan cung, va huong dan di kem <a href="/guides/vi/how-to-check-camera-quality-on-your-phone.html">cach kiem tra chat luong camera tren dien thoai</a> la diem khoi dau dung.</p>
+    </div>
+
+    <h2 class="text-uppercase"><b>Test camera thuc su kiem tra cai gi</b></h2>
+    <p>Test camera la chan doan muc phan cung cho ong kinh, cam bien, man trap, va duong lay net tu dong. Nguoi doc mo trang test, cap quyen camera cho trinh duyet, va trang tai ong kinh truoc truoc, sau do ong kinh sau. Diem la xac nhan moi ong kinh vat ly tra ve khung truc tiep. Trieu chung test camera lo ra: xem truoc den (cam bien khong toi duoc trinh duyet), khung dong bang (xung dot driver hoac ung dung giu ong kinh), xem truoc mo khong bao gio ro (motor lay net tu dong ket), huong ong kinh sai (truoc thay vi sau, hoac nguoc lai), loi "dang duoc ung dung khac su dung" (ung dung nen giu camera), va tren mot so thiet bi cong tac man trap phan cung chan ong kinh vat ly.</p>
+    <p>Test camera <b>khong</b> cham diem hinh anh. No se pass tren dien thoai co lay net tu dong ket hoi lech neu xem truoc van doc duoc; se pass tren dien thoai co can bang mau sai neu khung chi xuat hien. Cau hoi no tra loi la nhi phan: ong kinh co cho ra hinh anh nao khong? Huong dan di kem <a href="/guides/vi/camera-test-shows-black-screen-four-fixes.html">test camera hien man hinh den - bon cach khac phuc</a> di qua bon ly do pho bien nhat khien test camera that bai trong viec tao xem truoc.</p>
+
+    <h2 class="text-uppercase"><b>Test webcam them gi</b></h2>
+    <p>Test webcam rong hon: bao gom cac kiem tra test camera o tren VA lop he dieu hanh / trinh duyet ma webcam nam sau. Tren laptop hoac desktop, camera la mot trong nhieu dau vao (webcam tich hop, webcam USB, camera ao tu OBS hoac Snap Camera) va he dieu hanh / trinh duyet quyet dinh cai nao duoc hien thi va trang co duoc phep doc no khong. Duong tin hieu bao gom cap quyen theo-trang trong trinh duyet (Chrome / Edge / Safari / Firefox moi cai luu khac nhau), toggle rieng tu cap he dieu hanh (macOS Cai dat He thong &gt; Quyen rieng tu &amp; Bao mat &gt; Camera; Windows Cai dat &gt; Quyen rieng tu &amp; bao mat &gt; Camera; iOS Cai dat &gt; Quyen rieng tu &gt; Camera), bo chon thiet bi ben trong tab trinh duyet (menu bieu tuong khoa cua Chrome cho phep chon webcam nao dang hoat dong), va cong tac man trap cap firmware tren mot so nap laptop.</p>
+    <p>Trieu chung test webcam bat ma test camera dien thoai bo qua: webcam hoat dong khong hien trong tab cuoc hop vi trinh duyet dang dung camera tich hop cua laptop, quyen bi tu choi mot lan va gio ket o "bi chan", camera ao tu OBS bat dau vao truoc, cong tac rieng tu laptop (phim F voi bieu tuong camera) ngat ket noi ong kinh vat ly. Van de webcam thuong keo dai qua nhieu trang - test tren hai trinh duyet khac nhau (Chrome va Firefox), test voi ho so sach, va test tren cung trang tu thiet bi khac de co lap xem nguyen nhan la webcam, ho so trinh duyet, hay trang. Huong dan di kem <a href="/guides/vi/how-to-check-webcam-and-microphone-before-an-interview.html">cach kiem tra webcam va microphone truoc phong van</a> di qua checklist truoc cuoc goi.</p>
+
+    <h2 class="text-uppercase"><b>Test chat luong camera them gi len tren</b></h2>
+    <p>Test chat luong camera la rong nhat trong ba. No gia dinh ong kinh hoat dong (test camera pass) va he dieu hanh / trinh duyet cho phep trang doc no (test webcam pass). Sau do no cham diem hinh anh theo bon truc: <b>tieu cu</b> (motor lay net tu dong co dap vao chu the va o do, hay san toi lui tren khung tinh?), <b>phoi sang</b> (trong anh sang trong nha binh thuong, khung co du sang de khuon mat khong phai bong den, va khong qua sang den muc vung sang bi chay?), <b>can bang mau</b> (trang co thuc su la trang, hay khung co tong xanh la/xanh duong/vang duoi den phong?), va <b>nhieu</b> (trong phong toi hon, khung co giu sach hay tan thanh nhieu mau?).</p>
+    <p>Trieu chung chi test chat luong camera bat: dien thoai co lay net tu dong tu tu troi khoi chu the moi vai giay, webcam co tu dong phoi sang vuot va dap sang roi toi moi khung, camera laptop tao tong vang nang duoi anh sang huynh quang, camera sau co san nhieu tot nhung camera truoc khong su dung duoc trong bat ky phong nao toi hon anh sang ban ngay day du. Nhung thu nay khong lien quan den viec ong kinh co hoat dong khong; test camera tren dien thoai co can bang mau te se pass sach se vi xem truoc hien ra. Huong dan di kem <a href="/guides/vi/how-to-check-camera-quality-on-your-phone.html">cach kiem tra chat luong camera tren dien thoai</a> di qua tung truc voi test 30 giay.</p>
+
+    <h2 class="text-uppercase"><b>Cay quyet dinh 30 giay</b></h2>
+    <p>Khop trieu chung ban dang thay - xem truoc den, o webcam trong trong cuoc goi video, hinh mo hoac tong mau sai - voi cai nao trong ba test bat duoc dau tien. Test camera van dung phan cung ong kinh tu dau den cuoi, ong kinh truoc roi ong kinh sau; test webcam bao gom lop he dieu hanh va quyen trinh duyet nam giua ong kinh va trang trong tab cuoc hop; test chat luong camera cham diem hinh anh theo tieu cu, phoi sang, mau, va nhieu mot khi ban da biet hai lop thap hon hoat dong. Danh sach duoi day anh xa bon nhom trieu chung pho bien den test khoi dau dung:</p>
+    <ol>
+        <li><b>Ung dung camera hoac xem truoc trinh duyet khong hien hinh anh nao</b> (hinh chu nhat den, khung dong bang, loi "dang duoc ung dung khac dung", tai ong kinh sai) &rarr; chay <a href="/device-test-tools/camera-test.html">test camera</a>. Trang tai ong kinh truoc roi sau va xac nhan moi cai dua khung truc tiep trong duoi mot phut.</li>
+        <li><b>Camera dien thoai ban hoat dong nhung o webcam laptop hoac desktop trong trong cuoc goi video</b> (Zoom / Meet / Teams hien o den hoac "khong phat hien camera") &rarr; chay cung <a href="/device-test-tools/camera-test.html">test camera</a> trong cung trinh duyet ban dung cho cuoc goi. Neu test thay webcam, trang cuoc goi co quyen theo-trang bi tu choi hoac thiet bi sai duoc chon. Neu test KHONG thay webcam, kiem tra toggle rieng tu he dieu hanh va cong tac man trap laptop truoc.</li>
+        <li><b>Camera hoat dong nhung hinh anh sai</b> (tieu cu mem khong khoa duoc, khung qua toi hoac qua sang, mau sai, nhieu nang trong phong toi) &rarr; do la van de chat luong. Phan cung pass test camera; cham diem hinh anh o <a href="/guides/vi/how-to-check-camera-quality-on-your-phone.html">cach kiem tra chat luong camera tren dien thoai</a>.</li>
+        <li><b>Khong chac bat dau tu cai nao</b> &rarr; bat dau voi <a href="/device-test-tools/camera-test.html">test camera</a>. Do la nhanh nhat trong ba de chay, loai tru that bai dat nhat (tra lai phan cung), va cac mo hinh cung tiet lo mot so van de lop webcam (quyen chua bao gio duoc cap se hien ra nhu yeu cau quyen truoc khi bat ky xem truoc nao tai).</li>
+    </ol>
+
+    <h2 class="text-uppercase"><b>Cau hoi thuong gap</b></h2>
+    <details class="faq-item">
+  <summary>"Kiem tra camera" co giong "test camera" khong?</summary>
+  <p>"Kiem tra camera" la cach noi thong tuc ma hau het doc gia dung; nhan ky thuat la "test camera". Ca hai cum tu co nghia cung chan doan muc phan cung - tai ong kinh, xac nhan khung truc tiep tro ve. Mot so trang dung "kiem tra camera" co nghia tu-kiem tra mot giay ("toi co the thay minh khong?"), va "test camera" co nghia chay day du hon tai ca hai ong kinh; tren trang nay trang hanh dong <a href="/device-test-tools/camera-test.html">test camera</a> xu ly ca hai.</p>
+</details>
+
+    <details class="faq-item">
+  <summary>Test camera co bat duoc driver webcam te tren Windows hay macOS khong?</summary>
+  <p>Doi khi. Driver da sap hoan toan se hien la that bai "khong tim thay camera" hoac thiet bi ma trinh duyet khong the liet ke; test camera se bao cao khong co xem truoc va chan doan cap he dieu hanh la buoc tiep theo. Driver cu nhung van hoat dong (vi du gioi han 720p khi webcam ho tro 1080p) se pass test camera vi khung van den - su khong khop do phan giai la van de chat luong, khong phai van de phan cung. Neu test camera pass nhung ban nghi driver, cap nhat driver camera tu Device Manager (Windows) hoac System Information &gt; USB (macOS) va test lai.</p>
+</details>
+
+    <details class="faq-item">
+  <summary>Toi sap tham gia phong van - toi chay test nao?</summary>
+  <p>Chay test camera truoc de xac nhan ong kinh hoat dong, sau do test webcam trong dung trinh duyet ma cuoc hop se dung de xac nhan quyen va lua chon thiet bi dung, sau do test chat luong camera neu cuoc goi dung video trong thoi gian dai (khung tieu cu mem trong phong van mot gio doc te hon khung sac net). Checklist truoc cuoc goi trong huong dan di kem <a href="/guides/vi/how-to-check-webcam-and-microphone-before-an-interview.html">cach kiem tra webcam va microphone truoc phong van</a> bao gom trinh tu day du bao gom microphone.</p>
+</details>
+
+    <details class="faq-item">
+  <summary>Tai sao camera truoc hien hinh khac voi camera sau trong test?</summary>
+  <p>Ong kinh khac nhau. Hau het dien thoai ship camera sau voi cam bien lon hon, khau do lon hon, on dinh hinh anh quang hoc, va duong lay net tu dong tien tien hon; camera truoc thuong co cam bien nho hon va tieu cu co dinh toi uu cho khuon mat o khoang cach canh tay. Test camera pass ca hai mien la moi ong kinh dua khung; su khac biet hinh anh la su khac biet chat luong (camera sau se hien nhieu chi tiet hon va it nhieu hon trong cung anh sang). Huong dan di kem ve chat luong thao luan cac truc ban co the so sanh.</p>
+</details>
+
+    <details class="faq-item">
+  <summary>Moi test nen mat bao lau?</summary>
+  <p>Test camera: khoang ba muoi den sau muoi giay (xem truoc ong kinh truoc, xem truoc ong kinh sau, xac nhan moi cai truc tiep). Test webcam: hai den nam phut neu ban kiem tra quyen trong hai trinh duyet, toggle rieng tu he dieu hanh, va cong tac man trap laptop. Test chat luong camera: nam den muoi phut neu ban cham tieu cu, phoi sang, mau, va nhieu trong hai dieu kien anh sang khac nhau (trong nha binh thuong + phong toi hon). Chay theo thu tu do de ban khong danh muoi phut cham mau tren webcam hoa ra bi chan quyen.</p>
+</details>
+
+    <h2 class="text-uppercase"><b>Lien quan</b></h2>
+    <ul>
+        <li><a href="/device-test-tools/camera-test.html">Test Camera</a> - kiem tra xem truoc muc phan cung ong kinh truoc + sau.</li>
+        <li><a href="/guides/vi/camera-test-shows-black-screen-four-fixes.html">Test camera hien man hinh den - bon cach khac phuc</a> - chan doan phan ung khi xem truoc khong bao gio xuat hien.</li>
+        <li><a href="/guides/vi/how-to-check-camera-quality-on-your-phone.html">Cach kiem tra chat luong camera tren dien thoai</a> - huong dan cham diem chat luong theo truc.</li>
+        <li><a href="/guides/vi/how-to-check-webcam-and-microphone-before-an-interview.html">Cach kiem tra webcam va microphone truoc phong van</a> - checklist truoc cuoc goi bao gom quyen he dieu hanh / trinh duyet.</li>
+        <li><a href="/guides/vi/device-test-checklist-for-remote-work.html">Checklist kiem tra thiet bi cho lam viec tu xa</a> - checklist rong hon man hinh + camera + microphone + ban phim.</li>
+        <li><a href="/guides/vi/lcd-test-vs-display-test-which-do-you-need.html">Test LCD vs test hien thi vs test man hinh - cai nao?</a> - cung khuon mau phan biet cho chan doan man hinh.</li>
+    </ul>
+</div>

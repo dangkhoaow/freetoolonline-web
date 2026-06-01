@@ -1,0 +1,1 @@
+Tai sao xem truoc webcam dao nguoc chu va video da ghi thuong khong. Quy trinh kiem chung 30 giay cong cac buoc tat mirror chinh xac cho OBS, Zoom, Google Meet va Microsoft Teams.

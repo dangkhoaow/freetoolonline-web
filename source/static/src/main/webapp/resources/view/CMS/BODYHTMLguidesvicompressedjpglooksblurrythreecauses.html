@@ -1,0 +1,81 @@
+<style>
+    details.faq-item { margin: 8px 0; border-bottom: 1px solid #e0e0e0; padding: 6px 0; }
+    details.faq-item > summary { list-style: none; cursor: pointer; padding: 8px 0 8px 28px; position: relative; font-weight: 600; }
+    details.faq-item > summary::-webkit-details-marker { display: none; }
+    details.faq-item > summary::before { content: '▸'; position: absolute; left: 8px; top: 8px; transition: transform 0.15s ease; color: #555; font-size: 0.9em; }
+    details.faq-item[open] > summary::before { transform: rotate(90deg); }
+    details.faq-item > summary:hover { color: #1a73e8; }
+    details.faq-item > p, details.faq-item > div { padding: 0 8px 8px 28px; margin: 0; }
+</style>
+<div class="w3-container w3-margin-top">
+    <h1 class="text-uppercase"><b>JPG Da Nen Trong Mo? Ba Nguyen Nhan (va Cach Khac Phuc Nhanh)</b></h1>
+    <p><em>Cap nhat lan cuoi: 2026-05-03. Ban nen JPG de lam nho va ket qua trong mo, vo khoi hoac lom dom. Huong dan nay neu ten ba nguyen nhan pho bien, dua ra cach khac phuc mot dong cho moi nguyen nhan, va cho thay bai kiem tra song song 30 giay de biet ban gap cai nao.</em></p>
+
+    <div class="w3-panel w3-pale-green w3-leftbar w3-border-green">
+        <p style="margin-bottom: 0;"><b>Dap an 30 giay.</b> Chat luong nen giam duoi 50, HOAC nguon ban nen da la JPG duoc luu lai vai lan, HOAC nguon da duoc upscale len do phan giai lon hon truoc khi ban nen. Nen lai ban goc o chat luong 70-85 bang <a href="/image-tools/compress-image.html">trinh nen anh JPG / PNG / WebP</a> va ket qua thuong tro lai binh thuong. Neu co the danh them 30 giay, mo ban goc va ban sao da nen song song o zoom 100%: mang vo khoi o vung phang chi ra gia tri chat luong, nhieu lom dom tren ket cau min chi ra ma hoa lai nhieu lan, va canh gon song hoac duong thang mo chi ra nguon da upscale.</p>
+    </div>
+
+    <h2 class="text-uppercase"><b>Nguyen nhan 1: chat luong nen qua gat</b></h2>
+    <p>Chat luong nen JPG chay tren thang do phi tuyen. Chat luong 90 trong giong ban goc ve mat thi giac tren hau het anh. Chat luong 70 bat dau gioi thieu mot chut vo khoi o vung mau phang nhung van chap nhan duoc cho web. Chat luong 50 trong mem ro ret; chat luong 30 trong vo khoi o bau troi / da / cat va hau het doc gia se goi ket qua la "mo". Neu cong cu cua ban mac dinh gia tri chat luong thap (mot so trinh nen truc tuyen mac dinh 50 hoac tham chi 30 de quang cao giam kich thuoc tep dang ke), dau ra se trong te hon can thiet.</p>
+    <p><b>Khac phuc.</b> Nen lai cung nguon o chat luong 70-85. Hau het anh trong tot o chat luong 80 va giam xuong khoang mot phan ba kich thuoc goc; chat luong 85 la lua chon an toan hon khi anh co chi tiet min nhu toc hoac vai. Huong dan <a href="/guides/vi/compress-jpeg-without-losing-quality-quality-vs-size.html">nen JPEG khong mat chat luong - chat luong vs kich thuoc</a> di qua bang quyet dinh chu dong chat-luong-vs-kich-thuoc neu ban muon chon gia tri truoc khi nen, khong phai sau.</p>
+
+    <h2 class="text-uppercase"><b>Nguyen nhan 2: nguon da la JPG, duoc luu lai nhieu lan</b></h2>
+    <p>Moi lan ma hoa lai JPG deu mat thong tin; ma hoa lai JPG da duoc nen lam khuech dai nhieu vo khoi va chroma tu vong truoc. Neu ban luu anh tu ung dung chat, sau do keo vao bai thuyet trinh, sau do xuat bai thuyet trinh, sau do chay ban xuat qua trinh nen anh, tep ban cho vao trinh nen la JPG the he thu ba hoac thu tu. Moi the he xay dung tren dau nhieu cua the he truoc.</p>
+    <p><b>Khac phuc.</b> Tim ban goc. Tren iPhone, ban goc thuong la tep HEIC trong Camera Roll - xuat HEIC, sau do nen cai do, khong phai JPG duoc gui qua Messages hay WhatsApp. Huong dan <a href="/guides/vi/iphone-photo-format-explained-heic-jpg-png-raw.html">dinh dang anh iPhone giai thich: HEIC, JPG, PNG, RAW</a> cho thay moi dinh dang nam o dau. Tren may tinh, tim RAW camera (.CR2, .NEF, .ARW) hoac JPG the he dau thang tu camera, khong phai phien ban nhung trong tai lieu Word hay xuat PDF.</p>
+    <p>Quy tac cung cho JPG duoc luu lai tu Messenger hoac WhatsApp: chi tiet da mat khong the khoi phuc. Dinh vi HEIC goc iPhone hoac RAW camera (.CR2 / .NEF / .ARW) va nen cai do thay vi - bat ky con duong nao khac chi giau nhieu, khong khoi phuc pixel.</p>
+    <p>Neu ban goc thuc su bi mat va ban sao duy nhat ban co la JPG duoc luu lai, nhieu khong the loai bo - chi co the che giau. Nen o chat luong cao (90+) se khong dua lai chi tiet da mat; cach di chuyen dung la dung JPG duoc luu lai o do phan giai no thuc su duoc chup, khong phong to no ve kich thuoc goc.</p>
+
+    <h2 class="text-uppercase"><b>Nguyen nhan 3: nguon duoc upscale truoc khi ban nen</b></h2>
+    <p>Upscaling - lay anh rong 1080 px va lay mau lai thanh 4K, vi du - bia pixel bang cach noi suy giua ban goc. Nen JPG sau do nhom pixel thanh cac khoi DCT 8x8 va luong tu hoa chung; khi pixel dau vao tu no la phong doan noi suy, buoc luong tu hoa gom chung thanh chao. Ket qua trong "mem" hoac "mo", voi canh thang bien thanh gon song va ket cau min bien thanh mau xam dong deu.</p>
+    <p><b>Khac phuc.</b> Nen o do phan giai GOC. Neu ban can tep nho o do phan giai cao, cach tiep can dung la nguoc lai: giu do phan giai goc, nen o chat luong 75-85, va de trinh duyet hoac cong cu slide thu nho o thoi diem hien thi. Trinh duyet thu nho sac net; upscaling o thoi diem nen va sau do thu nho o thoi diem hien thi chong hai buoc mat du lieu ma khong co loi ich. Neu ban thuc su can phien ban do phan giai cao hon cua ban goc nho, trinh upscale AI (cong cu rieng, khong phai trinh nen JPG) la cong cu dung - chung ao giac chi tiet mot cach nhat quan thay vi de nen JPG lam mo.</p>
+
+    <p>Phien ban ngan nhat cua quy tac: nen o do phan giai GOC, va de trinh duyet thu nho o thoi diem hien thi. Chong upscale truoc nen va downscale khi hien thi la hai buoc mat du lieu ma khong co loi ich nhin thay - downscale thu hai khong the khoi phuc chi tiet ma upscale dau tien bia, va bo luong tu hoa JPG thay ca hai pixel noi suy o giua. Mot lan o do phan giai goc, sau do downscale CSS hoac thuoc tinh width tai trang, la con duong giu anh sac net.</p>
+
+    <h2 class="text-uppercase"><b>Xac dinh nguyen nhan nao trong ba nguyen nhan mo JPG ap dung cho anh cua ban (so sanh thi giac 30 giay)</b></h2>
+    <p>Mo JPG goc va ket qua nen song song o zoom 100% (anh xa pixel mot-mot; KHONG de trinh duyet vua cua so). Sau do nhin vao ba vung de khoanh vung mo vao Nguyen nhan 1 (chat luong qua thap), Nguyen nhan 2 (ma hoa lai), hoac Nguyen nhan 3 (nguon upscale):</p>
+    <ul>
+        <li><b>Vung mau phang (bau troi, da, tuong):</b> neu ban thay <b>mang vo khoi 8x8</b> hoac banding, nguyen nhan la <b>chat luong qua thap (Nguyen nhan 1)</b>. Nen lai o chat luong 80+.</li>
+        <li><b>Ket cau min (toc, vai, tan la):</b> neu ban thay <b>nhieu lom dom khong co trong phien ban truoc</b>, nguyen nhan la <b>ma hoa lai nhieu lan (Nguyen nhan 2)</b>. Tim nguon the he som hon.</li>
+        <li><b>Canh thang va goc sac:</b> neu canh trong <b>gon song, mo, hay "bac thang"</b>, nguyen nhan la <b>nguon upscale (Nguyen nhan 3)</b>. Nen o do phan giai goc.</li>
+    </ul>
+    <p>Neu ban thay ca ba cung luc, nguon co le vua upscale VUA duoc luu lai vai lan - cach khac phuc la tim ban sao do phan giai goc, the he dau va chi nen cai do.</p>
+
+    <p>Giu cau than chu ba dong trong tay cho lan tiep theo ban lam kiem tra nay o zoom 100 phan tram: vo khoi o mau phang chi ra gia tri chat luong qua thap, nhieu lom dom tren ket cau min chi ra ma hoa lai nhieu lan, va canh gon song hoac duong thang mo chi ra nguon upscale. Kiem tra song song 30 giay thu hep mo thanh mot nguyen nhan moi lan, va cach khac phuc dung theo sau tu tin hieu khop thay vi thu moi cai dat trinh nen theo trinh tu.</p>
+
+    <p>Khi ban biet nguyen nhan, hai cu nhap tiep theo nam trong phan Lien quan ngay ben duoi. Route <a href="/image-tools/compress-image.html">/image-tools/compress-image.html</a> la cong cu hanh dong sua tep truoc mat ban hom nay. Huong dan <a href="/guides/vi/compress-jpeg-without-losing-quality-quality-vs-size.html">/guides/vi/compress-jpeg-without-losing-quality-quality-vs-size.html</a> la nguoi dong hanh chu dong chon chat luong truoc khi ban nen, nen kiem tra song song ma bai nay vua di qua tro nen khong can thiet o anh tiep theo.</p>
+
+    <h2 class="text-uppercase"><b>Cau hoi thuong gap</b></h2>
+    <details class="faq-item">
+  <summary>Tai sao chat luong JPG 90 van gioi thieu nhieu nhin thay tren anh chup man hinh cua toi?</summary>
+  <p>JPG duoc thiet ke cho anh tu nhien; no khong xu ly tot canh cung (chu, anh chup UI, nghe thuat duong) ngay ca o chat luong 95. Cho anh chup man hinh, luu la PNG thay vao do - PNG la khong mat du lieu va thuong nho hon cho noi dung kieu anh chup. Huong dan <a href="/guides/vi/jpg-vs-png-for-web.html">JPG vs PNG cho web</a> bao gom khi nao moi dinh dang thang.</p>
+</details>
+
+    <details class="faq-item">
+  <summary>Con WebP / AVIF lam thay the JPG thi sao?</summary>
+  <p>WebP o chat luong 80 nho hon JPG chat luong 80 khoang 25-35% voi cung chat luong thi giac. AVIF nho hon nua o cung chat luong. Neu muc tieu phan phoi cua ban ho tro chung (trinh duyet hien dai co), chung la nang cap nghiem tuc hon JPG. Huong dan <a href="/guides/vi/heic-vs-jpg-vs-webp.html">HEIC vs JPG vs WebP</a> so sanh ba dinh dang ve chat luong, ho tro, va kich thuoc tep.</p>
+</details>
+
+    <details class="faq-item">
+  <summary>Nen hai lan o chat luong 90 co bang nen mot lan o chat luong 80?</summary>
+  <p>Khong - hieu ung khac nhau. Hai vong chat luong 90 dap o khoang chat luong 81 ve kich thuoc nhung gioi thieu nhieu nhieu vo khoi hon mot lan di chat luong-80, vi moi vong luong tu hoa lai. Mot lan di o chat luong dung luon vuot qua hai lan di o chat luong rieng le cao hon cho cung kich thuoc cuoi.</p>
+</details>
+
+    <details class="faq-item">
+  <summary>Do phan giai dung cho JPG phan phoi web la gi?</summary>
+  <p>Cho anh hero rong day du, 1600-2400 pixel rong la du - trinh duyet thu nho; nguon khong can la 4K. Cho hinh thu nho, 400-800 pixel rong. Cho anh noi dung, 800-1200 pixel rong. Ket hop do phan giai dung voi chat luong 75-85 va ban thuong se thang kich thuoc tep cua bat ky thanh truot chat luong nao tren nguon qua lon.</p>
+</details>
+
+    <details class="faq-item">
+  <summary>Toi co the "lam ro" JPG nen da mo khong?</summary>
+  <p>Khong thuc su - thong tin bi mat la mat roi. Cong cu lam sac AI co the doan chi tiet, nhung phong doan la bia, khong phai khoi phuc. Cach khac phuc dang tin cay la tim ban goc va nen cai do; neu ban goc thuc su bi mat, chap nhan kich thuoc ban co va tranh luu lai ket qua.</p>
+</details>
+
+    <h2 class="text-uppercase"><b>Lien quan</b></h2>
+    <ul>
+        <li><a href="/image-tools/compress-image.html">Trinh Nen Anh</a> - cong cu hanh dong de nen anh JPG, PNG, va WebP o chat luong / do phan giai ban chon.</li>
+        <li><a href="/guides/vi/compress-jpeg-without-losing-quality-quality-vs-size.html">Nen JPEG khong mat chat luong - chat luong vs kich thuoc</a> - huong dan dong hanh chu dong; chon gia tri chat luong dung TRUOC khi ban nen.</li>
+        <li><a href="/guides/vi/iphone-photo-format-explained-heic-jpg-png-raw.html">Dinh dang anh iPhone giai thich: HEIC, JPG, PNG, RAW</a> - tim ban goc iPhone (HEIC) thay vi nen JPG da luu lai.</li>
+        <li><a href="/guides/vi/heic-vs-jpg-vs-webp.html">HEIC vs JPG vs WebP</a> - so sanh dinh dang cho phan phoi web.</li>
+        <li><a href="/guides/vi/jpg-vs-png-for-web.html">JPG vs PNG cho web</a> - khi nao JPG la dinh dang dung va khi nao PNG (hoac WebP) la.</li>
+    </ul>
+</div>

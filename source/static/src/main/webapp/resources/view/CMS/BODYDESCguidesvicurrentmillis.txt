@@ -1,0 +1,1 @@
+Millis hien tai nghia la ket qua Date.now() tra ve ngay bay gio - mot so nguyen 13 chu so dem mili giay tu epoch Unix. Cach doc, sao chep va chuyen doi nguoc thanh ngay de doc.

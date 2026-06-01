@@ -1,0 +1,103 @@
+<style>
+    details.faq-item { margin: 8px 0; border-bottom: 1px solid #e0e0e0; padding: 6px 0; }
+    details.faq-item > summary { list-style: none; cursor: pointer; padding: 8px 0 8px 28px; position: relative; font-weight: 600; }
+    details.faq-item > summary::-webkit-details-marker { display: none; }
+    details.faq-item > summary::before { content: '▸'; position: absolute; left: 8px; top: 8px; transition: transform 0.15s ease; color: #555; font-size: 0.9em; }
+    details.faq-item[open] > summary::before { transform: rotate(90deg); }
+    details.faq-item > summary:hover { color: #1a73e8; }
+    details.faq-item > p, details.faq-item > div { padding: 0 8px 8px 28px; margin: 0; }
+</style>
+<div class="w3-container w3-margin-top">
+    <h1 class="text-uppercase"><b>Checklist Kiem Tra Thiet Bi cho Lam Viec Tu Xa (2026)</b></h1>
+    <p><em>Cap nhat lan cuoi: 2026-04-24. Tat ca tam bai test deu chay trong trinh duyet, khong cai dat, khong dang ky, va khong co du lieu roi khoi thiet bi.</em></p>
+
+    <div class="w3-panel w3-pale-green w3-leftbar w3-border-green">
+        <p style="margin-bottom: 0;"><b>Dap an 30 giay.</b> Truoc cuoc goi khach hang, phong van, hoac hop toan cong ty: chay <b>kiem tra nhanh 60 giay</b> (camera + mic + dau ra am thanh). Truoc khi phan cung moi den hoac cua so tra hang dong: chay <b>kiem tra day du 5 phut</b> (tat ca 8 bai test). Ca hai duong deu dan toi cung 4 cong cu trinh duyet va 2 huong dan di kem - khac biet duy nhat la ban chay bao nhieu.</p>
+    </div>
+
+    <h2 class="text-uppercase"><b>Tai sao chay kiem tra thiet bi truoc cuoc hop tu xa</b></h2>
+    <p>Chi phi mot su co thiet bi trong qua trinh lam viec tu xa la bat doi xung. Camera rot, mic tat, phim ket, hoac pixel laptop vua chet - bat ky dieu nao trong so nay lam trat banh hai phut dau cua cuoc goi, va trong boi canh phong van va khach hang do la cua so dinh hinh toan bo an tuong. Cach khac phuc la mot luong nho thoi gian tien-cat canh doi chieu voi danh sach cac thu thuc su fail.</p>
+    <p>Cac bai test duoi day bao gom bon che do su co phan cung pho bien nhat khi lam viec tu xa: <b>camera</b> (quyen, khung hinh, anh sang yeu), <b>microphone</b> (quyen, muc dau vao, tieng on nen), <b>man hinh</b> (diem anh chet, do dong deu mau, burn-in OLED), va <b>ban phim / dau vao</b> (phim ket, N-key rollover, trang thai Fn-lock). Moi bai test chay trong trinh duyet, nen ket qua co the tai tao tren dung chiec may se tham gia cuoc hop - khong co bat ngo "no hoat dong tren laptop khac cua toi".</p>
+
+    <h2 class="text-uppercase"><b>Checklist kiem tra thiet bi 8 diem</b></h2>
+    <p>Moi hang lien ket truc tiep den cong cu hoac huong dan chay bai kiem tra do. In dieu nay mot lan, danh dau cac cong cu, va chay theo thu tu.</p>
+    <table class="w3-table w3-striped w3-bordered w3-padding">
+        <thead><tr><th style="padding: 6px;">#</th><th style="padding: 6px;">Kiem tra</th><th style="padding: 6px;">Cong cu / huong dan</th><th style="padding: 6px;">Thoi gian muc tieu</th></tr></thead>
+        <tbody>
+            <tr><td style="padding: 6px;">1</td><td style="padding: 6px;">Quyen camera + khung hinh + xem truoc anh sang yeu</td><td style="padding: 6px;"><a href="/device-test-tools/camera-test.html">Test Camera</a></td><td style="padding: 6px;">15 giay</td></tr>
+            <tr><td style="padding: 6px;">2</td><td style="padding: 6px;">Quyen microphone + muc dau vao (dong ho dB)</td><td style="padding: 6px;"><a href="/device-test-tools/microphone-test.html">Test Microphone</a></td><td style="padding: 6px;">15 giay</td></tr>
+            <tr><td style="padding: 6px;">3</td><td style="padding: 6px;">Kiem tra dau ra am thanh qua phat video</td><td style="padding: 6px;"><a href="/guides/how-to-check-webcam-and-microphone-before-an-interview.html">Huong dan Webcam + Mic truoc phong van</a></td><td style="padding: 6px;">30 giay</td></tr>
+            <tr><td style="padding: 6px;">4</td><td style="padding: 6px;">Diem anh chet LCD + do dong deu den nen</td><td style="padding: 6px;"><a href="/device-test-tools/lcd-test.html">Test LCD</a></td><td style="padding: 6px;">60 giay</td></tr>
+            <tr><td style="padding: 6px;">5</td><td style="padding: 6px;">Phuong phap diem anh chet + quy tac bao hanh</td><td style="padding: 6px;"><a href="/guides/dead-pixel-testing-guide.html">Huong dan test diem anh chet</a></td><td style="padding: 6px;">doc mot lan</td></tr>
+            <tr><td style="padding: 6px;">6</td><td style="padding: 6px;">Phim ket ban phim + N-key rollover + trang thai Fn-lock</td><td style="padding: 6px;"><a href="/device-test-tools/keyboard-test.html">Test Ban phim</a></td><td style="padding: 6px;">45 giay</td></tr>
+            <tr><td style="padding: 6px;">7</td><td style="padding: 6px;">Man hinh thu hai / chuyen sang monitor ngoai (neu dung)</td><td style="padding: 6px;"><a href="/device-test-tools/lcd-test.html">Test LCD</a> (mo tren man hinh thu hai)</td><td style="padding: 6px;">30 giay</td></tr>
+            <tr><td style="padding: 6px;">8</td><td style="padding: 6px;">Diem anh chet man hinh tren phan cung moi - truoc khi cua so tra hang dong</td><td style="padding: 6px;"><a href="/guides/how-to-test-for-dead-pixels-before-returning-a-monitor.html">Cach test diem anh chet truoc khi tra man hinh</a></td><td style="padding: 6px;">doc mot lan</td></tr>
+        </tbody>
+    </table>
+
+    <h2 class="text-uppercase"><b>Kiem tra day du vs kiem tra nhanh - cai nao bay gio?</b></h2>
+    <p>Hai duong quan trong trong thuc te:</p>
+    <ul>
+        <li><b>Kiem tra nhanh 60 giay</b> (muc 1, 2, 3). Lam dieu nay 90 giay truoc khi ban tham gia. Bat cac loi "mic tat," "camera bi Zoom chan" va "am thanh phat ra loa sai" lam trat banh ~80% cac van de cua 2 phut dau cuoc goi.</li>
+        <li><b>Kiem tra day du 5 phut</b> (ca 8 muc). Lam dieu nay mot lan sau khi mo hop phan cung moi, sau ban cap nhat lon cua he dieu hanh, sau khi tra ve sua chua bao hanh, hoac ngay dau tien cua hop dong moi. Ba phut them bat cac phim ket, diem anh chet, va chuyen sang man hinh ngoai ma duong nhanh bo qua.</li>
+    </ul>
+    <p>Trong thuc te, nguoi lam viec tu xa chay kiem tra nhanh theo thoi quen bat duoc khoang 80% cac che do su co voi 15% no luc; kiem tra day du la bao hiem hang-thang-hoac-sau-su-kien bat duoc 20% con lai.</p>
+
+    <h2 class="text-uppercase"><b>Chay kiem tra day du 5 phut theo thu tu</b></h2>
+    <ol>
+        <li><b>Test Camera</b> - mo trang, cap quyen trinh duyet, xac nhan xem truoc hien thi khung hinh ban mong doi (khong phai tran nha, khong phai bong cua so, khong phai the tren day deo).</li>
+        <li><b>Test Microphone</b> - cap quyen mic, noi mot cau binh thuong, xac nhan dong ho dB sang ma khong dinh thanh clipping.</li>
+        <li><b>Dau ra am thanh</b> - phat mot clip am thanh ngan qua cung tab trinh duyet; xac nhan no dinh tuyen den loa ban du dinh. Neu ban co tai nghe Bluetooth, ngat ket noi va ket noi lai truoc (di chung Bluetooth la nguyen nhan #1 cua "am thanh cua toi khong hoat dong").</li>
+        <li><b>Test LCD</b> - lap toan man hinh mau trang / den / do / xanh la / xanh duong dac. Tim cac bat thuong diem anh don va ri den nen khong deu.</li>
+        <li><b>Test Ban phim</b> - nhan tung phim theo thu tu (hang tren, hang giua, hang duoi, roi phim bo tro). Kiem tra hop am to hop ba ngon neu ban choi game hay code nang (kiem tra N-key rollover).</li>
+        <li><b>Man hinh thu hai</b> - keo tab Test LCD sang man hinh ngoai va lap lai. Diem anh chet thuong chi xuat hien tren mot tam.</li>
+    </ol>
+
+    <h2 class="text-uppercase"><b>Dung kiem tra nhanh 60 giay truoc cuoc hop</b></h2>
+    <p>Thoi quen truoc cuoc goi thuc su duoc dung:</p>
+    <ol>
+        <li>Mo <a href="/device-test-tools/camera-test.html">Test Camera</a> trong tab moi - xac nhan xem truoc + dong.</li>
+        <li>Chuyen sang <a href="/device-test-tools/microphone-test.html">Test Microphone</a> - noi mot loi chao, xem dong ho dB.</li>
+        <li>Chuyen sang bat ky ung dung cuoc goi video nao ban dung (Zoom, Google Meet, Teams). Tham gia o che do tat tieng; bat tieng khi ban da duoc gioi thieu.</li>
+    </ol>
+    <p>Buoc thu ba quan trong: tham gia o che do tat tieng va bat tieng duoi kiem soat cua ban tranh kich ban cuoc goi bat tieng tho sau truoc-cuoc-goi cua ban. Moi cuu chien binh lam viec tu xa deu co cau chuyen; day la cach khac phuc.</p>
+
+    <h2 class="text-uppercase"><b>Khi nao uu tien thiet bi nao (am thanh vs video vs dau vao)</b></h2>
+    <p>Thu tu uu tien cho khac phuc su co giua cuoc goi:</p>
+    <ul>
+        <li><b>Am thanh truoc, luon luon.</b> Cuoc goi co the tiep tuc khong co video; no khong the tiep tuc khong co am thanh. Neu mic fail, chuyen sang quay so dien thoai; neu loa fail, chuyen sang tai nghe.</li>
+        <li><b>Video thu hai.</b> Neu camera fail, xin loi mot lan, tiep tuc bang giong noi. Hau het cuoc hop song sot voi nguoi tham gia tat camera; it cuoc hop song sot voi nguoi tham gia im lang.</li>
+        <li><b>Dau vao (ban phim / chuot) thu ba.</b> Ban co the quay ve ban phim dien thoai qua ung dung Teams / Zoom di dong neu ban phim chinh cua ban chet giua cuoc goi. Giu ung dung duoc cai dat lam du phong.</li>
+    </ul>
+
+    <h2 class="text-uppercase"><b>Mua hoac tra lai phan cung: kiem tra gi truoc khi cua so tra hang dong</b></h2>
+    <p>Cua so tra lai man hinh va laptop thuong la 14-30 ngay. Checklist day du 5 phut bat hau het cac loi san xuat trong cua so do; kiem tra quan trong:</p>
+    <ul>
+        <li><b>Diem anh chet LCD.</b> Chay <a href="/device-test-tools/lcd-test.html">Test LCD</a> toan man hinh tren moi mau dac. Xem <a href="/guides/dead-pixel-testing-guide.html">huong dan test diem anh chet</a> cho nguong nha san xuat (hau het nguoi ban yeu cau 3+ diem anh ket thanh cum truoc khi ton trong viec tra lai bao hanh).</li>
+        <li><b>Phim ban phim ket.</b> Ban phim moi voi mot phim chet re hon de tra lai ngay lap tuc so voi song chung trong ba thang.</li>
+        <li><b>Firmware camera.</b> Mot so webcam tich hop ship voi firmware bi bug ma Windows Update sua trong vong 48 gio ke tu lan khoi dong dau tien. Test lai sau chu ky Windows Update dau tien.</li>
+        <li><b>Test rieng cho man hinh</b> - xem <a href="/guides/how-to-test-for-dead-pixels-before-returning-a-monitor.html">cach test diem anh chet truoc khi tra man hinh</a> cho quy trinh tung buoc cua so tra hang.</li>
+    </ul>
+
+    <h2 class="text-uppercase"><b>Cau hoi thuong gap</b></h2>
+
+    <details class="faq-item">
+  <summary><b>Bai test nao thuc su bat duoc su co trong lam viec tu xa thuc te?</b></summary>
+  <p>Theo kinh nghiem (tu log ho tro lam viec tu xa va danh gia nguyen nhan goc sau su co), trang thai quyen camera va microphone dan ~80% cac ticket "co gi do hong", cac van de LCD / diem anh chet dan ~10%, cac van de ban phim dan ~5%, va phan con lai la cap mang / he dieu hanh. Vay duong nhanh (muc 1-3) bat hau het cac van de. Duong day du la bao hiem bao-hanh-va-onboarding.</p>
+</details>
+<details class="faq-item">
+  <summary><b>Toi co the chay checklist nay tu trinh duyet ma khong cai phan mem khong?</b></summary>
+  <p>Co. Moi bai test trong checklist chay trong trinh duyet hien dai (Chrome, Edge, Safari, Firefox) qua WebRTC getUserMedia API (camera / microphone) hoac DOM toan man hinh tieu chuan (LCD / ban phim). Cac cong cu khong tai len hay luu tru bat ky du lieu nao; xem truoc camera va dong ho microphone hoan toan cuc bo. Cho lop canh giac them, chay tu cua so rieng tu / an danh - dieu do co lap trang thai ho so trinh duyet va dam bao khong co tien ich nao can thiep.</p>
+</details>
+<details class="faq-item">
+  <summary><b>Toi lam gi neu chinh sach IT cong ty han che quyen camera hoac microphone?</b></summary>
+  <p>Chinh sach laptop duoc quan ly (ho so MDM, Intune, Jamf) co the chan getUserMedia o cap he dieu hanh hoac trinh duyet. Ba tuyen: (a) yeu cau IT dua mien cu the vao danh sach trang cho cac bai test dua-tren-trinh-duyet; (b) chay bai test tu chinh ung dung cong ty ban dung cho cuoc goi (Zoom / Teams / Meet co bai test camera + mic trong ung dung ton trong danh sach cho phep MDM); (c) dung laptop ca nhan cho xac minh phan cung mot-lan khi mua, sau do tin cay laptop duoc quan ly cho luong cong viec hang ngay. Dung tat kiem soat IT; luon lam viec voi doi IT.</p>
+</details>
+<details class="faq-item">
+  <summary><b>Toi nen chay lai checklist day du thuong xuyen the nao?</b></summary>
+  <p>Cho nguoi lam viec tu xa da thiet lap tren phan cung on dinh: mot lan moi quy, hoac sau bat ky cap nhat he dieu hanh lon nao (cap nhat tinh nang Windows, phat hanh thuong nien macOS, ban nang cap lon ChromeOS), hoac sau bat ky thay doi thiet bi ngoai vi moi nao. Kiem tra day du cung dang chay o dau mot cam ket khach hang moi - no cho du lieu de chia se khi van de xuat hien ("LCD sach vao 2026-04-24; diem anh chet xuat hien vao 2026-05-18; trong cua so bao hanh"). Kiem tra nhanh la thoi quen truoc cuoc hop, khong phai nhiem vu theo lich.</p>
+</details>
+<h2 class="text-uppercase"><b>Tom tat</b></h2>
+    <p>Checklist thiet bi lam viec tu xa la 8 bai test dua-tren-trinh-duyet anh xa den bon danh muc phan cung. Chay duong nhanh 3 muc 60 giay truoc moi cuoc hop; chay duong day du 8 muc mot lan moi quy hoac tren phan cung moi. Moi cong cu va huong dan lien ket o tren deu mien phi, trong trinh duyet, va khong giu du lieu sau phien cua ban. Cho phuong phap sau hon tren bat ky cong cu don le nao, theo huong dan di kem lien ket trong hang do.</p>
+    <p>Bat dau voi <a href="/device-test-tools.html">tat ca cong cu test thiet bi</a> duoc danh dau cung; hoac nhay thang den <a href="/device-test-tools/camera-test.html">Test Camera</a> + <a href="/device-test-tools/microphone-test.html">Test Microphone</a> cho duong truoc-cuoc-hop 60 giay.</p>
+</div>

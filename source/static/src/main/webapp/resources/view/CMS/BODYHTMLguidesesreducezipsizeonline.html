@@ -1,0 +1,49 @@
+<article class="guide-body">
+  <h1>Reducir Tamaño Zip Online</h1>
+  <p class="lead"><i>Reducir tamaño zip online</i> es la redacción centrada en la reducción de tamaño para la misma tarea que realiza el creador de ZIP en el navegador en <a href="/zip-tools/zip-file.html">/zip-tools/zip-file.html</a>. El creador empaqueta un archivo, varios archivos o una carpeta entera (con las subcarpetas preservadas) en un solo <code>.zip</code> descargado en el navegador; que el archivo resulte más pequeño que los bytes de entrada depende de si esos bytes eran compresibles desde el principio.</p>
+  <p class="reviewed">Ultima revision: 2026-05-23</p>
+  <p class="byline">Revisado por el equipo editorial de FreetoolOnline</p>
+
+  <h2>Cuándo reducir tamaño realmente encoge el archivo</h2>
+  <figure class="illustration">
+    <img src="/img/illustrations/decision-tree-2branch/guidesreducirtamaoziponline__05a1404d.svg"
+         alt="Árbol de decisión para elegir si conviene zipar para reducir tamaño: sí para texto y código, no para fotos y vídeo."
+         loading="lazy"
+         width="480"
+         height="280">
+    <figcaption>La receta de cinco pasos para reducir tamaño zip empieza con esta elección: sí para texto, código, CSV, JSON (suelta o elige los archivos en la URL de la herramienta y haz clic en Zip); no para fotos, vídeo, MP3 y la mayoría de PDFs que la cámara o el códec ya comprimieron - esos bytes se ahorran en el lado de la entrada, no en la envoltura zip.</figcaption>
+  </figure>
+  <p>Un ZIP encoge las entradas solo cuando los bytes de entrada son compresibles. Texto plano, logs, CSV, JSON, código fuente y mapas de bits sin comprimir suelen bajar al 30-60% de su tamaño original cuando se zipan juntos porque DEFLATE colapsa los patrones largos repetidos dentro de esos formatos. Fotos en JPG, vídeo en MP4, audio en MP3 y la mayoría de PDFs ya fueron comprimidos al estilo DEFLATE cuando la cámara o el códec los grabaron; la envoltura ZIP solo añade un encabezado por archivo y termina dentro de un margen del 0-5% sobre los bytes de entrada. La reducción real vive en el lado de la entrada: agrupa los archivos compresibles en un mismo archivo y maneja la media ya comprimida por separado para la verdadera reducción.</p>
+
+  <table class="quick-facts">
+    <thead><tr><th>Propiedad</th><th>Valor</th></tr></thead>
+    <tbody>
+      <tr><td>Entradas</td><td>Un archivo, selección de varios archivos o una carpeta (con las subcarpetas preservadas)</td></tr>
+      <tr><td>Salida</td><td>Un archivo <code>.zip</code>, descargado en el navegador</td></tr>
+      <tr><td>Contraseña opcional</td><td>Cifrado Standard, AES-128 o AES-256</td></tr>
+      <tr><td>Manejo de datos</td><td>Subido por HTTPS, generado en el servidor, archivos de origen eliminados automáticamente tras una breve ventana de retención</td></tr>
+      <tr><td>Costo / instalación</td><td>Gratis, sin instalación ni registro</td></tr>
+      <tr><td>Herramienta de implementación</td><td><a href="/zip-tools/zip-file.html">/zip-tools/zip-file.html</a></td></tr>
+    </tbody>
+  </table>
+
+  <h2>Cómo reducir tamaño zip en tu navegador</h2>
+  <ol>
+    <li>Abre <a href="/zip-tools/zip-file.html">/zip-tools/zip-file.html</a>.</li>
+    <li>Suelta o elige los archivos (una carpeta también sirve; las subcarpetas se conservan).</li>
+    <li>Opcional: abre Configuración, define un nombre de archivo y agrega una contraseña más un método de cifrado si el archivo necesita viajar por un canal donde la contraseña se comparte aparte.</li>
+    <li>Haz clic en <b>Zip</b>. La página sube las entradas por HTTPS, genera el archivo en el servidor y muestra un enlace de descarga.</li>
+    <li>Guarda el <code>.zip</code>. Si pusiste una contraseña, envíala por un canal separado del archivo.</li>
+  </ol>
+
+  <h2>Otras redacciones para la misma tarea</h2>
+  <p>Quédate en esta URL cuando la redacción que escribiste fue <i>reducir tamaño zip online</i> y quieres el contexto de la relación tamaño/compresión enfocado en la pregunta de reducción. Abre <a href="/guides/pt/compress-zip-online.html">/guides/pt/compress-zip-online.html</a> cuando la redacción fue <i>comprimir zip online</i> - esa página cubre la misma tarea con la redacción de compresión. Abre <a href="/guides/en/compress-zip.html">/guides/en/compress-zip.html</a> para el contexto de la relación tamaño/compresión en inglés. Los tres guías enlazan con el mismo creador en el navegador en <a href="/zip-tools/zip-file.html">/zip-tools/zip-file.html</a>; la redacción que usaste elige qué guía se lee con más naturalidad pero nunca elige dónde se genera el archivo.</p>
+
+  <h2>Lectura relacionada</h2>
+  <ul>
+    <li><a href="/guides/pt/compress-zip-online.html">Comprimir zip online</a> - el guía hermano con redacción de compresión en portugués.</li>
+    <li><a href="/guides/es/compress-folder-to-zip-online-free.html">Comprimir carpeta zip online gratis</a> - la redacción centrada en la carpeta en español.</li>
+    <li><a href="/guides/en/compress-zip.html">When ZIP compression actually saves space</a> - el contexto de la relación tamaño/compresión en inglés.</li>
+    <li><a href="/zip-tools.html">Hub de herramientas ZIP</a> - herramientas hermanas (descomprimir, añadir/quitar contraseña, archivo con contraseña) para el resto del flujo ZIP.</li>
+  </ul>
+</article>

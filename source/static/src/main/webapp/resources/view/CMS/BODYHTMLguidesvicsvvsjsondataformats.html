@@ -1,0 +1,68 @@
+<div class="w3-container">
+<h1 class="text-uppercase"><b>CSV vs JSON - khi nao dung dinh dang du lieu nao</b></h1>
+<time itemprop="datePublished" datetime="2026-04-20T08:00:00Z"><b>Xuat ban ngay 20 thang 4, 2026</b></time>
+<hr/>
+
+<p class="lead">CSV va JSON la hai dinh dang trao doi du lieu ma gan nhu moi cong cu trong stack hien dai deu noi. CSV la hang va cot; JSON la doi tuong va mang long nhau. Su phan chia giua chung sac hon so voi ve ngoai: CSV mang tinh bang theo thiet ke, va bat cu dieu gi keo dan no (dau phay trong truong, du lieu long, o bi thieu) deu tro thanh bai toan phan tich cu phap. JSON mang tinh cau truc theo thiet ke, va bat cu dieu gi lam phang no (mot trieu ban ghi nguoi dung trong mot danh sach duy nhat) deu tro thanh bai toan bo nho. Huong dan nay bao gom co che, thuc te kich thuoc va toc do, va cac quyet dinh cu the xac dinh dinh dang nao thang cho moi truong hop su dung.</p>
+
+<br/><h2 class="text-uppercase"><b>Moi dinh dang thuc su la gi</b></h2>
+<p><b>CSV (gia tri phan tach bang dau phay)</b> la dinh dang van ban thuan: mot ban ghi tren moi dong, cac truong phan cach bang ky tu phan tach (dau phay, tab, cham phay, hoac ong), hang tieu de tuy chon, dat dau nhay quanh truong tuy chon. Khong co dac ta chinh thuc duy nhat - <a href="https://datatracker.ietf.org/doc/html/rfc4180">RFC 4180</a> da ma hoa tap con thong dung vao nam 2005, nhung CSV thuc te khac nhau ve dau phan tach, ky tu nhay, quy tac thoat, ma hoa, va viec lieu dong trong co duoc phep hay khong.</p>
+<p><b>JSON (JavaScript Object Notation)</b> la dinh dang co cau truc de quy: doi tuong (ban do khoa-gia tri), mang (danh sach co thu tu), chuoi, so, boolean, va null. Dac ta chinh thuc ngan (<a href="https://www.rfc-editor.org/rfc/rfc8259">RFC 8259</a>); moi ngon ngu hien dai deu co parser JSON trong thu vien chuan; kha nang tuong tac gan nhu pho quat.</p>
+
+<br/><h2 class="text-uppercase"><b>So sanh song song</b></h2>
+<div class="w3-responsive">
+<table class="w3-table-all w3-small">
+<tr><th>Thuoc tinh</th><th>CSV</th><th>JSON</th></tr>
+<tr><td>Hinh dang du lieu</td><td>Phang: hang va cot</td><td>Long nhau: cay doi tuong/mang tuy y</td></tr>
+<tr><td>Kieu</td><td>Moi thu la chuoi; kieu so / ngay suy luan luc parse</td><td>Chuoi, so, boolean, null goc; mang va doi tuong</td></tr>
+<tr><td>Kich thuoc tep (1M ban ghi don gian)</td><td>~60-80&nbsp;MB</td><td>~120-180&nbsp;MB (khoa lap lai moi ban ghi)</td></tr>
+<tr><td>Toc do parse (cung du lieu)</td><td>~200-400 MB/s streaming</td><td>~80-150 MB/s streaming (token hoa nghiem hon)</td></tr>
+<tr><td>Than thien streaming</td><td>Co - tung dong</td><td>Chi voi JSON Lines (mot doi tuong moi dong)</td></tr>
+<tr><td>Schema</td><td>Ngam qua hang tieu de</td><td>Tuy chon (JSON Schema) hoac ngam</td></tr>
+<tr><td>Du lieu long</td><td>Vung (lam phang thanh cot hoac nhung JSON vao o)</td><td>Goc</td></tr>
+<tr><td>Cong cu</td><td>Excel, Numbers, pandas, csvkit, moi co so du lieu</td><td>Stdlib moi ngon ngu, jq, moi API</td></tr>
+<tr><td>De doc cho nguoi</td><td>Rat (cac cot thang hang; mo trong bang tinh)</td><td>Co (neu pretty-print), day dac neu rut gon</td></tr>
+</table>
+</div>
+
+<br/><h2 class="text-uppercase"><b>Khi CSV thang</b></h2>
+<p><b>Du lieu dang bang voi schema on dinh.</b> Xuat nguoi dung tu co so du lieu, nhat ky giao dich, ho so dieu tra dan so, do analytics - bat cu thu gi tu nhien la hang va cot deu xuat nho hon va parse nhanh hon duoi dang CSV.</p>
+<p><b>Vong quay voi bang tinh.</b> Neu mot ben lien quan se mo tep trong Excel, Google Sheets, hoac Numbers, CSV la dinh dang quay vong khong bat ngo. JSON mo trong trinh soan thao van ban; it nguoi khong phai lap trinh vien doc duoc tep JSON 5.000 dong.</p>
+<p><b>Streaming bo du lieu lon.</b> Xu ly tep 10 GB mot hang tai mot thoi diem la cach dung pho bien trong CSV: doc mot dong, parse, phat ra, loai bo. JSON Lines dat duoc tuong tu, nhung JSON thuan (mot mang cap cao duy nhat) yeu cau ca tep trong bo nho de parse chinh xac.</p>
+<p><b>Tai vao data warehouse.</b> Moi warehouse (BigQuery, Snowflake, Redshift, DuckDB) deu co loader CSV duoc toi uu hoa. Loader JSON ton tai nhung thuong cham hon vi su mo ho ve hinh dang.</p>
+
+<br/><h2 class="text-uppercase"><b>Khi JSON thang</b></h2>
+<p><b>Du lieu long hoac phan cap.</b> Mot ban ghi nguoi dung voi danh sach don hang da qua, moi don hang voi danh sach dong hang, moi dong hang voi danh sach bien the - JSON dien dat dieu nay trong mot doi tuong; CSV doi hoi hoac khu chuan hoa (mot hang moi dong hang, tieu de lap lai) hoac chuoi JSON nhung trong o (te nhat cua ca hai dinh dang).</p>
+<p><b>API HTTP.</b> Moi API REST va GraphQL tren web hien dai deu tra ve JSON. Do la mac dinh. Dung tra CSV tu API tru khi nguoi goi yeu cau ro rang.</p>
+<p><b>Tep cau hinh.</b> Gia tri co kieu (boolean, null, so) quan trong trong cau hinh - CSV se doi phan tich moi truong thanh chuoi roi ep kieu, moi moc bug kieu. JSON giu kieu. YAML giu kieu va them chu thich - thuong la lua chon tot hon cho cau hinh do nguoi chinh.</p>
+<p><b>Ban ghi khong dong nhat.</b> Neu du lieu cua ban co truong tuy chon, hinh dang da hinh, hoac cac ban ghi voi schema khac nhau, su tu do cua JSON anh xa tu nhien; CSV ep thanh hop cua moi cot voi khoang trang noi truong vang mat.</p>
+
+<br/><h2 class="text-uppercase"><b>Trung gian: JSON Lines (NDJSON)</b></h2>
+<p><b>JSON Lines</b> (con goi NDJSON) la mot doi tuong JSON moi dong cua tep van ban:</p>
+<pre style="background:#0b1220;color:#dbe3f5;padding:12px;border-radius:var(--radius-sm, 4px);overflow:auto"><code>{"user":"alice","age":30,"tags":["admin","paid"]}
+{"user":"bob","age":25,"tags":["free"]}
+{"user":"carol","age":42,"tags":["paid"]}</code></pre>
+<p>No giu kieu va long nhau cua JSON dong thoi cho phep streaming tung dong nhu CSV. Hau het cong cu xu ly log, data warehouse, va bo xu ly stream chap nhan no nguyen ban. Chon JSON Lines khi ban can su linh hoat hinh dang cua JSON va tinh than thien streaming cua CSV.</p>
+
+<br/><h2 class="text-uppercase"><b>Cac bay thuong gap khi chon CSV</b></h2>
+<p><b>Dau phay trong truong.</b> Neu truong nao co the chua dau phay (dia chi, mo ta, ten san pham), truong phai duoc dat trong nhay. Parser ngay tho <code>split(',')</code> vo ngay. Dung parser CSV that (Python <code>csv</code>, Node <code>fast-csv</code>, Go <code>encoding/csv</code>).</p>
+<p><b>Ma hoa.</b> Excel tren Windows mac dinh UTF-16 LE voi BOM; hau het cong cu mong doi UTF-8. Luon chi dinh ma hoa khi xuat; them BOM UTF-8 neu tuong tac Excel quan trong.</p>
+<p><b>Dinh dang ngay.</b> "2026-04-20" va "04/20/2026" deu mo ho neu khong co vung. Uu tien ISO 8601 (<code>YYYY-MM-DDTHH:mm:ss.sssZ</code>) va ghi ro mui gio. Xem <a href="/guides/vi/unix-timestamps-explained.html">huong dan unix timestamps</a> cua chung toi cho phuong an epoch.</p>
+<p><b>Dong moi duoi + BOM.</b> Mot so trinh ghi CSV them ca hai; mot so parser am tham them mot ban ghi trong hoac truong khong doc duoc. Kiem tra vong quay tren mau dai dien.</p>
+
+<br/><h2 class="text-uppercase"><b>Chuyen doi giua cac dinh dang</b></h2>
+<p>Chuyen doi trong trinh duyet kha thi cho tep nho toi trung binh. De kiem tra cau truc JSON, <a href="/developer-tools.html">hub cong cu lap trinh vien</a> cua chung toi lien ket toi jsonparser, text-diff va trinh rut gon. Cho CSV, dung <code>pandas.read_csv</code> / <code>pandas.to_json</code> cuc bo cho tep &gt; 100 MB; bo nho trinh duyet gioi han chuyen doi o khoang 500 MB moi tab trong thuc te.</p>
+
+<br/><h2 class="text-uppercase"><b>Quy tac quyet dinh CSV vs JSON trong mot cau</b></h2>
+<p>Neu hang cua ban vua mot dong tieu de duy nhat cac ten cot va nguoi dung bang tinh it nhat co the nam o phia sau, gui CSV - dinh dang nay la mau so chung thap nhat ma moi cong cu BI, moi loader co so du lieu, va Excel co the an vao khong can code. Neu hang nao can doi tuong long, mang, hoac so / boolean / null co kieu duoc giu qua vong quay, gui JSON, va chuyen sang JSON Lines (`.jsonl`) khi tep du lon de mot mang cap cao duy nhat se buoc nguoi tieu thu phai tai toan bo tai lieu vao bo nho mot lan. Hai dinh dang khong hoan doi: CSV mat kieu va long nhau o dau ra, va JSON dac them phu thuoc parser ma nhom bang tinh co the khong co o dau vao.</p>
+
+<br/><h2 class="text-uppercase"><b>Cong cu lien quan</b></h2>
+<ul>
+    <li><a href="/developer-tools/text-diff.html">Text Diff</a> - so sanh hai xuat CSV hoac JSON.</li>
+    <li><a href="/developer-tools/text-html-editor.html">Trinh soan Text / HTML</a> - dan va ket xuat dau ra da dinh dang.</li>
+    <li><a href="/developer-tools/js-minifier.html">Trinh rut gon JavaScript</a> - nen ma san sinh JSON.</li>
+    <li><a href="/developer-tools/md5-converter.html">Trinh chuyen doi MD5</a> - dau van tay tep du lieu da xuat.</li>
+</ul>
+
+<p><br/><a href="/developer-tools.html">&larr; Quay lai Cong cu Lap trinh vien</a></p>
+</div>

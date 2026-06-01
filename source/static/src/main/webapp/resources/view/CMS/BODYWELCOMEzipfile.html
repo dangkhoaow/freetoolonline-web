@@ -1,3 +1,12 @@
+<!--
+  DEPRECATED 2026-05-31 (plan-warm-pascal-v3 S3.9).
+  The /zip-file.html route is now in ALIAS_ROUTES (301 to /zip-tools/zip-file.html).
+  This BODYWELCOME fragment is no longer rendered into dist/ - page-renderer.mjs
+  emits the alias redirect page for /zip-file.html instead. The content is
+  preserved here for git history but is unreachable from production traffic.
+  Canonical welcome content for the implementing tool lives at
+  source/static/.../CMS/BODYWELCOMEziptoolszipfile.html.
+-->
 <h1 class="text-uppercase"><b>Free Online Zip File Compressor - Efficiently Compress and Secure Your Folders</b></h1>
 <time itemprop="dateUpdated" datetime="2024-11-13T15:26:21"><b>Last updated: Nov 13, 2024</b></time>
 <hr/>
@@ -16,7 +25,7 @@
     <li><b>Browser-Based Tool:</b> Works directly from your browser, no software installation required.</li>
 </ul>
 
-<p><br/>With this free online tool, you can manage your files more effectively, compress them for email, and save storage space effortlessly. Start optimizing your files today for easy sharing and secure storage!</p>
+<p><br/>With this free online tool, you can manage your files more effectively, compress them for email, and save storage space. Start optimizing your files today for easy sharing and secure storage!</p>
 <br/>
 
 <h2 class="text-uppercase"><b>Compress files into ZIP - common use cases</b></h2>
@@ -31,7 +40,7 @@
 <br/>
 
 <h2 class="text-uppercase"><b>Reduce ZIP file size - what to expect</b></h2>
-<p>Readers who want to reduce zip file size to a target threshold (25&nbsp;MB email, 100&nbsp;MB upload form, 1&nbsp;GB cloud limit) get the best result when the source files are still uncompressed. The table below shows what a ZIP file size reducer can realistically achieve.</p>
+<p>Readers who want to reduce zip file size to a target threshold (25&nbsp;MB email, 100&nbsp;MB upload form, 1&nbsp;GB cloud limit) get the largest size reduction when the source files are still uncompressed. The table below shows what a ZIP file size reducer can realistically achieve.</p>
 <table class="w3-table w3-bordered" style="margin-top:8px;margin-bottom:12px;">
     <tr><th><b>Source file mix</b></th><th><b>Typical reduction</b></th><th><b>Can hit 25&nbsp;MB?</b></th></tr>
     <tr><td>Text, code, JSON, CSV</td><td>60 - 80%</td><td>Yes, even from large folders</td></tr>
@@ -75,11 +84,11 @@
 <p class="w3-small w3-text-grey" style="margin: 8px 0 0 0;">Read the step-by-step companion: <a href="/guides/how-to-compress-a-zip-file.html">How To Compress A Zip File</a> walks through the three-step recipe (open the tool, drop the folder, download the archive) for readers who typed the bare-query into search.</p>
 <p>Read the guide: <a href="/guides/zip-folder-online-free.html">Zip Folder Online Free</a></p>
 <p>Read the guide: <a href="/guides/zip-file-size-compressor.html">Zip File Size Compressor</a> for the folder-to-smaller-zip case (mixed text and binary files, password optional).</p>
-<p>Lee la guía: <a href="/guides/comprimir-carpeta-zip-online-gratis.html">Comprimir Carpeta Zip Online Gratis</a></p>
-<p>Lee la guía: <a href="/guides/reducir-tama-o-zip-online.html">Reducir Tamaño Zip Online</a> - el ángulo de reducción-de-tamaño para la misma herramienta.</p>
+<p>Lee la guía: <a href="/guides/es/compress-folder-to-zip-online-free.html">Comprimir Carpeta Zip Online Gratis</a></p>
+<p>Lee la guía: <a href="/guides/es/reduce-zip-size-online.html">Reducir Tamaño Zip Online</a> - el ángulo de reducción-de-tamaño para la misma herramienta.</p>
 <p>Read the guide: <a href="/guides/resize-zip-file.html">Resize Zip File</a> - what "resize" actually means for a .zip (shrink vs split vs shrink-photos-first routing table).</p>
 <p>Read the guide: <a href="/guides/reduce-zip-file-size-online.html">Reduce Zip File Size Online</a></p>
 <p>Need this guide in Indonesian? Read the <a href="/guides/kompres-file-zip.html">Kompres File Zip</a> walkthrough.</p>
-<p>Tem uma pasta ja zipada e quer torna-la menor? Veja <a href="/guides/comprimir-pasta-zipada.html">Comprimir Pasta Zipada</a> - quando re-zipar funciona e quando vale a pena descompactar primeiro.</p>
-<p>Buscou por "comprimir arquivo zip" em portugues? O guia <a href="/guides/comprimir-arquivo-zip.html">Comprimir Arquivo Zip</a> separa as duas intencoes do termo (criar um .zip novo vs reduzir um .zip ja existente) e roteia para a ferramenta certa em cada caso.</p>
+<p>Tem uma pasta ja zipada e quer torna-la menor? Veja <a href="/guides/pt/compress-folder-to-zip.html">Comprimir Pasta Zipada</a> - quando re-zipar funciona e quando vale a pena descompactar primeiro.</p>
+<p>Buscou por "comprimir arquivo zip" em portugues? O guia <a href="/guides/pt/compress-zip-file.html">Comprimir Arquivo Zip</a> separa as duas intencoes do termo (criar um .zip novo vs reduzir um .zip ja existente) e roteia para a ferramenta certa em cada caso.</p>
 <p>Read the guide: <a href="/guides/compress-folder-online.html">Compress Folder Online</a> for the folder-as-input recipe (upload the folder, the service bundles it into one .zip, with the optional AES password covered).</p>

@@ -1,0 +1,87 @@
+<style>
+    details.faq-item { margin: 8px 0; border-bottom: 1px solid #e0e0e0; padding: 6px 0; }
+    details.faq-item > summary { list-style: none; cursor: pointer; padding: 8px 0 8px 28px; position: relative; font-weight: 600; }
+    details.faq-item > summary::-webkit-details-marker { display: none; }
+    details.faq-item > summary::before { content: '▸'; position: absolute; left: 8px; top: 8px; transition: transform 0.15s ease; color: #555; font-size: 0.9em; }
+    details.faq-item[open] > summary::before { transform: rotate(90deg); }
+    details.faq-item > summary:hover { color: #1a73e8; }
+    details.faq-item > p, details.faq-item > div { padding: 0 8px 8px 28px; margin: 0; }
+</style>
+<div class="w3-container w3-margin-top">
+    <h1 class="text-uppercase"><b>Nen JPEG Khong Mat Chat Luong - Chat Luong vs Kich Thuoc</b></h1>
+    <p><em>Cap nhat lan cuoi: 2026-05-03. <a href="/image-tools/compress-image.html">Trinh nen JPEG</a> boc lo mot num dieu khien - chat luong - va hau het moi nguoi de nguyen mac dinh. Huong dan nay noi gia tri nao nen chon cho bon tac vu doc gia pho bien (web, luu tru, mang xa hoi, email) va truong hop duy nhat ma nen tu dong bang AI thuc su vuot qua mot cai dat co dinh.</em></p>
+
+    <div class="w3-panel w3-pale-green w3-leftbar w3-border-green">
+        <p style="margin-bottom: 0;"><b>Dap an 30 giay.</b> Chat luong JPEG 75 la vo hinh voi gan nhu moi nguoi xem tren gan nhu moi anh - cat kich thuoc tep di khoang mot nua so voi chat luong 95. Chat luong 85 la diem giua an toan cho anh ban co the chinh lai. Chat luong 95 chi dang cac byte khi JPEG la tep goc. Chat luong 60 bat dau hien thi nhieu tren gradient mem (bau troi, da) nhung on cho hinh thu nho. Che do <i>AI auto</i> tren <a href="/image-tools/compress-image.html">trinh nen JPEG</a> chon tung anh, vuot qua gia tri co dinh khi ban xu ly mot lo hon hop (chan dung + anh san pham + anh chup man hinh).</p>
+    </div>
+
+    <h2 class="text-uppercase"><b>Num chat luong JPEG thuc su lam gi</b></h2>
+    <p>Nen JPEG co mat du lieu va co the dieu chinh. Bo ma hoa chia anh thanh cac khoi 8x8 pixel, chay bien doi cosin roi rac tren moi khoi, va sau do lam tron (luong tu hoa) cac he so ket qua - cac he so cao hon mang chi tiet tinh te ma mat nguoi it nhay cam nhat. Thanh truot chat luong kiem soat muc do lam tron cac he so do: chat luong thap giu it hon, chat luong cao giu nhieu hon. Ma hoa lai cung mot anh o chat luong 75 thay vi 95 thuong giam kich thuoc tep mot nua vi bo ma hoa da loai bo noi dung tan so cao ma hau het nguoi xem khong the nhan biet tren mot man hinh thong thuong.</p>
+    <p>Do la ly do "nen JPEG khong mat chat luong" ve mat ky thuat la sai - <i>moi</i> lan ma hoa lai JPEG deu mat mot so du lieu. Cau hoi thuc su la "duoi gia tri chat luong nao thi mat mat tro nen nhin thay duoc doi voi doc gia cua toi, tren anh cua toi, tren thiet bi xem co kha nang cua ho". Bon phan duoi day gan dieu do voi bon tac vu pho bien.</p>
+
+    <h2 class="text-uppercase"><b>Chon theo tac vu: tai len web, luu tru, mang xa hoi, email</b></h2>
+    <div class="w3-responsive">
+        <table class="w3-table-all w3-small">
+            <tr><th>Tac vu</th><th>Chat luong</th><th>Muc giam kich thuoc tieu bieu so voi goc</th><th>Tai sao gia tri nay</th></tr>
+            <tr><td>Anh hero / website (nguon 5-10 megapixel)</td><td>75 - 80</td><td>50 - 65%</td><td>Suy giam vo hinh o khoang cach xem thong thuong; cat mot nua byte ma khach tai xuong trong lan ve dau tien.</td></tr>
+            <tr><td>Luu tru / ban goc ban co the chinh lai</td><td>90 - 95</td><td>15 - 35%</td><td>Giu khoang du phong cho cat hoac chinh mau tuong lai. Duoi 90, cac lan luu lap lai tich tu nhieu nhin thay duoc.</td></tr>
+            <tr><td>Bai dang mang xa hoi (Instagram / Twitter / LinkedIn)</td><td>70 - 78</td><td>55 - 70%</td><td>Nen tang du sao cung ma hoa lai; nen san o 70-78 vuot mac dinh cua nen tang (thuong la 60-70).</td></tr>
+            <tr><td>Dinh kem email / tai len tro chuyen</td><td>65 - 72</td><td>65 - 80%</td><td>Nguoi nhan xem mot lan tren dien thoai; kich thuoc vuot do trung thuc. Giu tren 60 de tranh nhieu canh khoi.</td></tr>
+            <tr><td>Hinh thu nho (duoi 200 px chieu rong)</td><td>55 - 65</td><td>75 - 90%</td><td>Canvas nho an luong tu hoa; gioi han o 60 neu ban thay dai tren gradient mem.</td></tr>
+        </table>
+    </div>
+    <p>Cac phan tram la tieu bieu, khong duoc dam bao - mot anh chup man hinh mau phang nen thanh mot phan nho cua anh chup tuong duong o cung gia tri chat luong, vi bo ma hoa co nhieu du thua hon de loai bo. Neu tep cu the cua ban khong khop bang, chon chat luong cao hon ke tiep va kiem tra lai.</p>
+
+    <h2 class="text-uppercase"><b>Khi nao nen tu dong bang AI vuot qua gia tri chat luong co dinh</b></h2>
+    <p><a href="/image-tools/compress-image.html">Trinh nen JPEG</a> bao gom che do AI auto chon gia tri chat luong moi anh thay vi ap dung mot cai dat toan cuc. AI auto dang buoc them khi mot trong ba dieu kien dung:</p>
+    <ul>
+        <li><b>Lo hon hop.</b> Hai muoi anh san pham + muoi chan dung + nam anh chup man hinh trong mot lan tai len. Chat luong co dinh 80 nen qua muc cac anh chup man hinh (canh khoi nhin thay duoc tren chu) va nen duoi muc cac chan dung (byte du mat khong duoc loi). AI auto chon khoang 60 cho anh chup man hinh va 80 cho chan dung, cat byte tong 20-35% ma khong co mat mat nhin thay o dau ca.</li>
+        <li><b>Anh gradient mem (bau troi, da, bokeh).</b> Dai luong tu hoa tren gradient mem xuat hien dau tien; AI auto phan bo nhieu bit hon cho cac vung do va it hon cho cac vung phang, vuot qua bat ky gia tri co dinh nao o cung tong kich thuoc tep.</li>
+        <li><b>Ban goc do phan giai cao cong voi xem truoc do phan giai thap.</b> AI auto co the ghep nhieu bit hon voi ban goc va it hon voi xem truoc thay vi buoc xem truoc phai ke thua ngan sach chat luong cua ban goc.</li>
+    </ul>
+    <p>Cho mot lo dong nhat (chi anh phong canh, tat ca cung camera) chat luong co dinh giua 75 va 85 thuong nam trong 2-3% cua dau ra AI-auto va tiet kiem chu ky chay luot auto.</p>
+
+    <h2 class="text-uppercase"><b>Nhung gi ban khong the phuc hoi bang nen</b></h2>
+    <p>Hai mat mat la vinh vien va khong num chat luong nao phuc hoi duoc:</p>
+    <p><b>Mat khi tai lay mau.</b> Neu cong cu thuong nguon da giam kich thuoc anh (nguon rong 3000 px tro thanh JPEG rong 1200 px), cac pixel bi loai bo da di roi. Nen o bat ky chat luong nao ban van co anh 1200 px. De giu chi tiet, chon chieu rong dich truoc khi nen: nguon rong 1920 px du cho gan nhu moi hero desktop; 2400 px che phu laptop do phan giai retina; tren 3000 px bi lang phi tru khi doc gia pinch-zoom.</p>
+    <p><b>Tich tu tai luu.</b> Moi lan luu o chat luong 75 lay luong tu hoa cua lan luu truoc lam diem xuat phat. Nam lan luu o 75 trong te hon ro ret so voi mot lan luu o 75 mac du moi buoc tuyen bo cung chat luong. Luon xuat lai tu ban goc cua ban o chat luong cuoi da chon - dung bao gio nen lap lai mot JPEG da nen.</p>
+
+    <h2 class="text-uppercase"><b>Quy tac thuc dung mot doan</b></h2>
+    <p><b>Neu JPEG la phien ban ma khach cua ban se tai xuong:</b> chat luong 75. Neu ban co the chinh lai: chat luong 90. Neu cho hinh thu nho / xem truoc: chat luong 60. Neu ban co lo hon hop: AI auto. Duoi 60: chi cho hinh thu nho hoac nhu cau kich thuoc gat gao (email duoi 1 MB tong). Tren 95: chi khi ban cung can do trong suot hoac metadata theo lop, trong truong hop do JPEG la dinh dang sai - xuat PNG hoac TIFF thay vao do. <a href="/image-tools/compress-image.html">Cong cu trinh nen JPEG</a> dieu khien cung duong ong du ban chon chat luong co dinh hay AI auto - khac biet la lieu gia tri chat luong duoc chon mot lan cho moi anh hay mot lan moi anh.</p>
+
+    <h2 class="text-uppercase"><b>Cau hoi thuong gap</b></h2>
+    <details class="faq-item">
+  <summary>Chat luong JPEG 100 co nghia la khong mat du lieu?</summary>
+  <p>Khong. Chat luong JPEG 100 la cai dat cao nhat trong hau het cac bo ma hoa, nhung no van ap dung bien doi cosin roi rac va luong tu hoa - chi voi buoc lam tron nho nhat. Thuc su khong mat du lieu doi dinh dang khac (PNG, TIFF, JPEG 2000 o che do khong mat, hoac HEIC khong mat). Chat luong 100 lang phi byte so voi chat luong 95 ma gan nhu khong co loi the tri giac.</p>
+</details>
+
+    <details class="faq-item">
+  <summary>Toi co the "giai nen" JPEG de khoi phuc ban goc khong?</summary>
+  <p>Khong. JPEG co mat du lieu. Bo ma hoa da loai bo du lieu khi nen anh lan dau; du lieu do khong duoc luu o dau ca. "Ban goc" chi ton tai neu ban giu tep nguon (RAW, PNG, hoac JPEG chat luong cao hon) truoc khi ma hoa lai.</p>
+</details>
+
+    <details class="faq-item">
+  <summary>Tai sao cung gia tri chat luong cho kich thuoc tep khac nhau tren cac anh khac nhau?</summary>
+  <p>Gia tri chat luong dat buoc luong tu hoa, khong phai byte dau ra. Anh chup man hinh mau phang o chat luong 80 nho hon nhieu so voi anh dem nhieu o chat luong 80 vi bo ma hoa het noi dung tan so cao de loai bo. Cac phan tram trong bang tac vu o tren la tieu bieu cho loai noi dung tuong ung.</p>
+</details>
+
+    <details class="faq-item">
+  <summary>Trinh nen JPEG co loai bo metadata EXIF khong?</summary>
+  <p>Ma hoa lai thuong phat lai khoi EXIF tu nguon, nhung cac cong cu khac nhau. Cho anh ban du dinh xuat ban (noi toa do GPS camera la rieng tu), loai bo EXIF sau khi nen - trang <a href="/image-tools/compress-image.html">trinh nen JPEG</a> tai lieu truong EXIF nao no giu.</p>
+</details>
+
+    <details class="faq-item">
+  <summary>Toi nen chuyen HEIC sang JPEG truoc khi nen, hay nen HEIC truc tiep?</summary>
+  <p>HEIC da nho hon 30-50% so voi JPEG tuong duong o cung chat luong cam nhan. Neu thiet bi doc gia cua ban ho tro HEIC, giu nguyen. Neu phai phuc vu trinh duyet cu, chuyen HEIC sang JPEG truoc (dung <a href="/image-converter-tools/heic-to-jpg.html">HEIC sang JPG</a>) va sau do nen o chat luong 75.</p>
+</details>
+
+    <h2 class="text-uppercase"><b>Lien quan</b></h2>
+    <ul>
+        <li><a href="/image-tools/compress-image.html">Trinh nen JPEG</a> - ban than cong cu; chon gia tri chat luong hoac nhan AI auto.</li>
+        <li><a href="/guides/vi/jpg-vs-png-for-web.html">JPG vs PNG cho web</a> - lua chon dinh dang truoc khi nen (anh = JPG, UI / anh chup man hinh = PNG).</li>
+        <li><a href="/guides/vi/when-to-compress-vs-convert-an-image.html">Khi nao nen vs chuyen doi anh</a> - quy tac dem byte quyet dinh giua cat kich thuoc bang chat luong va cat kich thuoc bang thay doi dinh dang.</li>
+        <li><a href="/guides/vi/heic-vs-jpg-vs-webp.html">HEIC vs JPG vs WebP</a> - danh doi dinh dang hien dai; WebP o chat luong 80 thuong vuot JPEG o cung chat luong cam nhan.</li>
+        <li><a href="/guides/vi/jpg-vs-jpeg-are-they-the-same.html">JPG vs JPEG - co giong nhau?</a> - dap an mot doan: co, dinh dang giong het; .jpg vs .jpeg chi la phan mo rong tep.</li>
+        <li><a href="/image-converter-tools/heic-to-jpg.html">Trinh chuyen HEIC sang JPG</a> - chuyen anh HEIC iPhone sang JPG truoc, roi nen.</li>
+    </ul>
+</div>
