@@ -847,6 +847,7 @@ export const INFO_ROUTES = new Set([
   // form "cropandrotateimage" does not shadow any existing primary route.
   '/guides/en/crop-and-rotate-image.html',
 
+  // 2026-05-28 plan-warm-pascal-v2 S1 multilingual migration (locale-prefixed guide URLs).
   // plan-warm-pascal-v3 S2 batch 1 (2026-05-29) - 5 locale variants of /guides/lcd-test-online.html
   '/guides/pt/lcd-test-online.html',
   '/guides/es/lcd-test-online.html',
@@ -859,11 +860,11 @@ export const INFO_ROUTES = new Set([
   '/guides/vi/convert-milliseconds-to-date.html',
   '/guides/id/convert-milliseconds-to-date.html',
   '/guides/de/convert-milliseconds-to-date.html',
-  // plan-warm-pascal-v3 S2 batch 3 (2026-05-29) - 5 locale variants × 3 guides
+  // plan-warm-pascal-v3 S2 batch 3 (2026-05-29) - 5 locale variants × 3 guides (lcd-screen-test + hd-video-converter-when + json-formatter-when)
   '/guides/pt/lcd-screen-test.html', '/guides/es/lcd-screen-test.html', '/guides/vi/lcd-screen-test.html', '/guides/id/lcd-screen-test.html', '/guides/de/lcd-screen-test.html',
   '/guides/pt/hd-video-converter-when.html', '/guides/es/hd-video-converter-when.html', '/guides/vi/hd-video-converter-when.html', '/guides/id/hd-video-converter-when.html', '/guides/de/hd-video-converter-when.html',
   '/guides/pt/json-formatter-when.html', '/guides/es/json-formatter-when.html', '/guides/vi/json-formatter-when.html', '/guides/id/json-formatter-when.html', '/guides/de/json-formatter-when.html',
-  // plan-warm-pascal-v3 S2 batch 4 (2026-05-29) - 5 locale variants × 3 guides
+  // plan-warm-pascal-v3 S2 batch 4 (2026-05-29) - 5 locale variants × 3 guides (zip-file-converter + online-zip-file-compressor + led-test)
   '/guides/pt/zip-file-converter.html', '/guides/es/zip-file-converter.html', '/guides/vi/zip-file-converter.html', '/guides/id/zip-file-converter.html', '/guides/de/zip-file-converter.html',
   '/guides/pt/online-zip-file-compressor.html', '/guides/es/online-zip-file-compressor.html', '/guides/vi/online-zip-file-compressor.html', '/guides/id/online-zip-file-compressor.html', '/guides/de/online-zip-file-compressor.html',
   '/guides/pt/led-test.html', '/guides/es/led-test.html', '/guides/vi/led-test.html', '/guides/id/led-test.html', '/guides/de/led-test.html',
@@ -1079,8 +1080,6 @@ export const INFO_ROUTES = new Set([
   '/guides/pt/split-gif-into-frames.html', '/guides/es/split-gif-into-frames.html', '/guides/vi/split-gif-into-frames.html', '/guides/id/split-gif-into-frames.html', '/guides/de/split-gif-into-frames.html',
   // plan-warm-pascal-v3 S2 batch 58 (2026-06-01) - 5 locale variants × 1 guide (tes-lcd; CLOSURE batch reaching 100% route-level coverage)
   '/guides/pt/tes-lcd.html', '/guides/es/tes-lcd.html', '/guides/vi/tes-lcd.html', '/guides/id/tes-lcd.html', '/guides/de/tes-lcd.html',
-
-  // 2026-05-28 plan-warm-pascal-v2 S1 multilingual migration (locale-prefixed guide URLs).
   '/guides/pt/compress-folder.html', // pt canonical of /guides/compactar-pasta.html
   '/guides/pt/compress-zip-file.html', // pt canonical of /guides/comprimir-arquivo-zip.html
   '/guides/pt/compress-folder-to-zip.html', // pt canonical of /guides/comprimir-pasta-zipada.html
@@ -1878,6 +1877,8 @@ export const ALIAS_ROUTES = {
   '/insights-optimize-image.html': '/image-tools/insights-image-optimizer.html',
   '/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tiew-viet-kieu-moi-phan-2.html': '/utility-tools/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html',
   '/how-to-compress-a-folder.html': '/guides/en/how-to-compress-a-folder.html',
+  // Cycle 20260604-2 — capture bare URL traffic for "folder compressor online" query (538 imp / 28d, pos 5.17, CTR 10.4% per GSC). Semantic-dedup: synonym of canonical /guides/en/compress-folder-online.html; alias-emit per CLAUDE.md "Semantic dedup" rule (G51 + dedup gate). Edge-equity preserved via paired CloudFront 301 in seo-reports/static-plan/20260510/cloudfront-function/url-migration-301.js.
+  '/folder-compressor-online.html': '/guides/en/compress-folder-online.html',
   // Cycle142 P142.A — capture bare URL traffic to canonical LCD test page (4843 imp / 28d, pos 7.8, CTR 1.28% per GSC; per granted P141.LaneD-residual-saturated-guides option-a).
   '/test-lcd.html': '/device-test-tools/lcd-test.html',
   // Cycle143 P143.A — capture bare URL traffic for "how to compress a file" head-query (5384 imp / 28d, pos 10.65, CTR 0.02% per GSC). Bare URL currently 200-serves the homepage (canonical=/), so Google sees a homepage routing for a file-compression intent. Aliasing into the existing canonical guide page captures the traffic without authoring a parallel page that would cannibalize.
@@ -2028,6 +2029,7 @@ export const ALIAS_ROUTES = {
   '/guides/camera-test-shows-black-screen-four-fixes.html': '/guides/en/camera-test-shows-black-screen-four-fixes.html',
   '/guides/camera-test-vs-webcam-test-which-do-you-need.html': '/guides/en/camera-test-vs-webcam-test-which-do-you-need.html',
   '/guides/compress-folder-online.html': '/guides/en/compress-folder-online.html',
+  '/guides/folder-compressor-online.html': '/guides/en/compress-folder-online.html',
   '/guides/compress-jpeg-without-losing-quality-quality-vs-size.html': '/guides/en/compress-jpeg-without-losing-quality-quality-vs-size.html',
   '/guides/compress-zip-file-to-100kb.html': '/guides/en/compress-zip-file-to-100kb.html',
   '/guides/compress-zip-file-to-2mb.html': '/guides/en/compress-zip-file-to-2mb.html',
@@ -2652,7 +2654,9 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/zip-a-folder.html': 'guide/pt/zip-a-folder.jsp',
   '/guides/es/compress-folder-to-zip-online-free.html': 'guide/es/compress-folder-to-zip-online-free.jsp',
   '/guides/es/reduce-zip-size-online.html': 'guide/es/reduce-zip-size-online.jsp',
-  // plan-warm-pascal-v3 S2 batch 1 (2026-05-29) - 5 locale variants of lcd-test-online
+  // plan-warm-pascal-v3 S2 batch 1 (2026-05-29) — first 5 locale variants
+  // of /guides/lcd-test-online.html. 5 new BODY* CMS bundles per locale.
+  // Translations: machine-quality, locale_pending_review until human edit.
   '/guides/pt/lcd-test-online.html': 'guide/pt/lcd-test-online.jsp',
   '/guides/es/lcd-test-online.html': 'guide/es/lcd-test-online.jsp',
   '/guides/vi/lcd-test-online.html': 'guide/vi/lcd-test-online.jsp',
@@ -2664,7 +2668,7 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/convert-milliseconds-to-date.html': 'guide/vi/convert-milliseconds-to-date.jsp',
   '/guides/id/convert-milliseconds-to-date.html': 'guide/id/convert-milliseconds-to-date.jsp',
   '/guides/de/convert-milliseconds-to-date.html': 'guide/de/convert-milliseconds-to-date.jsp',
-  // plan-warm-pascal-v3 S2 batch 3 (2026-05-29) - 5 locale variants × 3 guides
+  // plan-warm-pascal-v3 S2 batch 3 (2026-05-29) - 5 locale variants of lcd-screen-test + hd-video-converter-when + json-formatter-when
   '/guides/pt/lcd-screen-test.html': 'guide/pt/lcd-screen-test.jsp',
   '/guides/es/lcd-screen-test.html': 'guide/es/lcd-screen-test.jsp',
   '/guides/vi/lcd-screen-test.html': 'guide/vi/lcd-screen-test.jsp',
@@ -2684,19 +2688,19 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/zip-file-converter.html': 'guide/pt/zip-file-converter.jsp', '/guides/es/zip-file-converter.html': 'guide/es/zip-file-converter.jsp', '/guides/vi/zip-file-converter.html': 'guide/vi/zip-file-converter.jsp', '/guides/id/zip-file-converter.html': 'guide/id/zip-file-converter.jsp', '/guides/de/zip-file-converter.html': 'guide/de/zip-file-converter.jsp',
   '/guides/pt/online-zip-file-compressor.html': 'guide/pt/online-zip-file-compressor.jsp', '/guides/es/online-zip-file-compressor.html': 'guide/es/online-zip-file-compressor.jsp', '/guides/vi/online-zip-file-compressor.html': 'guide/vi/online-zip-file-compressor.jsp', '/guides/id/online-zip-file-compressor.html': 'guide/id/online-zip-file-compressor.jsp', '/guides/de/online-zip-file-compressor.html': 'guide/de/online-zip-file-compressor.jsp',
   '/guides/pt/led-test.html': 'guide/pt/led-test.jsp', '/guides/es/led-test.html': 'guide/es/led-test.jsp', '/guides/vi/led-test.html': 'guide/vi/led-test.jsp', '/guides/id/led-test.html': 'guide/id/led-test.jsp', '/guides/de/led-test.html': 'guide/de/led-test.jsp',
-  // plan-warm-pascal-v3 S2 batch 5 (2026-05-29) - 5 locale variants × 3 guides
+  // plan-warm-pascal-v3 S2 batch 5 (2026-05-29) - 5 locale variants × 3 guides (hd-video-converter-step-by-step + compress-zip-file-to-smaller-size + hd-video-converter-vs-alternatives)
   '/guides/pt/hd-video-converter-step-by-step.html': 'guide/pt/hd-video-converter-step-by-step.jsp', '/guides/es/hd-video-converter-step-by-step.html': 'guide/es/hd-video-converter-step-by-step.jsp', '/guides/vi/hd-video-converter-step-by-step.html': 'guide/vi/hd-video-converter-step-by-step.jsp', '/guides/id/hd-video-converter-step-by-step.html': 'guide/id/hd-video-converter-step-by-step.jsp', '/guides/de/hd-video-converter-step-by-step.html': 'guide/de/hd-video-converter-step-by-step.jsp',
   '/guides/pt/compress-zip-file-to-smaller-size.html': 'guide/pt/compress-zip-file-to-smaller-size.jsp', '/guides/es/compress-zip-file-to-smaller-size.html': 'guide/es/compress-zip-file-to-smaller-size.jsp', '/guides/vi/compress-zip-file-to-smaller-size.html': 'guide/vi/compress-zip-file-to-smaller-size.jsp', '/guides/id/compress-zip-file-to-smaller-size.html': 'guide/id/compress-zip-file-to-smaller-size.jsp', '/guides/de/compress-zip-file-to-smaller-size.html': 'guide/de/compress-zip-file-to-smaller-size.jsp',
   '/guides/pt/hd-video-converter-vs-alternatives.html': 'guide/pt/hd-video-converter-vs-alternatives.jsp', '/guides/es/hd-video-converter-vs-alternatives.html': 'guide/es/hd-video-converter-vs-alternatives.jsp', '/guides/vi/hd-video-converter-vs-alternatives.html': 'guide/vi/hd-video-converter-vs-alternatives.jsp', '/guides/id/hd-video-converter-vs-alternatives.html': 'guide/id/hd-video-converter-vs-alternatives.jsp', '/guides/de/hd-video-converter-vs-alternatives.html': 'guide/de/hd-video-converter-vs-alternatives.jsp',
-  // plan-warm-pascal-v3 S2 batch 6 (2026-05-29) - 5 locale variants × 3 guides
+  // plan-warm-pascal-v3 S2 batch 6 (2026-05-29) - 5 locale variants × 3 guides (compress-zip + gif-into-frames + reduce-zip-file-size-online)
   '/guides/pt/compress-zip.html': 'guide/pt/compress-zip.jsp', '/guides/es/compress-zip.html': 'guide/es/compress-zip.jsp', '/guides/vi/compress-zip.html': 'guide/vi/compress-zip.jsp', '/guides/id/compress-zip.html': 'guide/id/compress-zip.jsp', '/guides/de/compress-zip.html': 'guide/de/compress-zip.jsp',
   '/guides/pt/gif-into-frames.html': 'guide/pt/gif-into-frames.jsp', '/guides/es/gif-into-frames.html': 'guide/es/gif-into-frames.jsp', '/guides/vi/gif-into-frames.html': 'guide/vi/gif-into-frames.jsp', '/guides/id/gif-into-frames.html': 'guide/id/gif-into-frames.jsp', '/guides/de/gif-into-frames.html': 'guide/de/gif-into-frames.jsp',
   '/guides/pt/reduce-zip-file-size-online.html': 'guide/pt/reduce-zip-file-size-online.jsp', '/guides/es/reduce-zip-file-size-online.html': 'guide/es/reduce-zip-file-size-online.jsp', '/guides/vi/reduce-zip-file-size-online.html': 'guide/vi/reduce-zip-file-size-online.jsp', '/guides/id/reduce-zip-file-size-online.html': 'guide/id/reduce-zip-file-size-online.jsp', '/guides/de/reduce-zip-file-size-online.html': 'guide/de/reduce-zip-file-size-online.jsp',
-  // plan-warm-pascal-v3 S2 batch 7 (2026-05-29) - 5 locale variants × 3 guides
+  // plan-warm-pascal-v3 S2 batch 7 (2026-05-29) - 5 locale variants × 3 guides (json-formatter-step-by-step + zip-compress + json-formatter-vs-alternatives)
   '/guides/pt/json-formatter-step-by-step.html': 'guide/pt/json-formatter-step-by-step.jsp', '/guides/es/json-formatter-step-by-step.html': 'guide/es/json-formatter-step-by-step.jsp', '/guides/vi/json-formatter-step-by-step.html': 'guide/vi/json-formatter-step-by-step.jsp', '/guides/id/json-formatter-step-by-step.html': 'guide/id/json-formatter-step-by-step.jsp', '/guides/de/json-formatter-step-by-step.html': 'guide/de/json-formatter-step-by-step.jsp',
   '/guides/pt/zip-compress.html': 'guide/pt/zip-compress.jsp', '/guides/es/zip-compress.html': 'guide/es/zip-compress.jsp', '/guides/vi/zip-compress.html': 'guide/vi/zip-compress.jsp', '/guides/id/zip-compress.html': 'guide/id/zip-compress.jsp', '/guides/de/zip-compress.html': 'guide/de/zip-compress.jsp',
   '/guides/pt/json-formatter-vs-alternatives.html': 'guide/pt/json-formatter-vs-alternatives.jsp', '/guides/es/json-formatter-vs-alternatives.html': 'guide/es/json-formatter-vs-alternatives.jsp', '/guides/vi/json-formatter-vs-alternatives.html': 'guide/vi/json-formatter-vs-alternatives.jsp', '/guides/id/json-formatter-vs-alternatives.html': 'guide/id/json-formatter-vs-alternatives.jsp', '/guides/de/json-formatter-vs-alternatives.html': 'guide/de/json-formatter-vs-alternatives.jsp',
-  // plan-warm-pascal-v3 S2 batch 8 (2026-05-29) - 5 locale variants × 3 guides
+  // plan-warm-pascal-v3 S2 batch 8 (2026-05-29) - 5 locale variants × 3 guides (unlock-zip-file-online + how-to-zip-multiple-files-into-one + crop-and-rotate-image)
   '/guides/pt/unlock-zip-file-online.html': 'guide/pt/unlock-zip-file-online.jsp', '/guides/es/unlock-zip-file-online.html': 'guide/es/unlock-zip-file-online.jsp', '/guides/vi/unlock-zip-file-online.html': 'guide/vi/unlock-zip-file-online.jsp', '/guides/id/unlock-zip-file-online.html': 'guide/id/unlock-zip-file-online.jsp', '/guides/de/unlock-zip-file-online.html': 'guide/de/unlock-zip-file-online.jsp',
   '/guides/pt/how-to-zip-multiple-files-into-one.html': 'guide/pt/how-to-zip-multiple-files-into-one.jsp', '/guides/es/how-to-zip-multiple-files-into-one.html': 'guide/es/how-to-zip-multiple-files-into-one.jsp', '/guides/vi/how-to-zip-multiple-files-into-one.html': 'guide/vi/how-to-zip-multiple-files-into-one.jsp', '/guides/id/how-to-zip-multiple-files-into-one.html': 'guide/id/how-to-zip-multiple-files-into-one.jsp', '/guides/de/how-to-zip-multiple-files-into-one.html': 'guide/de/how-to-zip-multiple-files-into-one.jsp',
   '/guides/pt/crop-and-rotate-image.html': 'guide/pt/crop-and-rotate-image.jsp', '/guides/es/crop-and-rotate-image.html': 'guide/es/crop-and-rotate-image.jsp', '/guides/vi/crop-and-rotate-image.html': 'guide/vi/crop-and-rotate-image.jsp', '/guides/id/crop-and-rotate-image.html': 'guide/id/crop-and-rotate-image.jsp', '/guides/de/crop-and-rotate-image.html': 'guide/de/crop-and-rotate-image.jsp',
