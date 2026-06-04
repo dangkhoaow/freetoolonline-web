@@ -2030,6 +2030,8 @@ export const ALIAS_ROUTES = {
   '/guides/camera-test-vs-webcam-test-which-do-you-need.html': '/guides/en/camera-test-vs-webcam-test-which-do-you-need.html',
   '/guides/compress-folder-online.html': '/guides/en/compress-folder-online.html',
   '/guides/folder-compressor-online.html': '/guides/en/compress-folder-online.html',
+  // Cycle 20260605 - capture "online folder compressor" query word-order variant (GSC: 216 imp / 28d, pos 5.09, CTR 13.4% per phase1 keyword-opportunities); semantic-dedup target = canonical /guides/en/compress-folder-online.html; alias-emit per CLAUDE.md "Semantic dedup" rule (G51 + dedup gate). Paired CloudFront 301 entry below.
+  '/guides/online-folder-compressor.html': '/guides/en/compress-folder-online.html',
   '/guides/compress-jpeg-without-losing-quality-quality-vs-size.html': '/guides/en/compress-jpeg-without-losing-quality-quality-vs-size.html',
   '/guides/compress-zip-file-to-100kb.html': '/guides/en/compress-zip-file-to-100kb.html',
   '/guides/compress-zip-file-to-2mb.html': '/guides/en/compress-zip-file-to-2mb.html',
@@ -2165,6 +2167,7 @@ export const ALIAS_ROUTES = {
   '/guides/tes-lcd.html': '/guides/en/tes-lcd.html',
   '/guides/test-lcd.html': '/guides/en/test-lcd.html',
   '/guides/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html': '/guides/en/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html',
+  '/guides/tool-free.html': '/guides/en/tool-free.html',
   '/guides/unix-timestamps-explained.html': '/guides/en/unix-timestamps-explained.html',
   '/guides/unlock-zip-file-online.html': '/guides/en/unlock-zip-file-online.html',
   '/guides/unminify-js.html': '/guides/en/unminify-js.html',
@@ -2250,6 +2253,8 @@ export const JSP_BY_ROUTE = {
   '/guides/en/zip-folder-online-free.html': 'guide/en/zip-folder-online-free.jsp',
   // Cycle 20260524-10 create_new_guide_page - "i love zip" bare-query landing (companion to /zip-file.html).
   '/guides/en/i-love-zip.html': 'guide/en/i-love-zip.jsp',
+  // Cycle 20260604-9 create_new_guide_page - "tool free" chain-breaker force-ship (chain=5 reached per CLAUDE.md L3). Reframes the bare 'tool free' query as a privacy + monetisation explainer ("Are online tools actually free?") to avoid semantic_overlap with /utility-tools.html hub. utility cluster.
+  '/guides/en/tool-free.html': 'guide/en/tool-free.jsp',
   // Cycle 78 P78.A - "QR code error correction and scan failures" Lane-D guide (companion to /qr-code-generator.html).
   '/guides/en/qr-code-error-correction-and-scan-failures.html': 'guide/en/qr-code-error-correction-and-scan-failures.jsp',
   // Cycle 79 P79.B - "Image to Base64: embed in HTML/CSS vs link the image file" Lane-D guide (companion to /image-to-base64.html + /base64-to-image.html).
