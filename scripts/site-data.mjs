@@ -800,6 +800,16 @@ export const INFO_ROUTES = new Set([
   // (the in-browser archive creator). Kebab URL passes URL convention regex;
   // smashed form "foldertozip" does not shadow any existing primary route.
   '/guides/en/folder-to-zip.html',
+  // Cycle 20260605-3 create_new_guide_page - "File to zip" Lane-D guide (zip
+  // cluster, GSC "file to zip" 305 imp / 4 clicks / pos 10.05 / CTR 1.31% /
+  // opportunity_score 29.96). Companion to /zip-file.html (server-side upload
+  // creator). Paraphrases tool-zipfile/SKILL.md M1+M2+M3 + sibling cross-link
+  // to /guides/folder-to-zip.html. Kebab URL passes URL convention regex;
+  // smashed form "filetozip" does not shadow any existing primary route.
+  '/guides/en/file-to-zip.html',
+  // Cycle 20260605-4 create_new_guide_page - "Online diff tool" Lane-D guide.
+  // Companion to /developer-tools/text-diff.html. Sourced from tool-developertools/SKILL.md M1+M3+M5. Kebab URL passes URL convention regex; smashed form "onlinedifftool" does not shadow any existing primary route.
+  '/guides/en/online-diff-tool.html',
   // Cycle 20260518-25 create_new_guide_page - "Online Zip File" Lane-D guide
   // (zip cluster, GSC "online zip file" 573 imp / 12 clicks / pos 7.39 /
   // CTR 2.09% / opportunity_score 75.94). Companion to /zip-tools/zip-file.html.
@@ -1080,6 +1090,11 @@ export const INFO_ROUTES = new Set([
   '/guides/pt/split-gif-into-frames.html', '/guides/es/split-gif-into-frames.html', '/guides/vi/split-gif-into-frames.html', '/guides/id/split-gif-into-frames.html', '/guides/de/split-gif-into-frames.html',
   // plan-warm-pascal-v3 S2 batch 58 (2026-06-01) - 5 locale variants × 1 guide (tes-lcd; CLOSURE batch reaching 100% route-level coverage)
   '/guides/pt/tes-lcd.html', '/guides/es/tes-lcd.html', '/guides/vi/tes-lcd.html', '/guides/id/tes-lcd.html', '/guides/de/tes-lcd.html',
+  // plan-warm-pascal-v3 S2 batch 59 (2026-06-05) - 5 locale variants x 2 NEW guides (file-to-zip, online-diff-tool; backfill of pipeline-created EN-only guides)
+  '/guides/pt/file-to-zip.html', '/guides/es/file-to-zip.html', '/guides/vi/file-to-zip.html', '/guides/id/file-to-zip.html', '/guides/de/file-to-zip.html',
+  '/guides/pt/online-diff-tool.html', '/guides/es/online-diff-tool.html', '/guides/vi/online-diff-tool.html', '/guides/id/online-diff-tool.html', '/guides/de/online-diff-tool.html',
+  // plan-warm-pascal-v3 S2 batch 60 (2026-06-05) - tool-free x 5 locales (new_guide_locale_completeness gate backfill)
+  '/guides/pt/tool-free.html', '/guides/es/tool-free.html', '/guides/vi/tool-free.html', '/guides/id/tool-free.html', '/guides/de/tool-free.html',
   '/guides/pt/compress-folder.html', // pt canonical of /guides/compactar-pasta.html
   '/guides/pt/compress-zip-file.html', // pt canonical of /guides/comprimir-arquivo-zip.html
   '/guides/pt/compress-folder-to-zip.html', // pt canonical of /guides/comprimir-pasta-zipada.html
@@ -1336,6 +1351,11 @@ export const GUIDE_ROUTES = new Set([
   '/guides/pt/split-gif-into-frames.html', '/guides/es/split-gif-into-frames.html', '/guides/vi/split-gif-into-frames.html', '/guides/id/split-gif-into-frames.html', '/guides/de/split-gif-into-frames.html',
   // plan-warm-pascal-v3 S2 batch 58 (2026-06-01) - 5 locale variants × 1 guide (tes-lcd; CLOSURE batch reaching 100% route-level coverage)
   '/guides/pt/tes-lcd.html', '/guides/es/tes-lcd.html', '/guides/vi/tes-lcd.html', '/guides/id/tes-lcd.html', '/guides/de/tes-lcd.html',
+  // plan-warm-pascal-v3 S2 batch 59 (2026-06-05) - 5 locale variants x 2 NEW guides (file-to-zip, online-diff-tool; backfill of pipeline-created EN-only guides)
+  '/guides/pt/file-to-zip.html', '/guides/es/file-to-zip.html', '/guides/vi/file-to-zip.html', '/guides/id/file-to-zip.html', '/guides/de/file-to-zip.html',
+  '/guides/pt/online-diff-tool.html', '/guides/es/online-diff-tool.html', '/guides/vi/online-diff-tool.html', '/guides/id/online-diff-tool.html', '/guides/de/online-diff-tool.html',
+  // plan-warm-pascal-v3 S2 batch 60 (2026-06-05) - tool-free x 5 locales (new_guide_locale_completeness gate backfill)
+  '/guides/pt/tool-free.html', '/guides/es/tool-free.html', '/guides/vi/tool-free.html', '/guides/id/tool-free.html', '/guides/de/tool-free.html',
   '/guides/en/heic-vs-jpg-vs-webp.html',
   '/guides/en/dead-pixel-testing-guide.html',
   '/guides/en/unix-timestamps-explained.html',
@@ -1686,6 +1706,18 @@ export const GUIDE_ROUTES = new Set([
   // tool-guidescompresszip/SKILL.md C1-C5 (size question vs archive question
   // for folder inputs).
   '/guides/en/folder-to-zip.html',
+  // Cycle 20260605-3 create_new_guide_page - "File To Zip" Lane-D guide (zip
+  // cluster, GSC "file to zip" 305 imp / 4 clicks / pos 10.05 / CTR 1.31% /
+  // opportunity_score 29.96). Companion to /zip-file.html (server-side upload
+  // creator). Paraphrases tool-zipfile/SKILL.md M1 (single-file workflow) +
+  // M2 (compressibility expectation) + M3 (optional password). Cross-link to
+  // /guides/folder-to-zip.html for folder-input variant. Kebab URL passes URL
+  // convention regex; smashed form "filetozip" does not shadow any existing
+  // primary route.
+  '/guides/en/file-to-zip.html',
+  // Cycle 20260605-4 create_new_guide_page - "Online diff tool" Lane-D guide.
+  // Companion to /developer-tools/text-diff.html.
+  '/guides/en/online-diff-tool.html',
   // Cycle 20260518-25 create_new_guide_page - "Online Zip File" Lane-D guide
   // (zip cluster, companion to /zip-tools/zip-file.html). GSC 573 imp / 12
   // clicks / pos 7.39 / CTR 2.09% / opportunity_score 75.94 — "online zip file"
@@ -2030,6 +2062,8 @@ export const ALIAS_ROUTES = {
   '/guides/camera-test-vs-webcam-test-which-do-you-need.html': '/guides/en/camera-test-vs-webcam-test-which-do-you-need.html',
   '/guides/compress-folder-online.html': '/guides/en/compress-folder-online.html',
   '/guides/folder-compressor-online.html': '/guides/en/compress-folder-online.html',
+  // Cycle 20260605 - capture "online folder compressor" query word-order variant (GSC: 216 imp / 28d, pos 5.09, CTR 13.4% per phase1 keyword-opportunities); semantic-dedup target = canonical /guides/en/compress-folder-online.html; alias-emit per CLAUDE.md "Semantic dedup" rule (G51 + dedup gate). Paired CloudFront 301 entry below.
+  '/guides/online-folder-compressor.html': '/guides/en/compress-folder-online.html',
   '/guides/compress-jpeg-without-losing-quality-quality-vs-size.html': '/guides/en/compress-jpeg-without-losing-quality-quality-vs-size.html',
   '/guides/compress-zip-file-to-100kb.html': '/guides/en/compress-zip-file-to-100kb.html',
   '/guides/compress-zip-file-to-2mb.html': '/guides/en/compress-zip-file-to-2mb.html',
@@ -2056,7 +2090,9 @@ export const ALIAS_ROUTES = {
   '/guides/file-compressor-online-when-to-zip-vs-when-to-compress-image.html': '/guides/en/file-compressor-online-when-to-zip-vs-when-to-compress-image.html',
   '/guides/file-compressor-vs-zip-what-to-pick.html': '/guides/en/file-compressor-vs-zip-what-to-pick.html',
   '/guides/file-compressor.html': '/guides/en/file-compressor.html',
+  '/guides/file-to-zip.html': '/guides/en/file-to-zip.html',
   '/guides/folder-to-zip.html': '/guides/en/folder-to-zip.html',
+  '/guides/online-diff-tool.html': '/guides/en/online-diff-tool.html',
   '/guides/free-online-tools-that-work-without-uploading-files.html': '/guides/en/free-online-tools-that-work-without-uploading-files.html',
   '/guides/gif-frame-extractor-output-looks-wrong-three-causes.html': '/guides/en/gif-frame-extractor-output-looks-wrong-three-causes.html',
   '/guides/gif-frame-extractor.html': '/guides/en/gif-frame-extractor.html',
@@ -2165,6 +2201,7 @@ export const ALIAS_ROUTES = {
   '/guides/tes-lcd.html': '/guides/en/tes-lcd.html',
   '/guides/test-lcd.html': '/guides/en/test-lcd.html',
   '/guides/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html': '/guides/en/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html',
+  '/guides/tool-free.html': '/guides/en/tool-free.html',
   '/guides/unix-timestamps-explained.html': '/guides/en/unix-timestamps-explained.html',
   '/guides/unlock-zip-file-online.html': '/guides/en/unlock-zip-file-online.html',
   '/guides/unminify-js.html': '/guides/en/unminify-js.html',
@@ -2250,6 +2287,8 @@ export const JSP_BY_ROUTE = {
   '/guides/en/zip-folder-online-free.html': 'guide/en/zip-folder-online-free.jsp',
   // Cycle 20260524-10 create_new_guide_page - "i love zip" bare-query landing (companion to /zip-file.html).
   '/guides/en/i-love-zip.html': 'guide/en/i-love-zip.jsp',
+  // Cycle 20260604-9 create_new_guide_page - "tool free" chain-breaker force-ship (chain=5 reached per CLAUDE.md L3). Reframes the bare 'tool free' query as a privacy + monetisation explainer ("Are online tools actually free?") to avoid semantic_overlap with /utility-tools.html hub. utility cluster.
+  '/guides/en/tool-free.html': 'guide/en/tool-free.jsp',
   // Cycle 78 P78.A - "QR code error correction and scan failures" Lane-D guide (companion to /qr-code-generator.html).
   '/guides/en/qr-code-error-correction-and-scan-failures.html': 'guide/en/qr-code-error-correction-and-scan-failures.jsp',
   // Cycle 79 P79.B - "Image to Base64: embed in HTML/CSS vs link the image file" Lane-D guide (companion to /image-to-base64.html + /base64-to-image.html).
@@ -2285,6 +2324,10 @@ export const JSP_BY_ROUTE = {
   '/guides/en/zip-compressor-online.html': 'guide/en/zip-compressor-online.jsp',
   // Cycle 20260518-23 create_new_guide_page - "Folder to zip" Lane-D guide. Companion to /zip-tools/zip-file.html. Sourced from tool-ziptools/SKILL.md M1 + tool-guidescompresszip/SKILL.md C1-C5.
   '/guides/en/folder-to-zip.html': 'guide/en/folder-to-zip.jsp',
+  // Cycle 20260605-3 create_new_guide_page - "File to zip" Lane-D guide. Companion to /zip-file.html. Sourced from tool-zipfile/SKILL.md M1+M2+M3.
+  '/guides/en/file-to-zip.html': 'guide/en/file-to-zip.jsp',
+  // Cycle 20260605-4 create_new_guide_page - "Online diff tool" Lane-D guide. Companion to /developer-tools/text-diff.html. Sourced from tool-developertools/SKILL.md M1+M3+M5.
+  '/guides/en/online-diff-tool.html': 'guide/en/online-diff-tool.jsp',
   // Cycle 20260518-33 create_new_guide_page - "Tes LCD" Lane-D guide (device-test
   // cluster, companion to /lcd-test.html). Indonesian-language guide for the
   // "tes lcd" search intent. Paraphrases tool-lcdtest/SKILL.md F1-F5.
@@ -2900,6 +2943,11 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/split-gif-into-frames.html': 'guide/pt/split-gif-into-frames.jsp', '/guides/es/split-gif-into-frames.html': 'guide/es/split-gif-into-frames.jsp', '/guides/vi/split-gif-into-frames.html': 'guide/vi/split-gif-into-frames.jsp', '/guides/id/split-gif-into-frames.html': 'guide/id/split-gif-into-frames.jsp', '/guides/de/split-gif-into-frames.html': 'guide/de/split-gif-into-frames.jsp',
   // plan-warm-pascal-v3 S2 batch 58 (2026-06-01) - 5 locale variants × 1 guide (tes-lcd; CLOSURE batch reaching 100% route-level coverage)
   '/guides/pt/tes-lcd.html': 'guide/pt/tes-lcd.jsp', '/guides/es/tes-lcd.html': 'guide/es/tes-lcd.jsp', '/guides/vi/tes-lcd.html': 'guide/vi/tes-lcd.jsp', '/guides/id/tes-lcd.html': 'guide/id/tes-lcd.jsp', '/guides/de/tes-lcd.html': 'guide/de/tes-lcd.jsp',
+  // plan-warm-pascal-v3 S2 batch 59 (2026-06-05) - 5 locale variants x 2 NEW guides (file-to-zip, online-diff-tool)
+  '/guides/pt/file-to-zip.html': 'guide/pt/file-to-zip.jsp', '/guides/es/file-to-zip.html': 'guide/es/file-to-zip.jsp', '/guides/vi/file-to-zip.html': 'guide/vi/file-to-zip.jsp', '/guides/id/file-to-zip.html': 'guide/id/file-to-zip.jsp', '/guides/de/file-to-zip.html': 'guide/de/file-to-zip.jsp',
+  '/guides/pt/online-diff-tool.html': 'guide/pt/online-diff-tool.jsp', '/guides/es/online-diff-tool.html': 'guide/es/online-diff-tool.jsp', '/guides/vi/online-diff-tool.html': 'guide/vi/online-diff-tool.jsp', '/guides/id/online-diff-tool.html': 'guide/id/online-diff-tool.jsp', '/guides/de/online-diff-tool.html': 'guide/de/online-diff-tool.jsp',
+  // plan-warm-pascal-v3 S2 batch 60 (2026-06-05) - tool-free x 5 locales
+  '/guides/pt/tool-free.html': 'guide/pt/tool-free.jsp', '/guides/es/tool-free.html': 'guide/es/tool-free.jsp', '/guides/vi/tool-free.html': 'guide/vi/tool-free.jsp', '/guides/id/tool-free.html': 'guide/id/tool-free.jsp', '/guides/de/tool-free.html': 'guide/de/tool-free.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
