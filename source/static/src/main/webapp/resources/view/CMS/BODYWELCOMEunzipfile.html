@@ -7,9 +7,9 @@
 
 <br/><h2 class="text-uppercase"><b>Key features of our online unzip tool include:</b></h2>
 <ul>
-    <li><b>Instant File Extraction:</b> Quickly extract files from compressed archives in your browser.</li>
+    <li><b>Instant File Extraction:</b> Quickly extract files from compressed archives with no software to install.</li>
     <li><b>Multi-Format Support:</b> Compatible with ZIP, RAR, 7z, TAR, and other popular formats.</li>
-    <li><b>Secure and Private:</b> Files are processed locally in your browser, ensuring data privacy and security.</li>
+    <li><b>Secure and Private:</b> Files upload over HTTPS and the working copy is deleted after the download window - the session is anonymous with no sign-in.</li>
     <li><b>Easy Access on Any Device:</b> Unzip files from your computer, smartphone, or tablet without downloading extra software.</li>
     <li><b>Selective Extraction:</b> Choose specific files to extract, saving you time and storage space.</li>
 </ul>
@@ -21,7 +21,7 @@
 <ol>
     <li><b>Drop your ZIP into the upload area.</b> The tool reads the archive header and lists the contents in a tree.</li>
     <li><b>Browse the contents.</b> Open folders, preview file types, and pick what you actually need - you don't have to extract the whole archive.</li>
-    <li><b>Click any file to download.</b> Each file downloads on its own; the original ZIP and the extracted copies stay private to your browser session.</li>
+    <li><b>Click any file to download.</b> Each file downloads on its own; the working copy on the service is removed after the download window.</li>
 </ol>
 <p>Most ZIPs open instantly. Larger archives take a moment while the file index loads - the page shows "Reading archive..." during that step so you know the tool is still working.</p>
 <br/>
@@ -62,4 +62,10 @@
 <section class="reader-task-extension" data-task-statement="unzip file online with password">
   <h3>Open a password-protected ZIP online when you know the password</h3>
   <p>If the archive was created with a password the sender shared, drop the .zip into the upload panel and the tool prompts for the password before the file tree renders. Type the password the sender gave you and the extraction continues - the password derives the AES key locally for the unpacking step and is not stored or sent anywhere for recovery. The contents render as a folder tree the same way an unprotected archive would, so each file can be clicked and downloaded individually. For a forgotten password there is no recovery path on this page or anywhere else against modern AES-128 or AES-256 encryption; the only practical option is to ask the sender to share the password again or to re-send the archive without one.</p>
+</section>
+
+<!-- shipped:cycle=20260605-9; strategy=competitor_intelligence_fix; skill=seo-keyword-universe-expansion-to-seo-content-writer; evidence=phase15-keyword-universe:zip-keyword_universe_zip.json#unzip-file-online-mac; slug=unzipfile; note=watchdog-revision-1: original text claimed "in-browser route" which contradicts tool-unzipfile/SKILL.md ## NOT implemented anti-claim. Rewrote to paraphrase M1 (the tool unpacks via the upload+process pipeline) without false browser-only framing. -->
+<section class="reader-task-extension" data-task-statement="unzip file online mac">
+  <h3>Open a ZIP online on a Mac without installing extra software</h3>
+  <p>macOS already opens a plain .zip with a double-click in Finder, so the online route on this page is the one to pick when a managed Mac blocks third-party installs of helper apps like Keka or The Unarchiver. Drop the .zip into the upload panel above, the tool unpacks the archive on the processing service, and the contents render as a file tree on the page - click any single entry to download it on its own, or use Download All to grab the whole tree as one folder. No Mac-specific helper app is required, and no account or signup wall sits in the path. Password-protected archives prompt for the password before the tree renders; supply the password the sender shared and the extraction proceeds the same way it does on Windows or Linux. Uploaded inputs are removed from the processing service after the response window so the archive does not linger on the backend.</p>
 </section>
