@@ -42,6 +42,11 @@ export const INFO_ROUTES = new Set([
   // for /convert-time-in-millisecond-to-date.html. Cluster: developer. Non-cannibalizing - existing long-number-millisecond-or-second covers ms-vs-s
   // disambiguation, unix-timestamps-explained covers epoch fundamentals; this guide covers the timezone-display angle (UTC vs local).
   '/guides/en/milliseconds-to-date-utc-vs-local-time.html',
+  // cycle 20260609-2 Phase 3 — "md5 decrypter" reader-intent guide. Distinct angle from existing MD5
+  // guides: frames what "MD5 decrypter" actually means (cache lookup, not reversal), covers hash vs SHA-256
+  // comparison table, HowTo generate + lookup steps. Implementing tool: /md5-converter.html.
+  '/guides/en/md5-decrypter.html',
+  '/guides/pt/md5-decrypter.html', '/guides/es/md5-decrypter.html', '/guides/vi/md5-decrypter.html', '/guides/id/md5-decrypter.html', '/guides/de/md5-decrypter.html',
   // Cycle 76 P76.A - "Screen test online vs app: which is more accurate, and when each one wins" Lane-D guide for the device-test cluster.
   // Companion to lcd-test-vs-display-test-which-do-you-need (cycle 42) and lcd-test-what-it-checks. Non-cannibalizing - covers the
   // browser-vs-app diagnostic surface comparison, not panel-vs-display-vs-monitor scope. Sourced from sibling tool-guideslcdtestvsdisplaytestwhichdoyouneed
@@ -2526,6 +2531,9 @@ export const JSP_BY_ROUTE = {
   '/guides/en/md5-decrypt-online.html': 'guide/en/md5-decrypt-online.jsp',
   // Cycle 20260520-17 create_new_guide_page — "md5 hash decrypt" narrow-frame guide on dictionary-attack vs rainbow-table feasibility. Distinct angle from the existing 7 MD5 guides (md5-decrypt-online = wording routing, why-md5-cannot-be-decrypted = cryptographic math, md5-decode = vocabulary distinguish, md5-alternatives = recommendation, md5-to-text = why-cannot-convert-back, md5-vs-sha256 = algorithm comparison, read-and-compare = verification). New angle: the practical feasibility question - "for the hash I have right now, will a dictionary attack actually find the input?" Append-only on every existing surface.
   '/guides/en/md5-hash-decrypt.html': 'guide/en/md5-hash-decrypt.jsp',
+  // cycle 20260609-2 Phase 3 — md5-decrypter guide (EN + 5 locale variants)
+  '/guides/en/md5-decrypter.html': 'guide/en/md5-decrypter.jsp',
+  '/guides/pt/md5-decrypter.html': 'guide/pt/md5-decrypter.jsp', '/guides/es/md5-decrypter.html': 'guide/es/md5-decrypter.jsp', '/guides/vi/md5-decrypter.html': 'guide/vi/md5-decrypter.jsp', '/guides/id/md5-decrypter.html': 'guide/id/md5-decrypter.jsp', '/guides/de/md5-decrypter.html': 'guide/de/md5-decrypter.jsp',
   // Cycle 20260523 P50.H create_new_guide_page — "md5 password" reader-intent guide.
   // Distinct angle from the 8 existing MD5 guides: this one frames the hashing intent
   // (one-way MD5 of a password string for checksum / fingerprint use) and explicitly
