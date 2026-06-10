@@ -42,11 +42,6 @@ export const INFO_ROUTES = new Set([
   // for /convert-time-in-millisecond-to-date.html. Cluster: developer. Non-cannibalizing - existing long-number-millisecond-or-second covers ms-vs-s
   // disambiguation, unix-timestamps-explained covers epoch fundamentals; this guide covers the timezone-display angle (UTC vs local).
   '/guides/en/milliseconds-to-date-utc-vs-local-time.html',
-  // cycle 20260609-2 Phase 3 — "md5 decrypter" reader-intent guide. Distinct angle from existing MD5
-  // guides: frames what "MD5 decrypter" actually means (cache lookup, not reversal), covers hash vs SHA-256
-  // comparison table, HowTo generate + lookup steps. Implementing tool: /md5-converter.html.
-  '/guides/en/md5-decrypter.html',
-  '/guides/pt/md5-decrypter.html', '/guides/es/md5-decrypter.html', '/guides/vi/md5-decrypter.html', '/guides/id/md5-decrypter.html', '/guides/de/md5-decrypter.html',
   // Cycle 76 P76.A - "Screen test online vs app: which is more accurate, and when each one wins" Lane-D guide for the device-test cluster.
   // Companion to lcd-test-vs-display-test-which-do-you-need (cycle 42) and lcd-test-what-it-checks. Non-cannibalizing - covers the
   // browser-vs-app diagnostic surface comparison, not panel-vs-display-vs-monitor scope. Sourced from sibling tool-guideslcdtestvsdisplaytestwhichdoyouneed
@@ -336,6 +331,11 @@ export const INFO_ROUTES = new Set([
   // cycle 30/35/40/43/44 decrypt-md5 cannibalisation guard: NOT titled or
   // framed as "decrypt md5 password". Outbound link to /md5-converter.html.
   '/guides/en/md5-password.html',
+  // cycle 20260609-2 Phase 3 — "md5 decrypter" reader-intent guide. Distinct angle from the 9 existing MD5
+  // guides: frames what "MD5 decrypter" actually means (cache lookup, not reversal), covers hash vs SHA-256
+  // comparison table, HowTo generate + lookup steps, and explains when MD5 is the wrong tool. Implementing tool:
+  // /md5-converter.html. Honors anti-claim: NEVER "decrypt MD5" / "crack MD5" - framed as cache lookup.
+  '/guides/en/md5-decrypter.html',
   '/guides/en/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html',
   '/guides/en/json-vs-yaml-vs-toml-config-formats-explained.html',
   '/guides/en/css-minifier-vs-uglifier-vs-tree-shaking.html',
@@ -539,6 +539,8 @@ export const INFO_ROUTES = new Set([
   // P42.A LCD-test guide cross-link. NO satellite backlinks anywhere this cycle.
   // Cluster: device-test. Lane-D PA-mode mandatory; non-ZIP, non-destructive.
   '/guides/en/camera-test-vs-webcam-test-which-do-you-need.html',
+  // Cycle 20260610-13 - LCD test for laptop screens (device-test)
+  '/guides/en/lcd-test-laptop.html',
   // Cycle 73 P73.B - "Screen test vs camera test - which one do you actually need?" cross-cluster
   // disambiguation guide for the ambiguous "test my device" head query. Distinct from cycle-42
   // (within-screen-cluster: lcd vs display vs monitor) and cycle-43 (within-camera-cluster:
@@ -819,6 +821,17 @@ export const INFO_ROUTES = new Set([
   // Cycle 20260605-4 create_new_guide_page - "Online diff tool" Lane-D guide.
   // Companion to /developer-tools/text-diff.html. Sourced from tool-developertools/SKILL.md M1+M3+M5. Kebab URL passes URL convention regex; smashed form "onlinedifftool" does not shadow any existing primary route.
   '/guides/en/online-diff-tool.html',
+  // Cycle 20260605-8 create_new_guide_page - "common::md5::gethash64string" Lane-D guide
+  // (developer cluster, GSC 212 imp / 0 clicks / pos 8.31 / CTR 0% / opportunity_score 25.52).
+  // Companion to /md5-converter.html. Sourced from tool-md5converter/SKILL.md M1+M2. The
+  // query is a framework-style method name (Yii PHP common\md5\getHash64String); the guide
+  // honestly redirects the developer reader to the in-browser MD5 hash + cache-lookup tool.
+  // Kebab URL passes URL convention regex; the "gethash64string" token is 15 chars but the
+  // slug itself is hyphenated so the smashed-multi-word check (single-token >= 13 chars) does
+  // NOT fire.
+  '/guides/en/common-md5-gethash64string.html',
+  // pt/es/vi/id/de locale variants (new-guide locale-completeness gate, 2026-06-05).
+  '/guides/pt/common-md5-gethash64string.html', '/guides/es/common-md5-gethash64string.html', '/guides/vi/common-md5-gethash64string.html', '/guides/id/common-md5-gethash64string.html', '/guides/de/common-md5-gethash64string.html',
   // Cycle 20260518-25 create_new_guide_page - "Online Zip File" Lane-D guide
   // (zip cluster, GSC "online zip file" 573 imp / 12 clicks / pos 7.39 /
   // CTR 2.09% / opportunity_score 75.94). Companion to /zip-tools/zip-file.html.
@@ -937,6 +950,8 @@ export const INFO_ROUTES = new Set([
   '/guides/pt/download-link-not-appearing-after-conversion-five-fixes.html', '/guides/es/download-link-not-appearing-after-conversion-five-fixes.html', '/guides/vi/download-link-not-appearing-after-conversion-five-fixes.html', '/guides/id/download-link-not-appearing-after-conversion-five-fixes.html', '/guides/de/download-link-not-appearing-after-conversion-five-fixes.html',
   // plan-warm-pascal-v3 S2 batch 17 (2026-05-29) - 5 locale variants × 3 guides
   '/guides/pt/camera-test-vs-webcam-test-which-do-you-need.html', '/guides/es/camera-test-vs-webcam-test-which-do-you-need.html', '/guides/vi/camera-test-vs-webcam-test-which-do-you-need.html', '/guides/id/camera-test-vs-webcam-test-which-do-you-need.html', '/guides/de/camera-test-vs-webcam-test-which-do-you-need.html',
+  // Cycle 20260610-13 - LCD test for laptop screens (device-test) - 5 locale variants
+  '/guides/pt/lcd-test-laptop.html', '/guides/es/lcd-test-laptop.html', '/guides/vi/lcd-test-laptop.html', '/guides/id/lcd-test-laptop.html', '/guides/de/lcd-test-laptop.html',
   '/guides/pt/device-test-checklist-for-remote-work.html', '/guides/es/device-test-checklist-for-remote-work.html', '/guides/vi/device-test-checklist-for-remote-work.html', '/guides/id/device-test-checklist-for-remote-work.html', '/guides/de/device-test-checklist-for-remote-work.html',
   '/guides/pt/before-a-video-call-which-tools-to-run.html', '/guides/es/before-a-video-call-which-tools-to-run.html', '/guides/vi/before-a-video-call-which-tools-to-run.html', '/guides/id/before-a-video-call-which-tools-to-run.html', '/guides/de/before-a-video-call-which-tools-to-run.html',
   // plan-warm-pascal-v3 S2 batch 18 (2026-05-29) - 5 locale variants × 3 guides
@@ -1106,6 +1121,9 @@ export const INFO_ROUTES = new Set([
   '/guides/pt/online-diff-tool.html', '/guides/es/online-diff-tool.html', '/guides/vi/online-diff-tool.html', '/guides/id/online-diff-tool.html', '/guides/de/online-diff-tool.html',
   // plan-warm-pascal-v3 S2 batch 60 (2026-06-05) - tool-free x 5 locales (new_guide_locale_completeness gate backfill)
   '/guides/pt/tool-free.html', '/guides/es/tool-free.html', '/guides/vi/tool-free.html', '/guides/id/tool-free.html', '/guides/de/tool-free.html',
+  // cycle 20260609-2 - md5-decrypter guide (EN + 5 locale variants)
+  '/guides/en/md5-decrypter.html',
+  '/guides/pt/md5-decrypter.html', '/guides/es/md5-decrypter.html', '/guides/vi/md5-decrypter.html', '/guides/id/md5-decrypter.html', '/guides/de/md5-decrypter.html',
   '/guides/pt/compress-folder.html', // pt canonical of /guides/compactar-pasta.html
   '/guides/pt/compress-zip-file.html', // pt canonical of /guides/comprimir-arquivo-zip.html
   '/guides/pt/compress-folder-to-zip.html', // pt canonical of /guides/comprimir-pasta-zipada.html
@@ -1200,6 +1218,8 @@ export const GUIDE_ROUTES = new Set([
   '/guides/pt/download-link-not-appearing-after-conversion-five-fixes.html', '/guides/es/download-link-not-appearing-after-conversion-five-fixes.html', '/guides/vi/download-link-not-appearing-after-conversion-five-fixes.html', '/guides/id/download-link-not-appearing-after-conversion-five-fixes.html', '/guides/de/download-link-not-appearing-after-conversion-five-fixes.html',
   // plan-warm-pascal-v3 S2 batch 17 (2026-05-29) - 5 locale variants × 3 guides
   '/guides/pt/camera-test-vs-webcam-test-which-do-you-need.html', '/guides/es/camera-test-vs-webcam-test-which-do-you-need.html', '/guides/vi/camera-test-vs-webcam-test-which-do-you-need.html', '/guides/id/camera-test-vs-webcam-test-which-do-you-need.html', '/guides/de/camera-test-vs-webcam-test-which-do-you-need.html',
+  // Cycle 20260610-13 - LCD test for laptop screens (device-test) - 5 locale variants
+  '/guides/pt/lcd-test-laptop.html', '/guides/es/lcd-test-laptop.html', '/guides/vi/lcd-test-laptop.html', '/guides/id/lcd-test-laptop.html', '/guides/de/lcd-test-laptop.html',
   '/guides/pt/device-test-checklist-for-remote-work.html', '/guides/es/device-test-checklist-for-remote-work.html', '/guides/vi/device-test-checklist-for-remote-work.html', '/guides/id/device-test-checklist-for-remote-work.html', '/guides/de/device-test-checklist-for-remote-work.html',
   '/guides/pt/before-a-video-call-which-tools-to-run.html', '/guides/es/before-a-video-call-which-tools-to-run.html', '/guides/vi/before-a-video-call-which-tools-to-run.html', '/guides/id/before-a-video-call-which-tools-to-run.html', '/guides/de/before-a-video-call-which-tools-to-run.html',
   // plan-warm-pascal-v3 S2 batch 18 (2026-05-29) - 5 locale variants × 3 guides
@@ -1570,6 +1590,8 @@ export const GUIDE_ROUTES = new Set([
   '/guides/en/lcd-test-vs-display-test-which-do-you-need.html',
   // Cycle 43 P43.B - "Camera test vs webcam test vs camera quality - which one do you actually need?" reactive disambiguation-flow guide.
   '/guides/en/camera-test-vs-webcam-test-which-do-you-need.html',
+  // Cycle 20260610-13 - LCD test for laptop screens (device-test)
+  '/guides/en/lcd-test-laptop.html',
   // Cycle 73 P73.B - "Screen test vs camera test - which one do you actually need?" cross-cluster disambiguation Lane-D guide.
   '/guides/en/screen-test-vs-camera-test-pick-the-right-tool.html',
   // Cycle 44 P44.A - "MD5 to text - why you cannot convert it back, and what to do instead" disambiguation/decision guide.
@@ -1733,6 +1755,10 @@ export const GUIDE_ROUTES = new Set([
   // Cycle 20260605-4 create_new_guide_page - "Online diff tool" Lane-D guide.
   // Companion to /developer-tools/text-diff.html.
   '/guides/en/online-diff-tool.html',
+  // Cycle 20260605-8 create_new_guide_page - "common::md5::gethash64string" Lane-D.
+  // Companion to /md5-converter.html. Sourced from tool-md5converter/SKILL.md M1+M2.
+  '/guides/en/common-md5-gethash64string.html',
+  '/guides/pt/common-md5-gethash64string.html', '/guides/es/common-md5-gethash64string.html', '/guides/vi/common-md5-gethash64string.html', '/guides/id/common-md5-gethash64string.html', '/guides/de/common-md5-gethash64string.html',
   // Cycle 20260518-25 create_new_guide_page - "Online Zip File" Lane-D guide
   // (zip cluster, companion to /zip-tools/zip-file.html). GSC 573 imp / 12
   // clicks / pos 7.39 / CTR 2.09% / opportunity_score 75.94 — "online zip file"
@@ -2075,6 +2101,8 @@ export const ALIAS_ROUTES = {
   '/guides/camera-test-permission-blocked-how-to-allow-it.html': '/guides/en/camera-test-permission-blocked-how-to-allow-it.html',
   '/guides/camera-test-shows-black-screen-four-fixes.html': '/guides/en/camera-test-shows-black-screen-four-fixes.html',
   '/guides/camera-test-vs-webcam-test-which-do-you-need.html': '/guides/en/camera-test-vs-webcam-test-which-do-you-need.html',
+  // Cycle 20260610-13 - LCD test for laptop screens (device-test)
+  '/guides/lcd-test-laptop.html': '/guides/en/lcd-test-laptop.html',
   '/guides/compress-folder-online.html': '/guides/en/compress-folder-online.html',
   '/guides/folder-compressor-online.html': '/guides/en/compress-folder-online.html',
   // Cycle 20260605 - capture "online folder compressor" query word-order variant (GSC: 216 imp / 28d, pos 5.09, CTR 13.4% per phase1 keyword-opportunities); semantic-dedup target = canonical /guides/en/compress-folder-online.html; alias-emit per CLAUDE.md "Semantic dedup" rule (G51 + dedup gate). Paired CloudFront 301 entry below.
@@ -2108,6 +2136,7 @@ export const ALIAS_ROUTES = {
   '/guides/file-to-zip.html': '/guides/en/file-to-zip.html',
   '/guides/folder-to-zip.html': '/guides/en/folder-to-zip.html',
   '/guides/online-diff-tool.html': '/guides/en/online-diff-tool.html',
+  '/guides/common-md5-gethash64string.html': '/guides/en/common-md5-gethash64string.html',
   '/guides/free-online-tools-that-work-without-uploading-files.html': '/guides/en/free-online-tools-that-work-without-uploading-files.html',
   '/guides/gif-frame-extractor-output-looks-wrong-three-causes.html': '/guides/en/gif-frame-extractor-output-looks-wrong-three-causes.html',
   '/guides/gif-frame-extractor.html': '/guides/en/gif-frame-extractor.html',
@@ -2345,6 +2374,13 @@ export const JSP_BY_ROUTE = {
   '/guides/en/file-to-zip.html': 'guide/en/file-to-zip.jsp',
   // Cycle 20260605-4 create_new_guide_page - "Online diff tool" Lane-D guide. Companion to /developer-tools/text-diff.html. Sourced from tool-developertools/SKILL.md M1+M3+M5.
   '/guides/en/online-diff-tool.html': 'guide/en/online-diff-tool.jsp',
+  // Cycle 20260605-8 create_new_guide_page - "Common::Md5::Gethash64string" Lane-D. Companion to /md5-converter.html. Sourced from tool-md5converter/SKILL.md M1+M2.
+  '/guides/en/common-md5-gethash64string.html': 'guide/en/common-md5-gethash64string.jsp',
+  '/guides/pt/common-md5-gethash64string.html': 'guide/pt/common-md5-gethash64string.jsp',
+  '/guides/es/common-md5-gethash64string.html': 'guide/es/common-md5-gethash64string.jsp',
+  '/guides/vi/common-md5-gethash64string.html': 'guide/vi/common-md5-gethash64string.jsp',
+  '/guides/id/common-md5-gethash64string.html': 'guide/id/common-md5-gethash64string.jsp',
+  '/guides/de/common-md5-gethash64string.html': 'guide/de/common-md5-gethash64string.jsp',
   // Cycle 20260518-33 create_new_guide_page - "Tes LCD" Lane-D guide (device-test
   // cluster, companion to /lcd-test.html). Indonesian-language guide for the
   // "tes lcd" search intent. Paraphrases tool-lcdtest/SKILL.md F1-F5.
@@ -2519,6 +2555,8 @@ export const JSP_BY_ROUTE = {
   '/guides/en/gif-to-frames-converter.html': 'guide/en/gif-to-frames-converter.jsp',
   '/guides/en/lcd-test-vs-display-test-which-do-you-need.html': 'guide/en/lcd-test-vs-display-test-which-do-you-need.jsp',
   '/guides/en/camera-test-vs-webcam-test-which-do-you-need.html': 'guide/en/camera-test-vs-webcam-test-which-do-you-need.jsp',
+  // Cycle 20260610-13 - LCD test for laptop screens (device-test)
+  '/guides/en/lcd-test-laptop.html': 'guide/en/lcd-test-laptop.jsp',
   '/guides/en/screen-test-vs-camera-test-pick-the-right-tool.html': 'guide/en/screen-test-vs-camera-test-pick-the-right-tool.jsp',
   '/guides/en/md5-to-text-why-you-cannot-convert-back.html': 'guide/en/md5-to-text-why-you-cannot-convert-back.jsp',
   '/guides/en/before-a-video-call-which-tools-to-run.html': 'guide/en/before-a-video-call-which-tools-to-run.jsp',
@@ -2543,9 +2581,6 @@ export const JSP_BY_ROUTE = {
   '/guides/en/md5-decrypt-online.html': 'guide/en/md5-decrypt-online.jsp',
   // Cycle 20260520-17 create_new_guide_page — "md5 hash decrypt" narrow-frame guide on dictionary-attack vs rainbow-table feasibility. Distinct angle from the existing 7 MD5 guides (md5-decrypt-online = wording routing, why-md5-cannot-be-decrypted = cryptographic math, md5-decode = vocabulary distinguish, md5-alternatives = recommendation, md5-to-text = why-cannot-convert-back, md5-vs-sha256 = algorithm comparison, read-and-compare = verification). New angle: the practical feasibility question - "for the hash I have right now, will a dictionary attack actually find the input?" Append-only on every existing surface.
   '/guides/en/md5-hash-decrypt.html': 'guide/en/md5-hash-decrypt.jsp',
-  // cycle 20260609-2 Phase 3 — md5-decrypter guide (EN + 5 locale variants)
-  '/guides/en/md5-decrypter.html': 'guide/en/md5-decrypter.jsp',
-  '/guides/pt/md5-decrypter.html': 'guide/pt/md5-decrypter.jsp', '/guides/es/md5-decrypter.html': 'guide/es/md5-decrypter.jsp', '/guides/vi/md5-decrypter.html': 'guide/vi/md5-decrypter.jsp', '/guides/id/md5-decrypter.html': 'guide/id/md5-decrypter.jsp', '/guides/de/md5-decrypter.html': 'guide/de/md5-decrypter.jsp',
   // Cycle 20260523 P50.H create_new_guide_page — "md5 password" reader-intent guide.
   // Distinct angle from the 8 existing MD5 guides: this one frames the hashing intent
   // (one-way MD5 of a password string for checksum / fingerprint use) and explicitly
@@ -2802,6 +2837,8 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/download-link-not-appearing-after-conversion-five-fixes.html': 'guide/pt/download-link-not-appearing-after-conversion-five-fixes.jsp', '/guides/es/download-link-not-appearing-after-conversion-five-fixes.html': 'guide/es/download-link-not-appearing-after-conversion-five-fixes.jsp', '/guides/vi/download-link-not-appearing-after-conversion-five-fixes.html': 'guide/vi/download-link-not-appearing-after-conversion-five-fixes.jsp', '/guides/id/download-link-not-appearing-after-conversion-five-fixes.html': 'guide/id/download-link-not-appearing-after-conversion-five-fixes.jsp', '/guides/de/download-link-not-appearing-after-conversion-five-fixes.html': 'guide/de/download-link-not-appearing-after-conversion-five-fixes.jsp',
   // plan-warm-pascal-v3 S2 batch 17 (2026-05-29) - 5 locale variants × 3 guides
   '/guides/pt/camera-test-vs-webcam-test-which-do-you-need.html': 'guide/pt/camera-test-vs-webcam-test-which-do-you-need.jsp', '/guides/es/camera-test-vs-webcam-test-which-do-you-need.html': 'guide/es/camera-test-vs-webcam-test-which-do-you-need.jsp', '/guides/vi/camera-test-vs-webcam-test-which-do-you-need.html': 'guide/vi/camera-test-vs-webcam-test-which-do-you-need.jsp', '/guides/id/camera-test-vs-webcam-test-which-do-you-need.html': 'guide/id/camera-test-vs-webcam-test-which-do-you-need.jsp', '/guides/de/camera-test-vs-webcam-test-which-do-you-need.html': 'guide/de/camera-test-vs-webcam-test-which-do-you-need.jsp',
+  // Cycle 20260610-13 - LCD test for laptop screens (device-test) - 5 locale variants
+  '/guides/pt/lcd-test-laptop.html': 'guide/pt/lcd-test-laptop.jsp', '/guides/es/lcd-test-laptop.html': 'guide/es/lcd-test-laptop.jsp', '/guides/vi/lcd-test-laptop.html': 'guide/vi/lcd-test-laptop.jsp', '/guides/id/lcd-test-laptop.html': 'guide/id/lcd-test-laptop.jsp', '/guides/de/lcd-test-laptop.html': 'guide/de/lcd-test-laptop.jsp',
   '/guides/pt/device-test-checklist-for-remote-work.html': 'guide/pt/device-test-checklist-for-remote-work.jsp', '/guides/es/device-test-checklist-for-remote-work.html': 'guide/es/device-test-checklist-for-remote-work.jsp', '/guides/vi/device-test-checklist-for-remote-work.html': 'guide/vi/device-test-checklist-for-remote-work.jsp', '/guides/id/device-test-checklist-for-remote-work.html': 'guide/id/device-test-checklist-for-remote-work.jsp', '/guides/de/device-test-checklist-for-remote-work.html': 'guide/de/device-test-checklist-for-remote-work.jsp',
   '/guides/pt/before-a-video-call-which-tools-to-run.html': 'guide/pt/before-a-video-call-which-tools-to-run.jsp', '/guides/es/before-a-video-call-which-tools-to-run.html': 'guide/es/before-a-video-call-which-tools-to-run.jsp', '/guides/vi/before-a-video-call-which-tools-to-run.html': 'guide/vi/before-a-video-call-which-tools-to-run.jsp', '/guides/id/before-a-video-call-which-tools-to-run.html': 'guide/id/before-a-video-call-which-tools-to-run.jsp', '/guides/de/before-a-video-call-which-tools-to-run.html': 'guide/de/before-a-video-call-which-tools-to-run.jsp',
   // plan-warm-pascal-v3 S2 batch 18 (2026-05-29) - 5 locale variants × 3 guides
@@ -2971,6 +3008,9 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/online-diff-tool.html': 'guide/pt/online-diff-tool.jsp', '/guides/es/online-diff-tool.html': 'guide/es/online-diff-tool.jsp', '/guides/vi/online-diff-tool.html': 'guide/vi/online-diff-tool.jsp', '/guides/id/online-diff-tool.html': 'guide/id/online-diff-tool.jsp', '/guides/de/online-diff-tool.html': 'guide/de/online-diff-tool.jsp',
   // plan-warm-pascal-v3 S2 batch 60 (2026-06-05) - tool-free x 5 locales
   '/guides/pt/tool-free.html': 'guide/pt/tool-free.jsp', '/guides/es/tool-free.html': 'guide/es/tool-free.jsp', '/guides/vi/tool-free.html': 'guide/vi/tool-free.jsp', '/guides/id/tool-free.html': 'guide/id/tool-free.jsp', '/guides/de/tool-free.html': 'guide/de/tool-free.jsp',
+  // cycle 20260609-2 Phase 3 — md5-decrypter new guide (EN + 5 locale variants)
+  '/guides/en/md5-decrypter.html': 'guide/en/md5-decrypter.jsp',
+  '/guides/pt/md5-decrypter.html': 'guide/pt/md5-decrypter.jsp', '/guides/es/md5-decrypter.html': 'guide/es/md5-decrypter.jsp', '/guides/vi/md5-decrypter.html': 'guide/vi/md5-decrypter.jsp', '/guides/id/md5-decrypter.html': 'guide/id/md5-decrypter.jsp', '/guides/de/md5-decrypter.html': 'guide/de/md5-decrypter.jsp',
   '/developer-tools/regex-tester.html': 'utility/regex-tester.jsp',
 };
 
