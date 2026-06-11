@@ -508,6 +508,10 @@ export const INFO_ROUTES = new Set([
   // (triangulated demand: "gif to frames" query cluster). Implementing tool:
   // /extract-gif-to-image-frames.html. Cluster: utility. Locale-complete (5 variants).
   '/guides/en/gif-to-frames-converter.html',
+  // Cycle 20260610-14 create_new_guide_page - "gif to frame" head-term
+  // (GSC 238 imp / 1 click / pos 7.96 / opp 29.77). Implementing tool:
+  // /extract-gif-to-image-frames.html. Cluster: image-conversion. Locale-complete (5 variants).
+  '/guides/en/gif-to-frame.html',
   // Cycle 42 P42.A - "LCD test vs display test vs monitor test - which?"
   // reactive disambiguation-flow guide. Lane-D pivot because all 6 cycle-42
   // decision rows touch active-monitor or auto-status tool URLs (/lcd-test.html
@@ -964,6 +968,8 @@ export const INFO_ROUTES = new Set([
   '/guides/pt/gif-frame-extractor.html', '/guides/es/gif-frame-extractor.html', '/guides/vi/gif-frame-extractor.html', '/guides/id/gif-frame-extractor.html', '/guides/de/gif-frame-extractor.html',
   // Cycle 20260610-12 P12.D - 5 locale variants for gif-to-frames-converter
   '/guides/pt/gif-to-frames-converter.html', '/guides/es/gif-to-frames-converter.html', '/guides/vi/gif-to-frames-converter.html', '/guides/id/gif-to-frames-converter.html', '/guides/de/gif-to-frames-converter.html',
+  // Cycle 20260610-14 - 5 locale variants for gif-to-frame
+  '/guides/pt/gif-to-frame.html', '/guides/es/gif-to-frame.html', '/guides/vi/gif-to-frame.html', '/guides/id/gif-to-frame.html', '/guides/de/gif-to-frame.html',
   // plan-warm-pascal-v3 S2 batch 20 (2026-05-29) - 5 locale variants × 3 guides
   '/guides/pt/how-to-choose-a-compression-level.html', '/guides/es/how-to-choose-a-compression-level.html', '/guides/vi/how-to-choose-a-compression-level.html', '/guides/id/how-to-choose-a-compression-level.html', '/guides/de/how-to-choose-a-compression-level.html',
   '/guides/pt/heic-vs-jpg-vs-webp.html', '/guides/es/heic-vs-jpg-vs-webp.html', '/guides/vi/heic-vs-jpg-vs-webp.html', '/guides/id/heic-vs-jpg-vs-webp.html', '/guides/de/heic-vs-jpg-vs-webp.html',
@@ -1131,6 +1137,18 @@ export const INFO_ROUTES = new Set([
   '/guides/pt/zip-a-folder.html', // pt canonical of /guides/zipar-pasta.html
   '/guides/es/compress-folder-to-zip-online-free.html', // es canonical of /guides/comprimir-carpeta-zip-online-gratis.html
   '/guides/es/reduce-zip-size-online.html', // es canonical of /guides/reducir-tama-o-zip-online.html
+  // cycle 20260610-15 - front-camera-test guide locale variants (pt/es/vi/id/de)
+  '/guides/pt/front-camera-test.html',
+  '/guides/es/front-camera-test.html',
+  '/guides/vi/front-camera-test.html',
+  '/guides/id/front-camera-test.html',
+  '/guides/de/front-camera-test.html',
+  // cycle 20260610-16 - compress-pdf-online-free guide locale variants (pt/es/vi/id/de)
+  '/guides/pt/compress-pdf-online-free.html',
+  '/guides/es/compress-pdf-online-free.html',
+  '/guides/vi/compress-pdf-online-free.html',
+  '/guides/id/compress-pdf-online-free.html',
+  '/guides/de/compress-pdf-online-free.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -1232,6 +1250,8 @@ export const GUIDE_ROUTES = new Set([
   '/guides/pt/gif-frame-extractor.html', '/guides/es/gif-frame-extractor.html', '/guides/vi/gif-frame-extractor.html', '/guides/id/gif-frame-extractor.html', '/guides/de/gif-frame-extractor.html',
   // Cycle 20260610-12 P12.D - 5 locale variants for gif-to-frames-converter
   '/guides/pt/gif-to-frames-converter.html', '/guides/es/gif-to-frames-converter.html', '/guides/vi/gif-to-frames-converter.html', '/guides/id/gif-to-frames-converter.html', '/guides/de/gif-to-frames-converter.html',
+  // Cycle 20260610-14 - 5 locale variants for gif-to-frame
+  '/guides/pt/gif-to-frame.html', '/guides/es/gif-to-frame.html', '/guides/vi/gif-to-frame.html', '/guides/id/gif-to-frame.html', '/guides/de/gif-to-frame.html',
   // plan-warm-pascal-v3 S2 batch 20 (2026-05-29) - 5 locale variants × 3 guides
   '/guides/pt/how-to-choose-a-compression-level.html', '/guides/es/how-to-choose-a-compression-level.html', '/guides/vi/how-to-choose-a-compression-level.html', '/guides/id/how-to-choose-a-compression-level.html', '/guides/de/how-to-choose-a-compression-level.html',
   '/guides/pt/heic-vs-jpg-vs-webp.html', '/guides/es/heic-vs-jpg-vs-webp.html', '/guides/vi/heic-vs-jpg-vs-webp.html', '/guides/id/heic-vs-jpg-vs-webp.html', '/guides/de/heic-vs-jpg-vs-webp.html',
@@ -1854,6 +1874,20 @@ export const GUIDE_ROUTES = new Set([
   // BODYWELCOMEzipfile reader-task framing (folder-as-input, name the
   // archive, optional encryption choice).
   '/guides/en/compress-folder-online.html',
+  // cycle 20260610-15 - front-camera-test new guide (EN bare canonical + 5 locale variants)
+  '/guides/front-camera-test.html',
+  '/guides/pt/front-camera-test.html',
+  '/guides/es/front-camera-test.html',
+  '/guides/vi/front-camera-test.html',
+  '/guides/id/front-camera-test.html',
+  '/guides/de/front-camera-test.html',
+  // cycle 20260610-16 - compress-pdf-online-free new guide (EN bare canonical + 5 locale variants)
+  '/guides/compress-pdf-online-free.html',
+  '/guides/pt/compress-pdf-online-free.html',
+  '/guides/es/compress-pdf-online-free.html',
+  '/guides/vi/compress-pdf-online-free.html',
+  '/guides/id/compress-pdf-online-free.html',
+  '/guides/de/compress-pdf-online-free.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -2141,6 +2175,7 @@ export const ALIAS_ROUTES = {
   '/guides/gif-frame-extractor-output-looks-wrong-three-causes.html': '/guides/en/gif-frame-extractor-output-looks-wrong-three-causes.html',
   '/guides/gif-frame-extractor.html': '/guides/en/gif-frame-extractor.html',
   '/guides/gif-to-frames-converter.html': '/guides/en/gif-to-frames-converter.html',
+  '/guides/gif-to-frame.html': '/guides/en/gif-to-frame.html',
   '/guides/gif-frames-extract-vs-frame-rate-fps-explained.html': '/guides/en/gif-frames-extract-vs-frame-rate-fps-explained.html',
   '/guides/gif-into-frames.html': '/guides/en/gif-into-frames.html',
   '/guides/hd-video-converter-step-by-step.html': '/guides/en/hd-video-converter-step-by-step.html',
@@ -2553,6 +2588,8 @@ export const JSP_BY_ROUTE = {
   '/guides/en/gif-frame-extractor-output-looks-wrong-three-causes.html': 'guide/en/gif-frame-extractor-output-looks-wrong-three-causes.jsp',
   '/guides/en/gif-frame-extractor.html': 'guide/en/gif-frame-extractor.jsp',
   '/guides/en/gif-to-frames-converter.html': 'guide/en/gif-to-frames-converter.jsp',
+  // Cycle 20260610-14 - gif-to-frame (image-conversion cluster)
+  '/guides/en/gif-to-frame.html': 'guide/en/gif-to-frame.jsp',
   '/guides/en/lcd-test-vs-display-test-which-do-you-need.html': 'guide/en/lcd-test-vs-display-test-which-do-you-need.jsp',
   '/guides/en/camera-test-vs-webcam-test-which-do-you-need.html': 'guide/en/camera-test-vs-webcam-test-which-do-you-need.jsp',
   // Cycle 20260610-13 - LCD test for laptop screens (device-test)
@@ -2851,6 +2888,8 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/gif-frame-extractor.html': 'guide/pt/gif-frame-extractor.jsp', '/guides/es/gif-frame-extractor.html': 'guide/es/gif-frame-extractor.jsp', '/guides/vi/gif-frame-extractor.html': 'guide/vi/gif-frame-extractor.jsp', '/guides/id/gif-frame-extractor.html': 'guide/id/gif-frame-extractor.jsp', '/guides/de/gif-frame-extractor.html': 'guide/de/gif-frame-extractor.jsp',
   // Cycle 20260610-12 P12.D - 5 locale JSP routes for gif-to-frames-converter
   '/guides/pt/gif-to-frames-converter.html': 'guide/pt/gif-to-frames-converter.jsp', '/guides/es/gif-to-frames-converter.html': 'guide/es/gif-to-frames-converter.jsp', '/guides/vi/gif-to-frames-converter.html': 'guide/vi/gif-to-frames-converter.jsp', '/guides/id/gif-to-frames-converter.html': 'guide/id/gif-to-frames-converter.jsp', '/guides/de/gif-to-frames-converter.html': 'guide/de/gif-to-frames-converter.jsp',
+  // Cycle 20260610-14 - 5 locale JSP routes for gif-to-frame
+  '/guides/pt/gif-to-frame.html': 'guide/pt/gif-to-frame.jsp', '/guides/es/gif-to-frame.html': 'guide/es/gif-to-frame.jsp', '/guides/vi/gif-to-frame.html': 'guide/vi/gif-to-frame.jsp', '/guides/id/gif-to-frame.html': 'guide/id/gif-to-frame.jsp', '/guides/de/gif-to-frame.html': 'guide/de/gif-to-frame.jsp',
   // plan-warm-pascal-v3 S2 batch 20 (2026-05-29) - 5 locale variants × 3 guides
   '/guides/pt/how-to-choose-a-compression-level.html': 'guide/pt/how-to-choose-a-compression-level.jsp', '/guides/es/how-to-choose-a-compression-level.html': 'guide/es/how-to-choose-a-compression-level.jsp', '/guides/vi/how-to-choose-a-compression-level.html': 'guide/vi/how-to-choose-a-compression-level.jsp', '/guides/id/how-to-choose-a-compression-level.html': 'guide/id/how-to-choose-a-compression-level.jsp', '/guides/de/how-to-choose-a-compression-level.html': 'guide/de/how-to-choose-a-compression-level.jsp',
   '/guides/pt/heic-vs-jpg-vs-webp.html': 'guide/pt/heic-vs-jpg-vs-webp.jsp', '/guides/es/heic-vs-jpg-vs-webp.html': 'guide/es/heic-vs-jpg-vs-webp.jsp', '/guides/vi/heic-vs-jpg-vs-webp.html': 'guide/vi/heic-vs-jpg-vs-webp.jsp', '/guides/id/heic-vs-jpg-vs-webp.html': 'guide/id/heic-vs-jpg-vs-webp.jsp', '/guides/de/heic-vs-jpg-vs-webp.html': 'guide/de/heic-vs-jpg-vs-webp.jsp',
@@ -3012,6 +3051,12 @@ export const JSP_BY_ROUTE = {
   '/guides/en/md5-decrypter.html': 'guide/en/md5-decrypter.jsp',
   '/guides/pt/md5-decrypter.html': 'guide/pt/md5-decrypter.jsp', '/guides/es/md5-decrypter.html': 'guide/es/md5-decrypter.jsp', '/guides/vi/md5-decrypter.html': 'guide/vi/md5-decrypter.jsp', '/guides/id/md5-decrypter.html': 'guide/id/md5-decrypter.jsp', '/guides/de/md5-decrypter.html': 'guide/de/md5-decrypter.jsp',
   '/developer-tools/regex-tester.html': 'utility/regex-tester.jsp',
+  // cycle 20260610-15 Phase 3 — front-camera-test new guide (EN + 5 locale variants); implementing tool /camera-test.html (cluster device-test)
+  '/guides/front-camera-test.html': 'guides/front-camera-test.jsp',
+  '/guides/pt/front-camera-test.html': 'guides/pt/front-camera-test.jsp', '/guides/es/front-camera-test.html': 'guides/es/front-camera-test.jsp', '/guides/vi/front-camera-test.html': 'guides/vi/front-camera-test.jsp', '/guides/id/front-camera-test.html': 'guides/id/front-camera-test.jsp', '/guides/de/front-camera-test.html': 'guides/de/front-camera-test.jsp',
+  // cycle 20260610-16 Phase 3 — compress-pdf-online-free new guide (EN + 5 locale variants); implementing tools /flatten-pdf.html + /pdf-to-images.html + /compress-image.html + /images-to-pdf.html + /preflight-pdf.html (cluster pdf)
+  '/guides/compress-pdf-online-free.html': 'guides/compress-pdf-online-free.jsp',
+  '/guides/pt/compress-pdf-online-free.html': 'guides/pt/compress-pdf-online-free.jsp', '/guides/es/compress-pdf-online-free.html': 'guides/es/compress-pdf-online-free.jsp', '/guides/vi/compress-pdf-online-free.html': 'guides/vi/compress-pdf-online-free.jsp', '/guides/id/compress-pdf-online-free.html': 'guides/id/compress-pdf-online-free.jsp', '/guides/de/compress-pdf-online-free.html': 'guides/de/compress-pdf-online-free.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
