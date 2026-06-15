@@ -1149,6 +1149,10 @@ export const INFO_ROUTES = new Set([
   '/guides/vi/compress-pdf-online-free.html',
   '/guides/id/compress-pdf-online-free.html',
   '/guides/de/compress-pdf-online-free.html',
+  // cycle 20260615-4 - split-pdf-online-free ID locale variant (EN-first locale drain; de remains)
+  '/guides/id/split-pdf-online-free.html',
+  // cycle 20260615-5 - split-pdf-online-free DE locale variant (EN-first locale drain COMPLETE)
+  '/guides/de/split-pdf-online-free.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -1888,6 +1892,18 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/compress-pdf-online-free.html',
   '/guides/id/compress-pdf-online-free.html',
   '/guides/de/compress-pdf-online-free.html',
+  // cycle 20260614-21 - split-pdf-online-free new guide (EN bare canonical; locale variants drain in later cycles per EN-first contract)
+  '/guides/split-pdf-online-free.html',
+  // cycle 20260615 - split-pdf-online-free PT locale variant (EN-first locale drain; es/vi/id/de remain)
+  '/guides/pt/split-pdf-online-free.html',
+  // cycle 20260615-2 - split-pdf-online-free ES locale variant (EN-first locale drain; vi/id/de remain)
+  '/guides/es/split-pdf-online-free.html',
+  // cycle 20260615-3 - split-pdf-online-free VI locale variant (EN-first locale drain; id/de remain)
+  '/guides/vi/split-pdf-online-free.html',
+  // cycle 20260615-4 - split-pdf-online-free ID locale variant (EN-first locale drain; de remains)
+  '/guides/id/split-pdf-online-free.html',
+  // cycle 20260615-5 - split-pdf-online-free DE locale variant (EN-first locale drain COMPLETE)
+  '/guides/de/split-pdf-online-free.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -3057,6 +3073,18 @@ export const JSP_BY_ROUTE = {
   // cycle 20260610-16 Phase 3 — compress-pdf-online-free new guide (EN + 5 locale variants); implementing tools /flatten-pdf.html + /pdf-to-images.html + /compress-image.html + /images-to-pdf.html + /preflight-pdf.html (cluster pdf)
   '/guides/compress-pdf-online-free.html': 'guides/compress-pdf-online-free.jsp',
   '/guides/pt/compress-pdf-online-free.html': 'guides/pt/compress-pdf-online-free.jsp', '/guides/es/compress-pdf-online-free.html': 'guides/es/compress-pdf-online-free.jsp', '/guides/vi/compress-pdf-online-free.html': 'guides/vi/compress-pdf-online-free.jsp', '/guides/id/compress-pdf-online-free.html': 'guides/id/compress-pdf-online-free.jsp', '/guides/de/compress-pdf-online-free.html': 'guides/de/compress-pdf-online-free.jsp',
+  // cycle 20260614-21 Phase 3 — split-pdf-online-free new guide (EN bare canonical; locale variants drain later per EN-first); implementing tools /pdf-tools/split-pdf-by-range.html + /pdf-tools/split-pdf-to-each-pages.html (cluster pdf)
+  '/guides/split-pdf-online-free.html': 'guides/split-pdf-online-free.jsp',
+  // cycle 20260615 Phase 3 - split-pdf-online-free PT locale variant (EN-first locale drain; es/vi/id/de remain)
+  '/guides/pt/split-pdf-online-free.html': 'guides/pt/split-pdf-online-free.jsp',
+  // cycle 20260615-2 Phase 3 - split-pdf-online-free ES locale variant (EN-first locale drain; vi/id/de remain)
+  '/guides/es/split-pdf-online-free.html': 'guides/es/split-pdf-online-free.jsp',
+  // cycle 20260615-3 Phase 3 - split-pdf-online-free VI locale variant (EN-first locale drain; id/de remain)
+  '/guides/vi/split-pdf-online-free.html': 'guides/vi/split-pdf-online-free.jsp',
+  // cycle 20260615-4 Phase 3 - split-pdf-online-free ID locale variant (EN-first locale drain; de remains)
+  '/guides/id/split-pdf-online-free.html': 'guides/id/split-pdf-online-free.jsp',
+  // cycle 20260615-5 Phase 3 - split-pdf-online-free DE locale variant (EN-first locale drain COMPLETE; en+pt+es+vi+id+de all present)
+  '/guides/de/split-pdf-online-free.html': 'guides/de/split-pdf-online-free.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
