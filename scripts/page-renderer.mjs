@@ -15,7 +15,11 @@ import { canonicalForRoute, isInfoRoute, isGuideRoute, ALIAS_ROUTES, JSP_BY_ROUT
 // hreflang values on the SAME canonical-pt URL — Google's spec allows
 // multiple hreflang pointing at the same URL.
 // plan-warm-pascal-v3 S1.1 (2026-05-29): 'en' is now a first-class locale
-// prefix. Mirror of staging change. See freetoolonline-web-test/scripts/page-renderer.mjs.
+// prefix. Canonical EN guides migrate from /guides/<slug>.html to
+// /guides/en/<slug>.html; the legacy root path 301s to the locale-prefixed
+// canonical via CloudFront + ALIAS_ROUTES origin fallback. Locale URLs
+// become uniform (en/pt/es/vi/id/de all first-class) so hreflang signals
+// are symmetric and AI crawlers pick the locale matching the user query.
 const SUPPORTED_LOCALE_PREFIXES = new Set(['en', 'pt', 'es', 'de', 'fr', 'vi', 'it', 'ja', 'ko', 'zh', 'ru', 'id', 'tr', 'pl', 'nl', 'ar']);
 const COUNTRY_VARIANTS_BY_LANG = Object.freeze({
   pt: ['pt-BR', 'pt-PT'],
