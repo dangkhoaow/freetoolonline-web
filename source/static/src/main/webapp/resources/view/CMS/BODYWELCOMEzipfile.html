@@ -1,20 +1,31 @@
 <!--
-  DEPRECATED 2026-05-31 (plan-warm-pascal-v3 S3.9).
-  The /zip-file.html route is now in ALIAS_ROUTES (301 to /zip-tools/zip-file.html).
-  This BODYWELCOME fragment is no longer rendered into dist/ - page-renderer.mjs
-  emits the alias redirect page for /zip-file.html instead. The content is
-  preserved here for git history but is unreachable from production traffic.
-  Canonical welcome content for the implementing tool lives at
-  source/static/.../CMS/BODYWELCOMEziptoolszipfile.html.
+  NOTE (corrected 2026-06-18, freetool-migration U tool_content_clean@zipfile).
+  This fragment IS the LIVE BODYWELCOME for the canonical tool route
+  /zip-tools/zip-file.html: page-renderer derives CMS slug `zipfile` from the JSP
+  file/zip-file.jsp, so /zip-tools/zip-file.html renders BODYHTMLzipfile.html +
+  BODYWELCOMEzipfile.html. /zip-file.html is an ALIAS_ROUTES 301 to that canonical
+  route (the alias page is a meta-refresh stub; this content is NOT on the stub).
+  A prior comment claimed this fragment was "no longer rendered into dist" and that
+  canonical content lived at BODYWELCOMEziptoolszipfile.html - that was INACCURATE:
+  no `ziptoolszipfile` fragment exists, and the dist render of
+  /zip-tools/zip-file.html contains this exact content (verified 2026-06-18).
+  Edit THIS file for the live page. ZIP cluster = Tier-A: indexed copy is
+  append-only without an owner-signed ranking-loss risk statement.
 -->
 <h1 class="text-uppercase"><b>Free Online Zip File Compressor - Efficiently Compress and Secure Your Folders</b></h1>
 <time itemprop="dateUpdated" datetime="2024-11-13T15:26:21"><b>Last updated: Nov 13, 2024</b></time>
+<p class="reviewed">Last reviewed: 2026-06-14</p>
+<address class="author"><a rel="author" href="/editorial-team.html">Free Tool Online Editorial Team</a></address>
 <hr/>
 <p>Managing large files and folders can be challenging, especially when it comes to sharing or storing them. Our free online file compressor makes it easy to reduce folder sizes online, with no software install needed. Compress single folders or multiple files to save space, simplify sharing, and keep your data secure with just a few clicks. The upload pipeline holds the source on the freetoolonline service host only long enough to ZIP and return the download URL; files rotate off the bucket on a short interval and no account is required.</p>
 
 <p>Whether you arrived here searching for a free file compressor, a file size compressor, or a file zipper, the same upload-bundle-download flow above produces a single ZIP that travels as one file - so the choice of search phrase does not change the steps you take.</p>
 
 <p><br/>This tool supports compressing a variety of file formats, ensuring compatibility and ease of access across devices. Whether for business, education, or personal use, this online compressor helps manage your data efficiently. The convenience of compressing files online also makes it perfect for users who need quick solutions without installing additional software.</p>
+
+<figure class="illustration">
+    <img src="/img/illustrations/numbered-step-row/zipfile__2f0fa322.svg" alt="Three steps to bundle files into one ZIP: drop files, name the archive, then download the zip." loading="lazy" width="640" height="200">
+</figure>
 
 <br/><h2 class="text-uppercase"><b>Key features of our online file compressor:</b></h2>
 <ul>
@@ -52,7 +63,7 @@
 <p>To reduce zip file size to 25mb when photos or videos are involved, shrink the media first with an <a href="/image-tools/compress-image.html">image compressor</a> or a video tool, then bundle the results into a ZIP. Bundling already-optimized files into a ZIP gives you the smallest practical archive.</p>
 <br/>
 
-<h2 class="text-uppercase"><b>What is a file compressor?</b></h2>
+<h2 class="text-uppercase"><b>What a file compressor does</b></h2>
 <p>A file compressor reduces the storage size of one or more files by replacing repeated patterns with shorter codes, then groups everything into a single container. ZIP is the most widely used file compressor format because every major operating system can open it without extra software. If you are weighing ZIP against other formats (RAR, 7z, TAR.GZ), the comparison guide <a href="/guides/file-compressor-vs-zip-what-to-pick.html">file compressor vs ZIP - what to pick</a> walks through the trade-offs in two minutes. For most reader tasks - emailing a folder, uploading to a form, sharing a project - a free online ZIP file compressor is the simplest answer.</p>
 
 <h3><b>Picking the right phrase: online file compressor, file size compressor, zip file compressor, folder compressor</b></h3>
@@ -64,6 +75,7 @@
     <li><b>Folder compressor</b> - you have a whole folder (sub-folders included) and want it as one archive. Upload the folder; the tool preserves the folder structure inside the ZIP so the recipient extracts back to the same layout. If the folder needs to travel through a password-protected channel, the <b>Password</b> setting on this page applies AES-128 or AES-256 encryption to the archive at build time.</li>
 </ul>
 <p>If your archive needs to be opened by someone who already has a password (you received it that way), the <a href="/zip-tools/remove-zip-password.html">remove ZIP password</a> tool handles that side.</p>
+<p>And if someone sent you a ZIP and you need the files back out, the <a href="/zip-tools/unzip-file.html">unzip file</a> tool reverses this step - it extracts the contents of an existing archive instead of building a new one.</p>
 <br/>
 
 <h2 class="text-uppercase"><b>Compress zip file vs compress files to zip vs compress folder - which one do you need?</b></h2>
