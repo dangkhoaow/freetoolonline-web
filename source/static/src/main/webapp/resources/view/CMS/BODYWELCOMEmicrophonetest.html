@@ -46,6 +46,11 @@
 
 <p>The microphone test is the only device check that runs the browser's audio pipeline end-to-end. Run it first when a call drops audio while video stays up, or when a recording captures silence despite the mic light being on.</p>
 
+<section class="reader-task-extension" data-task-statement="camera test">
+  <h3>Pairing the mic check with a camera test</h3>
+  <p>A working microphone is only half of a video-call setup; the picture is the other half. Once the waveform here proves the mic input is live, run the <a href="/camera-test.html">camera test</a> to confirm the webcam opens, the right lens is active, and the negotiated resolution matches what the call app will send. The two checks read different streams - audio versus video - so a clean mic result says nothing about the camera until you test it.</p>
+</section>
+
 <h2 class="text-uppercase"><b>Related guides and device checks</b></h2>
 <ul>
   <li><a href="/guides/how-to-check-webcam-and-microphone-before-an-interview.html">How to check your webcam and microphone before an interview</a></li>
