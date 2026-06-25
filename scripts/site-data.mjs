@@ -1153,6 +1153,17 @@ export const INFO_ROUTES = new Set([
   '/guides/id/split-pdf-online-free.html',
   // cycle 20260615-5 - split-pdf-online-free DE locale variant (EN-first locale drain COMPLETE)
   '/guides/de/split-pdf-online-free.html',
+  // cycle 20260623-54 - mengecilkan-ukuran-zip EN + PT locale variant (create_new_guide_page locale completion)
+  '/guides/mengecilkan-ukuran-zip.html',
+  '/guides/pt/mengecilkan-ukuran-zip.html',
+  // cycle 20260624 - mengecilkan-ukuran-zip ES locale variant (EN-first locale drain; vi/id/de remain)
+  '/guides/es/mengecilkan-ukuran-zip.html',
+  // cycle 20260624-2 - mengecilkan-ukuran-zip VI locale variant (EN-first locale drain; id/de remain)
+  '/guides/vi/mengecilkan-ukuran-zip.html',
+  // cycle 20260624-3 - mengecilkan-ukuran-zip ID locale variant (EN-first locale drain; de remains)
+  '/guides/id/mengecilkan-ukuran-zip.html',
+  // cycle 20260624-4 - mengecilkan-ukuran-zip DE locale variant (EN-first locale drain; locale-complete)
+  '/guides/de/mengecilkan-ukuran-zip.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -1904,6 +1915,12 @@ export const GUIDE_ROUTES = new Set([
   '/guides/id/split-pdf-online-free.html',
   // cycle 20260615-5 - split-pdf-online-free DE locale variant (EN-first locale drain COMPLETE)
   '/guides/de/split-pdf-online-free.html',
+  // cycle 20260624-2 - mengecilkan-ukuran-zip VI locale variant (EN-first locale drain; id/de remain)
+  '/guides/vi/mengecilkan-ukuran-zip.html',
+  // cycle 20260624-3 - mengecilkan-ukuran-zip ID locale variant (EN-first locale drain; de remains)
+  '/guides/id/mengecilkan-ukuran-zip.html',
+  // cycle 20260624-4 - mengecilkan-ukuran-zip DE locale variant (EN-first locale drain; locale-complete)
+  '/guides/de/mengecilkan-ukuran-zip.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -3157,6 +3174,13 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/how-to-run-a-private-ai-chat-in-your-browser.html': 'guide/vi/how-to-run-a-private-ai-chat-in-your-browser.jsp',
   '/guides/id/how-to-run-a-private-ai-chat-in-your-browser.html': 'guide/id/how-to-run-a-private-ai-chat-in-your-browser.jsp',
   '/guides/de/how-to-run-a-private-ai-chat-in-your-browser.html': 'guide/de/how-to-run-a-private-ai-chat-in-your-browser.jsp',
+  '/guides/mengecilkan-ukuran-zip.html': 'guide/mengecilkan-ukuran-zip.jsp',
+  '/guides/pt/mengecilkan-ukuran-zip.html': 'guide/pt/mengecilkan-ukuran-zip.jsp',
+  '/guides/es/mengecilkan-ukuran-zip.html': 'guide/es/mengecilkan-ukuran-zip.jsp',
+  '/guides/vi/mengecilkan-ukuran-zip.html': 'guide/vi/mengecilkan-ukuran-zip.jsp',
+  '/guides/id/mengecilkan-ukuran-zip.html': 'guide/id/mengecilkan-ukuran-zip.jsp',
+  // cycle 20260624-4 - mengecilkan-ukuran-zip DE locale variant (EN-first locale drain; locale-complete)
+  '/guides/de/mengecilkan-ukuran-zip.html': 'guide/de/mengecilkan-ukuran-zip.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
