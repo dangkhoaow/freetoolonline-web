@@ -144,6 +144,8 @@ try {
     { title: "MD5 Hashing in the Browser - What `common::md5::gethash64string` Style Calls Do", url: "https://freetoolonline.com/guides/en/common-md5-gethash64string.html", include: !1, tags: "developer,guide,md5,hash,checksum" },
     { title: "Test LCD: Pick the Right Screen-Test Tool", url: "https://freetoolonline.com/guides/en/test-lcd.html", include: !1, tags: "guide,device-test,lcd,lcd-test,screen-test,dead-pixel" },
     { title: "LCD Test Online: Run a Free Browser-Based Screen Test", url: "https://freetoolonline.com/guides/en/lcd-test-online.html", include: !1, tags: "guide,device-test,lcd,lcd-test,screen-test,dead-pixel" },
+    { title: "Screen / Display Test Synonyms", url: "https://freetoolonline.com/guides/en/screen-display-test-synonyms.html", include: !1, tags: "guide,device-test,lcd,screen-test,synonym" },
+    { title: "Microphone Test No Sound - Four Fixes", url: "https://freetoolonline.com/guides/en/microphone-test-no-sound-four-fixes.html", include: !1, tags: "guide,device-test,utility,microphone" },
     { title: "How to Compress a File Online (Step by Step)", url: "https://freetoolonline.com/guides/en/how-to-compress-a-file-online.html", include: !1, tags: "guide,zip,compress,image-editing,pdf,video" },
     { title: "How to Reduce Zip File Size Online (Free)", url: "https://freetoolonline.com/guides/en/how-to-reduce-zip-file-size-online.html", include: !1, tags: "guide,zip,compress" },
     { title: "How to Convert HEIC to JPG Step by Step", url: "https://freetoolonline.com/guides/en/how-to-convert-heic-to-jpg-step-by-step.html", include: !1, tags: "guide,image-conversion,heic,jpg" },
@@ -270,6 +272,8 @@ try {
     { title: "How to Hide a Message in an Image (Steganography, Free + In-Browser)", url: "https://freetoolonline.com/guides/how-to-hide-a-message-in-an-image.html", include: !1, tags: "image-editing" },
     { title: "How to Edit Code Online - Free, In Your Browser", url: "https://freetoolonline.com/guides/how-to-edit-code-online.html", include: !1, tags: "developer" },
     { title: "How to Run a Private AI Chat in Your Browser - Free, No Upload", url: "https://freetoolonline.com/guides/how-to-run-a-private-ai-chat-in-your-browser.html", include: !1, tags: "utility" },
+    { title: "Mengecilkan Ukuran Zip Online - Free Guide", url: "https://freetoolonline.com/guides/mengecilkan-ukuran-zip.html", include: !1, tags: "zip" },
+    { title: "Video Converter Online Free: Convert to MP4, MOV, MP3 and More", url: "https://freetoolonline.com/guides/video-converter-online-free.html", include: !1, tags: "video" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
     allCurrentTags = "",
@@ -401,7 +405,7 @@ try {
 
   if ("" !== currentTitle) {
     if (currentTitle.toLowerCase() !== "Tags Collection".toLowerCase() && currentTitle.toLowerCase() !== "Tags cloud:".toLowerCase()) {
-      var RELATED_GUIDES_MAX = 8;
+      var RELATED_GUIDES_MAX = 12;
       for (var currentTitleWords = currentTitle.toLowerCase().replace(/,/g, "").split(" "), toolsList = "", guidesList = "", guidesCount = 0, i = 0; i < urlMaps.length; i++) {
         var title = urlMaps[i].title;
         if (!urlMaps[i].include && !isCurrentMapItem(urlMaps[i])) {
