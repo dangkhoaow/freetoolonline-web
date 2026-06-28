@@ -883,6 +883,16 @@ export const INFO_ROUTES = new Set([
   // form "cropandrotateimage" does not shadow any existing primary route.
   '/guides/en/crop-and-rotate-image.html',
 
+  // cycle 20260625-6 create_new_guide_page (locale completion, EN-first drain) - pt variant of /guides/video-converter-online-free.html (held staging-only until es/vi/id/de complete).
+  '/guides/pt/video-converter-online-free.html',
+  // cycle 20260626 create_new_guide_page (locale completion) - es variant of /guides/video-converter-online-free.html (staging-only until vi/id/de complete).
+  '/guides/es/video-converter-online-free.html',
+  // cycle 20260626-2 create_new_guide_page (locale completion) - vi variant of /guides/video-converter-online-free.html (staging-only until id/de complete).
+  '/guides/vi/video-converter-online-free.html',
+  // 2026-06-28 related-guides-loop: id/de locale completion for video-converter-online-free.
+  '/guides/id/video-converter-online-free.html',
+  '/guides/de/video-converter-online-free.html',
+
   // 2026-05-28 plan-warm-pascal-v2 S1 multilingual migration (locale-prefixed guide URLs).
   // plan-warm-pascal-v3 S2 batch 1 (2026-05-29) - 5 locale variants of /guides/lcd-test-online.html
   '/guides/pt/lcd-test-online.html',
@@ -1181,6 +1191,15 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // cycle 20260625-6 create_new_guide_page (locale completion) - pt variant of video-converter-online-free (staging-only until es/vi/id/de complete).
+  '/guides/pt/video-converter-online-free.html',
+  // cycle 20260626 create_new_guide_page (locale completion) - es variant of video-converter-online-free (staging-only until vi/id/de complete).
+  '/guides/es/video-converter-online-free.html',
+  // cycle 20260626-2 create_new_guide_page (locale completion) - vi variant of video-converter-online-free (staging-only until id/de complete).
+  '/guides/vi/video-converter-online-free.html',
+  // 2026-06-28 related-guides-loop: id/de locale completion for video-converter-online-free.
+  '/guides/id/video-converter-online-free.html',
+  '/guides/de/video-converter-online-free.html',
   // plan-warm-pascal-v3 S2 batch 1 (2026-05-29) - 5 locale variants of /guides/lcd-test-online.html
   '/guides/pt/lcd-test-online.html',
   '/guides/es/lcd-test-online.html',
@@ -3181,6 +3200,16 @@ export const JSP_BY_ROUTE = {
   '/guides/id/mengecilkan-ukuran-zip.html': 'guide/id/mengecilkan-ukuran-zip.jsp',
   // cycle 20260624-4 - mengecilkan-ukuran-zip DE locale variant (EN-first locale drain; locale-complete)
   '/guides/de/mengecilkan-ukuran-zip.html': 'guide/de/mengecilkan-ukuran-zip.jsp',
+  '/guides/video-converter-online-free.html': 'guide/video-converter-online-free.jsp',
+  // cycle 20260625-6 create_new_guide_page (locale completion) - pt variant (staging-only until es/vi/id/de complete).
+  '/guides/pt/video-converter-online-free.html': 'guide/pt/video-converter-online-free.jsp',
+  // cycle 20260626 create_new_guide_page (locale completion) - es variant (staging-only until vi/id/de complete).
+  '/guides/es/video-converter-online-free.html': 'guide/es/video-converter-online-free.jsp',
+  // cycle 20260626-2 create_new_guide_page (locale completion) - vi variant (staging-only until id/de complete).
+  '/guides/vi/video-converter-online-free.html': 'guide/vi/video-converter-online-free.jsp',
+  // 2026-06-28 related-guides-loop: id/de locale completion.
+  '/guides/id/video-converter-online-free.html': 'guide/id/video-converter-online-free.jsp',
+  '/guides/de/video-converter-online-free.html': 'guide/de/video-converter-online-free.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
@@ -3303,7 +3332,7 @@ export function routeToSlug(route) {
 // up to 5 slugs per batch, including each route's localized guide variants
 // (e.g. guidespt<slug>). Flip RELATED_GUIDES_GLOBAL to true to enable sitewide
 // once the backlog is drained.
-export const RELATED_GUIDES_GLOBAL = false;
+export const RELATED_GUIDES_GLOBAL = true; // 2026-06-28: all 19 legacy inline blocks removed; global enable.
 // NOTE on rollout order (coverage safety): the dedicated Related-guides section
 // is CAPPED (page-renderer.mjs RELATED_GUIDES_MAX), so it shows the most-relevant
 // computed subset - it is NOT guaranteed to contain every link from a page's
@@ -3323,6 +3352,29 @@ export const RELATED_GUIDES_SLUGS = new Set([
   'cameratest',
   'composepdf',
   'unzipfile',
+  // Batch 1 (2026-06-28): legacy inline-block pages - inline block removal verified below.
+  'zipfile',
+  'md5converter',
+  'lcdtest',
+  'microphonetest',
+  'developertools',
+  // Batch 2 (2026-06-28): 5 more legacy inline-block pages.
+  'devicetesttools',
+  'imageconvertertools',
+  'pdftools',
+  'videotools',
+  'guidescompressfolderonline',
+  // Batch 3 (2026-06-28): 5 more legacy inline-block pages.
+  'guidescreatezipfileonline',
+  'guidescropandrotateimage',
+  'guidesgiftoframe',
+  'guidesgiftoframesconverter',
+  'guidesilovezip',
+  // Batch 4 (2026-06-28): final 4 legacy inline-block pages.
+  'guideslcdchecker',
+  'guidesonlinezipfile',
+  'guideswhatwelearnedrunningfreeinbrowserimagetoolsfor100kmonthlyusers',
+  'guideszipunlockeronline',
 ]);
 
 export function isRelatedGuidesEnabled(route) {
@@ -3333,6 +3385,147 @@ export function isRelatedGuidesEnabled(route) {
     return false;
   }
 }
+
+// Per-slug curated guide URL lists (§1a of the related-guides migration runbook).
+// When a page's legacy inline "Related guides" block contains specific hand-curated
+// links that the computed tag/title-match algorithm may not surface (due to the
+// RELATED_GUIDES_MAX cap or urlMaps ordering), list those canonical /guides/en/ URLs
+// here. The renderer shows these FIRST in the dedicated section, then appends any
+// additional tag-matched guides up to RELATED_GUIDES_MAX. Paths use /guides/en/ for
+// EN-canonical guides; locale-specific guides use their own /guides/<lang>/ prefix.
+// Coverage-preserving contract (runbook §1): every URL in a page's inline block must
+// appear in urlMaps with a matching tag BEFORE the inline block is removed.
+export const RELATED_GUIDES_CURATED = {
+  'zipfile': [
+    '/guides/en/file-compressor.html',
+    '/guides/en/how-to-compress-a-zip-file.html',
+    '/guides/en/how-to-compress-a-folder.html',
+    '/guides/en/zip-folder-online-free.html',
+    '/guides/en/compress-folder-online.html',
+    '/guides/en/zip-file-size-compressor.html',
+    '/guides/en/resize-zip-file.html',
+    '/guides/es/compress-folder-to-zip-online-free.html',
+    '/guides/es/reduce-zip-size-online.html',
+    '/guides/pt/compress-zip-file.html',
+    '/guides/en/kompres-file-zip.html',
+  ],
+  'md5converter': [
+    '/guides/en/md5-vs-sha256-when-to-hash.html',
+    '/guides/en/why-md5-cannot-be-decrypted.html',
+    '/guides/en/md5-alternatives-bcrypt-argon2id-sha256-when-each-fits.html',
+    '/guides/en/md5-to-text-why-you-cannot-convert-back.html',
+    '/guides/en/md5-hash-decrypt.html',
+    '/guides/en/md5-password.html',
+    '/guides/en/md5-decrypter.html',
+  ],
+  'lcdtest': [
+    '/guides/en/dead-pixel-testing-guide.html',
+    '/guides/en/how-to-test-for-dead-pixels-before-returning-a-monitor.html',
+    '/guides/en/device-test-checklist-for-remote-work.html',
+    '/guides/en/screen-display-test-synonyms.html',
+    '/guides/en/what-an-lcd-test-does-and-when-to-run-one.html',
+    '/guides/en/screen-test-online-vs-app-which-is-more-accurate.html',
+    '/guides/en/test-lcd.html',
+    '/guides/en/lcd-screen-test.html',
+    '/guides/en/lcd-test-laptop.html',
+  ],
+  'microphonetest': [
+    '/guides/en/how-to-check-webcam-and-microphone-before-an-interview.html',
+    '/guides/en/device-test-checklist-for-remote-work.html',
+    '/guides/en/microphone-test-no-sound-four-fixes.html',
+    '/guides/en/microphone-test-online-what-it-actually-checks.html',
+    '/guides/en/microphone-test-online-quiet-normal-peak-meter.html',
+    '/guides/en/test-lcd.html',
+  ],
+  // Batch 1 (2026-06-28) - developertools curated override.
+  'developertools': [
+    '/guides/en/json-parser-validate-vs-format-vs-tree-view.html',
+    '/guides/en/css-minifier-vs-compressor.html',
+    '/guides/en/css-unminifier-vs-prettier-when-to-use-each.html',
+    '/guides/en/unix-timestamps-explained.html',
+    '/guides/en/milliseconds-to-date-utc-vs-local-time.html',
+    '/guides/en/image-to-base64-embed-in-html-vs-link.html',
+    '/guides/en/qr-code-error-correction-and-scan-failures.html',
+  ],
+  // Batch 2 (2026-06-28) curated overrides.
+  'devicetesttools': [
+    '/guides/en/what-an-lcd-test-does-and-when-to-run-one.html',
+    '/guides/en/dead-pixel-testing-guide.html',
+    '/guides/en/device-test-checklist-for-remote-work.html',
+    '/guides/en/how-to-test-for-dead-pixels-before-returning-a-monitor.html',
+  ],
+  'imageconvertertools': [
+    '/guides/en/heic-vs-jpg-vs-webp.html',
+    '/guides/en/how-to-convert-heic-to-jpg-step-by-step.html',
+    '/guides/en/png-vs-svg-when-to-use.html',
+    '/guides/en/jpg-vs-png-for-web.html',
+  ],
+  'pdftools': [
+    '/guides/en/pdf-password-types-owner-vs-user.html',
+    '/guides/en/pdf-editing-ladder.html',
+    '/guides/en/how-to-compress-a-file-online.html',
+    '/guides/en/file-compressor-vs-zip-what-to-pick.html',
+  ],
+  'videotools': [
+    '/guides/en/mp4-vs-webm-for-web.html',
+    '/guides/en/ffmpeg-online-vs-local-ffmpeg-when-each-wins.html',
+    '/guides/en/what-is-a-file-compressor-and-which-to-use.html',
+    '/guides/en/how-to-compress-a-file-online.html',
+  ],
+  'guidescompressfolderonline': [
+    '/guides/en/how-to-compress-a-folder.html',
+    '/guides/en/zip-folder-online-free.html',
+    '/guides/en/folder-to-zip.html',
+    '/guides/en/how-to-compress-a-folder-for-email.html',
+  ],
+  // Batch 3 (2026-06-28) curated overrides.
+  'guidescreatezipfileonline': [
+    '/guides/en/online-zip-file.html',
+    '/guides/en/folder-to-zip.html',
+    '/guides/en/zip-compressor-online.html',
+    '/guides/en/compress-zip.html',
+  ],
+  'guidesgiftoframe': [
+    '/guides/en/extract-gif-frames-png-vs-jpg-which-format.html',
+    '/guides/en/gif-frames-extract-vs-frame-rate-fps-explained.html',
+  ],
+  'guidesgiftoframesconverter': [
+    '/guides/en/gif-frames-extract-vs-frame-rate-fps-explained.html',
+    '/guides/en/extract-gif-frames-png-vs-jpg-which-format.html',
+  ],
+  'guidesilovezip': [
+    '/guides/en/create-zip-file-online.html',
+    '/guides/en/online-zip-file.html',
+    '/guides/en/zip-folder-online-free.html',
+    '/guides/en/compress-zip.html',
+  ],
+  // Batch 4 (2026-06-28) curated overrides.
+  'guideslcdchecker': [
+    '/guides/en/test-lcd.html',
+    '/guides/en/what-an-lcd-test-does-and-when-to-run-one.html',
+    '/guides/en/led-test-vs-lcd-test-which-applies-to-your-screen.html',
+    '/guides/en/lcd-test-vs-display-test-which-do-you-need.html',
+    '/guides/en/screen-test-online-vs-app-which-is-more-accurate.html',
+    '/guides/en/dead-pixel-testing-guide.html',
+    '/guides/en/how-to-test-for-dead-pixels-before-returning-a-monitor.html',
+  ],
+  'guidesonlinezipfile': [
+    '/guides/en/folder-to-zip.html',
+    '/guides/en/compress-zip.html',
+    '/guides/en/make-zip-file-online.html',
+    '/guides/en/zip-compressor-online.html',
+    '/guides/en/online-zip-vs-7z-vs-rar-which-to-pick.html',
+  ],
+  'guideswhatwelearnedrunningfreeinbrowserimagetoolsfor100kmonthlyusers': [
+    '/guides/en/jpg-vs-png-for-web.html',
+    '/guides/en/heic-vs-jpg-vs-webp.html',
+    '/guides/en/mp4-vs-webm-for-web.html',
+    '/guides/en/ffmpeg-online-vs-local-ffmpeg-when-each-wins.html',
+  ],
+  'guideszipunlockeronline': [
+    '/guides/en/pdf-password-types-owner-vs-user.html',
+  ],
+};
 
 export function routeToPageName(route) {
   const normalized = normalizeRoute(route);
