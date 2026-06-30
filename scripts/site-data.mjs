@@ -1180,6 +1180,12 @@ export const INFO_ROUTES = new Set([
   '/guides/id/mengecilkan-ukuran-zip.html',
   // cycle 20260624-4 - mengecilkan-ukuran-zip DE locale variant (EN-first locale drain; locale-complete)
   '/guides/de/mengecilkan-ukuran-zip.html',
+  // cycle 20260630-4 - merge-pdf-online-free-unlimited VI locale variant (EN-first locale drain; id/de remain)
+  '/guides/vi/merge-pdf-online-free-unlimited.html',
+  // cycle 20260630-5 - merge-pdf-online-free-unlimited ID locale variant (EN-first locale drain; de remains)
+  '/guides/id/merge-pdf-online-free-unlimited.html',
+  // cycle 20260630-6 - merge-pdf-online-free-unlimited DE locale variant (EN-first locale drain; locale-complete after this)
+  '/guides/de/merge-pdf-online-free-unlimited.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -1950,6 +1956,12 @@ export const GUIDE_ROUTES = new Set([
   '/guides/id/mengecilkan-ukuran-zip.html',
   // cycle 20260624-4 - mengecilkan-ukuran-zip DE locale variant (EN-first locale drain; locale-complete)
   '/guides/de/mengecilkan-ukuran-zip.html',
+  // cycle 20260630-4 - merge-pdf-online-free-unlimited VI locale variant (EN-first locale drain; id/de remain)
+  '/guides/vi/merge-pdf-online-free-unlimited.html',
+  // cycle 20260630-5 - merge-pdf-online-free-unlimited ID locale variant (EN-first locale drain; de remains)
+  '/guides/id/merge-pdf-online-free-unlimited.html',
+  // cycle 20260630-6 - merge-pdf-online-free-unlimited DE locale variant (EN-first locale drain; locale-complete after this)
+  '/guides/de/merge-pdf-online-free-unlimited.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -3230,6 +3242,17 @@ export const JSP_BY_ROUTE = {
   // 2026-06-28 related-guides-loop: id/de locale completion.
   '/guides/id/video-converter-online-free.html': 'guide/id/video-converter-online-free.jsp',
   '/guides/de/video-converter-online-free.html': 'guide/de/video-converter-online-free.jsp',
+  '/guides/merge-pdf-online-free-unlimited.html': 'guide/merge-pdf-online-free-unlimited.jsp',
+  // cycle 20260629-6 create_new_guide_page (locale completion) - pt variant of merge-pdf-online-free-unlimited (staging-only until es/vi/id/de complete).
+  '/guides/pt/merge-pdf-online-free-unlimited.html': 'guide/pt/merge-pdf-online-free-unlimited.jsp',
+  // cycle 20260630-2 create_new_guide_page (locale completion) - es variant of merge-pdf-online-free-unlimited (staging-only until vi/id/de complete).
+  '/guides/es/merge-pdf-online-free-unlimited.html': 'guide/es/merge-pdf-online-free-unlimited.jsp',
+  // cycle 20260630-4 create_new_guide_page (locale completion) - vi variant of merge-pdf-online-free-unlimited (staging-only until id/de complete).
+  '/guides/vi/merge-pdf-online-free-unlimited.html': 'guide/vi/merge-pdf-online-free-unlimited.jsp',
+  // cycle 20260630-5 create_new_guide_page (locale completion) - id variant of merge-pdf-online-free-unlimited (staging-only until de complete).
+  '/guides/id/merge-pdf-online-free-unlimited.html': 'guide/id/merge-pdf-online-free-unlimited.jsp',
+  // cycle 20260630-6 create_new_guide_page (locale completion) - de variant of merge-pdf-online-free-unlimited (locale-complete after this).
+  '/guides/de/merge-pdf-online-free-unlimited.html': 'guide/de/merge-pdf-online-free-unlimited.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
