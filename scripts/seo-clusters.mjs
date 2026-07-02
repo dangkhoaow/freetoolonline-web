@@ -36,7 +36,7 @@ const SEO_CLUSTER_GROUPS = [
     cluster: 'pdf',
     hubRoute: '/pdf-tools.html',
     hubLabel: 'Back to PDF Tools',
-    routes: ['/compose-pdf.html', '/split-pdf-by-range.html', '/split-pdf-to-each-pages.html', '/join-pdf-from-multiple-files.html', '/protect-pdf-by-password.html', '/remove-pdf-password.html', '/preflight-pdf.html', '/flatten-pdf.html', '/pdf-to-text.html', '/pdf-to-images.html', '/pdf-to-html.html', '/images-to-pdf.html'],
+    routes: ['/compose-pdf.html', '/split-pdf-by-range.html', '/split-pdf-to-each-pages.html', '/join-pdf-from-multiple-files.html', '/protect-pdf-by-password.html', '/remove-pdf-password.html', '/preflight-pdf.html', '/flatten-pdf.html', '/pdf-to-text.html', '/pdf-to-images.html', '/pdf-to-html.html', '/images-to-pdf.html', '/pdf-tools/pdf-filler-form-editor.html'],
   },
   {
     cluster: 'developer',
@@ -48,7 +48,7 @@ const SEO_CLUSTER_GROUPS = [
     // Cycle 20260521-12 semantic-dedup cleanup: '/json-formatter.html' removed
     // (was semantic duplicate of /json-parser.html which is titled "JSON Parser
     // & Formatter (Tree View)" and already covers pretty-print + validate + tree).
-    routes: ['/json-parser.html', '/css-minifier.html', '/css-unminifier.html', '/js-minifier.html', '/js-unminifier.html', '/text-diff.html', '/md5-converter.html', '/css-gradient-generator.html', '/text-html-editor.html', '/developer-tools/regex-tester.html', '/developer-tools/color-picker.html', '/developer-tools/data-visualizer.html', '/developer-tools/code-editor.html'],
+    routes: ['/json-parser.html', '/css-minifier.html', '/css-unminifier.html', '/js-minifier.html', '/js-unminifier.html', '/text-diff.html', '/md5-converter.html', '/css-gradient-generator.html', '/text-html-editor.html', '/developer-tools/regex-tester.html', '/developer-tools/color-picker.html', '/developer-tools/data-visualizer.html', '/developer-tools/code-editor.html', '/developer-tools/code-formatter-beautifier.html'],
   },
   {
     cluster: 'video',
