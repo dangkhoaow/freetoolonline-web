@@ -1145,15 +1145,26 @@ export const INFO_ROUTES = new Set([
   '/guides/pt/online-diff-tool.html', '/guides/es/online-diff-tool.html', '/guides/vi/online-diff-tool.html', '/guides/id/online-diff-tool.html', '/guides/de/online-diff-tool.html',
   // plan-warm-pascal-v3 S2 batch 60 (2026-06-05) - tool-free x 5 locales (new_guide_locale_completeness gate backfill)
   '/guides/pt/tool-free.html', '/guides/es/tool-free.html', '/guides/vi/tool-free.html', '/guides/id/tool-free.html', '/guides/de/tool-free.html',
+  // cycle20260701 create_new_guide_page (locale completion) - pt variant of compress-image-online-to-50kb (staging-only until es/vi/id/de complete).
+  '/guides/pt/compress-image-online-to-50kb.html',
+  // cycle20260701-2 create_new_guide_page (locale completion) - es variant (staging-only until vi/id/de complete).
+  '/guides/es/compress-image-online-to-50kb.html',
+  // cycle20260701-3 create_new_guide_page (locale completion) - vi/id/de complete the bundle (en+pt+es+vi+id+de = locale-complete, prod-eligible).
+  '/guides/vi/compress-image-online-to-50kb.html',
+  '/guides/id/compress-image-online-to-50kb.html',
+  '/guides/de/compress-image-online-to-50kb.html',
+  // cycle 20260702 create_new_guide_page (locale completion) - pt variant of cek-layar-laptop (staging-only until es/vi/id/de complete).
+  '/guides/pt/cek-layar-laptop.html',
+  // cycle 20260702-3 create_new_guide_page (locale completion) - es/vi/id/de variants of cek-layar-laptop (bundle now locale-complete).
+  '/guides/es/cek-layar-laptop.html', '/guides/vi/cek-layar-laptop.html', '/guides/id/cek-layar-laptop.html', '/guides/de/cek-layar-laptop.html',
+  // cycle 20260702 create_new_guide_page - photo-editor-online-pixlr (EN + pt/es/vi/id/de; locale-complete). Serves "photo editor online pixlr" searchers via our /photo-editor.html.
+  '/guides/photo-editor-online-pixlr.html',
+  '/guides/pt/photo-editor-online-pixlr.html', '/guides/es/photo-editor-online-pixlr.html', '/guides/vi/photo-editor-online-pixlr.html', '/guides/id/photo-editor-online-pixlr.html', '/guides/de/photo-editor-online-pixlr.html',
+  // geo-sitewide-audit-runbook: ship-pending reconciliation - pt/es/vi/id/de variants of mp4-to-gif-online-free (completes the locale bundle for the EN-only stranded scaffold).
+  '/guides/pt/mp4-to-gif-online-free.html', '/guides/es/mp4-to-gif-online-free.html', '/guides/vi/mp4-to-gif-online-free.html', '/guides/id/mp4-to-gif-online-free.html', '/guides/de/mp4-to-gif-online-free.html',
   // cycle 20260609-2 - md5-decrypter guide (EN + 5 locale variants)
   '/guides/en/md5-decrypter.html',
   '/guides/pt/md5-decrypter.html', '/guides/es/md5-decrypter.html', '/guides/vi/md5-decrypter.html', '/guides/id/md5-decrypter.html', '/guides/de/md5-decrypter.html',
-  // cycle 20260701-3 create_new_guide_page (locale completion) - compress-image-online-to-50kb now locale-complete (bare EN + pt/es/vi/id/de); promoted to prod.
-  '/guides/pt/compress-image-online-to-50kb.html', '/guides/es/compress-image-online-to-50kb.html', '/guides/vi/compress-image-online-to-50kb.html', '/guides/id/compress-image-online-to-50kb.html', '/guides/de/compress-image-online-to-50kb.html',
-  // cycle 20260702-3 create_new_guide_page (locale completion) - cek-layar-laptop now locale-complete (bare EN + pt/es/vi/id/de); promoted to prod.
-  '/guides/pt/cek-layar-laptop.html', '/guides/es/cek-layar-laptop.html', '/guides/vi/cek-layar-laptop.html', '/guides/id/cek-layar-laptop.html', '/guides/de/cek-layar-laptop.html',
-  // geo-sitewide-audit-runbook: ship-pending reconciliation - mp4-to-gif-online-free now locale-complete (bare EN + pt/es/vi/id/de); promoted to prod.
-  '/guides/pt/mp4-to-gif-online-free.html', '/guides/es/mp4-to-gif-online-free.html', '/guides/vi/mp4-to-gif-online-free.html', '/guides/id/mp4-to-gif-online-free.html', '/guides/de/mp4-to-gif-online-free.html',
   '/guides/pt/compress-folder.html', // pt canonical of /guides/compactar-pasta.html
   '/guides/pt/compress-zip-file.html', // pt canonical of /guides/comprimir-arquivo-zip.html
   '/guides/pt/compress-folder-to-zip.html', // pt canonical of /guides/comprimir-pasta-zipada.html
@@ -1463,11 +1474,22 @@ export const GUIDE_ROUTES = new Set([
   '/guides/pt/online-diff-tool.html', '/guides/es/online-diff-tool.html', '/guides/vi/online-diff-tool.html', '/guides/id/online-diff-tool.html', '/guides/de/online-diff-tool.html',
   // plan-warm-pascal-v3 S2 batch 60 (2026-06-05) - tool-free x 5 locales (new_guide_locale_completeness gate backfill)
   '/guides/pt/tool-free.html', '/guides/es/tool-free.html', '/guides/vi/tool-free.html', '/guides/id/tool-free.html', '/guides/de/tool-free.html',
-  // cycle 20260701-3 create_new_guide_page (locale completion) - compress-image-online-to-50kb locale-complete; promoted to prod.
-  '/guides/pt/compress-image-online-to-50kb.html', '/guides/es/compress-image-online-to-50kb.html', '/guides/vi/compress-image-online-to-50kb.html', '/guides/id/compress-image-online-to-50kb.html', '/guides/de/compress-image-online-to-50kb.html',
-  // cycle 20260702-3 create_new_guide_page (locale completion) - cek-layar-laptop now locale-complete (bare EN + pt/es/vi/id/de); promoted to prod.
-  '/guides/pt/cek-layar-laptop.html', '/guides/es/cek-layar-laptop.html', '/guides/vi/cek-layar-laptop.html', '/guides/id/cek-layar-laptop.html', '/guides/de/cek-layar-laptop.html',
-  // geo-sitewide-audit-runbook: ship-pending reconciliation - mp4-to-gif-online-free now locale-complete (bare EN + pt/es/vi/id/de); promoted to prod.
+  // cycle20260701 create_new_guide_page (locale completion) - pt variant of compress-image-online-to-50kb (staging-only until es/vi/id/de complete).
+  '/guides/pt/compress-image-online-to-50kb.html',
+  // cycle20260701-2 create_new_guide_page (locale completion) - es variant (staging-only until vi/id/de complete).
+  '/guides/es/compress-image-online-to-50kb.html',
+  // cycle20260701-3 create_new_guide_page (locale completion) - vi/id/de complete the bundle.
+  '/guides/vi/compress-image-online-to-50kb.html',
+  '/guides/id/compress-image-online-to-50kb.html',
+  '/guides/de/compress-image-online-to-50kb.html',
+  // cycle 20260702 create_new_guide_page (locale completion) - pt variant of cek-layar-laptop (staging-only until es/vi/id/de complete).
+  '/guides/pt/cek-layar-laptop.html',
+  // cycle 20260702-3 create_new_guide_page (locale completion) - es/vi/id/de variants of cek-layar-laptop (bundle now locale-complete).
+  '/guides/es/cek-layar-laptop.html', '/guides/vi/cek-layar-laptop.html', '/guides/id/cek-layar-laptop.html', '/guides/de/cek-layar-laptop.html',
+  // cycle 20260702 create_new_guide_page - photo-editor-online-pixlr (EN + pt/es/vi/id/de; locale-complete). Serves "photo editor online pixlr" searchers via our /photo-editor.html.
+  '/guides/photo-editor-online-pixlr.html',
+  '/guides/pt/photo-editor-online-pixlr.html', '/guides/es/photo-editor-online-pixlr.html', '/guides/vi/photo-editor-online-pixlr.html', '/guides/id/photo-editor-online-pixlr.html', '/guides/de/photo-editor-online-pixlr.html',
+  // geo-sitewide-audit-runbook: ship-pending reconciliation - pt/es/vi/id/de variants of mp4-to-gif-online-free (completes the locale bundle for the EN-only stranded scaffold).
   '/guides/pt/mp4-to-gif-online-free.html', '/guides/es/mp4-to-gif-online-free.html', '/guides/vi/mp4-to-gif-online-free.html', '/guides/id/mp4-to-gif-online-free.html', '/guides/de/mp4-to-gif-online-free.html',
   '/guides/en/heic-vs-jpg-vs-webp.html',
   '/guides/en/dead-pixel-testing-guide.html',
@@ -2411,6 +2433,9 @@ export const ALIAS_ROUTES = {
   '/code-editor.html': '/developer-tools/code-editor.html',
   '/steganography.html': '/image-tools/steganography.html',
   '/private-ai-chat.html': '/utility-tools/private-ai-chat.html',
+  '/pdf-filler-form-editor.html': '/pdf-tools/pdf-filler-form-editor.html',
+  '/audio-converter.html': '/image-converter-tools/audio-converter.html',
+  '/code-formatter-beautifier.html': '/developer-tools/code-formatter-beautifier.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -3272,20 +3297,29 @@ export const JSP_BY_ROUTE = {
   // cycle 20260630-6 create_new_guide_page (locale completion) - de variant of merge-pdf-online-free-unlimited (locale-complete after this).
   '/guides/de/merge-pdf-online-free-unlimited.html': 'guide/de/merge-pdf-online-free-unlimited.jsp',
   '/guides/crop-image-online-free.html': 'guide/crop-image-online-free.jsp',
-  // cycle 20260701-3 create_new_guide_page (locale completion) - compress-image-online-to-50kb bundle promoted to prod (bare EN canonical + pt/es/vi/id/de; now locale-complete).
   '/guides/compress-image-online-to-50kb.html': 'guide/compress-image-online-to-50kb.jsp',
+  // cycle20260701 create_new_guide_page (locale completion) - pt variant (staging-only until es/vi/id/de complete).
   '/guides/pt/compress-image-online-to-50kb.html': 'guide/pt/compress-image-online-to-50kb.jsp',
+  // cycle20260701-2 create_new_guide_page (locale completion) - es variant (staging-only until vi/id/de complete).
   '/guides/es/compress-image-online-to-50kb.html': 'guide/es/compress-image-online-to-50kb.jsp',
+  // cycle20260701-3 create_new_guide_page (locale completion) - vi/id/de variants (bundle locale-complete).
   '/guides/vi/compress-image-online-to-50kb.html': 'guide/vi/compress-image-online-to-50kb.jsp',
   '/guides/id/compress-image-online-to-50kb.html': 'guide/id/compress-image-online-to-50kb.jsp',
   '/guides/de/compress-image-online-to-50kb.html': 'guide/de/compress-image-online-to-50kb.jsp',
-  // cycle 20260702-3 create_new_guide_page (locale completion) - cek-layar-laptop bundle promoted to prod (bare EN canonical + pt/es/vi/id/de; now locale-complete).
   '/guides/cek-layar-laptop.html': 'guide/cek-layar-laptop.jsp',
+  // cycle 20260702 create_new_guide_page (locale completion) - pt variant of cek-layar-laptop (staging-only until es/vi/id/de complete).
   '/guides/pt/cek-layar-laptop.html': 'guide/pt/cek-layar-laptop.jsp',
   '/guides/es/cek-layar-laptop.html': 'guide/es/cek-layar-laptop.jsp',
   '/guides/vi/cek-layar-laptop.html': 'guide/vi/cek-layar-laptop.jsp',
   '/guides/id/cek-layar-laptop.html': 'guide/id/cek-layar-laptop.jsp',
   '/guides/de/cek-layar-laptop.html': 'guide/de/cek-layar-laptop.jsp',
+  // cycle 20260702 create_new_guide_page - photo-editor-online-pixlr (EN + pt/es/vi/id/de; locale-complete).
+  '/guides/photo-editor-online-pixlr.html': 'guide/photo-editor-online-pixlr.jsp',
+  '/guides/pt/photo-editor-online-pixlr.html': 'guide/pt/photo-editor-online-pixlr.jsp',
+  '/guides/es/photo-editor-online-pixlr.html': 'guide/es/photo-editor-online-pixlr.jsp',
+  '/guides/vi/photo-editor-online-pixlr.html': 'guide/vi/photo-editor-online-pixlr.jsp',
+  '/guides/id/photo-editor-online-pixlr.html': 'guide/id/photo-editor-online-pixlr.jsp',
+  '/guides/de/photo-editor-online-pixlr.html': 'guide/de/photo-editor-online-pixlr.jsp',
   '/guides/mp4-to-gif-online-free.html': 'guide/mp4-to-gif-online-free.jsp',
   // geo-sitewide-audit-runbook: ship-pending reconciliation - completes the locale bundle for mp4-to-gif-online-free.
   '/guides/pt/mp4-to-gif-online-free.html': 'guide/pt/mp4-to-gif-online-free.jsp',
@@ -3293,6 +3327,21 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/mp4-to-gif-online-free.html': 'guide/vi/mp4-to-gif-online-free.jsp',
   '/guides/id/mp4-to-gif-online-free.html': 'guide/id/mp4-to-gif-online-free.jsp',
   '/guides/de/mp4-to-gif-online-free.html': 'guide/de/mp4-to-gif-online-free.jsp',
+  '/pdf-tools/pdf-filler-form-editor.html': 'pdf/pdf-filler-form-editor.jsp',
+  '/guides/pdf-filler-form-editor-step-by-step.html': 'guide/pdf-filler-form-editor-step-by-step.jsp',
+  '/guides/pt/pdf-filler-form-editor-step-by-step.html': 'guide/pt/pdf-filler-form-editor-step-by-step.jsp',
+  '/guides/es/pdf-filler-form-editor-step-by-step.html': 'guide/es/pdf-filler-form-editor-step-by-step.jsp',
+  '/guides/vi/pdf-filler-form-editor-step-by-step.html': 'guide/vi/pdf-filler-form-editor-step-by-step.jsp',
+  '/guides/id/pdf-filler-form-editor-step-by-step.html': 'guide/id/pdf-filler-form-editor-step-by-step.jsp',
+  '/guides/de/pdf-filler-form-editor-step-by-step.html': 'guide/de/pdf-filler-form-editor-step-by-step.jsp',
+  '/image-converter-tools/audio-converter.html': 'convert/audio-converter.jsp',
+  '/developer-tools/code-formatter-beautifier.html': 'utility/code-formatter-beautifier.jsp',
+  '/guides/code-formatter-beautifier-step-by-step.html': 'guide/code-formatter-beautifier-step-by-step.jsp',
+  '/guides/pt/code-formatter-beautifier-step-by-step.html': 'guide/pt/code-formatter-beautifier-step-by-step.jsp',
+  '/guides/es/code-formatter-beautifier-step-by-step.html': 'guide/es/code-formatter-beautifier-step-by-step.jsp',
+  '/guides/vi/code-formatter-beautifier-step-by-step.html': 'guide/vi/code-formatter-beautifier-step-by-step.jsp',
+  '/guides/id/code-formatter-beautifier-step-by-step.html': 'guide/id/code-formatter-beautifier-step-by-step.jsp',
+  '/guides/de/code-formatter-beautifier-step-by-step.html': 'guide/de/code-formatter-beautifier-step-by-step.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
