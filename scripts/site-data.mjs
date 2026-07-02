@@ -3350,6 +3350,13 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/analog-clock-step-by-step.html': 'guide/vi/analog-clock-step-by-step.jsp',
   '/guides/id/analog-clock-step-by-step.html': 'guide/id/analog-clock-step-by-step.jsp',
   '/guides/de/analog-clock-step-by-step.html': 'guide/de/analog-clock-step-by-step.jsp',
+  '/utility-tools/digital-clock.html': 'utility/digital-clock.jsp',
+  '/guides/digital-clock-step-by-step.html': 'guide/digital-clock-step-by-step.jsp',
+  '/guides/pt/digital-clock-step-by-step.html': 'guide/pt/digital-clock-step-by-step.jsp',
+  '/guides/es/digital-clock-step-by-step.html': 'guide/es/digital-clock-step-by-step.jsp',
+  '/guides/vi/digital-clock-step-by-step.html': 'guide/vi/digital-clock-step-by-step.jsp',
+  '/guides/id/digital-clock-step-by-step.html': 'guide/id/digital-clock-step-by-step.jsp',
+  '/guides/de/digital-clock-step-by-step.html': 'guide/de/digital-clock-step-by-step.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
