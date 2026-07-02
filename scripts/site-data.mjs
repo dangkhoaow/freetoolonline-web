@@ -2412,6 +2412,7 @@ export const ALIAS_ROUTES = {
   '/steganography.html': '/image-tools/steganography.html',
   '/private-ai-chat.html': '/utility-tools/private-ai-chat.html',
   '/pdf-filler-form-editor.html': '/pdf-tools/pdf-filler-form-editor.html',
+  '/code-formatter-beautifier.html': '/developer-tools/code-formatter-beautifier.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -3301,6 +3302,13 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/pdf-filler-form-editor-step-by-step.html': 'guide/vi/pdf-filler-form-editor-step-by-step.jsp',
   '/guides/id/pdf-filler-form-editor-step-by-step.html': 'guide/id/pdf-filler-form-editor-step-by-step.jsp',
   '/guides/de/pdf-filler-form-editor-step-by-step.html': 'guide/de/pdf-filler-form-editor-step-by-step.jsp',
+  '/developer-tools/code-formatter-beautifier.html': 'utility/code-formatter-beautifier.jsp',
+  '/guides/code-formatter-beautifier-step-by-step.html': 'guide/code-formatter-beautifier-step-by-step.jsp',
+  '/guides/pt/code-formatter-beautifier-step-by-step.html': 'guide/pt/code-formatter-beautifier-step-by-step.jsp',
+  '/guides/es/code-formatter-beautifier-step-by-step.html': 'guide/es/code-formatter-beautifier-step-by-step.jsp',
+  '/guides/vi/code-formatter-beautifier-step-by-step.html': 'guide/vi/code-formatter-beautifier-step-by-step.jsp',
+  '/guides/id/code-formatter-beautifier-step-by-step.html': 'guide/id/code-formatter-beautifier-step-by-step.jsp',
+  '/guides/de/code-formatter-beautifier-step-by-step.html': 'guide/de/code-formatter-beautifier-step-by-step.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.

@@ -287,6 +287,7 @@ try {
     { title: "How to check a laptop screen for dead pixels and backlight bleed", url: "https://freetoolonline.com/guides/cek-layar-laptop.html", include: !1, tags: "utility" },
     { title: "MP4 to GIF Online Free: Trim, Resize, and Export an Animated GIF", url: "https://freetoolonline.com/guides/mp4-to-gif-online-free.html", include: !1, tags: "video" },
     { title: "PDF Filler Form Editor", url: "https://freetoolonline.com/pdf-tools/pdf-filler-form-editor.html", include: !1, tags: "pdf" },
+    { title: "Code Formatter Beautifier", url: "https://freetoolonline.com/developer-tools/code-formatter-beautifier.html", include: !1, tags: "developer" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
     allCurrentTags = "",
