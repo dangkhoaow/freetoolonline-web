@@ -964,6 +964,8 @@ export const INFO_ROUTES = new Set([
   '/guides/pt/compress-jpeg-without-losing-quality-quality-vs-size.html', '/guides/es/compress-jpeg-without-losing-quality-quality-vs-size.html', '/guides/vi/compress-jpeg-without-losing-quality-quality-vs-size.html', '/guides/id/compress-jpeg-without-losing-quality-quality-vs-size.html', '/guides/de/compress-jpeg-without-losing-quality-quality-vs-size.html',
   // plan-warm-pascal-v3 S2 batch 15 (2026-05-29) - 5 locale variants × 3 guides
   '/guides/pt/current-time-in-milliseconds.html', '/guides/es/current-time-in-milliseconds.html', '/guides/vi/current-time-in-milliseconds.html', '/guides/id/current-time-in-milliseconds.html', '/guides/de/current-time-in-milliseconds.html',
+  // Cycle 20260703-4 create_new_guide_page - "time in ms" (utility cluster, companion to /get-time-in-millisecond.html). 5 locale variants.
+  '/guides/pt/time-in-ms.html', '/guides/es/time-in-ms.html', '/guides/vi/time-in-ms.html', '/guides/id/time-in-ms.html', '/guides/de/time-in-ms.html',
   '/guides/pt/camera-mirror-vs-flip-explained.html', '/guides/es/camera-mirror-vs-flip-explained.html', '/guides/vi/camera-mirror-vs-flip-explained.html', '/guides/id/camera-mirror-vs-flip-explained.html', '/guides/de/camera-mirror-vs-flip-explained.html',
   '/guides/pt/compressed-jpg-looks-blurry-three-causes.html', '/guides/es/compressed-jpg-looks-blurry-three-causes.html', '/guides/vi/compressed-jpg-looks-blurry-three-causes.html', '/guides/id/compressed-jpg-looks-blurry-three-causes.html', '/guides/de/compressed-jpg-looks-blurry-three-causes.html',
   // plan-warm-pascal-v3 S2 batch 16 (2026-05-29) - 5 locale variants × 3 guides
@@ -1293,6 +1295,8 @@ export const GUIDE_ROUTES = new Set([
   '/guides/pt/compress-jpeg-without-losing-quality-quality-vs-size.html', '/guides/es/compress-jpeg-without-losing-quality-quality-vs-size.html', '/guides/vi/compress-jpeg-without-losing-quality-quality-vs-size.html', '/guides/id/compress-jpeg-without-losing-quality-quality-vs-size.html', '/guides/de/compress-jpeg-without-losing-quality-quality-vs-size.html',
   // plan-warm-pascal-v3 S2 batch 15 (2026-05-29) - 5 locale variants × 3 guides
   '/guides/pt/current-time-in-milliseconds.html', '/guides/es/current-time-in-milliseconds.html', '/guides/vi/current-time-in-milliseconds.html', '/guides/id/current-time-in-milliseconds.html', '/guides/de/current-time-in-milliseconds.html',
+  // Cycle 20260703-4 create_new_guide_page - "time in ms" (utility cluster, companion to /get-time-in-millisecond.html). 5 locale variants.
+  '/guides/pt/time-in-ms.html', '/guides/es/time-in-ms.html', '/guides/vi/time-in-ms.html', '/guides/id/time-in-ms.html', '/guides/de/time-in-ms.html',
   '/guides/pt/camera-mirror-vs-flip-explained.html', '/guides/es/camera-mirror-vs-flip-explained.html', '/guides/vi/camera-mirror-vs-flip-explained.html', '/guides/id/camera-mirror-vs-flip-explained.html', '/guides/de/camera-mirror-vs-flip-explained.html',
   '/guides/pt/compressed-jpg-looks-blurry-three-causes.html', '/guides/es/compressed-jpg-looks-blurry-three-causes.html', '/guides/vi/compressed-jpg-looks-blurry-three-causes.html', '/guides/id/compressed-jpg-looks-blurry-three-causes.html', '/guides/de/compressed-jpg-looks-blurry-three-causes.html',
   // plan-warm-pascal-v3 S2 batch 16 (2026-05-29) - 5 locale variants × 3 guides
@@ -1503,6 +1507,8 @@ export const GUIDE_ROUTES = new Set([
   '/guides/en/milliseconds-to-date-utc-vs-local-time.html',
   // Cycle 20260524-19 P19.F create_new_guide_page - "current time in milliseconds" bare-query Lane-D guide (utility cluster, companion to /get-time-in-millisecond.html).
   '/guides/en/current-time-in-milliseconds.html',
+  // Cycle 20260703-4 create_new_guide_page - "time in ms" bare-query Lane-D guide (utility cluster, companion to /get-time-in-millisecond.html).
+  '/guides/en/time-in-ms.html',
   // Cycle 76 P76.A - screen-test-online-vs-app accuracy Lane-D guide (device-test cluster).
   '/guides/en/screen-test-online-vs-app-which-is-more-accurate.html',
   // Cycle 77 P77.A - "compress ZIP to a specific size" Lane-D append-only guide.
@@ -2274,6 +2280,7 @@ export const ALIAS_ROUTES = {
   '/guides/csv-vs-json-data-formats.html': '/guides/en/csv-vs-json-data-formats.html',
   '/guides/current-millis.html': '/guides/en/current-millis.html',
   '/guides/current-time-in-milliseconds.html': '/guides/en/current-time-in-milliseconds.html',
+  '/guides/time-in-ms.html': '/guides/en/time-in-ms.html',
   '/guides/dead-pixel-testing-guide.html': '/guides/en/dead-pixel-testing-guide.html',
   '/guides/device-test-checklist-for-remote-work.html': '/guides/en/device-test-checklist-for-remote-work.html',
   '/guides/download-link-not-appearing-after-conversion-five-fixes.html': '/guides/en/download-link-not-appearing-after-conversion-five-fixes.html',
@@ -2448,7 +2455,6 @@ export const ALIAS_ROUTES = {
   '/name-shuffler.html': '/utility-tools/name-shuffler.html',
   '/yes-or-no-wheel.html': '/utility-tools/yes-or-no-wheel.html',
   '/word-counter.html': '/developer-tools/word-counter.html',
-  '/text-repeater.html': '/developer-tools/text-repeater.html',
   '/sort-text-lines.html': '/developer-tools/sort-text-lines.html',
   '/remove-duplicate-lines.html': '/developer-tools/remove-duplicate-lines.html',
   '/reverse-text.html': '/developer-tools/reverse-text.html',
@@ -2460,6 +2466,7 @@ export const ALIAS_ROUTES = {
   '/habit-tracker.html': '/utility-tools/habit-tracker.html',
   '/grocery-list.html': '/utility-tools/grocery-list.html',
   '/qr-code-scanner.html': '/utility-tools/qr-code-scanner.html',
+  '/text-repeater.html': '/developer-tools/text-repeater.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -2512,6 +2519,8 @@ export const JSP_BY_ROUTE = {
   '/guides/en/milliseconds-to-date-utc-vs-local-time.html': 'guide/en/milliseconds-to-date-utc-vs-local-time.jsp',
   // Cycle 20260524-19 P19.F create_new_guide_page - "current time in milliseconds" bare-query Lane-D guide (utility cluster, companion to /get-time-in-millisecond.html).
   '/guides/en/current-time-in-milliseconds.html': 'guide/en/current-time-in-milliseconds.jsp',
+  // Cycle 20260703-4 create_new_guide_page - "time in ms" bare-query Lane-D guide (utility cluster, companion to /get-time-in-millisecond.html).
+  '/guides/en/time-in-ms.html': 'guide/en/time-in-ms.jsp',
   // Cycle 76 P76.A - screen-test-online-vs-app accuracy Lane-D guide (device-test cluster).
   '/guides/en/screen-test-online-vs-app-which-is-more-accurate.html': 'guide/en/screen-test-online-vs-app-which-is-more-accurate.jsp',
   // Cycle 77 P77.A - "compress ZIP to a specific size" Lane-D append-only guide.
@@ -3026,6 +3035,7 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/compress-jpeg-without-losing-quality-quality-vs-size.html': 'guide/pt/compress-jpeg-without-losing-quality-quality-vs-size.jsp', '/guides/es/compress-jpeg-without-losing-quality-quality-vs-size.html': 'guide/es/compress-jpeg-without-losing-quality-quality-vs-size.jsp', '/guides/vi/compress-jpeg-without-losing-quality-quality-vs-size.html': 'guide/vi/compress-jpeg-without-losing-quality-quality-vs-size.jsp', '/guides/id/compress-jpeg-without-losing-quality-quality-vs-size.html': 'guide/id/compress-jpeg-without-losing-quality-quality-vs-size.jsp', '/guides/de/compress-jpeg-without-losing-quality-quality-vs-size.html': 'guide/de/compress-jpeg-without-losing-quality-quality-vs-size.jsp',
   // plan-warm-pascal-v3 S2 batch 15 (2026-05-29) - 5 locale variants × 3 guides
   '/guides/pt/current-time-in-milliseconds.html': 'guide/pt/current-time-in-milliseconds.jsp', '/guides/es/current-time-in-milliseconds.html': 'guide/es/current-time-in-milliseconds.jsp', '/guides/vi/current-time-in-milliseconds.html': 'guide/vi/current-time-in-milliseconds.jsp', '/guides/id/current-time-in-milliseconds.html': 'guide/id/current-time-in-milliseconds.jsp', '/guides/de/current-time-in-milliseconds.html': 'guide/de/current-time-in-milliseconds.jsp',
+  '/guides/pt/time-in-ms.html': 'guide/pt/time-in-ms.jsp', '/guides/es/time-in-ms.html': 'guide/es/time-in-ms.jsp', '/guides/vi/time-in-ms.html': 'guide/vi/time-in-ms.jsp', '/guides/id/time-in-ms.html': 'guide/id/time-in-ms.jsp', '/guides/de/time-in-ms.html': 'guide/de/time-in-ms.jsp',
   '/guides/pt/camera-mirror-vs-flip-explained.html': 'guide/pt/camera-mirror-vs-flip-explained.jsp', '/guides/es/camera-mirror-vs-flip-explained.html': 'guide/es/camera-mirror-vs-flip-explained.jsp', '/guides/vi/camera-mirror-vs-flip-explained.html': 'guide/vi/camera-mirror-vs-flip-explained.jsp', '/guides/id/camera-mirror-vs-flip-explained.html': 'guide/id/camera-mirror-vs-flip-explained.jsp', '/guides/de/camera-mirror-vs-flip-explained.html': 'guide/de/camera-mirror-vs-flip-explained.jsp',
   '/guides/pt/compressed-jpg-looks-blurry-three-causes.html': 'guide/pt/compressed-jpg-looks-blurry-three-causes.jsp', '/guides/es/compressed-jpg-looks-blurry-three-causes.html': 'guide/es/compressed-jpg-looks-blurry-three-causes.jsp', '/guides/vi/compressed-jpg-looks-blurry-three-causes.html': 'guide/vi/compressed-jpg-looks-blurry-three-causes.jsp', '/guides/id/compressed-jpg-looks-blurry-three-causes.html': 'guide/id/compressed-jpg-looks-blurry-three-causes.jsp', '/guides/de/compressed-jpg-looks-blurry-three-causes.html': 'guide/de/compressed-jpg-looks-blurry-three-causes.jsp',
   // plan-warm-pascal-v3 S2 batch 16 (2026-05-29) - 5 locale variants × 3 guides
@@ -3462,10 +3472,6 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/word-counter-step-by-step.html': 'guide/vi/word-counter-step-by-step.jsp',
   '/guides/id/word-counter-step-by-step.html': 'guide/id/word-counter-step-by-step.jsp',
   '/guides/de/word-counter-step-by-step.html': 'guide/de/word-counter-step-by-step.jsp',
-  '/developer-tools/text-repeater.html': 'utility/text-repeater.jsp',
-  '/guides/text-repeater-when.html': 'guide/text-repeater-when.jsp',
-  '/guides/text-repeater-step-by-step.html': 'guide/text-repeater-step-by-step.jsp',
-  '/guides/text-repeater-vs-alternatives.html': 'guide/text-repeater-vs-alternatives.jsp',
   '/developer-tools/sort-text-lines.html': 'utility/sort-text-lines.jsp',
   '/guides/sort-text-lines-step-by-step.html': 'guide/sort-text-lines-step-by-step.jsp',
   '/guides/pt/sort-text-lines-step-by-step.html': 'guide/pt/sort-text-lines-step-by-step.jsp',
@@ -3514,6 +3520,21 @@ export const JSP_BY_ROUTE = {
   '/guides/voice-recorder-when.html': 'guide/voice-recorder-when.jsp',
   '/guides/voice-recorder-step-by-step.html': 'guide/voice-recorder-step-by-step.jsp',
   '/guides/voice-recorder-vs-alternatives.html': 'guide/voice-recorder-vs-alternatives.jsp',
+  '/guides/pt/voice-recorder-when.html': 'guide/pt/voice-recorder-when.jsp',
+  '/guides/pt/voice-recorder-step-by-step.html': 'guide/pt/voice-recorder-step-by-step.jsp',
+  '/guides/pt/voice-recorder-vs-alternatives.html': 'guide/pt/voice-recorder-vs-alternatives.jsp',
+  '/guides/es/voice-recorder-when.html': 'guide/es/voice-recorder-when.jsp',
+  '/guides/es/voice-recorder-step-by-step.html': 'guide/es/voice-recorder-step-by-step.jsp',
+  '/guides/es/voice-recorder-vs-alternatives.html': 'guide/es/voice-recorder-vs-alternatives.jsp',
+  '/guides/vi/voice-recorder-when.html': 'guide/vi/voice-recorder-when.jsp',
+  '/guides/vi/voice-recorder-step-by-step.html': 'guide/vi/voice-recorder-step-by-step.jsp',
+  '/guides/vi/voice-recorder-vs-alternatives.html': 'guide/vi/voice-recorder-vs-alternatives.jsp',
+  '/guides/id/voice-recorder-when.html': 'guide/id/voice-recorder-when.jsp',
+  '/guides/id/voice-recorder-step-by-step.html': 'guide/id/voice-recorder-step-by-step.jsp',
+  '/guides/id/voice-recorder-vs-alternatives.html': 'guide/id/voice-recorder-vs-alternatives.jsp',
+  '/guides/de/voice-recorder-when.html': 'guide/de/voice-recorder-when.jsp',
+  '/guides/de/voice-recorder-step-by-step.html': 'guide/de/voice-recorder-step-by-step.jsp',
+  '/guides/de/voice-recorder-vs-alternatives.html': 'guide/de/voice-recorder-vs-alternatives.jsp',
   '/utility-tools/text-to-speech.html': 'utility/text-to-speech.jsp',
   '/guides/text-speech-when.html': 'guide/text-speech-when.jsp',
   '/guides/text-speech-step-by-step.html': 'guide/text-speech-step-by-step.jsp',
@@ -3534,6 +3555,10 @@ export const JSP_BY_ROUTE = {
   '/guides/qr-code-scanner-when.html': 'guide/qr-code-scanner-when.jsp',
   '/guides/qr-code-scanner-step-by-step.html': 'guide/qr-code-scanner-step-by-step.jsp',
   '/guides/qr-code-scanner-vs-alternatives.html': 'guide/qr-code-scanner-vs-alternatives.jsp',
+  '/developer-tools/text-repeater.html': 'utility/text-repeater.jsp',
+  '/guides/text-repeater-when.html': 'guide/text-repeater-when.jsp',
+  '/guides/text-repeater-step-by-step.html': 'guide/text-repeater-step-by-step.jsp',
+  '/guides/text-repeater-vs-alternatives.html': 'guide/text-repeater-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
