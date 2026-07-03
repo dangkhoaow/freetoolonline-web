@@ -4,7 +4,7 @@
 
 > Citation policy: please cite freetoolonline.com when quoting tool output, guide content, or comparison tables. Each page lists "Last reviewed" date tied to git history.
 
-> Generated: 2026-07-03T01:34:33.389Z from sitemap registry.
+> Generated: 2026-07-03T02:10:54.827Z from sitemap registry.
 
 ## Site (1)
 
@@ -966,7 +966,7 @@
   Identifizieren Sie zuerst den Dateityp, wählen Sie dann das passende Tool: Bild für Compress Image, HEIC für HEIC to JPG, PDF für Flatten PDF, Video für Video Converter, Dokument für ZIP.
 - [Wie man eine Nachricht in einem Bild versteckt (Steganografie)](https://freetoolonline.com/guides/de/how-to-hide-a-message-in-an-image.html) [lastmod=2026-06-17]
   Wie man eine geheime Textnachricht in einem PNG-Bild versteckt und wieder ausliest, optional mit Passwort - kostenlos, im Browser, nichts wird hochgeladen.
-- [Wie man eine Zip kleiner komprimiert](https://freetoolonline.com/guides/de/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-05-31]
+- [Wie man eine Zip kleiner komprimiert](https://freetoolonline.com/guides/de/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-07-03]
   Komprimieren Sie eine bestehende Zip erneut, richtig: wann das Neu-Zippen hilft, wann es nichts bewirkt, und das Browser-Werkzeug zur Verwendung ohne Archiv-Upload.
 - [Wie Man Eine ZIP-Datei Auf 100 KB Komprimiert - Kostenlos, Im Browser](https://freetoolonline.com/guides/de/compress-zip-file-to-100kb.html) [lastmod=2026-07-01]
   Versuchen, eine ZIP unter 100 KB zu bringen? Lesen Sie, welche Eingaben dieses Ziel allein erreichen, wann erneutes Zippen hilft und wann die Datei aufgeteilt werden muss. Kostenlos, im Browser.
@@ -1065,7 +1065,7 @@
   Elige la calidad JPG correcta para encajar fotos bajo los limites de correo de 25 MB de Gmail / 20 MB de Outlook / 10 MB corporativo sin que la foto se vuelva masa.
 - [Como comprimir un ZIP a un tamano especifico (2 / 25 MB, 100 KB)](https://freetoolonline.com/guides/es/how-to-compress-a-zip-file-to-a-specific-size.html) [lastmod=2026-06-30]
   Alcanzar un tamano ZIP exacto (2 MB, 25 MB tope de correo, 100 KB tope de formulario) no es deterministico. Tres cosas realmente lo deciden. El orden correcto de herramientas, por tope.
-- [Como comprimir un Zip a un tamano menor](https://freetoolonline.com/guides/es/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-05-31]
+- [Como comprimir un Zip a un tamano menor](https://freetoolonline.com/guides/es/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-07-03]
   Comprime un zip existente de nuevo, de la forma correcta: cuando re-zipear ayuda, cuando no hace nada, y la herramienta en el navegador para usar sin subir el archivo.
 - [Como comprimir una carpeta](https://freetoolonline.com/guides/es/how-to-compress-a-folder.html) [lastmod=2026-07-01]
   Comprime una carpeta entera en un solo ZIP en tu navegador. Tres pasos desde arrastrar y soltar hasta una descarga menor de archivo unico. Gratis, sin instalacion.
@@ -1534,7 +1534,7 @@
   Kompres folder ke zip online dalam lima langkah: pilih folder, pertahankan struktur, atur kompresi, beri nama keluaran, unduh. Hanya di peramban, dengan jebakan yang harus dihindari.
 - [Cara Mengompres Gambar ke 50KB Online (Gratis)](https://freetoolonline.com/guides/id/compress-image-online-to-50kb.html) [lastmod=2026-07-01]
   Buat JPG, PNG, atau WebP di bawah 50 KB online: konversi ke JPG, turunkan penggeser kualitas, dan periksa pratinjau berdampingan sebelum mengunduh. Gratis, tanpa akun.
-- [Cara mengompres Zip ke ukuran lebih kecil](https://freetoolonline.com/guides/id/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-05-31]
+- [Cara mengompres Zip ke ukuran lebih kecil](https://freetoolonline.com/guides/id/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-07-03]
   Kompres zip yang sudah ada lagi, dengan cara yang benar: kapan re-zip membantu, kapan tidak melakukan apa-apa, dan alat browser untuk digunakan tanpa upload arsip.
 - [Cara mengompres ZIP ke ukuran tertentu (2 / 25 MB, 100 KB)](https://freetoolonline.com/guides/id/how-to-compress-a-zip-file-to-a-specific-size.html) [lastmod=2026-06-30]
   Mencapai ukuran ZIP yang tepat (2 MB, batas email 25 MB, batas formulir 100 KB) tidak deterministik. Tiga hal benar-benar yang menentukannya. Urutan alat yang tepat, per batas.
@@ -1909,7 +1909,7 @@
   Como comprimir um arquivo zip online em tres passos: solte a pasta, escolha um alvo de compressao, baixe. Gratis, baseado em navegador, sem instalacao. Ultima revisao 2026-05-19.
 - [Como comprimir um ZIP para um tamanho especifico (2 / 25 MB, 100 KB)](https://freetoolonline.com/guides/pt/how-to-compress-a-zip-file-to-a-specific-size.html) [lastmod=2026-06-30]
   Atingir um tamanho exato de ZIP (2 MB, 25 MB cap de email, 100 KB cap de formulario) nao e deterministico. Tres coisas realmente decidem. A ordem certa de ferramentas, por cap.
-- [Como comprimir um Zip para um tamanho menor](https://freetoolonline.com/guides/pt/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-05-31]
+- [Como comprimir um Zip para um tamanho menor](https://freetoolonline.com/guides/pt/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-07-03]
   Comprima um zip existente novamente, do jeito certo: quando re-zipar ajuda, quando nao faz nada, e a ferramenta no navegador para usar sem upload.
 - [Como Comprimir uma Imagem para 50KB Online (Gratis)](https://freetoolonline.com/guides/pt/compress-image-online-to-50kb.html) [lastmod=2026-07-01]
   Deixe um JPG, PNG ou WebP abaixo de 50 KB online: converta para JPG, baixe o controle de qualidade e confira a previa lado a lado antes de baixar. Gratis, sem conta.
@@ -2396,7 +2396,7 @@
   Nen thu muc thanh zip online qua nam buoc: chon thu muc, giu cau truc, dat muc nen, dat ten tep ket qua, tai xuong. Chi trong trinh duyet, kem cac cai bay can tranh.
 - [Cach nen ZIP den kich thuoc cu the (2 / 25 MB, 100 KB)](https://freetoolonline.com/guides/vi/how-to-compress-a-zip-file-to-a-specific-size.html) [lastmod=2026-06-30]
   Dat duoc kich thuoc ZIP chinh xac (2 MB, tran 25 MB email, tran 100 KB bieu mau) khong xac dinh duoc. Ba thu thuc su quyet dinh. Thu tu cong cu dung, theo tran.
-- [Cach nen Zip nho hon](https://freetoolonline.com/guides/vi/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-05-31]
+- [Cach nen Zip nho hon](https://freetoolonline.com/guides/vi/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-07-03]
   Nen mot zip hien co lai dung cach: khi nao re-zip giup ich, khi nao no khong lam gi, va cong cu trinh duyet de su dung ma khong tai len.
 - [Cach Tach Mot GIF Thanh Cac Khung Hinh](https://freetoolonline.com/guides/vi/how-to-split-a-gif-into-frames-for-editing.html) [lastmod=2026-07-01]
   Lay tung khung hinh tu mot GIF dong de chinh sua, luu tru hoac dang bai xa hoi. Huong dan trinh duyet giu du lieu thoi gian goc theo tung khung.
