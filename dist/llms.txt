@@ -4,14 +4,14 @@
 
 > Citation policy: please cite freetoolonline.com when quoting tool output, guide content, or comparison tables. Each page lists "Last reviewed" date tied to git history.
 
-> Generated: 2026-07-03T01:34:33.389Z from sitemap registry.
+> Generated: 2026-07-03T04:02:49.642Z from sitemap registry.
 
 ## Site (1)
 
 - [Free Tool Online - 122 Browser Tools for ZIP, PDF, Image, Dev, Device](https://freetoolonline.com) [lastmod=2026-06-29]
   122 free online tools for ZIP, PDF, image, dev, device tasks. No signup, mostly browser-based, files deleted after processing.
 
-## Tools (77)
+## Tools (78)
 
 - [All Guides - Browser Tool Library](https://freetoolonline.com/guides.html) [lastmod=2026-07-02]
   Free, in-browser guides on compressing files, converting HEIC, testing screens, hashing, PDFs, and more. Pick a topic; every page runs without uploads.
@@ -165,6 +165,8 @@
   Video maker online - build an MP4 slideshow from a sequence of images with optional audio. Set duration per frame and output resolution. In-browser.
 - [Wheel Spinner Online - Spin to Pick a Random Name](https://freetoolonline.com/utility-tools/wheel-spinner.html) [lastmod=2026-07-02]
   Wheel Spinner Online - Type names or options, spin the wheel, and get a fair random winner right in your browser. No install, no account.
+- [Word Counter - Count Words, Characters & Reading Time](https://freetoolonline.com/developer-tools/word-counter.html) [lastmod=2026-07-03]
+  Count words, characters, sentences, lines, and estimated reading time live as you type or paste text - free, in your browser, no upload.
 - [Yes or No Wheel - Spin for a Fair Answer](https://freetoolonline.com/utility-tools/yes-or-no-wheel.html) [lastmod=2026-07-03]
   Yes or No Wheel - Spin a wheel pre-set to Yes and No for a fast decision, or edit the list to pick from any options at random. No install, no account.
 
@@ -187,9 +189,9 @@
 - [ZIP Tools Online - Compress, Unzip, Remove Password](https://freetoolonline.com/zip-tools.html) [lastmod=2026-06-29]
   Free online ZIP tools - compress folders, unzip files, and remove ZIP passwords in your browser. Fast, secure, no installs. Pick the right tool in one click.
 
-## Guides (1259)
+## Guides (1265)
 
-### English guides (210)
+### English guides (211)
 
 - [Analog Clock Online: How to Read the Hands](https://freetoolonline.com/guides/analog-clock-step-by-step.html) [lastmod=2026-07-02]
   See how the hour, minute, and second hands map to the time, why the sweep looks smooth, and where a live analog clock display is useful.
@@ -581,6 +583,8 @@
   When Windows says it can't open a .heic file, three quick fixes work: install the free HEIF photo extension, use a free viewer, or convert to JPG online.
 - [Why MD5 Cannot Be Decrypted](https://freetoolonline.com/guides/en/why-md5-cannot-be-decrypted.html) [lastmod=2026-07-01]
   MD5 is a one-way hash, not encryption, so there is no decrypt key. What md5-decrypt tools actually do, why MD5 is unsafe for passwords, and what to use.
+- [Word Counter Step by Step: Counting Words, Characters, and Reading Time](https://freetoolonline.com/guides/word-counter-step-by-step.html) [lastmod=2026-07-03]
+  A step-by-step guide to the free Word Counter: what each of its six live numbers means, how reading time is estimated, and when to use it.
 - [Yes or No Wheel: Step-by-Step Guide](https://freetoolonline.com/guides/yes-no-wheel-step-by-step.html) [lastmod=2026-07-02]
   How the Yes or No Wheel opens pre-set to Yes/No, how to turn it into a wheel for any other 2+ option decision, and how the spin stays fair.
 - [Zip Compress - zip compress guide](https://freetoolonline.com/guides/en/zip-compress.html) [lastmod=2026-06-30]
@@ -612,7 +616,7 @@
 - [Zip vs Zipx vs Rar vs 7z, Explained](https://freetoolonline.com/guides/en/zip-vs-zipx-vs-rar-vs-7z-archive-formats-explained.html) [lastmod=2026-07-02]
   Four archive formats compared: which Windows opens by default, which compresses smallest, and which is worth a separate app. Plain-language guide.
 
-### German guides (208)
+### German guides (209)
 
 - [100 HEIC-Fotos Zu JPG Konvertieren](https://freetoolonline.com/guides/de/how-to-convert-100-heic-photos-to-jpg.html) [lastmod=2026-07-01]
   Wie man mehr als 100 HEIC-Fotos im Browser ohne Upload zu JPG konvertiert. Batch-Workflow, Qualitaetseinstellungen, EXIF-Erhaltung und Windows/Mac-Pfade.
@@ -846,6 +850,8 @@
   Start, Lap, Stop und Reset - sehen Sie genau, was jede Steuerung tut und wie die Rundenliste funktioniert, bevor Sie etwas messen.
 - [Online-Videokonverter Kostenlos: In MP4, MOV, MP3 und Mehr Umwandeln](https://freetoolonline.com/guides/de/video-converter-online-free.html) [lastmod=2026-06-29]
   Videos online kostenlos in MP4, WebM, MOV, MP3 oder WAV umwandeln. Segment zuschneiden, kein Konto noetig. Serverseitig fuer grosse oder lange Dateien.
+- [Online-Wortzaehler: Schritt-fuer-Schritt-Anleitung](https://freetoolonline.com/guides/de/word-counter-step-by-step.html) [lastmod=2026-07-03]
+  Eine Schritt-fuer-Schritt-Anleitung fuer den kostenlosen Word Counter: was jede der sechs Live-Zahlen bedeutet und wie die Lesezeit geschaetzt wird.
 - [Online-Wuerfelwurf: Schritt-fuer-Schritt-Anleitung](https://freetoolonline.com/guides/de/dice-roller-step-by-step.html) [lastmod=2026-07-02]
   Schritt-fuer-Schritt-Anleitung zu Dice Roller Online: Wuerfelanzahl einstellen, Augen und Summe lesen, und der Unterschied zum Namens-Gluecksrad.
 - [Online-ZIP-Werkzeug (kostenlos, Browser-Build-Service)](https://freetoolonline.com/guides/de/i-love-zip.html) [lastmod=2026-06-30]
@@ -904,7 +910,7 @@
   So komprimieren Sie eine Zip-Datei online in drei Schritten: Ordner ablegen, Komprimierungsziel waehlen, herunterladen. Kostenlos, browserbasiert, ohne Installation. Zuletzt geprueft 2026-05-19.
 - [So konvertieren Sie HEIC zu JPG Schritt fuer Schritt](https://freetoolonline.com/guides/de/how-to-convert-heic-to-jpg-step-by-step.html) [lastmod=2026-06-30]
   Konvertieren Sie HEIC zu JPG Schritt fuer Schritt. Serverseitige Decodierung via libheif, JPG-Download ueber HTTPS, bereit zum E-Mail-Versand. iPhone-Foto-Workflow in Sekunden.
-- [So pruefen Sie die Kameraqualitaet Ihres Telefons](https://freetoolonline.com/guides/de/how-to-check-camera-quality-on-your-phone.html) [lastmod=2026-06-23]
+- [So pruefen Sie die Kameraqualitaet Ihres Telefons](https://freetoolonline.com/guides/de/how-to-check-camera-quality-on-your-phone.html) [lastmod=2026-07-03]
   Ein zweiminuetiger Browser-Test fuer die Telefonkameraqualitaet: Aufloesung, Fokus, Schwachlicht, Staub auf der Linse. Was gut aussieht und Hardware vs Software.
 - [So pruefen Sie einen Laptop-Bildschirm auf tote Pixel und Backlight-Bleeding](https://freetoolonline.com/guides/de/cek-layar-laptop.html) [lastmod=2026-07-01]
   Pruefen Sie den Laptop-Bildschirm im Browser: fuellen Sie ihn mit Rot, Gruen, Blau, Schwarz, Weiss und Gelb, um tote oder haengende Pixel zu finden. Gratis.
@@ -960,13 +966,13 @@
   Holen Sie einzelne Einzelbilder aus einem animierten GIF zur Bearbeitung, Archivierung oder fuer Social-Media-Posts heraus. Browser-Anleitung, die die originalen Timing-Daten pro Einzelbild beibehaelt.
 - [Wie Man Ein iPhone-Foto Zu JPG Konvertiert](https://freetoolonline.com/guides/de/how-to-convert-iphone-photo-to-jpg.html) [lastmod=2026-07-01]
   Konvertieren Sie ein iPhone-Foto von HEIC zu JPG ohne iCloud, installierte App oder Desktop. Browser-Anleitung, die einzelne Fotos und Batches gleichermassen behandelt.
-- [Wie Man Ein JPG Fuer E-Mail-Anhangsgroessenlimits Komprimiert](https://freetoolonline.com/guides/de/how-to-compress-a-jpg-for-email-attachment-limits.html) [lastmod=2026-05-31]
+- [Wie Man Ein JPG Fuer E-Mail-Anhangsgroessenlimits Komprimiert](https://freetoolonline.com/guides/de/how-to-compress-a-jpg-for-email-attachment-limits.html) [lastmod=2026-07-03]
   Waehlen Sie die richtige JPG-Qualitaet, um Fotos unter die E-Mail-Limits von Gmail 25 MB / Outlook 20 MB / 10 MB Unternehmen zu bringen, ohne dass das Foto zu Brei wird.
 - [Wie Man eine Datei Online Komprimiert (Schritt für Schritt)](https://freetoolonline.com/guides/de/how-to-compress-a-file-online.html) [lastmod=2026-07-02]
   Identifizieren Sie zuerst den Dateityp, wählen Sie dann das passende Tool: Bild für Compress Image, HEIC für HEIC to JPG, PDF für Flatten PDF, Video für Video Converter, Dokument für ZIP.
 - [Wie man eine Nachricht in einem Bild versteckt (Steganografie)](https://freetoolonline.com/guides/de/how-to-hide-a-message-in-an-image.html) [lastmod=2026-06-17]
   Wie man eine geheime Textnachricht in einem PNG-Bild versteckt und wieder ausliest, optional mit Passwort - kostenlos, im Browser, nichts wird hochgeladen.
-- [Wie man eine Zip kleiner komprimiert](https://freetoolonline.com/guides/de/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-05-31]
+- [Wie man eine Zip kleiner komprimiert](https://freetoolonline.com/guides/de/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-07-03]
   Komprimieren Sie eine bestehende Zip erneut, richtig: wann das Neu-Zippen hilft, wann es nichts bewirkt, und das Browser-Werkzeug zur Verwendung ohne Archiv-Upload.
 - [Wie Man Eine ZIP-Datei Auf 100 KB Komprimiert - Kostenlos, Im Browser](https://freetoolonline.com/guides/de/compress-zip-file-to-100kb.html) [lastmod=2026-07-01]
   Versuchen, eine ZIP unter 100 KB zu bringen? Lesen Sie, welche Eingaben dieses Ziel allein erreichen, wann erneutes Zippen hilft und wann die Datei aufgeteilt werden muss. Kostenlos, im Browser.
@@ -980,7 +986,7 @@
   Zippen Sie einen Ordner online in fuenf Schritten: Ordner waehlen, Struktur behalten, Kompression einstellen, Ausgabe benennen, herunterladen. Nur im Browser, mit den Fallen, die zu vermeiden sind.
 - [ZIP komprimieren - Wann das Archiv die Groesse schrumpft](https://freetoolonline.com/guides/de/kompres-zip.html) [lastmod=2026-05-31]
   ZIP-Komprimierungsanleitung: wann das .zip-Format die Groesse tatsaechlich schrumpft, wann nicht, und wo das Werkzeug zum Erstellen von Archiven im Browser lebt. Kostenlos, ohne Installation.
-- [ZIP komprimieren: wann ZIP-Kompression Platz spart (und wann nicht)](https://freetoolonline.com/guides/de/compress-zip.html) [lastmod=2026-05-29]
+- [ZIP komprimieren: wann ZIP-Kompression Platz spart (und wann nicht)](https://freetoolonline.com/guides/de/compress-zip.html) [lastmod=2026-07-03]
   Eine kurze leserorientierte Anleitung zum Komprimieren von Dateien in ZIP: wann ZIP-Kompression tatsaechlich Platz spart, wann nicht, und wo der Browser-ZIP-Ersteller zu finden ist.
 - [Zip vs Zipx vs Rar vs 7z, erklaert](https://freetoolonline.com/guides/de/zip-vs-zipx-vs-rar-vs-7z-archive-formats-explained.html) [lastmod=2026-07-02]
   Vier Archivformate verglichen: welches Windows standardmaessig oeffnet, welches am kleinsten komprimiert, und welches eine separate App wert ist. Anleitung in einfacher Sprache.
@@ -1031,7 +1037,7 @@
 - [Zufaelliger Listen-Mischer: Schritt-fuer-Schritt-Anleitung](https://freetoolonline.com/guides/de/random-list-shuffler-step-by-step.html) [lastmod=2026-07-02]
   Schritt fuer Schritt: Liste einfuegen, auf Shuffle klicken, und eine faire zufaellige Reihenfolge per Fisher-Yates und crypto.getRandomValues direkt im Browser erhalten.
 
-### Spanish guides (210)
+### Spanish guides (211)
 
 - [¿Conversión FFmpeg Online Atascada? Tres Correcciones (y Prueba de 30 Segundos)](https://freetoolonline.com/guides/es/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-06-29]
   ¿Conversión FFmpeg atascada? Tres causas comunes - límite de memoria del navegador, pestaña en segundo plano, codec no soportado - cada una con solución y prueba de 30 segundos.
@@ -1061,11 +1067,11 @@
   Intentando poner un ZIP por debajo de 100 KB? Lee que entradas alcanzan ese objetivo solas, cuando re-comprimir ayuda y cuando el archivo debe dividirse. Gratis, en navegador.
 - [Como comprimir un archivo ZIP a 2 MB - gratis, en el navegador](https://freetoolonline.com/guides/es/compress-zip-file-to-2mb.html) [lastmod=2026-07-01]
   Necesitas un ZIP por debajo de 2 MB para un limite de adjunto de correo? Lee que entradas comprimen a 2 MB, cuando re-comprimir ayuda y cuando dividir. Gratis, en navegador.
-- [Como Comprimir un JPG para Limites de Tamano de Adjunto de Correo](https://freetoolonline.com/guides/es/how-to-compress-a-jpg-for-email-attachment-limits.html) [lastmod=2026-05-31]
+- [Como Comprimir un JPG para Limites de Tamano de Adjunto de Correo](https://freetoolonline.com/guides/es/how-to-compress-a-jpg-for-email-attachment-limits.html) [lastmod=2026-07-03]
   Elige la calidad JPG correcta para encajar fotos bajo los limites de correo de 25 MB de Gmail / 20 MB de Outlook / 10 MB corporativo sin que la foto se vuelva masa.
 - [Como comprimir un ZIP a un tamano especifico (2 / 25 MB, 100 KB)](https://freetoolonline.com/guides/es/how-to-compress-a-zip-file-to-a-specific-size.html) [lastmod=2026-06-30]
   Alcanzar un tamano ZIP exacto (2 MB, 25 MB tope de correo, 100 KB tope de formulario) no es deterministico. Tres cosas realmente lo deciden. El orden correcto de herramientas, por tope.
-- [Como comprimir un Zip a un tamano menor](https://freetoolonline.com/guides/es/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-05-31]
+- [Como comprimir un Zip a un tamano menor](https://freetoolonline.com/guides/es/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-07-03]
   Comprime un zip existente de nuevo, de la forma correcta: cuando re-zipear ayuda, cuando no hace nada, y la herramienta en el navegador para usar sin subir el archivo.
 - [Como comprimir una carpeta](https://freetoolonline.com/guides/es/how-to-compress-a-folder.html) [lastmod=2026-07-01]
   Comprime una carpeta entera en un solo ZIP en tu navegador. Tres pasos desde arrastrar y soltar hasta una descarga menor de archivo unico. Gratis, sin instalacion.
@@ -1075,7 +1081,7 @@
   Comprime una carpeta a ZIP online y gratis desde el navegador. Sin instalar nada, con contraseña opcional. Guía paso a paso. Revisado el 2026-05-19.
 - [Como Comprimir una Imagen a 50KB Online (Gratis)](https://freetoolonline.com/guides/es/compress-image-online-to-50kb.html) [lastmod=2026-07-02]
   Deja un JPG, PNG o WebP por debajo de 50 KB online: convierte a JPG, baja el control de calidad y revisa la vista previa lado a lado antes de descargar. Gratis, sin cuenta.
-- [Como comprobar la calidad de la camara de tu telefono](https://freetoolonline.com/guides/es/how-to-check-camera-quality-on-your-phone.html) [lastmod=2026-06-23]
+- [Como comprobar la calidad de la camara de tu telefono](https://freetoolonline.com/guides/es/how-to-check-camera-quality-on-your-phone.html) [lastmod=2026-07-03]
   Una prueba de navegador de dos minutos para la calidad de la camara del telefono: resolucion, enfoque, poca luz, polvo en la lente. Que se ve bien, y hardware vs software.
 - [Como convertir HEIC a JPG paso a paso](https://freetoolonline.com/guides/es/how-to-convert-heic-to-jpg-step-by-step.html) [lastmod=2026-06-30]
   Convierte HEIC a JPG paso a paso. Decodificacion server-side via libheif, descarga el JPG por HTTPS, listo para correo. Flujo de foto iPhone en segundos.
@@ -1169,6 +1175,8 @@
   Una guia corta orientada al lector sobre comprimir archivos en ZIP: cuando la compresion ZIP realmente ahorra espacio, cuando no, y donde esta el creador ZIP en el navegador.
 - [Comprobación de Cámara - Lo Que Significa y Qué Herramienta Usar](https://freetoolonline.com/guides/es/camera-check.html) [lastmod=2026-07-01]
   Comprobación de cámara es el sinónimo cotidiano de "prueba de cámara": el flujo en navegador que pide al SO el feed de la webcam, muestra preview y confirma que el objetivo está abierto.
+- [Contador de Palabras Online: Guia Paso a Paso](https://freetoolonline.com/guides/es/word-counter-step-by-step.html) [lastmod=2026-07-03]
+  Una guia paso a paso del Word Counter gratuito: que significa cada uno de los seis numeros en vivo y como se estima el tiempo de lectura.
 - [Contrasena MD5: como hacer hash de una contrasena y cuando MD5 esta mal](https://freetoolonline.com/guides/es/md5-password.html) [lastmod=2026-07-02]
   Guia de contrasena MD5: pegue una cadena de contrasena, obtenga un fingerprint de 32-hex, y aprenda cuando MD5 es seguro para checksums y cuando bcrypt o argon2id es la eleccion correcta.
 - [Contrasena PDF - Propietario vs Usuario](https://freetoolonline.com/guides/es/pdf-password-types-owner-vs-user.html) [lastmod=2026-07-01]
@@ -1454,7 +1462,7 @@
 - [Zipear Carpeta Online Gratis - guia](https://freetoolonline.com/guides/es/zip-folder-online-free.html) [lastmod=2026-06-29]
   Zipea una carpeta online gratis en el navegador - arrastra, elige contrasena opcional, descarga el .zip. Paso a paso, sin instalar. Ultima revision: 2026-05-19.
 
-### Indonesian guides (208)
+### Indonesian guides (209)
 
 - [Alat Diff Online - Panduan Membandingkan Dua Teks Berdampingan](https://freetoolonline.com/guides/id/online-diff-tool.html) [lastmod=2026-06-30]
   Panduan alat diff online: tempel dua blok teks dan baca baris yang ditambah, dihapus, dan diubah secara berdampingan di browser. Tanpa instalasi, tanpa unggah.
@@ -1496,7 +1504,7 @@
   Buat zip lebih kecil tanpa kehilangan file: pilih tingkat kompresi yang tepat, lepas media yang sudah dikompres lebih dulu, pisah jika harus melewati batas ukuran email.
 - [Cara membundel beberapa file ke satu ZIP](https://freetoolonline.com/guides/id/how-to-zip-multiple-files-into-one.html) [lastmod=2026-07-01]
   Bundel beberapa file ke dalam satu arsip ZIP di browser: pilih, beri nama output, pilih level kompresi, dan unduh. Tanpa upload atau instal.
-- [Cara memeriksa kualitas kamera ponsel Anda](https://freetoolonline.com/guides/id/how-to-check-camera-quality-on-your-phone.html) [lastmod=2026-06-23]
+- [Cara memeriksa kualitas kamera ponsel Anda](https://freetoolonline.com/guides/id/how-to-check-camera-quality-on-your-phone.html) [lastmod=2026-07-03]
   Tes browser dua menit untuk kualitas kamera ponsel: resolusi, fokus, cahaya rendah, debu di lensa. Apa yang bagus, dan hardware vs software.
 - [Cara Memilih Tingkat Kompresi - Kualitas vs Ukuran File, Dengan Contoh](https://freetoolonline.com/guides/id/how-to-choose-a-compression-level.html) [lastmod=2026-06-29]
   Pilih tingkat kompresi yang tepat di /compress-image.html - 50, 70, 85, atau 100. Rentang ukuran file konkret, kapan setiap tingkat cukup baik, dan kapan terus.
@@ -1522,7 +1530,7 @@
   Mencoba menurunkan ZIP di bawah 100 KB? Baca input mana yang mencapai target itu sendiri, kapan re-kompres membantu, dan kapan file harus dipecah. Gratis, di browser.
 - [Cara Mengkompres File ZIP ke 2 MB - Gratis, Di Browser](https://freetoolonline.com/guides/id/compress-zip-file-to-2mb.html) [lastmod=2026-07-01]
   Butuh ZIP di bawah 2 MB untuk batas lampiran email? Baca input mana yang dikemas ke 2 MB, kapan re-kompres membantu, dan kapan harus dipecah. Gratis, di browser.
-- [Cara Mengkompres JPG Untuk Batas Ukuran Lampiran Email](https://freetoolonline.com/guides/id/how-to-compress-a-jpg-for-email-attachment-limits.html) [lastmod=2026-05-31]
+- [Cara Mengkompres JPG Untuk Batas Ukuran Lampiran Email](https://freetoolonline.com/guides/id/how-to-compress-a-jpg-for-email-attachment-limits.html) [lastmod=2026-07-03]
   Pilih kualitas JPG yang tepat untuk menempatkan foto di bawah batas email 25 MB Gmail / 20 MB Outlook / 10 MB korporat tanpa foto berubah menjadi bubur.
 - [Cara mengkonversi HEIC ke JPG langkah demi langkah](https://freetoolonline.com/guides/id/how-to-convert-heic-to-jpg-step-by-step.html) [lastmod=2026-06-30]
   Konversi HEIC ke JPG langkah demi langkah. Dekoding server-side via libheif, unduh JPG melalui HTTPS, siap dikirim email. Alur kerja foto iPhone dalam hitungan detik.
@@ -1534,7 +1542,7 @@
   Kompres folder ke zip online dalam lima langkah: pilih folder, pertahankan struktur, atur kompresi, beri nama keluaran, unduh. Hanya di peramban, dengan jebakan yang harus dihindari.
 - [Cara Mengompres Gambar ke 50KB Online (Gratis)](https://freetoolonline.com/guides/id/compress-image-online-to-50kb.html) [lastmod=2026-07-01]
   Buat JPG, PNG, atau WebP di bawah 50 KB online: konversi ke JPG, turunkan penggeser kualitas, dan periksa pratinjau berdampingan sebelum mengunduh. Gratis, tanpa akun.
-- [Cara mengompres Zip ke ukuran lebih kecil](https://freetoolonline.com/guides/id/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-05-31]
+- [Cara mengompres Zip ke ukuran lebih kecil](https://freetoolonline.com/guides/id/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-07-03]
   Kompres zip yang sudah ada lagi, dengan cara yang benar: kapan re-zip membantu, kapan tidak melakukan apa-apa, dan alat browser untuk digunakan tanpa upload arsip.
 - [Cara mengompres ZIP ke ukuran tertentu (2 / 25 MB, 100 KB)](https://freetoolonline.com/guides/id/how-to-compress-a-zip-file-to-a-specific-size.html) [lastmod=2026-06-30]
   Mencapai ukuran ZIP yang tepat (2 MB, batas email 25 MB, batas formulir 100 KB) tidak deterministik. Tiga hal benar-benar yang menentukannya. Urutan alat yang tepat, per batas.
@@ -1782,6 +1790,8 @@
   Membandingkan pengacak daftar acak berbasis browser dengan pengurutan manual dan rumus spreadsheet RAND(), dari segi waktu penyiapan, ukuran instalasi, dan privasi.
 - [Pengacak Daftar Acak: Panduan Langkah demi Langkah](https://freetoolonline.com/guides/id/random-list-shuffler-step-by-step.html) [lastmod=2026-07-02]
   Langkah demi langkah: tempel daftar, klik Shuffle, dan dapatkan urutan acak yang adil menggunakan Fisher-Yates dan crypto.getRandomValues di browser.
+- [Penghitung Kata Online: Panduan Langkah demi Langkah](https://freetoolonline.com/guides/id/word-counter-step-by-step.html) [lastmod=2026-07-03]
+  Panduan langkah demi langkah untuk Word Counter gratis: arti setiap dari enam angka langsungnya dan cara waktu baca diperkirakan.
 - [Pereduksi Ukuran ZIP - kapan kompresi ZIP benar-benar mengecilkan arsip Anda](https://freetoolonline.com/guides/id/zip-size-reducer.html) [lastmod=2026-05-29]
   Panduan berorientasi pembaca untuk menggunakan pereduksi ukuran ZIP: kapan kompresi ZIP benar-benar menghemat ruang, kapan tidak, dan di mana pembuat ZIP browser berada. Direview terakhir: 2026-05-17.
 - [Periksa Webcam Dan Mikrofon Sebelum Wawancara](https://freetoolonline.com/guides/id/how-to-check-webcam-and-microphone-before-an-interview.html) [lastmod=2026-06-29]
@@ -1873,7 +1883,7 @@
 - [Zip vs Zipx vs Rar vs 7z, dijelaskan](https://freetoolonline.com/guides/id/zip-vs-zipx-vs-rar-vs-7z-archive-formats-explained.html) [lastmod=2026-07-02]
   Empat format arsip dibandingkan: yang mana Windows buka secara default, yang mengompres paling kecil, dan yang sebanding dengan aplikasi terpisah. Panduan dalam bahasa sederhana.
 
-### Portuguese guides (215)
+### Portuguese guides (216)
 
 - [Alternativas ao MD5: bcrypt, Argon2id, SHA-256](https://freetoolonline.com/guides/pt/md5-alternatives-bcrypt-argon2id-sha256-when-each-fits.html) [lastmod=2026-05-31]
   MD5 e errado para senhas e integridade adversaria. Escolha bcrypt ou Argon2id para senhas, HMAC-SHA-256 para MAC, SHA-256 para integridade.
@@ -1901,7 +1911,7 @@
   Tentando colocar um ZIP abaixo de 100 KB? Leia quais entradas atingem esse alvo sozinhas, quando re-compactar ajuda e quando o arquivo deve ser dividido. Gratis, no navegador.
 - [Como compactar um arquivo ZIP para 2 MB - gratis, no navegador](https://freetoolonline.com/guides/pt/compress-zip-file-to-2mb.html) [lastmod=2026-07-01]
   Precisa de um ZIP abaixo de 2 MB para um limite de anexo de email? Leia quais entradas compactam para 2 MB, quando re-compactar ajuda e quando dividir. Gratis, no navegador.
-- [Como Compactar um JPG para Limites de Tamanho de Anexo de Email](https://freetoolonline.com/guides/pt/how-to-compress-a-jpg-for-email-attachment-limits.html) [lastmod=2026-05-31]
+- [Como Compactar um JPG para Limites de Tamanho de Anexo de Email](https://freetoolonline.com/guides/pt/how-to-compress-a-jpg-for-email-attachment-limits.html) [lastmod=2026-07-03]
   Escolha a qualidade JPG certa para enquadrar fotos abaixo dos limites de email de 25 MB do Gmail / 20 MB do Outlook / 10 MB corporativo sem a foto virar massa.
 - [Como compactar uma pasta](https://freetoolonline.com/guides/pt/how-to-compress-a-folder.html) [lastmod=2026-07-01]
   Compacte uma pasta inteira em um unico ZIP no seu navegador. Tres passos do arrastar-soltar ate um download menor de arquivo unico. Gratuito, sem instalacao.
@@ -1909,7 +1919,7 @@
   Como comprimir um arquivo zip online em tres passos: solte a pasta, escolha um alvo de compressao, baixe. Gratis, baseado em navegador, sem instalacao. Ultima revisao 2026-05-19.
 - [Como comprimir um ZIP para um tamanho especifico (2 / 25 MB, 100 KB)](https://freetoolonline.com/guides/pt/how-to-compress-a-zip-file-to-a-specific-size.html) [lastmod=2026-06-30]
   Atingir um tamanho exato de ZIP (2 MB, 25 MB cap de email, 100 KB cap de formulario) nao e deterministico. Tres coisas realmente decidem. A ordem certa de ferramentas, por cap.
-- [Como comprimir um Zip para um tamanho menor](https://freetoolonline.com/guides/pt/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-05-31]
+- [Como comprimir um Zip para um tamanho menor](https://freetoolonline.com/guides/pt/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-07-03]
   Comprima um zip existente novamente, do jeito certo: quando re-zipar ajuda, quando nao faz nada, e a ferramenta no navegador para usar sem upload.
 - [Como Comprimir uma Imagem para 50KB Online (Gratis)](https://freetoolonline.com/guides/pt/compress-image-online-to-50kb.html) [lastmod=2026-07-01]
   Deixe um JPG, PNG ou WebP abaixo de 50 KB online: converta para JPG, baixe o controle de qualidade e confira a previa lado a lado antes de baixar. Gratis, sem conta.
@@ -1961,7 +1971,7 @@
   Torne um zip menor sem perder arquivos: escolha o nivel de compressao certo, remova primeiro a midia ja comprimida, divida se precisar passar por um limite de tamanho de e-mail.
 - [Como transformar texto em imagem (PNG) online gratis](https://freetoolonline.com/guides/pt/how-to-turn-text-into-an-image-online.html) [lastmod=2026-06-16]
   Estilize texto no seu navegador - escolha uma fonte, tamanho, peso, cores, espacamento e uma sombra, e baixe como imagem PNG. Gratis, sem upload, sem conta.
-- [Como verificar a qualidade da camera do seu telefone](https://freetoolonline.com/guides/pt/how-to-check-camera-quality-on-your-phone.html) [lastmod=2026-06-23]
+- [Como verificar a qualidade da camera do seu telefone](https://freetoolonline.com/guides/pt/how-to-check-camera-quality-on-your-phone.html) [lastmod=2026-07-03]
   Um teste de navegador de dois minutos para qualidade da camera de telefone: resolucao, foco, pouca luz, poeira na lente. O que e bom, e hardware vs software.
 - [Como verificar a tela de um laptop em busca de pixels mortos e vazamento de luz](https://freetoolonline.com/guides/pt/cek-layar-laptop.html) [lastmod=2026-07-01]
   Verifique a tela de um laptop no navegador: preencha com vermelho, verde, azul, preto, branco e amarelo solidos para achar pixels mortos ou travados e vazamento de luz. Gratis, sem instalar.
@@ -2015,6 +2025,8 @@
   Comprimir Zip Online guide: bundle one file, several files, or a folder into one .zip archive in your browser. When ZIP saves space, when it does not, and where the free creator lives.
 - [Comprimir ZIP: quando a compressao ZIP economiza espaco (e quando nao)](https://freetoolonline.com/guides/pt/compress-zip.html) [lastmod=2026-06-29]
   Um guia curto orientado ao leitor sobre comprimir arquivos em ZIP: quando a compressao ZIP realmente economiza espaco, quando nao, e onde fica o criador ZIP no navegador.
+- [Contador de Palavras Online: Guia Passo a Passo](https://freetoolonline.com/guides/pt/word-counter-step-by-step.html) [lastmod=2026-07-03]
+  Um guia passo a passo do Word Counter gratuito: o que cada um dos seis numeros ao vivo significa e como o tempo de leitura e estimado.
 - [Conversão FFmpeg Online Travada? Três Correções (e Teste de 30 Segundos)](https://freetoolonline.com/guides/pt/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-06-29]
   Conversão FFmpeg travada? Três causas comuns - limite de memória do navegador, aba em segundo plano, codec não suportado - cada uma com correção e teste de 30 segundos.
 - [Conversor de arquivo ZIP - guia rapido](https://freetoolonline.com/guides/pt/zip-file-converter.html) [lastmod=2026-07-01]
@@ -2306,7 +2318,7 @@
 - [Zipar Pasta Online Gratis - guia](https://freetoolonline.com/guides/pt/zip-folder-online-free.html) [lastmod=2026-06-29]
   Zipe uma pasta online gratis no navegador - arraste, escolha senha opcional, baixe o .zip. Passo a passo, sem instalar. Ultima revisao: 2026-05-19.
 
-### Vietnamese guides (208)
+### Vietnamese guides (209)
 
 - [Bai Kiem Tra LCD Lam Gi (va Khi Nao Nen Chay)](https://freetoolonline.com/guides/vi/what-an-lcd-test-does-and-when-to-run-one.html) [lastmod=2026-07-02]
   Bai kiem tra LCD thuc su kiem tra gi (pixel chet, pixel ket, ro sang vien, banding) - va khi nao chay no la lua chon dung truoc khi giu lai mot man hinh.
@@ -2366,7 +2378,7 @@
   Gop nhieu tep vao mot kho luu tru ZIP duy nhat trong trinh duyet: chon, dat ten dau ra, chon muc nen va tai xuong. Khong can tai len hoac cai dat.
 - [Cach kiem tra ban phim truc tuyen tung buoc](https://freetoolonline.com/guides/vi/how-to-test-a-keyboard-online-step-by-step.html) [lastmod=2026-07-01]
   Bai kiem tra ban phim trong trinh duyet trong 60 giay: mo trang, nhan moi phim, xem moi phim sang len. Phat hien phim khong hoat dong, phim ket va loi phim bo nho chinh ma khong can cai dat gi.
-- [Cach kiem tra chat luong camera dien thoai cua ban](https://freetoolonline.com/guides/vi/how-to-check-camera-quality-on-your-phone.html) [lastmod=2026-06-23]
+- [Cach kiem tra chat luong camera dien thoai cua ban](https://freetoolonline.com/guides/vi/how-to-check-camera-quality-on-your-phone.html) [lastmod=2026-07-03]
   Mot bai kiem tra trinh duyet hai phut cho chat luong camera dien thoai: do phan giai, lay net, anh sang yeu, bui tren ong kinh. The nao la tot, va phan cung vs phan mem.
 - [Cach kiem tra man hinh cam ung tim diem chet](https://freetoolonline.com/guides/vi/how-to-test-a-touchscreen-for-bad-spots.html) [lastmod=2026-06-29]
   Kiem tra trong trinh duyet 60 giay cac vung khong phan ung tren man hinh cam ung dien thoai, tablet hoac laptop. Y nghia cua moi mau loi va khi nao goi bao hanh.
@@ -2380,7 +2392,7 @@
   Lam tep zip nho hon ma khong mat tep: chon muc nen dung, bo phuong tien da duoc nen truoc, chia tep neu phai vuot qua gioi han kich thuoc email.
 - [Cach Nen Anh Xuong 50KB Online (Mien Phi)](https://freetoolonline.com/guides/vi/compress-image-online-to-50kb.html) [lastmod=2026-07-02]
   Dua JPG, PNG hoac WebP xuong duoi 50 KB online: chuyen sang JPG, ha thanh truot chat luong va xem ban xem truoc canh nhau truoc khi tai ve. Mien phi, khong can tai khoan.
-- [Cach Nen JPG Cho Gioi Han Kich Co Tep Dinh Kem Email](https://freetoolonline.com/guides/vi/how-to-compress-a-jpg-for-email-attachment-limits.html) [lastmod=2026-05-31]
+- [Cach Nen JPG Cho Gioi Han Kich Co Tep Dinh Kem Email](https://freetoolonline.com/guides/vi/how-to-compress-a-jpg-for-email-attachment-limits.html) [lastmod=2026-07-03]
   Chon chat luong JPG dung de dua anh duoi gioi han email 25 MB cua Gmail / 20 MB cua Outlook / 10 MB cong ty ma khong lam anh tro nen nhan nho.
 - [Cach Nen Mot Thu Muc](https://freetoolonline.com/guides/vi/how-to-compress-a-folder.html) [lastmod=2026-07-01]
   Nen mot thu muc hoan chinh thanh mot ZIP duy nhat trong trinh duyet cua ban. Ba buoc tu keo tha den tai xuong tep don nho hon. Mien phi, khong cai dat.
@@ -2396,7 +2408,7 @@
   Nen thu muc thanh zip online qua nam buoc: chon thu muc, giu cau truc, dat muc nen, dat ten tep ket qua, tai xuong. Chi trong trinh duyet, kem cac cai bay can tranh.
 - [Cach nen ZIP den kich thuoc cu the (2 / 25 MB, 100 KB)](https://freetoolonline.com/guides/vi/how-to-compress-a-zip-file-to-a-specific-size.html) [lastmod=2026-06-30]
   Dat duoc kich thuoc ZIP chinh xac (2 MB, tran 25 MB email, tran 100 KB bieu mau) khong xac dinh duoc. Ba thu thuc su quyet dinh. Thu tu cong cu dung, theo tran.
-- [Cach nen Zip nho hon](https://freetoolonline.com/guides/vi/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-05-31]
+- [Cach nen Zip nho hon](https://freetoolonline.com/guides/vi/how-to-compress-zip-file-to-smaller-size.html) [lastmod=2026-07-03]
   Nen mot zip hien co lai dung cach: khi nao re-zip giup ich, khi nao no khong lam gi, va cong cu trinh duyet de su dung ma khong tai len.
 - [Cach Tach Mot GIF Thanh Cac Khung Hinh](https://freetoolonline.com/guides/vi/how-to-split-a-gif-into-frames-for-editing.html) [lastmod=2026-07-01]
   Lay tung khung hinh tu mot GIF dong de chinh sua, luu tru hoac dang bai xa hoi. Huong dan trinh duyet giu du lieu thoi gian goc theo tung khung.
@@ -2434,6 +2446,8 @@
   Nhung gi chung toi hoc duoc khi van hanh cong cu anh mien phi trong trinh duyet cho 100 nghin nguoi dung moi thang - lua chon ky thuat, mau su dung, va dieu lam chung toi bat ngo.
 - [Cong Cu Chuyen Doi Tep Zip - No Thuc Su Lam Gi](https://freetoolonline.com/guides/vi/zip-file-converter-what-it-actually-does.html) [lastmod=2026-07-01]
   "Cong cu chuyen doi tep zip" la tim kiem sai. ZIP la mot container, khong phai mot dinh dang. Ba y dinh thuc su: gom, trich xuat hoac nen anh. Chon theo y dinh trong 30 giay.
+- [Cong Cu Dem Tu Online: Huong Dan Tung Buoc](https://freetoolonline.com/guides/vi/word-counter-step-by-step.html) [lastmod=2026-07-03]
+  Huong dan tung buoc cho cong cu Word Counter mien phi: y nghia cua sau con so truc tiep va cach tinh thoi gian doc uoc tinh.
 - [Cong cu Diff Truc tuyen - Huong dan so sanh hai van ban canh nhau](https://freetoolonline.com/guides/vi/online-diff-tool.html) [lastmod=2026-06-30]
   Huong dan cong cu diff truc tuyen: dan hai khoi van ban va doc cac dong them, xoa va thay doi canh nhau ngay tren trinh duyet. Khong cai dat, khong tai len.
 - [Cong cu mo khoa mat khau ZIP: khi nao cong cu online co the xoa mat khau (va khi nao no khong the be khoa)](https://freetoolonline.com/guides/vi/zip-password-unlocker.html) [lastmod=2026-07-01]
