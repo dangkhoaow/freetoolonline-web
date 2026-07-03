@@ -4,14 +4,14 @@
 
 > Citation policy: please cite freetoolonline.com when quoting tool output, guide content, or comparison tables. Each page lists "Last reviewed" date tied to git history.
 
-> Generated: 2026-07-03T04:02:49.642Z from sitemap registry.
+> Generated: 2026-07-03T06:52:46.672Z from sitemap registry.
 
 ## Site (1)
 
 - [Free Tool Online - 122 Browser Tools for ZIP, PDF, Image, Dev, Device](https://freetoolonline.com) [lastmod=2026-06-29]
   122 free online tools for ZIP, PDF, image, dev, device tasks. No signup, mostly browser-based, files deleted after processing.
 
-## Tools (78)
+## Tools (80)
 
 - [All Guides - Browser Tool Library](https://freetoolonline.com/guides.html) [lastmod=2026-07-02]
   Free, in-browser guides on compressing files, converting HEIC, testing screens, hashing, PDFs, and more. Pick a topic; every page runs without uploads.
@@ -135,6 +135,8 @@
   Random List Shuffler - Paste a list of names or items and get a fair random order right in your browser. No install, no account.
 - [Random Number Generator Online](https://freetoolonline.com/utility-tools/random-number-picker.html) [lastmod=2026-07-02]
   Generate a fair random number between a minimum and maximum you set, right in your browser - no upload, no account.
+- [Remove Duplicate Lines Online - Keep the First, Drop the Repeats](https://freetoolonline.com/developer-tools/remove-duplicate-lines.html) [lastmod=2026-07-03]
+  Free online tool to remove duplicate lines from a pasted list, right in your browser. Keeps the first occurrence of each line and the original order. No upload.
 - [Remove PDF Password Online - Free](https://freetoolonline.com/pdf-tools/remove-pdf-password.html) [lastmod=2026-06-30]
   Easily remove password protection from your PDF files with an efficient and free online tool. No technical skills needed to access your documents.
 - [Remove Zip Password](https://freetoolonline.com/zip-tools/remove-zip-password.html) [lastmod=2026-06-29]
@@ -143,6 +145,8 @@
   Resize image online - set exact pixels or a percentage, keep aspect ratio, and export JPG, PNG, or WebP. Bicubic interpolation preserves edges. In-browser.
 - [Screen Recorder - Record Screen, Camera or Mic in Browser](https://freetoolonline.com/device-test-tools/screen-recorder.html) [lastmod=2026-06-16]
   Record your screen, camera, or microphone in the browser, blur faces while recording, and download the clip as WebM or convert it to MP4 - no upload.
+- [Sort Text Lines Online - Alphabetize a List A-Z or Z-A](https://freetoolonline.com/developer-tools/sort-text-lines.html) [lastmod=2026-07-03]
+  Free online tool to sort text lines alphabetically, A-Z or Z-A, right in your browser. Paste one item per line, click sort, and copy the result. No upload.
 - [Split GIF Into Frames - Free GIF Frame Extractor (PNG/JPG)](https://freetoolonline.com/image-converter-tools/extract-gif-to-image-frames.html) [lastmod=2026-06-30]
   Extract every frame from an animated GIF and save each as PNG or JPG. Upload, download all frames, files auto-delete after a few minutes.
 - [Split PDF by Range Online - Extract Page Ranges Free](https://freetoolonline.com/pdf-tools/split-pdf-by-range.html) [lastmod=2026-06-29]
@@ -189,9 +193,9 @@
 - [ZIP Tools Online - Compress, Unzip, Remove Password](https://freetoolonline.com/zip-tools.html) [lastmod=2026-06-29]
   Free online ZIP tools - compress folders, unzip files, and remove ZIP passwords in your browser. Fast, secure, no installs. Pick the right tool in one click.
 
-## Guides (1265)
+## Guides (1277)
 
-### English guides (211)
+### English guides (213)
 
 - [Analog Clock Online: How to Read the Hands](https://freetoolonline.com/guides/analog-clock-step-by-step.html) [lastmod=2026-07-02]
   See how the hour, minute, and second hands map to the time, why the sweep looks smooth, and where a live analog clock display is useful.
@@ -503,7 +507,7 @@
   Build a ZIP archive online - paste files or a folder into the browser creator, get a downloadable .zip, no install, no signup. Last reviewed 2026-05-18.
 - [Online Zip Tool (Free, In-Browser Build Service)](https://freetoolonline.com/guides/en/i-love-zip.html) [lastmod=2026-06-29]
   Online zip tool: turn a folder or multi-file selection into one .zip via a private build service. Free, no install, no account, source files auto-delete.
-- [Online Zip vs 7z vs Rar - Which to Pick](https://freetoolonline.com/guides/en/online-zip-vs-7z-vs-rar-which-to-pick.html) [lastmod=2026-05-10]
+- [Online Zip vs 7z vs Rar - Which to Pick](https://freetoolonline.com/guides/en/online-zip-vs-7z-vs-rar-which-to-pick.html) [lastmod=2026-07-03]
   Pick the right archive format online: zip for compatibility, 7z for best compression, rar when you must open one. Decision matrix and browser-tool routing.
 - [PDF Editing Ladder - Pick the Right PDF Tool](https://freetoolonline.com/guides/en/pdf-editing-ladder.html) [lastmod=2026-07-01]
   PDF editing decision ladder. Split, merge, extract, protect, flatten, convert - pick the right tool by intent in 30 s. 12 PDF tools mapped to the workflow.
@@ -537,6 +541,8 @@
   Practical paths for a zip that will not open: re-download, partial extract, repair tools, and when to give up. What works, what does not, what to try first.
 - [Reduce Zip File Size Online - Free Browser Guide](https://freetoolonline.com/guides/en/reduce-zip-file-size-online.html) [lastmod=2026-05-20]
   Shrink a ZIP archive in your browser - what actually saves bytes, what does not, and how to hit a 25 MB email cap without splitting the file.
+- [Remove Duplicate Lines Step by Step: Clean a List in Your Browser](https://freetoolonline.com/guides/remove-duplicate-lines-step-by-step.html) [lastmod=2026-07-03]
+  A step-by-step guide to the free Remove Duplicate Lines tool: how it decides which line is a duplicate, what it keeps, and how it compares to a spreadsheet or command line.
 - [Resize Zip File: What "Resize" Actually Means For a .zip](https://freetoolonline.com/guides/en/resize-zip-file.html) [lastmod=2026-06-30]
   "Resize zip file" usually means shrink the archive, sometimes split it, sometimes shrink the photos inside before re-zipping. Routing table + the right tool for each.
 - [Screen Test for Laptop - 5-Minute Checklist](https://freetoolonline.com/guides/en/screen-test-for-laptop-5-minute-checklist.html) [lastmod=2026-07-01]
@@ -547,6 +553,8 @@
   Stuck pixels or backlight bleed: screen test. Webcam will not start or image is upside-down: camera test. Pick the right device-test tool on freetoolonline.com.
 - [Screen Test vs LCD Test - Same Thing?](https://freetoolonline.com/guides/en/screen-display-test-synonyms.html) [lastmod=2026-06-29]
   Screen test, display test, monitor test - they all mean the same checks. Pick the right tool: LCD test for monitors, camera test for webcams.
+- [Sort Text Lines Step by Step: Alphabetize a List in Your Browser](https://freetoolonline.com/guides/sort-text-lines-step-by-step.html) [lastmod=2026-07-03]
+  A step-by-step guide to the free Sort Text Lines tool: how to sort a list A-Z or Z-A, how the order is decided, and why numbers sort as text.
 - [Split GIF Into Frames Online - extract every frame](https://freetoolonline.com/guides/en/split-gif-into-frames.html) [lastmod=2026-06-29]
   Split GIF Into Frames guide: extract every animation frame as a separate image, in your browser, no install. Step-by-step, free. Last reviewed 2026-05-14.
 - [Split PDF Online Free](https://freetoolonline.com/guides/split-pdf-online-free.html) [lastmod=2026-06-23]
@@ -616,7 +624,7 @@
 - [Zip vs Zipx vs Rar vs 7z, Explained](https://freetoolonline.com/guides/en/zip-vs-zipx-vs-rar-vs-7z-archive-formats-explained.html) [lastmod=2026-07-02]
   Four archive formats compared: which Windows opens by default, which compresses smallest, and which is worth a separate app. Plain-language guide.
 
-### German guides (209)
+### German guides (211)
 
 - [100 HEIC-Fotos Zu JPG Konvertieren](https://freetoolonline.com/guides/de/how-to-convert-100-heic-photos-to-jpg.html) [lastmod=2026-07-01]
   Wie man mehr als 100 HEIC-Fotos im Browser ohne Upload zu JPG konvertiert. Batch-Workflow, Qualitaetseinstellungen, EXIF-Erhaltung und Windows/Mac-Pfade.
@@ -676,6 +684,8 @@
   Verwandeln Sie Datenzeilen in ein Diagramm im Browser. Fuegen Sie CSV, JSON oder Label, Wert ein, waehlen Sie einen Diagrammtyp - ohne Upload und ohne Konto.
 - [Digitaluhr Online: So Lesen Sie die Anzeige](https://freetoolonline.com/guides/de/digital-clock-step-by-step.html) [lastmod=2026-07-02]
   Sehen Sie, was die HH:MM:SS-Anzeige und die Datumszeile zeigen, wie oft sie aktualisieren, und wo eine grosse Digitaluhr im Browser nuetzlich ist.
+- [Doppelte Zeilen Schritt fuer Schritt Entfernen: eine Liste im Browser Bereinigen](https://freetoolonline.com/guides/de/remove-duplicate-lines-step-by-step.html) [lastmod=2026-07-03]
+  Eine Schritt-fuer-Schritt-Anleitung zum kostenlosen Tool Remove Duplicate Lines: was als Duplikat zaehlt, welche Zeile erhalten bleibt und der Vergleich mit einer Tabellenkalkulation oder der Kommandozeile.
 - [Download-Link Erscheint Nicht Nach Konvertierung - 5 Behebungen](https://freetoolonline.com/guides/de/download-link-not-appearing-after-conversion-five-fixes.html) [lastmod=2026-06-29]
   Der Upload ist fertig, aber der Download-Link erschien nie? Fünf konkrete Ursachen und Behebungen für Online-Konverter-Tools - in der Reihenfolge der Wahrscheinlichkeit.
 - [Eine ZIP-Datei kleiner komprimieren: wann das Archiv tatsaechlich schrumpft](https://freetoolonline.com/guides/de/compress-zip-file-to-smaller-size.html) [lastmod=2026-06-29]
@@ -932,6 +942,8 @@
   Gestalte Text im Browser - waehle Schriftart, Groesse, Farben, Abstand und einen Schatten, und lade ihn als PNG-Bild herunter. Ohne Upload, ohne Konto.
 - [Text vs Line vs Word vs Git Diff](https://freetoolonline.com/guides/de/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html) [lastmod=2026-07-01]
   Vier Arten von Diff beantworten unterschiedliche Fragen. Text-Diff fuer jedes Paar, Line-Diff fuer Code, Word-Diff fuer Prosa, Git-Diff fuer verfolgte Aenderungen. Jeder erklaert.
+- [Textzeilen Schritt fuer Schritt Sortieren: eine Liste im Browser Ordnen](https://freetoolonline.com/guides/de/sort-text-lines-step-by-step.html) [lastmod=2026-07-03]
+  Eine Schritt-fuer-Schritt-Anleitung zum kostenlosen Tool Sort Text Lines: wie man eine Liste A-Z oder Z-A sortiert, wie die Reihenfolge bestimmt wird und warum Zahlen als Text sortiert werden.
 - [To-do-Liste online erstellen - kostenlos und ohne Anmeldung](https://freetoolonline.com/guides/de/how-to-make-a-to-do-list-online.html) [lastmod=2026-06-30]
   Erstellen Sie kostenlos eine To-do-Liste online. Aufgaben hinzufuegen, abhaken und loeschen; Ihre Liste wird im Browser gespeichert, ohne App und ohne Konto.
 - [Tote Pixel testen bevor Sie einen Monitor zurueckgeben](https://freetoolonline.com/guides/de/how-to-test-for-dead-pixels-before-returning-a-monitor.html) [lastmod=2026-06-30]
@@ -1037,7 +1049,7 @@
 - [Zufaelliger Listen-Mischer: Schritt-fuer-Schritt-Anleitung](https://freetoolonline.com/guides/de/random-list-shuffler-step-by-step.html) [lastmod=2026-07-02]
   Schritt fuer Schritt: Liste einfuegen, auf Shuffle klicken, und eine faire zufaellige Reihenfolge per Fisher-Yates und crypto.getRandomValues direkt im Browser erhalten.
 
-### Spanish guides (211)
+### Spanish guides (213)
 
 - [¿Conversión FFmpeg Online Atascada? Tres Correcciones (y Prueba de 30 Segundos)](https://freetoolonline.com/guides/es/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-06-29]
   ¿Conversión FFmpeg atascada? Tres causas comunes - límite de memoria del navegador, pestaña en segundo plano, codec no soportado - cada una con solución y prueba de 30 segundos.
@@ -1241,6 +1253,8 @@
   Editor de fotos gratis en el navegador: recortar, redimensionar, filtros y texto, sin subir, sin cuenta. Edita fotos en tu equipo. Last reviewed 2026-07-02.
 - [Editor de Fotos vs App de Graficos vs Batch](https://freetoolonline.com/guides/es/photo-editor-vs-graphics-app-vs-batch-processor.html) [lastmod=2026-07-01]
   Tres categorias de herramientas de imagen resuelven tres problemas diferentes. Editor de fotos para una imagen, app de graficos para diseno, batch processor para muchos archivos a la vez.
+- [Eliminar Lineas Duplicadas Paso a Paso: Limpia una Lista en tu Navegador](https://freetoolonline.com/guides/es/remove-duplicate-lines-step-by-step.html) [lastmod=2026-07-03]
+  Una guia paso a paso de la herramienta gratuita Remove Duplicate Lines: que cuenta como duplicado, que linea conserva y como se compara con una hoja de calculo o la linea de comandos.
 - [Enlace de Descarga No Aparece Tras Conversión - 5 Correcciones](https://freetoolonline.com/guides/es/download-link-not-appearing-after-conversion-five-fixes.html) [lastmod=2026-06-29]
   ¿La subida terminó pero el enlace de descarga nunca apareció? Cinco causas concretas y soluciones para herramientas conversoras online - en orden de probabilidad.
 - [Escalera de Edicion PDF - Elige la Herramienta PDF Correcta](https://freetoolonline.com/guides/es/pdf-editing-ladder.html) [lastmod=2026-05-31]
@@ -1347,6 +1361,8 @@
   Guia "ms a fecha": pegue un timestamp Unix en milisegundos de 13 digitos, lea de vuelta la fecha local correspondiente y la hora de 24 horas. 10 digitos? Multiplique por 1000 primero.
 - [Niveles de la Prueba de Microfono: Que Significan Silencioso, Normal y Peak](https://freetoolonline.com/guides/es/microphone-test-online-quiet-normal-peak-meter.html) [lastmod=2026-06-30]
   Lee un medidor de nivel de prueba de microfono del navegador en espanol simple: como se ve silencioso, cual es el audio normal listo para llamada, y cuando los picos significan clipping.
+- [Ordenar Lineas de Texto Paso a Paso: Alfabetiza una Lista en tu Navegador](https://freetoolonline.com/guides/es/sort-text-lines-step-by-step.html) [lastmod=2026-07-03]
+  Una guia paso a paso de la herramienta gratuita Sort Text Lines: como ordenar una lista de A-Z o Z-A, como se decide el orden y por que los numeros se ordenan como texto.
 - [Pantalla Negra en Test de Cámara: 4 Correcciones Que Funcionan](https://freetoolonline.com/guides/es/camera-test-shows-black-screen-four-fixes.html) [lastmod=2026-05-31]
   Test de cámara muestra un rectángulo negro? Cuatro causas - permiso, silenciamiento del SO, bloqueo por cámara virtual, obturador de privacidad - y una correccion de un minuto para cada una.
 - [PDF vs HEIC para Archivo](https://freetoolonline.com/guides/es/pdf-vs-heic-for-document-archival.html) [lastmod=2026-07-01]
@@ -1455,14 +1471,14 @@
   verificador lcd, verificacion lcd, verificador de monitor - una sola tarea: recorrer el panel en colores solidos de pantalla completa para detectar pixeles muertos, fugas de retroiluminacion y desviacion de color. Gratis y en el navegador.
 - [Verifique Webcam y Microfono Antes de la Entrevista](https://freetoolonline.com/guides/es/how-to-check-webcam-and-microphone-before-an-interview.html) [lastmod=2026-06-29]
   Verifique webcam y microfono antes de una entrevista - prueba de navegador de 5 minutos para camara, niveles de microfono, iluminacion y retraso. Sin instalacion, sin subida.
-- [Zip online vs 7z vs Rar - cual elegir](https://freetoolonline.com/guides/es/online-zip-vs-7z-vs-rar-which-to-pick.html) [lastmod=2026-05-31]
+- [Zip online vs 7z vs Rar - cual elegir](https://freetoolonline.com/guides/es/online-zip-vs-7z-vs-rar-which-to-pick.html) [lastmod=2026-07-03]
   Elige el formato de archivo correcto online: zip para compatibilidad, 7z para mejor compresion, rar cuando debes abrir uno. Matriz de decision y enrutamiento de herramientas en el navegador.
 - [Zip vs Zipx vs Rar vs 7z, explicado](https://freetoolonline.com/guides/es/zip-vs-zipx-vs-rar-vs-7z-archive-formats-explained.html) [lastmod=2026-07-02]
   Cuatro formatos de archivo comparados: cual abre Windows por defecto, cual comprime mas pequeno, y cual vale una app separada. Guia en lenguaje sencillo.
 - [Zipear Carpeta Online Gratis - guia](https://freetoolonline.com/guides/es/zip-folder-online-free.html) [lastmod=2026-06-29]
   Zipea una carpeta online gratis en el navegador - arrastra, elige contrasena opcional, descarga el .zip. Paso a paso, sin instalar. Ultima revision: 2026-05-19.
 
-### Indonesian guides (209)
+### Indonesian guides (211)
 
 - [Alat Diff Online - Panduan Membandingkan Dua Teks Berdampingan](https://freetoolonline.com/guides/id/online-diff-tool.html) [lastmod=2026-06-30]
   Panduan alat diff online: tempel dua blok teks dan baca baris yang ditambah, dihapus, dan diubah secara berdampingan di browser. Tanpa instalasi, tanpa unggah.
@@ -1630,6 +1646,8 @@
   Unggah GIF animasi dan ekstrak setiap bingkai sebagai PNG atau JPG terpisah. Tanpa instalasi. File dihapus otomatis. Ditinjau 2026-06-10.
 - [GIF ke Frame: Simpan setiap frame animasi sebagai PNG atau JPG](https://freetoolonline.com/guides/id/gif-into-frames.html) [lastmod=2026-07-01]
   Ubah GIF menjadi frame individual online. Unggah animasi, pilih PNG atau JPG, dan unduh setiap frame sebagai gambar diam. Gratis, tanpa instal. Direview terakhir: 2026-05-20.
+- [Hapus Baris Duplikat Langkah demi Langkah: Bersihkan Daftar di Browser Anda](https://freetoolonline.com/guides/id/remove-duplicate-lines-step-by-step.html) [lastmod=2026-07-03]
+  Panduan langkah demi langkah untuk alat gratis Remove Duplicate Lines: apa yang dianggap duplikat, baris mana yang dipertahankan, dan perbandingannya dengan spreadsheet atau baris perintah.
 - [Hash MD5 di browser - apa yang sebenarnya dilakukan panggilan seperti `common::md5::gethash64string`](https://freetoolonline.com/guides/id/common-md5-gethash64string.html) [lastmod=2026-06-30]
   Hash MD5 dijelaskan untuk pembaca yang mencari nama metode gaya framework. Apa yang dikembalikan MD5, kapan pencarian terbalik dari cache berlaku, dan kapan tidak menggunakan MD5.
 - [HEIC ke JPG: apa yang sebenarnya dilakukan konverter](https://freetoolonline.com/guides/id/heic-to-jpg-claims-what-actually-works.html) [lastmod=2026-06-30]
@@ -1872,6 +1890,8 @@
   Cara menguji piksel mati sebelum mengembalikan monitor - pemeriksaan warna layar penuh, piksel macet vs mati, bukti garansi, dan apa yang diterima produsen.
 - [Unminify JS: Memulihkan Keterbacaan JavaScript Terminifikasi (Alat Browser Gratis)](https://freetoolonline.com/guides/id/unminify-js.html) [lastmod=2026-07-02]
   Unminify JavaScript yang terminifikasi online gratis. Tempel bundle, dapatkan kode terindentasi dengan baris baru dikembalikan - tanpa install, di sisi browser. Terakhir ditinjau 2026-05-20.
+- [Urutkan Baris Teks Langkah demi Langkah: Susun Daftar di Browser Anda](https://freetoolonline.com/guides/id/sort-text-lines-step-by-step.html) [lastmod=2026-07-03]
+  Panduan langkah demi langkah untuk alat gratis Sort Text Lines: cara mengurutkan daftar A-Z atau Z-A, bagaimana urutan ditentukan, dan mengapa angka diurutkan sebagai teks.
 - [Waktu sekarang dalam milidetik: baca nilai epoch langsung dan gunakan dengan benar](https://freetoolonline.com/guides/id/current-time-in-milliseconds.html) [lastmod=2026-07-02]
   Baca waktu sekarang dalam milidetik sejak epoch Unix di browser, salin untuk baris log atau panggilan API, dan hindari kebingungan 10-digit-vs-13-digit detik-vs-milidetik.
 - [Webcam Mirror vs Flip Dijelaskan: Mengapa Pratinjau Kamera Anda Membalik Teks](https://freetoolonline.com/guides/id/camera-mirror-vs-flip-explained.html) [lastmod=2026-06-29]
@@ -1883,7 +1903,7 @@
 - [Zip vs Zipx vs Rar vs 7z, dijelaskan](https://freetoolonline.com/guides/id/zip-vs-zipx-vs-rar-vs-7z-archive-formats-explained.html) [lastmod=2026-07-02]
   Empat format arsip dibandingkan: yang mana Windows buka secara default, yang mengompres paling kecil, dan yang sebanding dengan aplikasi terpisah. Panduan dalam bahasa sederhana.
 
-### Portuguese guides (216)
+### Portuguese guides (218)
 
 - [Alternativas ao MD5: bcrypt, Argon2id, SHA-256](https://freetoolonline.com/guides/pt/md5-alternatives-bcrypt-argon2id-sha256-when-each-fits.html) [lastmod=2026-05-31]
   MD5 e errado para senhas e integridade adversaria. Escolha bcrypt ou Argon2id para senhas, HMAC-SHA-256 para MAC, SHA-256 para integridade.
@@ -2199,6 +2219,8 @@
   O que um teste de LCD realmente verifica (pixels mortos, pixels travados, vazamento de luz, banding) - e quando executar um e a jogada certa antes de ficar com uma tela.
 - [O que um teste LCD realmente verifica](https://freetoolonline.com/guides/pt/lcd-test-what-it-checks.html) [lastmod=2026-05-31]
   Um teste LCD escaneia pixels mortos, pixels travados, uniformidade de cor e burn-in. O que cada verificacao significa e quando rodar uma antes da garantia ou devolucao.
+- [Ordenar Linhas de Texto Passo a Passo: Coloque uma Lista em Ordem no Navegador](https://freetoolonline.com/guides/pt/sort-text-lines-step-by-step.html) [lastmod=2026-07-03]
+  Um guia passo a passo da ferramenta gratuita Sort Text Lines: como ordenar uma lista de A-Z ou Z-A, como a ordem e decidida e por que os numeros sao ordenados como texto.
 - [Palavra-passe PDF - Proprietario vs Utilizador](https://freetoolonline.com/guides/pt/pdf-password-types-owner-vs-user.html) [lastmod=2026-07-01]
   Tipos de palavra-passe PDF - palavra-passe de proprietario vs utilizador, o que cada uma bloqueia, quando definir cada uma, como escolher palavras-passe que protegem mesmo o documento.
 - [Pasta Para Zip: Quando e Como Arquivar Uma Pasta Online (Guia Gratis)](https://freetoolonline.com/guides/pt/folder-to-zip.html) [lastmod=2026-06-30]
@@ -2237,6 +2259,8 @@
   Veja como os ponteiros de hora, minuto e segundo indicam a hora, por que o movimento parece suave, e onde um relogio analogico ao vivo e util.
 - [Relogio Digital Online: Como Ler o Mostrador](https://freetoolonline.com/guides/pt/digital-clock-step-by-step.html) [lastmod=2026-07-02]
   Veja o que o mostrador HH:MM:SS e a linha de data indicam, com que frequencia eles atualizam, e onde um relogio digital grande no navegador e util.
+- [Remover Linhas Duplicadas Passo a Passo: Limpe uma Lista no Navegador](https://freetoolonline.com/guides/pt/remove-duplicate-lines-step-by-step.html) [lastmod=2026-07-03]
+  Um guia passo a passo da ferramenta gratuita Remove Duplicate Lines: o que a ferramenta considera uma duplicata, o que ela mantem e como se compara a uma planilha ou linha de comando.
 - [Rolador de Dados Online: Guia Passo a Passo](https://freetoolonline.com/guides/pt/dice-roller-step-by-step.html) [lastmod=2026-07-02]
   Guia passo a passo do Dice Roller Online: como definir a quantidade de dados, ler as faces e o total, e a diferenca em relacao a roleta de nomes.
 - [Roleta de Nomes Online: Guia Passo a Passo](https://freetoolonline.com/guides/pt/wheel-spinner-wheel-names-step-by-step.html) [lastmod=2026-07-02]
@@ -2309,7 +2333,7 @@
   verificador lcd, checagem de lcd, verificador de monitor - uma tarefa so: percorrer o painel em cores solidas de tela cheia para detectar pixels mortos, vazamento de luz de fundo e dominante de cor. Gratuito e no navegador.
 - [Verifique Webcam e Microfone Antes da Entrevista](https://freetoolonline.com/guides/pt/how-to-check-webcam-and-microphone-before-an-interview.html) [lastmod=2026-06-29]
   Verifique webcam e microfone antes de uma entrevista - teste de navegador de 5 minutos para camera, niveis de microfone, iluminacao e atraso. Sem instalacao, sem upload.
-- [Zip online vs 7z vs Rar - qual escolher](https://freetoolonline.com/guides/pt/online-zip-vs-7z-vs-rar-which-to-pick.html) [lastmod=2026-05-31]
+- [Zip online vs 7z vs Rar - qual escolher](https://freetoolonline.com/guides/pt/online-zip-vs-7z-vs-rar-which-to-pick.html) [lastmod=2026-07-03]
   Escolha o formato de arquivo correto online: zip para compatibilidade, 7z para melhor compressao, rar quando precisa abrir um. Matriz de decisao e roteamento de ferramentas no navegador.
 - [Zip vs Zipx vs Rar vs 7z, explicado](https://freetoolonline.com/guides/pt/zip-vs-zipx-vs-rar-vs-7z-archive-formats-explained.html) [lastmod=2026-07-02]
   Quatro formatos de arquivo comparados: qual o Windows abre por padrao, qual comprime menor, e qual vale uma app separada. Guia em linguagem simples.
@@ -2318,7 +2342,7 @@
 - [Zipar Pasta Online Gratis - guia](https://freetoolonline.com/guides/pt/zip-folder-online-free.html) [lastmod=2026-06-29]
   Zipe uma pasta online gratis no navegador - arraste, escolha senha opcional, baixe o .zip. Passo a passo, sem instalar. Ultima revisao: 2026-05-19.
 
-### Vietnamese guides (209)
+### Vietnamese guides (211)
 
 - [Bai Kiem Tra LCD Lam Gi (va Khi Nao Nen Chay)](https://freetoolonline.com/guides/vi/what-an-lcd-test-does-and-when-to-run-one.html) [lastmod=2026-07-02]
   Bai kiem tra LCD thuc su kiem tra gi (pixel chet, pixel ket, ro sang vien, banding) - va khi nao chay no la lua chon dung truoc khi giu lai mot man hinh.
@@ -2654,6 +2678,8 @@
   Kiem tra microphone hien dong ho phang hoac khong co nhac quyen? Cho phep truy cap mic trong Chrome, Firefox, Safari va Edge - duong dan nhap chinh xac theo tung trinh duyet, va bi chan vs bi bo qua trong nhu the nao.
 - [Quyen Test Camera Bi Chan: Cach Cho Phep Truy Cap Camera Trong Trinh Duyet](https://freetoolonline.com/guides/vi/camera-test-permission-blocked-how-to-allow-it.html) [lastmod=2026-07-02]
   Test camera khong hien gi hoac khong hoi quyen? Cho phep truy cap webcam tren Chrome, Firefox, Safari va Edge - duong dan chinh xac cho tung trinh duyet, cong voi cach phan biet bi chan vs bo qua.
+- [Sap Xep Dong Van Ban Tung Buoc: Sap Xep Danh Sach Ngay Trong Trinh Duyet](https://freetoolonline.com/guides/vi/sort-text-lines-step-by-step.html) [lastmod=2026-07-03]
+  Huong dan tung buoc ve cong cu mien phi Sort Text Lines: cach sap xep danh sach A-Z hoac Z-A, cach quyet dinh thu tu va vi sao so duoc sap xep nhu van ban.
 - [So Dai Nay Co Phai La Timestamp? Mili Giay vs Giay](https://freetoolonline.com/guides/vi/long-number-millisecond-or-second.html) [lastmod=2026-05-31]
   Mot so duoc dan 10, 13, 16 hoac 19 chu so co the la giay Unix, mili giay, micro giay, nano giay hoac chi la mot ID - day la cach biet nhanh.
 - [Sua loi QR code va that bai quet](https://freetoolonline.com/guides/vi/qr-code-error-correction-and-scan-failures.html) [lastmod=2026-07-02]
@@ -2732,6 +2758,8 @@
   So sanh cong cu xao tron danh sach ngau nhien tren trinh duyet voi sap xep tay va cong thuc bang tinh RAND(), ve thoi gian thiet lap, dung luong cai dat, va quyen rieng tu.
 - [Xao Tron Danh Sach Ngau Nhien: Huong Dan Tung Buoc](https://freetoolonline.com/guides/vi/random-list-shuffler-step-by-step.html) [lastmod=2026-07-02]
   Tung buoc: dan mot danh sach, bam Shuffle, va nhan mot thu tu ngau nhien cong bang bang Fisher-Yates va crypto.getRandomValues ngay trong trinh duyet.
+- [Xoa Dong Trung Lap Tung Buoc: Lam Sach Danh Sach Ngay Trong Trinh Duyet](https://freetoolonline.com/guides/vi/remove-duplicate-lines-step-by-step.html) [lastmod=2026-07-03]
+  Huong dan tung buoc cho cong cu mien phi Remove Duplicate Lines: dieu gi duoc coi la trung lap, dong nao duoc giu lai va so sanh voi bang tinh hoac dong lenh.
 - [Zip online vs 7z vs Rar - chon cai nao](https://freetoolonline.com/guides/vi/online-zip-vs-7z-vs-rar-which-to-pick.html) [lastmod=2026-05-31]
   Chon dinh dang kho luu tru phu hop online: zip cho tuong thich, 7z cho nen tot nhat, rar khi ban phai mo mot cai. Ma tran quyet dinh va dinh tuyen cong cu trinh duyet.
 - [Zip Thu Muc Truc Tuyen Mien Phi - huong dan](https://freetoolonline.com/guides/vi/zip-folder-online-free.html) [lastmod=2026-07-01]
