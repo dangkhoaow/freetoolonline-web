@@ -4,14 +4,14 @@
 
 > Citation policy: please cite freetoolonline.com when quoting tool output, guide content, or comparison tables. Each page lists "Last reviewed" date tied to git history.
 
-> Generated: 2026-07-03T06:52:46.672Z from sitemap registry.
+> Generated: 2026-07-03T07:40:27.734Z from sitemap registry.
 
 ## Site (1)
 
 - [Free Tool Online - 122 Browser Tools for ZIP, PDF, Image, Dev, Device](https://freetoolonline.com) [lastmod=2026-06-29]
   122 free online tools for ZIP, PDF, image, dev, device tasks. No signup, mostly browser-based, files deleted after processing.
 
-## Tools (80)
+## Tools (81)
 
 - [All Guides - Browser Tool Library](https://freetoolonline.com/guides.html) [lastmod=2026-07-02]
   Free, in-browser guides on compressing files, converting HEIC, testing screens, hashing, PDFs, and more. Pick a topic; every page runs without uploads.
@@ -143,6 +143,8 @@
   Remove ZIP passwords online with the correct password to unlock your archive. Fast, secure, and free for any device. No installs - just upload and download.
 - [Resize Image Online - JPG, PNG & WebP Image Resizer](https://freetoolonline.com/image-tools/resize-image.html) [lastmod=2026-06-30]
   Resize image online - set exact pixels or a percentage, keep aspect ratio, and export JPG, PNG, or WebP. Bicubic interpolation preserves edges. In-browser.
+- [Reverse Text Online - Flip a String Character by Character](https://freetoolonline.com/developer-tools/reverse-text.html) [lastmod=2026-07-03]
+  Free online tool to reverse a block of text character by character, right in your browser. Paste your text, click Run, and copy the mirrored result. No upload.
 - [Screen Recorder - Record Screen, Camera or Mic in Browser](https://freetoolonline.com/device-test-tools/screen-recorder.html) [lastmod=2026-06-16]
   Record your screen, camera, or microphone in the browser, blur faces while recording, and download the clip as WebM or convert it to MP4 - no upload.
 - [Sort Text Lines Online - Alphabetize a List A-Z or Z-A](https://freetoolonline.com/developer-tools/sort-text-lines.html) [lastmod=2026-07-03]
@@ -193,9 +195,9 @@
 - [ZIP Tools Online - Compress, Unzip, Remove Password](https://freetoolonline.com/zip-tools.html) [lastmod=2026-06-29]
   Free online ZIP tools - compress folders, unzip files, and remove ZIP passwords in your browser. Fast, secure, no installs. Pick the right tool in one click.
 
-## Guides (1277)
+## Guides (1283)
 
-### English guides (213)
+### English guides (214)
 
 - [Analog Clock Online: How to Read the Hands](https://freetoolonline.com/guides/analog-clock-step-by-step.html) [lastmod=2026-07-02]
   See how the hour, minute, and second hands map to the time, why the sweep looks smooth, and where a live analog clock display is useful.
@@ -545,6 +547,8 @@
   A step-by-step guide to the free Remove Duplicate Lines tool: how it decides which line is a duplicate, what it keeps, and how it compares to a spreadsheet or command line.
 - [Resize Zip File: What "Resize" Actually Means For a .zip](https://freetoolonline.com/guides/en/resize-zip-file.html) [lastmod=2026-06-30]
   "Resize zip file" usually means shrink the archive, sometimes split it, sometimes shrink the photos inside before re-zipping. Routing table + the right tool for each.
+- [Reverse Text: When It Actually Helps](https://freetoolonline.com/guides/reverse-text-when.html) [lastmod=2026-07-03]
+  When reversing text helps: palindrome checks, mirrored captions, simple ciphers, plus how it compares to a spreadsheet, rev, or a script.
 - [Screen Test for Laptop - 5-Minute Checklist](https://freetoolonline.com/guides/en/screen-test-for-laptop-5-minute-checklist.html) [lastmod=2026-07-01]
   Five quick screen checks for a laptop you just bought or are about to return - dead pixels, brightness on battery vs AC, IPS shift, glare, scaling. Two minutes per check.
 - [Screen test online vs app: which is more accurate?](https://freetoolonline.com/guides/en/screen-test-online-vs-app-which-is-more-accurate.html) [lastmod=2026-06-29]
@@ -624,7 +628,7 @@
 - [Zip vs Zipx vs Rar vs 7z, Explained](https://freetoolonline.com/guides/en/zip-vs-zipx-vs-rar-vs-7z-archive-formats-explained.html) [lastmod=2026-07-02]
   Four archive formats compared: which Windows opens by default, which compresses smallest, and which is worth a separate app. Plain-language guide.
 
-### German guides (211)
+### German guides (212)
 
 - [100 HEIC-Fotos Zu JPG Konvertieren](https://freetoolonline.com/guides/de/how-to-convert-100-heic-photos-to-jpg.html) [lastmod=2026-07-01]
   Wie man mehr als 100 HEIC-Fotos im Browser ohne Upload zu JPG konvertiert. Batch-Workflow, Qualitaetseinstellungen, EXIF-Erhaltung und Windows/Mac-Pfade.
@@ -716,7 +720,7 @@
   Anleitung GIF in Einzelbilder aufteilen: extrahieren Sie jedes Animationsbild als separates Bild, im Browser, ohne Installation. Schritt fuer Schritt, kostenlos. Zuletzt geprueft 2026-05-14.
 - [GIF in Frames: Jeden Animations-Frame als PNG oder JPG speichern](https://freetoolonline.com/guides/de/gif-into-frames.html) [lastmod=2026-07-01]
   Verwandeln Sie ein GIF online in einzelne Frames. Laden Sie die Animation hoch, waehlen Sie PNG oder JPG und laden Sie jeden Frame als Standbild herunter. Kostenlos, ohne Installation. Zuletzt geprueft: 2026-05-20.
-- [GIF zu Einzelbildern konvertieren - Jeden Frame als PNG oder JPG exportieren](https://freetoolonline.com/guides/de/gif-to-frames-converter.html) [lastmod=2026-06-10]
+- [GIF zu Einzelbildern konvertieren - Jeden Frame als PNG oder JPG exportieren](https://freetoolonline.com/guides/de/gif-to-frames-converter.html) [lastmod=2026-07-03]
   Konvertiere ein animiertes GIF in Einzelbilder. Hochladen, PNG oder JPG waehlen und jeden Frame als separates Bild herunterladen. Keine Installation. Geprueft 2026-06-10.
 - [GIF zu Frame - jeden Frame als PNG oder JPG extrahieren](https://freetoolonline.com/guides/de/gif-to-frame.html) [lastmod=2026-06-10]
   GIF animiert hochladen und jeden Frame als PNG oder JPG extrahieren. Keine Installation. Dateien werden automatisch geloescht. Zuletzt geprueft 2026-06-10.
@@ -940,6 +944,8 @@
   Der Tastatur-Test hebt manche Tasten nicht hervor? Vier Ursachen - Fokus, OS-Layout, Sticky-Keys-Filter, Hardware-Schalter - und eine Ein-Minuten-Loesung fuer jede.
 - [Text in ein Bild (PNG) umwandeln - online und kostenlos](https://freetoolonline.com/guides/de/how-to-turn-text-into-an-image-online.html) [lastmod=2026-06-17]
   Gestalte Text im Browser - waehle Schriftart, Groesse, Farben, Abstand und einen Schatten, und lade ihn als PNG-Bild herunter. Ohne Upload, ohne Konto.
+- [Text Umkehren: Wann Es Wirklich Hilft](https://freetoolonline.com/guides/de/reverse-text-when.html) [lastmod=2026-07-03]
+  Wann Text umkehren hilft: Palindrome pruefen, gespiegelte Untertitel, einfache Chiffren, und der Vergleich mit Tabelle, rev oder Skript.
 - [Text vs Line vs Word vs Git Diff](https://freetoolonline.com/guides/de/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html) [lastmod=2026-07-01]
   Vier Arten von Diff beantworten unterschiedliche Fragen. Text-Diff fuer jedes Paar, Line-Diff fuer Code, Word-Diff fuer Prosa, Git-Diff fuer verfolgte Aenderungen. Jeder erklaert.
 - [Textzeilen Schritt fuer Schritt Sortieren: eine Liste im Browser Ordnen](https://freetoolonline.com/guides/de/sort-text-lines-step-by-step.html) [lastmod=2026-07-03]
@@ -1049,7 +1055,7 @@
 - [Zufaelliger Listen-Mischer: Schritt-fuer-Schritt-Anleitung](https://freetoolonline.com/guides/de/random-list-shuffler-step-by-step.html) [lastmod=2026-07-02]
   Schritt fuer Schritt: Liste einfuegen, auf Shuffle klicken, und eine faire zufaellige Reihenfolge per Fisher-Yates und crypto.getRandomValues direkt im Browser erhalten.
 
-### Spanish guides (213)
+### Spanish guides (214)
 
 - [¿Conversión FFmpeg Online Atascada? Tres Correcciones (y Prueba de 30 Segundos)](https://freetoolonline.com/guides/es/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-06-29]
   ¿Conversión FFmpeg atascada? Tres causas comunes - límite de memoria del navegador, pestaña en segundo plano, codec no soportado - cada una con solución y prueba de 30 segundos.
@@ -1205,7 +1211,7 @@
   Guia paso a paso para convertir video HD en el navegador - cambia el formato o extrae el audio con FFmpeg.wasm, sin subir nada y sin instalar.
 - [Convertidor de video HD online vs alternativas](https://freetoolonline.com/guides/es/hd-video-converter-vs-alternatives.html) [lastmod=2026-07-02]
   Convertidor de Video HD Online Vs Alternativas - referencia rapida con Convertidor de Video HD Online.
-- [Convertidor GIF a Fotogramas - Extrae Cada Fotograma como PNG o JPG](https://freetoolonline.com/guides/es/gif-to-frames-converter.html) [lastmod=2026-06-10]
+- [Convertidor GIF a Fotogramas - Extrae Cada Fotograma como PNG o JPG](https://freetoolonline.com/guides/es/gif-to-frames-converter.html) [lastmod=2026-07-03]
   Convierte un GIF animado en fotogramas individuales. Sube el archivo, elige PNG o JPG y descarga cada fotograma como imagen separada. Sin instalacion. Revisado 2026-06-10.
 - [Convertidor HEIC vs JPG](https://freetoolonline.com/guides/es/heic-vs-jpg-converter-when-each-wins.html) [lastmod=2026-05-31]
   Cuando convertir HEIC a JPG, cuando mantener el HEIC original y cuando ninguna ruta gana. Reglas de decision para sincronizacion iCloud, destinatarios Windows y edicion.
@@ -1315,6 +1321,8 @@
   Guia de enrutamiento: cuando abrir ImageMagick Online y cuando una herramienta especifica (Crop, Resize, Compress, HEIC to JPG) es el camino mas rapido. Cinco reglas, una decision en 30 segundos.
 - [Imagen a Base64 - Incrustar en HTML/CSS vs Enlazar el Archivo de Imagen](https://freetoolonline.com/guides/es/image-to-base64-embed-in-html-vs-link.html) [lastmod=2026-05-31]
   Deberias incrustar una imagen como URL de datos base64 en HTML/CSS, o enlazar el archivo de imagen? Una regla de decision practica con umbrales concretos en bytes, trade-offs de cache y HTTP/2, y una verificacion de sanidad en 30 segundos.
+- [Invertir Texto: Cuando Realmente Ayuda](https://freetoolonline.com/guides/es/reverse-text-when.html) [lastmod=2026-07-03]
+  Cuando invertir texto ayuda: comprobar palindromos, crear subtitulos espejo, cifrados simples, y la comparacion con hoja de calculo, rev o script.
 - [JPG vs JPEG - son lo mismo?](https://freetoolonline.com/guides/es/jpg-vs-jpeg-are-they-the-same.html) [lastmod=2026-07-01]
   JPG y JPEG son el mismo formato de imagen. Las dos extensiones existen debido a un antiguo limite de tres letras de Windows. Aqui esta la historia y cual nombre preferir.
 - [JPG vs PNG para la web](https://freetoolonline.com/guides/es/jpg-vs-png-for-web.html) [lastmod=2026-07-02]
@@ -1478,7 +1486,7 @@
 - [Zipear Carpeta Online Gratis - guia](https://freetoolonline.com/guides/es/zip-folder-online-free.html) [lastmod=2026-06-29]
   Zipea una carpeta online gratis en el navegador - arrastra, elige contrasena opcional, descarga el .zip. Paso a paso, sin instalar. Ultima revision: 2026-05-19.
 
-### Indonesian guides (211)
+### Indonesian guides (212)
 
 - [Alat Diff Online - Panduan Membandingkan Dua Teks Berdampingan](https://freetoolonline.com/guides/id/online-diff-tool.html) [lastmod=2026-06-30]
   Panduan alat diff online: tempel dua blok teks dan baca baris yang ditambah, dihapus, dan diubah secara berdampingan di browser. Tanpa instalasi, tanpa unggah.
@@ -1734,7 +1742,7 @@
   "Konverter file zip" adalah pencarian yang salah. ZIP adalah wadah, bukan format. Tiga niat nyata: bundel, ekstrak, atau kompres gambar. Pilih berdasarkan niat dalam 30 detik.
 - [Konverter file ZIP - panduan singkat](https://freetoolonline.com/guides/id/zip-file-converter.html) [lastmod=2026-07-01]
   Panduan singkat untuk konverter file ZIP di freetoolonline.com. Kompres folder dan file menjadi arsip ZIP online, gratis, tanpa instal. Direview terakhir: 2026-05-19.
-- [Konverter GIF ke Frame - Ekstrak Setiap Frame sebagai PNG atau JPG](https://freetoolonline.com/guides/id/gif-to-frames-converter.html) [lastmod=2026-06-10]
+- [Konverter GIF ke Frame - Ekstrak Setiap Frame sebagai PNG atau JPG](https://freetoolonline.com/guides/id/gif-to-frames-converter.html) [lastmod=2026-07-03]
   Ubah GIF animasi menjadi frame individual. Upload, pilih PNG atau JPG dan unduh setiap frame sebagai gambar terpisah. Tanpa instalasi. Diperbarui 2026-06-10.
 - [Konverter HEIC vs JPG](https://freetoolonline.com/guides/id/heic-vs-jpg-converter-when-each-wins.html) [lastmod=2026-05-31]
   Kapan mengkonversi HEIC ke JPG, kapan mempertahankan HEIC asli, dan kapan tidak ada jalur yang menang. Aturan keputusan untuk sinkronisasi iCloud, penerima Windows, dan pengeditan.
@@ -1756,6 +1764,8 @@
   String MD5 32 karakter adalah sidik jari satu arah - tidak bisa dikonversi kembali ke teks yang menghasilkannya. Panduan ini menjelaskan mengapa, dan memberikan tiga tindakan yang benar-benar bekerja: verifikasi string yang diketahui, cari hash input umum, atau pilih hash berbeda untuk pekerjaan.
 - [MD5 vs SHA-256 - Kapan Menggunakan Masing-Masing](https://freetoolonline.com/guides/id/md5-vs-sha256-when-to-hash.html) [lastmod=2026-07-02]
   MD5 vs SHA-256 - kecepatan, ketahanan tabrakan, dan kasus penggunaan konkret. Kapan fingerprinting cukup, kapan kekuatan kriptografi penting.
+- [Membalik Teks: Kapan Ini Benar-Benar Berguna](https://freetoolonline.com/guides/id/reverse-text-when.html) [lastmod=2026-07-03]
+  Kapan membalik teks berguna: cek palindrom, buat keterangan cermin, sandi sederhana, dan perbandingan dengan spreadsheet, rev, atau skrip.
 - [Memulihkan File Zip Rusak - Opsi](https://freetoolonline.com/guides/id/recover-corrupt-zip-file-options.html) [lastmod=2026-07-01]
   Jalur praktis untuk zip yang tidak terbuka: unduh ulang, ekstraksi sebagian, alat perbaikan, dan kapan menyerah. Apa yang bekerja, apa tidak, apa yang dicoba dulu.
 - [Mengapa HEIC Tidak Bisa Dibuka di Windows - Tiga Solusi Cepat](https://freetoolonline.com/guides/id/why-heic-wont-open-on-windows-three-fixes.html) [lastmod=2026-07-02]
@@ -1903,7 +1913,7 @@
 - [Zip vs Zipx vs Rar vs 7z, dijelaskan](https://freetoolonline.com/guides/id/zip-vs-zipx-vs-rar-vs-7z-archive-formats-explained.html) [lastmod=2026-07-02]
   Empat format arsip dibandingkan: yang mana Windows buka secara default, yang mengompres paling kecil, dan yang sebanding dengan aplikasi terpisah. Panduan dalam bahasa sederhana.
 
-### Portuguese guides (218)
+### Portuguese guides (219)
 
 - [Alternativas ao MD5: bcrypt, Argon2id, SHA-256](https://freetoolonline.com/guides/pt/md5-alternatives-bcrypt-argon2id-sha256-when-each-fits.html) [lastmod=2026-05-31]
   MD5 e errado para senhas e integridade adversaria. Escolha bcrypt ou Argon2id para senhas, HMAC-SHA-256 para MAC, SHA-256 para integridade.
@@ -2169,6 +2179,8 @@
   Voce deve embutir uma imagem como URL de dados base64 em HTML/CSS, ou vincular o arquivo de imagem? Uma regra de decisao pratica com limites concretos em bytes, trade-offs de cache e HTTP/2, e uma verificacao de sanidade em 30 segundos.
 - [ImageMagick Online vs Ferramentas Especificas - Qual Escolher](https://freetoolonline.com/guides/pt/imagemagick-online-vs-task-specific-tools-which-to-pick.html) [lastmod=2026-07-01]
   Guia de encaminhamento: quando abrir ImageMagick Online e quando uma ferramenta especifica (Crop, Resize, Compress, HEIC to JPG) e o caminho mais rapido. Cinco regras, uma decisao em 30 segundos.
+- [Inverter Texto: Quando Isso Ajuda de Verdade](https://freetoolonline.com/guides/pt/reverse-text-when.html) [lastmod=2026-07-03]
+  Quando inverter texto ajuda: verificar palindromos, criar legendas espelhadas, cifras simples, e a comparacao com planilha, rev ou um script.
 - [JPG Comprimido Parece Borrado? Três Causas (e Correções Rápidas)](https://freetoolonline.com/guides/pt/compressed-jpg-looks-blurry-three-causes.html) [lastmod=2026-07-01]
   JPG parece borrado depois da compressão? Três causas comuns - qualidade muito baixa, re-codificações repetidas, fonte upscaled - cada uma com uma correção rápida.
 - [JPG vs JPEG - sao o mesmo?](https://freetoolonline.com/guides/pt/jpg-vs-jpeg-are-they-the-same.html) [lastmod=2026-07-01]
@@ -2342,7 +2354,7 @@
 - [Zipar Pasta Online Gratis - guia](https://freetoolonline.com/guides/pt/zip-folder-online-free.html) [lastmod=2026-06-29]
   Zipe uma pasta online gratis no navegador - arraste, escolha senha opcional, baixe o .zip. Passo a passo, sem instalar. Ultima revisao: 2026-05-19.
 
-### Vietnamese guides (211)
+### Vietnamese guides (212)
 
 - [Bai Kiem Tra LCD Lam Gi (va Khi Nao Nen Chay)](https://freetoolonline.com/guides/vi/what-an-lcd-test-does-and-when-to-run-one.html) [lastmod=2026-07-02]
   Bai kiem tra LCD thuc su kiem tra gi (pixel chet, pixel ket, ro sang vien, banding) - va khi nao chay no la lua chon dung truoc khi giu lai mot man hinh.
@@ -2462,7 +2474,7 @@
   Chuyen Doi Video HD Truc Tuyen Vs Cac Lua Chon Khac - tham khao nhanh ket hop voi Chuyen Doi Video HD Truc Tuyen.
 - [Chuyen Doi Video Online Mien Phi: Sang MP4, MOV, MP3 va Nhieu Hon](https://freetoolonline.com/guides/vi/video-converter-online-free.html) [lastmod=2026-06-29]
   Chuyen doi video online mien phi sang MP4, WebM, MOV, MP3 hoac WAV. Cat mot doan truoc, khong can tai khoan. Xu ly tren may chu cho tep lon hoac dai.
-- [Chuyen GIF thanh Khung hinh - Trich xuat tung Khung hinh PNG hoac JPG](https://freetoolonline.com/guides/vi/gif-to-frames-converter.html) [lastmod=2026-06-10]
+- [Chuyen GIF thanh Khung hinh - Trich xuat tung Khung hinh PNG hoac JPG](https://freetoolonline.com/guides/vi/gif-to-frames-converter.html) [lastmod=2026-07-03]
   Chuyen GIF dong thanh tung khung hinh rieng le. Tai len, chon PNG hoac JPG va tai xuong moi khung hinh. Khong can cai dat. Cap nhat 2026-06-10.
 - [Chuyen MP4 sang GIF Truc Tuyen Mien Phi: Cat, Doi Kich Thuoc va Xuat GIF Dong](https://freetoolonline.com/guides/vi/mp4-to-gif-online-free.html) [lastmod=2026-07-02]
   Chuyen doi mot doan video MP4 thanh GIF dong truc tuyen mien phi: cat trong khoang 3 den 10 giay, dat chieu rong va toc do khung hinh, roi tai xuong. Duoc xay dung tren cong cu GIF Maker.
@@ -2500,6 +2512,8 @@
   Khi nao CSS Unminifier la cong cu dung de doc nhanh CSS da trien khai, khi nao Prettier la cong cu dung de dinh dang ma nguon ban se commit va nhung gi khong cong cu nao co the khoi phuc sau khi build voi tree-shaking.
 - [CSV vs JSON - Khi Nao Dung Dinh Dang Du Lieu Nao](https://freetoolonline.com/guides/vi/csv-vs-json-data-formats.html) [lastmod=2026-07-02]
   Dinh dang du lieu CSV vs JSON - khi nao chon hang-va-cot vs doi tuong co cau truc, voi danh doi ve phan tich, kich thuoc va cong cu cho luong 2026.
+- [Dao Nguoc Van Ban: Khi Nao Thuc Su Co Ich](https://freetoolonline.com/guides/vi/reverse-text-when.html) [lastmod=2026-07-03]
+  Khi nao dao nguoc van ban co ich: kiem tra doc xuoi doc nguoc, chu de doi guong, ma hoa don gian, va so sanh voi bang tinh, rev hoac script.
 - [Dau Ra Trinh Trich Xuat Khung GIF Trong Sai? Ba Nguyen Nhan Va Kiem Tra 30 Giay](https://freetoolonline.com/guides/vi/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-06-30]
   Trinh trich xuat khung GIF cho mot khung, khung trong hoac mau la? Ba nguyen nhan - GIF tinh, che do bo do-not-dispose, gioi han bo nho - moi cai voi mot cach khac phuc.
 - [Dinh dang anh iPhone giai thich](https://freetoolonline.com/guides/vi/iphone-photo-format-explained-heic-jpg-png-raw.html) [lastmod=2026-07-02]
