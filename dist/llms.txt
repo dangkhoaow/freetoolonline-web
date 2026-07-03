@@ -4,7 +4,7 @@
 
 > Citation policy: please cite freetoolonline.com when quoting tool output, guide content, or comparison tables. Each page lists "Last reviewed" date tied to git history.
 
-> Generated: 2026-07-03T00:25:38.300Z from sitemap registry.
+> Generated: 2026-07-03T01:01:48.337Z from sitemap registry.
 
 ## Site (1)
 
@@ -774,7 +774,7 @@
   LCD-Bildschirmtest-Anleitung: Fuehren Sie eine kostenlose Pixel- und Farbgleichmaessigkeitspruefung im Browser durch. Schritt fuer Schritt, ohne Installation. Zuletzt geprueft: 2026-05-20.
 - [LCD-Pruefer: Kostenlose Online-Bildschirmpruefung im Browser durchfuehren](https://freetoolonline.com/guides/de/lcd-checker.html) [lastmod=2026-07-02]
   lcd-pruefer, lcd-check, monitor-pruefer - eine Aufgabe: das Panel durch vollbildige Solid-Farben durchlaufen, um tote Pixel, Hintergrundbeleuchtungs-Bleeding und Farbstich zu erkennen. Kostenlos und im Browser.
-- [LCD-Test - Anleitung fuer den LCD-Bildschirmtest](https://freetoolonline.com/guides/de/lcd-test-online.html) [lastmod=2026-06-23]
+- [LCD-Test - Anleitung fuer den LCD-Bildschirmtest](https://freetoolonline.com/guides/de/lcd-test-online.html) [lastmod=2026-07-03]
   LCD-Test-Anleitung: So testen Sie Ihr LCD-Display online und kostenlos im Browser. Schritt fuer Schritt, ohne Installation. Zuletzt geprueft: 2026-05-13.
 - [LCD-Test fuer Laptop-Bildschirme - Pixelfehler- und Farbpruefung](https://freetoolonline.com/guides/de/lcd-test-laptop.html) [lastmod=2026-07-02]
   Pruefe ein Laptop-LCD auf tote Pixel, festsitzende Pixel und Backlight-Bleeding - wechsle Rot, Gruen, Blau, Schwarz und Weiss im Vollbild in deinem Browser durch.
@@ -1678,7 +1678,7 @@
   Kompres atau konversi gambar? Jawaban dalam 30 detik - aturan keputusan untuk ukuran file, pilihan format, trade-off kualitas, dan alat yang tepat untuk setiap pekerjaan.
 - [Kompres Zip - Kapan Arsip Mengecilkan Ukuran](https://freetoolonline.com/guides/id/kompres-zip.html) [lastmod=2026-05-31]
   Panduan kompres zip: kapan format .zip benar-benar mengecilkan ukuran, kapan tidak, dan di mana alat pembuat arsip berada di browser. Gratis, tanpa instalasi.
-- [Kompres ZIP: kapan kompresi ZIP menghemat ruang (dan kapan tidak)](https://freetoolonline.com/guides/id/compress-zip.html) [lastmod=2026-05-29]
+- [Kompres ZIP: kapan kompresi ZIP menghemat ruang (dan kapan tidak)](https://freetoolonline.com/guides/id/compress-zip.html) [lastmod=2026-07-03]
   Panduan singkat berorientasi pembaca tentang mengompres file ke ZIP: kapan kompresi ZIP benar-benar menghemat ruang, kapan tidak, dan di mana pembuat ZIP browser berada.
 - [Kompresi ZIP - panduan kompresi zip](https://freetoolonline.com/guides/id/zip-compress.html) [lastmod=2026-06-30]
   Panduan kompresi ZIP: kapan ZIP mengecilkan file, kapan tidak, dan cara membundel folder ke dalam satu arsip online. Gratis, tanpa instal. Direview terakhir: 2026-05-18.
@@ -1830,7 +1830,7 @@
   Pixel macet atau kebocoran cahaya latar: tes layar. Webcam tidak bisa start atau gambar terbalik: tes kamera. Pilih alat tes perangkat yang tepat di freetoolonline.com.
 - [Tes layar vs Tes LCD - hal yang sama?](https://freetoolonline.com/guides/id/screen-display-test-synonyms.html) [lastmod=2026-07-02]
   Tes layar, tes display, tes monitor - semua berarti pemeriksaan yang sama. Pilih alat yang tepat: tes LCD untuk monitor, tes kamera untuk webcam.
-- [Tes LCD - panduan tes layar LCD](https://freetoolonline.com/guides/id/lcd-test-online.html) [lastmod=2026-06-23]
+- [Tes LCD - panduan tes layar LCD](https://freetoolonline.com/guides/id/lcd-test-online.html) [lastmod=2026-07-03]
   Panduan tes LCD: cara tes layar LCD online, gratis di browser. Langkah demi langkah, tanpa instal. Direview terakhir: 2026-05-13.
 - [Tes LCD untuk Layar Laptop - Pemeriksaan Piksel Mati dan Warna](https://freetoolonline.com/guides/id/lcd-test-laptop.html) [lastmod=2026-07-02]
   Tes LCD laptop untuk mencari piksel mati, piksel macet, dan rembesan lampu latar - putar merah, hijau, biru, hitam, dan putih layar penuh di peramban Anda.
@@ -2083,7 +2083,7 @@
   Escada de decisao para edicao PDF. Dividir, juntar, extrair, proteger, achatar, converter - escolha a ferramenta certa por intencao em 30 segundos. 12 ferramentas PDF mapeadas para o fluxo.
 - [Espelho de Webcam vs Flip Explicado: Por Que Seu Preview de Câmera Inverte o Texto](https://freetoolonline.com/guides/pt/camera-mirror-vs-flip-explained.html) [lastmod=2026-06-29]
   Por que seu preview de webcam inverte texto e o vídeo gravado geralmente não. Procedimento de prova de 30 segundos mais passos exatos de desativar espelho para OBS, Zoom, Google Meet e Microsoft Teams.
-- [Este Numero Longo e um Timestamp? Milissegundos vs Segundos](https://freetoolonline.com/guides/pt/long-number-millisecond-or-second.html) [lastmod=2026-05-31]
+- [Este Numero Longo e um Timestamp? Milissegundos vs Segundos](https://freetoolonline.com/guides/pt/long-number-millisecond-or-second.html) [lastmod=2026-07-03]
   Um numero colado de 10, 13, 16 ou 19 digitos pode ser segundos Unix, milissegundos, microssegundos, nanossegundos ou apenas um ID - aqui esta como saber rapido.
 - [Extrair Frames de GIF: PNG ou JPG, Qual Formato Escolher?](https://freetoolonline.com/guides/pt/extract-gif-frames-png-vs-jpg-which-format.html) [lastmod=2026-07-01]
   PNG preserva o canal alfa e é sem perdas para edição; JPG é menor e ideal para miniaturas. Quando escolher cada um ao extrair frames de GIF.
@@ -2706,7 +2706,7 @@
   Huong dan tung buoc cho Coin Flip Online: cach tung, doc ket qua, va diem khac biet so voi may tung xuc xac va vong quay chon ten.
 - [Tung Xuc Xac Online: Huong Dan Tung Buoc](https://freetoolonline.com/guides/vi/dice-roller-step-by-step.html) [lastmod=2026-07-02]
   Huong dan tung buoc cho Dice Roller Online: cach dat so xuc xac, doc mat xuc xac va tong diem, va diem khac biet so voi vong quay chon ten.
-- [Unminify JS: Khoi Phuc Kha Nang Doc JavaScript Da Minify (Cong Cu Trinh Duyet Mien Phi)](https://freetoolonline.com/guides/vi/unminify-js.html) [lastmod=2026-07-01]
+- [Unminify JS: Khoi Phuc Kha Nang Doc JavaScript Da Minify (Cong Cu Trinh Duyet Mien Phi)](https://freetoolonline.com/guides/vi/unminify-js.html) [lastmod=2026-07-03]
   Unminify JavaScript minified online mien phi. Dan bundle vao, nhan ma duoc thut le va ngat dong tro lai - khong cai dat, chay tren trinh duyet. Cap nhat lan cuoi 2026-05-20.
 - [Vong Quay Chon Ten Online: Huong Dan Tung Buoc](https://freetoolonline.com/guides/vi/wheel-spinner-wheel-names-step-by-step.html) [lastmod=2026-07-02]
   Start, sua danh sach va nhan Spin - xem chinh xac cach vong quay chon mot ten cong bang truoc khi dung cho boc tham hoac ra quyet dinh.
