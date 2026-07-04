@@ -14,6 +14,31 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // Cycle 20260705 grant-apply mirror - 4 new EN guides + pt/es/vi/id/de locale variants (new_guide_locale_completeness). status locale_pending_review.
+  '/guides/pdf-to-text-online-i-love-pdf.html',
+  '/guides/video-gif-converter-step-by-step.html',
+  '/guides/video-gif-converter-vs-alternatives.html',
+  '/guides/video-gif-converter-when.html',
+  '/guides/pt/pdf-to-text-online-i-love-pdf.html',
+  '/guides/pt/video-gif-converter-step-by-step.html',
+  '/guides/pt/video-gif-converter-vs-alternatives.html',
+  '/guides/pt/video-gif-converter-when.html',
+  '/guides/es/pdf-to-text-online-i-love-pdf.html',
+  '/guides/es/video-gif-converter-step-by-step.html',
+  '/guides/es/video-gif-converter-vs-alternatives.html',
+  '/guides/es/video-gif-converter-when.html',
+  '/guides/vi/pdf-to-text-online-i-love-pdf.html',
+  '/guides/vi/video-gif-converter-step-by-step.html',
+  '/guides/vi/video-gif-converter-vs-alternatives.html',
+  '/guides/vi/video-gif-converter-when.html',
+  '/guides/id/pdf-to-text-online-i-love-pdf.html',
+  '/guides/id/video-gif-converter-step-by-step.html',
+  '/guides/id/video-gif-converter-vs-alternatives.html',
+  '/guides/id/video-gif-converter-when.html',
+  '/guides/de/pdf-to-text-online-i-love-pdf.html',
+  '/guides/de/video-gif-converter-step-by-step.html',
+  '/guides/de/video-gif-converter-vs-alternatives.html',
+  '/guides/de/video-gif-converter-when.html',
   '/',
   '/about-us.html',
   '/contact-us.html',
@@ -1224,6 +1249,31 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // Cycle 20260705 grant-apply mirror - 4 new EN guides + pt/es/vi/id/de locale variants (new_guide_locale_completeness). status locale_pending_review.
+  '/guides/pdf-to-text-online-i-love-pdf.html',
+  '/guides/video-gif-converter-step-by-step.html',
+  '/guides/video-gif-converter-vs-alternatives.html',
+  '/guides/video-gif-converter-when.html',
+  '/guides/pt/pdf-to-text-online-i-love-pdf.html',
+  '/guides/pt/video-gif-converter-step-by-step.html',
+  '/guides/pt/video-gif-converter-vs-alternatives.html',
+  '/guides/pt/video-gif-converter-when.html',
+  '/guides/es/pdf-to-text-online-i-love-pdf.html',
+  '/guides/es/video-gif-converter-step-by-step.html',
+  '/guides/es/video-gif-converter-vs-alternatives.html',
+  '/guides/es/video-gif-converter-when.html',
+  '/guides/vi/pdf-to-text-online-i-love-pdf.html',
+  '/guides/vi/video-gif-converter-step-by-step.html',
+  '/guides/vi/video-gif-converter-vs-alternatives.html',
+  '/guides/vi/video-gif-converter-when.html',
+  '/guides/id/pdf-to-text-online-i-love-pdf.html',
+  '/guides/id/video-gif-converter-step-by-step.html',
+  '/guides/id/video-gif-converter-vs-alternatives.html',
+  '/guides/id/video-gif-converter-when.html',
+  '/guides/de/pdf-to-text-online-i-love-pdf.html',
+  '/guides/de/video-gif-converter-step-by-step.html',
+  '/guides/de/video-gif-converter-vs-alternatives.html',
+  '/guides/de/video-gif-converter-when.html',
   // cycle 20260625-6 create_new_guide_page (locale completion) - pt variant of video-converter-online-free (staging-only until es/vi/id/de complete).
   '/guides/pt/video-converter-online-free.html',
   // cycle 20260626 create_new_guide_page (locale completion) - es variant of video-converter-online-free (staging-only until vi/id/de complete).
@@ -2015,6 +2065,8 @@ export function isGuideRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  // Cycle 20260705 grant-apply mirror - video-to-gif short alias.
+  '/video-to-gif.html': '/video-tools/video-to-gif.html',
   // Hub directory-form safety redirects (added 2026-05-11). Search engines
   // and external links may guess `/cluster-tools/` from the clustered tool
   // URLs (`/cluster-tools/<slug>.html`). Without these entries GitHub Pages
@@ -2511,6 +2563,32 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // Cycle 20260705 grant-apply mirror - video-to-gif tool + 4 new guides (all locales).
+  '/video-tools/video-to-gif.html': 'convert/video-to-gif.jsp',
+  '/guides/pdf-to-text-online-i-love-pdf.html': 'guide/pdf-to-text-online-i-love-pdf.jsp',
+  '/guides/video-gif-converter-step-by-step.html': 'guide/video-gif-converter-step-by-step.jsp',
+  '/guides/video-gif-converter-vs-alternatives.html': 'guide/video-gif-converter-vs-alternatives.jsp',
+  '/guides/video-gif-converter-when.html': 'guide/video-gif-converter-when.jsp',
+  '/guides/pt/pdf-to-text-online-i-love-pdf.html': 'guide/pt/pdf-to-text-online-i-love-pdf.jsp',
+  '/guides/pt/video-gif-converter-step-by-step.html': 'guide/pt/video-gif-converter-step-by-step.jsp',
+  '/guides/pt/video-gif-converter-vs-alternatives.html': 'guide/pt/video-gif-converter-vs-alternatives.jsp',
+  '/guides/pt/video-gif-converter-when.html': 'guide/pt/video-gif-converter-when.jsp',
+  '/guides/es/pdf-to-text-online-i-love-pdf.html': 'guide/es/pdf-to-text-online-i-love-pdf.jsp',
+  '/guides/es/video-gif-converter-step-by-step.html': 'guide/es/video-gif-converter-step-by-step.jsp',
+  '/guides/es/video-gif-converter-vs-alternatives.html': 'guide/es/video-gif-converter-vs-alternatives.jsp',
+  '/guides/es/video-gif-converter-when.html': 'guide/es/video-gif-converter-when.jsp',
+  '/guides/vi/pdf-to-text-online-i-love-pdf.html': 'guide/vi/pdf-to-text-online-i-love-pdf.jsp',
+  '/guides/vi/video-gif-converter-step-by-step.html': 'guide/vi/video-gif-converter-step-by-step.jsp',
+  '/guides/vi/video-gif-converter-vs-alternatives.html': 'guide/vi/video-gif-converter-vs-alternatives.jsp',
+  '/guides/vi/video-gif-converter-when.html': 'guide/vi/video-gif-converter-when.jsp',
+  '/guides/id/pdf-to-text-online-i-love-pdf.html': 'guide/id/pdf-to-text-online-i-love-pdf.jsp',
+  '/guides/id/video-gif-converter-step-by-step.html': 'guide/id/video-gif-converter-step-by-step.jsp',
+  '/guides/id/video-gif-converter-vs-alternatives.html': 'guide/id/video-gif-converter-vs-alternatives.jsp',
+  '/guides/id/video-gif-converter-when.html': 'guide/id/video-gif-converter-when.jsp',
+  '/guides/de/pdf-to-text-online-i-love-pdf.html': 'guide/de/pdf-to-text-online-i-love-pdf.jsp',
+  '/guides/de/video-gif-converter-step-by-step.html': 'guide/de/video-gif-converter-step-by-step.jsp',
+  '/guides/de/video-gif-converter-vs-alternatives.html': 'guide/de/video-gif-converter-vs-alternatives.jsp',
+  '/guides/de/video-gif-converter-when.html': 'guide/de/video-gif-converter-when.jsp',
   '/': 'index.jsp',
   '/about-us.html': 'about-us.jsp',
   '/contact-us.html': 'contact-us.jsp',
