@@ -4,7 +4,7 @@
 
 > Citation policy: please cite freetoolonline.com when quoting tool output, guide content, or comparison tables. Each page lists "Last reviewed" date tied to git history.
 
-> Generated: 2026-07-04T10:51:10.631Z from sitemap registry.
+> Generated: 2026-07-04T13:59:59.489Z from sitemap registry.
 
 ## Site (1)
 
@@ -23,7 +23,7 @@
   Base64 to image online - paste a data URI or raw Base64 string, click Convert, and your browser renders the decoded picture as a preview. No upload.
 - [Black Hole 3D Visualizer - Free Online](https://freetoolonline.com/space-3d/black-hole.html) [lastmod=2026-07-04]
   Black Hole 3D Visualizer - Tens of thousands of glowing particles orbit the black event-horizon sphere, and the inner ones circle faster - the same reason ...
-- [Camera Test Online - Live Preview, Resolution & Capture](https://freetoolonline.com/device-test-tools/camera-test.html) [lastmod=2026-06-29]
+- [Camera Test Online - Live Preview, Resolution & Capture](https://freetoolonline.com/device-test-tools/camera-test.html) [lastmod=2026-07-04]
   Free camera test online: live preview, resolution readout, switch front and back camera, capture and download a JPEG photo - all in your browser.
 - [Chuyển đổi sang Tiếq Việt mới trực tuyến](https://freetoolonline.com/utility-tools/cong-cu-chuyen-doi-chu-quoc-ngu-tieng-viet-thanh-tieq-viet-kieu-moi.html) [lastmod=2026-06-24]
   Bộ chuyển đổi tiếng Việt kiểu mới. Giúp chuyển chữ tiếng Việt thành tiếq Việt như dự án cải cách chữ quốc ngữ của PGS.TS Bùi Hiền.
@@ -33,9 +33,9 @@
   Coin Flip Online - Flip a virtual coin for a fair heads-or-tails result right in your browser. No install, no account.
 - [Color Picker - Free Online, No Sign-Up](https://freetoolonline.com/developer-tools/color-picker.html) [lastmod=2026-06-28]
   Pick a color and read its HEX, RGB, and HSL values, with complementary, analogous, and shade palettes and one-click copy. No upload, no account.
-- [Compose PDF Online with Headings, Lists, Tables, and Page Breaks](https://freetoolonline.com/pdf-tools/compose-pdf.html) [lastmod=2026-06-29]
+- [Compose PDF Online with Headings, Lists, Tables, and Page Breaks](https://freetoolonline.com/pdf-tools/compose-pdf.html) [lastmod=2026-07-04]
   Create PDFs online with a simple PDF editor. Write, format, and export a clean PDF for reports or notes in minutes-fast, and no installs needed.
-- [Compress Folders & Files to ZIP - Free Online File Compressor](https://freetoolonline.com/zip-tools/zip-file.html) [lastmod=2026-06-29]
+- [Compress Folders & Files to ZIP - Free Online File Compressor](https://freetoolonline.com/zip-tools/zip-file.html) [lastmod=2026-07-04]
   Compress folders and files into a ZIP archive online. Add optional password protection and download a smaller file fast, free, and secure today.
 - [Convert PDF to HTML Online - Preserve Page Structure](https://freetoolonline.com/pdf-tools/pdf-to-html.html) [lastmod=2026-06-28]
   PDF to HTML converter online - turn a PDF into standards-compliant HTML that preserves headings, lists, tables, and images.
@@ -45,11 +45,11 @@
   Crop image online to a free-form area or a preset ratio (1:1, 16:9, 4:5); rotate in 90° steps or at a free angle. JPG, PNG, WebP. In-browser, no upload.
 - [CSS Gradient Generator - Build & Copy Gradient Code](https://freetoolonline.com/developer-tools/css-gradient-generator.html) [lastmod=2026-06-28]
   CSS gradient generator - build animated linear gradients with live preview; copy ready-to-paste CSS with vendor-prefix fallbacks for every browser.
-- [CSS Minifier Online - Free, Paste & Minify Instantly](https://freetoolonline.com/developer-tools/css-minifier.html) [lastmod=2026-06-28]
+- [CSS Minifier Online - Free, Paste & Minify Instantly](https://freetoolonline.com/developer-tools/css-minifier.html) [lastmod=2026-07-04]
   Minify CSS online for faster page loads. Two-pane editor, one click, visible kB savings, instant Copy button - all in-browser, no signup, no file upload.
 - [CSS Unminifier Online - Beautify Minified CSS Free](https://freetoolonline.com/developer-tools/css-unminifier.html) [lastmod=2026-06-30]
   CSS unminifier online - beautify minified CSS with proper indentation, line breaks, and readable formatting. Paste or upload. In-browser, no tracking.
-- [Current Time in Milliseconds - Live Epoch Timestamp](https://freetoolonline.com/utility-tools/get-time-in-millisecond.html) [lastmod=2026-06-30]
+- [Current Time in Milliseconds - Live Epoch Timestamp](https://freetoolonline.com/utility-tools/get-time-in-millisecond.html) [lastmod=2026-07-04]
   Get current time in milliseconds online - live Unix epoch reading updated every second. Copy the value into log lines, tests, or API payloads. Free.
 - [Data Visualizer - Free Online, No Sign-Up](https://freetoolonline.com/developer-tools/data-visualizer.html) [lastmod=2026-06-29]
   Paste CSV, JSON, or Label, Value rows and draw them as bar, line, pie, and more chart types - all in your browser. No upload, no account.
@@ -59,13 +59,13 @@
   Digital Clock Online - Show the current time as a large HH:MM:SS digital readout with today's date, right in your browser. No install, no account.
 - [Đo nồng độ cồn trực tuyến](https://freetoolonline.com/utility-tools/do-nong-do-con-truc-tuyen.html) [lastmod=2026-07-01]
   Giúp bạn uớc luợng đuợc nông độ cồn so vơi luợng bia/ruợu bạn đã uống dựa trên thể trạng của bạn để bạn quyết định bạn có thể tự chạy xe về hay không.
-- [Encrypt, Protect PDF By Password](https://freetoolonline.com/pdf-tools/protect-pdf-by-password.html) [lastmod=2026-06-29]
+- [Encrypt, Protect PDF By Password](https://freetoolonline.com/pdf-tools/protect-pdf-by-password.html) [lastmod=2026-07-04]
   Protect your confidential PDFs from unauthorized access with this PDF encryption tool. Secure your files with a strong password for free.
 - [Extract & Unzip Files Online - Decompress ZIP](https://freetoolonline.com/zip-tools/unzip-file.html) [lastmod=2026-06-29]
   Extract files from a ZIP online - open archives, browse contents, and download individual files in your browser. Free, secure, no installs. Try it now.
 - [FFmpeg Online - Run FFmpeg Commands in Your Browser](https://freetoolonline.com/video-tools/ffmpeg-online.html) [lastmod=2026-06-30]
   FFmpeg online - run FFmpeg or FFprobe commands on your media through our processing service. Convert, trim, extract, probe with no local install.
-- [File Compressor - Single Image (JPG, PNG)](https://freetoolonline.com/image-tools/compress-image.html) [lastmod=2026-07-01]
+- [File Compressor - Single Image (JPG, PNG)](https://freetoolonline.com/image-tools/compress-image.html) [lastmod=2026-07-04]
   Free online image compressor - drop a JPG, PNG, or WebP, preview the before/after, and download a smaller file. No installer, no account.
 - [File Compressor Online: Pick the Right Tool by File Type](https://freetoolonline.com/utility-tools/file-compressor.html) [lastmod=2026-06-30]
   Free file compressor online: ZIP a folder, compress JPG/PNG photos, convert HEIC to JPG, or merge PDFs - the right tool for each input, in your browser.
@@ -101,9 +101,9 @@
   JavaScript minifier online free - paste your JS, click Minify, and copy the compressed code. Shrink bundles for production builds. In-browser, no upload.
 - [JavaScript Unminifier - Beautify Minified JS Online](https://freetoolonline.com/developer-tools/js-unminifier.html) [lastmod=2026-06-30]
   JavaScript unminifier online - reformat minified JS with indentation and line breaks for stack-trace debugging. Paste or upload. In-browser, no tracking.
-- [JPEG Compression Level Checker - Inspect JPG Quality](https://freetoolonline.com/image-tools/get-jpeg-compression-level.html) [lastmod=2026-06-30]
+- [JPEG Compression Level Checker - Inspect JPG Quality](https://freetoolonline.com/image-tools/get-jpeg-compression-level.html) [lastmod=2026-07-04]
   JPEG compression level checker - inspect the quality value a JPG was saved with, estimate headroom for further compression, and compare before and after.
-- [JSON Parser & Formatter (Tree View)](https://freetoolonline.com/developer-tools/json-parser.html) [lastmod=2026-06-29]
+- [JSON Parser & Formatter (Tree View)](https://freetoolonline.com/developer-tools/json-parser.html) [lastmod=2026-07-04]
   Paste JSON to validate, format, and view it in a tree. Highlight types and array indexes, spot errors quickly, and copy beautified JSON-fast and online.
 - [Keyboard Test Online (Key Checker)](https://freetoolonline.com/device-test-tools/keyboard-test.html) [lastmod=2026-07-02]
   Keyboard test online - press each key to highlight it, spot non-working keys, and verify Num Lock, shift, and special keys in-browser, no install.
@@ -141,7 +141,7 @@
   PDF to images online - export every PDF page (or a selected range) as PNG or JPG. Preserve resolution; download individually or as a ZIP. In-browser.
 - [PDF to Text Converter (Extract Text)](https://freetoolonline.com/pdf-tools/pdf-to-text.html) [lastmod=2026-06-29]
   Extract text from PDF online for copying and editing. Convert PDF to plain text fast, copy or download the result, and keep it readable-no installs needed.
-- [Photo Editor Online - Filters, Layers & Text, Free](https://freetoolonline.com/image-tools/photo-editor.html) [lastmod=2026-06-28]
+- [Photo Editor Online - Filters, Layers & Text, Free](https://freetoolonline.com/image-tools/photo-editor.html) [lastmod=2026-07-04]
   Photo editor online - filters, color & brightness tuning, multi-layer overlays, text, and borders at up to 8K resolution. JPG, PNG, WebP. In-browser.
 - [PNG to SVG Converter - Vectorize PNG or JPG Online](https://freetoolonline.com/image-converter-tools/png-to-svg.html) [lastmod=2026-06-30]
   PNG to SVG converter online - trace a PNG or JPG into a scalable vector graphic via interpolation. Tune smoothing, preview, download.
@@ -257,7 +257,7 @@
   Base64 Encoder Step By Step - the exact steps to run Base64 Encoder from open to downloaded result.
 - [Base64 Encoder Vs Alternatives](https://freetoolonline.com/guides/base64-encoder-vs-alternatives.html) [lastmod=2026-07-03]
   Base64 Encoder Vs Alternatives - how Base64 Encoder compares with a desktop app or an upload-based service.
-- [Base64 Encoder When To Use](https://freetoolonline.com/guides/base64-encoder-when.html) [lastmod=2026-07-03]
+- [Base64 Encoder When To Use](https://freetoolonline.com/guides/base64-encoder-when.html) [lastmod=2026-07-04]
   Base64 Encoder When To Use - when opening Base64 Encoder fits the job and what to expect when it does.
 - [Before a video call - which tools to run (screen, camera, microphone)](https://freetoolonline.com/guides/en/before-a-video-call-which-tools-to-run.html) [lastmod=2026-06-29]
   Five minutes before a video call: a quick checklist of which checks to run on your screen, your webcam, and your microphone, in priority order, with the right tool for each step.
@@ -335,7 +335,7 @@
   How to extract frames from a GIF for a social post - pick a hero still, preserve transparency, and ship a static image that loads fast.
 - [Extract GIF Frames: PNG or JPG, Which Format Should You Pick?](https://freetoolonline.com/guides/en/extract-gif-frames-png-vs-jpg-which-format.html) [lastmod=2026-07-01]
   PNG or JPG when extracting GIF frames? PNG keeps every pixel and the alpha channel; JPG makes smaller files but compresses. Pick by what you do with the frames next.
-- [FFmpeg Online Conversion Stalled? Three Fixes (and a 30-Second Test)](https://freetoolonline.com/guides/en/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-06-30]
+- [FFmpeg Online Conversion Stalled? Three Fixes (and a 30-Second Test)](https://freetoolonline.com/guides/en/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-07-04]
   Online FFmpeg conversion stuck? Three causes - browser memory cap, backgrounded tab, codec-build mismatch - each with a one-line fix.
 - [FFmpeg Online vs Local FFmpeg - When Each Wins](https://freetoolonline.com/guides/en/ffmpeg-online-vs-local-ffmpeg-when-each-wins.html) [lastmod=2026-06-30]
   FFmpeg online (browser wasm) vs local FFmpeg CLI - size limits, privacy, speed, and codec coverage. When to pick each for video/audio processing.
@@ -363,7 +363,7 @@
   Honest numbers on Garden Defense vs an installed desktop game - 0 MB to install, seconds to first play, free - and where a bigger game still wins.
 - [Gif Frame Extractor - pull frames from any animated GIF](https://freetoolonline.com/guides/en/gif-frame-extractor.html) [lastmod=2026-06-24]
   Step-by-step guide on extracting frames from any animated GIF: pick PNG or JPG output, set FPS, and download every frame as its own image. Last reviewed 2026-05-14.
-- [GIF Frame Extractor Output Looks Wrong? Three Causes & a 30-Sec Test](https://freetoolonline.com/guides/en/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-06-29]
+- [GIF Frame Extractor Output Looks Wrong? Three Causes & a 30-Sec Test](https://freetoolonline.com/guides/en/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-07-04]
   GIF frame extractor gave one frame, blank frames, or weird colors? Three causes - static GIF, do-not-dispose disposal, memory cap - each with one fix.
 - [GIF Frames vs GIF Frame Rate (FPS): Which One Do You Actually Need?](https://freetoolonline.com/guides/en/gif-frames-extract-vs-frame-rate-fps-explained.html) [lastmod=2026-07-03]
   GIF frames are the still pictures inside an animated GIF; GIF frame rate (FPS) is how fast they play. This guide tells you which one matches your task in one sentence and how to pick the right FPS when extracting frames.
@@ -471,7 +471,7 @@
   How to sign a PDF after removing its owner password - legit workflow for contracts and forms, with legal and privacy notes.
 - [How to Split a GIF Into Frames](https://freetoolonline.com/guides/en/how-to-split-a-gif-into-frames-for-editing.html) [lastmod=2026-07-01]
   Pull individual frames out of an animated GIF for editing, archiving, or social posts. Browser walkthrough that keeps the original timing data per frame.
-- [How to tell if a JPG was compressed too much](https://freetoolonline.com/guides/en/how-to-tell-if-a-jpg-was-compressed-too-much.html) [lastmod=2026-06-29]
+- [How to tell if a JPG was compressed too much](https://freetoolonline.com/guides/en/how-to-tell-if-a-jpg-was-compressed-too-much.html) [lastmod=2026-07-04]
   Read the saved-with quality value of an existing JPG, recognise visible artifacts of over-compression, and decide whether re-encoding will help or hurt.
 - [How to Test a Keyboard Online Step by Step](https://freetoolonline.com/guides/en/how-to-test-a-keyboard-online-step-by-step.html) [lastmod=2026-07-01]
   A 60-second browser keyboard test: open the page, press each key, watch each one highlight. Spot non-working keys, sticky keys, and modifier-key faults without installing anything.
@@ -864,7 +864,7 @@
   FFmpeg online (Browser-Wasm) vs lokales FFmpeg-CLI - Groessenlimits, Datenschutz, Geschwindigkeit und Codec-Abdeckung. Wann welches fuer Video/Audio-Verarbeitung waehlen.
 - [FFmpeg Online vs Video Converter - Welches Tool oeffnen](https://freetoolonline.com/guides/de/ffmpeg-online-vs-video-converter-which-to-pick.html) [lastmod=2026-07-01]
   Routing-Leitfaden fuer die "ffmpeg online"-Aufgabe: wann FFmpeg Online oeffnen und wann die formatspezifische Route Video Converter oder GIF Maker schneller ist. Fuenf Routing-Regeln, eine Entscheidung in 30 Sekunden.
-- [FFmpeg-Online-Konvertierung Hängt? Drei Behebungen (und 30-Sekunden-Test)](https://freetoolonline.com/guides/de/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-05-31]
+- [FFmpeg-Online-Konvertierung Hängt? Drei Behebungen (und 30-Sekunden-Test)](https://freetoolonline.com/guides/de/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-07-04]
   FFmpeg-Konvertierung hängt? Drei häufige Ursachen - Browser-Speichergrenze, Hintergrund-Tab, nicht unterstützter Codec - jede mit Behebung und 30-Sekunden-Test.
 - [Foto-Editor vs Grafik-App vs Batch](https://freetoolonline.com/guides/de/photo-editor-vs-graphics-app-vs-batch-processor.html) [lastmod=2026-07-01]
   Drei Bildtool-Kategorien loesen drei verschiedene Probleme. Foto-Editor fuer ein Bild, Grafik-App fuer Design, Batch-Processor fuer viele Dateien gleichzeitig.
@@ -884,7 +884,7 @@
   GIF animiert hochladen und jeden Frame als PNG oder JPG extrahieren. Keine Installation. Dateien werden automatisch geloescht. Zuletzt geprueft 2026-06-10.
 - [GIF-Frame-Extraktor - Frames aus animierten GIFs holen](https://freetoolonline.com/guides/de/gif-frame-extractor.html) [lastmod=2026-06-24]
   Schritt-fuer-Schritt-Anleitung zum Extrahieren von Frames aus animierten GIFs: PNG oder JPG, FPS einstellen, jedes Frame laden. Zuletzt geprueft 2026-05-14.
-- [GIF-Frame-Extraktor-Ausgabe sieht falsch aus? Drei Ursachen und 30-Sekunden-Test](https://freetoolonline.com/guides/de/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-06-30]
+- [GIF-Frame-Extraktor-Ausgabe sieht falsch aus? Drei Ursachen und 30-Sekunden-Test](https://freetoolonline.com/guides/de/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-07-04]
   GIF-Frame-Extraktor lieferte einen Frame, leere Frames oder seltsame Farben? Drei Ursachen - statisches GIF, do-not-dispose Disposal-Modus, Speicherlimit - jeweils mit einer Loesung.
 - [GIF-Frames Extrahieren: PNG oder JPG, Welches Format Wählen?](https://freetoolonline.com/guides/de/extract-gif-frames-png-vs-jpg-which-format.html) [lastmod=2026-07-01]
   PNG bewahrt den Alpha-Kanal und ist verlustfrei zum Bearbeiten; JPG ist kleiner und ideal für Miniaturen. Wann jedes beim Extrahieren von GIF-Frames wählen.
@@ -1090,7 +1090,7 @@
   Sind Online-Tools wirklich kostenlos? Wie In-Browser-Tools ohne Abos kostenlos bleiben, wie Anzeigen die Rechnung zahlen und was auf Ihrem Geraet bleibt. Zuletzt geprueft 2026-06-04.
 - [So beschneiden und drehen Sie ein Bild](https://freetoolonline.com/guides/de/how-to-crop-and-rotate-an-image.html) [lastmod=2026-07-01]
   Beschneiden und drehen Sie ein Bild im Browser, ohne das Original zu verlieren. Pixelgenauer Zuschnitt, verlustfreie 90-Grad-Drehung, und wo das EXIF-Rotations-Flag wichtig ist.
-- [So erkennen Sie, ob ein JPG zu stark komprimiert wurde](https://freetoolonline.com/guides/de/how-to-tell-if-a-jpg-was-compressed-too-much.html) [lastmod=2026-06-30]
+- [So erkennen Sie, ob ein JPG zu stark komprimiert wurde](https://freetoolonline.com/guides/de/how-to-tell-if-a-jpg-was-compressed-too-much.html) [lastmod=2026-07-04]
   Lesen Sie den Qualitaetswert, mit dem ein vorhandenes JPG gespeichert wurde, erkennen Sie sichtbare Artefakte von Ueberkomprimierung und entscheiden Sie, ob Neukodierung helfen oder schaden wird.
 - [So extrahieren Sie eine Datei online - ZIP, RAR, 7z (welche Route auf dieser Site was tut)](https://freetoolonline.com/guides/de/how-to-extract-a-file-online-zip-rar-7z.html) [lastmod=2026-06-30]
   Wenn Sie nach "datei online extrahieren" oder "file zipper" gesucht haben, dies ist die Routing-Regel. ZIP-Archive werden online ueber /unzip-file.html extrahiert (Server-Upload, optionales Passwort). RAR / 7z werden lokal mit Ihrem OS-Tool extrahiert - diese Seite hat keinen serverseitigen .rar- oder .7z-Extraktor, und die Anleitung sagt das ehrlich.
@@ -1259,7 +1259,7 @@
 
 ### Spanish guides (236)
 
-- [¿Conversión FFmpeg Online Atascada? Tres Correcciones (y Prueba de 30 Segundos)](https://freetoolonline.com/guides/es/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-06-29]
+- [¿Conversión FFmpeg Online Atascada? Tres Correcciones (y Prueba de 30 Segundos)](https://freetoolonline.com/guides/es/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-07-04]
   ¿Conversión FFmpeg atascada? Tres causas comunes - límite de memoria del navegador, pestaña en segundo plano, codec no soportado - cada una con solución y prueba de 30 segundos.
 - [¿JPG Comprimido Se Ve Borroso? Tres Causas (y Soluciones Rápidas)](https://freetoolonline.com/guides/es/compressed-jpg-looks-blurry-three-causes.html) [lastmod=2026-07-01]
   ¿JPG se ve borroso tras compresión? Tres causas comunes - calidad muy baja, recodificaciones repetidas, fuente upscaled - cada una con una solución rápida.
@@ -1351,7 +1351,7 @@
   Guia paso a paso para rellenar los campos de un formulario PDF existente online, directo en el navegador, sin subir el archivo y sin cuenta.
 - [Como revisar la pantalla de un laptop en busca de pixeles muertos y fugas de luz](https://freetoolonline.com/guides/es/cek-layar-laptop.html) [lastmod=2026-07-01]
   Revisa la pantalla del laptop en tu navegador: llenala de rojo, verde, azul, negro, blanco y amarillo para hallar pixeles muertos o atascados. Gratis, sin instalar.
-- [Como saber si un JPG fue comprimido demasiado](https://freetoolonline.com/guides/es/how-to-tell-if-a-jpg-was-compressed-too-much.html) [lastmod=2026-06-30]
+- [Como saber si un JPG fue comprimido demasiado](https://freetoolonline.com/guides/es/how-to-tell-if-a-jpg-was-compressed-too-much.html) [lastmod=2026-07-04]
   Lee el valor de calidad con el que se guardo un JPG existente, reconoce artefactos visibles de sobre-compresion, y decide si re-codificar va a ayudar o perjudicar.
 - [Como visualizar datos online - crea un grafico de tus numeros](https://freetoolonline.com/guides/es/how-to-visualize-data-online.html) [lastmod=2026-06-24]
   Convierte filas de datos en un grafico en tu navegador. Pega CSV, JSON o Etiqueta, Valor, elige un tipo de grafico - sin subir nada y sin cuenta.
@@ -1669,7 +1669,7 @@
   Start, edite la lista y haga clic en Spin - vea exactamente como la ruleta elige un nombre de forma justa antes de usarla para sorteos o decisiones.
 - [Ruleta Si o No Online: Guia Paso a Paso](https://freetoolonline.com/guides/es/yes-no-wheel-step-by-step.html) [lastmod=2026-07-02]
   Como la Yes or No Wheel abre lista en Si/No, como convertirla en ruleta para cualquier decision con 2+ opciones, y como se mantiene justo el giro.
-- [Salida del Extractor de Frames GIF Parece Mal? Tres Causas y Prueba de 30 Segundos](https://freetoolonline.com/guides/es/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-06-30]
+- [Salida del Extractor de Frames GIF Parece Mal? Tres Causas y Prueba de 30 Segundos](https://freetoolonline.com/guides/es/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-07-04]
   Extractor de frames GIF dio un frame, frames en blanco o colores raros? Tres causas - GIF estatico, modo de descarte do-not-dispose, limite de memoria - cada una con una correccion.
 - [Son realmente gratis las herramientas online? Privacidad, monetizacion y el modelo en el navegador](https://freetoolonline.com/guides/es/tool-free.html) [lastmod=2026-07-02]
   Son realmente gratis las herramientas online? Como las herramientas en el navegador siguen gratis sin suscripciones, como los anuncios pagan la cuenta y que se queda en tu dispositivo. Ultima revision 2026-06-04.
@@ -1792,7 +1792,7 @@
   Edit kode online langsung di browser - penyorotan sintaks untuk 18 bahasa, tema terang dan gelap, buka dan simpan berkas. Tanpa unggah.
 - [Cara mengekstrak file online - ZIP, RAR, 7z (rute mana di situs ini melakukan apa)](https://freetoolonline.com/guides/id/how-to-extract-a-file-online-zip-rar-7z.html) [lastmod=2026-06-30]
   Jika Anda mencari "ekstrak file online" atau "file zipper", inilah aturan perutean. Arsip ZIP diekstrak online via /unzip-file.html (server-upload, kata sandi opsional). RAR / 7z diekstrak secara lokal dengan alat OS Anda - situs ini tidak memiliki ekstraktor sisi server untuk .rar atau .7z, dan panduan mengatakannya dengan jujur.
-- [Cara mengetahui apakah JPG dikompresi terlalu banyak](https://freetoolonline.com/guides/id/how-to-tell-if-a-jpg-was-compressed-too-much.html) [lastmod=2026-06-30]
+- [Cara mengetahui apakah JPG dikompresi terlalu banyak](https://freetoolonline.com/guides/id/how-to-tell-if-a-jpg-was-compressed-too-much.html) [lastmod=2026-07-04]
   Baca nilai kualitas tempat JPG yang ada disimpan, kenali artefak yang terlihat dari kompresi berlebihan, dan putuskan apakah re-encoding akan membantu atau merugikan.
 - [Cara Mengisi Formulir PDF Online - Tanpa Unggah File](https://freetoolonline.com/guides/id/pdf-filler-form-editor-step-by-step.html) [lastmod=2026-07-02]
   Panduan langkah demi langkah untuk mengisi kolom formulir PDF yang sudah ada secara online, langsung di browser, tanpa unggah file dan tanpa akun.
@@ -1986,7 +1986,7 @@
   Panduan singkat berorientasi tugas pembaca tentang penggunaan kompresor zip: kapan memilih kompresi zip untuk folder file, apa yang dipertahankan dan tidak dipertahankan oleh arsip .zip yang dihasilkan, dan di mana alat berbasis browser berada.
 - [Konversi 100 Foto HEIC ke JPG](https://freetoolonline.com/guides/id/how-to-convert-100-heic-photos-to-jpg.html) [lastmod=2026-07-01]
   Cara mengonversi 100+ foto HEIC ke JPG di browser tanpa upload. Alur batch, pengaturan kualitas, preservasi EXIF, dan jalur Windows/Mac.
-- [Konversi FFmpeg Online Macet? Tiga Perbaikan (dan Tes 30 Detik)](https://freetoolonline.com/guides/id/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-05-31]
+- [Konversi FFmpeg Online Macet? Tiga Perbaikan (dan Tes 30 Detik)](https://freetoolonline.com/guides/id/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-07-04]
   Konversi FFmpeg macet? Tiga penyebab umum - batas memori browser, tab latar belakang, codec tidak didukung - masing-masing dengan perbaikan dan tes 30 detik.
 - [Konversi milidetik ke tanggal - panduan](https://freetoolonline.com/guides/id/convert-milliseconds-to-date.html) [lastmod=2026-07-02]
   Konversi milidetik ke tanggal online: tempel timestamp Unix 13 digit dan baca tanggal dan waktu lokal. Gratis, hanya di browser, tanpa instal. Direview terakhir: 2026-05-17.
@@ -2046,7 +2046,7 @@
   MP4 diputar di setiap browser; WebM 20-30 persen lebih kecil di browser modern. Matriks keputusan, pola fallback, dan kapan setiap container layak dipakai.
 - [ms ke tanggal - tempel timestamp milidetik 13 digit, baca tanggal lokal kembali](https://freetoolonline.com/guides/id/ms-to-date.html) [lastmod=2026-05-31]
   Panduan "ms ke tanggal": tempel timestamp Unix milidetik 13 digit, baca kembali tanggal lokal yang sesuai dan jam 24 jam. 10 digit? Kalikan 1000 dulu.
-- [Output Ekstraktor Frame GIF Terlihat Salah? Tiga Penyebab Dan Tes 30 Detik](https://freetoolonline.com/guides/id/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-06-30]
+- [Output Ekstraktor Frame GIF Terlihat Salah? Tiga Penyebab Dan Tes 30 Detik](https://freetoolonline.com/guides/id/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-07-04]
   Ekstraktor frame GIF memberi satu frame, frame kosong, atau warna aneh? Tiga penyebab - GIF statis, mode disposal do-not-dispose, batas memori - masing-masing dengan satu perbaikan.
 - [Panduan Pengujian Piksel Mati](https://freetoolonline.com/guides/id/dead-pixel-testing-guide.html) [lastmod=2026-07-01]
   Panduan pengujian piksel mati - piksel mati vs macet vs panas, pemeriksaan warna layar penuh, langkah pemulihan, dan kapan penggantian garansi monitor dibenarkan.
@@ -2281,7 +2281,7 @@
   Por que a maioria dos ZIPs nao encolhe e como realmente reduzir um - o que comprime (texto, CSV, codigo-fonte), o que nao (JPG, MP4, MP3), e o fluxo que funciona.
 - [Como Reduzir o Tamanho do Arquivo Zip Online - Guia Gratuito](https://freetoolonline.com/guides/pt/mengecilkan-ukuran-zip.html) [lastmod=2026-06-24]
   Aprenda como reduzir o tamanho do arquivo zip online: selecione os arquivos, comprima e baixe um arquivo menor no navegador. Passo a passo, sem instalacao. Ultima revisao 2026-06-19.
-- [Como saber se um JPG foi comprimido demais](https://freetoolonline.com/guides/pt/how-to-tell-if-a-jpg-was-compressed-too-much.html) [lastmod=2026-06-30]
+- [Como saber se um JPG foi comprimido demais](https://freetoolonline.com/guides/pt/how-to-tell-if-a-jpg-was-compressed-too-much.html) [lastmod=2026-07-04]
   Leia o valor de qualidade com que um JPG existente foi salvo, reconheca artefatos visiveis de super-compressao e decida se re-codificar vai ajudar ou prejudicar.
 - [Como testar um teclado online passo a passo](https://freetoolonline.com/guides/pt/how-to-test-a-keyboard-online-step-by-step.html) [lastmod=2026-07-01]
   Um teste de teclado no navegador em 60 segundos: abra a pagina, pressione cada tecla, veja cada uma destacar. Identifique teclas que nao funcionam, teclas presas e falhas de tecla modificadora sem instalar nada.
@@ -2347,7 +2347,7 @@
   Um guia curto orientado ao leitor sobre comprimir arquivos em ZIP: quando a compressao ZIP realmente economiza espaco, quando nao, e onde fica o criador ZIP no navegador.
 - [Contador de Palavras Online: Guia Passo a Passo](https://freetoolonline.com/guides/pt/word-counter-step-by-step.html) [lastmod=2026-07-03]
   Um guia passo a passo do Word Counter gratuito: o que cada um dos seis numeros ao vivo significa e como o tempo de leitura e estimado.
-- [Conversão FFmpeg Online Travada? Três Correções (e Teste de 30 Segundos)](https://freetoolonline.com/guides/pt/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-06-29]
+- [Conversão FFmpeg Online Travada? Três Correções (e Teste de 30 Segundos)](https://freetoolonline.com/guides/pt/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-07-04]
   Conversão FFmpeg travada? Três causas comuns - limite de memória do navegador, aba em segundo plano, codec não suportado - cada uma com correção e teste de 30 segundos.
 - [Conversor de arquivo ZIP - guia rapido](https://freetoolonline.com/guides/pt/zip-file-converter.html) [lastmod=2026-07-01]
   Guia rapido para o conversor de arquivo ZIP em freetoolonline.com. Comprima pastas e arquivos em um arquivo ZIP online, gratis, sem instalar. Ultima revisao: 2026-05-19.
@@ -2593,7 +2593,7 @@
   Start, edite a lista e clique em Spin - veja exatamente como a roleta escolhe um nome de forma justa antes de usar para sorteios ou decisoes.
 - [Roleta Sim ou Nao Online: Guia Passo a Passo](https://freetoolonline.com/guides/pt/yes-no-wheel-step-by-step.html) [lastmod=2026-07-02]
   Como a Yes or No Wheel abre pronta em Sim/Nao, como transformar em roleta para qualquer decisao com 2+ opcoes, e como o giro se mantem justo.
-- [Saida do Extrator de Frames GIF Parece Errada? Tres Causas e Teste de 30 Segundos](https://freetoolonline.com/guides/pt/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-06-30]
+- [Saida do Extrator de Frames GIF Parece Errada? Tres Causas e Teste de 30 Segundos](https://freetoolonline.com/guides/pt/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-07-04]
   Extrator de frames GIF deu um frame, frames em branco ou cores estranhas? Tres causas - GIF estatico, modo de descarte do-not-dispose, limite de memoria - cada uma com uma correcao.
 - [Scanner de QR Code - Passo a Passo](https://freetoolonline.com/guides/pt/qr-code-scanner-step-by-step.html) [lastmod=2026-07-04]
   Scanner de QR Code - os passos exatos para usar a ferramenta desde a abertura ate o resultado.
@@ -2712,7 +2712,7 @@
   Chon dung loai noi dung cho ma QR: URL vs vCard vs Wi-Fi vs van ban - moi loai ma hoa gi va loai nao phu hop cho danh thiep hoac to roi.
 - [Cac Lua Chon Thay The MD5: bcrypt, Argon2id, SHA-256](https://freetoolonline.com/guides/vi/md5-alternatives-bcrypt-argon2id-sha256-when-each-fits.html) [lastmod=2026-07-02]
   MD5 sai cho mat khau va toan ven chong doi thu. Chon bcrypt hoac Argon2id cho mat khau, HMAC-SHA-256 cho MAC, SHA-256 cho toan ven.
-- [Cach biet mot JPG da bi nen qua nhieu](https://freetoolonline.com/guides/vi/how-to-tell-if-a-jpg-was-compressed-too-much.html) [lastmod=2026-06-30]
+- [Cach biet mot JPG da bi nen qua nhieu](https://freetoolonline.com/guides/vi/how-to-tell-if-a-jpg-was-compressed-too-much.html) [lastmod=2026-07-04]
   Doc gia tri chat luong da luu cua mot JPG hien co, nhan ra artifact thay duoc cua nen qua tay, va quyet dinh ma hoa lai se giup hay lam te hon.
 - [Cach cat va xoay mot hinh anh](https://freetoolonline.com/guides/vi/how-to-crop-and-rotate-an-image.html) [lastmod=2026-07-01]
   Cat va xoay mot hinh anh trong trinh duyet ma khong mat ban goc. Cat chinh xac den pixel, xoay khong mat 90 do, va noi flag xoay EXIF quan trong.
@@ -2796,7 +2796,7 @@
   Trinh chinh sua anh mien phi tren trinh duyet: cat, doi kich thuoc, them bo loc va chu, khong tai len, khong tai khoan. Last reviewed 2026-07-02.
 - [Chuyen Doi 100 Anh HEIC Sang JPG](https://freetoolonline.com/guides/vi/how-to-convert-100-heic-photos-to-jpg.html) [lastmod=2026-07-01]
   Cach chuyen doi hon 100 anh HEIC sang JPG trong trinh duyet ma khong tai len. Quy trinh hang loat, cai dat chat luong, giu EXIF, va duong di Windows/Mac.
-- [Chuyen Doi FFmpeg Truc Tuyen Dung? Ba Cach Khac Phuc (va Test 30 Giay)](https://freetoolonline.com/guides/vi/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-07-03]
+- [Chuyen Doi FFmpeg Truc Tuyen Dung? Ba Cach Khac Phuc (va Test 30 Giay)](https://freetoolonline.com/guides/vi/ffmpeg-online-conversion-stalled-three-fixes.html) [lastmod=2026-07-04]
   Chuyen doi FFmpeg bi dung? Ba nguyen nhan pho bien - gioi han bo nho trinh duyet, tab nen, codec khong ho tro - moi cai co cach khac phuc va test 30 giay.
 - [Chuyen doi mili giay sang ngay - huong dan](https://freetoolonline.com/guides/vi/convert-milliseconds-to-date.html) [lastmod=2026-06-29]
   Chuyen doi mili giay sang ngay truc tuyen: dan mot timestamp Unix 13 chu so va doc ngay gio dia phuong. Mien phi, chi tren trinh duyet, khong cai dat. Cap nhat lan cuoi: 2026-05-17.
@@ -2866,7 +2866,7 @@
   Dinh dang du lieu CSV vs JSON - khi nao chon hang-va-cot vs doi tuong co cau truc, voi danh doi ve phan tich, kich thuoc va cong cu cho luong 2026.
 - [Dao Nguoc Van Ban: Khi Nao Thuc Su Co Ich](https://freetoolonline.com/guides/vi/reverse-text-when.html) [lastmod=2026-07-03]
   Khi nao dao nguoc van ban co ich: kiem tra doc xuoi doc nguoc, chu de doi guong, ma hoa don gian, va so sanh voi bang tinh, rev hoac script.
-- [Dau Ra Trinh Trich Xuat Khung GIF Trong Sai? Ba Nguyen Nhan Va Kiem Tra 30 Giay](https://freetoolonline.com/guides/vi/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-06-30]
+- [Dau Ra Trinh Trich Xuat Khung GIF Trong Sai? Ba Nguyen Nhan Va Kiem Tra 30 Giay](https://freetoolonline.com/guides/vi/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-07-04]
   Trinh trich xuat khung GIF cho mot khung, khung trong hoac mau la? Ba nguyen nhan - GIF tinh, che do bo do-not-dispose, gioi han bo nho - moi cai voi mot cach khac phuc.
 - [Dinh dang anh iPhone giai thich](https://freetoolonline.com/guides/vi/iphone-photo-format-explained-heic-jpg-png-raw.html) [lastmod=2026-07-02]
   Anh iPhone co the la HEIC, JPG, PNG hoac RAW. Day la nhung gi moi dinh dang la, khi iOS su dung no, va dinh dang dung de chuyen doi truoc khi chia se ben ngoai Apple.
