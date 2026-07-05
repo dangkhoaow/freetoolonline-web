@@ -1,0 +1,1 @@
+Read the browser capability report, run the tiered 3D benchmark, and make sense of the score - a step-by-step walkthrough of the free online GPU test.

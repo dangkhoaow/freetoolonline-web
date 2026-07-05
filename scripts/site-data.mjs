@@ -2067,6 +2067,10 @@ export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 export const ALIAS_ROUTES = {
   // Cycle 20260705 grant-apply mirror - video-to-gif short alias.
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
+  // fire-30 mirror (2026-07-06) - root aliases for the 3 new tool routes.
+  '/gpu-test.html': '/device-test-tools/gpu-test.html',
+  '/sky-gates-flight.html': '/games/sky-gates-flight.html',
+  '/city-time-machine.html': '/games/city-time-machine.html',
   // Hub directory-form safety redirects (added 2026-05-11). Search engines
   // and external links may guess `/cluster-tools/` from the clustered tool
   // URLs (`/cluster-tools/<slug>.html`). Without these entries GitHub Pages
@@ -3774,6 +3778,18 @@ export const JSP_BY_ROUTE = {
   '/guides/de/ai-background-remover-when.html': 'guide/de/ai-background-remover-when.jsp',
   '/guides/de/ai-background-remover-step-by-step.html': 'guide/de/ai-background-remover-step-by-step.jsp',
   '/guides/de/ai-background-remover-vs-alternatives.html': 'guide/de/ai-background-remover-vs-alternatives.jsp',
+  '/device-test-tools/gpu-test.html': 'convert/gpu-test.jsp',
+  '/guides/gpu-test-webgl-benchmark-info-when.html': 'guide/gpu-test-webgl-benchmark-info-when.jsp',
+  '/guides/gpu-test-webgl-benchmark-info-step-by-step.html': 'guide/gpu-test-webgl-benchmark-info-step-by-step.jsp',
+  '/guides/gpu-test-webgl-benchmark-info-vs-alternatives.html': 'guide/gpu-test-webgl-benchmark-info-vs-alternatives.jsp',
+  '/games/sky-gates-flight.html': 'games/sky-gates-flight.jsp',
+  '/guides/sky-gates-flight-when.html': 'guide/sky-gates-flight-when.jsp',
+  '/guides/sky-gates-flight-step-by-step.html': 'guide/sky-gates-flight-step-by-step.jsp',
+  '/guides/sky-gates-flight-vs-alternatives.html': 'guide/sky-gates-flight-vs-alternatives.jsp',
+  '/games/city-time-machine.html': 'games/city-time-machine.jsp',
+  '/guides/city-time-machine-3d-when.html': 'guide/city-time-machine-3d-when.jsp',
+  '/guides/city-time-machine-3d-step-by-step.html': 'guide/city-time-machine-3d-step-by-step.jsp',
+  '/guides/city-time-machine-3d-vs-alternatives.html': 'guide/city-time-machine-3d-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.

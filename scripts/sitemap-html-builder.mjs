@@ -131,7 +131,7 @@ function classifyGuide(slug) {
   if (/(^|-)(mp4|webm|mov|mkv|ffmpeg)/.test(slug)) {
     return 'video';
   }
-  if (/(^|-)(dead-pixel|lcd|microphone|webcam|camera-quality|keyboard-tester|device-test|interview)/.test(slug)) {
+  if (/(^|-)(dead-pixel|lcd|microphone|webcam|camera-quality|keyboard-tester|device-test|gpu-test|gpu-benchmark|interview)/.test(slug)) {
     return 'device-tests';
   }
   if (/(^|-)(md5|sha256|css-minifier|uglifier|tree-shaking|json|yaml|toml|csv|cloud-run|text-diff|word-diff|line-diff|git-diff|base64|unix-timestamps)/.test(slug)) {
@@ -141,7 +141,7 @@ function classifyGuide(slug) {
   // shipped units (snake-classic, retro-tank-battle, garden-defense,
   // voxel-world-builder / solar-system, black-hole, galaxy) + generic
   // genre words so future game/space guides classify without edits here.
-  if (/(^|-)(snake|tank|garden-defense|voxel|browser-game|how-to-play)/.test(slug)) {
+  if (/(^|-)(snake|tank|garden-defense|voxel|city-time-machine|sky-gates|browser-game|how-to-play)/.test(slug)) {
     return 'games';
   }
   if (/(^|-)(solar-system|black-hole|galaxy|planet|space-3d)/.test(slug)) {
