@@ -4,7 +4,7 @@
 
 > Citation policy: please cite freetoolonline.com when quoting tool output, guide content, or comparison tables. Each page lists "Last reviewed" date tied to git history.
 
-> Generated: 2026-07-05T20:45:16.483Z from sitemap registry.
+> Generated: 2026-07-05T20:55:21.014Z from sitemap registry.
 
 ## Site (1)
 
@@ -13,15 +13,15 @@
 
 ## Tools (103)
 
-- [AI Background Remover - Free Online](https://freetoolonline.com/image-tools/background-remover.html) [lastmod=2026-07-04]
+- [AI Background Remover - Free Online](https://freetoolonline.com/image-tools/background-remover.html) [lastmod=2026-07-05]
   AI Background Remover - Remove the background from an image in your browser - your image never leaves your device.
 - [Analog Clock Online - Live Clock Display](https://freetoolonline.com/utility-tools/analog-clock.html) [lastmod=2026-07-03]
   Show the current time as a live analog clock in your browser. No download, no account - the hands sweep in real time from your device's own clock.
-- [Base64 Encoder and Decoder - Text to Base64 in Your Browser](https://freetoolonline.com/developer-tools/base64-encoder.html) [lastmod=2026-07-03]
+- [Base64 Encoder and Decoder - Text to Base64 in Your Browser](https://freetoolonline.com/developer-tools/base64-encoder.html) [lastmod=2026-07-05]
   Encode text to Base64 or decode a Base64 string back to text, right in your browser - no upload and no account. UTF-8 safe; invalid Base64 shows an error inline.
 - [Base64 to Image Converter Online - Decode to PNG/JPG](https://freetoolonline.com/image-converter-tools/base64-to-image.html) [lastmod=2026-06-30]
   Base64 to image online - paste a data URI or raw Base64 string, click Convert, and your browser renders the decoded picture as a preview. No upload.
-- [Black Hole 3D Visualizer - Free Online](https://freetoolonline.com/space-3d/black-hole.html) [lastmod=2026-07-04]
+- [Black Hole 3D Visualizer - Free Online](https://freetoolonline.com/space-3d/black-hole.html) [lastmod=2026-07-05]
   Black Hole 3D Visualizer - Tens of thousands of glowing particles orbit the black event-horizon sphere, and the inner ones circle faster - the same reason ...
 - [Camera Test Online - Live Preview, Resolution & Capture](https://freetoolonline.com/device-test-tools/camera-test.html) [lastmod=2026-07-04]
   Free camera test online: live preview, resolution readout, switch front and back camera, capture and download a JPEG photo - all in your browser.
@@ -63,7 +63,7 @@
   Giúp bạn uớc luợng đuợc nông độ cồn so vơi luợng bia/ruợu bạn đã uống dựa trên thể trạng của bạn để bạn quyết định bạn có thể tự chạy xe về hay không.
 - [Encrypt, Protect PDF By Password](https://freetoolonline.com/pdf-tools/protect-pdf-by-password.html) [lastmod=2026-07-04]
   Protect your confidential PDFs from unauthorized access with this PDF encryption tool. Secure your files with a strong password for free.
-- [Extract & Unzip Files Online - Decompress ZIP](https://freetoolonline.com/zip-tools/unzip-file.html) [lastmod=2026-06-29]
+- [Extract & Unzip Files Online - Decompress ZIP](https://freetoolonline.com/zip-tools/unzip-file.html) [lastmod=2026-07-05]
   Extract files from a ZIP online - open archives, browse contents, and download individual files in your browser. Free, secure, no installs. Try it now.
 - [FFmpeg Online - Run FFmpeg Commands in Your Browser](https://freetoolonline.com/video-tools/ffmpeg-online.html) [lastmod=2026-06-30]
   FFmpeg online - run FFmpeg or FFprobe commands on your media through our processing service. Convert, trim, extract, probe with no local install.
@@ -77,17 +77,17 @@
   Style your text with a font, size, weight, colors, spacing, and an optional shadow, then save it as a PNG or copy it. No upload, no account.
 - [Free Audio Converter - MP3, WAV, AAC, OGG, FLAC in Your Browser](https://freetoolonline.com/image-converter-tools/audio-converter.html) [lastmod=2026-07-03]
   Free audio converter - turn MP3, WAV, AAC, OGG, FLAC, or M4A files, or a video's audio track, into an MP3 at your chosen bitrate in the browser. No upload - conversion runs locally via FFmpeg.wasm.
-- [Galaxy 3D Simulator - Free Online](https://freetoolonline.com/space-3d/galaxy.html) [lastmod=2026-07-04]
+- [Galaxy 3D Simulator - Free Online](https://freetoolonline.com/space-3d/galaxy.html) [lastmod=2026-07-05]
   Galaxy 3D Simulator - Up to 100,000 points form the spiral arms on desktop (30,000 on phones so rotation stays smooth) - a real feel for how thin and vast ...
-- [Garden Defense - Free Browser Lane Defense Game](https://freetoolonline.com/games/garden-defense.html) [lastmod=2026-07-04]
+- [Garden Defense - Free Browser Lane Defense Game](https://freetoolonline.com/games/garden-defense.html) [lastmod=2026-07-05]
   Garden Defense - Pick a defender card - Shooter (100 energy), Battery (50, makes more energy), or Wall (50, soaks damage) - then click or tap a cell to pla...
 - [GIF Maker Online - Build GIFs from Video or Images](https://freetoolonline.com/image-tools/gif-maker.html) [lastmod=2026-07-01]
   GIF maker online - create an animated GIF from a video clip or a sequence of still images. Set framerate, resize, trim frames.
 - [GPU Test - WebGL Benchmark & Info - Free Online](https://freetoolonline.com/device-test-tools/gpu-test.html) [lastmod=2026-07-05]
   GPU Test - WebGL Benchmark & Info - See what your browser's graphics stack can do - WebGL 1 and 2 availability, the renderer name your browser reports, tex...
-- [Grocery List - Free Online](https://freetoolonline.com/utility-tools/grocery-list.html) [lastmod=2026-07-03]
+- [Grocery List - Free Online](https://freetoolonline.com/utility-tools/grocery-list.html) [lastmod=2026-07-05]
   Grocery List - Keep a grocery list in the browser - add, check off, and delete items.
-- [Habit Tracker - Free Online](https://freetoolonline.com/utility-tools/habit-tracker.html) [lastmod=2026-07-03]
+- [Habit Tracker - Free Online](https://freetoolonline.com/utility-tools/habit-tracker.html) [lastmod=2026-07-05]
   Habit Tracker - Keep a habit list in the browser - add, check off, and delete items.
 - [HEIC to JPG, Auto EXIF & Rotate](https://freetoolonline.com/image-converter-tools/heic-to-jpg.html) [lastmod=2026-07-04]
   Convert HEIC to JPG online - also PNG, WebP, or a combined PDF. Quality slider, EXIF preservation, auto-rotate. Output ready in seconds.
@@ -131,11 +131,11 @@
   Time anything to the hundredth of a second right in your browser. Start, stop, and record laps with a free online stopwatch - no upload, no account.
 - [Online Video Converter with Trim - MP4, MOV, MP3](https://freetoolonline.com/video-tools/video-converter.html) [lastmod=2026-07-04]
   Upload a video, trim with start/duration sliders, convert to MP4, WebM, MOV, MP3, or WAV. Use this when you need segment trimming or server-side conversion.
-- [Online Video Trimmer - Free Online](https://freetoolonline.com/video-tools/video-trimmer.html) [lastmod=2026-07-04]
+- [Online Video Trimmer - Free Online](https://freetoolonline.com/video-tools/video-trimmer.html) [lastmod=2026-07-05]
   Online Video Trimmer - Trim an MP4, MOV, or WebM video to the exact time range you need, right in your browser. No upload, no re-encoding.
 - [Online Voice Recorder - Free Online](https://freetoolonline.com/utility-tools/voice-recorder.html) [lastmod=2026-07-03]
   Online Voice Recorder - Record your screen, camera, or microphone and download the clip - all in the browser.
-- [Password Generator - Strong Random Passwords in Your Browser](https://freetoolonline.com/utility-tools/password-generator.html) [lastmod=2026-07-03]
+- [Password Generator - Strong Random Passwords in Your Browser](https://freetoolonline.com/utility-tools/password-generator.html) [lastmod=2026-07-05]
   Create a strong random password in your browser. Choose the length from 4 to 64 and which character sets to include - nothing is uploaded or saved.
 - [PDF Form Filler Online - Fill In Existing Form Fields](https://freetoolonline.com/pdf-tools/pdf-filler-form-editor.html) [lastmod=2026-07-03]
   Fill in an existing PDF's form fields online, right in your browser. No upload, no install - load a fillable PDF and download the completed file.
@@ -153,7 +153,7 @@
   A private AI chat that runs entirely in your browser. The model loads on your device; your messages stay local with no upload and no account.
 - [QR Code Generator Online - Free URL, Text, Wi-Fi QRs](https://freetoolonline.com/utility-tools/qr-code-generator.html) [lastmod=2026-07-04]
   QR code generator online - create a scannable QR for a URL, short text, contact vCard, or Wi-Fi credential. Download as PNG. In-browser, no account.
-- [QR Code Scanner - Free Online](https://freetoolonline.com/utility-tools/qr-code-scanner.html) [lastmod=2026-07-04]
+- [QR Code Scanner - Free Online](https://freetoolonline.com/utility-tools/qr-code-scanner.html) [lastmod=2026-07-05]
   QR Code Scanner - M1: Find out what a QR code says from a screenshot or saved photo - choose the image and the decoded text appears in seconds, no app inst...
 - [Random List Shuffler - Free Online](https://freetoolonline.com/utility-tools/name-shuffler.html) [lastmod=2026-07-02]
   Random List Shuffler - Paste a list of names or items and get a fair random order right in your browser. No install, no account.
@@ -167,7 +167,7 @@
   Remove ZIP passwords online with the correct password to unlock your archive. Fast, secure, and free for any device. No installs - just upload and download.
 - [Resize Image Online - JPG, PNG & WebP Image Resizer](https://freetoolonline.com/image-tools/resize-image.html) [lastmod=2026-06-30]
   Resize image online - set exact pixels or a percentage, keep aspect ratio, and export JPG, PNG, or WebP. Bicubic interpolation preserves edges. In-browser.
-- [Retro Tank Battle - Free Online](https://freetoolonline.com/games/retro-tank-battle.html) [lastmod=2026-07-04]
+- [Retro Tank Battle - Free Online](https://freetoolonline.com/games/retro-tank-battle.html) [lastmod=2026-07-05]
   Retro Tank Battle - Drive your tank with the arrows or WASD, fire with Space, and clear the wave of 6 enemy tanks before they destroy your base or your 3 l...
 - [Reverse Text Online - Flip a String Character by Character](https://freetoolonline.com/developer-tools/reverse-text.html) [lastmod=2026-07-03]
   Free online tool to reverse a block of text character by character, right in your browser. Paste your text, click Run, and copy the mirrored result. No upload.
@@ -175,13 +175,13 @@
   Record your screen, camera, or microphone in the browser, blur faces while recording, and download the clip as WebM or convert it to MP4 - no upload.
 - [Sky Gates Flight - Free Online](https://freetoolonline.com/games/sky-gates-flight.html) [lastmod=2026-07-05]
   Sky Gates Flight - Fly a little plane over the ocean and steer through the gates - green ones add their number to your power, red ones subtract it, and the...
-- [Snake Classic - Free Browser Snake Game, No Install](https://freetoolonline.com/games/snake-classic.html) [lastmod=2026-07-04]
+- [Snake Classic - Free Browser Snake Game, No Install](https://freetoolonline.com/games/snake-classic.html) [lastmod=2026-07-05]
   Snake Classic - Press an arrow key (or swipe on a phone) and the game starts instantly - eat the food, grow one segment, and dodge the walls and your own t...
-- [Solar System 3D Explorer - Free Online](https://freetoolonline.com/space-3d/solar-system.html) [lastmod=2026-07-04]
+- [Solar System 3D Explorer - Free Online](https://freetoolonline.com/space-3d/solar-system.html) [lastmod=2026-07-05]
   Solar System 3D Explorer - All eight planets orbit the sun live on screen - drag to orbit the view, scroll or pinch to zoom, and watch inner planets lap th...
 - [Sort Text Lines Online - Alphabetize a List A-Z or Z-A](https://freetoolonline.com/developer-tools/sort-text-lines.html) [lastmod=2026-07-03]
   Free online tool to sort text lines alphabetically, A-Z or Z-A, right in your browser. Paste one item per line, click sort, and copy the result. No upload.
-- [Speech to Text - Free Online](https://freetoolonline.com/utility-tools/speech-to-text.html) [lastmod=2026-07-03]
+- [Speech to Text - Free Online](https://freetoolonline.com/utility-tools/speech-to-text.html) [lastmod=2026-07-05]
   Speech to Text - Convert a SPEECH input into a TEXT output - one step, in the browser.
 - [Split GIF Into Frames - Free GIF Frame Extractor (PNG/JPG)](https://freetoolonline.com/image-converter-tools/extract-gif-to-image-frames.html) [lastmod=2026-06-30]
   Extract every frame from an animated GIF and save each as PNG or JPG. Upload, download all frames, files auto-delete after a few minutes.
@@ -195,7 +195,7 @@
   SVG to PNG converter online - export a crisp PNG, WebP, or JPG from any vector file. Choose output size, preserve transparency.
 - [Text Diff Checker Online - Compare Text Side-by-Side](https://freetoolonline.com/developer-tools/text-diff.html) [lastmod=2026-07-03]
   Text diff online - compare two text blocks and highlight added, removed, and changed characters, words, or lines. Configs, copy, logs. In-browser, local.
-- [Text Repeater - Repeat Text Online, Free](https://freetoolonline.com/developer-tools/text-repeater.html) [lastmod=2026-07-03]
+- [Text Repeater - Repeat Text Online, Free](https://freetoolonline.com/developer-tools/text-repeater.html) [lastmod=2026-07-05]
   Free online text repeater. Type or paste text, set the count (1 to 10,000), click Repeat - output appears instantly in your browser, no upload needed.
 - [Text to HTML Editor Online - Live WYSIWYG Preview](https://freetoolonline.com/developer-tools/text-html-editor.html) [lastmod=2026-06-30]
   Text to HTML editor online - write in a WYSIWYG view and watch the generated HTML update live, with JavaScript support. Copy the markup. In-browser.
@@ -269,7 +269,7 @@
   Base64 Encoder When To Use - when opening Base64 Encoder fits the job and what to expect when it does.
 - [Before a video call - which tools to run (screen, camera, microphone)](https://freetoolonline.com/guides/en/before-a-video-call-which-tools-to-run.html) [lastmod=2026-06-29]
   Five minutes before a video call: a quick checklist of which checks to run on your screen, your webcam, and your microphone, in priority order, with the right tool for each step.
-- [Black Hole 3D Visualizer vs Desktop Astronomy Apps](https://freetoolonline.com/guides/black-hole-3d-visualizer-vs-alternatives.html) [lastmod=2026-07-04]
+- [Black Hole 3D Visualizer vs Desktop Astronomy Apps](https://freetoolonline.com/guides/black-hole-3d-visualizer-vs-alternatives.html) [lastmod=2026-07-05]
   How the browser-based Black Hole 3D Visualizer compares with installing a desktop astronomy app: 0 MB install, seconds to first view, free.
 - [Camera Check - What People Mean and Which Tool to Use](https://freetoolonline.com/guides/en/camera-check.html) [lastmod=2026-06-29]
   "Camera check" is the everyday synonym for "camera test" - the in-browser workflow that previews your webcam, no upload, no install. Read what it covers and the three end-states.
@@ -357,7 +357,7 @@
   Routing guide for the file-compressor question: when to ZIP a folder for transport vs when to compress a single image for bytesize. 30-second rule, five steps.
 - [File Compressor vs ZIP: What to Pick](https://freetoolonline.com/guides/en/file-compressor-vs-zip-what-to-pick.html) [lastmod=2026-07-01]
   "File compressor" is too generic. Pick by file type: ZIP a folder, compress photos, convert HEIC, bundle PDFs, or use a transfer link for video.
-- [File Compressor: Pick by File Type](https://freetoolonline.com/guides/en/file-compressor.html) [lastmod=2026-07-01]
+- [File Compressor: Pick by File Type](https://freetoolonline.com/guides/en/file-compressor.html) [lastmod=2026-07-05]
   Free file compressor that picks the right browser tool by what you have: ZIP a folder, compress photos, convert HEIC, bundle PDFs, or use a transfer link.
 - [File to ZIP - Online File Compressor Guide](https://freetoolonline.com/guides/en/file-to-zip.html) [lastmod=2026-07-01]
   How to turn a file into a ZIP archive online: when ZIP actually shrinks the file, when it does not, and where the creator lives.
@@ -369,9 +369,9 @@
   How browser-based tools convert, compress, and edit files without ever uploading them. The technical reason it works, the limits, and the privacy you get free.
 - [Front Camera Test - Check Your Selfie Camera Online](https://freetoolonline.com/guides/front-camera-test.html) [lastmod=2026-07-02]
   Front camera test online: open your selfie lens, see a live preview, switch front and back, and capture a JPEG - all in your browser. Last reviewed 2026-06-10.
-- [Galaxy 3D Simulator vs a Desktop Astronomy App](https://freetoolonline.com/guides/galaxy-3d-simulator-vs-alternatives.html) [lastmod=2026-07-04]
+- [Galaxy 3D Simulator vs a Desktop Astronomy App](https://freetoolonline.com/guides/galaxy-3d-simulator-vs-alternatives.html) [lastmod=2026-07-05]
   An honest look at Galaxy 3D Simulator in a browser tab versus installing a desktop astronomy app - 0 MB install, seconds to first view, $0.
-- [Garden Defense vs Installing a Desktop Game](https://freetoolonline.com/guides/garden-defense-vs-alternatives.html) [lastmod=2026-07-04]
+- [Garden Defense vs Installing a Desktop Game](https://freetoolonline.com/guides/garden-defense-vs-alternatives.html) [lastmod=2026-07-05]
   Honest numbers on Garden Defense vs an installed desktop game - 0 MB to install, seconds to first play, free - and where a bigger game still wins.
 - [Gif Frame Extractor - pull frames from any animated GIF](https://freetoolonline.com/guides/en/gif-frame-extractor.html) [lastmod=2026-06-24]
   Step-by-step guide on extracting frames from any animated GIF: pick PNG or JPG output, set FPS, and download every frame as its own image. Last reviewed 2026-05-14.
@@ -381,7 +381,7 @@
   GIF frames are the still pictures inside an animated GIF; GIF frame rate (FPS) is how fast they play. This guide tells you which one matches your task in one sentence and how to pick the right FPS when extracting frames.
 - [GIF Into Frames: Save Each Animation Frame as PNG or JPG](https://freetoolonline.com/guides/en/gif-into-frames.html) [lastmod=2026-06-29]
   Turn a GIF into individual frames online. Upload the animation, pick PNG or JPG, and download every frame as a still image. Free, no install. Last reviewed 2026-05-20.
-- [GIF to Frame - extract each frame as PNG or JPG](https://freetoolonline.com/guides/en/gif-to-frame.html) [lastmod=2026-06-28]
+- [GIF to Frame - extract each frame as PNG or JPG](https://freetoolonline.com/guides/en/gif-to-frame.html) [lastmod=2026-07-05]
   Upload an animated GIF and extract every frame as a separate PNG or JPG. No install. Files auto-delete after the download window. Last reviewed 2026-06-10.
 - [GIF to Frames Converter - Extract Each Frame as PNG or JPG](https://freetoolonline.com/guides/en/gif-to-frames-converter.html) [lastmod=2026-06-28]
   Turn an animated GIF into individual frames. Upload, pick PNG or JPG output, and download every frame as a separate still image. No install. Last reviewed 2026-06-10.
@@ -395,7 +395,7 @@
   Grocery List When To Use - when opening Grocery List fits the job and what to expect when it does.
 - [Habit Tracker Step By Step](https://freetoolonline.com/guides/habit-tracker-step-by-step.html) [lastmod=2026-07-03]
   Habit Tracker Step By Step - the exact steps to run Habit Tracker from open to downloaded result.
-- [Habit Tracker Vs Alternatives](https://freetoolonline.com/guides/habit-tracker-vs-alternatives.html) [lastmod=2026-07-03]
+- [Habit Tracker Vs Alternatives](https://freetoolonline.com/guides/habit-tracker-vs-alternatives.html) [lastmod=2026-07-05]
   Habit Tracker Vs Alternatives - how Habit Tracker compares with a desktop app or an upload-based service.
 - [Habit Tracker When To Use](https://freetoolonline.com/guides/habit-tracker-when.html) [lastmod=2026-07-04]
   Habit Tracker When To Use - when opening Habit Tracker fits the job and what to expect when it does.
@@ -611,15 +611,15 @@
   Start, Lap, Stop, and Reset - see exactly what each control does and how the lap list works before you time anything.
 - [Online Video Trimmer Step By Step](https://freetoolonline.com/guides/video-trimmer-step-by-step.html) [lastmod=2026-07-03]
   Online Video Trimmer Step By Step - the exact steps to run Online Video Trimmer from open to downloaded result.
-- [Online Video Trimmer Vs Alternatives](https://freetoolonline.com/guides/video-trimmer-vs-alternatives.html) [lastmod=2026-07-03]
+- [Online Video Trimmer Vs Alternatives](https://freetoolonline.com/guides/video-trimmer-vs-alternatives.html) [lastmod=2026-07-05]
   Online Video Trimmer Vs Alternatives - how Online Video Trimmer compares with a desktop app or an upload-based service.
-- [Online Video Trimmer When To Use](https://freetoolonline.com/guides/video-trimmer-when.html) [lastmod=2026-07-03]
+- [Online Video Trimmer When To Use](https://freetoolonline.com/guides/video-trimmer-when.html) [lastmod=2026-07-05]
   Online Video Trimmer When To Use - when opening Online Video Trimmer fits the job and what to expect when it does.
 - [Online Voice Recorder Step By Step](https://freetoolonline.com/guides/voice-recorder-step-by-step.html) [lastmod=2026-07-03]
   Online Voice Recorder Step By Step - the exact steps to run Online Voice Recorder from open to downloaded result.
 - [Online Voice Recorder Vs Alternatives](https://freetoolonline.com/guides/voice-recorder-vs-alternatives.html) [lastmod=2026-07-03]
   Online Voice Recorder Vs Alternatives - how Online Voice Recorder compares with a desktop app or an upload-based service.
-- [Online Voice Recorder When To Use](https://freetoolonline.com/guides/voice-recorder-when.html) [lastmod=2026-07-03]
+- [Online Voice Recorder When To Use](https://freetoolonline.com/guides/voice-recorder-when.html) [lastmod=2026-07-05]
   Online Voice Recorder When To Use - when opening Online Voice Recorder fits the job and what to expect when it does.
 - [Online Zip File Compressor - online zip file compressor guide](https://freetoolonline.com/guides/en/online-zip-file-compressor.html) [lastmod=2026-06-29]
   Online zip file compressor guide: bundle files or a whole folder into one .zip, set an optional password, and download. Free, in-browser, no install.
@@ -633,7 +633,7 @@
   A step-by-step guide to the free Password Generator: set the length, pick character sets, read the strength label, and copy a strong random password - all in your browser.
 - [Password Generator vs. Alternatives: Which to Use](https://freetoolonline.com/guides/password-generator-vs-alternatives.html) [lastmod=2026-07-03]
   Compare the in-browser password generator against typing your own, using a spreadsheet, or relying on your memory - see which approach produces the strongest, most practical passwords.
-- [Password Generator: When to Use It](https://freetoolonline.com/guides/password-generator-when.html) [lastmod=2026-07-03]
+- [Password Generator: When to Use It](https://freetoolonline.com/guides/password-generator-when.html) [lastmod=2026-07-05]
   See when a browser-based password generator beats typing your own: account creation, password resets, and any login that bans reused or guessable passwords.
 - [PDF Editing Ladder - Pick the Right PDF Tool](https://freetoolonline.com/guides/en/pdf-editing-ladder.html) [lastmod=2026-07-01]
   PDF editing decision ladder. Split, merge, extract, protect, flatten, convert - pick the right tool by intent in 30 s. 12 PDF tools mapped to the workflow.
@@ -659,7 +659,7 @@
   A QR code that always scans is a small set of choices: error correction, contrast, size, payload. Defaults that work, ones that fail in the field.
 - [Qr Code Scanner Step By Step](https://freetoolonline.com/guides/qr-code-scanner-step-by-step.html) [lastmod=2026-07-04]
   Qr Code Scanner Step By Step - the exact steps to run QR Code Scanner from open to downloaded result.
-- [Qr Code Scanner Vs Alternatives](https://freetoolonline.com/guides/qr-code-scanner-vs-alternatives.html) [lastmod=2026-07-04]
+- [Qr Code Scanner Vs Alternatives](https://freetoolonline.com/guides/qr-code-scanner-vs-alternatives.html) [lastmod=2026-07-05]
   Qr Code Scanner Vs Alternatives - how QR Code Scanner compares with a desktop app or an upload-based service.
 - [Qr Code Scanner When To Use](https://freetoolonline.com/guides/qr-code-scanner-when.html) [lastmod=2026-07-04]
   Qr Code Scanner When To Use - when opening QR Code Scanner fits the job and what to expect when it does.
@@ -679,9 +679,9 @@
   A step-by-step guide to the free Remove Duplicate Lines tool: how it decides which line is a duplicate, what it keeps, and how it compares to a spreadsheet or command line.
 - [Resize Zip File: What "Resize" Actually Means For a .zip](https://freetoolonline.com/guides/en/resize-zip-file.html) [lastmod=2026-06-30]
   "Resize zip file" usually means shrink the archive, sometimes split it, sometimes shrink the photos inside before re-zipping. Routing table + the right tool for each.
-- [Retro Tank Battle vs Installing a Desktop Game](https://freetoolonline.com/guides/retro-tank-battle-vs-alternatives.html) [lastmod=2026-07-04]
+- [Retro Tank Battle vs Installing a Desktop Game](https://freetoolonline.com/guides/retro-tank-battle-vs-alternatives.html) [lastmod=2026-07-05]
   Retro Tank Battle in the browser vs an installed desktop game: 0 MB install, first shot in seconds, a price of $0 - and what installing still does better.
-- [Reverse Text: When It Actually Helps](https://freetoolonline.com/guides/reverse-text-when.html) [lastmod=2026-07-03]
+- [Reverse Text: When It Actually Helps](https://freetoolonline.com/guides/reverse-text-when.html) [lastmod=2026-07-05]
   When reversing text helps: palindrome checks, mirrored captions, simple ciphers, plus how it compares to a spreadsheet, rev, or a script.
 - [Screen Test for Laptop - 5-Minute Checklist](https://freetoolonline.com/guides/en/screen-test-for-laptop-5-minute-checklist.html) [lastmod=2026-07-01]
   Five quick screen checks for a laptop you just bought or are about to return - dead pixels, brightness on battery vs AC, IPS shift, glare, scaling. Two minutes per check.
@@ -695,9 +695,9 @@
   Sky Gates Flight vs a typical installed flying game: 0 MB to install, seconds to first flight, and an honest look at where each side wins.
 - [Sky Gates Flight: When It Fits and When It Does Not](https://freetoolonline.com/guides/sky-gates-flight-when.html) [lastmod=2026-07-05]
   Where Sky Gates Flight fits - short breaks, phones, shared computers, chasing a best run - and where it does not: arcade physics, not a flight simulator.
-- [Snake Classic vs Installing a Desktop Game](https://freetoolonline.com/guides/snake-classic-vs-alternatives.html) [lastmod=2026-07-04]
+- [Snake Classic vs Installing a Desktop Game](https://freetoolonline.com/guides/snake-classic-vs-alternatives.html) [lastmod=2026-07-05]
   Snake Classic in the browser vs installing a desktop game - 0 MB install and seconds to first play, weighed honestly against offline play and sound.
-- [Solar System 3D Explorer vs Installing an Astronomy App](https://freetoolonline.com/guides/solar-system-3d-explorer-vs-alternatives.html) [lastmod=2026-07-04]
+- [Solar System 3D Explorer vs Installing an Astronomy App](https://freetoolonline.com/guides/solar-system-3d-explorer-vs-alternatives.html) [lastmod=2026-07-05]
   Solar System 3D Explorer vs an installed astronomy app - 0 MB install and a view in seconds, or deeper date-accurate skies on the desktop.
 - [Sort Text Lines Step by Step: Alphabetize a List in Your Browser](https://freetoolonline.com/guides/sort-text-lines-step-by-step.html) [lastmod=2026-07-03]
   A step-by-step guide to the free Sort Text Lines tool: how to sort a list A-Z or Z-A, how the order is decided, and why numbers sort as text.
@@ -721,9 +721,9 @@
   Test LCD, LCD test, or LCD tester all map to one job: check your screen for dead pixels, color, and backlight in your browser. Pick the right tool here.
 - [Text Repeater Step By Step](https://freetoolonline.com/guides/text-repeater-step-by-step.html) [lastmod=2026-07-03]
   Text Repeater Step By Step - the exact steps to run Text Repeater from open to downloaded result.
-- [Text Repeater Vs Alternatives](https://freetoolonline.com/guides/text-repeater-vs-alternatives.html) [lastmod=2026-07-03]
+- [Text Repeater Vs Alternatives](https://freetoolonline.com/guides/text-repeater-vs-alternatives.html) [lastmod=2026-07-05]
   Text Repeater Vs Alternatives - how Text Repeater compares with a desktop app or an upload-based service.
-- [Text Repeater When To Use](https://freetoolonline.com/guides/text-repeater-when.html) [lastmod=2026-07-03]
+- [Text Repeater When To Use](https://freetoolonline.com/guides/text-repeater-when.html) [lastmod=2026-07-05]
   Text Repeater When To Use - when opening Text Repeater fits the job and what to expect when it does.
 - [Text To Speech Step By Step](https://freetoolonline.com/guides/text-speech-step-by-step.html) [lastmod=2026-07-03]
   Text To Speech Step By Step - the exact steps to run Text to Speech from open to downloaded result.
@@ -733,7 +733,7 @@
   Text To Speech When To Use - when opening Text to Speech fits the job and what to expect when it does.
 - [Text vs Line vs Word vs Git Diff](https://freetoolonline.com/guides/en/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html) [lastmod=2026-07-01]
   Four kinds of diff answer different questions. Text diff for any pair, line diff for code, word diff for prose, git diff for tracked changes. Each explained.
-- [Time in milliseconds: the unit, conversions, and the epoch value](https://freetoolonline.com/guides/en/time-in-ms.html) [lastmod=2026-07-03]
+- [Time in milliseconds: the unit, conversions, and the epoch value](https://freetoolonline.com/guides/en/time-in-ms.html) [lastmod=2026-07-05]
   A time in milliseconds is a number where 1 second equals 1000 ms. See the duration and epoch meanings, a conversion table, and where ms appears in code.
 - [Unix Timestamps Explained](https://freetoolonline.com/guides/en/unix-timestamps-explained.html) [lastmod=2026-06-28]
   Unix timestamps explained - seconds vs milliseconds, ISO-8601, RFC 2822, UTC vs local time, and the common pitfalls when converting between formats.
@@ -743,17 +743,17 @@
   Unminify minified JavaScript online for free. Paste the bundle, get readable indented code with re-introduced line breaks - no install, browser-side. Last reviewed 2026-05-20.
 - [Url Decoder Step By Step](https://freetoolonline.com/guides/url-decoder-step-by-step.html) [lastmod=2026-07-04]
   Url Decoder Step By Step - the exact steps to run URL Decoder from open to downloaded result.
-- [Url Decoder Vs Alternatives](https://freetoolonline.com/guides/url-decoder-vs-alternatives.html) [lastmod=2026-07-04]
+- [Url Decoder Vs Alternatives](https://freetoolonline.com/guides/url-decoder-vs-alternatives.html) [lastmod=2026-07-05]
   Url Decoder Vs Alternatives - how URL Decoder compares with a desktop app or an upload-based service.
 - [Url Decoder When To Use](https://freetoolonline.com/guides/url-decoder-when.html) [lastmod=2026-07-04]
   Url Decoder When To Use - when opening URL Decoder fits the job and what to expect when it does.
 - [Video Converter Online Free: Convert to MP4, MOV, MP3 and More](https://freetoolonline.com/guides/video-converter-online-free.html) [lastmod=2026-06-28]
   Convert video online free to MP4, WebM, MOV, MP3 or WAV. Trim a segment first, no account needed. Server-side for large or long files.
-- [Video To Gif Converter Step By Step](https://freetoolonline.com/guides/video-gif-converter-step-by-step.html) [lastmod=2026-07-04]
+- [Video To Gif Converter Step By Step](https://freetoolonline.com/guides/video-gif-converter-step-by-step.html) [lastmod=2026-07-05]
   Video To Gif Converter Step By Step - the exact steps to run Video to GIF Converter from open to downloaded result.
-- [Video To Gif Converter Vs Alternatives](https://freetoolonline.com/guides/video-gif-converter-vs-alternatives.html) [lastmod=2026-07-04]
+- [Video To Gif Converter Vs Alternatives](https://freetoolonline.com/guides/video-gif-converter-vs-alternatives.html) [lastmod=2026-07-05]
   Video To Gif Converter Vs Alternatives - how Video to GIF Converter compares with a desktop app or an upload-based service.
-- [Video To Gif Converter When To Use](https://freetoolonline.com/guides/video-gif-converter-when.html) [lastmod=2026-07-04]
+- [Video To Gif Converter When To Use](https://freetoolonline.com/guides/video-gif-converter-when.html) [lastmod=2026-07-05]
   Video To Gif Converter When To Use - when opening Video to GIF Converter fits the job and what to expect when it does.
 - [Voxel World Builder vs Installing a Desktop Game](https://freetoolonline.com/guides/voxel-world-builder-vs-alternatives.html) [lastmod=2026-07-04]
   Voxel World Builder vs an installed desktop sandbox game: 0 MB install, price 0, first block in seconds - and the depth an installed game still wins on.
@@ -781,7 +781,7 @@
   Where Galaxy 3D Simulator fits - short screen breaks, curious kids, ambient fullscreen visuals - and the jobs this spiral honestly cannot do.
 - [When to Use Solar System 3D Explorer (and When Not To)](https://freetoolonline.com/guides/solar-system-3d-explorer-when.html) [lastmod=2026-07-04]
   Where Solar System 3D Explorer fits - quiet screen breaks, homework visuals, quick planet facts - and the sessions where it is the wrong tool.
-- [When to Use Voxel World Builder (and When Not To)](https://freetoolonline.com/guides/voxel-world-builder-when.html) [lastmod=2026-07-04]
+- [When to Use Voxel World Builder (and When Not To)](https://freetoolonline.com/guides/voxel-world-builder-when.html) [lastmod=2026-07-05]
   When a browser voxel sandbox fits: quick creative breaks, devices where you cannot install, builds you back up as JSON - and the sessions it does not cover.
 - [Why HEIC Won't Open on Windows - Three Quick Fixes](https://freetoolonline.com/guides/en/why-heic-wont-open-on-windows-three-fixes.html) [lastmod=2026-06-30]
   When Windows says it can't open a .heic file, three quick fixes work: install the free HEIF photo extension, use a free viewer, or convert to JPG online.
@@ -872,7 +872,7 @@
   Wie man eine Datei online in ein ZIP-Archiv umwandelt: wann ZIP die Datei wirklich verkleinert, wann nicht, und wo der Ersteller liegt.
 - [Datei-Kompressor vs ZIP](https://freetoolonline.com/guides/de/file-compressor-vs-zip-what-to-pick.html) [lastmod=2026-07-01]
   "Datei-Kompressor" ist zu allgemein. Waehlen Sie nach Dateityp: einen Ordner ZIPpen, Fotos komprimieren, HEIC konvertieren, PDFs buendeln oder einen Transfer-Link fuer Video verwenden.
-- [Datei-Kompressor: Auswahl nach Dateityp](https://freetoolonline.com/guides/de/file-compressor.html) [lastmod=2026-05-31]
+- [Datei-Kompressor: Auswahl nach Dateityp](https://freetoolonline.com/guides/de/file-compressor.html) [lastmod=2026-07-05]
   Kostenloser Datei-Kompressor, der das richtige Browser-Tool nach dem auswaehlt, was Sie haben: einen Ordner ZIPpen, Fotos komprimieren, HEIC konvertieren, PDFs buendeln oder einen Transfer-Link verwenden.
 - [Dateikomprimierer Online: Einen Ordner ZIPpen vs Ein Bild Komprimieren](https://freetoolonline.com/guides/de/file-compressor-online-when-to-zip-vs-when-to-compress-image.html) [lastmod=2026-07-02]
   Routing-Leitfaden zur Dateikomprimierer-Frage: wann einen Ordner fuer den Transport ZIPpen vs wann ein einzelnes Bild komprimieren, um die Bytegroesse zu senken. 30-Sekunden-Regel, fuenf Schritte.
@@ -914,7 +914,7 @@
   Verwandeln Sie ein GIF online in einzelne Frames. Laden Sie die Animation hoch, waehlen Sie PNG oder JPG und laden Sie jeden Frame als Standbild herunter. Kostenlos, ohne Installation. Zuletzt geprueft: 2026-05-20.
 - [GIF zu Einzelbildern konvertieren - Jeden Frame als PNG oder JPG exportieren](https://freetoolonline.com/guides/de/gif-to-frames-converter.html) [lastmod=2026-07-03]
   Konvertiere ein animiertes GIF in Einzelbilder. Hochladen, PNG oder JPG waehlen und jeden Frame als separates Bild herunterladen. Keine Installation. Geprueft 2026-06-10.
-- [GIF zu Frame - jeden Frame als PNG oder JPG extrahieren](https://freetoolonline.com/guides/de/gif-to-frame.html) [lastmod=2026-06-10]
+- [GIF zu Frame - jeden Frame als PNG oder JPG extrahieren](https://freetoolonline.com/guides/de/gif-to-frame.html) [lastmod=2026-07-05]
   GIF animiert hochladen und jeden Frame als PNG oder JPG extrahieren. Keine Installation. Dateien werden automatisch geloescht. Zuletzt geprueft 2026-06-10.
 - [GIF-Frame-Extraktor - Frames aus animierten GIFs holen](https://freetoolonline.com/guides/de/gif-frame-extractor.html) [lastmod=2026-06-24]
   Schritt-fuer-Schritt-Anleitung zum Extrahieren von Frames aus animierten GIFs: PNG oder JPG, FPS einstellen, jedes Frame laden. Zuletzt geprueft 2026-05-14.
@@ -1084,7 +1084,7 @@
   Eine Schritt-fuer-Schritt-Anleitung zum kostenlosen Password Generator: Laenge einstellen, Zeichensaetze waehlen, Staerkeanzeige lesen und ein starkes zufaelliges Passwort kopieren - alles im Browser.
 - [Passwortgenerator vs. Alternativen: Was Verwenden](https://freetoolonline.com/guides/de/password-generator-vs-alternatives.html) [lastmod=2026-07-03]
   Vergleichen Sie den browserbasierten Passwortgenerator mit eigener Eingabe, Browser oder Manager - welcher Ansatz liefert die staerksten und praktischsten Passwoerter.
-- [Passwortgenerator: Wann Man Ihn Benutzt](https://freetoolonline.com/guides/de/password-generator-when.html) [lastmod=2026-07-03]
+- [Passwortgenerator: Wann Man Ihn Benutzt](https://freetoolonline.com/guides/de/password-generator-when.html) [lastmod=2026-07-05]
   Erfahren Sie, wann ein browserbasierter Passwortgenerator sinnvoll ist: Kontoerstellung, Passwortzuruecksetzung und jede Anmeldung, die einzigartige, unvorhersehbare Passwoerter erfordert.
 - [PDF Online Kostenlos Komprimieren - PDF Verkleinern](https://freetoolonline.com/guides/de/compress-pdf-online-free.html) [lastmod=2026-06-24]
   Verkleinere eine PDF kostenlos online: reduziere formularlastige Dateien per Flatten oder baue gescannte PDFs mit unseren Werkzeugen neu auf. Kein Konto. Geprueft am 2026-06-11.
@@ -1120,7 +1120,7 @@
   QR-Code-Scanner - genaue Schritte vom Oeffnen des Tools bis zum Ergebnis.
 - [QR-Code-Scanner - Wann Verwenden](https://freetoolonline.com/guides/de/qr-code-scanner-when.html) [lastmod=2026-07-04]
   QR-Code-Scanner - wann es sich lohnt ihn zu oeffnen und was zu erwarten ist.
-- [QR-Code-Scanner vs Alternativen](https://freetoolonline.com/guides/de/qr-code-scanner-vs-alternatives.html) [lastmod=2026-07-04]
+- [QR-Code-Scanner vs Alternativen](https://freetoolonline.com/guides/de/qr-code-scanner-vs-alternatives.html) [lastmod=2026-07-05]
   QR-Code-Scanner verglichen mit einer Desktop-Anwendung oder einem uploadbasierten Online-Dienst.
 - [Sind Online-Tools wirklich kostenlos? Datenschutz, Monetarisierung und das In-Browser-Modell](https://freetoolonline.com/guides/de/tool-free.html) [lastmod=2026-07-02]
   Sind Online-Tools wirklich kostenlos? Wie In-Browser-Tools ohne Abos kostenlos bleiben, wie Anzeigen die Rechnung zahlen und was auf Ihrem Geraet bleibt. Zuletzt geprueft 2026-06-04.
@@ -1166,7 +1166,7 @@
   Der Tastatur-Test hebt manche Tasten nicht hervor? Vier Ursachen - Fokus, OS-Layout, Sticky-Keys-Filter, Hardware-Schalter - und eine Ein-Minuten-Loesung fuer jede.
 - [Text in ein Bild (PNG) umwandeln - online und kostenlos](https://freetoolonline.com/guides/de/how-to-turn-text-into-an-image-online.html) [lastmod=2026-06-24]
   Gestalte Text im Browser - waehle Schriftart, Groesse, Farben, Abstand und einen Schatten, und lade ihn als PNG-Bild herunter. Ohne Upload, ohne Konto.
-- [Text Umkehren: Wann Es Wirklich Hilft](https://freetoolonline.com/guides/de/reverse-text-when.html) [lastmod=2026-07-03]
+- [Text Umkehren: Wann Es Wirklich Hilft](https://freetoolonline.com/guides/de/reverse-text-when.html) [lastmod=2026-07-05]
   Wann Text umkehren hilft: Palindrome pruefen, gespiegelte Untertitel, einfache Chiffren, und der Vergleich mit Tabelle, rev oder Skript.
 - [Text vs Line vs Word vs Git Diff](https://freetoolonline.com/guides/de/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html) [lastmod=2026-07-01]
   Vier Arten von Diff beantworten unterschiedliche Fragen. Text-Diff fuer jedes Paar, Line-Diff fuer Code, Word-Diff fuer Prosa, Git-Diff fuer verfolgte Aenderungen. Jeder erklaert.
@@ -1186,19 +1186,19 @@
   Unix-Timestamps erklaert - Sekunden vs Millisekunden, ISO-8601, RFC 2822, UTC vs Ortszeit und die haeufigen Fallstricke beim Konvertieren zwischen Formaten.
 - [Url Decoder Schritt Fuer Schritt](https://freetoolonline.com/guides/de/url-decoder-step-by-step.html) [lastmod=2026-07-04]
   Url Decoder Schritt Fuer Schritt - die genauen Schritte zur Ausfuehrung des URL Decoders.
-- [Url Decoder Vs Alternativen](https://freetoolonline.com/guides/de/url-decoder-vs-alternatives.html) [lastmod=2026-07-04]
+- [Url Decoder Vs Alternativen](https://freetoolonline.com/guides/de/url-decoder-vs-alternatives.html) [lastmod=2026-07-05]
   Url Decoder Vs Alternativen - wie URL Decoder im Vergleich zu einer Desktop-App oder einem Upload-Dienst abschneidet.
 - [Url Decoder Wann Verwenden](https://freetoolonline.com/guides/de/url-decoder-when.html) [lastmod=2026-07-04]
   Url Decoder Wann Verwenden - wann Sie den URL Decoder verwenden und was Sie erwarten koennen.
-- [Video-zu-GIF-Konverter Schritt fuer Schritt](https://freetoolonline.com/guides/de/video-gif-converter-step-by-step.html) [lastmod=2026-07-04]
+- [Video-zu-GIF-Konverter Schritt fuer Schritt](https://freetoolonline.com/guides/de/video-gif-converter-step-by-step.html) [lastmod=2026-07-05]
   Video-zu-GIF-Konverter Schritt fuer Schritt - die genauen Schritte, um den Video-zu-GIF-Konverter vom Oeffnen bis zum heruntergeladenen Ergebnis auszufuehren.
-- [Video-Zu-Gif-Konverter Vs Alternativen](https://freetoolonline.com/guides/de/video-gif-converter-vs-alternatives.html) [lastmod=2026-07-04]
+- [Video-Zu-Gif-Konverter Vs Alternativen](https://freetoolonline.com/guides/de/video-gif-converter-vs-alternatives.html) [lastmod=2026-07-05]
   Video-Zu-Gif-Konverter Vs Alternativen - wie sich der Video-zu-GIF-Konverter mit einer Desktop-Anwendung oder einem Upload-basierten Dienst vergleicht.
-- [Video-zu-GIF-Konverter Wann Verwenden](https://freetoolonline.com/guides/de/video-gif-converter-when.html) [lastmod=2026-07-04]
+- [Video-zu-GIF-Konverter Wann Verwenden](https://freetoolonline.com/guides/de/video-gif-converter-when.html) [lastmod=2026-07-05]
   Video-zu-GIF-Konverter Wann Verwenden - wann sich das Oeffnen des Video-zu-GIF-Konverters fuer die Aufgabe eignet und was zu erwarten ist, wenn es passt.
 - [Vor einem Videoanruf - welche Tools auszuführen (Bildschirm, Kamera, Mikrofon)](https://freetoolonline.com/guides/de/before-a-video-call-which-tools-to-run.html) [lastmod=2026-06-30]
   Fünf Minuten vor einem Videoanruf: eine schnelle Checkliste, welche Prüfungen auf Ihrem Bildschirm, Ihrer Webcam und Ihrem Mikrofon auszuführen sind, in der Reihenfolge der Priorität, mit dem richtigen Tool für jeden Schritt.
-- [Wann den Online-Sprachrekorder Verwenden](https://freetoolonline.com/guides/de/voice-recorder-when.html) [lastmod=2026-07-03]
+- [Wann den Online-Sprachrekorder Verwenden](https://freetoolonline.com/guides/de/voice-recorder-when.html) [lastmod=2026-07-05]
   Wann den Online-Sprachrekorder verwenden - wann dieses Browser-Werkzeug passt und was Sie erwarten koennen.
 - [Wann Sie einen Zufaelligen Listen-Mischer Nutzen Sollten](https://freetoolonline.com/guides/de/random-list-shuffler-when.html) [lastmod=2026-07-02]
   Wann ein zufaelliger Listen-Mischer die richtige Wahl ist: Reihenfolge festlegen, Aufgaben verteilen und Verlosungslisten - und wann stattdessen ein Einzelauswahl-Tool passt.
@@ -1244,7 +1244,7 @@
   Komprimieren Sie einen ganzen Ordner in eine einzige ZIP in Ihrem Browser. Drei Schritte vom Drag-and-Drop bis zum kleineren Einzeldatei-Download. Kostenlos, keine Installation.
 - [Wie man einen Ordner online zippt, Schritt fuer Schritt](https://freetoolonline.com/guides/de/how-to-zip-folder-online-step-by-step.html) [lastmod=2026-07-01]
   Zippen Sie einen Ordner online in fuenf Schritten: Ordner waehlen, Struktur behalten, Kompression einstellen, Ausgabe benennen, herunterladen. Nur im Browser, mit den Fallen, die zu vermeiden sind.
-- [Zeit in Millisekunden: die Einheit, die Umrechnungen und der Epoch-Wert](https://freetoolonline.com/guides/de/time-in-ms.html) [lastmod=2026-07-03]
+- [Zeit in Millisekunden: die Einheit, die Umrechnungen und der Epoch-Wert](https://freetoolonline.com/guides/de/time-in-ms.html) [lastmod=2026-07-05]
   Eine Zeit in Millisekunden ist eine Zahl, bei der 1 Sekunde 1000 ms entspricht. Lernen Sie die Dauer- und Epoch-Bedeutung, eine Umrechnungstabelle und wo ms im Code vorkommt.
 - [ZIP komprimieren - Wann das Archiv die Groesse schrumpft](https://freetoolonline.com/guides/de/kompres-zip.html) [lastmod=2026-05-31]
   ZIP-Komprimierungsanleitung: wann das .zip-Format die Groesse tatsaechlich schrumpft, wann nicht, und wo das Werkzeug zum Erstellen von Archiven im Browser lebt. Kostenlos, ohne Installation.
@@ -1407,7 +1407,7 @@
   Guia de ruteo para la duda del compresor de archivos: cuando hacer ZIP de una carpeta para transporte vs cuando comprimir una sola imagen para reducir bytes. Regla de 30 segundos, cinco pasos.
 - [Compresor de Archivos vs ZIP](https://freetoolonline.com/guides/es/file-compressor-vs-zip-what-to-pick.html) [lastmod=2026-07-01]
   "Compresor de archivos" es demasiado generico. Elige por tipo de archivo: ZIP una carpeta, comprime fotos, convierte HEIC, agrupa PDFs o usa un enlace de transferencia para video.
-- [Compresor de Archivos: Elige por Tipo de Archivo](https://freetoolonline.com/guides/es/file-compressor.html) [lastmod=2026-05-31]
+- [Compresor de Archivos: Elige por Tipo de Archivo](https://freetoolonline.com/guides/es/file-compressor.html) [lastmod=2026-07-05]
   Compresor de archivos gratuito que elige la herramienta correcta del navegador por lo que tienes: ZIP una carpeta, comprime fotos, convierte HEIC, agrupa PDFs o usa un enlace de transferencia.
 - [Compresor de Tamano de Archivo Zip - Guia Online Gratis](https://freetoolonline.com/guides/es/zip-file-size-compressor.html) [lastmod=2026-07-03]
   Use un compresor de tamano de archivo zip online para agrupar una carpeta de archivos en un solo .zip y reducir el tamano total antes de enviar. Gratis, sin instalar. Ultima revision 2026-05-19.
@@ -1445,11 +1445,11 @@
   Tipos de contrasena PDF - contrasena de propietario vs usuario, que bloquea cada una, cuando establecer cada una, como elegir contrasenas que protegen el documento de verdad.
 - [Conversor de Archivo Zip - Que Hace Realmente](https://freetoolonline.com/guides/es/zip-file-converter-what-it-actually-does.html) [lastmod=2026-07-01]
   "Conversor de archivo zip" es la busqueda equivocada. ZIP es un contenedor, no un formato. Tres intenciones reales: agrupar, extraer o comprimir imagenes. Elige por intencion en 30 segundos.
-- [Conversor de Video a GIF Cuando Usar](https://freetoolonline.com/guides/es/video-gif-converter-when.html) [lastmod=2026-07-04]
+- [Conversor de Video a GIF Cuando Usar](https://freetoolonline.com/guides/es/video-gif-converter-when.html) [lastmod=2026-07-05]
   Conversor de Video a GIF Cuando Usar - cuando abrir el Conversor de Video a GIF sirve para la tarea y que esperar cuando sirve.
-- [Conversor de Video a GIF Paso a Paso](https://freetoolonline.com/guides/es/video-gif-converter-step-by-step.html) [lastmod=2026-07-04]
+- [Conversor de Video a GIF Paso a Paso](https://freetoolonline.com/guides/es/video-gif-converter-step-by-step.html) [lastmod=2026-07-05]
   Conversor de Video a GIF Paso a Paso - los pasos exactos para ejecutar el Conversor de Video a GIF desde abrir hasta descargar el resultado.
-- [Conversor De Video A Gif Vs Alternativas](https://freetoolonline.com/guides/es/video-gif-converter-vs-alternatives.html) [lastmod=2026-07-04]
+- [Conversor De Video A Gif Vs Alternativas](https://freetoolonline.com/guides/es/video-gif-converter-vs-alternatives.html) [lastmod=2026-07-05]
   Conversor De Video A Gif Vs Alternativas - como se compara el Conversor de Video a GIF con una aplicacion de escritorio o un servicio basado en subida.
 - [Conversor de Vídeo Online Gratis: Convierte a MP4, MOV, MP3 y Más](https://freetoolonline.com/guides/es/video-converter-online-free.html) [lastmod=2026-06-28]
   Convierte vídeo online gratis a MP4, WebM, MOV, MP3 o WAV. Recorta un segmento primero, sin necesidad de cuenta. Procesamiento en el servidor para archivos grandes o largos.
@@ -1481,7 +1481,7 @@
   Cuando CSS Unminifier es la herramienta correcta para leer CSS enviado rapidamente, cuando Prettier es la herramienta correcta para formatear fuente que vas a commitear, y lo que ninguno puede recuperar despues de un build con tree-shaking.
 - [CSV vs JSON - Cuándo Usar Cada Formato de Datos](https://freetoolonline.com/guides/es/csv-vs-json-data-formats.html) [lastmod=2026-07-02]
   Formatos de datos CSV vs JSON - cuándo elegir filas-y-columnas vs objetos estructurados, con compensaciones de parsing, tamaño y herramientas para flujos 2026.
-- [Cuando Usar la Grabadora de Voz En Linea](https://freetoolonline.com/guides/es/voice-recorder-when.html) [lastmod=2026-07-03]
+- [Cuando Usar la Grabadora de Voz En Linea](https://freetoolonline.com/guides/es/voice-recorder-when.html) [lastmod=2026-07-05]
   Cuando Usar la Grabadora de Voz En Linea - cuando abrir el Online Voice Recorder es adecuado y que esperar cuando lo es.
 - [Cuando Usar un Mezclador de Listas Aleatorio](https://freetoolonline.com/guides/es/random-list-shuffler-when.html) [lastmod=2026-07-02]
   Cuando un mezclador de listas aleatorio es la opcion correcta: orden de turnos, asignacion de tareas y sorteos - y cuando usar una herramienta de eleccion unica en su lugar.
@@ -1527,7 +1527,7 @@
   Escaner de Codigo QR - cuando abrirlo vale la pena y que esperar cuando encaja.
 - [Escaner de Codigo QR - Paso a Paso](https://freetoolonline.com/guides/es/qr-code-scanner-step-by-step.html) [lastmod=2026-07-04]
   Escaner de Codigo QR - los pasos exactos para usar la herramienta desde abrir hasta el resultado.
-- [Escaner de Codigo QR vs Alternativas](https://freetoolonline.com/guides/es/qr-code-scanner-vs-alternatives.html) [lastmod=2026-07-04]
+- [Escaner de Codigo QR vs Alternativas](https://freetoolonline.com/guides/es/qr-code-scanner-vs-alternatives.html) [lastmod=2026-07-05]
   Escaner de Codigo QR comparado con aplicacion de escritorio o servicio en linea con carga.
 - [Espejo de Webcam vs Flip Explicado: Por Qué Tu Preview de Cámara Invierte el Texto](https://freetoolonline.com/guides/es/camera-mirror-vs-flip-explained.html) [lastmod=2026-07-02]
   Por qué tu preview de webcam invierte texto y el vídeo guardado generalmente no. Procedimiento de prueba de 30 segundos más pasos exactos para desactivar espejo en OBS, Zoom, Google Meet y Microsoft Teams.
@@ -1561,11 +1561,11 @@
   Una guia paso a paso del Password Generator gratuito: fija la longitud, elige los conjuntos de caracteres, lee la etiqueta de fuerza y copia una contrasena aleatoria fuerte - todo en tu navegador.
 - [Generador de Contrasenas vs. Alternativas: Cual Usar](https://freetoolonline.com/guides/es/password-generator-vs-alternatives.html) [lastmod=2026-07-03]
   Compara el generador de contrasenas en el navegador con escribir la tuya, usar el navegador o un gestor - descubre que enfoque produce las contrasenas mas fuertes y practicas.
-- [Generador de Contrasenas: Cuando Usarlo](https://freetoolonline.com/guides/es/password-generator-when.html) [lastmod=2026-07-03]
+- [Generador de Contrasenas: Cuando Usarlo](https://freetoolonline.com/guides/es/password-generator-when.html) [lastmod=2026-07-05]
   Descubre cuando usar un generador de contrasenas en el navegador: creacion de cuentas, restablecimiento de contrasenas y cualquier inicio de sesion que exija contrasenas unicas.
 - [Generador de Numero Aleatorio Online: Guia Paso a Paso](https://freetoolonline.com/guides/es/random-number-generator-step-by-step.html) [lastmod=2026-07-02]
   Guia paso a paso del Generador de Numero Aleatorio Online: como definir Min y Max, leer el resultado, y en que se diferencia del dice roller y coin flip.
-- [GIF a Fotograma - extrae cada fotograma como PNG o JPG](https://freetoolonline.com/guides/es/gif-to-frame.html) [lastmod=2026-06-10]
+- [GIF a Fotograma - extrae cada fotograma como PNG o JPG](https://freetoolonline.com/guides/es/gif-to-frame.html) [lastmod=2026-07-05]
   Carga un GIF animado y extrae cada fotograma como PNG o JPG por separado. Sin instalacion. Archivos eliminados automaticamente. Revisado el 2026-06-10.
 - [GIF en Frames: Guarda cada frame de animacion como PNG o JPG](https://freetoolonline.com/guides/es/gif-into-frames.html) [lastmod=2026-07-01]
   Convierte un GIF en frames individuales online. Sube la animacion, elige PNG o JPG, y descarga cada frame como una imagen estatica. Gratis, sin instalar. Ultima revision: 2026-05-20.
@@ -1595,7 +1595,7 @@
   Guia de enrutamiento: cuando abrir ImageMagick Online y cuando una herramienta especifica (Crop, Resize, Compress, HEIC to JPG) es el camino mas rapido. Cinco reglas, una decision en 30 segundos.
 - [Imagen a Base64 - Incrustar en HTML/CSS vs Enlazar el Archivo de Imagen](https://freetoolonline.com/guides/es/image-to-base64-embed-in-html-vs-link.html) [lastmod=2026-05-31]
   Deberias incrustar una imagen como URL de datos base64 en HTML/CSS, o enlazar el archivo de imagen? Una regla de decision practica con umbrales concretos en bytes, trade-offs de cache y HTTP/2, y una verificacion de sanidad en 30 segundos.
-- [Invertir Texto: Cuando Realmente Ayuda](https://freetoolonline.com/guides/es/reverse-text-when.html) [lastmod=2026-07-03]
+- [Invertir Texto: Cuando Realmente Ayuda](https://freetoolonline.com/guides/es/reverse-text-when.html) [lastmod=2026-07-05]
   Cuando invertir texto ayuda: comprobar palindromos, crear subtitulos espejo, cifrados simples, y la comparacion con hoja de calculo, rev o script.
 - [JPG vs JPEG - son lo mismo?](https://freetoolonline.com/guides/es/jpg-vs-jpeg-are-they-the-same.html) [lastmod=2026-07-01]
   JPG y JPEG son el mismo formato de imagen. Las dos extensiones existen debido a un antiguo limite de tres letras de Windows. Aqui esta la historia y cual nombre preferir.
@@ -1749,7 +1749,7 @@
   Texto a Voz Paso a Paso - los pasos exactos para usar la herramienta Texto a Voz desde el inicio hasta el resultado.
 - [Texto a Voz Versus Alternativas](https://freetoolonline.com/guides/es/text-speech-vs-alternatives.html) [lastmod=2026-07-03]
   Texto a Voz Versus Alternativas - como Texto a Voz se compara con una aplicacion de escritorio o un servicio de carga.
-- [Tiempo en milisegundos: la unidad, las conversiones y el valor epoch](https://freetoolonline.com/guides/es/time-in-ms.html) [lastmod=2026-07-03]
+- [Tiempo en milisegundos: la unidad, las conversiones y el valor epoch](https://freetoolonline.com/guides/es/time-in-ms.html) [lastmod=2026-07-05]
   Un tiempo en milisegundos es un número donde 1 segundo equivale a 1000 ms. Conoce los significados de duración y epoch, una tabla de conversión y dónde aparece ms en el código.
 - [Timestamps Unix Explicados](https://freetoolonline.com/guides/es/unix-timestamps-explained.html) [lastmod=2026-07-01]
   Timestamps Unix explicados - segundos vs milisegundos, ISO-8601, RFC 2822, UTC vs hora local y las trampas comunes al convertir entre formatos.
@@ -1763,7 +1763,7 @@
   Url Decoder Cuando Usarlo - cuando abrir el URL Decoder y que esperar cuando es adecuado.
 - [Url Decoder Paso A Paso](https://freetoolonline.com/guides/es/url-decoder-step-by-step.html) [lastmod=2026-07-04]
   Url Decoder Paso A Paso - los pasos exactos para ejecutar el URL Decoder de inicio a resultado.
-- [Url Decoder Vs Alternativas](https://freetoolonline.com/guides/es/url-decoder-vs-alternatives.html) [lastmod=2026-07-04]
+- [Url Decoder Vs Alternativas](https://freetoolonline.com/guides/es/url-decoder-vs-alternatives.html) [lastmod=2026-07-05]
   Url Decoder Vs Alternativas - como URL Decoder se compara con una aplicacion de escritorio o servicio de subida.
 - [Verificador LCD: Ejecuta una Verificacion Gratuita de Pantalla Online en el Navegador](https://freetoolonline.com/guides/es/lcd-checker.html) [lastmod=2026-07-02]
   verificador lcd, verificacion lcd, verificador de monitor - una sola tarea: recorrer el panel en colores solidos de pantalla completa para detectar pixeles muertos, fugas de retroiluminacion y desviacion de color. Gratis y en el navegador.
@@ -1946,11 +1946,11 @@
   Panduan langkah demi langkah Generator Angka Acak Online: mengatur Min dan Max, membaca hasil, dan perbedaannya dengan dice roller dan coin flip.
 - [Generator Kata Sandi vs. Alternatif: Mana yang Dipakai](https://freetoolonline.com/guides/id/password-generator-vs-alternatives.html) [lastmod=2026-07-03]
   Bandingkan generator kata sandi di browser dengan mengetik sendiri, menggunakan browser atau pengelola - lihat pendekatan mana yang menghasilkan kata sandi terkuat dan paling praktis.
-- [Generator Kata Sandi: Kapan Menggunakannya](https://freetoolonline.com/guides/id/password-generator-when.html) [lastmod=2026-07-03]
+- [Generator Kata Sandi: Kapan Menggunakannya](https://freetoolonline.com/guides/id/password-generator-when.html) [lastmod=2026-07-05]
   Pelajari kapan menggunakan generator kata sandi berbasis browser: pembuatan akun, reset kata sandi, dan situasi apa pun yang membutuhkan kata sandi unik dan tidak terduga.
 - [Generator Kode QR - Praktik Terbaik](https://freetoolonline.com/guides/id/qr-code-generator-best-practices.html) [lastmod=2026-07-01]
   Kode QR yang selalu dipindai adalah serangkaian kecil pilihan: koreksi kesalahan, kontras, ukuran, payload. Default yang bekerja, yang gagal di lapangan.
-- [GIF ke Bingkai - ekstrak setiap bingkai sebagai PNG atau JPG](https://freetoolonline.com/guides/id/gif-to-frame.html) [lastmod=2026-06-10]
+- [GIF ke Bingkai - ekstrak setiap bingkai sebagai PNG atau JPG](https://freetoolonline.com/guides/id/gif-to-frame.html) [lastmod=2026-07-05]
   Unggah GIF animasi dan ekstrak setiap bingkai sebagai PNG atau JPG terpisah. Tanpa instalasi. File dihapus otomatis. Ditinjau 2026-06-10.
 - [GIF ke Frame: Simpan setiap frame animasi sebagai PNG atau JPG](https://freetoolonline.com/guides/id/gif-into-frames.html) [lastmod=2026-07-01]
   Ubah GIF menjadi frame individual online. Unggah animasi, pilih PNG atau JPG, dan unduh setiap frame sebagai gambar diam. Gratis, tanpa instal. Direview terakhir: 2026-05-20.
@@ -1990,7 +1990,7 @@
   Tiga format konfigurasi, tiga ergonomi. JSON untuk mesin, YAML untuk manusia, TOML untuk konfigurasi dangkal. Kompromi yang menentukan apa yang dibutuhkan proyek Anda.
 - [Kapan Menggunakan Pengacak Daftar Acak](https://freetoolonline.com/guides/id/random-list-shuffler-when.html) [lastmod=2026-07-02]
   Kapan pengacak daftar acak adalah pilihan yang tepat: urutan giliran, pembagian tugas, dan daftar undian - dan kapan sebaiknya menggunakan alat pemilih tunggal.
-- [Kapan Menggunakan Perekam Suara Online](https://freetoolonline.com/guides/id/voice-recorder-when.html) [lastmod=2026-07-03]
+- [Kapan Menggunakan Perekam Suara Online](https://freetoolonline.com/guides/id/voice-recorder-when.html) [lastmod=2026-07-05]
   Kapan Menggunakan Perekam Suara Online - kapan membuka Online Voice Recorder sesuai dan apa yang diharapkan.
 - [Kata Sandi PDF - Pemilik vs Pengguna](https://freetoolonline.com/guides/id/pdf-password-types-owner-vs-user.html) [lastmod=2026-07-01]
   Jenis kata sandi PDF - kata sandi pemilik vs pengguna, apa yang masing-masing blokir, kapan menetapkan setiap jenis, cara memilih kata sandi yang benar-benar melindungi dokumen.
@@ -2026,7 +2026,7 @@
   Kompresor file zip online: bundel file atau seluruh folder menjadi satu .zip, atur kata sandi opsional, dan unduh. Gratis, di browser, tanpa instalasi.
 - [Kompresor file ZIP online - panduan](https://freetoolonline.com/guides/id/online-zip-file-compressor.html) [lastmod=2026-06-29]
   Panduan kompresor file ZIP online: bundel file atau seluruh folder menjadi satu .zip, set kata sandi opsional, dan unduh. Gratis, di browser, tanpa instal.
-- [Kompresor File: Pilih Berdasarkan Tipe File](https://freetoolonline.com/guides/id/file-compressor.html) [lastmod=2026-05-31]
+- [Kompresor File: Pilih Berdasarkan Tipe File](https://freetoolonline.com/guides/id/file-compressor.html) [lastmod=2026-07-05]
   Kompresor file gratis yang memilih alat browser yang tepat berdasarkan yang Anda miliki: ZIP folder, kompres foto, konversi HEIC, bundel PDF atau gunakan tautan transfer.
 - [Kompresor Ukuran File Zip - Panduan Online Gratis](https://freetoolonline.com/guides/id/zip-file-size-compressor.html) [lastmod=2026-05-31]
   Gunakan kompresor ukuran file zip online untuk membundel folder file menjadi satu .zip dan mengurangi total ukuran sebelum mengirim. Gratis, tanpa install. Terakhir ditinjau 2026-05-19.
@@ -2054,11 +2054,11 @@
   Panduan langkah demi langkah mengonversi video HD di browser - ubah format atau ekstrak trek audio dengan FFmpeg.wasm, tanpa unggah dan tanpa instalasi.
 - [Konverter video HD online vs alternatif](https://freetoolonline.com/guides/id/hd-video-converter-vs-alternatives.html) [lastmod=2026-07-02]
   Konverter Video HD Online Vs Alternatif - referensi cepat bersama Konverter Video HD Online.
-- [Konverter Video ke GIF Kapan Digunakan](https://freetoolonline.com/guides/id/video-gif-converter-when.html) [lastmod=2026-07-04]
+- [Konverter Video ke GIF Kapan Digunakan](https://freetoolonline.com/guides/id/video-gif-converter-when.html) [lastmod=2026-07-05]
   Konverter Video ke GIF Kapan Digunakan - kapan membuka Konverter Video ke GIF cocok untuk tugas dan apa yang diharapkan saat cocok.
-- [Konverter Video ke GIF Langkah demi Langkah](https://freetoolonline.com/guides/id/video-gif-converter-step-by-step.html) [lastmod=2026-07-04]
+- [Konverter Video ke GIF Langkah demi Langkah](https://freetoolonline.com/guides/id/video-gif-converter-step-by-step.html) [lastmod=2026-07-05]
   Konverter Video ke GIF Langkah demi Langkah - langkah-langkah persis untuk menjalankan Konverter Video ke GIF dari membuka hingga mengunduh hasilnya.
-- [Konverter Video Ke Gif Vs Alternatif](https://freetoolonline.com/guides/id/video-gif-converter-vs-alternatives.html) [lastmod=2026-07-04]
+- [Konverter Video Ke Gif Vs Alternatif](https://freetoolonline.com/guides/id/video-gif-converter-vs-alternatives.html) [lastmod=2026-07-05]
   Konverter Video Ke Gif Vs Alternatif - bagaimana Konverter Video ke GIF dibandingkan dengan aplikasi desktop atau layanan berbasis unggah.
 - [Konverter Video Online Gratis: Konversi ke MP4, MOV, MP3 dan Lainnya](https://freetoolonline.com/guides/id/video-converter-online-free.html) [lastmod=2026-06-29]
   Konversi video online gratis ke MP4, WebM, MOV, MP3 atau WAV. Potong segmen terlebih dahulu, tanpa akun. Diproses di server untuk file besar atau panjang.
@@ -2072,7 +2072,7 @@
   String MD5 32 karakter adalah sidik jari satu arah - tidak bisa dikonversi kembali ke teks yang menghasilkannya. Panduan ini menjelaskan mengapa, dan memberikan tiga tindakan yang benar-benar bekerja: verifikasi string yang diketahui, cari hash input umum, atau pilih hash berbeda untuk pekerjaan.
 - [MD5 vs SHA-256 - Kapan Menggunakan Masing-Masing](https://freetoolonline.com/guides/id/md5-vs-sha256-when-to-hash.html) [lastmod=2026-07-02]
   MD5 vs SHA-256 - kecepatan, ketahanan tabrakan, dan kasus penggunaan konkret. Kapan fingerprinting cukup, kapan kekuatan kriptografi penting.
-- [Membalik Teks: Kapan Ini Benar-Benar Berguna](https://freetoolonline.com/guides/id/reverse-text-when.html) [lastmod=2026-07-03]
+- [Membalik Teks: Kapan Ini Benar-Benar Berguna](https://freetoolonline.com/guides/id/reverse-text-when.html) [lastmod=2026-07-05]
   Kapan membalik teks berguna: cek palindrom, buat keterangan cermin, sandi sederhana, dan perbandingan dengan spreadsheet, rev, atau skrip.
 - [Memulihkan File Zip Rusak - Opsi](https://freetoolonline.com/guides/id/recover-corrupt-zip-file-options.html) [lastmod=2026-07-01]
   Jalur praktis untuk zip yang tidak terbuka: unduh ulang, ekstraksi sebagian, alat perbaikan, dan kapan menyerah. Apa yang bekerja, apa tidak, apa yang dicoba dulu.
@@ -2128,7 +2128,7 @@
   Pemindai Kode QR - kapan layak dibuka dan apa yang diharapkan ketika cocok.
 - [Pemindai Kode QR - Langkah demi Langkah](https://freetoolonline.com/guides/id/qr-code-scanner-step-by-step.html) [lastmod=2026-07-04]
   Pemindai Kode QR - langkah tepat dari membuka alat hingga mendapatkan hasil.
-- [Pemindai Kode QR vs Alternatif](https://freetoolonline.com/guides/id/qr-code-scanner-vs-alternatives.html) [lastmod=2026-07-04]
+- [Pemindai Kode QR vs Alternatif](https://freetoolonline.com/guides/id/qr-code-scanner-vs-alternatives.html) [lastmod=2026-07-05]
   Pemindai Kode QR dibandingkan dengan aplikasi desktop atau layanan online berbasis unggahan.
 - [Pemulihan Kata Sandi ZIP Online - apa yang bekerja (dan apa yang tidak)](https://freetoolonline.com/guides/id/zip-password-recovery-online.html) [lastmod=2026-06-30]
   Panduan pemulihan kata sandi ZIP online: apa yang dapat dan tidak dapat dilakukan unlocker online, plus tiga jalur yang bekerja ketika Anda lupa kata sandi ZIP. Ditinjau terakhir 2026-05-18.
@@ -2244,11 +2244,11 @@
   Url Decoder Kapan Digunakan - kapan membuka URL Decoder dan apa yang diharapkan.
 - [Url Decoder Langkah Demi Langkah](https://freetoolonline.com/guides/id/url-decoder-step-by-step.html) [lastmod=2026-07-04]
   Url Decoder Langkah Demi Langkah - langkah-langkah tepat untuk menjalankan URL Decoder.
-- [Url Decoder Vs Alternatif](https://freetoolonline.com/guides/id/url-decoder-vs-alternatives.html) [lastmod=2026-07-04]
+- [Url Decoder Vs Alternatif](https://freetoolonline.com/guides/id/url-decoder-vs-alternatives.html) [lastmod=2026-07-05]
   Url Decoder Vs Alternatif - bagaimana URL Decoder dibandingkan dengan aplikasi desktop atau layanan unggahan.
 - [Urutkan Baris Teks Langkah demi Langkah: Susun Daftar di Browser Anda](https://freetoolonline.com/guides/id/sort-text-lines-step-by-step.html) [lastmod=2026-07-03]
   Panduan langkah demi langkah untuk alat gratis Sort Text Lines: cara mengurutkan daftar A-Z atau Z-A, bagaimana urutan ditentukan, dan mengapa angka diurutkan sebagai teks.
-- [Waktu dalam milidetik: satuan, konversi, dan nilai epoch](https://freetoolonline.com/guides/id/time-in-ms.html) [lastmod=2026-07-03]
+- [Waktu dalam milidetik: satuan, konversi, dan nilai epoch](https://freetoolonline.com/guides/id/time-in-ms.html) [lastmod=2026-07-05]
   Waktu dalam milidetik adalah angka di mana 1 detik sama dengan 1000 ms. Pelajari makna durasi dan epoch, tabel konversi, dan di mana ms muncul dalam kode.
 - [Waktu sekarang dalam milidetik: baca nilai epoch langsung dan gunakan dengan benar](https://freetoolonline.com/guides/id/current-time-in-milliseconds.html) [lastmod=2026-07-02]
   Baca waktu sekarang dalam milidetik sejak epoch Unix di browser, salin untuk baris log atau panggilan API, dan hindari kebingungan 10-digit-vs-13-digit detik-vs-milidetik.
@@ -2361,7 +2361,7 @@
   Guia de roteamento para a duvida do compactador de arquivo: quando fazer ZIP de uma pasta para transporte vs quando comprimir uma unica imagem para reduzir bytes. Regra de 30 segundos, cinco passos.
 - [Compactador de Arquivos vs ZIP](https://freetoolonline.com/guides/pt/file-compressor-vs-zip-what-to-pick.html) [lastmod=2026-07-01]
   "Compactador de arquivos" e generico demais. Escolha por tipo de arquivo: ZIP uma pasta, comprima fotos, converta HEIC, agrupe PDFs ou use um link de transferencia para video.
-- [Compactador de Arquivos: Escolha pelo Tipo de Arquivo](https://freetoolonline.com/guides/pt/file-compressor.html) [lastmod=2026-05-31]
+- [Compactador de Arquivos: Escolha pelo Tipo de Arquivo](https://freetoolonline.com/guides/pt/file-compressor.html) [lastmod=2026-07-05]
   Compactador de arquivos gratuito que escolhe a ferramenta certa do navegador pelo que voce tem: ZIP uma pasta, comprima fotos, converta HEIC, agrupe PDFs ou use um link de transferencia.
 - [Compactador de Tamanho de Arquivo Zip - Guia Online Gratis](https://freetoolonline.com/guides/pt/zip-file-size-compressor.html) [lastmod=2026-07-03]
   Use um compactador de tamanho de arquivo zip online para agrupar uma pasta de arquivos em um unico .zip e reduzir o tamanho total antes de enviar. Gratis, sem instalar. Ultima revisao 2026-05-19.
@@ -2419,11 +2419,11 @@
   Conversor de Video HD Online Vs Alternativas - referencia rapida com Conversor de Video HD Online.
 - [Conversor de Vídeo Online Grátis: Converta para MP4, MOV, MP3 e Mais](https://freetoolonline.com/guides/pt/video-converter-online-free.html) [lastmod=2026-06-28]
   Converta vídeo online grátis para MP4, WebM, MOV, MP3 ou WAV. Recorte um trecho antes, sem necessidade de conta. Processamento no servidor para arquivos grandes ou longos.
-- [Conversor de Video para GIF Passo a Passo](https://freetoolonline.com/guides/pt/video-gif-converter-step-by-step.html) [lastmod=2026-07-04]
+- [Conversor de Video para GIF Passo a Passo](https://freetoolonline.com/guides/pt/video-gif-converter-step-by-step.html) [lastmod=2026-07-05]
   Conversor de Video para GIF Passo a Passo - os passos exatos para executar o Conversor de Video para GIF desde abrir ate baixar o resultado.
-- [Conversor de Video para GIF Quando Usar](https://freetoolonline.com/guides/pt/video-gif-converter-when.html) [lastmod=2026-07-04]
+- [Conversor de Video para GIF Quando Usar](https://freetoolonline.com/guides/pt/video-gif-converter-when.html) [lastmod=2026-07-05]
   Conversor de Video para GIF Quando Usar - quando abrir o Conversor de Video para GIF serve para a tarefa e o que esperar quando serve.
-- [Conversor De Video Para Gif Vs Alternativas](https://freetoolonline.com/guides/pt/video-gif-converter-vs-alternatives.html) [lastmod=2026-07-04]
+- [Conversor De Video Para Gif Vs Alternativas](https://freetoolonline.com/guides/pt/video-gif-converter-vs-alternatives.html) [lastmod=2026-07-05]
   Conversor De Video Para Gif Vs Alternativas - como o Conversor de Video para GIF se compara com um aplicativo de desktop ou um servico baseado em upload.
 - [Conversor GIF para Quadros - Extraia Cada Quadro como PNG ou JPG](https://freetoolonline.com/guides/pt/gif-to-frames-converter.html) [lastmod=2026-07-01]
   Converta um GIF animado em quadros individuais. Carregue, escolha PNG ou JPG e baixe cada quadro como uma imagem separada. Sem instalacao. Revisado 2026-06-10.
@@ -2525,11 +2525,11 @@
   Um guia passo a passo do Password Generator gratuito: defina o comprimento, escolha os conjuntos de caracteres, leia a etiqueta de forca e copie uma senha aleatoria forte - tudo no navegador.
 - [Gerador de Senhas vs. Alternativas: Qual Usar](https://freetoolonline.com/guides/pt/password-generator-vs-alternatives.html) [lastmod=2026-07-03]
   Compare o gerador de senhas no navegador com digitar a sua propria, usar o navegador ou um gerenciador - veja qual abordagem gera as senhas mais fortes e praticas.
-- [Gerador de Senhas: Quando Usar](https://freetoolonline.com/guides/pt/password-generator-when.html) [lastmod=2026-07-03]
+- [Gerador de Senhas: Quando Usar](https://freetoolonline.com/guides/pt/password-generator-when.html) [lastmod=2026-07-05]
   Descubra quando usar um gerador de senhas no navegador: criacao de conta, redefinicao de senha e qualquer login que exija senhas unicas e imprevisíveis.
 - [GIF em Frames: Salve cada frame de animacao como PNG ou JPG](https://freetoolonline.com/guides/pt/gif-into-frames.html) [lastmod=2026-07-01]
   Transforme um GIF em frames individuais online. Faca upload da animacao, escolha PNG ou JPG, e baixe cada frame como uma imagem estatica. Gratis, sem instalar. Ultima revisao: 2026-05-20.
-- [GIF para Quadro - extraia cada quadro como PNG ou JPG](https://freetoolonline.com/guides/pt/gif-to-frame.html) [lastmod=2026-06-10]
+- [GIF para Quadro - extraia cada quadro como PNG ou JPG](https://freetoolonline.com/guides/pt/gif-to-frame.html) [lastmod=2026-07-05]
   Carregue um GIF animado e extraia cada quadro como PNG ou JPG separado. Sem instalacao. Arquivos excluidos automaticamente. Revisado em 2026-06-10.
 - [Gravador de Voz Online Passo a Passo](https://freetoolonline.com/guides/pt/voice-recorder-step-by-step.html) [lastmod=2026-07-03]
   Gravador de Voz Online Passo a Passo - os passos exatos para usar o Online Voice Recorder do inicio ao resultado baixado.
@@ -2549,7 +2549,7 @@
   Voce deve embutir uma imagem como URL de dados base64 em HTML/CSS, ou vincular o arquivo de imagem? Uma regra de decisao pratica com limites concretos em bytes, trade-offs de cache e HTTP/2, e uma verificacao de sanidade em 30 segundos.
 - [ImageMagick Online vs Ferramentas Especificas - Qual Escolher](https://freetoolonline.com/guides/pt/imagemagick-online-vs-task-specific-tools-which-to-pick.html) [lastmod=2026-07-01]
   Guia de encaminhamento: quando abrir ImageMagick Online e quando uma ferramenta especifica (Crop, Resize, Compress, HEIC to JPG) e o caminho mais rapido. Cinco regras, uma decisao em 30 segundos.
-- [Inverter Texto: Quando Isso Ajuda de Verdade](https://freetoolonline.com/guides/pt/reverse-text-when.html) [lastmod=2026-07-03]
+- [Inverter Texto: Quando Isso Ajuda de Verdade](https://freetoolonline.com/guides/pt/reverse-text-when.html) [lastmod=2026-07-05]
   Quando inverter texto ajuda: verificar palindromos, criar legendas espelhadas, cifras simples, e a comparacao com planilha, rev ou um script.
 - [JPG Comprimido Parece Borrado? Três Causas (e Correções Rápidas)](https://freetoolonline.com/guides/pt/compressed-jpg-looks-blurry-three-causes.html) [lastmod=2026-07-01]
   JPG parece borrado depois da compressão? Três causas comuns - qualidade muito baixa, re-codificações repetidas, fonte upscaled - cada uma com uma correção rápida.
@@ -2625,7 +2625,7 @@
   Quando o Windows diz que nao consegue abrir um ficheiro .heic, tres solucoes rapidas funcionam: instalar a extensao HEIF gratuita, usar um visualizador gratuito ou converter para JPG online.
 - [Preflight PDF online: o que verifica de facto (e o que nao)](https://freetoolonline.com/guides/pt/pdf-preflight-online-what-it-actually-checks.html) [lastmod=2026-07-01]
   Preflight PDF online verifica conformidade arquival PDF/A - nao corrige problemas, nao certifica impressao PDF/X nem repara PDFs corrompidos. Guia rapido de escolha de ferramenta antes de carregar.
-- [Quando Usar o Gravador de Voz Online](https://freetoolonline.com/guides/pt/voice-recorder-when.html) [lastmod=2026-07-03]
+- [Quando Usar o Gravador de Voz Online](https://freetoolonline.com/guides/pt/voice-recorder-when.html) [lastmod=2026-07-05]
   Quando Usar o Gravador de Voz Online - quando abrir o Online Voice Recorder e adequado e o que esperar quando for.
 - [Quando Usar um Embaralhador de Lista Aleatoria](https://freetoolonline.com/guides/pt/random-list-shuffler-when.html) [lastmod=2026-07-02]
   Quando um embaralhador de lista aleatoria e a escolha certa: ordem de turnos, atribuicao de tarefas e listas de sorteio - e quando usar uma ferramenta de escolha unica em vez disso.
@@ -2665,7 +2665,7 @@
   Scanner de QR Code - os passos exatos para usar a ferramenta desde a abertura ate o resultado.
 - [Scanner de QR Code - Quando Usar](https://freetoolonline.com/guides/pt/qr-code-scanner-when.html) [lastmod=2026-07-04]
   Scanner de QR Code - quando abrir vale a pena e o que esperar quando faz sentido.
-- [Scanner de QR Code vs Alternativas](https://freetoolonline.com/guides/pt/qr-code-scanner-vs-alternatives.html) [lastmod=2026-07-04]
+- [Scanner de QR Code vs Alternativas](https://freetoolonline.com/guides/pt/qr-code-scanner-vs-alternatives.html) [lastmod=2026-07-05]
   Scanner de QR Code comparado com aplicativo de desktop ou servico online com upload.
 - [Senha MD5: como criar hash de uma senha e quando MD5 esta errado](https://freetoolonline.com/guides/pt/md5-password.html) [lastmod=2026-07-03]
   Guia de senha MD5: cole uma string de senha, receba um fingerprint de 32-hex, e saiba quando MD5 e seguro para checksums e quando bcrypt ou argon2id e a escolha certa.
@@ -2675,7 +2675,7 @@
   O teste de teclado nao mostra algumas teclas a destacar? Quatro causas - foco, layout do SO, filtro sticky keys, interruptor de hardware - e uma solucao de um minuto para cada uma.
 - [Tela Preta no Teste de Câmera: 4 Correções Que Funcionam](https://freetoolonline.com/guides/pt/camera-test-shows-black-screen-four-fixes.html) [lastmod=2026-05-31]
   Teste de câmera mostra um retângulo preto? Quatro causas - permissão, silenciamento do SO, conflito com câmera virtual, obturador de privacidade - e uma correção de um minuto para cada uma.
-- [Tempo em milissegundos: a unidade, as conversões e o valor epoch](https://freetoolonline.com/guides/pt/time-in-ms.html) [lastmod=2026-07-03]
+- [Tempo em milissegundos: a unidade, as conversões e o valor epoch](https://freetoolonline.com/guides/pt/time-in-ms.html) [lastmod=2026-07-05]
   Um tempo em milissegundos é um número onde 1 segundo equivale a 1000 ms. Veja os significados de duração e epoch, uma tabela de conversão e onde ms aparece no código.
 - [Testar LCD: Escolha a ferramenta certa de teste de tela](https://freetoolonline.com/guides/pt/test-lcd.html) [lastmod=2026-07-02]
   Testar LCD, teste LCD ou testador LCD mapeiam todos para um trabalho: verificar sua tela em busca de pixels mortos, cor e luz de fundo no navegador. Escolha a ferramenta certa aqui.
@@ -2739,7 +2739,7 @@
   Url Decoder Passo A Passo - os passos exatos para executar o URL Decoder do inicio ao resultado.
 - [Url Decoder Quando Usar](https://freetoolonline.com/guides/pt/url-decoder-when.html) [lastmod=2026-07-04]
   Url Decoder Quando Usar - quando abrir o URL Decoder e o que esperar quando for adequado.
-- [Url Decoder Vs Alternativas](https://freetoolonline.com/guides/pt/url-decoder-vs-alternatives.html) [lastmod=2026-07-04]
+- [Url Decoder Vs Alternativas](https://freetoolonline.com/guides/pt/url-decoder-vs-alternatives.html) [lastmod=2026-07-05]
   Url Decoder Vs Alternativas - como o URL Decoder se compara com um aplicativo ou servico de upload.
 - [Verificação de Câmera - O Que Significa e Qual Ferramenta Usar](https://freetoolonline.com/guides/pt/camera-check.html) [lastmod=2026-07-01]
   Verificação de câmera é o sinônimo cotidiano para "teste de câmera": o fluxo no navegador que pede ao SO o feed da webcam, mostra preview e confirma que a lente está aberta.
@@ -2890,11 +2890,11 @@
   Nhung gi chung toi hoc duoc khi van hanh cong cu anh mien phi trong trinh duyet cho 100 nghin nguoi dung moi thang - lua chon ky thuat, mau su dung, va dieu lam chung toi bat ngo.
 - [Cong Cu Chuyen Doi Tep Zip - No Thuc Su Lam Gi](https://freetoolonline.com/guides/vi/zip-file-converter-what-it-actually-does.html) [lastmod=2026-07-01]
   "Cong cu chuyen doi tep zip" la tim kiem sai. ZIP la mot container, khong phai mot dinh dang. Ba y dinh thuc su: gom, trich xuat hoac nen anh. Chon theo y dinh trong 30 giay.
-- [Cong Cu Chuyen Video Sang GIF Khi Nao Dung](https://freetoolonline.com/guides/vi/video-gif-converter-when.html) [lastmod=2026-07-04]
+- [Cong Cu Chuyen Video Sang GIF Khi Nao Dung](https://freetoolonline.com/guides/vi/video-gif-converter-when.html) [lastmod=2026-07-05]
   Cong Cu Chuyen Video Sang GIF Khi Nao Dung - khi nao mo Cong Cu Chuyen Video Sang GIF phu hop voi cong viec va nen mong doi gi khi no phu hop.
-- [Cong Cu Chuyen Video Sang Gif So Voi Cac Lua Chon Khac](https://freetoolonline.com/guides/vi/video-gif-converter-vs-alternatives.html) [lastmod=2026-07-04]
+- [Cong Cu Chuyen Video Sang Gif So Voi Cac Lua Chon Khac](https://freetoolonline.com/guides/vi/video-gif-converter-vs-alternatives.html) [lastmod=2026-07-05]
   Cong Cu Chuyen Video Sang Gif So Voi Cac Lua Chon Khac - cach Cong Cu Chuyen Video Sang GIF so sanh voi ung dung may tinh hoac dich vu dua tren tai len.
-- [Cong Cu Chuyen Video Sang GIF Tung Buoc](https://freetoolonline.com/guides/vi/video-gif-converter-step-by-step.html) [lastmod=2026-07-04]
+- [Cong Cu Chuyen Video Sang GIF Tung Buoc](https://freetoolonline.com/guides/vi/video-gif-converter-step-by-step.html) [lastmod=2026-07-05]
   Cong Cu Chuyen Video Sang GIF Tung Buoc - cac buoc chinh xac de chay Cong Cu Chuyen Video Sang GIF tu khi mo den khi tai xuong ket qua.
 - [Cong Cu Dem Tu Online: Huong Dan Tung Buoc](https://freetoolonline.com/guides/vi/word-counter-step-by-step.html) [lastmod=2026-07-03]
   Huong dan tung buoc cho cong cu Word Counter mien phi: y nghia cua sau con so truc tiep va cach tinh thoi gian doc uoc tinh.
@@ -2918,7 +2918,7 @@
   Mot huong dan ngan ve nhiem vu cua doc gia khi su dung cong cu nen zip: khi nao chon nen zip cho mot thu muc cac tep, tep .zip ket qua giu lai va khong giu lai nhung gi, va cong cu trong trinh duyet nam o dau.
 - [Cong Cu Tao Mat Khau vs. Cac Lua Chon Khac](https://freetoolonline.com/guides/vi/password-generator-vs-alternatives.html) [lastmod=2026-07-03]
   So sanh cong cu tao mat khau tren trinh duyet voi tu dat mat khau, dung trinh duyet hoac trinh quan ly - xem cach nao tao ra mat khau manh nhat va thuc te nhat.
-- [Cong Cu Tao Mat Khau: Khi Nao Nen Dung](https://freetoolonline.com/guides/vi/password-generator-when.html) [lastmod=2026-07-03]
+- [Cong Cu Tao Mat Khau: Khi Nao Nen Dung](https://freetoolonline.com/guides/vi/password-generator-when.html) [lastmod=2026-07-05]
   Tim hieu khi nao nen dung cong cu tao mat khau tren trinh duyet: tao tai khoan moi, dat lai mat khau va thay the mat khau bi dung lai hoac de doan.
 - [Cong cu truc tuyen co thuc su mien phi khong? Quyen rieng tu, kiem tien va mo hinh chay trong trinh duyet](https://freetoolonline.com/guides/vi/tool-free.html) [lastmod=2026-07-02]
   Cong cu truc tuyen co thuc su mien phi khong? Cach cac cong cu chay trong trinh duyet van mien phi ma khong can dang ky, cach quang cao tra chi phi, va nhung gi o lai tren thiet bi cua ban. Ra soat lan cuoi 2026-06-04.
@@ -2936,7 +2936,7 @@
   Khi nao CSS Unminifier la cong cu dung de doc nhanh CSS da trien khai, khi nao Prettier la cong cu dung de dinh dang ma nguon ban se commit va nhung gi khong cong cu nao co the khoi phuc sau khi build voi tree-shaking.
 - [CSV vs JSON - Khi Nao Dung Dinh Dang Du Lieu Nao](https://freetoolonline.com/guides/vi/csv-vs-json-data-formats.html) [lastmod=2026-07-02]
   Dinh dang du lieu CSV vs JSON - khi nao chon hang-va-cot vs doi tuong co cau truc, voi danh doi ve phan tich, kich thuoc va cong cu cho luong 2026.
-- [Dao Nguoc Van Ban: Khi Nao Thuc Su Co Ich](https://freetoolonline.com/guides/vi/reverse-text-when.html) [lastmod=2026-07-03]
+- [Dao Nguoc Van Ban: Khi Nao Thuc Su Co Ich](https://freetoolonline.com/guides/vi/reverse-text-when.html) [lastmod=2026-07-05]
   Khi nao dao nguoc van ban co ich: kiem tra doc xuoi doc nguoc, chu de doi guong, ma hoa don gian, va so sanh voi bang tinh, rev hoac script.
 - [Dau Ra Trinh Trich Xuat Khung GIF Trong Sai? Ba Nguyen Nhan Va Kiem Tra 30 Giay](https://freetoolonline.com/guides/vi/gif-frame-extractor-output-looks-wrong-three-causes.html) [lastmod=2026-07-04]
   Trinh trich xuat khung GIF cho mot khung, khung trong hoac mau la? Ba nguyen nhan - GIF tinh, che do bo do-not-dispose, gioi han bo nho - moi cai voi mot cach khac phuc.
@@ -2984,7 +2984,7 @@
   Mot huong dan dinh huong doc gia ve viec su dung mot bo giam kich thuoc ZIP: khi nao nen ZIP thuc su tiet kiem dung luong, khi nao khong, va bo tao ZIP trinh duyet o dau. Cap nhat lan cuoi: 2026-05-17.
 - [GIF thanh Frame: Luu moi khung hinh hoat anh thanh PNG hoac JPG](https://freetoolonline.com/guides/vi/gif-into-frames.html) [lastmod=2026-06-29]
   Bien mot GIF thanh cac frame rieng le online. Tai len hoat anh, chon PNG hoac JPG, va tai xuong moi frame nhu mot anh tinh. Mien phi, khong cai dat. Cap nhat lan cuoi: 2026-05-20.
-- [GIF Thanh Khung - trich xuat moi khung thanh PNG hoac JPG](https://freetoolonline.com/guides/vi/gif-to-frame.html) [lastmod=2026-06-29]
+- [GIF Thanh Khung - trich xuat moi khung thanh PNG hoac JPG](https://freetoolonline.com/guides/vi/gif-to-frame.html) [lastmod=2026-07-05]
   Tai len GIF dong va trich xuat tung khung thanh PNG hoac JPG. Khong can cai dat. Tep tu dong xoa sau khi tai. Xem lai 2026-06-10.
 - [HEIC sang JPG: cong cu chuyen doi thuc su lam gi](https://freetoolonline.com/guides/vi/heic-to-jpg-claims-what-actually-works.html) [lastmod=2026-06-30]
   /heic-to-jpg.html thuc su hoat dong nhu the nao: giai ma libheif, ma hoa lai JPG, dieu khien EXIF + chat luong, cong cac tuyen bo ma cong cu KHONG dua ra. Doc truoc khi tai len.
@@ -3008,7 +3008,7 @@
   Ba dinh dang cau hinh, ba kieu ergonomic. JSON cho may, YAML cho con nguoi, TOML cho cau hinh nong. Cac danh doi quyet dinh du an cua ban can gi.
 - [Khi Nao Dung Cong Cu Xao Tron Danh Sach Ngau Nhien](https://freetoolonline.com/guides/vi/random-list-shuffler-when.html) [lastmod=2026-07-02]
   Khi nao mot cong cu xao tron danh sach ngau nhien phu hop: thu tu luot choi, phan cong nhiem vu, danh sach ve so - va khi nao nen dung cong cu chon mot nguoi thang thay vao do.
-- [Khi Nao Dung Ghi Am Truc Tuyen](https://freetoolonline.com/guides/vi/voice-recorder-when.html) [lastmod=2026-07-03]
+- [Khi Nao Dung Ghi Am Truc Tuyen](https://freetoolonline.com/guides/vi/voice-recorder-when.html) [lastmod=2026-07-05]
   Khi Nao Dung Ghi Am Truc Tuyen - khi nao mo Online Voice Recorder la phu hop va nhung gi xay ra khi su dung.
 - [Khoi Phuc Mat Khau ZIP Online - cai gi hoat dong (va cai gi khong)](https://freetoolonline.com/guides/vi/zip-password-recovery-online.html) [lastmod=2026-06-30]
   Huong dan khoi phuc mat khau ZIP online: bo go online co the va khong the lam gi, cung ba duong di hoat dong khi ban quen mat khau ZIP. Lan ra soat cuoi 2026-05-18.
@@ -3130,7 +3130,7 @@
   Cong cu Quet Ma QR - khi nao phu hop va nhung gi can chu y khi dung.
 - [Quet Ma QR - Tung Buoc](https://freetoolonline.com/guides/vi/qr-code-scanner-step-by-step.html) [lastmod=2026-07-04]
   Cong cu Quet Ma QR - tung buoc tu mo cong cu den lay ket qua.
-- [Quet Ma QR vs Cac Lua Chon Khac](https://freetoolonline.com/guides/vi/qr-code-scanner-vs-alternatives.html) [lastmod=2026-07-04]
+- [Quet Ma QR vs Cac Lua Chon Khac](https://freetoolonline.com/guides/vi/qr-code-scanner-vs-alternatives.html) [lastmod=2026-07-05]
   Cong cu Quet Ma QR so voi ung dung may tinh hoac dich vu truc tuyen can tai len.
 - [Quyen Kiem Tra Microphone Bi Chan: Cach Cho Phep Truy Cap Mic Trong Trinh Duyet](https://freetoolonline.com/guides/vi/microphone-test-permission-blocked-how-to-allow-it.html) [lastmod=2026-06-30]
   Kiem tra microphone hien dong ho phang hoac khong co nhac quyen? Cho phep truy cap mic trong Chrome, Firefox, Safari va Edge - duong dan nhap chinh xac theo tung trinh duyet, va bi chan vs bi bo qua trong nhu the nao.
@@ -3176,7 +3176,7 @@
   Thang quyet dinh cho chinh sua PDF. Tach, gop, trich xuat, bao ve, lam phang, chuyen doi - chon dung cong cu theo y dinh trong 30 giay. 12 cong cu PDF anh xa sang luong cong viec.
 - [Thay Doi Kich Thuoc File Zip: "Resize" That Su Co Nghia Gi Voi mot .zip](https://freetoolonline.com/guides/vi/resize-zip-file.html) [lastmod=2026-07-02]
   "Thay doi kich thuoc file zip" thuong nghia la lam nho archive, doi khi chia no, doi khi lam nho anh ben trong truoc khi re-zip. Bang dinh tuyen + cong cu dung cho moi truong hop.
-- [Thoi gian bang mili giay: don vi, chuyen doi va gia tri epoch](https://freetoolonline.com/guides/vi/time-in-ms.html) [lastmod=2026-07-03]
+- [Thoi gian bang mili giay: don vi, chuyen doi va gia tri epoch](https://freetoolonline.com/guides/vi/time-in-ms.html) [lastmod=2026-07-05]
   Thoi gian bang mili giay la mot so voi 1 giay bang 1000 ms. Tim hieu y nghia thoi luong va epoch, bang chuyen doi, va noi ms xuat hien trong ma nguon.
 - [Thoi gian hien tai bang mili giay: doc gia tri epoch truc tiep va dung dung cach](https://freetoolonline.com/guides/vi/current-time-in-milliseconds.html) [lastmod=2026-07-02]
   Doc thoi gian hien tai bang mili giay ke tu epoch Unix trong trinh duyet, sao chep cho dong log hoac goi API, va tranh nham lan 10-chu-so-vs-13-chu-so giay-vs-mili-giay.
@@ -3194,7 +3194,7 @@
   Khi nao chuyen doi HEIC sang JPG, khi nao giu HEIC goc va khi nao khong duong nao thang. Quy tac quyet dinh cho dong bo iCloud, nguoi nhan Windows va chinh sua.
 - [Trinh Nen File vs ZIP](https://freetoolonline.com/guides/vi/file-compressor-vs-zip-what-to-pick.html) [lastmod=2026-07-01]
   "Trinh nen file" qua chung chung. Chon theo loai file: ZIP mot thu muc, nen anh, chuyen doi HEIC, gom PDF hoac dung lien ket truyen cho video.
-- [Trinh Nen File: Chon Theo Loai File](https://freetoolonline.com/guides/vi/file-compressor.html) [lastmod=2026-05-31]
+- [Trinh Nen File: Chon Theo Loai File](https://freetoolonline.com/guides/vi/file-compressor.html) [lastmod=2026-07-05]
   Trinh nen file mien phi chon dung cong cu trinh duyet theo nhung gi ban co: ZIP mot thu muc, nen anh, chuyen doi HEIC, gop PDF hoac dung lien ket truyen file.
 - [Trinh Rut Gon CSS vs Trinh Nen](https://freetoolonline.com/guides/vi/css-minifier-vs-compressor.html) [lastmod=2026-07-02]
   Trinh rut gon CSS vs trinh nen - xoa khoang trang vs nen gzip/brotli, moi loai tiet kiem gi, va thu tu pipeline chinh xac de trien khai production.
@@ -3212,7 +3212,7 @@
   Unminify JavaScript minified online mien phi. Dan bundle vao, nhan ma duoc thut le va ngat dong tro lai - khong cai dat, chay tren trinh duyet. Cap nhat lan cuoi 2026-05-20.
 - [Url Decoder Khi Nao Dung](https://freetoolonline.com/guides/vi/url-decoder-when.html) [lastmod=2026-07-04]
   Url Decoder Khi Nao Dung - khi nao mo URL Decoder va nhung gi can biet khi dung no.
-- [Url Decoder So Voi Cac Cong Cu Khac](https://freetoolonline.com/guides/vi/url-decoder-vs-alternatives.html) [lastmod=2026-07-04]
+- [Url Decoder So Voi Cac Cong Cu Khac](https://freetoolonline.com/guides/vi/url-decoder-vs-alternatives.html) [lastmod=2026-07-05]
   Url Decoder So Voi Cac Cong Cu Khac - URL Decoder so sanh voi ung dung may tinh va dich vu upload.
 - [Url Decoder Tung Buoc](https://freetoolonline.com/guides/vi/url-decoder-step-by-step.html) [lastmod=2026-07-04]
   Url Decoder Tung Buoc - cac buoc chinh xac de chay URL Decoder tu dau den ket qua.
