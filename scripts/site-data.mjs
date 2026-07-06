@@ -2149,6 +2149,28 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/jpg-webp-converter-step-by-step.html',
   '/guides/de/jpg-webp-converter-when.html',
   '/guides/de/jpg-webp-converter-vs-alternatives.html',
+  // new-tool-discovery-loop-runbook fire-35 (2026-07-06): webp-to-png
+  // companion guides - EN + full pt/es/vi/id/de locale fanout (builder wires
+  // JSP_BY_ROUTE only; backfilling GUIDE_ROUTES here, per the fire33/34 gap
+  // class, so sitemap-guides.xml / guides.html / llms.txt list every locale).
+  '/guides/webp-png-converter-step-by-step.html',
+  '/guides/webp-png-converter-when.html',
+  '/guides/webp-png-converter-vs-alternatives.html',
+  '/guides/pt/webp-png-converter-step-by-step.html',
+  '/guides/pt/webp-png-converter-when.html',
+  '/guides/pt/webp-png-converter-vs-alternatives.html',
+  '/guides/es/webp-png-converter-step-by-step.html',
+  '/guides/es/webp-png-converter-when.html',
+  '/guides/es/webp-png-converter-vs-alternatives.html',
+  '/guides/vi/webp-png-converter-step-by-step.html',
+  '/guides/vi/webp-png-converter-when.html',
+  '/guides/vi/webp-png-converter-vs-alternatives.html',
+  '/guides/id/webp-png-converter-step-by-step.html',
+  '/guides/id/webp-png-converter-when.html',
+  '/guides/id/webp-png-converter-vs-alternatives.html',
+  '/guides/de/webp-png-converter-step-by-step.html',
+  '/guides/de/webp-png-converter-when.html',
+  '/guides/de/webp-png-converter-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -3943,6 +3965,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/jpg-webp-converter-step-by-step.html': 'guide/de/jpg-webp-converter-step-by-step.jsp',
   '/guides/de/jpg-webp-converter-when.html': 'guide/de/jpg-webp-converter-when.jsp',
   '/guides/de/jpg-webp-converter-vs-alternatives.html': 'guide/de/jpg-webp-converter-vs-alternatives.jsp',
+  '/image-converter-tools/webp-to-png.html': 'convert/webp-to-png.jsp',
+  '/guides/webp-png-converter-when.html': 'guide/webp-png-converter-when.jsp',
+  '/guides/webp-png-converter-step-by-step.html': 'guide/webp-png-converter-step-by-step.jsp',
+  '/guides/webp-png-converter-vs-alternatives.html': 'guide/webp-png-converter-vs-alternatives.jsp',
+  '/guides/pt/webp-png-converter-step-by-step.html': 'guide/pt/webp-png-converter-step-by-step.jsp',
+  '/guides/pt/webp-png-converter-when.html': 'guide/pt/webp-png-converter-when.jsp',
+  '/guides/pt/webp-png-converter-vs-alternatives.html': 'guide/pt/webp-png-converter-vs-alternatives.jsp',
+  '/guides/es/webp-png-converter-step-by-step.html': 'guide/es/webp-png-converter-step-by-step.jsp',
+  '/guides/es/webp-png-converter-when.html': 'guide/es/webp-png-converter-when.jsp',
+  '/guides/es/webp-png-converter-vs-alternatives.html': 'guide/es/webp-png-converter-vs-alternatives.jsp',
+  '/guides/vi/webp-png-converter-step-by-step.html': 'guide/vi/webp-png-converter-step-by-step.jsp',
+  '/guides/vi/webp-png-converter-when.html': 'guide/vi/webp-png-converter-when.jsp',
+  '/guides/vi/webp-png-converter-vs-alternatives.html': 'guide/vi/webp-png-converter-vs-alternatives.jsp',
+  '/guides/id/webp-png-converter-step-by-step.html': 'guide/id/webp-png-converter-step-by-step.jsp',
+  '/guides/id/webp-png-converter-when.html': 'guide/id/webp-png-converter-when.jsp',
+  '/guides/id/webp-png-converter-vs-alternatives.html': 'guide/id/webp-png-converter-vs-alternatives.jsp',
+  '/guides/de/webp-png-converter-step-by-step.html': 'guide/de/webp-png-converter-step-by-step.jsp',
+  '/guides/de/webp-png-converter-when.html': 'guide/de/webp-png-converter-when.jsp',
+  '/guides/de/webp-png-converter-vs-alternatives.html': 'guide/de/webp-png-converter-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
