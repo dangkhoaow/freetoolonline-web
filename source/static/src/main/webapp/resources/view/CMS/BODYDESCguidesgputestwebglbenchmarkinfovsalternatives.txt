@@ -1,0 +1,1 @@
+An honest look at a browser GPU test vs installed benchmark suites - what 0.7 MB and 20 to 40 seconds buy you, and where native software still wins.
