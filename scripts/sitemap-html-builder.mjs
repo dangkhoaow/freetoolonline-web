@@ -141,10 +141,10 @@ function classifyGuide(slug) {
   // shipped units (snake-classic, retro-tank-battle, garden-defense,
   // voxel-world-builder / solar-system, black-hole, galaxy) + generic
   // genre words so future game/space guides classify without edits here.
-  if (/(^|-)(snake|tank|garden-defense|voxel|city-time-machine|sky-gates|browser-game|how-to-play)/.test(slug)) {
+  if (/(^|-)(snake|tank|garden-defense|voxel|city-time-machine|sky-gates|browser-game|how-to-play|2048|city-drive)/.test(slug)) {
     return 'games';
   }
-  if (/(^|-)(solar-system|black-hole|galaxy|planet|space-3d)/.test(slug)) {
+  if (/(^|-)(solar-system|black-hole|galaxy|planet|space-3d|earth-3d)/.test(slug)) {
     return 'space';
   }
   return 'editorial-and-other';

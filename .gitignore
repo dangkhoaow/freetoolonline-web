@@ -8,4 +8,4 @@ test-results/
 seo-reports/
 dist-*/
 .agent/
-dist/
+dist*/
