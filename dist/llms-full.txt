@@ -2,7 +2,7 @@
 
 > Curated index of every page on freetoolonline.com with title, description, and a one-paragraph lead snippet from the page body. Intended as a citation surface for LLM training and AI-Overview retrieval.
 
-> Generated: 2026-07-04T23:57:05.777Z
+> Generated: 2026-07-05T20:55:21.017Z
 
 > Citation policy: please cite freetoolonline.com and link to the canonical URL when quoting any text below.
 
@@ -27,7 +27,7 @@ Snippet: image-conv/image-edit/PDF medium -> dev/device-test/video/utility small
 ## AI Background Remover - Free Online
 
 URL: https://freetoolonline.com/image-tools/background-remover.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: tool
 
 Description: AI Background Remover - Remove the background from an image in your browser - your image never leaves your device.
@@ -38,7 +38,7 @@ Snippet: Upload an image and click Remove background to process it locally using
 ## Analog Clock Online - Live Clock Display
 
 URL: https://freetoolonline.com/utility-tools/analog-clock.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: tool
 
 Description: Show the current time as a live analog clock in your browser. No download, no account - the hands sweep in real time from your device's own clock.
@@ -49,7 +49,7 @@ Snippet: The hour, minute, and second hands sweep automatically below - no input
 ## Base64 Encoder and Decoder - Text to Base64 in Your Browser
 
 URL: https://freetoolonline.com/developer-tools/base64-encoder.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Encode text to Base64 or decode a Base64 string back to text, right in your browser - no upload and no account. UTF-8 safe; invalid Base64 shows an error inline.
@@ -60,7 +60,7 @@ Snippet: Type or paste into the box, then click Encode or Decode; the result app
 ## Base64 to Image Converter Online - Decode to PNG/JPG
 
 URL: https://freetoolonline.com/image-converter-tools/base64-to-image.html
-Last modified: 2026-07-04
+Last modified: 2026-06-30
 Kind: tool
 
 Description: Base64 to image online - paste a data URI or raw Base64 string, click Convert, and your browser renders the decoded picture as a preview. No upload.
@@ -71,7 +71,7 @@ Snippet: Convert Direct link Copy
 ## Black Hole 3D Visualizer - Free Online
 
 URL: https://freetoolonline.com/space-3d/black-hole.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Black Hole 3D Visualizer - Tens of thousands of glowing particles orbit the black event-horizon sphere, and the inner ones circle faster - the same reason ...
@@ -101,6 +101,17 @@ Description: Bộ chuyển đổi tiếng Việt kiểu mới. Giúp chuyển ch
 Snippet: Chuyển đổi sang Tiếq Việt mới trực tuyến Công cụ này phát triến để phục vụ cho mục đích học thuật, logic chuyển đổi dựa trên công trình nghiên cứu "cải tiến chữ Quốc Ngữ" của PGS.TS Bùi Hiền.
 
 ---
+## City Time Machine 3D - Free Online
+
+URL: https://freetoolonline.com/games/city-time-machine.html
+Last modified: 2026-07-05
+Kind: tool
+
+Description: City Time Machine 3D - Drag the 1945-2055 timeline and watch one city block's buildings, vehicles, signs, street lights, and people transform live in front...
+
+Snippet: Drag on the scene to orbit the block, scroll or pinch to zoom down to street level, and click any era label to jump straight to that year.
+
+---
 ## Code Beautifier - Format JavaScript, CSS & HTML Online
 
 URL: https://freetoolonline.com/developer-tools/code-formatter-beautifier.html
@@ -126,7 +137,7 @@ Snippet: Click Flip; the coin lands on heads or tails.
 ## Color Picker - Free Online, No Sign-Up
 
 URL: https://freetoolonline.com/developer-tools/color-picker.html
-Last modified: 2026-06-25
+Last modified: 2026-06-28
 Kind: tool
 
 Description: Pick a color and read its HEX, RGB, and HSL values, with complementary, analogous, and shade palettes and one-click copy. No upload, no account.
@@ -170,7 +181,7 @@ Snippet: Your HTML file is ready Download HTML Reach for this PDF to HTML conver
 ## Countdown Timer Online - Set Minutes and Seconds
 
 URL: https://freetoolonline.com/utility-tools/countdown-timer.html
-Last modified: 2026-07-02
+Last modified: 2026-07-04
 Kind: tool
 
 Description: Countdown Timer Online - Set any duration in minutes and seconds, then start, pause, or reset the count down right in your browser. No install, no account.
@@ -192,7 +203,7 @@ Snippet: Preview Set crop box size below: X px Y px Width px Height px 16:9 4:3 
 ## CSS Gradient Generator - Build & Copy Gradient Code
 
 URL: https://freetoolonline.com/developer-tools/css-gradient-generator.html
-Last modified: 2026-06-25
+Last modified: 2026-06-28
 Kind: tool
 
 Description: CSS gradient generator - build animated linear gradients with live preview; copy ready-to-paste CSS with vendor-prefix fallbacks for every browser.
@@ -236,7 +247,7 @@ Snippet: Current time: Get Millisecond The millisecond value after convert:
 ## Data Visualizer - Free Online, No Sign-Up
 
 URL: https://freetoolonline.com/developer-tools/data-visualizer.html
-Last modified: 2026-06-30
+Last modified: 2026-06-29
 Kind: tool
 
 Description: Paste CSV, JSON, or Label, Value rows and draw them as bar, line, pie, and more chart types - all in your browser. No upload, no account.
@@ -258,7 +269,7 @@ Snippet: Set how many dice to roll, then click Roll; each die's face updates wit
 ## Digital Clock Online - Large Live Time Display
 
 URL: https://freetoolonline.com/utility-tools/digital-clock.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: tool
 
 Description: Digital Clock Online - Show the current time as a large HH:MM:SS digital readout with today's date, right in your browser. No install, no account.
@@ -291,7 +302,7 @@ Snippet: PDF pages N/A Choose a passphrase below; the resulting locked copy refu
 ## Extract & Unzip Files Online - Decompress ZIP
 
 URL: https://freetoolonline.com/zip-tools/unzip-file.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Extract files from a ZIP online - open archives, browse contents, and download individual files in your browser. Free, secure, no installs. Try it now.
@@ -302,7 +313,7 @@ Snippet: Password UnZip Note: Zip size MB.
 ## FFmpeg Online - Run FFmpeg Commands in Your Browser
 
 URL: https://freetoolonline.com/video-tools/ffmpeg-online.html
-Last modified: 2026-07-04
+Last modified: 2026-06-30
 Kind: tool
 
 Description: FFmpeg online - run FFmpeg or FFprobe commands on your media through our processing service. Convert, trim, extract, probe with no local install.
@@ -324,7 +335,7 @@ Snippet: This is a file compressor for images (JPEG, PNG, WebP) - not a folder o
 ## File Compressor Online: Pick the Right Tool by File Type
 
 URL: https://freetoolonline.com/utility-tools/file-compressor.html
-Last modified: 2026-06-29
+Last modified: 2026-06-30
 Kind: tool
 
 Description: Free file compressor online: ZIP a folder, compress JPG/PNG photos, convert HEIC to JPG, or merge PDFs - the right tool for each input, in your browser.
@@ -346,7 +357,7 @@ Snippet: PDF pages N/A Uploaded successfully, select the tool that you want to f
 ## Font Generator - Free Online, No Sign-Up
 
 URL: https://freetoolonline.com/utility-tools/font-generator.html
-Last modified: 2026-06-25
+Last modified: 2026-06-28
 Kind: tool
 
 Description: Style your text with a font, size, weight, colors, spacing, and an optional shadow, then save it as a PNG or copy it. No upload, no account.
@@ -357,7 +368,7 @@ Snippet: Style your text - choose a font, size, weight, colors, spacing, and an 
 ## Free Audio Converter - MP3, WAV, AAC, OGG, FLAC in Your Browser
 
 URL: https://freetoolonline.com/image-converter-tools/audio-converter.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: tool
 
 Description: Free audio converter - turn MP3, WAV, AAC, OGG, FLAC, or M4A files, or a video's audio track, into an MP3 at your chosen bitrate in the browser. No upload - conversion runs locally via FFmpeg.wasm.
@@ -368,7 +379,7 @@ Snippet: Audio bitrate (for audio output): 128 kbps (small) 192 kbps (standard) 
 ## Galaxy 3D Simulator - Free Online
 
 URL: https://freetoolonline.com/space-3d/galaxy.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Galaxy 3D Simulator - Up to 100,000 points form the spiral arms on desktop (30,000 on phones so rotation stays smooth) - a real feel for how thin and vast ...
@@ -379,7 +390,7 @@ Snippet: The New spiral button regenerates the galaxy with a fresh arm count and
 ## Garden Defense - Free Browser Lane Defense Game
 
 URL: https://freetoolonline.com/games/garden-defense.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Garden Defense - Pick a defender card - Shooter (100 energy), Battery (50, makes more energy), or Wall (50, soaks damage) - then click or tap a cell to pla...
@@ -390,7 +401,7 @@ Snippet: Energy ticks in on its own every few seconds and every Battery adds mor
 ## GIF Maker Online - Build GIFs from Video or Images
 
 URL: https://freetoolonline.com/image-tools/gif-maker.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: tool
 
 Description: GIF maker online - create an animated GIF from a video clip or a sequence of still images. Set framerate, resize, trim frames.
@@ -398,10 +409,21 @@ Description: GIF maker online - create an animated GIF from a video clip or a se
 Snippet: Depends on your video or gif duration, the making process might take within a few seconds.
 
 ---
+## GPU Test - WebGL Benchmark & Info - Free Online
+
+URL: https://freetoolonline.com/device-test-tools/gpu-test.html
+Last modified: 2026-07-05
+Kind: tool
+
+Description: GPU Test - WebGL Benchmark & Info - See what your browser's graphics stack can do - WebGL 1 and 2 availability, the renderer name your browser reports, tex...
+
+Snippet: Click Run benchmark and the page renders an instanced 3D scene that doubles in size per tier (1,000 up to 256,000 meshes) while measuring the median frame rate - a full run takes roughly 20 to 40 seconds.
+
+---
 ## Grocery List - Free Online
 
 URL: https://freetoolonline.com/utility-tools/grocery-list.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Grocery List - Keep a grocery list in the browser - add, check off, and delete items.
@@ -412,7 +434,7 @@ Snippet: Type an item and press Enter, or use the Add button, to append it to th
 ## Habit Tracker - Free Online
 
 URL: https://freetoolonline.com/utility-tools/habit-tracker.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Habit Tracker - Keep a habit list in the browser - add, check off, and delete items.
@@ -445,7 +467,7 @@ Snippet: Upload an image and the optimizer audits it locally to recommend an opt
 ## Image to Base64 Online - Encode PNG or JPG to Base64
 
 URL: https://freetoolonline.com/image-converter-tools/image-to-base64.html
-Last modified: 2026-06-29
+Last modified: 2026-06-30
 Kind: tool
 
 Description: Image to Base64 online - encode a PNG, JPG, or WebP into a Base64 data URI for CSS backgrounds, JSON payloads, or email embeds. In-browser, no upload.
@@ -500,7 +522,7 @@ Snippet: Paste raw JavaScript into the editor below and click Minify - the tool 
 ## JavaScript Unminifier - Beautify Minified JS Online
 
 URL: https://freetoolonline.com/developer-tools/js-unminifier.html
-Last modified: 2026-06-29
+Last modified: 2026-06-30
 Kind: tool
 
 Description: JavaScript unminifier online - reformat minified JS with indentation and line breaks for stack-trace debugging. Paste or upload. In-browser, no tracking.
@@ -610,7 +632,7 @@ Snippet: Pick an alarm time, click Set alarm, and watch for the on-screen alert 
 ## Online Code Editor - In Your Browser, No Upload
 
 URL: https://freetoolonline.com/developer-tools/code-editor.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: tool
 
 Description: A free in-browser code editor powered by the Monaco engine behind VS Code. 18 languages, light/dark themes, open and save files - all on your device, no upload.
@@ -654,7 +676,7 @@ Snippet: Depends on your video duration, the converting process might takes with
 ## Online Video Trimmer - Free Online
 
 URL: https://freetoolonline.com/video-tools/video-trimmer.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Online Video Trimmer - Trim an MP4, MOV, or WebM video to the exact time range you need, right in your browser. No upload, no re-encoding.
@@ -676,7 +698,7 @@ Snippet: Choose a source, click Start to record, then Stop to save the clip as a
 ## Password Generator - Strong Random Passwords in Your Browser
 
 URL: https://freetoolonline.com/utility-tools/password-generator.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Create a strong random password in your browser. Choose the length from 4 to 64 and which character sets to include - nothing is uploaded or saved.
@@ -687,7 +709,7 @@ Snippet: A random password appears in the box below the moment this page loads.
 ## PDF Form Filler Online - Fill In Existing Form Fields
 
 URL: https://freetoolonline.com/pdf-tools/pdf-filler-form-editor.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: tool
 
 Description: Fill in an existing PDF's form fields online, right in your browser. No upload, no install - load a fillable PDF and download the completed file.
@@ -775,7 +797,7 @@ Snippet: Turn any text or link into a scannable QR code right in your browser - 
 ## QR Code Scanner - Free Online
 
 URL: https://freetoolonline.com/utility-tools/qr-code-scanner.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: tool
 
 Description: QR Code Scanner - M1: Find out what a QR code says from a screenshot or saved photo - choose the image and the decoded text appears in seconds, no app inst...
@@ -852,7 +874,7 @@ Snippet: Direct link Download resized image Copy Max Width (px) Max Height (px) 
 ## Retro Tank Battle - Free Online
 
 URL: https://freetoolonline.com/games/retro-tank-battle.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Retro Tank Battle - Drive your tank with the arrows or WASD, fire with Space, and clear the wave of 6 enemy tanks before they destroy your base or your 3 l...
@@ -874,7 +896,7 @@ Snippet: Paste or type your text, then click Run; the reversed text appears in t
 ## Screen Recorder - Record Screen, Camera or Mic in Browser
 
 URL: https://freetoolonline.com/device-test-tools/screen-recorder.html
-Last modified: 2026-07-04
+Last modified: 2026-06-24
 Kind: tool
 
 Description: Record your screen, camera, or microphone in the browser, blur faces while recording, and download the clip as WebM or convert it to MP4 - no upload.
@@ -882,10 +904,21 @@ Description: Record your screen, camera, or microphone in the browser, blur face
 Snippet: Choose a source, click Start to record, then Stop to save the clip.
 
 ---
+## Sky Gates Flight - Free Online
+
+URL: https://freetoolonline.com/games/sky-gates-flight.html
+Last modified: 2026-07-05
+Kind: tool
+
+Description: Sky Gates Flight - Fly a little plane over the ocean and steer through the gates - green ones add their number to your power, red ones subtract it, and the...
+
+Snippet: Click Start flight, then steer by dragging on the scene or with the arrow keys / WASD; the fullscreen button puts the whole run on your screen.
+
+---
 ## Snake Classic - Free Browser Snake Game, No Install
 
 URL: https://freetoolonline.com/games/snake-classic.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Snake Classic - Press an arrow key (or swipe on a phone) and the game starts instantly - eat the food, grow one segment, and dodge the walls and your own t...
@@ -896,7 +929,7 @@ Snippet: The pace rises as you score - every 5 foods the snake speeds up, so lat
 ## Solar System 3D Explorer - Free Online
 
 URL: https://freetoolonline.com/space-3d/solar-system.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Solar System 3D Explorer - All eight planets orbit the sun live on screen - drag to orbit the view, scroll or pinch to zoom, and watch inner planets lap th...
@@ -918,7 +951,7 @@ Snippet: Paste one item per line, then click Sort A-Z or Sort Z-A; the reordered
 ## Speech to Text - Free Online
 
 URL: https://freetoolonline.com/utility-tools/speech-to-text.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Speech to Text - Convert a SPEECH input into a TEXT output - one step, in the browser.
@@ -960,7 +993,7 @@ Description: Split PDF to individual pages online - one PDF file per source page
 ## Steganography - Hide Text in a PNG Image
 
 URL: https://freetoolonline.com/image-tools/steganography.html
-Last modified: 2026-06-20
+Last modified: 2026-06-24
 Kind: tool
 
 Description: Steganography - Hide a secret text message inside an ordinary PNG image - the picture looks identical to the eye but carries your hidden note in its pixels.
@@ -982,7 +1015,7 @@ Snippet: PNG WEBP (Recommended) JPG Select your expected format Custom Min Width
 ## Text Diff Checker Online - Compare Text Side-by-Side
 
 URL: https://freetoolonline.com/developer-tools/text-diff.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: tool
 
 Description: Text diff online - compare two text blocks and highlight added, removed, and changed characters, words, or lines. Configs, copy, logs. In-browser, local.
@@ -993,7 +1026,7 @@ Snippet: https://freetoolonline.com/developer-tools/text-diff.html https://freet
 ## Text Repeater - Repeat Text Online, Free
 
 URL: https://freetoolonline.com/developer-tools/text-repeater.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: tool
 
 Description: Free online text repeater. Type or paste text, set the count (1 to 10,000), click Repeat - output appears instantly in your browser, no upload needed.
@@ -1004,7 +1037,7 @@ Snippet: Type or paste into the box, set how many times, then click Repeat; the 
 ## Text to HTML Editor Online - Live WYSIWYG Preview
 
 URL: https://freetoolonline.com/developer-tools/text-html-editor.html
-Last modified: 2026-07-04
+Last modified: 2026-06-30
 Kind: tool
 
 Description: Text to HTML editor online - write in a WYSIWYG view and watch the generated HTML update live, with JavaScript support. Copy the markup. In-browser.
@@ -1015,7 +1048,7 @@ Snippet: My HTML contents are from freetoolonline.com Toggle editors layout How 
 ## Text to Speech - Free Online
 
 URL: https://freetoolonline.com/utility-tools/text-to-speech.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: tool
 
 Description: Text to Speech - type or paste text and hear it read aloud in your browser. Pick a voice, adjust rate and pitch, nothing uploaded.
@@ -1026,7 +1059,7 @@ Snippet: Type or paste your text, pick a voice, and press Speak to hear it read 
 ## To-Do List - Free Online, No Sign-Up
 
 URL: https://freetoolonline.com/utility-tools/todo-list.html
-Last modified: 2026-06-25
+Last modified: 2026-06-28
 Kind: tool
 
 Description: Keep a to-do list in your browser - add items, check them off, and delete them. No app to install and no sign-in; the list is saved locally.
@@ -1037,7 +1070,7 @@ Snippet: How to use the to-do list Type an item in the box and press Enter, or u
 ## Unit Converter - Free Online, No Sign-Up
 
 URL: https://freetoolonline.com/utility-tools/unit-converter.html
-Last modified: 2026-06-25
+Last modified: 2026-06-28
 Kind: tool
 
 Description: Convert between units in 10 categories - length, weight, temperature, and more - in your browser. Type a value; the result updates live. No upload, no account.
@@ -1048,7 +1081,7 @@ Snippet: How to convert units Pick a category, then choose which units to conver
 ## URL Decoder Online - Free Tool
 
 URL: https://freetoolonline.com/developer-tools/url-decoder.html
-Last modified: 2026-07-03
+Last modified: 2026-07-04
 Kind: tool
 
 Description: URL Decoder - Free Online Tool. Encode text for safe use in a URL, or decode a percent-encoded URL string back to readable text. No upload, no account.
@@ -1059,7 +1092,7 @@ Snippet: Type or paste into the box, then click Encode or Decode; the result app
 ## Video Maker Online - Build MP4 from Images & Audio
 
 URL: https://freetoolonline.com/video-tools/video-maker.html
-Last modified: 2026-06-29
+Last modified: 2026-06-30
 Kind: tool
 
 Description: Video maker online - build an MP4 slideshow from a sequence of images with optional audio. Set duration per frame and output resolution. In-browser.
@@ -1103,7 +1136,7 @@ Snippet: Type one name or option per line, then click Spin; the wheel lands on a
 ## Word Counter - Count Words, Characters & Reading Time
 
 URL: https://freetoolonline.com/developer-tools/word-counter.html
-Last modified: 2026-07-03
+Last modified: 2026-07-02
 Kind: tool
 
 Description: Count words, characters, sentences, lines, and estimated reading time live as you type or paste text - free, in your browser, no upload.
@@ -1128,7 +1161,7 @@ Snippet: Opens with the wheel pre-set to Yes and No; type your own list, one ent
 ## All Guides - Browser Tool Library
 
 URL: https://freetoolonline.com/guides.html
-Last modified: 2026-07-02
+Last modified: 2026-07-04
 Kind: hub
 
 Description: Free, in-browser guides on compressing files, converting HEIC, testing screens, hashing, PDFs, and more. Pick a topic; every page runs without uploads.
@@ -1172,7 +1205,7 @@ Snippet: Games Free browser games - no install or signup required.
 ## Image Converter Tools Online (HEIC, JPG, PNG, SVG)
 
 URL: https://freetoolonline.com/image-converter-tools.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: hub
 
 Description: Convert images between HEIC, JPG, PNG, SVG, WEBP, GIF, and Base64 online. Reliable conversions for compatibility and fast sharing. No installs needed.
@@ -1238,7 +1271,7 @@ Snippet: Video Tools Use these video tools to convert clips, build simple videos
 ## ZIP Tools Online - Compress, Unzip, Remove Password
 
 URL: https://freetoolonline.com/zip-tools.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: hub
 
 Description: Free online ZIP tools - compress folders, unzip files, and remove ZIP passwords in your browser. Fast, secure, no installs. Pick the right tool in one click.
@@ -1252,7 +1285,7 @@ Snippet: ZIP Tools Use these ZIP tools to manage archives quickly in your browse
 ## About Us - Our Story Behind 100+ Free Tools
 
 URL: https://freetoolonline.com/about-us.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: page
 
 Description: Every tool page reads the same way and dates its wording; spot a stale step and the editorial team re-checks the tool family. No upload, no signup, free to use.
@@ -1263,7 +1296,7 @@ Snippet: About Us About FreetoolOnline - the editorial team, the no-upload promi
 ## Contact Us - Email or DM the Team
 
 URL: https://freetoolonline.com/contact-us.html
-Last modified: 2026-06-26
+Last modified: 2026-06-28
 Kind: page
 
 Description: Use this contact form to send advertising, outsourcing request or feedback on this website.
@@ -1274,7 +1307,7 @@ Snippet: Contact Us A free contact form for advertising, outsourcing, and feedba
 ## Editorial Team
 
 URL: https://freetoolonline.com/editorial-team.html
-Last modified: 2026-06-25
+Last modified: 2026-06-28
 Kind: page
 
 Description: Meet the Free Tool Online editorial team - engineers, content specialists, and security reviewers who build and vet every tool on the site.
@@ -1407,7 +1440,7 @@ Snippet: Aktuelle Zeit in Millisekunden: den Live-Epoch-Wert lesen und richtig v
 ## Alat Diff Online - Panduan Membandingkan Dua Teks Berdampingan
 
 URL: https://freetoolonline.com/guides/id/online-diff-tool.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Panduan alat diff online: tempel dua blok teks dan baca baris yang ditambah, dihapus, dan diubah secara berdampingan di browser. Tanpa instalasi, tanpa unggah.
@@ -1429,7 +1462,7 @@ Snippet: Apa yang kami pelajari saat menjalankan alat gambar gratis di browser u
 ## Alat online gratis - tidak perlu mengunggah
 
 URL: https://freetoolonline.com/guides/id/free-online-tools-that-work-without-uploading-files.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Bagaimana alat berbasis browser mengkonversi, mengkompres, dan mengedit file tanpa pernah mengunggahnya. Alasan teknis mengapa ini berfungsi, batasannya, dan privasi yang Anda dapatkan gratis.
@@ -1440,7 +1473,7 @@ Snippet: Alat online gratis - tidak perlu mengunggah Tinjauan terakhir 2026-04-2
 ## Alat ZIP Online (Gratis, Layanan Bangun di Browser)
 
 URL: https://freetoolonline.com/guides/id/i-love-zip.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Alat zip online: ubah folder atau pilihan multi-file menjadi satu .zip melalui layanan bangun pribadi. Gratis, tanpa instalasi, tanpa akun, file sumber otomatis dihapus.
@@ -1594,7 +1627,7 @@ Snippet: Apakah Angka Panjang Ini Timestamp?
 ## Archivo a ZIP - Guia del Compresor de Archivos en Linea
 
 URL: https://freetoolonline.com/guides/es/file-to-zip.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Como convertir un archivo en un archivo ZIP en linea: cuando el ZIP realmente reduce el archivo, cuando no, y donde esta el creador.
@@ -1605,7 +1638,7 @@ Snippet: Archivo a ZIP Suelta un archivo en el creador zip-file y haz clic en Zi
 ## Archivo ZIP Online: Como crear un archivo ZIP en linea (gratis, en el navegador)
 
 URL: https://freetoolonline.com/guides/es/online-zip-file.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Crea un archivo ZIP en linea - pega archivos o una carpeta en el creador del navegador, obten un .zip descargable, sin instalacion, sin registro. Ultima revision 2026-05-18.
@@ -1627,7 +1660,7 @@ Snippet: Are online tools actually free?
 ## Arquivo para ZIP - Guia do Compressor de Arquivos Online
 
 URL: https://freetoolonline.com/guides/pt/file-to-zip.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Como transformar um arquivo em um arquivo ZIP online: quando o ZIP realmente reduz o arquivo, quando nao reduz, e onde fica o criador.
@@ -1638,7 +1671,7 @@ Snippet: Arquivo para ZIP Solte um arquivo no criador zip-file e clique em Zip p
 ## Arquivo ZIP Online: Como criar um arquivo ZIP online (gratuito, no navegador)
 
 URL: https://freetoolonline.com/guides/pt/online-zip-file.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Crie um arquivo ZIP online - cole arquivos ou uma pasta no criador no navegador, receba um .zip baixavel, sem instalacao, sem cadastro. Ultima revisao 2026-05-18.
@@ -1836,7 +1869,7 @@ Snippet: Bild Zuschneiden und Drehen Schneiden und drehen Sie ein Bild in zwei k
 ## Bildschirm online aufnehmen - Bildschirm, Kamera oder Mikrofon
 
 URL: https://freetoolonline.com/guides/de/how-to-record-your-screen-online.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Nehmen Sie Bildschirm, Kamera oder Mikrofon im Browser auf, machen Sie Gesichter unkenntlich und laden Sie als WebM oder MP4 herunter. Kein Upload, kein Konto.
@@ -1869,7 +1902,7 @@ Snippet: Bildschirmtest fuer Laptop - 5-Minuten-Checkliste vor Kauf oder Rueckga
 ## Bildschirmtest online vs App: was ist genauer?
 
 URL: https://freetoolonline.com/guides/de/screen-test-online-vs-app-which-is-more-accurate.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Browserbasierte Bildschirmtests erkennen Panel-Defekte (tote Pixel, Gleichmaessigkeit, Backlight-Bleed) in zwei Minuten. Native Apps erreichen Refresh-Rate, HDR und ICC-Pruefungen. Welcher zuerst.
@@ -1902,7 +1935,7 @@ Snippet: Was wir gelernt haben, als wir kostenlose Bildwerkzeuge im Browser fuer
 ## Black Hole 3D Visualizer vs Desktop Astronomy Apps
 
 URL: https://freetoolonline.com/guides/black-hole-3d-visualizer-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: How the browser-based Black Hole 3D Visualizer compares with installing a desktop astronomy app: 0 MB install, seconds to first view, free.
@@ -1946,7 +1979,7 @@ Snippet: Bo Tao QR Code - Cac Thuc Hanh Tot Nhat Lan ra soat cuoi 2026-06-16.
 ## Buat File ZIP Online - apa yang sebenarnya dilakukan alat ini dan kapan ZIP menghemat ruang
 
 URL: https://freetoolonline.com/guides/id/make-zip-file-online.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Buat file ZIP online: kapan ZIP benar-benar menghemat ruang, kapan tidak, dan cara mengirim file atau folder sebagai satu unduhan. Gratis, tanpa instalasi.
@@ -1990,7 +2023,7 @@ Snippet: Cac loai mat khau ZIP - manh vs yeu, giai thich (khi nao bo go online c
 ## Cac Loai Noi Dung Ma QR: URL, vCard, Wi-Fi - Chon Loai Nao
 
 URL: https://freetoolonline.com/guides/vi/qr-code-content-types-url-vcard-wifi-text-which-to-pick.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Chon dung loai noi dung cho ma QR: URL vs vCard vs Wi-Fi vs van ban - moi loai ma hoa gi va loai nao phu hop cho danh thiep hoac to roi.
@@ -2166,7 +2199,7 @@ Snippet: Cach giai nen tep truc tuyen - ZIP, RAR, 7z (tuyen nao tren trang lam g
 ## Cach Giam Kich Thuoc Tep ZIP - cai gi nen, cai gi khong
 
 URL: https://freetoolonline.com/guides/vi/how-to-reduce-zip-file-size.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Vi sao hau het tep ZIP khong nho di va cach thuc su giam mot tep - cai gi nen (van ban, CSV, ma nguon), cai gi khong (JPG, MP4, MP3), va quy trinh hoat dong.
@@ -2595,7 +2628,7 @@ Snippet: Cara memotong dan memutar gambar Tinjauan terakhir 2026-04-27.
 ## Cara memvisualisasikan data online - buat grafik dari angka Anda
 
 URL: https://freetoolonline.com/guides/id/how-to-visualize-data-online.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Ubah baris data menjadi grafik di browser Anda. Tempel CSV, JSON, atau baris Label, Nilai, pilih jenis grafik, dan lihat hasilnya - tanpa unggah dan tanpa akun.
@@ -2793,7 +2826,7 @@ Snippet: Cara Mengonversi Satuan Online - Gratis dan Tanpa Akun Konverter satuan
 ## Cara mengubah teks menjadi gambar (PNG) online gratis
 
 URL: https://freetoolonline.com/guides/id/how-to-turn-text-into-an-image-online.html
-Last modified: 2026-06-16
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Beri gaya pada teks di browser Anda - pilih font, ukuran, ketebalan, warna, spasi, dan bayangan, lalu unduh sebagai gambar PNG. Gratis, tanpa unggah, tanpa akun.
@@ -2826,7 +2859,7 @@ Snippet: Cara menguji layar sentuh untuk titik mati Bagian visual dari pemeriksa
 ## Cara Mengurangi Ukuran File ZIP - apa yang terkompres, apa yang tidak
 
 URL: https://freetoolonline.com/guides/id/how-to-reduce-zip-file-size.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Mengapa sebagian besar ZIP tidak mengecil dan bagaimana benar-benar mengurangi satu - apa yang terkompres (teks, CSV, kode sumber), apa yang tidak (JPG, MP4, MP3), dan alur yang berhasil.
@@ -2859,7 +2892,7 @@ Snippet: Cara menjalankan chat AI pribadi di browser Anda - gratis, tanpa unggah
 ## Cara Menyembunyikan Pesan dalam Gambar (Steganografi)
 
 URL: https://freetoolonline.com/guides/id/how-to-hide-a-message-in-an-image.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Cara menyembunyikan pesan teks rahasia di dalam gambar PNG dan membacanya kembali, opsional dengan kata sandi - gratis, di browser, tidak ada yang diunggah.
@@ -2881,7 +2914,7 @@ Snippet: Cara meratakan PDF - dan kapan melakukannya Untuk meratakan PDF, buka F
 ## Cara merekam layar Anda online - layar, kamera, atau mikrofon
 
 URL: https://freetoolonline.com/guides/id/how-to-record-your-screen-online.html
-Last modified: 2026-06-16
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Rekam layar, kamera, atau mikrofon Anda di browser, buramkan wajah di perangkat Anda, dan unduh sebagai WebM atau MP4. Tanpa unggah, tanpa instal, tanpa akun.
@@ -2892,7 +2925,7 @@ Snippet: Cara merekam layar Anda online - layar, kamera, atau mikrofon Perekam l
 ## Carpeta A Zip: Cuando y Como Archivar Una Carpeta Online (Guia Gratis)
 
 URL: https://freetoolonline.com/guides/es/folder-to-zip.html
-Last modified: 2026-07-04
+Last modified: 2026-06-30
 Kind: guide
 
 Description: Guia de carpeta a zip: cuando archivar una carpeta en un solo .zip realmente ahorra espacio, como elegir la herramienta correcta y donde vive el creador en el navegador. Gratis, sin instalacion.
@@ -3107,6 +3140,28 @@ Kind: guide
 Description: Chuyen Van Ban Thanh Giong Noi Tung Buoc - cac buoc chinh xac de su dung cong cu chuyen van ban thanh giong noi tu dau den ket qua.
 
 Snippet: Chuyen Van Ban Thanh Giong Noi Tung Buoc Cong cu Chuyen Van Ban Thanh Giong Noi chuyen van ban thanh am thanh trong ba buoc: mo cong cu, nhap hoac dan van ban va nhan Play.
+
+---
+## City Time Machine 3D vs Installing a Desktop City Game
+
+URL: https://freetoolonline.com/guides/city-time-machine-3d-vs-alternatives.html
+Last modified: 2026-07-05
+Kind: guide
+
+Description: An honest comparison of City Time Machine 3D in the browser and a typical installed 3D city game - install size, time to first scene, and where each wins.
+
+Snippet: City Time Machine 3D vs Installing a Desktop City Game Last reviewed: 2026-07-05 For a trip through one city block from 1945 to 2055, City Time Machine 3D runs in the browser with nothing installed, while a desktop 3D game asks for a download first.
+
+---
+## City Time Machine 3D: When It Fits and When It Does Not
+
+URL: https://freetoolonline.com/guides/city-time-machine-3d-when.html
+Last modified: 2026-07-05
+Kind: guide
+
+Description: Where City Time Machine 3D fits - short visual breaks, conversations about changing streets - and where it does not: no city building, no real-city history.
+
+Snippet: City Time Machine 3D: When It Fits and When It Does Not Last reviewed: 2026-07-05 City Time Machine 3D is one 3D city block under a 1945-2055 timeline: drag the slider and the buildings, vehicles, signs, and people morph era by era.
 
 ---
 ## Code Beautifier Langkah demi Langkah: JS, CSS, HTML dan JSON
@@ -3497,7 +3552,7 @@ Snippet: Como convertir HEIC a JPG paso a paso Para convertir HEIC a JPG, abre H
 ## Como convertir texto en imagen (PNG) en linea gratis
 
 URL: https://freetoolonline.com/guides/es/how-to-turn-text-into-an-image-online.html
-Last modified: 2026-06-16
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Da estilo a tu texto en el navegador - elige una fuente, tamano, peso, colores, espaciado y una sombra, y descargalo como imagen PNG. Gratis, sin subir, sin cuenta.
@@ -3662,7 +3717,7 @@ Snippet: Como Esconder uma Mensagem em uma Imagem (Esteganografia, Gratis + No N
 ## Como executar um chat de IA privado no navegador - gratis
 
 URL: https://freetoolonline.com/guides/pt/how-to-run-a-private-ai-chat-in-your-browser.html
-Last modified: 2026-06-30
+Last modified: 2026-07-04
 Kind: guide
 
 Description: Execute um chatbot de IA no navegador; o modelo carrega no dispositivo, entao as conversas ficam privadas, sem upload e sem conta. Requer WebGPU.
@@ -3706,7 +3761,7 @@ Snippet: Como firmar un PDF despues de eliminar su contrasena Publicado el 20 de
 ## Como grabar tu pantalla online - pantalla, camara o microfono
 
 URL: https://freetoolonline.com/guides/es/how-to-record-your-screen-online.html
-Last modified: 2026-06-16
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Graba tu pantalla, camara o microfono en el navegador, difumina rostros en tu dispositivo y descarga como WebM o MP4. Sin subir, sin instalar, sin cuenta.
@@ -3717,7 +3772,7 @@ Snippet: Como grabar tu pantalla online - pantalla, camara o microfono Un grabad
 ## Como gravar a sua tela online - tela, camera ou microfone
 
 URL: https://freetoolonline.com/guides/pt/how-to-record-your-screen-online.html
-Last modified: 2026-06-16
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Grave a sua tela, camera ou microfone no navegador, desfoque rostos no seu dispositivo e baixe como WebM ou MP4. Sem upload, sem instalar, sem conta.
@@ -3849,7 +3904,7 @@ Snippet: Como Reducir el Tamano de Archivo Zip Online (Gratis) Ultima revision 2
 ## Como Reducir el Tamano de un Archivo ZIP - que comprime, que no
 
 URL: https://freetoolonline.com/guides/es/how-to-reduce-zip-file-size.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Por que la mayoria de ZIPs no se encogen y como reducir uno de verdad - que comprime (texto, CSV, codigo fuente), que no (JPG, MP4, MP3), y el flujo que funciona.
@@ -3882,7 +3937,7 @@ Snippet: Como Reduzir o Tamanho de Arquivo Zip Online (Gratis) Ultima revisao 20
 ## Como Reduzir o Tamanho de um Arquivo ZIP - o que comprime, o que nao
 
 URL: https://freetoolonline.com/guides/pt/how-to-reduce-zip-file-size.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Por que a maioria dos ZIPs nao encolhe e como realmente reduzir um - o que comprime (texto, CSV, codigo-fonte), o que nao (JPG, MP4, MP3), e o fluxo que funciona.
@@ -3981,7 +4036,7 @@ Snippet: Como Tornar um Arquivo Zip Menor Ultima revisao 2026-04-27.
 ## Como transformar texto em imagem (PNG) online gratis
 
 URL: https://freetoolonline.com/guides/pt/how-to-turn-text-into-an-image-online.html
-Last modified: 2026-06-16
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Estilize texto no seu navegador - escolha uma fonte, tamanho, peso, cores, espacamento e uma sombra, e baixe como imagem PNG. Gratis, sem upload, sem conta.
@@ -4014,7 +4069,7 @@ Snippet: Como verificar a tela de um laptop em busca de pixels mortos e vazament
 ## Como visualizar dados online - crie um grafico dos seus numeros
 
 URL: https://freetoolonline.com/guides/pt/how-to-visualize-data-online.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Transforme linhas de dados em um grafico no navegador. Cole CSV, JSON ou Rotulo, Valor, escolha um tipo de grafico - sem upload e sem conta.
@@ -4025,7 +4080,7 @@ Snippet: Como visualizar dados online - crie um grafico a partir dos seus numero
 ## Como visualizar datos online - crea un grafico de tus numeros
 
 URL: https://freetoolonline.com/guides/es/how-to-visualize-data-online.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Convierte filas de datos en un grafico en tu navegador. Pega CSV, JSON o Etiqueta, Valor, elige un tipo de grafico - sin subir nada y sin cuenta.
@@ -4069,7 +4124,7 @@ Snippet: Compactador de Arquivos vs ZIP: Qual Ferramenta Escolher (2026) Ultima 
 ## Compactador de Arquivos: Escolha pelo Tipo de Arquivo
 
 URL: https://freetoolonline.com/guides/pt/file-compressor.html
-Last modified: 2026-05-31
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Compactador de arquivos gratuito que escolhe a ferramenta certa do navegador pelo que voce tem: ZIP uma pasta, comprima fotos, converta HEIC, agrupe PDFs ou use um link de transferencia.
@@ -4080,7 +4135,7 @@ Snippet: Compactador de Arquivos: Escolha a Ferramenta Certa pelo Tipo de Arquiv
 ## Compactador de Tamanho de Arquivo Zip - Guia Online Gratis
 
 URL: https://freetoolonline.com/guides/pt/zip-file-size-compressor.html
-Last modified: 2026-07-02
+Last modified: 2026-07-03
 Kind: guide
 
 Description: Use um compactador de tamanho de arquivo zip online para agrupar uma pasta de arquivos em um unico .zip e reduzir o tamanho total antes de enviar. Gratis, sem instalar. Ultima revisao 2026-05-19.
@@ -4179,7 +4234,7 @@ Snippet: Compresor de Archivos vs ZIP: Que Herramienta Elegir (2026) Ultima revi
 ## Compresor de Archivos: Elige por Tipo de Archivo
 
 URL: https://freetoolonline.com/guides/es/file-compressor.html
-Last modified: 2026-05-31
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Compresor de archivos gratuito que elige la herramienta correcta del navegador por lo que tienes: ZIP una carpeta, comprime fotos, convierte HEIC, agrupa PDFs o usa un enlace de transferencia.
@@ -4190,7 +4245,7 @@ Snippet: Compresor de Archivos: Elige la Herramienta Correcta por Tipo de Archiv
 ## Compresor de Tamano de Archivo Zip - Guia Online Gratis
 
 URL: https://freetoolonline.com/guides/es/zip-file-size-compressor.html
-Last modified: 2026-07-02
+Last modified: 2026-07-03
 Kind: guide
 
 Description: Use un compresor de tamano de archivo zip online para agrupar una carpeta de archivos en un solo .zip y reducir el tamano total antes de enviar. Gratis, sin instalar. Ultima revision 2026-05-19.
@@ -4267,7 +4322,7 @@ Snippet: Compress JPEG Without Losing Quality - Quality vs Size Last reviewed 20
 ## Compress PDF Online Free
 
 URL: https://freetoolonline.com/guides/compress-pdf-online-free.html
-Last modified: 2026-07-02
+Last modified: 2026-06-30
 Kind: guide
 
 Description: Shrink a PDF for free online: flatten form-heavy files, or extract-compress-rebuild scanned PDFs with our free tools. No account. Last reviewed 2026-06-11.
@@ -4465,7 +4520,7 @@ Snippet: Comprimir PDF Online Gratis Reducir un PDF gratis depende de que lo est
 ## Comprimir PDF Online Gratis - Reduza o Tamanho do PDF
 
 URL: https://freetoolonline.com/guides/pt/compress-pdf-online-free.html
-Last modified: 2026-06-23
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Reduza um PDF de graca online: achate arquivos cheios de formularios ou extraia-comprima-reconstrua PDFs digitalizados com nossas ferramentas. Sem conta. Revisado em 2026-06-11.
@@ -4641,7 +4696,7 @@ Snippet: Cong Cu Chuyen Doi Tep Zip: No Thuc Su Lam Gi (2026) Cap nhat lan cuoi 
 ## Cong Cu Chuyen Video Sang GIF Khi Nao Dung
 
 URL: https://freetoolonline.com/guides/vi/video-gif-converter-when.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Cong Cu Chuyen Video Sang GIF Khi Nao Dung - khi nao mo Cong Cu Chuyen Video Sang GIF phu hop voi cong viec va nen mong doi gi khi no phu hop.
@@ -4652,7 +4707,7 @@ Snippet: Cong Cu Chuyen Video Sang GIF Khi Nao Dung Last reviewed: 2026-07-04 Co
 ## Cong Cu Chuyen Video Sang Gif So Voi Cac Lua Chon Khac
 
 URL: https://freetoolonline.com/guides/vi/video-gif-converter-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Cong Cu Chuyen Video Sang Gif So Voi Cac Lua Chon Khac - cach Cong Cu Chuyen Video Sang GIF so sanh voi ung dung may tinh hoac dich vu dua tren tai len.
@@ -4663,7 +4718,7 @@ Snippet: Cong Cu Chuyen Video Sang Gif So Voi Cac Lua Chon Khac Last reviewed: 2
 ## Cong Cu Chuyen Video Sang GIF Tung Buoc
 
 URL: https://freetoolonline.com/guides/vi/video-gif-converter-step-by-step.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Cong Cu Chuyen Video Sang GIF Tung Buoc - cac buoc chinh xac de chay Cong Cu Chuyen Video Sang GIF tu khi mo den khi tai xuong ket qua.
@@ -4685,7 +4740,7 @@ Snippet: Dem tu tung buoc: dem tu, ky tu va thoi gian doc Cong cu mien phi Word 
 ## Cong cu Diff Truc tuyen - Huong dan so sanh hai van ban canh nhau
 
 URL: https://freetoolonline.com/guides/vi/online-diff-tool.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Huong dan cong cu diff truc tuyen: dan hai khoi van ban va doc cac dong them, xoa va thay doi canh nhau ngay tren trinh duyet. Khong cai dat, khong tai len.
@@ -4795,7 +4850,7 @@ Snippet: Cong cu tao mat khau vs.
 ## Cong Cu Tao Mat Khau: Khi Nao Nen Dung
 
 URL: https://freetoolonline.com/guides/vi/password-generator-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Tim hieu khi nao nen dung cong cu tao mat khau tren trinh duyet: tao tai khoan moi, dat lai mat khau va thay the mat khau bi dung lai hoac de doan.
@@ -4817,7 +4872,7 @@ Snippet: Cong cu truc tuyen co thuc su mien phi khong?
 ## Cong cu truc tuyen mien phi - khong can tai len
 
 URL: https://freetoolonline.com/guides/vi/free-online-tools-that-work-without-uploading-files.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Cach cong cu chay trong trinh duyet chuyen doi, nen va chinh sua tep ma khong bao gio tai chung len. Ly do ky thuat khien no hoat dong, cac gioi han va quyen rieng tu ban duoc mien phi.
@@ -4861,7 +4916,7 @@ Snippet: Cong Cu Xoa Nen AI vs Cac Phuong An Khac Cong Cu Xoa Nen AI la mot tron
 ## Cong cu ZIP Truc tuyen (Mien phi, Dich vu Xay dung Trong trinh duyet)
 
 URL: https://freetoolonline.com/guides/vi/i-love-zip.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Cong cu zip truc tuyen: bien mot thu muc hoac lua chon nhieu tep thanh mot tep .zip qua mot dich vu xay dung rieng tu. Mien phi, khong cai dat, khong tai khoan, cac tep nguon tu dong bi xoa.
@@ -4894,7 +4949,7 @@ Snippet: Contador de palavras passo a passo: contando palavras, caracteres e tem
 ## Contrasena MD5: como hacer hash de una contrasena y cuando MD5 esta mal
 
 URL: https://freetoolonline.com/guides/es/md5-password.html
-Last modified: 2026-07-02
+Last modified: 2026-07-03
 Kind: guide
 
 Description: Guia de contrasena MD5: pegue una cadena de contrasena, obtenga un fingerprint de 32-hex, y aprenda cuando MD5 es seguro para checksums y cuando bcrypt o argon2id es la eleccion correcta.
@@ -4960,7 +5015,7 @@ Snippet: Conversor de Arquivo Zip: O Que Ele Realmente Faz (2026) Ultima revisao
 ## Conversor de Video a GIF Cuando Usar
 
 URL: https://freetoolonline.com/guides/es/video-gif-converter-when.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Conversor de Video a GIF Cuando Usar - cuando abrir el Conversor de Video a GIF sirve para la tarea y que esperar cuando sirve.
@@ -4971,7 +5026,7 @@ Snippet: Conversor de Video a GIF Cuando Usar Last reviewed: 2026-07-04 Converso
 ## Conversor de Video a GIF Paso a Paso
 
 URL: https://freetoolonline.com/guides/es/video-gif-converter-step-by-step.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Conversor de Video a GIF Paso a Paso - los pasos exactos para ejecutar el Conversor de Video a GIF desde abrir hasta descargar el resultado.
@@ -4982,7 +5037,7 @@ Snippet: Conversor de Video a GIF Paso a Paso Last reviewed: 2026-07-04 Converso
 ## Conversor De Video A Gif Vs Alternativas
 
 URL: https://freetoolonline.com/guides/es/video-gif-converter-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Conversor De Video A Gif Vs Alternativas - como se compara el Conversor de Video a GIF con una aplicacion de escritorio o un servicio basado en subida.
@@ -5026,7 +5081,7 @@ Snippet: Conversor de Video HD Online Vs Alternativas Ultima revisao: 2026-07-02
 ## Conversor de Vídeo Online Grátis: Converta para MP4, MOV, MP3 e Mais
 
 URL: https://freetoolonline.com/guides/pt/video-converter-online-free.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Converta vídeo online grátis para MP4, WebM, MOV, MP3 ou WAV. Recorte um trecho antes, sem necessidade de conta. Processamento no servidor para arquivos grandes ou longos.
@@ -5037,7 +5092,7 @@ Snippet: Conversor de Vídeo Online Grátis: Converta para MP4, MOV, MP3 e Mais 
 ## Conversor de Vídeo Online Gratis: Convierte a MP4, MOV, MP3 y Más
 
 URL: https://freetoolonline.com/guides/es/video-converter-online-free.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Convierte vídeo online gratis a MP4, WebM, MOV, MP3 o WAV. Recorta un segmento primero, sin necesidad de cuenta. Procesamiento en el servidor para archivos grandes o largos.
@@ -5048,7 +5103,7 @@ Snippet: Conversor de Vídeo Online Gratis: Convierte a MP4, MOV, MP3 y Más Sub
 ## Conversor de Video para GIF Passo a Passo
 
 URL: https://freetoolonline.com/guides/pt/video-gif-converter-step-by-step.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Conversor de Video para GIF Passo a Passo - os passos exatos para executar o Conversor de Video para GIF desde abrir ate baixar o resultado.
@@ -5059,7 +5114,7 @@ Snippet: Conversor de Video para GIF Passo a Passo Last reviewed: 2026-07-04 Con
 ## Conversor de Video para GIF Quando Usar
 
 URL: https://freetoolonline.com/guides/pt/video-gif-converter-when.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Conversor de Video para GIF Quando Usar - quando abrir o Conversor de Video para GIF serve para a tarefa e o que esperar quando serve.
@@ -5070,7 +5125,7 @@ Snippet: Conversor de Video para GIF Quando Usar Last reviewed: 2026-07-04 Conve
 ## Conversor De Video Para Gif Vs Alternativas
 
 URL: https://freetoolonline.com/guides/pt/video-gif-converter-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Conversor De Video Para Gif Vs Alternativas - como o Conversor de Video para GIF se compara com um aplicativo de desktop ou um servico baseado em upload.
@@ -5103,7 +5158,7 @@ Snippet: Conversor HEIC vs JPG: Quando Cada Abordagem Vence (2026) Ultima revisa
 ## Convert 100 HEIC Photos to JPG
 
 URL: https://freetoolonline.com/guides/en/how-to-convert-100-heic-photos-to-jpg.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: How to convert 100+ HEIC photos to JPG in-browser without upload. Batch workflow, quality settings, EXIF preservation, and Windows/Mac paths.
@@ -5235,7 +5290,7 @@ Snippet: Convertir Milisegundos a Fecha Pega un timestamp de 13 digitos en milis
 ## Correcao de erros do QR code e falhas de leitura
 
 URL: https://freetoolonline.com/guides/pt/qr-code-error-correction-and-scan-failures.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Se um QR code nao le, a causa geralmente e uma de quatro: tamanho do payload, nivel de correcao de erros, contraste ou escala de impressao. Veja qual e corrija.
@@ -5246,7 +5301,7 @@ Snippet: Correcao de erros do QR code e falhas de leitura: por que seu QR nao le
 ## Correccion de errores del codigo QR y fallos de escaneo
 
 URL: https://freetoolonline.com/guides/es/qr-code-error-correction-and-scan-failures.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Si un codigo QR no escanea, la causa suele ser una de cuatro: tamano del payload, nivel de correccion de errores, contraste o escala de impresion. Mira cual.
@@ -5290,7 +5345,7 @@ Snippet: Countdown-Timer Online: Schritt-fuer-Schritt-Anleitung Das Tool Countdo
 ## Crear Archivo ZIP Online - qué hace la herramienta y cuándo el ZIP ahorra espacio
 
 URL: https://freetoolonline.com/guides/es/make-zip-file-online.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Crear archivo ZIP online: cuándo el ZIP realmente ahorra espacio, cuándo no, y cómo enviar archivos o una carpeta como una sola descarga. Gratis, sin instalación.
@@ -5323,7 +5378,7 @@ Snippet: Create Zip File Online (Free, No Install, No Account) Create a zip file
 ## Criar Arquivo ZIP Online - o que a ferramenta faz e quando o ZIP economiza espaço
 
 URL: https://freetoolonline.com/guides/pt/make-zip-file-online.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Criar arquivo ZIP online: quando o ZIP realmente economiza espaço, quando não, e como enviar arquivos ou uma pasta como um único download. Grátis, sem instalação.
@@ -5367,7 +5422,7 @@ Snippet: Cronometro Online: Guia Passo a Passo A ferramenta Online Stopwatch med
 ## Crop and Rotate Image: Pick the Frame, Then Straighten It
 
 URL: https://freetoolonline.com/guides/en/crop-and-rotate-image.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Crop and rotate an image in the browser - pick an aspect-ratio preset or a free pixel rectangle, then straighten with 45-degree steps or a free-angle handle. Free, no upload.
@@ -5389,7 +5444,7 @@ Snippet: Crop Image Online Free - Drag, Preset Ratio, or Exact Pixels Crop a pho
 ## CSS Minifier vs Compressor
 
 URL: https://freetoolonline.com/guides/en/css-minifier-vs-compressor.html
-Last modified: 2026-06-29
+Last modified: 2026-06-30
 Kind: guide
 
 Description: CSS minifier vs compressor - whitespace removal vs gzip/brotli compression, what each saves, and the exact pipeline order for production delivery.
@@ -5521,7 +5576,7 @@ Snippet: CSS Unminifier vs Prettier: Wann jedes verwenden CSS Unminifier liest e
 ## CSS Unminifier vs Prettier: When to Use Each (Read Shipped CSS or Format Source)
 
 URL: https://freetoolonline.com/guides/en/css-unminifier-vs-prettier-when-to-use-each.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: When CSS Unminifier is the right tool to read shipped CSS quickly, when Prettier is the right tool to format source you will commit, and what neither can recover after a tree-shaken build.
@@ -5598,7 +5653,7 @@ Snippet: CSV vs JSON - when to use each data format Published April 20, 2026 Las
 ## Cuando Usar la Grabadora de Voz En Linea
 
 URL: https://freetoolonline.com/guides/es/voice-recorder-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Cuando Usar la Grabadora de Voz En Linea - cuando abrir el Online Voice Recorder es adecuado y que esperar cuando lo es.
@@ -5642,7 +5697,7 @@ Snippet: Current time in milliseconds: read the live epoch value and use it corr
 ## Dao Nguoc Van Ban: Khi Nao Thuc Su Co Ich
 
 URL: https://freetoolonline.com/guides/vi/reverse-text-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Khi nao dao nguoc van ban co ich: kiem tra doc xuoi doc nguoc, chu de doi guong, ma hoa don gian, va so sanh voi bang tinh, rev hoac script.
@@ -5653,7 +5708,7 @@ Snippet: Dao nguoc van ban: khi nao thuc su co ich Cong cu Reverse Text mien phi
 ## Datei zu ZIP - Anleitung zum Online-Dateikompressor
 
 URL: https://freetoolonline.com/guides/de/file-to-zip.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Wie man eine Datei online in ein ZIP-Archiv umwandelt: wann ZIP die Datei wirklich verkleinert, wann nicht, und wo der Ersteller liegt.
@@ -5675,7 +5730,7 @@ Snippet: Datei-Kompressor vs ZIP: Welches Tool waehlen (2026) Zuletzt geprueft 2
 ## Datei-Kompressor: Auswahl nach Dateityp
 
 URL: https://freetoolonline.com/guides/de/file-compressor.html
-Last modified: 2026-05-31
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Kostenloser Datei-Kompressor, der das richtige Browser-Tool nach dem auswaehlt, was Sie haben: einen Ordner ZIPpen, Fotos komprimieren, HEIC konvertieren, PDFs buendeln oder einen Transfer-Link verwenden.
@@ -5697,7 +5752,7 @@ Snippet: Dateikomprimierer online - wann einen Ordner ZIPpen, wann ein einzelnes
 ## Daten online visualisieren - Diagramm aus Ihren Zahlen erstellen
 
 URL: https://freetoolonline.com/guides/de/how-to-visualize-data-online.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Verwandeln Sie Datenzeilen in ein Diagramm im Browser. Fuegen Sie CSV, JSON oder Label, Wert ein, waehlen Sie einen Diagrammtyp - ohne Upload und ohne Konto.
@@ -5719,7 +5774,7 @@ Snippet: Dau Ra Trinh Trich Xuat Khung GIF Trong Sai?
 ## Dead Pixel Testing Guide
 
 URL: https://freetoolonline.com/guides/en/dead-pixel-testing-guide.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Dead pixel testing guide - dead vs stuck vs hot pixels, full-screen color checks, recovery steps, and when a monitor warranty replacement is justified.
@@ -6093,7 +6148,7 @@ Snippet: Dividir PDF Online Gratis Dividir um PDF significa retirar paginas de u
 ## Dividir PDF Online Gratis
 
 URL: https://freetoolonline.com/guides/es/split-pdf-online-free.html
-Last modified: 2026-06-23
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Divide un PDF online gratis: extrae un intervalo de paginas a un nuevo archivo, o separa cada pagina en su propio PDF. Sin cuenta, sin instalacion. Ultima revision 2026-06-14.
@@ -6313,7 +6368,7 @@ Snippet: Ekstrak Frame GIF: PNG atau JPG, Format Mana yang Dipilih?
 ## Ekstraktor Frame GIF - ambil frame individu dari GIF animasi
 
 URL: https://freetoolonline.com/guides/id/gif-frame-extractor.html
-Last modified: 2026-06-18
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Panduan langkah demi langkah mengekstrak frame dari GIF animasi: pilih PNG atau JPG, atur FPS, unduh tiap frame. Terakhir ditinjau 2026-05-14.
@@ -6445,7 +6500,7 @@ Snippet: Escaner de Codigo QR - Paso a Paso El Escaner de Codigo QR funciona en 
 ## Escaner de Codigo QR vs Alternativas
 
 URL: https://freetoolonline.com/guides/es/qr-code-scanner-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Escaner de Codigo QR comparado con aplicacion de escritorio o servicio en linea con carga.
@@ -6544,7 +6599,7 @@ Snippet: Extract GIF Frames: PNG or JPG, Which Format Should You Pick?
 ## Extractor de Frames GIF - extrae fotogramas de un GIF animado
 
 URL: https://freetoolonline.com/guides/es/gif-frame-extractor.html
-Last modified: 2026-06-18
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Guia paso a paso para extraer fotogramas de cualquier GIF animado: elige PNG o JPG, ajusta FPS y descarga cada uno. Ultima revision 2026-05-14.
@@ -6599,7 +6654,7 @@ Snippet: Como extrair frames de um GIF para uma publicacao social Publicado a 20
 ## Extrator de Frames GIF - extraia quadros de qualquer GIF animado
 
 URL: https://freetoolonline.com/guides/pt/gif-frame-extractor.html
-Last modified: 2026-06-18
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Guia passo a passo para extrair quadros de qualquer GIF animado: escolha PNG ou JPG, defina FPS e baixe cada quadro. Ultima revisao 2026-05-14.
@@ -6654,7 +6709,7 @@ Snippet: Farbe online auswaehlen - HEX, RGB und HSL Ein Farbwaehler laesst Sie e
 ## Ferramenta de Diff Online - Guia para Comparar Dois Textos Lado a Lado
 
 URL: https://freetoolonline.com/guides/pt/online-diff-tool.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Guia da ferramenta de diff online: cole dois blocos de texto e veja as linhas adicionadas, removidas e alteradas lado a lado no navegador. Sem instalacao, sem upload.
@@ -6665,7 +6720,7 @@ Snippet: Ferramenta de Diff Online Uma ferramenta de diff online destaca linhas 
 ## Ferramenta ZIP Online (Gratuita, Servico de Construcao no Navegador)
 
 URL: https://freetoolonline.com/guides/pt/i-love-zip.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Ferramenta zip online: transforme uma pasta ou selecao de varios arquivos em um .zip por meio de um servico de construcao privado. Gratuita, sem instalacao, sem conta, arquivos-fonte sao excluidos automaticamente.
@@ -6687,7 +6742,7 @@ Snippet: O que aprendemos rodando ferramentas de imagem gratis no navegador para
 ## Ferramentas online gratuitas - sem upload necessario
 
 URL: https://freetoolonline.com/guides/pt/free-online-tools-that-work-without-uploading-files.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Como ferramentas baseadas em navegador convertem, comprimem e editam arquivos sem nunca envia-los. A razao tecnica que faz funcionar, os limites e a privacidade que voce ganha de graca.
@@ -6874,7 +6929,7 @@ Snippet: File Compressor vs ZIP: What Tool to Pick (2026) Last reviewed 2026-04-
 ## File Compressor: Pick by File Type
 
 URL: https://freetoolonline.com/guides/en/file-compressor.html
-Last modified: 2026-07-01
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Free file compressor that picks the right browser tool by what you have: ZIP a folder, compress photos, convert HEIC, bundle PDFs, or use a transfer link.
@@ -6885,7 +6940,7 @@ Snippet: File Compressor: Pick the Right Tool by File Type Last reviewed 2026-05
 ## File ke ZIP - Panduan Kompresor File Online
 
 URL: https://freetoolonline.com/guides/id/file-to-zip.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Cara mengubah sebuah file menjadi arsip ZIP online: kapan ZIP benar-benar memperkecil file, kapan tidak, dan di mana alat pembuatnya.
@@ -6907,7 +6962,7 @@ Snippet: File to ZIP Drop a file into the zip-file creator and click Zip to get 
 ## File ZIP Online: Cara membuat arsip ZIP secara online (gratis, di browser)
 
 URL: https://freetoolonline.com/guides/id/online-zip-file.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Buat arsip ZIP online - tempel file atau folder ke pembuat di browser, dapatkan .zip yang bisa diunduh, tanpa instalasi, tanpa pendaftaran. Terakhir ditinjau 2026-05-18.
@@ -6918,7 +6973,7 @@ Snippet: File ZIP Online: Cara membuat arsip ZIP secara online (gratis, di brows
 ## Folder Ke Zip: Kapan Dan Cara Mengarsipkan Folder Online (Panduan Gratis)
 
 URL: https://freetoolonline.com/guides/id/folder-to-zip.html
-Last modified: 2026-07-04
+Last modified: 2026-06-30
 Kind: guide
 
 Description: Panduan folder ke zip: kapan mengarsipkan folder menjadi satu .zip benar-benar menghemat ruang, cara memilih alat yang tepat, dan di mana pembuat dalam browser berada. Gratis, tanpa instal.
@@ -6929,7 +6984,7 @@ Snippet: Folder Ke Zip Folder ke ZIP menggabungkan semua file menjadi satu arsip
 ## Folder To Zip: When and How to Archive a Folder Online (Free Guide)
 
 URL: https://freetoolonline.com/guides/en/folder-to-zip.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Folder to zip guide: when archiving a folder into a single .zip actually saves space, how to pick the right tool, and where the in-browser creator lives. Free, no install.
@@ -7105,7 +7160,7 @@ Snippet: Foto-Editor vs Grafik-App vs Batch Zuletzt geprueft 2026-04-27.
 ## Fotogramas GIF vs Tasa de Fotogramas GIF (FPS): Cual Realmente Necesitas?
 
 URL: https://freetoolonline.com/guides/es/gif-frames-extract-vs-frame-rate-fps-explained.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: guide
 
 Description: Los fotogramas GIF son las imagenes fijas dentro de un GIF animado; la tasa de fotogramas GIF (FPS) es la velocidad de reproduccion. Esta guia te dice cual coincide con tu tarea en una frase y como elegir el FPS correcto al extraer fotogramas.
@@ -7116,7 +7171,7 @@ Snippet: Fotogramas GIF vs Tasa de Fotogramas GIF (FPS): Cual Realmente Necesita
 ## Frame GIF vs Frame Rate GIF (FPS): Mana Yang Benar-benar Anda Butuhkan?
 
 URL: https://freetoolonline.com/guides/id/gif-frames-extract-vs-frame-rate-fps-explained.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: guide
 
 Description: Frame GIF adalah gambar diam di dalam GIF animasi; frame rate GIF (FPS) adalah kecepatan pemutaran. Panduan ini memberi tahu mana yang cocok dengan tugas Anda dalam satu kalimat dan cara memilih FPS yang tepat saat mengekstrak frame.
@@ -7138,7 +7193,7 @@ Snippet: Wie man Frames aus einem GIF fuer einen Social-Post extrahiert Veroeffe
 ## Frames GIF vs Taxa de Quadros GIF (FPS): Qual Voce Realmente Precisa?
 
 URL: https://freetoolonline.com/guides/pt/gif-frames-extract-vs-frame-rate-fps-explained.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: guide
 
 Description: Frames GIF sao as imagens estaticas dentro de um GIF animado; taxa de quadros GIF (FPS) e a velocidade de reproducao. Este guia diz qual combina com sua tarefa em uma frase e como escolher o FPS certo ao extrair frames.
@@ -7160,7 +7215,7 @@ Snippet: Free online photo editor: crop, resize, filter, and add text in your br
 ## Free Online Tools - No Upload Required
 
 URL: https://freetoolonline.com/guides/en/free-online-tools-that-work-without-uploading-files.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: How browser-based tools convert, compress, and edit files without ever uploading them. The technical reason it works, the limits, and the privacy you get free.
@@ -7171,7 +7226,7 @@ Snippet: Free Online Tools - No Upload Required Last reviewed 2026-04-27.
 ## Front Camera Test - Check Your Selfie Camera Online
 
 URL: https://freetoolonline.com/guides/front-camera-test.html
-Last modified: 2026-07-04
+Last modified: 2026-07-02
 Kind: guide
 
 Description: Front camera test online: open your selfie lens, see a live preview, switch front and back, and capture a JPEG - all in your browser. Last reviewed 2026-06-10.
@@ -7204,7 +7259,7 @@ Snippet: Gabung PDF Online Gratis - Gabungkan PDF di Browser Anda Gabungkan file
 ## Galaxy 3D Simulator vs a Desktop Astronomy App
 
 URL: https://freetoolonline.com/guides/galaxy-3d-simulator-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: An honest look at Galaxy 3D Simulator in a browser tab versus installing a desktop astronomy app - 0 MB install, seconds to first view, $0.
@@ -7226,7 +7281,7 @@ Snippet: Gambar ke Base64: Sematkan di HTML/CSS vs Tautkan File Gambar Tinjauan 
 ## Garden Defense vs Installing a Desktop Game
 
 URL: https://freetoolonline.com/guides/garden-defense-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Honest numbers on Garden Defense vs an installed desktop game - 0 MB to install, seconds to first play, free - and where a bigger game still wins.
@@ -7270,7 +7325,7 @@ Snippet: Generador de contrasenas vs.
 ## Generador de Contrasenas: Cuando Usarlo
 
 URL: https://freetoolonline.com/guides/es/password-generator-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Descubre cuando usar un generador de contrasenas en el navegador: creacion de cuentas, restablecimiento de contrasenas y cualquier inicio de sesion que exija contrasenas unicas.
@@ -7314,7 +7369,7 @@ Snippet: Generator kata sandi vs.
 ## Generator Kata Sandi: Kapan Menggunakannya
 
 URL: https://freetoolonline.com/guides/id/password-generator-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Pelajari kapan menggunakan generator kata sandi berbasis browser: pembuatan akun, reset kata sandi, dan situasi apa pun yang membutuhkan kata sandi unik dan tidak terduga.
@@ -7380,7 +7435,7 @@ Snippet: Gerador de senhas vs.
 ## Gerador de Senhas: Quando Usar
 
 URL: https://freetoolonline.com/guides/pt/password-generator-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Descubra quando usar um gerador de senhas no navegador: criacao de conta, redefinicao de senha e qualquer login que exija senhas unicas e imprevisíveis.
@@ -7501,7 +7556,7 @@ Snippet: Giam Kich Thuoc ZIP - Khi Nao Nen ZIP Thuc Su Thu Nho Kho Luu Tru Cong 
 ## GIF a Fotograma - extrae cada fotograma como PNG o JPG
 
 URL: https://freetoolonline.com/guides/es/gif-to-frame.html
-Last modified: 2026-06-10
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Carga un GIF animado y extrae cada fotograma como PNG o JPG por separado. Sin instalacion. Archivos eliminados automaticamente. Revisado el 2026-06-10.
@@ -7534,7 +7589,7 @@ Snippet: GIF en Frames: Guarda Cada Frame de Animacion como PNG o JPG Convierte 
 ## Gif Frame Extractor - pull frames from any animated GIF
 
 URL: https://freetoolonline.com/guides/en/gif-frame-extractor.html
-Last modified: 2026-06-18
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Step-by-step guide on extracting frames from any animated GIF: pick PNG or JPG output, set FPS, and download every frame as its own image. Last reviewed 2026-05-14.
@@ -7556,7 +7611,7 @@ Snippet: GIF Frame Extractor Output Looks Wrong?
 ## GIF Frames vs GIF Frame Rate (FPS): Which One Do You Actually Need?
 
 URL: https://freetoolonline.com/guides/en/gif-frames-extract-vs-frame-rate-fps-explained.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: guide
 
 Description: GIF frames are the still pictures inside an animated GIF; GIF frame rate (FPS) is how fast they play. This guide tells you which one matches your task in one sentence and how to pick the right FPS when extracting frames.
@@ -7600,7 +7655,7 @@ Snippet: GIF Into Frames: Save Each Animation Frame as PNG or JPG Extract every 
 ## GIF ke Bingkai - ekstrak setiap bingkai sebagai PNG atau JPG
 
 URL: https://freetoolonline.com/guides/id/gif-to-frame.html
-Last modified: 2026-06-10
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Unggah GIF animasi dan ekstrak setiap bingkai sebagai PNG atau JPG terpisah. Tanpa instalasi. File dihapus otomatis. Ditinjau 2026-06-10.
@@ -7622,7 +7677,7 @@ Snippet: GIF ke Frame: Simpan Setiap Frame Animasi sebagai PNG atau JPG Ubah GIF
 ## GIF para Quadro - extraia cada quadro como PNG ou JPG
 
 URL: https://freetoolonline.com/guides/pt/gif-to-frame.html
-Last modified: 2026-06-10
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Carregue um GIF animado e extraia cada quadro como PNG ou JPG separado. Sem instalacao. Arquivos excluidos automaticamente. Revisado em 2026-06-10.
@@ -7644,7 +7699,7 @@ Snippet: GIF thanh Frame: Luu Moi Khung Hinh Hoat Anh thanh PNG hoac JPG Bien mo
 ## GIF Thanh Khung - trich xuat moi khung thanh PNG hoac JPG
 
 URL: https://freetoolonline.com/guides/vi/gif-to-frame.html
-Last modified: 2026-06-29
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Tai len GIF dong va trich xuat tung khung thanh PNG hoac JPG. Khong can cai dat. Tep tu dong xoa sau khi tai. Xem lai 2026-06-10.
@@ -7655,7 +7710,7 @@ Snippet: GIF Thanh Khung Tai len GIF dong va cong cu trich xuat tung khung thanh
 ## GIF to Frame - extract each frame as PNG or JPG
 
 URL: https://freetoolonline.com/guides/en/gif-to-frame.html
-Last modified: 2026-06-29
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Upload an animated GIF and extract every frame as a separate PNG or JPG. No install. Files auto-delete after the download window. Last reviewed 2026-06-10.
@@ -7666,7 +7721,7 @@ Snippet: GIF to Frame Upload an animated GIF and the tool extracts every frame a
 ## GIF to Frames Converter - Extract Each Frame as PNG or JPG
 
 URL: https://freetoolonline.com/guides/en/gif-to-frames-converter.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Turn an animated GIF into individual frames. Upload, pick PNG or JPG output, and download every frame as a separate still image. No install. Last reviewed 2026-06-10.
@@ -7688,7 +7743,7 @@ Snippet: GIF zu Einzelbildern konvertieren Ein GIF-zu-Frames-Konverter dekodiert
 ## GIF zu Frame - jeden Frame als PNG oder JPG extrahieren
 
 URL: https://freetoolonline.com/guides/de/gif-to-frame.html
-Last modified: 2026-06-10
+Last modified: 2026-07-05
 Kind: guide
 
 Description: GIF animiert hochladen und jeden Frame als PNG oder JPG extrahieren. Keine Installation. Dateien werden automatisch geloescht. Zuletzt geprueft 2026-06-10.
@@ -7699,7 +7754,7 @@ Snippet: GIF zu Frame GIF animiert hochladen und das Tool extrahiert jeden Frame
 ## GIF-Frame-Extraktor - Frames aus animierten GIFs holen
 
 URL: https://freetoolonline.com/guides/de/gif-frame-extractor.html
-Last modified: 2026-06-18
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Schritt-fuer-Schritt-Anleitung zum Extrahieren von Frames aus animierten GIFs: PNG oder JPG, FPS einstellen, jedes Frame laden. Zuletzt geprueft 2026-05-14.
@@ -7732,12 +7787,23 @@ Snippet: GIF-Frames Extrahieren: PNG oder JPG, Welches Format Wählen?
 ## GIF-Frames vs GIF-Framerate (FPS): Welches Brauchen Sie Tatsaechlich?
 
 URL: https://freetoolonline.com/guides/de/gif-frames-extract-vs-frame-rate-fps-explained.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: guide
 
 Description: GIF-Frames sind die Standbilder in einem animierten GIF; die GIF-Framerate (FPS) ist die Abspielgeschwindigkeit. Dieser Leitfaden sagt Ihnen, welches zu Ihrer Aufgabe passt, in einem Satz, und wie man die richtige FPS beim Extrahieren von Frames waehlt.
 
 Snippet: GIF-Frames vs GIF-Framerate (FPS): Welches Brauchen Sie Tatsaechlich?
+
+---
+## GPU Test vs Installing a Benchmark Suite
+
+URL: https://freetoolonline.com/guides/gpu-test-webgl-benchmark-info-vs-alternatives.html
+Last modified: 2026-07-05
+Kind: guide
+
+Description: An honest look at a browser GPU test vs installed benchmark suites - what 0.7 MB and 20 to 40 seconds buy you, and where native software still wins.
+
+Snippet: GPU Test vs Installing a Benchmark Suite Last reviewed: 2026-07-05 Before installing a benchmark suite, GPU Test reports what your browser's graphics stack can do and runs a full frame-rate benchmark in 20 to 40 seconds, with nothing installed.
 
 ---
 ## Grabadora de Voz En Linea Paso a Paso
@@ -7853,7 +7919,7 @@ Snippet: Habit Tracker Step By Step Last reviewed: 2026-07-03 Habit Tracker runs
 ## Habit Tracker Vs Alternatives
 
 URL: https://freetoolonline.com/guides/habit-tracker-vs-alternatives.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Habit Tracker Vs Alternatives - how Habit Tracker compares with a desktop app or an upload-based service.
@@ -7919,7 +7985,7 @@ Snippet: Hash MD5 no navegador - o que chamadas como `common::md5::gethash64stri
 ## Hd Online Video Converter Step By Step
 
 URL: https://freetoolonline.com/guides/en/hd-video-converter-step-by-step.html
-Last modified: 2026-06-23
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Step-by-step guide to converting HD video in your browser - change the format or extract the audio track with FFmpeg.wasm, no upload and no install required.
@@ -7941,7 +8007,7 @@ Snippet: Hd Online Video Converter Vs Alternatives Last reviewed: 2026-07-02 Edi
 ## Hd Online Video Converter When To Use
 
 URL: https://freetoolonline.com/guides/en/hd-video-converter-when.html
-Last modified: 2026-06-23
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Hd Online Video Converter When To Use - quick reference paired with Hd Online Video Converter.
@@ -8062,7 +8128,7 @@ Snippet: HEIC vs JPG Konverter: Wann jeder Ansatz gewinnt (2026) Zuletzt gepruef
 ## HEIC vs JPG vs WebP
 
 URL: https://freetoolonline.com/guides/en/heic-vs-jpg-vs-webp.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: iPhone photos are HEIC; Windows and Android expect JPG. What each format compresses well, when WebP is the right web pick, and how to convert between them.
@@ -8139,7 +8205,7 @@ Snippet: HEIC zu JPG - was der Konverter tatsaechlich tut (und was nicht) Der HE
 ## Herramienta de Diff en Linea - Guia para Comparar Dos Textos Lado a Lado
 
 URL: https://freetoolonline.com/guides/es/online-diff-tool.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Guia de la herramienta de diff en linea: pega dos bloques de texto y lee las lineas anadidas, eliminadas y modificadas lado a lado en tu navegador. Sin instalacion, sin subida.
@@ -8150,7 +8216,7 @@ Snippet: Herramienta de Diff en Linea Una herramienta de diff en linea resalta l
 ## Herramienta ZIP Online (Gratis, Servicio de Construccion en el Navegador)
 
 URL: https://freetoolonline.com/guides/es/i-love-zip.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Herramienta zip online: convierte una carpeta o seleccion de varios archivos en un .zip mediante un servicio de construccion privado. Gratis, sin instalacion, sin cuenta, los archivos fuente se eliminan automaticamente.
@@ -8172,7 +8238,7 @@ Snippet: Lo que aprendimos ejecutando herramientas de imagen gratis en el navega
 ## Herramientas en linea gratis - sin subida requerida
 
 URL: https://freetoolonline.com/guides/es/free-online-tools-that-work-without-uploading-files.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Como las herramientas basadas en navegador convierten, comprimen y editan archivos sin nunca subirlos. La razon tecnica que lo hace funcionar, los limites y la privacidad que obtienes gratis.
@@ -8271,7 +8337,7 @@ Snippet: How to compress a folder into a single ZIP Published April 30, 2026 Las
 ## How to Compress a JPG for Email Attachment Size Limits
 
 URL: https://freetoolonline.com/guides/en/how-to-compress-a-jpg-for-email-attachment-limits.html
-Last modified: 2026-06-29
+Last modified: 2026-06-30
 Kind: guide
 
 Description: Pick the right JPG quality to land photos under Gmail's 25 MB / Outlook 20 MB / corporate 10 MB email caps without the photo turning to mush.
@@ -8326,7 +8392,7 @@ Snippet: How to Compress a Zip to a Smaller Size Last reviewed 2026-04-27.
 ## How to compress a ZIP to a specific size (2 / 25 MB, 100 KB)
 
 URL: https://freetoolonline.com/guides/en/how-to-compress-a-zip-file-to-a-specific-size.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Hitting an exact ZIP size (2 MB, 25 MB email cap, 100 KB form cap) is not deterministic. Three things actually decide it. The right tool order, per cap.
@@ -8370,7 +8436,7 @@ Snippet: How to Convert HEIC to JPG Step by Step To convert HEIC to JPG, open th
 ## How to Convert Units Online - Free, No Sign-Up
 
 URL: https://freetoolonline.com/guides/how-to-convert-units-online.html
-Last modified: 2026-06-15
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Convert units online for free: length, weight, temperature, and more. Pick a category, choose from and to units, and type a value - all in your browser, no account.
@@ -8392,7 +8458,7 @@ Snippet: How to Crop and Rotate an Image Last reviewed 2026-04-27.
 ## How to Edit Code Online - Free, In Your Browser
 
 URL: https://freetoolonline.com/guides/how-to-edit-code-online.html
-Last modified: 2026-06-16
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Edit code online in a free in-browser editor - syntax highlighting for 18 languages, light and dark themes, open and save files. Runs on your device, no upload.
@@ -8458,7 +8524,7 @@ Snippet: How to flatten a PDF - and when to do it Use Flatten PDF to bake form f
 ## How to Hide a Message in an Image (Steganography)
 
 URL: https://freetoolonline.com/guides/how-to-hide-a-message-in-an-image.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: How to hide a secret text message inside a PNG image and read it back, optionally with a password - free, in your browser, nothing uploaded.
@@ -8469,7 +8535,7 @@ Snippet: How to Hide a Message in an Image (Steganography, Free + In-Browser) St
 ## How to Make a To-Do List Online - Free and No Sign-Up
 
 URL: https://freetoolonline.com/guides/how-to-make-a-to-do-list-online.html
-Last modified: 2026-06-15
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Make a simple to-do list online for free. Add tasks, check them off, and delete them; your list saves in your browser with no app install and no account.
@@ -8491,7 +8557,7 @@ Snippet: How to Make a Zip File Smaller Last reviewed 2026-04-27.
 ## How to Pick a Color Online - HEX, RGB, and HSL
 
 URL: https://freetoolonline.com/guides/how-to-pick-a-color-online.html
-Last modified: 2026-06-15
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Pick a color online and read its HEX, RGB, and HSL values, get matching palettes, check contrast, and save favorites - all in your browser, no account.
@@ -8521,6 +8587,17 @@ Description: Learn Retro Tank Battle in minutes - move with arrows or WASD, fire
 Snippet: How to Play Retro Tank Battle - Step by Step Last reviewed: 2026-07-04 Retro Tank Battle is a free browser arcade game: drive a tank, shoot through brick walls, and stop a wave of six enemy tanks before they destroy your base.
 
 ---
+## How to Play Sky Gates Flight - Step by Step
+
+URL: https://freetoolonline.com/guides/sky-gates-flight-step-by-step.html
+Last modified: 2026-07-05
+Kind: guide
+
+Description: Start a flight, steer through green gates, dodge red ones, and survive the speed ramp in Sky Gates Flight - a step-by-step walkthrough of every stage.
+
+Snippet: How to Play Sky Gates Flight - Step by Step Last reviewed: 2026-07-05 Sky Gates Flight is an arcade flying game played right in the browser: steer a small plane over the ocean, fly through green gates to build power, dodge the red ones, and keep going until power runs out.
+
+---
 ## How to Play Snake Classic - Step by Step
 
 URL: https://freetoolonline.com/guides/snake-classic-step-by-step.html
@@ -8546,7 +8623,7 @@ Snippet: How to Play Voxel World Builder - Step by Step Last reviewed: 2026-07-0
 ## How to Record Your Screen Online - Screen, Camera, or Microphone
 
 URL: https://freetoolonline.com/guides/how-to-record-your-screen-online.html
-Last modified: 2026-06-16
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Record your screen, camera, or microphone in the browser, blur faces on your device, and download as WebM or MP4. No upload, no install, no account.
@@ -8590,7 +8667,7 @@ Snippet: How to Resize an Image Online for Free To resize an image online for fr
 ## How to Run a Private AI Chat in Your Browser - Free, No Upload
 
 URL: https://freetoolonline.com/guides/how-to-run-a-private-ai-chat-in-your-browser.html
-Last modified: 2026-06-16
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Run an AI chatbot in your browser - the model loads on your device, so chats stay private with no upload and no account. Requires a WebGPU browser. Free.
@@ -8598,10 +8675,21 @@ Description: Run an AI chatbot in your browser - the model loads on your device,
 Snippet: How to Run a Private AI Chat in Your Browser - Free, No Upload Run an AI chatbot entirely in your browser - the model downloads once and runs on your own device, so your messages are never uploaded and no account is needed.
 
 ---
+## How to Run the GPU Test - Step by Step
+
+URL: https://freetoolonline.com/guides/gpu-test-webgl-benchmark-info-step-by-step.html
+Last modified: 2026-07-05
+Kind: guide
+
+Description: Read the browser capability report, run the tiered 3D benchmark, and make sense of the score - a step-by-step walkthrough of the free online GPU test.
+
+Snippet: How to Run the GPU Test - Step by Step Last reviewed: 2026-07-05 GPU Test checks what your browser's graphics stack can do and then measures how much 3D geometry it can sustain.
+
+---
 ## How to Sign a PDF After Removing Its Password
 
 URL: https://freetoolonline.com/guides/en/how-to-sign-pdf-after-removing-a-password.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: How to sign a PDF after removing its owner password - legit workflow for contracts and forms, with legal and privacy notes.
@@ -8656,12 +8744,23 @@ Snippet: How to Test a Touchscreen for Bad Spots The visual half of a screen che
 ## How to Turn Text Into an Image (PNG) Online Free
 
 URL: https://freetoolonline.com/guides/how-to-turn-text-into-an-image-online.html
-Last modified: 2026-06-16
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Style text in your browser - choose a font, size, weight, colors, spacing, and a drop shadow, then download it as a PNG image. Free, no upload, no account.
 
 Snippet: How to Turn Text Into an Image (PNG) Online Free A font generator styles your text right in the browser and saves it as a PNG image.
+
+---
+## How to Use City Time Machine 3D - Step by Step
+
+URL: https://freetoolonline.com/guides/city-time-machine-3d-step-by-step.html
+Last modified: 2026-07-05
+Kind: guide
+
+Description: Load the 3D city block, orbit and zoom the camera, drag the 1945-2055 timeline, and watch buildings, signs, and people morph era by era in your browser.
+
+Snippet: How to Use City Time Machine 3D - Step by Step Last reviewed: 2026-07-05 City Time Machine 3D puts one 3D city block in your browser with a timeline that runs from 1945 to 2055.
 
 ---
 ## How to Use Solar System 3D Explorer - Step by Step
@@ -8689,7 +8788,7 @@ Snippet: Wheel Spinner: Step-by-Step Guide The Wheel Spinner tool turns a list o
 ## How to Visualize Data Online - Make a Chart From Your Numbers
 
 URL: https://freetoolonline.com/guides/how-to-visualize-data-online.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Turn rows of data into a chart in your browser. Paste CSV, JSON, or Label, Value lines, pick a chart type, and see it drawn - no upload, no account.
@@ -8733,7 +8832,7 @@ Snippet: Huong dan kiem tra diem anh chet - tim, xac nhan va phuc hoi diem anh P
 ## Image to Base64 - Embed in HTML/CSS vs Link the Image File
 
 URL: https://freetoolonline.com/guides/en/image-to-base64-embed-in-html-vs-link.html
-Last modified: 2026-06-29
+Last modified: 2026-06-30
 Kind: guide
 
 Description: Should you embed an image as a base64 data URL in HTML/CSS, or link the image file? A practical decision rule with concrete byte thresholds, cache and HTTP/2 tradeoffs, and a 30-second sanity check.
@@ -8843,7 +8942,7 @@ Snippet: What we learned running free in-browser image tools for 100K monthly us
 ## Inverter Texto: Quando Isso Ajuda de Verdade
 
 URL: https://freetoolonline.com/guides/pt/reverse-text-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Quando inverter texto ajuda: verificar palindromos, criar legendas espelhadas, cifras simples, e a comparacao com planilha, rev ou um script.
@@ -8854,7 +8953,7 @@ Snippet: Inverter texto: quando isso realmente ajuda A ferramenta gratuita Rever
 ## Invertir Texto: Cuando Realmente Ayuda
 
 URL: https://freetoolonline.com/guides/es/reverse-text-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Cuando invertir texto ayuda: comprobar palindromos, crear subtitulos espejo, cifrados simples, y la comparacion con hoja de calculo, rev o script.
@@ -8986,7 +9085,7 @@ Snippet: Jenis kata sandi ZIP - kuat vs lemah, dijelaskan (kapan penghapus onlin
 ## Jenis Konten Kode QR: URL, vCard, Wi-Fi, Teks - Mana yang Dipilih
 
 URL: https://freetoolonline.com/guides/id/qr-code-content-types-url-vcard-wifi-text-which-to-pick.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Pilih jenis konten yang tepat untuk kode QR: URL vs vCard vs Wi-Fi vs teks - apa yang dienkode masing-masing dan mana yang cocok untuk kartu nama atau brosur.
@@ -9184,7 +9283,7 @@ Snippet: JS Entminifizieren: Lesbarkeit Minifizierten JavaScripts Wiederherstell
 ## Json Formatter Online Step By Step
 
 URL: https://freetoolonline.com/guides/en/json-formatter-step-by-step.html
-Last modified: 2026-06-23
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Json Formatter Online Step By Step - quick reference paired with Json Formatter Online.
@@ -9206,7 +9305,7 @@ Snippet: Json Formatter Online Vs Alternatives Last reviewed: 2026-05-18 Quick r
 ## Json Formatter Online When To Use
 
 URL: https://freetoolonline.com/guides/en/json-formatter-when.html
-Last modified: 2026-06-23
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Json Formatter Online When To Use - quick reference paired with Json Formatter Online.
@@ -9261,7 +9360,7 @@ Snippet: JSON parser online: validasi vs format vs tampilan pohon - fitur mana y
 ## JSON parser online: validate vs format vs tree view - which feature do you need?
 
 URL: https://freetoolonline.com/guides/en/json-parser-validate-vs-format-vs-tree-view.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Validate, format, or explore JSON? A 30-second guide to picking the right sub-feature of the free JSON parser on freetoolonline.com - in-browser.
@@ -9448,7 +9547,7 @@ Snippet: Kapan Menggunakan Pengacak Daftar Acak Pengacak acak adalah alat yang t
 ## Kapan Menggunakan Perekam Suara Online
 
 URL: https://freetoolonline.com/guides/id/voice-recorder-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Kapan Menggunakan Perekam Suara Online - kapan membuka Online Voice Recorder sesuai dan apa yang diharapkan.
@@ -9514,7 +9613,7 @@ Snippet: Khi Nao Dung Cong Cu Xao Tron Danh Sach Ngau Nhien Mot cong cu xao tron
 ## Khi Nao Dung Ghi Am Truc Tuyen
 
 URL: https://freetoolonline.com/guides/vi/voice-recorder-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Khi Nao Dung Ghi Am Truc Tuyen - khi nao mo Online Voice Recorder la phu hop va nhung gi xay ra khi su dung.
@@ -9547,7 +9646,7 @@ Snippet: Khoi Phuc Tep Zip Bi Hong - Cac Lua Chon Lan ra soat cuoi 2026-04-27.
 ## Khung Hinh GIF vs Toc Do Khung Hinh GIF (FPS): Cai Nao Ban Thuc Su Can?
 
 URL: https://freetoolonline.com/guides/vi/gif-frames-extract-vs-frame-rate-fps-explained.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: guide
 
 Description: Khung hinh GIF la cac hinh anh tinh ben trong GIF dong; toc do khung hinh GIF (FPS) la toc do phat lai. Huong dan nay noi voi ban cai nao phu hop voi nhiem vu trong mot cau va cach chon FPS dung khi trich xuat khung hinh.
@@ -9690,7 +9789,7 @@ Snippet: Kiem tra LCD: Chon cong cu kiem tra man hinh dung Cac cum tu test lcd ,
 ## Kiem Tra LED vs Kiem Tra LCD: Cai Nao Ap Dung Cho Man Hinh Cua Ban?
 
 URL: https://freetoolonline.com/guides/vi/led-test-vs-lcd-test-which-applies-to-your-screen.html
-Last modified: 2026-07-01
+Last modified: 2026-07-02
 Kind: guide
 
 Description: LED la den nen; LCD la panel. Tren hau het man hinh hien dai, ca hai ten goi cung mot phan cung - mot chu ky mau toan man hinh tra loi duoc ca hai truy van.
@@ -9734,7 +9833,7 @@ Snippet: Kiem Tra Man Hinh LCD Chay mot bai kiem tra man hinh LCD mien phi tren 
 ## Kiem tra man hinh online vs app: cai nao chinh xac hon?
 
 URL: https://freetoolonline.com/guides/vi/screen-test-online-vs-app-which-is-more-accurate.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Bai kiem tra man hinh tren trinh duyet phat hien loi tam nen (pixel chet, do dong deu, ro ri) trong hai phut. App ban dia tiep can tan so quet, HDR va kiem tra ICC. Nen bat dau bang cai nao.
@@ -9866,7 +9965,7 @@ Snippet: Kompres JPEG Tanpa Kehilangan Kualitas - Kualitas vs Ukuran Kompresor J
 ## Kompres PDF Online Gratis - Perkecil Ukuran PDF
 
 URL: https://freetoolonline.com/guides/id/compress-pdf-online-free.html
-Last modified: 2026-06-23
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Perkecil PDF gratis online: ratakan berkas penuh formulir atau ekstrak-kompres-susun ulang PDF pindai dengan alat kami. Tanpa akun. Ditinjau 2026-06-11.
@@ -9899,7 +9998,7 @@ Snippet: Kapan mengompres vs mengonversi gambar - panduan keputusan Diterbitkan 
 ## Kompres Zip - Kapan Arsip Mengecilkan Ukuran
 
 URL: https://freetoolonline.com/guides/en/kompres-zip.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: guide
 
 Description: Panduan kompres zip: kapan format .zip benar-benar mengecilkan ukuran, kapan tidak, dan di mana alat pembuat arsip berada di browser. Gratis, tanpa instalasi.
@@ -9987,7 +10086,7 @@ Snippet: Kompresor File ZIP Online Butuh kompresor file ZIP online?
 ## Kompresor File: Pilih Berdasarkan Tipe File
 
 URL: https://freetoolonline.com/guides/id/file-compressor.html
-Last modified: 2026-05-31
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Kompresor file gratis yang memilih alat browser yang tepat berdasarkan yang Anda miliki: ZIP folder, kompres foto, konversi HEIC, bundel PDF atau gunakan tautan transfer.
@@ -10163,7 +10262,7 @@ Snippet: Konverter Video HD Online Vs Alternatif Direview terakhir: 2026-07-02 E
 ## Konverter Video ke GIF Kapan Digunakan
 
 URL: https://freetoolonline.com/guides/id/video-gif-converter-when.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Konverter Video ke GIF Kapan Digunakan - kapan membuka Konverter Video ke GIF cocok untuk tugas dan apa yang diharapkan saat cocok.
@@ -10174,7 +10273,7 @@ Snippet: Konverter Video ke GIF Kapan Digunakan Last reviewed: 2026-07-04 Konver
 ## Konverter Video ke GIF Langkah demi Langkah
 
 URL: https://freetoolonline.com/guides/id/video-gif-converter-step-by-step.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Konverter Video ke GIF Langkah demi Langkah - langkah-langkah persis untuk menjalankan Konverter Video ke GIF dari membuka hingga mengunduh hasilnya.
@@ -10185,7 +10284,7 @@ Snippet: Konverter Video ke GIF Langkah demi Langkah Last reviewed: 2026-07-04 K
 ## Konverter Video Ke Gif Vs Alternatif
 
 URL: https://freetoolonline.com/guides/id/video-gif-converter-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Konverter Video Ke Gif Vs Alternatif - bagaimana Konverter Video ke GIF dibandingkan dengan aplikasi desktop atau layanan berbasis unggah.
@@ -10207,7 +10306,7 @@ Snippet: Konverter Video Online Gratis: Konversi ke MP4, MOV, MP3 dan Lainnya Un
 ## Koreksi kesalahan kode QR dan kegagalan pemindaian
 
 URL: https://freetoolonline.com/guides/id/qr-code-error-correction-and-scan-failures.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Jika kode QR tidak dapat dipindai, penyebabnya biasanya satu dari empat: ukuran payload, tingkat koreksi kesalahan, kontras, atau skala cetak. Lihat mana.
@@ -10218,7 +10317,7 @@ Snippet: Koreksi kesalahan kode QR dan kegagalan pemindaian: mengapa QR Anda tid
 ## Kostenlose Online-Tools - kein Upload erforderlich
 
 URL: https://freetoolonline.com/guides/de/free-online-tools-that-work-without-uploading-files.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Wie browserbasierte Tools Dateien konvertieren, komprimieren und bearbeiten, ohne sie jemals hochzuladen. Der technische Grund warum es funktioniert, die Grenzen und die Privatsphaere, die Sie gratis bekommen.
@@ -10295,7 +10394,7 @@ Snippet: LCD Screen Test Run a free in-browser LCD screen test in under a minute
 ## Lcd Test - lcd test guide
 
 URL: https://freetoolonline.com/guides/en/lcd-test-online.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Lcd Test guide: how to lcd test online, free in your browser. Step-by-step, no install. Last reviewed 2026-05-13.
@@ -10405,7 +10504,7 @@ Snippet: LCD-Test - Dead Pixel, Stuck Pixel und Backlight Bleed pruefen Ein LCD-
 ## LED Test vs LCD Test: Which Applies to Your Screen?
 
 URL: https://freetoolonline.com/guides/en/led-test-vs-lcd-test-which-applies-to-your-screen.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: LED is the backlight; LCD is the panel. On almost every modern screen, both names mean the same hardware - one full-screen color cycle answers either query.
@@ -10427,7 +10526,7 @@ Snippet: LED Test The tool you need for an LED test is the in-browser screen tes
 ## LED-Test vs LCD-Test: Welcher Trifft Auf Ihren Bildschirm Zu?
 
 URL: https://freetoolonline.com/guides/de/led-test-vs-lcd-test-which-applies-to-your-screen.html
-Last modified: 2026-07-01
+Last modified: 2026-07-02
 Kind: guide
 
 Description: LED ist die Hintergrundbeleuchtung; LCD ist das Panel. Bei fast jedem modernen Bildschirm bedeuten beide Namen dieselbe Hardware - ein Vollbild-Farbzyklus beantwortet beide Anfragen.
@@ -10515,7 +10614,7 @@ Snippet: Make a ZIP File Online Make a ZIP file online - take one file, several 
 ## Mat khau MD5: cach hash mot mat khau va khi nao MD5 la sai
 
 URL: https://freetoolonline.com/guides/vi/md5-password.html
-Last modified: 2026-07-02
+Last modified: 2026-07-03
 Kind: guide
 
 Description: Huong dan mat khau MD5: dan mot chuoi mat khau, nhan dau van tay 32-hex, va biet khi nao MD5 an toan cho checksums va khi nao bcrypt hoac argon2id la lua chon dung.
@@ -10845,7 +10944,7 @@ Snippet: Wie man mehrere Dateien zu einer ZIP zusammenfuegt Zuletzt geprueft: 20
 ## Membalik Teks: Kapan Ini Benar-Benar Berguna
 
 URL: https://freetoolonline.com/guides/id/reverse-text-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Kapan membalik teks berguna: cek palindrom, buat keterangan cermin, sandi sederhana, dan perbandingan dengan spreadsheet, rev, atau skrip.
@@ -10911,7 +11010,7 @@ Snippet: Mengecilkan Ukuran Zip Online - Huong Dan Mien Phi Can mot tep ZIP nho 
 ## Mengecilkan Ukuran Zip Online - Panduan Gratis
 
 URL: https://freetoolonline.com/guides/id/mengecilkan-ukuran-zip.html
-Last modified: 2026-06-24
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Pelajari cara mengecilkan ukuran zip online: pilih file, kompres, dan unduh arsip yang lebih kecil di browser. Langkah demi langkah, tanpa instalasi. Terakhir ditinjau 2026-06-19.
@@ -11010,7 +11109,7 @@ Snippet: Mezclador de Listas Aleatorio: Guia Paso a Paso El Mezclador de Listas 
 ## Microphone Test Levels: What Quiet, Normal, and Peak Mean
 
 URL: https://freetoolonline.com/guides/en/microphone-test-online-quiet-normal-peak-meter.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Read a browser microphone test level meter in plain English: what quiet looks like, what normal call-ready audio is, and when peaks mean clipping.
@@ -11043,7 +11142,7 @@ Snippet: Microphone Test Online - What It Checks Last reviewed 2026-04-27.
 ## Microphone Test Permission Blocked: How to Allow Mic Access in Your Browser
 
 URL: https://freetoolonline.com/guides/en/microphone-test-permission-blocked-how-to-allow-it.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Microphone test shows a flat meter or no permission prompt? Allow mic access in Chrome, Firefox, Safari, and Edge - the exact click path per browser, plus what blocked vs ignored looks like.
@@ -11241,7 +11340,7 @@ Snippet: Millisecond To Date You have a long integer sitting in a log line, an A
 ## Milliseconds to date: UTC vs local time, why it can look off
 
 URL: https://freetoolonline.com/guides/en/milliseconds-to-date-utc-vs-local-time.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Milliseconds to date conversion: UTC vs local time, why your result may be hours off, and how to verify which value is correct. In-browser, free.
@@ -11406,7 +11505,7 @@ Snippet: MP4 a GIF Online Gratis: Recorta, Redimensiona y Exporta un GIF Animado
 ## MP4 ke GIF Online Gratis: Potong, Ubah Ukuran, dan Ekspor GIF Animasi
 
 URL: https://freetoolonline.com/guides/id/mp4-to-gif-online-free.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Ubah klip MP4 menjadi GIF animasi online gratis: potong jendela 3 sampai 10 detik, atur lebar dan frame rate, lalu unduh. Dibangun di atas alat GIF Maker.
@@ -11417,7 +11516,7 @@ Snippet: MP4 ke GIF Online Gratis: Potong, Ubah Ukuran, dan Ekspor GIF Animasi M
 ## MP4 para GIF Online Gratis: Corte, Redimensione e Exporte um GIF Animado
 
 URL: https://freetoolonline.com/guides/pt/mp4-to-gif-online-free.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Converta um clipe MP4 em um GIF animado online gratis: corte uma janela de 3 a 10 segundos, defina largura e taxa de quadros, depois baixe. Feito com a ferramenta GIF Maker.
@@ -11428,7 +11527,7 @@ Snippet: MP4 para GIF Online Gratis: Corte, Redimensione e Exporte um GIF Animad
 ## MP4 to GIF Online Free: Trim, Resize, and Export an Animated GIF
 
 URL: https://freetoolonline.com/guides/mp4-to-gif-online-free.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Convert an MP4 clip to an animated GIF online free: trim a 3 to 10 second window, set width and frame rate, then download. Built on the GIF Maker tool.
@@ -11516,7 +11615,7 @@ Snippet: MP4 vs WebM cho web - khi nao dung tung dinh dang Xuat ban 20 thang 4 n
 ## MP4 vs WebM for the Web
 
 URL: https://freetoolonline.com/guides/en/mp4-vs-webm-for-web.html
-Last modified: 2026-06-29
+Last modified: 2026-06-30
 Kind: guide
 
 Description: MP4 plays in every browser; WebM is 20-30 percent smaller in modern ones. Decision matrix, fallback pattern, and when each container is worth the trade-off.
@@ -11571,7 +11670,7 @@ Snippet: MP4 vs WebM untuk web - kapan menggunakan setiap format Diterbitkan 20 
 ## MP4 zu GIF Online Kostenlos: Schneiden, Skalieren und ein animiertes GIF exportieren
 
 URL: https://freetoolonline.com/guides/de/mp4-to-gif-online-free.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Wandeln Sie einen MP4-Clip online kostenlos in ein animiertes GIF um: schneiden Sie ein Fenster von 3 bis 10 Sekunden zu, stellen Sie Breite und Framerate ein, dann herunterladen. Basiert auf dem Werkzeug GIF Maker.
@@ -11879,7 +11978,7 @@ Snippet: O que um teste LCD realmente verifica Publicado em 30 de abril de 2026 
 ## OLED Test vs LCD Test: What Changes on an OLED Panel
 
 URL: https://freetoolonline.com/guides/en/oled-test-vs-lcd-test-what-changes-on-oled.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: OLED panels need a different test than LCD: no backlight bleed to look for, but burn-in and image retention matter. This guide explains what changes when your screen is OLED.
@@ -11945,7 +12044,7 @@ Snippet: Online Video Trimmer Step By Step Last reviewed: 2026-07-03 Online Vide
 ## Online Video Trimmer Vs Alternatives
 
 URL: https://freetoolonline.com/guides/video-trimmer-vs-alternatives.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Online Video Trimmer Vs Alternatives - how Online Video Trimmer compares with a desktop app or an upload-based service.
@@ -11956,7 +12055,7 @@ Snippet: Online Video Trimmer Vs Alternatives Last reviewed: 2026-07-03 Online V
 ## Online Video Trimmer When To Use
 
 URL: https://freetoolonline.com/guides/video-trimmer-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Online Video Trimmer When To Use - when opening Online Video Trimmer fits the job and what to expect when it does.
@@ -11989,7 +12088,7 @@ Snippet: Online Voice Recorder Vs Alternatives Last reviewed: 2026-07-03 Online 
 ## Online Voice Recorder When To Use
 
 URL: https://freetoolonline.com/guides/voice-recorder-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Online Voice Recorder When To Use - when opening Online Voice Recorder fits the job and what to expect when it does.
@@ -12066,7 +12165,7 @@ Snippet: Online ZIP-Datei-Kompressor Benoetigen Sie einen Online-ZIP-Kompressor?
 ## Online-Diff-Tool - Anleitung zum Vergleich zweier Texte nebeneinander
 
 URL: https://freetoolonline.com/guides/de/online-diff-tool.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Anleitung zum Online-Diff-Tool: zwei Textbloecke einfuegen und die hinzugefuegten, entfernten und geaenderten Zeilen nebeneinander im Browser lesen. Keine Installation, kein Upload.
@@ -12154,7 +12253,7 @@ Snippet: Online-Wuerfelwurf: Schritt-fuer-Schritt-Anleitung Das Tool Dice Roller
 ## Online-ZIP-Werkzeug (kostenlos, Browser-Build-Service)
 
 URL: https://freetoolonline.com/guides/de/i-love-zip.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Online-ZIP-Werkzeug: verwandle einen Ordner oder eine Mehrfachauswahl in eine einzige .zip-Datei ueber einen privaten Build-Service. Kostenlos, ohne Installation, ohne Konto, Quelldateien werden automatisch geloescht.
@@ -12220,7 +12319,7 @@ Snippet: Ordner Online Kostenlos Zippen Muessen Sie einen ganzen Ordner in eine 
 ## Ordner Zu Zip: Wann Und Wie Man Einen Ordner Online Archiviert (Kostenlose Anleitung)
 
 URL: https://freetoolonline.com/guides/de/folder-to-zip.html
-Last modified: 2026-07-04
+Last modified: 2026-06-30
 Kind: guide
 
 Description: Anleitung Ordner zu Zip: wann das Archivieren eines Ordners in eine einzige .zip tatsaechlich Platz spart, wie man das richtige Tool auswaehlt und wo der Browser-Ersteller lebt. Kostenlos, keine Installation.
@@ -12297,7 +12396,7 @@ Snippet: Password generator vs.
 ## Password Generator: When to Use It
 
 URL: https://freetoolonline.com/guides/password-generator-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: See when a browser-based password generator beats typing your own: account creation, password resets, and any login that bans reused or guessable passwords.
@@ -12341,7 +12440,7 @@ Snippet: Passwortgenerator vs.
 ## Passwortgenerator: Wann Man Ihn Benutzt
 
 URL: https://freetoolonline.com/guides/de/password-generator-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Erfahren Sie, wann ein browserbasierter Passwortgenerator sinnvoll ist: Kontoerstellung, Passwortzuruecksetzung und jede Anmeldung, die einzigartige, unvorhersehbare Passwoerter erfordert.
@@ -12352,7 +12451,7 @@ Snippet: Passwortgenerator: wann man ihn benutzt Der Passwortgenerator erstellt 
 ## Pasta Para Zip: Quando e Como Arquivar Uma Pasta Online (Guia Gratis)
 
 URL: https://freetoolonline.com/guides/pt/folder-to-zip.html
-Last modified: 2026-07-04
+Last modified: 2026-06-30
 Kind: guide
 
 Description: Guia de pasta para zip: quando arquivar uma pasta em um unico .zip realmente economiza espaco, como escolher a ferramenta certa e onde o criador no navegador vive. Gratis, sem instalacao.
@@ -12396,7 +12495,7 @@ Snippet: PDF ke Teks Online: Ekstrak Teks Gratis, Tanpa Instal Perlu mengeluarka
 ## PDF Online Kostenlos Komprimieren - PDF Verkleinern
 
 URL: https://freetoolonline.com/guides/de/compress-pdf-online-free.html
-Last modified: 2026-06-23
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Verkleinere eine PDF kostenlos online: reduziere formularlastige Dateien per Flatten oder baue gescannte PDFs mit unseren Werkzeugen neu auf. Kein Konto. Geprueft am 2026-06-11.
@@ -12407,7 +12506,7 @@ Snippet: PDF Online Kostenlos Komprimieren Eine PDF kostenlos zu verkleinern hae
 ## PDF Online Kostenlos Teilen
 
 URL: https://freetoolonline.com/guides/de/split-pdf-online-free.html
-Last modified: 2026-06-23
+Last modified: 2026-06-24
 Kind: guide
 
 Description: PDF online kostenlos teilen: einen Seitenbereich in eine neue Datei extrahieren oder jede Seite in ein eigenes PDF aufteilen. Kein Konto, keine Installation. Zuletzt geprueft 2026-06-14.
@@ -12440,7 +12539,7 @@ Snippet: PDF para Texto Online: Extraia Texto Gratis, Sem Instalar Precisa tirar
 ## PDF Password - Owner vs User
 
 URL: https://freetoolonline.com/guides/en/pdf-password-types-owner-vs-user.html
-Last modified: 2026-06-29
+Last modified: 2026-06-30
 Kind: guide
 
 Description: PDF password types - owner vs user password, what each blocks, when to set each, how to choose passwords that actually protect the document.
@@ -12495,7 +12594,7 @@ Snippet: PDF vs HEIC cho luu tru tai lieu - cai nao bao quan tot hon Cong bo nga
 ## PDF vs HEIC for Archival
 
 URL: https://freetoolonline.com/guides/en/pdf-vs-heic-for-document-archival.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: PDF vs HEIC for document archival - which preserves receipts, IDs, and forms long-term. Size, searchability, and tool-support tradeoffs for 2026.
@@ -12693,7 +12792,7 @@ Snippet: Pemindai Kode QR - Langkah demi Langkah Pemindai Kode QR berjalan dalam
 ## Pemindai Kode QR vs Alternatif
 
 URL: https://freetoolonline.com/guides/id/qr-code-scanner-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Pemindai Kode QR dibandingkan dengan aplikasi desktop atau layanan online berbasis unggahan.
@@ -12902,7 +13001,7 @@ Snippet: Pisahkan GIF Menjadi Frame Memisahkan GIF menjadi frame mengubah GIF an
 ## Pisahkan PDF Online Gratis
 
 URL: https://freetoolonline.com/guides/id/split-pdf-online-free.html
-Last modified: 2026-06-23
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Pisahkan PDF online gratis: ekstrak rentang halaman menjadi satu berkas baru, atau pecah setiap halaman menjadi PDF tersendiri. Tanpa akun, tanpa instalasi. Last reviewed 2026-06-14.
@@ -13210,7 +13309,7 @@ Snippet: Prueba de LCD para Pantallas de Portatil Haz clic en uno de los 6 boton
 ## Prueba de LED vs Prueba de LCD: Cual Se Aplica a Su Pantalla?
 
 URL: https://freetoolonline.com/guides/es/led-test-vs-lcd-test-which-applies-to-your-screen.html
-Last modified: 2026-07-01
+Last modified: 2026-07-02
 Kind: guide
 
 Description: LED es la retroiluminacion; LCD es el panel. En casi cualquier pantalla moderna, ambos nombres significan el mismo hardware - un ciclo de colores a pantalla completa responde a cualquiera de las dos consultas.
@@ -13309,7 +13408,7 @@ Snippet: QR Code Content Types: URL vs vCard vs Wi-Fi vs Text - Which to Pick La
 ## QR code error correction and scan failures
 
 URL: https://freetoolonline.com/guides/en/qr-code-error-correction-and-scan-failures.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: If a QR code will not scan, the cause is usually one of four: payload size, error-correction level, contrast, or print scale. Find which and fix it.
@@ -13342,7 +13441,7 @@ Snippet: Qr Code Scanner Step By Step Last reviewed: 2026-07-03 QR Code Scanner 
 ## Qr Code Scanner Vs Alternatives
 
 URL: https://freetoolonline.com/guides/qr-code-scanner-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Qr Code Scanner Vs Alternatives - how QR Code Scanner compares with a desktop app or an upload-based service.
@@ -13364,7 +13463,7 @@ Snippet: Qr Code Scanner When To Use Last reviewed: 2026-07-03 QR Code Scanner i
 ## QR-Code-Fehlerkorrektur und Scan-Ausfaelle
 
 URL: https://freetoolonline.com/guides/de/qr-code-error-correction-and-scan-failures.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Wenn ein QR-Code nicht scannt, ist die Ursache meist eines von vier: Payload-Groesse, Fehlerkorrekturstufe, Kontrast oder Druckskala. So finden und beheben Sie sie.
@@ -13386,7 +13485,7 @@ Snippet: QR-Code-Generator - Best Practices Zuletzt geprueft 2026-06-16.
 ## QR-Code-Inhaltstypen: URL, vCard, Wi-Fi, Text - Welcher Passt
 
 URL: https://freetoolonline.com/guides/de/qr-code-content-types-url-vcard-wifi-text-which-to-pick.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Waehlen Sie den richtigen Inhaltstyp fuer Ihren QR-Code: URL vs vCard vs Wi-Fi vs Text - was jeder codiert und was auf eine Visitenkarte oder einen Flyer passt.
@@ -13419,7 +13518,7 @@ Snippet: QR-Code-Scanner - Wann Verwenden Der QR-Code-Scanner lohnt sich zu oeff
 ## QR-Code-Scanner vs Alternativen
 
 URL: https://freetoolonline.com/guides/de/qr-code-scanner-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: QR-Code-Scanner verglichen mit einer Desktop-Anwendung oder einem uploadbasierten Online-Dienst.
@@ -13430,7 +13529,7 @@ Snippet: QR-Code-Scanner vs Alternativen Der QR-Code-Scanner ist eine von drei g
 ## Quando Usar o Gravador de Voz Online
 
 URL: https://freetoolonline.com/guides/pt/voice-recorder-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Quando Usar o Gravador de Voz Online - quando abrir o Online Voice Recorder e adequado e o que esperar quando for.
@@ -13507,7 +13606,7 @@ Snippet: Quet Ma QR - Tung Buoc Cong cu Quet Ma QR chay trong ba buoc: mo cong c
 ## Quet Ma QR vs Cac Lua Chon Khac
 
 URL: https://freetoolonline.com/guides/vi/qr-code-scanner-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Cong cu Quet Ma QR so voi ung dung may tinh hoac dich vu truc tuyen can tai len.
@@ -13705,7 +13804,7 @@ Snippet: Reducir Tamano del Archivo ZIP Online Un archivo ZIP es principalmente 
 ## Reducir Tamaño Zip Online - synonym-routing landing for the in-browser ZIP creator
 
 URL: https://freetoolonline.com/guides/es/reduce-zip-size-online.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Reducir tamaño zip online guide: where to actually reduce a .zip in your browser, when zipping saves space, and how this wording routes to the same in-browser creator as comprimir zip online.
@@ -13859,7 +13958,7 @@ Snippet: Resize Zip File: What "Resize" Actually Means For a .zip To shrink a ZI
 ## Retro Tank Battle vs Installing a Desktop Game
 
 URL: https://freetoolonline.com/guides/retro-tank-battle-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Retro Tank Battle in the browser vs an installed desktop game: 0 MB install, first shot in seconds, a price of $0 - and what installing still does better.
@@ -13870,7 +13969,7 @@ Snippet: Retro Tank Battle vs Installing a Desktop Game Last reviewed: 2026-07-0
 ## Reverse Text: When It Actually Helps
 
 URL: https://freetoolonline.com/guides/reverse-text-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: When reversing text helps: palindrome checks, mirrored captions, simple ciphers, plus how it compares to a spreadsheet, rev, or a script.
@@ -14013,7 +14112,7 @@ Snippet: Scanner de QR Code - Quando Usar O Scanner de QR Code vale a pena abrir
 ## Scanner de QR Code vs Alternativas
 
 URL: https://freetoolonline.com/guides/pt/qr-code-scanner-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Scanner de QR Code comparado com aplicativo de desktop ou servico online com upload.
@@ -14035,7 +14134,7 @@ Snippet: Screen test for laptop - 5-minute pre-buy or pre-return checklist Last 
 ## Screen test online vs app: which is more accurate?
 
 URL: https://freetoolonline.com/guides/en/screen-test-online-vs-app-which-is-more-accurate.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Browser screen tests catch panel defects (dead pixels, uniformity, bleed) in two minutes. Native apps reach refresh-rate, HDR, and ICC checks. Which to start with.
@@ -14079,7 +14178,7 @@ Snippet: Sebelum panggilan video - alat mana yang dijalankan (layar, kamera, mik
 ## Senha MD5: como criar hash de uma senha e quando MD5 esta errado
 
 URL: https://freetoolonline.com/guides/pt/md5-password.html
-Last modified: 2026-07-02
+Last modified: 2026-07-03
 Kind: guide
 
 Description: Guia de senha MD5: cole uma string de senha, receba um fingerprint de 32-hex, e saiba quando MD5 e seguro para checksums e quando bcrypt ou argon2id e a escolha certa.
@@ -14098,10 +14197,32 @@ Description: Sind Online-Tools wirklich kostenlos? Wie In-Browser-Tools ohne Abo
 Snippet: Sind Online-Tools wirklich kostenlos?
 
 ---
+## Sky Gates Flight vs Installing a Flying Game App
+
+URL: https://freetoolonline.com/guides/sky-gates-flight-vs-alternatives.html
+Last modified: 2026-07-05
+Kind: guide
+
+Description: Sky Gates Flight vs a typical installed flying game: 0 MB to install, seconds to first flight, and an honest look at where each side wins.
+
+Snippet: Sky Gates Flight vs Installing a Flying Game App Last reviewed: 2026-07-05 For a quick arcade flight, Sky Gates Flight gets you airborne in your browser with nothing installed, while a flying game app asks for a download and setup first.
+
+---
+## Sky Gates Flight: When It Fits and When It Does Not
+
+URL: https://freetoolonline.com/guides/sky-gates-flight-when.html
+Last modified: 2026-07-05
+Kind: guide
+
+Description: Where Sky Gates Flight fits - short breaks, phones, shared computers, chasing a best run - and where it does not: arcade physics, not a flight simulator.
+
+Snippet: Sky Gates Flight: When It Fits and When It Does Not Last reviewed: 2026-07-05 Sky Gates Flight is a quick arcade run: fly a small plane over the ocean, steer through green gates that add power and past red ones that drain it, and the run ends at zero.
+
+---
 ## Snake Classic vs Installing a Desktop Game
 
 URL: https://freetoolonline.com/guides/snake-classic-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Snake Classic in the browser vs installing a desktop game - 0 MB install and seconds to first play, weighed honestly against offline play and sound.
@@ -14277,7 +14398,7 @@ Snippet: So waehlen Sie ein Kompressionsniveau - Qualitaet vs Dateigroesse, mit 
 ## Solar System 3D Explorer vs Installing an Astronomy App
 
 URL: https://freetoolonline.com/guides/solar-system-3d-explorer-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Solar System 3D Explorer vs an installed astronomy app - 0 MB install and a view in seconds, or deeper date-accurate skies on the desktop.
@@ -14343,7 +14464,7 @@ Snippet: Speech To Text When To Use Last reviewed: 2026-07-03 Speech to Text is 
 ## Split GIF Into Frames Online - extract every frame
 
 URL: https://freetoolonline.com/guides/en/split-gif-into-frames.html
-Last modified: 2026-06-29
+Last modified: 2026-06-30
 Kind: guide
 
 Description: Split GIF Into Frames guide: extract every animation frame as a separate image, in your browser, no install. Step-by-step, free. Last reviewed 2026-05-14.
@@ -14354,7 +14475,7 @@ Snippet: Split GIF Into Frames Splitting a GIF into frames turns an animated GIF
 ## Split PDF Online Free
 
 URL: https://freetoolonline.com/guides/split-pdf-online-free.html
-Last modified: 2026-06-23
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Split a PDF online free: extract a page range into one new file, or break every page into its own PDF. No account, no install. Last reviewed 2026-06-14.
@@ -14409,7 +14530,7 @@ Snippet: Stopwatch Online: Panduan Langkah demi Langkah Alat Online Stopwatch me
 ## Sua loi QR code va that bai quet
 
 URL: https://freetoolonline.com/guides/vi/qr-code-error-correction-and-scan-failures.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Neu QR code khong quet duoc, nguyen nhan thuong la mot trong bon: kich thuoc payload, muc sua loi, do tuong phan, hoac ty le in. Xem cai nao va cach sua.
@@ -14596,7 +14717,7 @@ Snippet: Tao So Ngau Nhien Online: Huong Dan Tung Buoc Cong cu Random Number Gen
 ## Tao Tep ZIP Truc Tuyen - cong cu lam gi va khi nao ZIP tiet kiem khong gian
 
 URL: https://freetoolonline.com/guides/vi/make-zip-file-online.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Tao tep ZIP truc tuyen: khi nao ZIP that su tiet kiem khong gian, khi nao khong, va cach gui cac tep hoac mot thu muc nhu mot ban tai xuong duy nhat. Mien phi, khong cai dat.
@@ -14717,7 +14838,7 @@ Snippet: Teste de Camera Mostra Tela Preta: 4 Correcoes Que Funcionam de Verdade
 ## Tempo em milissegundos: a unidade, as conversões e o valor epoch
 
 URL: https://freetoolonline.com/guides/pt/time-in-ms.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Um tempo em milissegundos é um número onde 1 segundo equivale a 1000 ms. Veja os significados de duração e epoch, uma tabela de conversão e onde ms aparece no código.
@@ -14739,7 +14860,7 @@ Snippet: Temporizador de Cuenta Atras Online: Guia Paso a Paso La herramienta Co
 ## Tep tin sang ZIP - Huong dan nen tep tin truc tuyen
 
 URL: https://freetoolonline.com/guides/vi/file-to-zip.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Cach chuyen mot tep tin thanh tep ZIP truc tuyen: khi nao ZIP thuc su lam nho tep, khi nao khong, va cong cu tao nam o dau.
@@ -14816,7 +14937,7 @@ Snippet: Tes Layar LCD Jalankan tes layar LCD gratis di browser dalam waktu kura
 ## Tes layar online vs app: mana yang lebih akurat?
 
 URL: https://freetoolonline.com/guides/id/screen-test-online-vs-app-which-is-more-accurate.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Tes layar berbasis peramban menangkap cacat panel (pixel mati, keseragaman, kebocoran) dalam dua menit. App native mencapai frekuensi refresh, HDR, dan pemeriksaan ICC. Mana yang dimulai duluan.
@@ -14926,7 +15047,7 @@ Snippet: Tes LCD: Pilih alat tes layar yang tepat Terakhir ditinjau 2026-05-08.
 ## Tes LED vs Tes LCD: Mana yang Berlaku untuk Layar Anda?
 
 URL: https://freetoolonline.com/guides/id/led-test-vs-lcd-test-which-applies-to-your-screen.html
-Last modified: 2026-07-01
+Last modified: 2026-07-02
 Kind: guide
 
 Description: LED adalah cahaya latar; LCD adalah panel. Pada hampir setiap layar modern, kedua nama berarti hardware yang sama - satu siklus warna layar penuh menjawab kedua pertanyaan.
@@ -15003,7 +15124,7 @@ Snippet: Test camera vs test webcam vs test chat luong camera - ban thuc su can 
 ## Test de pantalla online vs app: cual es mas preciso?
 
 URL: https://freetoolonline.com/guides/es/screen-test-online-vs-app-which-is-more-accurate.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Los tests de pantalla en el navegador detectan defectos del panel (pixeles muertos, uniformidad, fuga) en dos minutos. Las apps nativas llegan a la frecuencia, HDR y comprobaciones ICC. Por cual empezar.
@@ -15025,7 +15146,7 @@ Snippet: Test de pantalla vs Test LCD - lo mismo?
 ## Test Dead Pixels Before Returning a Monitor
 
 URL: https://freetoolonline.com/guides/en/how-to-test-for-dead-pixels-before-returning-a-monitor.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: How to test for dead pixels before returning a monitor - full-screen color check, stuck vs dead pixels, warranty proof, and what manufacturers accept.
@@ -15146,7 +15267,7 @@ Snippet: Teste de LCD para Telas de Notebook Clique em um dos seis botoes de cor
 ## Teste de LED vs Teste de LCD: Qual Se Aplica a Sua Tela?
 
 URL: https://freetoolonline.com/guides/pt/led-test-vs-lcd-test-which-applies-to-your-screen.html
-Last modified: 2026-07-01
+Last modified: 2026-07-02
 Kind: guide
 
 Description: LED e a retroiluminacao; LCD e o painel. Em quase toda tela moderna, os dois nomes significam o mesmo hardware - um ciclo de cores em tela cheia responde qualquer das duas perguntas.
@@ -15212,7 +15333,7 @@ Snippet: Teste de Tela LCD Execute um teste de tela LCD gratuito no navegador em
 ## Teste de tela online vs app: qual e mais preciso?
 
 URL: https://freetoolonline.com/guides/pt/screen-test-online-vs-app-which-is-more-accurate.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Testes de tela no navegador detectam defeitos do painel (pixels mortos, uniformidade, vazamento) em dois minutos. Apps nativos alcancam taxa de atualizacao, HDR e checagens ICC. Por qual comecar.
@@ -15311,7 +15432,7 @@ Snippet: Como testar pixels mortos antes de devolver um monitor Publicado em 20 
 ## Text in ein Bild (PNG) umwandeln - online und kostenlos
 
 URL: https://freetoolonline.com/guides/de/how-to-turn-text-into-an-image-online.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Gestalte Text im Browser - waehle Schriftart, Groesse, Farben, Abstand und einen Schatten, und lade ihn als PNG-Bild herunter. Ohne Upload, ohne Konto.
@@ -15322,7 +15443,7 @@ Snippet: Text in ein Bild (PNG) umwandeln - online und kostenlos Ein Schriftgene
 ## Text Repeater Passo a Passo
 
 URL: https://freetoolonline.com/guides/pt/text-repeater-step-by-step.html
-Last modified: 2026-07-04
+Last modified: 2026-07-03
 Kind: guide
 
 Description: Text Repeater Passo a Passo - os passos exatos para usar o Text Repeater, desde abrir a ferramenta até baixar o resultado.
@@ -15344,7 +15465,7 @@ Snippet: Text Repeater Step By Step Last reviewed: 2026-07-03 Text Repeater runs
 ## Text Repeater Vs Alternatives
 
 URL: https://freetoolonline.com/guides/text-repeater-vs-alternatives.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Text Repeater Vs Alternatives - how Text Repeater compares with a desktop app or an upload-based service.
@@ -15355,7 +15476,7 @@ Snippet: Text Repeater Vs Alternatives Last reviewed: 2026-07-03 Text Repeater i
 ## Text Repeater When To Use
 
 URL: https://freetoolonline.com/guides/text-repeater-when.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Text Repeater When To Use - when opening Text Repeater fits the job and what to expect when it does.
@@ -15399,7 +15520,7 @@ Snippet: Text To Speech When To Use Last reviewed: 2026-07-03 Text to Speech is 
 ## Text Umkehren: Wann Es Wirklich Hilft
 
 URL: https://freetoolonline.com/guides/de/reverse-text-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Wann Text umkehren hilft: Palindrome pruefen, gespiegelte Untertitel, einfache Chiffren, und der Vergleich mit Tabelle, rev oder Skript.
@@ -15608,7 +15729,7 @@ Snippet: Thay Doi Kich Thuoc File Zip: "Resize" That Su Co Nghia Gi Voi mot .zip
 ## Thoi gian bang mili giay: don vi, chuyen doi va gia tri epoch
 
 URL: https://freetoolonline.com/guides/vi/time-in-ms.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Thoi gian bang mili giay la mot so voi 1 giay bang 1000 ms. Tim hieu y nghia thoi luong va epoch, bang chuyen doi, va noi ms xuat hien trong ma nguon.
@@ -15630,7 +15751,7 @@ Snippet: Thoi gian hien tai bang mili giay: doc gia tri epoch truc tiep va dung 
 ## Thu Muc Sang Zip: Khi Nao Va Cach Luu Tru Thu Muc Truc Tuyen (Huong Dan Mien Phi)
 
 URL: https://freetoolonline.com/guides/vi/folder-to-zip.html
-Last modified: 2026-07-04
+Last modified: 2026-06-30
 Kind: guide
 
 Description: Huong dan thu muc sang zip: khi nao luu tru mot thu muc thanh mot .zip duy nhat thuc su tiet kiem khong gian, cach chon dung cong cu va noi trinh tao trong trinh duyet song. Mien phi, khong cai dat.
@@ -15641,7 +15762,7 @@ Snippet: Thu Muc Sang Zip Thu muc sang ZIP gom tat ca cac tep thanh mot archive 
 ## Tiempo en milisegundos: la unidad, las conversiones y el valor epoch
 
 URL: https://freetoolonline.com/guides/es/time-in-ms.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Un tiempo en milisegundos es un número donde 1 segundo equivale a 1000 ms. Conoce los significados de duración y epoch, una tabla de conversión y dónde aparece ms en el código.
@@ -15652,7 +15773,7 @@ Snippet: Tiempo en milisegundos: la unidad, las conversiones y dónde aparece Un
 ## Time in milliseconds: the unit, conversions, and the epoch value
 
 URL: https://freetoolonline.com/guides/en/time-in-ms.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: A time in milliseconds is a number where 1 second equals 1000 ms. See the duration and epoch meanings, a conversion table, and where ms appears in code.
@@ -15729,7 +15850,7 @@ Snippet: Timestamps Unix explicados - epoch, ISO-8601 y zonas horarias Publicado
 ## Tipos de Contenido de QR: URL, vCard, Wi-Fi, Texto - Cual Elegir
 
 URL: https://freetoolonline.com/guides/es/qr-code-content-types-url-vcard-wifi-text-which-to-pick.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Elige el tipo de contenido correcto para tu QR: URL vs vCard vs Wi-Fi vs texto - que codifica cada uno y cual encaja en una tarjeta de visita o folleto.
@@ -15740,7 +15861,7 @@ Snippet: Tipos de Contenido de QR: URL vs vCard vs Wi-Fi vs Texto - Cual Elegir 
 ## Tipos de Conteudo de QR Code: URL, vCard, Wi-Fi - Qual Escolher
 
 URL: https://freetoolonline.com/guides/pt/qr-code-content-types-url-vcard-wifi-text-which-to-pick.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Escolha o tipo de conteudo certo para seu QR: URL vs vCard vs Wi-Fi vs texto - o que cada um codifica e qual cabe num cartao de visita ou panfleto.
@@ -15861,7 +15982,7 @@ Snippet: Trinh Nen File vs ZIP: Cong Cu Nao Chon (2026) Da xem lai lan cuoi 2026
 ## Trinh Nen File: Chon Theo Loai File
 
 URL: https://freetoolonline.com/guides/vi/file-compressor.html
-Last modified: 2026-05-31
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Trinh nen file mien phi chon dung cong cu trinh duyet theo nhung gi ban co: ZIP mot thu muc, nen anh, chuyen doi HEIC, gop PDF hoac dung lien ket truyen file.
@@ -15894,7 +16015,7 @@ Snippet: Trinh Rut Gon CSS vs Uglifier vs Tree-Shaking Cap nhat lan cuoi: 2026-0
 ## Trinh Trich Xuat Khung Hinh GIF - lay khung tu GIF dong
 
 URL: https://freetoolonline.com/guides/vi/gif-frame-extractor.html
-Last modified: 2026-06-18
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Huong dan tung buoc trich xuat khung hinh tu GIF dong: chon PNG hoac JPG, dat FPS va tai tung khung. Da xem lai lan cuoi 2026-05-14.
@@ -15960,7 +16081,7 @@ Snippet: Unir PDF Online Gratis - Combina PDFs en tu Navegador Une archivos PDF 
 ## Unix Timestamps Explained
 
 URL: https://freetoolonline.com/guides/en/unix-timestamps-explained.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Unix timestamps explained - seconds vs milliseconds, ISO-8601, RFC 2822, UTC vs local time, and the common pitfalls when converting between formats.
@@ -16070,7 +16191,7 @@ Snippet: Url Decoder Khi Nao Dung Last reviewed: 2026-07-03 URL Decoder dang dun
 ## Url Decoder Langkah Demi Langkah
 
 URL: https://freetoolonline.com/guides/id/url-decoder-step-by-step.html
-Last modified: 2026-07-03
+Last modified: 2026-07-04
 Kind: guide
 
 Description: Url Decoder Langkah Demi Langkah - langkah-langkah tepat untuk menjalankan URL Decoder.
@@ -16081,7 +16202,7 @@ Snippet: Url Decoder Langkah Demi Langkah Last reviewed: 2026-07-03 URL Decoder 
 ## Url Decoder Paso A Paso
 
 URL: https://freetoolonline.com/guides/es/url-decoder-step-by-step.html
-Last modified: 2026-07-03
+Last modified: 2026-07-04
 Kind: guide
 
 Description: Url Decoder Paso A Paso - los pasos exactos para ejecutar el URL Decoder de inicio a resultado.
@@ -16092,7 +16213,7 @@ Snippet: Url Decoder Paso A Paso Last reviewed: 2026-07-03 URL Decoder funciona 
 ## Url Decoder Passo A Passo
 
 URL: https://freetoolonline.com/guides/pt/url-decoder-step-by-step.html
-Last modified: 2026-07-03
+Last modified: 2026-07-04
 Kind: guide
 
 Description: Url Decoder Passo A Passo - os passos exatos para executar o URL Decoder do inicio ao resultado.
@@ -16114,7 +16235,7 @@ Snippet: Url Decoder Quando Usar Last reviewed: 2026-07-03 URL Decoder vale a pe
 ## Url Decoder Schritt Fuer Schritt
 
 URL: https://freetoolonline.com/guides/de/url-decoder-step-by-step.html
-Last modified: 2026-07-03
+Last modified: 2026-07-04
 Kind: guide
 
 Description: Url Decoder Schritt Fuer Schritt - die genauen Schritte zur Ausfuehrung des URL Decoders.
@@ -16125,7 +16246,7 @@ Snippet: Url Decoder Schritt Fuer Schritt Last reviewed: 2026-07-03 URL Decoder 
 ## Url Decoder So Voi Cac Cong Cu Khac
 
 URL: https://freetoolonline.com/guides/vi/url-decoder-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Url Decoder So Voi Cac Cong Cu Khac - URL Decoder so sanh voi ung dung may tinh va dich vu upload.
@@ -16136,7 +16257,7 @@ Snippet: Url Decoder So Voi Cac Cong Cu Khac Last reviewed: 2026-07-03 URL Decod
 ## Url Decoder Step By Step
 
 URL: https://freetoolonline.com/guides/url-decoder-step-by-step.html
-Last modified: 2026-07-03
+Last modified: 2026-07-04
 Kind: guide
 
 Description: Url Decoder Step By Step - the exact steps to run URL Decoder from open to downloaded result.
@@ -16147,7 +16268,7 @@ Snippet: Url Decoder Step By Step Last reviewed: 2026-07-03 URL Decoder runs in 
 ## Url Decoder Tung Buoc
 
 URL: https://freetoolonline.com/guides/vi/url-decoder-step-by-step.html
-Last modified: 2026-07-03
+Last modified: 2026-07-04
 Kind: guide
 
 Description: Url Decoder Tung Buoc - cac buoc chinh xac de chay URL Decoder tu dau den ket qua.
@@ -16158,7 +16279,7 @@ Snippet: Url Decoder Tung Buoc Last reviewed: 2026-07-03 URL Decoder hoat dong t
 ## Url Decoder Vs Alternatif
 
 URL: https://freetoolonline.com/guides/id/url-decoder-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Url Decoder Vs Alternatif - bagaimana URL Decoder dibandingkan dengan aplikasi desktop atau layanan unggahan.
@@ -16169,7 +16290,7 @@ Snippet: Url Decoder Vs Alternatif Last reviewed: 2026-07-03 URL Decoder adalah 
 ## Url Decoder Vs Alternativas
 
 URL: https://freetoolonline.com/guides/pt/url-decoder-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Url Decoder Vs Alternativas - como o URL Decoder se compara com um aplicativo ou servico de upload.
@@ -16180,7 +16301,7 @@ Snippet: Url Decoder Vs Alternativas Last reviewed: 2026-07-03 URL Decoder e uma
 ## Url Decoder Vs Alternativas
 
 URL: https://freetoolonline.com/guides/es/url-decoder-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Url Decoder Vs Alternativas - como URL Decoder se compara con una aplicacion de escritorio o servicio de subida.
@@ -16191,7 +16312,7 @@ Snippet: Url Decoder Vs Alternativas Last reviewed: 2026-07-03 URL Decoder es un
 ## Url Decoder Vs Alternativen
 
 URL: https://freetoolonline.com/guides/de/url-decoder-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Url Decoder Vs Alternativen - wie URL Decoder im Vergleich zu einer Desktop-App oder einem Upload-Dienst abschneidet.
@@ -16202,7 +16323,7 @@ Snippet: Url Decoder Vs Alternativen Last reviewed: 2026-07-03 URL Decoder ist e
 ## Url Decoder Vs Alternatives
 
 URL: https://freetoolonline.com/guides/url-decoder-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Url Decoder Vs Alternatives - how URL Decoder compares with a desktop app or an upload-based service.
@@ -16301,7 +16422,7 @@ Snippet: Como verificar webcam y microfono antes de una entrevista Abra la Prueb
 ## Video Converter Online Free: Convert to MP4, MOV, MP3 and More
 
 URL: https://freetoolonline.com/guides/video-converter-online-free.html
-Last modified: 2026-06-29
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Convert video online free to MP4, WebM, MOV, MP3 or WAV. Trim a segment first, no account needed. Server-side for large or long files.
@@ -16312,7 +16433,7 @@ Snippet: Video Converter Online Free: Convert to MP4, MOV, MP3 and More Upload a
 ## Video To Gif Converter Step By Step
 
 URL: https://freetoolonline.com/guides/video-gif-converter-step-by-step.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Video To Gif Converter Step By Step - the exact steps to run Video to GIF Converter from open to downloaded result.
@@ -16323,7 +16444,7 @@ Snippet: Video To Gif Converter Step By Step Last reviewed: 2026-07-04 Video to 
 ## Video To Gif Converter Vs Alternatives
 
 URL: https://freetoolonline.com/guides/video-gif-converter-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Video To Gif Converter Vs Alternatives - how Video to GIF Converter compares with a desktop app or an upload-based service.
@@ -16334,7 +16455,7 @@ Snippet: Video To Gif Converter Vs Alternatives Last reviewed: 2026-07-04 Video 
 ## Video To Gif Converter When To Use
 
 URL: https://freetoolonline.com/guides/video-gif-converter-when.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Video To Gif Converter When To Use - when opening Video to GIF Converter fits the job and what to expect when it does.
@@ -16345,7 +16466,7 @@ Snippet: Video To Gif Converter When To Use Last reviewed: 2026-07-04 Video to G
 ## Video-zu-GIF-Konverter Schritt fuer Schritt
 
 URL: https://freetoolonline.com/guides/de/video-gif-converter-step-by-step.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Video-zu-GIF-Konverter Schritt fuer Schritt - die genauen Schritte, um den Video-zu-GIF-Konverter vom Oeffnen bis zum heruntergeladenen Ergebnis auszufuehren.
@@ -16356,7 +16477,7 @@ Snippet: Video-zu-GIF-Konverter Schritt fuer Schritt Last reviewed: 2026-07-04 V
 ## Video-Zu-Gif-Konverter Vs Alternativen
 
 URL: https://freetoolonline.com/guides/de/video-gif-converter-vs-alternatives.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Video-Zu-Gif-Konverter Vs Alternativen - wie sich der Video-zu-GIF-Konverter mit einer Desktop-Anwendung oder einem Upload-basierten Dienst vergleicht.
@@ -16367,7 +16488,7 @@ Snippet: Video-Zu-Gif-Konverter Vs Alternativen Last reviewed: 2026-07-04 Der Vi
 ## Video-zu-GIF-Konverter Wann Verwenden
 
 URL: https://freetoolonline.com/guides/de/video-gif-converter-when.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Video-zu-GIF-Konverter Wann Verwenden - wann sich das Oeffnen des Video-zu-GIF-Konverters fuer die Aufgabe eignet und was zu erwarten ist, wenn es passt.
@@ -16455,7 +16576,7 @@ Snippet: Voz a Texto vs Alternativas Voz a Texto es una de las tres formas comun
 ## Waktu dalam milidetik: satuan, konversi, dan nilai epoch
 
 URL: https://freetoolonline.com/guides/id/time-in-ms.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Waktu dalam milidetik adalah angka di mana 1 detik sama dengan 1000 ms. Pelajari makna durasi dan epoch, tabel konversi, dan di mana ms muncul dalam kode.
@@ -16477,7 +16598,7 @@ Snippet: Waktu sekarang dalam milidetik: baca nilai epoch langsung dan gunakan d
 ## Wann den Online-Sprachrekorder Verwenden
 
 URL: https://freetoolonline.com/guides/de/voice-recorder-when.html
-Last modified: 2026-07-03
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Wann den Online-Sprachrekorder verwenden - wann dieses Browser-Werkzeug passt und was Sie erwarten koennen.
@@ -16661,6 +16782,17 @@ Description: The sessions Snake Classic fits - quick breaks, locked-down compute
 Snippet: When Snake Classic Fits - and When It Does Not Last reviewed: 2026-07-04 Snake Classic suits short, self-contained play sessions: it starts the moment you press a key or swipe, and it needs nothing installed and uploads nothing.
 
 ---
+## When the GPU Test Fits - and When It Does Not
+
+URL: https://freetoolonline.com/guides/gpu-test-webgl-benchmark-info-when.html
+Last modified: 2026-07-05
+Kind: guide
+
+Description: Four concrete situations for the browser GPU test: quick capability checks, before-and-after comparisons, trend tracking - and where it honestly does not fit.
+
+Snippet: When the GPU Test Fits - and When It Does Not Last reviewed: 2026-07-05 The GPU Test reads out what your browser's graphics stack can do, then runs a click-to-start benchmark that measures sustained frame rates.
+
+---
 ## When to Play Garden Defense - and When to Skip It
 
 URL: https://freetoolonline.com/guides/garden-defense-when.html
@@ -16730,7 +16862,7 @@ Snippet: When to Use Solar System 3D Explorer (and When Not To) Last reviewed: 2
 ## When to Use Voxel World Builder (and When Not To)
 
 URL: https://freetoolonline.com/guides/voxel-world-builder-when.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: When a browser voxel sandbox fits: quick creative breaks, devices where you cannot install, builds you back up as JSON - and the sessions it does not cover.
@@ -16774,7 +16906,7 @@ Snippet: Wie man die Zip-Dateigroesse online reduziert (kostenlos) Zuletzt gepru
 ## Wie man die ZIP-Dateigroesse reduziert - was komprimiert, was nicht
 
 URL: https://freetoolonline.com/guides/de/how-to-reduce-zip-file-size.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Warum die meisten ZIPs nicht schrumpfen und wie man eine wirklich verkleinert - was komprimiert (Text, CSV, Quellcode), was nicht (JPG, MP4, MP3), und der Workflow, der funktioniert.
@@ -16829,7 +16961,7 @@ Snippet: Wie Man eine Datei Online Komprimiert (Schritt für Schritt) Last revie
 ## Wie man eine Nachricht in einem Bild versteckt (Steganografie)
 
 URL: https://freetoolonline.com/guides/de/how-to-hide-a-message-in-an-image.html
-Last modified: 2026-06-17
+Last modified: 2026-06-24
 Kind: guide
 
 Description: Wie man eine geheime Textnachricht in einem PNG-Bild versteckt und wieder ausliest, optional mit Passwort - kostenlos, im Browser, nichts wird hochgeladen.
@@ -16961,7 +17093,7 @@ Snippet: Yes or No Wheel: Step-by-Step Guide The Yes or No Wheel tool opens pre-
 ## Zeit in Millisekunden: die Einheit, die Umrechnungen und der Epoch-Wert
 
 URL: https://freetoolonline.com/guides/de/time-in-ms.html
-Last modified: 2026-07-04
+Last modified: 2026-07-05
 Kind: guide
 
 Description: Eine Zeit in Millisekunden ist eine Zahl, bei der 1 Sekunde 1000 ms entspricht. Lernen Sie die Dauer- und Epoch-Bedeutung, eine Umrechnungstabelle und wo ms im Code vorkommt.
@@ -17291,7 +17423,7 @@ Snippet: ZIP-Datei Online Entsperren Eine ZIP zu "entsperren" kann zwei verschie
 ## ZIP-Datei Online Erstellen - was das Werkzeug tatsaechlich macht und wann ZIP Speicherplatz spart
 
 URL: https://freetoolonline.com/guides/de/make-zip-file-online.html
-Last modified: 2026-06-30
+Last modified: 2026-07-01
 Kind: guide
 
 Description: ZIP-Datei online erstellen: wann ZIP wirklich Speicherplatz spart, wann nicht, und wie man Dateien oder einen Ordner als einen einzigen Download sendet. Kostenlos, keine Installation.
@@ -17324,7 +17456,7 @@ Snippet: ZIP-Datei komprimieren ZIP-Datei komprimieren ist der Weg, eine Datei, 
 ## ZIP-Datei online: So erstellst du ein ZIP-Archiv online (kostenlos, im Browser)
 
 URL: https://freetoolonline.com/guides/de/online-zip-file.html
-Last modified: 2026-07-02
+Last modified: 2026-07-01
 Kind: guide
 
 Description: Erstelle ein ZIP-Archiv online - fuege Dateien oder einen Ordner in den Browser-Ersteller ein, erhalte eine herunterladbare .zip-Datei, ohne Installation, ohne Anmeldung. Zuletzt geprueft 2026-05-18.
@@ -17401,7 +17533,7 @@ Snippet: ZIP-Entsperrer online: Wann das funktioniert, wann nicht Wenn du das Pa
 ## ZIP-Groesse online verkleinern - Kostenloser Leitfaden
 
 URL: https://freetoolonline.com/guides/de/mengecilkan-ukuran-zip.html
-Last modified: 2026-06-24
+Last modified: 2026-06-28
 Kind: guide
 
 Description: Erfahren Sie, wie Sie die ZIP-Groesse online verkleinern: Dateien auswaehlen, komprimieren und ein kleineres Archiv im Browser herunterladen. Schritt fuer Schritt, ohne Installation. Zuletzt geprueft 2026-06-19.
