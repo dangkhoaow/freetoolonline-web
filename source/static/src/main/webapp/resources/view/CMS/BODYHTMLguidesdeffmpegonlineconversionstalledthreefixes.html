@@ -30,6 +30,7 @@
 
     <h2 class="text-uppercase"><b>Die 30-Sekunden-Hang-Prüfung: kleiner Clip im Vordergrund</b></h2>
     <p>Drei Schritte sagen Ihnen, ob Speicher, der Hintergrund-Tab oder der Codec Ihre Konvertierung zum Hängen gebracht hat - keine Mathematik, nur ein kleiner Clip und ein Vordergrund-Tab:</p>
+    <figure class="illustration"><img src="/img/illustrations/numbered-bars-4/guidesdeffmpegonlineconversionstalledthreefixes__977f0b83.svg" alt="Drei-Schritte-Pruefung: Tab neu laden, kleinen Clip testen, dann das Ergebnis lesen fuer Speicher, Codec, oder Hintergrund-Tab." loading="lazy" width="640" height="280"><figcaption>Drei schnelle Pruefungen fuer Speicher-, Codec- oder Hintergrund-Tab-Haenger.</figcaption></figure>
     <ol>
         <li><b>Laden Sie den Tab neu</b> (zykliert das WASM-Modul und räumt alle Zombie-Zustände aus dem vorherigen Versuch auf).</li>
         <li><b>Legen Sie eine sehr kleine Datei ab</b> - einen 5-Sekunden-720p-Clip, ~5 MB. Halten Sie den Tab im Vordergrund.</li>
@@ -44,6 +45,7 @@
     <p>Wenn ein kleiner Clip erfolgreich ist und die ursprüngliche Quelle 4K oder länger als 10 Minuten war, ist Ursache 1 (Speicher) am wahrscheinlichsten; schneiden Sie die Quelle auf ~5-Minuten-Stücke oder führen Sie FFmpeg lokal aus.</p>
 
     <h2 class="text-uppercase"><b>Haeufig gestellte Fragen</b></h2>
+    <p>Haeufig gestellte Fragen zu FFmpeg-Online-Abbruechen, Speicherlimits und Codec-Unterstuetzung.</p>
     <details class="faq-item">
   <summary>Unterstützt Safari WASM-FFmpeg?</summary>
   <p>Ja, aktuelle Safari unterstützt die WebAssembly + Web Worker-Kombination, die Browser-FFmpeg-Builds verwenden, aber Safari ist strenger als Chrome bei Hintergrund-Tab-Drosselung und bei Speicher-Caps im privaten Browsen. Wenn Ihre Konvertierung in Safari hängt, aber in Chrome auf derselben Maschine funktioniert, ist die Ursache normalerweise Ursache 2 (Tab-Hintergrund) oder Speicherdruck im privaten Modus.</p>

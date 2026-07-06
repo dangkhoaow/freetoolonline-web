@@ -30,6 +30,7 @@
 
     <h2 class="text-uppercase"><b>Pemeriksaan macet 30 detik: klip kecil di latar depan</b></h2>
     <p>Tiga langkah memberi tahu Anda apakah memori, tab latar belakang, atau codec yang memacetkan konversi Anda - tanpa matematika, hanya klip kecil dan tab latar depan:</p>
+    <figure class="illustration"><img src="/img/illustrations/numbered-bars-4/guidesidffmpegonlineconversionstalledthreefixes__baef7b30.svg" alt="Pemeriksaan tiga langkah: muat ulang tab, coba klip kecil, lalu baca hasilnya untuk memori, codec, atau tab latar belakang." loading="lazy" width="640" height="280"><figcaption>Tiga pemeriksaan cepat untuk memori, codec, atau macet karena tab latar belakang.</figcaption></figure>
     <ol>
         <li><b>Muat ulang tab</b> (memutar modul WASM dan membersihkan keadaan zombi dari upaya sebelumnya).</li>
         <li><b>Jatuhkan file yang sangat kecil</b> - klip 5 detik 720p, ~5 MB. Pertahankan tab di latar depan.</li>
@@ -44,6 +45,7 @@
     <p>Jika klip kecil berhasil dan sumber asli adalah 4K atau lebih panjang dari 10 menit, Penyebab 1 (memori) adalah yang paling mungkin; pangkas sumber ke potongan ~5 menit atau jalankan ffmpeg secara lokal.</p>
 
     <h2 class="text-uppercase"><b>Pertanyaan yang sering diajukan</b></h2>
+    <p>Pertanyaan yang sering diajukan tentang ffmpeg online yang macet, batas memori, dan dukungan codec.</p>
     <details class="faq-item">
   <summary>Apakah Safari mendukung WASM ffmpeg?</summary>
   <p>Ya, Safari baru mendukung kombinasi WebAssembly + Web Worker yang digunakan build ffmpeg browser, tetapi Safari lebih ketat daripada Chrome pada throttling tab latar belakang dan pada batas memori dalam browsing pribadi. Jika konversi Anda macet di Safari tetapi bekerja di Chrome pada mesin yang sama, penyebabnya biasanya Penyebab 2 (tab di latar belakang) atau tekanan memori dalam mode pribadi.</p>
