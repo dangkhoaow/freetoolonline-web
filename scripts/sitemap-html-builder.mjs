@@ -95,6 +95,7 @@ const GUIDE_TOPIC_ORDER = [
   'developer-and-encoding',
   'games',
   'space',
+  'utilities',
   'editorial-and-other',
 ];
 
@@ -108,6 +109,7 @@ const GUIDE_TOPIC_LABELS = {
   'developer-and-encoding': 'Developer and encoding',
   games: 'Browser games',
   space: 'Space 3D',
+  utilities: 'Utilities',
   'editorial-and-other': 'Editorial and other',
 };
 
@@ -142,6 +144,11 @@ function classifyGuide(slug) {
   }
   if (/(^|-)(solar-system|black-hole|galaxy|planet|space-3d|earth-3d)/.test(slug)) {
     return 'space';
+  }
+  // fire-32: the Linux Online VM guides (run-linux-in-browser-*) -> the
+  // existing utility topic.
+  if (/(^|-)(linux|virtual-machine)/.test(slug)) {
+    return 'utilities';
   }
   return 'editorial-and-other';
 }
@@ -609,6 +616,7 @@ const GUIDE_TOPIC_TO_CLUSTER = {
   'developer-and-encoding': 'developer',
   games: 'games',
   space: 'space-3d',
+  utilities: 'utility',
   'editorial-and-other': 'utility',
 };
 
