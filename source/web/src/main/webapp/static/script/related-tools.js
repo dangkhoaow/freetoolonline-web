@@ -339,6 +339,7 @@ try {
     { title: "WebP to PNG Converter", url: "https://freetoolonline.com/image-converter-tools/webp-to-png.html", include: !1, tags: "image-conversion" },
     { title: "2048 Game - Merge the Numbers Puzzle", url: "https://freetoolonline.com/games/2048-game.html", include: !1, tags: "games" },
     { title: "City Drive Open World 3D", url: "https://freetoolonline.com/games/city-drive-3d.html", include: !1, tags: "games" },
+    { title: "Retro Highway Racer", url: "https://freetoolonline.com/games/retro-highway-racer.html", include: !1, tags: "games" },
     { title: "Earth 3D Globe - Live Day & Night Map", url: "https://freetoolonline.com/space-3d/earth-3d-globe.html", include: !1, tags: "space-3d" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
