@@ -332,6 +332,7 @@ try {
     { title: "Sky Gates Flight", url: "https://freetoolonline.com/games/sky-gates-flight.html", include: !1, tags: "games" },
     { title: "City Time Machine 3D", url: "https://freetoolonline.com/games/city-time-machine.html", include: !1, tags: "games" },
     { title: "Percentage Calculator", url: "https://freetoolonline.com/utility-tools/percentage-calculator.html", include: !1, tags: "utility" },
+    { title: "Linux Online - Run Linux in Your Browser (Terminal & Desktop)", url: "https://freetoolonline.com/utility-tools/linux-online.html", include: !1, tags: "utility" },
     { title: "PNG to WebP Converter", url: "https://freetoolonline.com/image-converter-tools/png-to-webp.html", include: !1, tags: "image-conversion" },
     { title: "JPG to WebP Converter", url: "https://freetoolonline.com/image-converter-tools/jpg-to-webp.html", include: !1, tags: "image-conversion" },
     { title: "WebP to PNG Converter", url: "https://freetoolonline.com/image-converter-tools/webp-to-png.html", include: !1, tags: "image-conversion" },
