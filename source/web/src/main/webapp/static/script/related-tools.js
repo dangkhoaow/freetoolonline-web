@@ -343,6 +343,7 @@ try {
     { title: "Hover Racing", url: "https://freetoolonline.com/games/hover-racing.html", include: !1, tags: "games" },
     { title: "Retro Arcade Shooter", url: "https://freetoolonline.com/games/retro-arcade-shooter.html", include: !1, tags: "games" },
     { title: "Marble Maze", url: "https://freetoolonline.com/games/marble-maze.html", include: !1, tags: "games" },
+    { title: "Asteroid Blaster", url: "https://freetoolonline.com/games/asteroid-blaster.html", include: !1, tags: "games" },
     { title: "Earth 3D Globe - Live Day & Night Map", url: "https://freetoolonline.com/space-3d/earth-3d-globe.html", include: !1, tags: "space-3d" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
