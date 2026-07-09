@@ -54,7 +54,7 @@ const SEO_CLUSTER_GROUPS = [
     cluster: 'video',
     hubRoute: '/video-tools.html',
     hubLabel: 'Back to Video Tools',
-    routes: ['/video-converter.html', '/video-maker.html', '/ffmpeg-online.html', '/hd-video-converter.html', '/video-tools/video-trimmer.html', '/video-tools/video-to-gif.html'],
+    routes: ['/video-converter.html', '/video-maker.html', '/ffmpeg-online.html', '/hd-video-converter.html', '/video-tools/video-trimmer.html', '/video-tools/video-to-gif.html', '/video-tools/audio-trimmer.html'],
   },
   {
     cluster: 'device-test',
@@ -104,7 +104,7 @@ const SEO_CLUSTER_GROUPS = [
     cluster: 'news',
     hubRoute: '/news.html',
     hubLabel: 'Back to News',
-    routes: ['/news/jpeg-xl-returns-chrome-firefox.html', '/news/av2-codec-finalized-no-browser-support-yet.html', '/news/winrar-rar5-recovery-flaw-patched.html'],
+    routes: ['/news/jpeg-xl-returns-chrome-firefox.html', '/news/pt/jpeg-xl-returns-chrome-firefox.html', '/news/av2-codec-finalized-no-browser-support-yet.html', '/news/winrar-rar5-recovery-flaw-patched.html'],
   },
   {
     cluster: 'guides',
