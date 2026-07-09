@@ -349,11 +349,13 @@ try {
     { title: "Retro Arcade Shooter", url: "https://freetoolonline.com/games/retro-arcade-shooter.html", include: !1, tags: "games" },
     { title: "Marble Maze", url: "https://freetoolonline.com/games/marble-maze.html", include: !1, tags: "games" },
     { title: "Asteroid Blaster", url: "https://freetoolonline.com/games/asteroid-blaster.html", include: !1, tags: "games" },
+    { title: "Hex Puzzle Blocks", url: "https://freetoolonline.com/games/hex-puzzle-blocks.html", include: !1, tags: "games" },
     { title: "Earth 3D Globe - Live Day & Night Map", url: "https://freetoolonline.com/space-3d/earth-3d-globe.html", include: !1, tags: "space-3d" },
     // news-loop (2026-07-08): dated, source-cited updates. tags include the
     // affected cluster(s) so the article surfaces via tag-match on related
     // tool/guide pages, plus a bare "news" tag for future cross-links.
     { title: "JPEG XL Returns to Chrome and Firefox - What Changes for You", url: "https://freetoolonline.com/news/jpeg-xl-returns-chrome-firefox.html", include: !1, tags: "news,image-conversion,jpg,heic,webp" },
+    { title: "WebP to JPG Converter", url: "https://freetoolonline.com/image-converter-tools/webp-to-jpg.html", include: !1, tags: "image-conversion" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
     allCurrentTags = "",

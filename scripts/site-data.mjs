@@ -2194,6 +2194,28 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/habit-tracker-step-by-step.html',
   '/guides/de/habit-tracker-when.html',
   '/guides/de/habit-tracker-vs-alternatives.html',
+  // new-tool-discovery-loop-runbook fire-39 (2026-07-09): webp-to-jpg
+  // companion guides - EN + full pt/es/vi/id/de locale fanout shipped
+  // atomically at build time (fourth ship from the image_canvas evergreen
+  // family after png-to-webp/jpg-to-webp/webp-to-png).
+  '/guides/webp-jpg-converter-step-by-step.html',
+  '/guides/webp-jpg-converter-when.html',
+  '/guides/webp-jpg-converter-vs-alternatives.html',
+  '/guides/pt/webp-jpg-converter-step-by-step.html',
+  '/guides/pt/webp-jpg-converter-when.html',
+  '/guides/pt/webp-jpg-converter-vs-alternatives.html',
+  '/guides/es/webp-jpg-converter-step-by-step.html',
+  '/guides/es/webp-jpg-converter-when.html',
+  '/guides/es/webp-jpg-converter-vs-alternatives.html',
+  '/guides/vi/webp-jpg-converter-step-by-step.html',
+  '/guides/vi/webp-jpg-converter-when.html',
+  '/guides/vi/webp-jpg-converter-vs-alternatives.html',
+  '/guides/id/webp-jpg-converter-step-by-step.html',
+  '/guides/id/webp-jpg-converter-when.html',
+  '/guides/id/webp-jpg-converter-vs-alternatives.html',
+  '/guides/de/webp-jpg-converter-step-by-step.html',
+  '/guides/de/webp-jpg-converter-when.html',
+  '/guides/de/webp-jpg-converter-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -2691,6 +2713,7 @@ export const ALIAS_ROUTES = {
   '/retro-arcade-shooter.html': '/games/retro-arcade-shooter.html',
   '/marble-maze.html': '/games/marble-maze.html',
   '/asteroid-blaster.html': '/games/asteroid-blaster.html',
+  '/hex-puzzle-blocks.html': '/games/hex-puzzle-blocks.html',
   '/earth-3d-globe.html': '/space-3d/earth-3d-globe.html',
   '/linux-online.html': '/utility-tools/linux-online.html',
   '/online-linux-terminal.html': '/utility-tools/linux-online.html',
@@ -2699,6 +2722,7 @@ export const ALIAS_ROUTES = {
   '/browser-fps.html': '/games/retro-fps-online.html',
   '/freedoom-online.html': '/games/retro-fps-online.html',
   '/play-fps-in-browser.html': '/games/retro-fps-online.html',
+  '/webp-to-jpg.html': '/image-converter-tools/webp-to-jpg.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -4059,6 +4083,7 @@ export const JSP_BY_ROUTE = {
   '/games/retro-arcade-shooter.html': 'games/retro-arcade-shooter.jsp',
   '/games/marble-maze.html': 'games/marble-maze.jsp',
   '/games/asteroid-blaster.html': 'games/asteroid-blaster.jsp',
+  '/games/hex-puzzle-blocks.html': 'games/hex-puzzle-blocks.jsp',
   '/guides/city-drive-open-world-3d-when.html': 'guide/city-drive-open-world-3d-when.jsp',
   '/guides/city-drive-open-world-3d-step-by-step.html': 'guide/city-drive-open-world-3d-step-by-step.jsp',
   '/guides/city-drive-open-world-3d-vs-alternatives.html': 'guide/city-drive-open-world-3d-vs-alternatives.jsp',
@@ -4089,6 +4114,25 @@ export const JSP_BY_ROUTE = {
   '/guides/play-fps-in-browser-when.html': 'guide/play-fps-in-browser-when.jsp',
   '/guides/play-fps-in-browser-step-by-step.html': 'guide/play-fps-in-browser-step-by-step.jsp',
   '/guides/play-fps-in-browser-vs-alternatives.html': 'guide/play-fps-in-browser-vs-alternatives.jsp',
+  '/image-converter-tools/webp-to-jpg.html': 'convert/webp-to-jpg.jsp',
+  '/guides/webp-jpg-converter-when.html': 'guide/webp-jpg-converter-when.jsp',
+  '/guides/webp-jpg-converter-step-by-step.html': 'guide/webp-jpg-converter-step-by-step.jsp',
+  '/guides/webp-jpg-converter-vs-alternatives.html': 'guide/webp-jpg-converter-vs-alternatives.jsp',
+  '/guides/pt/webp-jpg-converter-step-by-step.html': 'guide/pt/webp-jpg-converter-step-by-step.jsp',
+  '/guides/pt/webp-jpg-converter-when.html': 'guide/pt/webp-jpg-converter-when.jsp',
+  '/guides/pt/webp-jpg-converter-vs-alternatives.html': 'guide/pt/webp-jpg-converter-vs-alternatives.jsp',
+  '/guides/es/webp-jpg-converter-step-by-step.html': 'guide/es/webp-jpg-converter-step-by-step.jsp',
+  '/guides/es/webp-jpg-converter-when.html': 'guide/es/webp-jpg-converter-when.jsp',
+  '/guides/es/webp-jpg-converter-vs-alternatives.html': 'guide/es/webp-jpg-converter-vs-alternatives.jsp',
+  '/guides/vi/webp-jpg-converter-step-by-step.html': 'guide/vi/webp-jpg-converter-step-by-step.jsp',
+  '/guides/vi/webp-jpg-converter-when.html': 'guide/vi/webp-jpg-converter-when.jsp',
+  '/guides/vi/webp-jpg-converter-vs-alternatives.html': 'guide/vi/webp-jpg-converter-vs-alternatives.jsp',
+  '/guides/id/webp-jpg-converter-step-by-step.html': 'guide/id/webp-jpg-converter-step-by-step.jsp',
+  '/guides/id/webp-jpg-converter-when.html': 'guide/id/webp-jpg-converter-when.jsp',
+  '/guides/id/webp-jpg-converter-vs-alternatives.html': 'guide/id/webp-jpg-converter-vs-alternatives.jsp',
+  '/guides/de/webp-jpg-converter-step-by-step.html': 'guide/de/webp-jpg-converter-step-by-step.jsp',
+  '/guides/de/webp-jpg-converter-when.html': 'guide/de/webp-jpg-converter-when.jsp',
+  '/guides/de/webp-jpg-converter-vs-alternatives.html': 'guide/de/webp-jpg-converter-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
