@@ -14,31 +14,6 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
-  // Cycle 20260705 grant-apply mirror - 4 new EN guides + pt/es/vi/id/de locale variants (new_guide_locale_completeness). status locale_pending_review.
-  '/guides/pdf-to-text-online-i-love-pdf.html',
-  '/guides/video-gif-converter-step-by-step.html',
-  '/guides/video-gif-converter-vs-alternatives.html',
-  '/guides/video-gif-converter-when.html',
-  '/guides/pt/pdf-to-text-online-i-love-pdf.html',
-  '/guides/pt/video-gif-converter-step-by-step.html',
-  '/guides/pt/video-gif-converter-vs-alternatives.html',
-  '/guides/pt/video-gif-converter-when.html',
-  '/guides/es/pdf-to-text-online-i-love-pdf.html',
-  '/guides/es/video-gif-converter-step-by-step.html',
-  '/guides/es/video-gif-converter-vs-alternatives.html',
-  '/guides/es/video-gif-converter-when.html',
-  '/guides/vi/pdf-to-text-online-i-love-pdf.html',
-  '/guides/vi/video-gif-converter-step-by-step.html',
-  '/guides/vi/video-gif-converter-vs-alternatives.html',
-  '/guides/vi/video-gif-converter-when.html',
-  '/guides/id/pdf-to-text-online-i-love-pdf.html',
-  '/guides/id/video-gif-converter-step-by-step.html',
-  '/guides/id/video-gif-converter-vs-alternatives.html',
-  '/guides/id/video-gif-converter-when.html',
-  '/guides/de/pdf-to-text-online-i-love-pdf.html',
-  '/guides/de/video-gif-converter-step-by-step.html',
-  '/guides/de/video-gif-converter-vs-alternatives.html',
-  '/guides/de/video-gif-converter-when.html',
   '/',
   '/about-us.html',
   '/contact-us.html',
@@ -94,6 +69,30 @@ export const INFO_ROUTES = new Set([
   '/guides/pt/resize-image-online-free.html',
   // Cycle 20260630-8 create_new_guide_page - PT locale variant of "crop image online free" (locale-drain; EN canonical at bare /guides/crop-image-online-free.html).
   '/guides/pt/crop-image-online-free.html',
+  // Cycle 20260705 create_new_guide_page - PT locale variant of "pdf to text online i love pdf" (locale-drain; EN canonical at bare /guides/pdf-to-text-online-i-love-pdf.html; 4 locales es/vi/id/de remain).
+  '/guides/pt/pdf-to-text-online-i-love-pdf.html',
+  // Cycle 20260705 grant-apply - non-EN locale variants (es/vi/id/de/pt) for this cycle's 4 new EN guides (new_guide_locale_completeness gate). status locale_pending_review.
+  '/guides/es/pdf-to-text-online-i-love-pdf.html',
+  '/guides/vi/pdf-to-text-online-i-love-pdf.html',
+  '/guides/id/pdf-to-text-online-i-love-pdf.html',
+  '/guides/de/pdf-to-text-online-i-love-pdf.html',
+  '/guides/pt/video-gif-converter-step-by-step.html',
+  '/guides/es/video-gif-converter-step-by-step.html',
+  '/guides/vi/video-gif-converter-step-by-step.html',
+  '/guides/id/video-gif-converter-step-by-step.html',
+  '/guides/de/video-gif-converter-step-by-step.html',
+  '/guides/pt/video-gif-converter-vs-alternatives.html',
+  '/guides/es/video-gif-converter-vs-alternatives.html',
+  '/guides/vi/video-gif-converter-vs-alternatives.html',
+  '/guides/id/video-gif-converter-vs-alternatives.html',
+  '/guides/de/video-gif-converter-vs-alternatives.html',
+  '/guides/pt/video-gif-converter-when.html',
+  '/guides/es/video-gif-converter-when.html',
+  '/guides/vi/video-gif-converter-when.html',
+  '/guides/id/video-gif-converter-when.html',
+  '/guides/de/video-gif-converter-when.html',
+  // Cycle 20260705-22 create_new_guide_page - pt locale variant for the new EN guide /guides/audio-trimmer-step-by-step.html (new_guide_locale_completeness gate). status locale_pending_review.
+  '/guides/pt/audio-trimmer-step-by-step.html',
   // Cycle 20260524-10 create_new_guide_page - "i love zip" bare-query landing (GSC 182 imp / 2 clicks / pos 6.12 / opportunity_score 29.41).
   // Implementing tool: /zip-file.html. Cluster: zip. BODYTITLE is reader-task framed (not brand-mimicking).
   '/guides/en/i-love-zip.html',
@@ -1249,31 +1248,6 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
-  // Cycle 20260705 grant-apply mirror - 4 new EN guides + pt/es/vi/id/de locale variants (new_guide_locale_completeness). status locale_pending_review.
-  '/guides/pdf-to-text-online-i-love-pdf.html',
-  '/guides/video-gif-converter-step-by-step.html',
-  '/guides/video-gif-converter-vs-alternatives.html',
-  '/guides/video-gif-converter-when.html',
-  '/guides/pt/pdf-to-text-online-i-love-pdf.html',
-  '/guides/pt/video-gif-converter-step-by-step.html',
-  '/guides/pt/video-gif-converter-vs-alternatives.html',
-  '/guides/pt/video-gif-converter-when.html',
-  '/guides/es/pdf-to-text-online-i-love-pdf.html',
-  '/guides/es/video-gif-converter-step-by-step.html',
-  '/guides/es/video-gif-converter-vs-alternatives.html',
-  '/guides/es/video-gif-converter-when.html',
-  '/guides/vi/pdf-to-text-online-i-love-pdf.html',
-  '/guides/vi/video-gif-converter-step-by-step.html',
-  '/guides/vi/video-gif-converter-vs-alternatives.html',
-  '/guides/vi/video-gif-converter-when.html',
-  '/guides/id/pdf-to-text-online-i-love-pdf.html',
-  '/guides/id/video-gif-converter-step-by-step.html',
-  '/guides/id/video-gif-converter-vs-alternatives.html',
-  '/guides/id/video-gif-converter-when.html',
-  '/guides/de/pdf-to-text-online-i-love-pdf.html',
-  '/guides/de/video-gif-converter-step-by-step.html',
-  '/guides/de/video-gif-converter-vs-alternatives.html',
-  '/guides/de/video-gif-converter-when.html',
   // cycle 20260625-6 create_new_guide_page (locale completion) - pt variant of video-converter-online-free (staging-only until es/vi/id/de complete).
   '/guides/pt/video-converter-online-free.html',
   // cycle 20260626 create_new_guide_page (locale completion) - es variant of video-converter-online-free (staging-only until vi/id/de complete).
@@ -1573,6 +1547,30 @@ export const GUIDE_ROUTES = new Set([
   '/guides/pt/resize-image-online-free.html',
   // Cycle 20260630-8 create_new_guide_page - PT locale variant of "crop image online free" (locale-drain; companion to /image-tools/crop-image.html).
   '/guides/pt/crop-image-online-free.html',
+  // Cycle 20260705 create_new_guide_page - PT locale variant of "pdf to text online i love pdf" (locale-drain; companion to /pdf-to-text.html).
+  '/guides/pt/pdf-to-text-online-i-love-pdf.html',
+  // Cycle 20260705 grant-apply - non-EN locale variants (es/vi/id/de/pt) for this cycle's 4 new EN guides (new_guide_locale_completeness gate). status locale_pending_review.
+  '/guides/es/pdf-to-text-online-i-love-pdf.html',
+  '/guides/vi/pdf-to-text-online-i-love-pdf.html',
+  '/guides/id/pdf-to-text-online-i-love-pdf.html',
+  '/guides/de/pdf-to-text-online-i-love-pdf.html',
+  '/guides/pt/video-gif-converter-step-by-step.html',
+  '/guides/es/video-gif-converter-step-by-step.html',
+  '/guides/vi/video-gif-converter-step-by-step.html',
+  '/guides/id/video-gif-converter-step-by-step.html',
+  '/guides/de/video-gif-converter-step-by-step.html',
+  '/guides/pt/video-gif-converter-vs-alternatives.html',
+  '/guides/es/video-gif-converter-vs-alternatives.html',
+  '/guides/vi/video-gif-converter-vs-alternatives.html',
+  '/guides/id/video-gif-converter-vs-alternatives.html',
+  '/guides/de/video-gif-converter-vs-alternatives.html',
+  '/guides/pt/video-gif-converter-when.html',
+  '/guides/es/video-gif-converter-when.html',
+  '/guides/vi/video-gif-converter-when.html',
+  '/guides/id/video-gif-converter-when.html',
+  '/guides/de/video-gif-converter-when.html',
+  // Cycle 20260705-22 create_new_guide_page - pt locale variant for the new EN guide /guides/audio-trimmer-step-by-step.html (new_guide_locale_completeness gate). status locale_pending_review.
+  '/guides/pt/audio-trimmer-step-by-step.html',
   // Cycle 20260524-10 create_new_guide_page - "i love zip" bare-query landing (companion to /zip-file.html).
   '/guides/en/i-love-zip.html',
   // Cycle 78 P78.A - "QR code error correction and scan failures" Lane-D guide (companion to /qr-code-generator.html).
@@ -2216,7 +2214,11 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/webp-jpg-converter-step-by-step.html',
   '/guides/de/webp-jpg-converter-when.html',
   '/guides/de/webp-jpg-converter-vs-alternatives.html',
-  // new-tool-discovery-loop-runbook fire-40 (2026-07-09): grocery-list locale fanout.
+  // new-tool-discovery-loop-runbook fire-40 (2026-07-09): grocery-list
+  // companion guides - EN GUIDE_ROUTES backfill (EN routes were shipped via
+  // JSP_BY_ROUTE only, same gap class as password-generator/habit-tracker
+  // above) + full pt/es/vi/id/de locale fanout (guide_locale_fanout drain
+  // unit grocery-list-guides, runbook SS4b).
   '/guides/grocery-list-step-by-step.html',
   '/guides/grocery-list-when.html',
   '/guides/grocery-list-vs-alternatives.html',
@@ -2236,7 +2238,8 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/grocery-list-when.html',
   '/guides/de/grocery-list-vs-alternatives.html',
 
-  // game-discovery-loop-runbook fire6 (2026-07-09): procedural-horde-game guides
+  // game-discovery-loop-runbook fire6 (2026-07-09): procedural-horde-game
+  // companion guides - EN + full pt/es/vi/id/de locale fanout shipped atomically.
   '/guides/how-to-play-procedural-horde-game.html',
   '/guides/procedural-horde-game-when.html',
   '/guides/procedural-horde-game-vs-alternatives.html',
@@ -2256,6 +2259,27 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/procedural-horde-game-when.html',
   '/guides/de/procedural-horde-game-vs-alternatives.html',
 
+  // game-discovery-loop-runbook fire10 (2026-07-09): chili-blast-shooter
+  // companion guides - EN + full pt/es/vi/id/de locale fanout shipped atomically.
+  '/guides/how-to-play-chili-blast-shooter.html',
+  '/guides/chili-blast-shooter-when.html',
+  '/guides/chili-blast-shooter-vs-alternatives.html',
+  '/guides/pt/how-to-play-chili-blast-shooter.html',
+  '/guides/pt/chili-blast-shooter-when.html',
+  '/guides/pt/chili-blast-shooter-vs-alternatives.html',
+  '/guides/es/how-to-play-chili-blast-shooter.html',
+  '/guides/es/chili-blast-shooter-when.html',
+  '/guides/es/chili-blast-shooter-vs-alternatives.html',
+  '/guides/vi/how-to-play-chili-blast-shooter.html',
+  '/guides/vi/chili-blast-shooter-when.html',
+  '/guides/vi/chili-blast-shooter-vs-alternatives.html',
+  '/guides/id/how-to-play-chili-blast-shooter.html',
+  '/guides/id/chili-blast-shooter-when.html',
+  '/guides/id/chili-blast-shooter-vs-alternatives.html',
+  '/guides/de/how-to-play-chili-blast-shooter.html',
+  '/guides/de/chili-blast-shooter-when.html',
+  '/guides/de/chili-blast-shooter-vs-alternatives.html',
+
 ]);
 
 export function isGuideRoute(route) {
@@ -2265,15 +2289,6 @@ export function isGuideRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
-  // Cycle 20260705 grant-apply mirror - video-to-gif short alias.
-  '/video-to-gif.html': '/video-tools/video-to-gif.html',
-  // fire-30 mirror (2026-07-06) - root aliases for the 3 new tool routes.
-  '/gpu-test.html': '/device-test-tools/gpu-test.html',
-  '/sky-gates-flight.html': '/games/sky-gates-flight.html',
-  '/city-time-machine.html': '/games/city-time-machine.html',
-  '/percentage-calculator.html': '/utility-tools/percentage-calculator.html',
-  '/png-to-webp.html': '/image-converter-tools/png-to-webp.html',
-  '/jpg-to-webp.html': '/image-converter-tools/jpg-to-webp.html',
   // Hub directory-form safety redirects (added 2026-05-11). Search engines
   // and external links may guess `/cluster-tools/` from the clustered tool
   // URLs (`/cluster-tools/<slug>.html`). Without these entries GitHub Pages
@@ -2746,6 +2761,15 @@ export const ALIAS_ROUTES = {
   '/black-hole.html': '/space-3d/black-hole.html',
   '/galaxy.html': '/space-3d/galaxy.html',
   '/background-remover.html': '/image-tools/background-remover.html',
+  '/video-to-gif.html': '/video-tools/video-to-gif.html',
+  '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
+  '/gpu-test.html': '/device-test-tools/gpu-test.html',
+  '/sky-gates-flight.html': '/games/sky-gates-flight.html',
+  '/city-time-machine.html': '/games/city-time-machine.html',
+  '/percentage-calculator.html': '/utility-tools/percentage-calculator.html',
+  '/png-to-webp.html': '/image-converter-tools/png-to-webp.html',
+  '/jpg-to-webp.html': '/image-converter-tools/jpg-to-webp.html',
+  '/webp-to-png.html': '/image-converter-tools/webp-to-png.html',
   '/2048-game.html': '/games/2048-game.html',
   '/city-drive-3d.html': '/games/city-drive-3d.html',
   '/retro-highway-racer.html': '/games/retro-highway-racer.html',
@@ -2755,6 +2779,7 @@ export const ALIAS_ROUTES = {
   '/asteroid-blaster.html': '/games/asteroid-blaster.html',
   '/hex-puzzle-blocks.html': '/games/hex-puzzle-blocks.html',
   '/procedural-horde-game.html': '/games/procedural-horde-game.html',
+  '/chili-blast-shooter.html': '/games/chili-blast-shooter.html',
   '/earth-3d-globe.html': '/space-3d/earth-3d-globe.html',
   '/linux-online.html': '/utility-tools/linux-online.html',
   '/online-linux-terminal.html': '/utility-tools/linux-online.html',
@@ -2792,32 +2817,6 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
-  // Cycle 20260705 grant-apply mirror - video-to-gif tool + 4 new guides (all locales).
-  '/video-tools/video-to-gif.html': 'convert/video-to-gif.jsp',
-  '/guides/pdf-to-text-online-i-love-pdf.html': 'guide/pdf-to-text-online-i-love-pdf.jsp',
-  '/guides/video-gif-converter-step-by-step.html': 'guide/video-gif-converter-step-by-step.jsp',
-  '/guides/video-gif-converter-vs-alternatives.html': 'guide/video-gif-converter-vs-alternatives.jsp',
-  '/guides/video-gif-converter-when.html': 'guide/video-gif-converter-when.jsp',
-  '/guides/pt/pdf-to-text-online-i-love-pdf.html': 'guide/pt/pdf-to-text-online-i-love-pdf.jsp',
-  '/guides/pt/video-gif-converter-step-by-step.html': 'guide/pt/video-gif-converter-step-by-step.jsp',
-  '/guides/pt/video-gif-converter-vs-alternatives.html': 'guide/pt/video-gif-converter-vs-alternatives.jsp',
-  '/guides/pt/video-gif-converter-when.html': 'guide/pt/video-gif-converter-when.jsp',
-  '/guides/es/pdf-to-text-online-i-love-pdf.html': 'guide/es/pdf-to-text-online-i-love-pdf.jsp',
-  '/guides/es/video-gif-converter-step-by-step.html': 'guide/es/video-gif-converter-step-by-step.jsp',
-  '/guides/es/video-gif-converter-vs-alternatives.html': 'guide/es/video-gif-converter-vs-alternatives.jsp',
-  '/guides/es/video-gif-converter-when.html': 'guide/es/video-gif-converter-when.jsp',
-  '/guides/vi/pdf-to-text-online-i-love-pdf.html': 'guide/vi/pdf-to-text-online-i-love-pdf.jsp',
-  '/guides/vi/video-gif-converter-step-by-step.html': 'guide/vi/video-gif-converter-step-by-step.jsp',
-  '/guides/vi/video-gif-converter-vs-alternatives.html': 'guide/vi/video-gif-converter-vs-alternatives.jsp',
-  '/guides/vi/video-gif-converter-when.html': 'guide/vi/video-gif-converter-when.jsp',
-  '/guides/id/pdf-to-text-online-i-love-pdf.html': 'guide/id/pdf-to-text-online-i-love-pdf.jsp',
-  '/guides/id/video-gif-converter-step-by-step.html': 'guide/id/video-gif-converter-step-by-step.jsp',
-  '/guides/id/video-gif-converter-vs-alternatives.html': 'guide/id/video-gif-converter-vs-alternatives.jsp',
-  '/guides/id/video-gif-converter-when.html': 'guide/id/video-gif-converter-when.jsp',
-  '/guides/de/pdf-to-text-online-i-love-pdf.html': 'guide/de/pdf-to-text-online-i-love-pdf.jsp',
-  '/guides/de/video-gif-converter-step-by-step.html': 'guide/de/video-gif-converter-step-by-step.jsp',
-  '/guides/de/video-gif-converter-vs-alternatives.html': 'guide/de/video-gif-converter-vs-alternatives.jsp',
-  '/guides/de/video-gif-converter-when.html': 'guide/de/video-gif-converter-when.jsp',
   '/': 'index.jsp',
   '/about-us.html': 'about-us.jsp',
   '/contact-us.html': 'contact-us.jsp',
@@ -2858,6 +2857,8 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/resize-image-online-free.html': 'guide/pt/resize-image-online-free.jsp',
   // Cycle 20260630-8 create_new_guide_page - PT locale variant of "crop image online free" (locale-drain; EN canonical at bare /guides/crop-image-online-free.html).
   '/guides/pt/crop-image-online-free.html': 'guide/pt/crop-image-online-free.jsp',
+  // Cycle 20260705 create_new_guide_page - PT locale variant of "pdf to text online i love pdf" (locale-drain; EN canonical at bare /guides/pdf-to-text-online-i-love-pdf.html).
+  '/guides/pt/pdf-to-text-online-i-love-pdf.html': 'guide/pt/pdf-to-text-online-i-love-pdf.jsp',
   // Cycle 20260524-10 create_new_guide_page - "i love zip" bare-query landing (companion to /zip-file.html).
   '/guides/en/i-love-zip.html': 'guide/en/i-love-zip.jsp',
   // Cycle 20260604-9 create_new_guide_page - "tool free" chain-breaker force-ship (chain=5 reached per CLAUDE.md L3). Reframes the bare 'tool free' query as a privacy + monetisation explainer ("Are online tools actually free?") to avoid semantic_overlap with /utility-tools.html hub. utility cluster.
@@ -3192,6 +3193,7 @@ export const JSP_BY_ROUTE = {
   '/news/pt/jpeg-xl-returns-chrome-firefox.html': 'news/pt/jpeg-xl-returns-chrome-firefox.jsp',
   '/news/es/jpeg-xl-returns-chrome-firefox.html': 'news/es/jpeg-xl-returns-chrome-firefox.jsp',
   '/news/vi/jpeg-xl-returns-chrome-firefox.html': 'news/vi/jpeg-xl-returns-chrome-firefox.jsp',
+  '/news/id/jpeg-xl-returns-chrome-firefox.html': 'news/id/jpeg-xl-returns-chrome-firefox.jsp',
   '/news/av2-codec-finalized-no-browser-support-yet.html': 'news/av2-codec-finalized-no-browser-support-yet.jsp',
   '/news/winrar-rar5-recovery-flaw-patched.html': 'news/winrar-rar5-recovery-flaw-patched.jsp',
   '/image-tools/resize-image.html': 'image/resize-image.jsp',
@@ -3949,6 +3951,7 @@ export const JSP_BY_ROUTE = {
   '/guides/de/grocery-list-step-by-step.html': 'guide/de/grocery-list-step-by-step.jsp',
   '/guides/de/grocery-list-when.html': 'guide/de/grocery-list-when.jsp',
   '/guides/de/grocery-list-vs-alternatives.html': 'guide/de/grocery-list-vs-alternatives.jsp',
+  // game-discovery-loop-runbook fire6 (2026-07-09): procedural-horde-game guides
   '/guides/how-to-play-procedural-horde-game.html': 'guide/how-to-play-procedural-horde-game.jsp',
   '/guides/procedural-horde-game-when.html': 'guide/procedural-horde-game-when.jsp',
   '/guides/procedural-horde-game-vs-alternatives.html': 'guide/procedural-horde-game-vs-alternatives.jsp',
@@ -3967,6 +3970,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/how-to-play-procedural-horde-game.html': 'guide/de/how-to-play-procedural-horde-game.jsp',
   '/guides/de/procedural-horde-game-when.html': 'guide/de/procedural-horde-game-when.jsp',
   '/guides/de/procedural-horde-game-vs-alternatives.html': 'guide/de/procedural-horde-game-vs-alternatives.jsp',
+  // game-discovery-loop-runbook fire10 (2026-07-09): chili-blast-shooter guides
+  '/guides/how-to-play-chili-blast-shooter.html': 'guide/how-to-play-chili-blast-shooter.jsp',
+  '/guides/chili-blast-shooter-when.html': 'guide/chili-blast-shooter-when.jsp',
+  '/guides/chili-blast-shooter-vs-alternatives.html': 'guide/chili-blast-shooter-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-chili-blast-shooter.html': 'guide/pt/how-to-play-chili-blast-shooter.jsp',
+  '/guides/pt/chili-blast-shooter-when.html': 'guide/pt/chili-blast-shooter-when.jsp',
+  '/guides/pt/chili-blast-shooter-vs-alternatives.html': 'guide/pt/chili-blast-shooter-vs-alternatives.jsp',
+  '/guides/es/how-to-play-chili-blast-shooter.html': 'guide/es/how-to-play-chili-blast-shooter.jsp',
+  '/guides/es/chili-blast-shooter-when.html': 'guide/es/chili-blast-shooter-when.jsp',
+  '/guides/es/chili-blast-shooter-vs-alternatives.html': 'guide/es/chili-blast-shooter-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-chili-blast-shooter.html': 'guide/vi/how-to-play-chili-blast-shooter.jsp',
+  '/guides/vi/chili-blast-shooter-when.html': 'guide/vi/chili-blast-shooter-when.jsp',
+  '/guides/vi/chili-blast-shooter-vs-alternatives.html': 'guide/vi/chili-blast-shooter-vs-alternatives.jsp',
+  '/guides/id/how-to-play-chili-blast-shooter.html': 'guide/id/how-to-play-chili-blast-shooter.jsp',
+  '/guides/id/chili-blast-shooter-when.html': 'guide/id/chili-blast-shooter-when.jsp',
+  '/guides/id/chili-blast-shooter-vs-alternatives.html': 'guide/id/chili-blast-shooter-vs-alternatives.jsp',
+  '/guides/de/how-to-play-chili-blast-shooter.html': 'guide/de/how-to-play-chili-blast-shooter.jsp',
+  '/guides/de/chili-blast-shooter-when.html': 'guide/de/chili-blast-shooter-when.jsp',
+  '/guides/de/chili-blast-shooter-vs-alternatives.html': 'guide/de/chili-blast-shooter-vs-alternatives.jsp',
   '/utility-tools/qr-code-scanner.html': 'utility/qr-code-scanner.jsp',
   '/guides/qr-code-scanner-when.html': 'guide/qr-code-scanner-when.jsp',
   '/guides/qr-code-scanner-step-by-step.html': 'guide/qr-code-scanner-step-by-step.jsp',
@@ -4062,6 +4084,38 @@ export const JSP_BY_ROUTE = {
   '/guides/de/ai-background-remover-when.html': 'guide/de/ai-background-remover-when.jsp',
   '/guides/de/ai-background-remover-step-by-step.html': 'guide/de/ai-background-remover-step-by-step.jsp',
   '/guides/de/ai-background-remover-vs-alternatives.html': 'guide/de/ai-background-remover-vs-alternatives.jsp',
+  '/guides/pdf-to-text-online-i-love-pdf.html': 'guide/pdf-to-text-online-i-love-pdf.jsp',
+  '/video-tools/video-to-gif.html': 'convert/video-to-gif.jsp',
+  '/guides/video-gif-converter-when.html': 'guide/video-gif-converter-when.jsp',
+  '/guides/video-gif-converter-step-by-step.html': 'guide/video-gif-converter-step-by-step.jsp',
+  '/guides/video-gif-converter-vs-alternatives.html': 'guide/video-gif-converter-vs-alternatives.jsp',
+  // Cycle 20260705 grant-apply - non-EN locale variants for the 4 new EN guides (new_guide_locale_completeness). status locale_pending_review.
+  '/guides/es/pdf-to-text-online-i-love-pdf.html': 'guide/es/pdf-to-text-online-i-love-pdf.jsp',
+  '/guides/vi/pdf-to-text-online-i-love-pdf.html': 'guide/vi/pdf-to-text-online-i-love-pdf.jsp',
+  '/guides/id/pdf-to-text-online-i-love-pdf.html': 'guide/id/pdf-to-text-online-i-love-pdf.jsp',
+  '/guides/de/pdf-to-text-online-i-love-pdf.html': 'guide/de/pdf-to-text-online-i-love-pdf.jsp',
+  '/guides/pt/video-gif-converter-step-by-step.html': 'guide/pt/video-gif-converter-step-by-step.jsp',
+  '/guides/es/video-gif-converter-step-by-step.html': 'guide/es/video-gif-converter-step-by-step.jsp',
+  '/guides/vi/video-gif-converter-step-by-step.html': 'guide/vi/video-gif-converter-step-by-step.jsp',
+  '/guides/id/video-gif-converter-step-by-step.html': 'guide/id/video-gif-converter-step-by-step.jsp',
+  '/guides/de/video-gif-converter-step-by-step.html': 'guide/de/video-gif-converter-step-by-step.jsp',
+  '/guides/pt/video-gif-converter-vs-alternatives.html': 'guide/pt/video-gif-converter-vs-alternatives.jsp',
+  '/guides/es/video-gif-converter-vs-alternatives.html': 'guide/es/video-gif-converter-vs-alternatives.jsp',
+  '/guides/vi/video-gif-converter-vs-alternatives.html': 'guide/vi/video-gif-converter-vs-alternatives.jsp',
+  '/guides/id/video-gif-converter-vs-alternatives.html': 'guide/id/video-gif-converter-vs-alternatives.jsp',
+  '/guides/de/video-gif-converter-vs-alternatives.html': 'guide/de/video-gif-converter-vs-alternatives.jsp',
+  '/guides/pt/video-gif-converter-when.html': 'guide/pt/video-gif-converter-when.jsp',
+  '/guides/es/video-gif-converter-when.html': 'guide/es/video-gif-converter-when.jsp',
+  '/guides/vi/video-gif-converter-when.html': 'guide/vi/video-gif-converter-when.jsp',
+  '/guides/id/video-gif-converter-when.html': 'guide/id/video-gif-converter-when.jsp',
+  '/guides/de/video-gif-converter-when.html': 'guide/de/video-gif-converter-when.jsp',
+  '/video-tools/audio-trimmer.html': 'convert/audio-trimmer.jsp',
+  '/guides/audio-trimmer-when.html': 'guide/audio-trimmer-when.jsp',
+  '/guides/audio-trimmer-step-by-step.html': 'guide/audio-trimmer-step-by-step.jsp',
+  // Cycle 20260705-22 create_new_guide_page - pt locale variant for /guides/audio-trimmer-step-by-step.html (new_guide_locale_completeness). status locale_pending_review.
+  '/guides/pt/audio-trimmer-step-by-step.html': 'guide/pt/audio-trimmer-step-by-step.jsp',
+  '/guides/audio-trimmer-vs-alternatives.html': 'guide/audio-trimmer-vs-alternatives.jsp',
+  '/guides/png-to-svg-vector.html': 'guide/png-to-svg-vector.jsp',
   '/device-test-tools/gpu-test.html': 'convert/gpu-test.jsp',
   '/guides/gpu-test-webgl-benchmark-info-when.html': 'guide/gpu-test-webgl-benchmark-info-when.jsp',
   '/guides/gpu-test-webgl-benchmark-info-step-by-step.html': 'guide/gpu-test-webgl-benchmark-info-step-by-step.jsp',
@@ -4162,6 +4216,7 @@ export const JSP_BY_ROUTE = {
   '/games/asteroid-blaster.html': 'games/asteroid-blaster.jsp',
   '/games/hex-puzzle-blocks.html': 'games/hex-puzzle-blocks.jsp',
   '/games/procedural-horde-game.html': 'games/procedural-horde-game.jsp',
+  '/games/chili-blast-shooter.html': 'games/chili-blast-shooter.jsp',
   '/guides/city-drive-open-world-3d-when.html': 'guide/city-drive-open-world-3d-when.jsp',
   '/guides/city-drive-open-world-3d-step-by-step.html': 'guide/city-drive-open-world-3d-step-by-step.jsp',
   '/guides/city-drive-open-world-3d-vs-alternatives.html': 'guide/city-drive-open-world-3d-vs-alternatives.jsp',

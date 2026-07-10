@@ -333,12 +333,12 @@ try {
     { title: "AI Background Remover", url: "https://freetoolonline.com/image-tools/background-remover.html", include: !1, tags: "image-editing" },
     { title: "PDF to Text Online: Extract Text Free, No Install", url: "https://freetoolonline.com/guides/pdf-to-text-online-i-love-pdf.html", include: !1, tags: "pdf" },
     { title: "Video to GIF Converter", url: "https://freetoolonline.com/video-tools/video-to-gif.html", include: !1, tags: "video" },
+    { title: "Audio Trimmer", url: "https://freetoolonline.com/video-tools/audio-trimmer.html", include: !1, tags: "video" },
+    { title: "How to Turn a PNG into a Vector SVG", url: "https://freetoolonline.com/guides/png-to-svg-vector.html", include: !1, tags: "image-conversion" },
     { title: "GPU Test - WebGL Benchmark & Info", url: "https://freetoolonline.com/device-test-tools/gpu-test.html", include: !1, tags: "device-test" },
     { title: "Sky Gates Flight", url: "https://freetoolonline.com/games/sky-gates-flight.html", include: !1, tags: "games" },
     { title: "City Time Machine 3D", url: "https://freetoolonline.com/games/city-time-machine.html", include: !1, tags: "games" },
     { title: "Percentage Calculator", url: "https://freetoolonline.com/utility-tools/percentage-calculator.html", include: !1, tags: "utility" },
-    { title: "Linux Online - Run Linux in Your Browser (Terminal & Desktop)", url: "https://freetoolonline.com/utility-tools/linux-online.html", include: !1, tags: "utility" },
-    { title: "Retro FPS Online - Play a Classic Shooter in Your Browser (Freedoom)", url: "https://freetoolonline.com/games/retro-fps-online.html", include: !1, tags: "games" },
     { title: "PNG to WebP Converter", url: "https://freetoolonline.com/image-converter-tools/png-to-webp.html", include: !1, tags: "image-conversion" },
     { title: "JPG to WebP Converter", url: "https://freetoolonline.com/image-converter-tools/jpg-to-webp.html", include: !1, tags: "image-conversion" },
     { title: "WebP to PNG Converter", url: "https://freetoolonline.com/image-converter-tools/webp-to-png.html", include: !1, tags: "image-conversion" },
@@ -351,7 +351,10 @@ try {
     { title: "Asteroid Blaster", url: "https://freetoolonline.com/games/asteroid-blaster.html", include: !1, tags: "games" },
     { title: "Hex Puzzle Blocks", url: "https://freetoolonline.com/games/hex-puzzle-blocks.html", include: !1, tags: "games" },
     { title: "Procedural Horde Game", url: "https://freetoolonline.com/games/procedural-horde-game.html", include: !1, tags: "games" },
+    { title: "Chili Blast Shooter", url: "https://freetoolonline.com/games/chili-blast-shooter.html", include: !1, tags: "games" },
     { title: "Earth 3D Globe - Live Day & Night Map", url: "https://freetoolonline.com/space-3d/earth-3d-globe.html", include: !1, tags: "space-3d" },
+    { title: "Linux Online - Run Linux in Your Browser (Terminal & Desktop)", url: "https://freetoolonline.com/utility-tools/linux-online.html", include: !1, tags: "utility" },
+    { title: "Retro FPS Online - Play a Classic Shooter in Your Browser (Freedoom)", url: "https://freetoolonline.com/games/retro-fps-online.html", include: !1, tags: "games" },
     // news-loop (2026-07-08): dated, source-cited updates. tags include the
     // affected cluster(s) so the article surfaces via tag-match on related
     // tool/guide pages, plus a bare "news" tag for future cross-links.
