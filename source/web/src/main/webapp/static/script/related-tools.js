@@ -385,6 +385,7 @@ try {
     { title: "PNG to JPG Converter", url: "https://freetoolonline.com/image-converter-tools/png-to-jpg.html", include: !1, tags: "image-conversion" },
     { title: "Expense Tracker", url: "https://freetoolonline.com/utility-tools/expense-tracker.html", include: !1, tags: "utility" },
     { title: "Pomodoro Timer Online", url: "https://freetoolonline.com/utility-tools/pomodoro-timer.html", include: !1, tags: "utility" },
+    { title: "Random Name Picker", url: "https://freetoolonline.com/utility-tools/random-name-picker.html", include: !1, tags: "utility" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
     allCurrentTags = "",

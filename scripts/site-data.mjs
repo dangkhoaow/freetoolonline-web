@@ -3268,6 +3268,7 @@ export const ALIAS_ROUTES = {
   '/png-to-jpg.html': '/image-converter-tools/png-to-jpg.html',
   '/expense-tracker.html': '/utility-tools/expense-tracker.html',
   '/pomodoro-timer.html': '/utility-tools/pomodoro-timer.html',
+  '/random-name-picker.html': '/utility-tools/random-name-picker.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -5327,6 +5328,10 @@ export const JSP_BY_ROUTE = {
   '/guides/id/pomodoro-timer-when.html': 'guide/id/pomodoro-timer-when.jsp',
   '/guides/id/pomodoro-timer-step-by-step.html': 'guide/id/pomodoro-timer-step-by-step.jsp',
   '/guides/id/pomodoro-timer-vs-alternatives.html': 'guide/id/pomodoro-timer-vs-alternatives.jsp',
+  '/utility-tools/random-name-picker.html': 'utility/random-name-picker.jsp',
+  '/guides/random-name-picker-when.html': 'guide/random-name-picker-when.jsp',
+  '/guides/random-name-picker-step-by-step.html': 'guide/random-name-picker-step-by-step.jsp',
+  '/guides/random-name-picker-vs-alternatives.html': 'guide/random-name-picker-vs-alternatives.jsp',
 
   // fire-50 new-tool-discovery-loop-runbook (guide_locale_fanout unit_debt):
   // hex-puzzle-blocks-guides - EN + pt/es/de/vi/id for all 3 angles
