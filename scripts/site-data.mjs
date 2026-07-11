@@ -2569,6 +2569,27 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/one-tap-platformer-vs-alternatives.html',
   '/guides/id/one-tap-platformer-vs-alternatives.html',
   '/guides/de/one-tap-platformer-vs-alternatives.html',
+
+  // new-tool-discovery-loop-runbook (2026-07-11): image-to-webp companion
+  // guides - EN + full pt/es/vi/id/de locale fanout.
+  '/guides/image-webp-converter-when.html',
+  '/guides/image-webp-converter-step-by-step.html',
+  '/guides/image-webp-converter-vs-alternatives.html',
+  '/guides/pt/image-webp-converter-when.html',
+  '/guides/pt/image-webp-converter-step-by-step.html',
+  '/guides/pt/image-webp-converter-vs-alternatives.html',
+  '/guides/es/image-webp-converter-when.html',
+  '/guides/es/image-webp-converter-step-by-step.html',
+  '/guides/es/image-webp-converter-vs-alternatives.html',
+  '/guides/vi/image-webp-converter-when.html',
+  '/guides/vi/image-webp-converter-step-by-step.html',
+  '/guides/vi/image-webp-converter-vs-alternatives.html',
+  '/guides/id/image-webp-converter-when.html',
+  '/guides/id/image-webp-converter-step-by-step.html',
+  '/guides/id/image-webp-converter-vs-alternatives.html',
+  '/guides/de/image-webp-converter-when.html',
+  '/guides/de/image-webp-converter-step-by-step.html',
+  '/guides/de/image-webp-converter-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -3094,6 +3115,7 @@ export const ALIAS_ROUTES = {
   '/freedoom-online.html': '/games/retro-fps-online.html',
   '/play-fps-in-browser.html': '/games/retro-fps-online.html',
   '/webp-to-jpg.html': '/image-converter-tools/webp-to-jpg.html',
+  '/image-to-webp.html': '/image-converter-tools/image-to-webp.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -4919,6 +4941,27 @@ export const JSP_BY_ROUTE = {
   '/guides/de/webp-jpg-converter-step-by-step.html': 'guide/de/webp-jpg-converter-step-by-step.jsp',
   '/guides/de/webp-jpg-converter-when.html': 'guide/de/webp-jpg-converter-when.jsp',
   '/guides/de/webp-jpg-converter-vs-alternatives.html': 'guide/de/webp-jpg-converter-vs-alternatives.jsp',
+  // new-tool-discovery-loop-runbook (2026-07-11): image-to-webp tool + companion
+  // guides - EN + full pt/es/vi/id/de locale fanout.
+  '/image-converter-tools/image-to-webp.html': 'convert/image-to-webp.jsp',
+  '/guides/image-webp-converter-when.html': 'guide/image-webp-converter-when.jsp',
+  '/guides/image-webp-converter-step-by-step.html': 'guide/image-webp-converter-step-by-step.jsp',
+  '/guides/image-webp-converter-vs-alternatives.html': 'guide/image-webp-converter-vs-alternatives.jsp',
+  '/guides/pt/image-webp-converter-when.html': 'guide/pt/image-webp-converter-when.jsp',
+  '/guides/pt/image-webp-converter-step-by-step.html': 'guide/pt/image-webp-converter-step-by-step.jsp',
+  '/guides/pt/image-webp-converter-vs-alternatives.html': 'guide/pt/image-webp-converter-vs-alternatives.jsp',
+  '/guides/es/image-webp-converter-when.html': 'guide/es/image-webp-converter-when.jsp',
+  '/guides/es/image-webp-converter-step-by-step.html': 'guide/es/image-webp-converter-step-by-step.jsp',
+  '/guides/es/image-webp-converter-vs-alternatives.html': 'guide/es/image-webp-converter-vs-alternatives.jsp',
+  '/guides/vi/image-webp-converter-when.html': 'guide/vi/image-webp-converter-when.jsp',
+  '/guides/vi/image-webp-converter-step-by-step.html': 'guide/vi/image-webp-converter-step-by-step.jsp',
+  '/guides/vi/image-webp-converter-vs-alternatives.html': 'guide/vi/image-webp-converter-vs-alternatives.jsp',
+  '/guides/id/image-webp-converter-when.html': 'guide/id/image-webp-converter-when.jsp',
+  '/guides/id/image-webp-converter-step-by-step.html': 'guide/id/image-webp-converter-step-by-step.jsp',
+  '/guides/id/image-webp-converter-vs-alternatives.html': 'guide/id/image-webp-converter-vs-alternatives.jsp',
+  '/guides/de/image-webp-converter-when.html': 'guide/de/image-webp-converter-when.jsp',
+  '/guides/de/image-webp-converter-step-by-step.html': 'guide/de/image-webp-converter-step-by-step.jsp',
+  '/guides/de/image-webp-converter-vs-alternatives.html': 'guide/de/image-webp-converter-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
