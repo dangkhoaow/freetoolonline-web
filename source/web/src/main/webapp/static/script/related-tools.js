@@ -380,6 +380,7 @@ try {
     { title: "WebP to JPG Converter", url: "https://freetoolonline.com/image-converter-tools/webp-to-jpg.html", include: !1, tags: "image-conversion" },
     { title: "Image to WebP Converter", url: "https://freetoolonline.com/image-converter-tools/image-to-webp.html", include: !1, tags: "image-conversion" },
     { title: "PNG to JPG Converter", url: "https://freetoolonline.com/image-converter-tools/png-to-jpg.html", include: !1, tags: "image-conversion" },
+    { title: "Expense Tracker", url: "https://freetoolonline.com/utility-tools/expense-tracker.html", include: !1, tags: "utility" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
     allCurrentTags = "",

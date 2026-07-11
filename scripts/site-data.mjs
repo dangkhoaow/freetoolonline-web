@@ -2651,6 +2651,29 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/image-webp-converter-when.html',
   '/guides/de/image-webp-converter-step-by-step.html',
   '/guides/de/image-webp-converter-vs-alternatives.html',
+
+  // new-tool-discovery-loop-runbook fire-43 (2026-07-11): expense-tracker
+  // companion guides - EN GUIDE_ROUTES backfill (builder wires JSP_BY_ROUTE
+  // only, same gap class as prior siblings) + full pt/es/vi/id/de locale
+  // fanout shipped atomically in the same fire.
+  '/guides/expense-tracker-step-by-step.html',
+  '/guides/expense-tracker-when.html',
+  '/guides/expense-tracker-vs-alternatives.html',
+  '/guides/pt/expense-tracker-step-by-step.html',
+  '/guides/pt/expense-tracker-when.html',
+  '/guides/pt/expense-tracker-vs-alternatives.html',
+  '/guides/es/expense-tracker-step-by-step.html',
+  '/guides/es/expense-tracker-when.html',
+  '/guides/es/expense-tracker-vs-alternatives.html',
+  '/guides/vi/expense-tracker-step-by-step.html',
+  '/guides/vi/expense-tracker-when.html',
+  '/guides/vi/expense-tracker-vs-alternatives.html',
+  '/guides/id/expense-tracker-step-by-step.html',
+  '/guides/id/expense-tracker-when.html',
+  '/guides/id/expense-tracker-vs-alternatives.html',
+  '/guides/de/expense-tracker-step-by-step.html',
+  '/guides/de/expense-tracker-when.html',
+  '/guides/de/expense-tracker-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -3180,6 +3203,7 @@ export const ALIAS_ROUTES = {
   '/webp-to-jpg.html': '/image-converter-tools/webp-to-jpg.html',
   '/image-to-webp.html': '/image-converter-tools/image-to-webp.html',
   '/png-to-jpg.html': '/image-converter-tools/png-to-jpg.html',
+  '/expense-tracker.html': '/utility-tools/expense-tracker.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -5085,6 +5109,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/png-jpg-converter-step-by-step.html': 'guide/de/png-jpg-converter-step-by-step.jsp',
   '/guides/de/png-jpg-converter-when.html': 'guide/de/png-jpg-converter-when.jsp',
   '/guides/de/png-jpg-converter-vs-alternatives.html': 'guide/de/png-jpg-converter-vs-alternatives.jsp',
+  '/utility-tools/expense-tracker.html': 'utility/expense-tracker.jsp',
+  '/guides/expense-tracker-when.html': 'guide/expense-tracker-when.jsp',
+  '/guides/expense-tracker-step-by-step.html': 'guide/expense-tracker-step-by-step.jsp',
+  '/guides/expense-tracker-vs-alternatives.html': 'guide/expense-tracker-vs-alternatives.jsp',
+  '/guides/pt/expense-tracker-step-by-step.html': 'guide/pt/expense-tracker-step-by-step.jsp',
+  '/guides/pt/expense-tracker-when.html': 'guide/pt/expense-tracker-when.jsp',
+  '/guides/pt/expense-tracker-vs-alternatives.html': 'guide/pt/expense-tracker-vs-alternatives.jsp',
+  '/guides/es/expense-tracker-step-by-step.html': 'guide/es/expense-tracker-step-by-step.jsp',
+  '/guides/es/expense-tracker-when.html': 'guide/es/expense-tracker-when.jsp',
+  '/guides/es/expense-tracker-vs-alternatives.html': 'guide/es/expense-tracker-vs-alternatives.jsp',
+  '/guides/vi/expense-tracker-step-by-step.html': 'guide/vi/expense-tracker-step-by-step.jsp',
+  '/guides/vi/expense-tracker-when.html': 'guide/vi/expense-tracker-when.jsp',
+  '/guides/vi/expense-tracker-vs-alternatives.html': 'guide/vi/expense-tracker-vs-alternatives.jsp',
+  '/guides/id/expense-tracker-step-by-step.html': 'guide/id/expense-tracker-step-by-step.jsp',
+  '/guides/id/expense-tracker-when.html': 'guide/id/expense-tracker-when.jsp',
+  '/guides/id/expense-tracker-vs-alternatives.html': 'guide/id/expense-tracker-vs-alternatives.jsp',
+  '/guides/de/expense-tracker-step-by-step.html': 'guide/de/expense-tracker-step-by-step.jsp',
+  '/guides/de/expense-tracker-when.html': 'guide/de/expense-tracker-when.jsp',
+  '/guides/de/expense-tracker-vs-alternatives.html': 'guide/de/expense-tracker-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
