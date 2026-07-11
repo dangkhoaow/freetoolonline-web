@@ -5327,6 +5327,29 @@ export const JSP_BY_ROUTE = {
   '/guides/id/pomodoro-timer-when.html': 'guide/id/pomodoro-timer-when.jsp',
   '/guides/id/pomodoro-timer-step-by-step.html': 'guide/id/pomodoro-timer-step-by-step.jsp',
   '/guides/id/pomodoro-timer-vs-alternatives.html': 'guide/id/pomodoro-timer-vs-alternatives.jsp',
+
+  // fire-50 new-tool-discovery-loop-runbook (guide_locale_fanout unit_debt):
+  // hex-puzzle-blocks-guides - EN + pt/es/de/vi/id for all 3 angles
+  // (when/step-by-step/vs-alternatives). The game itself (hex-puzzle-blocks)
+  // shipped fire-37 with zero companion guides; this fire authors all 18.
+  '/guides/hex-puzzle-blocks-when.html': 'guide/hex-puzzle-blocks-when.jsp',
+  '/guides/hex-puzzle-blocks-step-by-step.html': 'guide/hex-puzzle-blocks-step-by-step.jsp',
+  '/guides/hex-puzzle-blocks-vs-alternatives.html': 'guide/hex-puzzle-blocks-vs-alternatives.jsp',
+  '/guides/pt/hex-puzzle-blocks-when.html': 'guide/pt/hex-puzzle-blocks-when.jsp',
+  '/guides/pt/hex-puzzle-blocks-step-by-step.html': 'guide/pt/hex-puzzle-blocks-step-by-step.jsp',
+  '/guides/pt/hex-puzzle-blocks-vs-alternatives.html': 'guide/pt/hex-puzzle-blocks-vs-alternatives.jsp',
+  '/guides/es/hex-puzzle-blocks-when.html': 'guide/es/hex-puzzle-blocks-when.jsp',
+  '/guides/es/hex-puzzle-blocks-step-by-step.html': 'guide/es/hex-puzzle-blocks-step-by-step.jsp',
+  '/guides/es/hex-puzzle-blocks-vs-alternatives.html': 'guide/es/hex-puzzle-blocks-vs-alternatives.jsp',
+  '/guides/de/hex-puzzle-blocks-when.html': 'guide/de/hex-puzzle-blocks-when.jsp',
+  '/guides/de/hex-puzzle-blocks-step-by-step.html': 'guide/de/hex-puzzle-blocks-step-by-step.jsp',
+  '/guides/de/hex-puzzle-blocks-vs-alternatives.html': 'guide/de/hex-puzzle-blocks-vs-alternatives.jsp',
+  '/guides/vi/hex-puzzle-blocks-when.html': 'guide/vi/hex-puzzle-blocks-when.jsp',
+  '/guides/vi/hex-puzzle-blocks-step-by-step.html': 'guide/vi/hex-puzzle-blocks-step-by-step.jsp',
+  '/guides/vi/hex-puzzle-blocks-vs-alternatives.html': 'guide/vi/hex-puzzle-blocks-vs-alternatives.jsp',
+  '/guides/id/hex-puzzle-blocks-when.html': 'guide/id/hex-puzzle-blocks-when.jsp',
+  '/guides/id/hex-puzzle-blocks-step-by-step.html': 'guide/id/hex-puzzle-blocks-step-by-step.jsp',
+  '/guides/id/hex-puzzle-blocks-vs-alternatives.html': 'guide/id/hex-puzzle-blocks-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
