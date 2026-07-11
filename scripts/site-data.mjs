@@ -2611,6 +2611,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/neon-circuit-racer-vs-alternatives.html',
   '/guides/id/neon-circuit-racer-vs-alternatives.html',
   '/guides/de/neon-circuit-racer-vs-alternatives.html',
+  // fire78 pixel-necromancer
+  '/guides/how-to-play-pixel-necromancer.html',
+  '/guides/pt/how-to-play-pixel-necromancer.html',
+  '/guides/es/how-to-play-pixel-necromancer.html',
+  '/guides/vi/how-to-play-pixel-necromancer.html',
+  '/guides/id/how-to-play-pixel-necromancer.html',
+  '/guides/de/how-to-play-pixel-necromancer.html',
+  '/guides/pixel-necromancer-when.html',
+  '/guides/pt/pixel-necromancer-when.html',
+  '/guides/es/pixel-necromancer-when.html',
+  '/guides/vi/pixel-necromancer-when.html',
+  '/guides/id/pixel-necromancer-when.html',
+  '/guides/de/pixel-necromancer-when.html',
+  '/guides/pixel-necromancer-vs-alternatives.html',
+  '/guides/pt/pixel-necromancer-vs-alternatives.html',
+  '/guides/es/pixel-necromancer-vs-alternatives.html',
+  '/guides/vi/pixel-necromancer-vs-alternatives.html',
+  '/guides/id/pixel-necromancer-vs-alternatives.html',
+  '/guides/de/pixel-necromancer-vs-alternatives.html',
 
   // new-tool-discovery-loop-runbook (2026-07-11): image-to-webp companion
   // guides - EN + full pt/es/vi/id/de locale fanout.
@@ -2632,6 +2651,29 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/image-webp-converter-when.html',
   '/guides/de/image-webp-converter-step-by-step.html',
   '/guides/de/image-webp-converter-vs-alternatives.html',
+
+  // new-tool-discovery-loop-runbook fire-43 (2026-07-11): expense-tracker
+  // companion guides - EN GUIDE_ROUTES backfill (builder wires JSP_BY_ROUTE
+  // only, same gap class as prior siblings) + full pt/es/vi/id/de locale
+  // fanout shipped atomically in the same fire.
+  '/guides/expense-tracker-step-by-step.html',
+  '/guides/expense-tracker-when.html',
+  '/guides/expense-tracker-vs-alternatives.html',
+  '/guides/pt/expense-tracker-step-by-step.html',
+  '/guides/pt/expense-tracker-when.html',
+  '/guides/pt/expense-tracker-vs-alternatives.html',
+  '/guides/es/expense-tracker-step-by-step.html',
+  '/guides/es/expense-tracker-when.html',
+  '/guides/es/expense-tracker-vs-alternatives.html',
+  '/guides/vi/expense-tracker-step-by-step.html',
+  '/guides/vi/expense-tracker-when.html',
+  '/guides/vi/expense-tracker-vs-alternatives.html',
+  '/guides/id/expense-tracker-step-by-step.html',
+  '/guides/id/expense-tracker-when.html',
+  '/guides/id/expense-tracker-vs-alternatives.html',
+  '/guides/de/expense-tracker-step-by-step.html',
+  '/guides/de/expense-tracker-when.html',
+  '/guides/de/expense-tracker-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -3149,6 +3191,7 @@ export const ALIAS_ROUTES = {
   '/gravity-orbit-golf.html': '/games/gravity-orbit-golf.html',
   '/one-tap-platformer.html': '/games/one-tap-platformer.html',
   '/neon-circuit-racer.html': '/games/neon-circuit-racer.html',
+  '/pixel-necromancer.html': '/games/pixel-necromancer.html',
   '/earth-3d-globe.html': '/space-3d/earth-3d-globe.html',
   '/linux-online.html': '/utility-tools/linux-online.html',
   '/online-linux-terminal.html': '/utility-tools/linux-online.html',
@@ -3160,6 +3203,7 @@ export const ALIAS_ROUTES = {
   '/webp-to-jpg.html': '/image-converter-tools/webp-to-jpg.html',
   '/image-to-webp.html': '/image-converter-tools/image-to-webp.html',
   '/png-to-jpg.html': '/image-converter-tools/png-to-jpg.html',
+  '/expense-tracker.html': '/utility-tools/expense-tracker.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -4714,6 +4758,26 @@ export const JSP_BY_ROUTE = {
   '/guides/id/neon-circuit-racer-vs-alternatives.html': 'guide/id/neon-circuit-racer-vs-alternatives.jsp',
   '/guides/de/neon-circuit-racer-vs-alternatives.html': 'guide/de/neon-circuit-racer-vs-alternatives.jsp',
   '/games/neon-circuit-racer.html': 'games/neon-circuit-racer.jsp',
+  // fire78 pixel-necromancer guides
+  '/guides/how-to-play-pixel-necromancer.html': 'guide/how-to-play-pixel-necromancer.jsp',
+  '/guides/pt/how-to-play-pixel-necromancer.html': 'guide/pt/how-to-play-pixel-necromancer.jsp',
+  '/guides/es/how-to-play-pixel-necromancer.html': 'guide/es/how-to-play-pixel-necromancer.jsp',
+  '/guides/vi/how-to-play-pixel-necromancer.html': 'guide/vi/how-to-play-pixel-necromancer.jsp',
+  '/guides/id/how-to-play-pixel-necromancer.html': 'guide/id/how-to-play-pixel-necromancer.jsp',
+  '/guides/de/how-to-play-pixel-necromancer.html': 'guide/de/how-to-play-pixel-necromancer.jsp',
+  '/guides/pixel-necromancer-when.html': 'guide/pixel-necromancer-when.jsp',
+  '/guides/pt/pixel-necromancer-when.html': 'guide/pt/pixel-necromancer-when.jsp',
+  '/guides/es/pixel-necromancer-when.html': 'guide/es/pixel-necromancer-when.jsp',
+  '/guides/vi/pixel-necromancer-when.html': 'guide/vi/pixel-necromancer-when.jsp',
+  '/guides/id/pixel-necromancer-when.html': 'guide/id/pixel-necromancer-when.jsp',
+  '/guides/de/pixel-necromancer-when.html': 'guide/de/pixel-necromancer-when.jsp',
+  '/guides/pixel-necromancer-vs-alternatives.html': 'guide/pixel-necromancer-vs-alternatives.jsp',
+  '/guides/pt/pixel-necromancer-vs-alternatives.html': 'guide/pt/pixel-necromancer-vs-alternatives.jsp',
+  '/guides/es/pixel-necromancer-vs-alternatives.html': 'guide/es/pixel-necromancer-vs-alternatives.jsp',
+  '/guides/vi/pixel-necromancer-vs-alternatives.html': 'guide/vi/pixel-necromancer-vs-alternatives.jsp',
+  '/guides/id/pixel-necromancer-vs-alternatives.html': 'guide/id/pixel-necromancer-vs-alternatives.jsp',
+  '/guides/de/pixel-necromancer-vs-alternatives.html': 'guide/de/pixel-necromancer-vs-alternatives.jsp',
+  '/games/pixel-necromancer.html': 'games/pixel-necromancer.jsp',
   '/utility-tools/qr-code-scanner.html': 'utility/qr-code-scanner.jsp',
   '/guides/qr-code-scanner-when.html': 'guide/qr-code-scanner-when.jsp',
   '/guides/qr-code-scanner-step-by-step.html': 'guide/qr-code-scanner-step-by-step.jsp',
@@ -5045,6 +5109,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/png-jpg-converter-step-by-step.html': 'guide/de/png-jpg-converter-step-by-step.jsp',
   '/guides/de/png-jpg-converter-when.html': 'guide/de/png-jpg-converter-when.jsp',
   '/guides/de/png-jpg-converter-vs-alternatives.html': 'guide/de/png-jpg-converter-vs-alternatives.jsp',
+  '/utility-tools/expense-tracker.html': 'utility/expense-tracker.jsp',
+  '/guides/expense-tracker-when.html': 'guide/expense-tracker-when.jsp',
+  '/guides/expense-tracker-step-by-step.html': 'guide/expense-tracker-step-by-step.jsp',
+  '/guides/expense-tracker-vs-alternatives.html': 'guide/expense-tracker-vs-alternatives.jsp',
+  '/guides/pt/expense-tracker-step-by-step.html': 'guide/pt/expense-tracker-step-by-step.jsp',
+  '/guides/pt/expense-tracker-when.html': 'guide/pt/expense-tracker-when.jsp',
+  '/guides/pt/expense-tracker-vs-alternatives.html': 'guide/pt/expense-tracker-vs-alternatives.jsp',
+  '/guides/es/expense-tracker-step-by-step.html': 'guide/es/expense-tracker-step-by-step.jsp',
+  '/guides/es/expense-tracker-when.html': 'guide/es/expense-tracker-when.jsp',
+  '/guides/es/expense-tracker-vs-alternatives.html': 'guide/es/expense-tracker-vs-alternatives.jsp',
+  '/guides/vi/expense-tracker-step-by-step.html': 'guide/vi/expense-tracker-step-by-step.jsp',
+  '/guides/vi/expense-tracker-when.html': 'guide/vi/expense-tracker-when.jsp',
+  '/guides/vi/expense-tracker-vs-alternatives.html': 'guide/vi/expense-tracker-vs-alternatives.jsp',
+  '/guides/id/expense-tracker-step-by-step.html': 'guide/id/expense-tracker-step-by-step.jsp',
+  '/guides/id/expense-tracker-when.html': 'guide/id/expense-tracker-when.jsp',
+  '/guides/id/expense-tracker-vs-alternatives.html': 'guide/id/expense-tracker-vs-alternatives.jsp',
+  '/guides/de/expense-tracker-step-by-step.html': 'guide/de/expense-tracker-step-by-step.jsp',
+  '/guides/de/expense-tracker-when.html': 'guide/de/expense-tracker-when.jsp',
+  '/guides/de/expense-tracker-vs-alternatives.html': 'guide/de/expense-tracker-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
