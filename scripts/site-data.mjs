@@ -4954,6 +4954,25 @@ export const JSP_BY_ROUTE = {
   '/guides/snake-classic-when.html': 'guide/snake-classic-when.jsp',
   '/guides/snake-classic-step-by-step.html': 'guide/snake-classic-step-by-step.jsp',
   '/guides/snake-classic-vs-alternatives.html': 'guide/snake-classic-vs-alternatives.jsp',
+
+  // fire-48 new-tool-discovery-loop-runbook: snake-classic-guides locale
+  // fanout (guide_locale_fanout unit_debt) - EN angles shipped fire-23; this
+  // fire adds pt/es/vi/id/de for all 3 angles (when/step-by-step/vs-alternatives).
+  '/guides/pt/snake-classic-when.html': 'guide/pt/snake-classic-when.jsp',
+  '/guides/pt/snake-classic-step-by-step.html': 'guide/pt/snake-classic-step-by-step.jsp',
+  '/guides/pt/snake-classic-vs-alternatives.html': 'guide/pt/snake-classic-vs-alternatives.jsp',
+  '/guides/es/snake-classic-when.html': 'guide/es/snake-classic-when.jsp',
+  '/guides/es/snake-classic-step-by-step.html': 'guide/es/snake-classic-step-by-step.jsp',
+  '/guides/es/snake-classic-vs-alternatives.html': 'guide/es/snake-classic-vs-alternatives.jsp',
+  '/guides/de/snake-classic-when.html': 'guide/de/snake-classic-when.jsp',
+  '/guides/de/snake-classic-step-by-step.html': 'guide/de/snake-classic-step-by-step.jsp',
+  '/guides/de/snake-classic-vs-alternatives.html': 'guide/de/snake-classic-vs-alternatives.jsp',
+  '/guides/vi/snake-classic-when.html': 'guide/vi/snake-classic-when.jsp',
+  '/guides/vi/snake-classic-step-by-step.html': 'guide/vi/snake-classic-step-by-step.jsp',
+  '/guides/vi/snake-classic-vs-alternatives.html': 'guide/vi/snake-classic-vs-alternatives.jsp',
+  '/guides/id/snake-classic-when.html': 'guide/id/snake-classic-when.jsp',
+  '/guides/id/snake-classic-step-by-step.html': 'guide/id/snake-classic-step-by-step.jsp',
+  '/guides/id/snake-classic-vs-alternatives.html': 'guide/id/snake-classic-vs-alternatives.jsp',
   '/games/retro-tank-battle.html': 'games/retro-tank-battle.jsp',
   '/guides/retro-tank-battle-when.html': 'guide/retro-tank-battle-when.jsp',
   '/guides/retro-tank-battle-step-by-step.html': 'guide/retro-tank-battle-step-by-step.jsp',
