@@ -399,6 +399,7 @@ try {
     { title: "PNG to JPG Converter", url: "https://freetoolonline.com/image-converter-tools/png-to-jpg.html", include: !1, tags: "image-conversion" },
     { title: "Expense Tracker", url: "https://freetoolonline.com/utility-tools/expense-tracker.html", include: !1, tags: "utility" },
     { title: "Random Name Picker", url: "https://freetoolonline.com/utility-tools/random-name-picker.html", include: !1, tags: "utility" },
+    { title: "BMI Calculator", url: "https://freetoolonline.com/utility-tools/bmi-calculator.html", include: !1, tags: "utility" },
     { title: "Character Counter", url: "https://freetoolonline.com/developer-tools/character-counter.html", include: !1, tags: "developer" },
     { title: "Find and Replace Text", url: "https://freetoolonline.com/developer-tools/find-and-replace-text.html", include: !1, tags: "developer" },
     { title: "Image Format Converter", url: "https://freetoolonline.com/image-converter-tools/image-format-converter.html", include: !1, tags: "image-conversion" },
