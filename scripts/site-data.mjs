@@ -1248,6 +1248,14 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire-66 (2026-07-12): GUIDE_ROUTES backfill for
+  // image-format-converter's 3 EN companion guide angles (builder wires JSP_BY_ROUTE
+  // only - same gap class documented in fires 32/56/57/62). Locale fanout (pt/es/vi/id/de)
+  // deferred to the guide-support-drain backlog (guide_locale_fanout unit
+  // image-format-converter-guides), per the fire21 EN-first precedent.
+  '/guides/image-format-converter-step-by-step.html',
+  '/guides/image-format-converter-when.html',
+  '/guides/image-format-converter-vs-alternatives.html',
   // cycle 20260625-6 create_new_guide_page (locale completion) - pt variant of video-converter-online-free (staging-only until es/vi/id/de complete).
   '/guides/pt/video-converter-online-free.html',
   // cycle 20260626 create_new_guide_page (locale completion) - es variant of video-converter-online-free (staging-only until vi/id/de complete).
@@ -2827,6 +2835,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/space-grid-puzzle-vs-alternatives.html',
   '/guides/id/space-grid-puzzle-vs-alternatives.html',
   '/guides/de/space-grid-puzzle-vs-alternatives.html',
+  // fire102 thirteen-step-escape
+  '/guides/how-to-play-thirteen-step-escape.html',
+  '/guides/pt/how-to-play-thirteen-step-escape.html',
+  '/guides/es/how-to-play-thirteen-step-escape.html',
+  '/guides/vi/how-to-play-thirteen-step-escape.html',
+  '/guides/id/how-to-play-thirteen-step-escape.html',
+  '/guides/de/how-to-play-thirteen-step-escape.html',
+  '/guides/thirteen-step-escape-when.html',
+  '/guides/pt/thirteen-step-escape-when.html',
+  '/guides/es/thirteen-step-escape-when.html',
+  '/guides/vi/thirteen-step-escape-when.html',
+  '/guides/id/thirteen-step-escape-when.html',
+  '/guides/de/thirteen-step-escape-when.html',
+  '/guides/thirteen-step-escape-vs-alternatives.html',
+  '/guides/pt/thirteen-step-escape-vs-alternatives.html',
+  '/guides/es/thirteen-step-escape-vs-alternatives.html',
+  '/guides/vi/thirteen-step-escape-vs-alternatives.html',
+  '/guides/id/thirteen-step-escape-vs-alternatives.html',
+  '/guides/de/thirteen-step-escape-vs-alternatives.html',
 
   // new-tool-discovery-loop-runbook (2026-07-11): image-to-webp companion
   // guides - EN + full pt/es/vi/id/de locale fanout.
@@ -3442,6 +3469,7 @@ export const ALIAS_ROUTES = {
   '/neon-cat-chase.html': '/games/neon-cat-chase.html',
   '/schematic-factory-game.html': '/games/schematic-factory-game.html',
   '/space-grid-puzzle.html': '/games/space-grid-puzzle.html',
+  '/thirteen-step-escape.html': '/games/thirteen-step-escape.html',
   '/earth-3d-globe.html': '/space-3d/earth-3d-globe.html',
   '/linux-online.html': '/utility-tools/linux-online.html',
   '/online-linux-terminal.html': '/utility-tools/linux-online.html',
@@ -3456,6 +3484,7 @@ export const ALIAS_ROUTES = {
   '/expense-tracker.html': '/utility-tools/expense-tracker.html',
   '/pomodoro-timer.html': '/utility-tools/pomodoro-timer.html',
   '/random-name-picker.html': '/utility-tools/random-name-picker.html',
+  '/image-format-converter.html': '/image-converter-tools/image-format-converter.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -5234,6 +5263,26 @@ export const JSP_BY_ROUTE = {
   '/guides/id/space-grid-puzzle-vs-alternatives.html': 'guide/id/space-grid-puzzle-vs-alternatives.jsp',
   '/guides/de/space-grid-puzzle-vs-alternatives.html': 'guide/de/space-grid-puzzle-vs-alternatives.jsp',
   '/games/space-grid-puzzle.html': 'games/space-grid-puzzle.jsp',
+  // fire102 thirteen-step-escape guides
+  '/guides/how-to-play-thirteen-step-escape.html': 'guide/how-to-play-thirteen-step-escape.jsp',
+  '/guides/pt/how-to-play-thirteen-step-escape.html': 'guide/pt/how-to-play-thirteen-step-escape.jsp',
+  '/guides/es/how-to-play-thirteen-step-escape.html': 'guide/es/how-to-play-thirteen-step-escape.jsp',
+  '/guides/vi/how-to-play-thirteen-step-escape.html': 'guide/vi/how-to-play-thirteen-step-escape.jsp',
+  '/guides/id/how-to-play-thirteen-step-escape.html': 'guide/id/how-to-play-thirteen-step-escape.jsp',
+  '/guides/de/how-to-play-thirteen-step-escape.html': 'guide/de/how-to-play-thirteen-step-escape.jsp',
+  '/guides/thirteen-step-escape-when.html': 'guide/thirteen-step-escape-when.jsp',
+  '/guides/pt/thirteen-step-escape-when.html': 'guide/pt/thirteen-step-escape-when.jsp',
+  '/guides/es/thirteen-step-escape-when.html': 'guide/es/thirteen-step-escape-when.jsp',
+  '/guides/vi/thirteen-step-escape-when.html': 'guide/vi/thirteen-step-escape-when.jsp',
+  '/guides/id/thirteen-step-escape-when.html': 'guide/id/thirteen-step-escape-when.jsp',
+  '/guides/de/thirteen-step-escape-when.html': 'guide/de/thirteen-step-escape-when.jsp',
+  '/guides/thirteen-step-escape-vs-alternatives.html': 'guide/thirteen-step-escape-vs-alternatives.jsp',
+  '/guides/pt/thirteen-step-escape-vs-alternatives.html': 'guide/pt/thirteen-step-escape-vs-alternatives.jsp',
+  '/guides/es/thirteen-step-escape-vs-alternatives.html': 'guide/es/thirteen-step-escape-vs-alternatives.jsp',
+  '/guides/vi/thirteen-step-escape-vs-alternatives.html': 'guide/vi/thirteen-step-escape-vs-alternatives.jsp',
+  '/guides/id/thirteen-step-escape-vs-alternatives.html': 'guide/id/thirteen-step-escape-vs-alternatives.jsp',
+  '/guides/de/thirteen-step-escape-vs-alternatives.html': 'guide/de/thirteen-step-escape-vs-alternatives.jsp',
+  '/games/thirteen-step-escape.html': 'games/thirteen-step-escape.jsp',
   '/utility-tools/qr-code-scanner.html': 'utility/qr-code-scanner.jsp',
   '/guides/qr-code-scanner-when.html': 'guide/qr-code-scanner-when.jsp',
   '/guides/qr-code-scanner-step-by-step.html': 'guide/qr-code-scanner-step-by-step.jsp',
@@ -5654,6 +5703,10 @@ export const JSP_BY_ROUTE = {
   '/guides/de/image-webp-converter-step-by-step.html': 'guide/de/image-webp-converter-step-by-step.jsp',
   '/guides/de/image-webp-converter-vs-alternatives.html': 'guide/de/image-webp-converter-vs-alternatives.jsp',
   '/image-converter-tools/png-to-jpg.html': 'convert/png-to-jpg.jsp',
+  '/image-converter-tools/image-format-converter.html': 'convert/image-format-converter.jsp',
+  '/guides/image-format-converter-when.html': 'guide/image-format-converter-when.jsp',
+  '/guides/image-format-converter-step-by-step.html': 'guide/image-format-converter-step-by-step.jsp',
+  '/guides/image-format-converter-vs-alternatives.html': 'guide/image-format-converter-vs-alternatives.jsp',
   '/guides/png-jpg-converter-when.html': 'guide/png-jpg-converter-when.jsp',
   '/guides/png-jpg-converter-step-by-step.html': 'guide/png-jpg-converter-step-by-step.jsp',
   '/guides/png-jpg-converter-vs-alternatives.html': 'guide/png-jpg-converter-vs-alternatives.jsp',

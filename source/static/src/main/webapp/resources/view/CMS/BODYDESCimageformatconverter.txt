@@ -1,1 +1,1 @@
-Image Format Converter - Convert image format files between common formats in the browser.
+Convert images between PNG, JPG, and WebP with no upload - the file stays in your browser and is discarded when the page closes.
