@@ -14,6 +14,28 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/delete-pdf-pages-vs-alternatives.html',
+  '/guides/delete-pdf-pages-step-by-step.html',
+  '/guides/delete-pdf-pages-when.html',
+  // new-tool-discovery-loop-runbook fire114 (LEAN one-off, 2026-07-12): delete-pdf-pages
+  // guide locale fanout (guide_locale_fanout units delete-pdf-pages-when/-step-by-step/
+  // -vs-alternatives-guides) - 3 EN angles x pt/es/vi/id/de, paraphrased from
+  // tool-deletepdfpages/SKILL.md framing menu only.
+  '/guides/pt/delete-pdf-pages-when.html',
+  '/guides/pt/delete-pdf-pages-step-by-step.html',
+  '/guides/pt/delete-pdf-pages-vs-alternatives.html',
+  '/guides/es/delete-pdf-pages-when.html',
+  '/guides/es/delete-pdf-pages-step-by-step.html',
+  '/guides/es/delete-pdf-pages-vs-alternatives.html',
+  '/guides/vi/delete-pdf-pages-when.html',
+  '/guides/vi/delete-pdf-pages-step-by-step.html',
+  '/guides/vi/delete-pdf-pages-vs-alternatives.html',
+  '/guides/id/delete-pdf-pages-when.html',
+  '/guides/id/delete-pdf-pages-step-by-step.html',
+  '/guides/id/delete-pdf-pages-vs-alternatives.html',
+  '/guides/de/delete-pdf-pages-when.html',
+  '/guides/de/delete-pdf-pages-step-by-step.html',
+  '/guides/de/delete-pdf-pages-vs-alternatives.html',
   '/guides/rotate-pdf-vs-alternatives.html',
   '/guides/rotate-pdf-step-by-step.html',
   '/guides/rotate-pdf-when.html',
@@ -1415,6 +1437,31 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire113 (LEAN one-off, 2026-07-12):
+  // GUIDE_ROUTES backfill for delete-pdf-pages's 3 EN companion guide angles
+  // (builder wires JSP_BY_ROUTE + INFO_ROUTES only, same recurring gap class as
+  // fires 32/56/57/62/66/84).
+  '/guides/delete-pdf-pages-when.html',
+  '/guides/delete-pdf-pages-step-by-step.html',
+  '/guides/delete-pdf-pages-vs-alternatives.html',
+  // new-tool-discovery-loop-runbook fire114 (LEAN one-off, 2026-07-12): delete-pdf-pages
+  // full pt/es/vi/id/de locale fanout for all 3 EN companion guide angles
+  // (guide_locale_fanout units delete-pdf-pages-when/-step-by-step/-vs-alternatives-guides).
+  '/guides/pt/delete-pdf-pages-when.html',
+  '/guides/pt/delete-pdf-pages-step-by-step.html',
+  '/guides/pt/delete-pdf-pages-vs-alternatives.html',
+  '/guides/es/delete-pdf-pages-when.html',
+  '/guides/es/delete-pdf-pages-step-by-step.html',
+  '/guides/es/delete-pdf-pages-vs-alternatives.html',
+  '/guides/vi/delete-pdf-pages-when.html',
+  '/guides/vi/delete-pdf-pages-step-by-step.html',
+  '/guides/vi/delete-pdf-pages-vs-alternatives.html',
+  '/guides/id/delete-pdf-pages-when.html',
+  '/guides/id/delete-pdf-pages-step-by-step.html',
+  '/guides/id/delete-pdf-pages-vs-alternatives.html',
+  '/guides/de/delete-pdf-pages-when.html',
+  '/guides/de/delete-pdf-pages-step-by-step.html',
+  '/guides/de/delete-pdf-pages-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire84 (2026-07-12): GUIDE_ROUTES backfill for
   // strip-audio-from-video's 3 EN companion guide angles (builder wires JSP_BY_ROUTE
   // only - same recurring gap class as fires 32/56/57/62/66, now closed at the
@@ -3888,6 +3935,7 @@ export const ALIAS_ROUTES = {
   '/image-format-converter.html': '/image-converter-tools/image-format-converter.html',
   '/strip-audio-from-video.html': '/video-tools/strip-audio-from-video.html',
   '/rotate-pdf.html': '/pdf-tools/rotate-pdf.html',
+  '/delete-pdf-pages.html': '/pdf-tools/delete-pdf-pages.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -6485,6 +6533,25 @@ export const JSP_BY_ROUTE = {
   '/guides/rotate-pdf-when.html': 'guide/rotate-pdf-when.jsp',
   '/guides/rotate-pdf-step-by-step.html': 'guide/rotate-pdf-step-by-step.jsp',
   '/guides/rotate-pdf-vs-alternatives.html': 'guide/rotate-pdf-vs-alternatives.jsp',
+  '/pdf-tools/delete-pdf-pages.html': 'pdf/delete-pdf-pages.jsp',
+  '/guides/delete-pdf-pages-when.html': 'guide/delete-pdf-pages-when.jsp',
+  '/guides/delete-pdf-pages-step-by-step.html': 'guide/delete-pdf-pages-step-by-step.jsp',
+  '/guides/delete-pdf-pages-vs-alternatives.html': 'guide/delete-pdf-pages-vs-alternatives.jsp',
+  '/guides/pt/delete-pdf-pages-when.html': 'guide/pt/delete-pdf-pages-when.jsp',
+  '/guides/pt/delete-pdf-pages-step-by-step.html': 'guide/pt/delete-pdf-pages-step-by-step.jsp',
+  '/guides/pt/delete-pdf-pages-vs-alternatives.html': 'guide/pt/delete-pdf-pages-vs-alternatives.jsp',
+  '/guides/es/delete-pdf-pages-when.html': 'guide/es/delete-pdf-pages-when.jsp',
+  '/guides/es/delete-pdf-pages-step-by-step.html': 'guide/es/delete-pdf-pages-step-by-step.jsp',
+  '/guides/es/delete-pdf-pages-vs-alternatives.html': 'guide/es/delete-pdf-pages-vs-alternatives.jsp',
+  '/guides/vi/delete-pdf-pages-when.html': 'guide/vi/delete-pdf-pages-when.jsp',
+  '/guides/vi/delete-pdf-pages-step-by-step.html': 'guide/vi/delete-pdf-pages-step-by-step.jsp',
+  '/guides/vi/delete-pdf-pages-vs-alternatives.html': 'guide/vi/delete-pdf-pages-vs-alternatives.jsp',
+  '/guides/id/delete-pdf-pages-when.html': 'guide/id/delete-pdf-pages-when.jsp',
+  '/guides/id/delete-pdf-pages-step-by-step.html': 'guide/id/delete-pdf-pages-step-by-step.jsp',
+  '/guides/id/delete-pdf-pages-vs-alternatives.html': 'guide/id/delete-pdf-pages-vs-alternatives.jsp',
+  '/guides/de/delete-pdf-pages-when.html': 'guide/de/delete-pdf-pages-when.jsp',
+  '/guides/de/delete-pdf-pages-step-by-step.html': 'guide/de/delete-pdf-pages-step-by-step.jsp',
+  '/guides/de/delete-pdf-pages-vs-alternatives.html': 'guide/de/delete-pdf-pages-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
