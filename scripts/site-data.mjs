@@ -14,6 +14,9 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/rotate-pdf-vs-alternatives.html',
+  '/guides/rotate-pdf-step-by-step.html',
+  '/guides/rotate-pdf-when.html',
   '/guides/pt/remove-audio-from-video-when.html',
   '/guides/es/remove-audio-from-video-when.html',
   '/guides/vi/remove-audio-from-video-when.html',
@@ -3123,6 +3126,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/voxel-fps-arena-vs-alternatives.html',
   '/guides/id/voxel-fps-arena-vs-alternatives.html',
   '/guides/de/voxel-fps-arena-vs-alternatives.html',
+  // fire105 lightning-math-battle
+  '/guides/how-to-play-lightning-math-battle.html',
+  '/guides/pt/how-to-play-lightning-math-battle.html',
+  '/guides/es/how-to-play-lightning-math-battle.html',
+  '/guides/vi/how-to-play-lightning-math-battle.html',
+  '/guides/id/how-to-play-lightning-math-battle.html',
+  '/guides/de/how-to-play-lightning-math-battle.html',
+  '/guides/lightning-math-battle-when.html',
+  '/guides/pt/lightning-math-battle-when.html',
+  '/guides/es/lightning-math-battle-when.html',
+  '/guides/vi/lightning-math-battle-when.html',
+  '/guides/id/lightning-math-battle-when.html',
+  '/guides/de/lightning-math-battle-when.html',
+  '/guides/lightning-math-battle-vs-alternatives.html',
+  '/guides/pt/lightning-math-battle-vs-alternatives.html',
+  '/guides/es/lightning-math-battle-vs-alternatives.html',
+  '/guides/vi/lightning-math-battle-vs-alternatives.html',
+  '/guides/id/lightning-math-battle-vs-alternatives.html',
+  '/guides/de/lightning-math-battle-vs-alternatives.html',
 
   '/guides/de/gravity-orbit-golf-vs-alternatives.html',
 
@@ -3822,6 +3844,7 @@ export const ALIAS_ROUTES = {
   '/thirteen-step-escape.html': '/games/thirteen-step-escape.html',
   '/floor-thirteen-horror.html': '/games/floor-thirteen-horror.html',
   '/voxel-fps-arena.html': '/games/voxel-fps-arena.html',
+  '/lightning-math-battle.html': '/games/lightning-math-battle.html',
 
   '/gravity-orbit-golf.html': '/games/gravity-orbit-golf.html',
 
@@ -3844,6 +3867,7 @@ export const ALIAS_ROUTES = {
   '/find-and-replace-text.html': '/developer-tools/find-and-replace-text.html',
   '/image-format-converter.html': '/image-converter-tools/image-format-converter.html',
   '/strip-audio-from-video.html': '/video-tools/strip-audio-from-video.html',
+  '/rotate-pdf.html': '/pdf-tools/rotate-pdf.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -5698,6 +5722,26 @@ export const JSP_BY_ROUTE = {
   '/guides/id/voxel-fps-arena-vs-alternatives.html': 'guide/id/voxel-fps-arena-vs-alternatives.jsp',
   '/guides/de/voxel-fps-arena-vs-alternatives.html': 'guide/de/voxel-fps-arena-vs-alternatives.jsp',
   '/games/voxel-fps-arena.html': 'games/voxel-fps-arena.jsp',
+  // fire105 lightning-math-battle guides
+  '/guides/how-to-play-lightning-math-battle.html': 'guide/how-to-play-lightning-math-battle.jsp',
+  '/guides/pt/how-to-play-lightning-math-battle.html': 'guide/pt/how-to-play-lightning-math-battle.jsp',
+  '/guides/es/how-to-play-lightning-math-battle.html': 'guide/es/how-to-play-lightning-math-battle.jsp',
+  '/guides/vi/how-to-play-lightning-math-battle.html': 'guide/vi/how-to-play-lightning-math-battle.jsp',
+  '/guides/id/how-to-play-lightning-math-battle.html': 'guide/id/how-to-play-lightning-math-battle.jsp',
+  '/guides/de/how-to-play-lightning-math-battle.html': 'guide/de/how-to-play-lightning-math-battle.jsp',
+  '/guides/lightning-math-battle-when.html': 'guide/lightning-math-battle-when.jsp',
+  '/guides/pt/lightning-math-battle-when.html': 'guide/pt/lightning-math-battle-when.jsp',
+  '/guides/es/lightning-math-battle-when.html': 'guide/es/lightning-math-battle-when.jsp',
+  '/guides/vi/lightning-math-battle-when.html': 'guide/vi/lightning-math-battle-when.jsp',
+  '/guides/id/lightning-math-battle-when.html': 'guide/id/lightning-math-battle-when.jsp',
+  '/guides/de/lightning-math-battle-when.html': 'guide/de/lightning-math-battle-when.jsp',
+  '/guides/lightning-math-battle-vs-alternatives.html': 'guide/lightning-math-battle-vs-alternatives.jsp',
+  '/guides/pt/lightning-math-battle-vs-alternatives.html': 'guide/pt/lightning-math-battle-vs-alternatives.jsp',
+  '/guides/es/lightning-math-battle-vs-alternatives.html': 'guide/es/lightning-math-battle-vs-alternatives.jsp',
+  '/guides/vi/lightning-math-battle-vs-alternatives.html': 'guide/vi/lightning-math-battle-vs-alternatives.jsp',
+  '/guides/id/lightning-math-battle-vs-alternatives.html': 'guide/id/lightning-math-battle-vs-alternatives.jsp',
+  '/guides/de/lightning-math-battle-vs-alternatives.html': 'guide/de/lightning-math-battle-vs-alternatives.jsp',
+  '/games/lightning-math-battle.html': 'games/lightning-math-battle.jsp',
 
   '/guides/de/gravity-orbit-golf-vs-alternatives.html': 'guide/de/gravity-orbit-golf-vs-alternatives.jsp',
   '/games/gravity-orbit-golf.html': 'games/gravity-orbit-golf.jsp',
@@ -6397,6 +6441,10 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/remove-audio-from-video-vs-alternatives.html': 'guide/vi/remove-audio-from-video-vs-alternatives.jsp',
   '/guides/id/remove-audio-from-video-vs-alternatives.html': 'guide/id/remove-audio-from-video-vs-alternatives.jsp',
   '/guides/de/remove-audio-from-video-vs-alternatives.html': 'guide/de/remove-audio-from-video-vs-alternatives.jsp',
+  '/pdf-tools/rotate-pdf.html': 'pdf/rotate-pdf.jsp',
+  '/guides/rotate-pdf-when.html': 'guide/rotate-pdf-when.jsp',
+  '/guides/rotate-pdf-step-by-step.html': 'guide/rotate-pdf-step-by-step.jsp',
+  '/guides/rotate-pdf-vs-alternatives.html': 'guide/rotate-pdf-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
