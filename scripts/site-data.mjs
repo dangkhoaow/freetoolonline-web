@@ -1864,6 +1864,24 @@ export const INFO_ROUTES = new Set([
   '/guides/de/asteroid-belt-vs-alternatives.html',
   '/guides/vi/asteroid-belt-vs-alternatives.html',
   '/guides/id/asteroid-belt-vs-alternatives.html',
+  '/guides/comet-orbit-when.html',
+  '/guides/pt/comet-orbit-when.html',
+  '/guides/es/comet-orbit-when.html',
+  '/guides/de/comet-orbit-when.html',
+  '/guides/vi/comet-orbit-when.html',
+  '/guides/id/comet-orbit-when.html',
+  '/guides/comet-orbit-step-by-step.html',
+  '/guides/pt/comet-orbit-step-by-step.html',
+  '/guides/es/comet-orbit-step-by-step.html',
+  '/guides/de/comet-orbit-step-by-step.html',
+  '/guides/vi/comet-orbit-step-by-step.html',
+  '/guides/id/comet-orbit-step-by-step.html',
+  '/guides/comet-orbit-vs-alternatives.html',
+  '/guides/pt/comet-orbit-vs-alternatives.html',
+  '/guides/es/comet-orbit-vs-alternatives.html',
+  '/guides/de/comet-orbit-vs-alternatives.html',
+  '/guides/vi/comet-orbit-vs-alternatives.html',
+  '/guides/id/comet-orbit-vs-alternatives.html',
   // play-fps-in-browser-step-by-step locale fanout pt/es/de/vi/id
   // (new-tool-discovery-loop-runbook LEAN one-off fire, guide-support drain
   // per runbook 4b).
@@ -1902,9 +1920,11 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
-  // new-tool-discovery-loop-runbook fire142/143 (mirror): GUIDE_ROUTES backfill
-  // for jwt-decoder's 3 EN companion guide angles (builder wires JSP_BY_ROUTE +
-  // INFO_ROUTES only) plus their full pt/es/vi/id/de locale fanout.
+  // new-tool-discovery-loop-runbook fire142 (LEAN one-off, 2026-07-13/14):
+  // GUIDE_ROUTES backfill for jwt-decoder's 3 EN companion guide angles
+  // (builder wires JSP_BY_ROUTE + INFO_ROUTES only, same recurring gap
+  // class as fires 32/56/57/62/66/84/113/115/120) plus their full
+  // pt/es/vi/id/de locale fanout.
   '/guides/jwt-decoder-when.html',
   '/guides/jwt-decoder-step-by-step.html',
   '/guides/jwt-decoder-vs-alternatives.html',
@@ -4242,6 +4262,24 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/asteroid-belt-vs-alternatives.html',
   '/guides/vi/asteroid-belt-vs-alternatives.html',
   '/guides/id/asteroid-belt-vs-alternatives.html',
+  '/guides/comet-orbit-when.html',
+  '/guides/pt/comet-orbit-when.html',
+  '/guides/es/comet-orbit-when.html',
+  '/guides/de/comet-orbit-when.html',
+  '/guides/vi/comet-orbit-when.html',
+  '/guides/id/comet-orbit-when.html',
+  '/guides/comet-orbit-step-by-step.html',
+  '/guides/pt/comet-orbit-step-by-step.html',
+  '/guides/es/comet-orbit-step-by-step.html',
+  '/guides/de/comet-orbit-step-by-step.html',
+  '/guides/vi/comet-orbit-step-by-step.html',
+  '/guides/id/comet-orbit-step-by-step.html',
+  '/guides/comet-orbit-vs-alternatives.html',
+  '/guides/pt/comet-orbit-vs-alternatives.html',
+  '/guides/es/comet-orbit-vs-alternatives.html',
+  '/guides/de/comet-orbit-vs-alternatives.html',
+  '/guides/vi/comet-orbit-vs-alternatives.html',
+  '/guides/id/comet-orbit-vs-alternatives.html',
   // play-fps-in-browser-step-by-step locale fanout pt/es/de/vi/id
   // (new-tool-discovery-loop-runbook LEAN one-off fire, guide-support drain
   // per runbook 4b).
@@ -4272,7 +4310,6 @@ export function isGuideRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
-  '/jwt-decoder.html': '/developer-tools/jwt-decoder.html',
   // Hub directory-form safety redirects (added 2026-05-11). Search engines
   // and external links may guess `/cluster-tools/` from the clustered tool
   // URLs (`/cluster-tools/<slug>.html`). Without these entries GitHub Pages
@@ -4814,6 +4851,7 @@ export const ALIAS_ROUTES = {
   '/exoplanet-transit.html': '/space-3d/exoplanet-transit.html',
   '/tidal-locking.html': '/space-3d/tidal-locking.html',
   '/asteroid-belt.html': '/space-3d/asteroid-belt.html',
+  '/comet-orbit.html': '/space-3d/comet-orbit.html',
   '/linux-online.html': '/utility-tools/linux-online.html',
   '/online-linux-terminal.html': '/utility-tools/linux-online.html',
   '/linux-emulator-online.html': '/utility-tools/linux-online.html',
@@ -4843,6 +4881,7 @@ export const ALIAS_ROUTES = {
   '/file-encryption-tool.html': '/developer-tools/file-encryption-tool.html',
   '/flashcards-maker.html': '/utility-tools/flashcards-maker.html',
   '/document-scanner.html': '/image-tools/document-scanner.html',
+  '/jwt-decoder.html': '/developer-tools/jwt-decoder.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -4871,25 +4910,6 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
-  '/developer-tools/jwt-decoder.html': 'utility/jwt-decoder.jsp',
-  '/guides/jwt-decoder-when.html': 'guide/jwt-decoder-when.jsp',
-  '/guides/jwt-decoder-step-by-step.html': 'guide/jwt-decoder-step-by-step.jsp',
-  '/guides/jwt-decoder-vs-alternatives.html': 'guide/jwt-decoder-vs-alternatives.jsp',
-  '/guides/pt/jwt-decoder-when.html': 'guide/pt/jwt-decoder-when.jsp',
-  '/guides/pt/jwt-decoder-step-by-step.html': 'guide/pt/jwt-decoder-step-by-step.jsp',
-  '/guides/pt/jwt-decoder-vs-alternatives.html': 'guide/pt/jwt-decoder-vs-alternatives.jsp',
-  '/guides/es/jwt-decoder-when.html': 'guide/es/jwt-decoder-when.jsp',
-  '/guides/es/jwt-decoder-step-by-step.html': 'guide/es/jwt-decoder-step-by-step.jsp',
-  '/guides/es/jwt-decoder-vs-alternatives.html': 'guide/es/jwt-decoder-vs-alternatives.jsp',
-  '/guides/vi/jwt-decoder-when.html': 'guide/vi/jwt-decoder-when.jsp',
-  '/guides/vi/jwt-decoder-step-by-step.html': 'guide/vi/jwt-decoder-step-by-step.jsp',
-  '/guides/vi/jwt-decoder-vs-alternatives.html': 'guide/vi/jwt-decoder-vs-alternatives.jsp',
-  '/guides/id/jwt-decoder-when.html': 'guide/id/jwt-decoder-when.jsp',
-  '/guides/id/jwt-decoder-step-by-step.html': 'guide/id/jwt-decoder-step-by-step.jsp',
-  '/guides/id/jwt-decoder-vs-alternatives.html': 'guide/id/jwt-decoder-vs-alternatives.jsp',
-  '/guides/de/jwt-decoder-when.html': 'guide/de/jwt-decoder-when.jsp',
-  '/guides/de/jwt-decoder-step-by-step.html': 'guide/de/jwt-decoder-step-by-step.jsp',
-  '/guides/de/jwt-decoder-vs-alternatives.html': 'guide/de/jwt-decoder-vs-alternatives.jsp',
   '/': 'index.jsp',
   '/about-us.html': 'about-us.jsp',
   '/contact-us.html': 'contact-us.jsp',
@@ -7212,6 +7232,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/exoplanet-transit.html': 'space/exoplanet-transit.jsp',
   '/space-3d/tidal-locking.html': 'space/tidal-locking.jsp',
   '/space-3d/asteroid-belt.html': 'space/asteroid-belt.jsp',
+  '/space-3d/comet-orbit.html': 'space/comet-orbit.jsp',
   '/guides/iss-orbit-tracker-when.html': 'guide/iss-orbit-tracker-when.jsp',
   '/guides/iss-orbit-tracker-step-by-step.html': 'guide/iss-orbit-tracker-step-by-step.jsp',
   '/guides/iss-orbit-tracker-vs-alternatives.html': 'guide/iss-orbit-tracker-vs-alternatives.jsp',
@@ -7356,6 +7377,24 @@ export const JSP_BY_ROUTE = {
   '/guides/de/asteroid-belt-vs-alternatives.html': 'guide/de/asteroid-belt-vs-alternatives.jsp',
   '/guides/vi/asteroid-belt-vs-alternatives.html': 'guide/vi/asteroid-belt-vs-alternatives.jsp',
   '/guides/id/asteroid-belt-vs-alternatives.html': 'guide/id/asteroid-belt-vs-alternatives.jsp',
+  '/guides/comet-orbit-when.html': 'guide/comet-orbit-when.jsp',
+  '/guides/pt/comet-orbit-when.html': 'guide/pt/comet-orbit-when.jsp',
+  '/guides/es/comet-orbit-when.html': 'guide/es/comet-orbit-when.jsp',
+  '/guides/de/comet-orbit-when.html': 'guide/de/comet-orbit-when.jsp',
+  '/guides/vi/comet-orbit-when.html': 'guide/vi/comet-orbit-when.jsp',
+  '/guides/id/comet-orbit-when.html': 'guide/id/comet-orbit-when.jsp',
+  '/guides/comet-orbit-step-by-step.html': 'guide/comet-orbit-step-by-step.jsp',
+  '/guides/pt/comet-orbit-step-by-step.html': 'guide/pt/comet-orbit-step-by-step.jsp',
+  '/guides/es/comet-orbit-step-by-step.html': 'guide/es/comet-orbit-step-by-step.jsp',
+  '/guides/de/comet-orbit-step-by-step.html': 'guide/de/comet-orbit-step-by-step.jsp',
+  '/guides/vi/comet-orbit-step-by-step.html': 'guide/vi/comet-orbit-step-by-step.jsp',
+  '/guides/id/comet-orbit-step-by-step.html': 'guide/id/comet-orbit-step-by-step.jsp',
+  '/guides/comet-orbit-vs-alternatives.html': 'guide/comet-orbit-vs-alternatives.jsp',
+  '/guides/pt/comet-orbit-vs-alternatives.html': 'guide/pt/comet-orbit-vs-alternatives.jsp',
+  '/guides/es/comet-orbit-vs-alternatives.html': 'guide/es/comet-orbit-vs-alternatives.jsp',
+  '/guides/de/comet-orbit-vs-alternatives.html': 'guide/de/comet-orbit-vs-alternatives.jsp',
+  '/guides/vi/comet-orbit-vs-alternatives.html': 'guide/vi/comet-orbit-vs-alternatives.jsp',
+  '/guides/id/comet-orbit-vs-alternatives.html': 'guide/id/comet-orbit-vs-alternatives.jsp',
   '/guides/moon-calendar-3d-when.html': 'guide/moon-calendar-3d-when.jsp',
   '/guides/moon-calendar-3d-step-by-step.html': 'guide/moon-calendar-3d-step-by-step.jsp',
   '/guides/moon-calendar-3d-vs-alternatives.html': 'guide/moon-calendar-3d-vs-alternatives.jsp',
@@ -7957,6 +7996,25 @@ export const JSP_BY_ROUTE = {
   '/guides/id/document-scanner-pdf-step-by-step.html': 'guide/id/document-scanner-pdf-step-by-step.jsp',
   '/guides/id/document-scanner-pdf-when.html': 'guide/id/document-scanner-pdf-when.jsp',
   '/guides/id/document-scanner-pdf-vs-alternatives.html': 'guide/id/document-scanner-pdf-vs-alternatives.jsp',
+  '/developer-tools/jwt-decoder.html': 'utility/jwt-decoder.jsp',
+  '/guides/jwt-decoder-when.html': 'guide/jwt-decoder-when.jsp',
+  '/guides/jwt-decoder-step-by-step.html': 'guide/jwt-decoder-step-by-step.jsp',
+  '/guides/jwt-decoder-vs-alternatives.html': 'guide/jwt-decoder-vs-alternatives.jsp',
+  '/guides/pt/jwt-decoder-when.html': 'guide/pt/jwt-decoder-when.jsp',
+  '/guides/pt/jwt-decoder-step-by-step.html': 'guide/pt/jwt-decoder-step-by-step.jsp',
+  '/guides/pt/jwt-decoder-vs-alternatives.html': 'guide/pt/jwt-decoder-vs-alternatives.jsp',
+  '/guides/es/jwt-decoder-when.html': 'guide/es/jwt-decoder-when.jsp',
+  '/guides/es/jwt-decoder-step-by-step.html': 'guide/es/jwt-decoder-step-by-step.jsp',
+  '/guides/es/jwt-decoder-vs-alternatives.html': 'guide/es/jwt-decoder-vs-alternatives.jsp',
+  '/guides/vi/jwt-decoder-when.html': 'guide/vi/jwt-decoder-when.jsp',
+  '/guides/vi/jwt-decoder-step-by-step.html': 'guide/vi/jwt-decoder-step-by-step.jsp',
+  '/guides/vi/jwt-decoder-vs-alternatives.html': 'guide/vi/jwt-decoder-vs-alternatives.jsp',
+  '/guides/id/jwt-decoder-when.html': 'guide/id/jwt-decoder-when.jsp',
+  '/guides/id/jwt-decoder-step-by-step.html': 'guide/id/jwt-decoder-step-by-step.jsp',
+  '/guides/id/jwt-decoder-vs-alternatives.html': 'guide/id/jwt-decoder-vs-alternatives.jsp',
+  '/guides/de/jwt-decoder-when.html': 'guide/de/jwt-decoder-when.jsp',
+  '/guides/de/jwt-decoder-step-by-step.html': 'guide/de/jwt-decoder-step-by-step.jsp',
+  '/guides/de/jwt-decoder-vs-alternatives.html': 'guide/de/jwt-decoder-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
