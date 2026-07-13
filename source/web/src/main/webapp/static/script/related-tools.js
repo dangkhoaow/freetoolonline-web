@@ -394,6 +394,7 @@ try {
     { title: "Moon Calendar 3D Explorer", url: "https://freetoolonline.com/space-3d/moon-calendar-3d.html", include: !1, tags: "space-3d" },
     { title: "ISS Orbit Tracker 3D Explorer", url: "https://freetoolonline.com/space-3d/iss-orbit-tracker.html", include: !1, tags: "space-3d" },
     { title: "Lunar Eclipse 3D Explorer", url: "https://freetoolonline.com/space-3d/lunar-eclipse.html", include: !1, tags: "space-3d" },
+    { title: "Solar Eclipse 3D Explorer", url: "https://freetoolonline.com/space-3d/solar-eclipse.html", include: !1, tags: "space-3d" },
     { title: "Linux Online - Run Linux in Your Browser (Terminal & Desktop)", url: "https://freetoolonline.com/utility-tools/linux-online.html", include: !1, tags: "utility" },
     { title: "Retro FPS Online - Play a Classic Shooter in Your Browser (Freedoom)", url: "https://freetoolonline.com/games/retro-fps-online.html", include: !1, tags: "games" },
     // news-loop (2026-07-08): dated, source-cited updates. tags include the
@@ -411,7 +412,6 @@ try {
     { title: "Date Difference Calculator", url: "https://freetoolonline.com/utility-tools/date-difference-calculator.html", include: !1, tags: "utility" },
     { title: "Notepad / Notes", url: "https://freetoolonline.com/utility-tools/note-taking-app.html", include: !1, tags: "utility" },
     { title: "Flashcards (Spaced Repetition)", url: "https://freetoolonline.com/utility-tools/flashcards-maker.html", include: !1, tags: "utility" },
-    { title: "Document Scanner (to PDF)", url: "https://freetoolonline.com/image-tools/document-scanner.html", include: !1, tags: "image-editing" },
     { title: "Character Counter", url: "https://freetoolonline.com/developer-tools/character-counter.html", include: !1, tags: "developer" },
     { title: "Find and Replace Text", url: "https://freetoolonline.com/developer-tools/find-and-replace-text.html", include: !1, tags: "developer" },
     { title: "Image Format Converter", url: "https://freetoolonline.com/image-converter-tools/image-format-converter.html", include: !1, tags: "image-conversion" },
