@@ -403,6 +403,7 @@ try {
     { title: "Tip Calculator", url: "https://freetoolonline.com/utility-tools/tip-calculator.html", include: !1, tags: "utility" },
     { title: "Loan Calculator", url: "https://freetoolonline.com/utility-tools/loan-calculator.html", include: !1, tags: "utility" },
     { title: "Date Difference Calculator", url: "https://freetoolonline.com/utility-tools/date-difference-calculator.html", include: !1, tags: "utility" },
+    { title: "Notepad / Notes", url: "https://freetoolonline.com/utility-tools/note-taking-app.html", include: !1, tags: "utility" },
     { title: "Character Counter", url: "https://freetoolonline.com/developer-tools/character-counter.html", include: !1, tags: "developer" },
     { title: "Find and Replace Text", url: "https://freetoolonline.com/developer-tools/find-and-replace-text.html", include: !1, tags: "developer" },
     { title: "Image Format Converter", url: "https://freetoolonline.com/image-converter-tools/image-format-converter.html", include: !1, tags: "image-conversion" },
