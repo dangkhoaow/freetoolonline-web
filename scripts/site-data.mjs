@@ -14,6 +14,24 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/jwt-decoder-vs-alternatives.html',
+  '/guides/jwt-decoder-step-by-step.html',
+  '/guides/jwt-decoder-when.html',
+  '/guides/pt/jwt-decoder-when.html',
+  '/guides/pt/jwt-decoder-step-by-step.html',
+  '/guides/pt/jwt-decoder-vs-alternatives.html',
+  '/guides/es/jwt-decoder-when.html',
+  '/guides/es/jwt-decoder-step-by-step.html',
+  '/guides/es/jwt-decoder-vs-alternatives.html',
+  '/guides/vi/jwt-decoder-when.html',
+  '/guides/vi/jwt-decoder-step-by-step.html',
+  '/guides/vi/jwt-decoder-vs-alternatives.html',
+  '/guides/id/jwt-decoder-when.html',
+  '/guides/id/jwt-decoder-step-by-step.html',
+  '/guides/id/jwt-decoder-vs-alternatives.html',
+  '/guides/de/jwt-decoder-when.html',
+  '/guides/de/jwt-decoder-step-by-step.html',
+  '/guides/de/jwt-decoder-vs-alternatives.html',
   '/guides/document-scanner-pdf-vs-alternatives.html',
   '/guides/document-scanner-pdf-step-by-step.html',
   '/guides/document-scanner-pdf-when.html',
@@ -1810,6 +1828,24 @@ export const INFO_ROUTES = new Set([
   '/guides/de/exoplanet-transit-vs-alternatives.html',
   '/guides/vi/exoplanet-transit-vs-alternatives.html',
   '/guides/id/exoplanet-transit-vs-alternatives.html',
+  '/guides/tidal-locking-when.html',
+  '/guides/pt/tidal-locking-when.html',
+  '/guides/es/tidal-locking-when.html',
+  '/guides/de/tidal-locking-when.html',
+  '/guides/vi/tidal-locking-when.html',
+  '/guides/id/tidal-locking-when.html',
+  '/guides/tidal-locking-step-by-step.html',
+  '/guides/pt/tidal-locking-step-by-step.html',
+  '/guides/es/tidal-locking-step-by-step.html',
+  '/guides/de/tidal-locking-step-by-step.html',
+  '/guides/vi/tidal-locking-step-by-step.html',
+  '/guides/id/tidal-locking-step-by-step.html',
+  '/guides/tidal-locking-vs-alternatives.html',
+  '/guides/pt/tidal-locking-vs-alternatives.html',
+  '/guides/es/tidal-locking-vs-alternatives.html',
+  '/guides/de/tidal-locking-vs-alternatives.html',
+  '/guides/vi/tidal-locking-vs-alternatives.html',
+  '/guides/id/tidal-locking-vs-alternatives.html',
   // play-fps-in-browser-step-by-step locale fanout pt/es/de/vi/id
   // (new-tool-discovery-loop-runbook LEAN one-off fire, guide-support drain
   // per runbook 4b - the -when and -vs-alternatives angles for this guide
@@ -1836,6 +1872,27 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire142/143 (mirror): GUIDE_ROUTES backfill
+  // for jwt-decoder's 3 EN companion guide angles (builder wires JSP_BY_ROUTE +
+  // INFO_ROUTES only) plus their full pt/es/vi/id/de locale fanout.
+  '/guides/jwt-decoder-when.html',
+  '/guides/jwt-decoder-step-by-step.html',
+  '/guides/jwt-decoder-vs-alternatives.html',
+  '/guides/pt/jwt-decoder-when.html',
+  '/guides/pt/jwt-decoder-step-by-step.html',
+  '/guides/pt/jwt-decoder-vs-alternatives.html',
+  '/guides/es/jwt-decoder-when.html',
+  '/guides/es/jwt-decoder-step-by-step.html',
+  '/guides/es/jwt-decoder-vs-alternatives.html',
+  '/guides/vi/jwt-decoder-when.html',
+  '/guides/vi/jwt-decoder-step-by-step.html',
+  '/guides/vi/jwt-decoder-vs-alternatives.html',
+  '/guides/id/jwt-decoder-when.html',
+  '/guides/id/jwt-decoder-step-by-step.html',
+  '/guides/id/jwt-decoder-vs-alternatives.html',
+  '/guides/de/jwt-decoder-when.html',
+  '/guides/de/jwt-decoder-step-by-step.html',
+  '/guides/de/jwt-decoder-vs-alternatives.html',
   // GUIDE_ROUTES locale fanout for flashcards-maker's 3 EN companion guide
   // angles - pt/es/vi/id/de.
   '/guides/pt/flashcards-spaced-repetition-when.html',
@@ -4119,6 +4176,24 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/exoplanet-transit-vs-alternatives.html',
   '/guides/vi/exoplanet-transit-vs-alternatives.html',
   '/guides/id/exoplanet-transit-vs-alternatives.html',
+  '/guides/tidal-locking-when.html',
+  '/guides/pt/tidal-locking-when.html',
+  '/guides/es/tidal-locking-when.html',
+  '/guides/de/tidal-locking-when.html',
+  '/guides/vi/tidal-locking-when.html',
+  '/guides/id/tidal-locking-when.html',
+  '/guides/tidal-locking-step-by-step.html',
+  '/guides/pt/tidal-locking-step-by-step.html',
+  '/guides/es/tidal-locking-step-by-step.html',
+  '/guides/de/tidal-locking-step-by-step.html',
+  '/guides/vi/tidal-locking-step-by-step.html',
+  '/guides/id/tidal-locking-step-by-step.html',
+  '/guides/tidal-locking-vs-alternatives.html',
+  '/guides/pt/tidal-locking-vs-alternatives.html',
+  '/guides/es/tidal-locking-vs-alternatives.html',
+  '/guides/de/tidal-locking-vs-alternatives.html',
+  '/guides/vi/tidal-locking-vs-alternatives.html',
+  '/guides/id/tidal-locking-vs-alternatives.html',
   // play-fps-in-browser-step-by-step locale fanout pt/es/de/vi/id
   // (new-tool-discovery-loop-runbook LEAN one-off fire, guide-support drain
   // per runbook 4b - the -when and -vs-alternatives angles for this guide
@@ -4137,6 +4212,7 @@ export function isGuideRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  '/jwt-decoder.html': '/developer-tools/jwt-decoder.html',
   // Hub directory-form safety redirects (added 2026-05-11). Search engines
   // and external links may guess `/cluster-tools/` from the clustered tool
   // URLs (`/cluster-tools/<slug>.html`). Without these entries GitHub Pages
@@ -4676,6 +4752,7 @@ export const ALIAS_ROUTES = {
   '/planet-size-comparison.html': '/space-3d/planet-size-comparison.html',
   '/star-lifecycle.html': '/space-3d/star-lifecycle.html',
   '/exoplanet-transit.html': '/space-3d/exoplanet-transit.html',
+  '/tidal-locking.html': '/space-3d/tidal-locking.html',
   '/linux-online.html': '/utility-tools/linux-online.html',
   '/online-linux-terminal.html': '/utility-tools/linux-online.html',
   '/linux-emulator-online.html': '/utility-tools/linux-online.html',
@@ -4733,6 +4810,25 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  '/developer-tools/jwt-decoder.html': 'utility/jwt-decoder.jsp',
+  '/guides/jwt-decoder-when.html': 'guide/jwt-decoder-when.jsp',
+  '/guides/jwt-decoder-step-by-step.html': 'guide/jwt-decoder-step-by-step.jsp',
+  '/guides/jwt-decoder-vs-alternatives.html': 'guide/jwt-decoder-vs-alternatives.jsp',
+  '/guides/pt/jwt-decoder-when.html': 'guide/pt/jwt-decoder-when.jsp',
+  '/guides/pt/jwt-decoder-step-by-step.html': 'guide/pt/jwt-decoder-step-by-step.jsp',
+  '/guides/pt/jwt-decoder-vs-alternatives.html': 'guide/pt/jwt-decoder-vs-alternatives.jsp',
+  '/guides/es/jwt-decoder-when.html': 'guide/es/jwt-decoder-when.jsp',
+  '/guides/es/jwt-decoder-step-by-step.html': 'guide/es/jwt-decoder-step-by-step.jsp',
+  '/guides/es/jwt-decoder-vs-alternatives.html': 'guide/es/jwt-decoder-vs-alternatives.jsp',
+  '/guides/vi/jwt-decoder-when.html': 'guide/vi/jwt-decoder-when.jsp',
+  '/guides/vi/jwt-decoder-step-by-step.html': 'guide/vi/jwt-decoder-step-by-step.jsp',
+  '/guides/vi/jwt-decoder-vs-alternatives.html': 'guide/vi/jwt-decoder-vs-alternatives.jsp',
+  '/guides/id/jwt-decoder-when.html': 'guide/id/jwt-decoder-when.jsp',
+  '/guides/id/jwt-decoder-step-by-step.html': 'guide/id/jwt-decoder-step-by-step.jsp',
+  '/guides/id/jwt-decoder-vs-alternatives.html': 'guide/id/jwt-decoder-vs-alternatives.jsp',
+  '/guides/de/jwt-decoder-when.html': 'guide/de/jwt-decoder-when.jsp',
+  '/guides/de/jwt-decoder-step-by-step.html': 'guide/de/jwt-decoder-step-by-step.jsp',
+  '/guides/de/jwt-decoder-vs-alternatives.html': 'guide/de/jwt-decoder-vs-alternatives.jsp',
   '/': 'index.jsp',
   '/about-us.html': 'about-us.jsp',
   '/contact-us.html': 'contact-us.jsp',
@@ -7053,6 +7149,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/planet-size-comparison.html': 'space/planet-size-comparison.jsp',
   '/space-3d/star-lifecycle.html': 'space/star-lifecycle.jsp',
   '/space-3d/exoplanet-transit.html': 'space/exoplanet-transit.jsp',
+  '/space-3d/tidal-locking.html': 'space/tidal-locking.jsp',
   '/guides/iss-orbit-tracker-when.html': 'guide/iss-orbit-tracker-when.jsp',
   '/guides/iss-orbit-tracker-step-by-step.html': 'guide/iss-orbit-tracker-step-by-step.jsp',
   '/guides/iss-orbit-tracker-vs-alternatives.html': 'guide/iss-orbit-tracker-vs-alternatives.jsp',
@@ -7161,6 +7258,24 @@ export const JSP_BY_ROUTE = {
   '/guides/de/exoplanet-transit-vs-alternatives.html': 'guide/de/exoplanet-transit-vs-alternatives.jsp',
   '/guides/vi/exoplanet-transit-vs-alternatives.html': 'guide/vi/exoplanet-transit-vs-alternatives.jsp',
   '/guides/id/exoplanet-transit-vs-alternatives.html': 'guide/id/exoplanet-transit-vs-alternatives.jsp',
+  '/guides/tidal-locking-when.html': 'guide/tidal-locking-when.jsp',
+  '/guides/pt/tidal-locking-when.html': 'guide/pt/tidal-locking-when.jsp',
+  '/guides/es/tidal-locking-when.html': 'guide/es/tidal-locking-when.jsp',
+  '/guides/de/tidal-locking-when.html': 'guide/de/tidal-locking-when.jsp',
+  '/guides/vi/tidal-locking-when.html': 'guide/vi/tidal-locking-when.jsp',
+  '/guides/id/tidal-locking-when.html': 'guide/id/tidal-locking-when.jsp',
+  '/guides/tidal-locking-step-by-step.html': 'guide/tidal-locking-step-by-step.jsp',
+  '/guides/pt/tidal-locking-step-by-step.html': 'guide/pt/tidal-locking-step-by-step.jsp',
+  '/guides/es/tidal-locking-step-by-step.html': 'guide/es/tidal-locking-step-by-step.jsp',
+  '/guides/de/tidal-locking-step-by-step.html': 'guide/de/tidal-locking-step-by-step.jsp',
+  '/guides/vi/tidal-locking-step-by-step.html': 'guide/vi/tidal-locking-step-by-step.jsp',
+  '/guides/id/tidal-locking-step-by-step.html': 'guide/id/tidal-locking-step-by-step.jsp',
+  '/guides/tidal-locking-vs-alternatives.html': 'guide/tidal-locking-vs-alternatives.jsp',
+  '/guides/pt/tidal-locking-vs-alternatives.html': 'guide/pt/tidal-locking-vs-alternatives.jsp',
+  '/guides/es/tidal-locking-vs-alternatives.html': 'guide/es/tidal-locking-vs-alternatives.jsp',
+  '/guides/de/tidal-locking-vs-alternatives.html': 'guide/de/tidal-locking-vs-alternatives.jsp',
+  '/guides/vi/tidal-locking-vs-alternatives.html': 'guide/vi/tidal-locking-vs-alternatives.jsp',
+  '/guides/id/tidal-locking-vs-alternatives.html': 'guide/id/tidal-locking-vs-alternatives.jsp',
   '/guides/moon-calendar-3d-when.html': 'guide/moon-calendar-3d-when.jsp',
   '/guides/moon-calendar-3d-step-by-step.html': 'guide/moon-calendar-3d-step-by-step.jsp',
   '/guides/moon-calendar-3d-vs-alternatives.html': 'guide/moon-calendar-3d-vs-alternatives.jsp',
