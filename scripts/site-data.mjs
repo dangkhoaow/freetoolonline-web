@@ -1562,6 +1562,25 @@ export const INFO_ROUTES = new Set([
   '/guides/id/kepler-orbits-when.html',
   '/guides/id/kepler-orbits-step-by-step.html',
   '/guides/id/kepler-orbits-vs-alternatives.html',
+  // moon-calendar-3d companion guides (space-3d-discovery-loop fire4)
+  '/guides/moon-calendar-3d-when.html',
+  '/guides/moon-calendar-3d-step-by-step.html',
+  '/guides/moon-calendar-3d-vs-alternatives.html',
+  '/guides/pt/moon-calendar-3d-when.html',
+  '/guides/pt/moon-calendar-3d-step-by-step.html',
+  '/guides/pt/moon-calendar-3d-vs-alternatives.html',
+  '/guides/es/moon-calendar-3d-when.html',
+  '/guides/es/moon-calendar-3d-step-by-step.html',
+  '/guides/es/moon-calendar-3d-vs-alternatives.html',
+  '/guides/de/moon-calendar-3d-when.html',
+  '/guides/de/moon-calendar-3d-step-by-step.html',
+  '/guides/de/moon-calendar-3d-vs-alternatives.html',
+  '/guides/vi/moon-calendar-3d-when.html',
+  '/guides/vi/moon-calendar-3d-step-by-step.html',
+  '/guides/vi/moon-calendar-3d-vs-alternatives.html',
+  '/guides/id/moon-calendar-3d-when.html',
+  '/guides/id/moon-calendar-3d-step-by-step.html',
+  '/guides/id/moon-calendar-3d-vs-alternatives.html',
   // play-fps-in-browser-step-by-step locale fanout pt/es/de/vi/id
   // (new-tool-discovery-loop-runbook LEAN one-off fire, guide-support drain
   // per runbook 4b - the -when and -vs-alternatives angles for this guide
@@ -1592,6 +1611,27 @@ export const INFO_ROUTES = new Set([
   '/guides/de/notepad-notes-when.html',
   '/guides/de/notepad-notes-step-by-step.html',
   '/guides/de/notepad-notes-vs-alternatives.html',
+  // new-tool-discovery-loop-runbook fire131 (LEAN one-off, 2026-07-13):
+  // INFO_ROUTES for flashcards-maker's 3 EN companion guide angles + full
+  // pt/es/vi/id/de locale fanout.
+  '/guides/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/flashcards-spaced-repetition-when.html',
+  '/guides/pt/flashcards-spaced-repetition-when.html',
+  '/guides/pt/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/es/flashcards-spaced-repetition-when.html',
+  '/guides/es/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/es/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/vi/flashcards-spaced-repetition-when.html',
+  '/guides/vi/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/vi/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/id/flashcards-spaced-repetition-when.html',
+  '/guides/id/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/id/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/de/flashcards-spaced-repetition-when.html',
+  '/guides/de/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/de/flashcards-spaced-repetition-vs-alternatives.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -3643,6 +3683,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/id/kepler-orbits-when.html',
   '/guides/id/kepler-orbits-step-by-step.html',
   '/guides/id/kepler-orbits-vs-alternatives.html',
+  // moon-calendar-3d companion guides (space-3d-discovery-loop fire4)
+  '/guides/moon-calendar-3d-when.html',
+  '/guides/moon-calendar-3d-step-by-step.html',
+  '/guides/moon-calendar-3d-vs-alternatives.html',
+  '/guides/pt/moon-calendar-3d-when.html',
+  '/guides/pt/moon-calendar-3d-step-by-step.html',
+  '/guides/pt/moon-calendar-3d-vs-alternatives.html',
+  '/guides/es/moon-calendar-3d-when.html',
+  '/guides/es/moon-calendar-3d-step-by-step.html',
+  '/guides/es/moon-calendar-3d-vs-alternatives.html',
+  '/guides/de/moon-calendar-3d-when.html',
+  '/guides/de/moon-calendar-3d-step-by-step.html',
+  '/guides/de/moon-calendar-3d-vs-alternatives.html',
+  '/guides/vi/moon-calendar-3d-when.html',
+  '/guides/vi/moon-calendar-3d-step-by-step.html',
+  '/guides/vi/moon-calendar-3d-vs-alternatives.html',
+  '/guides/id/moon-calendar-3d-when.html',
+  '/guides/id/moon-calendar-3d-step-by-step.html',
+  '/guides/id/moon-calendar-3d-vs-alternatives.html',
   // play-fps-in-browser-step-by-step locale fanout pt/es/de/vi/id
   // (new-tool-discovery-loop-runbook LEAN one-off fire, guide-support drain
   // per runbook 4b - the -when and -vs-alternatives angles for this guide
@@ -3670,6 +3729,27 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/notepad-notes-when.html',
   '/guides/de/notepad-notes-step-by-step.html',
   '/guides/de/notepad-notes-vs-alternatives.html',
+  // new-tool-discovery-loop-runbook fire131 (LEAN one-off, 2026-07-13):
+  // GUIDE_ROUTES for flashcards-maker's 3 EN companion guide angles + full
+  // pt/es/vi/id/de locale fanout.
+  '/guides/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/flashcards-spaced-repetition-when.html',
+  '/guides/pt/flashcards-spaced-repetition-when.html',
+  '/guides/pt/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/es/flashcards-spaced-repetition-when.html',
+  '/guides/es/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/es/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/vi/flashcards-spaced-repetition-when.html',
+  '/guides/vi/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/vi/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/id/flashcards-spaced-repetition-when.html',
+  '/guides/id/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/id/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/de/flashcards-spaced-repetition-when.html',
+  '/guides/de/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/de/flashcards-spaced-repetition-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -3679,6 +3759,9 @@ export function isGuideRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  // new-tool-discovery-loop-runbook fire131 (LEAN one-off, 2026-07-13):
+  // bare-slug alias for flashcards-maker's canonical /utility-tools/ route.
+  '/flashcards-maker.html': '/utility-tools/flashcards-maker.html',
   // Hub directory-form safety redirects (added 2026-05-11). Search engines
   // and external links may guess `/cluster-tools/` from the clustered tool
   // URLs (`/cluster-tools/<slug>.html`). Without these entries GitHub Pages
@@ -4210,6 +4293,7 @@ export const ALIAS_ROUTES = {
   '/moon-phases-3d.html': '/space-3d/moon-phases-3d.html',
   '/saturn-rings.html': '/space-3d/saturn-rings.html',
   '/kepler-orbits.html': '/space-3d/kepler-orbits.html',
+  '/moon-calendar-3d.html': '/space-3d/moon-calendar-3d.html',
   '/linux-online.html': '/utility-tools/linux-online.html',
   '/online-linux-terminal.html': '/utility-tools/linux-online.html',
   '/linux-emulator-online.html': '/utility-tools/linux-online.html',
@@ -6555,6 +6639,25 @@ export const JSP_BY_ROUTE = {
   '/space-3d/moon-phases-3d.html': 'space/moon-phases-3d.jsp',
   '/space-3d/saturn-rings.html': 'space/saturn-rings.jsp',
   '/space-3d/kepler-orbits.html': 'space/kepler-orbits.jsp',
+  '/space-3d/moon-calendar-3d.html': 'space/moon-calendar-3d.jsp',
+  '/guides/moon-calendar-3d-when.html': 'guide/moon-calendar-3d-when.jsp',
+  '/guides/moon-calendar-3d-step-by-step.html': 'guide/moon-calendar-3d-step-by-step.jsp',
+  '/guides/moon-calendar-3d-vs-alternatives.html': 'guide/moon-calendar-3d-vs-alternatives.jsp',
+  '/guides/pt/moon-calendar-3d-when.html': 'guide/pt/moon-calendar-3d-when.jsp',
+  '/guides/pt/moon-calendar-3d-step-by-step.html': 'guide/pt/moon-calendar-3d-step-by-step.jsp',
+  '/guides/pt/moon-calendar-3d-vs-alternatives.html': 'guide/pt/moon-calendar-3d-vs-alternatives.jsp',
+  '/guides/es/moon-calendar-3d-when.html': 'guide/es/moon-calendar-3d-when.jsp',
+  '/guides/es/moon-calendar-3d-step-by-step.html': 'guide/es/moon-calendar-3d-step-by-step.jsp',
+  '/guides/es/moon-calendar-3d-vs-alternatives.html': 'guide/es/moon-calendar-3d-vs-alternatives.jsp',
+  '/guides/de/moon-calendar-3d-when.html': 'guide/de/moon-calendar-3d-when.jsp',
+  '/guides/de/moon-calendar-3d-step-by-step.html': 'guide/de/moon-calendar-3d-step-by-step.jsp',
+  '/guides/de/moon-calendar-3d-vs-alternatives.html': 'guide/de/moon-calendar-3d-vs-alternatives.jsp',
+  '/guides/vi/moon-calendar-3d-when.html': 'guide/vi/moon-calendar-3d-when.jsp',
+  '/guides/vi/moon-calendar-3d-step-by-step.html': 'guide/vi/moon-calendar-3d-step-by-step.jsp',
+  '/guides/vi/moon-calendar-3d-vs-alternatives.html': 'guide/vi/moon-calendar-3d-vs-alternatives.jsp',
+  '/guides/id/moon-calendar-3d-when.html': 'guide/id/moon-calendar-3d-when.jsp',
+  '/guides/id/moon-calendar-3d-step-by-step.html': 'guide/id/moon-calendar-3d-step-by-step.jsp',
+  '/guides/id/moon-calendar-3d-vs-alternatives.html': 'guide/id/moon-calendar-3d-vs-alternatives.jsp',
   '/guides/moon-phases-3d-when.html': 'guide/moon-phases-3d-when.jsp',
   '/guides/moon-phases-3d-step-by-step.html': 'guide/moon-phases-3d-step-by-step.jsp',
   '/guides/moon-phases-3d-vs-alternatives.html': 'guide/moon-phases-3d-vs-alternatives.jsp',
@@ -7027,6 +7130,28 @@ export const JSP_BY_ROUTE = {
   '/guides/de/notepad-notes-when.html': 'guide/de/notepad-notes-when.jsp',
   '/guides/de/notepad-notes-step-by-step.html': 'guide/de/notepad-notes-step-by-step.jsp',
   '/guides/de/notepad-notes-vs-alternatives.html': 'guide/de/notepad-notes-vs-alternatives.jsp',
+  // new-tool-discovery-loop-runbook fire131 (LEAN one-off, 2026-07-13):
+  // flashcards-maker tool route + its 3 EN companion guide angles' full
+  // pt/es/vi/id/de locale fanout.
+  '/utility-tools/flashcards-maker.html': 'utility/flashcards-maker.jsp',
+  '/guides/flashcards-spaced-repetition-when.html': 'guide/flashcards-spaced-repetition-when.jsp',
+  '/guides/flashcards-spaced-repetition-step-by-step.html': 'guide/flashcards-spaced-repetition-step-by-step.jsp',
+  '/guides/flashcards-spaced-repetition-vs-alternatives.html': 'guide/flashcards-spaced-repetition-vs-alternatives.jsp',
+  '/guides/pt/flashcards-spaced-repetition-when.html': 'guide/pt/flashcards-spaced-repetition-when.jsp',
+  '/guides/pt/flashcards-spaced-repetition-step-by-step.html': 'guide/pt/flashcards-spaced-repetition-step-by-step.jsp',
+  '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html': 'guide/pt/flashcards-spaced-repetition-vs-alternatives.jsp',
+  '/guides/es/flashcards-spaced-repetition-when.html': 'guide/es/flashcards-spaced-repetition-when.jsp',
+  '/guides/es/flashcards-spaced-repetition-step-by-step.html': 'guide/es/flashcards-spaced-repetition-step-by-step.jsp',
+  '/guides/es/flashcards-spaced-repetition-vs-alternatives.html': 'guide/es/flashcards-spaced-repetition-vs-alternatives.jsp',
+  '/guides/vi/flashcards-spaced-repetition-when.html': 'guide/vi/flashcards-spaced-repetition-when.jsp',
+  '/guides/vi/flashcards-spaced-repetition-step-by-step.html': 'guide/vi/flashcards-spaced-repetition-step-by-step.jsp',
+  '/guides/vi/flashcards-spaced-repetition-vs-alternatives.html': 'guide/vi/flashcards-spaced-repetition-vs-alternatives.jsp',
+  '/guides/id/flashcards-spaced-repetition-when.html': 'guide/id/flashcards-spaced-repetition-when.jsp',
+  '/guides/id/flashcards-spaced-repetition-step-by-step.html': 'guide/id/flashcards-spaced-repetition-step-by-step.jsp',
+  '/guides/id/flashcards-spaced-repetition-vs-alternatives.html': 'guide/id/flashcards-spaced-repetition-vs-alternatives.jsp',
+  '/guides/de/flashcards-spaced-repetition-when.html': 'guide/de/flashcards-spaced-repetition-when.jsp',
+  '/guides/de/flashcards-spaced-repetition-step-by-step.html': 'guide/de/flashcards-spaced-repetition-step-by-step.jsp',
+  '/guides/de/flashcards-spaced-repetition-vs-alternatives.html': 'guide/de/flashcards-spaced-repetition-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
