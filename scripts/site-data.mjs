@@ -1514,6 +1514,27 @@ export const INFO_ROUTES = new Set([
   '/guides/de/play-fps-in-browser-step-by-step.html',
   '/guides/vi/play-fps-in-browser-step-by-step.html',
   '/guides/id/play-fps-in-browser-step-by-step.html',
+  // new-tool-discovery-loop-runbook fire123 (LEAN one-off, 2026-07-13):
+  // INFO_ROUTES backfill for note-taking-app's 3 EN companion guide angles'
+  // full pt/es/vi/id/de locale fanout (builder wires JSP_BY_ROUTE only).
+  '/guides/notepad-notes-vs-alternatives.html',
+  '/guides/notepad-notes-step-by-step.html',
+  '/guides/notepad-notes-when.html',
+  '/guides/pt/notepad-notes-when.html',
+  '/guides/pt/notepad-notes-step-by-step.html',
+  '/guides/pt/notepad-notes-vs-alternatives.html',
+  '/guides/es/notepad-notes-when.html',
+  '/guides/es/notepad-notes-step-by-step.html',
+  '/guides/es/notepad-notes-vs-alternatives.html',
+  '/guides/vi/notepad-notes-when.html',
+  '/guides/vi/notepad-notes-step-by-step.html',
+  '/guides/vi/notepad-notes-vs-alternatives.html',
+  '/guides/id/notepad-notes-when.html',
+  '/guides/id/notepad-notes-step-by-step.html',
+  '/guides/id/notepad-notes-vs-alternatives.html',
+  '/guides/de/notepad-notes-when.html',
+  '/guides/de/notepad-notes-step-by-step.html',
+  '/guides/de/notepad-notes-vs-alternatives.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -3517,6 +3538,24 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/play-fps-in-browser-step-by-step.html',
   '/guides/vi/play-fps-in-browser-step-by-step.html',
   '/guides/id/play-fps-in-browser-step-by-step.html',
+  // new-tool-discovery-loop-runbook fire123 (LEAN one-off, 2026-07-13):
+  // GUIDE_ROUTES backfill for note-taking-app's 3 EN companion guide angles'
+  // full pt/es/vi/id/de locale fanout (builder wires JSP_BY_ROUTE + INFO_ROUTES only).
+  '/guides/pt/notepad-notes-when.html',
+  '/guides/pt/notepad-notes-step-by-step.html',
+  '/guides/pt/notepad-notes-vs-alternatives.html',
+  '/guides/es/notepad-notes-when.html',
+  '/guides/es/notepad-notes-step-by-step.html',
+  '/guides/es/notepad-notes-vs-alternatives.html',
+  '/guides/vi/notepad-notes-when.html',
+  '/guides/vi/notepad-notes-step-by-step.html',
+  '/guides/vi/notepad-notes-vs-alternatives.html',
+  '/guides/id/notepad-notes-when.html',
+  '/guides/id/notepad-notes-step-by-step.html',
+  '/guides/id/notepad-notes-vs-alternatives.html',
+  '/guides/de/notepad-notes-when.html',
+  '/guides/de/notepad-notes-step-by-step.html',
+  '/guides/de/notepad-notes-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -6792,6 +6831,28 @@ export const JSP_BY_ROUTE = {
   '/guides/de/date-difference-calculator-when.html': 'guide/de/date-difference-calculator-when.jsp',
   '/guides/de/date-difference-calculator-step-by-step.html': 'guide/de/date-difference-calculator-step-by-step.jsp',
   '/guides/de/date-difference-calculator-vs-alternatives.html': 'guide/de/date-difference-calculator-vs-alternatives.jsp',
+  '/utility-tools/note-taking-app.html': 'utility/note-taking-app.jsp',
+  '/guides/notepad-notes-when.html': 'guide/notepad-notes-when.jsp',
+  '/guides/notepad-notes-step-by-step.html': 'guide/notepad-notes-step-by-step.jsp',
+  '/guides/notepad-notes-vs-alternatives.html': 'guide/notepad-notes-vs-alternatives.jsp',
+  // new-tool-discovery-loop-runbook fire123 (LEAN one-off, 2026-07-13):
+  // JSP_BY_ROUTE for note-taking-app's 3 EN companion guide angles' full
+  // pt/es/vi/id/de locale fanout.
+  '/guides/pt/notepad-notes-when.html': 'guide/pt/notepad-notes-when.jsp',
+  '/guides/pt/notepad-notes-step-by-step.html': 'guide/pt/notepad-notes-step-by-step.jsp',
+  '/guides/pt/notepad-notes-vs-alternatives.html': 'guide/pt/notepad-notes-vs-alternatives.jsp',
+  '/guides/es/notepad-notes-when.html': 'guide/es/notepad-notes-when.jsp',
+  '/guides/es/notepad-notes-step-by-step.html': 'guide/es/notepad-notes-step-by-step.jsp',
+  '/guides/es/notepad-notes-vs-alternatives.html': 'guide/es/notepad-notes-vs-alternatives.jsp',
+  '/guides/vi/notepad-notes-when.html': 'guide/vi/notepad-notes-when.jsp',
+  '/guides/vi/notepad-notes-step-by-step.html': 'guide/vi/notepad-notes-step-by-step.jsp',
+  '/guides/vi/notepad-notes-vs-alternatives.html': 'guide/vi/notepad-notes-vs-alternatives.jsp',
+  '/guides/id/notepad-notes-when.html': 'guide/id/notepad-notes-when.jsp',
+  '/guides/id/notepad-notes-step-by-step.html': 'guide/id/notepad-notes-step-by-step.jsp',
+  '/guides/id/notepad-notes-vs-alternatives.html': 'guide/id/notepad-notes-vs-alternatives.jsp',
+  '/guides/de/notepad-notes-when.html': 'guide/de/notepad-notes-when.jsp',
+  '/guides/de/notepad-notes-step-by-step.html': 'guide/de/notepad-notes-step-by-step.jsp',
+  '/guides/de/notepad-notes-vs-alternatives.html': 'guide/de/notepad-notes-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
