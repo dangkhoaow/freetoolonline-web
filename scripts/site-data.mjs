@@ -1611,6 +1611,27 @@ export const INFO_ROUTES = new Set([
   '/guides/de/notepad-notes-when.html',
   '/guides/de/notepad-notes-step-by-step.html',
   '/guides/de/notepad-notes-vs-alternatives.html',
+  // new-tool-discovery-loop-runbook fire131 (LEAN one-off, 2026-07-13):
+  // INFO_ROUTES for flashcards-maker's 3 EN companion guide angles + full
+  // pt/es/vi/id/de locale fanout.
+  '/guides/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/flashcards-spaced-repetition-when.html',
+  '/guides/pt/flashcards-spaced-repetition-when.html',
+  '/guides/pt/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/es/flashcards-spaced-repetition-when.html',
+  '/guides/es/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/es/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/vi/flashcards-spaced-repetition-when.html',
+  '/guides/vi/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/vi/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/id/flashcards-spaced-repetition-when.html',
+  '/guides/id/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/id/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/de/flashcards-spaced-repetition-when.html',
+  '/guides/de/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/de/flashcards-spaced-repetition-vs-alternatives.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -3708,6 +3729,27 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/notepad-notes-when.html',
   '/guides/de/notepad-notes-step-by-step.html',
   '/guides/de/notepad-notes-vs-alternatives.html',
+  // new-tool-discovery-loop-runbook fire131 (LEAN one-off, 2026-07-13):
+  // GUIDE_ROUTES for flashcards-maker's 3 EN companion guide angles + full
+  // pt/es/vi/id/de locale fanout.
+  '/guides/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/flashcards-spaced-repetition-when.html',
+  '/guides/pt/flashcards-spaced-repetition-when.html',
+  '/guides/pt/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/es/flashcards-spaced-repetition-when.html',
+  '/guides/es/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/es/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/vi/flashcards-spaced-repetition-when.html',
+  '/guides/vi/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/vi/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/id/flashcards-spaced-repetition-when.html',
+  '/guides/id/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/id/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/de/flashcards-spaced-repetition-when.html',
+  '/guides/de/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/de/flashcards-spaced-repetition-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -3717,6 +3759,9 @@ export function isGuideRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  // new-tool-discovery-loop-runbook fire131 (LEAN one-off, 2026-07-13):
+  // bare-slug alias for flashcards-maker's canonical /utility-tools/ route.
+  '/flashcards-maker.html': '/utility-tools/flashcards-maker.html',
   // Hub directory-form safety redirects (added 2026-05-11). Search engines
   // and external links may guess `/cluster-tools/` from the clustered tool
   // URLs (`/cluster-tools/<slug>.html`). Without these entries GitHub Pages
@@ -7085,6 +7130,28 @@ export const JSP_BY_ROUTE = {
   '/guides/de/notepad-notes-when.html': 'guide/de/notepad-notes-when.jsp',
   '/guides/de/notepad-notes-step-by-step.html': 'guide/de/notepad-notes-step-by-step.jsp',
   '/guides/de/notepad-notes-vs-alternatives.html': 'guide/de/notepad-notes-vs-alternatives.jsp',
+  // new-tool-discovery-loop-runbook fire131 (LEAN one-off, 2026-07-13):
+  // flashcards-maker tool route + its 3 EN companion guide angles' full
+  // pt/es/vi/id/de locale fanout.
+  '/utility-tools/flashcards-maker.html': 'utility/flashcards-maker.jsp',
+  '/guides/flashcards-spaced-repetition-when.html': 'guide/flashcards-spaced-repetition-when.jsp',
+  '/guides/flashcards-spaced-repetition-step-by-step.html': 'guide/flashcards-spaced-repetition-step-by-step.jsp',
+  '/guides/flashcards-spaced-repetition-vs-alternatives.html': 'guide/flashcards-spaced-repetition-vs-alternatives.jsp',
+  '/guides/pt/flashcards-spaced-repetition-when.html': 'guide/pt/flashcards-spaced-repetition-when.jsp',
+  '/guides/pt/flashcards-spaced-repetition-step-by-step.html': 'guide/pt/flashcards-spaced-repetition-step-by-step.jsp',
+  '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html': 'guide/pt/flashcards-spaced-repetition-vs-alternatives.jsp',
+  '/guides/es/flashcards-spaced-repetition-when.html': 'guide/es/flashcards-spaced-repetition-when.jsp',
+  '/guides/es/flashcards-spaced-repetition-step-by-step.html': 'guide/es/flashcards-spaced-repetition-step-by-step.jsp',
+  '/guides/es/flashcards-spaced-repetition-vs-alternatives.html': 'guide/es/flashcards-spaced-repetition-vs-alternatives.jsp',
+  '/guides/vi/flashcards-spaced-repetition-when.html': 'guide/vi/flashcards-spaced-repetition-when.jsp',
+  '/guides/vi/flashcards-spaced-repetition-step-by-step.html': 'guide/vi/flashcards-spaced-repetition-step-by-step.jsp',
+  '/guides/vi/flashcards-spaced-repetition-vs-alternatives.html': 'guide/vi/flashcards-spaced-repetition-vs-alternatives.jsp',
+  '/guides/id/flashcards-spaced-repetition-when.html': 'guide/id/flashcards-spaced-repetition-when.jsp',
+  '/guides/id/flashcards-spaced-repetition-step-by-step.html': 'guide/id/flashcards-spaced-repetition-step-by-step.jsp',
+  '/guides/id/flashcards-spaced-repetition-vs-alternatives.html': 'guide/id/flashcards-spaced-repetition-vs-alternatives.jsp',
+  '/guides/de/flashcards-spaced-repetition-when.html': 'guide/de/flashcards-spaced-repetition-when.jsp',
+  '/guides/de/flashcards-spaced-repetition-step-by-step.html': 'guide/de/flashcards-spaced-repetition-step-by-step.jsp',
+  '/guides/de/flashcards-spaced-repetition-vs-alternatives.html': 'guide/de/flashcards-spaced-repetition-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
