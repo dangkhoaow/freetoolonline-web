@@ -32,6 +32,29 @@ export const INFO_ROUTES = new Set([
   '/guides/id/document-scanner-pdf-step-by-step.html',
   '/guides/id/document-scanner-pdf-when.html',
   '/guides/id/document-scanner-pdf-vs-alternatives.html',
+  '/guides/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/flashcards-spaced-repetition-when.html',
+  // INFO_ROUTES locale fanout for flashcards-maker's 3 EN companion guide
+  // angles - pt/es/vi/id/de.
+  '/guides/pt/flashcards-spaced-repetition-when.html',
+  '/guides/pt/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/es/flashcards-spaced-repetition-when.html',
+  '/guides/es/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/es/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/vi/flashcards-spaced-repetition-when.html',
+  '/guides/vi/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/vi/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/id/flashcards-spaced-repetition-when.html',
+  '/guides/id/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/id/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/de/flashcards-spaced-repetition-when.html',
+  '/guides/de/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/de/flashcards-spaced-repetition-vs-alternatives.html',
+  // new-tool-discovery-loop-runbook fire129 (LEAN one-off, 2026-07-13):
+  // INFO_ROUTES locale fanout for file-encryption-tool's 3 EN companion guide
+  // angles (built fire127, tool-skill verified fire127) - pt/es/vi/id/de.
   '/guides/pt/file-encryption-when.html',
   '/guides/pt/file-encryption-step-by-step.html',
   '/guides/pt/file-encryption-vs-alternatives.html',
@@ -50,6 +73,46 @@ export const INFO_ROUTES = new Set([
   '/guides/file-encryption-vs-alternatives.html',
   '/guides/file-encryption-step-by-step.html',
   '/guides/file-encryption-when.html',
+  '/guides/notepad-notes-vs-alternatives.html',
+  '/guides/notepad-notes-step-by-step.html',
+  '/guides/notepad-notes-when.html',
+  // new-tool-discovery-loop-runbook fire123 (LEAN one-off, 2026-07-13):
+  // INFO_ROUTES backfill for note-taking-app's 3 EN companion guide angles'
+  // full pt/es/vi/id/de locale fanout (builder wires JSP_BY_ROUTE only, same
+  // recurring gap class as fires 32/56/57/62/66/84/113/115/120/122).
+  '/guides/pt/notepad-notes-when.html',
+  '/guides/pt/notepad-notes-step-by-step.html',
+  '/guides/pt/notepad-notes-vs-alternatives.html',
+  '/guides/es/notepad-notes-when.html',
+  '/guides/es/notepad-notes-step-by-step.html',
+  '/guides/es/notepad-notes-vs-alternatives.html',
+  '/guides/vi/notepad-notes-when.html',
+  '/guides/vi/notepad-notes-step-by-step.html',
+  '/guides/vi/notepad-notes-vs-alternatives.html',
+  '/guides/id/notepad-notes-when.html',
+  '/guides/id/notepad-notes-step-by-step.html',
+  '/guides/id/notepad-notes-vs-alternatives.html',
+  '/guides/de/notepad-notes-when.html',
+  '/guides/de/notepad-notes-step-by-step.html',
+  '/guides/de/notepad-notes-vs-alternatives.html',
+  '/guides/video-compressor-vs-alternatives.html',
+  '/guides/video-compressor-step-by-step.html',
+  '/guides/video-compressor-when.html',
+  '/guides/pt/video-compressor-when.html',
+  '/guides/pt/video-compressor-step-by-step.html',
+  '/guides/pt/video-compressor-vs-alternatives.html',
+  '/guides/es/video-compressor-when.html',
+  '/guides/es/video-compressor-step-by-step.html',
+  '/guides/es/video-compressor-vs-alternatives.html',
+  '/guides/vi/video-compressor-when.html',
+  '/guides/vi/video-compressor-step-by-step.html',
+  '/guides/vi/video-compressor-vs-alternatives.html',
+  '/guides/id/video-compressor-when.html',
+  '/guides/id/video-compressor-step-by-step.html',
+  '/guides/id/video-compressor-vs-alternatives.html',
+  '/guides/de/video-compressor-when.html',
+  '/guides/de/video-compressor-step-by-step.html',
+  '/guides/de/video-compressor-vs-alternatives.html',
   '/guides/date-difference-calculator-vs-alternatives.html',
   '/guides/date-difference-calculator-step-by-step.html',
   '/guides/date-difference-calculator-when.html',
@@ -149,8 +212,8 @@ export const INFO_ROUTES = new Set([
   '/guides/delete-pdf-pages-when.html',
   // new-tool-discovery-loop-runbook fire114 (LEAN one-off, 2026-07-12): delete-pdf-pages
   // guide locale fanout (guide_locale_fanout units delete-pdf-pages-when/-step-by-step/
-  // -vs-alternatives-guides) - 3 EN angles x pt/es/vi/id/de, paraphrased from
-  // tool-deletepdfpages/SKILL.md framing menu only.
+  // -vs-alternatives-guides, deferred from fire111/fire113) - 3 EN angles x
+  // pt/es/vi/id/de, paraphrased from tool-deletepdfpages/SKILL.md framing menu only.
   '/guides/pt/delete-pdf-pages-when.html',
   '/guides/pt/delete-pdf-pages-step-by-step.html',
   '/guides/pt/delete-pdf-pages-vs-alternatives.html',
@@ -169,6 +232,25 @@ export const INFO_ROUTES = new Set([
   '/guides/rotate-pdf-vs-alternatives.html',
   '/guides/rotate-pdf-step-by-step.html',
   '/guides/rotate-pdf-when.html',
+  // new-tool-discovery-loop-runbook (LEAN one-off, 2026-07-12): rotate-pdf guide
+  // locale fanout (guide_locale_fanout unit rotate-pdf-guides, was "pending" in
+  // the ledger) - 3 EN angles x pt/es/vi/id/de, paraphrased from
+  // tool-rotatepdf/SKILL.md framing menu only.
+  '/guides/pt/rotate-pdf-when.html',
+  '/guides/pt/rotate-pdf-step-by-step.html',
+  '/guides/pt/rotate-pdf-vs-alternatives.html',
+  '/guides/es/rotate-pdf-when.html',
+  '/guides/es/rotate-pdf-step-by-step.html',
+  '/guides/es/rotate-pdf-vs-alternatives.html',
+  '/guides/vi/rotate-pdf-when.html',
+  '/guides/vi/rotate-pdf-step-by-step.html',
+  '/guides/vi/rotate-pdf-vs-alternatives.html',
+  '/guides/id/rotate-pdf-when.html',
+  '/guides/id/rotate-pdf-step-by-step.html',
+  '/guides/id/rotate-pdf-vs-alternatives.html',
+  '/guides/de/rotate-pdf-when.html',
+  '/guides/de/rotate-pdf-step-by-step.html',
+  '/guides/de/rotate-pdf-vs-alternatives.html',
   '/guides/pt/remove-audio-from-video-when.html',
   '/guides/es/remove-audio-from-video-when.html',
   '/guides/vi/remove-audio-from-video-when.html',
@@ -1674,6 +1756,24 @@ export const INFO_ROUTES = new Set([
   '/guides/id/solar-eclipse-when.html',
   '/guides/id/solar-eclipse-step-by-step.html',
   '/guides/id/solar-eclipse-vs-alternatives.html',
+  '/guides/planet-size-comparison-when.html',
+  '/guides/pt/planet-size-comparison-when.html',
+  '/guides/es/planet-size-comparison-when.html',
+  '/guides/de/planet-size-comparison-when.html',
+  '/guides/vi/planet-size-comparison-when.html',
+  '/guides/id/planet-size-comparison-when.html',
+  '/guides/planet-size-comparison-step-by-step.html',
+  '/guides/pt/planet-size-comparison-step-by-step.html',
+  '/guides/es/planet-size-comparison-step-by-step.html',
+  '/guides/de/planet-size-comparison-step-by-step.html',
+  '/guides/vi/planet-size-comparison-step-by-step.html',
+  '/guides/id/planet-size-comparison-step-by-step.html',
+  '/guides/planet-size-comparison-vs-alternatives.html',
+  '/guides/pt/planet-size-comparison-vs-alternatives.html',
+  '/guides/es/planet-size-comparison-vs-alternatives.html',
+  '/guides/de/planet-size-comparison-vs-alternatives.html',
+  '/guides/vi/planet-size-comparison-vs-alternatives.html',
+  '/guides/id/planet-size-comparison-vs-alternatives.html',
   // play-fps-in-browser-step-by-step locale fanout pt/es/de/vi/id
   // (new-tool-discovery-loop-runbook LEAN one-off fire, guide-support drain
   // per runbook 4b - the -when and -vs-alternatives angles for this guide
@@ -1683,48 +1783,6 @@ export const INFO_ROUTES = new Set([
   '/guides/de/play-fps-in-browser-step-by-step.html',
   '/guides/vi/play-fps-in-browser-step-by-step.html',
   '/guides/id/play-fps-in-browser-step-by-step.html',
-  // new-tool-discovery-loop-runbook fire123 (LEAN one-off, 2026-07-13):
-  // INFO_ROUTES backfill for note-taking-app's 3 EN companion guide angles'
-  // full pt/es/vi/id/de locale fanout (builder wires JSP_BY_ROUTE only).
-  '/guides/notepad-notes-vs-alternatives.html',
-  '/guides/notepad-notes-step-by-step.html',
-  '/guides/notepad-notes-when.html',
-  '/guides/pt/notepad-notes-when.html',
-  '/guides/pt/notepad-notes-step-by-step.html',
-  '/guides/pt/notepad-notes-vs-alternatives.html',
-  '/guides/es/notepad-notes-when.html',
-  '/guides/es/notepad-notes-step-by-step.html',
-  '/guides/es/notepad-notes-vs-alternatives.html',
-  '/guides/vi/notepad-notes-when.html',
-  '/guides/vi/notepad-notes-step-by-step.html',
-  '/guides/vi/notepad-notes-vs-alternatives.html',
-  '/guides/id/notepad-notes-when.html',
-  '/guides/id/notepad-notes-step-by-step.html',
-  '/guides/id/notepad-notes-vs-alternatives.html',
-  '/guides/de/notepad-notes-when.html',
-  '/guides/de/notepad-notes-step-by-step.html',
-  '/guides/de/notepad-notes-vs-alternatives.html',
-  // new-tool-discovery-loop-runbook fire131 (LEAN one-off, 2026-07-13):
-  // INFO_ROUTES for flashcards-maker's 3 EN companion guide angles + full
-  // pt/es/vi/id/de locale fanout.
-  '/guides/flashcards-spaced-repetition-vs-alternatives.html',
-  '/guides/flashcards-spaced-repetition-step-by-step.html',
-  '/guides/flashcards-spaced-repetition-when.html',
-  '/guides/pt/flashcards-spaced-repetition-when.html',
-  '/guides/pt/flashcards-spaced-repetition-step-by-step.html',
-  '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html',
-  '/guides/es/flashcards-spaced-repetition-when.html',
-  '/guides/es/flashcards-spaced-repetition-step-by-step.html',
-  '/guides/es/flashcards-spaced-repetition-vs-alternatives.html',
-  '/guides/vi/flashcards-spaced-repetition-when.html',
-  '/guides/vi/flashcards-spaced-repetition-step-by-step.html',
-  '/guides/vi/flashcards-spaced-repetition-vs-alternatives.html',
-  '/guides/id/flashcards-spaced-repetition-when.html',
-  '/guides/id/flashcards-spaced-repetition-step-by-step.html',
-  '/guides/id/flashcards-spaced-repetition-vs-alternatives.html',
-  '/guides/de/flashcards-spaced-repetition-when.html',
-  '/guides/de/flashcards-spaced-repetition-step-by-step.html',
-  '/guides/de/flashcards-spaced-repetition-vs-alternatives.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -1742,6 +1800,84 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // GUIDE_ROUTES locale fanout for flashcards-maker's 3 EN companion guide
+  // angles - pt/es/vi/id/de.
+  '/guides/pt/flashcards-spaced-repetition-when.html',
+  '/guides/pt/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/es/flashcards-spaced-repetition-when.html',
+  '/guides/es/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/es/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/vi/flashcards-spaced-repetition-when.html',
+  '/guides/vi/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/vi/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/id/flashcards-spaced-repetition-when.html',
+  '/guides/id/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/id/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/de/flashcards-spaced-repetition-when.html',
+  '/guides/de/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/de/flashcards-spaced-repetition-vs-alternatives.html',
+  // new-tool-discovery-loop-runbook fire129 (LEAN one-off, 2026-07-13):
+  // GUIDE_ROUTES for file-encryption-tool's 3 EN companion guide angles
+  // (built fire127) + full pt/es/vi/id/de locale fanout (this fire) -
+  // builder wired JSP_BY_ROUTE + INFO_ROUTES only for the EN set, same
+  // recurring gap class as fires 32/56/57/62/66/84/113/115/120/122/123.
+  '/guides/file-encryption-when.html',
+  '/guides/file-encryption-step-by-step.html',
+  '/guides/file-encryption-vs-alternatives.html',
+  '/guides/pt/file-encryption-when.html',
+  '/guides/pt/file-encryption-step-by-step.html',
+  '/guides/pt/file-encryption-vs-alternatives.html',
+  '/guides/es/file-encryption-when.html',
+  '/guides/es/file-encryption-step-by-step.html',
+  '/guides/es/file-encryption-vs-alternatives.html',
+  '/guides/vi/file-encryption-when.html',
+  '/guides/vi/file-encryption-step-by-step.html',
+  '/guides/vi/file-encryption-vs-alternatives.html',
+  '/guides/id/file-encryption-when.html',
+  '/guides/id/file-encryption-step-by-step.html',
+  '/guides/id/file-encryption-vs-alternatives.html',
+  '/guides/de/file-encryption-when.html',
+  '/guides/de/file-encryption-step-by-step.html',
+  '/guides/de/file-encryption-vs-alternatives.html',
+  // new-tool-discovery-loop-runbook fire122 (LEAN one-off, 2026-07-13):
+  // GUIDE_ROUTES backfill for video-compressor's 3 EN companion guide angles'
+  // full pt/es/vi/id/de locale fanout (builder wires JSP_BY_ROUTE + INFO_ROUTES
+  // only, same recurring gap class as fires 32/56/57/62/66/84/113/115/120).
+  '/guides/pt/video-compressor-when.html',
+  '/guides/pt/video-compressor-step-by-step.html',
+  '/guides/pt/video-compressor-vs-alternatives.html',
+  '/guides/es/video-compressor-when.html',
+  '/guides/es/video-compressor-step-by-step.html',
+  '/guides/es/video-compressor-vs-alternatives.html',
+  '/guides/vi/video-compressor-when.html',
+  '/guides/vi/video-compressor-step-by-step.html',
+  '/guides/vi/video-compressor-vs-alternatives.html',
+  '/guides/id/video-compressor-when.html',
+  '/guides/id/video-compressor-step-by-step.html',
+  '/guides/id/video-compressor-vs-alternatives.html',
+  '/guides/de/video-compressor-when.html',
+  '/guides/de/video-compressor-step-by-step.html',
+  '/guides/de/video-compressor-vs-alternatives.html',
+  // new-tool-discovery-loop-runbook fire123 (LEAN one-off, 2026-07-13):
+  // GUIDE_ROUTES backfill for note-taking-app's 3 EN companion guide angles'
+  // full pt/es/vi/id/de locale fanout (builder wires JSP_BY_ROUTE + INFO_ROUTES
+  // only, same recurring gap class as fires 32/56/57/62/66/84/113/115/120/122).
+  '/guides/pt/notepad-notes-when.html',
+  '/guides/pt/notepad-notes-step-by-step.html',
+  '/guides/pt/notepad-notes-vs-alternatives.html',
+  '/guides/es/notepad-notes-when.html',
+  '/guides/es/notepad-notes-step-by-step.html',
+  '/guides/es/notepad-notes-vs-alternatives.html',
+  '/guides/vi/notepad-notes-when.html',
+  '/guides/vi/notepad-notes-step-by-step.html',
+  '/guides/vi/notepad-notes-vs-alternatives.html',
+  '/guides/id/notepad-notes-when.html',
+  '/guides/id/notepad-notes-step-by-step.html',
+  '/guides/id/notepad-notes-vs-alternatives.html',
+  '/guides/de/notepad-notes-when.html',
+  '/guides/de/notepad-notes-step-by-step.html',
+  '/guides/de/notepad-notes-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire120 (LEAN one-off, 2026-07-13):
   // GUIDE_ROUTES backfill for date-difference-calculator's 3 EN companion
   // guide angles' full pt/es/vi/id/de locale fanout (builder wires
@@ -1810,6 +1946,28 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/delete-pdf-pages-when.html',
   '/guides/de/delete-pdf-pages-step-by-step.html',
   '/guides/de/delete-pdf-pages-vs-alternatives.html',
+  // new-tool-discovery-loop-runbook (LEAN one-off, 2026-07-12): rotate-pdf
+  // GUIDE_ROUTES backfill (builder wired JSP_BY_ROUTE only, same recurring gap
+  // class as fires 32/56/57/62/66) + full pt/es/vi/id/de locale fanout for all
+  // 3 EN companion guide angles (guide_locale_fanout unit rotate-pdf-guides).
+  '/guides/rotate-pdf-when.html',
+  '/guides/rotate-pdf-step-by-step.html',
+  '/guides/rotate-pdf-vs-alternatives.html',
+  '/guides/pt/rotate-pdf-when.html',
+  '/guides/pt/rotate-pdf-step-by-step.html',
+  '/guides/pt/rotate-pdf-vs-alternatives.html',
+  '/guides/es/rotate-pdf-when.html',
+  '/guides/es/rotate-pdf-step-by-step.html',
+  '/guides/es/rotate-pdf-vs-alternatives.html',
+  '/guides/vi/rotate-pdf-when.html',
+  '/guides/vi/rotate-pdf-step-by-step.html',
+  '/guides/vi/rotate-pdf-vs-alternatives.html',
+  '/guides/id/rotate-pdf-when.html',
+  '/guides/id/rotate-pdf-step-by-step.html',
+  '/guides/id/rotate-pdf-vs-alternatives.html',
+  '/guides/de/rotate-pdf-when.html',
+  '/guides/de/rotate-pdf-step-by-step.html',
+  '/guides/de/rotate-pdf-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire84 (2026-07-12): GUIDE_ROUTES backfill for
   // strip-audio-from-video's 3 EN companion guide angles (builder wires JSP_BY_ROUTE
   // only - same recurring gap class as fires 32/56/57/62/66, now closed at the
@@ -3559,6 +3717,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/precision-bounce-loop-vs-alternatives.html',
   '/guides/id/precision-bounce-loop-vs-alternatives.html',
   '/guides/de/precision-bounce-loop-vs-alternatives.html',
+  // fire107 vim-motion-academy
+  '/guides/how-to-play-vim-motion-academy.html',
+  '/guides/pt/how-to-play-vim-motion-academy.html',
+  '/guides/es/how-to-play-vim-motion-academy.html',
+  '/guides/vi/how-to-play-vim-motion-academy.html',
+  '/guides/id/how-to-play-vim-motion-academy.html',
+  '/guides/de/how-to-play-vim-motion-academy.html',
+  '/guides/vim-motion-academy-when.html',
+  '/guides/pt/vim-motion-academy-when.html',
+  '/guides/es/vim-motion-academy-when.html',
+  '/guides/vi/vim-motion-academy-when.html',
+  '/guides/id/vim-motion-academy-when.html',
+  '/guides/de/vim-motion-academy-when.html',
+  '/guides/vim-motion-academy-vs-alternatives.html',
+  '/guides/pt/vim-motion-academy-vs-alternatives.html',
+  '/guides/es/vim-motion-academy-vs-alternatives.html',
+  '/guides/vi/vim-motion-academy-vs-alternatives.html',
+  '/guides/id/vim-motion-academy-vs-alternatives.html',
+  '/guides/de/vim-motion-academy-vs-alternatives.html',
 
   '/guides/de/gravity-orbit-golf-vs-alternatives.html',
 
@@ -3852,6 +4029,24 @@ export const GUIDE_ROUTES = new Set([
   '/guides/id/solar-eclipse-when.html',
   '/guides/id/solar-eclipse-step-by-step.html',
   '/guides/id/solar-eclipse-vs-alternatives.html',
+  '/guides/planet-size-comparison-when.html',
+  '/guides/pt/planet-size-comparison-when.html',
+  '/guides/es/planet-size-comparison-when.html',
+  '/guides/de/planet-size-comparison-when.html',
+  '/guides/vi/planet-size-comparison-when.html',
+  '/guides/id/planet-size-comparison-when.html',
+  '/guides/planet-size-comparison-step-by-step.html',
+  '/guides/pt/planet-size-comparison-step-by-step.html',
+  '/guides/es/planet-size-comparison-step-by-step.html',
+  '/guides/de/planet-size-comparison-step-by-step.html',
+  '/guides/vi/planet-size-comparison-step-by-step.html',
+  '/guides/id/planet-size-comparison-step-by-step.html',
+  '/guides/planet-size-comparison-vs-alternatives.html',
+  '/guides/pt/planet-size-comparison-vs-alternatives.html',
+  '/guides/es/planet-size-comparison-vs-alternatives.html',
+  '/guides/de/planet-size-comparison-vs-alternatives.html',
+  '/guides/vi/planet-size-comparison-vs-alternatives.html',
+  '/guides/id/planet-size-comparison-vs-alternatives.html',
   // play-fps-in-browser-step-by-step locale fanout pt/es/de/vi/id
   // (new-tool-discovery-loop-runbook LEAN one-off fire, guide-support drain
   // per runbook 4b - the -when and -vs-alternatives angles for this guide
@@ -3861,45 +4056,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/play-fps-in-browser-step-by-step.html',
   '/guides/vi/play-fps-in-browser-step-by-step.html',
   '/guides/id/play-fps-in-browser-step-by-step.html',
-  // new-tool-discovery-loop-runbook fire123 (LEAN one-off, 2026-07-13):
-  // GUIDE_ROUTES backfill for note-taking-app's 3 EN companion guide angles'
-  // full pt/es/vi/id/de locale fanout (builder wires JSP_BY_ROUTE + INFO_ROUTES only).
-  '/guides/pt/notepad-notes-when.html',
-  '/guides/pt/notepad-notes-step-by-step.html',
-  '/guides/pt/notepad-notes-vs-alternatives.html',
-  '/guides/es/notepad-notes-when.html',
-  '/guides/es/notepad-notes-step-by-step.html',
-  '/guides/es/notepad-notes-vs-alternatives.html',
-  '/guides/vi/notepad-notes-when.html',
-  '/guides/vi/notepad-notes-step-by-step.html',
-  '/guides/vi/notepad-notes-vs-alternatives.html',
-  '/guides/id/notepad-notes-when.html',
-  '/guides/id/notepad-notes-step-by-step.html',
-  '/guides/id/notepad-notes-vs-alternatives.html',
-  '/guides/de/notepad-notes-when.html',
-  '/guides/de/notepad-notes-step-by-step.html',
-  '/guides/de/notepad-notes-vs-alternatives.html',
-  // new-tool-discovery-loop-runbook fire131 (LEAN one-off, 2026-07-13):
-  // GUIDE_ROUTES for flashcards-maker's 3 EN companion guide angles + full
-  // pt/es/vi/id/de locale fanout.
-  '/guides/flashcards-spaced-repetition-vs-alternatives.html',
-  '/guides/flashcards-spaced-repetition-step-by-step.html',
-  '/guides/flashcards-spaced-repetition-when.html',
-  '/guides/pt/flashcards-spaced-repetition-when.html',
-  '/guides/pt/flashcards-spaced-repetition-step-by-step.html',
-  '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html',
-  '/guides/es/flashcards-spaced-repetition-when.html',
-  '/guides/es/flashcards-spaced-repetition-step-by-step.html',
-  '/guides/es/flashcards-spaced-repetition-vs-alternatives.html',
-  '/guides/vi/flashcards-spaced-repetition-when.html',
-  '/guides/vi/flashcards-spaced-repetition-step-by-step.html',
-  '/guides/vi/flashcards-spaced-repetition-vs-alternatives.html',
-  '/guides/id/flashcards-spaced-repetition-when.html',
-  '/guides/id/flashcards-spaced-repetition-step-by-step.html',
-  '/guides/id/flashcards-spaced-repetition-vs-alternatives.html',
-  '/guides/de/flashcards-spaced-repetition-when.html',
-  '/guides/de/flashcards-spaced-repetition-step-by-step.html',
-  '/guides/de/flashcards-spaced-repetition-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -3909,11 +4065,6 @@ export function isGuideRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
-  // new-tool-discovery-loop-runbook fire131 (LEAN one-off, 2026-07-13):
-  // bare-slug alias for flashcards-maker's canonical /utility-tools/ route.
-  '/flashcards-maker.html': '/utility-tools/flashcards-maker.html',
-  '/document-scanner.html': '/image-tools/document-scanner.html',
-  '/file-encryption-tool.html': '/developer-tools/file-encryption-tool.html',
   // Hub directory-form safety redirects (added 2026-05-11). Search engines
   // and external links may guess `/cluster-tools/` from the clustered tool
   // URLs (`/cluster-tools/<slug>.html`). Without these entries GitHub Pages
@@ -4437,6 +4588,7 @@ export const ALIAS_ROUTES = {
   '/voxel-fps-arena.html': '/games/voxel-fps-arena.html',
   '/lightning-math-battle.html': '/games/lightning-math-battle.html',
   '/precision-bounce-loop.html': '/games/precision-bounce-loop.html',
+  '/vim-motion-academy.html': '/games/vim-motion-academy.html',
 
   '/gravity-orbit-golf.html': '/games/gravity-orbit-golf.html',
 
@@ -4449,6 +4601,7 @@ export const ALIAS_ROUTES = {
   '/iss-orbit-tracker.html': '/space-3d/iss-orbit-tracker.html',
   '/lunar-eclipse.html': '/space-3d/lunar-eclipse.html',
   '/solar-eclipse.html': '/space-3d/solar-eclipse.html',
+  '/planet-size-comparison.html': '/space-3d/planet-size-comparison.html',
   '/linux-online.html': '/utility-tools/linux-online.html',
   '/online-linux-terminal.html': '/utility-tools/linux-online.html',
   '/linux-emulator-online.html': '/utility-tools/linux-online.html',
@@ -4473,6 +4626,11 @@ export const ALIAS_ROUTES = {
   '/tip-calculator.html': '/utility-tools/tip-calculator.html',
   '/loan-calculator.html': '/utility-tools/loan-calculator.html',
   '/date-difference-calculator.html': '/utility-tools/date-difference-calculator.html',
+  '/video-compressor.html': '/video-tools/video-compressor.html',
+  '/note-taking-app.html': '/utility-tools/note-taking-app.html',
+  '/file-encryption-tool.html': '/developer-tools/file-encryption-tool.html',
+  '/flashcards-maker.html': '/utility-tools/flashcards-maker.html',
+  '/document-scanner.html': '/image-tools/document-scanner.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -6367,6 +6525,26 @@ export const JSP_BY_ROUTE = {
   '/guides/id/precision-bounce-loop-vs-alternatives.html': 'guide/id/precision-bounce-loop-vs-alternatives.jsp',
   '/guides/de/precision-bounce-loop-vs-alternatives.html': 'guide/de/precision-bounce-loop-vs-alternatives.jsp',
   '/games/precision-bounce-loop.html': 'games/precision-bounce-loop.jsp',
+  // fire107 vim-motion-academy guides
+  '/guides/how-to-play-vim-motion-academy.html': 'guide/how-to-play-vim-motion-academy.jsp',
+  '/guides/pt/how-to-play-vim-motion-academy.html': 'guide/pt/how-to-play-vim-motion-academy.jsp',
+  '/guides/es/how-to-play-vim-motion-academy.html': 'guide/es/how-to-play-vim-motion-academy.jsp',
+  '/guides/vi/how-to-play-vim-motion-academy.html': 'guide/vi/how-to-play-vim-motion-academy.jsp',
+  '/guides/id/how-to-play-vim-motion-academy.html': 'guide/id/how-to-play-vim-motion-academy.jsp',
+  '/guides/de/how-to-play-vim-motion-academy.html': 'guide/de/how-to-play-vim-motion-academy.jsp',
+  '/guides/vim-motion-academy-when.html': 'guide/vim-motion-academy-when.jsp',
+  '/guides/pt/vim-motion-academy-when.html': 'guide/pt/vim-motion-academy-when.jsp',
+  '/guides/es/vim-motion-academy-when.html': 'guide/es/vim-motion-academy-when.jsp',
+  '/guides/vi/vim-motion-academy-when.html': 'guide/vi/vim-motion-academy-when.jsp',
+  '/guides/id/vim-motion-academy-when.html': 'guide/id/vim-motion-academy-when.jsp',
+  '/guides/de/vim-motion-academy-when.html': 'guide/de/vim-motion-academy-when.jsp',
+  '/guides/vim-motion-academy-vs-alternatives.html': 'guide/vim-motion-academy-vs-alternatives.jsp',
+  '/guides/pt/vim-motion-academy-vs-alternatives.html': 'guide/pt/vim-motion-academy-vs-alternatives.jsp',
+  '/guides/es/vim-motion-academy-vs-alternatives.html': 'guide/es/vim-motion-academy-vs-alternatives.jsp',
+  '/guides/vi/vim-motion-academy-vs-alternatives.html': 'guide/vi/vim-motion-academy-vs-alternatives.jsp',
+  '/guides/id/vim-motion-academy-vs-alternatives.html': 'guide/id/vim-motion-academy-vs-alternatives.jsp',
+  '/guides/de/vim-motion-academy-vs-alternatives.html': 'guide/de/vim-motion-academy-vs-alternatives.jsp',
+  '/games/vim-motion-academy.html': 'games/vim-motion-academy.jsp',
 
   '/guides/de/gravity-orbit-golf-vs-alternatives.html': 'guide/de/gravity-orbit-golf-vs-alternatives.jsp',
   '/games/gravity-orbit-golf.html': 'games/gravity-orbit-golf.jsp',
@@ -6798,6 +6976,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/iss-orbit-tracker.html': 'space/iss-orbit-tracker.jsp',
   '/space-3d/lunar-eclipse.html': 'space/lunar-eclipse.jsp',
   '/space-3d/solar-eclipse.html': 'space/solar-eclipse.jsp',
+  '/space-3d/planet-size-comparison.html': 'space/planet-size-comparison.jsp',
   '/guides/iss-orbit-tracker-when.html': 'guide/iss-orbit-tracker-when.jsp',
   '/guides/iss-orbit-tracker-step-by-step.html': 'guide/iss-orbit-tracker-step-by-step.jsp',
   '/guides/iss-orbit-tracker-vs-alternatives.html': 'guide/iss-orbit-tracker-vs-alternatives.jsp',
@@ -6852,6 +7031,24 @@ export const JSP_BY_ROUTE = {
   '/guides/id/solar-eclipse-when.html': 'guide/id/solar-eclipse-when.jsp',
   '/guides/id/solar-eclipse-step-by-step.html': 'guide/id/solar-eclipse-step-by-step.jsp',
   '/guides/id/solar-eclipse-vs-alternatives.html': 'guide/id/solar-eclipse-vs-alternatives.jsp',
+  '/guides/planet-size-comparison-when.html': 'guide/planet-size-comparison-when.jsp',
+  '/guides/pt/planet-size-comparison-when.html': 'guide/pt/planet-size-comparison-when.jsp',
+  '/guides/es/planet-size-comparison-when.html': 'guide/es/planet-size-comparison-when.jsp',
+  '/guides/de/planet-size-comparison-when.html': 'guide/de/planet-size-comparison-when.jsp',
+  '/guides/vi/planet-size-comparison-when.html': 'guide/vi/planet-size-comparison-when.jsp',
+  '/guides/id/planet-size-comparison-when.html': 'guide/id/planet-size-comparison-when.jsp',
+  '/guides/planet-size-comparison-step-by-step.html': 'guide/planet-size-comparison-step-by-step.jsp',
+  '/guides/pt/planet-size-comparison-step-by-step.html': 'guide/pt/planet-size-comparison-step-by-step.jsp',
+  '/guides/es/planet-size-comparison-step-by-step.html': 'guide/es/planet-size-comparison-step-by-step.jsp',
+  '/guides/de/planet-size-comparison-step-by-step.html': 'guide/de/planet-size-comparison-step-by-step.jsp',
+  '/guides/vi/planet-size-comparison-step-by-step.html': 'guide/vi/planet-size-comparison-step-by-step.jsp',
+  '/guides/id/planet-size-comparison-step-by-step.html': 'guide/id/planet-size-comparison-step-by-step.jsp',
+  '/guides/planet-size-comparison-vs-alternatives.html': 'guide/planet-size-comparison-vs-alternatives.jsp',
+  '/guides/pt/planet-size-comparison-vs-alternatives.html': 'guide/pt/planet-size-comparison-vs-alternatives.jsp',
+  '/guides/es/planet-size-comparison-vs-alternatives.html': 'guide/es/planet-size-comparison-vs-alternatives.jsp',
+  '/guides/de/planet-size-comparison-vs-alternatives.html': 'guide/de/planet-size-comparison-vs-alternatives.jsp',
+  '/guides/vi/planet-size-comparison-vs-alternatives.html': 'guide/vi/planet-size-comparison-vs-alternatives.jsp',
+  '/guides/id/planet-size-comparison-vs-alternatives.html': 'guide/id/planet-size-comparison-vs-alternatives.jsp',
   '/guides/moon-calendar-3d-when.html': 'guide/moon-calendar-3d-when.jsp',
   '/guides/moon-calendar-3d-step-by-step.html': 'guide/moon-calendar-3d-step-by-step.jsp',
   '/guides/moon-calendar-3d-vs-alternatives.html': 'guide/moon-calendar-3d-vs-alternatives.jsp',
@@ -7203,6 +7400,23 @@ export const JSP_BY_ROUTE = {
   '/guides/rotate-pdf-when.html': 'guide/rotate-pdf-when.jsp',
   '/guides/rotate-pdf-step-by-step.html': 'guide/rotate-pdf-step-by-step.jsp',
   '/guides/rotate-pdf-vs-alternatives.html': 'guide/rotate-pdf-vs-alternatives.jsp',
+  // new-tool-discovery-loop-runbook (LEAN one-off, 2026-07-12): rotate-pdf guide
+  // locale fanout (guide_locale_fanout unit rotate-pdf-guides).
+  '/guides/pt/rotate-pdf-when.html': 'guide/pt/rotate-pdf-when.jsp',
+  '/guides/pt/rotate-pdf-step-by-step.html': 'guide/pt/rotate-pdf-step-by-step.jsp',
+  '/guides/pt/rotate-pdf-vs-alternatives.html': 'guide/pt/rotate-pdf-vs-alternatives.jsp',
+  '/guides/es/rotate-pdf-when.html': 'guide/es/rotate-pdf-when.jsp',
+  '/guides/es/rotate-pdf-step-by-step.html': 'guide/es/rotate-pdf-step-by-step.jsp',
+  '/guides/es/rotate-pdf-vs-alternatives.html': 'guide/es/rotate-pdf-vs-alternatives.jsp',
+  '/guides/vi/rotate-pdf-when.html': 'guide/vi/rotate-pdf-when.jsp',
+  '/guides/vi/rotate-pdf-step-by-step.html': 'guide/vi/rotate-pdf-step-by-step.jsp',
+  '/guides/vi/rotate-pdf-vs-alternatives.html': 'guide/vi/rotate-pdf-vs-alternatives.jsp',
+  '/guides/id/rotate-pdf-when.html': 'guide/id/rotate-pdf-when.jsp',
+  '/guides/id/rotate-pdf-step-by-step.html': 'guide/id/rotate-pdf-step-by-step.jsp',
+  '/guides/id/rotate-pdf-vs-alternatives.html': 'guide/id/rotate-pdf-vs-alternatives.jsp',
+  '/guides/de/rotate-pdf-when.html': 'guide/de/rotate-pdf-when.jsp',
+  '/guides/de/rotate-pdf-step-by-step.html': 'guide/de/rotate-pdf-step-by-step.jsp',
+  '/guides/de/rotate-pdf-vs-alternatives.html': 'guide/de/rotate-pdf-vs-alternatives.jsp',
   '/pdf-tools/delete-pdf-pages.html': 'pdf/delete-pdf-pages.jsp',
   '/guides/delete-pdf-pages-when.html': 'guide/delete-pdf-pages-when.jsp',
   '/guides/delete-pdf-pages-step-by-step.html': 'guide/delete-pdf-pages-step-by-step.jsp',
@@ -7320,6 +7534,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/date-difference-calculator-when.html': 'guide/de/date-difference-calculator-when.jsp',
   '/guides/de/date-difference-calculator-step-by-step.html': 'guide/de/date-difference-calculator-step-by-step.jsp',
   '/guides/de/date-difference-calculator-vs-alternatives.html': 'guide/de/date-difference-calculator-vs-alternatives.jsp',
+  '/video-tools/video-compressor.html': 'convert/video-compressor.jsp',
+  '/guides/video-compressor-when.html': 'guide/video-compressor-when.jsp',
+  '/guides/video-compressor-step-by-step.html': 'guide/video-compressor-step-by-step.jsp',
+  '/guides/video-compressor-vs-alternatives.html': 'guide/video-compressor-vs-alternatives.jsp',
+  '/guides/pt/video-compressor-when.html': 'guide/pt/video-compressor-when.jsp',
+  '/guides/pt/video-compressor-step-by-step.html': 'guide/pt/video-compressor-step-by-step.jsp',
+  '/guides/pt/video-compressor-vs-alternatives.html': 'guide/pt/video-compressor-vs-alternatives.jsp',
+  '/guides/es/video-compressor-when.html': 'guide/es/video-compressor-when.jsp',
+  '/guides/es/video-compressor-step-by-step.html': 'guide/es/video-compressor-step-by-step.jsp',
+  '/guides/es/video-compressor-vs-alternatives.html': 'guide/es/video-compressor-vs-alternatives.jsp',
+  '/guides/vi/video-compressor-when.html': 'guide/vi/video-compressor-when.jsp',
+  '/guides/vi/video-compressor-step-by-step.html': 'guide/vi/video-compressor-step-by-step.jsp',
+  '/guides/vi/video-compressor-vs-alternatives.html': 'guide/vi/video-compressor-vs-alternatives.jsp',
+  '/guides/id/video-compressor-when.html': 'guide/id/video-compressor-when.jsp',
+  '/guides/id/video-compressor-step-by-step.html': 'guide/id/video-compressor-step-by-step.jsp',
+  '/guides/id/video-compressor-vs-alternatives.html': 'guide/id/video-compressor-vs-alternatives.jsp',
+  '/guides/de/video-compressor-when.html': 'guide/de/video-compressor-when.jsp',
+  '/guides/de/video-compressor-step-by-step.html': 'guide/de/video-compressor-step-by-step.jsp',
+  '/guides/de/video-compressor-vs-alternatives.html': 'guide/de/video-compressor-vs-alternatives.jsp',
   '/utility-tools/note-taking-app.html': 'utility/note-taking-app.jsp',
   '/guides/notepad-notes-when.html': 'guide/notepad-notes-when.jsp',
   '/guides/notepad-notes-step-by-step.html': 'guide/notepad-notes-step-by-step.jsp',
@@ -7342,13 +7575,34 @@ export const JSP_BY_ROUTE = {
   '/guides/de/notepad-notes-when.html': 'guide/de/notepad-notes-when.jsp',
   '/guides/de/notepad-notes-step-by-step.html': 'guide/de/notepad-notes-step-by-step.jsp',
   '/guides/de/notepad-notes-vs-alternatives.html': 'guide/de/notepad-notes-vs-alternatives.jsp',
-  // new-tool-discovery-loop-runbook fire131 (LEAN one-off, 2026-07-13):
-  // flashcards-maker tool route + its 3 EN companion guide angles' full
-  // pt/es/vi/id/de locale fanout.
+  '/developer-tools/file-encryption-tool.html': 'utility/file-encryption-tool.jsp',
+  '/guides/file-encryption-when.html': 'guide/file-encryption-when.jsp',
+  '/guides/file-encryption-step-by-step.html': 'guide/file-encryption-step-by-step.jsp',
+  '/guides/file-encryption-vs-alternatives.html': 'guide/file-encryption-vs-alternatives.jsp',
+  // new-tool-discovery-loop-runbook fire129 (LEAN one-off, 2026-07-13):
+  // JSP_BY_ROUTE locale fanout for file-encryption-tool's 3 EN companion
+  // guide angles.
+  '/guides/pt/file-encryption-when.html': 'guide/pt/file-encryption-when.jsp',
+  '/guides/pt/file-encryption-step-by-step.html': 'guide/pt/file-encryption-step-by-step.jsp',
+  '/guides/pt/file-encryption-vs-alternatives.html': 'guide/pt/file-encryption-vs-alternatives.jsp',
+  '/guides/es/file-encryption-when.html': 'guide/es/file-encryption-when.jsp',
+  '/guides/es/file-encryption-step-by-step.html': 'guide/es/file-encryption-step-by-step.jsp',
+  '/guides/es/file-encryption-vs-alternatives.html': 'guide/es/file-encryption-vs-alternatives.jsp',
+  '/guides/vi/file-encryption-when.html': 'guide/vi/file-encryption-when.jsp',
+  '/guides/vi/file-encryption-step-by-step.html': 'guide/vi/file-encryption-step-by-step.jsp',
+  '/guides/vi/file-encryption-vs-alternatives.html': 'guide/vi/file-encryption-vs-alternatives.jsp',
+  '/guides/id/file-encryption-when.html': 'guide/id/file-encryption-when.jsp',
+  '/guides/id/file-encryption-step-by-step.html': 'guide/id/file-encryption-step-by-step.jsp',
+  '/guides/id/file-encryption-vs-alternatives.html': 'guide/id/file-encryption-vs-alternatives.jsp',
+  '/guides/de/file-encryption-when.html': 'guide/de/file-encryption-when.jsp',
+  '/guides/de/file-encryption-step-by-step.html': 'guide/de/file-encryption-step-by-step.jsp',
+  '/guides/de/file-encryption-vs-alternatives.html': 'guide/de/file-encryption-vs-alternatives.jsp',
   '/utility-tools/flashcards-maker.html': 'utility/flashcards-maker.jsp',
   '/guides/flashcards-spaced-repetition-when.html': 'guide/flashcards-spaced-repetition-when.jsp',
   '/guides/flashcards-spaced-repetition-step-by-step.html': 'guide/flashcards-spaced-repetition-step-by-step.jsp',
   '/guides/flashcards-spaced-repetition-vs-alternatives.html': 'guide/flashcards-spaced-repetition-vs-alternatives.jsp',
+  // JSP_BY_ROUTE locale fanout for flashcards-maker's 3 EN companion guide
+  // angles - pt/es/vi/id/de.
   '/guides/pt/flashcards-spaced-repetition-when.html': 'guide/pt/flashcards-spaced-repetition-when.jsp',
   '/guides/pt/flashcards-spaced-repetition-step-by-step.html': 'guide/pt/flashcards-spaced-repetition-step-by-step.jsp',
   '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html': 'guide/pt/flashcards-spaced-repetition-vs-alternatives.jsp',
@@ -7383,25 +7637,6 @@ export const JSP_BY_ROUTE = {
   '/guides/id/document-scanner-pdf-step-by-step.html': 'guide/id/document-scanner-pdf-step-by-step.jsp',
   '/guides/id/document-scanner-pdf-when.html': 'guide/id/document-scanner-pdf-when.jsp',
   '/guides/id/document-scanner-pdf-vs-alternatives.html': 'guide/id/document-scanner-pdf-vs-alternatives.jsp',
-  '/developer-tools/file-encryption-tool.html': 'utility/file-encryption-tool.jsp',
-  '/guides/file-encryption-when.html': 'guide/file-encryption-when.jsp',
-  '/guides/file-encryption-step-by-step.html': 'guide/file-encryption-step-by-step.jsp',
-  '/guides/file-encryption-vs-alternatives.html': 'guide/file-encryption-vs-alternatives.jsp',
-  '/guides/pt/file-encryption-when.html': 'guide/pt/file-encryption-when.jsp',
-  '/guides/pt/file-encryption-step-by-step.html': 'guide/pt/file-encryption-step-by-step.jsp',
-  '/guides/pt/file-encryption-vs-alternatives.html': 'guide/pt/file-encryption-vs-alternatives.jsp',
-  '/guides/es/file-encryption-when.html': 'guide/es/file-encryption-when.jsp',
-  '/guides/es/file-encryption-step-by-step.html': 'guide/es/file-encryption-step-by-step.jsp',
-  '/guides/es/file-encryption-vs-alternatives.html': 'guide/es/file-encryption-vs-alternatives.jsp',
-  '/guides/vi/file-encryption-when.html': 'guide/vi/file-encryption-when.jsp',
-  '/guides/vi/file-encryption-step-by-step.html': 'guide/vi/file-encryption-step-by-step.jsp',
-  '/guides/vi/file-encryption-vs-alternatives.html': 'guide/vi/file-encryption-vs-alternatives.jsp',
-  '/guides/id/file-encryption-when.html': 'guide/id/file-encryption-when.jsp',
-  '/guides/id/file-encryption-step-by-step.html': 'guide/id/file-encryption-step-by-step.jsp',
-  '/guides/id/file-encryption-vs-alternatives.html': 'guide/id/file-encryption-vs-alternatives.jsp',
-  '/guides/de/file-encryption-when.html': 'guide/de/file-encryption-when.jsp',
-  '/guides/de/file-encryption-step-by-step.html': 'guide/de/file-encryption-step-by-step.jsp',
-  '/guides/de/file-encryption-vs-alternatives.html': 'guide/de/file-encryption-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
