@@ -2389,6 +2389,24 @@ export const INFO_ROUTES = new Set([
   '/guides/de/hr-diagram-vs-alternatives.html',
   '/guides/vi/hr-diagram-vs-alternatives.html',
   '/guides/id/hr-diagram-vs-alternatives.html',
+  '/guides/sun-structure-step-by-step.html',
+  '/guides/pt/sun-structure-step-by-step.html',
+  '/guides/es/sun-structure-step-by-step.html',
+  '/guides/de/sun-structure-step-by-step.html',
+  '/guides/vi/sun-structure-step-by-step.html',
+  '/guides/id/sun-structure-step-by-step.html',
+  '/guides/sun-structure-when.html',
+  '/guides/pt/sun-structure-when.html',
+  '/guides/es/sun-structure-when.html',
+  '/guides/de/sun-structure-when.html',
+  '/guides/vi/sun-structure-when.html',
+  '/guides/id/sun-structure-when.html',
+  '/guides/sun-structure-vs-alternatives.html',
+  '/guides/pt/sun-structure-vs-alternatives.html',
+  '/guides/es/sun-structure-vs-alternatives.html',
+  '/guides/de/sun-structure-vs-alternatives.html',
+  '/guides/vi/sun-structure-vs-alternatives.html',
+  '/guides/id/sun-structure-vs-alternatives.html',
   // play-fps-in-browser-step-by-step locale fanout pt/es/de/vi/id
   // (new-tool-discovery-loop-runbook LEAN one-off fire, guide-support drain
   // per runbook 4b).
@@ -2467,6 +2485,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/mosasaurus-size-comparison.html',
   '/guides/id/mosasaurus-size-comparison.html',
   '/guides/de/mosasaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire6 (2026-07-16): mosasaurus-3d-viewer-vs-ar-apps
+  // (EN + pt/es/vi/id/de) - vs-alternatives angle for the Mosasaurus viewer.
+  '/guides/mosasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/mosasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/mosasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/mosasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/mosasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/mosasaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -5336,6 +5362,24 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/hr-diagram-vs-alternatives.html',
   '/guides/vi/hr-diagram-vs-alternatives.html',
   '/guides/id/hr-diagram-vs-alternatives.html',
+  '/guides/sun-structure-step-by-step.html',
+  '/guides/pt/sun-structure-step-by-step.html',
+  '/guides/es/sun-structure-step-by-step.html',
+  '/guides/de/sun-structure-step-by-step.html',
+  '/guides/vi/sun-structure-step-by-step.html',
+  '/guides/id/sun-structure-step-by-step.html',
+  '/guides/sun-structure-when.html',
+  '/guides/pt/sun-structure-when.html',
+  '/guides/es/sun-structure-when.html',
+  '/guides/de/sun-structure-when.html',
+  '/guides/vi/sun-structure-when.html',
+  '/guides/id/sun-structure-when.html',
+  '/guides/sun-structure-vs-alternatives.html',
+  '/guides/pt/sun-structure-vs-alternatives.html',
+  '/guides/es/sun-structure-vs-alternatives.html',
+  '/guides/de/sun-structure-vs-alternatives.html',
+  '/guides/vi/sun-structure-vs-alternatives.html',
+  '/guides/id/sun-structure-vs-alternatives.html',
   // play-fps-in-browser-step-by-step locale fanout pt/es/de/vi/id
   // (new-tool-discovery-loop-runbook LEAN one-off fire, guide-support drain
   // per runbook 4b).
@@ -5415,8 +5459,12 @@ export const ALIAS_ROUTES = {
   // operator step.
   '/games/': '/games.html',
   '/space-3d/': '/space-3d.html',
+  // dinosaur-loop (2026-07-15): dir-index alias for the /dinosaur-3d cluster
   // hub. MUST also be mirrored into the CloudFront 301 function (two-layer
-  // redirect rule) - republish is an operator step.
+  // redirect rule) - republish is an operator step. (Restored 2026-07-16: a
+  // merge mis-resolution dropped this one-time seed entry - see the gate
+  // _lib/hub-cluster-wiring-check.mjs. KEEP BOTH SIDES in site-data conflicts.)
+  '/dinosaur-3d/': '/dinosaur-3d.html',
   // news-loop (2026-07-08): same dir-index pattern for the /news cluster hub.
   // MUST also be mirrored into the CloudFront 301 function (two-layer
   // redirect rule) - republish is an operator step.
@@ -5972,6 +6020,7 @@ export const ALIAS_ROUTES = {
   '/cosmic-distance-ladder.html': '/space-3d/cosmic-distance-ladder.html',
   '/precession-equinoxes.html': '/space-3d/precession-equinoxes.html',
   '/hr-diagram.html': '/space-3d/hr-diagram.html',
+  '/sun-structure.html': '/space-3d/sun-structure.html',
   '/linux-online.html': '/utility-tools/linux-online.html',
   '/online-linux-terminal.html': '/utility-tools/linux-online.html',
   '/linux-emulator-online.html': '/utility-tools/linux-online.html',
@@ -6413,7 +6462,15 @@ export const JSP_BY_ROUTE = {
   // registered in SEO_CLUSTER_GROUPS; hub detection via isHubRoute()).
   '/games.html': 'utility/games.jsp',
   '/space-3d.html': 'utility/space-3d.jsp',
+  // dinosaur-loop (2026-07-15): the /dinosaur-3d cluster hub (non-'-tools'
   // hubRoute, registered in SEO_CLUSTER_GROUPS; hub detection via isHubRoute()).
+  // Member routes live at /dinosaur-3d/<slug>.html (JSP folder: dinosaur/).
+  // (Restored 2026-07-16: a merge mis-resolution - staging f9f3e96c3 mirrored by
+  // prod ba56def7 - dropped this one-time seed entry and 404'd the live hub.
+  // Gate: _lib/hub-cluster-wiring-check.mjs cluster_hub_route_unregistered.
+  // When resolving site-data.mjs conflicts, KEEP BOTH SIDES - never drop the
+  // other loop's block.)
+  '/dinosaur-3d.html': 'utility/dinosaur-3d.jsp',
   // news-loop (2026-07-08): the /news cluster hub (non-'-tools' hubRoute,
   // registered in SEO_CLUSTER_GROUPS; hub detection via isHubRoute()).
   // Article routes live at /news/<kebab-slug>.html and are shipped one per
@@ -8109,6 +8166,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/mosasaurus-size-comparison.html': 'guide/vi/mosasaurus-size-comparison.jsp',
   '/guides/id/mosasaurus-size-comparison.html': 'guide/id/mosasaurus-size-comparison.jsp',
   '/guides/de/mosasaurus-size-comparison.html': 'guide/de/mosasaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire6 (2026-07-16): mosasaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
+  '/guides/mosasaurus-3d-viewer-vs-ar-apps.html': 'guide/mosasaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/mosasaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/mosasaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/mosasaurus-3d-viewer-vs-ar-apps.html': 'guide/es/mosasaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/mosasaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/mosasaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/mosasaurus-3d-viewer-vs-ar-apps.html': 'guide/id/mosasaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/mosasaurus-3d-viewer-vs-ar-apps.html': 'guide/de/mosasaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
@@ -8486,6 +8551,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/cosmic-distance-ladder.html': 'space/cosmic-distance-ladder.jsp',
   '/space-3d/precession-equinoxes.html': 'space/precession-equinoxes.jsp',
   '/space-3d/hr-diagram.html': 'space/hr-diagram.jsp',
+  '/space-3d/sun-structure.html': 'space/sun-structure.jsp',
   '/guides/escape-velocity-step-by-step.html': 'guide/escape-velocity-step-by-step.jsp',
   '/guides/pt/escape-velocity-step-by-step.html': 'guide/pt/escape-velocity-step-by-step.jsp',
   '/guides/es/escape-velocity-step-by-step.html': 'guide/es/escape-velocity-step-by-step.jsp',
@@ -8576,6 +8642,24 @@ export const JSP_BY_ROUTE = {
   '/guides/de/hr-diagram-vs-alternatives.html': 'guide/de/hr-diagram-vs-alternatives.jsp',
   '/guides/vi/hr-diagram-vs-alternatives.html': 'guide/vi/hr-diagram-vs-alternatives.jsp',
   '/guides/id/hr-diagram-vs-alternatives.html': 'guide/id/hr-diagram-vs-alternatives.jsp',
+  '/guides/sun-structure-step-by-step.html': 'guide/sun-structure-step-by-step.jsp',
+  '/guides/pt/sun-structure-step-by-step.html': 'guide/pt/sun-structure-step-by-step.jsp',
+  '/guides/es/sun-structure-step-by-step.html': 'guide/es/sun-structure-step-by-step.jsp',
+  '/guides/de/sun-structure-step-by-step.html': 'guide/de/sun-structure-step-by-step.jsp',
+  '/guides/vi/sun-structure-step-by-step.html': 'guide/vi/sun-structure-step-by-step.jsp',
+  '/guides/id/sun-structure-step-by-step.html': 'guide/id/sun-structure-step-by-step.jsp',
+  '/guides/sun-structure-when.html': 'guide/sun-structure-when.jsp',
+  '/guides/pt/sun-structure-when.html': 'guide/pt/sun-structure-when.jsp',
+  '/guides/es/sun-structure-when.html': 'guide/es/sun-structure-when.jsp',
+  '/guides/de/sun-structure-when.html': 'guide/de/sun-structure-when.jsp',
+  '/guides/vi/sun-structure-when.html': 'guide/vi/sun-structure-when.jsp',
+  '/guides/id/sun-structure-when.html': 'guide/id/sun-structure-when.jsp',
+  '/guides/sun-structure-vs-alternatives.html': 'guide/sun-structure-vs-alternatives.jsp',
+  '/guides/pt/sun-structure-vs-alternatives.html': 'guide/pt/sun-structure-vs-alternatives.jsp',
+  '/guides/es/sun-structure-vs-alternatives.html': 'guide/es/sun-structure-vs-alternatives.jsp',
+  '/guides/de/sun-structure-vs-alternatives.html': 'guide/de/sun-structure-vs-alternatives.jsp',
+  '/guides/vi/sun-structure-vs-alternatives.html': 'guide/vi/sun-structure-vs-alternatives.jsp',
+  '/guides/id/sun-structure-vs-alternatives.html': 'guide/id/sun-structure-vs-alternatives.jsp',
   '/guides/iss-orbit-tracker-when.html': 'guide/iss-orbit-tracker-when.jsp',
   '/guides/iss-orbit-tracker-step-by-step.html': 'guide/iss-orbit-tracker-step-by-step.jsp',
   '/guides/iss-orbit-tracker-vs-alternatives.html': 'guide/iss-orbit-tracker-vs-alternatives.jsp',
