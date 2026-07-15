@@ -2263,6 +2263,24 @@ export const INFO_ROUTES = new Set([
   '/guides/de/galilean-moons-vs-alternatives.html',
   '/guides/vi/galilean-moons-vs-alternatives.html',
   '/guides/id/galilean-moons-vs-alternatives.html',
+  '/guides/escape-velocity-step-by-step.html',
+  '/guides/pt/escape-velocity-step-by-step.html',
+  '/guides/es/escape-velocity-step-by-step.html',
+  '/guides/de/escape-velocity-step-by-step.html',
+  '/guides/vi/escape-velocity-step-by-step.html',
+  '/guides/id/escape-velocity-step-by-step.html',
+  '/guides/escape-velocity-when.html',
+  '/guides/pt/escape-velocity-when.html',
+  '/guides/es/escape-velocity-when.html',
+  '/guides/de/escape-velocity-when.html',
+  '/guides/vi/escape-velocity-when.html',
+  '/guides/id/escape-velocity-when.html',
+  '/guides/escape-velocity-vs-alternatives.html',
+  '/guides/pt/escape-velocity-vs-alternatives.html',
+  '/guides/es/escape-velocity-vs-alternatives.html',
+  '/guides/de/escape-velocity-vs-alternatives.html',
+  '/guides/vi/escape-velocity-vs-alternatives.html',
+  '/guides/id/escape-velocity-vs-alternatives.html',
   // play-fps-in-browser-step-by-step locale fanout pt/es/de/vi/id
   // (new-tool-discovery-loop-runbook LEAN one-off fire, guide-support drain
   // per runbook 4b).
@@ -2301,6 +2319,14 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
+  // (EN + pt/es/vi/id/de) - first guide angle for the T. rex viewer.
+  '/guides/how-to-view-tyrannosaurus-rex-in-3d.html',
+  '/guides/pt/how-to-view-tyrannosaurus-rex-in-3d.html',
+  '/guides/es/how-to-view-tyrannosaurus-rex-in-3d.html',
+  '/guides/vi/how-to-view-tyrannosaurus-rex-in-3d.html',
+  '/guides/id/how-to-view-tyrannosaurus-rex-in-3d.html',
+  '/guides/de/how-to-view-tyrannosaurus-rex-in-3d.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -5044,6 +5070,24 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/galilean-moons-vs-alternatives.html',
   '/guides/vi/galilean-moons-vs-alternatives.html',
   '/guides/id/galilean-moons-vs-alternatives.html',
+  '/guides/escape-velocity-step-by-step.html',
+  '/guides/pt/escape-velocity-step-by-step.html',
+  '/guides/es/escape-velocity-step-by-step.html',
+  '/guides/de/escape-velocity-step-by-step.html',
+  '/guides/vi/escape-velocity-step-by-step.html',
+  '/guides/id/escape-velocity-step-by-step.html',
+  '/guides/escape-velocity-when.html',
+  '/guides/pt/escape-velocity-when.html',
+  '/guides/es/escape-velocity-when.html',
+  '/guides/de/escape-velocity-when.html',
+  '/guides/vi/escape-velocity-when.html',
+  '/guides/id/escape-velocity-when.html',
+  '/guides/escape-velocity-vs-alternatives.html',
+  '/guides/pt/escape-velocity-vs-alternatives.html',
+  '/guides/es/escape-velocity-vs-alternatives.html',
+  '/guides/de/escape-velocity-vs-alternatives.html',
+  '/guides/vi/escape-velocity-vs-alternatives.html',
+  '/guides/id/escape-velocity-vs-alternatives.html',
   // play-fps-in-browser-step-by-step locale fanout pt/es/de/vi/id
   // (new-tool-discovery-loop-runbook LEAN one-off fire, guide-support drain
   // per runbook 4b).
@@ -5666,6 +5710,7 @@ export const ALIAS_ROUTES = {
   '/hohmann-transfer.html': '/space-3d/hohmann-transfer.html',
   '/binary-star-system.html': '/space-3d/binary-star-system.html',
   '/galilean-moons.html': '/space-3d/galilean-moons.html',
+  '/escape-velocity.html': '/space-3d/escape-velocity.html',
   '/linux-online.html': '/utility-tools/linux-online.html',
   '/online-linux-terminal.html': '/utility-tools/linux-online.html',
   '/linux-emulator-online.html': '/utility-tools/linux-online.html',
@@ -7756,6 +7801,14 @@ export const JSP_BY_ROUTE = {
   // dinosaur-loop (2026-07-15): /dinosaur-3d cluster members (JSP folder: dinosaur/).
   '/dinosaur-3d/tyrannosaurus-rex.html': 'dinosaur/tyrannosaurus-rex.jsp',
   '/dinosaur-3d/mosasaurus.html': 'dinosaur/mosasaurus.jsp',
+  // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
+  // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
+  '/guides/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/how-to-view-tyrannosaurus-rex-in-3d.jsp',
+  '/guides/pt/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/pt/how-to-view-tyrannosaurus-rex-in-3d.jsp',
+  '/guides/es/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/es/how-to-view-tyrannosaurus-rex-in-3d.jsp',
+  '/guides/vi/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/vi/how-to-view-tyrannosaurus-rex-in-3d.jsp',
+  '/guides/id/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/id/how-to-view-tyrannosaurus-rex-in-3d.jsp',
+  '/guides/de/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/de/how-to-view-tyrannosaurus-rex-in-3d.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
@@ -8090,6 +8143,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/hohmann-transfer.html': 'space/hohmann-transfer.jsp',
   '/space-3d/binary-star-system.html': 'space/binary-star-system.jsp',
   '/space-3d/galilean-moons.html': 'space/galilean-moons.jsp',
+  '/space-3d/escape-velocity.html': 'space/escape-velocity.jsp',
   '/guides/iss-orbit-tracker-when.html': 'guide/iss-orbit-tracker-when.jsp',
   '/guides/iss-orbit-tracker-step-by-step.html': 'guide/iss-orbit-tracker-step-by-step.jsp',
   '/guides/iss-orbit-tracker-vs-alternatives.html': 'guide/iss-orbit-tracker-vs-alternatives.jsp',
@@ -8594,6 +8648,24 @@ export const JSP_BY_ROUTE = {
   '/guides/de/galilean-moons-vs-alternatives.html': 'guide/de/galilean-moons-vs-alternatives.jsp',
   '/guides/vi/galilean-moons-vs-alternatives.html': 'guide/vi/galilean-moons-vs-alternatives.jsp',
   '/guides/id/galilean-moons-vs-alternatives.html': 'guide/id/galilean-moons-vs-alternatives.jsp',
+  '/guides/escape-velocity-step-by-step.html': 'guide/escape-velocity-step-by-step.jsp',
+  '/guides/pt/escape-velocity-step-by-step.html': 'guide/pt/escape-velocity-step-by-step.jsp',
+  '/guides/es/escape-velocity-step-by-step.html': 'guide/es/escape-velocity-step-by-step.jsp',
+  '/guides/de/escape-velocity-step-by-step.html': 'guide/de/escape-velocity-step-by-step.jsp',
+  '/guides/vi/escape-velocity-step-by-step.html': 'guide/vi/escape-velocity-step-by-step.jsp',
+  '/guides/id/escape-velocity-step-by-step.html': 'guide/id/escape-velocity-step-by-step.jsp',
+  '/guides/escape-velocity-when.html': 'guide/escape-velocity-when.jsp',
+  '/guides/pt/escape-velocity-when.html': 'guide/pt/escape-velocity-when.jsp',
+  '/guides/es/escape-velocity-when.html': 'guide/es/escape-velocity-when.jsp',
+  '/guides/de/escape-velocity-when.html': 'guide/de/escape-velocity-when.jsp',
+  '/guides/vi/escape-velocity-when.html': 'guide/vi/escape-velocity-when.jsp',
+  '/guides/id/escape-velocity-when.html': 'guide/id/escape-velocity-when.jsp',
+  '/guides/escape-velocity-vs-alternatives.html': 'guide/escape-velocity-vs-alternatives.jsp',
+  '/guides/pt/escape-velocity-vs-alternatives.html': 'guide/pt/escape-velocity-vs-alternatives.jsp',
+  '/guides/es/escape-velocity-vs-alternatives.html': 'guide/es/escape-velocity-vs-alternatives.jsp',
+  '/guides/de/escape-velocity-vs-alternatives.html': 'guide/de/escape-velocity-vs-alternatives.jsp',
+  '/guides/vi/escape-velocity-vs-alternatives.html': 'guide/vi/escape-velocity-vs-alternatives.jsp',
+  '/guides/id/escape-velocity-vs-alternatives.html': 'guide/id/escape-velocity-vs-alternatives.jsp',
   '/guides/moon-calendar-3d-when.html': 'guide/moon-calendar-3d-when.jsp',
   '/guides/moon-calendar-3d-step-by-step.html': 'guide/moon-calendar-3d-step-by-step.jsp',
   '/guides/moon-calendar-3d-vs-alternatives.html': 'guide/moon-calendar-3d-vs-alternatives.jsp',
