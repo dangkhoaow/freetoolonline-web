@@ -20,6 +20,24 @@ export const INFO_ROUTES = new Set([
   '/guides/text-case-converter-vs-alternatives.html',
   '/guides/text-case-converter-step-by-step.html',
   '/guides/text-case-converter-when.html',
+  // new-tool-discovery-loop-runbook fire165 (LEAN one-off, 2026-07-16):
+  // pt/es/vi/id/de locale fanout for case-converter's 3 EN companion guide
+  // angles (guide-support drain per SS4b contract).
+  '/guides/pt/text-case-converter-when.html',
+  '/guides/pt/text-case-converter-step-by-step.html',
+  '/guides/pt/text-case-converter-vs-alternatives.html',
+  '/guides/es/text-case-converter-when.html',
+  '/guides/es/text-case-converter-step-by-step.html',
+  '/guides/es/text-case-converter-vs-alternatives.html',
+  '/guides/vi/text-case-converter-when.html',
+  '/guides/vi/text-case-converter-step-by-step.html',
+  '/guides/vi/text-case-converter-vs-alternatives.html',
+  '/guides/id/text-case-converter-when.html',
+  '/guides/id/text-case-converter-step-by-step.html',
+  '/guides/id/text-case-converter-vs-alternatives.html',
+  '/guides/de/text-case-converter-when.html',
+  '/guides/de/text-case-converter-step-by-step.html',
+  '/guides/de/text-case-converter-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // pt/es/vi/id/de locale fanout for uuid-generator's 3 EN companion guide
   // angles (owed from fire147; guide-support drain per SS4b contract).
@@ -2585,6 +2603,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/how-to-view-triceratops-in-3d.html',
   '/guides/id/how-to-view-triceratops-in-3d.html',
   '/guides/de/how-to-view-triceratops-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire11 (2026-07-16): triceratops-size-comparison
+  // (EN + pt/es/vi/id/de) - size angle for the Triceratops viewer.
+  '/guides/triceratops-size-comparison.html',
+  '/guides/pt/triceratops-size-comparison.html',
+  '/guides/es/triceratops-size-comparison.html',
+  '/guides/vi/triceratops-size-comparison.html',
+  '/guides/id/triceratops-size-comparison.html',
+  '/guides/de/triceratops-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -6065,6 +6091,8 @@ export const ALIAS_ROUTES = {
   '/allosaurus.html': '/dinosaur-3d/allosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire36 (2026-07-16): flat-slug alias for giganotosaurus.
   '/giganotosaurus.html': '/dinosaur-3d/giganotosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire40 (2026-07-16): flat-slug alias for diplodocus.
+  '/diplodocus.html': '/dinosaur-3d/diplodocus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -8291,6 +8319,10 @@ export const JSP_BY_ROUTE = {
   // dinosaur-3d-discovery-loop-runbook fire36 (2026-07-16): giganotosaurus (theropod archetype,
   // feats.bigHead=true for its proportionally huge skull; Late Cretaceous South American apex predator).
   '/dinosaur-3d/giganotosaurus.html': 'dinosaur/giganotosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire40 (2026-07-16): diplodocus (sauropod archetype,
+  // no tallForelimbs feat -> lower/more level neck posture, differentiating it from the already
+  // shipped Brachiosaurus; the longest-not-tallest sauropod, whip-like tail, Late Jurassic).
+  '/dinosaur-3d/diplodocus.html': 'dinosaur/diplodocus.jsp',
   // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/how-to-view-tyrannosaurus-rex-in-3d.jsp',
@@ -8371,6 +8403,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/how-to-view-triceratops-in-3d.html': 'guide/vi/how-to-view-triceratops-in-3d.jsp',
   '/guides/id/how-to-view-triceratops-in-3d.html': 'guide/id/how-to-view-triceratops-in-3d.jsp',
   '/guides/de/how-to-view-triceratops-in-3d.html': 'guide/de/how-to-view-triceratops-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire11 (2026-07-16): triceratops-size-comparison
+  // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
+  '/guides/triceratops-size-comparison.html': 'guide/triceratops-size-comparison.jsp',
+  '/guides/pt/triceratops-size-comparison.html': 'guide/pt/triceratops-size-comparison.jsp',
+  '/guides/es/triceratops-size-comparison.html': 'guide/es/triceratops-size-comparison.jsp',
+  '/guides/vi/triceratops-size-comparison.html': 'guide/vi/triceratops-size-comparison.jsp',
+  '/guides/id/triceratops-size-comparison.html': 'guide/id/triceratops-size-comparison.jsp',
+  '/guides/de/triceratops-size-comparison.html': 'guide/de/triceratops-size-comparison.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
@@ -10083,6 +10123,24 @@ export const JSP_BY_ROUTE = {
   '/guides/text-case-converter-when.html': 'guide/text-case-converter-when.jsp',
   '/guides/text-case-converter-step-by-step.html': 'guide/text-case-converter-step-by-step.jsp',
   '/guides/text-case-converter-vs-alternatives.html': 'guide/text-case-converter-vs-alternatives.jsp',
+  // new-tool-discovery-loop-runbook fire165 (LEAN one-off, 2026-07-16):
+  // pt/es/vi/id/de locale fanout for case-converter's 3 EN companion guide
+  // angles (guide-support drain per SS4b contract).
+  '/guides/pt/text-case-converter-when.html': 'guide/pt/text-case-converter-when.jsp',
+  '/guides/pt/text-case-converter-step-by-step.html': 'guide/pt/text-case-converter-step-by-step.jsp',
+  '/guides/pt/text-case-converter-vs-alternatives.html': 'guide/pt/text-case-converter-vs-alternatives.jsp',
+  '/guides/es/text-case-converter-when.html': 'guide/es/text-case-converter-when.jsp',
+  '/guides/es/text-case-converter-step-by-step.html': 'guide/es/text-case-converter-step-by-step.jsp',
+  '/guides/es/text-case-converter-vs-alternatives.html': 'guide/es/text-case-converter-vs-alternatives.jsp',
+  '/guides/vi/text-case-converter-when.html': 'guide/vi/text-case-converter-when.jsp',
+  '/guides/vi/text-case-converter-step-by-step.html': 'guide/vi/text-case-converter-step-by-step.jsp',
+  '/guides/vi/text-case-converter-vs-alternatives.html': 'guide/vi/text-case-converter-vs-alternatives.jsp',
+  '/guides/id/text-case-converter-when.html': 'guide/id/text-case-converter-when.jsp',
+  '/guides/id/text-case-converter-step-by-step.html': 'guide/id/text-case-converter-step-by-step.jsp',
+  '/guides/id/text-case-converter-vs-alternatives.html': 'guide/id/text-case-converter-vs-alternatives.jsp',
+  '/guides/de/text-case-converter-when.html': 'guide/de/text-case-converter-when.jsp',
+  '/guides/de/text-case-converter-step-by-step.html': 'guide/de/text-case-converter-step-by-step.jsp',
+  '/guides/de/text-case-converter-vs-alternatives.html': 'guide/de/text-case-converter-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
