@@ -14,6 +14,12 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/hash-generator-sha-256-512-vs-alternatives.html',
+  '/guides/hash-generator-sha-256-512-step-by-step.html',
+  '/guides/hash-generator-sha-256-512-when.html',
+  '/guides/text-case-converter-vs-alternatives.html',
+  '/guides/text-case-converter-step-by-step.html',
+  '/guides/text-case-converter-when.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // pt/es/vi/id/de locale fanout for uuid-generator's 3 EN companion guide
   // angles (owed from fire147; guide-support drain per SS4b contract).
@@ -2431,6 +2437,24 @@ export const INFO_ROUTES = new Set([
   '/guides/es/earth-magnetosphere-vs-alternatives.html',
   '/guides/pt/earth-magnetosphere-vs-alternatives.html',
   '/guides/earth-magnetosphere-vs-alternatives.html',
+  '/guides/de/sunspot-cycle-vs-alternatives.html',
+  '/guides/id/sunspot-cycle-vs-alternatives.html',
+  '/guides/vi/sunspot-cycle-vs-alternatives.html',
+  '/guides/es/sunspot-cycle-vs-alternatives.html',
+  '/guides/pt/sunspot-cycle-vs-alternatives.html',
+  '/guides/sunspot-cycle-vs-alternatives.html',
+  '/guides/de/sunspot-cycle-when.html',
+  '/guides/id/sunspot-cycle-when.html',
+  '/guides/vi/sunspot-cycle-when.html',
+  '/guides/es/sunspot-cycle-when.html',
+  '/guides/pt/sunspot-cycle-when.html',
+  '/guides/sunspot-cycle-when.html',
+  '/guides/de/sunspot-cycle-step-by-step.html',
+  '/guides/id/sunspot-cycle-step-by-step.html',
+  '/guides/vi/sunspot-cycle-step-by-step.html',
+  '/guides/es/sunspot-cycle-step-by-step.html',
+  '/guides/pt/sunspot-cycle-step-by-step.html',
+  '/guides/sunspot-cycle-step-by-step.html',
   '/guides/de/earth-magnetosphere-when.html',
   '/guides/id/earth-magnetosphere-when.html',
   '/guides/vi/earth-magnetosphere-when.html',
@@ -6019,12 +6043,17 @@ export const ALIAS_ROUTES = {
   // dinosaur-3d-discovery-loop-runbook fire7 (2026-07-15): flat-slug alias for brachiosaurus.
   '/brachiosaurus.html': '/dinosaur-3d/brachiosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire14 (2026-07-16): flat-slug alias for ankylosaurus.
+  // (a sibling session's own "fire8" commit had already added this same alias
+  // key to origin/main WITHOUT ever shipping the JSP/CMS bundle - a registry-
+  // only orphan per the G54-JSP forcing example in CLAUDE.md. This fire's own
+  // commit supplies the actual JSP + 7 CMS fragments + mini-pictogram that
+  // make the entry real; kept as one merged alias line, not a duplicate.)
   '/ankylosaurus.html': '/dinosaur-3d/ankylosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire15 (2026-07-16): flat-slug alias for parasaurolophus.
   '/parasaurolophus.html': '/dinosaur-3d/parasaurolophus.html',
-  // fire9 pteranodon
+  // dinosaur-3d-discovery-loop-runbook fire9 (2026-07-16): flat-slug alias for pteranodon.
   '/pteranodon.html': '/dinosaur-3d/pteranodon.html',
-  // dinosaur-3d-discovery-loop-runbook fire18 (2026-07-16): flat-slug alias for allosaurus.
+  // dinosaur-3d-discovery-loop-runbook (2026-07-16): flat-slug alias for allosaurus.
   '/allosaurus.html': '/dinosaur-3d/allosaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
@@ -6127,6 +6156,7 @@ export const ALIAS_ROUTES = {
   '/sun-structure.html': '/space-3d/sun-structure.html',
   '/orbital-velocity.html': '/space-3d/orbital-velocity.html',
   '/earth-magnetosphere.html': '/space-3d/earth-magnetosphere.html',
+  '/sunspot-cycle.html': '/space-3d/sunspot-cycle.html',
   '/linux-online.html': '/utility-tools/linux-online.html',
   '/online-linux-terminal.html': '/utility-tools/linux-online.html',
   '/linux-emulator-online.html': '/utility-tools/linux-online.html',
@@ -6158,6 +6188,8 @@ export const ALIAS_ROUTES = {
   '/document-scanner.html': '/image-tools/document-scanner.html',
   '/jwt-decoder.html': '/developer-tools/jwt-decoder.html',
   '/uuid-generator.html': '/developer-tools/uuid-generator.html',
+  '/hash-generator.html': '/developer-tools/hash-generator.html',
+  '/case-converter.html': '/developer-tools/case-converter.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -8232,15 +8264,18 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/stegosaurus.html': 'dinosaur/stegosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire7 (2026-07-15): brachiosaurus (first shipped sauropod archetype).
   '/dinosaur-3d/brachiosaurus.html': 'dinosaur/brachiosaurus.jsp',
-  // dinosaur-3d-discovery-loop-runbook fire14 (2026-07-16): ankylosaurus (first shipped ankylosaur archetype).
+  // dinosaur-3d-discovery-loop-runbook fire14 (2026-07-16): ankylosaurus (first shipped ankylosaur archetype,
+  // armor + clubTail; reconciled against a concurrent sibling's own independent fire8 ship of the same
+  // species - this content's specimen-level Carpenter 2004 citations + new distinct armor/club click facts
+  // were kept as the richer version; see the ledger for the full reconciliation note).
   '/dinosaur-3d/ankylosaurus.html': 'dinosaur/ankylosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire15 (2026-07-16): parasaurolophus (theropod-body archetype
   // reused generically for a bipedal-capable hadrosaur, `feats.crest` long tube head crest, additively
   // tagged as its own clickable 'crest' part with a dedicated fact).
   '/dinosaur-3d/parasaurolophus.html': 'dinosaur/parasaurolophus.jsp',
-  // fire9 pteranodon
+  // dinosaur-3d-discovery-loop-runbook fire9 (2026-07-16): pteranodon (pterosaur + wings/crest).
   '/dinosaur-3d/pteranodon.html': 'dinosaur/pteranodon.jsp',
-  // dinosaur-3d-discovery-loop-runbook fire18 (2026-07-16): allosaurus (theropod archetype, reuses
+  // dinosaur-3d-discovery-loop-runbook (2026-07-16): allosaurus (theropod archetype, reuses
   // the generic base body with no special feats; Late Jurassic apex predator).
   '/dinosaur-3d/allosaurus.html': 'dinosaur/allosaurus.jsp',
   // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
@@ -8695,6 +8730,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/sun-structure.html': 'space/sun-structure.jsp',
   '/space-3d/orbital-velocity.html': 'space/orbital-velocity.jsp',
   '/space-3d/earth-magnetosphere.html': 'space/earth-magnetosphere.jsp',
+  '/space-3d/sunspot-cycle.html': 'space/sunspot-cycle.jsp',
   '/guides/escape-velocity-step-by-step.html': 'guide/escape-velocity-step-by-step.jsp',
   '/guides/pt/escape-velocity-step-by-step.html': 'guide/pt/escape-velocity-step-by-step.jsp',
   '/guides/es/escape-velocity-step-by-step.html': 'guide/es/escape-velocity-step-by-step.jsp',
@@ -8817,26 +8853,44 @@ export const JSP_BY_ROUTE = {
   '/guides/id/orbital-velocity-when.html': 'guide/id/orbital-velocity-when.jsp',
   '/guides/orbital-velocity-vs-alternatives.html': 'guide/orbital-velocity-vs-alternatives.jsp',
   '/guides/earth-magnetosphere-vs-alternatives.html': 'guide/earth-magnetosphere-vs-alternatives.jsp',
+  '/guides/sunspot-cycle-vs-alternatives.html': 'guide/sunspot-cycle-vs-alternatives.jsp',
+  '/guides/sunspot-cycle-when.html': 'guide/sunspot-cycle-when.jsp',
+  '/guides/sunspot-cycle-step-by-step.html': 'guide/sunspot-cycle-step-by-step.jsp',
   '/guides/earth-magnetosphere-when.html': 'guide/earth-magnetosphere-when.jsp',
   '/guides/earth-magnetosphere-step-by-step.html': 'guide/earth-magnetosphere-step-by-step.jsp',
   '/guides/pt/orbital-velocity-vs-alternatives.html': 'guide/pt/orbital-velocity-vs-alternatives.jsp',
   '/guides/pt/earth-magnetosphere-vs-alternatives.html': 'guide/pt/earth-magnetosphere-vs-alternatives.jsp',
+  '/guides/pt/sunspot-cycle-vs-alternatives.html': 'guide/pt/sunspot-cycle-vs-alternatives.jsp',
+  '/guides/pt/sunspot-cycle-when.html': 'guide/pt/sunspot-cycle-when.jsp',
+  '/guides/pt/sunspot-cycle-step-by-step.html': 'guide/pt/sunspot-cycle-step-by-step.jsp',
   '/guides/pt/earth-magnetosphere-when.html': 'guide/pt/earth-magnetosphere-when.jsp',
   '/guides/pt/earth-magnetosphere-step-by-step.html': 'guide/pt/earth-magnetosphere-step-by-step.jsp',
   '/guides/es/orbital-velocity-vs-alternatives.html': 'guide/es/orbital-velocity-vs-alternatives.jsp',
   '/guides/es/earth-magnetosphere-vs-alternatives.html': 'guide/es/earth-magnetosphere-vs-alternatives.jsp',
+  '/guides/es/sunspot-cycle-vs-alternatives.html': 'guide/es/sunspot-cycle-vs-alternatives.jsp',
+  '/guides/es/sunspot-cycle-when.html': 'guide/es/sunspot-cycle-when.jsp',
+  '/guides/es/sunspot-cycle-step-by-step.html': 'guide/es/sunspot-cycle-step-by-step.jsp',
   '/guides/es/earth-magnetosphere-when.html': 'guide/es/earth-magnetosphere-when.jsp',
   '/guides/es/earth-magnetosphere-step-by-step.html': 'guide/es/earth-magnetosphere-step-by-step.jsp',
   '/guides/de/orbital-velocity-vs-alternatives.html': 'guide/de/orbital-velocity-vs-alternatives.jsp',
   '/guides/de/earth-magnetosphere-vs-alternatives.html': 'guide/de/earth-magnetosphere-vs-alternatives.jsp',
+  '/guides/de/sunspot-cycle-vs-alternatives.html': 'guide/de/sunspot-cycle-vs-alternatives.jsp',
+  '/guides/de/sunspot-cycle-when.html': 'guide/de/sunspot-cycle-when.jsp',
+  '/guides/de/sunspot-cycle-step-by-step.html': 'guide/de/sunspot-cycle-step-by-step.jsp',
   '/guides/de/earth-magnetosphere-when.html': 'guide/de/earth-magnetosphere-when.jsp',
   '/guides/de/earth-magnetosphere-step-by-step.html': 'guide/de/earth-magnetosphere-step-by-step.jsp',
   '/guides/vi/orbital-velocity-vs-alternatives.html': 'guide/vi/orbital-velocity-vs-alternatives.jsp',
   '/guides/vi/earth-magnetosphere-vs-alternatives.html': 'guide/vi/earth-magnetosphere-vs-alternatives.jsp',
+  '/guides/vi/sunspot-cycle-vs-alternatives.html': 'guide/vi/sunspot-cycle-vs-alternatives.jsp',
+  '/guides/vi/sunspot-cycle-when.html': 'guide/vi/sunspot-cycle-when.jsp',
+  '/guides/vi/sunspot-cycle-step-by-step.html': 'guide/vi/sunspot-cycle-step-by-step.jsp',
   '/guides/vi/earth-magnetosphere-when.html': 'guide/vi/earth-magnetosphere-when.jsp',
   '/guides/vi/earth-magnetosphere-step-by-step.html': 'guide/vi/earth-magnetosphere-step-by-step.jsp',
   '/guides/id/orbital-velocity-vs-alternatives.html': 'guide/id/orbital-velocity-vs-alternatives.jsp',
   '/guides/id/earth-magnetosphere-vs-alternatives.html': 'guide/id/earth-magnetosphere-vs-alternatives.jsp',
+  '/guides/id/sunspot-cycle-vs-alternatives.html': 'guide/id/sunspot-cycle-vs-alternatives.jsp',
+  '/guides/id/sunspot-cycle-when.html': 'guide/id/sunspot-cycle-when.jsp',
+  '/guides/id/sunspot-cycle-step-by-step.html': 'guide/id/sunspot-cycle-step-by-step.jsp',
   '/guides/id/earth-magnetosphere-when.html': 'guide/id/earth-magnetosphere-when.jsp',
   '/guides/id/earth-magnetosphere-step-by-step.html': 'guide/id/earth-magnetosphere-step-by-step.jsp',
   '/guides/iss-orbit-tracker-when.html': 'guide/iss-orbit-tracker-when.jsp',
@@ -10000,6 +10054,14 @@ export const JSP_BY_ROUTE = {
   '/guides/uuid-generator-when.html': 'guide/uuid-generator-when.jsp',
   '/guides/uuid-generator-step-by-step.html': 'guide/uuid-generator-step-by-step.jsp',
   '/guides/uuid-generator-vs-alternatives.html': 'guide/uuid-generator-vs-alternatives.jsp',
+  '/developer-tools/hash-generator.html': 'utility/hash-generator.jsp',
+  '/guides/hash-generator-sha-256-512-when.html': 'guide/hash-generator-sha-256-512-when.jsp',
+  '/guides/hash-generator-sha-256-512-step-by-step.html': 'guide/hash-generator-sha-256-512-step-by-step.jsp',
+  '/guides/hash-generator-sha-256-512-vs-alternatives.html': 'guide/hash-generator-sha-256-512-vs-alternatives.jsp',
+  '/developer-tools/case-converter.html': 'utility/case-converter.jsp',
+  '/guides/text-case-converter-when.html': 'guide/text-case-converter-when.jsp',
+  '/guides/text-case-converter-step-by-step.html': 'guide/text-case-converter-step-by-step.jsp',
+  '/guides/text-case-converter-vs-alternatives.html': 'guide/text-case-converter-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
