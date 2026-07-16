@@ -2480,59 +2480,40 @@ export const INFO_ROUTES = new Set([
   '/guides/pt/sunspot-cycle-vs-alternatives.html',
   '/guides/sunspot-cycle-vs-alternatives.html',
   '/guides/de/uranus-tilt-vs-alternatives.html',
-  '/guides/de/roche-limit-vs-alternatives.html': 'guide/de/roche-limit-vs-alternatives.jsp',
   '/guides/de/roche-limit-vs-alternatives.html',
   '/guides/id/uranus-tilt-vs-alternatives.html',
-  '/guides/id/roche-limit-vs-alternatives.html': 'guide/id/roche-limit-vs-alternatives.jsp',
   '/guides/id/roche-limit-vs-alternatives.html',
   '/guides/vi/uranus-tilt-vs-alternatives.html',
-  '/guides/vi/roche-limit-vs-alternatives.html': 'guide/vi/roche-limit-vs-alternatives.jsp',
   '/guides/vi/roche-limit-vs-alternatives.html',
   '/guides/es/uranus-tilt-vs-alternatives.html',
-  '/guides/es/roche-limit-vs-alternatives.html': 'guide/es/roche-limit-vs-alternatives.jsp',
   '/guides/es/roche-limit-vs-alternatives.html',
   '/guides/pt/uranus-tilt-vs-alternatives.html',
-  '/guides/pt/roche-limit-vs-alternatives.html': 'guide/pt/roche-limit-vs-alternatives.jsp',
   '/guides/pt/roche-limit-vs-alternatives.html',
   '/guides/uranus-tilt-vs-alternatives.html',
-  '/guides/roche-limit-vs-alternatives.html': 'guide/roche-limit-vs-alternatives.jsp',
   '/guides/roche-limit-vs-alternatives.html',
-SKIP
   '/guides/de/uranus-tilt-when.html',
-  '/guides/de/roche-limit-when.html': 'guide/de/roche-limit-when.jsp',
   '/guides/de/roche-limit-when.html',
   '/guides/id/uranus-tilt-when.html',
-  '/guides/id/roche-limit-when.html': 'guide/id/roche-limit-when.jsp',
   '/guides/id/roche-limit-when.html',
   '/guides/vi/uranus-tilt-when.html',
-  '/guides/vi/roche-limit-when.html': 'guide/vi/roche-limit-when.jsp',
   '/guides/vi/roche-limit-when.html',
   '/guides/es/uranus-tilt-when.html',
-  '/guides/es/roche-limit-when.html': 'guide/es/roche-limit-when.jsp',
   '/guides/es/roche-limit-when.html',
   '/guides/pt/uranus-tilt-when.html',
-  '/guides/pt/roche-limit-when.html': 'guide/pt/roche-limit-when.jsp',
   '/guides/pt/roche-limit-when.html',
   '/guides/uranus-tilt-when.html',
-  '/guides/roche-limit-when.html': 'guide/roche-limit-when.jsp',
   '/guides/roche-limit-when.html',
   '/guides/de/uranus-tilt-step-by-step.html',
-  '/guides/de/roche-limit-step-by-step.html': 'guide/de/roche-limit-step-by-step.jsp',
   '/guides/de/roche-limit-step-by-step.html',
   '/guides/id/uranus-tilt-step-by-step.html',
-  '/guides/id/roche-limit-step-by-step.html': 'guide/id/roche-limit-step-by-step.jsp',
   '/guides/id/roche-limit-step-by-step.html',
   '/guides/vi/uranus-tilt-step-by-step.html',
-  '/guides/vi/roche-limit-step-by-step.html': 'guide/vi/roche-limit-step-by-step.jsp',
   '/guides/vi/roche-limit-step-by-step.html',
   '/guides/es/uranus-tilt-step-by-step.html',
-  '/guides/es/roche-limit-step-by-step.html': 'guide/es/roche-limit-step-by-step.jsp',
   '/guides/es/roche-limit-step-by-step.html',
   '/guides/pt/uranus-tilt-step-by-step.html',
-  '/guides/pt/roche-limit-step-by-step.html': 'guide/pt/roche-limit-step-by-step.jsp',
   '/guides/pt/roche-limit-step-by-step.html',
   '/guides/uranus-tilt-step-by-step.html',
-  '/guides/roche-limit-step-by-step.html': 'guide/roche-limit-step-by-step.jsp',
   '/guides/roche-limit-step-by-step.html',
   '/guides/de/sunspot-cycle-when.html',
   '/guides/id/sunspot-cycle-when.html',
@@ -6188,6 +6169,8 @@ export const ALIAS_ROUTES = {
   '/carnotaurus.html': '/dinosaur-3d/carnotaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire58 (2026-07-16): flat-slug alias for dilophosaurus.
   '/dilophosaurus.html': '/dinosaur-3d/dilophosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire59 (2026-07-16): flat-slug alias for iguanodon.
+  '/iguanodon.html': '/dinosaur-3d/iguanodon.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -8434,6 +8417,12 @@ export const JSP_BY_ROUTE = {
   // with an additive twin-fin-crest rewrite of feats.crest, scoped to this page's
   // own copy of buildHead() only.
   '/dinosaur-3d/dilophosaurus.html': 'dinosaur/dilophosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire59 (2026-07-16): Iguanodon - large
+  // herbivorous ornithopod, one of the first 3 dinosaur genera ever named (1825);
+  // theropod archetype (generic bipedal/quadrupedal body) with a NEW additive
+  // feats.thumbSpike flag (conical hand spike) on makeArm(), scoped to this
+  // page's own copy only - no existing feats flag targeted the hand/forelimb.
+  '/dinosaur-3d/iguanodon.html': 'dinosaur/iguanodon.jsp',
   // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/how-to-view-tyrannosaurus-rex-in-3d.jsp',
@@ -8921,6 +8910,31 @@ export const JSP_BY_ROUTE = {
   '/space-3d/sunspot-cycle.html': 'space/sunspot-cycle.jsp',
   '/space-3d/uranus-tilt.html': 'space/uranus-tilt.jsp',
   '/space-3d/roche-limit.html': 'space/roche-limit.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire62 (2026-07-16): recovery fix for a
+  // pre-existing Lane A (space-3d fire46) merge defect - these 18 roche-limit
+  // guide JSP_BY_ROUTE entries had been mis-merged as key:value pairs into the
+  // INFO_ROUTES Set literal (a plain array of bare strings), which is invalid
+  // syntax there (breaks the WHOLE site-data.mjs module for every lane). The
+  // JSP wrapper files already exist on disk for all 18; only the registry
+  // wiring was missing/misplaced. Moved here verbatim, no content changed.
+  '/guides/roche-limit-vs-alternatives.html': 'guide/roche-limit-vs-alternatives.jsp',
+  '/guides/pt/roche-limit-vs-alternatives.html': 'guide/pt/roche-limit-vs-alternatives.jsp',
+  '/guides/es/roche-limit-vs-alternatives.html': 'guide/es/roche-limit-vs-alternatives.jsp',
+  '/guides/de/roche-limit-vs-alternatives.html': 'guide/de/roche-limit-vs-alternatives.jsp',
+  '/guides/vi/roche-limit-vs-alternatives.html': 'guide/vi/roche-limit-vs-alternatives.jsp',
+  '/guides/id/roche-limit-vs-alternatives.html': 'guide/id/roche-limit-vs-alternatives.jsp',
+  '/guides/roche-limit-when.html': 'guide/roche-limit-when.jsp',
+  '/guides/pt/roche-limit-when.html': 'guide/pt/roche-limit-when.jsp',
+  '/guides/es/roche-limit-when.html': 'guide/es/roche-limit-when.jsp',
+  '/guides/de/roche-limit-when.html': 'guide/de/roche-limit-when.jsp',
+  '/guides/vi/roche-limit-when.html': 'guide/vi/roche-limit-when.jsp',
+  '/guides/id/roche-limit-when.html': 'guide/id/roche-limit-when.jsp',
+  '/guides/roche-limit-step-by-step.html': 'guide/roche-limit-step-by-step.jsp',
+  '/guides/pt/roche-limit-step-by-step.html': 'guide/pt/roche-limit-step-by-step.jsp',
+  '/guides/es/roche-limit-step-by-step.html': 'guide/es/roche-limit-step-by-step.jsp',
+  '/guides/de/roche-limit-step-by-step.html': 'guide/de/roche-limit-step-by-step.jsp',
+  '/guides/vi/roche-limit-step-by-step.html': 'guide/vi/roche-limit-step-by-step.jsp',
+  '/guides/id/roche-limit-step-by-step.html': 'guide/id/roche-limit-step-by-step.jsp',
   '/guides/escape-velocity-step-by-step.html': 'guide/escape-velocity-step-by-step.jsp',
   '/guides/pt/escape-velocity-step-by-step.html': 'guide/pt/escape-velocity-step-by-step.jsp',
   '/guides/es/escape-velocity-step-by-step.html': 'guide/es/escape-velocity-step-by-step.jsp',
