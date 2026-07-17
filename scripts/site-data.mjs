@@ -3490,6 +3490,22 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/giganotosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/id/giganotosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/de/giganotosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire37 (2026-07-17): how-to-view-diplodocus-in-3d
+  // EN + pt/es/vi/id/de companion guides (how-to)
+  '/guides/how-to-view-diplodocus-in-3d.html',
+  '/guides/pt/how-to-view-diplodocus-in-3d.html',
+  '/guides/es/how-to-view-diplodocus-in-3d.html',
+  '/guides/vi/how-to-view-diplodocus-in-3d.html',
+  '/guides/id/how-to-view-diplodocus-in-3d.html',
+  '/guides/de/how-to-view-diplodocus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire38 (2026-07-17): diplodocus-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/diplodocus-size-comparison.html',
+  '/guides/pt/diplodocus-size-comparison.html',
+  '/guides/es/diplodocus-size-comparison.html',
+  '/guides/vi/diplodocus-size-comparison.html',
+  '/guides/id/diplodocus-size-comparison.html',
+  '/guides/de/diplodocus-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -7015,6 +7031,8 @@ export const ALIAS_ROUTES = {
   '/utahraptor.html': '/dinosaur-3d/utahraptor.html',
   // dinosaur-3d-discovery-loop-runbook fire69 (2026-07-17): flat-slug alias for baryonyx.
   '/baryonyx.html': '/dinosaur-3d/baryonyx.html',
+  // dinosaur-3d-discovery-loop-runbook fire71 (2026-07-17): flat-slug alias for pachyrhinosaurus.
+  '/pachyrhinosaurus.html': '/dinosaur-3d/pachyrhinosaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -9327,6 +9345,13 @@ export const JSP_BY_ROUTE = {
   // sibling of the shipped Spinosaurus, distinct discovery story (1983 Surrey,
   // England clay pit) + no sail + the "heavy claw" giant thumb-claw anatomy.
   '/dinosaur-3d/baryonyx.html': 'dinosaur/baryonyx.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire71 (2026-07-17): Pachyrhinosaurus viewer -
+  // ceratopsian archetype (same code path already shipped for triceratops), feats
+  // {frill:true, horns:false} to reflect the real nasal boss instead of brow horns.
+  // Model-ready this fire: license-clean glTF ALREADY published in the ftol-vm-assets
+  // manifest (SUMO STUDIOS, CC-BY 4.0, via OpenGameArt) - ships with a real model, no
+  // BLOCKED_NO_MODEL parking needed.
+  '/dinosaur-3d/pachyrhinosaurus.html': 'dinosaur/pachyrhinosaurus.jsp',
   // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/how-to-view-tyrannosaurus-rex-in-3d.jsp',
@@ -9615,6 +9640,22 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/giganotosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/giganotosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/giganotosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/giganotosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/giganotosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/giganotosaurus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire37 (2026-07-17): how-to-view-diplodocus-in-3d
+  // EN + pt/es/vi/id/de JSP wrappers
+  '/guides/how-to-view-diplodocus-in-3d.html': 'guide/how-to-view-diplodocus-in-3d.jsp',
+  '/guides/pt/how-to-view-diplodocus-in-3d.html': 'guide/pt/how-to-view-diplodocus-in-3d.jsp',
+  '/guides/es/how-to-view-diplodocus-in-3d.html': 'guide/es/how-to-view-diplodocus-in-3d.jsp',
+  '/guides/vi/how-to-view-diplodocus-in-3d.html': 'guide/vi/how-to-view-diplodocus-in-3d.jsp',
+  '/guides/id/how-to-view-diplodocus-in-3d.html': 'guide/id/how-to-view-diplodocus-in-3d.jsp',
+  '/guides/de/how-to-view-diplodocus-in-3d.html': 'guide/de/how-to-view-diplodocus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire38 (2026-07-17): diplodocus-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/diplodocus-size-comparison.html': 'guide/diplodocus-size-comparison.jsp',
+  '/guides/pt/diplodocus-size-comparison.html': 'guide/pt/diplodocus-size-comparison.jsp',
+  '/guides/es/diplodocus-size-comparison.html': 'guide/es/diplodocus-size-comparison.jsp',
+  '/guides/vi/diplodocus-size-comparison.html': 'guide/vi/diplodocus-size-comparison.jsp',
+  '/guides/id/diplodocus-size-comparison.html': 'guide/id/diplodocus-size-comparison.jsp',
+  '/guides/de/diplodocus-size-comparison.html': 'guide/de/diplodocus-size-comparison.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
