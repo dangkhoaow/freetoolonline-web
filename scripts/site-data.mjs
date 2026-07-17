@@ -5286,6 +5286,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/how-to-play-space-pi-defense.html',
   '/guides/de/space-pi-defense-when.html',
   '/guides/de/space-pi-defense-vs-alternatives.html',
+  // game-discovery-loop-runbook fire123 (2026-07-17): mono-paddle-duel companion guides
+  '/guides/how-to-play-mono-paddle-duel.html',
+  '/guides/mono-paddle-duel-when.html',
+  '/guides/mono-paddle-duel-vs-alternatives.html',
+  '/guides/pt/how-to-play-mono-paddle-duel.html',
+  '/guides/pt/mono-paddle-duel-when.html',
+  '/guides/pt/mono-paddle-duel-vs-alternatives.html',
+  '/guides/es/how-to-play-mono-paddle-duel.html',
+  '/guides/es/mono-paddle-duel-when.html',
+  '/guides/es/mono-paddle-duel-vs-alternatives.html',
+  '/guides/vi/how-to-play-mono-paddle-duel.html',
+  '/guides/vi/mono-paddle-duel-when.html',
+  '/guides/vi/mono-paddle-duel-vs-alternatives.html',
+  '/guides/id/how-to-play-mono-paddle-duel.html',
+  '/guides/id/mono-paddle-duel-when.html',
+  '/guides/id/mono-paddle-duel-vs-alternatives.html',
+  '/guides/de/how-to-play-mono-paddle-duel.html',
+  '/guides/de/mono-paddle-duel-when.html',
+  '/guides/de/mono-paddle-duel-vs-alternatives.html',
 
 
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle
@@ -7484,6 +7503,7 @@ export const ALIAS_ROUTES = {
   '/neon-energy-arena.html': '/games/neon-energy-arena.html',
   '/mono-minefield-grid.html': '/games/mono-minefield-grid.html',
   '/space-pi-defense.html': '/games/space-pi-defense.html',
+  '/mono-paddle-duel.html': '/games/mono-paddle-duel.html',
 
   '/gravity-orbit-golf.html': '/games/gravity-orbit-golf.html',
 
@@ -9054,6 +9074,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/how-to-play-space-pi-defense.html': 'guide/de/how-to-play-space-pi-defense.jsp',
   '/guides/de/space-pi-defense-when.html': 'guide/de/space-pi-defense-when.jsp',
   '/guides/de/space-pi-defense-vs-alternatives.html': 'guide/de/space-pi-defense-vs-alternatives.jsp',
+  // game-discovery-loop-runbook fire123 (2026-07-17): mono-paddle-duel companion guides
+  '/guides/how-to-play-mono-paddle-duel.html': 'guide/how-to-play-mono-paddle-duel.jsp',
+  '/guides/mono-paddle-duel-when.html': 'guide/mono-paddle-duel-when.jsp',
+  '/guides/mono-paddle-duel-vs-alternatives.html': 'guide/mono-paddle-duel-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-mono-paddle-duel.html': 'guide/pt/how-to-play-mono-paddle-duel.jsp',
+  '/guides/pt/mono-paddle-duel-when.html': 'guide/pt/mono-paddle-duel-when.jsp',
+  '/guides/pt/mono-paddle-duel-vs-alternatives.html': 'guide/pt/mono-paddle-duel-vs-alternatives.jsp',
+  '/guides/es/how-to-play-mono-paddle-duel.html': 'guide/es/how-to-play-mono-paddle-duel.jsp',
+  '/guides/es/mono-paddle-duel-when.html': 'guide/es/mono-paddle-duel-when.jsp',
+  '/guides/es/mono-paddle-duel-vs-alternatives.html': 'guide/es/mono-paddle-duel-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-mono-paddle-duel.html': 'guide/vi/how-to-play-mono-paddle-duel.jsp',
+  '/guides/vi/mono-paddle-duel-when.html': 'guide/vi/mono-paddle-duel-when.jsp',
+  '/guides/vi/mono-paddle-duel-vs-alternatives.html': 'guide/vi/mono-paddle-duel-vs-alternatives.jsp',
+  '/guides/id/how-to-play-mono-paddle-duel.html': 'guide/id/how-to-play-mono-paddle-duel.jsp',
+  '/guides/id/mono-paddle-duel-when.html': 'guide/id/mono-paddle-duel-when.jsp',
+  '/guides/id/mono-paddle-duel-vs-alternatives.html': 'guide/id/mono-paddle-duel-vs-alternatives.jsp',
+  '/guides/de/how-to-play-mono-paddle-duel.html': 'guide/de/how-to-play-mono-paddle-duel.jsp',
+  '/guides/de/mono-paddle-duel-when.html': 'guide/de/mono-paddle-duel-when.jsp',
+  '/guides/de/mono-paddle-duel-vs-alternatives.html': 'guide/de/mono-paddle-duel-vs-alternatives.jsp',
 
 
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle guides
@@ -10488,6 +10527,7 @@ export const JSP_BY_ROUTE = {
   '/games/neon-energy-arena.html': 'games/neon-energy-arena.jsp',
   '/games/mono-minefield-grid.html': 'games/mono-minefield-grid.jsp',
   '/games/space-pi-defense.html': 'games/space-pi-defense.jsp',
+  '/games/mono-paddle-duel.html': 'games/mono-paddle-duel.jsp',
   '/games/asteroid-blaster.html': 'games/asteroid-blaster.jsp',
   '/games/hex-puzzle-blocks.html': 'games/hex-puzzle-blocks.jsp',
   '/games/procedural-horde-game.html': 'games/procedural-horde-game.jsp',
