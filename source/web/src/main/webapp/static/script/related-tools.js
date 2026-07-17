@@ -354,6 +354,7 @@ try {
     { title: "Deinonychus 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/deinonychus.html", include: !1, tags: "dinosaur-3d" },
     { title: "Utahraptor 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/utahraptor.html", include: !1, tags: "dinosaur-3d" },
     { title: "Baryonyx 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/baryonyx.html", include: !1, tags: "dinosaur-3d" },
+    { title: "Plesiosaurus 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/plesiosaurus.html", include: !1, tags: "dinosaur-3d" },
     { title: "Pachyrhinosaurus 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/pachyrhinosaurus.html", include: !1, tags: "dinosaur-3d" },
     { title: "Ground Sloth (Megatherium) 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/ground-sloth.html", include: !1, tags: "dinosaur-3d" },
     { title: "Ichthyosaurus 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/ichthyosaurus.html", include: !1, tags: "dinosaur-3d" },

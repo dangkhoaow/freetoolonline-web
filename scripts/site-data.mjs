@@ -7684,6 +7684,8 @@ export const ALIAS_ROUTES = {
   '/utahraptor.html': '/dinosaur-3d/utahraptor.html',
   // dinosaur-3d-discovery-loop-runbook fire69 (2026-07-17): flat-slug alias for baryonyx.
   '/baryonyx.html': '/dinosaur-3d/baryonyx.html',
+  // dinosaur-3d-discovery-loop-runbook fire70 (2026-07-17): flat-slug alias for plesiosaurus.
+  '/plesiosaurus.html': '/dinosaur-3d/plesiosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire71 (2026-07-17): flat-slug alias for pachyrhinosaurus.
   '/pachyrhinosaurus.html': '/dinosaur-3d/pachyrhinosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire72 (2026-07-17): flat-slug alias for ground-sloth.
@@ -10323,6 +10325,12 @@ export const JSP_BY_ROUTE = {
   // sibling of the shipped Spinosaurus, distinct discovery story (1983 Surrey,
   // England clay pit) + no sail + the "heavy claw" giant thumb-claw anatomy.
   '/dinosaur-3d/baryonyx.html': 'dinosaur/baryonyx.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire70 (2026-07-17): Plesiosaurus viewer -
+  // a marine reptile (not a dinosaur) with a genuinely different body shape from
+  // the shipped Mosasaurus: short round torso, extremely long flexible neck, tiny
+  // head, no tail fluke. New additive `longNeck` branch on the marine archetype
+  // (existing mosasaur branch untouched).
+  '/dinosaur-3d/plesiosaurus.html': 'dinosaur/plesiosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire71 (2026-07-17): Pachyrhinosaurus viewer -
   // ceratopsian archetype (same code path already shipped for triceratops), feats
   // {frill:true, horns:false} to reflect the real nasal boss instead of brow horns.
