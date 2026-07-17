@@ -14,6 +14,28 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/video-splitter-vs-alternatives.html',
+  '/guides/video-splitter-step-by-step.html',
+  '/guides/video-splitter-when.html',
+  // new-tool-discovery-loop-runbook fire252 (ship-pending resume, 2026-07-17):
+  // video-splitter guide locale fanout (guide_locale_fanout units video-splitter-
+  // when/-step-by-step/-vs-alternatives-guides) - 3 EN angles x pt/es/vi/id/de,
+  // paraphrased from tool-videosplitter/SKILL.md framing menu only.
+  '/guides/pt/video-splitter-when.html',
+  '/guides/pt/video-splitter-step-by-step.html',
+  '/guides/pt/video-splitter-vs-alternatives.html',
+  '/guides/es/video-splitter-when.html',
+  '/guides/es/video-splitter-step-by-step.html',
+  '/guides/es/video-splitter-vs-alternatives.html',
+  '/guides/vi/video-splitter-when.html',
+  '/guides/vi/video-splitter-step-by-step.html',
+  '/guides/vi/video-splitter-vs-alternatives.html',
+  '/guides/id/video-splitter-when.html',
+  '/guides/id/video-splitter-step-by-step.html',
+  '/guides/id/video-splitter-vs-alternatives.html',
+  '/guides/de/video-splitter-when.html',
+  '/guides/de/video-splitter-step-by-step.html',
+  '/guides/de/video-splitter-vs-alternatives.html',
   '/guides/age-calculator-vs-alternatives.html',
   '/guides/ai-photo-restoration-when.html',
   '/guides/ai-photo-restoration-step-by-step.html',
@@ -7091,6 +7113,7 @@ export const ALIAS_ROUTES = {
   '/passport-photo-maker.html': '/image-tools/passport-photo-maker.html',
   '/age-calculator.html': '/utility-tools/age-calculator.html',
   '/photo-restoration.html': '/image-tools/photo-restoration.html',
+  '/video-splitter.html': '/video-tools/video-splitter.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -11870,6 +11893,25 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/image-text-ocr-vs-alternatives.html': 'guide/vi/image-text-ocr-vs-alternatives.jsp',
   '/guides/id/image-text-ocr-vs-alternatives.html': 'guide/id/image-text-ocr-vs-alternatives.jsp',
   '/guides/de/image-text-ocr-vs-alternatives.html': 'guide/de/image-text-ocr-vs-alternatives.jsp',
+  '/video-tools/video-splitter.html': 'convert/video-splitter.jsp',
+  '/guides/video-splitter-when.html': 'guide/video-splitter-when.jsp',
+  '/guides/video-splitter-step-by-step.html': 'guide/video-splitter-step-by-step.jsp',
+  '/guides/video-splitter-vs-alternatives.html': 'guide/video-splitter-vs-alternatives.jsp',
+  '/guides/pt/video-splitter-when.html': 'guide/pt/video-splitter-when.jsp',
+  '/guides/pt/video-splitter-step-by-step.html': 'guide/pt/video-splitter-step-by-step.jsp',
+  '/guides/pt/video-splitter-vs-alternatives.html': 'guide/pt/video-splitter-vs-alternatives.jsp',
+  '/guides/es/video-splitter-when.html': 'guide/es/video-splitter-when.jsp',
+  '/guides/es/video-splitter-step-by-step.html': 'guide/es/video-splitter-step-by-step.jsp',
+  '/guides/es/video-splitter-vs-alternatives.html': 'guide/es/video-splitter-vs-alternatives.jsp',
+  '/guides/vi/video-splitter-when.html': 'guide/vi/video-splitter-when.jsp',
+  '/guides/vi/video-splitter-step-by-step.html': 'guide/vi/video-splitter-step-by-step.jsp',
+  '/guides/vi/video-splitter-vs-alternatives.html': 'guide/vi/video-splitter-vs-alternatives.jsp',
+  '/guides/id/video-splitter-when.html': 'guide/id/video-splitter-when.jsp',
+  '/guides/id/video-splitter-step-by-step.html': 'guide/id/video-splitter-step-by-step.jsp',
+  '/guides/id/video-splitter-vs-alternatives.html': 'guide/id/video-splitter-vs-alternatives.jsp',
+  '/guides/de/video-splitter-when.html': 'guide/de/video-splitter-when.jsp',
+  '/guides/de/video-splitter-step-by-step.html': 'guide/de/video-splitter-step-by-step.jsp',
+  '/guides/de/video-splitter-vs-alternatives.html': 'guide/de/video-splitter-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
