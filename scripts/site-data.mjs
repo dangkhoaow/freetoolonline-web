@@ -5511,6 +5511,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/how-to-play-pipe-rotate-puzzle.html',
   '/guides/de/pipe-rotate-puzzle-when.html',
   '/guides/de/pipe-rotate-puzzle-vs-alternatives.html',
+  // game-discovery-loop-runbook fire130 (2026-07-18): black-hole-square companion guides
+  '/guides/how-to-play-black-hole-square.html',
+  '/guides/black-hole-square-when.html',
+  '/guides/black-hole-square-vs-alternatives.html',
+  '/guides/pt/how-to-play-black-hole-square.html',
+  '/guides/pt/black-hole-square-when.html',
+  '/guides/pt/black-hole-square-vs-alternatives.html',
+  '/guides/es/how-to-play-black-hole-square.html',
+  '/guides/es/black-hole-square-when.html',
+  '/guides/es/black-hole-square-vs-alternatives.html',
+  '/guides/vi/how-to-play-black-hole-square.html',
+  '/guides/vi/black-hole-square-when.html',
+  '/guides/vi/black-hole-square-vs-alternatives.html',
+  '/guides/id/how-to-play-black-hole-square.html',
+  '/guides/id/black-hole-square-when.html',
+  '/guides/id/black-hole-square-vs-alternatives.html',
+  '/guides/de/how-to-play-black-hole-square.html',
+  '/guides/de/black-hole-square-when.html',
+  '/guides/de/black-hole-square-vs-alternatives.html',
 
 
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle
@@ -7719,6 +7738,7 @@ export const ALIAS_ROUTES = {
   '/mono-stack-blocks.html': '/games/mono-stack-blocks.html',
   '/mono-grid-duel.html': '/games/mono-grid-duel.html',
   '/pipe-rotate-puzzle.html': '/games/pipe-rotate-puzzle.html',
+  '/black-hole-square.html': '/games/black-hole-square.html',
 
   '/gravity-orbit-golf.html': '/games/gravity-orbit-golf.html',
 
@@ -9413,6 +9433,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/how-to-play-pipe-rotate-puzzle.html': 'guide/de/how-to-play-pipe-rotate-puzzle.jsp',
   '/guides/de/pipe-rotate-puzzle-when.html': 'guide/de/pipe-rotate-puzzle-when.jsp',
   '/guides/de/pipe-rotate-puzzle-vs-alternatives.html': 'guide/de/pipe-rotate-puzzle-vs-alternatives.jsp',
+  // game-discovery-loop-runbook fire130 (2026-07-18): black-hole-square companion guides
+  '/guides/how-to-play-black-hole-square.html': 'guide/how-to-play-black-hole-square.jsp',
+  '/guides/black-hole-square-when.html': 'guide/black-hole-square-when.jsp',
+  '/guides/black-hole-square-vs-alternatives.html': 'guide/black-hole-square-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-black-hole-square.html': 'guide/pt/how-to-play-black-hole-square.jsp',
+  '/guides/pt/black-hole-square-when.html': 'guide/pt/black-hole-square-when.jsp',
+  '/guides/pt/black-hole-square-vs-alternatives.html': 'guide/pt/black-hole-square-vs-alternatives.jsp',
+  '/guides/es/how-to-play-black-hole-square.html': 'guide/es/how-to-play-black-hole-square.jsp',
+  '/guides/es/black-hole-square-when.html': 'guide/es/black-hole-square-when.jsp',
+  '/guides/es/black-hole-square-vs-alternatives.html': 'guide/es/black-hole-square-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-black-hole-square.html': 'guide/vi/how-to-play-black-hole-square.jsp',
+  '/guides/vi/black-hole-square-when.html': 'guide/vi/black-hole-square-when.jsp',
+  '/guides/vi/black-hole-square-vs-alternatives.html': 'guide/vi/black-hole-square-vs-alternatives.jsp',
+  '/guides/id/how-to-play-black-hole-square.html': 'guide/id/how-to-play-black-hole-square.jsp',
+  '/guides/id/black-hole-square-when.html': 'guide/id/black-hole-square-when.jsp',
+  '/guides/id/black-hole-square-vs-alternatives.html': 'guide/id/black-hole-square-vs-alternatives.jsp',
+  '/guides/de/how-to-play-black-hole-square.html': 'guide/de/how-to-play-black-hole-square.jsp',
+  '/guides/de/black-hole-square-when.html': 'guide/de/black-hole-square-when.jsp',
+  '/guides/de/black-hole-square-vs-alternatives.html': 'guide/de/black-hole-square-vs-alternatives.jsp',
 
 
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle guides
@@ -10869,6 +10908,7 @@ export const JSP_BY_ROUTE = {
   '/games/mono-stack-blocks.html': 'games/mono-stack-blocks.jsp',
   '/games/mono-grid-duel.html': 'games/mono-grid-duel.jsp',
   '/games/pipe-rotate-puzzle.html': 'games/pipe-rotate-puzzle.jsp',
+  '/games/black-hole-square.html': 'games/black-hole-square.jsp',
   '/games/asteroid-blaster.html': 'games/asteroid-blaster.jsp',
   '/games/hex-puzzle-blocks.html': 'games/hex-puzzle-blocks.jsp',
   '/games/procedural-horde-game.html': 'games/procedural-horde-game.jsp',
