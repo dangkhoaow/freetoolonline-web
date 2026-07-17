@@ -3366,6 +3366,22 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/pteranodon-3d-viewer-vs-ar-apps.html',
   '/guides/id/pteranodon-3d-viewer-vs-ar-apps.html',
   '/guides/de/pteranodon-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire31 (2026-07-17): how-to-view-allosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides (step-by-step)
+  '/guides/how-to-view-allosaurus-in-3d.html',
+  '/guides/pt/how-to-view-allosaurus-in-3d.html',
+  '/guides/es/how-to-view-allosaurus-in-3d.html',
+  '/guides/vi/how-to-view-allosaurus-in-3d.html',
+  '/guides/id/how-to-view-allosaurus-in-3d.html',
+  '/guides/de/how-to-view-allosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire32 (2026-07-17): allosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/allosaurus-size-comparison.html',
+  '/guides/pt/allosaurus-size-comparison.html',
+  '/guides/es/allosaurus-size-comparison.html',
+  '/guides/vi/allosaurus-size-comparison.html',
+  '/guides/id/allosaurus-size-comparison.html',
+  '/guides/de/allosaurus-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -6887,6 +6903,8 @@ export const ALIAS_ROUTES = {
   '/therizinosaurus.html': '/dinosaur-3d/therizinosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): flat-slug alias for deinonychus.
   '/deinonychus.html': '/dinosaur-3d/deinonychus.html',
+  // dinosaur-3d-discovery-loop-runbook fire68 (2026-07-17): flat-slug alias for utahraptor.
+  '/utahraptor.html': '/dinosaur-3d/utahraptor.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -9190,6 +9208,7 @@ export const JSP_BY_ROUTE = {
   // archetype branch or feature flag required; the real, larger dromaeosaurid
   // that Jurassic Park's on-screen "Velociraptor" was actually sized on.
   '/dinosaur-3d/deinonychus.html': 'dinosaur/deinonychus.jsp',
+  '/dinosaur-3d/utahraptor.html': 'dinosaur/utahraptor.jsp',
   // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/how-to-view-tyrannosaurus-rex-in-3d.jsp',
@@ -9430,6 +9449,22 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/pteranodon-3d-viewer-vs-ar-apps.html': 'guide/vi/pteranodon-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/pteranodon-3d-viewer-vs-ar-apps.html': 'guide/id/pteranodon-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/pteranodon-3d-viewer-vs-ar-apps.html': 'guide/de/pteranodon-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire31 (2026-07-17): how-to-view-allosaurus-in-3d
+  // EN + pt/es/vi/id/de JSP wrappers
+  '/guides/how-to-view-allosaurus-in-3d.html': 'guide/how-to-view-allosaurus-in-3d.jsp',
+  '/guides/pt/how-to-view-allosaurus-in-3d.html': 'guide/pt/how-to-view-allosaurus-in-3d.jsp',
+  '/guides/es/how-to-view-allosaurus-in-3d.html': 'guide/es/how-to-view-allosaurus-in-3d.jsp',
+  '/guides/vi/how-to-view-allosaurus-in-3d.html': 'guide/vi/how-to-view-allosaurus-in-3d.jsp',
+  '/guides/id/how-to-view-allosaurus-in-3d.html': 'guide/id/how-to-view-allosaurus-in-3d.jsp',
+  '/guides/de/how-to-view-allosaurus-in-3d.html': 'guide/de/how-to-view-allosaurus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire32 (2026-07-17): allosaurus-size-comparison
+  // EN + pt/es/vi/id/de JSP wrappers
+  '/guides/allosaurus-size-comparison.html': 'guide/allosaurus-size-comparison.jsp',
+  '/guides/pt/allosaurus-size-comparison.html': 'guide/pt/allosaurus-size-comparison.jsp',
+  '/guides/es/allosaurus-size-comparison.html': 'guide/es/allosaurus-size-comparison.jsp',
+  '/guides/vi/allosaurus-size-comparison.html': 'guide/vi/allosaurus-size-comparison.jsp',
+  '/guides/id/allosaurus-size-comparison.html': 'guide/id/allosaurus-size-comparison.jsp',
+  '/guides/de/allosaurus-size-comparison.html': 'guide/de/allosaurus-size-comparison.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
