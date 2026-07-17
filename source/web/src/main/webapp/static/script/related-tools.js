@@ -482,6 +482,7 @@ try {
     { title: "Stellar Nucleosynthesis 3D Explorer", url: "https://freetoolonline.com/space-3d/stellar-nucleosynthesis.html", include: !1, tags: "space-3d" },
     { title: "Moon Libration 3D Explorer", url: "https://freetoolonline.com/space-3d/moon-libration.html", include: !1, tags: "space-3d" },
     { title: "Tidal Disruption Event 3D Explorer", url: "https://freetoolonline.com/space-3d/tidal-disruption-event.html", include: !1, tags: "space-3d" },
+    { title: "Sunspot Magnetic Loops 3D Explorer", url: "https://freetoolonline.com/space-3d/sunspot-magnetic-loops.html", include: !1, tags: "space-3d" },
     { title: "Solar Eclipse 3D Explorer", url: "https://freetoolonline.com/space-3d/solar-eclipse.html", include: !1, tags: "space-3d" },
     { title: "Linux Online - Run Linux in Your Browser (Terminal & Desktop)", url: "https://freetoolonline.com/utility-tools/linux-online.html", include: !1, tags: "utility" },
     { title: "Retro FPS Online - Play a Classic Shooter in Your Browser (Freedoom)", url: "https://freetoolonline.com/games/retro-fps-online.html", include: !1, tags: "games" },
