@@ -3887,6 +3887,22 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/diplodocus-size-comparison.html',
   '/guides/id/diplodocus-size-comparison.html',
   '/guides/de/diplodocus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire39 (2026-07-17): diplodocus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/diplodocus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/diplodocus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/diplodocus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/diplodocus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/diplodocus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/diplodocus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire40 (2026-07-18): how-to-view-apatosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides (how-to)
+  '/guides/how-to-view-apatosaurus-in-3d.html',
+  '/guides/pt/how-to-view-apatosaurus-in-3d.html',
+  '/guides/es/how-to-view-apatosaurus-in-3d.html',
+  '/guides/vi/how-to-view-apatosaurus-in-3d.html',
+  '/guides/id/how-to-view-apatosaurus-in-3d.html',
+  '/guides/de/how-to-view-apatosaurus-in-3d.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -5606,6 +5622,26 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/how-to-play-wash-the-cat.html',
   '/guides/de/wash-the-cat-when.html',
   '/guides/de/wash-the-cat-vs-alternatives.html',
+
+  // game-discovery-loop-runbook fire133 (2026-07-18): ritual-catacombs companion guides
+  '/guides/how-to-play-ritual-catacombs.html',
+  '/guides/ritual-catacombs-when.html',
+  '/guides/ritual-catacombs-vs-alternatives.html',
+  '/guides/pt/how-to-play-ritual-catacombs.html',
+  '/guides/pt/ritual-catacombs-when.html',
+  '/guides/pt/ritual-catacombs-vs-alternatives.html',
+  '/guides/es/how-to-play-ritual-catacombs.html',
+  '/guides/es/ritual-catacombs-when.html',
+  '/guides/es/ritual-catacombs-vs-alternatives.html',
+  '/guides/vi/how-to-play-ritual-catacombs.html',
+  '/guides/vi/ritual-catacombs-when.html',
+  '/guides/vi/ritual-catacombs-vs-alternatives.html',
+  '/guides/id/how-to-play-ritual-catacombs.html',
+  '/guides/id/ritual-catacombs-when.html',
+  '/guides/id/ritual-catacombs-vs-alternatives.html',
+  '/guides/de/how-to-play-ritual-catacombs.html',
+  '/guides/de/ritual-catacombs-when.html',
+  '/guides/de/ritual-catacombs-vs-alternatives.html',
 
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle
   '/guides/how-to-play-cyber-slide-puzzle.html',
@@ -7820,6 +7856,7 @@ export const ALIAS_ROUTES = {
   '/black-hole-square.html': '/games/black-hole-square.html',
   '/pixel-park-puzzle.html': '/games/pixel-park-puzzle.html',
   '/wash-the-cat.html': '/games/wash-the-cat.html',
+  '/ritual-catacombs.html': '/games/ritual-catacombs.html',
 
   '/gravity-orbit-golf.html': '/games/gravity-orbit-golf.html',
 
@@ -9576,6 +9613,26 @@ export const JSP_BY_ROUTE = {
   '/guides/de/wash-the-cat-when.html': 'guide/de/wash-the-cat-when.jsp',
   '/guides/de/wash-the-cat-vs-alternatives.html': 'guide/de/wash-the-cat-vs-alternatives.jsp',
 
+  // game-discovery-loop-runbook fire133 (2026-07-18): ritual-catacombs companion guides
+  '/guides/how-to-play-ritual-catacombs.html': 'guide/how-to-play-ritual-catacombs.jsp',
+  '/guides/ritual-catacombs-when.html': 'guide/ritual-catacombs-when.jsp',
+  '/guides/ritual-catacombs-vs-alternatives.html': 'guide/ritual-catacombs-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-ritual-catacombs.html': 'guide/pt/how-to-play-ritual-catacombs.jsp',
+  '/guides/pt/ritual-catacombs-when.html': 'guide/pt/ritual-catacombs-when.jsp',
+  '/guides/pt/ritual-catacombs-vs-alternatives.html': 'guide/pt/ritual-catacombs-vs-alternatives.jsp',
+  '/guides/es/how-to-play-ritual-catacombs.html': 'guide/es/how-to-play-ritual-catacombs.jsp',
+  '/guides/es/ritual-catacombs-when.html': 'guide/es/ritual-catacombs-when.jsp',
+  '/guides/es/ritual-catacombs-vs-alternatives.html': 'guide/es/ritual-catacombs-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-ritual-catacombs.html': 'guide/vi/how-to-play-ritual-catacombs.jsp',
+  '/guides/vi/ritual-catacombs-when.html': 'guide/vi/ritual-catacombs-when.jsp',
+  '/guides/vi/ritual-catacombs-vs-alternatives.html': 'guide/vi/ritual-catacombs-vs-alternatives.jsp',
+  '/guides/id/how-to-play-ritual-catacombs.html': 'guide/id/how-to-play-ritual-catacombs.jsp',
+  '/guides/id/ritual-catacombs-when.html': 'guide/id/ritual-catacombs-when.jsp',
+  '/guides/id/ritual-catacombs-vs-alternatives.html': 'guide/id/ritual-catacombs-vs-alternatives.jsp',
+  '/guides/de/how-to-play-ritual-catacombs.html': 'guide/de/how-to-play-ritual-catacombs.jsp',
+  '/guides/de/ritual-catacombs-when.html': 'guide/de/ritual-catacombs-when.jsp',
+  '/guides/de/ritual-catacombs-vs-alternatives.html': 'guide/de/ritual-catacombs-vs-alternatives.jsp',
+
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle guides
   '/guides/how-to-play-cyber-slide-puzzle.html': 'guide/how-to-play-cyber-slide-puzzle.jsp',
   '/guides/cyber-slide-puzzle-when.html': 'guide/cyber-slide-puzzle-when.jsp',
@@ -10767,6 +10824,22 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/diplodocus-size-comparison.html': 'guide/vi/diplodocus-size-comparison.jsp',
   '/guides/id/diplodocus-size-comparison.html': 'guide/id/diplodocus-size-comparison.jsp',
   '/guides/de/diplodocus-size-comparison.html': 'guide/de/diplodocus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire39 (2026-07-17): diplodocus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/diplodocus-3d-viewer-vs-ar-apps.html': 'guide/diplodocus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/diplodocus-3d-viewer-vs-ar-apps.html': 'guide/pt/diplodocus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/diplodocus-3d-viewer-vs-ar-apps.html': 'guide/es/diplodocus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/diplodocus-3d-viewer-vs-ar-apps.html': 'guide/vi/diplodocus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/diplodocus-3d-viewer-vs-ar-apps.html': 'guide/id/diplodocus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/diplodocus-3d-viewer-vs-ar-apps.html': 'guide/de/diplodocus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire40 (2026-07-18): how-to-view-apatosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides (how-to)
+  '/guides/how-to-view-apatosaurus-in-3d.html': 'guide/how-to-view-apatosaurus-in-3d.jsp',
+  '/guides/pt/how-to-view-apatosaurus-in-3d.html': 'guide/pt/how-to-view-apatosaurus-in-3d.jsp',
+  '/guides/es/how-to-view-apatosaurus-in-3d.html': 'guide/es/how-to-view-apatosaurus-in-3d.jsp',
+  '/guides/vi/how-to-view-apatosaurus-in-3d.html': 'guide/vi/how-to-view-apatosaurus-in-3d.jsp',
+  '/guides/id/how-to-view-apatosaurus-in-3d.html': 'guide/id/how-to-view-apatosaurus-in-3d.jsp',
+  '/guides/de/how-to-view-apatosaurus-in-3d.html': 'guide/de/how-to-view-apatosaurus-in-3d.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
@@ -11047,6 +11120,7 @@ export const JSP_BY_ROUTE = {
   '/games/black-hole-square.html': 'games/black-hole-square.jsp',
   '/games/pixel-park-puzzle.html': 'games/pixel-park-puzzle.jsp',
   '/games/wash-the-cat.html': 'games/wash-the-cat.jsp',
+  '/games/ritual-catacombs.html': 'games/ritual-catacombs.jsp',
   '/games/asteroid-blaster.html': 'games/asteroid-blaster.jsp',
   '/games/hex-puzzle-blocks.html': 'games/hex-puzzle-blocks.jsp',
   '/games/procedural-horde-game.html': 'games/procedural-horde-game.jsp',
