@@ -5120,6 +5120,26 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/violence-town-when.html',
   '/guides/de/violence-town-vs-alternatives.html',
 
+  // game-discovery-loop-runbook fire118 (2026-07-17): claudicus-quest companion guides
+  '/guides/how-to-play-claudicus-quest.html',
+  '/guides/claudicus-quest-when.html',
+  '/guides/claudicus-quest-vs-alternatives.html',
+  '/guides/pt/how-to-play-claudicus-quest.html',
+  '/guides/pt/claudicus-quest-when.html',
+  '/guides/pt/claudicus-quest-vs-alternatives.html',
+  '/guides/es/how-to-play-claudicus-quest.html',
+  '/guides/es/claudicus-quest-when.html',
+  '/guides/es/claudicus-quest-vs-alternatives.html',
+  '/guides/vi/how-to-play-claudicus-quest.html',
+  '/guides/vi/claudicus-quest-when.html',
+  '/guides/vi/claudicus-quest-vs-alternatives.html',
+  '/guides/id/how-to-play-claudicus-quest.html',
+  '/guides/id/claudicus-quest-when.html',
+  '/guides/id/claudicus-quest-vs-alternatives.html',
+  '/guides/de/how-to-play-claudicus-quest.html',
+  '/guides/de/claudicus-quest-when.html',
+  '/guides/de/claudicus-quest-vs-alternatives.html',
+
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle
   '/guides/how-to-play-cyber-slide-puzzle.html',
   '/guides/cyber-slide-puzzle-when.html',
@@ -7312,6 +7332,7 @@ export const ALIAS_ROUTES = {
   '/void-trader.html': '/games/void-trader.html',
   '/layer-flip-platformer.html': '/games/layer-flip-platformer.html',
   '/violence-town.html': '/games/violence-town.html',
+  '/claudicus-quest.html': '/games/claudicus-quest.html',
 
   '/gravity-orbit-golf.html': '/games/gravity-orbit-golf.html',
 
@@ -8807,6 +8828,26 @@ export const JSP_BY_ROUTE = {
   '/guides/de/violence-town-when.html': 'guide/de/violence-town-when.jsp',
   '/guides/de/violence-town-vs-alternatives.html': 'guide/de/violence-town-vs-alternatives.jsp',
 
+  // game-discovery-loop-runbook fire118 (2026-07-17): claudicus-quest companion guides
+  '/guides/how-to-play-claudicus-quest.html': 'guide/how-to-play-claudicus-quest.jsp',
+  '/guides/claudicus-quest-when.html': 'guide/claudicus-quest-when.jsp',
+  '/guides/claudicus-quest-vs-alternatives.html': 'guide/claudicus-quest-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-claudicus-quest.html': 'guide/pt/how-to-play-claudicus-quest.jsp',
+  '/guides/pt/claudicus-quest-when.html': 'guide/pt/claudicus-quest-when.jsp',
+  '/guides/pt/claudicus-quest-vs-alternatives.html': 'guide/pt/claudicus-quest-vs-alternatives.jsp',
+  '/guides/es/how-to-play-claudicus-quest.html': 'guide/es/how-to-play-claudicus-quest.jsp',
+  '/guides/es/claudicus-quest-when.html': 'guide/es/claudicus-quest-when.jsp',
+  '/guides/es/claudicus-quest-vs-alternatives.html': 'guide/es/claudicus-quest-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-claudicus-quest.html': 'guide/vi/how-to-play-claudicus-quest.jsp',
+  '/guides/vi/claudicus-quest-when.html': 'guide/vi/claudicus-quest-when.jsp',
+  '/guides/vi/claudicus-quest-vs-alternatives.html': 'guide/vi/claudicus-quest-vs-alternatives.jsp',
+  '/guides/id/how-to-play-claudicus-quest.html': 'guide/id/how-to-play-claudicus-quest.jsp',
+  '/guides/id/claudicus-quest-when.html': 'guide/id/claudicus-quest-when.jsp',
+  '/guides/id/claudicus-quest-vs-alternatives.html': 'guide/id/claudicus-quest-vs-alternatives.jsp',
+  '/guides/de/how-to-play-claudicus-quest.html': 'guide/de/how-to-play-claudicus-quest.jsp',
+  '/guides/de/claudicus-quest-when.html': 'guide/de/claudicus-quest-when.jsp',
+  '/guides/de/claudicus-quest-vs-alternatives.html': 'guide/de/claudicus-quest-vs-alternatives.jsp',
+
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle guides
   '/guides/how-to-play-cyber-slide-puzzle.html': 'guide/how-to-play-cyber-slide-puzzle.jsp',
   '/guides/cyber-slide-puzzle-when.html': 'guide/cyber-slide-puzzle-when.jsp',
@@ -10235,6 +10276,7 @@ export const JSP_BY_ROUTE = {
   '/games/void-trader.html': 'games/void-trader.jsp',
   '/games/layer-flip-platformer.html': 'games/layer-flip-platformer.jsp',
   '/games/violence-town.html': 'games/violence-town.jsp',
+  '/games/claudicus-quest.html': 'games/claudicus-quest.jsp',
   '/games/asteroid-blaster.html': 'games/asteroid-blaster.jsp',
   '/games/hex-puzzle-blocks.html': 'games/hex-puzzle-blocks.jsp',
   '/games/procedural-horde-game.html': 'games/procedural-horde-game.jsp',
