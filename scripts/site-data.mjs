@@ -7171,6 +7171,8 @@ export const ALIAS_ROUTES = {
   '/utahraptor.html': '/dinosaur-3d/utahraptor.html',
   // dinosaur-3d-discovery-loop-runbook fire69 (2026-07-17): flat-slug alias for baryonyx.
   '/baryonyx.html': '/dinosaur-3d/baryonyx.html',
+  // dinosaur-3d-discovery-loop-runbook fire71 (2026-07-17): flat-slug alias for pachyrhinosaurus.
+  '/pachyrhinosaurus.html': '/dinosaur-3d/pachyrhinosaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -9528,6 +9530,13 @@ export const JSP_BY_ROUTE = {
   // sibling of the shipped Spinosaurus, distinct discovery story (1983 Surrey,
   // England clay pit) + no sail + the "heavy claw" giant thumb-claw anatomy.
   '/dinosaur-3d/baryonyx.html': 'dinosaur/baryonyx.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire71 (2026-07-17): Pachyrhinosaurus viewer -
+  // ceratopsian archetype (same code path already shipped for triceratops), feats
+  // {frill:true, horns:false} to reflect the real nasal boss instead of brow horns.
+  // Model-ready this fire: license-clean glTF ALREADY published in the ftol-vm-assets
+  // manifest (SUMO STUDIOS, CC-BY 4.0, via OpenGameArt) - ships with a real model, no
+  // BLOCKED_NO_MODEL parking needed.
+  '/dinosaur-3d/pachyrhinosaurus.html': 'dinosaur/pachyrhinosaurus.jsp',
   // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/how-to-view-tyrannosaurus-rex-in-3d.jsp',
