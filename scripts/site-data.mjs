@@ -7630,6 +7630,8 @@ export const ALIAS_ROUTES = {
   '/pachyrhinosaurus.html': '/dinosaur-3d/pachyrhinosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire72 (2026-07-17): flat-slug alias for ground-sloth.
   '/ground-sloth.html': '/dinosaur-3d/ground-sloth.html',
+  // dinosaur-3d-discovery-loop-runbook fire73 (2026-07-18): flat-slug alias for ichthyosaurus.
+  '/ichthyosaurus.html': '/dinosaur-3d/ichthyosaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -10255,6 +10257,15 @@ export const JSP_BY_ROUTE = {
   // manifest (Poly by Google, CC-BY 3.0, via Poly Pizza) - ships with a real model, no
   // BLOCKED_NO_MODEL parking needed.
   '/dinosaur-3d/ground-sloth.html': 'dinosaur/ground-sloth.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire73 (2026-07-18): Ichthyosaurus viewer -
+  // marine archetype (same base body plan already shipped for Mosasaurus), plus a
+  // new additive `feats.dorsalFin` flag (a real ichthyosaur anatomical feature the
+  // mosasaur branch never modeled). Model-ready this fire: sourced + vendored a
+  // license-clean glTF this same fire (seth the yutyrannus, CC-BY-SA 4.0, via
+  // Printables, converted OBJ->glTF headlessly with trimesh since no bpy/Blender
+  // was available this session) - ships with a real model, no BLOCKED_NO_MODEL
+  // parking needed.
+  '/dinosaur-3d/ichthyosaurus.html': 'dinosaur/ichthyosaurus.jsp',
   // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/how-to-view-tyrannosaurus-rex-in-3d.jsp',
