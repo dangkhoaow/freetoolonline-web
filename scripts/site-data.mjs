@@ -5643,6 +5643,26 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/ritual-catacombs-when.html',
   '/guides/de/ritual-catacombs-vs-alternatives.html',
 
+  // game-discovery-loop-runbook fire134 (2026-07-18): potion-brew-shop companion guides
+  '/guides/how-to-play-potion-brew-shop.html',
+  '/guides/potion-brew-shop-when.html',
+  '/guides/potion-brew-shop-vs-alternatives.html',
+  '/guides/pt/how-to-play-potion-brew-shop.html',
+  '/guides/pt/potion-brew-shop-when.html',
+  '/guides/pt/potion-brew-shop-vs-alternatives.html',
+  '/guides/es/how-to-play-potion-brew-shop.html',
+  '/guides/es/potion-brew-shop-when.html',
+  '/guides/es/potion-brew-shop-vs-alternatives.html',
+  '/guides/vi/how-to-play-potion-brew-shop.html',
+  '/guides/vi/potion-brew-shop-when.html',
+  '/guides/vi/potion-brew-shop-vs-alternatives.html',
+  '/guides/id/how-to-play-potion-brew-shop.html',
+  '/guides/id/potion-brew-shop-when.html',
+  '/guides/id/potion-brew-shop-vs-alternatives.html',
+  '/guides/de/how-to-play-potion-brew-shop.html',
+  '/guides/de/potion-brew-shop-when.html',
+  '/guides/de/potion-brew-shop-vs-alternatives.html',
+
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle
   '/guides/how-to-play-cyber-slide-puzzle.html',
   '/guides/cyber-slide-puzzle-when.html',
@@ -7857,6 +7877,7 @@ export const ALIAS_ROUTES = {
   '/pixel-park-puzzle.html': '/games/pixel-park-puzzle.html',
   '/wash-the-cat.html': '/games/wash-the-cat.html',
   '/ritual-catacombs.html': '/games/ritual-catacombs.html',
+  '/potion-brew-shop.html': '/games/potion-brew-shop.html',
 
   '/gravity-orbit-golf.html': '/games/gravity-orbit-golf.html',
 
@@ -9633,6 +9654,26 @@ export const JSP_BY_ROUTE = {
   '/guides/de/ritual-catacombs-when.html': 'guide/de/ritual-catacombs-when.jsp',
   '/guides/de/ritual-catacombs-vs-alternatives.html': 'guide/de/ritual-catacombs-vs-alternatives.jsp',
 
+  // game-discovery-loop-runbook fire134 (2026-07-18): potion-brew-shop companion guides
+  '/guides/how-to-play-potion-brew-shop.html': 'guide/how-to-play-potion-brew-shop.jsp',
+  '/guides/potion-brew-shop-when.html': 'guide/potion-brew-shop-when.jsp',
+  '/guides/potion-brew-shop-vs-alternatives.html': 'guide/potion-brew-shop-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-potion-brew-shop.html': 'guide/pt/how-to-play-potion-brew-shop.jsp',
+  '/guides/pt/potion-brew-shop-when.html': 'guide/pt/potion-brew-shop-when.jsp',
+  '/guides/pt/potion-brew-shop-vs-alternatives.html': 'guide/pt/potion-brew-shop-vs-alternatives.jsp',
+  '/guides/es/how-to-play-potion-brew-shop.html': 'guide/es/how-to-play-potion-brew-shop.jsp',
+  '/guides/es/potion-brew-shop-when.html': 'guide/es/potion-brew-shop-when.jsp',
+  '/guides/es/potion-brew-shop-vs-alternatives.html': 'guide/es/potion-brew-shop-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-potion-brew-shop.html': 'guide/vi/how-to-play-potion-brew-shop.jsp',
+  '/guides/vi/potion-brew-shop-when.html': 'guide/vi/potion-brew-shop-when.jsp',
+  '/guides/vi/potion-brew-shop-vs-alternatives.html': 'guide/vi/potion-brew-shop-vs-alternatives.jsp',
+  '/guides/id/how-to-play-potion-brew-shop.html': 'guide/id/how-to-play-potion-brew-shop.jsp',
+  '/guides/id/potion-brew-shop-when.html': 'guide/id/potion-brew-shop-when.jsp',
+  '/guides/id/potion-brew-shop-vs-alternatives.html': 'guide/id/potion-brew-shop-vs-alternatives.jsp',
+  '/guides/de/how-to-play-potion-brew-shop.html': 'guide/de/how-to-play-potion-brew-shop.jsp',
+  '/guides/de/potion-brew-shop-when.html': 'guide/de/potion-brew-shop-when.jsp',
+  '/guides/de/potion-brew-shop-vs-alternatives.html': 'guide/de/potion-brew-shop-vs-alternatives.jsp',
+
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle guides
   '/guides/how-to-play-cyber-slide-puzzle.html': 'guide/how-to-play-cyber-slide-puzzle.jsp',
   '/guides/cyber-slide-puzzle-when.html': 'guide/cyber-slide-puzzle-when.jsp',
@@ -11121,6 +11162,7 @@ export const JSP_BY_ROUTE = {
   '/games/pixel-park-puzzle.html': 'games/pixel-park-puzzle.jsp',
   '/games/wash-the-cat.html': 'games/wash-the-cat.jsp',
   '/games/ritual-catacombs.html': 'games/ritual-catacombs.jsp',
+  '/games/potion-brew-shop.html': 'games/potion-brew-shop.jsp',
   '/games/asteroid-blaster.html': 'games/asteroid-blaster.jsp',
   '/games/hex-puzzle-blocks.html': 'games/hex-puzzle-blocks.jsp',
   '/games/procedural-horde-game.html': 'games/procedural-horde-game.jsp',
