@@ -5249,6 +5249,26 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/how-to-play-mono-minefield-grid.html',
   '/guides/de/mono-minefield-grid-when.html',
   '/guides/de/mono-minefield-grid-vs-alternatives.html',
+  // game-discovery-loop-runbook fire122 (2026-07-17): space-pi-defense companion guides
+  '/guides/how-to-play-space-pi-defense.html',
+  '/guides/space-pi-defense-when.html',
+  '/guides/space-pi-defense-vs-alternatives.html',
+  '/guides/pt/how-to-play-space-pi-defense.html',
+  '/guides/pt/space-pi-defense-when.html',
+  '/guides/pt/space-pi-defense-vs-alternatives.html',
+  '/guides/es/how-to-play-space-pi-defense.html',
+  '/guides/es/space-pi-defense-when.html',
+  '/guides/es/space-pi-defense-vs-alternatives.html',
+  '/guides/vi/how-to-play-space-pi-defense.html',
+  '/guides/vi/space-pi-defense-when.html',
+  '/guides/vi/space-pi-defense-vs-alternatives.html',
+  '/guides/id/how-to-play-space-pi-defense.html',
+  '/guides/id/space-pi-defense-when.html',
+  '/guides/id/space-pi-defense-vs-alternatives.html',
+  '/guides/de/how-to-play-space-pi-defense.html',
+  '/guides/de/space-pi-defense-when.html',
+  '/guides/de/space-pi-defense-vs-alternatives.html',
+
 
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle
   '/guides/how-to-play-cyber-slide-puzzle.html',
@@ -7445,6 +7465,7 @@ export const ALIAS_ROUTES = {
   '/claudicus-quest.html': '/games/claudicus-quest.html',
   '/neon-energy-arena.html': '/games/neon-energy-arena.html',
   '/mono-minefield-grid.html': '/games/mono-minefield-grid.html',
+  '/space-pi-defense.html': '/games/space-pi-defense.html',
 
   '/gravity-orbit-golf.html': '/games/gravity-orbit-golf.html',
 
@@ -8996,6 +9017,26 @@ export const JSP_BY_ROUTE = {
   '/guides/de/how-to-play-mono-minefield-grid.html': 'guide/de/how-to-play-mono-minefield-grid.jsp',
   '/guides/de/mono-minefield-grid-when.html': 'guide/de/mono-minefield-grid-when.jsp',
   '/guides/de/mono-minefield-grid-vs-alternatives.html': 'guide/de/mono-minefield-grid-vs-alternatives.jsp',
+  // game-discovery-loop-runbook fire122 (2026-07-17): space-pi-defense companion guides
+  '/guides/how-to-play-space-pi-defense.html': 'guide/how-to-play-space-pi-defense.jsp',
+  '/guides/space-pi-defense-when.html': 'guide/space-pi-defense-when.jsp',
+  '/guides/space-pi-defense-vs-alternatives.html': 'guide/space-pi-defense-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-space-pi-defense.html': 'guide/pt/how-to-play-space-pi-defense.jsp',
+  '/guides/pt/space-pi-defense-when.html': 'guide/pt/space-pi-defense-when.jsp',
+  '/guides/pt/space-pi-defense-vs-alternatives.html': 'guide/pt/space-pi-defense-vs-alternatives.jsp',
+  '/guides/es/how-to-play-space-pi-defense.html': 'guide/es/how-to-play-space-pi-defense.jsp',
+  '/guides/es/space-pi-defense-when.html': 'guide/es/space-pi-defense-when.jsp',
+  '/guides/es/space-pi-defense-vs-alternatives.html': 'guide/es/space-pi-defense-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-space-pi-defense.html': 'guide/vi/how-to-play-space-pi-defense.jsp',
+  '/guides/vi/space-pi-defense-when.html': 'guide/vi/space-pi-defense-when.jsp',
+  '/guides/vi/space-pi-defense-vs-alternatives.html': 'guide/vi/space-pi-defense-vs-alternatives.jsp',
+  '/guides/id/how-to-play-space-pi-defense.html': 'guide/id/how-to-play-space-pi-defense.jsp',
+  '/guides/id/space-pi-defense-when.html': 'guide/id/space-pi-defense-when.jsp',
+  '/guides/id/space-pi-defense-vs-alternatives.html': 'guide/id/space-pi-defense-vs-alternatives.jsp',
+  '/guides/de/how-to-play-space-pi-defense.html': 'guide/de/how-to-play-space-pi-defense.jsp',
+  '/guides/de/space-pi-defense-when.html': 'guide/de/space-pi-defense-when.jsp',
+  '/guides/de/space-pi-defense-vs-alternatives.html': 'guide/de/space-pi-defense-vs-alternatives.jsp',
+
 
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle guides
   '/guides/how-to-play-cyber-slide-puzzle.html': 'guide/how-to-play-cyber-slide-puzzle.jsp',
@@ -10428,6 +10469,7 @@ export const JSP_BY_ROUTE = {
   '/games/claudicus-quest.html': 'games/claudicus-quest.jsp',
   '/games/neon-energy-arena.html': 'games/neon-energy-arena.jsp',
   '/games/mono-minefield-grid.html': 'games/mono-minefield-grid.jsp',
+  '/games/space-pi-defense.html': 'games/space-pi-defense.jsp',
   '/games/asteroid-blaster.html': 'games/asteroid-blaster.jsp',
   '/games/hex-puzzle-blocks.html': 'games/hex-puzzle-blocks.jsp',
   '/games/procedural-horde-game.html': 'games/procedural-horde-game.jsp',
