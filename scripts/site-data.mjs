@@ -9570,7 +9570,7 @@ export const JSP_BY_ROUTE = {
   '/guides/id/how-to-play-wash-the-cat.html': 'guide/id/how-to-play-wash-the-cat.jsp',
   '/guides/id/wash-the-cat-when.html': 'guide/id/wash-the-cat-when.jsp',
   '/guides/id/wash-the-cat-vs-alternatives.html': 'guide/id/wash-the-cat-vs-alternatives.jsp',
-  '/guides/de/how-to-play-wash-the-cat.html': 'guide/de/how-to-play-wash-the-cat-when.jsp',
+  '/guides/de/how-to-play-wash-the-cat.html': 'guide/de/how-to-play-wash-the-cat.jsp',
   '/guides/de/wash-the-cat-when.html': 'guide/de/wash-the-cat-when.jsp',
   '/guides/de/wash-the-cat-vs-alternatives.html': 'guide/de/wash-the-cat-vs-alternatives.jsp',
 
