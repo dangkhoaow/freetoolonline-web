@@ -3244,6 +3244,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/parasaurolophus-size-comparison.html',
   '/guides/id/parasaurolophus-size-comparison.html',
   '/guides/de/parasaurolophus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire27 (2026-07-17): parasaurolophus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs AR/museum/static)
+  '/guides/parasaurolophus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/parasaurolophus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/parasaurolophus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/parasaurolophus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/parasaurolophus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/parasaurolophus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -9271,6 +9279,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/parasaurolophus-size-comparison.html': 'guide/vi/parasaurolophus-size-comparison.jsp',
   '/guides/id/parasaurolophus-size-comparison.html': 'guide/id/parasaurolophus-size-comparison.jsp',
   '/guides/de/parasaurolophus-size-comparison.html': 'guide/de/parasaurolophus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire27 (2026-07-17): parasaurolophus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de JSP wrappers
+  '/guides/parasaurolophus-3d-viewer-vs-ar-apps.html': 'guide/parasaurolophus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/parasaurolophus-3d-viewer-vs-ar-apps.html': 'guide/pt/parasaurolophus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/parasaurolophus-3d-viewer-vs-ar-apps.html': 'guide/es/parasaurolophus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/parasaurolophus-3d-viewer-vs-ar-apps.html': 'guide/vi/parasaurolophus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/parasaurolophus-3d-viewer-vs-ar-apps.html': 'guide/id/parasaurolophus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/parasaurolophus-3d-viewer-vs-ar-apps.html': 'guide/de/parasaurolophus-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
