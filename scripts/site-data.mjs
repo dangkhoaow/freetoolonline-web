@@ -8788,7 +8788,6 @@ export const JSP_BY_ROUTE = {
   '/guides/de/layer-flip-platformer-vs-alternatives.html': 'guide/de/layer-flip-platformer-vs-alternatives.jsp',
 
   // game-discovery-loop-runbook fire117 (2026-07-17): violence-town companion guides
-  '/violence-town.html': '/games/violence-town.html',
   '/guides/how-to-play-violence-town.html': 'guide/how-to-play-violence-town.jsp',
   '/guides/violence-town-when.html': 'guide/violence-town-when.jsp',
   '/guides/violence-town-vs-alternatives.html': 'guide/violence-town-vs-alternatives.jsp',
@@ -8807,7 +8806,7 @@ export const JSP_BY_ROUTE = {
   '/guides/de/how-to-play-violence-town.html': 'guide/de/how-to-play-violence-town.jsp',
   '/guides/de/violence-town-when.html': 'guide/de/violence-town-when.jsp',
   '/guides/de/violence-town-vs-alternatives.html': 'guide/de/violence-town-vs-alternatives.jsp',
-  '/games/violence-town.html': 'games/violence-town.jsp',
+
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle guides
   '/guides/how-to-play-cyber-slide-puzzle.html': 'guide/how-to-play-cyber-slide-puzzle.jsp',
   '/guides/cyber-slide-puzzle-when.html': 'guide/cyber-slide-puzzle-when.jsp',
