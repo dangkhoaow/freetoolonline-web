@@ -4932,6 +4932,12 @@ export const GUIDE_ROUTES = new Set([
   '/guides/id/globe-siege-when.html',
   '/guides/de/how-to-play-globe-siege.html',
   '/guides/de/globe-siege-when.html',
+  '/guides/globe-siege-vs-alternatives.html',
+  '/guides/pt/globe-siege-vs-alternatives.html',
+  '/guides/es/globe-siege-vs-alternatives.html',
+  '/guides/vi/globe-siege-vs-alternatives.html',
+  '/guides/id/globe-siege-vs-alternatives.html',
+  '/guides/de/globe-siege-vs-alternatives.html',
 
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle
   '/guides/how-to-play-cyber-slide-puzzle.html',
@@ -8544,6 +8550,12 @@ export const JSP_BY_ROUTE = {
   '/guides/id/globe-siege-when.html': 'guide/id/globe-siege-when.jsp',
   '/guides/de/how-to-play-globe-siege.html': 'guide/de/how-to-play-globe-siege.jsp',
   '/guides/de/globe-siege-when.html': 'guide/de/globe-siege-when.jsp',
+  '/guides/globe-siege-vs-alternatives.html': 'guide/globe-siege-vs-alternatives.jsp',
+  '/guides/pt/globe-siege-vs-alternatives.html': 'guide/pt/globe-siege-vs-alternatives.jsp',
+  '/guides/es/globe-siege-vs-alternatives.html': 'guide/es/globe-siege-vs-alternatives.jsp',
+  '/guides/vi/globe-siege-vs-alternatives.html': 'guide/vi/globe-siege-vs-alternatives.jsp',
+  '/guides/id/globe-siege-vs-alternatives.html': 'guide/id/globe-siege-vs-alternatives.jsp',
+  '/guides/de/globe-siege-vs-alternatives.html': 'guide/de/globe-siege-vs-alternatives.jsp',
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle guides
   '/guides/how-to-play-cyber-slide-puzzle.html': 'guide/how-to-play-cyber-slide-puzzle.jsp',
   '/guides/cyber-slide-puzzle-when.html': 'guide/cyber-slide-puzzle-when.jsp',
