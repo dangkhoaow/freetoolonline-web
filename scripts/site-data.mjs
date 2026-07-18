@@ -4271,6 +4271,118 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/ceratosaurus-size-comparison.html',
   '/guides/id/ceratosaurus-size-comparison.html',
   '/guides/de/ceratosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire87 (2026-07-18): ceratosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ceratosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/ceratosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ceratosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/ceratosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/ceratosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/ceratosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire88 (2026-07-18): how-to-view-protoceratops-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-protoceratops-in-3d.html',
+  '/guides/pt/how-to-view-protoceratops-in-3d.html',
+  '/guides/es/how-to-view-protoceratops-in-3d.html',
+  '/guides/vi/how-to-view-protoceratops-in-3d.html',
+  '/guides/id/how-to-view-protoceratops-in-3d.html',
+  '/guides/de/how-to-view-protoceratops-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire89 (2026-07-18): protoceratops-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/protoceratops-size-comparison.html',
+  '/guides/pt/protoceratops-size-comparison.html',
+  '/guides/es/protoceratops-size-comparison.html',
+  '/guides/vi/protoceratops-size-comparison.html',
+  '/guides/id/protoceratops-size-comparison.html',
+  '/guides/de/protoceratops-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire90 (2026-07-18): protoceratops-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/protoceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/protoceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/es/protoceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/protoceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/id/protoceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/de/protoceratops-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire91 (2026-07-18): how-to-view-brontosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-brontosaurus-in-3d.html',
+  '/guides/pt/how-to-view-brontosaurus-in-3d.html',
+  '/guides/es/how-to-view-brontosaurus-in-3d.html',
+  '/guides/vi/how-to-view-brontosaurus-in-3d.html',
+  '/guides/id/how-to-view-brontosaurus-in-3d.html',
+  '/guides/de/how-to-view-brontosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire92 (2026-07-18): brontosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/brontosaurus-size-comparison.html',
+  '/guides/pt/brontosaurus-size-comparison.html',
+  '/guides/es/brontosaurus-size-comparison.html',
+  '/guides/vi/brontosaurus-size-comparison.html',
+  '/guides/id/brontosaurus-size-comparison.html',
+  '/guides/de/brontosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire93 (2026-07-18): brontosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/brontosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/brontosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/brontosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/brontosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/brontosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/brontosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire94 (2026-07-18): how-to-view-megalosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-megalosaurus-in-3d.html',
+  '/guides/pt/how-to-view-megalosaurus-in-3d.html',
+  '/guides/es/how-to-view-megalosaurus-in-3d.html',
+  '/guides/vi/how-to-view-megalosaurus-in-3d.html',
+  '/guides/id/how-to-view-megalosaurus-in-3d.html',
+  '/guides/de/how-to-view-megalosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire95 (2026-07-18): megalosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/megalosaurus-size-comparison.html',
+  '/guides/pt/megalosaurus-size-comparison.html',
+  '/guides/es/megalosaurus-size-comparison.html',
+  '/guides/vi/megalosaurus-size-comparison.html',
+  '/guides/id/megalosaurus-size-comparison.html',
+  '/guides/de/megalosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire96 (2026-07-18): megalosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/megalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/megalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/megalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/megalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/megalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/megalosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire97 (2026-07-18): how-to-view-microraptor-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-microraptor-in-3d.html',
+  '/guides/pt/how-to-view-microraptor-in-3d.html',
+  '/guides/es/how-to-view-microraptor-in-3d.html',
+  '/guides/vi/how-to-view-microraptor-in-3d.html',
+  '/guides/id/how-to-view-microraptor-in-3d.html',
+  '/guides/de/how-to-view-microraptor-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire98 (2026-07-18): microraptor-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/microraptor-size-comparison.html',
+  '/guides/pt/microraptor-size-comparison.html',
+  '/guides/es/microraptor-size-comparison.html',
+  '/guides/vi/microraptor-size-comparison.html',
+  '/guides/id/microraptor-size-comparison.html',
+  '/guides/de/microraptor-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire99 (2026-07-18): microraptor-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/microraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/microraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/es/microraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/microraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/id/microraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/de/microraptor-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire100 (2026-07-18): how-to-view-majungasaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-majungasaurus-in-3d.html',
+  '/guides/pt/how-to-view-majungasaurus-in-3d.html',
+  '/guides/es/how-to-view-majungasaurus-in-3d.html',
+  '/guides/vi/how-to-view-majungasaurus-in-3d.html',
+  '/guides/id/how-to-view-majungasaurus-in-3d.html',
+  '/guides/de/how-to-view-majungasaurus-in-3d.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -8393,6 +8505,12 @@ export const ALIAS_ROUTES = {
   '/titanoboa.html': '/dinosaur-3d/titanoboa.html',
   // dinosaur-3d-discovery-loop-runbook fire96: moropus.
   '/moropus.html': '/dinosaur-3d/moropus.html',
+  // dinosaur-3d-discovery-loop-runbook fire97: gryponyx.
+  '/gryponyx.html': '/dinosaur-3d/gryponyx.html',
+  // dinosaur-3d-discovery-loop-runbook fire98: brontotherium.
+  '/brontotherium.html': '/dinosaur-3d/brontotherium.html',
+  // dinosaur-3d-discovery-loop-runbook fire99: hybodus.
+  '/hybodus.html': '/dinosaur-3d/hybodus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -8469,6 +8587,7 @@ export const ALIAS_ROUTES = {
   '/mystic-card-paw.html': '/games/mystic-card-paw.html',
   '/cat-hop-cloud.html': '/games/cat-hop-cloud.html',
   '/herd-cats-home.html': '/games/herd-cats-home.html',
+  '/seasonal-witchcat.html': '/games/seasonal-witchcat.html',
 
   '/gravity-orbit-golf.html': '/games/gravity-orbit-golf.html',
 
@@ -9062,6 +9181,7 @@ export const JSP_BY_ROUTE = {
   '/news/de/heic-arrived-with-ios-11.html': 'news/de/heic-arrived-with-ios-11.jsp',
   '/news/fat32-four-gib-file-limit.html': 'news/fat32-four-gib-file-limit.jsp',
   '/news/pt/fat32-four-gib-file-limit.html': 'news/pt/fat32-four-gib-file-limit.jsp',
+  '/news/es/fat32-four-gib-file-limit.html': 'news/es/fat32-four-gib-file-limit.jsp',
   '/image-tools/resize-image.html': 'image/resize-image.jsp',
   '/image-tools/crop-image.html': 'image/crop-image.jsp',
   '/image-tools/compress-image.html': 'image/compress-image.jsp',
@@ -11376,6 +11496,9 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/avaceratops.html': 'dinosaur/avaceratops.jsp',
   '/dinosaur-3d/titanoboa.html': 'dinosaur/titanoboa.jsp',
   '/dinosaur-3d/moropus.html': 'dinosaur/moropus.jsp',
+  '/dinosaur-3d/gryponyx.html': 'dinosaur/gryponyx.jsp',
+  '/dinosaur-3d/brontotherium.html': 'dinosaur/brontotherium.jsp',
+  '/dinosaur-3d/hybodus.html': 'dinosaur/hybodus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -12068,6 +12191,118 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/ceratosaurus-size-comparison.html': 'guide/vi/ceratosaurus-size-comparison.jsp',
   '/guides/id/ceratosaurus-size-comparison.html': 'guide/id/ceratosaurus-size-comparison.jsp',
   '/guides/de/ceratosaurus-size-comparison.html': 'guide/de/ceratosaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire87 (2026-07-18): ceratosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ceratosaurus-3d-viewer-vs-ar-apps.html': 'guide/ceratosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/ceratosaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/ceratosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/ceratosaurus-3d-viewer-vs-ar-apps.html': 'guide/es/ceratosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/ceratosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/ceratosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/ceratosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/ceratosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/ceratosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/ceratosaurus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire88 (2026-07-18): how-to-view-protoceratops-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-protoceratops-in-3d.html': 'guide/how-to-view-protoceratops-in-3d.jsp',
+  '/guides/pt/how-to-view-protoceratops-in-3d.html': 'guide/pt/how-to-view-protoceratops-in-3d.jsp',
+  '/guides/es/how-to-view-protoceratops-in-3d.html': 'guide/es/how-to-view-protoceratops-in-3d.jsp',
+  '/guides/vi/how-to-view-protoceratops-in-3d.html': 'guide/vi/how-to-view-protoceratops-in-3d.jsp',
+  '/guides/id/how-to-view-protoceratops-in-3d.html': 'guide/id/how-to-view-protoceratops-in-3d.jsp',
+  '/guides/de/how-to-view-protoceratops-in-3d.html': 'guide/de/how-to-view-protoceratops-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire89 (2026-07-18): protoceratops-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/protoceratops-size-comparison.html': 'guide/protoceratops-size-comparison.jsp',
+  '/guides/pt/protoceratops-size-comparison.html': 'guide/pt/protoceratops-size-comparison.jsp',
+  '/guides/es/protoceratops-size-comparison.html': 'guide/es/protoceratops-size-comparison.jsp',
+  '/guides/vi/protoceratops-size-comparison.html': 'guide/vi/protoceratops-size-comparison.jsp',
+  '/guides/id/protoceratops-size-comparison.html': 'guide/id/protoceratops-size-comparison.jsp',
+  '/guides/de/protoceratops-size-comparison.html': 'guide/de/protoceratops-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire90 (2026-07-18): protoceratops-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/protoceratops-3d-viewer-vs-ar-apps.html': 'guide/protoceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/protoceratops-3d-viewer-vs-ar-apps.html': 'guide/pt/protoceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/protoceratops-3d-viewer-vs-ar-apps.html': 'guide/es/protoceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/protoceratops-3d-viewer-vs-ar-apps.html': 'guide/vi/protoceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/protoceratops-3d-viewer-vs-ar-apps.html': 'guide/id/protoceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/protoceratops-3d-viewer-vs-ar-apps.html': 'guide/de/protoceratops-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire91 (2026-07-18): how-to-view-brontosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-brontosaurus-in-3d.html': 'guide/how-to-view-brontosaurus-in-3d.jsp',
+  '/guides/pt/how-to-view-brontosaurus-in-3d.html': 'guide/pt/how-to-view-brontosaurus-in-3d.jsp',
+  '/guides/es/how-to-view-brontosaurus-in-3d.html': 'guide/es/how-to-view-brontosaurus-in-3d.jsp',
+  '/guides/vi/how-to-view-brontosaurus-in-3d.html': 'guide/vi/how-to-view-brontosaurus-in-3d.jsp',
+  '/guides/id/how-to-view-brontosaurus-in-3d.html': 'guide/id/how-to-view-brontosaurus-in-3d.jsp',
+  '/guides/de/how-to-view-brontosaurus-in-3d.html': 'guide/de/how-to-view-brontosaurus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire92 (2026-07-18): brontosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/brontosaurus-size-comparison.html': 'guide/brontosaurus-size-comparison.jsp',
+  '/guides/pt/brontosaurus-size-comparison.html': 'guide/pt/brontosaurus-size-comparison.jsp',
+  '/guides/es/brontosaurus-size-comparison.html': 'guide/es/brontosaurus-size-comparison.jsp',
+  '/guides/vi/brontosaurus-size-comparison.html': 'guide/vi/brontosaurus-size-comparison.jsp',
+  '/guides/id/brontosaurus-size-comparison.html': 'guide/id/brontosaurus-size-comparison.jsp',
+  '/guides/de/brontosaurus-size-comparison.html': 'guide/de/brontosaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire93 (2026-07-18): brontosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/brontosaurus-3d-viewer-vs-ar-apps.html': 'guide/brontosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/brontosaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/brontosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/brontosaurus-3d-viewer-vs-ar-apps.html': 'guide/es/brontosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/brontosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/brontosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/brontosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/brontosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/brontosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/brontosaurus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire94 (2026-07-18): how-to-view-megalosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-megalosaurus-in-3d.html': 'guide/how-to-view-megalosaurus-in-3d.jsp',
+  '/guides/pt/how-to-view-megalosaurus-in-3d.html': 'guide/pt/how-to-view-megalosaurus-in-3d.jsp',
+  '/guides/es/how-to-view-megalosaurus-in-3d.html': 'guide/es/how-to-view-megalosaurus-in-3d.jsp',
+  '/guides/vi/how-to-view-megalosaurus-in-3d.html': 'guide/vi/how-to-view-megalosaurus-in-3d.jsp',
+  '/guides/id/how-to-view-megalosaurus-in-3d.html': 'guide/id/how-to-view-megalosaurus-in-3d.jsp',
+  '/guides/de/how-to-view-megalosaurus-in-3d.html': 'guide/de/how-to-view-megalosaurus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire95 (2026-07-18): megalosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/megalosaurus-size-comparison.html': 'guide/megalosaurus-size-comparison.jsp',
+  '/guides/pt/megalosaurus-size-comparison.html': 'guide/pt/megalosaurus-size-comparison.jsp',
+  '/guides/es/megalosaurus-size-comparison.html': 'guide/es/megalosaurus-size-comparison.jsp',
+  '/guides/vi/megalosaurus-size-comparison.html': 'guide/vi/megalosaurus-size-comparison.jsp',
+  '/guides/id/megalosaurus-size-comparison.html': 'guide/id/megalosaurus-size-comparison.jsp',
+  '/guides/de/megalosaurus-size-comparison.html': 'guide/de/megalosaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire96 (2026-07-18): megalosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/megalosaurus-3d-viewer-vs-ar-apps.html': 'guide/megalosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/megalosaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/megalosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/megalosaurus-3d-viewer-vs-ar-apps.html': 'guide/es/megalosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/megalosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/megalosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/megalosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/megalosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/megalosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/megalosaurus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire97 (2026-07-18): how-to-view-microraptor-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-microraptor-in-3d.html': 'guide/how-to-view-microraptor-in-3d.jsp',
+  '/guides/pt/how-to-view-microraptor-in-3d.html': 'guide/pt/how-to-view-microraptor-in-3d.jsp',
+  '/guides/es/how-to-view-microraptor-in-3d.html': 'guide/es/how-to-view-microraptor-in-3d.jsp',
+  '/guides/vi/how-to-view-microraptor-in-3d.html': 'guide/vi/how-to-view-microraptor-in-3d.jsp',
+  '/guides/id/how-to-view-microraptor-in-3d.html': 'guide/id/how-to-view-microraptor-in-3d.jsp',
+  '/guides/de/how-to-view-microraptor-in-3d.html': 'guide/de/how-to-view-microraptor-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire98 (2026-07-18): microraptor-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/microraptor-size-comparison.html': 'guide/microraptor-size-comparison.jsp',
+  '/guides/pt/microraptor-size-comparison.html': 'guide/pt/microraptor-size-comparison.jsp',
+  '/guides/es/microraptor-size-comparison.html': 'guide/es/microraptor-size-comparison.jsp',
+  '/guides/vi/microraptor-size-comparison.html': 'guide/vi/microraptor-size-comparison.jsp',
+  '/guides/id/microraptor-size-comparison.html': 'guide/id/microraptor-size-comparison.jsp',
+  '/guides/de/microraptor-size-comparison.html': 'guide/de/microraptor-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire99 (2026-07-18): microraptor-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/microraptor-3d-viewer-vs-ar-apps.html': 'guide/microraptor-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/microraptor-3d-viewer-vs-ar-apps.html': 'guide/pt/microraptor-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/microraptor-3d-viewer-vs-ar-apps.html': 'guide/es/microraptor-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/microraptor-3d-viewer-vs-ar-apps.html': 'guide/vi/microraptor-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/microraptor-3d-viewer-vs-ar-apps.html': 'guide/id/microraptor-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/microraptor-3d-viewer-vs-ar-apps.html': 'guide/de/microraptor-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire100 (2026-07-18): how-to-view-majungasaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-majungasaurus-in-3d.html': 'guide/how-to-view-majungasaurus-in-3d.jsp',
+  '/guides/pt/how-to-view-majungasaurus-in-3d.html': 'guide/pt/how-to-view-majungasaurus-in-3d.jsp',
+  '/guides/es/how-to-view-majungasaurus-in-3d.html': 'guide/es/how-to-view-majungasaurus-in-3d.jsp',
+  '/guides/vi/how-to-view-majungasaurus-in-3d.html': 'guide/vi/how-to-view-majungasaurus-in-3d.jsp',
+  '/guides/id/how-to-view-majungasaurus-in-3d.html': 'guide/id/how-to-view-majungasaurus-in-3d.jsp',
+  '/guides/de/how-to-view-majungasaurus-in-3d.html': 'guide/de/how-to-view-majungasaurus-in-3d.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
@@ -12355,6 +12590,7 @@ export const JSP_BY_ROUTE = {
   '/games/mystic-card-paw.html': 'games/mystic-card-paw.jsp',
   '/games/cat-hop-cloud.html': 'games/cat-hop-cloud.jsp',
   '/games/herd-cats-home.html': 'games/herd-cats-home.jsp',
+  '/games/seasonal-witchcat.html': 'games/seasonal-witchcat.jsp',
   '/games/asteroid-blaster.html': 'games/asteroid-blaster.jsp',
   '/games/hex-puzzle-blocks.html': 'games/hex-puzzle-blocks.jsp',
   '/games/procedural-horde-game.html': 'games/procedural-horde-game.jsp',
