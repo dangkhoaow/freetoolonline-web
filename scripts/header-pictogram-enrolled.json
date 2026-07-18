@@ -50,6 +50,7 @@
     "cepheidvariable",
     "ceratosaurus",
     "charactercounter",
+    "charonserenitychasma",
     "chelyabinskmeteor",
     "chiliblastshooter",
     "circumbinaryplanet",
@@ -447,6 +448,5 @@
     "ziptools",
     "zodiacallight"
   ],
-  "wordmark": true,
-  "_note": "Opt-in list of cmsSlugs whose header logo uses the page pictogram (CDN img) instead of the default gear SVG. Shared with og:image + favicon + apple-touch resolution. A page not listed here keeps the gear."
+  "wordmark": true
 }
