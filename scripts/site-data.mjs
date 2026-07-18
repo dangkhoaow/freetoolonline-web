@@ -3991,6 +3991,54 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/iguanodon-3d-viewer-vs-ar-apps.html',
   '/guides/id/iguanodon-3d-viewer-vs-ar-apps.html',
   '/guides/de/iguanodon-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire52 (2026-07-18): how-to-view-pachycephalosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides (step-by-step)
+  '/guides/how-to-view-pachycephalosaurus-in-3d.html',
+  '/guides/pt/how-to-view-pachycephalosaurus-in-3d.html',
+  '/guides/es/how-to-view-pachycephalosaurus-in-3d.html',
+  '/guides/vi/how-to-view-pachycephalosaurus-in-3d.html',
+  '/guides/id/how-to-view-pachycephalosaurus-in-3d.html',
+  '/guides/de/how-to-view-pachycephalosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire53 (2026-07-18): pachycephalosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/pachycephalosaurus-size-comparison.html',
+  '/guides/pt/pachycephalosaurus-size-comparison.html',
+  '/guides/es/pachycephalosaurus-size-comparison.html',
+  '/guides/vi/pachycephalosaurus-size-comparison.html',
+  '/guides/id/pachycephalosaurus-size-comparison.html',
+  '/guides/de/pachycephalosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire54 (2026-07-18): pachycephalosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/pachycephalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/pachycephalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/pachycephalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/pachycephalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/pachycephalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/pachycephalosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire55 (2026-07-18): how-to-view-gallimimus-in-3d
+  // EN + pt/es/vi/id/de companion guides (step-by-step)
+  '/guides/how-to-view-gallimimus-in-3d.html',
+  '/guides/pt/how-to-view-gallimimus-in-3d.html',
+  '/guides/es/how-to-view-gallimimus-in-3d.html',
+  '/guides/vi/how-to-view-gallimimus-in-3d.html',
+  '/guides/id/how-to-view-gallimimus-in-3d.html',
+  '/guides/de/how-to-view-gallimimus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire56 (2026-07-18): gallimimus-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/gallimimus-size-comparison.html',
+  '/guides/pt/gallimimus-size-comparison.html',
+  '/guides/es/gallimimus-size-comparison.html',
+  '/guides/vi/gallimimus-size-comparison.html',
+  '/guides/id/gallimimus-size-comparison.html',
+  '/guides/de/gallimimus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire57 (2026-07-18): gallimimus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/gallimimus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/gallimimus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/gallimimus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/gallimimus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/gallimimus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/gallimimus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -5712,6 +5760,44 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/wash-the-cat-vs-alternatives.html',
 
   // game-discovery-loop-runbook fire133 (2026-07-18): ritual-catacombs companion guides
+// new-tool-discovery-loop-runbook fire306 (2026-07-18): retro-arcade-shooter companion guides
+  '/guides/how-to-play-retro-arcade-shooter.html',
+  '/guides/retro-arcade-shooter-when.html',
+  '/guides/retro-arcade-shooter-vs-alternatives.html',
+  '/guides/pt/how-to-play-retro-arcade-shooter.html',
+  '/guides/pt/retro-arcade-shooter-when.html',
+  '/guides/pt/retro-arcade-shooter-vs-alternatives.html',
+  '/guides/es/how-to-play-retro-arcade-shooter.html',
+  '/guides/es/retro-arcade-shooter-when.html',
+  '/guides/es/retro-arcade-shooter-vs-alternatives.html',
+  '/guides/vi/how-to-play-retro-arcade-shooter.html',
+  '/guides/vi/retro-arcade-shooter-when.html',
+  '/guides/vi/retro-arcade-shooter-vs-alternatives.html',
+  '/guides/id/how-to-play-retro-arcade-shooter.html',
+  '/guides/id/retro-arcade-shooter-when.html',
+  '/guides/id/retro-arcade-shooter-vs-alternatives.html',
+  '/guides/de/how-to-play-retro-arcade-shooter.html',
+  '/guides/de/retro-arcade-shooter-when.html',
+  '/guides/de/retro-arcade-shooter-vs-alternatives.html',
+// new-tool-discovery-loop-runbook fire307 (2026-07-18): retro-fps-online companion guides
+  '/guides/how-to-play-retro-fps-online.html',
+  '/guides/retro-fps-online-when.html',
+  '/guides/retro-fps-online-vs-alternatives.html',
+  '/guides/pt/how-to-play-retro-fps-online.html',
+  '/guides/pt/retro-fps-online-when.html',
+  '/guides/pt/retro-fps-online-vs-alternatives.html',
+  '/guides/es/how-to-play-retro-fps-online.html',
+  '/guides/es/retro-fps-online-when.html',
+  '/guides/es/retro-fps-online-vs-alternatives.html',
+  '/guides/vi/how-to-play-retro-fps-online.html',
+  '/guides/vi/retro-fps-online-when.html',
+  '/guides/vi/retro-fps-online-vs-alternatives.html',
+  '/guides/id/how-to-play-retro-fps-online.html',
+  '/guides/id/retro-fps-online-when.html',
+  '/guides/id/retro-fps-online-vs-alternatives.html',
+  '/guides/de/how-to-play-retro-fps-online.html',
+  '/guides/de/retro-fps-online-when.html',
+  '/guides/de/retro-fps-online-vs-alternatives.html',
   '/guides/how-to-play-ritual-catacombs.html',
   '/guides/ritual-catacombs-when.html',
   '/guides/ritual-catacombs-vs-alternatives.html',
@@ -7927,6 +8013,10 @@ export const ALIAS_ROUTES = {
   '/microraptor.html': '/dinosaur-3d/microraptor.html',
   // dinosaur-3d-discovery-loop-runbook fire81: majungasaurus alias.
   '/majungasaurus.html': '/dinosaur-3d/majungasaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire82: cryolophosaurus alias.
+  '/cryolophosaurus.html': '/dinosaur-3d/cryolophosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire83: concavenator alias.
+  '/concavenator.html': '/dinosaur-3d/concavenator.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -9761,6 +9851,44 @@ export const JSP_BY_ROUTE = {
   '/guides/de/wash-the-cat-vs-alternatives.html': 'guide/de/wash-the-cat-vs-alternatives.jsp',
 
   // game-discovery-loop-runbook fire133 (2026-07-18): ritual-catacombs companion guides
+// new-tool-discovery-loop-runbook fire306 (2026-07-18): retro-arcade-shooter companion guides
+  '/guides/how-to-play-retro-arcade-shooter.html': 'guide/how-to-play-retro-arcade-shooter.jsp',
+  '/guides/retro-arcade-shooter-when.html': 'guide/retro-arcade-shooter-when.jsp',
+  '/guides/retro-arcade-shooter-vs-alternatives.html': 'guide/retro-arcade-shooter-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-retro-arcade-shooter.html': 'guide/pt/how-to-play-retro-arcade-shooter.jsp',
+  '/guides/pt/retro-arcade-shooter-when.html': 'guide/pt/retro-arcade-shooter-when.jsp',
+  '/guides/pt/retro-arcade-shooter-vs-alternatives.html': 'guide/pt/retro-arcade-shooter-vs-alternatives.jsp',
+  '/guides/es/how-to-play-retro-arcade-shooter.html': 'guide/es/how-to-play-retro-arcade-shooter.jsp',
+  '/guides/es/retro-arcade-shooter-when.html': 'guide/es/retro-arcade-shooter-when.jsp',
+  '/guides/es/retro-arcade-shooter-vs-alternatives.html': 'guide/es/retro-arcade-shooter-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-retro-arcade-shooter.html': 'guide/vi/how-to-play-retro-arcade-shooter.jsp',
+  '/guides/vi/retro-arcade-shooter-when.html': 'guide/vi/retro-arcade-shooter-when.jsp',
+  '/guides/vi/retro-arcade-shooter-vs-alternatives.html': 'guide/vi/retro-arcade-shooter-vs-alternatives.jsp',
+  '/guides/id/how-to-play-retro-arcade-shooter.html': 'guide/id/how-to-play-retro-arcade-shooter.jsp',
+  '/guides/id/retro-arcade-shooter-when.html': 'guide/id/retro-arcade-shooter-when.jsp',
+  '/guides/id/retro-arcade-shooter-vs-alternatives.html': 'guide/id/retro-arcade-shooter-vs-alternatives.jsp',
+  '/guides/de/how-to-play-retro-arcade-shooter.html': 'guide/de/how-to-play-retro-arcade-shooter.jsp',
+  '/guides/de/retro-arcade-shooter-when.html': 'guide/de/retro-arcade-shooter-when.jsp',
+  '/guides/de/retro-arcade-shooter-vs-alternatives.html': 'guide/de/retro-arcade-shooter-vs-alternatives.jsp',
+// new-tool-discovery-loop-runbook fire307 (2026-07-18): retro-fps-online companion guides
+  '/guides/how-to-play-retro-fps-online.html': 'guide/how-to-play-retro-fps-online.jsp',
+  '/guides/retro-fps-online-when.html': 'guide/retro-fps-online-when.jsp',
+  '/guides/retro-fps-online-vs-alternatives.html': 'guide/retro-fps-online-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-retro-fps-online.html': 'guide/pt/how-to-play-retro-fps-online.jsp',
+  '/guides/pt/retro-fps-online-when.html': 'guide/pt/retro-fps-online-when.jsp',
+  '/guides/pt/retro-fps-online-vs-alternatives.html': 'guide/pt/retro-fps-online-vs-alternatives.jsp',
+  '/guides/es/how-to-play-retro-fps-online.html': 'guide/es/how-to-play-retro-fps-online.jsp',
+  '/guides/es/retro-fps-online-when.html': 'guide/es/retro-fps-online-when.jsp',
+  '/guides/es/retro-fps-online-vs-alternatives.html': 'guide/es/retro-fps-online-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-retro-fps-online.html': 'guide/vi/how-to-play-retro-fps-online.jsp',
+  '/guides/vi/retro-fps-online-when.html': 'guide/vi/retro-fps-online-when.jsp',
+  '/guides/vi/retro-fps-online-vs-alternatives.html': 'guide/vi/retro-fps-online-vs-alternatives.jsp',
+  '/guides/id/how-to-play-retro-fps-online.html': 'guide/id/how-to-play-retro-fps-online.jsp',
+  '/guides/id/retro-fps-online-when.html': 'guide/id/retro-fps-online-when.jsp',
+  '/guides/id/retro-fps-online-vs-alternatives.html': 'guide/id/retro-fps-online-vs-alternatives.jsp',
+  '/guides/de/how-to-play-retro-fps-online.html': 'guide/de/how-to-play-retro-fps-online.jsp',
+  '/guides/de/retro-fps-online-when.html': 'guide/de/retro-fps-online-when.jsp',
+  '/guides/de/retro-fps-online-vs-alternatives.html': 'guide/de/retro-fps-online-vs-alternatives.jsp',
   '/guides/how-to-play-ritual-catacombs.html': 'guide/how-to-play-ritual-catacombs.jsp',
   '/guides/ritual-catacombs-when.html': 'guide/ritual-catacombs-when.jsp',
   '/guides/ritual-catacombs-vs-alternatives.html': 'guide/ritual-catacombs-vs-alternatives.jsp',
@@ -10725,6 +10853,8 @@ export const JSP_BY_ROUTE = {
   // dinosaur-3d-discovery-loop-runbook fire80: Microraptor viewer.
   '/dinosaur-3d/microraptor.html': 'dinosaur/microraptor.jsp',
   '/dinosaur-3d/majungasaurus.html': 'dinosaur/majungasaurus.jsp',
+  '/dinosaur-3d/cryolophosaurus.html': 'dinosaur/cryolophosaurus.jsp',
+  '/dinosaur-3d/concavenator.html': 'dinosaur/concavenator.jsp',
   // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/how-to-view-tyrannosaurus-rex-in-3d.jsp',
@@ -15085,6 +15215,10 @@ export const ALIAS_ROUTES = {
   '/microraptor.html': '/dinosaur-3d/microraptor.html',
   // dinosaur-3d-discovery-loop-runbook fire81: majungasaurus alias.
   '/majungasaurus.html': '/dinosaur-3d/majungasaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire82: cryolophosaurus alias.
+  '/cryolophosaurus.html': '/dinosaur-3d/cryolophosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire83: concavenator alias.
+  '/concavenator.html': '/dinosaur-3d/concavenator.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -17929,6 +18063,8 @@ export const JSP_BY_ROUTE = {
   // dinosaur-3d-discovery-loop-runbook fire80: Microraptor viewer.
   '/dinosaur-3d/microraptor.html': 'dinosaur/microraptor.jsp',
   '/dinosaur-3d/majungasaurus.html': 'dinosaur/majungasaurus.jsp',
+  '/dinosaur-3d/cryolophosaurus.html': 'dinosaur/cryolophosaurus.jsp',
+  '/dinosaur-3d/concavenator.html': 'dinosaur/concavenator.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -18341,6 +18477,54 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/iguanodon-3d-viewer-vs-ar-apps.html': 'guide/vi/iguanodon-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/iguanodon-3d-viewer-vs-ar-apps.html': 'guide/id/iguanodon-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/iguanodon-3d-viewer-vs-ar-apps.html': 'guide/de/iguanodon-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire52 (2026-07-18): how-to-view-pachycephalosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides (step-by-step)
+  '/guides/how-to-view-pachycephalosaurus-in-3d.html': 'guide/how-to-view-pachycephalosaurus-in-3d.jsp',
+  '/guides/pt/how-to-view-pachycephalosaurus-in-3d.html': 'guide/pt/how-to-view-pachycephalosaurus-in-3d.jsp',
+  '/guides/es/how-to-view-pachycephalosaurus-in-3d.html': 'guide/es/how-to-view-pachycephalosaurus-in-3d.jsp',
+  '/guides/vi/how-to-view-pachycephalosaurus-in-3d.html': 'guide/vi/how-to-view-pachycephalosaurus-in-3d.jsp',
+  '/guides/id/how-to-view-pachycephalosaurus-in-3d.html': 'guide/id/how-to-view-pachycephalosaurus-in-3d.jsp',
+  '/guides/de/how-to-view-pachycephalosaurus-in-3d.html': 'guide/de/how-to-view-pachycephalosaurus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire53 (2026-07-18): pachycephalosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/pachycephalosaurus-size-comparison.html': 'guide/pachycephalosaurus-size-comparison.jsp',
+  '/guides/pt/pachycephalosaurus-size-comparison.html': 'guide/pt/pachycephalosaurus-size-comparison.jsp',
+  '/guides/es/pachycephalosaurus-size-comparison.html': 'guide/es/pachycephalosaurus-size-comparison.jsp',
+  '/guides/vi/pachycephalosaurus-size-comparison.html': 'guide/vi/pachycephalosaurus-size-comparison.jsp',
+  '/guides/id/pachycephalosaurus-size-comparison.html': 'guide/id/pachycephalosaurus-size-comparison.jsp',
+  '/guides/de/pachycephalosaurus-size-comparison.html': 'guide/de/pachycephalosaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire54 (2026-07-18): pachycephalosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/pachycephalosaurus-3d-viewer-vs-ar-apps.html': 'guide/pachycephalosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/pachycephalosaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/pachycephalosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/pachycephalosaurus-3d-viewer-vs-ar-apps.html': 'guide/es/pachycephalosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/pachycephalosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/pachycephalosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/pachycephalosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/pachycephalosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/pachycephalosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/pachycephalosaurus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire55 (2026-07-18): how-to-view-gallimimus-in-3d
+  // EN + pt/es/vi/id/de companion guides (step-by-step)
+  '/guides/how-to-view-gallimimus-in-3d.html': 'guide/how-to-view-gallimimus-in-3d.jsp',
+  '/guides/pt/how-to-view-gallimimus-in-3d.html': 'guide/pt/how-to-view-gallimimus-in-3d.jsp',
+  '/guides/es/how-to-view-gallimimus-in-3d.html': 'guide/es/how-to-view-gallimimus-in-3d.jsp',
+  '/guides/vi/how-to-view-gallimimus-in-3d.html': 'guide/vi/how-to-view-gallimimus-in-3d.jsp',
+  '/guides/id/how-to-view-gallimimus-in-3d.html': 'guide/id/how-to-view-gallimimus-in-3d.jsp',
+  '/guides/de/how-to-view-gallimimus-in-3d.html': 'guide/de/how-to-view-gallimimus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire56 (2026-07-18): gallimimus-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/gallimimus-size-comparison.html': 'guide/gallimimus-size-comparison.jsp',
+  '/guides/pt/gallimimus-size-comparison.html': 'guide/pt/gallimimus-size-comparison.jsp',
+  '/guides/es/gallimimus-size-comparison.html': 'guide/es/gallimimus-size-comparison.jsp',
+  '/guides/vi/gallimimus-size-comparison.html': 'guide/vi/gallimimus-size-comparison.jsp',
+  '/guides/id/gallimimus-size-comparison.html': 'guide/id/gallimimus-size-comparison.jsp',
+  '/guides/de/gallimimus-size-comparison.html': 'guide/de/gallimimus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire57 (2026-07-18): gallimimus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/gallimimus-3d-viewer-vs-ar-apps.html': 'guide/gallimimus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/gallimimus-3d-viewer-vs-ar-apps.html': 'guide/pt/gallimimus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/gallimimus-3d-viewer-vs-ar-apps.html': 'guide/es/gallimimus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/gallimimus-3d-viewer-vs-ar-apps.html': 'guide/vi/gallimimus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/gallimimus-3d-viewer-vs-ar-apps.html': 'guide/id/gallimimus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/gallimimus-3d-viewer-vs-ar-apps.html': 'guide/de/gallimimus-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
