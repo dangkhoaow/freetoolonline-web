@@ -4191,6 +4191,46 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/how-to-view-ground-sloth-in-3d.html',
   '/guides/id/how-to-view-ground-sloth-in-3d.html',
   '/guides/de/how-to-view-ground-sloth-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire77 (2026-07-18): ground-sloth-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ground-sloth-size-comparison.html',
+  '/guides/pt/ground-sloth-size-comparison.html',
+  '/guides/es/ground-sloth-size-comparison.html',
+  '/guides/vi/ground-sloth-size-comparison.html',
+  '/guides/id/ground-sloth-size-comparison.html',
+  '/guides/de/ground-sloth-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire78 (2026-07-18): ground-sloth-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ground-sloth-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/ground-sloth-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ground-sloth-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/ground-sloth-3d-viewer-vs-ar-apps.html',
+  '/guides/id/ground-sloth-3d-viewer-vs-ar-apps.html',
+  '/guides/de/ground-sloth-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire79 (2026-07-18): how-to-view-ichthyosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-ichthyosaurus-in-3d.html',
+  '/guides/pt/how-to-view-ichthyosaurus-in-3d.html',
+  '/guides/es/how-to-view-ichthyosaurus-in-3d.html',
+  '/guides/vi/how-to-view-ichthyosaurus-in-3d.html',
+  '/guides/id/how-to-view-ichthyosaurus-in-3d.html',
+  '/guides/de/how-to-view-ichthyosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire80 (2026-07-18): ichthyosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ichthyosaurus-size-comparison.html',
+  '/guides/pt/ichthyosaurus-size-comparison.html',
+  '/guides/es/ichthyosaurus-size-comparison.html',
+  '/guides/vi/ichthyosaurus-size-comparison.html',
+  '/guides/id/ichthyosaurus-size-comparison.html',
+  '/guides/de/ichthyosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire81 (2026-07-18): ichthyosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ichthyosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/ichthyosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ichthyosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/ichthyosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/ichthyosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/ichthyosaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -5911,6 +5951,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/wash-the-cat-when.html',
   '/guides/de/wash-the-cat-vs-alternatives.html',
 
+  // new-tool-discovery-loop-runbook fire310 (2026-07-18): marble-maze companion guides (remirror fire309)
+  '/guides/how-to-play-marble-maze.html',
+  '/guides/marble-maze-when.html',
+  '/guides/marble-maze-vs-alternatives.html',
+  '/guides/pt/how-to-play-marble-maze.html',
+  '/guides/pt/marble-maze-when.html',
+  '/guides/pt/marble-maze-vs-alternatives.html',
+  '/guides/es/how-to-play-marble-maze.html',
+  '/guides/es/marble-maze-when.html',
+  '/guides/es/marble-maze-vs-alternatives.html',
+  '/guides/vi/how-to-play-marble-maze.html',
+  '/guides/vi/marble-maze-when.html',
+  '/guides/vi/marble-maze-vs-alternatives.html',
+  '/guides/id/how-to-play-marble-maze.html',
+  '/guides/id/marble-maze-when.html',
+  '/guides/id/marble-maze-vs-alternatives.html',
+  '/guides/de/how-to-play-marble-maze.html',
+  '/guides/de/marble-maze-when.html',
+  '/guides/de/marble-maze-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire308 (2026-07-18): asteroid-blaster companion guides
   '/guides/how-to-play-asteroid-blaster.html',
   '/guides/asteroid-blaster-when.html',
@@ -8206,6 +8265,10 @@ export const ALIAS_ROUTES = {
   '/ampelosaurus.html': '/dinosaur-3d/ampelosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire92: seismosaurus.
   '/seismosaurus.html': '/dinosaur-3d/seismosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire93: stygimoloch.
+  '/stygimoloch.html': '/dinosaur-3d/stygimoloch.html',
+  // dinosaur-3d-discovery-loop-runbook fire94: avaceratops.
+  '/avaceratops.html': '/dinosaur-3d/avaceratops.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -8870,6 +8933,7 @@ export const JSP_BY_ROUTE = {
   '/news/id/heic-arrived-with-ios-11.html': 'news/id/heic-arrived-with-ios-11.jsp',
   '/news/de/heic-arrived-with-ios-11.html': 'news/de/heic-arrived-with-ios-11.jsp',
   '/news/fat32-four-gib-file-limit.html': 'news/fat32-four-gib-file-limit.jsp',
+  '/news/pt/fat32-four-gib-file-limit.html': 'news/pt/fat32-four-gib-file-limit.jsp',
   '/image-tools/resize-image.html': 'image/resize-image.jsp',
   '/image-tools/crop-image.html': 'image/crop-image.jsp',
   '/image-tools/compress-image.html': 'image/compress-image.jsp',
@@ -10084,6 +10148,44 @@ export const JSP_BY_ROUTE = {
   '/guides/de/hover-racing-when.html': 'guide/de/hover-racing-when.jsp',
   '/guides/de/hover-racing-vs-alternatives.html': 'guide/de/hover-racing-vs-alternatives.jsp',
 
+  // new-tool-discovery-loop-runbook fire310 (2026-07-18): marble-maze companion guides (remirror fire309)
+  '/guides/how-to-play-marble-maze.html': 'guide/how-to-play-marble-maze.jsp',
+  '/guides/marble-maze-when.html': 'guide/marble-maze-when.jsp',
+  '/guides/marble-maze-vs-alternatives.html': 'guide/marble-maze-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-marble-maze.html': 'guide/pt/how-to-play-marble-maze.jsp',
+  '/guides/pt/marble-maze-when.html': 'guide/pt/marble-maze-when.jsp',
+  '/guides/pt/marble-maze-vs-alternatives.html': 'guide/pt/marble-maze-vs-alternatives.jsp',
+  '/guides/es/how-to-play-marble-maze.html': 'guide/es/how-to-play-marble-maze.jsp',
+  '/guides/es/marble-maze-when.html': 'guide/es/marble-maze-when.jsp',
+  '/guides/es/marble-maze-vs-alternatives.html': 'guide/es/marble-maze-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-marble-maze.html': 'guide/vi/how-to-play-marble-maze.jsp',
+  '/guides/vi/marble-maze-when.html': 'guide/vi/marble-maze-when.jsp',
+  '/guides/vi/marble-maze-vs-alternatives.html': 'guide/vi/marble-maze-vs-alternatives.jsp',
+  '/guides/id/how-to-play-marble-maze.html': 'guide/id/how-to-play-marble-maze.jsp',
+  '/guides/id/marble-maze-when.html': 'guide/id/marble-maze-when.jsp',
+  '/guides/id/marble-maze-vs-alternatives.html': 'guide/id/marble-maze-vs-alternatives.jsp',
+  '/guides/de/how-to-play-marble-maze.html': 'guide/de/how-to-play-marble-maze.jsp',
+  '/guides/de/marble-maze-when.html': 'guide/de/marble-maze-when.jsp',
+  '/guides/de/marble-maze-vs-alternatives.html': 'guide/de/marble-maze-vs-alternatives.jsp',
+  // new-tool-discovery-loop-runbook fire308 (2026-07-18): asteroid-blaster companion guides
+  '/guides/how-to-play-asteroid-blaster.html': 'guide/how-to-play-asteroid-blaster.jsp',
+  '/guides/asteroid-blaster-when.html': 'guide/asteroid-blaster-when.jsp',
+  '/guides/asteroid-blaster-vs-alternatives.html': 'guide/asteroid-blaster-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-asteroid-blaster.html': 'guide/pt/how-to-play-asteroid-blaster.jsp',
+  '/guides/pt/asteroid-blaster-when.html': 'guide/pt/asteroid-blaster-when.jsp',
+  '/guides/pt/asteroid-blaster-vs-alternatives.html': 'guide/pt/asteroid-blaster-vs-alternatives.jsp',
+  '/guides/es/how-to-play-asteroid-blaster.html': 'guide/es/how-to-play-asteroid-blaster.jsp',
+  '/guides/es/asteroid-blaster-when.html': 'guide/es/asteroid-blaster-when.jsp',
+  '/guides/es/asteroid-blaster-vs-alternatives.html': 'guide/es/asteroid-blaster-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-asteroid-blaster.html': 'guide/vi/how-to-play-asteroid-blaster.jsp',
+  '/guides/vi/asteroid-blaster-when.html': 'guide/vi/asteroid-blaster-when.jsp',
+  '/guides/vi/asteroid-blaster-vs-alternatives.html': 'guide/vi/asteroid-blaster-vs-alternatives.jsp',
+  '/guides/id/how-to-play-asteroid-blaster.html': 'guide/id/how-to-play-asteroid-blaster.jsp',
+  '/guides/id/asteroid-blaster-when.html': 'guide/id/asteroid-blaster-when.jsp',
+  '/guides/id/asteroid-blaster-vs-alternatives.html': 'guide/id/asteroid-blaster-vs-alternatives.jsp',
+  '/guides/de/how-to-play-asteroid-blaster.html': 'guide/de/how-to-play-asteroid-blaster.jsp',
+  '/guides/de/asteroid-blaster-when.html': 'guide/de/asteroid-blaster-when.jsp',
+  '/guides/de/asteroid-blaster-vs-alternatives.html': 'guide/de/asteroid-blaster-vs-alternatives.jsp',
   // game-discovery-loop-runbook fire133 (2026-07-18): ritual-catacombs companion guides
   '/guides/how-to-play-ritual-catacombs.html': 'guide/how-to-play-ritual-catacombs.jsp',
   '/guides/ritual-catacombs-when.html': 'guide/ritual-catacombs-when.jsp',
@@ -11062,6 +11164,8 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/ichthyovenator.html': 'dinosaur/ichthyovenator.jsp',
   '/dinosaur-3d/ampelosaurus.html': 'dinosaur/ampelosaurus.jsp',
   '/dinosaur-3d/seismosaurus.html': 'dinosaur/seismosaurus.jsp',
+  '/dinosaur-3d/stygimoloch.html': 'dinosaur/stygimoloch.jsp',
+  '/dinosaur-3d/avaceratops.html': 'dinosaur/avaceratops.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -11674,6 +11778,46 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/how-to-view-ground-sloth-in-3d.html': 'guide/vi/how-to-view-ground-sloth-in-3d.jsp',
   '/guides/id/how-to-view-ground-sloth-in-3d.html': 'guide/id/how-to-view-ground-sloth-in-3d.jsp',
   '/guides/de/how-to-view-ground-sloth-in-3d.html': 'guide/de/how-to-view-ground-sloth-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire77 (2026-07-18): ground-sloth-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ground-sloth-size-comparison.html': 'guide/ground-sloth-size-comparison.jsp',
+  '/guides/pt/ground-sloth-size-comparison.html': 'guide/pt/ground-sloth-size-comparison.jsp',
+  '/guides/es/ground-sloth-size-comparison.html': 'guide/es/ground-sloth-size-comparison.jsp',
+  '/guides/vi/ground-sloth-size-comparison.html': 'guide/vi/ground-sloth-size-comparison.jsp',
+  '/guides/id/ground-sloth-size-comparison.html': 'guide/id/ground-sloth-size-comparison.jsp',
+  '/guides/de/ground-sloth-size-comparison.html': 'guide/de/ground-sloth-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire78 (2026-07-18): ground-sloth-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ground-sloth-3d-viewer-vs-ar-apps.html': 'guide/ground-sloth-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/ground-sloth-3d-viewer-vs-ar-apps.html': 'guide/pt/ground-sloth-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/ground-sloth-3d-viewer-vs-ar-apps.html': 'guide/es/ground-sloth-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/ground-sloth-3d-viewer-vs-ar-apps.html': 'guide/vi/ground-sloth-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/ground-sloth-3d-viewer-vs-ar-apps.html': 'guide/id/ground-sloth-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/ground-sloth-3d-viewer-vs-ar-apps.html': 'guide/de/ground-sloth-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire79 (2026-07-18): how-to-view-ichthyosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-ichthyosaurus-in-3d.html': 'guide/how-to-view-ichthyosaurus-in-3d.jsp',
+  '/guides/pt/how-to-view-ichthyosaurus-in-3d.html': 'guide/pt/how-to-view-ichthyosaurus-in-3d.jsp',
+  '/guides/es/how-to-view-ichthyosaurus-in-3d.html': 'guide/es/how-to-view-ichthyosaurus-in-3d.jsp',
+  '/guides/vi/how-to-view-ichthyosaurus-in-3d.html': 'guide/vi/how-to-view-ichthyosaurus-in-3d.jsp',
+  '/guides/id/how-to-view-ichthyosaurus-in-3d.html': 'guide/id/how-to-view-ichthyosaurus-in-3d.jsp',
+  '/guides/de/how-to-view-ichthyosaurus-in-3d.html': 'guide/de/how-to-view-ichthyosaurus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire80 (2026-07-18): ichthyosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ichthyosaurus-size-comparison.html': 'guide/ichthyosaurus-size-comparison.jsp',
+  '/guides/pt/ichthyosaurus-size-comparison.html': 'guide/pt/ichthyosaurus-size-comparison.jsp',
+  '/guides/es/ichthyosaurus-size-comparison.html': 'guide/es/ichthyosaurus-size-comparison.jsp',
+  '/guides/vi/ichthyosaurus-size-comparison.html': 'guide/vi/ichthyosaurus-size-comparison.jsp',
+  '/guides/id/ichthyosaurus-size-comparison.html': 'guide/id/ichthyosaurus-size-comparison.jsp',
+  '/guides/de/ichthyosaurus-size-comparison.html': 'guide/de/ichthyosaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire81 (2026-07-18): ichthyosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ichthyosaurus-3d-viewer-vs-ar-apps.html': 'guide/ichthyosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/ichthyosaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/ichthyosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/ichthyosaurus-3d-viewer-vs-ar-apps.html': 'guide/es/ichthyosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/ichthyosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/ichthyosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/ichthyosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/ichthyosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/ichthyosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/ichthyosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
