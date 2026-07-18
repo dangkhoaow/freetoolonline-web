@@ -5783,6 +5783,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/wash-the-cat-when.html',
   '/guides/de/wash-the-cat-vs-alternatives.html',
 
+  // new-tool-discovery-loop-runbook fire308 (2026-07-18): asteroid-blaster companion guides
+  '/guides/how-to-play-asteroid-blaster.html',
+  '/guides/asteroid-blaster-when.html',
+  '/guides/asteroid-blaster-vs-alternatives.html',
+  '/guides/pt/how-to-play-asteroid-blaster.html',
+  '/guides/pt/asteroid-blaster-when.html',
+  '/guides/pt/asteroid-blaster-vs-alternatives.html',
+  '/guides/es/how-to-play-asteroid-blaster.html',
+  '/guides/es/asteroid-blaster-when.html',
+  '/guides/es/asteroid-blaster-vs-alternatives.html',
+  '/guides/vi/how-to-play-asteroid-blaster.html',
+  '/guides/vi/asteroid-blaster-when.html',
+  '/guides/vi/asteroid-blaster-vs-alternatives.html',
+  '/guides/id/how-to-play-asteroid-blaster.html',
+  '/guides/id/asteroid-blaster-when.html',
+  '/guides/id/asteroid-blaster-vs-alternatives.html',
+  '/guides/de/how-to-play-asteroid-blaster.html',
+  '/guides/de/asteroid-blaster-when.html',
+  '/guides/de/asteroid-blaster-vs-alternatives.html',
   // game-discovery-loop-runbook fire133 (2026-07-18): ritual-catacombs companion guides
 // new-tool-discovery-loop-runbook fire306 (2026-07-18): retro-arcade-shooter companion guides
   '/guides/how-to-play-retro-arcade-shooter.html',
@@ -9876,6 +9895,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/wash-the-cat-when.html': 'guide/de/wash-the-cat-when.jsp',
   '/guides/de/wash-the-cat-vs-alternatives.html': 'guide/de/wash-the-cat-vs-alternatives.jsp',
 
+  // new-tool-discovery-loop-runbook fire308 (2026-07-18): asteroid-blaster companion guides
+  '/guides/how-to-play-asteroid-blaster.html': 'guide/how-to-play-asteroid-blaster.jsp',
+  '/guides/asteroid-blaster-when.html': 'guide/asteroid-blaster-when.jsp',
+  '/guides/asteroid-blaster-vs-alternatives.html': 'guide/asteroid-blaster-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-asteroid-blaster.html': 'guide/pt/how-to-play-asteroid-blaster.jsp',
+  '/guides/pt/asteroid-blaster-when.html': 'guide/pt/asteroid-blaster-when.jsp',
+  '/guides/pt/asteroid-blaster-vs-alternatives.html': 'guide/pt/asteroid-blaster-vs-alternatives.jsp',
+  '/guides/es/how-to-play-asteroid-blaster.html': 'guide/es/how-to-play-asteroid-blaster.jsp',
+  '/guides/es/asteroid-blaster-when.html': 'guide/es/asteroid-blaster-when.jsp',
+  '/guides/es/asteroid-blaster-vs-alternatives.html': 'guide/es/asteroid-blaster-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-asteroid-blaster.html': 'guide/vi/how-to-play-asteroid-blaster.jsp',
+  '/guides/vi/asteroid-blaster-when.html': 'guide/vi/asteroid-blaster-when.jsp',
+  '/guides/vi/asteroid-blaster-vs-alternatives.html': 'guide/vi/asteroid-blaster-vs-alternatives.jsp',
+  '/guides/id/how-to-play-asteroid-blaster.html': 'guide/id/how-to-play-asteroid-blaster.jsp',
+  '/guides/id/asteroid-blaster-when.html': 'guide/id/asteroid-blaster-when.jsp',
+  '/guides/id/asteroid-blaster-vs-alternatives.html': 'guide/id/asteroid-blaster-vs-alternatives.jsp',
+  '/guides/de/how-to-play-asteroid-blaster.html': 'guide/de/how-to-play-asteroid-blaster.jsp',
+  '/guides/de/asteroid-blaster-when.html': 'guide/de/asteroid-blaster-when.jsp',
+  '/guides/de/asteroid-blaster-vs-alternatives.html': 'guide/de/asteroid-blaster-vs-alternatives.jsp',
   // game-discovery-loop-runbook fire133 (2026-07-18): ritual-catacombs companion guides
 // new-tool-discovery-loop-runbook fire306 (2026-07-18): retro-arcade-shooter companion guides
   '/guides/how-to-play-retro-arcade-shooter.html': 'guide/how-to-play-retro-arcade-shooter.jsp',
