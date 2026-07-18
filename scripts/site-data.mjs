@@ -7863,6 +7863,8 @@ export const ALIAS_ROUTES = {
   '/protoceratops.html': '/dinosaur-3d/protoceratops.html',
   // fire77 ceratosaurus alias
   '/ceratosaurus.html': '/dinosaur-3d/ceratosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire78: brontosaurus alias.
+  '/brontosaurus.html': '/dinosaur-3d/brontosaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -10651,6 +10653,8 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/protoceratops.html': 'dinosaur/protoceratops.jsp',
   // fire77 Ceratosaurus JSP_BY_ROUTE
   '/dinosaur-3d/ceratosaurus.html': 'dinosaur/ceratosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire78: Brontosaurus viewer.
+  '/dinosaur-3d/brontosaurus.html': 'dinosaur/brontosaurus.jsp',
   // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/how-to-view-tyrannosaurus-rex-in-3d.jsp',
