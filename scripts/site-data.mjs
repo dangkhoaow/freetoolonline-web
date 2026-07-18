@@ -10592,6 +10592,8 @@ export const JSP_BY_ROUTE = {
   // bpy/Blender was available this session) - ships with a real model, no
   // BLOCKED_NO_MODEL parking needed.
   '/dinosaur-3d/protoceratops.html': 'dinosaur/protoceratops.jsp',
+  // fire77 Ceratosaurus JSP_BY_ROUTE
+  '/dinosaur-3d/ceratosaurus.html': 'dinosaur/ceratosaurus.jsp',
   // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/how-to-view-tyrannosaurus-rex-in-3d.jsp',
