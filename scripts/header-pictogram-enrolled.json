@@ -5,6 +5,7 @@
     "aberrationofstarlight",
     "abysssignaldiver",
     "addwatermarktopdf",
+    "adobeacrobatapsb2663",
     "agecalculator",
     "albertaceratops",
     "alioramus",
@@ -299,6 +300,7 @@
     "protoceratops",
     "protoplanetarydisk",
     "pt7ziprar5motwbypass",
+    "ptadobeacrobatapsb2663",
     "ptav2codecfinalizednobrowsersupportyet",
     "pteranodon",
     "ptfat32fourgibfilelimit",
@@ -412,6 +414,7 @@
     "velociraptor",
     "venusphasesgalileo",
     "venusretrograderotation",
+    "vestarheasilvia",
     "viav2codecfinalizednobrowsersupportyet",
     "videocompressor",
     "videomaker",
@@ -440,9 +443,7 @@
     "yesornowheel",
     "zipfile",
     "ziptools",
-    "zodiacallight",
-    "vestarheasilvia",
-    "adobeacrobatapsb2663"
+    "zodiacallight"
   ],
   "wordmark": true,
   "_note": "Opt-in list of cmsSlugs whose header logo uses the page pictogram (CDN img) instead of the default gear SVG. Shared with og:image + favicon + apple-touch resolution. A page not listed here keeps the gear."
