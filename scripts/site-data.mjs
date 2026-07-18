@@ -3911,6 +3911,62 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/apatosaurus-size-comparison.html',
   '/guides/id/apatosaurus-size-comparison.html',
   '/guides/de/apatosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire42 (2026-07-18): apatosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/apatosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/apatosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/apatosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/apatosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/apatosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/apatosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire43 (2026-07-18): how-to-view-carnotaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides (how-to)
+  '/guides/how-to-view-carnotaurus-in-3d.html',
+  '/guides/pt/how-to-view-carnotaurus-in-3d.html',
+  '/guides/es/how-to-view-carnotaurus-in-3d.html',
+  '/guides/vi/how-to-view-carnotaurus-in-3d.html',
+  '/guides/id/how-to-view-carnotaurus-in-3d.html',
+  '/guides/de/how-to-view-carnotaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire44 (2026-07-18): carnotaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/carnotaurus-size-comparison.html',
+  '/guides/pt/carnotaurus-size-comparison.html',
+  '/guides/es/carnotaurus-size-comparison.html',
+  '/guides/vi/carnotaurus-size-comparison.html',
+  '/guides/id/carnotaurus-size-comparison.html',
+  '/guides/de/carnotaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire45 (2026-07-18): carnotaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/carnotaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/carnotaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/carnotaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/carnotaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/carnotaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/carnotaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire46 (2026-07-18): how-to-view-dilophosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides (how-to)
+  '/guides/how-to-view-dilophosaurus-in-3d.html',
+  '/guides/pt/how-to-view-dilophosaurus-in-3d.html',
+  '/guides/es/how-to-view-dilophosaurus-in-3d.html',
+  '/guides/vi/how-to-view-dilophosaurus-in-3d.html',
+  '/guides/id/how-to-view-dilophosaurus-in-3d.html',
+  '/guides/de/how-to-view-dilophosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire47 (2026-07-18): dilophosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/dilophosaurus-size-comparison.html',
+  '/guides/pt/dilophosaurus-size-comparison.html',
+  '/guides/es/dilophosaurus-size-comparison.html',
+  '/guides/vi/dilophosaurus-size-comparison.html',
+  '/guides/id/dilophosaurus-size-comparison.html',
+  '/guides/de/dilophosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire48 (2026-07-18): dilophosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/dilophosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/dilophosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/dilophosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/dilophosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/dilophosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/dilophosaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -5670,6 +5726,26 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/how-to-play-potion-brew-shop.html',
   '/guides/de/potion-brew-shop-when.html',
   '/guides/de/potion-brew-shop-vs-alternatives.html',
+
+  // game-discovery-loop-runbook fire135 (2026-07-18): cat-typing-race companion guides
+  '/guides/how-to-play-cat-typing-race.html',
+  '/guides/cat-typing-race-when.html',
+  '/guides/cat-typing-race-vs-alternatives.html',
+  '/guides/pt/how-to-play-cat-typing-race.html',
+  '/guides/pt/cat-typing-race-when.html',
+  '/guides/pt/cat-typing-race-vs-alternatives.html',
+  '/guides/es/how-to-play-cat-typing-race.html',
+  '/guides/es/cat-typing-race-when.html',
+  '/guides/es/cat-typing-race-vs-alternatives.html',
+  '/guides/vi/how-to-play-cat-typing-race.html',
+  '/guides/vi/cat-typing-race-when.html',
+  '/guides/vi/cat-typing-race-vs-alternatives.html',
+  '/guides/id/how-to-play-cat-typing-race.html',
+  '/guides/id/cat-typing-race-when.html',
+  '/guides/id/cat-typing-race-vs-alternatives.html',
+  '/guides/de/how-to-play-cat-typing-race.html',
+  '/guides/de/cat-typing-race-when.html',
+  '/guides/de/cat-typing-race-vs-alternatives.html',
 
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle
   '/guides/how-to-play-cyber-slide-puzzle.html',
@@ -7815,6 +7891,14 @@ export const ALIAS_ROUTES = {
   '/ichthyosaurus.html': '/dinosaur-3d/ichthyosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire75 (2026-07-18): flat-slug alias for edmontosaurus.
   '/edmontosaurus.html': '/dinosaur-3d/edmontosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire76 (2026-07-18): flat-slug alias for protoceratops.
+  '/protoceratops.html': '/dinosaur-3d/protoceratops.html',
+  // fire77 ceratosaurus alias
+  '/ceratosaurus.html': '/dinosaur-3d/ceratosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire78: brontosaurus alias.
+  '/brontosaurus.html': '/dinosaur-3d/brontosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire79: megalosaurus alias.
+  '/megalosaurus.html': '/dinosaur-3d/megalosaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -7886,6 +7970,7 @@ export const ALIAS_ROUTES = {
   '/wash-the-cat.html': '/games/wash-the-cat.html',
   '/ritual-catacombs.html': '/games/ritual-catacombs.html',
   '/potion-brew-shop.html': '/games/potion-brew-shop.html',
+  '/cat-typing-race.html': '/games/cat-typing-race.html',
 
   '/gravity-orbit-golf.html': '/games/gravity-orbit-golf.html',
 
@@ -9684,6 +9769,26 @@ export const JSP_BY_ROUTE = {
   '/guides/de/potion-brew-shop-when.html': 'guide/de/potion-brew-shop-when.jsp',
   '/guides/de/potion-brew-shop-vs-alternatives.html': 'guide/de/potion-brew-shop-vs-alternatives.jsp',
 
+  // game-discovery-loop-runbook fire135 (2026-07-18): cat-typing-race companion guides
+  '/guides/how-to-play-cat-typing-race.html': 'guide/how-to-play-cat-typing-race.jsp',
+  '/guides/cat-typing-race-when.html': 'guide/cat-typing-race-when.jsp',
+  '/guides/cat-typing-race-vs-alternatives.html': 'guide/cat-typing-race-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-cat-typing-race.html': 'guide/pt/how-to-play-cat-typing-race.jsp',
+  '/guides/pt/cat-typing-race-when.html': 'guide/pt/cat-typing-race-when.jsp',
+  '/guides/pt/cat-typing-race-vs-alternatives.html': 'guide/pt/cat-typing-race-vs-alternatives.jsp',
+  '/guides/es/how-to-play-cat-typing-race.html': 'guide/es/how-to-play-cat-typing-race.jsp',
+  '/guides/es/cat-typing-race-when.html': 'guide/es/cat-typing-race-when.jsp',
+  '/guides/es/cat-typing-race-vs-alternatives.html': 'guide/es/cat-typing-race-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-cat-typing-race.html': 'guide/vi/how-to-play-cat-typing-race.jsp',
+  '/guides/vi/cat-typing-race-when.html': 'guide/vi/cat-typing-race-when.jsp',
+  '/guides/vi/cat-typing-race-vs-alternatives.html': 'guide/vi/cat-typing-race-vs-alternatives.jsp',
+  '/guides/id/how-to-play-cat-typing-race.html': 'guide/id/how-to-play-cat-typing-race.jsp',
+  '/guides/id/cat-typing-race-when.html': 'guide/id/cat-typing-race-when.jsp',
+  '/guides/id/cat-typing-race-vs-alternatives.html': 'guide/id/cat-typing-race-vs-alternatives.jsp',
+  '/guides/de/how-to-play-cat-typing-race.html': 'guide/de/how-to-play-cat-typing-race.jsp',
+  '/guides/de/cat-typing-race-when.html': 'guide/de/cat-typing-race-when.jsp',
+  '/guides/de/cat-typing-race-vs-alternatives.html': 'guide/de/cat-typing-race-vs-alternatives.jsp',
+
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle guides
   '/guides/how-to-play-cyber-slide-puzzle.html': 'guide/how-to-play-cyber-slide-puzzle.jsp',
   '/guides/cyber-slide-puzzle-when.html': 'guide/cyber-slide-puzzle-when.jsp',
@@ -10571,6 +10676,21 @@ export const JSP_BY_ROUTE = {
   // STL->glTF headlessly with trimesh since no bpy/Blender was available this
   // session) - ships with a real model, no BLOCKED_NO_MODEL parking needed.
   '/dinosaur-3d/edmontosaurus.html': 'dinosaur/edmontosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire76 (2026-07-18): Protoceratops viewer -
+  // ceratopsian archetype (frill, no horns; same code path as pachyrhinosaurus) -
+  // differentiated by its much smaller size vs Triceratops/Pachyrhinosaurus and
+  // the famous "Fighting Dinosaurs" fossil with Velociraptor. Model-ready this
+  // fire: sourced + vendored a license-clean glTF (seth the yutyrannus, CC-BY-SA
+  // 4.0, via Printables, OBJ->glTF headlessly with trimesh/open3d since no
+  // bpy/Blender was available this session) - ships with a real model, no
+  // BLOCKED_NO_MODEL parking needed.
+  '/dinosaur-3d/protoceratops.html': 'dinosaur/protoceratops.jsp',
+  // fire77 Ceratosaurus JSP_BY_ROUTE
+  '/dinosaur-3d/ceratosaurus.html': 'dinosaur/ceratosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire78: Brontosaurus viewer.
+  '/dinosaur-3d/brontosaurus.html': 'dinosaur/brontosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire79: Megalosaurus viewer.
+  '/dinosaur-3d/megalosaurus.html': 'dinosaur/megalosaurus.jsp',
   // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/how-to-view-tyrannosaurus-rex-in-3d.jsp',
@@ -10899,6 +11019,62 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/apatosaurus-size-comparison.html': 'guide/vi/apatosaurus-size-comparison.jsp',
   '/guides/id/apatosaurus-size-comparison.html': 'guide/id/apatosaurus-size-comparison.jsp',
   '/guides/de/apatosaurus-size-comparison.html': 'guide/de/apatosaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire42 (2026-07-18): apatosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/apatosaurus-3d-viewer-vs-ar-apps.html': 'guide/apatosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/apatosaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/apatosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/apatosaurus-3d-viewer-vs-ar-apps.html': 'guide/es/apatosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/apatosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/apatosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/apatosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/apatosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/apatosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/apatosaurus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire43 (2026-07-18): how-to-view-carnotaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides (how-to)
+  '/guides/how-to-view-carnotaurus-in-3d.html': 'guide/how-to-view-carnotaurus-in-3d.jsp',
+  '/guides/pt/how-to-view-carnotaurus-in-3d.html': 'guide/pt/how-to-view-carnotaurus-in-3d.jsp',
+  '/guides/es/how-to-view-carnotaurus-in-3d.html': 'guide/es/how-to-view-carnotaurus-in-3d.jsp',
+  '/guides/vi/how-to-view-carnotaurus-in-3d.html': 'guide/vi/how-to-view-carnotaurus-in-3d.jsp',
+  '/guides/id/how-to-view-carnotaurus-in-3d.html': 'guide/id/how-to-view-carnotaurus-in-3d.jsp',
+  '/guides/de/how-to-view-carnotaurus-in-3d.html': 'guide/de/how-to-view-carnotaurus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire44 (2026-07-18): carnotaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/carnotaurus-size-comparison.html': 'guide/carnotaurus-size-comparison.jsp',
+  '/guides/pt/carnotaurus-size-comparison.html': 'guide/pt/carnotaurus-size-comparison.jsp',
+  '/guides/es/carnotaurus-size-comparison.html': 'guide/es/carnotaurus-size-comparison.jsp',
+  '/guides/vi/carnotaurus-size-comparison.html': 'guide/vi/carnotaurus-size-comparison.jsp',
+  '/guides/id/carnotaurus-size-comparison.html': 'guide/id/carnotaurus-size-comparison.jsp',
+  '/guides/de/carnotaurus-size-comparison.html': 'guide/de/carnotaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire45 (2026-07-18): carnotaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/carnotaurus-3d-viewer-vs-ar-apps.html': 'guide/carnotaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/carnotaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/carnotaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/carnotaurus-3d-viewer-vs-ar-apps.html': 'guide/es/carnotaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/carnotaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/carnotaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/carnotaurus-3d-viewer-vs-ar-apps.html': 'guide/id/carnotaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/carnotaurus-3d-viewer-vs-ar-apps.html': 'guide/de/carnotaurus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire46 (2026-07-18): how-to-view-dilophosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides (how-to)
+  '/guides/how-to-view-dilophosaurus-in-3d.html': 'guide/how-to-view-dilophosaurus-in-3d.jsp',
+  '/guides/pt/how-to-view-dilophosaurus-in-3d.html': 'guide/pt/how-to-view-dilophosaurus-in-3d.jsp',
+  '/guides/es/how-to-view-dilophosaurus-in-3d.html': 'guide/es/how-to-view-dilophosaurus-in-3d.jsp',
+  '/guides/vi/how-to-view-dilophosaurus-in-3d.html': 'guide/vi/how-to-view-dilophosaurus-in-3d.jsp',
+  '/guides/id/how-to-view-dilophosaurus-in-3d.html': 'guide/id/how-to-view-dilophosaurus-in-3d.jsp',
+  '/guides/de/how-to-view-dilophosaurus-in-3d.html': 'guide/de/how-to-view-dilophosaurus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire47 (2026-07-18): dilophosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/dilophosaurus-size-comparison.html': 'guide/dilophosaurus-size-comparison.jsp',
+  '/guides/pt/dilophosaurus-size-comparison.html': 'guide/pt/dilophosaurus-size-comparison.jsp',
+  '/guides/es/dilophosaurus-size-comparison.html': 'guide/es/dilophosaurus-size-comparison.jsp',
+  '/guides/vi/dilophosaurus-size-comparison.html': 'guide/vi/dilophosaurus-size-comparison.jsp',
+  '/guides/id/dilophosaurus-size-comparison.html': 'guide/id/dilophosaurus-size-comparison.jsp',
+  '/guides/de/dilophosaurus-size-comparison.html': 'guide/de/dilophosaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire48 (2026-07-18): dilophosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/dilophosaurus-3d-viewer-vs-ar-apps.html': 'guide/dilophosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/dilophosaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/dilophosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/dilophosaurus-3d-viewer-vs-ar-apps.html': 'guide/es/dilophosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/dilophosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/dilophosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/dilophosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/dilophosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/dilophosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/dilophosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
@@ -11181,6 +11357,7 @@ export const JSP_BY_ROUTE = {
   '/games/wash-the-cat.html': 'games/wash-the-cat.jsp',
   '/games/ritual-catacombs.html': 'games/ritual-catacombs.jsp',
   '/games/potion-brew-shop.html': 'games/potion-brew-shop.jsp',
+  '/games/cat-typing-race.html': 'games/cat-typing-race.jsp',
   '/games/asteroid-blaster.html': 'games/asteroid-blaster.jsp',
   '/games/hex-puzzle-blocks.html': 'games/hex-puzzle-blocks.jsp',
   '/games/procedural-horde-game.html': 'games/procedural-horde-game.jsp',
