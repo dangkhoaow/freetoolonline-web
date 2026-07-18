@@ -4438,6 +4438,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/concavenator-size-comparison.html',
   '/guides/id/concavenator-size-comparison.html',
   '/guides/de/concavenator-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire108 (2026-07-18): concavenator-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/concavenator-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/concavenator-3d-viewer-vs-ar-apps.html',
+  '/guides/es/concavenator-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/concavenator-3d-viewer-vs-ar-apps.html',
+  '/guides/id/concavenator-3d-viewer-vs-ar-apps.html',
+  '/guides/de/concavenator-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -8621,6 +8629,8 @@ export const ALIAS_ROUTES = {
   '/quetzalcoatlus.html': '/dinosaur-3d/quetzalcoatlus.html',
   // dinosaur-3d-discovery-loop-runbook fire102: gigantoraptor.
   '/gigantoraptor.html': '/dinosaur-3d/gigantoraptor.html',
+  // dinosaur-3d-discovery-loop-runbook fire103: tarbosaurus.
+  '/tarbosaurus.html': '/dinosaur-3d/tarbosaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -11657,6 +11667,7 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/coelophysis.html': 'dinosaur/coelophysis.jsp',
   '/dinosaur-3d/quetzalcoatlus.html': 'dinosaur/quetzalcoatlus.jsp',
   '/dinosaur-3d/gigantoraptor.html': 'dinosaur/gigantoraptor.jsp',
+  '/dinosaur-3d/tarbosaurus.html': 'dinosaur/tarbosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -12516,6 +12527,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/concavenator-size-comparison.html': 'guide/vi/concavenator-size-comparison.jsp',
   '/guides/id/concavenator-size-comparison.html': 'guide/id/concavenator-size-comparison.jsp',
   '/guides/de/concavenator-size-comparison.html': 'guide/de/concavenator-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire108 (2026-07-18): concavenator-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/concavenator-3d-viewer-vs-ar-apps.html': 'guide/concavenator-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/concavenator-3d-viewer-vs-ar-apps.html': 'guide/pt/concavenator-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/concavenator-3d-viewer-vs-ar-apps.html': 'guide/es/concavenator-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/concavenator-3d-viewer-vs-ar-apps.html': 'guide/vi/concavenator-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/concavenator-3d-viewer-vs-ar-apps.html': 'guide/id/concavenator-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/concavenator-3d-viewer-vs-ar-apps.html': 'guide/de/concavenator-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
