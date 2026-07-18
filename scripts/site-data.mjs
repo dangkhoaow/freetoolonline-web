@@ -4414,6 +4414,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/cryolophosaurus-size-comparison.html',
   '/guides/id/cryolophosaurus-size-comparison.html',
   '/guides/de/cryolophosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire105 (2026-07-18): cryolophosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/cryolophosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/cryolophosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/cryolophosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/cryolophosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/cryolophosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/cryolophosaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -4462,6 +4470,9 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/jwt-decoder-vs-alternatives.html',
   // GUIDE_ROUTES locale fanout for flashcards-maker's 3 EN companion guide
   // angles - pt/es/vi/id/de.
+  '/guides/flashcards-spaced-repetition-when.html',
+  '/guides/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/flashcards-spaced-repetition-vs-alternatives.html',
   '/guides/pt/flashcards-spaced-repetition-when.html',
   '/guides/pt/flashcards-spaced-repetition-step-by-step.html',
   '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html',
@@ -9224,6 +9235,7 @@ export const JSP_BY_ROUTE = {
   '/news/pt/fat32-four-gib-file-limit.html': 'news/pt/fat32-four-gib-file-limit.jsp',
   '/news/es/fat32-four-gib-file-limit.html': 'news/es/fat32-four-gib-file-limit.jsp',
   '/news/vi/fat32-four-gib-file-limit.html': 'news/vi/fat32-four-gib-file-limit.jsp',
+  '/news/id/fat32-four-gib-file-limit.html': 'news/id/fat32-four-gib-file-limit.jsp',
   '/image-tools/resize-image.html': 'image/resize-image.jsp',
   '/image-tools/crop-image.html': 'image/crop-image.jsp',
   '/image-tools/compress-image.html': 'image/compress-image.jsp',
@@ -12378,6 +12390,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/cryolophosaurus-size-comparison.html': 'guide/vi/cryolophosaurus-size-comparison.jsp',
   '/guides/id/cryolophosaurus-size-comparison.html': 'guide/id/cryolophosaurus-size-comparison.jsp',
   '/guides/de/cryolophosaurus-size-comparison.html': 'guide/de/cryolophosaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire105 (2026-07-18): cryolophosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/cryolophosaurus-3d-viewer-vs-ar-apps.html': 'guide/cryolophosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/cryolophosaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/cryolophosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/cryolophosaurus-3d-viewer-vs-ar-apps.html': 'guide/es/cryolophosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/cryolophosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/cryolophosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/cryolophosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/cryolophosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/cryolophosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/cryolophosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
