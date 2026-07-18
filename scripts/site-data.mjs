@@ -5682,6 +5682,9 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/png-jpg-converter-when.html',
   '/guides/de/png-jpg-converter-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire-75 (2026-07-12): city-drive-open-world-3d
+  '/guides/city-drive-open-world-3d-when.html',
+  '/guides/city-drive-open-world-3d-step-by-step.html',
+  '/guides/city-drive-open-world-3d-vs-alternatives.html',
   // companion guides (EN shipped fire-23; this fire adds pt/es/vi/id/de locale
   // fanout for all 3 angles - guide-support drain per runbook 4b).
   '/guides/pt/city-drive-open-world-3d-when.html',
@@ -7906,6 +7909,9 @@ export const GUIDE_ROUTES = new Set([
   '/guides/pt/earth-magnetosphere-step-by-step.html',
   '/guides/earth-magnetosphere-step-by-step.html',
   // play-fps-in-browser-step-by-step locale fanout pt/es/de/vi/id
+  '/guides/play-fps-in-browser-when.html',
+  '/guides/play-fps-in-browser-step-by-step.html',
+  '/guides/play-fps-in-browser-vs-alternatives.html',
   // (new-tool-discovery-loop-runbook LEAN one-off fire, guide-support drain
   // per runbook 4b).
   '/guides/pt/play-fps-in-browser-step-by-step.html',
