@@ -11087,14 +11087,6 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/dilophosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/dilophosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/dilophosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/dilophosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/dilophosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/dilophosaurus-3d-viewer-vs-ar-apps.jsp',
-  // dinosaur-3d-guides-loop-runbook fire49 (2026-07-18): how-to-view-iguanodon-in-3d
-  // EN + pt/es/vi/id/de companion guides (step-by-step)
-  '/guides/how-to-view-iguanodon-in-3d.html',
-  '/guides/pt/how-to-view-iguanodon-in-3d.html',
-  '/guides/es/how-to-view-iguanodon-in-3d.html',
-  '/guides/vi/how-to-view-iguanodon-in-3d.html',
-  '/guides/id/how-to-view-iguanodon-in-3d.html',
-  '/guides/de/how-to-view-iguanodon-in-3d.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
