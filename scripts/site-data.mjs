@@ -8493,6 +8493,7 @@ export const ALIAS_ROUTES = {
   '/mystic-card-paw.html': '/games/mystic-card-paw.html',
   '/cat-hop-cloud.html': '/games/cat-hop-cloud.html',
   '/herd-cats-home.html': '/games/herd-cats-home.html',
+  '/seasonal-witchcat.html': '/games/seasonal-witchcat.html',
 
   '/gravity-orbit-golf.html': '/games/gravity-orbit-golf.html',
 
@@ -12403,6 +12404,7 @@ export const JSP_BY_ROUTE = {
   '/games/mystic-card-paw.html': 'games/mystic-card-paw.jsp',
   '/games/cat-hop-cloud.html': 'games/cat-hop-cloud.jsp',
   '/games/herd-cats-home.html': 'games/herd-cats-home.jsp',
+  '/games/seasonal-witchcat.html': 'games/seasonal-witchcat.jsp',
   '/games/asteroid-blaster.html': 'games/asteroid-blaster.jsp',
   '/games/hex-puzzle-blocks.html': 'games/hex-puzzle-blocks.jsp',
   '/games/procedural-horde-game.html': 'games/procedural-horde-game.jsp',
