@@ -440,8 +440,9 @@
     "yesornowheel",
     "zipfile",
     "ziptools",
-    "zodiacallight"
+    "zodiacallight",
+    "vestarheasilvia"
   ],
   "wordmark": true,
-  "_note": "header-pictogram-swap-runbook enrollment. A slug here gets its pictorial mini-pictogram in the header + og:image + favicon. The runbook enrolls ONLY pictorial_ok slugs whose raster assets are committed. wordmark:false = pure-pictogram (brand tradeoff)."
+  "_note": "Opt-in list of cmsSlugs whose header logo uses the page pictogram (CDN img) instead of the default gear SVG. Shared with og:image + favicon + apple-touch resolution. A page not listed here keeps the gear."
 }
