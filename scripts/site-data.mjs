@@ -4446,6 +4446,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/concavenator-3d-viewer-vs-ar-apps.html',
   '/guides/id/concavenator-3d-viewer-vs-ar-apps.html',
   '/guides/de/concavenator-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire109 (2026-07-18): how-to-view-albertaceratops-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-albertaceratops-in-3d.html',
+  '/guides/pt/how-to-view-albertaceratops-in-3d.html',
+  '/guides/es/how-to-view-albertaceratops-in-3d.html',
+  '/guides/vi/how-to-view-albertaceratops-in-3d.html',
+  '/guides/id/how-to-view-albertaceratops-in-3d.html',
+  '/guides/de/how-to-view-albertaceratops-in-3d.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -4539,6 +4547,9 @@ export const GUIDE_ROUTES = new Set([
   // GUIDE_ROUTES backfill for video-compressor's 3 EN companion guide angles'
   // full pt/es/vi/id/de locale fanout (builder wires JSP_BY_ROUTE + INFO_ROUTES
   // only, same recurring gap class as fires 32/56/57/62/66/84/113/115/120).
+  '/guides/video-compressor-when.html',
+  '/guides/video-compressor-step-by-step.html',
+  '/guides/video-compressor-vs-alternatives.html',
   '/guides/pt/video-compressor-when.html',
   '/guides/pt/video-compressor-step-by-step.html',
   '/guides/pt/video-compressor-vs-alternatives.html',
@@ -12535,6 +12546,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/concavenator-3d-viewer-vs-ar-apps.html': 'guide/vi/concavenator-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/concavenator-3d-viewer-vs-ar-apps.html': 'guide/id/concavenator-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/concavenator-3d-viewer-vs-ar-apps.html': 'guide/de/concavenator-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire109 (2026-07-18): how-to-view-albertaceratops-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-albertaceratops-in-3d.html': 'guide/how-to-view-albertaceratops-in-3d.jsp',
+  '/guides/pt/how-to-view-albertaceratops-in-3d.html': 'guide/pt/how-to-view-albertaceratops-in-3d.jsp',
+  '/guides/es/how-to-view-albertaceratops-in-3d.html': 'guide/es/how-to-view-albertaceratops-in-3d.jsp',
+  '/guides/vi/how-to-view-albertaceratops-in-3d.html': 'guide/vi/how-to-view-albertaceratops-in-3d.jsp',
+  '/guides/id/how-to-view-albertaceratops-in-3d.html': 'guide/id/how-to-view-albertaceratops-in-3d.jsp',
+  '/guides/de/how-to-view-albertaceratops-in-3d.html': 'guide/de/how-to-view-albertaceratops-in-3d.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
