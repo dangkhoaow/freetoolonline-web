@@ -4462,6 +4462,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/albertaceratops-size-comparison.html',
   '/guides/id/albertaceratops-size-comparison.html',
   '/guides/de/albertaceratops-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire111 (2026-07-18): albertaceratops-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/albertaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/albertaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/es/albertaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/albertaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/id/albertaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/de/albertaceratops-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -8653,6 +8661,8 @@ export const ALIAS_ROUTES = {
   '/gigantoraptor.html': '/dinosaur-3d/gigantoraptor.html',
   // dinosaur-3d-discovery-loop-runbook fire103: tarbosaurus.
   '/tarbosaurus.html': '/dinosaur-3d/tarbosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire104: titanosaurus.
+  '/titanosaurus.html': '/dinosaur-3d/titanosaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -9325,6 +9335,7 @@ export const JSP_BY_ROUTE = {
   '/news/de/heic-arrived-with-ios-11.html': 'news/de/heic-arrived-with-ios-11.jsp',
   '/news/fat32-four-gib-file-limit.html': 'news/fat32-four-gib-file-limit.jsp',
   '/news/7-zip-rar5-motw-bypass.html': 'news/7-zip-rar5-motw-bypass.jsp',
+  '/news/pt/7-zip-rar5-motw-bypass.html': 'news/pt/7-zip-rar5-motw-bypass.jsp',
   '/news/pt/fat32-four-gib-file-limit.html': 'news/pt/fat32-four-gib-file-limit.jsp',
   '/news/es/fat32-four-gib-file-limit.html': 'news/es/fat32-four-gib-file-limit.jsp',
   '/news/vi/fat32-four-gib-file-limit.html': 'news/vi/fat32-four-gib-file-limit.jsp',
@@ -11691,6 +11702,7 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/quetzalcoatlus.html': 'dinosaur/quetzalcoatlus.jsp',
   '/dinosaur-3d/gigantoraptor.html': 'dinosaur/gigantoraptor.jsp',
   '/dinosaur-3d/tarbosaurus.html': 'dinosaur/tarbosaurus.jsp',
+  '/dinosaur-3d/titanosaurus.html': 'dinosaur/titanosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -12574,6 +12586,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/albertaceratops-size-comparison.html': 'guide/vi/albertaceratops-size-comparison.jsp',
   '/guides/id/albertaceratops-size-comparison.html': 'guide/id/albertaceratops-size-comparison.jsp',
   '/guides/de/albertaceratops-size-comparison.html': 'guide/de/albertaceratops-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire111 (2026-07-18): albertaceratops-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/albertaceratops-3d-viewer-vs-ar-apps.html': 'guide/albertaceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/albertaceratops-3d-viewer-vs-ar-apps.html': 'guide/pt/albertaceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/albertaceratops-3d-viewer-vs-ar-apps.html': 'guide/es/albertaceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/albertaceratops-3d-viewer-vs-ar-apps.html': 'guide/vi/albertaceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/albertaceratops-3d-viewer-vs-ar-apps.html': 'guide/id/albertaceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/albertaceratops-3d-viewer-vs-ar-apps.html': 'guide/de/albertaceratops-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
