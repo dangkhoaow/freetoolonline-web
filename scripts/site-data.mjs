@@ -4422,6 +4422,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/cryolophosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/id/cryolophosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/de/cryolophosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire106 (2026-07-18): how-to-view-concavenator-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-concavenator-in-3d.html',
+  '/guides/pt/how-to-view-concavenator-in-3d.html',
+  '/guides/es/how-to-view-concavenator-in-3d.html',
+  '/guides/vi/how-to-view-concavenator-in-3d.html',
+  '/guides/id/how-to-view-concavenator-in-3d.html',
+  '/guides/de/how-to-view-concavenator-in-3d.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -6363,6 +6371,26 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/how-to-play-herd-cats-home.html',
   '/guides/de/herd-cats-home-when.html',
   '/guides/de/herd-cats-home-vs-alternatives.html',
+
+  // game-discovery-loop-runbook fire143 (2026-07-18): boing-cat-platformer companion guides
+  '/guides/how-to-play-boing-cat-platformer.html',
+  '/guides/boing-cat-platformer-when.html',
+  '/guides/boing-cat-platformer-vs-alternatives.html',
+  '/guides/pt/how-to-play-boing-cat-platformer.html',
+  '/guides/pt/boing-cat-platformer-when.html',
+  '/guides/pt/boing-cat-platformer-vs-alternatives.html',
+  '/guides/es/how-to-play-boing-cat-platformer.html',
+  '/guides/es/boing-cat-platformer-when.html',
+  '/guides/es/boing-cat-platformer-vs-alternatives.html',
+  '/guides/vi/how-to-play-boing-cat-platformer.html',
+  '/guides/vi/boing-cat-platformer-when.html',
+  '/guides/vi/boing-cat-platformer-vs-alternatives.html',
+  '/guides/id/how-to-play-boing-cat-platformer.html',
+  '/guides/id/boing-cat-platformer-when.html',
+  '/guides/id/boing-cat-platformer-vs-alternatives.html',
+  '/guides/de/how-to-play-boing-cat-platformer.html',
+  '/guides/de/boing-cat-platformer-when.html',
+  '/guides/de/boing-cat-platformer-vs-alternatives.html',
 
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle
   '/guides/how-to-play-cyber-slide-puzzle.html',
@@ -8639,6 +8667,7 @@ export const ALIAS_ROUTES = {
   '/mystic-card-paw.html': '/games/mystic-card-paw.html',
   '/cat-hop-cloud.html': '/games/cat-hop-cloud.html',
   '/herd-cats-home.html': '/games/herd-cats-home.html',
+  '/boing-cat-platformer.html': '/games/boing-cat-platformer.html',
   '/seasonal-witchcat.html': '/games/seasonal-witchcat.html',
 
   '/gravity-orbit-golf.html': '/games/gravity-orbit-golf.html',
@@ -10628,6 +10657,26 @@ export const JSP_BY_ROUTE = {
   '/guides/de/herd-cats-home-when.html': 'guide/de/herd-cats-home-when.jsp',
   '/guides/de/herd-cats-home-vs-alternatives.html': 'guide/de/herd-cats-home-vs-alternatives.jsp',
 
+  // game-discovery-loop-runbook fire143 (2026-07-18): boing-cat-platformer companion guides
+  '/guides/how-to-play-boing-cat-platformer.html': 'guide/how-to-play-boing-cat-platformer.jsp',
+  '/guides/boing-cat-platformer-when.html': 'guide/boing-cat-platformer-when.jsp',
+  '/guides/boing-cat-platformer-vs-alternatives.html': 'guide/boing-cat-platformer-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-boing-cat-platformer.html': 'guide/pt/how-to-play-boing-cat-platformer.jsp',
+  '/guides/pt/boing-cat-platformer-when.html': 'guide/pt/boing-cat-platformer-when.jsp',
+  '/guides/pt/boing-cat-platformer-vs-alternatives.html': 'guide/pt/boing-cat-platformer-vs-alternatives.jsp',
+  '/guides/es/how-to-play-boing-cat-platformer.html': 'guide/es/how-to-play-boing-cat-platformer.jsp',
+  '/guides/es/boing-cat-platformer-when.html': 'guide/es/boing-cat-platformer-when.jsp',
+  '/guides/es/boing-cat-platformer-vs-alternatives.html': 'guide/es/boing-cat-platformer-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-boing-cat-platformer.html': 'guide/vi/how-to-play-boing-cat-platformer.jsp',
+  '/guides/vi/boing-cat-platformer-when.html': 'guide/vi/boing-cat-platformer-when.jsp',
+  '/guides/vi/boing-cat-platformer-vs-alternatives.html': 'guide/vi/boing-cat-platformer-vs-alternatives.jsp',
+  '/guides/id/how-to-play-boing-cat-platformer.html': 'guide/id/how-to-play-boing-cat-platformer.jsp',
+  '/guides/id/boing-cat-platformer-when.html': 'guide/id/boing-cat-platformer-when.jsp',
+  '/guides/id/boing-cat-platformer-vs-alternatives.html': 'guide/id/boing-cat-platformer-vs-alternatives.jsp',
+  '/guides/de/how-to-play-boing-cat-platformer.html': 'guide/de/how-to-play-boing-cat-platformer.jsp',
+  '/guides/de/boing-cat-platformer-when.html': 'guide/de/boing-cat-platformer-when.jsp',
+  '/guides/de/boing-cat-platformer-vs-alternatives.html': 'guide/de/boing-cat-platformer-vs-alternatives.jsp',
+
   // game-discovery-loop-runbook fire16 (2026-07-10): cyber-slide-puzzle guides
   '/guides/how-to-play-cyber-slide-puzzle.html': 'guide/how-to-play-cyber-slide-puzzle.jsp',
   '/guides/cyber-slide-puzzle-when.html': 'guide/cyber-slide-puzzle-when.jsp',
@@ -12398,6 +12447,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/cryolophosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/cryolophosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/cryolophosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/cryolophosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/cryolophosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/cryolophosaurus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire106 (2026-07-18): how-to-view-concavenator-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-concavenator-in-3d.html': 'guide/how-to-view-concavenator-in-3d.jsp',
+  '/guides/pt/how-to-view-concavenator-in-3d.html': 'guide/pt/how-to-view-concavenator-in-3d.jsp',
+  '/guides/es/how-to-view-concavenator-in-3d.html': 'guide/es/how-to-view-concavenator-in-3d.jsp',
+  '/guides/vi/how-to-view-concavenator-in-3d.html': 'guide/vi/how-to-view-concavenator-in-3d.jsp',
+  '/guides/id/how-to-view-concavenator-in-3d.html': 'guide/id/how-to-view-concavenator-in-3d.jsp',
+  '/guides/de/how-to-view-concavenator-in-3d.html': 'guide/de/how-to-view-concavenator-in-3d.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
@@ -12685,6 +12742,7 @@ export const JSP_BY_ROUTE = {
   '/games/mystic-card-paw.html': 'games/mystic-card-paw.jsp',
   '/games/cat-hop-cloud.html': 'games/cat-hop-cloud.jsp',
   '/games/herd-cats-home.html': 'games/herd-cats-home.jsp',
+  '/games/boing-cat-platformer.html': 'games/boing-cat-platformer.jsp',
   '/games/seasonal-witchcat.html': 'games/seasonal-witchcat.jsp',
   '/games/asteroid-blaster.html': 'games/asteroid-blaster.jsp',
   '/games/hex-puzzle-blocks.html': 'games/hex-puzzle-blocks.jsp',
