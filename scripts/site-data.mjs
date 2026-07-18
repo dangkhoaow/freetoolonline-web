@@ -9335,6 +9335,7 @@ export const JSP_BY_ROUTE = {
   '/news/de/heic-arrived-with-ios-11.html': 'news/de/heic-arrived-with-ios-11.jsp',
   '/news/fat32-four-gib-file-limit.html': 'news/fat32-four-gib-file-limit.jsp',
   '/news/7-zip-rar5-motw-bypass.html': 'news/7-zip-rar5-motw-bypass.jsp',
+  '/news/pt/7-zip-rar5-motw-bypass.html': 'news/pt/7-zip-rar5-motw-bypass.jsp',
   '/news/pt/fat32-four-gib-file-limit.html': 'news/pt/fat32-four-gib-file-limit.jsp',
   '/news/es/fat32-four-gib-file-limit.html': 'news/es/fat32-four-gib-file-limit.jsp',
   '/news/vi/fat32-four-gib-file-limit.html': 'news/vi/fat32-four-gib-file-limit.jsp',
