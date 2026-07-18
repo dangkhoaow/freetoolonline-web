@@ -4502,6 +4502,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/how-to-view-ornithomimus-in-3d.html',
   '/guides/id/how-to-view-ornithomimus-in-3d.html',
   '/guides/de/how-to-view-ornithomimus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire116 (2026-07-18): ornithomimus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ornithomimus-size-comparison.html',
+  '/guides/pt/ornithomimus-size-comparison.html',
+  '/guides/es/ornithomimus-size-comparison.html',
+  '/guides/vi/ornithomimus-size-comparison.html',
+  '/guides/id/ornithomimus-size-comparison.html',
+  '/guides/de/ornithomimus-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -5094,6 +5102,9 @@ export const GUIDE_ROUTES = new Set([
   '/guides/id/video-gif-converter-when.html',
   '/guides/de/video-gif-converter-when.html',
   // Cycle 20260705-22 create_new_guide_page - pt locale variant for the new EN guide /guides/audio-trimmer-step-by-step.html (new_guide_locale_completeness gate). status locale_pending_review.
+  '/guides/audio-trimmer-when.html',
+  '/guides/audio-trimmer-step-by-step.html',
+  '/guides/audio-trimmer-vs-alternatives.html',
   '/guides/pt/audio-trimmer-step-by-step.html',
   // Cycle 20260524-10 create_new_guide_page - "i love zip" bare-query landing (companion to /zip-file.html).
   '/guides/en/i-love-zip.html',
@@ -12760,6 +12771,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/how-to-view-ornithomimus-in-3d.html': 'guide/vi/how-to-view-ornithomimus-in-3d.jsp',
   '/guides/id/how-to-view-ornithomimus-in-3d.html': 'guide/id/how-to-view-ornithomimus-in-3d.jsp',
   '/guides/de/how-to-view-ornithomimus-in-3d.html': 'guide/de/how-to-view-ornithomimus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire116 (2026-07-18): ornithomimus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ornithomimus-size-comparison.html': 'guide/ornithomimus-size-comparison.jsp',
+  '/guides/pt/ornithomimus-size-comparison.html': 'guide/pt/ornithomimus-size-comparison.jsp',
+  '/guides/es/ornithomimus-size-comparison.html': 'guide/es/ornithomimus-size-comparison.jsp',
+  '/guides/vi/ornithomimus-size-comparison.html': 'guide/vi/ornithomimus-size-comparison.jsp',
+  '/guides/id/ornithomimus-size-comparison.html': 'guide/id/ornithomimus-size-comparison.jsp',
+  '/guides/de/ornithomimus-size-comparison.html': 'guide/de/ornithomimus-size-comparison.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
