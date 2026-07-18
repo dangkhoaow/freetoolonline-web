@@ -7925,6 +7925,8 @@ export const ALIAS_ROUTES = {
   '/megalosaurus.html': '/dinosaur-3d/megalosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire80: microraptor alias.
   '/microraptor.html': '/dinosaur-3d/microraptor.html',
+  // dinosaur-3d-discovery-loop-runbook fire81: majungasaurus alias.
+  '/majungasaurus.html': '/dinosaur-3d/majungasaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -10722,6 +10724,7 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/megalosaurus.html': 'dinosaur/megalosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire80: Microraptor viewer.
   '/dinosaur-3d/microraptor.html': 'dinosaur/microraptor.jsp',
+  '/dinosaur-3d/majungasaurus.html': 'dinosaur/majungasaurus.jsp',
   // dinosaur-3d-guides-loop-runbook fire1 (2026-07-15): how-to-view-tyrannosaurus-rex-in-3d
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/how-to-view-tyrannosaurus-rex-in-3d.html': 'guide/how-to-view-tyrannosaurus-rex-in-3d.jsp',
@@ -15080,6 +15083,8 @@ export const ALIAS_ROUTES = {
   '/megalosaurus.html': '/dinosaur-3d/megalosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire80: microraptor alias.
   '/microraptor.html': '/dinosaur-3d/microraptor.html',
+  // dinosaur-3d-discovery-loop-runbook fire81: majungasaurus alias.
+  '/majungasaurus.html': '/dinosaur-3d/majungasaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -17923,6 +17928,7 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/megalosaurus.html': 'dinosaur/megalosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire80: Microraptor viewer.
   '/dinosaur-3d/microraptor.html': 'dinosaur/microraptor.jsp',
+  '/dinosaur-3d/majungasaurus.html': 'dinosaur/majungasaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
