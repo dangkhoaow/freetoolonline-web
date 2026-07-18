@@ -4087,6 +4087,30 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/deinonychus-3d-viewer-vs-ar-apps.html',
   '/guides/id/deinonychus-3d-viewer-vs-ar-apps.html',
   '/guides/de/deinonychus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire64 (2026-07-18): how-to-view-utahraptor-in-3d
+  // EN + pt/es/vi/id/de companion guides (how-to)
+  '/guides/how-to-view-utahraptor-in-3d.html',
+  '/guides/pt/how-to-view-utahraptor-in-3d.html',
+  '/guides/es/how-to-view-utahraptor-in-3d.html',
+  '/guides/vi/how-to-view-utahraptor-in-3d.html',
+  '/guides/id/how-to-view-utahraptor-in-3d.html',
+  '/guides/de/how-to-view-utahraptor-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire65 (2026-07-18): utahraptor-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/utahraptor-size-comparison.html',
+  '/guides/pt/utahraptor-size-comparison.html',
+  '/guides/es/utahraptor-size-comparison.html',
+  '/guides/vi/utahraptor-size-comparison.html',
+  '/guides/id/utahraptor-size-comparison.html',
+  '/guides/de/utahraptor-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire66 (2026-07-18): utahraptor-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/utahraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/utahraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/es/utahraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/utahraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/id/utahraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/de/utahraptor-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -8090,6 +8114,8 @@ export const ALIAS_ROUTES = {
   '/tsintaosaurus.html': '/dinosaur-3d/tsintaosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire86: ornithomimus.
   '/ornithomimus.html': '/dinosaur-3d/ornithomimus.html',
+  // dinosaur-3d-discovery-loop-runbook fire87: tylosaurus.
+  '/tylosaurus.html': '/dinosaur-3d/tylosaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -10939,6 +10965,7 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/albertaceratops.html': 'dinosaur/albertaceratops.jsp',
   '/dinosaur-3d/tsintaosaurus.html': 'dinosaur/tsintaosaurus.jsp',
   '/dinosaur-3d/ornithomimus.html': 'dinosaur/ornithomimus.jsp',
+  '/dinosaur-3d/tylosaurus.html': 'dinosaur/tylosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -11447,6 +11474,30 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/deinonychus-3d-viewer-vs-ar-apps.html': 'guide/vi/deinonychus-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/deinonychus-3d-viewer-vs-ar-apps.html': 'guide/id/deinonychus-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/deinonychus-3d-viewer-vs-ar-apps.html': 'guide/de/deinonychus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire64 (2026-07-18): how-to-view-utahraptor-in-3d
+  // EN + pt/es/vi/id/de companion guides (how-to)
+  '/guides/how-to-view-utahraptor-in-3d.html': 'guide/how-to-view-utahraptor-in-3d.jsp',
+  '/guides/pt/how-to-view-utahraptor-in-3d.html': 'guide/pt/how-to-view-utahraptor-in-3d.jsp',
+  '/guides/es/how-to-view-utahraptor-in-3d.html': 'guide/es/how-to-view-utahraptor-in-3d.jsp',
+  '/guides/vi/how-to-view-utahraptor-in-3d.html': 'guide/vi/how-to-view-utahraptor-in-3d.jsp',
+  '/guides/id/how-to-view-utahraptor-in-3d.html': 'guide/id/how-to-view-utahraptor-in-3d.jsp',
+  '/guides/de/how-to-view-utahraptor-in-3d.html': 'guide/de/how-to-view-utahraptor-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire65 (2026-07-18): utahraptor-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/utahraptor-size-comparison.html': 'guide/utahraptor-size-comparison.jsp',
+  '/guides/pt/utahraptor-size-comparison.html': 'guide/pt/utahraptor-size-comparison.jsp',
+  '/guides/es/utahraptor-size-comparison.html': 'guide/es/utahraptor-size-comparison.jsp',
+  '/guides/vi/utahraptor-size-comparison.html': 'guide/vi/utahraptor-size-comparison.jsp',
+  '/guides/id/utahraptor-size-comparison.html': 'guide/id/utahraptor-size-comparison.jsp',
+  '/guides/de/utahraptor-size-comparison.html': 'guide/de/utahraptor-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire66 (2026-07-18): utahraptor-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides (vs-ar)
+  '/guides/utahraptor-3d-viewer-vs-ar-apps.html': 'guide/utahraptor-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/utahraptor-3d-viewer-vs-ar-apps.html': 'guide/pt/utahraptor-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/utahraptor-3d-viewer-vs-ar-apps.html': 'guide/es/utahraptor-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/utahraptor-3d-viewer-vs-ar-apps.html': 'guide/vi/utahraptor-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/utahraptor-3d-viewer-vs-ar-apps.html': 'guide/id/utahraptor-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/utahraptor-3d-viewer-vs-ar-apps.html': 'guide/de/utahraptor-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
