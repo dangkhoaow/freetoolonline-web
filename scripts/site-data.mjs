@@ -4063,6 +4063,22 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/therizinosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/id/therizinosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/de/therizinosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire61 (2026-07-18): how-to-view-deinonychus-in-3d
+  // EN + pt/es/vi/id/de companion guides (how-to)
+  '/guides/how-to-view-deinonychus-in-3d.html',
+  '/guides/pt/how-to-view-deinonychus-in-3d.html',
+  '/guides/es/how-to-view-deinonychus-in-3d.html',
+  '/guides/vi/how-to-view-deinonychus-in-3d.html',
+  '/guides/id/how-to-view-deinonychus-in-3d.html',
+  '/guides/de/how-to-view-deinonychus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire62 (2026-07-18): deinonychus-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/deinonychus-size-comparison.html',
+  '/guides/pt/deinonychus-size-comparison.html',
+  '/guides/es/deinonychus-size-comparison.html',
+  '/guides/vi/deinonychus-size-comparison.html',
+  '/guides/id/deinonychus-size-comparison.html',
+  '/guides/de/deinonychus-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -8062,6 +8078,8 @@ export const ALIAS_ROUTES = {
   '/concavenator.html': '/dinosaur-3d/concavenator.html',
   // dinosaur-3d-discovery-loop-runbook fire84: albertaceratops alias.
   '/albertaceratops.html': '/dinosaur-3d/albertaceratops.html',
+  // dinosaur-3d-discovery-loop-runbook fire85: tsintaosaurus.
+  '/tsintaosaurus.html': '/dinosaur-3d/tsintaosaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -10909,6 +10927,7 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/cryolophosaurus.html': 'dinosaur/cryolophosaurus.jsp',
   '/dinosaur-3d/concavenator.html': 'dinosaur/concavenator.jsp',
   '/dinosaur-3d/albertaceratops.html': 'dinosaur/albertaceratops.jsp',
+  '/dinosaur-3d/tsintaosaurus.html': 'dinosaur/tsintaosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -11393,6 +11412,22 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/therizinosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/therizinosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/therizinosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/therizinosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/therizinosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/therizinosaurus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire61 (2026-07-18): how-to-view-deinonychus-in-3d
+  // EN + pt/es/vi/id/de companion guides (how-to)
+  '/guides/how-to-view-deinonychus-in-3d.html': 'guide/how-to-view-deinonychus-in-3d.jsp',
+  '/guides/pt/how-to-view-deinonychus-in-3d.html': 'guide/pt/how-to-view-deinonychus-in-3d.jsp',
+  '/guides/es/how-to-view-deinonychus-in-3d.html': 'guide/es/how-to-view-deinonychus-in-3d.jsp',
+  '/guides/vi/how-to-view-deinonychus-in-3d.html': 'guide/vi/how-to-view-deinonychus-in-3d.jsp',
+  '/guides/id/how-to-view-deinonychus-in-3d.html': 'guide/id/how-to-view-deinonychus-in-3d.jsp',
+  '/guides/de/how-to-view-deinonychus-in-3d.html': 'guide/de/how-to-view-deinonychus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire62 (2026-07-18): deinonychus-size-comparison
+  // EN + pt/es/vi/id/de companion guides (size)
+  '/guides/deinonychus-size-comparison.html': 'guide/deinonychus-size-comparison.jsp',
+  '/guides/pt/deinonychus-size-comparison.html': 'guide/pt/deinonychus-size-comparison.jsp',
+  '/guides/es/deinonychus-size-comparison.html': 'guide/es/deinonychus-size-comparison.jsp',
+  '/guides/vi/deinonychus-size-comparison.html': 'guide/vi/deinonychus-size-comparison.jsp',
+  '/guides/id/deinonychus-size-comparison.html': 'guide/id/deinonychus-size-comparison.jsp',
+  '/guides/de/deinonychus-size-comparison.html': 'guide/de/deinonychus-size-comparison.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
