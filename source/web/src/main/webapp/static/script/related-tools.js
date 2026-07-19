@@ -436,6 +436,7 @@ try {
     { title: "Herd Cats Home", url: "https://freetoolonline.com/games/herd-cats-home.html", include: !1, tags: "games" },
     { title: "Solo Battlefield", url: "https://freetoolonline.com/games/solo-battlefield.html", include: !1, tags: "games" },
     { title: "Feast Night", url: "https://freetoolonline.com/games/feast-night.html", include: !1, tags: "games" },
+    { title: "Rune Keeper", url: "https://freetoolonline.com/games/rune-keeper.html", include: !1, tags: "games" },
     { title: "Machine Guard Corps", url: "https://freetoolonline.com/games/machine-guard-corps.html", include: !1, tags: "games" },
     { title: "Black Cat on a Hot Tin Roof", url: "https://freetoolonline.com/games/black-cat-hot-tin-roof.html", include: !1, tags: "games" },
     { title: "Mor Chess 2", url: "https://freetoolonline.com/games/mor-chess-2.html", include: !1, tags: "games" },
