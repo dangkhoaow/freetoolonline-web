@@ -9058,6 +9058,8 @@ export const ALIAS_ROUTES = {
   '/mamenchisaurus.html': '/dinosaur-3d/mamenchisaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire112: compsognathus alias.
   '/compsognathus.html': '/dinosaur-3d/compsognathus.html',
+  // dinosaur-3d-discovery-loop-runbook fire119: troodon alias.
+  '/troodon.html': '/dinosaur-3d/troodon.html',
   '/mosasaurus.html': '/dinosaur-3d/mosasaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire2 (2026-07-15): flat-slug alias for velociraptor.
   '/velociraptor.html': '/dinosaur-3d/velociraptor.html',
@@ -12272,6 +12274,7 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/doliosauriscus.html': 'dinosaur/doliosauriscus.jsp',
   '/dinosaur-3d/mamenchisaurus.html': 'dinosaur/mamenchisaurus.jsp',
   '/dinosaur-3d/compsognathus.html': 'dinosaur/compsognathus.jsp',
+  '/dinosaur-3d/troodon.html': 'dinosaur/troodon.jsp',
   '/dinosaur-3d/mosasaurus.html': 'dinosaur/mosasaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire2 (2026-07-15): velociraptor (raptor archetype).
   '/dinosaur-3d/velociraptor.html': 'dinosaur/velociraptor.jsp',
