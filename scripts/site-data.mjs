@@ -4662,6 +4662,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/seismosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/id/seismosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/de/seismosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire136 (2026-07-19): how-to-view-stygimoloch-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-stygimoloch-in-3d.html',
+  '/guides/pt/how-to-view-stygimoloch-in-3d.html',
+  '/guides/es/how-to-view-stygimoloch-in-3d.html',
+  '/guides/vi/how-to-view-stygimoloch-in-3d.html',
+  '/guides/id/how-to-view-stygimoloch-in-3d.html',
+  '/guides/de/how-to-view-stygimoloch-in-3d.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -6679,6 +6687,26 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/how-to-play-rune-keeper.html',
   '/guides/de/rune-keeper-when.html',
   '/guides/de/rune-keeper-vs-alternatives.html',
+
+  // game-discovery-loop-runbook fire152 (2026-07-19): bounce-back companion guides
+  '/guides/how-to-play-bounce-back.html',
+  '/guides/bounce-back-when.html',
+  '/guides/bounce-back-vs-alternatives.html',
+  '/guides/pt/how-to-play-bounce-back.html',
+  '/guides/pt/bounce-back-when.html',
+  '/guides/pt/bounce-back-vs-alternatives.html',
+  '/guides/es/how-to-play-bounce-back.html',
+  '/guides/es/bounce-back-when.html',
+  '/guides/es/bounce-back-vs-alternatives.html',
+  '/guides/vi/how-to-play-bounce-back.html',
+  '/guides/vi/bounce-back-when.html',
+  '/guides/vi/bounce-back-vs-alternatives.html',
+  '/guides/id/how-to-play-bounce-back.html',
+  '/guides/id/bounce-back-when.html',
+  '/guides/id/bounce-back-vs-alternatives.html',
+  '/guides/de/how-to-play-bounce-back.html',
+  '/guides/de/bounce-back-when.html',
+  '/guides/de/bounce-back-vs-alternatives.html',
 
   // game-discovery-loop-runbook fire148 (2026-07-18): machine-guard-corps companion guides
   '/guides/how-to-play-machine-guard-corps.html',
@@ -9073,6 +9101,7 @@ export const ALIAS_ROUTES = {
   '/solo-battlefield.html': '/games/solo-battlefield.html',
   '/feast-night.html': '/games/feast-night.html',
   '/rune-keeper.html': '/games/rune-keeper.html',
+  '/bounce-back.html': '/games/bounce-back.html',
   '/machine-guard-corps.html': '/games/machine-guard-corps.html',
   '/black-cat-hot-tin-roof.html': '/games/black-cat-hot-tin-roof.html',
   '/mor-chess-2.html': '/games/mor-chess-2.html',
@@ -11139,6 +11168,26 @@ export const JSP_BY_ROUTE = {
   '/guides/de/how-to-play-rune-keeper.html': 'guide/de/how-to-play-rune-keeper.jsp',
   '/guides/de/rune-keeper-when.html': 'guide/de/rune-keeper-when.jsp',
   '/guides/de/rune-keeper-vs-alternatives.html': 'guide/de/rune-keeper-vs-alternatives.jsp',
+
+  // game-discovery-loop-runbook fire152 (2026-07-19): bounce-back companion guides
+  '/guides/how-to-play-bounce-back.html': 'guide/how-to-play-bounce-back.jsp',
+  '/guides/bounce-back-when.html': 'guide/bounce-back-when.jsp',
+  '/guides/bounce-back-vs-alternatives.html': 'guide/bounce-back-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-bounce-back.html': 'guide/pt/how-to-play-bounce-back.jsp',
+  '/guides/pt/bounce-back-when.html': 'guide/pt/bounce-back-when.jsp',
+  '/guides/pt/bounce-back-vs-alternatives.html': 'guide/pt/bounce-back-vs-alternatives.jsp',
+  '/guides/es/how-to-play-bounce-back.html': 'guide/es/how-to-play-bounce-back.jsp',
+  '/guides/es/bounce-back-when.html': 'guide/es/bounce-back-when.jsp',
+  '/guides/es/bounce-back-vs-alternatives.html': 'guide/es/bounce-back-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-bounce-back.html': 'guide/vi/how-to-play-bounce-back.jsp',
+  '/guides/vi/bounce-back-when.html': 'guide/vi/bounce-back-when.jsp',
+  '/guides/vi/bounce-back-vs-alternatives.html': 'guide/vi/bounce-back-vs-alternatives.jsp',
+  '/guides/id/how-to-play-bounce-back.html': 'guide/id/how-to-play-bounce-back.jsp',
+  '/guides/id/bounce-back-when.html': 'guide/id/bounce-back-when.jsp',
+  '/guides/id/bounce-back-vs-alternatives.html': 'guide/id/bounce-back-vs-alternatives.jsp',
+  '/guides/de/how-to-play-bounce-back.html': 'guide/de/how-to-play-bounce-back.jsp',
+  '/guides/de/bounce-back-when.html': 'guide/de/bounce-back-when.jsp',
+  '/guides/de/bounce-back-vs-alternatives.html': 'guide/de/bounce-back-vs-alternatives.jsp',
 
   // game-discovery-loop-runbook fire148 (2026-07-18): machine-guard-corps companion guides
   '/guides/how-to-play-machine-guard-corps.html': 'guide/how-to-play-machine-guard-corps.jsp',
@@ -13258,6 +13307,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/seismosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/seismosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/seismosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/seismosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/seismosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/seismosaurus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire136 (2026-07-19): how-to-view-stygimoloch-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-stygimoloch-in-3d.html': 'guide/how-to-view-stygimoloch-in-3d.jsp',
+  '/guides/pt/how-to-view-stygimoloch-in-3d.html': 'guide/pt/how-to-view-stygimoloch-in-3d.jsp',
+  '/guides/es/how-to-view-stygimoloch-in-3d.html': 'guide/es/how-to-view-stygimoloch-in-3d.jsp',
+  '/guides/vi/how-to-view-stygimoloch-in-3d.html': 'guide/vi/how-to-view-stygimoloch-in-3d.jsp',
+  '/guides/id/how-to-view-stygimoloch-in-3d.html': 'guide/id/how-to-view-stygimoloch-in-3d.jsp',
+  '/guides/de/how-to-view-stygimoloch-in-3d.html': 'guide/de/how-to-view-stygimoloch-in-3d.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
@@ -13548,6 +13605,7 @@ export const JSP_BY_ROUTE = {
   '/games/solo-battlefield.html': 'games/solo-battlefield.jsp',
   '/games/feast-night.html': 'games/feast-night.jsp',
   '/games/rune-keeper.html': 'games/rune-keeper.jsp',
+  '/games/bounce-back.html': 'games/bounce-back.jsp',
   '/games/machine-guard-corps.html': 'games/machine-guard-corps.jsp',
   '/games/black-cat-hot-tin-roof.html': 'games/black-cat-hot-tin-roof.jsp',
   '/games/mor-chess-2.html': 'games/mor-chess-2.jsp',
