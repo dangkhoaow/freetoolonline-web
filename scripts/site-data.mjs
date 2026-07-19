@@ -4630,6 +4630,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/ampelosaurus-size-comparison.html',
   '/guides/id/ampelosaurus-size-comparison.html',
   '/guides/de/ampelosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire132 (2026-07-19): ampelosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ampelosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/ampelosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ampelosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/ampelosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/ampelosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/ampelosaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -8838,6 +8846,8 @@ export const ALIAS_ROUTES = {
   // MUST be mirrored into the CloudFront 301 function (two-layer redirect rule).
   '/tyrannosaurus-rex.html': '/dinosaur-3d/tyrannosaurus-rex.html',
   '/shuangmiaosaurus.html': '/dinosaur-3d/shuangmiaosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire109: alioramus alias.
+  '/alioramus.html': '/dinosaur-3d/alioramus.html',
   '/mosasaurus.html': '/dinosaur-3d/mosasaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire2 (2026-07-15): flat-slug alias for velociraptor.
   '/velociraptor.html': '/dinosaur-3d/velociraptor.html',
@@ -9646,6 +9656,7 @@ export const JSP_BY_ROUTE = {
   '/news/adobe-acrobat-apsb26-63.html': 'news/adobe-acrobat-apsb26-63.jsp',
   '/news/pt/adobe-acrobat-apsb26-63.html': 'news/pt/adobe-acrobat-apsb26-63.jsp',
   '/news/es/adobe-acrobat-apsb26-63.html': 'news/es/adobe-acrobat-apsb26-63.jsp',
+  '/news/vi/adobe-acrobat-apsb26-63.html': 'news/vi/adobe-acrobat-apsb26-63.jsp',
   '/news/pt/fat32-four-gib-file-limit.html': 'news/pt/fat32-four-gib-file-limit.jsp',
   '/news/es/fat32-four-gib-file-limit.html': 'news/es/fat32-four-gib-file-limit.jsp',
   '/news/vi/fat32-four-gib-file-limit.html': 'news/vi/fat32-four-gib-file-limit.jsp',
@@ -11976,6 +11987,7 @@ export const JSP_BY_ROUTE = {
   // dinosaur-loop (2026-07-15): /dinosaur-3d cluster members (JSP folder: dinosaur/).
   '/dinosaur-3d/tyrannosaurus-rex.html': 'dinosaur/tyrannosaurus-rex.jsp',
   '/dinosaur-3d/shuangmiaosaurus.html': 'dinosaur/shuangmiaosaurus.jsp',
+  '/dinosaur-3d/alioramus.html': 'dinosaur/alioramus.jsp',
   '/dinosaur-3d/mosasaurus.html': 'dinosaur/mosasaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire2 (2026-07-15): velociraptor (raptor archetype).
   '/dinosaur-3d/velociraptor.html': 'dinosaur/velociraptor.jsp',
@@ -13188,6 +13200,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/ampelosaurus-size-comparison.html': 'guide/vi/ampelosaurus-size-comparison.jsp',
   '/guides/id/ampelosaurus-size-comparison.html': 'guide/id/ampelosaurus-size-comparison.jsp',
   '/guides/de/ampelosaurus-size-comparison.html': 'guide/de/ampelosaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire132 (2026-07-19): ampelosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ampelosaurus-3d-viewer-vs-ar-apps.html': 'guide/ampelosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/ampelosaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/ampelosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/ampelosaurus-3d-viewer-vs-ar-apps.html': 'guide/es/ampelosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/ampelosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/ampelosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/ampelosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/ampelosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/ampelosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/ampelosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
