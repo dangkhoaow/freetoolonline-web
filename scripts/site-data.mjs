@@ -9673,6 +9673,7 @@ export const JSP_BY_ROUTE = {
   '/news/pt/adobe-acrobat-apsb26-63.html': 'news/pt/adobe-acrobat-apsb26-63.jsp',
   '/news/es/adobe-acrobat-apsb26-63.html': 'news/es/adobe-acrobat-apsb26-63.jsp',
   '/news/vi/adobe-acrobat-apsb26-63.html': 'news/vi/adobe-acrobat-apsb26-63.jsp',
+  '/news/de/adobe-acrobat-apsb26-63.html': 'news/de/adobe-acrobat-apsb26-63.jsp',
   '/news/id/adobe-acrobat-apsb26-63.html': 'news/id/adobe-acrobat-apsb26-63.jsp',
   '/news/pt/fat32-four-gib-file-limit.html': 'news/pt/fat32-four-gib-file-limit.jsp',
   '/news/es/fat32-four-gib-file-limit.html': 'news/es/fat32-four-gib-file-limit.jsp',
