@@ -4734,6 +4734,54 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/titanoboa-3d-viewer-vs-ar-apps.html',
   '/guides/id/titanoboa-3d-viewer-vs-ar-apps.html',
   '/guides/de/titanoboa-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire145 (2026-07-19): how-to-view-moropus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-moropus-in-3d.html',
+  '/guides/pt/how-to-view-moropus-in-3d.html',
+  '/guides/es/how-to-view-moropus-in-3d.html',
+  '/guides/vi/how-to-view-moropus-in-3d.html',
+  '/guides/id/how-to-view-moropus-in-3d.html',
+  '/guides/de/how-to-view-moropus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire146 (2026-07-19): moropus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/moropus-size-comparison.html',
+  '/guides/pt/moropus-size-comparison.html',
+  '/guides/es/moropus-size-comparison.html',
+  '/guides/vi/moropus-size-comparison.html',
+  '/guides/id/moropus-size-comparison.html',
+  '/guides/de/moropus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire147 (2026-07-19): moropus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/moropus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/moropus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/moropus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/moropus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/moropus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/moropus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire148 (2026-07-19): how-to-view-titanosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-titanosaurus-in-3d.html',
+  '/guides/pt/how-to-view-titanosaurus-in-3d.html',
+  '/guides/es/how-to-view-titanosaurus-in-3d.html',
+  '/guides/vi/how-to-view-titanosaurus-in-3d.html',
+  '/guides/id/how-to-view-titanosaurus-in-3d.html',
+  '/guides/de/how-to-view-titanosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire149 (2026-07-19): titanosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/titanosaurus-size-comparison.html',
+  '/guides/pt/titanosaurus-size-comparison.html',
+  '/guides/es/titanosaurus-size-comparison.html',
+  '/guides/vi/titanosaurus-size-comparison.html',
+  '/guides/id/titanosaurus-size-comparison.html',
+  '/guides/de/titanosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire150 (2026-07-19): titanosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/titanosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/titanosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/titanosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/titanosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/titanosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/titanosaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -13540,6 +13588,54 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/titanoboa-3d-viewer-vs-ar-apps.html': 'guide/vi/titanoboa-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/titanoboa-3d-viewer-vs-ar-apps.html': 'guide/id/titanoboa-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/titanoboa-3d-viewer-vs-ar-apps.html': 'guide/de/titanoboa-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire145 (2026-07-19): how-to-view-moropus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-moropus-in-3d.html': 'guide/how-to-view-moropus-in-3d.jsp',
+  '/guides/pt/how-to-view-moropus-in-3d.html': 'guide/pt/how-to-view-moropus-in-3d.jsp',
+  '/guides/es/how-to-view-moropus-in-3d.html': 'guide/es/how-to-view-moropus-in-3d.jsp',
+  '/guides/vi/how-to-view-moropus-in-3d.html': 'guide/vi/how-to-view-moropus-in-3d.jsp',
+  '/guides/id/how-to-view-moropus-in-3d.html': 'guide/id/how-to-view-moropus-in-3d.jsp',
+  '/guides/de/how-to-view-moropus-in-3d.html': 'guide/de/how-to-view-moropus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire146 (2026-07-19): moropus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/moropus-size-comparison.html': 'guide/moropus-size-comparison.jsp',
+  '/guides/pt/moropus-size-comparison.html': 'guide/pt/moropus-size-comparison.jsp',
+  '/guides/es/moropus-size-comparison.html': 'guide/es/moropus-size-comparison.jsp',
+  '/guides/vi/moropus-size-comparison.html': 'guide/vi/moropus-size-comparison.jsp',
+  '/guides/id/moropus-size-comparison.html': 'guide/id/moropus-size-comparison.jsp',
+  '/guides/de/moropus-size-comparison.html': 'guide/de/moropus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire147 (2026-07-19): moropus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/moropus-3d-viewer-vs-ar-apps.html': 'guide/moropus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/moropus-3d-viewer-vs-ar-apps.html': 'guide/pt/moropus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/moropus-3d-viewer-vs-ar-apps.html': 'guide/es/moropus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/moropus-3d-viewer-vs-ar-apps.html': 'guide/vi/moropus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/moropus-3d-viewer-vs-ar-apps.html': 'guide/id/moropus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/moropus-3d-viewer-vs-ar-apps.html': 'guide/de/moropus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire148 (2026-07-19): how-to-view-titanosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-titanosaurus-in-3d.html': 'guide/how-to-view-titanosaurus-in-3d.jsp',
+  '/guides/pt/how-to-view-titanosaurus-in-3d.html': 'guide/pt/how-to-view-titanosaurus-in-3d.jsp',
+  '/guides/es/how-to-view-titanosaurus-in-3d.html': 'guide/es/how-to-view-titanosaurus-in-3d.jsp',
+  '/guides/vi/how-to-view-titanosaurus-in-3d.html': 'guide/vi/how-to-view-titanosaurus-in-3d.jsp',
+  '/guides/id/how-to-view-titanosaurus-in-3d.html': 'guide/id/how-to-view-titanosaurus-in-3d.jsp',
+  '/guides/de/how-to-view-titanosaurus-in-3d.html': 'guide/de/how-to-view-titanosaurus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire149 (2026-07-19): titanosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/titanosaurus-size-comparison.html': 'guide/titanosaurus-size-comparison.jsp',
+  '/guides/pt/titanosaurus-size-comparison.html': 'guide/pt/titanosaurus-size-comparison.jsp',
+  '/guides/es/titanosaurus-size-comparison.html': 'guide/es/titanosaurus-size-comparison.jsp',
+  '/guides/vi/titanosaurus-size-comparison.html': 'guide/vi/titanosaurus-size-comparison.jsp',
+  '/guides/id/titanosaurus-size-comparison.html': 'guide/id/titanosaurus-size-comparison.jsp',
+  '/guides/de/titanosaurus-size-comparison.html': 'guide/de/titanosaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire150 (2026-07-19): titanosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/titanosaurus-3d-viewer-vs-ar-apps.html': 'guide/titanosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/titanosaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/titanosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/titanosaurus-3d-viewer-vs-ar-apps.html': 'guide/es/titanosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/titanosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/titanosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/titanosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/titanosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/titanosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/titanosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
