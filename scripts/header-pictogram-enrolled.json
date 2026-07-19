@@ -1,4 +1,5 @@
 {
+  "wordmark": true,
   "slugs": [
     "2048game",
     "7ziprar5motwbypass",
@@ -177,6 +178,7 @@
     "hoverracing",
     "hrdiagram",
     "hybodus",
+    "iapetusequatorialridge",
     "ichthyosaurus",
     "ichthyovenator",
     "id7ziprar5motwbypass",
@@ -336,6 +338,7 @@
     "rochelimit",
     "rochelobebinary",
     "rotatepdf",
+    "runekeeper",
     "saturnhexagon",
     "saturnrings",
     "sauropelta",
@@ -454,6 +457,5 @@
     "zipfile",
     "ziptools",
     "zodiacallight"
-  ],
-  "wordmark": true
+  ]
 }
