@@ -4694,6 +4694,22 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/how-to-view-avaceratops-in-3d.html',
   '/guides/id/how-to-view-avaceratops-in-3d.html',
   '/guides/de/how-to-view-avaceratops-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire140 (2026-07-19): avaceratops-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/avaceratops-size-comparison.html',
+  '/guides/pt/avaceratops-size-comparison.html',
+  '/guides/es/avaceratops-size-comparison.html',
+  '/guides/vi/avaceratops-size-comparison.html',
+  '/guides/id/avaceratops-size-comparison.html',
+  '/guides/de/avaceratops-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire141 (2026-07-19): avaceratops-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/avaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/avaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/es/avaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/avaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/id/avaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/de/avaceratops-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -6731,6 +6747,26 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/how-to-play-bounce-back.html',
   '/guides/de/bounce-back-when.html',
   '/guides/de/bounce-back-vs-alternatives.html',
+
+  // game-discovery-loop-runbook fire153 (2026-07-19): classic-pong companion guides
+  '/guides/how-to-play-classic-pong.html',
+  '/guides/classic-pong-when.html',
+  '/guides/classic-pong-vs-alternatives.html',
+  '/guides/pt/how-to-play-classic-pong.html',
+  '/guides/pt/classic-pong-when.html',
+  '/guides/pt/classic-pong-vs-alternatives.html',
+  '/guides/es/how-to-play-classic-pong.html',
+  '/guides/es/classic-pong-when.html',
+  '/guides/es/classic-pong-vs-alternatives.html',
+  '/guides/vi/how-to-play-classic-pong.html',
+  '/guides/vi/classic-pong-when.html',
+  '/guides/vi/classic-pong-vs-alternatives.html',
+  '/guides/id/how-to-play-classic-pong.html',
+  '/guides/id/classic-pong-when.html',
+  '/guides/id/classic-pong-vs-alternatives.html',
+  '/guides/de/how-to-play-classic-pong.html',
+  '/guides/de/classic-pong-when.html',
+  '/guides/de/classic-pong-vs-alternatives.html',
 
   // game-discovery-loop-runbook fire148 (2026-07-18): machine-guard-corps companion guides
   '/guides/how-to-play-machine-guard-corps.html',
@@ -9130,6 +9166,7 @@ export const ALIAS_ROUTES = {
   '/feast-night.html': '/games/feast-night.html',
   '/rune-keeper.html': '/games/rune-keeper.html',
   '/bounce-back.html': '/games/bounce-back.html',
+  '/classic-pong.html': '/games/classic-pong.html',
   '/machine-guard-corps.html': '/games/machine-guard-corps.html',
   '/black-cat-hot-tin-roof.html': '/games/black-cat-hot-tin-roof.html',
   '/mor-chess-2.html': '/games/mor-chess-2.html',
@@ -11217,6 +11254,26 @@ export const JSP_BY_ROUTE = {
   '/guides/de/how-to-play-bounce-back.html': 'guide/de/how-to-play-bounce-back.jsp',
   '/guides/de/bounce-back-when.html': 'guide/de/bounce-back-when.jsp',
   '/guides/de/bounce-back-vs-alternatives.html': 'guide/de/bounce-back-vs-alternatives.jsp',
+
+  // game-discovery-loop-runbook fire153 (2026-07-19): classic-pong companion guides
+  '/guides/how-to-play-classic-pong.html': 'guide/how-to-play-classic-pong.jsp',
+  '/guides/classic-pong-when.html': 'guide/classic-pong-when.jsp',
+  '/guides/classic-pong-vs-alternatives.html': 'guide/classic-pong-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-classic-pong.html': 'guide/pt/how-to-play-classic-pong.jsp',
+  '/guides/pt/classic-pong-when.html': 'guide/pt/classic-pong-when.jsp',
+  '/guides/pt/classic-pong-vs-alternatives.html': 'guide/pt/classic-pong-vs-alternatives.jsp',
+  '/guides/es/how-to-play-classic-pong.html': 'guide/es/how-to-play-classic-pong.jsp',
+  '/guides/es/classic-pong-when.html': 'guide/es/classic-pong-when.jsp',
+  '/guides/es/classic-pong-vs-alternatives.html': 'guide/es/classic-pong-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-classic-pong.html': 'guide/vi/how-to-play-classic-pong.jsp',
+  '/guides/vi/classic-pong-when.html': 'guide/vi/classic-pong-when.jsp',
+  '/guides/vi/classic-pong-vs-alternatives.html': 'guide/vi/classic-pong-vs-alternatives.jsp',
+  '/guides/id/how-to-play-classic-pong.html': 'guide/id/how-to-play-classic-pong.jsp',
+  '/guides/id/classic-pong-when.html': 'guide/id/classic-pong-when.jsp',
+  '/guides/id/classic-pong-vs-alternatives.html': 'guide/id/classic-pong-vs-alternatives.jsp',
+  '/guides/de/how-to-play-classic-pong.html': 'guide/de/how-to-play-classic-pong.jsp',
+  '/guides/de/classic-pong-when.html': 'guide/de/classic-pong-when.jsp',
+  '/guides/de/classic-pong-vs-alternatives.html': 'guide/de/classic-pong-vs-alternatives.jsp',
 
   // game-discovery-loop-runbook fire148 (2026-07-18): machine-guard-corps companion guides
   '/guides/how-to-play-machine-guard-corps.html': 'guide/how-to-play-machine-guard-corps.jsp',
@@ -13370,6 +13427,22 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/how-to-view-avaceratops-in-3d.html': 'guide/vi/how-to-view-avaceratops-in-3d.jsp',
   '/guides/id/how-to-view-avaceratops-in-3d.html': 'guide/id/how-to-view-avaceratops-in-3d.jsp',
   '/guides/de/how-to-view-avaceratops-in-3d.html': 'guide/de/how-to-view-avaceratops-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire140 (2026-07-19): avaceratops-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/avaceratops-size-comparison.html': 'guide/avaceratops-size-comparison.jsp',
+  '/guides/pt/avaceratops-size-comparison.html': 'guide/pt/avaceratops-size-comparison.jsp',
+  '/guides/es/avaceratops-size-comparison.html': 'guide/es/avaceratops-size-comparison.jsp',
+  '/guides/vi/avaceratops-size-comparison.html': 'guide/vi/avaceratops-size-comparison.jsp',
+  '/guides/id/avaceratops-size-comparison.html': 'guide/id/avaceratops-size-comparison.jsp',
+  '/guides/de/avaceratops-size-comparison.html': 'guide/de/avaceratops-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire141 (2026-07-19): avaceratops-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/avaceratops-3d-viewer-vs-ar-apps.html': 'guide/avaceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/avaceratops-3d-viewer-vs-ar-apps.html': 'guide/pt/avaceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/avaceratops-3d-viewer-vs-ar-apps.html': 'guide/es/avaceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/avaceratops-3d-viewer-vs-ar-apps.html': 'guide/vi/avaceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/avaceratops-3d-viewer-vs-ar-apps.html': 'guide/id/avaceratops-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/avaceratops-3d-viewer-vs-ar-apps.html': 'guide/de/avaceratops-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
@@ -13661,6 +13734,7 @@ export const JSP_BY_ROUTE = {
   '/games/feast-night.html': 'games/feast-night.jsp',
   '/games/rune-keeper.html': 'games/rune-keeper.jsp',
   '/games/bounce-back.html': 'games/bounce-back.jsp',
+  '/games/classic-pong.html': 'games/classic-pong.jsp',
   '/games/machine-guard-corps.html': 'games/machine-guard-corps.jsp',
   '/games/black-cat-hot-tin-roof.html': 'games/black-cat-hot-tin-roof.jsp',
   '/games/mor-chess-2.html': 'games/mor-chess-2.jsp',
