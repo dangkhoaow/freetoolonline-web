@@ -4670,6 +4670,22 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/how-to-view-stygimoloch-in-3d.html',
   '/guides/id/how-to-view-stygimoloch-in-3d.html',
   '/guides/de/how-to-view-stygimoloch-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire137 (2026-07-19): stygimoloch-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/stygimoloch-size-comparison.html',
+  '/guides/pt/stygimoloch-size-comparison.html',
+  '/guides/es/stygimoloch-size-comparison.html',
+  '/guides/vi/stygimoloch-size-comparison.html',
+  '/guides/id/stygimoloch-size-comparison.html',
+  '/guides/de/stygimoloch-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire138 (2026-07-19): stygimoloch-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/stygimoloch-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/stygimoloch-3d-viewer-vs-ar-apps.html',
+  '/guides/es/stygimoloch-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/stygimoloch-3d-viewer-vs-ar-apps.html',
+  '/guides/id/stygimoloch-3d-viewer-vs-ar-apps.html',
+  '/guides/de/stygimoloch-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -8900,6 +8916,8 @@ export const ALIAS_ROUTES = {
   '/shuangmiaosaurus.html': '/dinosaur-3d/shuangmiaosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire109: alioramus alias.
   '/alioramus.html': '/dinosaur-3d/alioramus.html',
+  // dinosaur-3d-discovery-loop-runbook fire110: doliosauriscus alias.
+  '/doliosauriscus.html': '/dinosaur-3d/doliosauriscus.html',
   '/mosasaurus.html': '/dinosaur-3d/mosasaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire2 (2026-07-15): flat-slug alias for velociraptor.
   '/velociraptor.html': '/dinosaur-3d/velociraptor.html',
@@ -12063,6 +12081,7 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/tyrannosaurus-rex.html': 'dinosaur/tyrannosaurus-rex.jsp',
   '/dinosaur-3d/shuangmiaosaurus.html': 'dinosaur/shuangmiaosaurus.jsp',
   '/dinosaur-3d/alioramus.html': 'dinosaur/alioramus.jsp',
+  '/dinosaur-3d/doliosauriscus.html': 'dinosaur/doliosauriscus.jsp',
   '/dinosaur-3d/mosasaurus.html': 'dinosaur/mosasaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire2 (2026-07-15): velociraptor (raptor archetype).
   '/dinosaur-3d/velociraptor.html': 'dinosaur/velociraptor.jsp',
@@ -13315,6 +13334,22 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/how-to-view-stygimoloch-in-3d.html': 'guide/vi/how-to-view-stygimoloch-in-3d.jsp',
   '/guides/id/how-to-view-stygimoloch-in-3d.html': 'guide/id/how-to-view-stygimoloch-in-3d.jsp',
   '/guides/de/how-to-view-stygimoloch-in-3d.html': 'guide/de/how-to-view-stygimoloch-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire137 (2026-07-19): stygimoloch-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/stygimoloch-size-comparison.html': 'guide/stygimoloch-size-comparison.jsp',
+  '/guides/pt/stygimoloch-size-comparison.html': 'guide/pt/stygimoloch-size-comparison.jsp',
+  '/guides/es/stygimoloch-size-comparison.html': 'guide/es/stygimoloch-size-comparison.jsp',
+  '/guides/vi/stygimoloch-size-comparison.html': 'guide/vi/stygimoloch-size-comparison.jsp',
+  '/guides/id/stygimoloch-size-comparison.html': 'guide/id/stygimoloch-size-comparison.jsp',
+  '/guides/de/stygimoloch-size-comparison.html': 'guide/de/stygimoloch-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire138 (2026-07-19): stygimoloch-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/stygimoloch-3d-viewer-vs-ar-apps.html': 'guide/stygimoloch-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/stygimoloch-3d-viewer-vs-ar-apps.html': 'guide/pt/stygimoloch-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/stygimoloch-3d-viewer-vs-ar-apps.html': 'guide/es/stygimoloch-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/stygimoloch-3d-viewer-vs-ar-apps.html': 'guide/vi/stygimoloch-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/stygimoloch-3d-viewer-vs-ar-apps.html': 'guide/id/stygimoloch-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/stygimoloch-3d-viewer-vs-ar-apps.html': 'guide/de/stygimoloch-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
