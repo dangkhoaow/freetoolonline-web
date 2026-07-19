@@ -4710,6 +4710,30 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/avaceratops-3d-viewer-vs-ar-apps.html',
   '/guides/id/avaceratops-3d-viewer-vs-ar-apps.html',
   '/guides/de/avaceratops-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire142 (2026-07-19): how-to-view-titanoboa-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-titanoboa-in-3d.html',
+  '/guides/pt/how-to-view-titanoboa-in-3d.html',
+  '/guides/es/how-to-view-titanoboa-in-3d.html',
+  '/guides/vi/how-to-view-titanoboa-in-3d.html',
+  '/guides/id/how-to-view-titanoboa-in-3d.html',
+  '/guides/de/how-to-view-titanoboa-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire143 (2026-07-19): titanoboa-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/titanoboa-size-comparison.html',
+  '/guides/pt/titanoboa-size-comparison.html',
+  '/guides/es/titanoboa-size-comparison.html',
+  '/guides/vi/titanoboa-size-comparison.html',
+  '/guides/id/titanoboa-size-comparison.html',
+  '/guides/de/titanoboa-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire144 (2026-07-19): titanoboa-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/titanoboa-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/titanoboa-3d-viewer-vs-ar-apps.html',
+  '/guides/es/titanoboa-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/titanoboa-3d-viewer-vs-ar-apps.html',
+  '/guides/id/titanoboa-3d-viewer-vs-ar-apps.html',
+  '/guides/de/titanoboa-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -6767,6 +6791,26 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/how-to-play-classic-pong.html',
   '/guides/de/classic-pong-when.html',
   '/guides/de/classic-pong-vs-alternatives.html',
+
+  // game-discovery-loop-runbook fire154 (2026-07-19): thirteen-hours companion guides
+  '/guides/how-to-play-thirteen-hours.html',
+  '/guides/thirteen-hours-when.html',
+  '/guides/thirteen-hours-vs-alternatives.html',
+  '/guides/pt/how-to-play-thirteen-hours.html',
+  '/guides/pt/thirteen-hours-when.html',
+  '/guides/pt/thirteen-hours-vs-alternatives.html',
+  '/guides/es/how-to-play-thirteen-hours.html',
+  '/guides/es/thirteen-hours-when.html',
+  '/guides/es/thirteen-hours-vs-alternatives.html',
+  '/guides/vi/how-to-play-thirteen-hours.html',
+  '/guides/vi/thirteen-hours-when.html',
+  '/guides/vi/thirteen-hours-vs-alternatives.html',
+  '/guides/id/how-to-play-thirteen-hours.html',
+  '/guides/id/thirteen-hours-when.html',
+  '/guides/id/thirteen-hours-vs-alternatives.html',
+  '/guides/de/how-to-play-thirteen-hours.html',
+  '/guides/de/thirteen-hours-when.html',
+  '/guides/de/thirteen-hours-vs-alternatives.html',
 
   // game-discovery-loop-runbook fire148 (2026-07-18): machine-guard-corps companion guides
   '/guides/how-to-play-machine-guard-corps.html',
@@ -8964,6 +9008,8 @@ export const ALIAS_ROUTES = {
   '/doliosauriscus.html': '/dinosaur-3d/doliosauriscus.html',
   // dinosaur-3d-discovery-loop-runbook fire113: mamenchisaurus alias.
   '/mamenchisaurus.html': '/dinosaur-3d/mamenchisaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire112: compsognathus alias.
+  '/compsognathus.html': '/dinosaur-3d/compsognathus.html',
   '/mosasaurus.html': '/dinosaur-3d/mosasaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire2 (2026-07-15): flat-slug alias for velociraptor.
   '/velociraptor.html': '/dinosaur-3d/velociraptor.html',
@@ -9167,6 +9213,7 @@ export const ALIAS_ROUTES = {
   '/rune-keeper.html': '/games/rune-keeper.html',
   '/bounce-back.html': '/games/bounce-back.html',
   '/classic-pong.html': '/games/classic-pong.html',
+  '/thirteen-hours.html': '/games/thirteen-hours.html',
   '/machine-guard-corps.html': '/games/machine-guard-corps.html',
   '/black-cat-hot-tin-roof.html': '/games/black-cat-hot-tin-roof.html',
   '/mor-chess-2.html': '/games/mor-chess-2.html',
@@ -9773,6 +9820,11 @@ export const JSP_BY_ROUTE = {
   '/news/de/7-zip-rar5-motw-bypass.html': 'news/de/7-zip-rar5-motw-bypass.jsp',
   '/news/adobe-acrobat-apsb26-63.html': 'news/adobe-acrobat-apsb26-63.jsp',
   '/news/libheif-cve-2026-32740.html': 'news/libheif-cve-2026-32740.jsp',
+  '/news/pt/libheif-cve-2026-32740.html': 'news/pt/libheif-cve-2026-32740.jsp',
+  '/news/de/libheif-cve-2026-32740.html': 'news/de/libheif-cve-2026-32740.jsp',
+  '/news/id/libheif-cve-2026-32740.html': 'news/id/libheif-cve-2026-32740.jsp',
+  '/news/vi/libheif-cve-2026-32740.html': 'news/vi/libheif-cve-2026-32740.jsp',
+  '/news/es/libheif-cve-2026-32740.html': 'news/es/libheif-cve-2026-32740.jsp',
   '/news/pt/adobe-acrobat-apsb26-63.html': 'news/pt/adobe-acrobat-apsb26-63.jsp',
   '/news/es/adobe-acrobat-apsb26-63.html': 'news/es/adobe-acrobat-apsb26-63.jsp',
   '/news/vi/adobe-acrobat-apsb26-63.html': 'news/vi/adobe-acrobat-apsb26-63.jsp',
@@ -11275,6 +11327,26 @@ export const JSP_BY_ROUTE = {
   '/guides/de/classic-pong-when.html': 'guide/de/classic-pong-when.jsp',
   '/guides/de/classic-pong-vs-alternatives.html': 'guide/de/classic-pong-vs-alternatives.jsp',
 
+  // game-discovery-loop-runbook fire154 (2026-07-19): thirteen-hours companion guides
+  '/guides/how-to-play-thirteen-hours.html': 'guide/how-to-play-thirteen-hours.jsp',
+  '/guides/thirteen-hours-when.html': 'guide/thirteen-hours-when.jsp',
+  '/guides/thirteen-hours-vs-alternatives.html': 'guide/thirteen-hours-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-thirteen-hours.html': 'guide/pt/how-to-play-thirteen-hours.jsp',
+  '/guides/pt/thirteen-hours-when.html': 'guide/pt/thirteen-hours-when.jsp',
+  '/guides/pt/thirteen-hours-vs-alternatives.html': 'guide/pt/thirteen-hours-vs-alternatives.jsp',
+  '/guides/es/how-to-play-thirteen-hours.html': 'guide/es/how-to-play-thirteen-hours.jsp',
+  '/guides/es/thirteen-hours-when.html': 'guide/es/thirteen-hours-when.jsp',
+  '/guides/es/thirteen-hours-vs-alternatives.html': 'guide/es/thirteen-hours-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-thirteen-hours.html': 'guide/vi/how-to-play-thirteen-hours.jsp',
+  '/guides/vi/thirteen-hours-when.html': 'guide/vi/thirteen-hours-when.jsp',
+  '/guides/vi/thirteen-hours-vs-alternatives.html': 'guide/vi/thirteen-hours-vs-alternatives.jsp',
+  '/guides/id/how-to-play-thirteen-hours.html': 'guide/id/how-to-play-thirteen-hours.jsp',
+  '/guides/id/thirteen-hours-when.html': 'guide/id/thirteen-hours-when.jsp',
+  '/guides/id/thirteen-hours-vs-alternatives.html': 'guide/id/thirteen-hours-vs-alternatives.jsp',
+  '/guides/de/how-to-play-thirteen-hours.html': 'guide/de/how-to-play-thirteen-hours.jsp',
+  '/guides/de/thirteen-hours-when.html': 'guide/de/thirteen-hours-when.jsp',
+  '/guides/de/thirteen-hours-vs-alternatives.html': 'guide/de/thirteen-hours-vs-alternatives.jsp',
+
   // game-discovery-loop-runbook fire148 (2026-07-18): machine-guard-corps companion guides
   '/guides/how-to-play-machine-guard-corps.html': 'guide/how-to-play-machine-guard-corps.jsp',
   '/guides/machine-guard-corps-when.html': 'guide/machine-guard-corps-when.jsp',
@@ -12151,6 +12223,7 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/alioramus.html': 'dinosaur/alioramus.jsp',
   '/dinosaur-3d/doliosauriscus.html': 'dinosaur/doliosauriscus.jsp',
   '/dinosaur-3d/mamenchisaurus.html': 'dinosaur/mamenchisaurus.jsp',
+  '/dinosaur-3d/compsognathus.html': 'dinosaur/compsognathus.jsp',
   '/dinosaur-3d/mosasaurus.html': 'dinosaur/mosasaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire2 (2026-07-15): velociraptor (raptor archetype).
   '/dinosaur-3d/velociraptor.html': 'dinosaur/velociraptor.jsp',
@@ -13443,6 +13516,30 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/avaceratops-3d-viewer-vs-ar-apps.html': 'guide/vi/avaceratops-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/avaceratops-3d-viewer-vs-ar-apps.html': 'guide/id/avaceratops-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/avaceratops-3d-viewer-vs-ar-apps.html': 'guide/de/avaceratops-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire142 (2026-07-19): how-to-view-titanoboa-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-titanoboa-in-3d.html': 'guide/how-to-view-titanoboa-in-3d.jsp',
+  '/guides/pt/how-to-view-titanoboa-in-3d.html': 'guide/pt/how-to-view-titanoboa-in-3d.jsp',
+  '/guides/es/how-to-view-titanoboa-in-3d.html': 'guide/es/how-to-view-titanoboa-in-3d.jsp',
+  '/guides/vi/how-to-view-titanoboa-in-3d.html': 'guide/vi/how-to-view-titanoboa-in-3d.jsp',
+  '/guides/id/how-to-view-titanoboa-in-3d.html': 'guide/id/how-to-view-titanoboa-in-3d.jsp',
+  '/guides/de/how-to-view-titanoboa-in-3d.html': 'guide/de/how-to-view-titanoboa-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire143 (2026-07-19): titanoboa-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/titanoboa-size-comparison.html': 'guide/titanoboa-size-comparison.jsp',
+  '/guides/pt/titanoboa-size-comparison.html': 'guide/pt/titanoboa-size-comparison.jsp',
+  '/guides/es/titanoboa-size-comparison.html': 'guide/es/titanoboa-size-comparison.jsp',
+  '/guides/vi/titanoboa-size-comparison.html': 'guide/vi/titanoboa-size-comparison.jsp',
+  '/guides/id/titanoboa-size-comparison.html': 'guide/id/titanoboa-size-comparison.jsp',
+  '/guides/de/titanoboa-size-comparison.html': 'guide/de/titanoboa-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire144 (2026-07-19): titanoboa-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/titanoboa-3d-viewer-vs-ar-apps.html': 'guide/titanoboa-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/titanoboa-3d-viewer-vs-ar-apps.html': 'guide/pt/titanoboa-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/titanoboa-3d-viewer-vs-ar-apps.html': 'guide/es/titanoboa-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/titanoboa-3d-viewer-vs-ar-apps.html': 'guide/vi/titanoboa-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/titanoboa-3d-viewer-vs-ar-apps.html': 'guide/id/titanoboa-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/titanoboa-3d-viewer-vs-ar-apps.html': 'guide/de/titanoboa-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
@@ -13735,6 +13832,7 @@ export const JSP_BY_ROUTE = {
   '/games/rune-keeper.html': 'games/rune-keeper.jsp',
   '/games/bounce-back.html': 'games/bounce-back.jsp',
   '/games/classic-pong.html': 'games/classic-pong.jsp',
+  '/games/thirteen-hours.html': 'games/thirteen-hours.jsp',
   '/games/machine-guard-corps.html': 'games/machine-guard-corps.jsp',
   '/games/black-cat-hot-tin-roof.html': 'games/black-cat-hot-tin-roof.jsp',
   '/games/mor-chess-2.html': 'games/mor-chess-2.jsp',
