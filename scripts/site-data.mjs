@@ -8984,6 +8984,8 @@ export const ALIAS_ROUTES = {
   '/doliosauriscus.html': '/dinosaur-3d/doliosauriscus.html',
   // dinosaur-3d-discovery-loop-runbook fire113: mamenchisaurus alias.
   '/mamenchisaurus.html': '/dinosaur-3d/mamenchisaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire112: compsognathus alias.
+  '/compsognathus.html': '/dinosaur-3d/compsognathus.html',
   '/mosasaurus.html': '/dinosaur-3d/mosasaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire2 (2026-07-15): flat-slug alias for velociraptor.
   '/velociraptor.html': '/dinosaur-3d/velociraptor.html',
@@ -9794,6 +9796,11 @@ export const JSP_BY_ROUTE = {
   '/news/de/7-zip-rar5-motw-bypass.html': 'news/de/7-zip-rar5-motw-bypass.jsp',
   '/news/adobe-acrobat-apsb26-63.html': 'news/adobe-acrobat-apsb26-63.jsp',
   '/news/libheif-cve-2026-32740.html': 'news/libheif-cve-2026-32740.jsp',
+  '/news/pt/libheif-cve-2026-32740.html': 'news/pt/libheif-cve-2026-32740.jsp',
+  '/news/de/libheif-cve-2026-32740.html': 'news/de/libheif-cve-2026-32740.jsp',
+  '/news/id/libheif-cve-2026-32740.html': 'news/id/libheif-cve-2026-32740.jsp',
+  '/news/vi/libheif-cve-2026-32740.html': 'news/vi/libheif-cve-2026-32740.jsp',
+  '/news/es/libheif-cve-2026-32740.html': 'news/es/libheif-cve-2026-32740.jsp',
   '/news/pt/adobe-acrobat-apsb26-63.html': 'news/pt/adobe-acrobat-apsb26-63.jsp',
   '/news/es/adobe-acrobat-apsb26-63.html': 'news/es/adobe-acrobat-apsb26-63.jsp',
   '/news/vi/adobe-acrobat-apsb26-63.html': 'news/vi/adobe-acrobat-apsb26-63.jsp',
@@ -12192,6 +12199,7 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/alioramus.html': 'dinosaur/alioramus.jsp',
   '/dinosaur-3d/doliosauriscus.html': 'dinosaur/doliosauriscus.jsp',
   '/dinosaur-3d/mamenchisaurus.html': 'dinosaur/mamenchisaurus.jsp',
+  '/dinosaur-3d/compsognathus.html': 'dinosaur/compsognathus.jsp',
   '/dinosaur-3d/mosasaurus.html': 'dinosaur/mosasaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire2 (2026-07-15): velociraptor (raptor archetype).
   '/dinosaur-3d/velociraptor.html': 'dinosaur/velociraptor.jsp',
