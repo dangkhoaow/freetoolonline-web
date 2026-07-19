@@ -9318,6 +9318,8 @@ export const ALIAS_ROUTES = {
   '/giganotosaurus.html': '/dinosaur-3d/giganotosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire40 (2026-07-16): flat-slug alias for diplodocus.
   '/diplodocus.html': '/dinosaur-3d/diplodocus.html',
+  // dinosaur-3d-discovery-loop-runbook fire134 (2026-07-20): flat-slug alias for barosaurus.
+  '/barosaurus.html': '/dinosaur-3d/barosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire53 (2026-07-16): flat-slug alias for apatosaurus.
   '/apatosaurus.html': '/dinosaur-3d/apatosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire54 (2026-07-16): flat-slug alias for carnotaurus.
@@ -12610,6 +12612,10 @@ export const JSP_BY_ROUTE = {
   // no tallForelimbs feat -> lower/more level neck posture, differentiating it from the already
   // shipped Brachiosaurus; the longest-not-tallest sauropod, whip-like tail, Late Jurassic).
   '/dinosaur-3d/diplodocus.html': 'dinosaur/diplodocus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire134 (2026-07-20): barosaurus (sauropod archetype,
+  // no feature-flag override - a close relative of Diplodocus, differentiated via longer neck /
+  // shorter tail figures + the Supersaurus source-conflict caveat + the AMNH rearing-pose caveat).
+  '/dinosaur-3d/barosaurus.html': 'dinosaur/barosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire53 (2026-07-16): apatosaurus (sauropod archetype,
   // no tallForelimbs feat, same body posture as Diplodocus; differentiated via a stockier/
   // heavier published-figure profile + its Brontosaurus naming-history framing).
