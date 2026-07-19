@@ -4510,6 +4510,86 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/ornithomimus-size-comparison.html',
   '/guides/id/ornithomimus-size-comparison.html',
   '/guides/de/ornithomimus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire117 (2026-07-18): ornithomimus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ornithomimus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/ornithomimus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ornithomimus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/ornithomimus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/ornithomimus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/ornithomimus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire118 (2026-07-18): how-to-view-tylosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-tylosaurus-in-3d.html',
+  '/guides/pt/how-to-view-tylosaurus-in-3d.html',
+  '/guides/es/how-to-view-tylosaurus-in-3d.html',
+  '/guides/vi/how-to-view-tylosaurus-in-3d.html',
+  '/guides/id/how-to-view-tylosaurus-in-3d.html',
+  '/guides/de/how-to-view-tylosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire119 (2026-07-18): tylosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/tylosaurus-size-comparison.html',
+  '/guides/pt/tylosaurus-size-comparison.html',
+  '/guides/es/tylosaurus-size-comparison.html',
+  '/guides/vi/tylosaurus-size-comparison.html',
+  '/guides/id/tylosaurus-size-comparison.html',
+  '/guides/de/tylosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire120 (2026-07-18): tylosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/tylosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/tylosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/tylosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/tylosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/tylosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/tylosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire121 (2026-07-19): how-to-view-gorgosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-gorgosaurus-in-3d.html',
+  '/guides/pt/how-to-view-gorgosaurus-in-3d.html',
+  '/guides/es/how-to-view-gorgosaurus-in-3d.html',
+  '/guides/vi/how-to-view-gorgosaurus-in-3d.html',
+  '/guides/id/how-to-view-gorgosaurus-in-3d.html',
+  '/guides/de/how-to-view-gorgosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire122 (2026-07-19): gorgosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/gorgosaurus-size-comparison.html',
+  '/guides/pt/gorgosaurus-size-comparison.html',
+  '/guides/es/gorgosaurus-size-comparison.html',
+  '/guides/vi/gorgosaurus-size-comparison.html',
+  '/guides/id/gorgosaurus-size-comparison.html',
+  '/guides/de/gorgosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire123 (2026-07-19): gorgosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/gorgosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/gorgosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/gorgosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/gorgosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/gorgosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/gorgosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire124 (2026-07-19): how-to-view-dimetrodon-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-dimetrodon-in-3d.html',
+  '/guides/pt/how-to-view-dimetrodon-in-3d.html',
+  '/guides/es/how-to-view-dimetrodon-in-3d.html',
+  '/guides/vi/how-to-view-dimetrodon-in-3d.html',
+  '/guides/id/how-to-view-dimetrodon-in-3d.html',
+  '/guides/de/how-to-view-dimetrodon-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire125 (2026-07-19): dimetrodon-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/dimetrodon-size-comparison.html',
+  '/guides/pt/dimetrodon-size-comparison.html',
+  '/guides/es/dimetrodon-size-comparison.html',
+  '/guides/vi/dimetrodon-size-comparison.html',
+  '/guides/id/dimetrodon-size-comparison.html',
+  '/guides/de/dimetrodon-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire126 (2026-07-19): dimetrodon-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/dimetrodon-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/dimetrodon-3d-viewer-vs-ar-apps.html',
+  '/guides/es/dimetrodon-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/dimetrodon-3d-viewer-vs-ar-apps.html',
+  '/guides/id/dimetrodon-3d-viewer-vs-ar-apps.html',
+  '/guides/de/dimetrodon-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -5032,6 +5112,7 @@ export const GUIDE_ROUTES = new Set([
   // plan-warm-pascal-v3 S2 batch 60 (2026-06-05) - tool-free x 5 locales (new_guide_locale_completeness gate backfill)
   '/guides/pt/tool-free.html', '/guides/es/tool-free.html', '/guides/vi/tool-free.html', '/guides/id/tool-free.html', '/guides/de/tool-free.html',
   // cycle20260701 create_new_guide_page (locale completion) - pt variant of compress-image-online-to-50kb (staging-only until es/vi/id/de complete).
+  '/guides/compress-image-online-to-50kb.html',
   '/guides/pt/compress-image-online-to-50kb.html',
   // cycle20260701-2 create_new_guide_page (locale completion) - es variant (staging-only until vi/id/de complete).
   '/guides/es/compress-image-online-to-50kb.html',
@@ -6466,6 +6547,66 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/how-to-play-herd-cats-home.html',
   '/guides/de/herd-cats-home-when.html',
   '/guides/de/herd-cats-home-vs-alternatives.html',
+
+  // game-discovery-loop-runbook fire149 (2026-07-18): solo-battlefield companion guides
+  '/guides/how-to-play-solo-battlefield.html',
+  '/guides/solo-battlefield-when.html',
+  '/guides/solo-battlefield-vs-alternatives.html',
+  '/guides/pt/how-to-play-solo-battlefield.html',
+  '/guides/pt/solo-battlefield-when.html',
+  '/guides/pt/solo-battlefield-vs-alternatives.html',
+  '/guides/es/how-to-play-solo-battlefield.html',
+  '/guides/es/solo-battlefield-when.html',
+  '/guides/es/solo-battlefield-vs-alternatives.html',
+  '/guides/vi/how-to-play-solo-battlefield.html',
+  '/guides/vi/solo-battlefield-when.html',
+  '/guides/vi/solo-battlefield-vs-alternatives.html',
+  '/guides/id/how-to-play-solo-battlefield.html',
+  '/guides/id/solo-battlefield-when.html',
+  '/guides/id/solo-battlefield-vs-alternatives.html',
+  '/guides/de/how-to-play-solo-battlefield.html',
+  '/guides/de/solo-battlefield-when.html',
+  '/guides/de/solo-battlefield-vs-alternatives.html',
+
+  // game-discovery-loop-runbook fire150 (2026-07-18): feast-night companion guides
+  '/guides/how-to-play-feast-night.html',
+  '/guides/feast-night-when.html',
+  '/guides/feast-night-vs-alternatives.html',
+  '/guides/pt/how-to-play-feast-night.html',
+  '/guides/pt/feast-night-when.html',
+  '/guides/pt/feast-night-vs-alternatives.html',
+  '/guides/es/how-to-play-feast-night.html',
+  '/guides/es/feast-night-when.html',
+  '/guides/es/feast-night-vs-alternatives.html',
+  '/guides/vi/how-to-play-feast-night.html',
+  '/guides/vi/feast-night-when.html',
+  '/guides/vi/feast-night-vs-alternatives.html',
+  '/guides/id/how-to-play-feast-night.html',
+  '/guides/id/feast-night-when.html',
+  '/guides/id/feast-night-vs-alternatives.html',
+  '/guides/de/how-to-play-feast-night.html',
+  '/guides/de/feast-night-when.html',
+  '/guides/de/feast-night-vs-alternatives.html',
+
+  // game-discovery-loop-runbook fire148 (2026-07-18): machine-guard-corps companion guides
+  '/guides/how-to-play-machine-guard-corps.html',
+  '/guides/machine-guard-corps-when.html',
+  '/guides/machine-guard-corps-vs-alternatives.html',
+  '/guides/pt/how-to-play-machine-guard-corps.html',
+  '/guides/pt/machine-guard-corps-when.html',
+  '/guides/pt/machine-guard-corps-vs-alternatives.html',
+  '/guides/es/how-to-play-machine-guard-corps.html',
+  '/guides/es/machine-guard-corps-when.html',
+  '/guides/es/machine-guard-corps-vs-alternatives.html',
+  '/guides/vi/how-to-play-machine-guard-corps.html',
+  '/guides/vi/machine-guard-corps-when.html',
+  '/guides/vi/machine-guard-corps-vs-alternatives.html',
+  '/guides/id/how-to-play-machine-guard-corps.html',
+  '/guides/id/machine-guard-corps-when.html',
+  '/guides/id/machine-guard-corps-vs-alternatives.html',
+  '/guides/de/how-to-play-machine-guard-corps.html',
+  '/guides/de/machine-guard-corps-when.html',
+  '/guides/de/machine-guard-corps-vs-alternatives.html',
 
   // game-discovery-loop-runbook fire147 (2026-07-18): black-cat-hot-tin-roof companion guides
   '/guides/how-to-play-black-cat-hot-tin-roof.html',
@@ -8835,6 +8976,9 @@ export const ALIAS_ROUTES = {
   '/mystic-card-paw.html': '/games/mystic-card-paw.html',
   '/cat-hop-cloud.html': '/games/cat-hop-cloud.html',
   '/herd-cats-home.html': '/games/herd-cats-home.html',
+  '/solo-battlefield.html': '/games/solo-battlefield.html',
+  '/feast-night.html': '/games/feast-night.html',
+  '/machine-guard-corps.html': '/games/machine-guard-corps.html',
   '/black-cat-hot-tin-roof.html': '/games/black-cat-hot-tin-roof.html',
   '/mor-chess-2.html': '/games/mor-chess-2.html',
   '/darkline-paws.html': '/games/darkline-paws.html',
@@ -9437,6 +9581,9 @@ export const JSP_BY_ROUTE = {
   '/news/es/7-zip-rar5-motw-bypass.html': 'news/es/7-zip-rar5-motw-bypass.jsp',
   '/news/vi/7-zip-rar5-motw-bypass.html': 'news/vi/7-zip-rar5-motw-bypass.jsp',
   '/news/id/7-zip-rar5-motw-bypass.html': 'news/id/7-zip-rar5-motw-bypass.jsp',
+  '/news/de/7-zip-rar5-motw-bypass.html': 'news/de/7-zip-rar5-motw-bypass.jsp',
+  '/news/adobe-acrobat-apsb26-63.html': 'news/adobe-acrobat-apsb26-63.jsp',
+  '/news/pt/adobe-acrobat-apsb26-63.html': 'news/pt/adobe-acrobat-apsb26-63.jsp',
   '/news/pt/fat32-four-gib-file-limit.html': 'news/pt/fat32-four-gib-file-limit.jsp',
   '/news/es/fat32-four-gib-file-limit.html': 'news/es/fat32-four-gib-file-limit.jsp',
   '/news/vi/fat32-four-gib-file-limit.html': 'news/vi/fat32-four-gib-file-limit.jsp',
@@ -10833,6 +10980,66 @@ export const JSP_BY_ROUTE = {
   '/guides/de/how-to-play-herd-cats-home.html': 'guide/de/how-to-play-herd-cats-home.jsp',
   '/guides/de/herd-cats-home-when.html': 'guide/de/herd-cats-home-when.jsp',
   '/guides/de/herd-cats-home-vs-alternatives.html': 'guide/de/herd-cats-home-vs-alternatives.jsp',
+
+  // game-discovery-loop-runbook fire149 (2026-07-18): solo-battlefield companion guides
+  '/guides/how-to-play-solo-battlefield.html': 'guide/how-to-play-solo-battlefield.jsp',
+  '/guides/solo-battlefield-when.html': 'guide/solo-battlefield-when.jsp',
+  '/guides/solo-battlefield-vs-alternatives.html': 'guide/solo-battlefield-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-solo-battlefield.html': 'guide/pt/how-to-play-solo-battlefield.jsp',
+  '/guides/pt/solo-battlefield-when.html': 'guide/pt/solo-battlefield-when.jsp',
+  '/guides/pt/solo-battlefield-vs-alternatives.html': 'guide/pt/solo-battlefield-vs-alternatives.jsp',
+  '/guides/es/how-to-play-solo-battlefield.html': 'guide/es/how-to-play-solo-battlefield.jsp',
+  '/guides/es/solo-battlefield-when.html': 'guide/es/solo-battlefield-when.jsp',
+  '/guides/es/solo-battlefield-vs-alternatives.html': 'guide/es/solo-battlefield-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-solo-battlefield.html': 'guide/vi/how-to-play-solo-battlefield.jsp',
+  '/guides/vi/solo-battlefield-when.html': 'guide/vi/solo-battlefield-when.jsp',
+  '/guides/vi/solo-battlefield-vs-alternatives.html': 'guide/vi/solo-battlefield-vs-alternatives.jsp',
+  '/guides/id/how-to-play-solo-battlefield.html': 'guide/id/how-to-play-solo-battlefield.jsp',
+  '/guides/id/solo-battlefield-when.html': 'guide/id/solo-battlefield-when.jsp',
+  '/guides/id/solo-battlefield-vs-alternatives.html': 'guide/id/solo-battlefield-vs-alternatives.jsp',
+  '/guides/de/how-to-play-solo-battlefield.html': 'guide/de/how-to-play-solo-battlefield.jsp',
+  '/guides/de/solo-battlefield-when.html': 'guide/de/solo-battlefield-when.jsp',
+  '/guides/de/solo-battlefield-vs-alternatives.html': 'guide/de/solo-battlefield-vs-alternatives.jsp',
+
+  // game-discovery-loop-runbook fire150 (2026-07-18): feast-night companion guides
+  '/guides/how-to-play-feast-night.html': 'guide/how-to-play-feast-night.jsp',
+  '/guides/feast-night-when.html': 'guide/feast-night-when.jsp',
+  '/guides/feast-night-vs-alternatives.html': 'guide/feast-night-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-feast-night.html': 'guide/pt/how-to-play-feast-night.jsp',
+  '/guides/pt/feast-night-when.html': 'guide/pt/feast-night-when.jsp',
+  '/guides/pt/feast-night-vs-alternatives.html': 'guide/pt/feast-night-vs-alternatives.jsp',
+  '/guides/es/how-to-play-feast-night.html': 'guide/es/how-to-play-feast-night.jsp',
+  '/guides/es/feast-night-when.html': 'guide/es/feast-night-when.jsp',
+  '/guides/es/feast-night-vs-alternatives.html': 'guide/es/feast-night-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-feast-night.html': 'guide/vi/how-to-play-feast-night.jsp',
+  '/guides/vi/feast-night-when.html': 'guide/vi/feast-night-when.jsp',
+  '/guides/vi/feast-night-vs-alternatives.html': 'guide/vi/feast-night-vs-alternatives.jsp',
+  '/guides/id/how-to-play-feast-night.html': 'guide/id/how-to-play-feast-night.jsp',
+  '/guides/id/feast-night-when.html': 'guide/id/feast-night-when.jsp',
+  '/guides/id/feast-night-vs-alternatives.html': 'guide/id/feast-night-vs-alternatives.jsp',
+  '/guides/de/how-to-play-feast-night.html': 'guide/de/how-to-play-feast-night.jsp',
+  '/guides/de/feast-night-when.html': 'guide/de/feast-night-when.jsp',
+  '/guides/de/feast-night-vs-alternatives.html': 'guide/de/feast-night-vs-alternatives.jsp',
+
+  // game-discovery-loop-runbook fire148 (2026-07-18): machine-guard-corps companion guides
+  '/guides/how-to-play-machine-guard-corps.html': 'guide/how-to-play-machine-guard-corps.jsp',
+  '/guides/machine-guard-corps-when.html': 'guide/machine-guard-corps-when.jsp',
+  '/guides/machine-guard-corps-vs-alternatives.html': 'guide/machine-guard-corps-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-machine-guard-corps.html': 'guide/pt/how-to-play-machine-guard-corps.jsp',
+  '/guides/pt/machine-guard-corps-when.html': 'guide/pt/machine-guard-corps-when.jsp',
+  '/guides/pt/machine-guard-corps-vs-alternatives.html': 'guide/pt/machine-guard-corps-vs-alternatives.jsp',
+  '/guides/es/how-to-play-machine-guard-corps.html': 'guide/es/how-to-play-machine-guard-corps.jsp',
+  '/guides/es/machine-guard-corps-when.html': 'guide/es/machine-guard-corps-when.jsp',
+  '/guides/es/machine-guard-corps-vs-alternatives.html': 'guide/es/machine-guard-corps-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-machine-guard-corps.html': 'guide/vi/how-to-play-machine-guard-corps.jsp',
+  '/guides/vi/machine-guard-corps-when.html': 'guide/vi/machine-guard-corps-when.jsp',
+  '/guides/vi/machine-guard-corps-vs-alternatives.html': 'guide/vi/machine-guard-corps-vs-alternatives.jsp',
+  '/guides/id/how-to-play-machine-guard-corps.html': 'guide/id/how-to-play-machine-guard-corps.jsp',
+  '/guides/id/machine-guard-corps-when.html': 'guide/id/machine-guard-corps-when.jsp',
+  '/guides/id/machine-guard-corps-vs-alternatives.html': 'guide/id/machine-guard-corps-vs-alternatives.jsp',
+  '/guides/de/how-to-play-machine-guard-corps.html': 'guide/de/how-to-play-machine-guard-corps.jsp',
+  '/guides/de/machine-guard-corps-when.html': 'guide/de/machine-guard-corps-when.jsp',
+  '/guides/de/machine-guard-corps-vs-alternatives.html': 'guide/de/machine-guard-corps-vs-alternatives.jsp',
 
   // game-discovery-loop-runbook fire147 (2026-07-18): black-cat-hot-tin-roof companion guides
   '/guides/how-to-play-black-cat-hot-tin-roof.html': 'guide/how-to-play-black-cat-hot-tin-roof.jsp',
@@ -12779,6 +12986,86 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/ornithomimus-size-comparison.html': 'guide/vi/ornithomimus-size-comparison.jsp',
   '/guides/id/ornithomimus-size-comparison.html': 'guide/id/ornithomimus-size-comparison.jsp',
   '/guides/de/ornithomimus-size-comparison.html': 'guide/de/ornithomimus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire117 (2026-07-18): ornithomimus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ornithomimus-3d-viewer-vs-ar-apps.html': 'guide/ornithomimus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/ornithomimus-3d-viewer-vs-ar-apps.html': 'guide/pt/ornithomimus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/ornithomimus-3d-viewer-vs-ar-apps.html': 'guide/es/ornithomimus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/ornithomimus-3d-viewer-vs-ar-apps.html': 'guide/vi/ornithomimus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/ornithomimus-3d-viewer-vs-ar-apps.html': 'guide/id/ornithomimus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/ornithomimus-3d-viewer-vs-ar-apps.html': 'guide/de/ornithomimus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire118 (2026-07-18): how-to-view-tylosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-tylosaurus-in-3d.html': 'guide/how-to-view-tylosaurus-in-3d.jsp',
+  '/guides/pt/how-to-view-tylosaurus-in-3d.html': 'guide/pt/how-to-view-tylosaurus-in-3d.jsp',
+  '/guides/es/how-to-view-tylosaurus-in-3d.html': 'guide/es/how-to-view-tylosaurus-in-3d.jsp',
+  '/guides/vi/how-to-view-tylosaurus-in-3d.html': 'guide/vi/how-to-view-tylosaurus-in-3d.jsp',
+  '/guides/id/how-to-view-tylosaurus-in-3d.html': 'guide/id/how-to-view-tylosaurus-in-3d.jsp',
+  '/guides/de/how-to-view-tylosaurus-in-3d.html': 'guide/de/how-to-view-tylosaurus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire119 (2026-07-18): tylosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/tylosaurus-size-comparison.html': 'guide/tylosaurus-size-comparison.jsp',
+  '/guides/pt/tylosaurus-size-comparison.html': 'guide/pt/tylosaurus-size-comparison.jsp',
+  '/guides/es/tylosaurus-size-comparison.html': 'guide/es/tylosaurus-size-comparison.jsp',
+  '/guides/vi/tylosaurus-size-comparison.html': 'guide/vi/tylosaurus-size-comparison.jsp',
+  '/guides/id/tylosaurus-size-comparison.html': 'guide/id/tylosaurus-size-comparison.jsp',
+  '/guides/de/tylosaurus-size-comparison.html': 'guide/de/tylosaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire120 (2026-07-18): tylosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/tylosaurus-3d-viewer-vs-ar-apps.html': 'guide/tylosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/tylosaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/tylosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/tylosaurus-3d-viewer-vs-ar-apps.html': 'guide/es/tylosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/tylosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/tylosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/tylosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/tylosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/tylosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/tylosaurus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire121 (2026-07-19): how-to-view-gorgosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-gorgosaurus-in-3d.html': 'guide/how-to-view-gorgosaurus-in-3d.jsp',
+  '/guides/pt/how-to-view-gorgosaurus-in-3d.html': 'guide/pt/how-to-view-gorgosaurus-in-3d.jsp',
+  '/guides/es/how-to-view-gorgosaurus-in-3d.html': 'guide/es/how-to-view-gorgosaurus-in-3d.jsp',
+  '/guides/vi/how-to-view-gorgosaurus-in-3d.html': 'guide/vi/how-to-view-gorgosaurus-in-3d.jsp',
+  '/guides/id/how-to-view-gorgosaurus-in-3d.html': 'guide/id/how-to-view-gorgosaurus-in-3d.jsp',
+  '/guides/de/how-to-view-gorgosaurus-in-3d.html': 'guide/de/how-to-view-gorgosaurus-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire122 (2026-07-19): gorgosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/gorgosaurus-size-comparison.html': 'guide/gorgosaurus-size-comparison.jsp',
+  '/guides/pt/gorgosaurus-size-comparison.html': 'guide/pt/gorgosaurus-size-comparison.jsp',
+  '/guides/es/gorgosaurus-size-comparison.html': 'guide/es/gorgosaurus-size-comparison.jsp',
+  '/guides/vi/gorgosaurus-size-comparison.html': 'guide/vi/gorgosaurus-size-comparison.jsp',
+  '/guides/id/gorgosaurus-size-comparison.html': 'guide/id/gorgosaurus-size-comparison.jsp',
+  '/guides/de/gorgosaurus-size-comparison.html': 'guide/de/gorgosaurus-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire123 (2026-07-19): gorgosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/gorgosaurus-3d-viewer-vs-ar-apps.html': 'guide/gorgosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/gorgosaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/gorgosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/gorgosaurus-3d-viewer-vs-ar-apps.html': 'guide/es/gorgosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/gorgosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/gorgosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/gorgosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/gorgosaurus-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/gorgosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/gorgosaurus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire124 (2026-07-19): how-to-view-dimetrodon-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-dimetrodon-in-3d.html': 'guide/how-to-view-dimetrodon-in-3d.jsp',
+  '/guides/pt/how-to-view-dimetrodon-in-3d.html': 'guide/pt/how-to-view-dimetrodon-in-3d.jsp',
+  '/guides/es/how-to-view-dimetrodon-in-3d.html': 'guide/es/how-to-view-dimetrodon-in-3d.jsp',
+  '/guides/vi/how-to-view-dimetrodon-in-3d.html': 'guide/vi/how-to-view-dimetrodon-in-3d.jsp',
+  '/guides/id/how-to-view-dimetrodon-in-3d.html': 'guide/id/how-to-view-dimetrodon-in-3d.jsp',
+  '/guides/de/how-to-view-dimetrodon-in-3d.html': 'guide/de/how-to-view-dimetrodon-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire125 (2026-07-19): dimetrodon-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/dimetrodon-size-comparison.html': 'guide/dimetrodon-size-comparison.jsp',
+  '/guides/pt/dimetrodon-size-comparison.html': 'guide/pt/dimetrodon-size-comparison.jsp',
+  '/guides/es/dimetrodon-size-comparison.html': 'guide/es/dimetrodon-size-comparison.jsp',
+  '/guides/vi/dimetrodon-size-comparison.html': 'guide/vi/dimetrodon-size-comparison.jsp',
+  '/guides/id/dimetrodon-size-comparison.html': 'guide/id/dimetrodon-size-comparison.jsp',
+  '/guides/de/dimetrodon-size-comparison.html': 'guide/de/dimetrodon-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire126 (2026-07-19): dimetrodon-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/dimetrodon-3d-viewer-vs-ar-apps.html': 'guide/dimetrodon-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/dimetrodon-3d-viewer-vs-ar-apps.html': 'guide/pt/dimetrodon-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/dimetrodon-3d-viewer-vs-ar-apps.html': 'guide/es/dimetrodon-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/dimetrodon-3d-viewer-vs-ar-apps.html': 'guide/vi/dimetrodon-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/dimetrodon-3d-viewer-vs-ar-apps.html': 'guide/id/dimetrodon-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/dimetrodon-3d-viewer-vs-ar-apps.html': 'guide/de/dimetrodon-3d-viewer-vs-ar-apps.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
@@ -13066,6 +13353,9 @@ export const JSP_BY_ROUTE = {
   '/games/mystic-card-paw.html': 'games/mystic-card-paw.jsp',
   '/games/cat-hop-cloud.html': 'games/cat-hop-cloud.jsp',
   '/games/herd-cats-home.html': 'games/herd-cats-home.jsp',
+  '/games/solo-battlefield.html': 'games/solo-battlefield.jsp',
+  '/games/feast-night.html': 'games/feast-night.jsp',
+  '/games/machine-guard-corps.html': 'games/machine-guard-corps.jsp',
   '/games/black-cat-hot-tin-roof.html': 'games/black-cat-hot-tin-roof.jsp',
   '/games/mor-chess-2.html': 'games/mor-chess-2.jsp',
   '/games/darkline-paws.html': 'games/darkline-paws.jsp',
