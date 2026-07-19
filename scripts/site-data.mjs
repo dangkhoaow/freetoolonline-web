@@ -4566,6 +4566,38 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/gorgosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/id/gorgosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/de/gorgosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire124 (2026-07-19): how-to-view-dimetrodon-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-dimetrodon-in-3d.html',
+  '/guides/pt/how-to-view-dimetrodon-in-3d.html',
+  '/guides/es/how-to-view-dimetrodon-in-3d.html',
+  '/guides/vi/how-to-view-dimetrodon-in-3d.html',
+  '/guides/id/how-to-view-dimetrodon-in-3d.html',
+  '/guides/de/how-to-view-dimetrodon-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire125 (2026-07-19): dimetrodon-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/dimetrodon-size-comparison.html',
+  '/guides/pt/dimetrodon-size-comparison.html',
+  '/guides/es/dimetrodon-size-comparison.html',
+  '/guides/vi/dimetrodon-size-comparison.html',
+  '/guides/id/dimetrodon-size-comparison.html',
+  '/guides/de/dimetrodon-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire126 (2026-07-19): dimetrodon-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/dimetrodon-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/dimetrodon-3d-viewer-vs-ar-apps.html',
+  '/guides/es/dimetrodon-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/dimetrodon-3d-viewer-vs-ar-apps.html',
+  '/guides/id/dimetrodon-3d-viewer-vs-ar-apps.html',
+  '/guides/de/dimetrodon-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire127 (2026-07-19): how-to-view-ichthyovenator-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-ichthyovenator-in-3d.html',
+  '/guides/pt/how-to-view-ichthyovenator-in-3d.html',
+  '/guides/es/how-to-view-ichthyovenator-in-3d.html',
+  '/guides/vi/how-to-view-ichthyovenator-in-3d.html',
+  '/guides/id/how-to-view-ichthyovenator-in-3d.html',
+  '/guides/de/how-to-view-ichthyovenator-in-3d.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -13018,6 +13050,38 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/gorgosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/gorgosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/gorgosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/gorgosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/gorgosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/gorgosaurus-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire124 (2026-07-19): how-to-view-dimetrodon-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-dimetrodon-in-3d.html': 'guide/how-to-view-dimetrodon-in-3d.jsp',
+  '/guides/pt/how-to-view-dimetrodon-in-3d.html': 'guide/pt/how-to-view-dimetrodon-in-3d.jsp',
+  '/guides/es/how-to-view-dimetrodon-in-3d.html': 'guide/es/how-to-view-dimetrodon-in-3d.jsp',
+  '/guides/vi/how-to-view-dimetrodon-in-3d.html': 'guide/vi/how-to-view-dimetrodon-in-3d.jsp',
+  '/guides/id/how-to-view-dimetrodon-in-3d.html': 'guide/id/how-to-view-dimetrodon-in-3d.jsp',
+  '/guides/de/how-to-view-dimetrodon-in-3d.html': 'guide/de/how-to-view-dimetrodon-in-3d.jsp',
+  // dinosaur-3d-guides-loop-runbook fire125 (2026-07-19): dimetrodon-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/dimetrodon-size-comparison.html': 'guide/dimetrodon-size-comparison.jsp',
+  '/guides/pt/dimetrodon-size-comparison.html': 'guide/pt/dimetrodon-size-comparison.jsp',
+  '/guides/es/dimetrodon-size-comparison.html': 'guide/es/dimetrodon-size-comparison.jsp',
+  '/guides/vi/dimetrodon-size-comparison.html': 'guide/vi/dimetrodon-size-comparison.jsp',
+  '/guides/id/dimetrodon-size-comparison.html': 'guide/id/dimetrodon-size-comparison.jsp',
+  '/guides/de/dimetrodon-size-comparison.html': 'guide/de/dimetrodon-size-comparison.jsp',
+  // dinosaur-3d-guides-loop-runbook fire126 (2026-07-19): dimetrodon-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/dimetrodon-3d-viewer-vs-ar-apps.html': 'guide/dimetrodon-3d-viewer-vs-ar-apps.jsp',
+  '/guides/pt/dimetrodon-3d-viewer-vs-ar-apps.html': 'guide/pt/dimetrodon-3d-viewer-vs-ar-apps.jsp',
+  '/guides/es/dimetrodon-3d-viewer-vs-ar-apps.html': 'guide/es/dimetrodon-3d-viewer-vs-ar-apps.jsp',
+  '/guides/vi/dimetrodon-3d-viewer-vs-ar-apps.html': 'guide/vi/dimetrodon-3d-viewer-vs-ar-apps.jsp',
+  '/guides/id/dimetrodon-3d-viewer-vs-ar-apps.html': 'guide/id/dimetrodon-3d-viewer-vs-ar-apps.jsp',
+  '/guides/de/dimetrodon-3d-viewer-vs-ar-apps.html': 'guide/de/dimetrodon-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire127 (2026-07-19): how-to-view-ichthyovenator-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-ichthyovenator-in-3d.html': 'guide/how-to-view-ichthyovenator-in-3d.jsp',
+  '/guides/pt/how-to-view-ichthyovenator-in-3d.html': 'guide/pt/how-to-view-ichthyovenator-in-3d.jsp',
+  '/guides/es/how-to-view-ichthyovenator-in-3d.html': 'guide/es/how-to-view-ichthyovenator-in-3d.jsp',
+  '/guides/vi/how-to-view-ichthyovenator-in-3d.html': 'guide/vi/how-to-view-ichthyovenator-in-3d.jsp',
+  '/guides/id/how-to-view-ichthyovenator-in-3d.html': 'guide/id/how-to-view-ichthyovenator-in-3d.jsp',
+  '/guides/de/how-to-view-ichthyovenator-in-3d.html': 'guide/de/how-to-view-ichthyovenator-in-3d.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
