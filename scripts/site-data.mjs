@@ -4614,6 +4614,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/ichthyovenator-3d-viewer-vs-ar-apps.html',
   '/guides/id/ichthyovenator-3d-viewer-vs-ar-apps.html',
   '/guides/de/ichthyovenator-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire130 (2026-07-19): how-to-view-ampelosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-ampelosaurus-in-3d.html',
+  '/guides/pt/how-to-view-ampelosaurus-in-3d.html',
+  '/guides/es/how-to-view-ampelosaurus-in-3d.html',
+  '/guides/vi/how-to-view-ampelosaurus-in-3d.html',
+  '/guides/id/how-to-view-ampelosaurus-in-3d.html',
+  '/guides/de/how-to-view-ampelosaurus-in-3d.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -6611,6 +6619,26 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/how-to-play-feast-night.html',
   '/guides/de/feast-night-when.html',
   '/guides/de/feast-night-vs-alternatives.html',
+
+  // game-discovery-loop-runbook fire151 (2026-07-19): rune-keeper companion guides
+  '/guides/how-to-play-rune-keeper.html',
+  '/guides/rune-keeper-when.html',
+  '/guides/rune-keeper-vs-alternatives.html',
+  '/guides/pt/how-to-play-rune-keeper.html',
+  '/guides/pt/rune-keeper-when.html',
+  '/guides/pt/rune-keeper-vs-alternatives.html',
+  '/guides/es/how-to-play-rune-keeper.html',
+  '/guides/es/rune-keeper-when.html',
+  '/guides/es/rune-keeper-vs-alternatives.html',
+  '/guides/vi/how-to-play-rune-keeper.html',
+  '/guides/vi/rune-keeper-when.html',
+  '/guides/vi/rune-keeper-vs-alternatives.html',
+  '/guides/id/how-to-play-rune-keeper.html',
+  '/guides/id/rune-keeper-when.html',
+  '/guides/id/rune-keeper-vs-alternatives.html',
+  '/guides/de/how-to-play-rune-keeper.html',
+  '/guides/de/rune-keeper-when.html',
+  '/guides/de/rune-keeper-vs-alternatives.html',
 
   // game-discovery-loop-runbook fire148 (2026-07-18): machine-guard-corps companion guides
   '/guides/how-to-play-machine-guard-corps.html',
@@ -9002,6 +9030,7 @@ export const ALIAS_ROUTES = {
   '/herd-cats-home.html': '/games/herd-cats-home.html',
   '/solo-battlefield.html': '/games/solo-battlefield.html',
   '/feast-night.html': '/games/feast-night.html',
+  '/rune-keeper.html': '/games/rune-keeper.html',
   '/machine-guard-corps.html': '/games/machine-guard-corps.html',
   '/black-cat-hot-tin-roof.html': '/games/black-cat-hot-tin-roof.html',
   '/mor-chess-2.html': '/games/mor-chess-2.html',
@@ -11045,6 +11074,26 @@ export const JSP_BY_ROUTE = {
   '/guides/de/how-to-play-feast-night.html': 'guide/de/how-to-play-feast-night.jsp',
   '/guides/de/feast-night-when.html': 'guide/de/feast-night-when.jsp',
   '/guides/de/feast-night-vs-alternatives.html': 'guide/de/feast-night-vs-alternatives.jsp',
+
+  // game-discovery-loop-runbook fire151 (2026-07-19): rune-keeper companion guides
+  '/guides/how-to-play-rune-keeper.html': 'guide/how-to-play-rune-keeper.jsp',
+  '/guides/rune-keeper-when.html': 'guide/rune-keeper-when.jsp',
+  '/guides/rune-keeper-vs-alternatives.html': 'guide/rune-keeper-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-rune-keeper.html': 'guide/pt/how-to-play-rune-keeper.jsp',
+  '/guides/pt/rune-keeper-when.html': 'guide/pt/rune-keeper-when.jsp',
+  '/guides/pt/rune-keeper-vs-alternatives.html': 'guide/pt/rune-keeper-vs-alternatives.jsp',
+  '/guides/es/how-to-play-rune-keeper.html': 'guide/es/how-to-play-rune-keeper.jsp',
+  '/guides/es/rune-keeper-when.html': 'guide/es/rune-keeper-when.jsp',
+  '/guides/es/rune-keeper-vs-alternatives.html': 'guide/es/rune-keeper-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-rune-keeper.html': 'guide/vi/how-to-play-rune-keeper.jsp',
+  '/guides/vi/rune-keeper-when.html': 'guide/vi/rune-keeper-when.jsp',
+  '/guides/vi/rune-keeper-vs-alternatives.html': 'guide/vi/rune-keeper-vs-alternatives.jsp',
+  '/guides/id/how-to-play-rune-keeper.html': 'guide/id/how-to-play-rune-keeper.jsp',
+  '/guides/id/rune-keeper-when.html': 'guide/id/rune-keeper-when.jsp',
+  '/guides/id/rune-keeper-vs-alternatives.html': 'guide/id/rune-keeper-vs-alternatives.jsp',
+  '/guides/de/how-to-play-rune-keeper.html': 'guide/de/how-to-play-rune-keeper.jsp',
+  '/guides/de/rune-keeper-when.html': 'guide/de/rune-keeper-when.jsp',
+  '/guides/de/rune-keeper-vs-alternatives.html': 'guide/de/rune-keeper-vs-alternatives.jsp',
 
   // game-discovery-loop-runbook fire148 (2026-07-18): machine-guard-corps companion guides
   '/guides/how-to-play-machine-guard-corps.html': 'guide/how-to-play-machine-guard-corps.jsp',
@@ -13115,6 +13164,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/ichthyovenator-3d-viewer-vs-ar-apps.html': 'guide/vi/ichthyovenator-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/ichthyovenator-3d-viewer-vs-ar-apps.html': 'guide/id/ichthyovenator-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/ichthyovenator-3d-viewer-vs-ar-apps.html': 'guide/de/ichthyovenator-3d-viewer-vs-ar-apps.jsp',
+  // dinosaur-3d-guides-loop-runbook fire130 (2026-07-19): how-to-view-ampelosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-ampelosaurus-in-3d.html': 'guide/how-to-view-ampelosaurus-in-3d.jsp',
+  '/guides/pt/how-to-view-ampelosaurus-in-3d.html': 'guide/pt/how-to-view-ampelosaurus-in-3d.jsp',
+  '/guides/es/how-to-view-ampelosaurus-in-3d.html': 'guide/es/how-to-view-ampelosaurus-in-3d.jsp',
+  '/guides/vi/how-to-view-ampelosaurus-in-3d.html': 'guide/vi/how-to-view-ampelosaurus-in-3d.jsp',
+  '/guides/id/how-to-view-ampelosaurus-in-3d.html': 'guide/id/how-to-view-ampelosaurus-in-3d.jsp',
+  '/guides/de/how-to-view-ampelosaurus-in-3d.html': 'guide/de/how-to-view-ampelosaurus-in-3d.jsp',
   '/guides/solar-system-3d-explorer-when.html': 'guide/solar-system-3d-explorer-when.jsp',
   '/guides/solar-system-3d-explorer-step-by-step.html': 'guide/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/solar-system-3d-explorer-vs-alternatives.html': 'guide/solar-system-3d-explorer-vs-alternatives.jsp',
@@ -13404,6 +13461,7 @@ export const JSP_BY_ROUTE = {
   '/games/herd-cats-home.html': 'games/herd-cats-home.jsp',
   '/games/solo-battlefield.html': 'games/solo-battlefield.jsp',
   '/games/feast-night.html': 'games/feast-night.jsp',
+  '/games/rune-keeper.html': 'games/rune-keeper.jsp',
   '/games/machine-guard-corps.html': 'games/machine-guard-corps.jsp',
   '/games/black-cat-hot-tin-roof.html': 'games/black-cat-hot-tin-roof.jsp',
   '/games/mor-chess-2.html': 'games/mor-chess-2.jsp',
