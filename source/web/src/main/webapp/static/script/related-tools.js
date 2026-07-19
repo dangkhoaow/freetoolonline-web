@@ -440,6 +440,7 @@ try {
     { title: "Feast Night", url: "https://freetoolonline.com/games/feast-night.html", include: !1, tags: "games" },
     { title: "Rune Keeper", url: "https://freetoolonline.com/games/rune-keeper.html", include: !1, tags: "games" },
     { title: "Bounce Back", url: "https://freetoolonline.com/games/bounce-back.html", include: !1, tags: "games" },
+    { title: "Classic Pong", url: "https://freetoolonline.com/games/classic-pong.html", include: !1, tags: "games" },
     { title: "Machine Guard Corps", url: "https://freetoolonline.com/games/machine-guard-corps.html", include: !1, tags: "games" },
     { title: "Black Cat on a Hot Tin Roof", url: "https://freetoolonline.com/games/black-cat-hot-tin-roof.html", include: !1, tags: "games" },
     { title: "Mor Chess 2", url: "https://freetoolonline.com/games/mor-chess-2.html", include: !1, tags: "games" },
