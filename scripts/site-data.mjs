@@ -5428,6 +5428,54 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/kentrosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/id/kentrosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/de/kentrosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire220 (2026-07-20): how-to-view-postosuchus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-postosuchus-in-3d.html',
+  '/guides/pt/how-to-view-postosuchus-in-3d.html',
+  '/guides/es/how-to-view-postosuchus-in-3d.html',
+  '/guides/vi/how-to-view-postosuchus-in-3d.html',
+  '/guides/id/how-to-view-postosuchus-in-3d.html',
+  '/guides/de/how-to-view-postosuchus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire221 (2026-07-20): postosuchus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/postosuchus-size-comparison.html',
+  '/guides/pt/postosuchus-size-comparison.html',
+  '/guides/es/postosuchus-size-comparison.html',
+  '/guides/vi/postosuchus-size-comparison.html',
+  '/guides/id/postosuchus-size-comparison.html',
+  '/guides/de/postosuchus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire222 (2026-07-20): postosuchus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/postosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/postosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/postosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/postosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/postosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/postosuchus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire223 (2026-07-20): how-to-view-amargasaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-amargasaurus-in-3d.html',
+  '/guides/pt/how-to-view-amargasaurus-in-3d.html',
+  '/guides/es/how-to-view-amargasaurus-in-3d.html',
+  '/guides/vi/how-to-view-amargasaurus-in-3d.html',
+  '/guides/id/how-to-view-amargasaurus-in-3d.html',
+  '/guides/de/how-to-view-amargasaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire224 (2026-07-20): amargasaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/amargasaurus-size-comparison.html',
+  '/guides/pt/amargasaurus-size-comparison.html',
+  '/guides/es/amargasaurus-size-comparison.html',
+  '/guides/vi/amargasaurus-size-comparison.html',
+  '/guides/id/amargasaurus-size-comparison.html',
+  '/guides/de/amargasaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire225 (2026-07-20): amargasaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/amargasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/amargasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/amargasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/amargasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/amargasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/amargasaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
