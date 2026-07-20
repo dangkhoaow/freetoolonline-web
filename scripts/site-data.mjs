@@ -5722,6 +5722,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
   '/guides/id/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
   '/guides/de/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire187 (2026-07-20): how-to-view-tarbosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-tarbosaurus-in-3d.html',
+  '/guides/pt/how-to-view-tarbosaurus-in-3d.html',
+  '/guides/es/how-to-view-tarbosaurus-in-3d.html',
+  '/guides/vi/how-to-view-tarbosaurus-in-3d.html',
+  '/guides/id/how-to-view-tarbosaurus-in-3d.html',
+  '/guides/de/how-to-view-tarbosaurus-in-3d.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -22348,6 +22356,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
   '/guides/id/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
   '/guides/de/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire187 (2026-07-20): how-to-view-tarbosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-tarbosaurus-in-3d.html',
+  '/guides/pt/how-to-view-tarbosaurus-in-3d.html',
+  '/guides/es/how-to-view-tarbosaurus-in-3d.html',
+  '/guides/vi/how-to-view-tarbosaurus-in-3d.html',
+  '/guides/id/how-to-view-tarbosaurus-in-3d.html',
+  '/guides/de/how-to-view-tarbosaurus-in-3d.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -29188,6 +29204,9 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/compsognathus.html': 'dinosaur/compsognathus.jsp',
   '/dinosaur-3d/mamenchisaurus.html': 'dinosaur/mamenchisaurus.jsp',
   '/dinosaur-3d/troodon.html': 'dinosaur/troodon.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire148 (2026-07-20): acrocanthosaurus (theropod archetype,
+  // feats.dorsalRidge + tinyArms; Model Magic CC0 Printables 1768652, vendored ftol-vm-assets 3a3f32e).
+  '/dinosaur-3d/acrocanthosaurus.html': 'dinosaur/acrocanthosaurus.jsp',
   '/dinosaur-3d/albertosaurus.html': 'dinosaur/albertosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire145 (2026-07-20): Sarcosuchus viewer -
   // new 'crocodilian' sprawled-gait archetype (Printables seth the yutyrannus,
