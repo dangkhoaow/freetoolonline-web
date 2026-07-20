@@ -184,6 +184,24 @@ export const INFO_ROUTES = new Set([
   '/guides/jwt-decoder-vs-alternatives.html',
   '/guides/jwt-decoder-step-by-step.html',
   '/guides/jwt-decoder-when.html',
+  '/guides/json-typescript-interface-generator-when.html',
+  '/guides/pt/json-typescript-interface-generator-when.html',
+  '/guides/es/json-typescript-interface-generator-when.html',
+  '/guides/vi/json-typescript-interface-generator-when.html',
+  '/guides/id/json-typescript-interface-generator-when.html',
+  '/guides/de/json-typescript-interface-generator-when.html',
+  '/guides/pt/json-typescript-interface-generator-step-by-step.html',
+  '/guides/es/json-typescript-interface-generator-step-by-step.html',
+  '/guides/vi/json-typescript-interface-generator-step-by-step.html',
+  '/guides/id/json-typescript-interface-generator-step-by-step.html',
+  '/guides/de/json-typescript-interface-generator-step-by-step.html',
+  '/guides/pt/json-typescript-interface-generator-vs-alternatives.html',
+  '/guides/es/json-typescript-interface-generator-vs-alternatives.html',
+  '/guides/vi/json-typescript-interface-generator-vs-alternatives.html',
+  '/guides/id/json-typescript-interface-generator-vs-alternatives.html',
+  '/guides/de/json-typescript-interface-generator-vs-alternatives.html',
+  '/guides/json-typescript-interface-generator-step-by-step.html',
+  '/guides/json-typescript-interface-generator-vs-alternatives.html',
   '/guides/pt/jwt-decoder-when.html',
   '/guides/pt/jwt-decoder-step-by-step.html',
   '/guides/pt/jwt-decoder-vs-alternatives.html',
@@ -8974,6 +8992,8 @@ export const ALIAS_ROUTES = {
   '/troodon.html': '/dinosaur-3d/troodon.html',
   // dinosaur-3d-discovery-loop-runbook fire123: albertosaurus alias.
   '/albertosaurus.html': '/dinosaur-3d/albertosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire145: sarcosuchus alias.
+  '/sarcosuchus.html': '/dinosaur-3d/sarcosuchus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -9241,6 +9261,7 @@ export const ALIAS_ROUTES = {
   '/photo-restoration.html': '/image-tools/photo-restoration.html',
   '/video-splitter.html': '/video-tools/video-splitter.html',
   '/video-merger.html': '/video-tools/video-merger.html',
+  '/json-to-typescript.html': '/developer-tools/json-to-typescript.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -9691,6 +9712,7 @@ export const JSP_BY_ROUTE = {
   '/news/de/heic-arrived-with-ios-11.html': 'news/de/heic-arrived-with-ios-11.jsp',
   '/news/fat32-four-gib-file-limit.html': 'news/fat32-four-gib-file-limit.jsp',
   '/news/windows-11-fat32-format-2tb.html': 'news/windows-11-fat32-format-2tb.jsp',
+  '/news/mp3-patents-expired-2017.html': 'news/mp3-patents-expired-2017.jsp',
   '/news/7-zip-rar5-motw-bypass.html': 'news/7-zip-rar5-motw-bypass.jsp',
   '/news/pt/7-zip-rar5-motw-bypass.html': 'news/pt/7-zip-rar5-motw-bypass.jsp',
   '/news/es/7-zip-rar5-motw-bypass.html': 'news/es/7-zip-rar5-motw-bypass.jsp',
@@ -12420,6 +12442,10 @@ export const JSP_BY_ROUTE = {
   '/dinosaur-3d/mamenchisaurus.html': 'dinosaur/mamenchisaurus.jsp',
   '/dinosaur-3d/troodon.html': 'dinosaur/troodon.jsp',
   '/dinosaur-3d/albertosaurus.html': 'dinosaur/albertosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire145 (2026-07-20): Sarcosuchus viewer -
+  // new 'crocodilian' sprawled-gait archetype (Printables seth the yutyrannus,
+  // CC-BY-SA 4.0, vendored to ftol-vm-assets commit abae90d).
+  '/dinosaur-3d/sarcosuchus.html': 'dinosaur/sarcosuchus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -17216,6 +17242,24 @@ export const JSP_BY_ROUTE = {
   '/guides/id/document-scanner-pdf-vs-alternatives.html': 'guide/id/document-scanner-pdf-vs-alternatives.jsp',
   '/developer-tools/jwt-decoder.html': 'utility/jwt-decoder.jsp',
   '/guides/jwt-decoder-when.html': 'guide/jwt-decoder-when.jsp',
+  '/guides/json-typescript-interface-generator-when.html': 'guide/json-typescript-interface-generator-when.jsp',
+  '/guides/pt/json-typescript-interface-generator-when.html': 'guide/pt/json-typescript-interface-generator-when.jsp',
+  '/guides/es/json-typescript-interface-generator-when.html': 'guide/es/json-typescript-interface-generator-when.jsp',
+  '/guides/vi/json-typescript-interface-generator-when.html': 'guide/vi/json-typescript-interface-generator-when.jsp',
+  '/guides/id/json-typescript-interface-generator-when.html': 'guide/id/json-typescript-interface-generator-when.jsp',
+  '/guides/de/json-typescript-interface-generator-when.html': 'guide/de/json-typescript-interface-generator-when.jsp',
+  '/guides/pt/json-typescript-interface-generator-step-by-step.html': 'guide/pt/json-typescript-interface-generator-step-by-step.jsp',
+  '/guides/es/json-typescript-interface-generator-step-by-step.html': 'guide/es/json-typescript-interface-generator-step-by-step.jsp',
+  '/guides/vi/json-typescript-interface-generator-step-by-step.html': 'guide/vi/json-typescript-interface-generator-step-by-step.jsp',
+  '/guides/id/json-typescript-interface-generator-step-by-step.html': 'guide/id/json-typescript-interface-generator-step-by-step.jsp',
+  '/guides/de/json-typescript-interface-generator-step-by-step.html': 'guide/de/json-typescript-interface-generator-step-by-step.jsp',
+  '/guides/pt/json-typescript-interface-generator-vs-alternatives.html': 'guide/pt/json-typescript-interface-generator-vs-alternatives.jsp',
+  '/guides/es/json-typescript-interface-generator-vs-alternatives.html': 'guide/es/json-typescript-interface-generator-vs-alternatives.jsp',
+  '/guides/vi/json-typescript-interface-generator-vs-alternatives.html': 'guide/vi/json-typescript-interface-generator-vs-alternatives.jsp',
+  '/guides/id/json-typescript-interface-generator-vs-alternatives.html': 'guide/id/json-typescript-interface-generator-vs-alternatives.jsp',
+  '/guides/de/json-typescript-interface-generator-vs-alternatives.html': 'guide/de/json-typescript-interface-generator-vs-alternatives.jsp',
+  '/guides/json-typescript-interface-generator-step-by-step.html': 'guide/json-typescript-interface-generator-step-by-step.jsp',
+  '/guides/json-typescript-interface-generator-vs-alternatives.html': 'guide/json-typescript-interface-generator-vs-alternatives.jsp',
   '/guides/jwt-decoder-step-by-step.html': 'guide/jwt-decoder-step-by-step.jsp',
   '/guides/jwt-decoder-vs-alternatives.html': 'guide/jwt-decoder-vs-alternatives.jsp',
   '/guides/pt/jwt-decoder-when.html': 'guide/pt/jwt-decoder-when.jsp',
@@ -17405,6 +17449,7 @@ export const JSP_BY_ROUTE = {
   '/guides/de/video-merger-when.html': 'guide/de/video-merger-when.jsp',
   '/guides/de/video-merger-step-by-step.html': 'guide/de/video-merger-step-by-step.jsp',
   '/guides/de/video-merger-vs-alternatives.html': 'guide/de/video-merger-vs-alternatives.jsp',
+  '/developer-tools/json-to-typescript.html': 'utility/json-to-typescript.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
