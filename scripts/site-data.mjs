@@ -9034,8 +9034,6 @@ export const ALIAS_ROUTES = {
   '/chasmosaurus.html': '/dinosaur-3d/chasmosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire151 (2026-07-20): flat-slug alias for psittacosaurus (Oviraptor STL REJECT fallback).
   '/psittacosaurus.html': '/dinosaur-3d/psittacosaurus.html',
-// dinosaur-3d-discovery-loop-runbook fire226 (2026-07-20): flat-slug alias for becklespinax.
-  '/becklespinax.html': '/dinosaur-3d/becklespinax.html',
   // dinosaur-3d-discovery-loop-runbook fire150 (2026-07-20): flat-slug alias for abelisaurus.
   '/abelisaurus.html': '/dinosaur-3d/abelisaurus.html',
 
@@ -12260,10 +12258,6 @@ export const JSP_BY_ROUTE = {
   // dinosaur-3d-discovery-loop-runbook fire151 (2026-07-20): psittacosaurus (ceratopsian archetype,
   // Model Magic CC0 Printables 1753562 after Oviraptor 1757494 morphology REJECT; vendored ftol-vm-assets 5ac2905).
   '/dinosaur-3d/psittacosaurus.html': 'dinosaur/psittacosaurus.jsp',
-  // dinosaur-3d-discovery-loop-runbook fire226 (2026-07-20): becklespinax (theropod archetype,
-  // feats.dorsalRidge + tinyArms; Printables lead via getDownloadLink; CDN ftol-vm-assets 90a2fa7).
-  '/dinosaur-3d/becklespinax.html': 'dinosaur/becklespinax.jsp',
-
   '/dinosaur-3d/albertosaurus.html': 'dinosaur/albertosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire145 (2026-07-20): Sarcosuchus viewer -
   // new 'crocodilian' sprawled-gait archetype (Printables seth the yutyrannus,
