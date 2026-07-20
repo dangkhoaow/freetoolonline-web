@@ -202,6 +202,24 @@ export const INFO_ROUTES = new Set([
   '/guides/de/json-typescript-interface-generator-vs-alternatives.html',
   '/guides/json-typescript-interface-generator-step-by-step.html',
   '/guides/json-typescript-interface-generator-vs-alternatives.html',
+  '/guides/markdown-html-previewer-when.html',
+  '/guides/markdown-html-previewer-step-by-step.html',
+  '/guides/markdown-html-previewer-vs-alternatives.html',
+  '/guides/pt/markdown-html-previewer-when.html',
+  '/guides/pt/markdown-html-previewer-step-by-step.html',
+  '/guides/pt/markdown-html-previewer-vs-alternatives.html',
+  '/guides/es/markdown-html-previewer-when.html',
+  '/guides/es/markdown-html-previewer-step-by-step.html',
+  '/guides/es/markdown-html-previewer-vs-alternatives.html',
+  '/guides/vi/markdown-html-previewer-when.html',
+  '/guides/vi/markdown-html-previewer-step-by-step.html',
+  '/guides/vi/markdown-html-previewer-vs-alternatives.html',
+  '/guides/id/markdown-html-previewer-when.html',
+  '/guides/id/markdown-html-previewer-step-by-step.html',
+  '/guides/id/markdown-html-previewer-vs-alternatives.html',
+  '/guides/de/markdown-html-previewer-when.html',
+  '/guides/de/markdown-html-previewer-step-by-step.html',
+  '/guides/de/markdown-html-previewer-vs-alternatives.html',
   '/guides/pt/jwt-decoder-when.html',
   '/guides/pt/jwt-decoder-step-by-step.html',
   '/guides/pt/jwt-decoder-vs-alternatives.html',
@@ -5354,6 +5372,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/torvosaurus-size-comparison.html',
   '/guides/id/torvosaurus-size-comparison.html',
   '/guides/de/torvosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire213 (2026-07-20): torvosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/torvosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/torvosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/torvosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/torvosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/torvosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/torvosaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -8111,6 +8137,7 @@ export function isGuideRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  '/markdown-to-html.html': '/developer-tools/markdown-to-html.html',
   // Hub directory-form safety redirects (added 2026-05-11). Search engines
   // and external links may guess `/cluster-tools/` from the clustered tool
   // URLs (`/cluster-tools/<slug>.html`). Without these entries GitHub Pages
@@ -13961,6 +13988,7 @@ export const JSP_BY_ROUTE = {
   '/games/googol-stopping-game.html': 'games/googol-stopping-game.jsp',
   '/games/bangbang-artillery.html': 'games/bangbang-artillery.jsp',
   '/games/rock-paper-neural.html': 'games/rock-paper-neural.jsp',
+  '/games/egg-time-rewind.html': 'games/egg-time-rewind.jsp',
   '/games/seasonal-witchcat.html': 'games/seasonal-witchcat.jsp',
   '/games/desk-cat-coder.html': 'games/desk-cat-coder.jsp',
   '/games/boing-cat-platformer.html': 'games/boing-cat-platformer.jsp',
@@ -16644,6 +16672,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/video-merger-step-by-step.html': 'guide/de/video-merger-step-by-step.jsp',
   '/guides/de/video-merger-vs-alternatives.html': 'guide/de/video-merger-vs-alternatives.jsp',
   '/developer-tools/json-to-typescript.html': 'utility/json-to-typescript.jsp',
+  '/developer-tools/markdown-to-html.html': 'utility/markdown-to-html.jsp',
+  '/guides/markdown-html-previewer-when.html': 'guide/markdown-html-previewer-when.jsp',
+  '/guides/markdown-html-previewer-step-by-step.html': 'guide/markdown-html-previewer-step-by-step.jsp',
+  '/guides/markdown-html-previewer-vs-alternatives.html': 'guide/markdown-html-previewer-vs-alternatives.jsp',
+  '/guides/pt/markdown-html-previewer-when.html': 'guide/pt/markdown-html-previewer-when.jsp',
+  '/guides/pt/markdown-html-previewer-step-by-step.html': 'guide/pt/markdown-html-previewer-step-by-step.jsp',
+  '/guides/pt/markdown-html-previewer-vs-alternatives.html': 'guide/pt/markdown-html-previewer-vs-alternatives.jsp',
+  '/guides/es/markdown-html-previewer-when.html': 'guide/es/markdown-html-previewer-when.jsp',
+  '/guides/es/markdown-html-previewer-step-by-step.html': 'guide/es/markdown-html-previewer-step-by-step.jsp',
+  '/guides/es/markdown-html-previewer-vs-alternatives.html': 'guide/es/markdown-html-previewer-vs-alternatives.jsp',
+  '/guides/vi/markdown-html-previewer-when.html': 'guide/vi/markdown-html-previewer-when.jsp',
+  '/guides/vi/markdown-html-previewer-step-by-step.html': 'guide/vi/markdown-html-previewer-step-by-step.jsp',
+  '/guides/vi/markdown-html-previewer-vs-alternatives.html': 'guide/vi/markdown-html-previewer-vs-alternatives.jsp',
+  '/guides/id/markdown-html-previewer-when.html': 'guide/id/markdown-html-previewer-when.jsp',
+  '/guides/id/markdown-html-previewer-step-by-step.html': 'guide/id/markdown-html-previewer-step-by-step.jsp',
+  '/guides/id/markdown-html-previewer-vs-alternatives.html': 'guide/id/markdown-html-previewer-vs-alternatives.jsp',
+  '/guides/de/markdown-html-previewer-when.html': 'guide/de/markdown-html-previewer-when.jsp',
+  '/guides/de/markdown-html-previewer-step-by-step.html': 'guide/de/markdown-html-previewer-step-by-step.jsp',
+  '/guides/de/markdown-html-previewer-vs-alternatives.html': 'guide/de/markdown-html-previewer-vs-alternatives.jsp',
   // fix(site-data) 2026-07-20: entries recovered from deleted duplicate route-map
   // blocks (fires 181-192 hybodus/quetzalcoatlus/tarbosaurus/mamenchisaurus guides
   // + prod-mirror rows that only landed in the removed copies).
