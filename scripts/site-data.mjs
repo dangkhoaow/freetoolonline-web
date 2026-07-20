@@ -5706,6 +5706,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/how-to-view-quetzalcoatlus-in-3d.html',
   '/guides/id/how-to-view-quetzalcoatlus-in-3d.html',
   '/guides/de/how-to-view-quetzalcoatlus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire185 (2026-07-20): quetzalcoatlus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/quetzalcoatlus-size-comparison.html',
+  '/guides/pt/quetzalcoatlus-size-comparison.html',
+  '/guides/es/quetzalcoatlus-size-comparison.html',
+  '/guides/vi/quetzalcoatlus-size-comparison.html',
+  '/guides/id/quetzalcoatlus-size-comparison.html',
+  '/guides/de/quetzalcoatlus-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -22316,6 +22324,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/how-to-view-quetzalcoatlus-in-3d.html',
   '/guides/id/how-to-view-quetzalcoatlus-in-3d.html',
   '/guides/de/how-to-view-quetzalcoatlus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire185 (2026-07-20): quetzalcoatlus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/quetzalcoatlus-size-comparison.html',
+  '/guides/pt/quetzalcoatlus-size-comparison.html',
+  '/guides/es/quetzalcoatlus-size-comparison.html',
+  '/guides/vi/quetzalcoatlus-size-comparison.html',
+  '/guides/id/quetzalcoatlus-size-comparison.html',
+  '/guides/de/quetzalcoatlus-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
