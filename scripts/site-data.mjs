@@ -203,6 +203,43 @@ export const INFO_ROUTES = new Set([
   '/guides/json-typescript-interface-generator-step-by-step.html',
   '/guides/json-typescript-interface-generator-vs-alternatives.html',
   '/guides/markdown-html-previewer-when.html',
+  '/developer-tools/html-to-markdown.html',
+  '/guides/de/html-markdown-converter-vs-alternatives.html',
+  '/guides/id/html-markdown-converter-vs-alternatives.html',
+  '/guides/vi/html-markdown-converter-vs-alternatives.html',
+  '/guides/es/html-markdown-converter-vs-alternatives.html',
+  '/guides/pt/html-markdown-converter-vs-alternatives.html',
+  '/guides/html-markdown-converter-vs-alternatives.html',
+  '/guides/de/html-markdown-converter-step-by-step.html',
+  '/guides/id/html-markdown-converter-step-by-step.html',
+  '/guides/vi/html-markdown-converter-step-by-step.html',
+  '/guides/es/html-markdown-converter-step-by-step.html',
+  '/guides/pt/html-markdown-converter-step-by-step.html',
+  '/guides/html-markdown-converter-step-by-step.html',
+  '/guides/de/html-markdown-converter-when.html',
+  '/guides/id/html-markdown-converter-when.html',
+  '/guides/vi/html-markdown-converter-when.html',
+  '/guides/es/html-markdown-converter-when.html',
+  '/guides/pt/html-markdown-converter-when.html',
+  '/guides/html-markdown-converter-when.html',
+  '/guides/color-contrast-checker-wcag-when.html',
+  '/guides/pt/color-contrast-checker-wcag-when.html',
+  '/guides/es/color-contrast-checker-wcag-when.html',
+  '/guides/vi/color-contrast-checker-wcag-when.html',
+  '/guides/id/color-contrast-checker-wcag-when.html',
+  '/guides/de/color-contrast-checker-wcag-when.html',
+  '/guides/color-contrast-checker-wcag-step-by-step.html',
+  '/guides/pt/color-contrast-checker-wcag-step-by-step.html',
+  '/guides/es/color-contrast-checker-wcag-step-by-step.html',
+  '/guides/vi/color-contrast-checker-wcag-step-by-step.html',
+  '/guides/id/color-contrast-checker-wcag-step-by-step.html',
+  '/guides/de/color-contrast-checker-wcag-step-by-step.html',
+  '/guides/color-contrast-checker-wcag-vs-alternatives.html',
+  '/guides/pt/color-contrast-checker-wcag-vs-alternatives.html',
+  '/guides/es/color-contrast-checker-wcag-vs-alternatives.html',
+  '/guides/vi/color-contrast-checker-wcag-vs-alternatives.html',
+  '/guides/id/color-contrast-checker-wcag-vs-alternatives.html',
+  '/guides/de/color-contrast-checker-wcag-vs-alternatives.html',
   '/guides/markdown-html-previewer-step-by-step.html',
   '/guides/markdown-html-previewer-vs-alternatives.html',
   '/guides/pt/markdown-html-previewer-when.html',
@@ -5412,6 +5449,238 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/how-to-view-kentrosaurus-in-3d.html',
   '/guides/id/how-to-view-kentrosaurus-in-3d.html',
   '/guides/de/how-to-view-kentrosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire218 (2026-07-20): kentrosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/kentrosaurus-size-comparison.html',
+  '/guides/pt/kentrosaurus-size-comparison.html',
+  '/guides/es/kentrosaurus-size-comparison.html',
+  '/guides/vi/kentrosaurus-size-comparison.html',
+  '/guides/id/kentrosaurus-size-comparison.html',
+  '/guides/de/kentrosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire219 (2026-07-20): kentrosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/kentrosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/kentrosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/kentrosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/kentrosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/kentrosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/kentrosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire220 (2026-07-20): how-to-view-postosuchus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-postosuchus-in-3d.html',
+  '/guides/pt/how-to-view-postosuchus-in-3d.html',
+  '/guides/es/how-to-view-postosuchus-in-3d.html',
+  '/guides/vi/how-to-view-postosuchus-in-3d.html',
+  '/guides/id/how-to-view-postosuchus-in-3d.html',
+  '/guides/de/how-to-view-postosuchus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire221 (2026-07-20): postosuchus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/postosuchus-size-comparison.html',
+  '/guides/pt/postosuchus-size-comparison.html',
+  '/guides/es/postosuchus-size-comparison.html',
+  '/guides/vi/postosuchus-size-comparison.html',
+  '/guides/id/postosuchus-size-comparison.html',
+  '/guides/de/postosuchus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire222 (2026-07-20): postosuchus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/postosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/postosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/postosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/postosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/postosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/postosuchus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire223 (2026-07-20): how-to-view-amargasaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-amargasaurus-in-3d.html',
+  '/guides/pt/how-to-view-amargasaurus-in-3d.html',
+  '/guides/es/how-to-view-amargasaurus-in-3d.html',
+  '/guides/vi/how-to-view-amargasaurus-in-3d.html',
+  '/guides/id/how-to-view-amargasaurus-in-3d.html',
+  '/guides/de/how-to-view-amargasaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire224 (2026-07-20): amargasaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/amargasaurus-size-comparison.html',
+  '/guides/pt/amargasaurus-size-comparison.html',
+  '/guides/es/amargasaurus-size-comparison.html',
+  '/guides/vi/amargasaurus-size-comparison.html',
+  '/guides/id/amargasaurus-size-comparison.html',
+  '/guides/de/amargasaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire225 (2026-07-20): amargasaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/amargasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/amargasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/amargasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/amargasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/amargasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/amargasaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire226 (2026-07-20): how-to-view-acrocanthosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-acrocanthosaurus-in-3d.html',
+  '/guides/pt/how-to-view-acrocanthosaurus-in-3d.html',
+  '/guides/es/how-to-view-acrocanthosaurus-in-3d.html',
+  '/guides/vi/how-to-view-acrocanthosaurus-in-3d.html',
+  '/guides/id/how-to-view-acrocanthosaurus-in-3d.html',
+  '/guides/de/how-to-view-acrocanthosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire227 (2026-07-20): acrocanthosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/acrocanthosaurus-size-comparison.html',
+  '/guides/pt/acrocanthosaurus-size-comparison.html',
+  '/guides/es/acrocanthosaurus-size-comparison.html',
+  '/guides/vi/acrocanthosaurus-size-comparison.html',
+  '/guides/id/acrocanthosaurus-size-comparison.html',
+  '/guides/de/acrocanthosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire228 (2026-07-20): acrocanthosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire229 (2026-07-20): how-to-view-abelisaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-abelisaurus-in-3d.html',
+  '/guides/pt/how-to-view-abelisaurus-in-3d.html',
+  '/guides/es/how-to-view-abelisaurus-in-3d.html',
+  '/guides/vi/how-to-view-abelisaurus-in-3d.html',
+  '/guides/id/how-to-view-abelisaurus-in-3d.html',
+  '/guides/de/how-to-view-abelisaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire230 (2026-07-20): abelisaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/abelisaurus-size-comparison.html',
+  '/guides/pt/abelisaurus-size-comparison.html',
+  '/guides/es/abelisaurus-size-comparison.html',
+  '/guides/vi/abelisaurus-size-comparison.html',
+  '/guides/id/abelisaurus-size-comparison.html',
+  '/guides/de/abelisaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire231 (2026-07-20): abelisaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/abelisaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/abelisaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/abelisaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/abelisaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/abelisaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/abelisaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire232 (2026-07-20): how-to-view-chasmosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-chasmosaurus-in-3d.html',
+  '/guides/pt/how-to-view-chasmosaurus-in-3d.html',
+  '/guides/es/how-to-view-chasmosaurus-in-3d.html',
+  '/guides/vi/how-to-view-chasmosaurus-in-3d.html',
+  '/guides/id/how-to-view-chasmosaurus-in-3d.html',
+  '/guides/de/how-to-view-chasmosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire233 (2026-07-20): chasmosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/chasmosaurus-size-comparison.html',
+  '/guides/pt/chasmosaurus-size-comparison.html',
+  '/guides/es/chasmosaurus-size-comparison.html',
+  '/guides/vi/chasmosaurus-size-comparison.html',
+  '/guides/id/chasmosaurus-size-comparison.html',
+  '/guides/de/chasmosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire234 (2026-07-20): chasmosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/chasmosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/chasmosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/chasmosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/chasmosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/chasmosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/chasmosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire235 (2026-07-20): how-to-view-psittacosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-psittacosaurus-in-3d.html',
+  '/guides/pt/how-to-view-psittacosaurus-in-3d.html',
+  '/guides/es/how-to-view-psittacosaurus-in-3d.html',
+  '/guides/vi/how-to-view-psittacosaurus-in-3d.html',
+  '/guides/id/how-to-view-psittacosaurus-in-3d.html',
+  '/guides/de/how-to-view-psittacosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire236 (2026-07-20): psittacosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/psittacosaurus-size-comparison.html',
+  '/guides/pt/psittacosaurus-size-comparison.html',
+  '/guides/es/psittacosaurus-size-comparison.html',
+  '/guides/vi/psittacosaurus-size-comparison.html',
+  '/guides/id/psittacosaurus-size-comparison.html',
+  '/guides/de/psittacosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire237 (2026-07-20): psittacosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/psittacosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/psittacosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/psittacosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/psittacosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/psittacosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/psittacosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire238 (2026-07-20): how-to-view-becklespinax-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-becklespinax-in-3d.html',
+  '/guides/pt/how-to-view-becklespinax-in-3d.html',
+  '/guides/es/how-to-view-becklespinax-in-3d.html',
+  '/guides/vi/how-to-view-becklespinax-in-3d.html',
+  '/guides/id/how-to-view-becklespinax-in-3d.html',
+  '/guides/de/how-to-view-becklespinax-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire239 (2026-07-20): becklespinax-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/becklespinax-size-comparison.html',
+  '/guides/pt/becklespinax-size-comparison.html',
+  '/guides/es/becklespinax-size-comparison.html',
+  '/guides/vi/becklespinax-size-comparison.html',
+  '/guides/id/becklespinax-size-comparison.html',
+  '/guides/de/becklespinax-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire240 (2026-07-20): becklespinax-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/becklespinax-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/becklespinax-3d-viewer-vs-ar-apps.html',
+  '/guides/es/becklespinax-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/becklespinax-3d-viewer-vs-ar-apps.html',
+  '/guides/id/becklespinax-3d-viewer-vs-ar-apps.html',
+  '/guides/de/becklespinax-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire241 (2026-07-20): how-to-view-ostafrikasaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-ostafrikasaurus-in-3d.html',
+  '/guides/pt/how-to-view-ostafrikasaurus-in-3d.html',
+  '/guides/es/how-to-view-ostafrikasaurus-in-3d.html',
+  '/guides/vi/how-to-view-ostafrikasaurus-in-3d.html',
+  '/guides/id/how-to-view-ostafrikasaurus-in-3d.html',
+  '/guides/de/how-to-view-ostafrikasaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire242 (2026-07-20): ostafrikasaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ostafrikasaurus-size-comparison.html',
+  '/guides/pt/ostafrikasaurus-size-comparison.html',
+  '/guides/es/ostafrikasaurus-size-comparison.html',
+  '/guides/vi/ostafrikasaurus-size-comparison.html',
+  '/guides/id/ostafrikasaurus-size-comparison.html',
+  '/guides/de/ostafrikasaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire243 (2026-07-20): ostafrikasaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire244 (2026-07-20): how-to-view-lambeosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-lambeosaurus-in-3d.html',
+  '/guides/pt/how-to-view-lambeosaurus-in-3d.html',
+  '/guides/es/how-to-view-lambeosaurus-in-3d.html',
+  '/guides/vi/how-to-view-lambeosaurus-in-3d.html',
+  '/guides/id/how-to-view-lambeosaurus-in-3d.html',
+  '/guides/de/how-to-view-lambeosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire245 (2026-07-20): lambeosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/lambeosaurus-size-comparison.html',
+  '/guides/pt/lambeosaurus-size-comparison.html',
+  '/guides/es/lambeosaurus-size-comparison.html',
+  '/guides/vi/lambeosaurus-size-comparison.html',
+  '/guides/id/lambeosaurus-size-comparison.html',
+  '/guides/de/lambeosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire246 (2026-07-20): lambeosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/lambeosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/lambeosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/lambeosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/lambeosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/lambeosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/lambeosaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -7222,6 +7491,63 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/iso-city-sandbox-vs-alternatives.html',
   '/guides/id/iso-city-sandbox-vs-alternatives.html',
   '/guides/de/iso-city-sandbox-vs-alternatives.html',
+  // game-discovery-loop-runbook fire163 (2026-07-20): neuroaimarena companion guides
+  '/guides/how-to-play-neuro-aim-arena.html',
+  '/guides/pt/how-to-play-neuro-aim-arena.html',
+  '/guides/es/how-to-play-neuro-aim-arena.html',
+  '/guides/vi/how-to-play-neuro-aim-arena.html',
+  '/guides/id/how-to-play-neuro-aim-arena.html',
+  '/guides/de/how-to-play-neuro-aim-arena.html',
+  '/guides/neuro-aim-arena-when.html',
+  '/guides/pt/neuro-aim-arena-when.html',
+  '/guides/es/neuro-aim-arena-when.html',
+  '/guides/vi/neuro-aim-arena-when.html',
+  '/guides/id/neuro-aim-arena-when.html',
+  '/guides/de/neuro-aim-arena-when.html',
+  '/guides/neuro-aim-arena-vs-alternatives.html',
+  '/guides/pt/neuro-aim-arena-vs-alternatives.html',
+  '/guides/es/neuro-aim-arena-vs-alternatives.html',
+  '/guides/vi/neuro-aim-arena-vs-alternatives.html',
+  '/guides/id/neuro-aim-arena-vs-alternatives.html',
+  '/guides/de/neuro-aim-arena-vs-alternatives.html',
+  // game-discovery-loop-runbook fire164 (2026-07-20): flexboxfroggy companion guides
+  '/guides/how-to-play-flexbox-froggy.html',
+  '/guides/pt/how-to-play-flexbox-froggy.html',
+  '/guides/es/how-to-play-flexbox-froggy.html',
+  '/guides/vi/how-to-play-flexbox-froggy.html',
+  '/guides/id/how-to-play-flexbox-froggy.html',
+  '/guides/de/how-to-play-flexbox-froggy.html',
+  '/guides/flexbox-froggy-when.html',
+  '/guides/pt/flexbox-froggy-when.html',
+  '/guides/es/flexbox-froggy-when.html',
+  '/guides/vi/flexbox-froggy-when.html',
+  '/guides/id/flexbox-froggy-when.html',
+  '/guides/de/flexbox-froggy-when.html',
+  '/guides/flexbox-froggy-vs-alternatives.html',
+  '/guides/pt/flexbox-froggy-vs-alternatives.html',
+  '/guides/es/flexbox-froggy-vs-alternatives.html',
+  '/guides/vi/flexbox-froggy-vs-alternatives.html',
+  '/guides/id/flexbox-froggy-vs-alternatives.html',
+  '/guides/de/flexbox-froggy-vs-alternatives.html',
+  // game-discovery-loop-runbook fire165 (2026-07-21): gridgarden companion guides
+  '/guides/how-to-play-grid-garden.html',
+  '/guides/pt/how-to-play-grid-garden.html',
+  '/guides/es/how-to-play-grid-garden.html',
+  '/guides/vi/how-to-play-grid-garden.html',
+  '/guides/id/how-to-play-grid-garden.html',
+  '/guides/de/how-to-play-grid-garden.html',
+  '/guides/grid-garden-when.html',
+  '/guides/pt/grid-garden-when.html',
+  '/guides/es/grid-garden-when.html',
+  '/guides/vi/grid-garden-when.html',
+  '/guides/id/grid-garden-when.html',
+  '/guides/de/grid-garden-when.html',
+  '/guides/grid-garden-vs-alternatives.html',
+  '/guides/pt/grid-garden-vs-alternatives.html',
+  '/guides/es/grid-garden-vs-alternatives.html',
+  '/guides/vi/grid-garden-vs-alternatives.html',
+  '/guides/id/grid-garden-vs-alternatives.html',
+  '/guides/de/grid-garden-vs-alternatives.html',
   // game-discovery-loop-runbook fire140 (2026-07-18): seasonal-witchcat companion guides
   '/guides/how-to-play-seasonal-witchcat.html',
   '/guides/seasonal-witchcat-when.html',
@@ -8189,6 +8515,8 @@ export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
   '/markdown-to-html.html': '/developer-tools/markdown-to-html.html',
+  '/html-to-markdown.html': '/developer-tools/html-to-markdown.html',
+  '/wcag-contrast-checker.html': '/developer-tools/wcag-contrast-checker.html',
   // Hub directory-form safety redirects (added 2026-05-11). Search engines
   // and external links may guess `/cluster-tools/` from the clustered tool
   // URLs (`/cluster-tools/<slug>.html`). Without these entries GitHub Pages
@@ -8688,6 +9016,8 @@ export const ALIAS_ROUTES = {
   '/ankylosaurus.html': '/dinosaur-3d/ankylosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire15 (2026-07-16): flat-slug alias for parasaurolophus.
   '/parasaurolophus.html': '/dinosaur-3d/parasaurolophus.html',
+  // dinosaur-3d-discovery-loop-runbook fire238 (2026-07-20): flat-slug alias for lambeosaurus.
+  '/lambeosaurus.html': '/dinosaur-3d/lambeosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire9 (2026-07-16): flat-slug alias for pteranodon.
   '/pteranodon.html': '/dinosaur-3d/pteranodon.html',
   // dinosaur-3d-discovery-loop-runbook (2026-07-16): flat-slug alias for allosaurus.
@@ -8825,6 +9155,10 @@ export const ALIAS_ROUTES = {
   '/kentrosaurus.html': '/dinosaur-3d/kentrosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire226 (2026-07-20): flat-slug alias for becklespinax.
   '/becklespinax.html': '/dinosaur-3d/becklespinax.html',
+  // dinosaur-3d-discovery-loop-runbook fire (2026-07-20): flat-slug alias for oviraptor.
+  '/oviraptor.html': '/dinosaur-3d/oviraptor.html',
+  // dinosaur-3d-discovery-loop-runbook fire (2026-07-21): flat-slug alias for pinacosaurus.
+  '/pinacosaurus.html': '/dinosaur-3d/pinacosaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -9072,6 +9406,9 @@ export const ALIAS_ROUTES = {
   '/bangbang-artillery.html': '/games/bangbang-artillery.html',
   '/rock-paper-neural.html': '/games/rock-paper-neural.html',
   '/iso-city-sandbox.html': '/games/iso-city-sandbox.html',
+  '/neuro-aim-arena.html': '/games/neuro-aim-arena.html',
+  '/flexbox-froggy.html': '/games/flexbox-froggy.html',
+  '/grid-garden.html': '/games/grid-garden.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -9527,6 +9864,7 @@ export const JSP_BY_ROUTE = {
   '/news/pt/mp3-patents-expired-2017.html': 'news/pt/mp3-patents-expired-2017.jsp',
   '/news/vi/mp3-patents-expired-2017.html': 'news/vi/mp3-patents-expired-2017.jsp',
   '/news/id/mp3-patents-expired-2017.html': 'news/id/mp3-patents-expired-2017.jsp',
+  '/news/de/mp3-patents-expired-2017.html': 'news/de/mp3-patents-expired-2017.jsp',
   '/news/es/mp3-patents-expired-2017.html': 'news/es/mp3-patents-expired-2017.jsp',
   '/news/7-zip-rar5-motw-bypass.html': 'news/7-zip-rar5-motw-bypass.jsp',
   '/news/pt/7-zip-rar5-motw-bypass.html': 'news/pt/7-zip-rar5-motw-bypass.jsp',
@@ -12117,6 +12455,10 @@ export const JSP_BY_ROUTE = {
   // reused generically for a bipedal-capable hadrosaur, `feats.crest` long tube head crest, additively
   // tagged as its own clickable 'crest' part with a dedicated fact).
   '/dinosaur-3d/parasaurolophus.html': 'dinosaur/parasaurolophus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire238 (2026-07-20): lambeosaurus (theropod archetype,
+  // reuses the existing feats.crest branch shared with parasaurolophus/saurolophus; hollow
+  // hatchet-shaped crest, third distinct crest shape among this site's hadrosaurs).
+  '/dinosaur-3d/lambeosaurus.html': 'dinosaur/lambeosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire9 (2026-07-16): pteranodon (pterosaur + wings/crest).
   '/dinosaur-3d/pteranodon.html': 'dinosaur/pteranodon.jsp',
   // dinosaur-3d-discovery-loop-runbook (2026-07-16): allosaurus (theropod archetype, reuses
@@ -12310,6 +12652,18 @@ export const JSP_BY_ROUTE = {
   // Acrocanthosaurus); seth the yutyrannus CC-BY-SA 4.0 via Printables,
   // vendored to ftol-vm-assets commit 90a2fa7.
   '/dinosaur-3d/becklespinax.html': 'dinosaur/becklespinax.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire (2026-07-20): Oviraptor viewer -
+  // raptor archetype with teeth:'beak' (toothless) and a new additive
+  // feats.noSickle flag (skips the raptor-archetype's enlarged sickle toe
+  // claw, which Oviraptor's oviraptorid anatomy did not have); model-first
+  // via ftol-vm-assets manifest entry "oviraptor" (CC0, Model Magic).
+  '/dinosaur-3d/oviraptor.html': 'dinosaur/oviraptor.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire (2026-07-21): Pinacosaurus viewer -
+  // ankylosaur archetype (same code path already shipped for ankylosaurus) -
+  // distinguishing feature is the mysterious multi-holed nostril anatomy +
+  // 20+ mostly-juvenile skeletons (herd evidence); model-first via
+  // ftol-vm-assets manifest entry "pinacosaurus" (already vendored).
+  '/dinosaur-3d/pinacosaurus.html': 'dinosaur/pinacosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -14055,6 +14409,9 @@ export const JSP_BY_ROUTE = {
   '/games/rock-paper-neural.html': 'games/rock-paper-neural.jsp',
   '/games/egg-time-rewind.html': 'games/egg-time-rewind.jsp',
   '/games/iso-city-sandbox.html': 'games/iso-city-sandbox.jsp',
+  '/games/neuro-aim-arena.html': 'games/neuro-aim-arena.jsp',
+  '/games/flexbox-froggy.html': 'games/flexbox-froggy.jsp',
+  '/games/grid-garden.html': 'games/grid-garden.jsp',
   '/games/seasonal-witchcat.html': 'games/seasonal-witchcat.jsp',
   '/games/desk-cat-coder.html': 'games/desk-cat-coder.jsp',
   '/games/boing-cat-platformer.html': 'games/boing-cat-platformer.jsp',
@@ -14129,6 +14486,43 @@ export const JSP_BY_ROUTE = {
   '/space-3d/sidereal-vs-solar-day.html': 'space/sidereal-vs-solar-day.jsp',
   '/space-3d/aurora.html': 'space/aurora.jsp',
   '/space-3d/mars-terrain.html': 'space/mars-terrain.jsp',
+  '/space-3d/lunar-nodes-eclipse-seasons.html': 'space/lunar-nodes-eclipse-seasons.jsp',
+  '/space-3d/venus-phases-galileo.html': 'space/venus-phases-galileo.jsp',
+  '/space-3d/shepherd-moons.html': 'space/shepherd-moons.jsp',
+  '/space-3d/comet-tail-types.html': 'space/comet-tail-types.jsp',
+  '/space-3d/protoplanetary-disk.html': 'space/protoplanetary-disk.jsp',
+  '/space-3d/occultation-lunar.html': 'space/occultation-lunar.jsp',
+  '/space-3d/van-allen-belts.html': 'space/van-allen-belts.jsp',
+  '/space-3d/circumbinary-planet.html': 'space/circumbinary-planet.jsp',
+  '/space-3d/debris-disk.html': 'space/debris-disk.jsp',
+  '/space-3d/brown-dwarf.html': 'space/brown-dwarf.jsp',
+  '/space-3d/kilonova.html': 'space/kilonova.jsp',
+  '/space-3d/carrington-event.html': 'space/carrington-event.jsp',
+  '/space-3d/trappist-1.html': 'space/trappist-1.jsp',
+  '/space-3d/tabbys-star.html': 'space/tabbys-star.jsp',
+  '/space-3d/oumuamua.html': 'space/oumuamua.jsp',
+  '/space-3d/betelgeuse-dimming.html': 'space/betelgeuse-dimming.jsp',
+  '/space-3d/pillars-of-creation.html': 'space/pillars-of-creation.jsp',
+  '/space-3d/pale-blue-dot.html': 'space/pale-blue-dot.jsp',
+  '/space-3d/wow-signal.html': 'space/wow-signal.jsp',
+  '/space-3d/chelyabinsk-meteor.html': 'space/chelyabinsk-meteor.jsp',
+  '/space-3d/enceladus-geysers.html': 'space/enceladus-geysers.jsp',
+  '/space-3d/phobos-stickney.html': 'space/phobos-stickney.jsp',
+  '/space-3d/vesta-rheasilvia.html': 'space/vesta-rheasilvia.jsp',
+  '/space-3d/miranda-verona-rupes.html': 'space/miranda-verona-rupes.jsp',
+  '/space-3d/charon-serenity-chasma.html': 'space/charon-serenity-chasma.jsp',
+  '/space-3d/iapetus-equatorial-ridge.html': 'space/iapetus-equatorial-ridge.jsp',
+  '/space-3d/mimas-herschel.html': 'space/mimas-herschel.jsp',
+  '/space-3d/hyperion-sponge.html': 'space/hyperion-sponge.jsp',
+  '/space-3d/wormhole.html': 'space/wormhole.jsp',
+  '/space-3d/satellite-orbit-classes.html': 'space/satellite-orbit-classes.jsp',
+  '/space-3d/sagittarius-a-star.html': 'space/sagittarius-a-star.jsp',
+  '/space-3d/axial-tilt-comparison.html': 'space/axial-tilt-comparison.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire (2026-07-20): fixed a pre-existing prod-only
+  // gap (32 space-3d cluster members registered in seo-clusters.mjs but missing from
+  // JSP_BY_ROUTE, unrelated to this fire's oviraptor ship - found blocking via the
+  // cluster-seed wiring gate when this fire touched seo-clusters.mjs). Mirrored verbatim
+  // from freetoolonline-web-test, which already has all 32 routes fully built + shipped.
   '/space-3d/redshift-doppler.html': 'space/redshift-doppler.jsp',
   '/space-3d/hohmann-transfer.html': 'space/hohmann-transfer.jsp',
   '/space-3d/binary-star-system.html': 'space/binary-star-system.jsp',
@@ -16739,6 +17133,44 @@ export const JSP_BY_ROUTE = {
   '/guides/de/video-merger-vs-alternatives.html': 'guide/de/video-merger-vs-alternatives.jsp',
   '/developer-tools/json-to-typescript.html': 'utility/json-to-typescript.jsp',
   '/developer-tools/markdown-to-html.html': 'utility/markdown-to-html.jsp',
+  '/developer-tools/html-to-markdown.html': 'utility/html-to-markdown.jsp',
+  '/guides/pt/color-contrast-checker-wcag-vs-alternatives.html': 'guide/pt/color-contrast-checker-wcag-vs-alternatives.jsp',
+  '/guides/es/color-contrast-checker-wcag-vs-alternatives.html': 'guide/es/color-contrast-checker-wcag-vs-alternatives.jsp',
+  '/guides/vi/color-contrast-checker-wcag-vs-alternatives.html': 'guide/vi/color-contrast-checker-wcag-vs-alternatives.jsp',
+  '/guides/id/color-contrast-checker-wcag-vs-alternatives.html': 'guide/id/color-contrast-checker-wcag-vs-alternatives.jsp',
+  '/guides/de/color-contrast-checker-wcag-vs-alternatives.html': 'guide/de/color-contrast-checker-wcag-vs-alternatives.jsp',
+  '/guides/color-contrast-checker-wcag-vs-alternatives.html': 'guide/color-contrast-checker-wcag-vs-alternatives.jsp',
+  '/guides/pt/color-contrast-checker-wcag-step-by-step.html': 'guide/pt/color-contrast-checker-wcag-step-by-step.jsp',
+  '/guides/es/color-contrast-checker-wcag-step-by-step.html': 'guide/es/color-contrast-checker-wcag-step-by-step.jsp',
+  '/guides/vi/color-contrast-checker-wcag-step-by-step.html': 'guide/vi/color-contrast-checker-wcag-step-by-step.jsp',
+  '/guides/id/color-contrast-checker-wcag-step-by-step.html': 'guide/id/color-contrast-checker-wcag-step-by-step.jsp',
+  '/guides/de/color-contrast-checker-wcag-step-by-step.html': 'guide/de/color-contrast-checker-wcag-step-by-step.jsp',
+  '/guides/color-contrast-checker-wcag-step-by-step.html': 'guide/color-contrast-checker-wcag-step-by-step.jsp',
+  '/guides/pt/color-contrast-checker-wcag-when.html': 'guide/pt/color-contrast-checker-wcag-when.jsp',
+  '/guides/es/color-contrast-checker-wcag-when.html': 'guide/es/color-contrast-checker-wcag-when.jsp',
+  '/guides/vi/color-contrast-checker-wcag-when.html': 'guide/vi/color-contrast-checker-wcag-when.jsp',
+  '/guides/id/color-contrast-checker-wcag-when.html': 'guide/id/color-contrast-checker-wcag-when.jsp',
+  '/guides/de/color-contrast-checker-wcag-when.html': 'guide/de/color-contrast-checker-wcag-when.jsp',
+  '/guides/color-contrast-checker-wcag-when.html': 'guide/color-contrast-checker-wcag-when.jsp',
+  '/developer-tools/wcag-contrast-checker.html': 'utility/wcag-contrast-checker.jsp',
+  '/guides/de/html-markdown-converter-vs-alternatives.html': 'guide/de/html-markdown-converter-vs-alternatives.jsp',
+  '/guides/id/html-markdown-converter-vs-alternatives.html': 'guide/id/html-markdown-converter-vs-alternatives.jsp',
+  '/guides/vi/html-markdown-converter-vs-alternatives.html': 'guide/vi/html-markdown-converter-vs-alternatives.jsp',
+  '/guides/es/html-markdown-converter-vs-alternatives.html': 'guide/es/html-markdown-converter-vs-alternatives.jsp',
+  '/guides/pt/html-markdown-converter-vs-alternatives.html': 'guide/pt/html-markdown-converter-vs-alternatives.jsp',
+  '/guides/html-markdown-converter-vs-alternatives.html': 'guide/html-markdown-converter-vs-alternatives.jsp',
+  '/guides/de/html-markdown-converter-step-by-step.html': 'guide/de/html-markdown-converter-step-by-step.jsp',
+  '/guides/id/html-markdown-converter-step-by-step.html': 'guide/id/html-markdown-converter-step-by-step.jsp',
+  '/guides/vi/html-markdown-converter-step-by-step.html': 'guide/vi/html-markdown-converter-step-by-step.jsp',
+  '/guides/es/html-markdown-converter-step-by-step.html': 'guide/es/html-markdown-converter-step-by-step.jsp',
+  '/guides/pt/html-markdown-converter-step-by-step.html': 'guide/pt/html-markdown-converter-step-by-step.jsp',
+  '/guides/html-markdown-converter-step-by-step.html': 'guide/html-markdown-converter-step-by-step.jsp',
+  '/guides/de/html-markdown-converter-when.html': 'guide/de/html-markdown-converter-when.jsp',
+  '/guides/id/html-markdown-converter-when.html': 'guide/id/html-markdown-converter-when.jsp',
+  '/guides/vi/html-markdown-converter-when.html': 'guide/vi/html-markdown-converter-when.jsp',
+  '/guides/es/html-markdown-converter-when.html': 'guide/es/html-markdown-converter-when.jsp',
+  '/guides/pt/html-markdown-converter-when.html': 'guide/pt/html-markdown-converter-when.jsp',
+  '/guides/html-markdown-converter-when.html': 'guide/html-markdown-converter-when.jsp',
   '/guides/markdown-html-previewer-when.html': 'guide/markdown-html-previewer-when.jsp',
   '/guides/markdown-html-previewer-step-by-step.html': 'guide/markdown-html-previewer-step-by-step.jsp',
   '/guides/markdown-html-previewer-vs-alternatives.html': 'guide/markdown-html-previewer-vs-alternatives.jsp',
@@ -16816,7 +17248,64 @@ export const JSP_BY_ROUTE = {
   '/guides/es/iso-city-sandbox-vs-alternatives.html': 'guide/es/iso-city-sandbox-vs-alternatives.jsp',
   '/guides/vi/iso-city-sandbox-vs-alternatives.html': 'guide/vi/iso-city-sandbox-vs-alternatives.jsp',
   '/guides/id/iso-city-sandbox-vs-alternatives.html': 'guide/id/iso-city-sandbox-vs-alternatives.jsp',
-  '/guides/de/iso-city-sandbox-vs-alternatives.html': 'guide/de/iso-city-sandbox-vs-alternatives.jsp',  '/guides/how-to-view-hybodus-in-3d.html': 'guide/how-to-view-hybodus-in-3d.jsp',
+  '/guides/de/iso-city-sandbox-vs-alternatives.html': 'guide/de/iso-city-sandbox-vs-alternatives.jsp',
+  // game-discovery-loop-runbook fire163 (2026-07-20): neuroaimarena companion guides
+  '/guides/how-to-play-neuro-aim-arena.html': 'guide/how-to-play-neuro-aim-arena.jsp',
+  '/guides/pt/how-to-play-neuro-aim-arena.html': 'guide/pt/how-to-play-neuro-aim-arena.jsp',
+  '/guides/es/how-to-play-neuro-aim-arena.html': 'guide/es/how-to-play-neuro-aim-arena.jsp',
+  '/guides/vi/how-to-play-neuro-aim-arena.html': 'guide/vi/how-to-play-neuro-aim-arena.jsp',
+  '/guides/id/how-to-play-neuro-aim-arena.html': 'guide/id/how-to-play-neuro-aim-arena.jsp',
+  '/guides/de/how-to-play-neuro-aim-arena.html': 'guide/de/how-to-play-neuro-aim-arena.jsp',
+  '/guides/neuro-aim-arena-when.html': 'guide/neuro-aim-arena-when.jsp',
+  '/guides/pt/neuro-aim-arena-when.html': 'guide/pt/neuro-aim-arena-when.jsp',
+  '/guides/es/neuro-aim-arena-when.html': 'guide/es/neuro-aim-arena-when.jsp',
+  '/guides/vi/neuro-aim-arena-when.html': 'guide/vi/neuro-aim-arena-when.jsp',
+  '/guides/id/neuro-aim-arena-when.html': 'guide/id/neuro-aim-arena-when.jsp',
+  '/guides/de/neuro-aim-arena-when.html': 'guide/de/neuro-aim-arena-when.jsp',
+  '/guides/neuro-aim-arena-vs-alternatives.html': 'guide/neuro-aim-arena-vs-alternatives.jsp',
+  '/guides/pt/neuro-aim-arena-vs-alternatives.html': 'guide/pt/neuro-aim-arena-vs-alternatives.jsp',
+  '/guides/es/neuro-aim-arena-vs-alternatives.html': 'guide/es/neuro-aim-arena-vs-alternatives.jsp',
+  '/guides/vi/neuro-aim-arena-vs-alternatives.html': 'guide/vi/neuro-aim-arena-vs-alternatives.jsp',
+  '/guides/id/neuro-aim-arena-vs-alternatives.html': 'guide/id/neuro-aim-arena-vs-alternatives.jsp',
+  '/guides/de/neuro-aim-arena-vs-alternatives.html': 'guide/de/neuro-aim-arena-vs-alternatives.jsp',
+  // game-discovery-loop-runbook fire164 (2026-07-20): flexboxfroggy companion guides
+  '/guides/how-to-play-flexbox-froggy.html': 'guide/how-to-play-flexbox-froggy.jsp',
+  '/guides/pt/how-to-play-flexbox-froggy.html': 'guide/pt/how-to-play-flexbox-froggy.jsp',
+  '/guides/es/how-to-play-flexbox-froggy.html': 'guide/es/how-to-play-flexbox-froggy.jsp',
+  '/guides/vi/how-to-play-flexbox-froggy.html': 'guide/vi/how-to-play-flexbox-froggy.jsp',
+  '/guides/id/how-to-play-flexbox-froggy.html': 'guide/id/how-to-play-flexbox-froggy.jsp',
+  '/guides/de/how-to-play-flexbox-froggy.html': 'guide/de/how-to-play-flexbox-froggy.jsp',
+  '/guides/flexbox-froggy-when.html': 'guide/flexbox-froggy-when.jsp',
+  '/guides/pt/flexbox-froggy-when.html': 'guide/pt/flexbox-froggy-when.jsp',
+  '/guides/es/flexbox-froggy-when.html': 'guide/es/flexbox-froggy-when.jsp',
+  '/guides/vi/flexbox-froggy-when.html': 'guide/vi/flexbox-froggy-when.jsp',
+  '/guides/id/flexbox-froggy-when.html': 'guide/id/flexbox-froggy-when.jsp',
+  '/guides/de/flexbox-froggy-when.html': 'guide/de/flexbox-froggy-when.jsp',
+  '/guides/flexbox-froggy-vs-alternatives.html': 'guide/flexbox-froggy-vs-alternatives.jsp',
+  '/guides/pt/flexbox-froggy-vs-alternatives.html': 'guide/pt/flexbox-froggy-vs-alternatives.jsp',
+  '/guides/es/flexbox-froggy-vs-alternatives.html': 'guide/es/flexbox-froggy-vs-alternatives.jsp',
+  '/guides/vi/flexbox-froggy-vs-alternatives.html': 'guide/vi/flexbox-froggy-vs-alternatives.jsp',
+  '/guides/id/flexbox-froggy-vs-alternatives.html': 'guide/id/flexbox-froggy-vs-alternatives.jsp',
+  '/guides/de/flexbox-froggy-vs-alternatives.html': 'guide/de/flexbox-froggy-vs-alternatives.jsp',
+  // game-discovery-loop-runbook fire165 (2026-07-21): gridgarden companion guides
+  '/guides/how-to-play-grid-garden.html': 'guide/how-to-play-grid-garden.jsp',
+  '/guides/pt/how-to-play-grid-garden.html': 'guide/pt/how-to-play-grid-garden.jsp',
+  '/guides/es/how-to-play-grid-garden.html': 'guide/es/how-to-play-grid-garden.jsp',
+  '/guides/vi/how-to-play-grid-garden.html': 'guide/vi/how-to-play-grid-garden.jsp',
+  '/guides/id/how-to-play-grid-garden.html': 'guide/id/how-to-play-grid-garden.jsp',
+  '/guides/de/how-to-play-grid-garden.html': 'guide/de/how-to-play-grid-garden.jsp',
+  '/guides/grid-garden-when.html': 'guide/grid-garden-when.jsp',
+  '/guides/pt/grid-garden-when.html': 'guide/pt/grid-garden-when.jsp',
+  '/guides/es/grid-garden-when.html': 'guide/es/grid-garden-when.jsp',
+  '/guides/vi/grid-garden-when.html': 'guide/vi/grid-garden-when.jsp',
+  '/guides/id/grid-garden-when.html': 'guide/id/grid-garden-when.jsp',
+  '/guides/de/grid-garden-when.html': 'guide/de/grid-garden-when.jsp',
+  '/guides/grid-garden-vs-alternatives.html': 'guide/grid-garden-vs-alternatives.jsp',
+  '/guides/pt/grid-garden-vs-alternatives.html': 'guide/pt/grid-garden-vs-alternatives.jsp',
+  '/guides/es/grid-garden-vs-alternatives.html': 'guide/es/grid-garden-vs-alternatives.jsp',
+  '/guides/vi/grid-garden-vs-alternatives.html': 'guide/vi/grid-garden-vs-alternatives.jsp',
+  '/guides/id/grid-garden-vs-alternatives.html': 'guide/id/grid-garden-vs-alternatives.jsp',
+  '/guides/de/grid-garden-vs-alternatives.html': 'guide/de/grid-garden-vs-alternatives.jsp',  '/guides/how-to-view-hybodus-in-3d.html': 'guide/how-to-view-hybodus-in-3d.jsp',
   '/guides/pt/how-to-view-hybodus-in-3d.html': 'guide/pt/how-to-view-hybodus-in-3d.jsp',
   '/guides/es/how-to-view-hybodus-in-3d.html': 'guide/es/how-to-view-hybodus-in-3d.jsp',
   '/guides/vi/how-to-view-hybodus-in-3d.html': 'guide/vi/how-to-view-hybodus-in-3d.jsp',
