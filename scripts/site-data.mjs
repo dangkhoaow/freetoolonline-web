@@ -5412,6 +5412,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/how-to-view-kentrosaurus-in-3d.html',
   '/guides/id/how-to-view-kentrosaurus-in-3d.html',
   '/guides/de/how-to-view-kentrosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire218 (2026-07-20): kentrosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/kentrosaurus-size-comparison.html',
+  '/guides/pt/kentrosaurus-size-comparison.html',
+  '/guides/es/kentrosaurus-size-comparison.html',
+  '/guides/vi/kentrosaurus-size-comparison.html',
+  '/guides/id/kentrosaurus-size-comparison.html',
+  '/guides/de/kentrosaurus-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
