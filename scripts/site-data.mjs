@@ -5274,6 +5274,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/how-to-view-pentaceratops-in-3d.html',
   '/guides/id/how-to-view-pentaceratops-in-3d.html',
   '/guides/de/how-to-view-pentaceratops-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire203 (2026-07-20): pentaceratops-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/pentaceratops-size-comparison.html',
+  '/guides/pt/pentaceratops-size-comparison.html',
+  '/guides/es/pentaceratops-size-comparison.html',
+  '/guides/vi/pentaceratops-size-comparison.html',
+  '/guides/id/pentaceratops-size-comparison.html',
+  '/guides/de/pentaceratops-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
