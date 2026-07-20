@@ -5194,6 +5194,30 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/mamenchisaurus-3d-viewer-vs-ar-apps.html',
   '/guides/id/mamenchisaurus-3d-viewer-vs-ar-apps.html',
   '/guides/de/mamenchisaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire193 (2026-07-20): how-to-view-compsognathus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-compsognathus-in-3d.html',
+  '/guides/pt/how-to-view-compsognathus-in-3d.html',
+  '/guides/es/how-to-view-compsognathus-in-3d.html',
+  '/guides/vi/how-to-view-compsognathus-in-3d.html',
+  '/guides/id/how-to-view-compsognathus-in-3d.html',
+  '/guides/de/how-to-view-compsognathus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire194 (2026-07-20): compsognathus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/compsognathus-size-comparison.html',
+  '/guides/pt/compsognathus-size-comparison.html',
+  '/guides/es/compsognathus-size-comparison.html',
+  '/guides/vi/compsognathus-size-comparison.html',
+  '/guides/id/compsognathus-size-comparison.html',
+  '/guides/de/compsognathus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire195 (2026-07-20): compsognathus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/compsognathus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/compsognathus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/compsognathus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/compsognathus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/compsognathus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/compsognathus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -8805,6 +8829,9 @@ export const ALIAS_ROUTES = {
   '/json-to-typescript.html': '/developer-tools/json-to-typescript.html',
   '/acrocanthosaurus.html': '/dinosaur-3d/acrocanthosaurus.html',
   '/chasmosaurus.html': '/dinosaur-3d/chasmosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire150 (2026-07-20): flat-slug alias for abelisaurus.
+  '/abelisaurus.html': '/dinosaur-3d/abelisaurus.html',
+
   '/bangbang-artillery.html': '/games/bangbang-artillery.html',
 };
 
@@ -12014,6 +12041,10 @@ export const JSP_BY_ROUTE = {
   // dinosaur-3d-discovery-loop-runbook fire149 (2026-07-20): chasmosaurus (ceratopsian archetype,
   // feats.frill + horns; Model Magic CC0 Printables 1766773, vendored ftol-vm-assets 3a474c8).
   '/dinosaur-3d/chasmosaurus.html': 'dinosaur/chasmosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire150 (2026-07-20): abelisaurus (theropod archetype,
+  // feats.tinyArms; skull-only honesty; Model Magic CC0 Printables 1767713, vendored ftol-vm-assets 07ed1d2).
+  '/dinosaur-3d/abelisaurus.html': 'dinosaur/abelisaurus.jsp',
+
   '/dinosaur-3d/albertosaurus.html': 'dinosaur/albertosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire145 (2026-07-20): Sarcosuchus viewer -
   // new 'crocodilian' sprawled-gait archetype (Printables seth the yutyrannus,
