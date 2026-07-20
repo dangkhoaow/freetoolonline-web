@@ -5588,6 +5588,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/becklespinax-size-comparison.html',
   '/guides/id/becklespinax-size-comparison.html',
   '/guides/de/becklespinax-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire240 (2026-07-20): becklespinax-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/becklespinax-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/becklespinax-3d-viewer-vs-ar-apps.html',
+  '/guides/es/becklespinax-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/becklespinax-3d-viewer-vs-ar-apps.html',
+  '/guides/id/becklespinax-3d-viewer-vs-ar-apps.html',
+  '/guides/de/becklespinax-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
