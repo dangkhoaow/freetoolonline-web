@@ -5698,6 +5698,30 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/hybodus-3d-viewer-vs-ar-apps.html',
   '/guides/id/hybodus-3d-viewer-vs-ar-apps.html',
   '/guides/de/hybodus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire184 (2026-07-20): how-to-view-quetzalcoatlus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-quetzalcoatlus-in-3d.html',
+  '/guides/pt/how-to-view-quetzalcoatlus-in-3d.html',
+  '/guides/es/how-to-view-quetzalcoatlus-in-3d.html',
+  '/guides/vi/how-to-view-quetzalcoatlus-in-3d.html',
+  '/guides/id/how-to-view-quetzalcoatlus-in-3d.html',
+  '/guides/de/how-to-view-quetzalcoatlus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire185 (2026-07-20): quetzalcoatlus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/quetzalcoatlus-size-comparison.html',
+  '/guides/pt/quetzalcoatlus-size-comparison.html',
+  '/guides/es/quetzalcoatlus-size-comparison.html',
+  '/guides/vi/quetzalcoatlus-size-comparison.html',
+  '/guides/id/quetzalcoatlus-size-comparison.html',
+  '/guides/de/quetzalcoatlus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire186 (2026-07-20): quetzalcoatlus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -22300,6 +22324,30 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/hybodus-3d-viewer-vs-ar-apps.html',
   '/guides/id/hybodus-3d-viewer-vs-ar-apps.html',
   '/guides/de/hybodus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire184 (2026-07-20): how-to-view-quetzalcoatlus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-quetzalcoatlus-in-3d.html',
+  '/guides/pt/how-to-view-quetzalcoatlus-in-3d.html',
+  '/guides/es/how-to-view-quetzalcoatlus-in-3d.html',
+  '/guides/vi/how-to-view-quetzalcoatlus-in-3d.html',
+  '/guides/id/how-to-view-quetzalcoatlus-in-3d.html',
+  '/guides/de/how-to-view-quetzalcoatlus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire185 (2026-07-20): quetzalcoatlus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/quetzalcoatlus-size-comparison.html',
+  '/guides/pt/quetzalcoatlus-size-comparison.html',
+  '/guides/es/quetzalcoatlus-size-comparison.html',
+  '/guides/vi/quetzalcoatlus-size-comparison.html',
+  '/guides/id/quetzalcoatlus-size-comparison.html',
+  '/guides/de/quetzalcoatlus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire186 (2026-07-20): quetzalcoatlus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
