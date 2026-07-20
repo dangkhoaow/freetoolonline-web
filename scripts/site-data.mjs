@@ -5258,6 +5258,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/albertosaurus-size-comparison.html',
   '/guides/id/albertosaurus-size-comparison.html',
   '/guides/de/albertosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire201 (2026-07-20): albertosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/albertosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/albertosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/albertosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/albertosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/albertosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/albertosaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
