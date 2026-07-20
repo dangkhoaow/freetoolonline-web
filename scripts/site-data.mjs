@@ -5314,6 +5314,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/deinocheirus-3d-viewer-vs-ar-apps.html',
   '/guides/id/deinocheirus-3d-viewer-vs-ar-apps.html',
   '/guides/de/deinocheirus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire208 (2026-07-20): how-to-view-barosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-barosaurus-in-3d.html',
+  '/guides/pt/how-to-view-barosaurus-in-3d.html',
+  '/guides/es/how-to-view-barosaurus-in-3d.html',
+  '/guides/vi/how-to-view-barosaurus-in-3d.html',
+  '/guides/id/how-to-view-barosaurus-in-3d.html',
+  '/guides/de/how-to-view-barosaurus-in-3d.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
