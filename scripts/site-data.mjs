@@ -5738,6 +5738,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/tarbosaurus-size-comparison.html',
   '/guides/id/tarbosaurus-size-comparison.html',
   '/guides/de/tarbosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire189 (2026-07-20): tarbosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/tarbosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/tarbosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/tarbosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/tarbosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/tarbosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/tarbosaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -7490,6 +7498,26 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/googol-stopping-game-when.html',
   '/guides/de/googol-stopping-game-vs-alternatives.html',
 
+  // game-discovery-loop-runbook fire159 (2026-07-20): bangbangartillery companion guides
+  '/guides/how-to-play-bangbang-artillery.html',
+  '/guides/bangbang-artillery-when.html',
+  '/guides/bangbang-artillery-vs-alternatives.html',
+  '/guides/pt/how-to-play-bangbang-artillery.html',
+  '/guides/pt/bangbang-artillery-when.html',
+  '/guides/pt/bangbang-artillery-vs-alternatives.html',
+  '/guides/es/how-to-play-bangbang-artillery.html',
+  '/guides/es/bangbang-artillery-when.html',
+  '/guides/es/bangbang-artillery-vs-alternatives.html',
+  '/guides/vi/how-to-play-bangbang-artillery.html',
+  '/guides/vi/bangbang-artillery-when.html',
+  '/guides/vi/bangbang-artillery-vs-alternatives.html',
+  '/guides/id/how-to-play-bangbang-artillery.html',
+  '/guides/id/bangbang-artillery-when.html',
+  '/guides/id/bangbang-artillery-vs-alternatives.html',
+  '/guides/de/how-to-play-bangbang-artillery.html',
+  '/guides/de/bangbang-artillery-when.html',
+  '/guides/de/bangbang-artillery-vs-alternatives.html',
+
   // game-discovery-loop-runbook fire140 (2026-07-18): seasonal-witchcat companion guides
   '/guides/how-to-play-seasonal-witchcat.html',
   '/guides/seasonal-witchcat-when.html',
@@ -9098,6 +9126,10 @@ export const ALIAS_ROUTES = {
   '/mamenchisaurus.html': '/dinosaur-3d/mamenchisaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire119: troodon alias.
   '/troodon.html': '/dinosaur-3d/troodon.html',
+  // dinosaur-3d-discovery-loop-runbook fire148 (2026-07-20): flat-slug alias for acrocanthosaurus.
+  '/acrocanthosaurus.html': '/dinosaur-3d/acrocanthosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire149 (2026-07-20): flat-slug alias for chasmosaurus.
+  '/chasmosaurus.html': '/dinosaur-3d/chasmosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire123: albertosaurus alias.
   '/albertosaurus.html': '/dinosaur-3d/albertosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire145: sarcosuchus alias.
@@ -9192,6 +9224,7 @@ export const ALIAS_ROUTES = {
   '/roller-maze-escape.html': '/games/roller-maze-escape.html',
   '/thirteen-case-files.html': '/games/thirteen-case-files.html',
   '/googol-stopping-game.html': '/games/googol-stopping-game.html',
+  '/bangbang-artillery.html': '/games/bangbang-artillery.html',
   '/seasonal-witchcat.html': '/games/seasonal-witchcat.html',
   '/desk-cat-coder.html': '/games/desk-cat-coder.html',
   '/boing-cat-platformer.html': '/games/boing-cat-platformer.html',
@@ -11483,6 +11516,26 @@ export const JSP_BY_ROUTE = {
   '/guides/de/how-to-play-googol-stopping-game.html': 'guide/de/how-to-play-googol-stopping-game.jsp',
   '/guides/de/googol-stopping-game-when.html': 'guide/de/googol-stopping-game-when.jsp',
   '/guides/de/googol-stopping-game-vs-alternatives.html': 'guide/de/googol-stopping-game-vs-alternatives.jsp',
+
+  // game-discovery-loop-runbook fire159 (2026-07-20): bangbangartillery companion guides
+  '/guides/how-to-play-bangbang-artillery.html': 'guide/how-to-play-bangbang-artillery.jsp',
+  '/guides/bangbang-artillery-when.html': 'guide/bangbang-artillery-when.jsp',
+  '/guides/bangbang-artillery-vs-alternatives.html': 'guide/bangbang-artillery-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-bangbang-artillery.html': 'guide/pt/how-to-play-bangbang-artillery.jsp',
+  '/guides/pt/bangbang-artillery-when.html': 'guide/pt/bangbang-artillery-when.jsp',
+  '/guides/pt/bangbang-artillery-vs-alternatives.html': 'guide/pt/bangbang-artillery-vs-alternatives.jsp',
+  '/guides/es/how-to-play-bangbang-artillery.html': 'guide/es/how-to-play-bangbang-artillery.jsp',
+  '/guides/es/bangbang-artillery-when.html': 'guide/es/bangbang-artillery-when.jsp',
+  '/guides/es/bangbang-artillery-vs-alternatives.html': 'guide/es/bangbang-artillery-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-bangbang-artillery.html': 'guide/vi/how-to-play-bangbang-artillery.jsp',
+  '/guides/vi/bangbang-artillery-when.html': 'guide/vi/bangbang-artillery-when.jsp',
+  '/guides/vi/bangbang-artillery-vs-alternatives.html': 'guide/vi/bangbang-artillery-vs-alternatives.jsp',
+  '/guides/id/how-to-play-bangbang-artillery.html': 'guide/id/how-to-play-bangbang-artillery.jsp',
+  '/guides/id/bangbang-artillery-when.html': 'guide/id/bangbang-artillery-when.jsp',
+  '/guides/id/bangbang-artillery-vs-alternatives.html': 'guide/id/bangbang-artillery-vs-alternatives.jsp',
+  '/guides/de/how-to-play-bangbang-artillery.html': 'guide/de/how-to-play-bangbang-artillery.jsp',
+  '/guides/de/bangbang-artillery-when.html': 'guide/de/bangbang-artillery-when.jsp',
+  '/guides/de/bangbang-artillery-vs-alternatives.html': 'guide/de/bangbang-artillery-vs-alternatives.jsp',
 
   // game-discovery-loop-runbook fire140 (2026-07-18): seasonal-witchcat companion guides
   '/guides/how-to-play-seasonal-witchcat.html': 'guide/how-to-play-seasonal-witchcat.jsp',
@@ -22380,6 +22433,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/tarbosaurus-size-comparison.html',
   '/guides/id/tarbosaurus-size-comparison.html',
   '/guides/de/tarbosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire189 (2026-07-20): tarbosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/tarbosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/tarbosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/tarbosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/tarbosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/tarbosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/tarbosaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -29223,6 +29284,9 @@ export const JSP_BY_ROUTE = {
   // dinosaur-3d-discovery-loop-runbook fire148 (2026-07-20): acrocanthosaurus (theropod archetype,
   // feats.dorsalRidge + tinyArms; Model Magic CC0 Printables 1768652, vendored ftol-vm-assets 3a3f32e).
   '/dinosaur-3d/acrocanthosaurus.html': 'dinosaur/acrocanthosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire149 (2026-07-20): chasmosaurus (ceratopsian archetype,
+  // feats.frill + horns; Model Magic CC0 Printables 1766773, vendored ftol-vm-assets 3a474c8).
+  '/dinosaur-3d/chasmosaurus.html': 'dinosaur/chasmosaurus.jsp',
   '/dinosaur-3d/albertosaurus.html': 'dinosaur/albertosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire145 (2026-07-20): Sarcosuchus viewer -
   // new 'crocodilian' sprawled-gait archetype (Printables seth the yutyrannus,
@@ -30978,6 +31042,7 @@ export const JSP_BY_ROUTE = {
   '/games/roller-maze-escape.html': 'games/roller-maze-escape.jsp',
   '/games/thirteen-case-files.html': 'games/thirteen-case-files.jsp',
   '/games/googol-stopping-game.html': 'games/googol-stopping-game.jsp',
+  '/games/bangbang-artillery.html': 'games/bangbang-artillery.jsp',
   '/games/seasonal-witchcat.html': 'games/seasonal-witchcat.jsp',
   '/games/desk-cat-coder.html': 'games/desk-cat-coder.jsp',
   '/games/boing-cat-platformer.html': 'games/boing-cat-platformer.jsp',
