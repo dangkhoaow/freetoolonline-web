@@ -5730,6 +5730,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/how-to-view-tarbosaurus-in-3d.html',
   '/guides/id/how-to-view-tarbosaurus-in-3d.html',
   '/guides/de/how-to-view-tarbosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire188 (2026-07-20): tarbosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/tarbosaurus-size-comparison.html',
+  '/guides/pt/tarbosaurus-size-comparison.html',
+  '/guides/es/tarbosaurus-size-comparison.html',
+  '/guides/vi/tarbosaurus-size-comparison.html',
+  '/guides/id/tarbosaurus-size-comparison.html',
+  '/guides/de/tarbosaurus-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -22364,6 +22372,14 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/how-to-view-tarbosaurus-in-3d.html',
   '/guides/id/how-to-view-tarbosaurus-in-3d.html',
   '/guides/de/how-to-view-tarbosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire188 (2026-07-20): tarbosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/tarbosaurus-size-comparison.html',
+  '/guides/pt/tarbosaurus-size-comparison.html',
+  '/guides/es/tarbosaurus-size-comparison.html',
+  '/guides/vi/tarbosaurus-size-comparison.html',
+  '/guides/id/tarbosaurus-size-comparison.html',
+  '/guides/de/tarbosaurus-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
