@@ -5436,6 +5436,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/how-to-view-postosuchus-in-3d.html',
   '/guides/id/how-to-view-postosuchus-in-3d.html',
   '/guides/de/how-to-view-postosuchus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire221 (2026-07-20): postosuchus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/postosuchus-size-comparison.html',
+  '/guides/pt/postosuchus-size-comparison.html',
+  '/guides/es/postosuchus-size-comparison.html',
+  '/guides/vi/postosuchus-size-comparison.html',
+  '/guides/id/postosuchus-size-comparison.html',
+  '/guides/de/postosuchus-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
