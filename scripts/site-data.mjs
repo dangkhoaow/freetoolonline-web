@@ -5460,6 +5460,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/how-to-view-amargasaurus-in-3d.html',
   '/guides/id/how-to-view-amargasaurus-in-3d.html',
   '/guides/de/how-to-view-amargasaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire224 (2026-07-20): amargasaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/amargasaurus-size-comparison.html',
+  '/guides/pt/amargasaurus-size-comparison.html',
+  '/guides/es/amargasaurus-size-comparison.html',
+  '/guides/vi/amargasaurus-size-comparison.html',
+  '/guides/id/amargasaurus-size-comparison.html',
+  '/guides/de/amargasaurus-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
