@@ -5476,6 +5476,30 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/amargasaurus-3d-viewer-vs-ar-apps.html',
   '/guides/id/amargasaurus-3d-viewer-vs-ar-apps.html',
   '/guides/de/amargasaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire226 (2026-07-20): how-to-view-acrocanthosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-acrocanthosaurus-in-3d.html',
+  '/guides/pt/how-to-view-acrocanthosaurus-in-3d.html',
+  '/guides/es/how-to-view-acrocanthosaurus-in-3d.html',
+  '/guides/vi/how-to-view-acrocanthosaurus-in-3d.html',
+  '/guides/id/how-to-view-acrocanthosaurus-in-3d.html',
+  '/guides/de/how-to-view-acrocanthosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire227 (2026-07-20): acrocanthosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/acrocanthosaurus-size-comparison.html',
+  '/guides/pt/acrocanthosaurus-size-comparison.html',
+  '/guides/es/acrocanthosaurus-size-comparison.html',
+  '/guides/vi/acrocanthosaurus-size-comparison.html',
+  '/guides/id/acrocanthosaurus-size-comparison.html',
+  '/guides/de/acrocanthosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire228 (2026-07-20): acrocanthosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
