@@ -8791,6 +8791,8 @@ export const ALIAS_ROUTES = {
   '/postosuchus.html': '/dinosaur-3d/postosuchus.html',
   // dinosaur-3d-discovery-loop-runbook fire (2026-07-20): kentrosaurus alias.
   '/kentrosaurus.html': '/dinosaur-3d/kentrosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire226 (2026-07-20): flat-slug alias for becklespinax.
+  '/becklespinax.html': '/dinosaur-3d/becklespinax.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -9491,6 +9493,8 @@ export const JSP_BY_ROUTE = {
   '/news/mp3-patents-expired-2017.html': 'news/mp3-patents-expired-2017.jsp',
   '/news/es/mp3-patents-expired-2017.html': 'news/es/mp3-patents-expired-2017.jsp',
   '/news/pt/mp3-patents-expired-2017.html': 'news/pt/mp3-patents-expired-2017.jsp',
+  '/news/vi/mp3-patents-expired-2017.html': 'news/vi/mp3-patents-expired-2017.jsp',
+  '/news/id/mp3-patents-expired-2017.html': 'news/id/mp3-patents-expired-2017.jsp',
   '/news/es/mp3-patents-expired-2017.html': 'news/es/mp3-patents-expired-2017.jsp',
   '/news/7-zip-rar5-motw-bypass.html': 'news/7-zip-rar5-motw-bypass.jsp',
   '/news/pt/7-zip-rar5-motw-bypass.html': 'news/pt/7-zip-rar5-motw-bypass.jsp',
@@ -12255,7 +12259,6 @@ export const JSP_BY_ROUTE = {
   // dinosaur-3d-discovery-loop-runbook fire151 (2026-07-20): psittacosaurus (ceratopsian archetype,
   // Model Magic CC0 Printables 1753562 after Oviraptor 1757494 morphology REJECT; vendored ftol-vm-assets 5ac2905).
   '/dinosaur-3d/psittacosaurus.html': 'dinosaur/psittacosaurus.jsp',
-
   '/dinosaur-3d/albertosaurus.html': 'dinosaur/albertosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire145 (2026-07-20): Sarcosuchus viewer -
   // new 'crocodilian' sprawled-gait archetype (Printables seth the yutyrannus,
@@ -12270,6 +12273,11 @@ export const JSP_BY_ROUTE = {
   // re-verified this fire (Printables seth the yutyrannus, CC-BY-SA 4.0,
   // vendored to ftol-vm-assets commit c3f7362).
   '/dinosaur-3d/kentrosaurus.html': 'dinosaur/kentrosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire226 (2026-07-20): Becklespinax viewer -
+  // theropod archetype, feats.dorsalRidge + tinyArms (shared branch with
+  // Acrocanthosaurus); seth the yutyrannus CC-BY-SA 4.0 via Printables,
+  // vendored to ftol-vm-assets commit 90a2fa7.
+  '/dinosaur-3d/becklespinax.html': 'dinosaur/becklespinax.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
