@@ -5596,6 +5596,30 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/becklespinax-3d-viewer-vs-ar-apps.html',
   '/guides/id/becklespinax-3d-viewer-vs-ar-apps.html',
   '/guides/de/becklespinax-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire241 (2026-07-20): how-to-view-ostafrikasaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-ostafrikasaurus-in-3d.html',
+  '/guides/pt/how-to-view-ostafrikasaurus-in-3d.html',
+  '/guides/es/how-to-view-ostafrikasaurus-in-3d.html',
+  '/guides/vi/how-to-view-ostafrikasaurus-in-3d.html',
+  '/guides/id/how-to-view-ostafrikasaurus-in-3d.html',
+  '/guides/de/how-to-view-ostafrikasaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire242 (2026-07-20): ostafrikasaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ostafrikasaurus-size-comparison.html',
+  '/guides/pt/ostafrikasaurus-size-comparison.html',
+  '/guides/es/ostafrikasaurus-size-comparison.html',
+  '/guides/vi/ostafrikasaurus-size-comparison.html',
+  '/guides/id/ostafrikasaurus-size-comparison.html',
+  '/guides/de/ostafrikasaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire243 (2026-07-20): ostafrikasaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
