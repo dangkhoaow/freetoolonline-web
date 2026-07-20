@@ -13961,6 +13961,7 @@ export const JSP_BY_ROUTE = {
   '/games/googol-stopping-game.html': 'games/googol-stopping-game.jsp',
   '/games/bangbang-artillery.html': 'games/bangbang-artillery.jsp',
   '/games/rock-paper-neural.html': 'games/rock-paper-neural.jsp',
+  '/games/egg-time-rewind.html': 'games/egg-time-rewind.jsp',
   '/games/seasonal-witchcat.html': 'games/seasonal-witchcat.jsp',
   '/games/desk-cat-coder.html': 'games/desk-cat-coder.jsp',
   '/games/boing-cat-platformer.html': 'games/boing-cat-platformer.jsp',
