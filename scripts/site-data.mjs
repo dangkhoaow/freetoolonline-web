@@ -8805,6 +8805,9 @@ export const ALIAS_ROUTES = {
   '/json-to-typescript.html': '/developer-tools/json-to-typescript.html',
   '/acrocanthosaurus.html': '/dinosaur-3d/acrocanthosaurus.html',
   '/chasmosaurus.html': '/dinosaur-3d/chasmosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire150 (2026-07-20): flat-slug alias for abelisaurus.
+  '/abelisaurus.html': '/dinosaur-3d/abelisaurus.html',
+
   '/bangbang-artillery.html': '/games/bangbang-artillery.html',
 };
 
@@ -12014,6 +12017,10 @@ export const JSP_BY_ROUTE = {
   // dinosaur-3d-discovery-loop-runbook fire149 (2026-07-20): chasmosaurus (ceratopsian archetype,
   // feats.frill + horns; Model Magic CC0 Printables 1766773, vendored ftol-vm-assets 3a474c8).
   '/dinosaur-3d/chasmosaurus.html': 'dinosaur/chasmosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire150 (2026-07-20): abelisaurus (theropod archetype,
+  // feats.tinyArms; skull-only honesty; Model Magic CC0 Printables 1767713, vendored ftol-vm-assets 07ed1d2).
+  '/dinosaur-3d/abelisaurus.html': 'dinosaur/abelisaurus.jsp',
+
   '/dinosaur-3d/albertosaurus.html': 'dinosaur/albertosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire145 (2026-07-20): Sarcosuchus viewer -
   // new 'crocodilian' sprawled-gait archetype (Printables seth the yutyrannus,
