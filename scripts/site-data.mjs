@@ -7171,6 +7171,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/how-to-play-rock-paper-neural.html',
   '/guides/de/rock-paper-neural-when.html',
   '/guides/de/rock-paper-neural-vs-alternatives.html',
+  // game-discovery-loop-runbook fire162 (2026-07-20): isocitysandbox companion guides
+  '/guides/how-to-play-iso-city-sandbox.html',
+  '/guides/pt/how-to-play-iso-city-sandbox.html',
+  '/guides/es/how-to-play-iso-city-sandbox.html',
+  '/guides/vi/how-to-play-iso-city-sandbox.html',
+  '/guides/id/how-to-play-iso-city-sandbox.html',
+  '/guides/de/how-to-play-iso-city-sandbox.html',
+  '/guides/iso-city-sandbox-when.html',
+  '/guides/pt/iso-city-sandbox-when.html',
+  '/guides/es/iso-city-sandbox-when.html',
+  '/guides/vi/iso-city-sandbox-when.html',
+  '/guides/id/iso-city-sandbox-when.html',
+  '/guides/de/iso-city-sandbox-when.html',
+  '/guides/iso-city-sandbox-vs-alternatives.html',
+  '/guides/pt/iso-city-sandbox-vs-alternatives.html',
+  '/guides/es/iso-city-sandbox-vs-alternatives.html',
+  '/guides/vi/iso-city-sandbox-vs-alternatives.html',
+  '/guides/id/iso-city-sandbox-vs-alternatives.html',
+  '/guides/de/iso-city-sandbox-vs-alternatives.html',
   // game-discovery-loop-runbook fire140 (2026-07-18): seasonal-witchcat companion guides
   '/guides/how-to-play-seasonal-witchcat.html',
   '/guides/seasonal-witchcat-when.html',
@@ -9011,11 +9030,14 @@ export const ALIAS_ROUTES = {
   '/json-to-typescript.html': '/developer-tools/json-to-typescript.html',
   '/acrocanthosaurus.html': '/dinosaur-3d/acrocanthosaurus.html',
   '/chasmosaurus.html': '/dinosaur-3d/chasmosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire151 (2026-07-20): flat-slug alias for psittacosaurus (Oviraptor STL REJECT fallback).
+  '/psittacosaurus.html': '/dinosaur-3d/psittacosaurus.html',
   // dinosaur-3d-discovery-loop-runbook fire150 (2026-07-20): flat-slug alias for abelisaurus.
   '/abelisaurus.html': '/dinosaur-3d/abelisaurus.html',
 
   '/bangbang-artillery.html': '/games/bangbang-artillery.html',
   '/rock-paper-neural.html': '/games/rock-paper-neural.html',
+  '/iso-city-sandbox.html': '/games/iso-city-sandbox.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -12230,6 +12252,9 @@ export const JSP_BY_ROUTE = {
   // dinosaur-3d-discovery-loop-runbook fire150 (2026-07-20): abelisaurus (theropod archetype,
   // feats.tinyArms; skull-only honesty; Model Magic CC0 Printables 1767713, vendored ftol-vm-assets 07ed1d2).
   '/dinosaur-3d/abelisaurus.html': 'dinosaur/abelisaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire151 (2026-07-20): psittacosaurus (ceratopsian archetype,
+  // Model Magic CC0 Printables 1753562 after Oviraptor 1757494 morphology REJECT; vendored ftol-vm-assets 5ac2905).
+  '/dinosaur-3d/psittacosaurus.html': 'dinosaur/psittacosaurus.jsp',
 
   '/dinosaur-3d/albertosaurus.html': 'dinosaur/albertosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire145 (2026-07-20): Sarcosuchus viewer -
@@ -13989,6 +14014,7 @@ export const JSP_BY_ROUTE = {
   '/games/bangbang-artillery.html': 'games/bangbang-artillery.jsp',
   '/games/rock-paper-neural.html': 'games/rock-paper-neural.jsp',
   '/games/egg-time-rewind.html': 'games/egg-time-rewind.jsp',
+  '/games/iso-city-sandbox.html': 'games/iso-city-sandbox.jsp',
   '/games/seasonal-witchcat.html': 'games/seasonal-witchcat.jsp',
   '/games/desk-cat-coder.html': 'games/desk-cat-coder.jsp',
   '/games/boing-cat-platformer.html': 'games/boing-cat-platformer.jsp',
@@ -16731,7 +16757,26 @@ export const JSP_BY_ROUTE = {
   '/guides/id/rock-paper-neural-vs-alternatives.html': 'guide/id/rock-paper-neural-vs-alternatives.jsp',
   '/guides/de/how-to-play-rock-paper-neural.html': 'guide/de/how-to-play-rock-paper-neural.jsp',
   '/guides/de/rock-paper-neural-when.html': 'guide/de/rock-paper-neural-when.jsp',
-  '/guides/de/rock-paper-neural-vs-alternatives.html': 'guide/de/rock-paper-neural-vs-alternatives.jsp',  '/guides/how-to-view-hybodus-in-3d.html': 'guide/how-to-view-hybodus-in-3d.jsp',
+  '/guides/de/rock-paper-neural-vs-alternatives.html': 'guide/de/rock-paper-neural-vs-alternatives.jsp',
+  // game-discovery-loop-runbook fire162 (2026-07-20): isocitysandbox companion guides
+  '/guides/how-to-play-iso-city-sandbox.html': 'guide/how-to-play-iso-city-sandbox.jsp',
+  '/guides/pt/how-to-play-iso-city-sandbox.html': 'guide/pt/how-to-play-iso-city-sandbox.jsp',
+  '/guides/es/how-to-play-iso-city-sandbox.html': 'guide/es/how-to-play-iso-city-sandbox.jsp',
+  '/guides/vi/how-to-play-iso-city-sandbox.html': 'guide/vi/how-to-play-iso-city-sandbox.jsp',
+  '/guides/id/how-to-play-iso-city-sandbox.html': 'guide/id/how-to-play-iso-city-sandbox.jsp',
+  '/guides/de/how-to-play-iso-city-sandbox.html': 'guide/de/how-to-play-iso-city-sandbox.jsp',
+  '/guides/iso-city-sandbox-when.html': 'guide/iso-city-sandbox-when.jsp',
+  '/guides/pt/iso-city-sandbox-when.html': 'guide/pt/iso-city-sandbox-when.jsp',
+  '/guides/es/iso-city-sandbox-when.html': 'guide/es/iso-city-sandbox-when.jsp',
+  '/guides/vi/iso-city-sandbox-when.html': 'guide/vi/iso-city-sandbox-when.jsp',
+  '/guides/id/iso-city-sandbox-when.html': 'guide/id/iso-city-sandbox-when.jsp',
+  '/guides/de/iso-city-sandbox-when.html': 'guide/de/iso-city-sandbox-when.jsp',
+  '/guides/iso-city-sandbox-vs-alternatives.html': 'guide/iso-city-sandbox-vs-alternatives.jsp',
+  '/guides/pt/iso-city-sandbox-vs-alternatives.html': 'guide/pt/iso-city-sandbox-vs-alternatives.jsp',
+  '/guides/es/iso-city-sandbox-vs-alternatives.html': 'guide/es/iso-city-sandbox-vs-alternatives.jsp',
+  '/guides/vi/iso-city-sandbox-vs-alternatives.html': 'guide/vi/iso-city-sandbox-vs-alternatives.jsp',
+  '/guides/id/iso-city-sandbox-vs-alternatives.html': 'guide/id/iso-city-sandbox-vs-alternatives.jsp',
+  '/guides/de/iso-city-sandbox-vs-alternatives.html': 'guide/de/iso-city-sandbox-vs-alternatives.jsp',  '/guides/how-to-view-hybodus-in-3d.html': 'guide/how-to-view-hybodus-in-3d.jsp',
   '/guides/pt/how-to-view-hybodus-in-3d.html': 'guide/pt/how-to-view-hybodus-in-3d.jsp',
   '/guides/es/how-to-view-hybodus-in-3d.html': 'guide/es/how-to-view-hybodus-in-3d.jsp',
   '/guides/vi/how-to-view-hybodus-in-3d.html': 'guide/vi/how-to-view-hybodus-in-3d.jsp',
