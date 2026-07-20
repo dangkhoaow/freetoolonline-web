@@ -5282,6 +5282,30 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/pentaceratops-size-comparison.html',
   '/guides/id/pentaceratops-size-comparison.html',
   '/guides/de/pentaceratops-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire204 (2026-07-20): pentaceratops-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/pentaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/pentaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/es/pentaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/pentaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/id/pentaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/de/pentaceratops-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire205 (2026-07-20): how-to-view-deinocheirus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-deinocheirus-in-3d.html',
+  '/guides/pt/how-to-view-deinocheirus-in-3d.html',
+  '/guides/es/how-to-view-deinocheirus-in-3d.html',
+  '/guides/vi/how-to-view-deinocheirus-in-3d.html',
+  '/guides/id/how-to-view-deinocheirus-in-3d.html',
+  '/guides/de/how-to-view-deinocheirus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire206 (2026-07-20): deinocheirus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/deinocheirus-size-comparison.html',
+  '/guides/pt/deinocheirus-size-comparison.html',
+  '/guides/es/deinocheirus-size-comparison.html',
+  '/guides/vi/deinocheirus-size-comparison.html',
+  '/guides/id/deinocheirus-size-comparison.html',
+  '/guides/de/deinocheirus-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -9368,6 +9392,7 @@ export const JSP_BY_ROUTE = {
   '/news/fat32-four-gib-file-limit.html': 'news/fat32-four-gib-file-limit.jsp',
   '/news/windows-11-fat32-format-2tb.html': 'news/windows-11-fat32-format-2tb.jsp',
   '/news/mp3-patents-expired-2017.html': 'news/mp3-patents-expired-2017.jsp',
+  '/news/es/mp3-patents-expired-2017.html': 'news/es/mp3-patents-expired-2017.jsp',
   '/news/pt/mp3-patents-expired-2017.html': 'news/pt/mp3-patents-expired-2017.jsp',
   '/news/es/mp3-patents-expired-2017.html': 'news/es/mp3-patents-expired-2017.jsp',
   '/news/7-zip-rar5-motw-bypass.html': 'news/7-zip-rar5-motw-bypass.jsp',
@@ -14069,6 +14094,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/dwarf-planet-comparison.html': 'space/dwarf-planet-comparison.jsp',
   '/space-3d/impact-crater-formation.html': 'space/impact-crater-formation.jsp',
   '/space-3d/moon-formation-giant-impact.html': 'space/moon-formation-giant-impact.jsp',
+  '/space-3d/andromeda-collision.html': 'space/andromeda-collision.jsp',
   '/guides/escape-velocity-step-by-step.html': 'guide/escape-velocity-step-by-step.jsp',
   '/guides/pt/escape-velocity-step-by-step.html': 'guide/pt/escape-velocity-step-by-step.jsp',
   '/guides/es/escape-velocity-step-by-step.html': 'guide/es/escape-velocity-step-by-step.jsp',
