@@ -5234,6 +5234,54 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/troodon-size-comparison.html',
   '/guides/id/troodon-size-comparison.html',
   '/guides/de/troodon-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire198 (2026-07-20): troodon-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/troodon-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/troodon-3d-viewer-vs-ar-apps.html',
+  '/guides/es/troodon-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/troodon-3d-viewer-vs-ar-apps.html',
+  '/guides/id/troodon-3d-viewer-vs-ar-apps.html',
+  '/guides/de/troodon-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire199 (2026-07-20): how-to-view-albertosaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-albertosaurus-in-3d.html',
+  '/guides/pt/how-to-view-albertosaurus-in-3d.html',
+  '/guides/es/how-to-view-albertosaurus-in-3d.html',
+  '/guides/vi/how-to-view-albertosaurus-in-3d.html',
+  '/guides/id/how-to-view-albertosaurus-in-3d.html',
+  '/guides/de/how-to-view-albertosaurus-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire200 (2026-07-20): albertosaurus-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/albertosaurus-size-comparison.html',
+  '/guides/pt/albertosaurus-size-comparison.html',
+  '/guides/es/albertosaurus-size-comparison.html',
+  '/guides/vi/albertosaurus-size-comparison.html',
+  '/guides/id/albertosaurus-size-comparison.html',
+  '/guides/de/albertosaurus-size-comparison.html',
+  // dinosaur-3d-guides-loop-runbook fire201 (2026-07-20): albertosaurus-3d-viewer-vs-ar-apps
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/albertosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/albertosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/albertosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/vi/albertosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/albertosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/de/albertosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire202 (2026-07-20): how-to-view-pentaceratops-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-pentaceratops-in-3d.html',
+  '/guides/pt/how-to-view-pentaceratops-in-3d.html',
+  '/guides/es/how-to-view-pentaceratops-in-3d.html',
+  '/guides/vi/how-to-view-pentaceratops-in-3d.html',
+  '/guides/id/how-to-view-pentaceratops-in-3d.html',
+  '/guides/de/how-to-view-pentaceratops-in-3d.html',
+  // dinosaur-3d-guides-loop-runbook fire203 (2026-07-20): pentaceratops-size-comparison
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/pentaceratops-size-comparison.html',
+  '/guides/pt/pentaceratops-size-comparison.html',
+  '/guides/es/pentaceratops-size-comparison.html',
+  '/guides/vi/pentaceratops-size-comparison.html',
+  '/guides/id/pentaceratops-size-comparison.html',
+  '/guides/de/pentaceratops-size-comparison.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
@@ -7006,6 +7054,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/bangbang-artillery-when.html',
   '/guides/de/bangbang-artillery-vs-alternatives.html',
 
+  // game-discovery-loop-runbook fire160 (2026-07-20): rockpaperneural companion guides
+  '/guides/how-to-play-rock-paper-neural.html',
+  '/guides/rock-paper-neural-when.html',
+  '/guides/rock-paper-neural-vs-alternatives.html',
+  '/guides/pt/how-to-play-rock-paper-neural.html',
+  '/guides/pt/rock-paper-neural-when.html',
+  '/guides/pt/rock-paper-neural-vs-alternatives.html',
+  '/guides/es/how-to-play-rock-paper-neural.html',
+  '/guides/es/rock-paper-neural-when.html',
+  '/guides/es/rock-paper-neural-vs-alternatives.html',
+  '/guides/vi/how-to-play-rock-paper-neural.html',
+  '/guides/vi/rock-paper-neural-when.html',
+  '/guides/vi/rock-paper-neural-vs-alternatives.html',
+  '/guides/id/how-to-play-rock-paper-neural.html',
+  '/guides/id/rock-paper-neural-when.html',
+  '/guides/id/rock-paper-neural-vs-alternatives.html',
+  '/guides/de/how-to-play-rock-paper-neural.html',
+  '/guides/de/rock-paper-neural-when.html',
+  '/guides/de/rock-paper-neural-vs-alternatives.html',
   // game-discovery-loop-runbook fire140 (2026-07-18): seasonal-witchcat companion guides
   '/guides/how-to-play-seasonal-witchcat.html',
   '/guides/seasonal-witchcat-when.html',
@@ -8849,6 +8916,7 @@ export const ALIAS_ROUTES = {
   '/abelisaurus.html': '/dinosaur-3d/abelisaurus.html',
 
   '/bangbang-artillery.html': '/games/bangbang-artillery.html',
+  '/rock-paper-neural.html': '/games/rock-paper-neural.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -13818,6 +13886,7 @@ export const JSP_BY_ROUTE = {
   '/games/thirteen-case-files.html': 'games/thirteen-case-files.jsp',
   '/games/googol-stopping-game.html': 'games/googol-stopping-game.jsp',
   '/games/bangbang-artillery.html': 'games/bangbang-artillery.jsp',
+  '/games/rock-paper-neural.html': 'games/rock-paper-neural.jsp',
   '/games/seasonal-witchcat.html': 'games/seasonal-witchcat.jsp',
   '/games/desk-cat-coder.html': 'games/desk-cat-coder.jsp',
   '/games/boing-cat-platformer.html': 'games/boing-cat-platformer.jsp',
@@ -16520,7 +16589,26 @@ export const JSP_BY_ROUTE = {
   '/guides/de/how-to-play-bangbang-artillery.html': 'guide/de/how-to-play-bangbang-artillery.jsp',
   '/guides/de/bangbang-artillery-when.html': 'guide/de/bangbang-artillery-when.jsp',
   '/guides/de/bangbang-artillery-vs-alternatives.html': 'guide/de/bangbang-artillery-vs-alternatives.jsp',
-  '/guides/how-to-view-hybodus-in-3d.html': 'guide/how-to-view-hybodus-in-3d.jsp',
+
+  // game-discovery-loop-runbook fire160 (2026-07-20): rockpaperneural companion guides
+  '/guides/how-to-play-rock-paper-neural.html': 'guide/how-to-play-rock-paper-neural.jsp',
+  '/guides/rock-paper-neural-when.html': 'guide/rock-paper-neural-when.jsp',
+  '/guides/rock-paper-neural-vs-alternatives.html': 'guide/rock-paper-neural-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-rock-paper-neural.html': 'guide/pt/how-to-play-rock-paper-neural.jsp',
+  '/guides/pt/rock-paper-neural-when.html': 'guide/pt/rock-paper-neural-when.jsp',
+  '/guides/pt/rock-paper-neural-vs-alternatives.html': 'guide/pt/rock-paper-neural-vs-alternatives.jsp',
+  '/guides/es/how-to-play-rock-paper-neural.html': 'guide/es/how-to-play-rock-paper-neural.jsp',
+  '/guides/es/rock-paper-neural-when.html': 'guide/es/rock-paper-neural-when.jsp',
+  '/guides/es/rock-paper-neural-vs-alternatives.html': 'guide/es/rock-paper-neural-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-rock-paper-neural.html': 'guide/vi/how-to-play-rock-paper-neural.jsp',
+  '/guides/vi/rock-paper-neural-when.html': 'guide/vi/rock-paper-neural-when.jsp',
+  '/guides/vi/rock-paper-neural-vs-alternatives.html': 'guide/vi/rock-paper-neural-vs-alternatives.jsp',
+  '/guides/id/how-to-play-rock-paper-neural.html': 'guide/id/how-to-play-rock-paper-neural.jsp',
+  '/guides/id/rock-paper-neural-when.html': 'guide/id/rock-paper-neural-when.jsp',
+  '/guides/id/rock-paper-neural-vs-alternatives.html': 'guide/id/rock-paper-neural-vs-alternatives.jsp',
+  '/guides/de/how-to-play-rock-paper-neural.html': 'guide/de/how-to-play-rock-paper-neural.jsp',
+  '/guides/de/rock-paper-neural-when.html': 'guide/de/rock-paper-neural-when.jsp',
+  '/guides/de/rock-paper-neural-vs-alternatives.html': 'guide/de/rock-paper-neural-vs-alternatives.jsp',  '/guides/how-to-view-hybodus-in-3d.html': 'guide/how-to-view-hybodus-in-3d.jsp',
   '/guides/pt/how-to-view-hybodus-in-3d.html': 'guide/pt/how-to-view-hybodus-in-3d.jsp',
   '/guides/es/how-to-view-hybodus-in-3d.html': 'guide/es/how-to-view-hybodus-in-3d.jsp',
   '/guides/vi/how-to-view-hybodus-in-3d.html': 'guide/vi/how-to-view-hybodus-in-3d.jsp',
