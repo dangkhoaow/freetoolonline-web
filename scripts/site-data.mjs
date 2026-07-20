@@ -14111,6 +14111,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/impact-crater-formation.html': 'space/impact-crater-formation.jsp',
   '/space-3d/moon-formation-giant-impact.html': 'space/moon-formation-giant-impact.jsp',
   '/space-3d/andromeda-collision.html': 'space/andromeda-collision.jsp',
+  '/space-3d/geocentric-vs-heliocentric.html': 'space/geocentric-vs-heliocentric.jsp',
   '/guides/escape-velocity-step-by-step.html': 'guide/escape-velocity-step-by-step.jsp',
   '/guides/pt/escape-velocity-step-by-step.html': 'guide/pt/escape-velocity-step-by-step.jsp',
   '/guides/es/escape-velocity-step-by-step.html': 'guide/es/escape-velocity-step-by-step.jsp',
