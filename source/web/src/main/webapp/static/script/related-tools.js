@@ -473,6 +473,7 @@ try {
     { title: "Neuro Aim Arena", url: "https://freetoolonline.com/games/neuro-aim-arena.html", include: !1, tags: "games" },
     { title: "Flexbox Froggy", url: "https://freetoolonline.com/games/flexbox-froggy.html", include: !1, tags: "games" },
     { title: "Grid Garden", url: "https://freetoolonline.com/games/grid-garden.html", include: !1, tags: "games" },
+    { title: "Mochi and the Midnight Escape", url: "https://freetoolonline.com/games/mochi-midnight-escape.html", include: !1, tags: "games" },
     { title: "Seasonal Witchcat", url: "https://freetoolonline.com/games/seasonal-witchcat.html", include: !1, tags: "games" },
     { title: "Desk Cat Coder", url: "https://freetoolonline.com/games/desk-cat-coder.html", include: !1, tags: "games" },
     { title: "Boing Cat Platformer", url: "https://freetoolonline.com/games/boing-cat-platformer.html", include: !1, tags: "games" },
