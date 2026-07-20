@@ -5500,6 +5500,14 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/id/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/de/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
+  // dinosaur-3d-guides-loop-runbook fire229 (2026-07-20): how-to-view-abelisaurus-in-3d
+  // EN + pt/es/vi/id/de companion guides
+  '/guides/how-to-view-abelisaurus-in-3d.html',
+  '/guides/pt/how-to-view-abelisaurus-in-3d.html',
+  '/guides/es/how-to-view-abelisaurus-in-3d.html',
+  '/guides/vi/how-to-view-abelisaurus-in-3d.html',
+  '/guides/id/how-to-view-abelisaurus-in-3d.html',
+  '/guides/de/how-to-view-abelisaurus-in-3d.html',
   // new-tool-discovery-loop-runbook fire148 (LEAN one-off, 2026-07-14):
   // GUIDE_ROUTES backfill for uuid-generator's 3 EN companion guide angles
   // (builder wires JSP_BY_ROUTE + INFO_ROUTES only - same recurring gap
