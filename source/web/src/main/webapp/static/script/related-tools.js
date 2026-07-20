@@ -467,6 +467,7 @@ try {
     { title: "Bangbang Artillery", url: "https://freetoolonline.com/games/bangbang-artillery.html", include: !1, tags: "games" },
     { title: "Rock Paper Neural", url: "https://freetoolonline.com/games/rock-paper-neural.html", include: !1, tags: "games" },
     { title: "Iso City Sandbox", url: "https://freetoolonline.com/games/iso-city-sandbox.html", include: !1, tags: "games" },
+    { title: "Neuro Aim Arena", url: "https://freetoolonline.com/games/neuro-aim-arena.html", include: !1, tags: "games" },
     { title: "Seasonal Witchcat", url: "https://freetoolonline.com/games/seasonal-witchcat.html", include: !1, tags: "games" },
     { title: "Desk Cat Coder", url: "https://freetoolonline.com/games/desk-cat-coder.html", include: !1, tags: "games" },
     { title: "Boing Cat Platformer", url: "https://freetoolonline.com/games/boing-cat-platformer.html", include: !1, tags: "games" },
