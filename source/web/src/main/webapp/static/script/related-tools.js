@@ -330,6 +330,7 @@ try {
     { title: "Garden Defense", url: "https://freetoolonline.com/games/garden-defense.html", include: !1, tags: "games" },
     { title: "Voxel World Builder", url: "https://freetoolonline.com/games/voxel-world-builder.html", include: !1, tags: "games" },
     { title: "Solar System 3D Explorer", url: "https://freetoolonline.com/space-3d/solar-system.html", include: !1, tags: "space-3d" },
+    { title: "Apollo Free-Return Trajectory 3D Explorer", url: "https://freetoolonline.com/space-3d/apollo-free-return-trajectory.html", include: !1, tags: "space-3d" },
     { title: "Black Hole 3D Visualizer", url: "https://freetoolonline.com/space-3d/black-hole.html", include: !1, tags: "space-3d" },
     { title: "Galaxy 3D Simulator", url: "https://freetoolonline.com/space-3d/galaxy.html", include: !1, tags: "space-3d" },
     { title: "Tyrannosaurus rex 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/tyrannosaurus-rex.html", include: !1, tags: "dinosaur-3d" },
