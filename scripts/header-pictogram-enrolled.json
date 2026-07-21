@@ -278,6 +278,7 @@
     "lunareclipse",
     "lunarnodeseclipseseasons",
     "machineguardcorps",
+    "magnetar",
     "magneticreconnection",
     "majungasaurus",
     "mamenchisaurus",
@@ -288,6 +289,7 @@
     "medievalwalldefense",
     "megalosaurus",
     "meteorshowerradiant",
+    "metronome",
     "miamimice",
     "microphonetest",
     "microraptor",
@@ -571,7 +573,6 @@
     "yesornowheel",
     "zipfile",
     "ziptools",
-    "zodiacallight",
-    "metronome"
+    "zodiacallight"
   ]
 }
