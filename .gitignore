@@ -11,3 +11,4 @@ seo-reports/
 dist-*/
 .agent/
 dist*/
+.worktrees/
