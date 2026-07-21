@@ -96,6 +96,7 @@ try {
     { title: "Keyboard Test", url: "https://freetoolonline.com/device-test-tools/keyboard-test.html", include: !1, tags: "device-test,utility,developer" },
     { title: "LCD Test", url: "https://freetoolonline.com/device-test-tools/lcd-test.html", include: !1, tags: "device-test,utility" },
     { title: "Microphone Test", url: "https://freetoolonline.com/device-test-tools/microphone-test.html", include: !1, tags: "device-test,utility" },
+    { title: "Speaker & Audio Channel Test", url: "https://freetoolonline.com/device-test-tools/speaker-test.html", include: !1, tags: "device-test" },
     { title: "Text Diff", url: "https://freetoolonline.com/developer-tools/text-diff.html", include: !1, tags: "compare,text,developer" },
     { title: "Video And SlideShow Maker", url: "https://freetoolonline.com/video-tools/video-maker.html", include: !1, tags: "video,maker,editor" },
     { title: "Total Photo Editor", url: "https://freetoolonline.com/image-tools/photo-editor.html", include: !1, tags: "png,jpg,editor,image-editing" },
