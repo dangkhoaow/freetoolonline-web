@@ -124,44 +124,56 @@ const GUIDE_TOPIC_LABELS = {
 };
 
 function classifyGuide(slug) {
-  if (/(^|-)(zip|7z|rar|archive|file-compressor|compress-a-file|compress-a-folder|compress-zip|reduce-zip|make-a-zip|recover-corrupt-zip|zip-folder)/.test(slug)) {
+  // Strip a leading locale segment (en/ pt/ es/ vi/ id/ de/ ...) before the
+  // topic regexes run. Guide slugs never contain a slash except the locale
+  // prefix introduced by the 2026-05-29 multilingual /guides/<lang>/ contract,
+  // so `^[a-z]{2}/` only ever matches a locale code. Without this, every
+  // locale-prefixed slug (e.g. `en/dead-pixel-testing-guide`) failed the
+  // `(^|-)` anchor and fell into `editorial-and-other`, dumping ~250 EN guides
+  // into one ungrouped block (Phase-6 walkthrough axis A/C/D MEDIUM on
+  // /guides.html, cycle 20260705-2).
+  slug = String(slug).replace(/^[a-z]{2}\//, '');
+  if (/(^|-)(zip|7z|rar|archive|file-compressor|compress-a-file|compress-a-folder|compress-folder|compress-zip|reduce-zip|make-a-zip|recover-corrupt-zip|zip-folder)/.test(slug)) {
     return 'zip-and-file-compression';
   }
-  if (/(^|-)(heic|jpg-vs|jpg-vs-jpeg|jpeg|iphone-photo|convert-iphone|convert-heic|png-vs-svg|svg-to-png|when-to-compress-vs-convert)/.test(slug)) {
+  if (/(^|-)(heic|jpg-vs|jpg-vs-jpeg|jpeg|iphone-photo|convert-iphone|convert-heic|png-vs-svg|png-to-svg|svg-to-png|when-to-compress-vs-convert)/.test(slug)) {
     return 'heic-and-image-conversion';
   }
-  if (/(^|-)(crop|gif|photo-editor|qr-code|extract-frames|split-a-gif)/.test(slug)) {
+  if (/(^|-)(crop|gif|photo-editor|qr-code|extract-frames|split-a-gif|resize-image|compress-a-jpg|compressed-jpg|jpg-for-email|jpg-was-compressed|image-compression|imagemagick)/.test(slug)) {
     return 'image-editing-and-graphics';
   }
   if (/(^|-)pdf/.test(slug)) {
     return 'pdf';
   }
-  if (/(^|-)(mp4|webm|mov|mkv|ffmpeg)/.test(slug)) {
+  if (/(^|-)(mp4|webm|mov|mkv|ffmpeg|hd-video|video-converter|audio-trimmer)/.test(slug)) {
     return 'video';
   }
-  if (/(^|-)(dead-pixel|lcd|microphone|webcam|camera-quality|keyboard-tester|device-test|gpu-test|gpu-benchmark|interview)/.test(slug)) {
+  if (/(^|-)(dead-pixel|lcd|microphone|webcam|camera|screen-test|screen-display|touchscreen|led-test|keyboard-tester|keyboard-test|device-test|gpu-test|gpu-benchmark|interview|before-a-video-call)/.test(slug)) {
     return 'device-tests';
   }
-  if (/(^|-)(md5|sha256|css-minifier|uglifier|tree-shaking|json|yaml|toml|csv|cloud-run|text-diff|word-diff|line-diff|git-diff|base64|unix-timestamps)/.test(slug)) {
+  if (/(^|-)(md5|sha256|css-minifier|uglifier|tree-shaking|json|yaml|toml|csv|cloud-run|text-diff|word-diff|line-diff|git-diff|diff-tool|base64|unix-timestamps|millisecond|time-in-ms|ms-to-date|current-millis|current-time-in-milliseconds|unminify)/.test(slug)) {
     return 'developer-and-encoding';
-  }
-  // fire-23: guides for the two new categories. Slug tokens match the 7
-  // shipped units (snake-classic, retro-tank-battle, garden-defense,
-  // voxel-world-builder / solar-system, black-hole, galaxy) + generic
-  // genre words so future game/space guides classify without edits here.
-  if (/(^|-)(snake|tank|garden-defense|voxel|city-time-machine|sky-gates|browser-game|how-to-play|2048|city-drive|fps|freedoom|highway|hover|shooter|horde|procedural)/.test(slug)) {
-    return 'games';
-  }
-  if (/(^|-)(solar-system|black-hole|galaxy|planet|space-3d|earth-3d)/.test(slug)) {
-    return 'space';
   }
   // fire-32: the Linux Online VM guides (run-linux-in-browser-*) -> the
   // existing utility topic.
   if (/(^|-)(linux|virtual-machine)/.test(slug)) {
     return 'utilities';
   }
-  // dinosaur-loop (2026-07-15): guides for the /dinosaur-3d cluster (deferred).
-  // Species tokens + generic paleo words so future dinosaur guides classify.
+  // fire-23: guides for the two new categories (fire-30 added the city +
+  // flight units). Slug tokens match the shipped units (snake-classic,
+  // retro-tank-battle, garden-defense, voxel-world-builder,
+  // city-time-machine, sky-gates-flight / solar-system, black-hole, galaxy)
+  // + generic genre words so future game/space guides classify without
+  // edits here.
+  if (/(^|-)(snake|tank|garden-defense|voxel|city-time-machine|sky-gates|2048|city-drive|browser-game|how-to-play|fps|freedoom|highway|hover|shooter|horde|procedural|server-survival|survival-td)/.test(slug)) {
+    return 'games';
+  }
+  if (/(^|-)(solar-system|black-hole|galaxy|planet|space-3d|earth-3d|sagittarius)/.test(slug)) {
+    return 'space';
+  }
+  // dinosaur-loop (2026-07-15): guides for the /dinosaur-3d cluster. Species
+  // tokens + generic paleo words so future dinosaur guides classify without
+  // edits here.
   if (/(^|-)(dinosaur|dino|rex|raptor|saurus|ceratops|triceratops|stegosaur|ankylosaur|mosasaur|pterosaur|pteranodon|fossil|jurassic|cretaceous|prehistoric)/.test(slug)) {
     return 'dinosaurs';
   }
