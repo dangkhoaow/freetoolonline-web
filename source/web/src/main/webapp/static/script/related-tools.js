@@ -721,6 +721,7 @@ try {
     { title: "Speaker & Audio Channel Test", url: "https://freetoolonline.com/device-test-tools/speaker-test.html", include: !1, tags: "device-test" },
     { title: "Mouse Test (Buttons & Scroll)", url: "https://freetoolonline.com/device-test-tools/mouse-test.html", include: !1, tags: "device-test" },
 { title: "Gamepad / Controller Test", url: "https://freetoolonline.com/device-test-tools/gamepad-test.html", include: !1, tags: "device-test" },
+{ title: "Touchscreen Test", url: "https://freetoolonline.com/device-test-tools/touchscreen-test.html", include: !1, tags: "device-test" },
     { title: "Image EXIF Metadata Viewer", url: "https://freetoolonline.com/image-tools/image-exif-viewer.html", include: !1, tags: "image-editing" },
     { title: "Image Metadata (EXIF) Remover", url: "https://freetoolonline.com/image-tools/image-metadata-remover.html", include: !1, tags: "image-editing" },
   ],
