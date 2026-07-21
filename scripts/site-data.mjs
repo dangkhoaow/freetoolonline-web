@@ -14,6 +14,24 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/de/image-exif-metadata-viewer-vs-alternatives.html',
+  '/guides/id/image-exif-metadata-viewer-vs-alternatives.html',
+  '/guides/vi/image-exif-metadata-viewer-vs-alternatives.html',
+  '/guides/es/image-exif-metadata-viewer-vs-alternatives.html',
+  '/guides/pt/image-exif-metadata-viewer-vs-alternatives.html',
+  '/guides/image-exif-metadata-viewer-vs-alternatives.html',
+  '/guides/de/image-exif-metadata-viewer-step-by-step.html',
+  '/guides/id/image-exif-metadata-viewer-step-by-step.html',
+  '/guides/vi/image-exif-metadata-viewer-step-by-step.html',
+  '/guides/es/image-exif-metadata-viewer-step-by-step.html',
+  '/guides/pt/image-exif-metadata-viewer-step-by-step.html',
+  '/guides/image-exif-metadata-viewer-step-by-step.html',
+  '/guides/de/image-exif-metadata-viewer-when.html',
+  '/guides/id/image-exif-metadata-viewer-when.html',
+  '/guides/vi/image-exif-metadata-viewer-when.html',
+  '/guides/es/image-exif-metadata-viewer-when.html',
+  '/guides/pt/image-exif-metadata-viewer-when.html',
+  '/guides/image-exif-metadata-viewer-when.html',
   // new-tool-discovery-loop-runbook fire285 (2026-07-17/18): video-merger
   // companion guides (3 angles x EN + pt/es/vi/id/de) - paraphrased from
   // tool-videomerger/SKILL.md framing menu only.
@@ -8719,6 +8737,7 @@ export function isGuideRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  '/image-exif-viewer.html': '/image-tools/image-exif-viewer.html',
   '/markdown-to-html.html': '/developer-tools/markdown-to-html.html',
   '/html-to-markdown.html': '/developer-tools/html-to-markdown.html',
   '/wcag-contrast-checker.html': '/developer-tools/wcag-contrast-checker.html',
@@ -17361,6 +17380,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/age-calculator-step-by-step.html': 'guide/de/age-calculator-step-by-step.jsp',
   '/guides/de/age-calculator-vs-alternatives.html': 'guide/de/age-calculator-vs-alternatives.jsp',
   '/image-tools/photo-restoration.html': 'convert/photo-restoration.jsp',
+  '/image-tools/image-exif-viewer.html': 'convert/image-exif-viewer.jsp',
+  '/guides/de/image-exif-metadata-viewer-vs-alternatives.html': 'guide/de/image-exif-metadata-viewer-vs-alternatives.jsp',
+  '/guides/id/image-exif-metadata-viewer-vs-alternatives.html': 'guide/id/image-exif-metadata-viewer-vs-alternatives.jsp',
+  '/guides/vi/image-exif-metadata-viewer-vs-alternatives.html': 'guide/vi/image-exif-metadata-viewer-vs-alternatives.jsp',
+  '/guides/es/image-exif-metadata-viewer-vs-alternatives.html': 'guide/es/image-exif-metadata-viewer-vs-alternatives.jsp',
+  '/guides/pt/image-exif-metadata-viewer-vs-alternatives.html': 'guide/pt/image-exif-metadata-viewer-vs-alternatives.jsp',
+  '/guides/image-exif-metadata-viewer-vs-alternatives.html': 'guide/image-exif-metadata-viewer-vs-alternatives.jsp',
+  '/guides/de/image-exif-metadata-viewer-step-by-step.html': 'guide/de/image-exif-metadata-viewer-step-by-step.jsp',
+  '/guides/id/image-exif-metadata-viewer-step-by-step.html': 'guide/id/image-exif-metadata-viewer-step-by-step.jsp',
+  '/guides/vi/image-exif-metadata-viewer-step-by-step.html': 'guide/vi/image-exif-metadata-viewer-step-by-step.jsp',
+  '/guides/es/image-exif-metadata-viewer-step-by-step.html': 'guide/es/image-exif-metadata-viewer-step-by-step.jsp',
+  '/guides/pt/image-exif-metadata-viewer-step-by-step.html': 'guide/pt/image-exif-metadata-viewer-step-by-step.jsp',
+  '/guides/image-exif-metadata-viewer-step-by-step.html': 'guide/image-exif-metadata-viewer-step-by-step.jsp',
+  '/guides/de/image-exif-metadata-viewer-when.html': 'guide/de/image-exif-metadata-viewer-when.jsp',
+  '/guides/id/image-exif-metadata-viewer-when.html': 'guide/id/image-exif-metadata-viewer-when.jsp',
+  '/guides/vi/image-exif-metadata-viewer-when.html': 'guide/vi/image-exif-metadata-viewer-when.jsp',
+  '/guides/es/image-exif-metadata-viewer-when.html': 'guide/es/image-exif-metadata-viewer-when.jsp',
+  '/guides/pt/image-exif-metadata-viewer-when.html': 'guide/pt/image-exif-metadata-viewer-when.jsp',
+  '/guides/image-exif-metadata-viewer-when.html': 'guide/image-exif-metadata-viewer-when.jsp',
   '/guides/ai-photo-restoration-when.html': 'guide/ai-photo-restoration-when.jsp',
   '/guides/ai-photo-restoration-step-by-step.html': 'guide/ai-photo-restoration-step-by-step.jsp',
   '/guides/ai-photo-restoration-vs-alternatives.html': 'guide/ai-photo-restoration-vs-alternatives.jsp',
