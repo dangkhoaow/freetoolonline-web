@@ -724,6 +724,7 @@ try {
     { title: "Color Contrast Checker (WCAG)", url: "https://freetoolonline.com/developer-tools/wcag-contrast-checker.html", include: !1, tags: "developer" },
     { title: "SVG Optimizer & Minifier", url: "https://freetoolonline.com/developer-tools/svg-optimizer.html", include: !1, tags: "developer" },
     { title: "SQL Formatter & Beautifier", url: "https://freetoolonline.com/developer-tools/sql-formatter.html", include: !1, tags: "developer" },
+    { title: "Morse Code Translator", url: "https://freetoolonline.com/utility-tools/morse-code-translator.html", include: !1, tags: "utility" },
     { title: "Speaker & Audio Channel Test", url: "https://freetoolonline.com/device-test-tools/speaker-test.html", include: !1, tags: "device-test" },
     { title: "Mouse Test (Buttons & Scroll)", url: "https://freetoolonline.com/device-test-tools/mouse-test.html", include: !1, tags: "device-test" },
 { title: "Gamepad / Controller Test", url: "https://freetoolonline.com/device-test-tools/gamepad-test.html", include: !1, tags: "device-test" },
