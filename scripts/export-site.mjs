@@ -74,6 +74,26 @@ async function main() {
   await copyStaticAssets(staticAssetsRoot, distDir);
 
   const jspIndex = await buildJspIndex(jspRoot);
+  // Fail fast with the FULL orphan list (2026-07-21). Previously the render
+  // loop threw on the first missing JSP mid-export, so CI logs only showed one
+  // casualty while hundreds of lean-mirror registry orphans remained. Preflight
+  // lists every JSP_BY_ROUTE gap before the expensive render work starts.
+  {
+    const missing = [];
+    for (const [route, jspRel] of Object.entries(JSP_BY_ROUTE)) {
+      if (!jspRel) continue;
+      const abs = path.join(jspRoot, jspRel);
+      const src = await loadTextIfExists(abs);
+      if (!src) missing.push(`${route} -> ${jspRel}`);
+    }
+    if (missing.length) {
+      const preview = missing.slice(0, 40).join('\n  ');
+      const more = missing.length > 40 ? `\n  ... and ${missing.length - 40} more` : '';
+      throw new Error(
+        `JSP_BY_ROUTE registry has ${missing.length} missing JSP source(s) (mirror full guide/tool bundles from staging before export):\n  ${preview}${more}`
+      );
+    }
+  }
   const sharedFragments = await loadSharedFragments(staticViewRoot, runtimeViewRoot, themeCssPath);
   const relatedToolsData = await loadRelatedToolsData(staticAssetsRoot);
   // /sitemap.html body is regenerated on every build from the live route
