@@ -270,6 +270,7 @@ try {
     { title: "Unit Converter", url: "https://freetoolonline.com/utility-tools/unit-converter.html", include: !1, tags: "utility" },
     { title: "How to Convert Units Online - Free, No Sign-Up", url: "https://freetoolonline.com/guides/how-to-convert-units-online.html", include: !1, tags: "utility" },
     { title: "Color Picker", url: "https://freetoolonline.com/developer-tools/color-picker.html", include: !1, tags: "developer" },
+    { title: "Image Color Palette Extractor", url: "https://freetoolonline.com/image-tools/image-color-palette-extractor.html", include: !1, tags: "image-editing" },
     { title: "How to Pick a Color Online - HEX, RGB, and HSL", url: "https://freetoolonline.com/guides/how-to-pick-a-color-online.html", include: !1, tags: "developer" },
     { title: "Data Visualizer", url: "https://freetoolonline.com/developer-tools/data-visualizer.html", include: !1, tags: "developer" },
     { title: "How to Visualize Data Online - Make a Chart From Your Numbers", url: "https://freetoolonline.com/guides/how-to-visualize-data-online.html", include: !1, tags: "developer" },
