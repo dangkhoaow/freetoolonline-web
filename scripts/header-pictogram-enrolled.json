@@ -254,6 +254,7 @@
     "kirkwoodgaps",
     "kuiperbeltoortcloud",
     "lagrangepoints",
+    "lambeosaurus",
     "layerflipplatformer",
     "lcdtest",
     "libheifcve202632740",
@@ -316,6 +317,7 @@
     "ornithomimus",
     "ostafrikasaurus",
     "oumuamua",
+    "oviraptor",
     "pachycephalosaurus",
     "pachyrhinosaurus",
     "palebluedot",
@@ -448,6 +450,7 @@
     "sunstructure",
     "supernovaremnant",
     "svgtopng",
+    "swingblocktower",
     "synodiclunarmonth",
     "tabbysstar",
     "tarbosaurus",
@@ -529,8 +532,6 @@
     "yesornowheel",
     "zipfile",
     "ziptools",
-    "zodiacallight",
-    "lambeosaurus",
-    "oviraptor"
+    "zodiacallight"
   ]
 }
