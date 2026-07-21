@@ -7603,6 +7603,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/mochi-midnight-escape-vs-alternatives.html',
   '/guides/id/mochi-midnight-escape-vs-alternatives.html',
   '/guides/de/mochi-midnight-escape-vs-alternatives.html',
+  // game-discovery-loop-runbook fire167 (2026-07-21): swingblocktower companion guides
+  '/guides/how-to-play-swing-block-tower.html',
+  '/guides/pt/how-to-play-swing-block-tower.html',
+  '/guides/es/how-to-play-swing-block-tower.html',
+  '/guides/vi/how-to-play-swing-block-tower.html',
+  '/guides/id/how-to-play-swing-block-tower.html',
+  '/guides/de/how-to-play-swing-block-tower.html',
+  '/guides/swing-block-tower-when.html',
+  '/guides/pt/swing-block-tower-when.html',
+  '/guides/es/swing-block-tower-when.html',
+  '/guides/vi/swing-block-tower-when.html',
+  '/guides/id/swing-block-tower-when.html',
+  '/guides/de/swing-block-tower-when.html',
+  '/guides/swing-block-tower-vs-alternatives.html',
+  '/guides/pt/swing-block-tower-vs-alternatives.html',
+  '/guides/es/swing-block-tower-vs-alternatives.html',
+  '/guides/vi/swing-block-tower-vs-alternatives.html',
+  '/guides/id/swing-block-tower-vs-alternatives.html',
+  '/guides/de/swing-block-tower-vs-alternatives.html',
   // game-discovery-loop-runbook fire140 (2026-07-18): seasonal-witchcat companion guides
   '/guides/how-to-play-seasonal-witchcat.html',
   '/guides/seasonal-witchcat-when.html',
@@ -9233,6 +9252,8 @@ export const ALIAS_ROUTES = {
   '/oviraptor.html': '/dinosaur-3d/oviraptor.html',
   // dinosaur-3d-discovery-loop-runbook fire (2026-07-21): flat-slug alias for pinacosaurus.
   '/pinacosaurus.html': '/dinosaur-3d/pinacosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook fire87 (2026-07-21): flat-slug alias for monolophosaurus.
+  '/monolophosaurus.html': '/dinosaur-3d/monolophosaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -9485,6 +9506,7 @@ export const ALIAS_ROUTES = {
   '/flexbox-froggy.html': '/games/flexbox-froggy.html',
   '/grid-garden.html': '/games/grid-garden.html',
   '/mochi-midnight-escape.html': '/games/mochi-midnight-escape.html',
+  '/swing-block-tower.html': '/games/swing-block-tower.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -12740,6 +12762,12 @@ export const JSP_BY_ROUTE = {
   // 20+ mostly-juvenile skeletons (herd evidence); model-first via
   // ftol-vm-assets manifest entry "pinacosaurus" (already vendored).
   '/dinosaur-3d/pinacosaurus.html': 'dinosaur/pinacosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook fire87 (2026-07-21): Monolophosaurus viewer -
+  // theropod archetype with feats.crest (single fused nasal+lacrimal crest,
+  // distinct from Dilophosaurus's paired crests and Cryolophosaurus's
+  // forward-swept crest); model-first via ftol-vm-assets manifest entry
+  // "monolophosaurus" (already vendored, CC-BY-SA 4.0).
+  '/dinosaur-3d/monolophosaurus.html': 'dinosaur/monolophosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -14489,6 +14517,7 @@ export const JSP_BY_ROUTE = {
   '/games/flexbox-froggy.html': 'games/flexbox-froggy.jsp',
   '/games/grid-garden.html': 'games/grid-garden.jsp',
   '/games/mochi-midnight-escape.html': 'games/mochi-midnight-escape.jsp',
+  '/games/swing-block-tower.html': 'games/swing-block-tower.jsp',
   '/games/seasonal-witchcat.html': 'games/seasonal-witchcat.jsp',
   '/games/desk-cat-coder.html': 'games/desk-cat-coder.jsp',
   '/games/boing-cat-platformer.html': 'games/boing-cat-platformer.jsp',
@@ -17439,7 +17468,26 @@ export const JSP_BY_ROUTE = {
   '/guides/es/mochi-midnight-escape-vs-alternatives.html': 'guide/es/mochi-midnight-escape-vs-alternatives.jsp',
   '/guides/vi/mochi-midnight-escape-vs-alternatives.html': 'guide/vi/mochi-midnight-escape-vs-alternatives.jsp',
   '/guides/id/mochi-midnight-escape-vs-alternatives.html': 'guide/id/mochi-midnight-escape-vs-alternatives.jsp',
-  '/guides/de/mochi-midnight-escape-vs-alternatives.html': 'guide/de/mochi-midnight-escape-vs-alternatives.jsp',  '/guides/how-to-view-hybodus-in-3d.html': 'guide/how-to-view-hybodus-in-3d.jsp',
+  '/guides/de/mochi-midnight-escape-vs-alternatives.html': 'guide/de/mochi-midnight-escape-vs-alternatives.jsp',
+  // game-discovery-loop-runbook fire167 (2026-07-21): swingblocktower companion guides
+  '/guides/how-to-play-swing-block-tower.html': 'guide/how-to-play-swing-block-tower.jsp',
+  '/guides/pt/how-to-play-swing-block-tower.html': 'guide/pt/how-to-play-swing-block-tower.jsp',
+  '/guides/es/how-to-play-swing-block-tower.html': 'guide/es/how-to-play-swing-block-tower.jsp',
+  '/guides/vi/how-to-play-swing-block-tower.html': 'guide/vi/how-to-play-swing-block-tower.jsp',
+  '/guides/id/how-to-play-swing-block-tower.html': 'guide/id/how-to-play-swing-block-tower.jsp',
+  '/guides/de/how-to-play-swing-block-tower.html': 'guide/de/how-to-play-swing-block-tower.jsp',
+  '/guides/swing-block-tower-when.html': 'guide/swing-block-tower-when.jsp',
+  '/guides/pt/swing-block-tower-when.html': 'guide/pt/swing-block-tower-when.jsp',
+  '/guides/es/swing-block-tower-when.html': 'guide/es/swing-block-tower-when.jsp',
+  '/guides/vi/swing-block-tower-when.html': 'guide/vi/swing-block-tower-when.jsp',
+  '/guides/id/swing-block-tower-when.html': 'guide/id/swing-block-tower-when.jsp',
+  '/guides/de/swing-block-tower-when.html': 'guide/de/swing-block-tower-when.jsp',
+  '/guides/swing-block-tower-vs-alternatives.html': 'guide/swing-block-tower-vs-alternatives.jsp',
+  '/guides/pt/swing-block-tower-vs-alternatives.html': 'guide/pt/swing-block-tower-vs-alternatives.jsp',
+  '/guides/es/swing-block-tower-vs-alternatives.html': 'guide/es/swing-block-tower-vs-alternatives.jsp',
+  '/guides/vi/swing-block-tower-vs-alternatives.html': 'guide/vi/swing-block-tower-vs-alternatives.jsp',
+  '/guides/id/swing-block-tower-vs-alternatives.html': 'guide/id/swing-block-tower-vs-alternatives.jsp',
+  '/guides/de/swing-block-tower-vs-alternatives.html': 'guide/de/swing-block-tower-vs-alternatives.jsp',  '/guides/how-to-view-hybodus-in-3d.html': 'guide/how-to-view-hybodus-in-3d.jsp',
   '/guides/pt/how-to-view-hybodus-in-3d.html': 'guide/pt/how-to-view-hybodus-in-3d.jsp',
   '/guides/es/how-to-view-hybodus-in-3d.html': 'guide/es/how-to-view-hybodus-in-3d.jsp',
   '/guides/vi/how-to-view-hybodus-in-3d.html': 'guide/vi/how-to-view-hybodus-in-3d.jsp',
