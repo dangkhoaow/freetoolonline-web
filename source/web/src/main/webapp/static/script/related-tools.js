@@ -51,6 +51,7 @@ try {
     { title: "ZIP Tools", url: "https://freetoolonline.com/zip-tools.html", include: !1, tags: "zip,pdf" },
     { title: "File Compressor: Pick the Right Tool by File Type", url: "https://freetoolonline.com/utility-tools/file-compressor.html", include: !1, tags: "compress,zip,image-editing,pdf,utility,file-compressor" },
     { title: "Get JPEG Compression Level", url: "https://freetoolonline.com/image-tools/get-jpeg-compression-level.html", include: !1, tags: "jpg,compress,quality,image-editing" },
+    { title: "Favicon Generator", url: "https://freetoolonline.com/image-tools/favicon-generator.html", include: !1, tags: "image-editing" },
     { title: "Base64 To Image", url: "https://freetoolonline.com/image-converter-tools/base64-to-image.html", include: !1, tags: "image-conversion,base64" },
     { title: "Convert Time In Millisecond To Date", url: "https://freetoolonline.com/utility-tools/convert-time-in-millisecond-to-date.html", include: !1, tags: "millis,utility" },
     { title: "Convert GIF To Images Frame", url: "https://freetoolonline.com/image-converter-tools/extract-gif-to-image-frames.html", include: !1, tags: "image-conversion,split,gif,image-editing,video" },
