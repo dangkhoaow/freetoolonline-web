@@ -19,7 +19,7 @@ const SEO_CLUSTER_GROUPS = [
       '/get-jpeg-compression-level.html',
       '/imagemagick-online.html',
     '/image-tools/steganography.html',
-      '/image-tools/favicon-generator.html', '/image-tools/background-remover.html', '/image-tools/document-scanner.html', '/image-tools/image-to-text-ocr.html', '/image-tools/passport-photo-maker.html', '/image-tools/photo-restoration.html', '/image-tools/image-exif-viewer.html', '/image-tools/image-metadata-remover.html', '/image-tools/image-color-palette-extractor.html'],
+      '/image-tools/favicon-generator.html', '/image-tools/background-remover.html', '/image-tools/document-scanner.html', '/image-tools/image-to-text-ocr.html', '/image-tools/passport-photo-maker.html', '/image-tools/photo-restoration.html', '/image-tools/image-exif-viewer.html', '/image-tools/image-metadata-remover.html', '/image-tools/image-color-palette-extractor.html', '/image-tools/image-watermark.html'],
   },
   {
     cluster: 'image-conversion',
