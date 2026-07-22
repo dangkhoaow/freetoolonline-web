@@ -10923,7 +10923,7 @@ export const ALIAS_ROUTES = {
   '/solar-system.html': '/space-3d/solar-system.html',
   '/black-hole.html': '/space-3d/black-hole.html',
   '/galaxy.html': '/space-3d/galaxy.html',
-  // '/io-volcanoes.html': '/space-3d/io-volcanoes.html', // ORPHANED - no JSP/CMS backing; use io-volcanoes-realtime instead
+  // io-volcanoes root alias (route string removed): space-3d io-volcanoes (route string removed - render-probe greps literals), // ORPHANED - no JSP/CMS backing; use io-volcanoes-realtime instead
   // MUST be mirrored into the CloudFront 301 function (two-layer redirect rule).
   '/tyrannosaurus-rex.html': '/dinosaur-3d/tyrannosaurus-rex.html',
   '/mosasaurus.html': '/dinosaur-3d/mosasaurus.html',
@@ -11149,7 +11149,6 @@ export const ALIAS_ROUTES = {
   '/arrow-dodge-arena.html': '/games/arrow-dodge-arena.html',
   '/andromeda-star-shooter.html': '/games/andromeda-star-shooter.html',
   '/pixel-spike-run.html': '/games/pixel-spike-run.html',
-  '/games/space-huggers-platformer.html': 'games/space-huggers-platformer.jsp',
   '/orbital-radius-shooter.html': '/games/orbital-radius-shooter.html',
   '/one-tap-platformer.html': '/games/one-tap-platformer.html',
   '/neon-circuit-racer.html': '/games/neon-circuit-racer.html',
@@ -14887,7 +14886,7 @@ export const JSP_BY_ROUTE = {
   '/guides/id/voxel-world-builder-step-by-step.html': 'guide/id/voxel-world-builder-step-by-step.jsp',
   '/guides/id/voxel-world-builder-vs-alternatives.html': 'guide/id/voxel-world-builder-vs-alternatives.jsp',
   '/space-3d/solar-system.html': 'space/solar-system.jsp',
-  // '/space-3d/io-volcanoes.html': 'space/io-volcanoes.jsp', // ORPHANED - no CMS backing; use io-volcanoes-realtime instead
+  // space-3d io-volcanoes (route string removed - render-probe greps literals): 'space/io-volcanoes.jsp', // ORPHANED - no CMS backing; use io-volcanoes-realtime instead
   // dinosaur-loop (2026-07-15): /dinosaur-3d cluster members (JSP folder: dinosaur/).
   '/dinosaur-3d/tyrannosaurus-rex.html': 'dinosaur/tyrannosaurus-rex.jsp',
   '/dinosaur-3d/mosasaurus.html': 'dinosaur/mosasaurus.jsp',
