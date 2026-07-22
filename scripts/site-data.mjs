@@ -14,6 +14,27 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/video-speed-changer-vs-alternatives.html',
+  '/guides/video-speed-changer-step-by-step.html',
+  '/guides/video-speed-changer-when.html',
+  '/guides/html-entity-encoder-decoder-vs-alternatives.html',
+  '/guides/html-entity-encoder-decoder-step-by-step.html',
+  '/guides/html-entity-encoder-decoder-when.html',
+  '/guides/pt/html-entity-encoder-decoder-when.html',
+  '/guides/pt/html-entity-encoder-decoder-step-by-step.html',
+  '/guides/pt/html-entity-encoder-decoder-vs-alternatives.html',
+  '/guides/es/html-entity-encoder-decoder-when.html',
+  '/guides/es/html-entity-encoder-decoder-step-by-step.html',
+  '/guides/es/html-entity-encoder-decoder-vs-alternatives.html',
+  '/guides/vi/html-entity-encoder-decoder-when.html',
+  '/guides/vi/html-entity-encoder-decoder-step-by-step.html',
+  '/guides/vi/html-entity-encoder-decoder-vs-alternatives.html',
+  '/guides/id/html-entity-encoder-decoder-when.html',
+  '/guides/id/html-entity-encoder-decoder-step-by-step.html',
+  '/guides/id/html-entity-encoder-decoder-vs-alternatives.html',
+  '/guides/de/html-entity-encoder-decoder-when.html',
+  '/guides/de/html-entity-encoder-decoder-step-by-step.html',
+  '/guides/de/html-entity-encoder-decoder-vs-alternatives.html',
   '/guides/reorder-organize-pdf-pages-vs-alternatives.html',
   '/guides/reorder-organize-pdf-pages-step-by-step.html',
   '/guides/reorder-organize-pdf-pages-when.html',
@@ -4907,6 +4928,24 @@ export const INFO_ROUTES = new Set([
   '/guides/de/starlink-constellation-shells-step-by-step.html',
   '/guides/de/starlink-constellation-shells-when.html',
   '/guides/de/starlink-constellation-shells-vs-alternatives.html',
+  '/guides/proton-proton-chain-fusion-step-by-step.html',
+  '/guides/proton-proton-chain-fusion-when.html',
+  '/guides/proton-proton-chain-fusion-vs-alternatives.html',
+  '/guides/pt/proton-proton-chain-fusion-step-by-step.html',
+  '/guides/pt/proton-proton-chain-fusion-when.html',
+  '/guides/pt/proton-proton-chain-fusion-vs-alternatives.html',
+  '/guides/es/proton-proton-chain-fusion-step-by-step.html',
+  '/guides/es/proton-proton-chain-fusion-when.html',
+  '/guides/es/proton-proton-chain-fusion-vs-alternatives.html',
+  '/guides/vi/proton-proton-chain-fusion-step-by-step.html',
+  '/guides/vi/proton-proton-chain-fusion-when.html',
+  '/guides/vi/proton-proton-chain-fusion-vs-alternatives.html',
+  '/guides/id/proton-proton-chain-fusion-step-by-step.html',
+  '/guides/id/proton-proton-chain-fusion-when.html',
+  '/guides/id/proton-proton-chain-fusion-vs-alternatives.html',
+  '/guides/de/proton-proton-chain-fusion-step-by-step.html',
+  '/guides/de/proton-proton-chain-fusion-when.html',
+  '/guides/de/proton-proton-chain-fusion-vs-alternatives.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -10527,6 +10566,24 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/starlink-constellation-shells-step-by-step.html',
   '/guides/de/starlink-constellation-shells-when.html',
   '/guides/de/starlink-constellation-shells-vs-alternatives.html',
+  '/guides/proton-proton-chain-fusion-step-by-step.html',
+  '/guides/proton-proton-chain-fusion-when.html',
+  '/guides/proton-proton-chain-fusion-vs-alternatives.html',
+  '/guides/pt/proton-proton-chain-fusion-step-by-step.html',
+  '/guides/pt/proton-proton-chain-fusion-when.html',
+  '/guides/pt/proton-proton-chain-fusion-vs-alternatives.html',
+  '/guides/es/proton-proton-chain-fusion-step-by-step.html',
+  '/guides/es/proton-proton-chain-fusion-when.html',
+  '/guides/es/proton-proton-chain-fusion-vs-alternatives.html',
+  '/guides/vi/proton-proton-chain-fusion-step-by-step.html',
+  '/guides/vi/proton-proton-chain-fusion-when.html',
+  '/guides/vi/proton-proton-chain-fusion-vs-alternatives.html',
+  '/guides/id/proton-proton-chain-fusion-step-by-step.html',
+  '/guides/id/proton-proton-chain-fusion-when.html',
+  '/guides/id/proton-proton-chain-fusion-vs-alternatives.html',
+  '/guides/de/proton-proton-chain-fusion-step-by-step.html',
+  '/guides/de/proton-proton-chain-fusion-when.html',
+  '/guides/de/proton-proton-chain-fusion-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -11320,6 +11377,8 @@ export const ALIAS_ROUTES = {
   '/gorgonops.html': '/dinosaur-3d/gorgonops.html',
   // dinosaur-3d-discovery-loop-runbook (2026-07-23): flat-slug alias for woolly-mammoth.
   '/woolly-mammoth.html': '/dinosaur-3d/woolly-mammoth.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): flat-slug alias for styracosaurus.
+  '/styracosaurus.html': '/dinosaur-3d/styracosaurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
@@ -11649,6 +11708,9 @@ export const ALIAS_ROUTES = {
   '/exoplanet-atmosphere-spectroscopy.html': '/space-3d/exoplanet-atmosphere-spectroscopy.html',
   '/saros-cycle.html': '/space-3d/saros-cycle.html',
   '/starlink-constellation-shells.html': '/space-3d/starlink-constellation-shells.html',
+  '/proton-proton-chain-fusion.html': '/space-3d/proton-proton-chain-fusion.html',
+  '/html-entity-encoder.html': '/developer-tools/html-entity-encoder.html',
+  '/video-speed-changer.html': '/video-tools/video-speed-changer.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -15381,6 +15443,12 @@ export const JSP_BY_ROUTE = {
   // the ground-sloth/brontotherium/moropus quadruped-mammal pattern; model-first
   // via ftol-vm-assets woolly-mammoth.glb, CC-BY-SA 4.0 Printables.
   '/dinosaur-3d/woolly-mammoth.html': 'dinosaur/woolly-mammoth.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): Styracosaurus viewer -
+  // centrosaurine ceratopsian (spiked frill + single nose horn, no brow horns,
+  // distinct from the chasmosaurine Triceratops); ceratopsian archetype reusing the
+  // triceratops/pachyrhinosaurus/wendiceratops branch; model-first via ftol-vm-assets
+  // styracosaurus.glb, CC-BY-SA 4.0 Printables.
+  '/dinosaur-3d/styracosaurus.html': 'dinosaur/styracosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -21607,6 +21675,7 @@ export const JSP_BY_ROUTE = {
   '/guides/de/exoplanet-atmosphere-spectroscopy-when.html': 'guide/de/exoplanet-atmosphere-spectroscopy-when.jsp',
   '/guides/de/exoplanet-atmosphere-spectroscopy-vs-alternatives.html': 'guide/de/exoplanet-atmosphere-spectroscopy-vs-alternatives.jsp',
   '/space-3d/starlink-constellation-shells.html': 'space/starlink-constellation-shells.jsp',
+  '/space-3d/proton-proton-chain-fusion.html': 'space/proton-proton-chain-fusion.jsp',
   '/guides/starlink-constellation-shells-step-by-step.html': 'guide/starlink-constellation-shells-step-by-step.jsp',
   '/guides/starlink-constellation-shells-when.html': 'guide/starlink-constellation-shells-when.jsp',
   '/guides/starlink-constellation-shells-vs-alternatives.html': 'guide/starlink-constellation-shells-vs-alternatives.jsp',
@@ -21625,6 +21694,24 @@ export const JSP_BY_ROUTE = {
   '/guides/de/starlink-constellation-shells-step-by-step.html': 'guide/de/starlink-constellation-shells-step-by-step.jsp',
   '/guides/de/starlink-constellation-shells-when.html': 'guide/de/starlink-constellation-shells-when.jsp',
   '/guides/de/starlink-constellation-shells-vs-alternatives.html': 'guide/de/starlink-constellation-shells-vs-alternatives.jsp',
+  '/guides/proton-proton-chain-fusion-step-by-step.html': 'guide/proton-proton-chain-fusion-step-by-step.jsp',
+  '/guides/proton-proton-chain-fusion-when.html': 'guide/proton-proton-chain-fusion-when.jsp',
+  '/guides/proton-proton-chain-fusion-vs-alternatives.html': 'guide/proton-proton-chain-fusion-vs-alternatives.jsp',
+  '/guides/pt/proton-proton-chain-fusion-step-by-step.html': 'guide/pt/proton-proton-chain-fusion-step-by-step.jsp',
+  '/guides/pt/proton-proton-chain-fusion-when.html': 'guide/pt/proton-proton-chain-fusion-when.jsp',
+  '/guides/pt/proton-proton-chain-fusion-vs-alternatives.html': 'guide/pt/proton-proton-chain-fusion-vs-alternatives.jsp',
+  '/guides/es/proton-proton-chain-fusion-step-by-step.html': 'guide/es/proton-proton-chain-fusion-step-by-step.jsp',
+  '/guides/es/proton-proton-chain-fusion-when.html': 'guide/es/proton-proton-chain-fusion-when.jsp',
+  '/guides/es/proton-proton-chain-fusion-vs-alternatives.html': 'guide/es/proton-proton-chain-fusion-vs-alternatives.jsp',
+  '/guides/vi/proton-proton-chain-fusion-step-by-step.html': 'guide/vi/proton-proton-chain-fusion-step-by-step.jsp',
+  '/guides/vi/proton-proton-chain-fusion-when.html': 'guide/vi/proton-proton-chain-fusion-when.jsp',
+  '/guides/vi/proton-proton-chain-fusion-vs-alternatives.html': 'guide/vi/proton-proton-chain-fusion-vs-alternatives.jsp',
+  '/guides/id/proton-proton-chain-fusion-step-by-step.html': 'guide/id/proton-proton-chain-fusion-step-by-step.jsp',
+  '/guides/id/proton-proton-chain-fusion-when.html': 'guide/id/proton-proton-chain-fusion-when.jsp',
+  '/guides/id/proton-proton-chain-fusion-vs-alternatives.html': 'guide/id/proton-proton-chain-fusion-vs-alternatives.jsp',
+  '/guides/de/proton-proton-chain-fusion-step-by-step.html': 'guide/de/proton-proton-chain-fusion-step-by-step.jsp',
+  '/guides/de/proton-proton-chain-fusion-when.html': 'guide/de/proton-proton-chain-fusion-when.jsp',
+  '/guides/de/proton-proton-chain-fusion-vs-alternatives.html': 'guide/de/proton-proton-chain-fusion-vs-alternatives.jsp',
   '/guides/earth-perihelion-aphelion-step-by-step.html': 'guide/earth-perihelion-aphelion-step-by-step.jsp',
   '/guides/earth-perihelion-aphelion-when.html': 'guide/earth-perihelion-aphelion-when.jsp',
   '/guides/earth-perihelion-aphelion-vs-alternatives.html': 'guide/earth-perihelion-aphelion-vs-alternatives.jsp',
@@ -21680,6 +21767,29 @@ export const JSP_BY_ROUTE = {
   '/guides/de/main-sequence-lifetime-when.html': 'guide/de/main-sequence-lifetime-when.jsp',
   '/guides/de/main-sequence-lifetime-vs-alternatives.html': 'guide/de/main-sequence-lifetime-vs-alternatives.jsp',
   '/games/tower-building-game.html': 'games/tower-building-game.jsp',
+  '/developer-tools/html-entity-encoder.html': 'utility/html-entity-encoder.jsp',
+  '/guides/html-entity-encoder-decoder-when.html': 'guide/html-entity-encoder-decoder-when.jsp',
+  '/guides/html-entity-encoder-decoder-step-by-step.html': 'guide/html-entity-encoder-decoder-step-by-step.jsp',
+  '/guides/html-entity-encoder-decoder-vs-alternatives.html': 'guide/html-entity-encoder-decoder-vs-alternatives.jsp',
+  '/guides/pt/html-entity-encoder-decoder-when.html': 'guide/pt/html-entity-encoder-decoder-when.jsp',
+  '/guides/pt/html-entity-encoder-decoder-step-by-step.html': 'guide/pt/html-entity-encoder-decoder-step-by-step.jsp',
+  '/guides/pt/html-entity-encoder-decoder-vs-alternatives.html': 'guide/pt/html-entity-encoder-decoder-vs-alternatives.jsp',
+  '/guides/es/html-entity-encoder-decoder-when.html': 'guide/es/html-entity-encoder-decoder-when.jsp',
+  '/guides/es/html-entity-encoder-decoder-step-by-step.html': 'guide/es/html-entity-encoder-decoder-step-by-step.jsp',
+  '/guides/es/html-entity-encoder-decoder-vs-alternatives.html': 'guide/es/html-entity-encoder-decoder-vs-alternatives.jsp',
+  '/guides/vi/html-entity-encoder-decoder-when.html': 'guide/vi/html-entity-encoder-decoder-when.jsp',
+  '/guides/vi/html-entity-encoder-decoder-step-by-step.html': 'guide/vi/html-entity-encoder-decoder-step-by-step.jsp',
+  '/guides/vi/html-entity-encoder-decoder-vs-alternatives.html': 'guide/vi/html-entity-encoder-decoder-vs-alternatives.jsp',
+  '/guides/id/html-entity-encoder-decoder-when.html': 'guide/id/html-entity-encoder-decoder-when.jsp',
+  '/guides/id/html-entity-encoder-decoder-step-by-step.html': 'guide/id/html-entity-encoder-decoder-step-by-step.jsp',
+  '/guides/id/html-entity-encoder-decoder-vs-alternatives.html': 'guide/id/html-entity-encoder-decoder-vs-alternatives.jsp',
+  '/guides/de/html-entity-encoder-decoder-when.html': 'guide/de/html-entity-encoder-decoder-when.jsp',
+  '/guides/de/html-entity-encoder-decoder-step-by-step.html': 'guide/de/html-entity-encoder-decoder-step-by-step.jsp',
+  '/guides/de/html-entity-encoder-decoder-vs-alternatives.html': 'guide/de/html-entity-encoder-decoder-vs-alternatives.jsp',
+  '/video-tools/video-speed-changer.html': 'convert/video-speed-changer.jsp',
+  '/guides/video-speed-changer-when.html': 'guide/video-speed-changer-when.jsp',
+  '/guides/video-speed-changer-step-by-step.html': 'guide/video-speed-changer-step-by-step.jsp',
+  '/guides/video-speed-changer-vs-alternatives.html': 'guide/video-speed-changer-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
