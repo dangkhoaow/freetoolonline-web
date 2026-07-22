@@ -14,6 +14,9 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/video-speed-changer-vs-alternatives.html',
+  '/guides/video-speed-changer-step-by-step.html',
+  '/guides/video-speed-changer-when.html',
   '/guides/html-entity-encoder-decoder-vs-alternatives.html',
   '/guides/html-entity-encoder-decoder-step-by-step.html',
   '/guides/html-entity-encoder-decoder-when.html',
@@ -11668,6 +11671,7 @@ export const ALIAS_ROUTES = {
   '/saros-cycle.html': '/space-3d/saros-cycle.html',
   '/starlink-constellation-shells.html': '/space-3d/starlink-constellation-shells.html',
   '/html-entity-encoder.html': '/developer-tools/html-entity-encoder.html',
+  '/video-speed-changer.html': '/video-tools/video-speed-changer.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -21718,6 +21722,10 @@ export const JSP_BY_ROUTE = {
   '/guides/de/html-entity-encoder-decoder-when.html': 'guide/de/html-entity-encoder-decoder-when.jsp',
   '/guides/de/html-entity-encoder-decoder-step-by-step.html': 'guide/de/html-entity-encoder-decoder-step-by-step.jsp',
   '/guides/de/html-entity-encoder-decoder-vs-alternatives.html': 'guide/de/html-entity-encoder-decoder-vs-alternatives.jsp',
+  '/video-tools/video-speed-changer.html': 'convert/video-speed-changer.jsp',
+  '/guides/video-speed-changer-when.html': 'guide/video-speed-changer-when.jsp',
+  '/guides/video-speed-changer-step-by-step.html': 'guide/video-speed-changer-step-by-step.jsp',
+  '/guides/video-speed-changer-vs-alternatives.html': 'guide/video-speed-changer-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
