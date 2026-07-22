@@ -4727,6 +4727,24 @@ export const INFO_ROUTES = new Set([
   '/guides/de/magnetar-step-by-step.html',
   '/guides/de/magnetar-when.html',
   '/guides/de/magnetar-vs-alternatives.html',
+  '/guides/titan-methane-lakes-step-by-step.html',
+  '/guides/titan-methane-lakes-when.html',
+  '/guides/titan-methane-lakes-vs-alternatives.html',
+  '/guides/pt/titan-methane-lakes-step-by-step.html',
+  '/guides/pt/titan-methane-lakes-when.html',
+  '/guides/pt/titan-methane-lakes-vs-alternatives.html',
+  '/guides/es/titan-methane-lakes-step-by-step.html',
+  '/guides/es/titan-methane-lakes-when.html',
+  '/guides/es/titan-methane-lakes-vs-alternatives.html',
+  '/guides/vi/titan-methane-lakes-step-by-step.html',
+  '/guides/vi/titan-methane-lakes-when.html',
+  '/guides/vi/titan-methane-lakes-vs-alternatives.html',
+  '/guides/id/titan-methane-lakes-step-by-step.html',
+  '/guides/id/titan-methane-lakes-when.html',
+  '/guides/id/titan-methane-lakes-vs-alternatives.html',
+  '/guides/de/titan-methane-lakes-step-by-step.html',
+  '/guides/de/titan-methane-lakes-when.html',
+  '/guides/de/titan-methane-lakes-vs-alternatives.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -10146,6 +10164,24 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/globular-cluster-step-by-step.html',
   '/guides/de/globular-cluster-when.html',
   '/guides/de/globular-cluster-vs-alternatives.html',
+  '/guides/titan-methane-lakes-step-by-step.html',
+  '/guides/titan-methane-lakes-when.html',
+  '/guides/titan-methane-lakes-vs-alternatives.html',
+  '/guides/pt/titan-methane-lakes-step-by-step.html',
+  '/guides/pt/titan-methane-lakes-when.html',
+  '/guides/pt/titan-methane-lakes-vs-alternatives.html',
+  '/guides/es/titan-methane-lakes-step-by-step.html',
+  '/guides/es/titan-methane-lakes-when.html',
+  '/guides/es/titan-methane-lakes-vs-alternatives.html',
+  '/guides/vi/titan-methane-lakes-step-by-step.html',
+  '/guides/vi/titan-methane-lakes-when.html',
+  '/guides/vi/titan-methane-lakes-vs-alternatives.html',
+  '/guides/id/titan-methane-lakes-step-by-step.html',
+  '/guides/id/titan-methane-lakes-when.html',
+  '/guides/id/titan-methane-lakes-vs-alternatives.html',
+  '/guides/de/titan-methane-lakes-step-by-step.html',
+  '/guides/de/titan-methane-lakes-when.html',
+  '/guides/de/titan-methane-lakes-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -11250,6 +11286,7 @@ export const ALIAS_ROUTES = {
   '/touchscreen-test.html': '/device-test-tools/touchscreen-test.html',
   '/monitor-refresh-rate-test.html': '/device-test-tools/monitor-refresh-rate-test.html',
   '/sql-formatter.html': '/developer-tools/sql-formatter.html',
+  '/titan-methane-lakes.html': '/space-3d/titan-methane-lakes.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -21048,6 +21085,25 @@ export const JSP_BY_ROUTE = {
   '/guides/es/morse-code-translator-vs-alternatives.html': 'guide/es/morse-code-translator-vs-alternatives.jsp',
   '/guides/pt/morse-code-translator-vs-alternatives.html': 'guide/pt/morse-code-translator-vs-alternatives.jsp',
 
+  '/space-3d/titan-methane-lakes.html': 'space/titan-methane-lakes.jsp',
+  '/guides/titan-methane-lakes-step-by-step.html': 'guide/titan-methane-lakes-step-by-step.jsp',
+  '/guides/titan-methane-lakes-when.html': 'guide/titan-methane-lakes-when.jsp',
+  '/guides/titan-methane-lakes-vs-alternatives.html': 'guide/titan-methane-lakes-vs-alternatives.jsp',
+  '/guides/pt/titan-methane-lakes-step-by-step.html': 'guide/pt/titan-methane-lakes-step-by-step.jsp',
+  '/guides/pt/titan-methane-lakes-when.html': 'guide/pt/titan-methane-lakes-when.jsp',
+  '/guides/pt/titan-methane-lakes-vs-alternatives.html': 'guide/pt/titan-methane-lakes-vs-alternatives.jsp',
+  '/guides/es/titan-methane-lakes-step-by-step.html': 'guide/es/titan-methane-lakes-step-by-step.jsp',
+  '/guides/es/titan-methane-lakes-when.html': 'guide/es/titan-methane-lakes-when.jsp',
+  '/guides/es/titan-methane-lakes-vs-alternatives.html': 'guide/es/titan-methane-lakes-vs-alternatives.jsp',
+  '/guides/vi/titan-methane-lakes-step-by-step.html': 'guide/vi/titan-methane-lakes-step-by-step.jsp',
+  '/guides/vi/titan-methane-lakes-when.html': 'guide/vi/titan-methane-lakes-when.jsp',
+  '/guides/vi/titan-methane-lakes-vs-alternatives.html': 'guide/vi/titan-methane-lakes-vs-alternatives.jsp',
+  '/guides/id/titan-methane-lakes-step-by-step.html': 'guide/id/titan-methane-lakes-step-by-step.jsp',
+  '/guides/id/titan-methane-lakes-when.html': 'guide/id/titan-methane-lakes-when.jsp',
+  '/guides/id/titan-methane-lakes-vs-alternatives.html': 'guide/id/titan-methane-lakes-vs-alternatives.jsp',
+  '/guides/de/titan-methane-lakes-step-by-step.html': 'guide/de/titan-methane-lakes-step-by-step.jsp',
+  '/guides/de/titan-methane-lakes-when.html': 'guide/de/titan-methane-lakes-when.jsp',
+  '/guides/de/titan-methane-lakes-vs-alternatives.html': 'guide/de/titan-methane-lakes-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
