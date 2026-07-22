@@ -54,6 +54,7 @@ try {
     { title: "Favicon Generator", url: "https://freetoolonline.com/image-tools/favicon-generator.html", include: !1, tags: "image-editing" },
     { title: "Add Watermark to Image", url: "https://freetoolonline.com/image-tools/image-watermark.html", include: !1, tags: "image-editing" },
     { title: "Add Page Numbers to PDF", url: "https://freetoolonline.com/pdf-tools/add-page-numbers-to-pdf.html", include: !1, tags: "pdf" },
+    { title: "Reorder & Organize PDF Pages", url: "https://freetoolonline.com/pdf-tools/organize-pdf-pages.html", include: !1, tags: "pdf" },
     { title: "Base64 To Image", url: "https://freetoolonline.com/image-converter-tools/base64-to-image.html", include: !1, tags: "image-conversion,base64" },
     { title: "Convert Time In Millisecond To Date", url: "https://freetoolonline.com/utility-tools/convert-time-in-millisecond-to-date.html", include: !1, tags: "millis,utility" },
     { title: "Convert GIF To Images Frame", url: "https://freetoolonline.com/image-converter-tools/extract-gif-to-image-frames.html", include: !1, tags: "image-conversion,split,gif,image-editing,video" },
