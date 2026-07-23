@@ -11984,6 +11984,11 @@ export const ALIAS_ROUTES = {
   '/sinosauropteryx.html': '/dinosaur-3d/sinosauropteryx.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): flat-slug alias for yi-qi.
   '/yi-qi.html': '/dinosaur-3d/yi-qi.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for smilodon.
+  '/smilodon.html': '/dinosaur-3d/smilodon.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): synonym alias - the popular
+  // vernacular name "saber-tooth tiger" for the same species (gate 4 dedup).
+  '/saber-tooth-tiger.html': '/dinosaur-3d/smilodon.html',
 
   // dinosaur-3d-discovery-loop-runbook fire123: albertosaurus alias.
   '/albertosaurus.html': '/dinosaur-3d/albertosaurus.html',
@@ -16158,6 +16163,12 @@ export const JSP_BY_ROUTE = {
   // pitch=0 (no rotation) is the correct orientation; the manifest pitch field
   // was removed at the ftol-vm-assets CDN repo before this page was authored.
   '/dinosaur-3d/yi-qi.html': 'dinosaur/yi-qi.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): Smilodon
+  // (sabre-tooth cat) viewer - NEW 'quadruped' archetype (level-backed 4-leg
+  // body, first species to use it) + NEW 'feline' head kind with sabre
+  // canines. Model-first via ftol-vm-assets smilodon.glb (CC0, itch.io "Low
+  // Poly Ice Age" pack by Riley - same pack as woolly-mammoth/ground-sloth).
+  '/dinosaur-3d/smilodon.html': 'dinosaur/smilodon.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
