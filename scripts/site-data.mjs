@@ -11684,6 +11684,8 @@ export const ALIAS_ROUTES = {
   '/estemmenosuchus.html': '/dinosaur-3d/estemmenosuchus.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): flat-slug alias for placodus.
   '/placodus.html': '/dinosaur-3d/placodus.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): flat-slug alias for beipiaosaurus.
+  '/beipiaosaurus.html': '/dinosaur-3d/beipiaosaurus.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): synonym alias - the "megatherium"
   // backlog candidate is the same species as the already-shipped ground-sloth page (Megatherium
   // americanum). Captures the scientific-name search term without shipping a duplicate page (gate 4).
@@ -11953,6 +11955,7 @@ export const ALIAS_ROUTES = {
   '/pluto-charon-double-planet.html': '/space-3d/pluto-charon-double-planet.html',
   '/globular-cluster.html': '/space-3d/globular-cluster.html',
   '/magnetar.html': '/space-3d/magnetar.html',
+  '/fast-radio-bursts.html': '/space-3d/fast-radio-bursts.html',
   '/white-dwarf-chandrasekhar-limit.html': '/space-3d/white-dwarf-chandrasekhar-limit.html',
   '/apollo-free-return-trajectory.html': '/space-3d/apollo-free-return-trajectory.html',
   '/linux-online.html': '/utility-tools/linux-online.html',
@@ -15780,6 +15783,10 @@ export const JSP_BY_ROUTE = {
   // model-first via ftol-vm-assets placodus.glb, CC-BY 4.0 Printables (already
   // correctly oriented, confirmed via bilateral symmetry test, no pitch/yaw needed).
   '/dinosaur-3d/placodus.html': 'dinosaur/placodus.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): Beipiaosaurus viewer -
+  // theropod archetype (feats.longArms), model-first via ftol-vm-assets
+  // beipiaosaurus.glb (CC-BY-SA 4.0, DragonArtist15/Printables), render-verified.
+  '/dinosaur-3d/beipiaosaurus.html': 'dinosaur/beipiaosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -18346,6 +18353,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/pluto-charon-double-planet.html': 'space/pluto-charon-double-planet.jsp',
   '/space-3d/globular-cluster.html': 'space/globular-cluster.jsp',
   '/space-3d/magnetar.html': 'space/magnetar.jsp',
+  '/space-3d/fast-radio-bursts.html': 'space/fast-radio-bursts.jsp',
   '/space-3d/white-dwarf-chandrasekhar-limit.html': 'space/white-dwarf-chandrasekhar-limit.jsp',
   '/space-3d/apollo-free-return-trajectory.html': 'space/apollo-free-return-trajectory.jsp',
   '/space-3d/io-volcanoes-realtime.html': 'space/io-volcanoes-realtime.jsp',
