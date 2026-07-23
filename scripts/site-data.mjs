@@ -14,6 +14,25 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire370 prod mirror: lorem-ipsum-generator EN + locale guides
+  '/guides/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/pt/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/es/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/vi/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/id/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/de/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/pt/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/es/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/vi/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/id/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/de/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
+  '/guides/pt/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
+  '/guides/es/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
+  '/guides/vi/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
+  '/guides/id/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
+  '/guides/de/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire366 prod mirror: password-strength-checker EN + locale guides
   '/guides/password-strength-checker-when.html',
   '/guides/pt/password-strength-checker-when.html',
@@ -5117,6 +5136,25 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire370 prod mirror: lorem-ipsum-generator guides
+  '/guides/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/pt/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/es/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/vi/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/id/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/de/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/pt/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/es/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/vi/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/id/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/de/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
+  '/guides/pt/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
+  '/guides/es/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
+  '/guides/vi/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
+  '/guides/id/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
+  '/guides/de/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire366 prod mirror: password-strength-checker guides
   '/guides/password-strength-checker-when.html',
   '/guides/pt/password-strength-checker-when.html',
@@ -11990,6 +12028,7 @@ export const ALIAS_ROUTES = {
   '/compound-interest-calculator.html': '/utility-tools/compound-interest-calculator.html',
   '/password-strength-checker.html': '/developer-tools/password-strength-checker.html',
   '/video-speed-changer.html': '/video-tools/video-speed-changer.html',
+  '/lorem-ipsum-generator.html': '/developer-tools/lorem-ipsum-generator.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -22243,6 +22282,26 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/password-strength-checker-vs-alternatives.html': 'guide/vi/password-strength-checker-vs-alternatives.jsp',
   '/guides/id/password-strength-checker-vs-alternatives.html': 'guide/id/password-strength-checker-vs-alternatives.jsp',
   '/guides/de/password-strength-checker-vs-alternatives.html': 'guide/de/password-strength-checker-vs-alternatives.jsp',
+  // new-tool-discovery-loop-runbook fire370 prod mirror: lorem-ipsum-generator + guides
+  '/developer-tools/lorem-ipsum-generator.html': 'utility/lorem-ipsum-generator.jsp',
+  '/guides/lorem-ipsum-placeholder-text-generator-when.html': 'guide/lorem-ipsum-placeholder-text-generator-when.jsp',
+  '/guides/pt/lorem-ipsum-placeholder-text-generator-when.html': 'guide/pt/lorem-ipsum-placeholder-text-generator-when.jsp',
+  '/guides/es/lorem-ipsum-placeholder-text-generator-when.html': 'guide/es/lorem-ipsum-placeholder-text-generator-when.jsp',
+  '/guides/vi/lorem-ipsum-placeholder-text-generator-when.html': 'guide/vi/lorem-ipsum-placeholder-text-generator-when.jsp',
+  '/guides/id/lorem-ipsum-placeholder-text-generator-when.html': 'guide/id/lorem-ipsum-placeholder-text-generator-when.jsp',
+  '/guides/de/lorem-ipsum-placeholder-text-generator-when.html': 'guide/de/lorem-ipsum-placeholder-text-generator-when.jsp',
+  '/guides/lorem-ipsum-placeholder-text-generator-step-by-step.html': 'guide/lorem-ipsum-placeholder-text-generator-step-by-step.jsp',
+  '/guides/pt/lorem-ipsum-placeholder-text-generator-step-by-step.html': 'guide/pt/lorem-ipsum-placeholder-text-generator-step-by-step.jsp',
+  '/guides/es/lorem-ipsum-placeholder-text-generator-step-by-step.html': 'guide/es/lorem-ipsum-placeholder-text-generator-step-by-step.jsp',
+  '/guides/vi/lorem-ipsum-placeholder-text-generator-step-by-step.html': 'guide/vi/lorem-ipsum-placeholder-text-generator-step-by-step.jsp',
+  '/guides/id/lorem-ipsum-placeholder-text-generator-step-by-step.html': 'guide/id/lorem-ipsum-placeholder-text-generator-step-by-step.jsp',
+  '/guides/de/lorem-ipsum-placeholder-text-generator-step-by-step.html': 'guide/de/lorem-ipsum-placeholder-text-generator-step-by-step.jsp',
+  '/guides/lorem-ipsum-placeholder-text-generator-vs-alternatives.html': 'guide/lorem-ipsum-placeholder-text-generator-vs-alternatives.jsp',
+  '/guides/pt/lorem-ipsum-placeholder-text-generator-vs-alternatives.html': 'guide/pt/lorem-ipsum-placeholder-text-generator-vs-alternatives.jsp',
+  '/guides/es/lorem-ipsum-placeholder-text-generator-vs-alternatives.html': 'guide/es/lorem-ipsum-placeholder-text-generator-vs-alternatives.jsp',
+  '/guides/vi/lorem-ipsum-placeholder-text-generator-vs-alternatives.html': 'guide/vi/lorem-ipsum-placeholder-text-generator-vs-alternatives.jsp',
+  '/guides/id/lorem-ipsum-placeholder-text-generator-vs-alternatives.html': 'guide/id/lorem-ipsum-placeholder-text-generator-vs-alternatives.jsp',
+  '/guides/de/lorem-ipsum-placeholder-text-generator-vs-alternatives.html': 'guide/de/lorem-ipsum-placeholder-text-generator-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.

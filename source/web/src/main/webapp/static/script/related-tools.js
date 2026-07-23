@@ -769,6 +769,7 @@ try {
     { title: "SQL Formatter & Beautifier", url: "https://freetoolonline.com/developer-tools/sql-formatter.html", include: !1, tags: "developer" },
     { title: "HTML Entity Encoder & Decoder", url: "https://freetoolonline.com/developer-tools/html-entity-encoder.html", include: !1, tags: "developer" },
     { title: "Password Strength Checker", url: "https://freetoolonline.com/developer-tools/password-strength-checker.html", include: !1, tags: "developer" },
+    { title: "Lorem Ipsum Placeholder Text Generator", url: "https://freetoolonline.com/developer-tools/lorem-ipsum-generator.html", include: !1, tags: "developer" },
     { title: "Compound Interest Calculator", url: "https://freetoolonline.com/utility-tools/compound-interest-calculator.html", include: !1, tags: "utility" },
     { title: "Video Speed Changer", url: "https://freetoolonline.com/video-tools/video-speed-changer.html", include: !1, tags: "video" },
   ],
