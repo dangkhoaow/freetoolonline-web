@@ -12121,6 +12121,8 @@ export const ALIAS_ROUTES = {
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): synonym alias - the popular
   // vernacular name "saber-tooth tiger" for the same species (gate 4 dedup).
   '/saber-tooth-tiger.html': '/dinosaur-3d/smilodon.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for saurosuchus.
+  '/saurosuchus.html': '/dinosaur-3d/saurosuchus.html',
 
   // dinosaur-3d-discovery-loop-runbook fire123: albertosaurus alias.
   '/albertosaurus.html': '/dinosaur-3d/albertosaurus.html',
@@ -16305,6 +16307,11 @@ export const JSP_BY_ROUTE = {
   // canines. Model-first via ftol-vm-assets smilodon.glb (CC0, itch.io "Low
   // Poly Ice Age" pack by Riley - same pack as woolly-mammoth/ground-sloth).
   '/dinosaur-3d/smilodon.html': 'dinosaur/smilodon.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): Saurosuchus
+  // viewer - reuses the existing 'rauisuchian' archetype (shared with
+  // Postosuchus, fire146). Model-first via ftol-vm-assets saurosuchus.glb
+  // (CC-BY-SA 4.0, Printables "seth the yutyrannus", commit 366a370).
+  '/dinosaur-3d/saurosuchus.html': 'dinosaur/saurosuchus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
