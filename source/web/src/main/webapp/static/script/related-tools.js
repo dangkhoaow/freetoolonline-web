@@ -776,6 +776,7 @@ try {
     { title: "Password Strength Checker", url: "https://freetoolonline.com/developer-tools/password-strength-checker.html", include: !1, tags: "developer" },
     { title: "Lorem Ipsum Placeholder Text Generator", url: "https://freetoolonline.com/developer-tools/lorem-ipsum-generator.html", include: !1, tags: "developer" },
     { title: "Number Base Converter (Binary/Hex/Octal/Decimal)", url: "https://freetoolonline.com/developer-tools/number-base-converter.html", include: !1, tags: "developer" },
+    { title: "CSV to JSON Converter", url: "https://freetoolonline.com/developer-tools/csv-to-json-converter.html", include: !1, tags: "developer" },
     { title: "Compound Interest Calculator", url: "https://freetoolonline.com/utility-tools/compound-interest-calculator.html", include: !1, tags: "utility" },
     { title: "Video Speed Changer", url: "https://freetoolonline.com/video-tools/video-speed-changer.html", include: !1, tags: "video" },
   ],
