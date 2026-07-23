@@ -14,6 +14,25 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire371/fire372 prod mirror: number-base-converter EN + locale guides
+  '/guides/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/number-base-converter-vs-alternatives.html',
+  '/guides/pt/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/vi/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/de/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/pt/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/vi/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/de/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/pt/number-base-converter-vs-alternatives.html',
+  '/guides/es/number-base-converter-vs-alternatives.html',
+  '/guides/vi/number-base-converter-vs-alternatives.html',
+  '/guides/id/number-base-converter-vs-alternatives.html',
+  '/guides/de/number-base-converter-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire370 prod mirror: lorem-ipsum-generator EN + locale guides
   '/guides/lorem-ipsum-placeholder-text-generator-when.html',
   '/guides/pt/lorem-ipsum-placeholder-text-generator-when.html',
@@ -3385,6 +3404,25 @@ export const INFO_ROUTES = new Set([
   '/guides/id/wormhole-when.html',
   '/guides/id/wormhole-step-by-step.html',
   '/guides/id/wormhole-vs-alternatives.html',
+  // jwst-l2-halo-orbit companion guides (space-3d-discovery-loop LEAN fire, 2026-07-23)
+  '/guides/jwst-l2-halo-orbit-when.html',
+  '/guides/jwst-l2-halo-orbit-step-by-step.html',
+  '/guides/jwst-l2-halo-orbit-vs-alternatives.html',
+  '/guides/pt/jwst-l2-halo-orbit-when.html',
+  '/guides/pt/jwst-l2-halo-orbit-step-by-step.html',
+  '/guides/pt/jwst-l2-halo-orbit-vs-alternatives.html',
+  '/guides/es/jwst-l2-halo-orbit-when.html',
+  '/guides/es/jwst-l2-halo-orbit-step-by-step.html',
+  '/guides/es/jwst-l2-halo-orbit-vs-alternatives.html',
+  '/guides/de/jwst-l2-halo-orbit-when.html',
+  '/guides/de/jwst-l2-halo-orbit-step-by-step.html',
+  '/guides/de/jwst-l2-halo-orbit-vs-alternatives.html',
+  '/guides/vi/jwst-l2-halo-orbit-when.html',
+  '/guides/vi/jwst-l2-halo-orbit-step-by-step.html',
+  '/guides/vi/jwst-l2-halo-orbit-vs-alternatives.html',
+  '/guides/id/jwst-l2-halo-orbit-when.html',
+  '/guides/id/jwst-l2-halo-orbit-step-by-step.html',
+  '/guides/id/jwst-l2-halo-orbit-vs-alternatives.html',
   '/guides/vi/jupiter-magnetosphere-vs-alternatives.html',
   '/guides/vi/light-cone-vs-alternatives.html',
   '/guides/vi/spacetime-curvature-vs-alternatives.html',
@@ -5136,6 +5174,25 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire371/fire372 prod mirror: number-base-converter guides
+  '/guides/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/number-base-converter-vs-alternatives.html',
+  '/guides/pt/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/vi/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/de/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/pt/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/vi/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/de/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/pt/number-base-converter-vs-alternatives.html',
+  '/guides/es/number-base-converter-vs-alternatives.html',
+  '/guides/vi/number-base-converter-vs-alternatives.html',
+  '/guides/id/number-base-converter-vs-alternatives.html',
+  '/guides/de/number-base-converter-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire370 prod mirror: lorem-ipsum-generator guides
   '/guides/lorem-ipsum-placeholder-text-generator-when.html',
   '/guides/pt/lorem-ipsum-placeholder-text-generator-when.html',
@@ -11686,6 +11743,8 @@ export const ALIAS_ROUTES = {
   '/placodus.html': '/dinosaur-3d/placodus.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): flat-slug alias for beipiaosaurus.
   '/beipiaosaurus.html': '/dinosaur-3d/beipiaosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): flat-slug alias for dunkleosteus.
+  '/dunkleosteus.html': '/dinosaur-3d/dunkleosteus.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): synonym alias - the "megatherium"
   // backlog candidate is the same species as the already-shipped ground-sloth page (Megatherium
   // americanum). Captures the scientific-name search term without shipping a duplicate page (gate 4).
@@ -11818,6 +11877,7 @@ export const ALIAS_ROUTES = {
   '/kepler-orbits.html': '/space-3d/kepler-orbits.html',
   '/moon-calendar-3d.html': '/space-3d/moon-calendar-3d.html',
   '/iss-orbit-tracker.html': '/space-3d/iss-orbit-tracker.html',
+  '/jwst-l2-halo-orbit.html': '/space-3d/jwst-l2-halo-orbit.html',
   '/lunar-eclipse.html': '/space-3d/lunar-eclipse.html',
   '/solar-eclipse.html': '/space-3d/solar-eclipse.html',
   '/planet-size-comparison.html': '/space-3d/planet-size-comparison.html',
@@ -12032,6 +12092,7 @@ export const ALIAS_ROUTES = {
   '/password-strength-checker.html': '/developer-tools/password-strength-checker.html',
   '/video-speed-changer.html': '/video-tools/video-speed-changer.html',
   '/lorem-ipsum-generator.html': '/developer-tools/lorem-ipsum-generator.html',
+  '/number-base-converter.html': '/developer-tools/number-base-converter.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -15787,6 +15848,11 @@ export const JSP_BY_ROUTE = {
   // theropod archetype (feats.longArms), model-first via ftol-vm-assets
   // beipiaosaurus.glb (CC-BY-SA 4.0, DragonArtist15/Printables), render-verified.
   '/dinosaur-3d/beipiaosaurus.html': 'dinosaur/beipiaosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): Dunkleosteus viewer -
+  // marine archetype (armored Devonian placoderm fish, not a dinosaur), model-first
+  // via ftol-vm-assets dunkleosteus.glb (CC-BY, StormCrow13/Printables) - raw STL was
+  // Z-up, rotation baked into the exported geometry, render-verified.
+  '/dinosaur-3d/dunkleosteus.html': 'dinosaur/dunkleosteus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -18179,6 +18245,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/kepler-orbits.html': 'space/kepler-orbits.jsp',
   '/space-3d/moon-calendar-3d.html': 'space/moon-calendar-3d.jsp',
   '/space-3d/iss-orbit-tracker.html': 'space/iss-orbit-tracker.jsp',
+  '/space-3d/jwst-l2-halo-orbit.html': 'space/jwst-l2-halo-orbit.jsp',
   '/space-3d/lunar-eclipse.html': 'space/lunar-eclipse.jsp',
   '/space-3d/solar-eclipse.html': 'space/solar-eclipse.jsp',
   '/space-3d/planet-size-comparison.html': 'space/planet-size-comparison.jsp',
@@ -19829,6 +19896,24 @@ export const JSP_BY_ROUTE = {
   '/guides/id/wormhole-when.html': 'guide/id/wormhole-when.jsp',
   '/guides/id/wormhole-step-by-step.html': 'guide/id/wormhole-step-by-step.jsp',
   '/guides/id/wormhole-vs-alternatives.html': 'guide/id/wormhole-vs-alternatives.jsp',
+  '/guides/jwst-l2-halo-orbit-when.html': 'guide/jwst-l2-halo-orbit-when.jsp',
+  '/guides/jwst-l2-halo-orbit-step-by-step.html': 'guide/jwst-l2-halo-orbit-step-by-step.jsp',
+  '/guides/jwst-l2-halo-orbit-vs-alternatives.html': 'guide/jwst-l2-halo-orbit-vs-alternatives.jsp',
+  '/guides/pt/jwst-l2-halo-orbit-when.html': 'guide/pt/jwst-l2-halo-orbit-when.jsp',
+  '/guides/pt/jwst-l2-halo-orbit-step-by-step.html': 'guide/pt/jwst-l2-halo-orbit-step-by-step.jsp',
+  '/guides/pt/jwst-l2-halo-orbit-vs-alternatives.html': 'guide/pt/jwst-l2-halo-orbit-vs-alternatives.jsp',
+  '/guides/es/jwst-l2-halo-orbit-when.html': 'guide/es/jwst-l2-halo-orbit-when.jsp',
+  '/guides/es/jwst-l2-halo-orbit-step-by-step.html': 'guide/es/jwst-l2-halo-orbit-step-by-step.jsp',
+  '/guides/es/jwst-l2-halo-orbit-vs-alternatives.html': 'guide/es/jwst-l2-halo-orbit-vs-alternatives.jsp',
+  '/guides/de/jwst-l2-halo-orbit-when.html': 'guide/de/jwst-l2-halo-orbit-when.jsp',
+  '/guides/de/jwst-l2-halo-orbit-step-by-step.html': 'guide/de/jwst-l2-halo-orbit-step-by-step.jsp',
+  '/guides/de/jwst-l2-halo-orbit-vs-alternatives.html': 'guide/de/jwst-l2-halo-orbit-vs-alternatives.jsp',
+  '/guides/vi/jwst-l2-halo-orbit-when.html': 'guide/vi/jwst-l2-halo-orbit-when.jsp',
+  '/guides/vi/jwst-l2-halo-orbit-step-by-step.html': 'guide/vi/jwst-l2-halo-orbit-step-by-step.jsp',
+  '/guides/vi/jwst-l2-halo-orbit-vs-alternatives.html': 'guide/vi/jwst-l2-halo-orbit-vs-alternatives.jsp',
+  '/guides/id/jwst-l2-halo-orbit-when.html': 'guide/id/jwst-l2-halo-orbit-when.jsp',
+  '/guides/id/jwst-l2-halo-orbit-step-by-step.html': 'guide/id/jwst-l2-halo-orbit-step-by-step.jsp',
+  '/guides/id/jwst-l2-halo-orbit-vs-alternatives.html': 'guide/id/jwst-l2-halo-orbit-vs-alternatives.jsp',
   '/guides/id/kuiper-belt-oort-cloud-when.html': 'guide/id/kuiper-belt-oort-cloud-when.jsp',
   '/guides/id/jupiter-magnetosphere-when.html': 'guide/id/jupiter-magnetosphere-when.jsp',
   '/guides/id/light-cone-when.html': 'guide/id/light-cone-when.jsp',
@@ -22292,6 +22377,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/password-strength-checker-vs-alternatives.html': 'guide/de/password-strength-checker-vs-alternatives.jsp',
   // new-tool-discovery-loop-runbook fire370 prod mirror: lorem-ipsum-generator + guides
   '/developer-tools/lorem-ipsum-generator.html': 'utility/lorem-ipsum-generator.jsp',
+  '/developer-tools/number-base-converter.html': 'utility/number-base-converter.jsp',
+  '/guides/number-base-converter-binary-hex-octal-decimal-when.html': 'guide/number-base-converter-binary-hex-octal-decimal-when.jsp',
+  '/guides/number-base-converter-binary-hex-octal-decimal-step-by-step.html': 'guide/number-base-converter-binary-hex-octal-decimal-step-by-step.jsp',
+  '/guides/number-base-converter-vs-alternatives.html': 'guide/number-base-converter-vs-alternatives.jsp',
+  '/guides/pt/number-base-converter-binary-hex-octal-decimal-when.html': 'guide/pt/number-base-converter-binary-hex-octal-decimal-when.jsp',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-when.html': 'guide/es/number-base-converter-binary-hex-octal-decimal-when.jsp',
+  '/guides/vi/number-base-converter-binary-hex-octal-decimal-when.html': 'guide/vi/number-base-converter-binary-hex-octal-decimal-when.jsp',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-when.html': 'guide/id/number-base-converter-binary-hex-octal-decimal-when.jsp',
+  '/guides/de/number-base-converter-binary-hex-octal-decimal-when.html': 'guide/de/number-base-converter-binary-hex-octal-decimal-when.jsp',
+  '/guides/pt/number-base-converter-binary-hex-octal-decimal-step-by-step.html': 'guide/pt/number-base-converter-binary-hex-octal-decimal-step-by-step.jsp',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-step-by-step.html': 'guide/es/number-base-converter-binary-hex-octal-decimal-step-by-step.jsp',
+  '/guides/vi/number-base-converter-binary-hex-octal-decimal-step-by-step.html': 'guide/vi/number-base-converter-binary-hex-octal-decimal-step-by-step.jsp',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-step-by-step.html': 'guide/id/number-base-converter-binary-hex-octal-decimal-step-by-step.jsp',
+  '/guides/de/number-base-converter-binary-hex-octal-decimal-step-by-step.html': 'guide/de/number-base-converter-binary-hex-octal-decimal-step-by-step.jsp',
+  '/guides/pt/number-base-converter-vs-alternatives.html': 'guide/pt/number-base-converter-vs-alternatives.jsp',
+  '/guides/es/number-base-converter-vs-alternatives.html': 'guide/es/number-base-converter-vs-alternatives.jsp',
+  '/guides/vi/number-base-converter-vs-alternatives.html': 'guide/vi/number-base-converter-vs-alternatives.jsp',
+  '/guides/id/number-base-converter-vs-alternatives.html': 'guide/id/number-base-converter-vs-alternatives.jsp',
+  '/guides/de/number-base-converter-vs-alternatives.html': 'guide/de/number-base-converter-vs-alternatives.jsp',
   '/guides/lorem-ipsum-placeholder-text-generator-when.html': 'guide/lorem-ipsum-placeholder-text-generator-when.jsp',
   '/guides/pt/lorem-ipsum-placeholder-text-generator-when.html': 'guide/pt/lorem-ipsum-placeholder-text-generator-when.jsp',
   '/guides/es/lorem-ipsum-placeholder-text-generator-when.html': 'guide/es/lorem-ipsum-placeholder-text-generator-when.jsp',
