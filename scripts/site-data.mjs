@@ -5323,6 +5323,24 @@ export const INFO_ROUTES = new Set([
   '/guides/de/chariklo-rings-when.html',
   '/guides/de/chariklo-rings-step-by-step.html',
   '/guides/de/chariklo-rings-vs-alternatives.html',
+  '/guides/barcode-generator-ean-upc-code128-vs-alternatives.html',
+  '/guides/de/barcode-generator-ean-upc-code128-vs-alternatives.html',
+  '/guides/id/barcode-generator-ean-upc-code128-vs-alternatives.html',
+  '/guides/vi/barcode-generator-ean-upc-code128-vs-alternatives.html',
+  '/guides/es/barcode-generator-ean-upc-code128-vs-alternatives.html',
+  '/guides/pt/barcode-generator-ean-upc-code128-vs-alternatives.html',
+  '/guides/barcode-generator-ean-upc-code128-step-by-step.html',
+  '/guides/de/barcode-generator-ean-upc-code128-step-by-step.html',
+  '/guides/id/barcode-generator-ean-upc-code128-step-by-step.html',
+  '/guides/vi/barcode-generator-ean-upc-code128-step-by-step.html',
+  '/guides/es/barcode-generator-ean-upc-code128-step-by-step.html',
+  '/guides/pt/barcode-generator-ean-upc-code128-step-by-step.html',
+  '/guides/barcode-generator-ean-upc-code128-when.html',
+  '/guides/de/barcode-generator-ean-upc-code128-when.html',
+  '/guides/id/barcode-generator-ean-upc-code128-when.html',
+  '/guides/vi/barcode-generator-ean-upc-code128-when.html',
+  '/guides/es/barcode-generator-ean-upc-code128-when.html',
+  '/guides/pt/barcode-generator-ean-upc-code128-when.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -12424,6 +12442,7 @@ export const ALIAS_ROUTES = {
   '/number-base-converter.html': '/developer-tools/number-base-converter.html',
   '/roman-numeral-converter.html': '/utility-tools/roman-numeral-converter.html',
   '/yaml-to-json-converter.html': '/developer-tools/yaml-to-json-converter.html',
+  '/barcode-generator.html': '/utility-tools/barcode-generator.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -22941,6 +22960,25 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/roman-numeral-converter-vs-alternatives.html': 'guide/vi/roman-numeral-converter-vs-alternatives.jsp',
   '/guides/es/roman-numeral-converter-vs-alternatives.html': 'guide/es/roman-numeral-converter-vs-alternatives.jsp',
   '/guides/pt/roman-numeral-converter-vs-alternatives.html': 'guide/pt/roman-numeral-converter-vs-alternatives.jsp',
+  '/utility-tools/barcode-generator.html': 'utility/barcode-generator.jsp',
+  '/guides/barcode-generator-ean-upc-code128-when.html': 'guide/barcode-generator-ean-upc-code128-when.jsp',
+  '/guides/de/barcode-generator-ean-upc-code128-when.html': 'guide/de/barcode-generator-ean-upc-code128-when.jsp',
+  '/guides/id/barcode-generator-ean-upc-code128-when.html': 'guide/id/barcode-generator-ean-upc-code128-when.jsp',
+  '/guides/vi/barcode-generator-ean-upc-code128-when.html': 'guide/vi/barcode-generator-ean-upc-code128-when.jsp',
+  '/guides/es/barcode-generator-ean-upc-code128-when.html': 'guide/es/barcode-generator-ean-upc-code128-when.jsp',
+  '/guides/pt/barcode-generator-ean-upc-code128-when.html': 'guide/pt/barcode-generator-ean-upc-code128-when.jsp',
+  '/guides/barcode-generator-ean-upc-code128-step-by-step.html': 'guide/barcode-generator-ean-upc-code128-step-by-step.jsp',
+  '/guides/de/barcode-generator-ean-upc-code128-step-by-step.html': 'guide/de/barcode-generator-ean-upc-code128-step-by-step.jsp',
+  '/guides/id/barcode-generator-ean-upc-code128-step-by-step.html': 'guide/id/barcode-generator-ean-upc-code128-step-by-step.jsp',
+  '/guides/vi/barcode-generator-ean-upc-code128-step-by-step.html': 'guide/vi/barcode-generator-ean-upc-code128-step-by-step.jsp',
+  '/guides/es/barcode-generator-ean-upc-code128-step-by-step.html': 'guide/es/barcode-generator-ean-upc-code128-step-by-step.jsp',
+  '/guides/pt/barcode-generator-ean-upc-code128-step-by-step.html': 'guide/pt/barcode-generator-ean-upc-code128-step-by-step.jsp',
+  '/guides/barcode-generator-ean-upc-code128-vs-alternatives.html': 'guide/barcode-generator-ean-upc-code128-vs-alternatives.jsp',
+  '/guides/de/barcode-generator-ean-upc-code128-vs-alternatives.html': 'guide/de/barcode-generator-ean-upc-code128-vs-alternatives.jsp',
+  '/guides/id/barcode-generator-ean-upc-code128-vs-alternatives.html': 'guide/id/barcode-generator-ean-upc-code128-vs-alternatives.jsp',
+  '/guides/vi/barcode-generator-ean-upc-code128-vs-alternatives.html': 'guide/vi/barcode-generator-ean-upc-code128-vs-alternatives.jsp',
+  '/guides/es/barcode-generator-ean-upc-code128-vs-alternatives.html': 'guide/es/barcode-generator-ean-upc-code128-vs-alternatives.jsp',
+  '/guides/pt/barcode-generator-ean-upc-code128-vs-alternatives.html': 'guide/pt/barcode-generator-ean-upc-code128-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
