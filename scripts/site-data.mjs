@@ -12246,6 +12246,7 @@ export const ALIAS_ROUTES = {
   '/lorem-ipsum-generator.html': '/developer-tools/lorem-ipsum-generator.html',
   '/number-base-converter.html': '/developer-tools/number-base-converter.html',
   '/roman-numeral-converter.html': '/utility-tools/roman-numeral-converter.html',
+  '/yaml-to-json-converter.html': '/developer-tools/yaml-to-json-converter.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -22633,6 +22634,7 @@ export const JSP_BY_ROUTE = {
   '/guides/de/fast-radio-bursts-when.html': 'guide/de/fast-radio-bursts-when.jsp',
   '/guides/de/fast-radio-bursts-vs-alternatives.html': 'guide/de/fast-radio-bursts-vs-alternatives.jsp',
   '/utility-tools/roman-numeral-converter.html': 'utility/roman-numeral-converter.jsp',
+  '/developer-tools/yaml-to-json-converter.html': 'utility/yaml-to-json-converter.jsp',
   '/guides/roman-numeral-converter-when.html': 'guide/roman-numeral-converter-when.jsp',
   '/guides/de/roman-numeral-converter-when.html': 'guide/de/roman-numeral-converter-when.jsp',
   '/guides/id/roman-numeral-converter-when.html': 'guide/id/roman-numeral-converter-when.jsp',

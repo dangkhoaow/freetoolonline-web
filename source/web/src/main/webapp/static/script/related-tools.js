@@ -781,6 +781,7 @@ try {
     { title: "CSV to JSON Converter", url: "https://freetoolonline.com/developer-tools/csv-to-json-converter.html", include: !1, tags: "developer" },
     { title: "Compound Interest Calculator", url: "https://freetoolonline.com/utility-tools/compound-interest-calculator.html", include: !1, tags: "utility" },
     { title: "Roman Numeral Converter", url: "https://freetoolonline.com/utility-tools/roman-numeral-converter.html", include: !1, tags: "utility" },
+    { title: "YAML to JSON Converter", url: "https://freetoolonline.com/developer-tools/yaml-to-json-converter.html", include: !1, tags: "developer" },
     { title: "Video Speed Changer", url: "https://freetoolonline.com/video-tools/video-speed-changer.html", include: !1, tags: "video" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
