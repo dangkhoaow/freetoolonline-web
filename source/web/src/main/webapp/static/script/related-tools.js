@@ -690,6 +690,7 @@ try {
     { title: "Dark Matter Rotation Curves 3D Explorer", url: "https://freetoolonline.com/space-3d/dark-matter-rotation-curves.html", include: !1, tags: "space-3d" },
     { title: "Axial Tilt Comparison 3D Explorer", url: "https://freetoolonline.com/space-3d/axial-tilt-comparison.html", include: !1, tags: "space-3d" },
     { title: "Milky Way - Andromeda Collision 3D Explorer", url: "https://freetoolonline.com/space-3d/andromeda-collision.html", include: !1, tags: "space-3d" },
+    { title: "Europa Subsurface Ocean 3D Explorer", url: "https://freetoolonline.com/space-3d/europa-subsurface-ocean.html", include: !1, tags: "space-3d" },
     { title: "Geocentric vs Heliocentric 3D Explorer", url: "https://freetoolonline.com/space-3d/geocentric-vs-heliocentric.html", include: !1, tags: "space-3d" },
     { title: "Magnetar 3D Explorer", url: "https://freetoolonline.com/space-3d/magnetar.html", include: !1, tags: "space-3d" },
     { title: "Globular Star Swarm 3D Explorer", url: "https://freetoolonline.com/space-3d/globular-cluster.html", include: !1, tags: "space-3d" },
