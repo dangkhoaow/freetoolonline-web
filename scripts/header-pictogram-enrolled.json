@@ -102,6 +102,7 @@
     "cryolophosaurus",
     "cssboxshadowgenerator",
     "cssgradientgenerator",
+    "cssgridgenerator",
     "cssminifier",
     "cssunminifier",
     "csvtojsonconverter",
