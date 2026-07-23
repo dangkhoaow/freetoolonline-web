@@ -725,6 +725,7 @@ try {
     { title: "Yarkovsky Effect 3D Explorer", url: "https://freetoolonline.com/space-3d/yarkovsky-effect.html", include: !1, tags: "space-3d" },
     { title: "Torino Impact Hazard Scale 3D Explorer", url: "https://freetoolonline.com/space-3d/torino-impact-hazard-scale.html", include: !1, tags: "space-3d" },
     { title: "Chariklo Rings 3D Explorer", url: "https://freetoolonline.com/space-3d/chariklo-rings.html", include: !1, tags: "space-3d" },
+    { title: "DART Asteroid Deflection 3D Explorer", url: "https://freetoolonline.com/space-3d/dart-asteroid-deflection.html", include: !1, tags: "space-3d" },
     { title: "Linux Online - Run Linux in Your Browser (Terminal & Desktop)", url: "https://freetoolonline.com/utility-tools/linux-online.html", include: !1, tags: "utility" },
     { title: "Retro FPS Online - Play a Classic Shooter in Your Browser (Freedoom)", url: "https://freetoolonline.com/games/retro-fps-online.html", include: !1, tags: "games" },
     // news-loop (2026-07-08): dated, source-cited updates. tags include the
