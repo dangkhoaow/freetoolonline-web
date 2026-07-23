@@ -720,6 +720,7 @@ try {
     { title: "Coronal Mass Ejection 3D Explorer", url: "https://freetoolonline.com/space-3d/coronal-mass-ejection.html", include: !1, tags: "space-3d" },
     { title: "Apollo Free-Return Trajectory 3D Explorer", url: "https://freetoolonline.com/space-3d/apollo-free-return-trajectory.html", include: !1, tags: "space-3d" },
     { title: "Solar Eclipse 3D Explorer", url: "https://freetoolonline.com/space-3d/solar-eclipse.html", include: !1, tags: "space-3d" },
+    { title: "Yarkovsky Effect 3D Explorer", url: "https://freetoolonline.com/space-3d/yarkovsky-effect.html", include: !1, tags: "space-3d" },
     { title: "Linux Online - Run Linux in Your Browser (Terminal & Desktop)", url: "https://freetoolonline.com/utility-tools/linux-online.html", include: !1, tags: "utility" },
     { title: "Retro FPS Online - Play a Classic Shooter in Your Browser (Freedoom)", url: "https://freetoolonline.com/games/retro-fps-online.html", include: !1, tags: "games" },
     // news-loop (2026-07-08): dated, source-cited updates. tags include the
