@@ -389,6 +389,7 @@ try {
     { title: "Estemmenosuchus 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/estemmenosuchus.html", include: !1, tags: "dinosaur-3d" },
     { title: "Placodus 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/placodus.html", include: !1, tags: "dinosaur-3d" },
     { title: "Beipiaosaurus 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/beipiaosaurus.html", include: !1, tags: "dinosaur-3d" },
+    { title: "Dunkleosteus 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/dunkleosteus.html", include: !1, tags: "dinosaur-3d" },
     { title: "Ceratosaurus 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/ceratosaurus.html", include: !1, tags: "dinosaur-3d" },
     { title: "Brontosaurus 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/brontosaurus.html", include: !1, tags: "dinosaur-3d" },
     { title: "Megalosaurus 3D Viewer", url: "https://freetoolonline.com/dinosaur-3d/megalosaurus.html", include: !1, tags: "dinosaur-3d" },

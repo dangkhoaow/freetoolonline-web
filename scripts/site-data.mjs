@@ -11743,6 +11743,8 @@ export const ALIAS_ROUTES = {
   '/placodus.html': '/dinosaur-3d/placodus.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): flat-slug alias for beipiaosaurus.
   '/beipiaosaurus.html': '/dinosaur-3d/beipiaosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): flat-slug alias for dunkleosteus.
+  '/dunkleosteus.html': '/dinosaur-3d/dunkleosteus.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): synonym alias - the "megatherium"
   // backlog candidate is the same species as the already-shipped ground-sloth page (Megatherium
   // americanum). Captures the scientific-name search term without shipping a duplicate page (gate 4).
@@ -15846,6 +15848,11 @@ export const JSP_BY_ROUTE = {
   // theropod archetype (feats.longArms), model-first via ftol-vm-assets
   // beipiaosaurus.glb (CC-BY-SA 4.0, DragonArtist15/Printables), render-verified.
   '/dinosaur-3d/beipiaosaurus.html': 'dinosaur/beipiaosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): Dunkleosteus viewer -
+  // marine archetype (armored Devonian placoderm fish, not a dinosaur), model-first
+  // via ftol-vm-assets dunkleosteus.glb (CC-BY, StormCrow13/Printables) - raw STL was
+  // Z-up, rotation baked into the exported geometry, render-verified.
+  '/dinosaur-3d/dunkleosteus.html': 'dinosaur/dunkleosteus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
