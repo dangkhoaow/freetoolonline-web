@@ -14,6 +14,25 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire371/fire372 prod mirror: number-base-converter EN + locale guides
+  '/guides/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/number-base-converter-vs-alternatives.html',
+  '/guides/pt/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/vi/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/de/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/pt/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/vi/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/de/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/pt/number-base-converter-vs-alternatives.html',
+  '/guides/es/number-base-converter-vs-alternatives.html',
+  '/guides/vi/number-base-converter-vs-alternatives.html',
+  '/guides/id/number-base-converter-vs-alternatives.html',
+  '/guides/de/number-base-converter-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire370 prod mirror: lorem-ipsum-generator EN + locale guides
   '/guides/lorem-ipsum-placeholder-text-generator-when.html',
   '/guides/pt/lorem-ipsum-placeholder-text-generator-when.html',
@@ -5136,6 +5155,25 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire371/fire372 prod mirror: number-base-converter guides
+  '/guides/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/number-base-converter-vs-alternatives.html',
+  '/guides/pt/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/vi/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/de/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/pt/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/vi/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/de/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/pt/number-base-converter-vs-alternatives.html',
+  '/guides/es/number-base-converter-vs-alternatives.html',
+  '/guides/vi/number-base-converter-vs-alternatives.html',
+  '/guides/id/number-base-converter-vs-alternatives.html',
+  '/guides/de/number-base-converter-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire370 prod mirror: lorem-ipsum-generator guides
   '/guides/lorem-ipsum-placeholder-text-generator-when.html',
   '/guides/pt/lorem-ipsum-placeholder-text-generator-when.html',
@@ -12031,6 +12069,7 @@ export const ALIAS_ROUTES = {
   '/password-strength-checker.html': '/developer-tools/password-strength-checker.html',
   '/video-speed-changer.html': '/video-tools/video-speed-changer.html',
   '/lorem-ipsum-generator.html': '/developer-tools/lorem-ipsum-generator.html',
+  '/number-base-converter.html': '/developer-tools/number-base-converter.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -22290,6 +22329,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/password-strength-checker-vs-alternatives.html': 'guide/de/password-strength-checker-vs-alternatives.jsp',
   // new-tool-discovery-loop-runbook fire370 prod mirror: lorem-ipsum-generator + guides
   '/developer-tools/lorem-ipsum-generator.html': 'utility/lorem-ipsum-generator.jsp',
+  '/developer-tools/number-base-converter.html': 'utility/number-base-converter.jsp',
+  '/guides/number-base-converter-binary-hex-octal-decimal-when.html': 'guide/number-base-converter-binary-hex-octal-decimal-when.jsp',
+  '/guides/number-base-converter-binary-hex-octal-decimal-step-by-step.html': 'guide/number-base-converter-binary-hex-octal-decimal-step-by-step.jsp',
+  '/guides/number-base-converter-vs-alternatives.html': 'guide/number-base-converter-vs-alternatives.jsp',
+  '/guides/pt/number-base-converter-binary-hex-octal-decimal-when.html': 'guide/pt/number-base-converter-binary-hex-octal-decimal-when.jsp',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-when.html': 'guide/es/number-base-converter-binary-hex-octal-decimal-when.jsp',
+  '/guides/vi/number-base-converter-binary-hex-octal-decimal-when.html': 'guide/vi/number-base-converter-binary-hex-octal-decimal-when.jsp',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-when.html': 'guide/id/number-base-converter-binary-hex-octal-decimal-when.jsp',
+  '/guides/de/number-base-converter-binary-hex-octal-decimal-when.html': 'guide/de/number-base-converter-binary-hex-octal-decimal-when.jsp',
+  '/guides/pt/number-base-converter-binary-hex-octal-decimal-step-by-step.html': 'guide/pt/number-base-converter-binary-hex-octal-decimal-step-by-step.jsp',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-step-by-step.html': 'guide/es/number-base-converter-binary-hex-octal-decimal-step-by-step.jsp',
+  '/guides/vi/number-base-converter-binary-hex-octal-decimal-step-by-step.html': 'guide/vi/number-base-converter-binary-hex-octal-decimal-step-by-step.jsp',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-step-by-step.html': 'guide/id/number-base-converter-binary-hex-octal-decimal-step-by-step.jsp',
+  '/guides/de/number-base-converter-binary-hex-octal-decimal-step-by-step.html': 'guide/de/number-base-converter-binary-hex-octal-decimal-step-by-step.jsp',
+  '/guides/pt/number-base-converter-vs-alternatives.html': 'guide/pt/number-base-converter-vs-alternatives.jsp',
+  '/guides/es/number-base-converter-vs-alternatives.html': 'guide/es/number-base-converter-vs-alternatives.jsp',
+  '/guides/vi/number-base-converter-vs-alternatives.html': 'guide/vi/number-base-converter-vs-alternatives.jsp',
+  '/guides/id/number-base-converter-vs-alternatives.html': 'guide/id/number-base-converter-vs-alternatives.jsp',
+  '/guides/de/number-base-converter-vs-alternatives.html': 'guide/de/number-base-converter-vs-alternatives.jsp',
   '/guides/lorem-ipsum-placeholder-text-generator-when.html': 'guide/lorem-ipsum-placeholder-text-generator-when.jsp',
   '/guides/pt/lorem-ipsum-placeholder-text-generator-when.html': 'guide/pt/lorem-ipsum-placeholder-text-generator-when.jsp',
   '/guides/es/lorem-ipsum-placeholder-text-generator-when.html': 'guide/es/lorem-ipsum-placeholder-text-generator-when.jsp',
