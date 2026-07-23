@@ -11608,6 +11608,8 @@ export const ALIAS_ROUTES = {
   '/styracosaurus.html': '/dinosaur-3d/styracosaurus.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): flat-slug alias for estemmenosuchus.
   '/estemmenosuchus.html': '/dinosaur-3d/estemmenosuchus.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): flat-slug alias for placodus.
+  '/placodus.html': '/dinosaur-3d/placodus.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): synonym alias - the "megatherium"
   // backlog candidate is the same species as the already-shipped ground-sloth page (Megatherium
   // americanum). Captures the scientific-name search term without shipping a duplicate page (gate 4).
@@ -15695,6 +15697,13 @@ export const JSP_BY_ROUTE = {
   // woolly-mammoth quadruped-mammal pattern; model-first via ftol-vm-assets
   // estemmenosuchus.glb, CC-BY 4.0 Printables (already Y-up, no pitch/yaw needed).
   '/dinosaur-3d/estemmenosuchus.html': 'dinosaur/estemmenosuchus.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-23): Placodus viewer -
+  // Triassic placodont marine reptile (not a dinosaur), stocky quadruped with
+  // shellfish-crushing teeth; ceratopsian-fallback archetype (empty feats, no
+  // frill/horns/armor) reused purely for the plain quadruped body shape;
+  // model-first via ftol-vm-assets placodus.glb, CC-BY 4.0 Printables (already
+  // correctly oriented, confirmed via bilateral symmetry test, no pitch/yaw needed).
+  '/dinosaur-3d/placodus.html': 'dinosaur/placodus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
