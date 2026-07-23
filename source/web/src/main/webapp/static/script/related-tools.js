@@ -761,6 +761,7 @@ try {
     { title: "Monitor Refresh Rate Test (Hz)", url: "https://freetoolonline.com/device-test-tools/monitor-refresh-rate-test.html", include: !1, tags: "device-test" },
     { title: "SQL Formatter & Beautifier", url: "https://freetoolonline.com/developer-tools/sql-formatter.html", include: !1, tags: "developer" },
     { title: "HTML Entity Encoder & Decoder", url: "https://freetoolonline.com/developer-tools/html-entity-encoder.html", include: !1, tags: "developer" },
+    { title: "Compound Interest Calculator", url: "https://freetoolonline.com/utility-tools/compound-interest-calculator.html", include: !1, tags: "utility" },
     { title: "Video Speed Changer", url: "https://freetoolonline.com/video-tools/video-speed-changer.html", include: !1, tags: "video" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
