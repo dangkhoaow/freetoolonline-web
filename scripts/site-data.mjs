@@ -14,6 +14,25 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire398 prod mirror: user-agent-parser EN + locale guides
+  '/guides/user-agent-parser-vs-alternatives.html',
+  '/guides/de/user-agent-parser-vs-alternatives.html',
+  '/guides/id/user-agent-parser-vs-alternatives.html',
+  '/guides/vi/user-agent-parser-vs-alternatives.html',
+  '/guides/es/user-agent-parser-vs-alternatives.html',
+  '/guides/pt/user-agent-parser-vs-alternatives.html',
+  '/guides/user-agent-parser-step-by-step.html',
+  '/guides/de/user-agent-parser-step-by-step.html',
+  '/guides/id/user-agent-parser-step-by-step.html',
+  '/guides/vi/user-agent-parser-step-by-step.html',
+  '/guides/es/user-agent-parser-step-by-step.html',
+  '/guides/pt/user-agent-parser-step-by-step.html',
+  '/guides/user-agent-parser-when.html',
+  '/guides/de/user-agent-parser-when.html',
+  '/guides/id/user-agent-parser-when.html',
+  '/guides/vi/user-agent-parser-when.html',
+  '/guides/es/user-agent-parser-when.html',
+  '/guides/pt/user-agent-parser-when.html',
   // new-tool-discovery-loop-runbook fire395 prod mirror: subnet-calculator EN guides
   '/guides/subnet-calculator-ipv4-cidr-vs-alternatives.html',
   '/guides/subnet-calculator-ipv4-cidr-step-by-step.html',
@@ -11763,6 +11782,7 @@ export const ALIAS_ROUTES = {
   '/css-grid-generator.html': '/developer-tools/css-grid-generator.html',
   '/aspect-ratio-calculator.html': '/utility-tools/aspect-ratio-calculator.html',
   '/subnet-calculator.html': '/utility-tools/subnet-calculator.html',
+  '/user-agent-parser.html': '/developer-tools/user-agent-parser.html',
   // 2026-07-21 P1#6 mixed-language merge (review/20260720): en-tree Indonesian-
   // slug guides 301 to their id/ twins - the id twin now WINS on clicks in all
   // three pairs (357v27, 112v71, 64v12; gsc_top_pages_guides 2026-06-23..07-18)
@@ -12972,6 +12992,26 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // new-tool-discovery-loop-runbook fire398 prod mirror: user-agent-parser (tool + EN + locale guides)
+  '/developer-tools/user-agent-parser.html': 'utility/user-agent-parser.jsp',
+  '/guides/user-agent-parser-when.html': 'guide/user-agent-parser-when.jsp',
+  '/guides/de/user-agent-parser-when.html': 'guide/de/user-agent-parser-when.jsp',
+  '/guides/id/user-agent-parser-when.html': 'guide/id/user-agent-parser-when.jsp',
+  '/guides/vi/user-agent-parser-when.html': 'guide/vi/user-agent-parser-when.jsp',
+  '/guides/es/user-agent-parser-when.html': 'guide/es/user-agent-parser-when.jsp',
+  '/guides/pt/user-agent-parser-when.html': 'guide/pt/user-agent-parser-when.jsp',
+  '/guides/user-agent-parser-step-by-step.html': 'guide/user-agent-parser-step-by-step.jsp',
+  '/guides/de/user-agent-parser-step-by-step.html': 'guide/de/user-agent-parser-step-by-step.jsp',
+  '/guides/id/user-agent-parser-step-by-step.html': 'guide/id/user-agent-parser-step-by-step.jsp',
+  '/guides/vi/user-agent-parser-step-by-step.html': 'guide/vi/user-agent-parser-step-by-step.jsp',
+  '/guides/es/user-agent-parser-step-by-step.html': 'guide/es/user-agent-parser-step-by-step.jsp',
+  '/guides/pt/user-agent-parser-step-by-step.html': 'guide/pt/user-agent-parser-step-by-step.jsp',
+  '/guides/user-agent-parser-vs-alternatives.html': 'guide/user-agent-parser-vs-alternatives.jsp',
+  '/guides/de/user-agent-parser-vs-alternatives.html': 'guide/de/user-agent-parser-vs-alternatives.jsp',
+  '/guides/id/user-agent-parser-vs-alternatives.html': 'guide/id/user-agent-parser-vs-alternatives.jsp',
+  '/guides/vi/user-agent-parser-vs-alternatives.html': 'guide/vi/user-agent-parser-vs-alternatives.jsp',
+  '/guides/es/user-agent-parser-vs-alternatives.html': 'guide/es/user-agent-parser-vs-alternatives.jsp',
+  '/guides/pt/user-agent-parser-vs-alternatives.html': 'guide/pt/user-agent-parser-vs-alternatives.jsp',
   // new-tool-discovery-loop-runbook fire395 prod mirror: subnet-calculator (tool + EN guides)
   '/utility-tools/subnet-calculator.html': 'utility/subnet-calculator.jsp',
   '/guides/subnet-calculator-ipv4-cidr-when.html': 'guide/subnet-calculator-ipv4-cidr-when.jsp',
