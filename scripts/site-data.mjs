@@ -12826,6 +12826,8 @@ export const ALIAS_ROUTES = {
   '/siberian-unicorn.html': '/dinosaur-3d/elasmotherium.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-25): flat-slug alias for austroraptor.
   '/austroraptor.html': '/dinosaur-3d/austroraptor.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-25): flat-slug alias for magyarosaurus.
+  '/magyarosaurus.html': '/dinosaur-3d/magyarosaurus.html',
 
   // dinosaur-3d-discovery-loop-runbook fire123: albertosaurus alias.
   '/albertosaurus.html': '/dinosaur-3d/albertosaurus.html',
@@ -17270,6 +17272,16 @@ export const JSP_BY_ROUTE = {
   // skull. Model-first via ftol-vm-assets austroraptor.glb (CC-BY-SA 4.0,
   // Printables "DragonArtist15"), sourced + vendored in a prior fire.
   '/dinosaur-3d/austroraptor.html': 'dinosaur/austroraptor.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-25): Magyarosaurus
+  // viewer - sauropod archetype (no new feature flag needed). Model-first via
+  // ftol-vm-assets magyarosaurus.glb (CC-BY 4.0, Printables "Pan Wolodyjowski"),
+  // sourced + vendored this fire; orientation solved via a two-step baked
+  // rotation (Y+90 then X+90) plus a manifest yaw=PI/2 correction found
+  // necessary after a live render probe (the exported model's length axis
+  // landed on glTF X, not Z, foreshortening it through the shared camera
+  // preset) - empirically verified via headless + network-mocked renders
+  // before shipping.
+  '/dinosaur-3d/magyarosaurus.html': 'dinosaur/magyarosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
