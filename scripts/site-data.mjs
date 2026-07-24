@@ -14,6 +14,25 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire390 prod mirror: scientific-calculator EN + locale guides (pt/es/vi/id/de x 3 angles)
+  '/guides/scientific-calculator-vs-alternatives.html',
+  '/guides/scientific-calculator-step-by-step.html',
+  '/guides/scientific-calculator-when.html',
+  '/guides/pt/scientific-calculator-when.html',
+  '/guides/es/scientific-calculator-when.html',
+  '/guides/vi/scientific-calculator-when.html',
+  '/guides/id/scientific-calculator-when.html',
+  '/guides/de/scientific-calculator-when.html',
+  '/guides/pt/scientific-calculator-step-by-step.html',
+  '/guides/es/scientific-calculator-step-by-step.html',
+  '/guides/vi/scientific-calculator-step-by-step.html',
+  '/guides/id/scientific-calculator-step-by-step.html',
+  '/guides/de/scientific-calculator-step-by-step.html',
+  '/guides/pt/scientific-calculator-vs-alternatives.html',
+  '/guides/es/scientific-calculator-vs-alternatives.html',
+  '/guides/vi/scientific-calculator-vs-alternatives.html',
+  '/guides/id/scientific-calculator-vs-alternatives.html',
+  '/guides/de/scientific-calculator-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire389 prod mirror: tdee-calorie-calculator EN + locale guides (pt/es/vi/id/de x 3 angles)
   '/guides/tdee-calorie-calculator-vs-alternatives.html',
   '/guides/tdee-calorie-calculator-step-by-step.html',
@@ -5546,6 +5565,25 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire390 prod mirror: scientific-calculator EN + locale guides (pt/es/vi/id/de x 3 angles)
+  '/guides/scientific-calculator-when.html',
+  '/guides/scientific-calculator-step-by-step.html',
+  '/guides/scientific-calculator-vs-alternatives.html',
+  '/guides/pt/scientific-calculator-when.html',
+  '/guides/es/scientific-calculator-when.html',
+  '/guides/vi/scientific-calculator-when.html',
+  '/guides/id/scientific-calculator-when.html',
+  '/guides/de/scientific-calculator-when.html',
+  '/guides/pt/scientific-calculator-step-by-step.html',
+  '/guides/es/scientific-calculator-step-by-step.html',
+  '/guides/vi/scientific-calculator-step-by-step.html',
+  '/guides/id/scientific-calculator-step-by-step.html',
+  '/guides/de/scientific-calculator-step-by-step.html',
+  '/guides/pt/scientific-calculator-vs-alternatives.html',
+  '/guides/es/scientific-calculator-vs-alternatives.html',
+  '/guides/vi/scientific-calculator-vs-alternatives.html',
+  '/guides/id/scientific-calculator-vs-alternatives.html',
+  '/guides/de/scientific-calculator-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire389 prod mirror: tdee-calorie-calculator EN + locale guides (pt/es/vi/id/de x 3 angles)
   '/guides/tdee-calorie-calculator-when.html',
   '/guides/tdee-calorie-calculator-step-by-step.html',
@@ -12825,6 +12863,26 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // new-tool-discovery-loop-runbook fire390 prod mirror: scientific-calculator (tool + EN + locale guides)
+  '/utility-tools/scientific-calculator.html': 'utility/scientific-calculator.jsp',
+  '/guides/scientific-calculator-when.html': 'guide/scientific-calculator-when.jsp',
+  '/guides/scientific-calculator-step-by-step.html': 'guide/scientific-calculator-step-by-step.jsp',
+  '/guides/scientific-calculator-vs-alternatives.html': 'guide/scientific-calculator-vs-alternatives.jsp',
+  '/guides/pt/scientific-calculator-when.html': 'guide/pt/scientific-calculator-when.jsp',
+  '/guides/es/scientific-calculator-when.html': 'guide/es/scientific-calculator-when.jsp',
+  '/guides/vi/scientific-calculator-when.html': 'guide/vi/scientific-calculator-when.jsp',
+  '/guides/id/scientific-calculator-when.html': 'guide/id/scientific-calculator-when.jsp',
+  '/guides/de/scientific-calculator-when.html': 'guide/de/scientific-calculator-when.jsp',
+  '/guides/pt/scientific-calculator-step-by-step.html': 'guide/pt/scientific-calculator-step-by-step.jsp',
+  '/guides/es/scientific-calculator-step-by-step.html': 'guide/es/scientific-calculator-step-by-step.jsp',
+  '/guides/vi/scientific-calculator-step-by-step.html': 'guide/vi/scientific-calculator-step-by-step.jsp',
+  '/guides/id/scientific-calculator-step-by-step.html': 'guide/id/scientific-calculator-step-by-step.jsp',
+  '/guides/de/scientific-calculator-step-by-step.html': 'guide/de/scientific-calculator-step-by-step.jsp',
+  '/guides/pt/scientific-calculator-vs-alternatives.html': 'guide/pt/scientific-calculator-vs-alternatives.jsp',
+  '/guides/es/scientific-calculator-vs-alternatives.html': 'guide/es/scientific-calculator-vs-alternatives.jsp',
+  '/guides/vi/scientific-calculator-vs-alternatives.html': 'guide/vi/scientific-calculator-vs-alternatives.jsp',
+  '/guides/id/scientific-calculator-vs-alternatives.html': 'guide/id/scientific-calculator-vs-alternatives.jsp',
+  '/guides/de/scientific-calculator-vs-alternatives.html': 'guide/de/scientific-calculator-vs-alternatives.jsp',
   // new-tool-discovery-loop-runbook fire389 prod mirror: tdee-calorie-calculator (tool + EN + locale guides)
   '/utility-tools/tdee-calorie-calculator.html': 'utility/tdee-calorie-calculator.jsp',
   '/guides/tdee-calorie-calculator-when.html': 'guide/tdee-calorie-calculator-when.jsp',
