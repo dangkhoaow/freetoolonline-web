@@ -12672,6 +12672,8 @@ export const ALIAS_ROUTES = {
   // (plus the popular nickname as a synonym alias, gate 4 dedup).
   '/elasmotherium.html': '/dinosaur-3d/elasmotherium.html',
   '/siberian-unicorn.html': '/dinosaur-3d/elasmotherium.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-25): flat-slug alias for austroraptor.
+  '/austroraptor.html': '/dinosaur-3d/austroraptor.html',
 
   // dinosaur-3d-discovery-loop-runbook fire123: albertosaurus alias.
   '/albertosaurus.html': '/dinosaur-3d/albertosaurus.html',
@@ -17066,6 +17068,15 @@ export const JSP_BY_ROUTE = {
   // Wolodyjowski") - new bare-STL conversion path (tools/stl2glb.py), +90deg
   // rotation about X empirically solved via 4 candidate render views.
   '/dinosaur-3d/elasmotherium.html': 'dinosaur/elasmotherium.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-25): Austroraptor
+  // viewer - raptor archetype with two additive feature flags authored this
+  // fire in this page's own d3dBuildDino copy: feats.tinyArms shortens the
+  // raptor arm (real forelimb ~46% of femur length, unusually short for a
+  // dromaeosaurid) and feats.longLowSkull reuses the marine long-snout/many-
+  // teeth head proportions for its long, low, conical-toothed piscivorous
+  // skull. Model-first via ftol-vm-assets austroraptor.glb (CC-BY-SA 4.0,
+  // Printables "DragonArtist15"), sourced + vendored in a prior fire.
+  '/dinosaur-3d/austroraptor.html': 'dinosaur/austroraptor.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
