@@ -550,6 +550,7 @@
     "unzipfile",
     "uranustilt",
     "urldecoder",
+    "useragentparser",
     "utahraptor",
     "utilitytools",
     "uuidgenerator",
@@ -602,6 +603,7 @@
     "ziptools",
     "zodiacallight",
     "greatredspotjupiter",
-    "olbersparadox"
+    "olbersparadox",
+    "ioplasmatorus"
   ]
 }
