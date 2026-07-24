@@ -12859,6 +12859,7 @@ export const ALIAS_ROUTES = {
   '/great-red-spot-jupiter.html': '/space-3d/great-red-spot-jupiter.html',
   '/photon-sphere-isco-explorer.html': '/space-3d/photon-sphere-isco-explorer.html',
   '/relativistic-jets-agn.html': '/space-3d/relativistic-jets-agn.html',
+  '/olbers-paradox.html': '/space-3d/olbers-paradox.html',
   '/proxima-centauri-system.html': '/space-3d/proxima-centauri-system.html',
   '/chariklo-rings.html': '/space-3d/chariklo-rings.html',
   '/dart-asteroid-deflection.html': '/space-3d/dart-asteroid-deflection.html',
@@ -19437,6 +19438,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/great-red-spot-jupiter.html': 'space/great-red-spot-jupiter.jsp',
   '/space-3d/photon-sphere-isco-explorer.html': 'space/photon-sphere-isco-explorer.jsp',
   '/space-3d/relativistic-jets-agn.html': 'space/relativistic-jets-agn.jsp',
+  '/space-3d/olbers-paradox.html': 'space/olbers-paradox.jsp',
   '/space-3d/proxima-centauri-system.html': 'space/proxima-centauri-system.jsp',
   // proxima-centauri-system companion guides (space-3d-discovery-loop LEAN fire, 2026-07-24)
   '/guides/proxima-centauri-system-step-by-step.html': 'guide/proxima-centauri-system-step-by-step.jsp',
