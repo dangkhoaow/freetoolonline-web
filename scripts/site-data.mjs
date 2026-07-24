@@ -14,6 +14,25 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire389 prod mirror: tdee-calorie-calculator EN + locale guides (pt/es/vi/id/de x 3 angles)
+  '/guides/tdee-calorie-calculator-vs-alternatives.html',
+  '/guides/tdee-calorie-calculator-step-by-step.html',
+  '/guides/tdee-calorie-calculator-when.html',
+  '/guides/pt/tdee-calorie-calculator-when.html',
+  '/guides/es/tdee-calorie-calculator-when.html',
+  '/guides/vi/tdee-calorie-calculator-when.html',
+  '/guides/id/tdee-calorie-calculator-when.html',
+  '/guides/de/tdee-calorie-calculator-when.html',
+  '/guides/pt/tdee-calorie-calculator-step-by-step.html',
+  '/guides/es/tdee-calorie-calculator-step-by-step.html',
+  '/guides/vi/tdee-calorie-calculator-step-by-step.html',
+  '/guides/id/tdee-calorie-calculator-step-by-step.html',
+  '/guides/de/tdee-calorie-calculator-step-by-step.html',
+  '/guides/pt/tdee-calorie-calculator-vs-alternatives.html',
+  '/guides/es/tdee-calorie-calculator-vs-alternatives.html',
+  '/guides/vi/tdee-calorie-calculator-vs-alternatives.html',
+  '/guides/id/tdee-calorie-calculator-vs-alternatives.html',
+  '/guides/de/tdee-calorie-calculator-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire385 prod mirror: css-box-shadow-generator EN + locale guides (pt/es/vi/id/de x 3 angles)
   '/guides/css-box-shadow-generator-when.html',
   '/guides/css-box-shadow-generator-step-by-step.html',
@@ -5509,6 +5528,25 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire389 prod mirror: tdee-calorie-calculator EN + locale guides (pt/es/vi/id/de x 3 angles)
+  '/guides/tdee-calorie-calculator-when.html',
+  '/guides/tdee-calorie-calculator-step-by-step.html',
+  '/guides/tdee-calorie-calculator-vs-alternatives.html',
+  '/guides/pt/tdee-calorie-calculator-when.html',
+  '/guides/es/tdee-calorie-calculator-when.html',
+  '/guides/vi/tdee-calorie-calculator-when.html',
+  '/guides/id/tdee-calorie-calculator-when.html',
+  '/guides/de/tdee-calorie-calculator-when.html',
+  '/guides/pt/tdee-calorie-calculator-step-by-step.html',
+  '/guides/es/tdee-calorie-calculator-step-by-step.html',
+  '/guides/vi/tdee-calorie-calculator-step-by-step.html',
+  '/guides/id/tdee-calorie-calculator-step-by-step.html',
+  '/guides/de/tdee-calorie-calculator-step-by-step.html',
+  '/guides/pt/tdee-calorie-calculator-vs-alternatives.html',
+  '/guides/es/tdee-calorie-calculator-vs-alternatives.html',
+  '/guides/vi/tdee-calorie-calculator-vs-alternatives.html',
+  '/guides/id/tdee-calorie-calculator-vs-alternatives.html',
+  '/guides/de/tdee-calorie-calculator-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire385 prod mirror: css-box-shadow-generator EN + locale guides (pt/es/vi/id/de x 3 angles)
   '/guides/css-box-shadow-generator-when.html',
   '/guides/css-box-shadow-generator-step-by-step.html',
@@ -11547,6 +11585,7 @@ export function isGuideRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  '/tdee-calorie-calculator.html': '/utility-tools/tdee-calorie-calculator.html',
   '/css-box-shadow-generator.html': '/developer-tools/css-box-shadow-generator.html',
   '/css-grid-generator.html': '/developer-tools/css-grid-generator.html',
   // 2026-07-21 P1#6 mixed-language merge (review/20260720): en-tree Indonesian-
@@ -12314,6 +12353,10 @@ export const ALIAS_ROUTES = {
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for saurosuchus.
   '/saurosuchus.html': '/dinosaur-3d/saurosuchus.html',
   '/anchiornis.html': '/dinosaur-3d/anchiornis.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for
+  // qianzhousaurus, plus the popular nickname as a synonym alias (gate 4 dedup).
+  '/qianzhousaurus.html': '/dinosaur-3d/qianzhousaurus.html',
+  '/pinocchio-rex.html': '/dinosaur-3d/qianzhousaurus.html',
 
   // dinosaur-3d-discovery-loop-runbook fire123: albertosaurus alias.
   '/albertosaurus.html': '/dinosaur-3d/albertosaurus.html',
@@ -12745,6 +12788,26 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // new-tool-discovery-loop-runbook fire389 prod mirror: tdee-calorie-calculator (tool + EN + locale guides)
+  '/utility-tools/tdee-calorie-calculator.html': 'utility/tdee-calorie-calculator.jsp',
+  '/guides/tdee-calorie-calculator-when.html': 'guide/tdee-calorie-calculator-when.jsp',
+  '/guides/tdee-calorie-calculator-step-by-step.html': 'guide/tdee-calorie-calculator-step-by-step.jsp',
+  '/guides/tdee-calorie-calculator-vs-alternatives.html': 'guide/tdee-calorie-calculator-vs-alternatives.jsp',
+  '/guides/pt/tdee-calorie-calculator-when.html': 'guide/pt/tdee-calorie-calculator-when.jsp',
+  '/guides/es/tdee-calorie-calculator-when.html': 'guide/es/tdee-calorie-calculator-when.jsp',
+  '/guides/vi/tdee-calorie-calculator-when.html': 'guide/vi/tdee-calorie-calculator-when.jsp',
+  '/guides/id/tdee-calorie-calculator-when.html': 'guide/id/tdee-calorie-calculator-when.jsp',
+  '/guides/de/tdee-calorie-calculator-when.html': 'guide/de/tdee-calorie-calculator-when.jsp',
+  '/guides/pt/tdee-calorie-calculator-step-by-step.html': 'guide/pt/tdee-calorie-calculator-step-by-step.jsp',
+  '/guides/es/tdee-calorie-calculator-step-by-step.html': 'guide/es/tdee-calorie-calculator-step-by-step.jsp',
+  '/guides/vi/tdee-calorie-calculator-step-by-step.html': 'guide/vi/tdee-calorie-calculator-step-by-step.jsp',
+  '/guides/id/tdee-calorie-calculator-step-by-step.html': 'guide/id/tdee-calorie-calculator-step-by-step.jsp',
+  '/guides/de/tdee-calorie-calculator-step-by-step.html': 'guide/de/tdee-calorie-calculator-step-by-step.jsp',
+  '/guides/pt/tdee-calorie-calculator-vs-alternatives.html': 'guide/pt/tdee-calorie-calculator-vs-alternatives.jsp',
+  '/guides/es/tdee-calorie-calculator-vs-alternatives.html': 'guide/es/tdee-calorie-calculator-vs-alternatives.jsp',
+  '/guides/vi/tdee-calorie-calculator-vs-alternatives.html': 'guide/vi/tdee-calorie-calculator-vs-alternatives.jsp',
+  '/guides/id/tdee-calorie-calculator-vs-alternatives.html': 'guide/id/tdee-calorie-calculator-vs-alternatives.jsp',
+  '/guides/de/tdee-calorie-calculator-vs-alternatives.html': 'guide/de/tdee-calorie-calculator-vs-alternatives.jsp',
   // new-tool-discovery-loop-runbook fire385 prod mirror: css-box-shadow-generator (tool + EN + locale guides)
   '/developer-tools/css-box-shadow-generator.html': 'utility/css-box-shadow-generator.jsp',
   '/guides/css-box-shadow-generator-when.html': 'guide/css-box-shadow-generator-when.jsp',
@@ -16547,6 +16610,13 @@ export const JSP_BY_ROUTE = {
   // (CC-BY-SA 4.0, Printables "seth the yutyrannus", commit 366a370).
   '/dinosaur-3d/saurosuchus.html': 'dinosaur/saurosuchus.jsp',
   '/dinosaur-3d/anchiornis.html': 'dinosaur/anchiornis.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): Qianzhousaurus
+  // viewer - theropod archetype (bigHead + tinyArms, same as tyrannosaurus-rex/
+  // albertosaurus/tarbosaurus), the long-snouted tyrannosaurid nicknamed
+  // "Pinocchio rex". Model-first via ftol-vm-assets qianzhousaurus.glb
+  // (CC-BY-SA 4.0, Printables "seth the yutyrannus", same trusted uploader as
+  // saurosuchus/postosuchus).
+  '/dinosaur-3d/qianzhousaurus.html': 'dinosaur/qianzhousaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
