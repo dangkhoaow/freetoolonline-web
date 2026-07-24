@@ -12592,6 +12592,10 @@ export const ALIAS_ROUTES = {
   '/mapusaurus.html': '/dinosaur-3d/mapusaurus.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for ophthalmosaurus.
   '/ophthalmosaurus.html': '/dinosaur-3d/ophthalmosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for elasmotherium
+  // (plus the popular nickname as a synonym alias, gate 4 dedup).
+  '/elasmotherium.html': '/dinosaur-3d/elasmotherium.html',
+  '/siberian-unicorn.html': '/dinosaur-3d/elasmotherium.html',
 
   // dinosaur-3d-discovery-loop-runbook fire123: albertosaurus alias.
   '/albertosaurus.html': '/dinosaur-3d/albertosaurus.html',
@@ -16937,6 +16941,15 @@ export const JSP_BY_ROUTE = {
   // decimation-blocked lead by dropping 152 tiny print-support components
   // before decimating, preserving the body + both eye bulges intact.
   '/dinosaur-3d/ophthalmosaurus.html': 'dinosaur/ophthalmosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): Elasmotherium
+  // viewer - new heavy-mammal archetype (quad body, single nasalBoss feat,
+  // additive branch in this page's own d3dBuildDino copy), the "Siberian
+  // unicorn" giant Pleistocene rhino - not a dinosaur, same category as the
+  // already-shipped woolly-mammoth/ground-sloth/smilodon/brontotherium. Model-
+  // first via ftol-vm-assets elasmotherium.glb (CC-BY 4.0, Printables "Pan
+  // Wolodyjowski") - new bare-STL conversion path (tools/stl2glb.py), +90deg
+  // rotation about X empirically solved via 4 candidate render views.
+  '/dinosaur-3d/elasmotherium.html': 'dinosaur/elasmotherium.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
