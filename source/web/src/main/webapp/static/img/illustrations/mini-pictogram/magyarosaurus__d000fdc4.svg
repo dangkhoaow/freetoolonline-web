@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg-minipictogram-d000fdc4-title svg-minipictogram-d000fdc4-desc">
+  <title id="svg-minipictogram-d000fdc4-title">View Magyarosaurus in 3D</title>
+  <desc id="svg-minipictogram-d000fdc4-desc">Rotate the dwarf sauropod, size it against a person, and read about its small island-dwarfed body and bony back armor.</desc>
+  <rect x="4" y="4" width="56" height="56" rx="12" ry="12" fill="#1C1C1E" aria-hidden="true"/>
+  <path d="M 15 44 Q 13 34 19 27 Q 24 20 30 17 L 38 12" fill="none" stroke="#FFFFFF" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"/>
+  <ellipse cx="27" cy="38" rx="12" ry="8" fill="none" stroke="#FFFFFF" stroke-width="2.3" aria-hidden="true"/>
+  <path d="M 15 43 Q 8 45 6 40" fill="none" stroke="#FFFFFF" stroke-width="2.3" stroke-linecap="round" aria-hidden="true"/>
+  <circle cx="38.5" cy="11.5" r="1.6" fill="#7DAFA3" aria-hidden="true"/>
+  <path d="M 19 31 L 21 34 L 19 37" fill="none" stroke="#7DAFA3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"/>
+  <path d="M 24 30 L 26 33 L 24 36" fill="none" stroke="#7DAFA3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"/>
+  <path d="M 29 30 L 31 33 L 29 36" fill="none" stroke="#7DAFA3" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"/>
+  <path d="M 44 34 L 47 39 L 44 44" fill="none" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"/>
+  <text x="32" y="57" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="7" font-weight="700" letter-spacing="0.5" fill="#FFFFFF">DWARF</text>
+</svg>
