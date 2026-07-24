@@ -14,6 +14,25 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire393 prod mirror: aspect-ratio-calculator EN + locale guides (pt/es/vi/id/de x 3 angles)
+  '/guides/aspect-ratio-calculator-vs-alternatives.html',
+  '/guides/de/aspect-ratio-calculator-vs-alternatives.html',
+  '/guides/id/aspect-ratio-calculator-vs-alternatives.html',
+  '/guides/vi/aspect-ratio-calculator-vs-alternatives.html',
+  '/guides/es/aspect-ratio-calculator-vs-alternatives.html',
+  '/guides/pt/aspect-ratio-calculator-vs-alternatives.html',
+  '/guides/aspect-ratio-calculator-step-by-step.html',
+  '/guides/de/aspect-ratio-calculator-step-by-step.html',
+  '/guides/id/aspect-ratio-calculator-step-by-step.html',
+  '/guides/vi/aspect-ratio-calculator-step-by-step.html',
+  '/guides/es/aspect-ratio-calculator-step-by-step.html',
+  '/guides/pt/aspect-ratio-calculator-step-by-step.html',
+  '/guides/aspect-ratio-calculator-when.html',
+  '/guides/de/aspect-ratio-calculator-when.html',
+  '/guides/id/aspect-ratio-calculator-when.html',
+  '/guides/vi/aspect-ratio-calculator-when.html',
+  '/guides/es/aspect-ratio-calculator-when.html',
+  '/guides/pt/aspect-ratio-calculator-when.html',
   // new-tool-discovery-loop-runbook fire390 prod mirror: scientific-calculator EN + locale guides (pt/es/vi/id/de x 3 angles)
   '/guides/scientific-calculator-vs-alternatives.html',
   '/guides/scientific-calculator-step-by-step.html',
@@ -11681,6 +11700,7 @@ export const ALIAS_ROUTES = {
   '/tdee-calorie-calculator.html': '/utility-tools/tdee-calorie-calculator.html',
   '/css-box-shadow-generator.html': '/developer-tools/css-box-shadow-generator.html',
   '/css-grid-generator.html': '/developer-tools/css-grid-generator.html',
+  '/aspect-ratio-calculator.html': '/utility-tools/aspect-ratio-calculator.html',
   // 2026-07-21 P1#6 mixed-language merge (review/20260720): en-tree Indonesian-
   // slug guides 301 to their id/ twins - the id twin now WINS on clicks in all
   // three pairs (357v27, 112v71, 64v12; gsc_top_pages_guides 2026-06-23..07-18)
@@ -12885,6 +12905,26 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // new-tool-discovery-loop-runbook fire393 prod mirror: aspect-ratio-calculator (tool + EN + locale guides)
+  '/utility-tools/aspect-ratio-calculator.html': 'utility/aspect-ratio-calculator.jsp',
+  '/guides/aspect-ratio-calculator-when.html': 'guide/aspect-ratio-calculator-when.jsp',
+  '/guides/de/aspect-ratio-calculator-when.html': 'guide/de/aspect-ratio-calculator-when.jsp',
+  '/guides/id/aspect-ratio-calculator-when.html': 'guide/id/aspect-ratio-calculator-when.jsp',
+  '/guides/vi/aspect-ratio-calculator-when.html': 'guide/vi/aspect-ratio-calculator-when.jsp',
+  '/guides/es/aspect-ratio-calculator-when.html': 'guide/es/aspect-ratio-calculator-when.jsp',
+  '/guides/pt/aspect-ratio-calculator-when.html': 'guide/pt/aspect-ratio-calculator-when.jsp',
+  '/guides/aspect-ratio-calculator-step-by-step.html': 'guide/aspect-ratio-calculator-step-by-step.jsp',
+  '/guides/de/aspect-ratio-calculator-step-by-step.html': 'guide/de/aspect-ratio-calculator-step-by-step.jsp',
+  '/guides/id/aspect-ratio-calculator-step-by-step.html': 'guide/id/aspect-ratio-calculator-step-by-step.jsp',
+  '/guides/vi/aspect-ratio-calculator-step-by-step.html': 'guide/vi/aspect-ratio-calculator-step-by-step.jsp',
+  '/guides/es/aspect-ratio-calculator-step-by-step.html': 'guide/es/aspect-ratio-calculator-step-by-step.jsp',
+  '/guides/pt/aspect-ratio-calculator-step-by-step.html': 'guide/pt/aspect-ratio-calculator-step-by-step.jsp',
+  '/guides/aspect-ratio-calculator-vs-alternatives.html': 'guide/aspect-ratio-calculator-vs-alternatives.jsp',
+  '/guides/de/aspect-ratio-calculator-vs-alternatives.html': 'guide/de/aspect-ratio-calculator-vs-alternatives.jsp',
+  '/guides/id/aspect-ratio-calculator-vs-alternatives.html': 'guide/id/aspect-ratio-calculator-vs-alternatives.jsp',
+  '/guides/vi/aspect-ratio-calculator-vs-alternatives.html': 'guide/vi/aspect-ratio-calculator-vs-alternatives.jsp',
+  '/guides/es/aspect-ratio-calculator-vs-alternatives.html': 'guide/es/aspect-ratio-calculator-vs-alternatives.jsp',
+  '/guides/pt/aspect-ratio-calculator-vs-alternatives.html': 'guide/pt/aspect-ratio-calculator-vs-alternatives.jsp',
   // new-tool-discovery-loop-runbook fire390 prod mirror: scientific-calculator (tool + EN + locale guides)
   '/utility-tools/scientific-calculator.html': 'utility/scientific-calculator.jsp',
   '/guides/scientific-calculator-when.html': 'guide/scientific-calculator-when.jsp',

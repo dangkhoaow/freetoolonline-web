@@ -802,6 +802,7 @@ try {
     { title: "CSS Box-Shadow Generator", url: "https://freetoolonline.com/developer-tools/css-box-shadow-generator.html", include: !1, tags: "developer" },
     { title: "CSS Grid Layout Generator", url: "https://freetoolonline.com/developer-tools/css-grid-generator.html", include: !1, tags: "developer" },
     { title: "Scientific Calculator", url: "https://freetoolonline.com/utility-tools/scientific-calculator.html", include: !1, tags: "utility" },
+    { title: "Aspect Ratio Calculator", url: "https://freetoolonline.com/utility-tools/aspect-ratio-calculator.html", include: !1, tags: "utility" },
     { title: "Video Speed Changer", url: "https://freetoolonline.com/video-tools/video-speed-changer.html", include: !1, tags: "video" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
