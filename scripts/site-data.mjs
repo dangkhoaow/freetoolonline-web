@@ -12314,6 +12314,10 @@ export const ALIAS_ROUTES = {
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for saurosuchus.
   '/saurosuchus.html': '/dinosaur-3d/saurosuchus.html',
   '/anchiornis.html': '/dinosaur-3d/anchiornis.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for
+  // qianzhousaurus, plus the popular nickname as a synonym alias (gate 4 dedup).
+  '/qianzhousaurus.html': '/dinosaur-3d/qianzhousaurus.html',
+  '/pinocchio-rex.html': '/dinosaur-3d/qianzhousaurus.html',
 
   // dinosaur-3d-discovery-loop-runbook fire123: albertosaurus alias.
   '/albertosaurus.html': '/dinosaur-3d/albertosaurus.html',
@@ -16547,6 +16551,13 @@ export const JSP_BY_ROUTE = {
   // (CC-BY-SA 4.0, Printables "seth the yutyrannus", commit 366a370).
   '/dinosaur-3d/saurosuchus.html': 'dinosaur/saurosuchus.jsp',
   '/dinosaur-3d/anchiornis.html': 'dinosaur/anchiornis.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): Qianzhousaurus
+  // viewer - theropod archetype (bigHead + tinyArms, same as tyrannosaurus-rex/
+  // albertosaurus/tarbosaurus), the long-snouted tyrannosaurid nicknamed
+  // "Pinocchio rex". Model-first via ftol-vm-assets qianzhousaurus.glb
+  // (CC-BY-SA 4.0, Printables "seth the yutyrannus", same trusted uploader as
+  // saurosuchus/postosuchus).
+  '/dinosaur-3d/qianzhousaurus.html': 'dinosaur/qianzhousaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
