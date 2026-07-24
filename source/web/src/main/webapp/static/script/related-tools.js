@@ -814,6 +814,7 @@ try {
     { title: "User Agent Parser", url: "https://freetoolonline.com/developer-tools/user-agent-parser.html", include: !1, tags: "developer" },
     { title: "Random Team Generator", url: "https://freetoolonline.com/utility-tools/random-team-generator.html", include: !1, tags: "utility" },
     { title: "Cron Expression Parser", url: "https://freetoolonline.com/developer-tools/cron-expression-parser.html", include: !1, tags: "developer" },
+    { title: "Signature Maker", url: "https://freetoolonline.com/image-tools/signature-maker.html", include: !1, tags: "image-editing" },
     { title: "Video Speed Changer", url: "https://freetoolonline.com/video-tools/video-speed-changer.html", include: !1, tags: "video" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
