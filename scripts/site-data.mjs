@@ -14,6 +14,26 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire402 prod mirror: random-team-group-generator
+  // guides (EN + pt/es/vi/id/de locale fanout).
+  '/guides/random-team-group-generator-when.html',
+  '/guides/random-team-group-generator-step-by-step.html',
+  '/guides/random-team-group-generator-vs-alternatives.html',
+  '/guides/pt/random-team-group-generator-when.html',
+  '/guides/pt/random-team-group-generator-step-by-step.html',
+  '/guides/pt/random-team-group-generator-vs-alternatives.html',
+  '/guides/es/random-team-group-generator-when.html',
+  '/guides/es/random-team-group-generator-step-by-step.html',
+  '/guides/es/random-team-group-generator-vs-alternatives.html',
+  '/guides/vi/random-team-group-generator-when.html',
+  '/guides/vi/random-team-group-generator-step-by-step.html',
+  '/guides/vi/random-team-group-generator-vs-alternatives.html',
+  '/guides/id/random-team-group-generator-when.html',
+  '/guides/id/random-team-group-generator-step-by-step.html',
+  '/guides/id/random-team-group-generator-vs-alternatives.html',
+  '/guides/de/random-team-group-generator-when.html',
+  '/guides/de/random-team-group-generator-step-by-step.html',
+  '/guides/de/random-team-group-generator-vs-alternatives.html',
   // new-tool-discovery-loop-runbook fire398 prod mirror: user-agent-parser EN + locale guides
   '/guides/user-agent-parser-vs-alternatives.html',
   '/guides/de/user-agent-parser-vs-alternatives.html',
@@ -11819,6 +11839,7 @@ export const ALIAS_ROUTES = {
   '/aspect-ratio-calculator.html': '/utility-tools/aspect-ratio-calculator.html',
   '/subnet-calculator.html': '/utility-tools/subnet-calculator.html',
   '/user-agent-parser.html': '/developer-tools/user-agent-parser.html',
+  '/random-team-generator.html': '/utility-tools/random-team-generator.html',
   // 2026-07-21 P1#6 mixed-language merge (review/20260720): en-tree Indonesian-
   // slug guides 301 to their id/ twins - the id twin now WINS on clicks in all
   // three pairs (357v27, 112v71, 64v12; gsc_top_pages_guides 2026-06-23..07-18)
@@ -13053,6 +13074,26 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/user-agent-parser-vs-alternatives.html': 'guide/vi/user-agent-parser-vs-alternatives.jsp',
   '/guides/es/user-agent-parser-vs-alternatives.html': 'guide/es/user-agent-parser-vs-alternatives.jsp',
   '/guides/pt/user-agent-parser-vs-alternatives.html': 'guide/pt/user-agent-parser-vs-alternatives.jsp',
+  // new-tool-discovery-loop-runbook fire402 prod mirror: random-team-generator (tool + 3 EN + 15 locale guides)
+  '/utility-tools/random-team-generator.html': 'utility/random-team-generator.jsp',
+  '/guides/random-team-group-generator-when.html': 'guide/random-team-group-generator-when.jsp',
+  '/guides/random-team-group-generator-step-by-step.html': 'guide/random-team-group-generator-step-by-step.jsp',
+  '/guides/random-team-group-generator-vs-alternatives.html': 'guide/random-team-group-generator-vs-alternatives.jsp',
+  '/guides/pt/random-team-group-generator-when.html': 'guide/pt/random-team-group-generator-when.jsp',
+  '/guides/pt/random-team-group-generator-step-by-step.html': 'guide/pt/random-team-group-generator-step-by-step.jsp',
+  '/guides/pt/random-team-group-generator-vs-alternatives.html': 'guide/pt/random-team-group-generator-vs-alternatives.jsp',
+  '/guides/es/random-team-group-generator-when.html': 'guide/es/random-team-group-generator-when.jsp',
+  '/guides/es/random-team-group-generator-step-by-step.html': 'guide/es/random-team-group-generator-step-by-step.jsp',
+  '/guides/es/random-team-group-generator-vs-alternatives.html': 'guide/es/random-team-group-generator-vs-alternatives.jsp',
+  '/guides/vi/random-team-group-generator-when.html': 'guide/vi/random-team-group-generator-when.jsp',
+  '/guides/vi/random-team-group-generator-step-by-step.html': 'guide/vi/random-team-group-generator-step-by-step.jsp',
+  '/guides/vi/random-team-group-generator-vs-alternatives.html': 'guide/vi/random-team-group-generator-vs-alternatives.jsp',
+  '/guides/id/random-team-group-generator-when.html': 'guide/id/random-team-group-generator-when.jsp',
+  '/guides/id/random-team-group-generator-step-by-step.html': 'guide/id/random-team-group-generator-step-by-step.jsp',
+  '/guides/id/random-team-group-generator-vs-alternatives.html': 'guide/id/random-team-group-generator-vs-alternatives.jsp',
+  '/guides/de/random-team-group-generator-when.html': 'guide/de/random-team-group-generator-when.jsp',
+  '/guides/de/random-team-group-generator-step-by-step.html': 'guide/de/random-team-group-generator-step-by-step.jsp',
+  '/guides/de/random-team-group-generator-vs-alternatives.html': 'guide/de/random-team-group-generator-vs-alternatives.jsp',
   // new-tool-discovery-loop-runbook fire395 prod mirror: subnet-calculator (tool + EN guides)
   '/utility-tools/subnet-calculator.html': 'utility/subnet-calculator.jsp',
   '/guides/subnet-calculator-ipv4-cidr-when.html': 'guide/subnet-calculator-ipv4-cidr-when.jsp',
