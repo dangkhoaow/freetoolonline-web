@@ -12450,6 +12450,8 @@ export const ALIAS_ROUTES = {
   // qianzhousaurus, plus the popular nickname as a synonym alias (gate 4 dedup).
   '/qianzhousaurus.html': '/dinosaur-3d/qianzhousaurus.html',
   '/pinocchio-rex.html': '/dinosaur-3d/qianzhousaurus.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for mapusaurus.
+  '/mapusaurus.html': '/dinosaur-3d/mapusaurus.html',
 
   // dinosaur-3d-discovery-loop-runbook fire123: albertosaurus alias.
   '/albertosaurus.html': '/dinosaur-3d/albertosaurus.html',
@@ -16732,6 +16734,12 @@ export const JSP_BY_ROUTE = {
   // (CC-BY-SA 4.0, Printables "seth the yutyrannus", same trusted uploader as
   // saurosuchus/postosuchus).
   '/dinosaur-3d/qianzhousaurus.html': 'dinosaur/qianzhousaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): Mapusaurus
+  // viewer - theropod archetype (bigHead, same as giganotosaurus), a pack-
+  // hunting carcharodontosaurid sibling of the already-shipped Giganotosaurus,
+  // known from a 7-9 individual bonebed. Model-first via ftol-vm-assets
+  // mapusaurus.glb (CC-BY-SA 4.0, Printables "seth the yutyrannus", commit 9e11585).
+  '/dinosaur-3d/mapusaurus.html': 'dinosaur/mapusaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
