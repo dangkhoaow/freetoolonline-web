@@ -14,6 +14,24 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/cron-expression-parser-vs-alternatives.html',
+  '/guides/de/cron-expression-parser-vs-alternatives.html',
+  '/guides/id/cron-expression-parser-vs-alternatives.html',
+  '/guides/vi/cron-expression-parser-vs-alternatives.html',
+  '/guides/es/cron-expression-parser-vs-alternatives.html',
+  '/guides/pt/cron-expression-parser-vs-alternatives.html',
+  '/guides/cron-expression-parser-step-by-step.html',
+  '/guides/de/cron-expression-parser-step-by-step.html',
+  '/guides/id/cron-expression-parser-step-by-step.html',
+  '/guides/vi/cron-expression-parser-step-by-step.html',
+  '/guides/es/cron-expression-parser-step-by-step.html',
+  '/guides/pt/cron-expression-parser-step-by-step.html',
+  '/guides/cron-expression-parser-when.html',
+  '/guides/de/cron-expression-parser-when.html',
+  '/guides/id/cron-expression-parser-when.html',
+  '/guides/vi/cron-expression-parser-when.html',
+  '/guides/es/cron-expression-parser-when.html',
+  '/guides/pt/cron-expression-parser-when.html',
   // new-tool-discovery-loop-runbook fire402 prod mirror: random-team-group-generator
   // guides (EN + pt/es/vi/id/de locale fanout).
   '/guides/random-team-group-generator-when.html',
@@ -11876,6 +11894,7 @@ export const ALIAS_ROUTES = {
   '/subnet-calculator.html': '/utility-tools/subnet-calculator.html',
   '/user-agent-parser.html': '/developer-tools/user-agent-parser.html',
   '/random-team-generator.html': '/utility-tools/random-team-generator.html',
+  '/cron-expression-parser.html': '/developer-tools/cron-expression-parser.html',
   // 2026-07-21 P1#6 mixed-language merge (review/20260720): en-tree Indonesian-
   // slug guides 301 to their id/ twins - the id twin now WINS on clicks in all
   // three pairs (357v27, 112v71, 64v12; gsc_top_pages_guides 2026-06-23..07-18)
@@ -13093,6 +13112,25 @@ export const ALIAS_ROUTES = {
 export const JSP_BY_ROUTE = {
   // new-tool-discovery-loop-runbook fire398 prod mirror: user-agent-parser (tool + EN + locale guides)
   '/developer-tools/user-agent-parser.html': 'utility/user-agent-parser.jsp',
+  '/developer-tools/cron-expression-parser.html': 'utility/cron-expression-parser.jsp',
+  '/guides/cron-expression-parser-when.html': 'guide/cron-expression-parser-when.jsp',
+  '/guides/de/cron-expression-parser-when.html': 'guide/de/cron-expression-parser-when.jsp',
+  '/guides/id/cron-expression-parser-when.html': 'guide/id/cron-expression-parser-when.jsp',
+  '/guides/vi/cron-expression-parser-when.html': 'guide/vi/cron-expression-parser-when.jsp',
+  '/guides/es/cron-expression-parser-when.html': 'guide/es/cron-expression-parser-when.jsp',
+  '/guides/pt/cron-expression-parser-when.html': 'guide/pt/cron-expression-parser-when.jsp',
+  '/guides/cron-expression-parser-step-by-step.html': 'guide/cron-expression-parser-step-by-step.jsp',
+  '/guides/de/cron-expression-parser-step-by-step.html': 'guide/de/cron-expression-parser-step-by-step.jsp',
+  '/guides/id/cron-expression-parser-step-by-step.html': 'guide/id/cron-expression-parser-step-by-step.jsp',
+  '/guides/vi/cron-expression-parser-step-by-step.html': 'guide/vi/cron-expression-parser-step-by-step.jsp',
+  '/guides/es/cron-expression-parser-step-by-step.html': 'guide/es/cron-expression-parser-step-by-step.jsp',
+  '/guides/pt/cron-expression-parser-step-by-step.html': 'guide/pt/cron-expression-parser-step-by-step.jsp',
+  '/guides/cron-expression-parser-vs-alternatives.html': 'guide/cron-expression-parser-vs-alternatives.jsp',
+  '/guides/de/cron-expression-parser-vs-alternatives.html': 'guide/de/cron-expression-parser-vs-alternatives.jsp',
+  '/guides/id/cron-expression-parser-vs-alternatives.html': 'guide/id/cron-expression-parser-vs-alternatives.jsp',
+  '/guides/vi/cron-expression-parser-vs-alternatives.html': 'guide/vi/cron-expression-parser-vs-alternatives.jsp',
+  '/guides/es/cron-expression-parser-vs-alternatives.html': 'guide/es/cron-expression-parser-vs-alternatives.jsp',
+  '/guides/pt/cron-expression-parser-vs-alternatives.html': 'guide/pt/cron-expression-parser-vs-alternatives.jsp',
   '/guides/user-agent-parser-when.html': 'guide/user-agent-parser-when.jsp',
   '/guides/de/user-agent-parser-when.html': 'guide/de/user-agent-parser-when.jsp',
   '/guides/id/user-agent-parser-when.html': 'guide/id/user-agent-parser-when.jsp',
