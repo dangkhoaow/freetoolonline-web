@@ -14,6 +14,10 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // new-tool-discovery-loop-runbook fire395 prod mirror: subnet-calculator EN guides
+  '/guides/subnet-calculator-ipv4-cidr-vs-alternatives.html',
+  '/guides/subnet-calculator-ipv4-cidr-step-by-step.html',
+  '/guides/subnet-calculator-ipv4-cidr-when.html',
   // new-tool-discovery-loop-runbook fire393 prod mirror: aspect-ratio-calculator EN + locale guides (pt/es/vi/id/de x 3 angles)
   '/guides/aspect-ratio-calculator-vs-alternatives.html',
   '/guides/de/aspect-ratio-calculator-vs-alternatives.html',
@@ -11739,6 +11743,7 @@ export const ALIAS_ROUTES = {
   '/css-box-shadow-generator.html': '/developer-tools/css-box-shadow-generator.html',
   '/css-grid-generator.html': '/developer-tools/css-grid-generator.html',
   '/aspect-ratio-calculator.html': '/utility-tools/aspect-ratio-calculator.html',
+  '/subnet-calculator.html': '/utility-tools/subnet-calculator.html',
   // 2026-07-21 P1#6 mixed-language merge (review/20260720): en-tree Indonesian-
   // slug guides 301 to their id/ twins - the id twin now WINS on clicks in all
   // three pairs (357v27, 112v71, 64v12; gsc_top_pages_guides 2026-06-23..07-18)
@@ -12510,6 +12515,8 @@ export const ALIAS_ROUTES = {
   '/pinocchio-rex.html': '/dinosaur-3d/qianzhousaurus.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for mapusaurus.
   '/mapusaurus.html': '/dinosaur-3d/mapusaurus.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for ophthalmosaurus.
+  '/ophthalmosaurus.html': '/dinosaur-3d/ophthalmosaurus.html',
 
   // dinosaur-3d-discovery-loop-runbook fire123: albertosaurus alias.
   '/albertosaurus.html': '/dinosaur-3d/albertosaurus.html',
@@ -12944,6 +12951,11 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // new-tool-discovery-loop-runbook fire395 prod mirror: subnet-calculator (tool + EN guides)
+  '/utility-tools/subnet-calculator.html': 'utility/subnet-calculator.jsp',
+  '/guides/subnet-calculator-ipv4-cidr-when.html': 'guide/subnet-calculator-ipv4-cidr-when.jsp',
+  '/guides/subnet-calculator-ipv4-cidr-step-by-step.html': 'guide/subnet-calculator-ipv4-cidr-step-by-step.jsp',
+  '/guides/subnet-calculator-ipv4-cidr-vs-alternatives.html': 'guide/subnet-calculator-ipv4-cidr-vs-alternatives.jsp',
   // new-tool-discovery-loop-runbook fire393 prod mirror: aspect-ratio-calculator (tool + EN + locale guides)
   '/utility-tools/aspect-ratio-calculator.html': 'utility/aspect-ratio-calculator.jsp',
   '/guides/aspect-ratio-calculator-when.html': 'guide/aspect-ratio-calculator-when.jsp',
@@ -16819,6 +16831,14 @@ export const JSP_BY_ROUTE = {
   // known from a 7-9 individual bonebed. Model-first via ftol-vm-assets
   // mapusaurus.glb (CC-BY-SA 4.0, Printables "seth the yutyrannus", commit 9e11585).
   '/dinosaur-3d/mapusaurus.html': 'dinosaur/mapusaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): Ophthalmosaurus
+  // viewer - marine archetype (dorsalFin feat, same code path as ichthyosaurus),
+  // a huge-eyed ichthyosaur distinguished by the largest eyes of any known
+  // vertebrate. Model-first via ftol-vm-assets ophthalmosaurus.glb (CC-BY 4.0,
+  // Printables "chrism1994", commit 00784ea) - resolved a prior fire's
+  // decimation-blocked lead by dropping 152 tiny print-support components
+  // before decimating, preserving the body + both eye bulges intact.
+  '/dinosaur-3d/ophthalmosaurus.html': 'dinosaur/ophthalmosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
