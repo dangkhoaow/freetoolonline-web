@@ -5887,6 +5887,10 @@ export const INFO_ROUTES = new Set([
   '/guides/de/voyager-interstellar-position-step-by-step.html',
   '/guides/de/voyager-interstellar-position-when.html',
   '/guides/de/voyager-interstellar-position-vs-alternatives.html',
+  // jpg-to-avif-converter companion guides (reconstructed - matches staging commit 0c1bc8a5ab)
+  '/guides/jpg-avif-converter-vs-alternatives.html',
+  '/guides/jpg-avif-converter-step-by-step.html',
+  '/guides/jpg-avif-converter-when.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -13359,6 +13363,7 @@ export const ALIAS_ROUTES = {
   '/bortle-scale-light-pollution.html': '/space-3d/bortle-scale-light-pollution.html',
   '/meteor-airburst-size-comparison.html': '/space-3d/meteor-airburst-size-comparison.html',
   '/mercury-spin-orbit-resonance.html': '/space-3d/mercury-spin-orbit-resonance.html',
+  '/jpg-to-avif-converter.html': '/image-converter-tools/jpg-to-avif-converter.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -24530,6 +24535,10 @@ export const JSP_BY_ROUTE = {
   '/guides/de/voyager-interstellar-position-step-by-step.html': 'guide/de/voyager-interstellar-position-step-by-step.jsp',
   '/guides/de/voyager-interstellar-position-when.html': 'guide/de/voyager-interstellar-position-when.jsp',
   '/guides/de/voyager-interstellar-position-vs-alternatives.html': 'guide/de/voyager-interstellar-position-vs-alternatives.jsp',
+  '/image-converter-tools/jpg-to-avif-converter.html': 'convert/jpg-to-avif-converter.jsp',
+  '/guides/jpg-avif-converter-when.html': 'guide/jpg-avif-converter-when.jsp',
+  '/guides/jpg-avif-converter-step-by-step.html': 'guide/jpg-avif-converter-step-by-step.jsp',
+  '/guides/jpg-avif-converter-vs-alternatives.html': 'guide/jpg-avif-converter-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
