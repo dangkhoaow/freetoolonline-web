@@ -818,6 +818,7 @@ try {
     { title: "Time Zone Converter", url: "https://freetoolonline.com/utility-tools/time-zone-converter.html", include: !1, tags: "utility" },
     { title: "Signature Maker", url: "https://freetoolonline.com/image-tools/signature-maker.html", include: !1, tags: "image-editing" },
     { title: "Meme Maker", url: "https://freetoolonline.com/image-tools/meme-maker.html", include: !1, tags: "image-editing" },
+    { title: "White Noise & Ambient Sound Generator", url: "https://freetoolonline.com/utility-tools/white-noise-generator.html", include: !1, tags: "utility" },
     { title: "Video Speed Changer", url: "https://freetoolonline.com/video-tools/video-speed-changer.html", include: !1, tags: "video" },
   ],
     currentTitle = $.trim($(".navPageName").text()),

@@ -12066,6 +12066,7 @@ export const ALIAS_ROUTES = {
   '/cron-expression-parser.html': '/developer-tools/cron-expression-parser.html',
   '/signature-maker.html': '/image-tools/signature-maker.html',
   '/meme-maker.html': '/image-tools/meme-maker.html',
+  '/white-noise-generator.html': '/utility-tools/white-noise-generator.html',
   // 2026-07-21 P1#6 mixed-language merge (review/20260720): en-tree Indonesian-
   // slug guides 301 to their id/ twins - the id twin now WINS on clicks in all
   // three pairs (357v27, 112v71, 64v12; gsc_top_pages_guides 2026-06-23..07-18)
@@ -13328,6 +13329,10 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/meme-maker-vs-alternatives.html': 'guide/vi/meme-maker-vs-alternatives.jsp',
   '/guides/es/meme-maker-vs-alternatives.html': 'guide/es/meme-maker-vs-alternatives.jsp',
   '/guides/pt/meme-maker-vs-alternatives.html': 'guide/pt/meme-maker-vs-alternatives.jsp',
+  // new-tool-discovery-loop-runbook fire414 prod mirror: white-noise-generator (tool only;
+  // EN + locale guides deferred to a future guide-support-drain fire per the
+  // fire411/413 precedent - see prompts/new-tool-discovery-loop-runbook/_ledger.json)
+  '/utility-tools/white-noise-generator.html': 'utility/white-noise-generator.jsp',
   // new-tool-discovery-loop-runbook fire398 prod mirror: user-agent-parser (tool + EN + locale guides)
   '/developer-tools/user-agent-parser.html': 'utility/user-agent-parser.jsp',
   '/developer-tools/cron-expression-parser.html': 'utility/cron-expression-parser.jsp',
