@@ -13358,6 +13358,7 @@ export const ALIAS_ROUTES = {
   '/barcode-generator.html': '/utility-tools/barcode-generator.html',
   '/bortle-scale-light-pollution.html': '/space-3d/bortle-scale-light-pollution.html',
   '/meteor-airburst-size-comparison.html': '/space-3d/meteor-airburst-size-comparison.html',
+  '/mercury-spin-orbit-resonance.html': '/space-3d/mercury-spin-orbit-resonance.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -24491,6 +24492,7 @@ export const JSP_BY_ROUTE = {
   '/guides/de/bortle-scale-light-pollution-when.html': 'guide/de/bortle-scale-light-pollution-when.jsp',
   '/guides/de/bortle-scale-light-pollution-vs-alternatives.html': 'guide/de/bortle-scale-light-pollution-vs-alternatives.jsp',
   '/space-3d/meteor-airburst-size-comparison.html': 'space/meteor-airburst-size-comparison.jsp',
+  '/space-3d/mercury-spin-orbit-resonance.html': 'space/mercury-spin-orbit-resonance.jsp',
   '/guides/meteor-airburst-size-comparison-step-by-step.html': 'guide/meteor-airburst-size-comparison-step-by-step.jsp',
   '/guides/meteor-airburst-size-comparison-when.html': 'guide/meteor-airburst-size-comparison-when.jsp',
   '/guides/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/meteor-airburst-size-comparison-vs-alternatives.jsp',
