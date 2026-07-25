@@ -13133,6 +13133,8 @@ export const ALIAS_ROUTES = {
   '/austroraptor.html': '/dinosaur-3d/austroraptor.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-25): flat-slug alias for magyarosaurus.
   '/magyarosaurus.html': '/dinosaur-3d/magyarosaurus.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-26): flat-slug alias for dacentrurus.
+  '/dacentrurus.html': '/dinosaur-3d/dacentrurus.html',
 
   // dinosaur-3d-discovery-loop-runbook fire123: albertosaurus alias.
   '/albertosaurus.html': '/dinosaur-3d/albertosaurus.html',
@@ -17645,6 +17647,15 @@ export const JSP_BY_ROUTE = {
   // preset) - empirically verified via headless + network-mocked renders
   // before shipping.
   '/dinosaur-3d/magyarosaurus.html': 'dinosaur/magyarosaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-26): Dacentrurus
+  // viewer - stegosaur archetype (plates + spikes, same branch as stegosaurus/
+  // kentrosaurus). Model-first via ftol-vm-assets dacentrurus.glb (CC-BY 4.0,
+  // Printables "Pan Wolodyjowski", non-remix GraphQL-confirmed), sourced +
+  // vendored the prior fire; rotation (0,0,0) verified correct on first render.
+  // Differentiator: first stegosaur described from a European skeleton;
+  // genuine size dispute (holotype ~7m vs commonly cited 8-9m/5-7.4t) cited
+  // as a range, not an invented single figure.
+  '/dinosaur-3d/dacentrurus.html': 'dinosaur/dacentrurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
