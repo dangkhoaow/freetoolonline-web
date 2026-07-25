@@ -5850,6 +5850,24 @@ export const INFO_ROUTES = new Set([
   '/guides/de/olympus-mons-mars-volcano-step-by-step.html',
   '/guides/de/olympus-mons-mars-volcano-when.html',
   '/guides/de/olympus-mons-mars-volcano-vs-alternatives.html',
+  '/guides/bortle-scale-light-pollution-step-by-step.html',
+  '/guides/bortle-scale-light-pollution-when.html',
+  '/guides/bortle-scale-light-pollution-vs-alternatives.html',
+  '/guides/pt/bortle-scale-light-pollution-step-by-step.html',
+  '/guides/pt/bortle-scale-light-pollution-when.html',
+  '/guides/pt/bortle-scale-light-pollution-vs-alternatives.html',
+  '/guides/es/bortle-scale-light-pollution-step-by-step.html',
+  '/guides/es/bortle-scale-light-pollution-when.html',
+  '/guides/es/bortle-scale-light-pollution-vs-alternatives.html',
+  '/guides/vi/bortle-scale-light-pollution-step-by-step.html',
+  '/guides/vi/bortle-scale-light-pollution-when.html',
+  '/guides/vi/bortle-scale-light-pollution-vs-alternatives.html',
+  '/guides/id/bortle-scale-light-pollution-step-by-step.html',
+  '/guides/id/bortle-scale-light-pollution-when.html',
+  '/guides/id/bortle-scale-light-pollution-vs-alternatives.html',
+  '/guides/de/bortle-scale-light-pollution-step-by-step.html',
+  '/guides/de/bortle-scale-light-pollution-when.html',
+  '/guides/de/bortle-scale-light-pollution-vs-alternatives.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -12064,6 +12082,24 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/olympus-mons-mars-volcano-step-by-step.html',
   '/guides/de/olympus-mons-mars-volcano-when.html',
   '/guides/de/olympus-mons-mars-volcano-vs-alternatives.html',
+  '/guides/bortle-scale-light-pollution-step-by-step.html',
+  '/guides/bortle-scale-light-pollution-when.html',
+  '/guides/bortle-scale-light-pollution-vs-alternatives.html',
+  '/guides/pt/bortle-scale-light-pollution-step-by-step.html',
+  '/guides/pt/bortle-scale-light-pollution-when.html',
+  '/guides/pt/bortle-scale-light-pollution-vs-alternatives.html',
+  '/guides/es/bortle-scale-light-pollution-step-by-step.html',
+  '/guides/es/bortle-scale-light-pollution-when.html',
+  '/guides/es/bortle-scale-light-pollution-vs-alternatives.html',
+  '/guides/vi/bortle-scale-light-pollution-step-by-step.html',
+  '/guides/vi/bortle-scale-light-pollution-when.html',
+  '/guides/vi/bortle-scale-light-pollution-vs-alternatives.html',
+  '/guides/id/bortle-scale-light-pollution-step-by-step.html',
+  '/guides/id/bortle-scale-light-pollution-when.html',
+  '/guides/id/bortle-scale-light-pollution-vs-alternatives.html',
+  '/guides/de/bortle-scale-light-pollution-step-by-step.html',
+  '/guides/de/bortle-scale-light-pollution-when.html',
+  '/guides/de/bortle-scale-light-pollution-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -13280,6 +13316,7 @@ export const ALIAS_ROUTES = {
   '/roman-numeral-converter.html': '/utility-tools/roman-numeral-converter.html',
   '/yaml-to-json-converter.html': '/developer-tools/yaml-to-json-converter.html',
   '/barcode-generator.html': '/utility-tools/barcode-generator.html',
+  '/bortle-scale-light-pollution.html': '/space-3d/bortle-scale-light-pollution.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -24385,6 +24422,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/solar-flare-classification-step-by-step.html': 'guide/de/solar-flare-classification-step-by-step.jsp',
   '/guides/de/solar-flare-classification-when.html': 'guide/de/solar-flare-classification-when.jsp',
   '/guides/de/solar-flare-classification-vs-alternatives.html': 'guide/de/solar-flare-classification-vs-alternatives.jsp',
+  '/space-3d/bortle-scale-light-pollution.html': 'space/bortle-scale-light-pollution.jsp',
+  '/guides/bortle-scale-light-pollution-step-by-step.html': 'guide/bortle-scale-light-pollution-step-by-step.jsp',
+  '/guides/bortle-scale-light-pollution-when.html': 'guide/bortle-scale-light-pollution-when.jsp',
+  '/guides/bortle-scale-light-pollution-vs-alternatives.html': 'guide/bortle-scale-light-pollution-vs-alternatives.jsp',
+  '/guides/pt/bortle-scale-light-pollution-step-by-step.html': 'guide/pt/bortle-scale-light-pollution-step-by-step.jsp',
+  '/guides/pt/bortle-scale-light-pollution-when.html': 'guide/pt/bortle-scale-light-pollution-when.jsp',
+  '/guides/pt/bortle-scale-light-pollution-vs-alternatives.html': 'guide/pt/bortle-scale-light-pollution-vs-alternatives.jsp',
+  '/guides/es/bortle-scale-light-pollution-step-by-step.html': 'guide/es/bortle-scale-light-pollution-step-by-step.jsp',
+  '/guides/es/bortle-scale-light-pollution-when.html': 'guide/es/bortle-scale-light-pollution-when.jsp',
+  '/guides/es/bortle-scale-light-pollution-vs-alternatives.html': 'guide/es/bortle-scale-light-pollution-vs-alternatives.jsp',
+  '/guides/vi/bortle-scale-light-pollution-step-by-step.html': 'guide/vi/bortle-scale-light-pollution-step-by-step.jsp',
+  '/guides/vi/bortle-scale-light-pollution-when.html': 'guide/vi/bortle-scale-light-pollution-when.jsp',
+  '/guides/vi/bortle-scale-light-pollution-vs-alternatives.html': 'guide/vi/bortle-scale-light-pollution-vs-alternatives.jsp',
+  '/guides/id/bortle-scale-light-pollution-step-by-step.html': 'guide/id/bortle-scale-light-pollution-step-by-step.jsp',
+  '/guides/id/bortle-scale-light-pollution-when.html': 'guide/id/bortle-scale-light-pollution-when.jsp',
+  '/guides/id/bortle-scale-light-pollution-vs-alternatives.html': 'guide/id/bortle-scale-light-pollution-vs-alternatives.jsp',
+  '/guides/de/bortle-scale-light-pollution-step-by-step.html': 'guide/de/bortle-scale-light-pollution-step-by-step.jsp',
+  '/guides/de/bortle-scale-light-pollution-when.html': 'guide/de/bortle-scale-light-pollution-when.jsp',
+  '/guides/de/bortle-scale-light-pollution-vs-alternatives.html': 'guide/de/bortle-scale-light-pollution-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
