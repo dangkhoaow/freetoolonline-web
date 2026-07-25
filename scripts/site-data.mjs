@@ -13319,6 +13319,7 @@ export const ALIAS_ROUTES = {
   '/yaml-to-json-converter.html': '/developer-tools/yaml-to-json-converter.html',
   '/barcode-generator.html': '/utility-tools/barcode-generator.html',
   '/bortle-scale-light-pollution.html': '/space-3d/bortle-scale-light-pollution.html',
+  '/meteor-airburst-size-comparison.html': '/space-3d/meteor-airburst-size-comparison.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -24451,6 +24452,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/bortle-scale-light-pollution-step-by-step.html': 'guide/de/bortle-scale-light-pollution-step-by-step.jsp',
   '/guides/de/bortle-scale-light-pollution-when.html': 'guide/de/bortle-scale-light-pollution-when.jsp',
   '/guides/de/bortle-scale-light-pollution-vs-alternatives.html': 'guide/de/bortle-scale-light-pollution-vs-alternatives.jsp',
+  '/space-3d/meteor-airburst-size-comparison.html': 'space/meteor-airburst-size-comparison.jsp',
+  '/guides/meteor-airburst-size-comparison-step-by-step.html': 'guide/meteor-airburst-size-comparison-step-by-step.jsp',
+  '/guides/meteor-airburst-size-comparison-when.html': 'guide/meteor-airburst-size-comparison-when.jsp',
+  '/guides/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/meteor-airburst-size-comparison-vs-alternatives.jsp',
+  '/guides/pt/meteor-airburst-size-comparison-step-by-step.html': 'guide/pt/meteor-airburst-size-comparison-step-by-step.jsp',
+  '/guides/pt/meteor-airburst-size-comparison-when.html': 'guide/pt/meteor-airburst-size-comparison-when.jsp',
+  '/guides/pt/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/pt/meteor-airburst-size-comparison-vs-alternatives.jsp',
+  '/guides/es/meteor-airburst-size-comparison-step-by-step.html': 'guide/es/meteor-airburst-size-comparison-step-by-step.jsp',
+  '/guides/es/meteor-airburst-size-comparison-when.html': 'guide/es/meteor-airburst-size-comparison-when.jsp',
+  '/guides/es/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/es/meteor-airburst-size-comparison-vs-alternatives.jsp',
+  '/guides/vi/meteor-airburst-size-comparison-step-by-step.html': 'guide/vi/meteor-airburst-size-comparison-step-by-step.jsp',
+  '/guides/vi/meteor-airburst-size-comparison-when.html': 'guide/vi/meteor-airburst-size-comparison-when.jsp',
+  '/guides/vi/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/vi/meteor-airburst-size-comparison-vs-alternatives.jsp',
+  '/guides/id/meteor-airburst-size-comparison-step-by-step.html': 'guide/id/meteor-airburst-size-comparison-step-by-step.jsp',
+  '/guides/id/meteor-airburst-size-comparison-when.html': 'guide/id/meteor-airburst-size-comparison-when.jsp',
+  '/guides/id/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/id/meteor-airburst-size-comparison-vs-alternatives.jsp',
+  '/guides/de/meteor-airburst-size-comparison-step-by-step.html': 'guide/de/meteor-airburst-size-comparison-step-by-step.jsp',
+  '/guides/de/meteor-airburst-size-comparison-when.html': 'guide/de/meteor-airburst-size-comparison-when.jsp',
+  '/guides/de/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/de/meteor-airburst-size-comparison-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
