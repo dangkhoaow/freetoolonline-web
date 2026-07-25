@@ -5868,6 +5868,25 @@ export const INFO_ROUTES = new Set([
   '/guides/de/bortle-scale-light-pollution-step-by-step.html',
   '/guides/de/bortle-scale-light-pollution-when.html',
   '/guides/de/bortle-scale-light-pollution-vs-alternatives.html',
+  // voyager-interstellar-position companion guides (space-3d-discovery-loop-runbook, 2026-07-25)
+  '/guides/voyager-interstellar-position-step-by-step.html',
+  '/guides/voyager-interstellar-position-when.html',
+  '/guides/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/pt/voyager-interstellar-position-step-by-step.html',
+  '/guides/pt/voyager-interstellar-position-when.html',
+  '/guides/pt/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/es/voyager-interstellar-position-step-by-step.html',
+  '/guides/es/voyager-interstellar-position-when.html',
+  '/guides/es/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/vi/voyager-interstellar-position-step-by-step.html',
+  '/guides/vi/voyager-interstellar-position-when.html',
+  '/guides/vi/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/id/voyager-interstellar-position-step-by-step.html',
+  '/guides/id/voyager-interstellar-position-when.html',
+  '/guides/id/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/de/voyager-interstellar-position-step-by-step.html',
+  '/guides/de/voyager-interstellar-position-when.html',
+  '/guides/de/voyager-interstellar-position-vs-alternatives.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -12100,6 +12119,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/bortle-scale-light-pollution-step-by-step.html',
   '/guides/de/bortle-scale-light-pollution-when.html',
   '/guides/de/bortle-scale-light-pollution-vs-alternatives.html',
+  // voyager-interstellar-position companion guides (space-3d-discovery-loop-runbook, 2026-07-25)
+  '/guides/voyager-interstellar-position-step-by-step.html',
+  '/guides/voyager-interstellar-position-when.html',
+  '/guides/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/pt/voyager-interstellar-position-step-by-step.html',
+  '/guides/pt/voyager-interstellar-position-when.html',
+  '/guides/pt/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/es/voyager-interstellar-position-step-by-step.html',
+  '/guides/es/voyager-interstellar-position-when.html',
+  '/guides/es/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/vi/voyager-interstellar-position-step-by-step.html',
+  '/guides/vi/voyager-interstellar-position-when.html',
+  '/guides/vi/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/id/voyager-interstellar-position-step-by-step.html',
+  '/guides/id/voyager-interstellar-position-when.html',
+  '/guides/id/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/de/voyager-interstellar-position-step-by-step.html',
+  '/guides/de/voyager-interstellar-position-when.html',
+  '/guides/de/voyager-interstellar-position-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -24471,6 +24509,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/meteor-airburst-size-comparison-step-by-step.html': 'guide/de/meteor-airburst-size-comparison-step-by-step.jsp',
   '/guides/de/meteor-airburst-size-comparison-when.html': 'guide/de/meteor-airburst-size-comparison-when.jsp',
   '/guides/de/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/de/meteor-airburst-size-comparison-vs-alternatives.jsp',
+  // voyager-interstellar-position companion guides (space-3d-discovery-loop-runbook, 2026-07-25)
+  '/guides/voyager-interstellar-position-step-by-step.html': 'guide/voyager-interstellar-position-step-by-step.jsp',
+  '/guides/voyager-interstellar-position-when.html': 'guide/voyager-interstellar-position-when.jsp',
+  '/guides/voyager-interstellar-position-vs-alternatives.html': 'guide/voyager-interstellar-position-vs-alternatives.jsp',
+  '/guides/pt/voyager-interstellar-position-step-by-step.html': 'guide/pt/voyager-interstellar-position-step-by-step.jsp',
+  '/guides/pt/voyager-interstellar-position-when.html': 'guide/pt/voyager-interstellar-position-when.jsp',
+  '/guides/pt/voyager-interstellar-position-vs-alternatives.html': 'guide/pt/voyager-interstellar-position-vs-alternatives.jsp',
+  '/guides/es/voyager-interstellar-position-step-by-step.html': 'guide/es/voyager-interstellar-position-step-by-step.jsp',
+  '/guides/es/voyager-interstellar-position-when.html': 'guide/es/voyager-interstellar-position-when.jsp',
+  '/guides/es/voyager-interstellar-position-vs-alternatives.html': 'guide/es/voyager-interstellar-position-vs-alternatives.jsp',
+  '/guides/vi/voyager-interstellar-position-step-by-step.html': 'guide/vi/voyager-interstellar-position-step-by-step.jsp',
+  '/guides/vi/voyager-interstellar-position-when.html': 'guide/vi/voyager-interstellar-position-when.jsp',
+  '/guides/vi/voyager-interstellar-position-vs-alternatives.html': 'guide/vi/voyager-interstellar-position-vs-alternatives.jsp',
+  '/guides/id/voyager-interstellar-position-step-by-step.html': 'guide/id/voyager-interstellar-position-step-by-step.jsp',
+  '/guides/id/voyager-interstellar-position-when.html': 'guide/id/voyager-interstellar-position-when.jsp',
+  '/guides/id/voyager-interstellar-position-vs-alternatives.html': 'guide/id/voyager-interstellar-position-vs-alternatives.jsp',
+  '/guides/de/voyager-interstellar-position-step-by-step.html': 'guide/de/voyager-interstellar-position-step-by-step.jsp',
+  '/guides/de/voyager-interstellar-position-when.html': 'guide/de/voyager-interstellar-position-when.jsp',
+  '/guides/de/voyager-interstellar-position-vs-alternatives.html': 'guide/de/voyager-interstellar-position-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
