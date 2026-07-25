@@ -5868,6 +5868,25 @@ export const INFO_ROUTES = new Set([
   '/guides/de/bortle-scale-light-pollution-step-by-step.html',
   '/guides/de/bortle-scale-light-pollution-when.html',
   '/guides/de/bortle-scale-light-pollution-vs-alternatives.html',
+  // voyager-interstellar-position companion guides (space-3d-discovery-loop-runbook, 2026-07-25)
+  '/guides/voyager-interstellar-position-step-by-step.html',
+  '/guides/voyager-interstellar-position-when.html',
+  '/guides/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/pt/voyager-interstellar-position-step-by-step.html',
+  '/guides/pt/voyager-interstellar-position-when.html',
+  '/guides/pt/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/es/voyager-interstellar-position-step-by-step.html',
+  '/guides/es/voyager-interstellar-position-when.html',
+  '/guides/es/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/vi/voyager-interstellar-position-step-by-step.html',
+  '/guides/vi/voyager-interstellar-position-when.html',
+  '/guides/vi/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/id/voyager-interstellar-position-step-by-step.html',
+  '/guides/id/voyager-interstellar-position-when.html',
+  '/guides/id/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/de/voyager-interstellar-position-step-by-step.html',
+  '/guides/de/voyager-interstellar-position-when.html',
+  '/guides/de/voyager-interstellar-position-vs-alternatives.html',
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -12100,6 +12119,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/bortle-scale-light-pollution-step-by-step.html',
   '/guides/de/bortle-scale-light-pollution-when.html',
   '/guides/de/bortle-scale-light-pollution-vs-alternatives.html',
+  // voyager-interstellar-position companion guides (space-3d-discovery-loop-runbook, 2026-07-25)
+  '/guides/voyager-interstellar-position-step-by-step.html',
+  '/guides/voyager-interstellar-position-when.html',
+  '/guides/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/pt/voyager-interstellar-position-step-by-step.html',
+  '/guides/pt/voyager-interstellar-position-when.html',
+  '/guides/pt/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/es/voyager-interstellar-position-step-by-step.html',
+  '/guides/es/voyager-interstellar-position-when.html',
+  '/guides/es/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/vi/voyager-interstellar-position-step-by-step.html',
+  '/guides/vi/voyager-interstellar-position-when.html',
+  '/guides/vi/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/id/voyager-interstellar-position-step-by-step.html',
+  '/guides/id/voyager-interstellar-position-when.html',
+  '/guides/id/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/de/voyager-interstellar-position-step-by-step.html',
+  '/guides/de/voyager-interstellar-position-when.html',
+  '/guides/de/voyager-interstellar-position-vs-alternatives.html',
 ]);
 
 export function isGuideRoute(route) {
@@ -12892,6 +12930,8 @@ export const ALIAS_ROUTES = {
   '/pinocchio-rex.html': '/dinosaur-3d/qianzhousaurus.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for mapusaurus.
   '/mapusaurus.html': '/dinosaur-3d/mapusaurus.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-25): flat-slug alias for tyrannotitan.
+  '/tyrannotitan.html': '/dinosaur-3d/tyrannotitan.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for ophthalmosaurus.
   '/ophthalmosaurus.html': '/dinosaur-3d/ophthalmosaurus.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): flat-slug alias for elasmotherium
@@ -13317,6 +13357,7 @@ export const ALIAS_ROUTES = {
   '/yaml-to-json-converter.html': '/developer-tools/yaml-to-json-converter.html',
   '/barcode-generator.html': '/utility-tools/barcode-generator.html',
   '/bortle-scale-light-pollution.html': '/space-3d/bortle-scale-light-pollution.html',
+  '/meteor-airburst-size-comparison.html': '/space-3d/meteor-airburst-size-comparison.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -17364,6 +17405,14 @@ export const JSP_BY_ROUTE = {
   // known from a 7-9 individual bonebed. Model-first via ftol-vm-assets
   // mapusaurus.glb (CC-BY-SA 4.0, Printables "seth the yutyrannus", commit 9e11585).
   '/dinosaur-3d/mapusaurus.html': 'dinosaur/mapusaurus.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-25): Tyrannotitan
+  // viewer - theropod archetype (bigHead, same code path as giganotosaurus/
+  // mapusaurus), a giant carcharodontosaurid (tribe Giganotosaurini) from the
+  // Cerro Barcino Formation, Chubut, Argentina, known mostly from an
+  // incomplete skull + a nearly-complete femur. Model-first via ftol-vm-assets
+  // tyrannotitan.glb (CC-BY-SA 4.0, Printables "seth the yutyrannus", derivative
+  // of a CC-BY-4.0 Sketchfab original by Sammy The Citipati).
+  '/dinosaur-3d/tyrannotitan.html': 'dinosaur/tyrannotitan.jsp',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-24): Ophthalmosaurus
   // viewer - marine archetype (dorsalFin feat, same code path as ichthyosaurus),
   // a huge-eyed ichthyosaur distinguished by the largest eyes of any known
@@ -24441,6 +24490,44 @@ export const JSP_BY_ROUTE = {
   '/guides/de/bortle-scale-light-pollution-step-by-step.html': 'guide/de/bortle-scale-light-pollution-step-by-step.jsp',
   '/guides/de/bortle-scale-light-pollution-when.html': 'guide/de/bortle-scale-light-pollution-when.jsp',
   '/guides/de/bortle-scale-light-pollution-vs-alternatives.html': 'guide/de/bortle-scale-light-pollution-vs-alternatives.jsp',
+  '/space-3d/meteor-airburst-size-comparison.html': 'space/meteor-airburst-size-comparison.jsp',
+  '/guides/meteor-airburst-size-comparison-step-by-step.html': 'guide/meteor-airburst-size-comparison-step-by-step.jsp',
+  '/guides/meteor-airburst-size-comparison-when.html': 'guide/meteor-airburst-size-comparison-when.jsp',
+  '/guides/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/meteor-airburst-size-comparison-vs-alternatives.jsp',
+  '/guides/pt/meteor-airburst-size-comparison-step-by-step.html': 'guide/pt/meteor-airburst-size-comparison-step-by-step.jsp',
+  '/guides/pt/meteor-airburst-size-comparison-when.html': 'guide/pt/meteor-airburst-size-comparison-when.jsp',
+  '/guides/pt/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/pt/meteor-airburst-size-comparison-vs-alternatives.jsp',
+  '/guides/es/meteor-airburst-size-comparison-step-by-step.html': 'guide/es/meteor-airburst-size-comparison-step-by-step.jsp',
+  '/guides/es/meteor-airburst-size-comparison-when.html': 'guide/es/meteor-airburst-size-comparison-when.jsp',
+  '/guides/es/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/es/meteor-airburst-size-comparison-vs-alternatives.jsp',
+  '/guides/vi/meteor-airburst-size-comparison-step-by-step.html': 'guide/vi/meteor-airburst-size-comparison-step-by-step.jsp',
+  '/guides/vi/meteor-airburst-size-comparison-when.html': 'guide/vi/meteor-airburst-size-comparison-when.jsp',
+  '/guides/vi/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/vi/meteor-airburst-size-comparison-vs-alternatives.jsp',
+  '/guides/id/meteor-airburst-size-comparison-step-by-step.html': 'guide/id/meteor-airburst-size-comparison-step-by-step.jsp',
+  '/guides/id/meteor-airburst-size-comparison-when.html': 'guide/id/meteor-airburst-size-comparison-when.jsp',
+  '/guides/id/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/id/meteor-airburst-size-comparison-vs-alternatives.jsp',
+  '/guides/de/meteor-airburst-size-comparison-step-by-step.html': 'guide/de/meteor-airburst-size-comparison-step-by-step.jsp',
+  '/guides/de/meteor-airburst-size-comparison-when.html': 'guide/de/meteor-airburst-size-comparison-when.jsp',
+  '/guides/de/meteor-airburst-size-comparison-vs-alternatives.html': 'guide/de/meteor-airburst-size-comparison-vs-alternatives.jsp',
+  // voyager-interstellar-position companion guides (space-3d-discovery-loop-runbook, 2026-07-25)
+  '/guides/voyager-interstellar-position-step-by-step.html': 'guide/voyager-interstellar-position-step-by-step.jsp',
+  '/guides/voyager-interstellar-position-when.html': 'guide/voyager-interstellar-position-when.jsp',
+  '/guides/voyager-interstellar-position-vs-alternatives.html': 'guide/voyager-interstellar-position-vs-alternatives.jsp',
+  '/guides/pt/voyager-interstellar-position-step-by-step.html': 'guide/pt/voyager-interstellar-position-step-by-step.jsp',
+  '/guides/pt/voyager-interstellar-position-when.html': 'guide/pt/voyager-interstellar-position-when.jsp',
+  '/guides/pt/voyager-interstellar-position-vs-alternatives.html': 'guide/pt/voyager-interstellar-position-vs-alternatives.jsp',
+  '/guides/es/voyager-interstellar-position-step-by-step.html': 'guide/es/voyager-interstellar-position-step-by-step.jsp',
+  '/guides/es/voyager-interstellar-position-when.html': 'guide/es/voyager-interstellar-position-when.jsp',
+  '/guides/es/voyager-interstellar-position-vs-alternatives.html': 'guide/es/voyager-interstellar-position-vs-alternatives.jsp',
+  '/guides/vi/voyager-interstellar-position-step-by-step.html': 'guide/vi/voyager-interstellar-position-step-by-step.jsp',
+  '/guides/vi/voyager-interstellar-position-when.html': 'guide/vi/voyager-interstellar-position-when.jsp',
+  '/guides/vi/voyager-interstellar-position-vs-alternatives.html': 'guide/vi/voyager-interstellar-position-vs-alternatives.jsp',
+  '/guides/id/voyager-interstellar-position-step-by-step.html': 'guide/id/voyager-interstellar-position-step-by-step.jsp',
+  '/guides/id/voyager-interstellar-position-when.html': 'guide/id/voyager-interstellar-position-when.jsp',
+  '/guides/id/voyager-interstellar-position-vs-alternatives.html': 'guide/id/voyager-interstellar-position-vs-alternatives.jsp',
+  '/guides/de/voyager-interstellar-position-step-by-step.html': 'guide/de/voyager-interstellar-position-step-by-step.jsp',
+  '/guides/de/voyager-interstellar-position-when.html': 'guide/de/voyager-interstellar-position-when.jsp',
+  '/guides/de/voyager-interstellar-position-vs-alternatives.html': 'guide/de/voyager-interstellar-position-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
