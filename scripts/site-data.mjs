@@ -14,6 +14,42 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/meme-maker-vs-alternatives.html',
+  '/guides/de/meme-maker-vs-alternatives.html',
+  '/guides/id/meme-maker-vs-alternatives.html',
+  '/guides/vi/meme-maker-vs-alternatives.html',
+  '/guides/es/meme-maker-vs-alternatives.html',
+  '/guides/pt/meme-maker-vs-alternatives.html',
+  '/guides/meme-maker-step-by-step.html',
+  '/guides/de/meme-maker-step-by-step.html',
+  '/guides/id/meme-maker-step-by-step.html',
+  '/guides/vi/meme-maker-step-by-step.html',
+  '/guides/es/meme-maker-step-by-step.html',
+  '/guides/pt/meme-maker-step-by-step.html',
+  '/guides/meme-maker-when.html',
+  '/guides/de/meme-maker-when.html',
+  '/guides/id/meme-maker-when.html',
+  '/guides/vi/meme-maker-when.html',
+  '/guides/es/meme-maker-when.html',
+  '/guides/pt/meme-maker-when.html',
+  '/guides/time-zone-converter-vs-alternatives.html',
+  '/guides/de/time-zone-converter-vs-alternatives.html',
+  '/guides/id/time-zone-converter-vs-alternatives.html',
+  '/guides/vi/time-zone-converter-vs-alternatives.html',
+  '/guides/es/time-zone-converter-vs-alternatives.html',
+  '/guides/pt/time-zone-converter-vs-alternatives.html',
+  '/guides/time-zone-converter-step-by-step.html',
+  '/guides/de/time-zone-converter-step-by-step.html',
+  '/guides/id/time-zone-converter-step-by-step.html',
+  '/guides/vi/time-zone-converter-step-by-step.html',
+  '/guides/es/time-zone-converter-step-by-step.html',
+  '/guides/pt/time-zone-converter-step-by-step.html',
+  '/guides/time-zone-converter-when.html',
+  '/guides/de/time-zone-converter-when.html',
+  '/guides/id/time-zone-converter-when.html',
+  '/guides/vi/time-zone-converter-when.html',
+  '/guides/es/time-zone-converter-when.html',
+  '/guides/pt/time-zone-converter-when.html',
   '/guides/signature-maker-draw-download-vs-alternatives.html',
   '/guides/de/signature-maker-draw-download-vs-alternatives.html',
   '/guides/id/signature-maker-draw-download-vs-alternatives.html',
@@ -5758,6 +5794,25 @@ export const INFO_ROUTES = new Set([
   '/guides/de/helioseismology-sun-oscillation-step-by-step.html',
   '/guides/de/helioseismology-sun-oscillation-when.html',
   '/guides/de/helioseismology-sun-oscillation-vs-alternatives.html',
+  // solar-flare-classification companion guides (space-3d-discovery-loop-runbook, 2026-07-25)
+  '/guides/solar-flare-classification-step-by-step.html',
+  '/guides/solar-flare-classification-when.html',
+  '/guides/solar-flare-classification-vs-alternatives.html',
+  '/guides/pt/solar-flare-classification-step-by-step.html',
+  '/guides/pt/solar-flare-classification-when.html',
+  '/guides/pt/solar-flare-classification-vs-alternatives.html',
+  '/guides/es/solar-flare-classification-step-by-step.html',
+  '/guides/es/solar-flare-classification-when.html',
+  '/guides/es/solar-flare-classification-vs-alternatives.html',
+  '/guides/vi/solar-flare-classification-step-by-step.html',
+  '/guides/vi/solar-flare-classification-when.html',
+  '/guides/vi/solar-flare-classification-vs-alternatives.html',
+  '/guides/id/solar-flare-classification-step-by-step.html',
+  '/guides/id/solar-flare-classification-when.html',
+  '/guides/id/solar-flare-classification-vs-alternatives.html',
+  '/guides/de/solar-flare-classification-step-by-step.html',
+  '/guides/de/solar-flare-classification-when.html',
+  '/guides/de/solar-flare-classification-vs-alternatives.html',
   // olympus-mons-mars-volcano companion guides (space-3d-discovery-loop-runbook, 2026-07-25)
   '/guides/olympus-mons-mars-volcano-step-by-step.html',
   '/guides/olympus-mons-mars-volcano-when.html',
@@ -11953,6 +12008,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/helioseismology-sun-oscillation-step-by-step.html',
   '/guides/de/helioseismology-sun-oscillation-when.html',
   '/guides/de/helioseismology-sun-oscillation-vs-alternatives.html',
+  // solar-flare-classification companion guides (space-3d-discovery-loop-runbook, 2026-07-25)
+  '/guides/solar-flare-classification-step-by-step.html',
+  '/guides/solar-flare-classification-when.html',
+  '/guides/solar-flare-classification-vs-alternatives.html',
+  '/guides/pt/solar-flare-classification-step-by-step.html',
+  '/guides/pt/solar-flare-classification-when.html',
+  '/guides/pt/solar-flare-classification-vs-alternatives.html',
+  '/guides/es/solar-flare-classification-step-by-step.html',
+  '/guides/es/solar-flare-classification-when.html',
+  '/guides/es/solar-flare-classification-vs-alternatives.html',
+  '/guides/vi/solar-flare-classification-step-by-step.html',
+  '/guides/vi/solar-flare-classification-when.html',
+  '/guides/vi/solar-flare-classification-vs-alternatives.html',
+  '/guides/id/solar-flare-classification-step-by-step.html',
+  '/guides/id/solar-flare-classification-when.html',
+  '/guides/id/solar-flare-classification-vs-alternatives.html',
+  '/guides/de/solar-flare-classification-step-by-step.html',
+  '/guides/de/solar-flare-classification-when.html',
+  '/guides/de/solar-flare-classification-vs-alternatives.html',
   // olympus-mons-mars-volcano companion guides (space-3d-discovery-loop-runbook, 2026-07-25)
   '/guides/olympus-mons-mars-volcano-step-by-step.html',
   '/guides/olympus-mons-mars-volcano-when.html',
@@ -11981,6 +12055,7 @@ export function isGuideRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  '/time-zone-converter.html': '/utility-tools/time-zone-converter.html',
   '/tdee-calorie-calculator.html': '/utility-tools/tdee-calorie-calculator.html',
   '/css-box-shadow-generator.html': '/developer-tools/css-box-shadow-generator.html',
   '/css-grid-generator.html': '/developer-tools/css-grid-generator.html',
@@ -11990,6 +12065,7 @@ export const ALIAS_ROUTES = {
   '/random-team-generator.html': '/utility-tools/random-team-generator.html',
   '/cron-expression-parser.html': '/developer-tools/cron-expression-parser.html',
   '/signature-maker.html': '/image-tools/signature-maker.html',
+  '/meme-maker.html': '/image-tools/meme-maker.html',
   // 2026-07-21 P1#6 mixed-language merge (review/20260720): en-tree Indonesian-
   // slug guides 301 to their id/ twins - the id twin now WINS on clicks in all
   // three pairs (357v27, 112v71, 64v12; gsc_top_pages_guides 2026-06-23..07-18)
@@ -12769,6 +12845,8 @@ export const ALIAS_ROUTES = {
   '/siberian-unicorn.html': '/dinosaur-3d/elasmotherium.html',
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-25): flat-slug alias for austroraptor.
   '/austroraptor.html': '/dinosaur-3d/austroraptor.html',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-25): flat-slug alias for magyarosaurus.
+  '/magyarosaurus.html': '/dinosaur-3d/magyarosaurus.html',
 
   // dinosaur-3d-discovery-loop-runbook fire123: albertosaurus alias.
   '/albertosaurus.html': '/dinosaur-3d/albertosaurus.html',
@@ -13087,9 +13165,11 @@ export const ALIAS_ROUTES = {
   '/fast-radio-bursts.html': '/space-3d/fast-radio-bursts.html',
   '/yarkovsky-effect.html': '/space-3d/yarkovsky-effect.html',
   '/torino-impact-hazard-scale.html': '/space-3d/torino-impact-hazard-scale.html',
+  '/voyager-interstellar-position.html': '/space-3d/voyager-interstellar-position.html',
   '/kp-index-geomagnetic-storm-scale.html': '/space-3d/kp-index-geomagnetic-storm-scale.html',
   '/helioseismology-sun-oscillation.html': '/space-3d/helioseismology-sun-oscillation.html',
   '/olympus-mons-mars-volcano.html': '/space-3d/olympus-mons-mars-volcano.html',
+  '/solar-flare-classification.html': '/space-3d/solar-flare-classification.html',
   '/gps-time-dilation.html': '/space-3d/gps-time-dilation.html',
   '/curiosity-rover-traverse.html': '/space-3d/curiosity-rover-traverse.html',
   '/great-red-spot-jupiter.html': '/space-3d/great-red-spot-jupiter.html',
@@ -13209,6 +13289,45 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  '/utility-tools/time-zone-converter.html': 'utility/time-zone-converter.jsp',
+  '/guides/time-zone-converter-when.html': 'guide/time-zone-converter-when.jsp',
+  '/guides/de/time-zone-converter-when.html': 'guide/de/time-zone-converter-when.jsp',
+  '/guides/id/time-zone-converter-when.html': 'guide/id/time-zone-converter-when.jsp',
+  '/guides/vi/time-zone-converter-when.html': 'guide/vi/time-zone-converter-when.jsp',
+  '/guides/es/time-zone-converter-when.html': 'guide/es/time-zone-converter-when.jsp',
+  '/guides/pt/time-zone-converter-when.html': 'guide/pt/time-zone-converter-when.jsp',
+  '/guides/time-zone-converter-step-by-step.html': 'guide/time-zone-converter-step-by-step.jsp',
+  '/guides/de/time-zone-converter-step-by-step.html': 'guide/de/time-zone-converter-step-by-step.jsp',
+  '/guides/id/time-zone-converter-step-by-step.html': 'guide/id/time-zone-converter-step-by-step.jsp',
+  '/guides/vi/time-zone-converter-step-by-step.html': 'guide/vi/time-zone-converter-step-by-step.jsp',
+  '/guides/es/time-zone-converter-step-by-step.html': 'guide/es/time-zone-converter-step-by-step.jsp',
+  '/guides/pt/time-zone-converter-step-by-step.html': 'guide/pt/time-zone-converter-step-by-step.jsp',
+  '/guides/time-zone-converter-vs-alternatives.html': 'guide/time-zone-converter-vs-alternatives.jsp',
+  '/guides/de/time-zone-converter-vs-alternatives.html': 'guide/de/time-zone-converter-vs-alternatives.jsp',
+  '/guides/id/time-zone-converter-vs-alternatives.html': 'guide/id/time-zone-converter-vs-alternatives.jsp',
+  '/guides/vi/time-zone-converter-vs-alternatives.html': 'guide/vi/time-zone-converter-vs-alternatives.jsp',
+  '/guides/es/time-zone-converter-vs-alternatives.html': 'guide/es/time-zone-converter-vs-alternatives.jsp',
+  '/guides/pt/time-zone-converter-vs-alternatives.html': 'guide/pt/time-zone-converter-vs-alternatives.jsp',
+  // new-tool-discovery-loop-runbook fire413 prod mirror: meme-maker (tool + EN + locale guides)
+  '/image-tools/meme-maker.html': 'convert/meme-maker.jsp',
+  '/guides/meme-maker-when.html': 'guide/meme-maker-when.jsp',
+  '/guides/de/meme-maker-when.html': 'guide/de/meme-maker-when.jsp',
+  '/guides/id/meme-maker-when.html': 'guide/id/meme-maker-when.jsp',
+  '/guides/vi/meme-maker-when.html': 'guide/vi/meme-maker-when.jsp',
+  '/guides/es/meme-maker-when.html': 'guide/es/meme-maker-when.jsp',
+  '/guides/pt/meme-maker-when.html': 'guide/pt/meme-maker-when.jsp',
+  '/guides/meme-maker-step-by-step.html': 'guide/meme-maker-step-by-step.jsp',
+  '/guides/de/meme-maker-step-by-step.html': 'guide/de/meme-maker-step-by-step.jsp',
+  '/guides/id/meme-maker-step-by-step.html': 'guide/id/meme-maker-step-by-step.jsp',
+  '/guides/vi/meme-maker-step-by-step.html': 'guide/vi/meme-maker-step-by-step.jsp',
+  '/guides/es/meme-maker-step-by-step.html': 'guide/es/meme-maker-step-by-step.jsp',
+  '/guides/pt/meme-maker-step-by-step.html': 'guide/pt/meme-maker-step-by-step.jsp',
+  '/guides/meme-maker-vs-alternatives.html': 'guide/meme-maker-vs-alternatives.jsp',
+  '/guides/de/meme-maker-vs-alternatives.html': 'guide/de/meme-maker-vs-alternatives.jsp',
+  '/guides/id/meme-maker-vs-alternatives.html': 'guide/id/meme-maker-vs-alternatives.jsp',
+  '/guides/vi/meme-maker-vs-alternatives.html': 'guide/vi/meme-maker-vs-alternatives.jsp',
+  '/guides/es/meme-maker-vs-alternatives.html': 'guide/es/meme-maker-vs-alternatives.jsp',
+  '/guides/pt/meme-maker-vs-alternatives.html': 'guide/pt/meme-maker-vs-alternatives.jsp',
   // new-tool-discovery-loop-runbook fire398 prod mirror: user-agent-parser (tool + EN + locale guides)
   '/developer-tools/user-agent-parser.html': 'utility/user-agent-parser.jsp',
   '/developer-tools/cron-expression-parser.html': 'utility/cron-expression-parser.jsp',
@@ -17193,6 +17312,16 @@ export const JSP_BY_ROUTE = {
   // skull. Model-first via ftol-vm-assets austroraptor.glb (CC-BY-SA 4.0,
   // Printables "DragonArtist15"), sourced + vendored in a prior fire.
   '/dinosaur-3d/austroraptor.html': 'dinosaur/austroraptor.jsp',
+  // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-25): Magyarosaurus
+  // viewer - sauropod archetype (no new feature flag needed). Model-first via
+  // ftol-vm-assets magyarosaurus.glb (CC-BY 4.0, Printables "Pan Wolodyjowski"),
+  // sourced + vendored this fire; orientation solved via a two-step baked
+  // rotation (Y+90 then X+90) plus a manifest yaw=PI/2 correction found
+  // necessary after a live render probe (the exported model's length axis
+  // landed on glTF X, not Z, foreshortening it through the shared camera
+  // preset) - empirically verified via headless + network-mocked renders
+  // before shipping.
+  '/dinosaur-3d/magyarosaurus.html': 'dinosaur/magyarosaurus.jsp',
   // dinosaur-3d-discovery-loop-runbook fire67 (2026-07-17): Deinonychus viewer -
   // raptor archetype (same code path already shipped for velociraptor) - no new
   // archetype branch or feature flag required; the real, larger dromaeosaurid
@@ -19766,9 +19895,11 @@ export const JSP_BY_ROUTE = {
   '/space-3d/fast-radio-bursts.html': 'space/fast-radio-bursts.jsp',
   '/space-3d/yarkovsky-effect.html': 'space/yarkovsky-effect.jsp',
   '/space-3d/torino-impact-hazard-scale.html': 'space/torino-impact-hazard-scale.jsp',
+  '/space-3d/voyager-interstellar-position.html': 'space/voyager-interstellar-position.jsp',
   '/space-3d/kp-index-geomagnetic-storm-scale.html': 'space/kp-index-geomagnetic-storm-scale.jsp',
   '/space-3d/helioseismology-sun-oscillation.html': 'space/helioseismology-sun-oscillation.jsp',
   '/space-3d/olympus-mons-mars-volcano.html': 'space/olympus-mons-mars-volcano.jsp',
+  '/space-3d/solar-flare-classification.html': 'space/solar-flare-classification.jsp',
   '/space-3d/gps-time-dilation.html': 'space/gps-time-dilation.jsp',
   '/space-3d/curiosity-rover-traverse.html': 'space/curiosity-rover-traverse.jsp',
   '/space-3d/great-red-spot-jupiter.html': 'space/great-red-spot-jupiter.jsp',
@@ -24195,6 +24326,24 @@ export const JSP_BY_ROUTE = {
   '/guides/de/helioseismology-sun-oscillation-step-by-step.html': 'guide/de/helioseismology-sun-oscillation-step-by-step.jsp',
   '/guides/de/helioseismology-sun-oscillation-when.html': 'guide/de/helioseismology-sun-oscillation-when.jsp',
   '/guides/de/helioseismology-sun-oscillation-vs-alternatives.html': 'guide/de/helioseismology-sun-oscillation-vs-alternatives.jsp',
+  '/guides/solar-flare-classification-step-by-step.html': 'guide/solar-flare-classification-step-by-step.jsp',
+  '/guides/solar-flare-classification-when.html': 'guide/solar-flare-classification-when.jsp',
+  '/guides/solar-flare-classification-vs-alternatives.html': 'guide/solar-flare-classification-vs-alternatives.jsp',
+  '/guides/pt/solar-flare-classification-step-by-step.html': 'guide/pt/solar-flare-classification-step-by-step.jsp',
+  '/guides/pt/solar-flare-classification-when.html': 'guide/pt/solar-flare-classification-when.jsp',
+  '/guides/pt/solar-flare-classification-vs-alternatives.html': 'guide/pt/solar-flare-classification-vs-alternatives.jsp',
+  '/guides/es/solar-flare-classification-step-by-step.html': 'guide/es/solar-flare-classification-step-by-step.jsp',
+  '/guides/es/solar-flare-classification-when.html': 'guide/es/solar-flare-classification-when.jsp',
+  '/guides/es/solar-flare-classification-vs-alternatives.html': 'guide/es/solar-flare-classification-vs-alternatives.jsp',
+  '/guides/vi/solar-flare-classification-step-by-step.html': 'guide/vi/solar-flare-classification-step-by-step.jsp',
+  '/guides/vi/solar-flare-classification-when.html': 'guide/vi/solar-flare-classification-when.jsp',
+  '/guides/vi/solar-flare-classification-vs-alternatives.html': 'guide/vi/solar-flare-classification-vs-alternatives.jsp',
+  '/guides/id/solar-flare-classification-step-by-step.html': 'guide/id/solar-flare-classification-step-by-step.jsp',
+  '/guides/id/solar-flare-classification-when.html': 'guide/id/solar-flare-classification-when.jsp',
+  '/guides/id/solar-flare-classification-vs-alternatives.html': 'guide/id/solar-flare-classification-vs-alternatives.jsp',
+  '/guides/de/solar-flare-classification-step-by-step.html': 'guide/de/solar-flare-classification-step-by-step.jsp',
+  '/guides/de/solar-flare-classification-when.html': 'guide/de/solar-flare-classification-when.jsp',
+  '/guides/de/solar-flare-classification-vs-alternatives.html': 'guide/de/solar-flare-classification-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
