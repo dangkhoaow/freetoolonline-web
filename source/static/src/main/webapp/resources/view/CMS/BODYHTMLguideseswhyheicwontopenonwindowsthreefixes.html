@@ -9,10 +9,11 @@
     </div>
 
     <h2 class="text-uppercase"><b>Por que pasa esto</b></h2>
-    <p>Apple cambio el formato de foto predeterminado en iPhone de JPG a HEIC (High Efficiency Image Container) a partir de iOS 11 en 2017. El beneficio principal es aproximadamente la mitad del tamano de archivo para la misma calidad visual, lo cual importa cuando un iPhone almacena decenas de miles de fotos. La contrapartida es el soporte de plataformas: HEIC depende del decodificador HEVC (H.265), que Microsoft licencia por separado y historicamente no incluyo en Windows. Una instalacion limpia de Windows 10 o Windows 11, por lo tanto, sabe lo que es un archivo <code>.heic</code> - el File Explorer muestra la extension - pero no puede decodificar los pixeles dentro, asi que la app Fotos muestra un icono de marcador de posicion o un error.</p>
+    <p>Por que pasa esto en Por Que HEIC No Abre en Windows - Tres Soluciones Rapidas: Windows no trae codecs HEIF por defecto, asi Explorer muestra vacio o "no se puede abrir" hasta anadir soporte o convertir.</p>
     <p>La buena noticia es que esto es un problema de codec, no un problema de hardware. Una vez instalado el codec (o una vez convertido el archivo a un formato que Windows ya entiende, como JPG), cada app de Windows que usa la pila de imagenes del sistema - Fotos, miniaturas del File Explorer, Word, PowerPoint, adjuntos de Outlook, arrastrar y soltar del navegador - muestra la foto sin configuracion adicional. Hay varios caminos para "tener el codec disponible", y cual es correcto depende de si estas en Windows 10 u 11, si tienes derechos de administrador, y si necesitas esto para una foto o para un flujo continuo de imagenes provenientes de iPhone. Mira tambien la guia relacionada sobre <a href="/guides/es/iphone-photo-format-explained-heic-jpg-png-raw.html">formatos de foto del iPhone explicados (HEIC, JPG, PNG, RAW)</a> para el lado de los formatos.</p>
 
     <h2 class="text-uppercase"><b>Solucion 1 - instalar las HEIF Image Extensions en Windows 10 / 11</b></h2>
+<figure class="illustration"><img src="/img/illustrations/hub-spoke-4/guideseswhyheicwontopenonwindowsthreefixes-sec1__b7fddd8d.svg" alt="Compare solucion 1 - instalar las heif image extensions en windows using the four points in this diagram." loading="lazy" width="640" height="360"><figcaption>Solucion 1 - instalar las HEIF Image Extensions en Windows at a glance.</figcaption></figure>
     <p>El camino oficial es instalar las HEIF Image Extensions de Microsoft desde la Microsoft Store. Esto agrega el decodificador de fotos HEIF a la pila de imagenes de Windows, para que la app Fotos, el File Explorer y otros consumidores de imagenes del sistema puedan renderizar archivos <code>.heic</code> en linea. La extension en si es gratuita; en la mayoria de las instalaciones de Windows 11, la extension de video HEVC que se envia por separado tambien ya esta instalada, asi que el camino de la foto funciona de fabrica una vez que se agrega la extension HEIF. En Windows 10, puede que necesites instalar adicionalmente el paquete HEVC Video Extensions desde la misma Store (este actualmente tiene una pequena tarifa unica de Microsoft por la licencia del codec de video) antes de que las fotos HEIC se rendericen correctamente.</p>
     <p>Pasos:</p>
     <ul>
@@ -33,6 +34,7 @@
     <p>Contrapartida: los visores de terceros solo arreglan la visualizacion HEIC dentro de su propia UI. La app Fotos de Windows, las miniaturas del File Explorer, Word y PowerPoint seguiran viendo <code>.heic</code> como un formato desconocido a menos que tambien instales la Solucion 1. Para "solo necesito mirar esta foto ahora" en un PC donde no puedes instalar codecs a nivel de sistema, IrfanView portatil es la respuesta mas limpia.</p>
 
     <h2 class="text-uppercase"><b>Solucion 3 - convertir HEIC a JPG online para una foto puntual</b></h2>
+<figure class="illustration"><img src="/img/illustrations/hub-spoke-4/guideseswhyheicwontopenonwindowsthreefixes-sec3__ad0f6651.svg" alt="Compare solucion 3 - convertir heic a jpg online para una foto using the four points in this diagram." loading="lazy" width="640" height="360"><figcaption>Solucion 3 - convertir HEIC a JPG online para una foto at a glance.</figcaption></figure>
     <p>Si no quieres instalar absolutamente nada, el camino mas rapido es convertir el archivo HEIC a JPG una vez y luego abrir el JPG con la app Fotos, Paint o cualquier otra herramienta de Windows que siempre ha manejado JPG. La herramienta gratuita <a href="/image-converter-tools/heic-to-jpg.html">HEIC to JPG</a> ejecuta la conversion del lado del servidor: subes el archivo <code>.heic</code>, la conversion corre en el servicio AWS de freetoolonline, y descargas el JPG. El archivo original sale del almacenamiento del servicio tras la ventana de retencion estandar, asi que debes descargar y guardar el JPG localmente si quieres conservarlo.</p>
     <p>Esta es la solucion correcta cuando:</p>
     <ul>
@@ -44,6 +46,7 @@
     <p>Si tienes una carpeta con 50+ fotos HEIC para convertir de una vez, mira <a href="/guides/es/how-to-convert-100-heic-photos-to-jpg.html">Como convertir 100 fotos HEIC a JPG</a> para el flujo en lote - la misma herramienta /heic-to-jpg.html maneja entrada en lote. Para una sola foto o un punado pequeno, el flujo simple de subir-descargar es el camino mas rapido.</p>
 
     <h2 class="text-uppercase"><b>Cuando gana cada solucion</b></h2>
+<figure class="illustration"><img src="/img/illustrations/card-row-4/guideseswhyheicwontopenonwindowsthreefixes-sec4__16f2ab71.svg" alt="Check cuando gana cada solucion using the four points in this diagram." loading="lazy" width="640" height="180"><figcaption>Cuando gana cada solucion at a glance.</figcaption></figure>
     <p>Las tres soluciones no son intercambiables; cada una es la respuesta correcta para una situacion especifica:</p>
     <div class="w3-responsive">
     <table class="w3-table w3-bordered w3-striped">
@@ -68,7 +71,7 @@
     <p><b>El ajuste "Mas Compatible" del lado iPhone resuelve esto en el origen?</b> Si - en el iPhone, Ajustes - Camara - Formatos - Mas Compatible cambia las nuevas fotos a JPG en lugar de HEIC. Esto resuelve fotos futuras de ese iPhone especifico pero no las fotos HEIC ya tomadas. Para fotos HEIC existentes en el Carrete, la conversion (Solucion 3) es el unico camino.</p>
 
     <h2 class="text-uppercase"><b>Lo que esta guia NO es</b></h2>
-    <p>Dos tareas adyacentes del lector estan deliberadamente fuera del alcance:</p>
+    <p>Lo que esta guia NO es: una licencia para crackear packs HEIC de pago - en Por Que HEIC No Abre en Windows solo cubre extensiones gratis, visores y conversion JPG puntual.</p>
     <ul>
         <li><b>"Como abrir HEIC en macOS / Linux / Android?"</b> macOS abre HEIC nativamente (es el formato propio de Apple). Las distribuciones de Linux varian - la mayoria de los builds desktop modernos traen libheif y pueden previsualizar HEIC en el gestor de archivos, pero los builds mas antiguos no. Android 10+ soporta HEIC nativamente; Android mas antiguo necesita una app de galeria de terceros. Esta guia tiene alcance Windows.</li>
         <li><b>"Mi archivo HEIC abre pero se ve mal (rotado, colores deslavados, transparencia faltante)."</b> Ese es un diagnostico diferente - el codec funciona pero la salida no coincide con lo que mostro el iPhone. Metadatos de orientacion del sensor, perfiles de color de gama amplia y datos de movimiento de Live Photo son los sospechosos habituales; una guia futura cubrira ese caso.</li>
@@ -76,3 +79,15 @@
 
     <p><em>Guias complementarias para la categoria HEIC / conversion de imagen: <a href="/guides/es/heic-vs-jpg-vs-webp.html">HEIC vs JPG vs WebP - cuando usar cada uno</a> (la contrapartida de formatos), <a href="/guides/es/how-to-convert-heic-to-jpg-step-by-step.html">Como convertir HEIC a JPG paso a paso</a> (el flujo de conversion), <a href="/guides/es/how-to-convert-100-heic-photos-to-jpg.html">Como convertir 100 fotos HEIC a JPG</a> (flujo en lote) y <a href="/guides/es/iphone-photo-format-explained-heic-jpg-png-raw.html">formatos de foto del iPhone explicados</a> (HEIC vs JPG vs PNG vs RAW en iPhone), y <a href="/guides/es/compressed-jpg-looks-blurry-three-causes.html">JPG comprimido se ve borroso - tres causas</a> (el diagnostico post-conversion cuando el archivo convertido no se ve bien).</em></p>
 </div>
+
+
+<table class="w3-table w3-bordered w3-striped" data-citability="numeric-tradeoff">
+  <thead><tr><th>Fix</th><th>Typical time</th><th>Best when</th></tr></thead>
+  <tbody>
+    <tr><td>Fix 3 - convert online</td><td>30-60 s</td><td>One-off photo, no install</td></tr>
+    <tr><td>Fix 1 - HEIF Image Extensions</td><td>2 min install</td><td>Weekly HEIC on a home PC with admin rights</td></tr>
+    <tr><td>Fix 2 - IrfanView portable</td><td>1-3 min</td><td>Locked-down PC without Store access</td></tr>
+    <tr><td>Fix 3 + batch flow</td><td>5-15 min / 100 files</td><td>50-100+ HEIC photos to convert</td></tr>
+  </tbody>
+</table>
+
