@@ -14,6 +14,24 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/duplicate-word-remover-vs-alternatives.html',
+  '/guides/de/duplicate-word-remover-vs-alternatives.html',
+  '/guides/id/duplicate-word-remover-vs-alternatives.html',
+  '/guides/vi/duplicate-word-remover-vs-alternatives.html',
+  '/guides/es/duplicate-word-remover-vs-alternatives.html',
+  '/guides/pt/duplicate-word-remover-vs-alternatives.html',
+  '/guides/duplicate-word-remover-step-by-step.html',
+  '/guides/de/duplicate-word-remover-step-by-step.html',
+  '/guides/id/duplicate-word-remover-step-by-step.html',
+  '/guides/vi/duplicate-word-remover-step-by-step.html',
+  '/guides/es/duplicate-word-remover-step-by-step.html',
+  '/guides/pt/duplicate-word-remover-step-by-step.html',
+  '/guides/duplicate-word-remover-when.html',
+  '/guides/de/duplicate-word-remover-when.html',
+  '/guides/id/duplicate-word-remover-when.html',
+  '/guides/vi/duplicate-word-remover-when.html',
+  '/guides/es/duplicate-word-remover-when.html',
+  '/guides/pt/duplicate-word-remover-when.html',
   '/guides/meme-maker-vs-alternatives.html',
   '/guides/de/meme-maker-vs-alternatives.html',
   '/guides/id/meme-maker-vs-alternatives.html',
@@ -13850,6 +13868,7 @@ export const ALIAS_ROUTES = {
   '/strong-lensing-multiple-images.html': '/space-3d/strong-lensing-multiple-images.html',
   '/interstellar-travel-timescales.html': '/space-3d/interstellar-travel-timescales.html',
   '/jpg-to-avif-converter.html': '/image-converter-tools/jpg-to-avif-converter.html',
+  '/duplicate-word-remover.html': '/utility-tools/duplicate-word-remover.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -25336,6 +25355,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/jpg-avif-converter-when.html': 'guide/de/jpg-avif-converter-when.jsp',
   '/guides/de/jpg-avif-converter-step-by-step.html': 'guide/de/jpg-avif-converter-step-by-step.jsp',
   '/guides/de/jpg-avif-converter-vs-alternatives.html': 'guide/de/jpg-avif-converter-vs-alternatives.jsp',
+  '/utility-tools/duplicate-word-remover.html': 'utility/duplicate-word-remover.jsp',
+  '/guides/duplicate-word-remover-when.html': 'guide/duplicate-word-remover-when.jsp',
+  '/guides/de/duplicate-word-remover-when.html': 'guide/de/duplicate-word-remover-when.jsp',
+  '/guides/id/duplicate-word-remover-when.html': 'guide/id/duplicate-word-remover-when.jsp',
+  '/guides/vi/duplicate-word-remover-when.html': 'guide/vi/duplicate-word-remover-when.jsp',
+  '/guides/es/duplicate-word-remover-when.html': 'guide/es/duplicate-word-remover-when.jsp',
+  '/guides/pt/duplicate-word-remover-when.html': 'guide/pt/duplicate-word-remover-when.jsp',
+  '/guides/duplicate-word-remover-step-by-step.html': 'guide/duplicate-word-remover-step-by-step.jsp',
+  '/guides/de/duplicate-word-remover-step-by-step.html': 'guide/de/duplicate-word-remover-step-by-step.jsp',
+  '/guides/id/duplicate-word-remover-step-by-step.html': 'guide/id/duplicate-word-remover-step-by-step.jsp',
+  '/guides/vi/duplicate-word-remover-step-by-step.html': 'guide/vi/duplicate-word-remover-step-by-step.jsp',
+  '/guides/es/duplicate-word-remover-step-by-step.html': 'guide/es/duplicate-word-remover-step-by-step.jsp',
+  '/guides/pt/duplicate-word-remover-step-by-step.html': 'guide/pt/duplicate-word-remover-step-by-step.jsp',
+  '/guides/duplicate-word-remover-vs-alternatives.html': 'guide/duplicate-word-remover-vs-alternatives.jsp',
+  '/guides/de/duplicate-word-remover-vs-alternatives.html': 'guide/de/duplicate-word-remover-vs-alternatives.jsp',
+  '/guides/id/duplicate-word-remover-vs-alternatives.html': 'guide/id/duplicate-word-remover-vs-alternatives.jsp',
+  '/guides/vi/duplicate-word-remover-vs-alternatives.html': 'guide/vi/duplicate-word-remover-vs-alternatives.jsp',
+  '/guides/es/duplicate-word-remover-vs-alternatives.html': 'guide/es/duplicate-word-remover-vs-alternatives.jsp',
+  '/guides/pt/duplicate-word-remover-vs-alternatives.html': 'guide/pt/duplicate-word-remover-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
