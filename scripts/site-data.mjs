@@ -8780,6 +8780,10 @@ export const GUIDE_ROUTES = new Set([
   '/guides/audio-trimmer-when.html',
   '/guides/audio-trimmer-step-by-step.html',
   '/guides/audio-trimmer-vs-alternatives.html',
+  // new-tool-discovery-loop fire594 (2026-07-27) - audio-speed-changer companion guides.
+  '/guides/audio-speed-changer-when.html',
+  '/guides/audio-speed-changer-step-by-step.html',
+  '/guides/audio-speed-changer-vs-alternatives.html',
   // Cycle 20260524-10 create_new_guide_page - "i love zip" bare-query landing (companion to /zip-file.html).
   // Cycle 78 P78.A - "QR code error correction and scan failures" Lane-D guide (companion to /qr-code-generator.html).
   // Cycle 79 P79.B - "Image to Base64: embed in HTML/CSS vs link the image file" Lane-D guide.
@@ -25418,6 +25422,10 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/duplicate-word-remover-vs-alternatives.html': 'guide/vi/duplicate-word-remover-vs-alternatives.jsp',
   '/guides/es/duplicate-word-remover-vs-alternatives.html': 'guide/es/duplicate-word-remover-vs-alternatives.jsp',
   '/guides/pt/duplicate-word-remover-vs-alternatives.html': 'guide/pt/duplicate-word-remover-vs-alternatives.jsp',
+  '/video-tools/audio-speed-changer.html': 'convert/audio-speed-changer.jsp',
+  '/guides/audio-speed-changer-when.html': 'guide/audio-speed-changer-when.jsp',
+  '/guides/audio-speed-changer-step-by-step.html': 'guide/audio-speed-changer-step-by-step.jsp',
+  '/guides/audio-speed-changer-vs-alternatives.html': 'guide/audio-speed-changer-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
