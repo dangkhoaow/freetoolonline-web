@@ -105,7 +105,7 @@ const SEO_CLUSTER_GROUPS = [
     cluster: 'places-3d',
     hubRoute: '/places-3d.html',
     hubLabel: 'Back to Places 3D',
-    routes: ['/places-3d/dead-sea.html', '/places-3d/mount-everest.html', '/places-3d/grand-canyon.html', '/places-3d/caspian-sea.html', '/places-3d/lake-baikal.html', '/places-3d/mariana-trench.html', '/places-3d/black-sea.html', '/places-3d/lake-victoria.html', '/places-3d/huacachina-oasis.html', '/places-3d/amazon-rainforest.html', '/places-3d/iguazu-falls.html', '/places-3d/antelope-canyon.html', '/places-3d/lake-michigan-huron.html', '/places-3d/lake-superior.html', '/places-3d/son-doong-cave.html', '/places-3d/mount-fuji.html', '/places-3d/mammoth-cave.html', '/places-3d/mount-kilimanjaro.html'],
+    routes: ['/places-3d/dead-sea.html', '/places-3d/mount-everest.html', '/places-3d/grand-canyon.html', '/places-3d/caspian-sea.html', '/places-3d/lake-baikal.html', '/places-3d/mariana-trench.html', '/places-3d/black-sea.html', '/places-3d/lake-victoria.html', '/places-3d/huacachina-oasis.html', '/places-3d/amazon-rainforest.html', '/places-3d/iguazu-falls.html', '/places-3d/antelope-canyon.html', '/places-3d/lake-michigan-huron.html', '/places-3d/lake-superior.html', '/places-3d/son-doong-cave.html', '/places-3d/mount-fuji.html', '/places-3d/mammoth-cave.html', '/places-3d/mount-kilimanjaro.html', '/places-3d/sahara-desert.html'],
   },
   // dinosaur-loop (2026-07-15) - third non-'-tools' reader category: procedural
   // 3D DINOSAUR viewers (rotate / walk-cycle / size-vs-human / clickable body
