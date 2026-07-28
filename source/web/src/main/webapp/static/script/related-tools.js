@@ -740,6 +740,7 @@ try {
     { title: "Lake Victoria 3D Explorer", url: "https://freetoolonline.com/places-3d/lake-victoria.html", include: !1, tags: "places-3d" },
     { title: "Huacachina Oasis 3D Explorer", url: "https://freetoolonline.com/places-3d/huacachina-oasis.html", include: !1, tags: "places-3d" },
     { title: "Son Doong Cave 3D Explorer", url: "https://freetoolonline.com/places-3d/son-doong-cave.html", include: !1, tags: "places-3d" },
+    { title: "Mount Fuji 3D Explorer", url: "https://freetoolonline.com/places-3d/mount-fuji.html", include: !1, tags: "places-3d" },
     { title: "Amazon Rainforest 3D Explorer", url: "https://freetoolonline.com/places-3d/amazon-rainforest.html", include: !1, tags: "places-3d" },
     { title: "Iguazu Falls 3D Explorer", url: "https://freetoolonline.com/places-3d/iguazu-falls.html", include: !1, tags: "places-3d" },
     { title: "Antelope Canyon 3D Explorer", url: "https://freetoolonline.com/places-3d/antelope-canyon.html", include: !1, tags: "places-3d" },
