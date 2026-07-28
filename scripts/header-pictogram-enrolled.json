@@ -661,5 +661,8 @@
     "zipfile",
     "ziptools",
     "zodiacallight"
+  ],
+  "enrolled_slugs": [
+    "tibetan-plateau"
   ]
 }
