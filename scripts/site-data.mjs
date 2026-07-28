@@ -13952,6 +13952,18 @@ export const ALIAS_ROUTES = {
   '/reading-list-tracker.html': '/utility-tools/reading-list-tracker.html',
   '/workout-tracker.html': '/utility-tools/workout-tracker.html',
   '/webcam-recorder.html': '/utility-tools/webcam-recorder.html',
+  '/amazon-rainforest.html': '/places-3d/amazon-rainforest.html',
+  '/antelope-canyon.html': '/places-3d/antelope-canyon.html',
+  '/black-forest.html': '/places-3d/black-forest.html',
+  '/caribbean-sea.html': '/places-3d/caribbean-sea.html',
+  '/great-barrier-reef.html': '/places-3d/great-barrier-reef.html',
+  '/ha-long-bay.html': '/places-3d/ha-long-bay.html',
+  '/iguazu-falls.html': '/places-3d/iguazu-falls.html',
+  '/lake-michigan-huron.html': '/places-3d/lake-michigan-huron.html',
+  '/lake-superior.html': '/places-3d/lake-superior.html',
+  '/lake-titicaca.html': '/places-3d/lake-titicaca.html',
+  '/milford-sound.html': '/places-3d/milford-sound.html',
+  '/stone-forest-shilin.html': '/places-3d/stone-forest-shilin.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -25540,6 +25552,18 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/audio-speed-changer-vs-alternatives.html': 'guide/vi/audio-speed-changer-vs-alternatives.jsp',
   '/guides/id/audio-speed-changer-vs-alternatives.html': 'guide/id/audio-speed-changer-vs-alternatives.jsp',
   '/guides/de/audio-speed-changer-vs-alternatives.html': 'guide/de/audio-speed-changer-vs-alternatives.jsp',
+  '/places-3d/amazon-rainforest.html': 'place/amazon-rainforest.jsp',
+  '/places-3d/antelope-canyon.html': 'place/antelope-canyon.jsp',
+  '/places-3d/black-forest.html': 'place/black-forest.jsp',
+  '/places-3d/caribbean-sea.html': 'place/caribbean-sea.jsp',
+  '/places-3d/great-barrier-reef.html': 'place/great-barrier-reef.jsp',
+  '/places-3d/ha-long-bay.html': 'place/ha-long-bay.jsp',
+  '/places-3d/iguazu-falls.html': 'place/iguazu-falls.jsp',
+  '/places-3d/lake-michigan-huron.html': 'place/lake-michigan-huron.jsp',
+  '/places-3d/lake-superior.html': 'place/lake-superior.jsp',
+  '/places-3d/lake-titicaca.html': 'place/lake-titicaca.jsp',
+  '/places-3d/milford-sound.html': 'place/milford-sound.jsp',
+  '/places-3d/stone-forest-shilin.html': 'place/stone-forest-shilin.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
