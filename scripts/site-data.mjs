@@ -25564,7 +25564,6 @@ export const JSP_BY_ROUTE = {
   '/places-3d/lake-titicaca.html': 'place/lake-titicaca.jsp',
   '/places-3d/milford-sound.html': 'place/milford-sound.jsp',
   '/places-3d/stone-forest-shilin.html': 'place/stone-forest-shilin.jsp',
-  '/games/space-huggers-platformer.html': 'games/space-huggers-platformer.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
