@@ -348,8 +348,23 @@ export const INFO_ROUTES = new Set([
   '/guides/es/user-agent-parser-when.html',
   '/guides/pt/user-agent-parser-when.html',
   '/guides/subnet-calculator-ipv4-cidr-vs-alternatives.html',
+  '/guides/pt/subnet-calculator-ipv4-cidr-vs-alternatives.html',
+  '/guides/es/subnet-calculator-ipv4-cidr-vs-alternatives.html',
+  '/guides/vi/subnet-calculator-ipv4-cidr-vs-alternatives.html',
+  '/guides/id/subnet-calculator-ipv4-cidr-vs-alternatives.html',
+  '/guides/de/subnet-calculator-ipv4-cidr-vs-alternatives.html',
   '/guides/subnet-calculator-ipv4-cidr-step-by-step.html',
+  '/guides/pt/subnet-calculator-ipv4-cidr-step-by-step.html',
+  '/guides/es/subnet-calculator-ipv4-cidr-step-by-step.html',
+  '/guides/vi/subnet-calculator-ipv4-cidr-step-by-step.html',
+  '/guides/id/subnet-calculator-ipv4-cidr-step-by-step.html',
+  '/guides/de/subnet-calculator-ipv4-cidr-step-by-step.html',
   '/guides/subnet-calculator-ipv4-cidr-when.html',
+  '/guides/pt/subnet-calculator-ipv4-cidr-when.html',
+  '/guides/es/subnet-calculator-ipv4-cidr-when.html',
+  '/guides/vi/subnet-calculator-ipv4-cidr-when.html',
+  '/guides/id/subnet-calculator-ipv4-cidr-when.html',
+  '/guides/de/subnet-calculator-ipv4-cidr-when.html',
   '/guides/aspect-ratio-calculator-vs-alternatives.html',
   '/guides/de/aspect-ratio-calculator-vs-alternatives.html',
   '/guides/id/aspect-ratio-calculator-vs-alternatives.html',
@@ -12881,6 +12896,7 @@ export const ALIAS_ROUTES = {
   '/lake-victoria.html': '/places-3d/lake-victoria.html',
   '/lake-superior.html': '/places-3d/lake-superior.html',
   '/sahara-desert.html': '/places-3d/sahara-desert.html',
+  '/atacama-desert.html': '/places-3d/atacama-desert.html',
   '/stone-forest-shilin.html': '/places-3d/stone-forest-shilin.html',
   '/ha-long-bay.html': '/places-3d/ha-long-bay.html',
   '/mount-fuji.html': '/places-3d/mount-fuji.html',
@@ -12897,7 +12913,7 @@ export const ALIAS_ROUTES = {
   '/amazon-rainforest.html': '/places-3d/amazon-rainforest.html',
   '/black-forest.html': '/places-3d/black-forest.html',
   '/caribbean-sea.html': '/places-3d/caribbean-sea.html',
-  '/atacama-desert.html': '/places-3d/atacama-desert.html',
+  '/salar-de-uyuni.html': '/places-3d/salar-de-uyuni.html',
   '/tibetan-plateau.html': '/places-3d/tibetan-plateau.html',
   // dinosaur-loop (2026-07-15): dir-index alias for the /dinosaur-3d cluster
   // hub. MUST also be mirrored into the CloudFront 301 function (two-layer
@@ -13348,6 +13364,7 @@ export const ALIAS_ROUTES = {
   '/voxel-world-builder.html': '/games/voxel-world-builder.html',
   '/solar-system.html': '/space-3d/solar-system.html',
   '/gravitational-microlensing.html': '/space-3d/gravitational-microlensing.html',
+  '/ceres-cryovolcanism.html': '/space-3d/ceres-cryovolcanism.html',
   '/black-hole.html': '/space-3d/black-hole.html',
   '/galaxy.html': '/space-3d/galaxy.html',
   // '/io-volcanoes.html': '/space-3d/io-volcanoes.html', // ORPHANED - no JSP/CMS backing; use io-volcanoes-realtime instead
@@ -14413,6 +14430,7 @@ export const JSP_BY_ROUTE = {
   '/places-3d/lake-victoria.html': 'place/lake-victoria.jsp',
   '/places-3d/lake-superior.html': 'place/lake-superior.jsp',
   '/places-3d/sahara-desert.html': 'place/sahara-desert.jsp',
+  '/places-3d/atacama-desert.html': 'place/atacama-desert.jsp',
   '/places-3d/stone-forest-shilin.html': 'place/stone-forest-shilin.jsp',
   '/places-3d/ha-long-bay.html': 'place/ha-long-bay.jsp',
   '/places-3d/mount-fuji.html': 'place/mount-fuji.jsp',
@@ -14429,7 +14447,7 @@ export const JSP_BY_ROUTE = {
   '/places-3d/black-forest.html': 'place/black-forest.jsp',
   '/places-3d/great-barrier-reef.html': 'place/great-barrier-reef.jsp',
   '/places-3d/caribbean-sea.html': 'place/caribbean-sea.jsp',
-  '/places-3d/atacama-desert.html': 'place/atacama-desert.jsp',
+  '/places-3d/salar-de-uyuni.html': 'place/salar-de-uyuni.jsp',
   '/places-3d/tibetan-plateau.html': 'place/tibetan-plateau.jsp',
   // dinosaur-loop (2026-07-15): the /dinosaur-3d cluster hub (non-'-tools'
   // hubRoute, registered in SEO_CLUSTER_GROUPS; hub detection via isHubRoute()).
@@ -19943,6 +19961,7 @@ export const JSP_BY_ROUTE = {
   '/guides/id/solar-system-3d-explorer-when.html': 'guide/id/solar-system-3d-explorer-when.jsp',
   '/guides/id/solar-system-3d-explorer-step-by-step.html': 'guide/id/solar-system-3d-explorer-step-by-step.jsp',
   '/guides/id/solar-system-3d-explorer-vs-alternatives.html': 'guide/id/solar-system-3d-explorer-vs-alternatives.jsp',
+  '/space-3d/ceres-cryovolcanism.html': 'space/ceres-cryovolcanism.jsp',
   '/space-3d/black-hole.html': 'space/black-hole.jsp',
   '/guides/black-hole-3d-visualizer-when.html': 'guide/black-hole-3d-visualizer-when.jsp',
   '/guides/black-hole-3d-visualizer-step-by-step.html': 'guide/black-hole-3d-visualizer-step-by-step.jsp',
@@ -25020,8 +25039,23 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/aspect-ratio-calculator-vs-alternatives.html': 'guide/pt/aspect-ratio-calculator-vs-alternatives.jsp',
   '/utility-tools/subnet-calculator.html': 'utility/subnet-calculator.jsp',
   '/guides/subnet-calculator-ipv4-cidr-when.html': 'guide/subnet-calculator-ipv4-cidr-when.jsp',
+  '/guides/pt/subnet-calculator-ipv4-cidr-when.html': 'guide/pt/subnet-calculator-ipv4-cidr-when.jsp',
+  '/guides/es/subnet-calculator-ipv4-cidr-when.html': 'guide/es/subnet-calculator-ipv4-cidr-when.jsp',
+  '/guides/vi/subnet-calculator-ipv4-cidr-when.html': 'guide/vi/subnet-calculator-ipv4-cidr-when.jsp',
+  '/guides/id/subnet-calculator-ipv4-cidr-when.html': 'guide/id/subnet-calculator-ipv4-cidr-when.jsp',
+  '/guides/de/subnet-calculator-ipv4-cidr-when.html': 'guide/de/subnet-calculator-ipv4-cidr-when.jsp',
   '/guides/subnet-calculator-ipv4-cidr-step-by-step.html': 'guide/subnet-calculator-ipv4-cidr-step-by-step.jsp',
+  '/guides/pt/subnet-calculator-ipv4-cidr-step-by-step.html': 'guide/pt/subnet-calculator-ipv4-cidr-step-by-step.jsp',
+  '/guides/es/subnet-calculator-ipv4-cidr-step-by-step.html': 'guide/es/subnet-calculator-ipv4-cidr-step-by-step.jsp',
+  '/guides/vi/subnet-calculator-ipv4-cidr-step-by-step.html': 'guide/vi/subnet-calculator-ipv4-cidr-step-by-step.jsp',
+  '/guides/id/subnet-calculator-ipv4-cidr-step-by-step.html': 'guide/id/subnet-calculator-ipv4-cidr-step-by-step.jsp',
+  '/guides/de/subnet-calculator-ipv4-cidr-step-by-step.html': 'guide/de/subnet-calculator-ipv4-cidr-step-by-step.jsp',
   '/guides/subnet-calculator-ipv4-cidr-vs-alternatives.html': 'guide/subnet-calculator-ipv4-cidr-vs-alternatives.jsp',
+  '/guides/pt/subnet-calculator-ipv4-cidr-vs-alternatives.html': 'guide/pt/subnet-calculator-ipv4-cidr-vs-alternatives.jsp',
+  '/guides/es/subnet-calculator-ipv4-cidr-vs-alternatives.html': 'guide/es/subnet-calculator-ipv4-cidr-vs-alternatives.jsp',
+  '/guides/vi/subnet-calculator-ipv4-cidr-vs-alternatives.html': 'guide/vi/subnet-calculator-ipv4-cidr-vs-alternatives.jsp',
+  '/guides/id/subnet-calculator-ipv4-cidr-vs-alternatives.html': 'guide/id/subnet-calculator-ipv4-cidr-vs-alternatives.jsp',
+  '/guides/de/subnet-calculator-ipv4-cidr-vs-alternatives.html': 'guide/de/subnet-calculator-ipv4-cidr-vs-alternatives.jsp',
   '/developer-tools/user-agent-parser.html': 'utility/user-agent-parser.jsp',
   '/guides/user-agent-parser-when.html': 'guide/user-agent-parser-when.jsp',
   '/guides/de/user-agent-parser-when.html': 'guide/de/user-agent-parser-when.jsp',
@@ -25599,6 +25633,11 @@ export const JSP_BY_ROUTE = {
   '/guides/audio-speed-changer-when.html': 'guide/audio-speed-changer-when.jsp',
   '/guides/audio-speed-changer-step-by-step.html': 'guide/audio-speed-changer-step-by-step.jsp',
   '/guides/audio-speed-changer-vs-alternatives.html': 'guide/audio-speed-changer-vs-alternatives.jsp',
+  '/guides/pt/audio-speed-changer-vs-alternatives.html': 'guide/pt/audio-speed-changer-vs-alternatives.jsp',
+  '/guides/es/audio-speed-changer-vs-alternatives.html': 'guide/es/audio-speed-changer-vs-alternatives.jsp',
+  '/guides/vi/audio-speed-changer-vs-alternatives.html': 'guide/vi/audio-speed-changer-vs-alternatives.jsp',
+  '/guides/id/audio-speed-changer-vs-alternatives.html': 'guide/id/audio-speed-changer-vs-alternatives.jsp',
+  '/guides/de/audio-speed-changer-vs-alternatives.html': 'guide/de/audio-speed-changer-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
@@ -29849,6 +29888,3443 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/psittacosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/pt/psittacosaurus-size-comparison.html',
   '/guides/pt/pteranodon-3d-viewer-vs-ar-apps.html',
+  // pruned 2026-07-29 zero-evidence pt - batch pt-batch-5 (200 routes)
+  '/guides/pt/pteranodon-size-comparison.html',
+  '/guides/pt/qr-code-content-types-url-vcard-wifi-text-which-to-pick.html',
+  '/guides/pt/qr-code-generator-best-practices.html',
+  '/guides/pt/qr-code-scanner-step-by-step.html',
+  '/guides/pt/qr-code-scanner-vs-alternatives.html',
+  '/guides/pt/qr-code-scanner-when.html',
+  '/guides/pt/quantum-optics-puzzle-vs-alternatives.html',
+  '/guides/pt/quantum-optics-puzzle-when.html',
+  '/guides/pt/quantum-shift-vs-alternatives.html',
+  '/guides/pt/quantum-shift-when.html',
+  '/guides/pt/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/quetzalcoatlus-size-comparison.html',
+  '/guides/pt/random-list-shuffler-vs-alternatives.html',
+  '/guides/pt/random-list-shuffler-when.html',
+  '/guides/pt/random-name-picker-step-by-step.html',
+  '/guides/pt/random-name-picker-vs-alternatives.html',
+  '/guides/pt/random-name-picker-when.html',
+  '/guides/pt/random-number-generator-step-by-step.html',
+  '/guides/pt/random-team-group-generator-step-by-step.html',
+  '/guides/pt/random-team-group-generator-vs-alternatives.html',
+  '/guides/pt/random-team-group-generator-when.html',
+  '/guides/pt/read-and-compare-md5-hashes-correctly.html',
+  '/guides/pt/reading-list-tracker-step-by-step.html',
+  '/guides/pt/reading-list-tracker-vs-alternatives.html',
+  '/guides/pt/reading-list-tracker-when.html',
+  '/guides/pt/redshift-doppler-step-by-step.html',
+  '/guides/pt/redshift-doppler-vs-alternatives.html',
+  '/guides/pt/redshift-doppler-when.html',
+  '/guides/pt/relativistic-jets-agn-step-by-step.html',
+  '/guides/pt/relativistic-jets-agn-vs-alternatives.html',
+  '/guides/pt/relativistic-jets-agn-when.html',
+  '/guides/pt/remove-audio-from-video-step-by-step.html',
+  '/guides/pt/remove-audio-from-video-vs-alternatives.html',
+  '/guides/pt/remove-audio-from-video-when.html',
+  '/guides/pt/remove-duplicate-lines-step-by-step.html',
+  '/guides/pt/reorder-organize-pdf-pages-step-by-step.html',
+  '/guides/pt/reorder-organize-pdf-pages-vs-alternatives.html',
+  '/guides/pt/reorder-organize-pdf-pages-when.html',
+  '/guides/pt/resize-zip-file.html',
+  '/guides/pt/retro-arcade-shooter-vs-alternatives.html',
+  '/guides/pt/retro-arcade-shooter-when.html',
+  '/guides/pt/retro-fps-online-vs-alternatives.html',
+  '/guides/pt/retro-fps-online-when.html',
+  '/guides/pt/retro-highway-racer-vs-alternatives.html',
+  '/guides/pt/retro-highway-racer-when.html',
+  '/guides/pt/retro-tank-battle-step-by-step.html',
+  '/guides/pt/retro-tank-battle-vs-alternatives.html',
+  '/guides/pt/retro-tank-battle-when.html',
+  '/guides/pt/retrograde-motion-step-by-step.html',
+  '/guides/pt/retrograde-motion-vs-alternatives.html',
+  '/guides/pt/retrograde-motion-when.html',
+  '/guides/pt/reverse-text-when.html',
+  '/guides/pt/ritual-catacombs-vs-alternatives.html',
+  '/guides/pt/ritual-catacombs-when.html',
+  '/guides/pt/roche-limit-step-by-step.html',
+  '/guides/pt/roche-limit-vs-alternatives.html',
+  '/guides/pt/roche-limit-when.html',
+  '/guides/pt/roche-lobe-binary-step-by-step.html',
+  '/guides/pt/roche-lobe-binary-vs-alternatives.html',
+  '/guides/pt/roche-lobe-binary-when.html',
+  '/guides/pt/rock-paper-neural-vs-alternatives.html',
+  '/guides/pt/rock-paper-neural-when.html',
+  '/guides/pt/roller-maze-escape-vs-alternatives.html',
+  '/guides/pt/roller-maze-escape-when.html',
+  '/guides/pt/roman-numeral-converter-step-by-step.html',
+  '/guides/pt/roman-numeral-converter-vs-alternatives.html',
+  '/guides/pt/roman-numeral-converter-when.html',
+  '/guides/pt/rot13-encoder-step-by-step.html',
+  '/guides/pt/rot13-encoder-vs-alternatives.html',
+  '/guides/pt/rot13-encoder-when.html',
+  '/guides/pt/rotate-pdf-step-by-step.html',
+  '/guides/pt/rotate-pdf-vs-alternatives.html',
+  '/guides/pt/rotate-pdf-when.html',
+  '/guides/pt/run-linux-in-browser-step-by-step.html',
+  '/guides/pt/run-linux-in-browser-vs-alternatives.html',
+  '/guides/pt/run-linux-in-browser-when.html',
+  '/guides/pt/rune-keeper-vs-alternatives.html',
+  '/guides/pt/rune-keeper-when.html',
+  '/guides/pt/sagittarius-a-star-step-by-step.html',
+  '/guides/pt/sagittarius-a-star-vs-alternatives.html',
+  '/guides/pt/sagittarius-a-star-when.html',
+  '/guides/pt/sarcosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/sarcosuchus-size-comparison.html',
+  '/guides/pt/saros-cycle-step-by-step.html',
+  '/guides/pt/saros-cycle-vs-alternatives.html',
+  '/guides/pt/saros-cycle-when.html',
+  '/guides/pt/satellite-orbit-classes-step-by-step.html',
+  '/guides/pt/satellite-orbit-classes-vs-alternatives.html',
+  '/guides/pt/satellite-orbit-classes-when.html',
+  '/guides/pt/saturn-hexagon-step-by-step.html',
+  '/guides/pt/saturn-hexagon-vs-alternatives.html',
+  '/guides/pt/saturn-hexagon-when.html',
+  '/guides/pt/saturn-rings-step-by-step.html',
+  '/guides/pt/saturn-rings-vs-alternatives.html',
+  '/guides/pt/saturn-rings-when.html',
+  '/guides/pt/sauropelta-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/sauropelta-size-comparison.html',
+  '/guides/pt/schematic-factory-game-vs-alternatives.html',
+  '/guides/pt/schematic-factory-game-when.html',
+  '/guides/pt/scientific-calculator-step-by-step.html',
+  '/guides/pt/scientific-calculator-vs-alternatives.html',
+  '/guides/pt/scientific-calculator-when.html',
+  '/guides/pt/screen-display-test-synonyms.html',
+  '/guides/pt/screen-test-for-laptop-5-minute-checklist.html',
+  '/guides/pt/screen-test-online-vs-app-which-is-more-accurate.html',
+  '/guides/pt/screen-test-vs-camera-test-pick-the-right-tool.html',
+  '/guides/pt/seasonal-witchcat-vs-alternatives.html',
+  '/guides/pt/seasonal-witchcat-when.html',
+  '/guides/pt/seasons-earth-step-by-step.html',
+  '/guides/pt/seasons-earth-vs-alternatives.html',
+  '/guides/pt/seasons-earth-when.html',
+  '/guides/pt/seismosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/seismosaurus-size-comparison.html',
+  '/guides/pt/serpentine-3d-vs-alternatives.html',
+  '/guides/pt/serpentine-3d-when.html',
+  '/guides/pt/server-survival-td-vs-alternatives.html',
+  '/guides/pt/server-survival-td-when.html',
+  '/guides/pt/shepherd-moons-step-by-step.html',
+  '/guides/pt/shepherd-moons-vs-alternatives.html',
+  '/guides/pt/shepherd-moons-when.html',
+  '/guides/pt/shuangmiaosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/shuangmiaosaurus-size-comparison.html',
+  '/guides/pt/sidereal-vs-solar-day-step-by-step.html',
+  '/guides/pt/sidereal-vs-solar-day-vs-alternatives.html',
+  '/guides/pt/sidereal-vs-solar-day-when.html',
+  '/guides/pt/sign-pdf-add-signature-step-by-step.html',
+  '/guides/pt/sign-pdf-add-signature-vs-alternatives.html',
+  '/guides/pt/sign-pdf-add-signature-when.html',
+  '/guides/pt/signature-maker-draw-download-step-by-step.html',
+  '/guides/pt/signature-maker-draw-download-vs-alternatives.html',
+  '/guides/pt/signature-maker-draw-download-when.html',
+  '/guides/pt/sketch-turf-battle-vs-alternatives.html',
+  '/guides/pt/sketch-turf-battle-when.html',
+  '/guides/pt/sky-gates-flight-step-by-step.html',
+  '/guides/pt/sky-gates-flight-vs-alternatives.html',
+  '/guides/pt/sky-gates-flight-when.html',
+  '/guides/pt/snake-classic-step-by-step.html',
+  '/guides/pt/snake-classic-vs-alternatives.html',
+  '/guides/pt/snake-classic-when.html',
+  '/guides/pt/solar-analemma-step-by-step.html',
+  '/guides/pt/solar-analemma-vs-alternatives.html',
+  '/guides/pt/solar-analemma-when.html',
+  '/guides/pt/solar-eclipse-step-by-step.html',
+  '/guides/pt/solar-eclipse-vs-alternatives.html',
+  '/guides/pt/solar-eclipse-when.html',
+  '/guides/pt/solar-flare-classification-step-by-step.html',
+  '/guides/pt/solar-flare-classification-vs-alternatives.html',
+  '/guides/pt/solar-flare-classification-when.html',
+  '/guides/pt/solar-granulation-step-by-step.html',
+  '/guides/pt/solar-granulation-vs-alternatives.html',
+  '/guides/pt/solar-granulation-when.html',
+  '/guides/pt/solar-system-3d-explorer-step-by-step.html',
+  '/guides/pt/solar-system-3d-explorer-vs-alternatives.html',
+  '/guides/pt/solar-system-3d-explorer-when.html',
+  '/guides/pt/solar-wind-heliosphere-step-by-step.html',
+  '/guides/pt/solar-wind-heliosphere-vs-alternatives.html',
+  '/guides/pt/solar-wind-heliosphere-when.html',
+  '/guides/pt/solo-battlefield-vs-alternatives.html',
+  '/guides/pt/solo-battlefield-when.html',
+  '/guides/pt/space-debris-kessler-step-by-step.html',
+  '/guides/pt/space-debris-kessler-vs-alternatives.html',
+  '/guides/pt/space-debris-kessler-when.html',
+  '/guides/pt/space-grid-puzzle-vs-alternatives.html',
+  '/guides/pt/space-grid-puzzle-when.html',
+  '/guides/pt/space-pi-defense-vs-alternatives.html',
+  '/guides/pt/space-pi-defense-when.html',
+  '/guides/pt/spacetime-curvature-step-by-step.html',
+  '/guides/pt/spacetime-curvature-vs-alternatives.html',
+  '/guides/pt/spacetime-curvature-when.html',
+  '/guides/pt/speaker-audio-channel-test-step-by-step.html',
+  '/guides/pt/speaker-audio-channel-test-vs-alternatives.html',
+  '/guides/pt/speaker-audio-channel-test-when.html',
+  '/guides/pt/species-life-battle-vs-alternatives.html',
+  '/guides/pt/species-life-battle-when.html',
+  '/guides/pt/speech-text-step-by-step.html',
+  '/guides/pt/speech-text-vs-alternatives.html',
+  '/guides/pt/speech-text-when.html',
+  '/guides/pt/spike-sprint-vs-alternatives.html',
+  '/guides/pt/spike-sprint-when.html',
+  '/guides/pt/spinosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/spinosaurus-size-comparison.html',
+  '/guides/pt/split-gif-into-frames.html',
+  '/guides/pt/split-pdf-online-free.html',
+  '/guides/pt/sql-formatter-beautifier-step-by-step.html',
+  '/guides/pt/sql-formatter-beautifier-vs-alternatives.html',
+  '/guides/pt/sql-formatter-beautifier-when.html',
+  '/guides/pt/star-fuel-battle-vs-alternatives.html',
+  '/guides/pt/star-fuel-battle-when.html',
+  '/guides/pt/star-lifecycle-step-by-step.html',
+  '/guides/pt/star-lifecycle-vs-alternatives.html',
+  '/guides/pt/star-lifecycle-when.html',
+  '/guides/pt/star-trails-step-by-step.html',
+  '/guides/pt/star-trails-vs-alternatives.html',
+  '/guides/pt/star-trails-when.html',
+  '/guides/pt/starlight-breaker-vs-alternatives.html',
+  '/guides/pt/starlight-breaker-when.html',
+  '/guides/pt/starlink-constellation-shells-step-by-step.html',
+  '/guides/pt/starlink-constellation-shells-vs-alternatives.html',
+  '/guides/pt/starlink-constellation-shells-when.html',
+  '/guides/pt/stegosaurus-3d-viewer-vs-ar-apps.html',
+  // pruned 2026-07-29 zero-evidence pt - batch pt-batch-6 (200 routes)
+  '/guides/pt/ai-background-remover-step-by-step.html',
+  '/guides/pt/ai-background-remover-vs-alternatives.html',
+  '/guides/pt/alarm-clock-step-by-step.html',
+  '/guides/pt/allosaurus-size-comparison.html',
+  '/guides/pt/analog-clock-step-by-step.html',
+  '/guides/pt/ankylosaurus-size-comparison.html',
+  '/guides/pt/base64-when-to-use-and-when-not-to.html',
+  '/guides/pt/camera-mirror-vs-flip-explained.html',
+  '/guides/pt/camera-test-permission-blocked-how-to-allow-it.html',
+  '/guides/pt/camera-test-shows-black-screen-four-fixes.html',
+  '/guides/pt/carnotaurus-size-comparison.html',
+  '/guides/pt/compress-folder-online.html',
+  '/guides/pt/compress-folder-to-zip.html',
+  '/guides/pt/compress-folder.html',
+  '/guides/pt/compress-jpeg-without-losing-quality-quality-vs-size.html',
+  '/guides/pt/compress-pdf-online-free.html',
+  '/guides/pt/compress-zip-file-to-100kb.html',
+  '/guides/pt/compress-zip-file-to-2mb.html',
+  '/guides/pt/compress-zip-file-to-smaller-size.html',
+  '/guides/pt/compress-zip-file.html',
+  '/guides/pt/compress-zip-online.html',
+  '/guides/pt/compress-zip-size.html',
+  '/guides/pt/compress-zip.html',
+  '/guides/pt/compressed-jpg-looks-blurry-three-causes.html',
+  '/guides/pt/constellation-sphere-step-by-step.html',
+  '/guides/pt/constellation-sphere-vs-alternatives.html',
+  '/guides/pt/constellation-sphere-when.html',
+  '/guides/pt/convert-milliseconds-to-date.html',
+  '/guides/pt/coordinate-systems-sky-step-by-step.html',
+  '/guides/pt/coordinate-systems-sky-vs-alternatives.html',
+  '/guides/pt/coordinate-systems-sky-when.html',
+  '/guides/pt/coriolis-effect-step-by-step.html',
+  '/guides/pt/coriolis-effect-vs-alternatives.html',
+  '/guides/pt/coriolis-effect-when.html',
+  '/guides/pt/cosmic-distance-ladder-step-by-step.html',
+  '/guides/pt/cosmic-distance-ladder-vs-alternatives.html',
+  '/guides/pt/cosmic-distance-ladder-when.html',
+  '/guides/pt/cosmic-ray-shower-step-by-step.html',
+  '/guides/pt/cosmic-ray-shower-vs-alternatives.html',
+  '/guides/pt/cosmic-ray-shower-when.html',
+  '/guides/pt/countdown-timer-step-by-step.html',
+  '/guides/pt/create-zip-file-online.html',
+  '/guides/pt/cron-expression-parser-step-by-step.html',
+  '/guides/pt/cron-expression-parser-vs-alternatives.html',
+  '/guides/pt/cron-expression-parser-when.html',
+  '/guides/pt/crop-and-rotate-image.html',
+  '/guides/pt/crop-image-online-free.html',
+  '/guides/pt/css-minifier-vs-compressor.html',
+  '/guides/pt/css-minifier-vs-uglifier-vs-tree-shaking.html',
+  '/guides/pt/css-unminifier-vs-prettier-when-to-use-each.html',
+  '/guides/pt/csv-vs-json-data-formats.html',
+  '/guides/pt/current-millis.html',
+  '/guides/pt/current-time-in-milliseconds.html',
+  '/guides/pt/dead-pixel-testing-guide.html',
+  '/guides/pt/debris-disk-step-by-step.html',
+  '/guides/pt/debris-disk-vs-alternatives.html',
+  '/guides/pt/debris-disk-when.html',
+  '/guides/pt/delete-pdf-pages-vs-alternatives.html',
+  '/guides/pt/device-test-checklist-for-remote-work.html',
+  '/guides/pt/dice-roller-step-by-step.html',
+  '/guides/pt/digital-clock-step-by-step.html',
+  '/guides/pt/document-scanner-pdf-step-by-step.html',
+  '/guides/pt/document-scanner-pdf-vs-alternatives.html',
+  '/guides/pt/document-scanner-pdf-when.html',
+  '/guides/pt/doppler-radial-velocity-step-by-step.html',
+  '/guides/pt/doppler-radial-velocity-vs-alternatives.html',
+  '/guides/pt/doppler-radial-velocity-when.html',
+  '/guides/pt/download-link-not-appearing-after-conversion-five-fixes.html',
+  '/guides/pt/duplicate-word-remover-step-by-step.html',
+  '/guides/pt/duplicate-word-remover-vs-alternatives.html',
+  '/guides/pt/duplicate-word-remover-when.html',
+  '/guides/pt/earth-3d-globe-live-day-night-map-step-by-step.html',
+  '/guides/pt/earth-3d-globe-live-day-night-map-vs-alternatives.html',
+  '/guides/pt/earth-3d-globe-live-day-night-map-when.html',
+  '/guides/pt/earth-magnetosphere-step-by-step.html',
+  '/guides/pt/earth-magnetosphere-vs-alternatives.html',
+  '/guides/pt/earth-magnetosphere-when.html',
+  '/guides/pt/earth-moon-barycenter-step-by-step.html',
+  '/guides/pt/earth-moon-barycenter-vs-alternatives.html',
+  '/guides/pt/earth-moon-barycenter-when.html',
+  '/guides/pt/earthshine-step-by-step.html',
+  '/guides/pt/earthshine-vs-alternatives.html',
+  '/guides/pt/earthshine-when.html',
+  '/guides/pt/ecliptic-zodiac-step-by-step.html',
+  '/guides/pt/ecliptic-zodiac-vs-alternatives.html',
+  '/guides/pt/ecliptic-zodiac-when.html',
+  '/guides/pt/einstein-ring-step-by-step.html',
+  '/guides/pt/einstein-ring-vs-alternatives.html',
+  '/guides/pt/einstein-ring-when.html',
+  '/guides/pt/enceladus-geysers-step-by-step.html',
+  '/guides/pt/enceladus-geysers-vs-alternatives.html',
+  '/guides/pt/enceladus-geysers-when.html',
+  '/guides/pt/equation-of-time-step-by-step.html',
+  '/guides/pt/equation-of-time-vs-alternatives.html',
+  '/guides/pt/equation-of-time-when.html',
+  '/guides/pt/escape-velocity-step-by-step.html',
+  '/guides/pt/escape-velocity-vs-alternatives.html',
+  '/guides/pt/escape-velocity-when.html',
+  '/guides/pt/europa-subsurface-ocean-step-by-step.html',
+  '/guides/pt/europa-subsurface-ocean-when.html',
+  '/guides/pt/exoplanet-transit-step-by-step.html',
+  '/guides/pt/exoplanet-transit-vs-alternatives.html',
+  '/guides/pt/exoplanet-transit-when.html',
+  '/guides/pt/expanding-universe-step-by-step.html',
+  '/guides/pt/expanding-universe-vs-alternatives.html',
+  '/guides/pt/expanding-universe-when.html',
+  '/guides/pt/extract-gif-frames-png-vs-jpg-which-format.html',
+  '/guides/pt/favicon-generator-step-by-step.html',
+  '/guides/pt/favicon-generator-vs-alternatives.html',
+  '/guides/pt/favicon-generator-when.html',
+  '/guides/pt/ffmpeg-online-conversion-stalled-three-fixes.html',
+  '/guides/pt/ffmpeg-online-vs-local-ffmpeg-when-each-wins.html',
+  '/guides/pt/ffmpeg-online-vs-video-converter-which-to-pick.html',
+  '/guides/pt/file-compressor-online-when-to-zip-vs-when-to-compress-image.html',
+  '/guides/pt/file-compressor-vs-zip-what-to-pick.html',
+  '/guides/pt/file-compressor.html',
+  '/guides/pt/file-encryption-step-by-step.html',
+  '/guides/pt/file-encryption-vs-alternatives.html',
+  '/guides/pt/file-encryption-when.html',
+  '/guides/pt/file-to-zip.html',
+  '/guides/pt/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/pt/flashcards-spaced-repetition-when.html',
+  '/guides/pt/folder-to-zip.html',
+  '/guides/pt/foucault-pendulum-step-by-step.html',
+  '/guides/pt/foucault-pendulum-vs-alternatives.html',
+  '/guides/pt/foucault-pendulum-when.html',
+  '/guides/pt/free-online-tools-that-work-without-uploading-files.html',
+  '/guides/pt/front-camera-test.html',
+  '/guides/pt/galaxy-3d-simulator-step-by-step.html',
+  '/guides/pt/galaxy-3d-simulator-vs-alternatives.html',
+  '/guides/pt/galaxy-3d-simulator-when.html',
+  '/guides/pt/galilean-moons-step-by-step.html',
+  '/guides/pt/galilean-moons-vs-alternatives.html',
+  '/guides/pt/galilean-moons-when.html',
+  '/guides/pt/gallimimus-size-comparison.html',
+  '/guides/pt/garden-defense-step-by-step.html',
+  '/guides/pt/garden-defense-vs-alternatives.html',
+  '/guides/pt/garden-defense-when.html',
+  '/guides/pt/gas-giant-atmosphere-step-by-step.html',
+  '/guides/pt/gas-giant-atmosphere-vs-alternatives.html',
+  '/guides/pt/gas-giant-atmosphere-when.html',
+  '/guides/pt/gif-frame-extractor-output-looks-wrong-three-causes.html',
+  '/guides/pt/gif-frame-extractor.html',
+  '/guides/pt/gif-frames-extract-vs-frame-rate-fps-explained.html',
+  '/guides/pt/gif-into-frames.html',
+  '/guides/pt/gif-to-frame.html',
+  '/guides/pt/gif-to-frames-converter.html',
+  '/guides/pt/gpa-calculator-step-by-step.html',
+  '/guides/pt/gpa-calculator-vs-alternatives.html',
+  '/guides/pt/gpa-calculator-when.html',
+  '/guides/pt/gravitational-redshift-step-by-step.html',
+  '/guides/pt/gravitational-redshift-vs-alternatives.html',
+  '/guides/pt/gravitational-redshift-when.html',
+  '/guides/pt/gravitational-slingshot-step-by-step.html',
+  '/guides/pt/gravitational-slingshot-vs-alternatives.html',
+  '/guides/pt/gravitational-slingshot-when.html',
+  '/guides/pt/gravitational-waves-step-by-step.html',
+  '/guides/pt/gravitational-waves-vs-alternatives.html',
+  '/guides/pt/gravitational-waves-when.html',
+  '/guides/pt/gravity-well-step-by-step.html',
+  '/guides/pt/gravity-well-vs-alternatives.html',
+  '/guides/pt/gravity-well-when.html',
+  '/guides/pt/habitable-zone-step-by-step.html',
+  '/guides/pt/habitable-zone-vs-alternatives.html',
+  '/guides/pt/habitable-zone-when.html',
+  '/guides/pt/hash-generator-sha-256-512-step-by-step.html',
+  '/guides/pt/hash-generator-sha-256-512-vs-alternatives.html',
+  '/guides/pt/hash-generator-sha-256-512-when.html',
+  '/guides/pt/haumea-elongated-step-by-step.html',
+  '/guides/pt/hd-video-converter-step-by-step.html',
+  '/guides/pt/hd-video-converter-vs-alternatives.html',
+  '/guides/pt/hd-video-converter-when.html',
+  '/guides/pt/heic-to-jpg-claims-what-actually-works.html',
+  '/guides/pt/heic-vs-jpg-converter-when-each-wins.html',
+  '/guides/pt/heic-vs-jpg-vs-webp.html',
+  '/guides/pt/hex-puzzle-blocks-step-by-step.html',
+  '/guides/pt/hex-puzzle-blocks-vs-alternatives.html',
+  '/guides/pt/hex-puzzle-blocks-when.html',
+  '/guides/pt/hill-sphere-step-by-step.html',
+  '/guides/pt/hill-sphere-vs-alternatives.html',
+  '/guides/pt/hill-sphere-when.html',
+  '/guides/pt/hohmann-transfer-step-by-step.html',
+  '/guides/pt/hohmann-transfer-vs-alternatives.html',
+  '/guides/pt/hohmann-transfer-when.html',
+  '/guides/pt/how-to-check-camera-quality-on-your-phone.html',
+  '/guides/pt/how-to-check-webcam-and-microphone-before-an-interview.html',
+  '/guides/pt/how-to-choose-a-compression-level.html',
+  '/guides/pt/how-to-compress-a-file-online.html',
+  '/guides/pt/how-to-compress-a-folder-for-email.html',
+  '/guides/pt/how-to-compress-a-folder.html',
+  '/guides/pt/how-to-compress-a-jpg-for-email-attachment-limits.html',
+  '/guides/pt/how-to-compress-a-zip-file-to-a-specific-size.html',
+  '/guides/pt/how-to-compress-a-zip-file.html',
+  '/guides/pt/how-to-compress-zip-file-to-smaller-size.html',
+  '/guides/pt/how-to-convert-100-heic-photos-to-jpg.html',
+  '/guides/pt/how-to-convert-heic-to-jpg-step-by-step.html',
+  '/guides/pt/how-to-convert-iphone-photo-to-jpg.html',
+  '/guides/pt/how-to-convert-units-online.html',
+  '/guides/pt/how-to-crop-and-rotate-an-image.html',
+  // pruned 2026-07-29 zero-evidence pt - batch pt-batch-7 (98 routes, FINAL PT batch)
+  '/guides/pt/stegosaurus-size-comparison.html',
+  '/guides/pt/strong-lensing-multiple-images-step-by-step.html',
+  '/guides/pt/strong-lensing-multiple-images-vs-alternatives.html',
+  '/guides/pt/strong-lensing-multiple-images-when.html',
+  '/guides/pt/stygimoloch-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/stygimoloch-size-comparison.html',
+  '/guides/pt/sun-red-giant-future-step-by-step.html',
+  '/guides/pt/sun-red-giant-future-vs-alternatives.html',
+  '/guides/pt/sun-red-giant-future-when.html',
+  '/guides/pt/swing-block-tower-vs-alternatives.html',
+  '/guides/pt/swing-block-tower-when.html',
+  '/guides/pt/tarbosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/tarbosaurus-size-comparison.html',
+  '/guides/pt/tdee-calorie-calculator-step-by-step.html',
+  '/guides/pt/tdee-calorie-calculator-vs-alternatives.html',
+  '/guides/pt/tdee-calorie-calculator-when.html',
+  '/guides/pt/the-house-pointclick-vs-alternatives.html',
+  '/guides/pt/the-house-pointclick-when.html',
+  '/guides/pt/therizinosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/therizinosaurus-size-comparison.html',
+  '/guides/pt/thirteen-card-duel-vs-alternatives.html',
+  '/guides/pt/thirteen-card-duel-when.html',
+  '/guides/pt/thirteen-case-files-vs-alternatives.html',
+  '/guides/pt/thirteen-case-files-when.html',
+  '/guides/pt/thirteen-hours-vs-alternatives.html',
+  '/guides/pt/thirteen-hours-when.html',
+  '/guides/pt/thirteen-step-escape-vs-alternatives.html',
+  '/guides/pt/thirteen-step-escape-when.html',
+  '/guides/pt/titan-methane-lakes-step-by-step.html',
+  '/guides/pt/titan-methane-lakes-vs-alternatives.html',
+  '/guides/pt/titan-methane-lakes-when.html',
+  '/guides/pt/titanoboa-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/titanoboa-size-comparison.html',
+  '/guides/pt/titanosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/titanosaurus-size-comparison.html',
+  '/guides/pt/torino-impact-hazard-scale-step-by-step.html',
+  '/guides/pt/torino-impact-hazard-scale-vs-alternatives.html',
+  '/guides/pt/torino-impact-hazard-scale-when.html',
+  '/guides/pt/torvosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/torvosaurus-size-comparison.html',
+  '/guides/pt/touchscreen-test-step-by-step.html',
+  '/guides/pt/touchscreen-test-vs-alternatives.html',
+  '/guides/pt/touchscreen-test-when.html',
+  '/guides/pt/triceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/triton-cantaloupe-vs-alternatives.html',
+  '/guides/pt/triton-cantaloupe-when.html',
+  '/guides/pt/troodon-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/troodon-size-comparison.html',
+  '/guides/pt/tsintaosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/tsintaosaurus-size-comparison.html',
+  '/guides/pt/twilight-types-step-by-step.html',
+  '/guides/pt/twilight-types-vs-alternatives.html',
+  '/guides/pt/twilight-types-when.html',
+  '/guides/pt/tylosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/tylosaurus-size-comparison.html',
+  '/guides/pt/tyrannosaurus-rex-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/tyrannosaurus-rex-size-comparison.html',
+  '/guides/pt/unlucky-crossing-vs-alternatives.html',
+  '/guides/pt/unlucky-crossing-when.html',
+  '/guides/pt/utahraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/utahraptor-size-comparison.html',
+  '/guides/pt/velociraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/pt/velociraptor-size-comparison.html',
+  '/guides/pt/venus-runaway-greenhouse-step-by-step.html',
+  '/guides/pt/venus-runaway-greenhouse-vs-alternatives.html',
+  '/guides/pt/venus-runaway-greenhouse-when.html',
+  '/guides/pt/video-compressor-step-by-step.html',
+  '/guides/pt/video-compressor-vs-alternatives.html',
+  '/guides/pt/video-compressor-when.html',
+  '/guides/pt/vim-master-vs-alternatives.html',
+  '/guides/pt/vim-master-when.html',
+  '/guides/pt/vim-motion-academy-vs-alternatives.html',
+  '/guides/pt/vim-motion-academy-when.html',
+  '/guides/pt/violence-town-vs-alternatives.html',
+  '/guides/pt/violence-town-when.html',
+  '/guides/pt/void-trader-vs-alternatives.html',
+  '/guides/pt/void-trader-when.html',
+  '/guides/pt/voxel-fps-arena-vs-alternatives.html',
+  '/guides/pt/voxel-fps-arena-when.html',
+  '/guides/pt/voyager-interstellar-position-step-by-step.html',
+  '/guides/pt/voyager-interstellar-position-vs-alternatives.html',
+  '/guides/pt/voyager-interstellar-position-when.html',
+  '/guides/pt/wash-the-cat-vs-alternatives.html',
+  '/guides/pt/wash-the-cat-when.html',
+  '/guides/pt/webp-jpg-converter-step-by-step.html',
+  '/guides/pt/webp-jpg-converter-when.html',
+  '/guides/pt/webp-png-converter-step-by-step.html',
+  '/guides/pt/webp-png-converter-vs-alternatives.html',
+  '/guides/pt/webp-png-converter-when.html',
+  '/guides/pt/white-dwarf-chandrasekhar-limit-step-by-step.html',
+  '/guides/pt/white-dwarf-chandrasekhar-limit-vs-alternatives.html',
+  '/guides/pt/white-dwarf-chandrasekhar-limit-when.html',
+  '/guides/pt/yaml-json-converter-step-by-step.html',
+  '/guides/pt/yaml-json-converter-vs-alternatives.html',
+  '/guides/pt/yaml-json-converter-when.html',
+  '/guides/pt/yarkovsky-effect-step-by-step.html',
+  '/guides/pt/yarkovsky-effect-vs-alternatives.html',
+  '/guides/pt/yarkovsky-effect-when.html',
+
+  // pruned 2026-07-29 zero-evidence es - batch es-batch-1 (200 routes)
+  '/guides/es/abelisaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/abelisaurus-size-comparison.html',
+  '/guides/es/abyss-signal-diver-vs-alternatives.html',
+  '/guides/es/abyss-signal-diver-when.html',
+  '/guides/es/acrocanthosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/acrocanthosaurus-size-comparison.html',
+  '/guides/es/add-watermark-pdf-step-by-step.html',
+  '/guides/es/add-watermark-pdf-vs-alternatives.html',
+  '/guides/es/add-watermark-pdf-when.html',
+  '/guides/es/age-calculator-vs-alternatives.html',
+  '/guides/es/age-calculator-when.html',
+  '/guides/es/albertaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/es/albertaceratops-size-comparison.html',
+  '/guides/es/albertosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/albertosaurus-size-comparison.html',
+  '/guides/es/algol-eclipsing-binary-step-by-step.html',
+  '/guides/es/algol-eclipsing-binary-vs-alternatives.html',
+  '/guides/es/algol-eclipsing-binary-when.html',
+  '/guides/es/alioramus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/alioramus-size-comparison.html',
+  '/guides/es/allosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/allosaurus-size-comparison.html',
+  '/guides/es/amargasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/amargasaurus-size-comparison.html',
+  '/guides/es/ampelosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ampelosaurus-size-comparison.html',
+  '/guides/es/andromeda-collision-step-by-step.html',
+  '/guides/es/andromeda-collision-vs-alternatives.html',
+  '/guides/es/andromeda-collision-when.html',
+  '/guides/es/andromeda-star-shooter-vs-alternatives.html',
+  '/guides/es/andromeda-star-shooter-when.html',
+  '/guides/es/ankylosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ankylosaurus-size-comparison.html',
+  '/guides/es/apatosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/apatosaurus-size-comparison.html',
+  '/guides/es/apollo-free-return-trajectory-step-by-step.html',
+  '/guides/es/apollo-free-return-trajectory-vs-alternatives.html',
+  '/guides/es/apollo-free-return-trajectory-when.html',
+  '/guides/es/apophis-2029-flyby-step-by-step.html',
+  '/guides/es/apophis-2029-flyby-vs-alternatives.html',
+  '/guides/es/apophis-2029-flyby-when.html',
+  '/guides/es/arrow-dodge-arena-vs-alternatives.html',
+  '/guides/es/arrow-dodge-arena-when.html',
+  '/guides/es/asteroid-blaster-vs-alternatives.html',
+  '/guides/es/asteroid-blaster-when.html',
+  '/guides/es/avaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/es/avaceratops-size-comparison.html',
+  '/guides/es/axial-tilt-comparison-step-by-step.html',
+  '/guides/es/axial-tilt-comparison-vs-alternatives.html',
+  '/guides/es/axial-tilt-comparison-when.html',
+  '/guides/es/bangbang-artillery-vs-alternatives.html',
+  '/guides/es/bangbang-artillery-when.html',
+  '/guides/es/barosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/barosaurus-size-comparison.html',
+  '/guides/es/baryonyx-3d-viewer-vs-ar-apps.html',
+  '/guides/es/baryonyx-size-comparison.html',
+  '/guides/es/becklespinax-3d-viewer-vs-ar-apps.html',
+  '/guides/es/becklespinax-size-comparison.html',
+  '/guides/es/black-cat-hot-tin-roof-vs-alternatives.html',
+  '/guides/es/black-cat-hot-tin-roof-when.html',
+  '/guides/es/black-hole-square-vs-alternatives.html',
+  '/guides/es/black-hole-square-when.html',
+  '/guides/es/boing-cat-platformer-vs-alternatives.html',
+  '/guides/es/boing-cat-platformer-when.html',
+  '/guides/es/borisov-interstellar-comet-step-by-step.html',
+  '/guides/es/borisov-interstellar-comet-vs-alternatives.html',
+  '/guides/es/borisov-interstellar-comet-when.html',
+  '/guides/es/bortle-scale-light-pollution-step-by-step.html',
+  '/guides/es/bortle-scale-light-pollution-vs-alternatives.html',
+  '/guides/es/bortle-scale-light-pollution-when.html',
+  '/guides/es/bounce-back-vs-alternatives.html',
+  '/guides/es/bounce-back-when.html',
+  '/guides/es/brachiosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/brachiosaurus-size-comparison.html',
+  '/guides/es/brachylophosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/brachylophosaurus-size-comparison.html',
+  '/guides/es/brontosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/brontosaurus-size-comparison.html',
+  '/guides/es/brontotherium-3d-viewer-vs-ar-apps.html',
+  '/guides/es/brontotherium-size-comparison.html',
+  '/guides/es/carnotaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/carnotaurus-size-comparison.html',
+  '/guides/es/cassini-grand-finale-step-by-step.html',
+  '/guides/es/cat-hop-cloud-vs-alternatives.html',
+  '/guides/es/cat-hop-cloud-when.html',
+  '/guides/es/cat-typing-race-vs-alternatives.html',
+  '/guides/es/cat-typing-race-when.html',
+  '/guides/es/ceratosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/character-counter-step-by-step.html',
+  '/guides/es/character-counter-vs-alternatives.html',
+  '/guides/es/character-counter-when.html',
+  '/guides/es/chariklo-rings-step-by-step.html',
+  '/guides/es/chariklo-rings-vs-alternatives.html',
+  '/guides/es/chariklo-rings-when.html',
+  '/guides/es/chasmosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/chasmosaurus-size-comparison.html',
+  '/guides/es/chili-blast-shooter-vs-alternatives.html',
+  '/guides/es/chili-blast-shooter-when.html',
+  '/guides/es/city-drive-open-world-3d-step-by-step.html',
+  '/guides/es/city-drive-open-world-3d-vs-alternatives.html',
+  '/guides/es/city-drive-open-world-3d-when.html',
+  '/guides/es/classic-pong-vs-alternatives.html',
+  '/guides/es/classic-pong-when.html',
+  '/guides/es/claudicus-quest-vs-alternatives.html',
+  '/guides/es/claudicus-quest-when.html',
+  '/guides/es/coelophysis-3d-viewer-vs-ar-apps.html',
+  '/guides/es/coelophysis-size-comparison.html',
+  '/guides/es/compsognathus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/compsognathus-size-comparison.html',
+  '/guides/es/concavenator-3d-viewer-vs-ar-apps.html',
+  '/guides/es/concavenator-size-comparison.html',
+  '/guides/es/connect-four-ai-vs-alternatives.html',
+  '/guides/es/connect-four-ai-when.html',
+  '/guides/es/coronal-mass-ejection-step-by-step.html',
+  '/guides/es/coronal-mass-ejection-vs-alternatives.html',
+  '/guides/es/coronal-mass-ejection-when.html',
+  '/guides/es/cryolophosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/cryolophosaurus-size-comparison.html',
+  '/guides/es/css-box-shadow-generator-step-by-step.html',
+  '/guides/es/css-box-shadow-generator-vs-alternatives.html',
+  '/guides/es/css-box-shadow-generator-when.html',
+  '/guides/es/css-grid-layout-generator-step-by-step.html',
+  '/guides/es/css-grid-layout-generator-vs-alternatives.html',
+  '/guides/es/css-grid-layout-generator-when.html',
+  '/guides/es/csv-json-converter-step-by-step.html',
+  '/guides/es/csv-json-converter-vs-alternatives.html',
+  '/guides/es/csv-json-converter-when.html',
+  '/guides/es/curiosity-rover-traverse-step-by-step.html',
+  '/guides/es/curiosity-rover-traverse-vs-alternatives.html',
+  '/guides/es/curiosity-rover-traverse-when.html',
+  '/guides/es/cyber-neon-maze-vs-alternatives.html',
+  '/guides/es/cyber-neon-maze-when.html',
+  '/guides/es/cyber-slide-puzzle-vs-alternatives.html',
+  '/guides/es/cyber-slide-puzzle-when.html',
+  '/guides/es/dark-matter-rotation-curves-step-by-step.html',
+  '/guides/es/dark-matter-rotation-curves-vs-alternatives.html',
+  '/guides/es/dark-matter-rotation-curves-when.html',
+  '/guides/es/darkline-paws-vs-alternatives.html',
+  '/guides/es/darkline-paws-when.html',
+  '/guides/es/dart-asteroid-deflection-step-by-step.html',
+  '/guides/es/dart-asteroid-deflection-vs-alternatives.html',
+  '/guides/es/dart-asteroid-deflection-when.html',
+  '/guides/es/date-difference-calculator-step-by-step.html',
+  '/guides/es/date-difference-calculator-vs-alternatives.html',
+  '/guides/es/date-difference-calculator-when.html',
+  '/guides/es/deinocheirus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/deinocheirus-size-comparison.html',
+  '/guides/es/deinonychus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/deinonychus-size-comparison.html',
+  '/guides/es/delete-pdf-pages-step-by-step.html',
+  '/guides/es/delete-pdf-pages-when.html',
+  '/guides/es/desk-cat-coder-vs-alternatives.html',
+  '/guides/es/desk-cat-coder-when.html',
+  '/guides/es/dilophosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/dilophosaurus-size-comparison.html',
+  '/guides/es/dimetrodon-3d-viewer-vs-ar-apps.html',
+  '/guides/es/dimetrodon-size-comparison.html',
+  '/guides/es/diplodocus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/diplodocus-size-comparison.html',
+  '/guides/es/doliosauriscus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/doliosauriscus-size-comparison.html',
+  '/guides/es/dracovenator-3d-viewer-vs-ar-apps.html',
+  '/guides/es/dracovenator-size-comparison.html',
+  '/guides/es/dwarf-planet-comparison-step-by-step.html',
+  '/guides/es/dwarf-planet-comparison-vs-alternatives.html',
+  '/guides/es/dwarf-planet-comparison-when.html',
+  '/guides/es/earth-perihelion-aphelion-step-by-step.html',
+  '/guides/es/earth-perihelion-aphelion-vs-alternatives.html',
+  '/guides/es/earth-perihelion-aphelion-when.html',
+  '/guides/es/edmontosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/edmontosaurus-size-comparison.html',
+  '/guides/es/egg-time-rewind-vs-alternatives.html',
+  '/guides/es/egg-time-rewind-when.html',
+  '/guides/es/eight-ball-pool-vs-alternatives.html',
+  '/guides/es/eight-ball-pool-when.html',
+  '/guides/es/elm-street-delivery-vs-alternatives.html',
+  '/guides/es/elm-street-delivery-when.html',
+  '/guides/es/emoji-slot-machine-vs-alternatives.html',
+  '/guides/es/emoji-slot-machine-when.html',
+  '/guides/es/exoplanet-atmosphere-spectroscopy-step-by-step.html',
+  '/guides/es/exoplanet-atmosphere-spectroscopy-vs-alternatives.html',
+  '/guides/es/exoplanet-atmosphere-spectroscopy-when.html',
+  '/guides/es/expense-tracker-step-by-step.html',
+  '/guides/es/expense-tracker-vs-alternatives.html',
+  '/guides/es/expense-tracker-when.html',
+  '/guides/es/fast-radio-bursts-step-by-step.html',
+  '/guides/es/fast-radio-bursts-vs-alternatives.html',
+  '/guides/es/fast-radio-bursts-when.html',
+  '/guides/es/feast-night-vs-alternatives.html',
+  '/guides/es/feast-night-when.html',
+  '/guides/es/find-replace-text-step-by-step.html',
+  '/guides/es/find-replace-text-vs-alternatives.html',
+  '/guides/es/find-replace-text-when.html',
+  '/guides/es/flexbox-froggy-vs-alternatives.html',
+  '/guides/es/flexbox-froggy-when.html',
+  '/guides/es/floor-thirteen-horror-vs-alternatives.html',
+  '/guides/es/floor-thirteen-horror-when.html',
+  '/guides/es/galactic-coordinate-transforms-step-by-step.html',
+  '/guides/es/galactic-coordinate-transforms-vs-alternatives.html',
+  '/guides/es/galactic-coordinate-transforms-when.html',
+  // pruned 2026-07-29 zero-evidence es (es-batch-2 restored after places-3d merge conflict)
+  '/guides/es/2048-game-merge-numbers-puzzle-step-by-step.html',
+  '/guides/es/2048-game-merge-numbers-puzzle-vs-alternatives.html',
+  '/guides/es/2048-game-merge-numbers-puzzle-when.html',
+  '/guides/es/aberration-of-starlight-step-by-step.html',
+  '/guides/es/aberration-of-starlight-vs-alternatives.html',
+  '/guides/es/aberration-of-starlight-when.html',
+  '/guides/es/add-page-numbers-pdf-step-by-step.html',
+  '/guides/es/add-page-numbers-pdf-vs-alternatives.html',
+  '/guides/es/add-page-numbers-pdf-when.html',
+  '/guides/es/add-watermark-image-step-by-step.html',
+  '/guides/es/add-watermark-image-vs-alternatives.html',
+  '/guides/es/add-watermark-image-when.html',
+  '/guides/es/ai-background-remover-step-by-step.html',
+  '/guides/es/ai-background-remover-vs-alternatives.html',
+  '/guides/es/ai-background-remover-when.html',
+  '/guides/es/ai-photo-restoration-step-by-step.html',
+  '/guides/es/ai-photo-restoration-vs-alternatives.html',
+  '/guides/es/ai-photo-restoration-when.html',
+  '/guides/es/analog-clock-step-by-step.html',
+  '/guides/es/apsidal-precession-step-by-step.html',
+  '/guides/es/apsidal-precession-vs-alternatives.html',
+  '/guides/es/apsidal-precession-when.html',
+  '/guides/es/aspect-ratio-calculator-step-by-step.html',
+  '/guides/es/aspect-ratio-calculator-vs-alternatives.html',
+  '/guides/es/aspect-ratio-calculator-when.html',
+  '/guides/es/asteroid-belt-step-by-step.html',
+  '/guides/es/asteroid-belt-vs-alternatives.html',
+  '/guides/es/asteroid-belt-when.html',
+  '/guides/es/aurora-step-by-step.html',
+  '/guides/es/aurora-vs-alternatives.html',
+  '/guides/es/aurora-when.html',
+  '/guides/es/barcode-generator-ean-upc-code128-step-by-step.html',
+  '/guides/es/barcode-generator-ean-upc-code128-vs-alternatives.html',
+  '/guides/es/barcode-generator-ean-upc-code128-when.html',
+  '/guides/es/base64-when-to-use-and-when-not-to.html',
+  '/guides/es/before-a-video-call-which-tools-to-run.html',
+  '/guides/es/betelgeuse-dimming-step-by-step.html',
+  '/guides/es/betelgeuse-dimming-vs-alternatives.html',
+  '/guides/es/betelgeuse-dimming-when.html',
+  '/guides/es/binary-star-system-step-by-step.html',
+  '/guides/es/binary-star-system-vs-alternatives.html',
+  '/guides/es/binary-star-system-when.html',
+  '/guides/es/binary-text-converter-step-by-step.html',
+  '/guides/es/binary-text-converter-vs-alternatives.html',
+  '/guides/es/binary-text-converter-when.html',
+  '/guides/es/black-body-radiation-step-by-step.html',
+  '/guides/es/black-body-radiation-vs-alternatives.html',
+  '/guides/es/black-body-radiation-when.html',
+  '/guides/es/black-hole-3d-visualizer-step-by-step.html',
+  '/guides/es/black-hole-3d-visualizer-vs-alternatives.html',
+  '/guides/es/black-hole-3d-visualizer-when.html',
+  '/guides/es/bmi-calculator-step-by-step.html',
+  '/guides/es/bmi-calculator-vs-alternatives.html',
+  '/guides/es/bmi-calculator-when.html',
+  '/guides/es/brown-dwarf-step-by-step.html',
+  '/guides/es/brown-dwarf-vs-alternatives.html',
+  '/guides/es/brown-dwarf-when.html',
+  '/guides/es/camera-test-shows-black-screen-four-fixes.html',
+  '/guides/es/camera-test-vs-webcam-test-which-do-you-need.html',
+  '/guides/es/carrington-event-step-by-step.html',
+  '/guides/es/carrington-event-vs-alternatives.html',
+  '/guides/es/carrington-event-when.html',
+  '/guides/es/cek-layar-laptop.html',
+  '/guides/es/cepheid-variable-step-by-step.html',
+  '/guides/es/cepheid-variable-vs-alternatives.html',
+  '/guides/es/cepheid-variable-when.html',
+  '/guides/es/charon-serenity-chasma-step-by-step.html',
+  '/guides/es/charon-serenity-chasma-vs-alternatives.html',
+  '/guides/es/charon-serenity-chasma-when.html',
+  '/guides/es/chelyabinsk-meteor-step-by-step.html',
+  '/guides/es/chelyabinsk-meteor-vs-alternatives.html',
+  '/guides/es/chelyabinsk-meteor-when.html',
+  '/guides/es/circumbinary-planet-step-by-step.html',
+  '/guides/es/circumbinary-planet-vs-alternatives.html',
+  '/guides/es/circumbinary-planet-when.html',
+  '/guides/es/city-time-machine-3d-step-by-step.html',
+  '/guides/es/city-time-machine-3d-vs-alternatives.html',
+  '/guides/es/city-time-machine-3d-when.html',
+  '/guides/es/cmb-sky-step-by-step.html',
+  '/guides/es/cmb-sky-vs-alternatives.html',
+  '/guides/es/cmb-sky-when.html',
+  '/guides/es/coin-flip-step-by-step.html',
+  '/guides/es/color-contrast-checker-wcag-step-by-step.html',
+  '/guides/es/color-contrast-checker-wcag-vs-alternatives.html',
+  '/guides/es/color-contrast-checker-wcag-when.html',
+  '/guides/es/comet-orbit-step-by-step.html',
+  '/guides/es/comet-orbit-vs-alternatives.html',
+  '/guides/es/comet-orbit-when.html',
+  '/guides/es/comet-tail-types-step-by-step.html',
+  '/guides/es/comet-tail-types-vs-alternatives.html',
+  '/guides/es/comet-tail-types-when.html',
+  '/guides/es/common-md5-gethash64string.html',
+  '/guides/es/compound-interest-calculator-step-by-step.html',
+  '/guides/es/compound-interest-calculator-vs-alternatives.html',
+  '/guides/es/compound-interest-calculator-when.html',
+  '/guides/es/compress-image-online-to-50kb.html',
+  '/guides/es/compress-jpeg-without-losing-quality-quality-vs-size.html',
+  '/guides/es/compress-zip-file-to-100kb.html',
+  '/guides/es/constellation-sphere-step-by-step.html',
+  '/guides/es/constellation-sphere-vs-alternatives.html',
+  '/guides/es/constellation-sphere-when.html',
+  '/guides/es/coordinate-systems-sky-step-by-step.html',
+  '/guides/es/coordinate-systems-sky-vs-alternatives.html',
+  '/guides/es/coordinate-systems-sky-when.html',
+  '/guides/es/coriolis-effect-step-by-step.html',
+  '/guides/es/coriolis-effect-vs-alternatives.html',
+  '/guides/es/coriolis-effect-when.html',
+  '/guides/es/cosmic-distance-ladder-step-by-step.html',
+  '/guides/es/cosmic-distance-ladder-vs-alternatives.html',
+  '/guides/es/cosmic-distance-ladder-when.html',
+  '/guides/es/cosmic-ray-shower-step-by-step.html',
+  '/guides/es/cosmic-ray-shower-vs-alternatives.html',
+  '/guides/es/cosmic-ray-shower-when.html',
+  '/guides/es/countdown-timer-step-by-step.html',
+  '/guides/es/cron-expression-parser-step-by-step.html',
+  '/guides/es/cron-expression-parser-vs-alternatives.html',
+  '/guides/es/cron-expression-parser-when.html',
+  '/guides/es/crop-and-rotate-image.html',
+  '/guides/es/css-minifier-vs-compressor.html',
+  '/guides/es/css-minifier-vs-uglifier-vs-tree-shaking.html',
+  '/guides/es/css-unminifier-vs-prettier-when-to-use-each.html',
+  '/guides/es/dead-pixel-testing-guide.html',
+  '/guides/es/debris-disk-step-by-step.html',
+  '/guides/es/debris-disk-vs-alternatives.html',
+  '/guides/es/debris-disk-when.html',
+  '/guides/es/device-test-checklist-for-remote-work.html',
+  '/guides/es/document-scanner-pdf-step-by-step.html',
+  '/guides/es/document-scanner-pdf-vs-alternatives.html',
+  '/guides/es/document-scanner-pdf-when.html',
+  '/guides/es/doppler-radial-velocity-step-by-step.html',
+  '/guides/es/doppler-radial-velocity-vs-alternatives.html',
+  '/guides/es/doppler-radial-velocity-when.html',
+  '/guides/es/download-link-not-appearing-after-conversion-five-fixes.html',
+  '/guides/es/duplicate-word-remover-step-by-step.html',
+  '/guides/es/duplicate-word-remover-vs-alternatives.html',
+  '/guides/es/duplicate-word-remover-when.html',
+  '/guides/es/earth-3d-globe-live-day-night-map-step-by-step.html',
+  '/guides/es/earth-3d-globe-live-day-night-map-vs-alternatives.html',
+  '/guides/es/earth-3d-globe-live-day-night-map-when.html',
+  '/guides/es/earth-magnetosphere-step-by-step.html',
+  '/guides/es/earth-magnetosphere-vs-alternatives.html',
+  '/guides/es/earth-magnetosphere-when.html',
+  '/guides/es/earth-moon-barycenter-step-by-step.html',
+  '/guides/es/earth-moon-barycenter-vs-alternatives.html',
+  '/guides/es/earth-moon-barycenter-when.html',
+  '/guides/es/earthshine-step-by-step.html',
+  '/guides/es/earthshine-vs-alternatives.html',
+  '/guides/es/earthshine-when.html',
+  '/guides/es/ecliptic-zodiac-step-by-step.html',
+  '/guides/es/ecliptic-zodiac-vs-alternatives.html',
+  '/guides/es/ecliptic-zodiac-when.html',
+  '/guides/es/einstein-ring-step-by-step.html',
+  '/guides/es/einstein-ring-vs-alternatives.html',
+  '/guides/es/einstein-ring-when.html',
+  '/guides/es/enceladus-geysers-step-by-step.html',
+  '/guides/es/enceladus-geysers-vs-alternatives.html',
+  '/guides/es/enceladus-geysers-when.html',
+  '/guides/es/equation-of-time-step-by-step.html',
+  '/guides/es/equation-of-time-vs-alternatives.html',
+  '/guides/es/equation-of-time-when.html',
+  '/guides/es/escape-velocity-step-by-step.html',
+  '/guides/es/escape-velocity-vs-alternatives.html',
+  '/guides/es/escape-velocity-when.html',
+  '/guides/es/europa-subsurface-ocean-step-by-step.html',
+  '/guides/es/europa-subsurface-ocean-when.html',
+  '/guides/es/exoplanet-transit-step-by-step.html',
+  '/guides/es/exoplanet-transit-vs-alternatives.html',
+  '/guides/es/exoplanet-transit-when.html',
+  '/guides/es/expanding-universe-step-by-step.html',
+  '/guides/es/expanding-universe-vs-alternatives.html',
+  '/guides/es/expanding-universe-when.html',
+  '/guides/es/extract-gif-frames-png-vs-jpg-which-format.html',
+  '/guides/es/favicon-generator-step-by-step.html',
+  '/guides/es/favicon-generator-vs-alternatives.html',
+  '/guides/es/favicon-generator-when.html',
+  '/guides/es/ffmpeg-online-conversion-stalled-three-fixes.html',
+  '/guides/es/ffmpeg-online-vs-local-ffmpeg-when-each-wins.html',
+  '/guides/es/file-compressor-vs-zip-what-to-pick.html',
+  '/guides/es/file-compressor.html',
+  '/guides/es/file-encryption-step-by-step.html',
+  '/guides/es/file-encryption-vs-alternatives.html',
+  '/guides/es/file-encryption-when.html',
+  '/guides/es/file-to-zip.html',
+  '/guides/es/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/es/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/es/flashcards-spaced-repetition-when.html',
+  '/guides/es/folder-to-zip.html',
+  '/guides/es/foucault-pendulum-step-by-step.html',
+  '/guides/es/foucault-pendulum-vs-alternatives.html',
+  '/guides/es/foucault-pendulum-when.html',
+  '/guides/es/free-online-tools-that-work-without-uploading-files.html',
+  '/guides/es/galactic-year-sun-orbit-step-by-step.html',
+  '/guides/es/galactic-year-sun-orbit-vs-alternatives.html',
+  '/guides/es/galactic-year-sun-orbit-when.html',
+  '/guides/es/galaxy-3d-simulator-step-by-step.html',
+  '/guides/es/galaxy-3d-simulator-vs-alternatives.html',
+  '/guides/es/galaxy-3d-simulator-when.html',
+  '/guides/es/galilean-moons-step-by-step.html',
+  '/guides/es/galilean-moons-vs-alternatives.html',
+  '/guides/es/galilean-moons-when.html',
+  // pruned 2026-07-29 zero-evidence es (es-batch-3)
+  '/guides/es/compress-zip-size.html',
+  '/guides/es/compress-zip.html',
+  '/guides/es/file-compressor-online-when-to-zip-vs-when-to-compress-image.html',
+  '/guides/es/gallimimus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/gallimimus-size-comparison.html',
+  '/guides/es/gamepad-controller-test-step-by-step.html',
+  '/guides/es/gamepad-controller-test-vs-alternatives.html',
+  '/guides/es/gamepad-controller-test-when.html',
+  '/guides/es/garden-defense-step-by-step.html',
+  '/guides/es/garden-defense-vs-alternatives.html',
+  '/guides/es/garden-defense-when.html',
+  '/guides/es/gas-giant-atmosphere-step-by-step.html',
+  '/guides/es/gas-giant-atmosphere-vs-alternatives.html',
+  '/guides/es/gas-giant-atmosphere-when.html',
+  '/guides/es/gif-frame-extractor-output-looks-wrong-three-causes.html',
+  '/guides/es/gif-frame-extractor.html',
+  '/guides/es/gif-frames-extract-vs-frame-rate-fps-explained.html',
+  '/guides/es/gif-into-frames.html',
+  '/guides/es/gif-to-frame.html',
+  '/guides/es/gif-to-frames-converter.html',
+  '/guides/es/giganotosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/giganotosaurus-size-comparison.html',
+  '/guides/es/gigantoraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/es/gigantoraptor-size-comparison.html',
+  '/guides/es/globe-siege-vs-alternatives.html',
+  '/guides/es/globe-siege-when.html',
+  '/guides/es/globular-cluster-step-by-step.html',
+  '/guides/es/globular-cluster-vs-alternatives.html',
+  '/guides/es/globular-cluster-when.html',
+  '/guides/es/glow-firefly-cat-vs-alternatives.html',
+  '/guides/es/glow-firefly-cat-when.html',
+  '/guides/es/googol-stopping-game-vs-alternatives.html',
+  '/guides/es/googol-stopping-game-when.html',
+  '/guides/es/gorgosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/gorgosaurus-size-comparison.html',
+  '/guides/es/gpa-calculator-step-by-step.html',
+  '/guides/es/gpa-calculator-vs-alternatives.html',
+  '/guides/es/gpa-calculator-when.html',
+  '/guides/es/gps-time-dilation-step-by-step.html',
+  '/guides/es/gps-time-dilation-vs-alternatives.html',
+  '/guides/es/gps-time-dilation-when.html',
+  '/guides/es/gravitational-redshift-step-by-step.html',
+  '/guides/es/gravitational-redshift-vs-alternatives.html',
+  '/guides/es/gravitational-redshift-when.html',
+  '/guides/es/gravitational-slingshot-step-by-step.html',
+  '/guides/es/gravitational-slingshot-vs-alternatives.html',
+  '/guides/es/gravitational-slingshot-when.html',
+  '/guides/es/gravitational-waves-step-by-step.html',
+  '/guides/es/gravitational-waves-vs-alternatives.html',
+  '/guides/es/gravitational-waves-when.html',
+  '/guides/es/gravity-orbit-golf-vs-alternatives.html',
+  '/guides/es/gravity-orbit-golf-when.html',
+  '/guides/es/gravity-well-step-by-step.html',
+  '/guides/es/gravity-well-vs-alternatives.html',
+  '/guides/es/gravity-well-when.html',
+  '/guides/es/great-red-spot-jupiter-step-by-step.html',
+  '/guides/es/great-red-spot-jupiter-vs-alternatives.html',
+  '/guides/es/great-red-spot-jupiter-when.html',
+  '/guides/es/grid-garden-vs-alternatives.html',
+  '/guides/es/grid-garden-when.html',
+  '/guides/es/grocery-list-step-by-step.html',
+  '/guides/es/grocery-list-vs-alternatives.html',
+  '/guides/es/grocery-list-when.html',
+  '/guides/es/ground-sloth-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ground-sloth-size-comparison.html',
+  '/guides/es/gryponyx-3d-viewer-vs-ar-apps.html',
+  '/guides/es/gryponyx-size-comparison.html',
+  '/guides/es/habit-tracker-step-by-step.html',
+  '/guides/es/habit-tracker-vs-alternatives.html',
+  '/guides/es/habit-tracker-when.html',
+  '/guides/es/habitable-zone-step-by-step.html',
+  '/guides/es/habitable-zone-vs-alternatives.html',
+  '/guides/es/habitable-zone-when.html',
+  '/guides/es/hash-generator-sha-256-512-step-by-step.html',
+  '/guides/es/hash-generator-sha-256-512-vs-alternatives.html',
+  '/guides/es/hash-generator-sha-256-512-when.html',
+  '/guides/es/haumea-elongated-step-by-step.html',
+  '/guides/es/haumea-elongated-vs-alternatives.html',
+  '/guides/es/haumea-elongated-when.html',
+  '/guides/es/hd-video-converter-step-by-step.html',
+  '/guides/es/hd-video-converter-vs-alternatives.html',
+  '/guides/es/hd-video-converter-when.html',
+  '/guides/es/head-soccer-arena-vs-alternatives.html',
+  '/guides/es/head-soccer-arena-when.html',
+  '/guides/es/heic-to-jpg-claims-what-actually-works.html',
+  '/guides/es/heic-vs-jpg-converter-when-each-wins.html',
+  '/guides/es/helioseismology-sun-oscillation-step-by-step.html',
+  '/guides/es/helioseismology-sun-oscillation-vs-alternatives.html',
+  '/guides/es/helioseismology-sun-oscillation-when.html',
+  '/guides/es/herd-cats-home-vs-alternatives.html',
+  '/guides/es/herd-cats-home-when.html',
+  '/guides/es/hex-puzzle-blocks-step-by-step.html',
+  '/guides/es/hex-puzzle-blocks-vs-alternatives.html',
+  '/guides/es/hex-puzzle-blocks-when.html',
+  '/guides/es/hill-sphere-step-by-step.html',
+  '/guides/es/hill-sphere-vs-alternatives.html',
+  '/guides/es/hill-sphere-when.html',
+  '/guides/es/hohmann-transfer-step-by-step.html',
+  '/guides/es/hohmann-transfer-vs-alternatives.html',
+  '/guides/es/hohmann-transfer-when.html',
+  '/guides/es/hover-racing-vs-alternatives.html',
+  '/guides/es/hover-racing-when.html',
+  '/guides/es/how-to-check-camera-quality-on-your-phone.html',
+  '/guides/es/how-to-check-webcam-and-microphone-before-an-interview.html',
+  '/guides/es/how-to-choose-a-compression-level.html',
+  '/guides/es/how-to-convert-100-heic-photos-to-jpg.html',
+  '/guides/es/how-to-convert-heic-to-jpg-step-by-step.html',
+  '/guides/es/how-to-convert-iphone-photo-to-jpg.html',
+  '/guides/es/how-to-convert-units-online.html',
+  '/guides/es/how-to-edit-code-online.html',
+  '/guides/es/how-to-extract-a-file-online-zip-rar-7z.html',
+  '/guides/es/how-to-flatten-a-pdf-and-when-to-do-it.html',
+  '/guides/es/how-to-minify-css-js-for-cloud-run-cold-start.html',
+  '/guides/es/how-to-pick-a-color-online.html',
+  '/guides/es/how-to-play-abyss-signal-diver.html',
+  '/guides/es/how-to-play-andromeda-star-shooter.html',
+  '/guides/es/how-to-play-arrow-dodge-arena.html',
+  '/guides/es/how-to-play-asteroid-blaster.html',
+  '/guides/es/how-to-play-bangbang-artillery.html',
+  '/guides/es/how-to-play-black-cat-hot-tin-roof.html',
+  '/guides/es/how-to-play-black-hole-square.html',
+  '/guides/es/how-to-play-boing-cat-platformer.html',
+  '/guides/es/how-to-play-bounce-back.html',
+  '/guides/es/how-to-play-cat-hop-cloud.html',
+  '/guides/es/how-to-play-cat-typing-race.html',
+  '/guides/es/how-to-play-chili-blast-shooter.html',
+  '/guides/es/how-to-play-classic-pong.html',
+  '/guides/es/how-to-play-claudicus-quest.html',
+  '/guides/es/how-to-play-connect-four-ai.html',
+  '/guides/es/how-to-play-cyber-neon-maze.html',
+  '/guides/es/how-to-play-cyber-slide-puzzle.html',
+  '/guides/es/how-to-play-darkline-paws.html',
+  '/guides/es/how-to-play-desk-cat-coder.html',
+  '/guides/es/how-to-play-egg-time-rewind.html',
+  '/guides/es/how-to-play-eight-ball-pool.html',
+  '/guides/es/how-to-play-elm-street-delivery.html',
+  '/guides/es/how-to-play-emoji-slot-machine.html',
+  '/guides/es/how-to-play-feast-night.html',
+  '/guides/es/how-to-play-flexbox-froggy.html',
+  '/guides/es/how-to-play-floor-thirteen-horror.html',
+  '/guides/es/how-to-play-globe-siege.html',
+  '/guides/es/how-to-play-glow-firefly-cat.html',
+  '/guides/es/how-to-play-googol-stopping-game.html',
+  '/guides/es/how-to-play-gravity-orbit-golf.html',
+  '/guides/es/how-to-play-grid-garden.html',
+  '/guides/es/how-to-play-head-soccer-arena.html',
+  '/guides/es/how-to-play-herd-cats-home.html',
+  '/guides/es/how-to-play-hover-racing.html',
+  '/guides/es/how-to-play-idle-capitalist-loop.html',
+  '/guides/es/how-to-play-inferno-soul-walker.html',
+  '/guides/es/how-to-play-iso-city-sandbox.html',
+  '/guides/es/how-to-play-layer-flip-platformer.html',
+  '/guides/es/how-to-play-lightning-math-battle.html',
+  '/guides/es/how-to-play-machine-guard-corps.html',
+  '/guides/es/how-to-play-marble-maze.html',
+  '/guides/es/how-to-play-medieval-wall-defense.html',
+  '/guides/es/how-to-play-miami-mice.html',
+  '/guides/es/how-to-play-mochi-midnight-escape.html',
+  '/guides/es/how-to-play-mono-grid-duel.html',
+  '/guides/es/how-to-play-mono-minefield-grid.html',
+  '/guides/es/how-to-play-mono-paddle-duel.html',
+  '/guides/es/how-to-play-mono-stack-blocks.html',
+  '/guides/es/how-to-play-mor-chess-2.html',
+  '/guides/es/how-to-play-mystic-card-paw.html',
+  '/guides/es/how-to-play-neon-cat-chase.html',
+  '/guides/es/how-to-play-neon-circuit-racer.html',
+  '/guides/es/how-to-play-neon-deep-space.html',
+  '/guides/es/how-to-play-neon-energy-arena.html',
+  '/guides/es/how-to-play-neon-surge-loop.html',
+  '/guides/es/how-to-play-neon-tower-rush.html',
+  '/guides/es/how-to-play-neural-particle-life.html',
+  '/guides/es/how-to-play-neuro-aim-arena.html',
+  '/guides/es/how-to-play-night-swarm-survivor.html',
+  '/guides/es/how-to-play-nova-star-barrage.html',
+  '/guides/es/how-to-play-one-tap-platformer.html',
+  '/guides/es/how-to-play-orbital-order.html',
+  '/guides/es/how-to-play-orbital-radius-shooter.html',
+  '/guides/es/how-to-play-particle-clicker.html',
+  '/guides/es/how-to-play-pipe-rotate-puzzle.html',
+  '/guides/es/how-to-play-pixel-necromancer.html',
+  '/guides/es/how-to-play-pixel-park-puzzle.html',
+  '/guides/es/how-to-play-pixel-pipeline-reflex.html',
+  '/guides/es/how-to-play-pixel-realm-rpg.html',
+  '/guides/es/how-to-play-pixel-spike-run.html',
+  '/guides/es/how-to-play-potion-brew-shop.html',
+  '/guides/es/how-to-play-precision-bounce-loop.html',
+  '/guides/es/how-to-play-procedural-horde-game.html',
+  '/guides/es/how-to-play-progress-knight.html',
+  '/guides/es/how-to-play-quantum-optics-puzzle.html',
+  '/guides/es/how-to-play-quantum-shift.html',
+  '/guides/es/how-to-play-retro-arcade-shooter.html',
+  '/guides/es/how-to-play-retro-fps-online.html',
+  '/guides/es/how-to-play-retro-highway-racer.html',
+  '/guides/es/how-to-play-ritual-catacombs.html',
+  '/guides/es/how-to-play-rock-paper-neural.html',
+  '/guides/es/how-to-play-roller-maze-escape.html',
+  '/guides/es/how-to-play-rune-keeper.html',
+  '/guides/es/how-to-play-schematic-factory-game.html',
+  '/guides/es/how-to-play-seasonal-witchcat.html',
+  '/guides/es/how-to-play-serpentine-3d.html',
+  // pruned 2026-07-29 zero-evidence es (es-batch-4)
+  '/guides/es/how-to-play-server-survival-td.html',
+  '/guides/es/how-to-play-sketch-turf-battle.html',
+  '/guides/es/how-to-play-solo-battlefield.html',
+  '/guides/es/how-to-play-space-grid-puzzle.html',
+  '/guides/es/how-to-play-space-pi-defense.html',
+  '/guides/es/how-to-play-species-life-battle.html',
+  '/guides/es/how-to-play-spike-sprint.html',
+  '/guides/es/how-to-play-star-fuel-battle.html',
+  '/guides/es/how-to-play-starlight-breaker.html',
+  '/guides/es/how-to-play-swing-block-tower.html',
+  '/guides/es/how-to-play-the-house-pointclick.html',
+  '/guides/es/how-to-play-thirteen-card-duel.html',
+  '/guides/es/how-to-play-thirteen-case-files.html',
+  '/guides/es/how-to-play-thirteen-hours.html',
+  '/guides/es/how-to-play-thirteen-step-escape.html',
+  '/guides/es/how-to-play-unlucky-crossing.html',
+  '/guides/es/how-to-play-vim-master.html',
+  '/guides/es/how-to-play-vim-motion-academy.html',
+  '/guides/es/how-to-play-violence-town.html',
+  '/guides/es/how-to-play-void-trader.html',
+  '/guides/es/how-to-play-voxel-fps-arena.html',
+  '/guides/es/how-to-play-wash-the-cat.html',
+  '/guides/es/how-to-view-abelisaurus-in-3d.html',
+  '/guides/es/how-to-view-acrocanthosaurus-in-3d.html',
+  '/guides/es/how-to-view-albertaceratops-in-3d.html',
+  '/guides/es/how-to-view-albertosaurus-in-3d.html',
+  '/guides/es/how-to-view-alioramus-in-3d.html',
+  '/guides/es/how-to-view-allosaurus-in-3d.html',
+  '/guides/es/how-to-view-amargasaurus-in-3d.html',
+  '/guides/es/how-to-view-ampelosaurus-in-3d.html',
+  '/guides/es/how-to-view-ankylosaurus-in-3d.html',
+  '/guides/es/how-to-view-apatosaurus-in-3d.html',
+  '/guides/es/how-to-view-avaceratops-in-3d.html',
+  '/guides/es/how-to-view-barosaurus-in-3d.html',
+  '/guides/es/how-to-view-baryonyx-in-3d.html',
+  '/guides/es/how-to-view-becklespinax-in-3d.html',
+  '/guides/es/how-to-view-brachiosaurus-in-3d.html',
+  '/guides/es/how-to-view-brachylophosaurus-in-3d.html',
+  '/guides/es/how-to-view-brontosaurus-in-3d.html',
+  '/guides/es/how-to-view-brontotherium-in-3d.html',
+  '/guides/es/how-to-view-carnotaurus-in-3d.html',
+  '/guides/es/how-to-view-ceratosaurus-in-3d.html',
+  '/guides/es/how-to-view-chasmosaurus-in-3d.html',
+  '/guides/es/how-to-view-coelophysis-in-3d.html',
+  '/guides/es/how-to-view-compsognathus-in-3d.html',
+  '/guides/es/how-to-view-concavenator-in-3d.html',
+  '/guides/es/how-to-view-cryolophosaurus-in-3d.html',
+  '/guides/es/how-to-view-deinocheirus-in-3d.html',
+  '/guides/es/how-to-view-deinonychus-in-3d.html',
+  '/guides/es/how-to-view-dilophosaurus-in-3d.html',
+  '/guides/es/how-to-view-dimetrodon-in-3d.html',
+  '/guides/es/how-to-view-diplodocus-in-3d.html',
+  '/guides/es/how-to-view-doliosauriscus-in-3d.html',
+  '/guides/es/how-to-view-dracovenator-in-3d.html',
+  '/guides/es/how-to-view-edmontosaurus-in-3d.html',
+  '/guides/es/how-to-view-gallimimus-in-3d.html',
+  '/guides/es/how-to-view-giganotosaurus-in-3d.html',
+  '/guides/es/how-to-view-gigantoraptor-in-3d.html',
+  '/guides/es/how-to-view-gorgosaurus-in-3d.html',
+  '/guides/es/how-to-view-ground-sloth-in-3d.html',
+  '/guides/es/how-to-view-gryponyx-in-3d.html',
+  '/guides/es/how-to-view-hybodus-in-3d.html',
+  '/guides/es/how-to-view-ichthyosaurus-in-3d.html',
+  '/guides/es/how-to-view-ichthyovenator-in-3d.html',
+  '/guides/es/how-to-view-iguanodon-in-3d.html',
+  '/guides/es/how-to-view-kentrosaurus-in-3d.html',
+  '/guides/es/how-to-view-lambeosaurus-in-3d.html',
+  '/guides/es/how-to-view-majungasaurus-in-3d.html',
+  '/guides/es/how-to-view-mamenchisaurus-in-3d.html',
+  '/guides/es/how-to-view-megalosaurus-in-3d.html',
+  '/guides/es/how-to-view-microraptor-in-3d.html',
+  '/guides/es/how-to-view-moropus-in-3d.html',
+  '/guides/es/how-to-view-ornithomimus-in-3d.html',
+  '/guides/es/how-to-view-ostafrikasaurus-in-3d.html',
+  '/guides/es/how-to-view-oviraptor-in-3d.html',
+  '/guides/es/how-to-view-pachycephalosaurus-in-3d.html',
+  '/guides/es/how-to-view-pachyrhinosaurus-in-3d.html',
+  '/guides/es/how-to-view-parasaurolophus-in-3d.html',
+  '/guides/es/how-to-view-pentaceratops-in-3d.html',
+  '/guides/es/how-to-view-pinacosaurus-in-3d.html',
+  '/guides/es/how-to-view-plesiosaurus-in-3d.html',
+  '/guides/es/how-to-view-postosuchus-in-3d.html',
+  '/guides/es/how-to-view-protoceratops-in-3d.html',
+  '/guides/es/how-to-view-psittacosaurus-in-3d.html',
+  '/guides/es/how-to-view-pteranodon-in-3d.html',
+  '/guides/es/how-to-view-quetzalcoatlus-in-3d.html',
+  '/guides/es/how-to-view-sarcosuchus-in-3d.html',
+  '/guides/es/how-to-view-sauropelta-in-3d.html',
+  '/guides/es/how-to-view-seismosaurus-in-3d.html',
+  '/guides/es/how-to-view-shuangmiaosaurus-in-3d.html',
+  '/guides/es/how-to-view-spinosaurus-in-3d.html',
+  '/guides/es/how-to-view-stegosaurus-in-3d.html',
+  '/guides/es/how-to-view-stygimoloch-in-3d.html',
+  '/guides/es/how-to-view-tarbosaurus-in-3d.html',
+  '/guides/es/how-to-view-therizinosaurus-in-3d.html',
+  '/guides/es/how-to-view-titanoboa-in-3d.html',
+  '/guides/es/how-to-view-titanosaurus-in-3d.html',
+  '/guides/es/how-to-view-torvosaurus-in-3d.html',
+  '/guides/es/how-to-view-triceratops-in-3d.html',
+  '/guides/es/how-to-view-troodon-in-3d.html',
+  '/guides/es/how-to-view-tsintaosaurus-in-3d.html',
+  '/guides/es/how-to-view-tylosaurus-in-3d.html',
+  '/guides/es/how-to-view-tyrannosaurus-rex-in-3d.html',
+  '/guides/es/how-to-view-utahraptor-in-3d.html',
+  '/guides/es/how-to-view-velociraptor-in-3d.html',
+  '/guides/es/hybodus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/hybodus-size-comparison.html',
+  '/guides/es/ichthyosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ichthyosaurus-size-comparison.html',
+  '/guides/es/ichthyovenator-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ichthyovenator-size-comparison.html',
+  '/guides/es/idle-capitalist-loop-vs-alternatives.html',
+  '/guides/es/idle-capitalist-loop-when.html',
+  '/guides/es/iguanodon-3d-viewer-vs-ar-apps.html',
+  '/guides/es/iguanodon-size-comparison.html',
+  '/guides/es/image-color-palette-extractor-step-by-step.html',
+  '/guides/es/image-color-palette-extractor-vs-alternatives.html',
+  '/guides/es/image-color-palette-extractor-when.html',
+  '/guides/es/image-format-converter-step-by-step.html',
+  '/guides/es/image-format-converter-vs-alternatives.html',
+  '/guides/es/image-format-converter-when.html',
+  '/guides/es/image-metadata-exif-remover-step-by-step.html',
+  '/guides/es/image-metadata-exif-remover-vs-alternatives.html',
+  '/guides/es/image-metadata-exif-remover-when.html',
+  '/guides/es/image-webp-converter-step-by-step.html',
+  '/guides/es/image-webp-converter-vs-alternatives.html',
+  '/guides/es/image-webp-converter-when.html',
+  '/guides/es/impact-crater-formation-step-by-step.html',
+  '/guides/es/impact-crater-formation-vs-alternatives.html',
+  '/guides/es/impact-crater-formation-when.html',
+  '/guides/es/inferno-soul-walker-vs-alternatives.html',
+  '/guides/es/inferno-soul-walker-when.html',
+  '/guides/es/interstellar-travel-timescales-step-by-step.html',
+  '/guides/es/interstellar-travel-timescales-vs-alternatives.html',
+  '/guides/es/interstellar-travel-timescales-when.html',
+  '/guides/es/io-plasma-torus-step-by-step.html',
+  '/guides/es/io-plasma-torus-vs-alternatives.html',
+  '/guides/es/io-plasma-torus-when.html',
+  '/guides/es/iso-city-sandbox-vs-alternatives.html',
+  '/guides/es/iso-city-sandbox-when.html',
+  '/guides/es/jpg-avif-converter-step-by-step.html',
+  '/guides/es/jpg-avif-converter-vs-alternatives.html',
+  '/guides/es/jpg-avif-converter-when.html',
+  '/guides/es/jpg-webp-converter-step-by-step.html',
+  '/guides/es/jpg-webp-converter-vs-alternatives.html',
+  '/guides/es/jpg-webp-converter-when.html',
+  '/guides/es/jwt-decoder-step-by-step.html',
+  '/guides/es/jwt-decoder-vs-alternatives.html',
+  '/guides/es/jwt-decoder-when.html',
+  '/guides/es/karman-line-atmosphere-layers-step-by-step.html',
+  '/guides/es/karman-line-atmosphere-layers-vs-alternatives.html',
+  '/guides/es/karman-line-atmosphere-layers-when.html',
+  '/guides/es/kentrosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/kentrosaurus-size-comparison.html',
+  '/guides/es/kp-index-geomagnetic-storm-scale-step-by-step.html',
+  '/guides/es/kp-index-geomagnetic-storm-scale-vs-alternatives.html',
+  '/guides/es/kp-index-geomagnetic-storm-scale-when.html',
+  '/guides/es/lambeosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/lambeosaurus-size-comparison.html',
+  '/guides/es/layer-flip-platformer-vs-alternatives.html',
+  '/guides/es/layer-flip-platformer-when.html',
+  '/guides/es/lightning-math-battle-vs-alternatives.html',
+  '/guides/es/lightning-math-battle-when.html',
+  '/guides/es/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/es/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
+  '/guides/es/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/es/machine-guard-corps-vs-alternatives.html',
+  '/guides/es/machine-guard-corps-when.html',
+  '/guides/es/magnetar-step-by-step.html',
+  '/guides/es/magnetar-vs-alternatives.html',
+  '/guides/es/magnetar-when.html',
+  '/guides/es/main-sequence-lifetime-step-by-step.html',
+  '/guides/es/main-sequence-lifetime-vs-alternatives.html',
+  '/guides/es/main-sequence-lifetime-when.html',
+  '/guides/es/majungasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/majungasaurus-size-comparison.html',
+  '/guides/es/mamenchisaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/mamenchisaurus-size-comparison.html',
+  '/guides/es/marble-maze-vs-alternatives.html',
+  '/guides/es/marble-maze-when.html',
+  '/guides/es/medieval-wall-defense-vs-alternatives.html',
+  '/guides/es/medieval-wall-defense-when.html',
+  '/guides/es/megalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/megalosaurus-size-comparison.html',
+  '/guides/es/mercury-spin-orbit-resonance-step-by-step.html',
+  '/guides/es/mercury-spin-orbit-resonance-vs-alternatives.html',
+  '/guides/es/mercury-spin-orbit-resonance-when.html',
+  '/guides/es/miami-mice-vs-alternatives.html',
+  '/guides/es/miami-mice-when.html',
+  '/guides/es/microraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/es/microraptor-size-comparison.html',
+  '/guides/es/mochi-midnight-escape-vs-alternatives.html',
+  '/guides/es/mochi-midnight-escape-when.html',
+  '/guides/es/monitor-refresh-rate-test-hz-step-by-step.html',
+  '/guides/es/monitor-refresh-rate-test-hz-vs-alternatives.html',
+  '/guides/es/monitor-refresh-rate-test-hz-when.html',
+  '/guides/es/mono-grid-duel-vs-alternatives.html',
+  '/guides/es/mono-grid-duel-when.html',
+  '/guides/es/mono-minefield-grid-vs-alternatives.html',
+  '/guides/es/mono-minefield-grid-when.html',
+
+  // pruned 2026-07-29 zero-evidence es - batch es-batch-5 (200 routes)
+  '/guides/es/mono-paddle-duel-vs-alternatives.html',
+  '/guides/es/mono-paddle-duel-when.html',
+  '/guides/es/mono-stack-blocks-vs-alternatives.html',
+  '/guides/es/mono-stack-blocks-when.html',
+  '/guides/es/moon-calendar-3d-step-by-step.html',
+  '/guides/es/moon-calendar-3d-vs-alternatives.html',
+  '/guides/es/moon-calendar-3d-when.html',
+  '/guides/es/moon-formation-giant-impact-step-by-step.html',
+  '/guides/es/moon-formation-giant-impact-vs-alternatives.html',
+  '/guides/es/moon-formation-giant-impact-when.html',
+  '/guides/es/moon-libration-step-by-step.html',
+  '/guides/es/moon-libration-vs-alternatives.html',
+  '/guides/es/moon-libration-when.html',
+  '/guides/es/moon-phases-3d-step-by-step.html',
+  '/guides/es/moon-phases-3d-vs-alternatives.html',
+  '/guides/es/moon-phases-3d-when.html',
+  '/guides/es/mor-chess-2-vs-alternatives.html',
+  '/guides/es/mor-chess-2-when.html',
+  '/guides/es/moropus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/moropus-size-comparison.html',
+  '/guides/es/morse-code-translator-step-by-step.html',
+  '/guides/es/morse-code-translator-vs-alternatives.html',
+  '/guides/es/morse-code-translator-when.html',
+  '/guides/es/mosasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/mosasaurus-size-comparison.html',
+  '/guides/es/mouse-test-buttons-scroll-step-by-step.html',
+  '/guides/es/mouse-test-buttons-scroll-vs-alternatives.html',
+  '/guides/es/mouse-test-buttons-scroll-when.html',
+  '/guides/es/mystic-card-paw-vs-alternatives.html',
+  '/guides/es/mystic-card-paw-when.html',
+  '/guides/es/n-body-sandbox-step-by-step.html',
+  '/guides/es/n-body-sandbox-vs-alternatives.html',
+  '/guides/es/n-body-sandbox-when.html',
+  '/guides/es/neon-cat-chase-vs-alternatives.html',
+  '/guides/es/neon-cat-chase-when.html',
+  '/guides/es/neon-circuit-racer-vs-alternatives.html',
+  '/guides/es/neon-circuit-racer-when.html',
+  '/guides/es/neon-deep-space-vs-alternatives.html',
+  '/guides/es/neon-deep-space-when.html',
+  '/guides/es/neon-energy-arena-vs-alternatives.html',
+  '/guides/es/neon-energy-arena-when.html',
+  '/guides/es/neon-surge-loop-vs-alternatives.html',
+  '/guides/es/neon-surge-loop-when.html',
+  '/guides/es/neon-tower-rush-vs-alternatives.html',
+  '/guides/es/neon-tower-rush-when.html',
+  '/guides/es/neptune-supersonic-winds-step-by-step.html',
+  '/guides/es/neptune-supersonic-winds-vs-alternatives.html',
+  '/guides/es/neptune-supersonic-winds-when.html',
+  '/guides/es/neural-particle-life-vs-alternatives.html',
+  '/guides/es/neural-particle-life-when.html',
+  '/guides/es/neuro-aim-arena-vs-alternatives.html',
+  '/guides/es/neuro-aim-arena-when.html',
+  '/guides/es/neutron-star-pulsar-step-by-step.html',
+  '/guides/es/neutron-star-pulsar-vs-alternatives.html',
+  '/guides/es/neutron-star-pulsar-when.html',
+  '/guides/es/new-horizons-pluto-flyby-step-by-step.html',
+  '/guides/es/new-horizons-pluto-flyby-vs-alternatives.html',
+  '/guides/es/new-horizons-pluto-flyby-when.html',
+  '/guides/es/night-swarm-survivor-vs-alternatives.html',
+  '/guides/es/night-swarm-survivor-when.html',
+  '/guides/es/notepad-notes-vs-alternatives.html',
+  '/guides/es/notepad-notes-when.html',
+  '/guides/es/nova-star-barrage-vs-alternatives.html',
+  '/guides/es/nova-star-barrage-when.html',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/es/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/es/number-base-converter-vs-alternatives.html',
+  '/guides/es/occultation-lunar-step-by-step.html',
+  '/guides/es/occultation-lunar-vs-alternatives.html',
+  '/guides/es/occultation-lunar-when.html',
+  '/guides/es/olympus-mons-mars-volcano-step-by-step.html',
+  '/guides/es/olympus-mons-mars-volcano-vs-alternatives.html',
+  '/guides/es/olympus-mons-mars-volcano-when.html',
+  '/guides/es/one-tap-platformer-vs-alternatives.html',
+  '/guides/es/one-tap-platformer-when.html',
+  '/guides/es/online-diff-tool.html',
+  '/guides/es/orbital-order-vs-alternatives.html',
+  '/guides/es/orbital-order-when.html',
+  '/guides/es/orbital-radius-shooter-vs-alternatives.html',
+  '/guides/es/orbital-radius-shooter-when.html',
+  '/guides/es/orbital-resonance-step-by-step.html',
+  '/guides/es/orbital-resonance-vs-alternatives.html',
+  '/guides/es/orbital-resonance-when.html',
+  '/guides/es/orbital-velocity-step-by-step.html',
+  '/guides/es/orbital-velocity-vs-alternatives.html',
+  '/guides/es/orbital-velocity-when.html',
+  '/guides/es/ornithomimus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ornithomimus-size-comparison.html',
+  '/guides/es/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/ostafrikasaurus-size-comparison.html',
+  '/guides/es/oumuamua-step-by-step.html',
+  '/guides/es/oumuamua-vs-alternatives.html',
+  '/guides/es/oumuamua-when.html',
+  '/guides/es/oviraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/es/pachycephalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/pachycephalosaurus-size-comparison.html',
+  '/guides/es/pachyrhinosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/pachyrhinosaurus-size-comparison.html',
+  '/guides/es/pale-blue-dot-step-by-step.html',
+  '/guides/es/pale-blue-dot-vs-alternatives.html',
+  '/guides/es/pale-blue-dot-when.html',
+  '/guides/es/parallax-distance-step-by-step.html',
+  '/guides/es/parallax-distance-vs-alternatives.html',
+  '/guides/es/parallax-distance-when.html',
+  '/guides/es/parasaurolophus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/parasaurolophus-size-comparison.html',
+  '/guides/es/particle-clicker-vs-alternatives.html',
+  '/guides/es/particle-clicker-when.html',
+  '/guides/es/passport-photo-maker-step-by-step.html',
+  '/guides/es/passport-photo-maker-vs-alternatives.html',
+  '/guides/es/passport-photo-maker-when.html',
+  '/guides/es/password-generator-step-by-step.html',
+  '/guides/es/password-generator-vs-alternatives.html',
+  '/guides/es/password-generator-when.html',
+  '/guides/es/password-strength-checker-step-by-step.html',
+  '/guides/es/password-strength-checker-vs-alternatives.html',
+  '/guides/es/password-strength-checker-when.html',
+  '/guides/es/pdf-compressor-step-by-step.html',
+  '/guides/es/pdf-compressor-vs-alternatives.html',
+  '/guides/es/pdf-compressor-when.html',
+  '/guides/es/pdf-editing-ladder.html',
+  '/guides/es/pdf-password-types-owner-vs-user.html',
+  '/guides/es/pdf-preflight-online-what-it-actually-checks.html',
+  '/guides/es/pentaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/es/pentaceratops-size-comparison.html',
+  '/guides/es/percentage-calculator-step-by-step.html',
+  '/guides/es/percentage-calculator-vs-alternatives.html',
+  '/guides/es/percentage-calculator-when.html',
+  '/guides/es/phobos-stickney-step-by-step.html',
+  '/guides/es/phobos-stickney-vs-alternatives.html',
+  '/guides/es/phobos-stickney-when.html',
+  '/guides/es/photo-editor-vs-graphics-app-vs-batch-processor.html',
+  '/guides/es/photon-sphere-isco-explorer-step-by-step.html',
+  '/guides/es/photon-sphere-isco-explorer-vs-alternatives.html',
+  '/guides/es/photon-sphere-isco-explorer-when.html',
+  '/guides/es/pillars-of-creation-step-by-step.html',
+  '/guides/es/pillars-of-creation-vs-alternatives.html',
+  '/guides/es/pillars-of-creation-when.html',
+  '/guides/es/pinacosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/pinacosaurus-size-comparison.html',
+  '/guides/es/pipe-rotate-puzzle-vs-alternatives.html',
+  '/guides/es/pipe-rotate-puzzle-when.html',
+  '/guides/es/pixel-necromancer-vs-alternatives.html',
+  '/guides/es/pixel-necromancer-when.html',
+  '/guides/es/pixel-park-puzzle-vs-alternatives.html',
+  '/guides/es/pixel-park-puzzle-when.html',
+  '/guides/es/pixel-pipeline-reflex-vs-alternatives.html',
+  '/guides/es/pixel-pipeline-reflex-when.html',
+  '/guides/es/pixel-realm-rpg-vs-alternatives.html',
+  '/guides/es/pixel-realm-rpg-when.html',
+  '/guides/es/pixel-spike-run-vs-alternatives.html',
+  '/guides/es/pixel-spike-run-when.html',
+  '/guides/es/planet-size-comparison-step-by-step.html',
+  '/guides/es/planet-size-comparison-vs-alternatives.html',
+  '/guides/es/planet-size-comparison-when.html',
+  '/guides/es/planetary-conjunction-step-by-step.html',
+  '/guides/es/planetary-conjunction-vs-alternatives.html',
+  '/guides/es/planetary-conjunction-when.html',
+  '/guides/es/planetary-nebula-step-by-step.html',
+  '/guides/es/planetary-nebula-vs-alternatives.html',
+  '/guides/es/planetary-nebula-when.html',
+  '/guides/es/planetary-oblateness-step-by-step.html',
+  '/guides/es/planetary-oblateness-vs-alternatives.html',
+  '/guides/es/planetary-oblateness-when.html',
+  '/guides/es/planetary-rings-comparison-step-by-step.html',
+  '/guides/es/planetary-rings-comparison-vs-alternatives.html',
+  '/guides/es/planetary-rings-comparison-when.html',
+  '/guides/es/play-fps-in-browser-step-by-step.html',
+  '/guides/es/play-fps-in-browser-vs-alternatives.html',
+  '/guides/es/play-fps-in-browser-when.html',
+  '/guides/es/plesiosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/plesiosaurus-size-comparison.html',
+  '/guides/es/pluto-charon-double-planet-step-by-step.html',
+  '/guides/es/pluto-charon-double-planet-vs-alternatives.html',
+  '/guides/es/pluto-charon-double-planet-when.html',
+  '/guides/es/png-jpg-converter-step-by-step.html',
+  '/guides/es/png-jpg-converter-vs-alternatives.html',
+  '/guides/es/png-jpg-converter-when.html',
+  '/guides/es/png-to-svg-when-to-vectorize-a-raster-image.html',
+  '/guides/es/png-webp-converter-step-by-step.html',
+  '/guides/es/png-webp-converter-vs-alternatives.html',
+  '/guides/es/png-webp-converter-when.html',
+  '/guides/es/pomodoro-timer-step-by-step.html',
+  '/guides/es/pomodoro-timer-vs-alternatives.html',
+  '/guides/es/pomodoro-timer-when.html',
+  '/guides/es/postosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/es/postosuchus-size-comparison.html',
+  '/guides/es/potion-brew-shop-vs-alternatives.html',
+  '/guides/es/potion-brew-shop-when.html',
+  '/guides/es/precession-equinoxes-step-by-step.html',
+  '/guides/es/precession-equinoxes-vs-alternatives.html',
+  '/guides/es/precession-equinoxes-when.html',
+  '/guides/es/precision-bounce-loop-vs-alternatives.html',
+  '/guides/es/precision-bounce-loop-when.html',
+  '/guides/es/procedural-horde-game-vs-alternatives.html',
+  '/guides/es/procedural-horde-game-when.html',
+  '/guides/es/progress-knight-vs-alternatives.html',
+  '/guides/es/progress-knight-when.html',
+  '/guides/es/protoceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/es/protoceratops-size-comparison.html',
+  // pruned 2026-07-29 zero-evidence es (es-batch-6)
+  "/guides/es/proton-proton-chain-fusion-step-by-step.html",
+  "/guides/es/proton-proton-chain-fusion-vs-alternatives.html",
+  "/guides/es/proton-proton-chain-fusion-when.html",
+  "/guides/es/protoplanetary-disk-step-by-step.html",
+  "/guides/es/protoplanetary-disk-vs-alternatives.html",
+  "/guides/es/protoplanetary-disk-when.html",
+  "/guides/es/proxima-centauri-system-step-by-step.html",
+  "/guides/es/proxima-centauri-system-vs-alternatives.html",
+  "/guides/es/proxima-centauri-system-when.html",
+  "/guides/es/psittacosaurus-3d-viewer-vs-ar-apps.html",
+  "/guides/es/psittacosaurus-size-comparison.html",
+  "/guides/es/pteranodon-3d-viewer-vs-ar-apps.html",
+  "/guides/es/pteranodon-size-comparison.html",
+  "/guides/es/qr-code-content-types-url-vcard-wifi-text-which-to-pick.html",
+  "/guides/es/qr-code-error-correction-and-scan-failures.html",
+  "/guides/es/qr-code-generator-best-practices.html",
+  "/guides/es/qr-code-scanner-step-by-step.html",
+  "/guides/es/qr-code-scanner-vs-alternatives.html",
+  "/guides/es/qr-code-scanner-when.html",
+  "/guides/es/quantum-optics-puzzle-vs-alternatives.html",
+  "/guides/es/quantum-optics-puzzle-when.html",
+  "/guides/es/quantum-shift-vs-alternatives.html",
+  "/guides/es/quantum-shift-when.html",
+  "/guides/es/quetzalcoatlus-3d-viewer-vs-ar-apps.html",
+  "/guides/es/quetzalcoatlus-size-comparison.html",
+  "/guides/es/random-list-shuffler-step-by-step.html",
+  "/guides/es/random-list-shuffler-vs-alternatives.html",
+  "/guides/es/random-list-shuffler-when.html",
+  "/guides/es/random-name-picker-step-by-step.html",
+  "/guides/es/random-name-picker-vs-alternatives.html",
+  "/guides/es/random-name-picker-when.html",
+  "/guides/es/random-number-generator-step-by-step.html",
+  "/guides/es/random-team-group-generator-step-by-step.html",
+  "/guides/es/random-team-group-generator-vs-alternatives.html",
+  "/guides/es/random-team-group-generator-when.html",
+  "/guides/es/read-and-compare-md5-hashes-correctly.html",
+  "/guides/es/reading-list-tracker-step-by-step.html",
+  "/guides/es/reading-list-tracker-vs-alternatives.html",
+  "/guides/es/reading-list-tracker-when.html",
+  "/guides/es/recover-corrupt-zip-file-options.html",
+  "/guides/es/redshift-doppler-step-by-step.html",
+  "/guides/es/redshift-doppler-vs-alternatives.html",
+  "/guides/es/redshift-doppler-when.html",
+  "/guides/es/reduce-zip-file-size-online.html",
+  "/guides/es/reduce-zip-size-online.html",
+  "/guides/es/relativistic-jets-agn-step-by-step.html",
+  "/guides/es/relativistic-jets-agn-vs-alternatives.html",
+  "/guides/es/relativistic-jets-agn-when.html",
+  "/guides/es/remove-audio-from-video-step-by-step.html",
+  "/guides/es/remove-audio-from-video-vs-alternatives.html",
+  "/guides/es/remove-audio-from-video-when.html",
+  "/guides/es/remove-duplicate-lines-step-by-step.html",
+  "/guides/es/reorder-organize-pdf-pages-step-by-step.html",
+  "/guides/es/reorder-organize-pdf-pages-vs-alternatives.html",
+  "/guides/es/reorder-organize-pdf-pages-when.html",
+  "/guides/es/resize-zip-file.html",
+  "/guides/es/retro-arcade-shooter-vs-alternatives.html",
+  "/guides/es/retro-arcade-shooter-when.html",
+  "/guides/es/retro-fps-online-vs-alternatives.html",
+  "/guides/es/retro-fps-online-when.html",
+  "/guides/es/retro-highway-racer-vs-alternatives.html",
+  "/guides/es/retro-highway-racer-when.html",
+  "/guides/es/retro-tank-battle-step-by-step.html",
+  "/guides/es/retro-tank-battle-vs-alternatives.html",
+  "/guides/es/retro-tank-battle-when.html",
+  "/guides/es/retrograde-motion-step-by-step.html",
+  "/guides/es/retrograde-motion-vs-alternatives.html",
+  "/guides/es/retrograde-motion-when.html",
+  "/guides/es/reverse-text-when.html",
+  "/guides/es/ritual-catacombs-vs-alternatives.html",
+  "/guides/es/ritual-catacombs-when.html",
+  "/guides/es/roche-limit-step-by-step.html",
+  "/guides/es/roche-limit-vs-alternatives.html",
+  "/guides/es/roche-limit-when.html",
+  "/guides/es/roche-lobe-binary-step-by-step.html",
+  "/guides/es/roche-lobe-binary-vs-alternatives.html",
+  "/guides/es/roche-lobe-binary-when.html",
+  "/guides/es/rock-paper-neural-vs-alternatives.html",
+  "/guides/es/rock-paper-neural-when.html",
+  "/guides/es/roller-maze-escape-vs-alternatives.html",
+  "/guides/es/roller-maze-escape-when.html",
+  "/guides/es/roman-numeral-converter-step-by-step.html",
+  "/guides/es/roman-numeral-converter-vs-alternatives.html",
+  "/guides/es/roman-numeral-converter-when.html",
+  "/guides/es/rot13-encoder-step-by-step.html",
+  "/guides/es/rot13-encoder-vs-alternatives.html",
+  "/guides/es/rot13-encoder-when.html",
+  "/guides/es/rotate-pdf-step-by-step.html",
+  "/guides/es/rotate-pdf-vs-alternatives.html",
+  "/guides/es/rotate-pdf-when.html",
+  "/guides/es/run-linux-in-browser-step-by-step.html",
+  "/guides/es/run-linux-in-browser-vs-alternatives.html",
+  "/guides/es/run-linux-in-browser-when.html",
+  "/guides/es/rune-keeper-vs-alternatives.html",
+  "/guides/es/rune-keeper-when.html",
+  "/guides/es/sagittarius-a-star-step-by-step.html",
+  "/guides/es/sagittarius-a-star-vs-alternatives.html",
+  "/guides/es/sagittarius-a-star-when.html",
+  "/guides/es/sarcosuchus-3d-viewer-vs-ar-apps.html",
+  "/guides/es/sarcosuchus-size-comparison.html",
+  "/guides/es/saros-cycle-step-by-step.html",
+  "/guides/es/saros-cycle-vs-alternatives.html",
+  "/guides/es/saros-cycle-when.html",
+  "/guides/es/satellite-orbit-classes-step-by-step.html",
+  "/guides/es/satellite-orbit-classes-vs-alternatives.html",
+  "/guides/es/satellite-orbit-classes-when.html",
+  "/guides/es/saturn-hexagon-step-by-step.html",
+  "/guides/es/saturn-hexagon-vs-alternatives.html",
+  "/guides/es/saturn-hexagon-when.html",
+  "/guides/es/saturn-rings-step-by-step.html",
+  "/guides/es/saturn-rings-vs-alternatives.html",
+  "/guides/es/saturn-rings-when.html",
+  "/guides/es/sauropelta-3d-viewer-vs-ar-apps.html",
+  "/guides/es/sauropelta-size-comparison.html",
+  "/guides/es/schematic-factory-game-vs-alternatives.html",
+  "/guides/es/schematic-factory-game-when.html",
+  "/guides/es/scientific-calculator-step-by-step.html",
+  "/guides/es/scientific-calculator-vs-alternatives.html",
+  "/guides/es/scientific-calculator-when.html",
+  "/guides/es/screen-display-test-synonyms.html",
+  "/guides/es/screen-test-for-laptop-5-minute-checklist.html",
+  "/guides/es/screen-test-online-vs-app-which-is-more-accurate.html",
+  "/guides/es/screen-test-vs-camera-test-pick-the-right-tool.html",
+  "/guides/es/seasonal-witchcat-vs-alternatives.html",
+  "/guides/es/seasonal-witchcat-when.html",
+  "/guides/es/seasons-earth-step-by-step.html",
+  "/guides/es/seasons-earth-vs-alternatives.html",
+  "/guides/es/seasons-earth-when.html",
+  "/guides/es/seismosaurus-3d-viewer-vs-ar-apps.html",
+  "/guides/es/seismosaurus-size-comparison.html",
+  "/guides/es/serpentine-3d-vs-alternatives.html",
+  "/guides/es/serpentine-3d-when.html",
+  "/guides/es/server-survival-td-vs-alternatives.html",
+  "/guides/es/server-survival-td-when.html",
+  "/guides/es/shepherd-moons-step-by-step.html",
+  "/guides/es/shepherd-moons-vs-alternatives.html",
+  "/guides/es/shepherd-moons-when.html",
+  "/guides/es/shuangmiaosaurus-3d-viewer-vs-ar-apps.html",
+  "/guides/es/shuangmiaosaurus-size-comparison.html",
+  "/guides/es/sidereal-vs-solar-day-step-by-step.html",
+  "/guides/es/sidereal-vs-solar-day-vs-alternatives.html",
+  "/guides/es/sidereal-vs-solar-day-when.html",
+  "/guides/es/sign-pdf-add-signature-step-by-step.html",
+  "/guides/es/sign-pdf-add-signature-vs-alternatives.html",
+  "/guides/es/sign-pdf-add-signature-when.html",
+  "/guides/es/signature-maker-draw-download-step-by-step.html",
+  "/guides/es/signature-maker-draw-download-vs-alternatives.html",
+  "/guides/es/signature-maker-draw-download-when.html",
+  "/guides/es/sketch-turf-battle-vs-alternatives.html",
+  "/guides/es/sketch-turf-battle-when.html",
+  "/guides/es/sky-gates-flight-step-by-step.html",
+  "/guides/es/sky-gates-flight-vs-alternatives.html",
+  "/guides/es/sky-gates-flight-when.html",
+  "/guides/es/snake-classic-step-by-step.html",
+  "/guides/es/snake-classic-vs-alternatives.html",
+  "/guides/es/snake-classic-when.html",
+  "/guides/es/solar-analemma-step-by-step.html",
+  "/guides/es/solar-analemma-vs-alternatives.html",
+  "/guides/es/solar-analemma-when.html",
+  "/guides/es/solar-eclipse-step-by-step.html",
+  "/guides/es/solar-eclipse-vs-alternatives.html",
+  "/guides/es/solar-eclipse-when.html",
+  "/guides/es/solar-flare-classification-step-by-step.html",
+  "/guides/es/solar-flare-classification-vs-alternatives.html",
+  "/guides/es/solar-flare-classification-when.html",
+  "/guides/es/solar-granulation-step-by-step.html",
+  "/guides/es/solar-granulation-vs-alternatives.html",
+  "/guides/es/solar-granulation-when.html",
+  "/guides/es/solar-system-3d-explorer-step-by-step.html",
+  "/guides/es/solar-system-3d-explorer-vs-alternatives.html",
+  "/guides/es/solar-system-3d-explorer-when.html",
+  "/guides/es/solar-wind-heliosphere-step-by-step.html",
+  "/guides/es/solar-wind-heliosphere-vs-alternatives.html",
+  "/guides/es/solar-wind-heliosphere-when.html",
+  "/guides/es/solo-battlefield-vs-alternatives.html",
+  "/guides/es/solo-battlefield-when.html",
+  "/guides/es/sort-text-lines-step-by-step.html",
+  "/guides/es/space-debris-kessler-step-by-step.html",
+  "/guides/es/space-debris-kessler-vs-alternatives.html",
+  "/guides/es/space-debris-kessler-when.html",
+  "/guides/es/space-grid-puzzle-vs-alternatives.html",
+  "/guides/es/space-grid-puzzle-when.html",
+  "/guides/es/space-pi-defense-vs-alternatives.html",
+  "/guides/es/space-pi-defense-when.html",
+  "/guides/es/spacetime-curvature-step-by-step.html",
+  "/guides/es/spacetime-curvature-vs-alternatives.html",
+  "/guides/es/spacetime-curvature-when.html",
+  "/guides/es/speaker-audio-channel-test-step-by-step.html",
+  "/guides/es/speaker-audio-channel-test-vs-alternatives.html",
+  "/guides/es/speaker-audio-channel-test-when.html",
+  "/guides/es/species-life-battle-vs-alternatives.html",
+  "/guides/es/species-life-battle-when.html",
+  "/guides/es/speech-text-step-by-step.html",
+  "/guides/es/speech-text-vs-alternatives.html",
+  "/guides/es/speech-text-when.html",
+  "/guides/es/spike-sprint-vs-alternatives.html",
+  "/guides/es/spike-sprint-when.html",
+  "/guides/es/spinosaurus-3d-viewer-vs-ar-apps.html",
+  "/guides/es/spinosaurus-size-comparison.html",
+  "/guides/es/split-gif-into-frames.html",
+  // pruned 2026-07-29 zero-evidence es (es-batch-7)
+  '/guides/es/tdee-calorie-calculator-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tdee-calorie-calculator-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tdee-calorie-calculator-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/touchscreen-test-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/touchscreen-test-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/touchscreen-test-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tyrannosaurus-rex-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tyrannosaurus-rex-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/velociraptor-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/velociraptor-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/triceratops-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/triceratops-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stegosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stegosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/therizinosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/therizinosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/utahraptor-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/utahraptor-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tsintaosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tsintaosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tylosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tylosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stygimoloch-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stygimoloch-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/titanoboa-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/titanoboa-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/titanosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/titanosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tarbosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tarbosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/troodon-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/troodon-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/torvosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/torvosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-compressor-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-compressor-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-compressor-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/webp-png-converter-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/webp-png-converter-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/webp-png-converter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/webp-jpg-converter-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/webp-jpg-converter-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/webp-jpg-converter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/void-trader-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/void-trader-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/violence-town-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/violence-town-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/wash-the-cat-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/wash-the-cat-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/unlucky-crossing-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/unlucky-crossing-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/thirteen-hours-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/thirteen-hours-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/thirteen-case-files-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/thirteen-case-files-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/swing-block-tower-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/swing-block-tower-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/star-fuel-battle-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/star-fuel-battle-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/vim-master-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/vim-master-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/the-house-pointclick-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/the-house-pointclick-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/starlight-breaker-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/starlight-breaker-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/thirteen-card-duel-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/thirteen-card-duel-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/thirteen-step-escape-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/thirteen-step-escape-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/voxel-fps-arena-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/voxel-fps-arena-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/vim-motion-academy-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/vim-motion-academy-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/triton-cantaloupe-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/triton-cantaloupe-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/white-dwarf-chandrasekhar-limit-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/white-dwarf-chandrasekhar-limit-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/white-dwarf-chandrasekhar-limit-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/titan-methane-lakes-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/titan-methane-lakes-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/titan-methane-lakes-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/starlink-constellation-shells-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/starlink-constellation-shells-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/starlink-constellation-shells-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/twilight-types-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/twilight-types-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/twilight-types-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/venus-runaway-greenhouse-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/venus-runaway-greenhouse-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/venus-runaway-greenhouse-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/yarkovsky-effect-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/yarkovsky-effect-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/yarkovsky-effect-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/torino-impact-hazard-scale-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/torino-impact-hazard-scale-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/torino-impact-hazard-scale-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/yaml-json-converter-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/yaml-json-converter-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/yaml-json-converter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sun-red-giant-future-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sun-red-giant-future-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sun-red-giant-future-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/voyager-interstellar-position-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/voyager-interstellar-position-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/voyager-interstellar-position-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/strong-lensing-multiple-images-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/strong-lensing-multiple-images-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/strong-lensing-multiple-images-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/uuid-generator-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/uuid-generator-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/uuid-generator-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lcd-test-online.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lcd-screen-test.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/json-formatter-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/zip-file-converter.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/json-formatter-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/json-formatter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/how-to-zip-multiple-files-into-one.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/zip-vs-zipx-vs-rar-vs-7z-archive-formats-explained.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/jpg-vs-jpeg-are-they-the-same.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/zip-folder-online-free.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/svg-to-png-when-to-rasterize-an-svg.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lcd-test-laptop.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/jpg-vs-png-for-web.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/how-to-test-a-keyboard-online-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/how-to-sign-pdf-after-removing-a-password.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/microphone-test-online-what-it-actually-checks.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/unix-timestamps-explained.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/json-parser-validate-vs-format-vs-tree-view.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/json-vs-yaml-vs-toml-config-formats-explained.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/when-to-compress-vs-convert-an-image.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/how-to-zip-folder-online-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/image-compression-and-exif-metadata-what-gets-stripped.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/md5-alternatives-bcrypt-argon2id-sha256-when-each-fits.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lcd-test-what-it-checks.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/zip-file-converter-what-it-actually-does.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lcd-test-vs-display-test-which-do-you-need.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/what-is-a-file-compressor-and-which-to-use.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/what-an-lcd-test-does-and-when-to-run-one.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/what-we-learned-running-free-in-browser-image-tools-for-100k-monthly-users.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/millisecond-to-date.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/md5-password.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/led-test-vs-lcd-test-which-applies-to-your-screen.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/md5-decrypt-online.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lcd-checker.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/i-love-zip.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/kompres-zip.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/make-zip-file-online.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tool-free.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/how-to-visualize-data-online.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/how-to-run-a-private-ai-chat-in-your-browser.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/wheel-spinner-wheel-names-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/yes-no-wheel-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/word-counter-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-trimmer-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-trimmer-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-trimmer-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/voice-recorder-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/voice-recorder-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/voice-recorder-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/text-speech-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/text-speech-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/text-speech-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/url-decoder-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/url-decoder-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/url-decoder-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/voxel-world-builder-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/voxel-world-builder-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/voxel-world-builder-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-gif-converter-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-gif-converter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-gif-converter-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tides-earth-moon-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tides-earth-moon-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tides-earth-moon-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/hr-diagram-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/hr-diagram-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/hr-diagram-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sun-structure-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sun-structure-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sun-structure-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sunspot-cycle-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/uranus-tilt-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/supernova-remnant-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/venus-retrograde-rotation-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/three-body-problem-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/meteor-shower-radiant-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/kuiper-belt-oort-cloud-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/jupiter-magnetosphere-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/light-cone-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/star-trails-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tidal-heating-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stellar-nucleosynthesis-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tidal-disruption-event-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sunspot-magnetic-loops-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stellar-parallax-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tidal-tails-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/trojan-asteroids-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/kirkwood-gaps-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+
+
+  // pruned 2026-07-29 zero-evidence es - batch es-batch-7 (196 routes, FINAL ES batch)
+  '/guides/es/html-entity-encoder-decoder-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/html-entity-encoder-decoder-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/html-entity-encoder-decoder-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/html-markdown-converter-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/html-markdown-converter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/html-markdown-converter-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/html-tag-remover-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/html-tag-remover-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/html-tag-remover-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/hyperion-sponge-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/hyperion-sponge-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/hyperion-sponge-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/iapetus-equatorial-ridge-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/iapetus-equatorial-ridge-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/iapetus-equatorial-ridge-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/image-exif-metadata-viewer-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/image-exif-metadata-viewer-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/image-exif-metadata-viewer-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/image-text-ocr-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/image-text-ocr-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/image-text-ocr-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/iss-orbit-tracker-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/iss-orbit-tracker-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/iss-orbit-tracker-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/json-typescript-interface-generator-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/json-typescript-interface-generator-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/json-typescript-interface-generator-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/jupiter-magnetosphere-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/jupiter-magnetosphere-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/jwst-l2-halo-orbit-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/jwst-l2-halo-orbit-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/jwst-l2-halo-orbit-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/kepler-orbits-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/kepler-orbits-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/kepler-orbits-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/kilonova-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/kilonova-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/kilonova-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/kirkwood-gaps-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/kirkwood-gaps-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/kuiper-belt-oort-cloud-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/kuiper-belt-oort-cloud-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lagrange-points-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lagrange-points-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lagrange-points-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/light-cone-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/light-cone-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/loan-calculator-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/loan-calculator-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/loan-calculator-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lunar-eclipse-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lunar-eclipse-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lunar-eclipse-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lunar-nodes-eclipse-seasons-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lunar-nodes-eclipse-seasons-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/lunar-nodes-eclipse-seasons-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/magnetic-reconnection-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/magnetic-reconnection-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/magnetic-reconnection-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/markdown-html-previewer-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/markdown-html-previewer-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/markdown-html-previewer-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/mars-terrain-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/mars-terrain-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/mars-terrain-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/meme-maker-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/meme-maker-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/meme-maker-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/meteor-airburst-size-comparison-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/meteor-airburst-size-comparison-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/meteor-airburst-size-comparison-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/meteor-shower-radiant-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/meteor-shower-radiant-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/metronome-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/metronome-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/metronome-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/milky-way-map-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/milky-way-map-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/milky-way-map-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/mimas-herschel-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/mimas-herschel-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/mimas-herschel-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/miranda-verona-rupes-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/miranda-verona-rupes-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/miranda-verona-rupes-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sql-formatter-beautifier-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sql-formatter-beautifier-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sql-formatter-beautifier-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/star-lifecycle-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/star-lifecycle-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/star-lifecycle-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/star-trails-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/star-trails-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stellar-magnitude-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stellar-magnitude-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stellar-magnitude-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stellar-nucleosynthesis-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stellar-nucleosynthesis-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stellar-parallax-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stellar-parallax-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stellar-proper-motion-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stellar-proper-motion-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/stellar-proper-motion-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sunspot-cycle-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sunspot-cycle-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sunspot-magnetic-loops-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/sunspot-magnetic-loops-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/supernova-remnant-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/supernova-remnant-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/svg-optimizer-minifier-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/svg-optimizer-minifier-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/svg-optimizer-minifier-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/synodic-lunar-month-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/synodic-lunar-month-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/synodic-lunar-month-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tabbys-star-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tabbys-star-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tabbys-star-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/text-case-converter-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/text-case-converter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/text-case-converter-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/three-body-problem-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/three-body-problem-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tidal-disruption-event-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tidal-disruption-event-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tidal-heating-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tidal-heating-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tidal-locking-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tidal-locking-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tidal-locking-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tidal-tails-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tidal-tails-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/time-zone-converter-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/time-zone-converter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/time-zone-converter-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tip-calculator-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tip-calculator-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/tip-calculator-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/trappist-1-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/trappist-1-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/trappist-1-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/triton-cantaloupe-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/trojan-asteroids-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/trojan-asteroids-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/type-ia-supernova-standard-candle-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/type-ia-supernova-standard-candle-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/type-ia-supernova-standard-candle-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/uranus-tilt-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/uranus-tilt-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/url-slug-generator-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/url-slug-generator-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/url-slug-generator-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/user-agent-parser-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/user-agent-parser-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/user-agent-parser-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/van-allen-belts-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/van-allen-belts-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/van-allen-belts-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/venus-phases-galileo-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/venus-phases-galileo-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/venus-phases-galileo-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/venus-retrograde-rotation-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/venus-retrograde-rotation-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/vesta-rheasilvia-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/vesta-rheasilvia-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/vesta-rheasilvia-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-merger-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-merger-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-merger-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-speed-changer-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-speed-changer-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-speed-changer-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-splitter-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-splitter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/video-splitter-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/webcam-recorder-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/webcam-recorder-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/webcam-recorder-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/white-noise-ambient-sound-generator-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/white-noise-ambient-sound-generator-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/white-noise-ambient-sound-generator-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/whitespace-remover-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/whitespace-remover-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/whitespace-remover-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/workout-tracker-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/workout-tracker-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/workout-tracker-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/wormhole-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/wormhole-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/wormhole-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/wow-signal-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/wow-signal-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/wow-signal-when.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/zodiacal-light-step-by-step.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/zodiacal-light-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
+  '/guides/es/zodiacal-light-when.html', // pruned 2026-07-29 zero-evidence es
+
+  // pruned 2026-07-29 zero-evidence id - batch id-batch-1 (200 routes)
+  '/guides/id/abelisaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/abelisaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/abyss-signal-diver-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/abyss-signal-diver-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/acrocanthosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/acrocanthosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/add-watermark-pdf-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/add-watermark-pdf-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/add-watermark-pdf-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/age-calculator-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/age-calculator-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/age-calculator-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/albertaceratops-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/albertaceratops-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/albertosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/albertosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/algol-eclipsing-binary-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/algol-eclipsing-binary-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/algol-eclipsing-binary-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/alioramus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/alioramus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/allosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/allosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/amargasaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/amargasaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/ampelosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/ampelosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/andromeda-collision-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/andromeda-collision-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/andromeda-collision-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/andromeda-star-shooter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/andromeda-star-shooter-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/ankylosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/ankylosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/apatosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/apatosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/apollo-free-return-trajectory-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/apollo-free-return-trajectory-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/apollo-free-return-trajectory-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/apophis-2029-flyby-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/apophis-2029-flyby-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/apophis-2029-flyby-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/arrow-dodge-arena-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/arrow-dodge-arena-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/asteroid-blaster-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/asteroid-blaster-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/avaceratops-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/avaceratops-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/axial-tilt-comparison-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/axial-tilt-comparison-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/axial-tilt-comparison-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/bangbang-artillery-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/bangbang-artillery-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/barosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/barosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/baryonyx-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/baryonyx-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/becklespinax-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/becklespinax-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/black-cat-hot-tin-roof-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/black-cat-hot-tin-roof-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/black-hole-square-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/black-hole-square-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/boing-cat-platformer-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/boing-cat-platformer-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/borisov-interstellar-comet-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/borisov-interstellar-comet-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/borisov-interstellar-comet-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/bortle-scale-light-pollution-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/bortle-scale-light-pollution-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/bortle-scale-light-pollution-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/bounce-back-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/bounce-back-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/brachiosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/brachiosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/brachylophosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/brachylophosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/brontosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/brontosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/brontotherium-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/brontotherium-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/carnotaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/carnotaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cassini-grand-finale-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cat-hop-cloud-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cat-hop-cloud-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cat-typing-race-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cat-typing-race-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/ceratosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/ceratosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/character-counter-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/character-counter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/character-counter-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/chariklo-rings-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/chariklo-rings-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/chariklo-rings-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/chasmosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/chasmosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/chili-blast-shooter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/chili-blast-shooter-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/city-drive-open-world-3d-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/city-drive-open-world-3d-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/city-drive-open-world-3d-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/classic-pong-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/classic-pong-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/claudicus-quest-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/claudicus-quest-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/coelophysis-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/coelophysis-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/compsognathus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/compsognathus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/concavenator-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/concavenator-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/connect-four-ai-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/connect-four-ai-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/coronal-mass-ejection-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/coronal-mass-ejection-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/coronal-mass-ejection-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cryolophosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cryolophosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/css-box-shadow-generator-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/css-box-shadow-generator-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/css-box-shadow-generator-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/css-grid-layout-generator-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/css-grid-layout-generator-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/css-grid-layout-generator-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/csv-json-converter-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/csv-json-converter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/csv-json-converter-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/curiosity-rover-traverse-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/curiosity-rover-traverse-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/curiosity-rover-traverse-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cyber-neon-maze-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cyber-neon-maze-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cyber-slide-puzzle-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cyber-slide-puzzle-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dark-matter-rotation-curves-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dark-matter-rotation-curves-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dark-matter-rotation-curves-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/darkline-paws-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/darkline-paws-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dart-asteroid-deflection-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dart-asteroid-deflection-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dart-asteroid-deflection-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/date-difference-calculator-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/date-difference-calculator-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/date-difference-calculator-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/deinocheirus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/deinocheirus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/deinonychus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/deinonychus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/delete-pdf-pages-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/delete-pdf-pages-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/delete-pdf-pages-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/desk-cat-coder-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/desk-cat-coder-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dilophosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dilophosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dimetrodon-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dimetrodon-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/diplodocus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/diplodocus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/doliosauriscus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/doliosauriscus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dracovenator-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dracovenator-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dwarf-planet-comparison-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dwarf-planet-comparison-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/dwarf-planet-comparison-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/earth-perihelion-aphelion-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/earth-perihelion-aphelion-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/earth-perihelion-aphelion-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/edmontosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/edmontosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/egg-time-rewind-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/egg-time-rewind-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/eight-ball-pool-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/eight-ball-pool-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/elm-street-delivery-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/elm-street-delivery-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/emoji-slot-machine-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/emoji-slot-machine-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/exoplanet-atmosphere-spectroscopy-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/exoplanet-atmosphere-spectroscopy-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/exoplanet-atmosphere-spectroscopy-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/expense-tracker-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/expense-tracker-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/expense-tracker-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/fast-radio-bursts-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/fast-radio-bursts-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/fast-radio-bursts-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/feast-night-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/feast-night-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/find-replace-text-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/find-replace-text-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/flexbox-froggy-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/flexbox-froggy-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/floor-thirteen-horror-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/floor-thirteen-horror-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/galactic-coordinate-transforms-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/galactic-coordinate-transforms-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/galactic-coordinate-transforms-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/galactic-year-sun-orbit-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/galactic-year-sun-orbit-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/galactic-year-sun-orbit-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/galaxy-3d-simulator-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/galaxy-3d-simulator-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/galaxy-3d-simulator-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/galilean-moons-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/galilean-moons-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/galilean-moons-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gallimimus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gallimimus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gamepad-controller-test-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gamepad-controller-test-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gamepad-controller-test-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/garden-defense-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/garden-defense-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/garden-defense-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gas-giant-atmosphere-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gas-giant-atmosphere-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gas-giant-atmosphere-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gif-frame-extractor-output-looks-wrong-three-causes.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gif-frames-extract-vs-frame-rate-fps-explained.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gif-to-frame.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/giganotosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/giganotosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gigantoraptor-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gigantoraptor-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/globe-siege-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/globe-siege-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/globular-cluster-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/globular-cluster-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/globular-cluster-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/glow-firefly-cat-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/glow-firefly-cat-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/googol-stopping-game-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/googol-stopping-game-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gorgosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gorgosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gpa-calculator-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gpa-calculator-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gpa-calculator-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gps-time-dilation-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gps-time-dilation-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gps-time-dilation-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravitational-redshift-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravitational-redshift-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravitational-redshift-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravitational-slingshot-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravitational-slingshot-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravitational-slingshot-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravitational-waves-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravitational-waves-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravitational-waves-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravity-orbit-golf-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravity-orbit-golf-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravity-well-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravity-well-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gravity-well-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/great-red-spot-jupiter-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/great-red-spot-jupiter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/great-red-spot-jupiter-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/grid-garden-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/grid-garden-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/grocery-list-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/grocery-list-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/grocery-list-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/ground-sloth-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/ground-sloth-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gryponyx-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/gryponyx-size-comparison.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/habit-tracker-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/habit-tracker-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/habit-tracker-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/habitable-zone-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/habitable-zone-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/habitable-zone-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hash-generator-sha-256-512-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hash-generator-sha-256-512-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hash-generator-sha-256-512-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/haumea-elongated-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/haumea-elongated-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/haumea-elongated-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hd-video-converter-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hd-video-converter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hd-video-converter-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/head-soccer-arena-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/head-soccer-arena-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/heic-to-jpg-claims-what-actually-works.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/heic-vs-jpg-converter-when-each-wins.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/heic-vs-jpg-vs-webp.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/helioseismology-sun-oscillation-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/helioseismology-sun-oscillation-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/helioseismology-sun-oscillation-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/herd-cats-home-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/herd-cats-home-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hex-puzzle-blocks-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hex-puzzle-blocks-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hex-puzzle-blocks-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hill-sphere-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hill-sphere-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hill-sphere-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hohmann-transfer-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hohmann-transfer-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hohmann-transfer-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hover-racing-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hover-racing-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-check-camera-quality-on-your-phone.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-check-webcam-and-microphone-before-an-interview.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-compress-a-folder-for-email.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-compress-a-jpg-for-email-attachment-limits.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-convert-100-heic-photos-to-jpg.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-convert-units-online.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-crop-and-rotate-an-image.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-extract-frames-from-a-gif-for-a-social-post.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-flatten-a-pdf-and-when-to-do-it.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-make-a-to-do-list-online.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-minify-css-js-for-cloud-run-cold-start.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-pick-a-color-online.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-abyss-signal-diver.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-andromeda-star-shooter.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-arrow-dodge-arena.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-asteroid-blaster.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-bangbang-artillery.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-black-cat-hot-tin-roof.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-black-hole-square.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-boing-cat-platformer.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-bounce-back.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-cat-hop-cloud.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-cat-typing-race.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-chili-blast-shooter.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-classic-pong.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-claudicus-quest.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-connect-four-ai.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-cyber-neon-maze.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-cyber-slide-puzzle.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-darkline-paws.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-desk-cat-coder.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-egg-time-rewind.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-eight-ball-pool.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-elm-street-delivery.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-emoji-slot-machine.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-feast-night.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-flexbox-froggy.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-floor-thirteen-horror.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-globe-siege.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-glow-firefly-cat.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-googol-stopping-game.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-gravity-orbit-golf.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-grid-garden.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-head-soccer-arena.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-herd-cats-home.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-hover-racing.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-idle-capitalist-loop.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-inferno-soul-walker.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-iso-city-sandbox.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-layer-flip-platformer.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-lightning-math-battle.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-machine-guard-corps.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-marble-maze.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-medieval-wall-defense.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-miami-mice.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-mochi-midnight-escape.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-mono-grid-duel.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-mono-minefield-grid.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-mono-paddle-duel.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-mono-stack-blocks.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-mor-chess-2.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-mystic-card-paw.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-neon-cat-chase.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-neon-circuit-racer.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-neon-deep-space.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-neon-energy-arena.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-neon-surge-loop.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-neural-particle-life.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-neuro-aim-arena.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-night-swarm-survivor.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-nova-star-barrage.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-one-tap-platformer.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-orbital-order.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-orbital-radius-shooter.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-particle-clicker.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-pipe-rotate-puzzle.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-pixel-necromancer.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-pixel-park-puzzle.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/how-to-play-pixel-pipeline-reflex.html', // pruned 2026-07-29 zero-evidence id
+
+
+  // pruned 2026-07-29 zero-evidence id - batch id-batch-3 (200 routes)
+  '/guides/id/2048-game-merge-numbers-puzzle-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/2048-game-merge-numbers-puzzle-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/tides-earth-moon-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/tides-earth-moon-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/tides-earth-moon-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/solar-wind-heliosphere-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/solar-wind-heliosphere-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/solar-wind-heliosphere-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/proxima-centauri-system-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/proxima-centauri-system-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/proxima-centauri-system-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/escape-velocity-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/escape-velocity-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/escape-velocity-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cosmic-distance-ladder-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cosmic-distance-ladder-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cosmic-distance-ladder-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/precession-equinoxes-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/precession-equinoxes-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/precession-equinoxes-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hr-diagram-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hr-diagram-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hr-diagram-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sun-structure-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sun-structure-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sun-structure-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/orbital-velocity-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/orbital-velocity-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/orbital-velocity-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/earth-magnetosphere-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sunspot-cycle-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/uranus-tilt-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/roche-limit-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/solar-analemma-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/saturn-hexagon-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/supernova-remnant-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/planetary-nebula-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/venus-retrograde-rotation-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/three-body-problem-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/meteor-shower-radiant-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/kuiper-belt-oort-cloud-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/jupiter-magnetosphere-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/light-cone-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/spacetime-curvature-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cepheid-variable-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/expanding-universe-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/doppler-radial-velocity-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/star-trails-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/tidal-heating-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/planetary-rings-comparison-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/n-body-sandbox-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/coordinate-systems-sky-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cmb-sky-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/stellar-nucleosynthesis-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/moon-libration-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/tidal-disruption-event-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sunspot-magnetic-loops-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cosmic-ray-shower-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/stellar-parallax-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/einstein-ring-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/tidal-tails-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/trojan-asteroids-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/solar-granulation-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/kirkwood-gaps-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/equation-of-time-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/zodiacal-light-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/stellar-proper-motion-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/aberration-of-starlight-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/planetary-conjunction-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/planetary-oblateness-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/coriolis-effect-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/earthshine-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/roche-lobe-binary-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/foucault-pendulum-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/magnetic-reconnection-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/apsidal-precession-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/synodic-lunar-month-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/earth-moon-barycenter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/lunar-nodes-eclipse-seasons-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/venus-phases-galileo-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/shepherd-moons-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/comet-tail-types-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/protoplanetary-disk-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/occultation-lunar-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/van-allen-belts-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/circumbinary-planet-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/debris-disk-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/brown-dwarf-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/kilonova-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/carrington-event-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/trappist-1-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/tabbys-star-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/oumuamua-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/betelgeuse-dimming-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/pillars-of-creation-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/pale-blue-dot-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/wow-signal-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/chelyabinsk-meteor-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/enceladus-geysers-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/phobos-stickney-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/vesta-rheasilvia-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/miranda-verona-rupes-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/charon-serenity-chasma-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/iapetus-equatorial-ridge-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/mimas-herschel-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hyperion-sponge-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/triton-cantaloupe-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/wormhole-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/wormhole-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/wormhole-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/jwst-l2-halo-orbit-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/jwst-l2-halo-orbit-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/jwst-l2-halo-orbit-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/type-ia-supernova-standard-candle-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/type-ia-supernova-standard-candle-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/type-ia-supernova-standard-candle-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/kuiper-belt-oort-cloud-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/jupiter-magnetosphere-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/light-cone-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/spacetime-curvature-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cepheid-variable-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/expanding-universe-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/doppler-radial-velocity-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/star-trails-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/tidal-heating-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/planetary-rings-comparison-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/n-body-sandbox-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/coordinate-systems-sky-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cmb-sky-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/stellar-nucleosynthesis-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/moon-libration-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/tidal-disruption-event-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sunspot-magnetic-loops-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cosmic-ray-shower-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/stellar-parallax-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/einstein-ring-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/tidal-tails-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/trojan-asteroids-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/solar-granulation-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/kirkwood-gaps-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/equation-of-time-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/zodiacal-light-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/stellar-proper-motion-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/aberration-of-starlight-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/planetary-conjunction-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/planetary-oblateness-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/coriolis-effect-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/earthshine-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/roche-lobe-binary-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/foucault-pendulum-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/magnetic-reconnection-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/apsidal-precession-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/synodic-lunar-month-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/earth-moon-barycenter-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/lunar-nodes-eclipse-seasons-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/venus-phases-galileo-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/shepherd-moons-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/comet-tail-types-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/protoplanetary-disk-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/occultation-lunar-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/van-allen-belts-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/circumbinary-planet-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/debris-disk-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/brown-dwarf-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/kilonova-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/carrington-event-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/trappist-1-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/tabbys-star-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/oumuamua-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/betelgeuse-dimming-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/pillars-of-creation-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/pale-blue-dot-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/wow-signal-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/chelyabinsk-meteor-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/enceladus-geysers-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/phobos-stickney-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/vesta-rheasilvia-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/miranda-verona-rupes-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/charon-serenity-chasma-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/iapetus-equatorial-ridge-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/mimas-herschel-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/hyperion-sponge-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/triton-cantaloupe-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/kuiper-belt-oort-cloud-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/jupiter-magnetosphere-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/light-cone-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/spacetime-curvature-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cepheid-variable-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/expanding-universe-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/doppler-radial-velocity-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/star-trails-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/tidal-heating-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/planetary-rings-comparison-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/n-body-sandbox-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/coordinate-systems-sky-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/cmb-sky-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/stellar-nucleosynthesis-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/moon-libration-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/tidal-disruption-event-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sunspot-magnetic-loops-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+
+  // pruned 2026-07-29 zero-evidence id (id-batch-4)
+  '/guides/id/2048-game-merge-numbers-puzzle-when.html',
+  '/guides/id/aberration-of-starlight-step-by-step.html',
+  '/guides/id/add-page-numbers-pdf-step-by-step.html',
+  '/guides/id/add-page-numbers-pdf-vs-alternatives.html',
+  '/guides/id/add-page-numbers-pdf-when.html',
+  '/guides/id/add-watermark-image-step-by-step.html',
+  '/guides/id/add-watermark-image-vs-alternatives.html',
+  '/guides/id/add-watermark-image-when.html',
+  '/guides/id/ai-background-remover-step-by-step.html',
+  '/guides/id/ai-background-remover-vs-alternatives.html',
+  '/guides/id/ai-background-remover-when.html',
+  '/guides/id/ai-photo-restoration-step-by-step.html',
+  '/guides/id/ai-photo-restoration-vs-alternatives.html',
+  '/guides/id/ai-photo-restoration-when.html',
+  '/guides/id/apsidal-precession-step-by-step.html',
+  '/guides/id/aspect-ratio-calculator-step-by-step.html',
+  '/guides/id/aspect-ratio-calculator-vs-alternatives.html',
+  '/guides/id/aspect-ratio-calculator-when.html',
+  '/guides/id/asteroid-belt-step-by-step.html',
+  '/guides/id/asteroid-belt-vs-alternatives.html',
+  '/guides/id/asteroid-belt-when.html',
+  '/guides/id/aurora-step-by-step.html',
+  '/guides/id/aurora-vs-alternatives.html',
+  '/guides/id/aurora-when.html',
+  '/guides/id/barcode-generator-ean-upc-code128-step-by-step.html',
+  '/guides/id/barcode-generator-ean-upc-code128-vs-alternatives.html',
+  '/guides/id/barcode-generator-ean-upc-code128-when.html',
+  '/guides/id/base64-when-to-use-and-when-not-to.html',
+  '/guides/id/before-a-video-call-which-tools-to-run.html',
+  '/guides/id/betelgeuse-dimming-step-by-step.html',
+  '/guides/id/binary-star-system-step-by-step.html',
+  '/guides/id/binary-star-system-vs-alternatives.html',
+  '/guides/id/binary-star-system-when.html',
+  '/guides/id/binary-text-converter-step-by-step.html',
+  '/guides/id/binary-text-converter-vs-alternatives.html',
+  '/guides/id/binary-text-converter-when.html',
+  '/guides/id/black-body-radiation-step-by-step.html',
+  '/guides/id/black-body-radiation-vs-alternatives.html',
+  '/guides/id/black-body-radiation-when.html',
+  '/guides/id/black-hole-3d-visualizer-step-by-step.html',
+  '/guides/id/black-hole-3d-visualizer-vs-alternatives.html',
+  '/guides/id/black-hole-3d-visualizer-when.html',
+  '/guides/id/bmi-calculator-step-by-step.html',
+  '/guides/id/bmi-calculator-vs-alternatives.html',
+  '/guides/id/bmi-calculator-when.html',
+  '/guides/id/brown-dwarf-step-by-step.html',
+  '/guides/id/carrington-event-step-by-step.html',
+  '/guides/id/charon-serenity-chasma-step-by-step.html',
+  '/guides/id/chelyabinsk-meteor-step-by-step.html',
+  '/guides/id/circumbinary-planet-step-by-step.html',
+  '/guides/id/city-time-machine-3d-step-by-step.html',
+  '/guides/id/city-time-machine-3d-vs-alternatives.html',
+  '/guides/id/city-time-machine-3d-when.html',
+  '/guides/id/color-contrast-checker-wcag-step-by-step.html',
+  '/guides/id/color-contrast-checker-wcag-vs-alternatives.html',
+  '/guides/id/color-contrast-checker-wcag-when.html',
+  '/guides/id/comet-orbit-step-by-step.html',
+  '/guides/id/comet-orbit-vs-alternatives.html',
+  '/guides/id/comet-orbit-when.html',
+  '/guides/id/comet-tail-types-step-by-step.html',
+  '/guides/id/common-md5-gethash64string.html',
+  '/guides/id/compound-interest-calculator-step-by-step.html',
+  '/guides/id/compound-interest-calculator-vs-alternatives.html',
+  '/guides/id/compound-interest-calculator-when.html',
+  '/guides/id/compress-folder-online.html',
+  '/guides/id/compress-pdf-online-free.html',
+  '/guides/id/constellation-sphere-step-by-step.html',
+  '/guides/id/constellation-sphere-vs-alternatives.html',
+  '/guides/id/constellation-sphere-when.html',
+  '/guides/id/coriolis-effect-step-by-step.html',
+  '/guides/id/cosmic-ray-shower-step-by-step.html',
+  '/guides/id/cron-expression-parser-step-by-step.html',
+  '/guides/id/cron-expression-parser-vs-alternatives.html',
+  '/guides/id/cron-expression-parser-when.html',
+  '/guides/id/css-minifier-vs-compressor.html',
+  '/guides/id/css-minifier-vs-uglifier-vs-tree-shaking.html',
+  '/guides/id/css-unminifier-vs-prettier-when-to-use-each.html',
+  '/guides/id/dead-pixel-testing-guide.html',
+  '/guides/id/debris-disk-step-by-step.html',
+  '/guides/id/device-test-checklist-for-remote-work.html',
+  '/guides/id/dice-roller-step-by-step.html',
+  '/guides/id/digital-clock-step-by-step.html',
+  '/guides/id/document-scanner-pdf-step-by-step.html',
+  '/guides/id/document-scanner-pdf-vs-alternatives.html',
+  '/guides/id/document-scanner-pdf-when.html',
+  '/guides/id/download-link-not-appearing-after-conversion-five-fixes.html',
+  '/guides/id/duplicate-word-remover-step-by-step.html',
+  '/guides/id/duplicate-word-remover-vs-alternatives.html',
+  '/guides/id/duplicate-word-remover-when.html',
+  '/guides/id/earth-3d-globe-live-day-night-map-step-by-step.html',
+  '/guides/id/earth-3d-globe-live-day-night-map-vs-alternatives.html',
+  '/guides/id/earth-magnetosphere-step-by-step.html',
+  '/guides/id/earth-magnetosphere-when.html',
+  '/guides/id/earth-moon-barycenter-step-by-step.html',
+  '/guides/id/earthshine-step-by-step.html',
+  '/guides/id/ecliptic-zodiac-step-by-step.html',
+  '/guides/id/ecliptic-zodiac-vs-alternatives.html',
+  '/guides/id/ecliptic-zodiac-when.html',
+  '/guides/id/einstein-ring-step-by-step.html',
+  '/guides/id/enceladus-geysers-step-by-step.html',
+  '/guides/id/equation-of-time-step-by-step.html',
+  '/guides/id/europa-subsurface-ocean-step-by-step.html',
+  '/guides/id/europa-subsurface-ocean-when.html',
+  '/guides/id/exoplanet-transit-step-by-step.html',
+  '/guides/id/exoplanet-transit-vs-alternatives.html',
+  '/guides/id/exoplanet-transit-when.html',
+  '/guides/id/extract-gif-frames-png-vs-jpg-which-format.html',
+  '/guides/id/favicon-generator-step-by-step.html',
+  '/guides/id/favicon-generator-vs-alternatives.html',
+  '/guides/id/favicon-generator-when.html',
+  '/guides/id/ffmpeg-online-conversion-stalled-three-fixes.html',
+  '/guides/id/ffmpeg-online-vs-video-converter-which-to-pick.html',
+  '/guides/id/file-compressor-vs-zip-what-to-pick.html',
+  '/guides/id/file-compressor.html',
+  '/guides/id/file-encryption-step-by-step.html',
+  '/guides/id/file-encryption-vs-alternatives.html',
+  '/guides/id/file-encryption-when.html',
+  '/guides/id/flashcards-spaced-repetition-step-by-step.html',
+  '/guides/id/flashcards-spaced-repetition-vs-alternatives.html',
+  '/guides/id/flashcards-spaced-repetition-when.html',
+  '/guides/id/foucault-pendulum-step-by-step.html',
+  '/guides/id/free-online-tools-that-work-without-uploading-files.html',
+  '/guides/id/how-to-compress-a-zip-file.html',
+  '/guides/id/how-to-play-pixel-realm-rpg.html',
+  '/guides/id/how-to-play-pixel-spike-run.html',
+  '/guides/id/how-to-play-potion-brew-shop.html',
+  '/guides/id/how-to-play-precision-bounce-loop.html',
+  '/guides/id/how-to-play-procedural-horde-game.html',
+  '/guides/id/how-to-play-progress-knight.html',
+  '/guides/id/how-to-play-quantum-optics-puzzle.html',
+  '/guides/id/how-to-play-quantum-shift.html',
+  '/guides/id/how-to-play-retro-arcade-shooter.html',
+  '/guides/id/how-to-play-retro-fps-online.html',
+  '/guides/id/how-to-play-retro-highway-racer.html',
+  '/guides/id/how-to-play-ritual-catacombs.html',
+  '/guides/id/how-to-play-rock-paper-neural.html',
+  '/guides/id/how-to-play-roller-maze-escape.html',
+  '/guides/id/how-to-play-rune-keeper.html',
+  '/guides/id/how-to-play-schematic-factory-game.html',
+  '/guides/id/how-to-play-seasonal-witchcat.html',
+  '/guides/id/how-to-play-serpentine-3d.html',
+  '/guides/id/how-to-play-server-survival-td.html',
+  '/guides/id/how-to-play-sketch-turf-battle.html',
+  '/guides/id/how-to-play-solo-battlefield.html',
+  '/guides/id/how-to-play-space-grid-puzzle.html',
+  '/guides/id/how-to-play-space-pi-defense.html',
+  '/guides/id/how-to-play-species-life-battle.html',
+  '/guides/id/how-to-play-spike-sprint.html',
+  '/guides/id/how-to-play-star-fuel-battle.html',
+  '/guides/id/how-to-play-starlight-breaker.html',
+  '/guides/id/how-to-play-swing-block-tower.html',
+  '/guides/id/how-to-play-the-house-pointclick.html',
+  '/guides/id/how-to-play-thirteen-card-duel.html',
+  '/guides/id/how-to-play-thirteen-case-files.html',
+  '/guides/id/how-to-play-thirteen-hours.html',
+  '/guides/id/how-to-play-thirteen-step-escape.html',
+  '/guides/id/how-to-play-unlucky-crossing.html',
+  '/guides/id/how-to-play-vim-master.html',
+  '/guides/id/how-to-play-vim-motion-academy.html',
+  '/guides/id/how-to-play-violence-town.html',
+  '/guides/id/how-to-play-void-trader.html',
+  '/guides/id/how-to-play-voxel-fps-arena.html',
+  '/guides/id/how-to-play-wash-the-cat.html',
+  '/guides/id/how-to-record-your-screen-online.html',
+  '/guides/id/how-to-run-a-private-ai-chat-in-your-browser.html',
+  '/guides/id/how-to-sign-pdf-after-removing-a-password.html',
+  '/guides/id/how-to-split-a-gif-into-frames-for-editing.html',
+  '/guides/id/how-to-test-a-touchscreen-for-bad-spots.html',
+  '/guides/id/how-to-test-for-dead-pixels-before-returning-a-monitor.html',
+  '/guides/id/how-to-view-abelisaurus-in-3d.html',
+  '/guides/id/how-to-view-acrocanthosaurus-in-3d.html',
+  '/guides/id/how-to-view-albertaceratops-in-3d.html',
+  '/guides/id/how-to-view-albertosaurus-in-3d.html',
+  '/guides/id/how-to-view-alioramus-in-3d.html',
+  '/guides/id/how-to-view-allosaurus-in-3d.html',
+  '/guides/id/how-to-view-amargasaurus-in-3d.html',
+  '/guides/id/how-to-view-ampelosaurus-in-3d.html',
+  '/guides/id/how-to-view-ankylosaurus-in-3d.html',
+  '/guides/id/how-to-view-apatosaurus-in-3d.html',
+  '/guides/id/how-to-view-avaceratops-in-3d.html',
+  '/guides/id/how-to-view-barosaurus-in-3d.html',
+  '/guides/id/how-to-view-baryonyx-in-3d.html',
+  '/guides/id/how-to-view-becklespinax-in-3d.html',
+  '/guides/id/how-to-view-brachiosaurus-in-3d.html',
+  '/guides/id/how-to-view-brachylophosaurus-in-3d.html',
+  '/guides/id/how-to-view-brontosaurus-in-3d.html',
+  '/guides/id/how-to-view-brontotherium-in-3d.html',
+  '/guides/id/how-to-view-carnotaurus-in-3d.html',
+  '/guides/id/how-to-view-ceratosaurus-in-3d.html',
+  '/guides/id/how-to-view-chasmosaurus-in-3d.html',
+  '/guides/id/how-to-view-coelophysis-in-3d.html',
+  '/guides/id/how-to-view-compsognathus-in-3d.html',
+  '/guides/id/how-to-view-concavenator-in-3d.html',
+  '/guides/id/how-to-view-cryolophosaurus-in-3d.html',
+  '/guides/id/how-to-view-deinocheirus-in-3d.html',
+  '/guides/id/how-to-view-deinonychus-in-3d.html',
+  '/guides/id/how-to-view-dilophosaurus-in-3d.html',
+  '/guides/id/how-to-view-dimetrodon-in-3d.html',
+  '/guides/id/how-to-view-diplodocus-in-3d.html',
+  '/guides/id/how-to-view-doliosauriscus-in-3d.html',
+
+  // pruned 2026-07-29 zero-evidence id (id-batch-5)
+  '/guides/id/how-to-view-dracovenator-in-3d.html',
+  '/guides/id/how-to-view-edmontosaurus-in-3d.html',
+  '/guides/id/how-to-view-gallimimus-in-3d.html',
+  '/guides/id/how-to-view-giganotosaurus-in-3d.html',
+  '/guides/id/how-to-view-gigantoraptor-in-3d.html',
+  '/guides/id/how-to-view-gorgosaurus-in-3d.html',
+  '/guides/id/how-to-view-ground-sloth-in-3d.html',
+  '/guides/id/how-to-view-gryponyx-in-3d.html',
+  '/guides/id/how-to-view-hybodus-in-3d.html',
+  '/guides/id/how-to-view-ichthyosaurus-in-3d.html',
+  '/guides/id/how-to-view-ichthyovenator-in-3d.html',
+  '/guides/id/how-to-view-iguanodon-in-3d.html',
+  '/guides/id/how-to-view-kentrosaurus-in-3d.html',
+  '/guides/id/how-to-view-lambeosaurus-in-3d.html',
+  '/guides/id/how-to-view-majungasaurus-in-3d.html',
+  '/guides/id/how-to-view-mamenchisaurus-in-3d.html',
+  '/guides/id/how-to-view-megalosaurus-in-3d.html',
+  '/guides/id/how-to-view-microraptor-in-3d.html',
+  '/guides/id/how-to-view-moropus-in-3d.html',
+  '/guides/id/how-to-view-mosasaurus-in-3d.html',
+  '/guides/id/how-to-view-ornithomimus-in-3d.html',
+  '/guides/id/how-to-view-ostafrikasaurus-in-3d.html',
+  '/guides/id/how-to-view-oviraptor-in-3d.html',
+  '/guides/id/how-to-view-pachycephalosaurus-in-3d.html',
+  '/guides/id/how-to-view-pachyrhinosaurus-in-3d.html',
+  '/guides/id/how-to-view-parasaurolophus-in-3d.html',
+  '/guides/id/how-to-view-pentaceratops-in-3d.html',
+  '/guides/id/how-to-view-pinacosaurus-in-3d.html',
+  '/guides/id/how-to-view-plesiosaurus-in-3d.html',
+  '/guides/id/how-to-view-postosuchus-in-3d.html',
+  '/guides/id/how-to-view-protoceratops-in-3d.html',
+  '/guides/id/how-to-view-psittacosaurus-in-3d.html',
+  '/guides/id/how-to-view-pteranodon-in-3d.html',
+  '/guides/id/how-to-view-quetzalcoatlus-in-3d.html',
+  '/guides/id/how-to-view-sarcosuchus-in-3d.html',
+  '/guides/id/how-to-view-sauropelta-in-3d.html',
+  '/guides/id/how-to-view-seismosaurus-in-3d.html',
+  '/guides/id/how-to-view-shuangmiaosaurus-in-3d.html',
+  '/guides/id/how-to-view-spinosaurus-in-3d.html',
+  '/guides/id/how-to-view-stegosaurus-in-3d.html',
+  '/guides/id/how-to-view-stygimoloch-in-3d.html',
+  '/guides/id/how-to-view-tarbosaurus-in-3d.html',
+  '/guides/id/how-to-view-therizinosaurus-in-3d.html',
+  '/guides/id/how-to-view-titanoboa-in-3d.html',
+  '/guides/id/how-to-view-titanosaurus-in-3d.html',
+  '/guides/id/how-to-view-torvosaurus-in-3d.html',
+  '/guides/id/how-to-view-triceratops-in-3d.html',
+  '/guides/id/how-to-view-troodon-in-3d.html',
+  '/guides/id/how-to-view-tsintaosaurus-in-3d.html',
+  '/guides/id/how-to-view-tylosaurus-in-3d.html',
+  '/guides/id/how-to-view-tyrannosaurus-rex-in-3d.html',
+  '/guides/id/how-to-view-utahraptor-in-3d.html',
+  '/guides/id/how-to-view-velociraptor-in-3d.html',
+  '/guides/id/how-to-visualize-data-online.html',
+  '/guides/id/html-entity-encoder-decoder-step-by-step.html',
+  '/guides/id/html-entity-encoder-decoder-vs-alternatives.html',
+  '/guides/id/html-entity-encoder-decoder-when.html',
+  '/guides/id/html-markdown-converter-step-by-step.html',
+  '/guides/id/html-markdown-converter-vs-alternatives.html',
+  '/guides/id/html-markdown-converter-when.html',
+  '/guides/id/html-tag-remover-step-by-step.html',
+  '/guides/id/html-tag-remover-vs-alternatives.html',
+  '/guides/id/html-tag-remover-when.html',
+  '/guides/id/hybodus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/hybodus-size-comparison.html',
+  '/guides/id/hyperion-sponge-step-by-step.html',
+  '/guides/id/i-love-zip.html',
+  '/guides/id/iapetus-equatorial-ridge-step-by-step.html',
+  '/guides/id/ichthyosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/ichthyosaurus-size-comparison.html',
+  '/guides/id/ichthyovenator-3d-viewer-vs-ar-apps.html',
+  '/guides/id/ichthyovenator-size-comparison.html',
+  '/guides/id/idle-capitalist-loop-vs-alternatives.html',
+  '/guides/id/idle-capitalist-loop-when.html',
+  '/guides/id/iguanodon-3d-viewer-vs-ar-apps.html',
+  '/guides/id/iguanodon-size-comparison.html',
+  '/guides/id/image-color-palette-extractor-step-by-step.html',
+  '/guides/id/image-color-palette-extractor-vs-alternatives.html',
+  '/guides/id/image-color-palette-extractor-when.html',
+  '/guides/id/image-exif-metadata-viewer-step-by-step.html',
+  '/guides/id/image-exif-metadata-viewer-vs-alternatives.html',
+  '/guides/id/image-exif-metadata-viewer-when.html',
+  '/guides/id/image-format-converter-step-by-step.html',
+  '/guides/id/image-format-converter-vs-alternatives.html',
+  '/guides/id/image-format-converter-when.html',
+  '/guides/id/image-metadata-exif-remover-step-by-step.html',
+  '/guides/id/image-metadata-exif-remover-vs-alternatives.html',
+  '/guides/id/image-metadata-exif-remover-when.html',
+  '/guides/id/image-text-ocr-step-by-step.html',
+  '/guides/id/image-text-ocr-vs-alternatives.html',
+  '/guides/id/image-text-ocr-when.html',
+  '/guides/id/image-to-base64-embed-in-html-vs-link.html',
+  '/guides/id/image-webp-converter-step-by-step.html',
+  '/guides/id/image-webp-converter-vs-alternatives.html',
+  '/guides/id/image-webp-converter-when.html',
+  '/guides/id/imagemagick-online-vs-task-specific-tools-which-to-pick.html',
+  '/guides/id/impact-crater-formation-step-by-step.html',
+  '/guides/id/impact-crater-formation-vs-alternatives.html',
+  '/guides/id/impact-crater-formation-when.html',
+  '/guides/id/inferno-soul-walker-vs-alternatives.html',
+  '/guides/id/inferno-soul-walker-when.html',
+  '/guides/id/interstellar-travel-timescales-step-by-step.html',
+  '/guides/id/interstellar-travel-timescales-vs-alternatives.html',
+  '/guides/id/interstellar-travel-timescales-when.html',
+  '/guides/id/io-plasma-torus-step-by-step.html',
+  '/guides/id/io-plasma-torus-vs-alternatives.html',
+  '/guides/id/io-plasma-torus-when.html',
+  '/guides/id/iphone-photo-format-explained-heic-jpg-png-raw.html',
+  '/guides/id/iso-city-sandbox-vs-alternatives.html',
+  '/guides/id/iso-city-sandbox-when.html',
+  '/guides/id/iss-orbit-tracker-step-by-step.html',
+  '/guides/id/iss-orbit-tracker-vs-alternatives.html',
+  '/guides/id/iss-orbit-tracker-when.html',
+  '/guides/id/jpg-avif-converter-step-by-step.html',
+  '/guides/id/jpg-avif-converter-vs-alternatives.html',
+  '/guides/id/jpg-avif-converter-when.html',
+  '/guides/id/jpg-vs-jpeg-are-they-the-same.html',
+  '/guides/id/jpg-vs-png-for-web.html',
+  '/guides/id/jpg-webp-converter-step-by-step.html',
+  '/guides/id/jpg-webp-converter-vs-alternatives.html',
+  '/guides/id/jpg-webp-converter-when.html',
+  '/guides/id/json-formatter-step-by-step.html',
+  '/guides/id/json-formatter-vs-alternatives.html',
+  '/guides/id/json-formatter-when.html',
+  '/guides/id/json-typescript-interface-generator-step-by-step.html',
+  '/guides/id/json-typescript-interface-generator-vs-alternatives.html',
+  '/guides/id/json-typescript-interface-generator-when.html',
+  '/guides/id/json-vs-yaml-vs-toml-config-formats-explained.html',
+  '/guides/id/jwt-decoder-step-by-step.html',
+  '/guides/id/jwt-decoder-vs-alternatives.html',
+  '/guides/id/jwt-decoder-when.html',
+  '/guides/id/karman-line-atmosphere-layers-step-by-step.html',
+  '/guides/id/karman-line-atmosphere-layers-vs-alternatives.html',
+  '/guides/id/karman-line-atmosphere-layers-when.html',
+  '/guides/id/kentrosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/kentrosaurus-size-comparison.html',
+  '/guides/id/kepler-orbits-step-by-step.html',
+  '/guides/id/kepler-orbits-vs-alternatives.html',
+  '/guides/id/kepler-orbits-when.html',
+  '/guides/id/kilonova-step-by-step.html',
+  '/guides/id/kirkwood-gaps-step-by-step.html',
+  '/guides/id/kp-index-geomagnetic-storm-scale-step-by-step.html',
+  '/guides/id/kp-index-geomagnetic-storm-scale-vs-alternatives.html',
+  '/guides/id/kp-index-geomagnetic-storm-scale-when.html',
+  '/guides/id/lagrange-points-step-by-step.html',
+  '/guides/id/lagrange-points-vs-alternatives.html',
+  '/guides/id/lagrange-points-when.html',
+  '/guides/id/lambeosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/lambeosaurus-size-comparison.html',
+  '/guides/id/layer-flip-platformer-vs-alternatives.html',
+  '/guides/id/layer-flip-platformer-when.html',
+  '/guides/id/lcd-screen-test.html',
+  '/guides/id/lcd-test-vs-display-test-which-do-you-need.html',
+  '/guides/id/led-test-vs-lcd-test-which-applies-to-your-screen.html',
+  '/guides/id/lightning-math-battle-vs-alternatives.html',
+  '/guides/id/lightning-math-battle-when.html',
+  '/guides/id/loan-calculator-step-by-step.html',
+  '/guides/id/loan-calculator-vs-alternatives.html',
+  '/guides/id/loan-calculator-when.html',
+  '/guides/id/lorem-ipsum-placeholder-text-generator-step-by-step.html',
+  '/guides/id/lorem-ipsum-placeholder-text-generator-vs-alternatives.html',
+  '/guides/id/lorem-ipsum-placeholder-text-generator-when.html',
+  '/guides/id/lunar-eclipse-step-by-step.html',
+  '/guides/id/lunar-eclipse-vs-alternatives.html',
+  '/guides/id/lunar-eclipse-when.html',
+  '/guides/id/lunar-nodes-eclipse-seasons-step-by-step.html',
+  '/guides/id/machine-guard-corps-vs-alternatives.html',
+  '/guides/id/machine-guard-corps-when.html',
+  '/guides/id/magnetar-step-by-step.html',
+  '/guides/id/magnetar-vs-alternatives.html',
+  '/guides/id/magnetar-when.html',
+  '/guides/id/magnetic-reconnection-step-by-step.html',
+  '/guides/id/main-sequence-lifetime-step-by-step.html',
+  '/guides/id/main-sequence-lifetime-vs-alternatives.html',
+  '/guides/id/main-sequence-lifetime-when.html',
+  '/guides/id/majungasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/majungasaurus-size-comparison.html',
+  '/guides/id/make-zip-file-online.html',
+  '/guides/id/mamenchisaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/mamenchisaurus-size-comparison.html',
+  '/guides/id/marble-maze-vs-alternatives.html',
+  '/guides/id/marble-maze-when.html',
+  '/guides/id/markdown-html-previewer-step-by-step.html',
+  '/guides/id/markdown-html-previewer-vs-alternatives.html',
+  '/guides/id/markdown-html-previewer-when.html',
+  '/guides/id/mars-terrain-step-by-step.html',
+  '/guides/id/mars-terrain-vs-alternatives.html',
+  '/guides/id/mars-terrain-when.html',
+  '/guides/id/md5-alternatives-bcrypt-argon2id-sha256-when-each-fits.html',
+  '/guides/id/md5-decrypt-online.html',
+  '/guides/id/md5-decrypter.html',
+  '/guides/id/md5-to-text-why-you-cannot-convert-back.html',
+  '/guides/id/md5-vs-sha256-when-to-hash.html',
+  '/guides/id/medieval-wall-defense-vs-alternatives.html',
+  '/guides/id/medieval-wall-defense-when.html',
+  '/guides/id/megalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/megalosaurus-size-comparison.html',
+  '/guides/id/meme-maker-step-by-step.html',
+  '/guides/id/meme-maker-vs-alternatives.html',
+  '/guides/id/meme-maker-when.html',
+
+  // pruned 2026-07-29 zero-evidence id (id-batch-6: scientific-calculator-when to particle-clicker-when)
+  '/guides/id/scientific-calculator-when.html',
+  '/guides/id/scientific-calculator-step-by-step.html',
+  '/guides/id/scientific-calculator-vs-alternatives.html',
+  '/guides/id/tdee-calorie-calculator-when.html',
+  '/guides/id/tdee-calorie-calculator-step-by-step.html',
+  '/guides/id/tdee-calorie-calculator-vs-alternatives.html',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-when.html',
+  '/guides/id/number-base-converter-binary-hex-octal-decimal-step-by-step.html',
+  '/guides/id/number-base-converter-vs-alternatives.html',
+  '/guides/id/password-strength-checker-when.html',
+  '/guides/id/password-strength-checker-step-by-step.html',
+  '/guides/id/password-strength-checker-vs-alternatives.html',
+  '/guides/id/monitor-refresh-rate-test-hz-when.html',
+  '/guides/id/monitor-refresh-rate-test-hz-step-by-step.html',
+  '/guides/id/monitor-refresh-rate-test-hz-vs-alternatives.html',
+  '/guides/id/touchscreen-test-when.html',
+  '/guides/id/touchscreen-test-step-by-step.html',
+  '/guides/id/touchscreen-test-vs-alternatives.html',
+  '/guides/id/mouse-test-buttons-scroll-when.html',
+  '/guides/id/mouse-test-buttons-scroll-step-by-step.html',
+  '/guides/id/mouse-test-buttons-scroll-vs-alternatives.html',
+  '/guides/id/tyrannosaurus-rex-size-comparison.html',
+  '/guides/id/tyrannosaurus-rex-3d-viewer-vs-ar-apps.html',
+  '/guides/id/mosasaurus-size-comparison.html',
+  '/guides/id/mosasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/velociraptor-size-comparison.html',
+  '/guides/id/velociraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/id/triceratops-size-comparison.html',
+  '/guides/id/triceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/id/spinosaurus-size-comparison.html',
+  '/guides/id/spinosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/stegosaurus-size-comparison.html',
+  '/guides/id/stegosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/parasaurolophus-size-comparison.html',
+  '/guides/id/parasaurolophus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/pteranodon-size-comparison.html',
+  '/guides/id/pteranodon-3d-viewer-vs-ar-apps.html',
+  '/guides/id/pachycephalosaurus-size-comparison.html',
+  '/guides/id/pachycephalosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/therizinosaurus-size-comparison.html',
+  '/guides/id/therizinosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/utahraptor-size-comparison.html',
+  '/guides/id/utahraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/id/plesiosaurus-size-comparison.html',
+  '/guides/id/plesiosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/pachyrhinosaurus-size-comparison.html',
+  '/guides/id/pachyrhinosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/protoceratops-size-comparison.html',
+  '/guides/id/protoceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/id/microraptor-size-comparison.html',
+  '/guides/id/microraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/id/tsintaosaurus-size-comparison.html',
+  '/guides/id/tsintaosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/ornithomimus-size-comparison.html',
+  '/guides/id/ornithomimus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/tylosaurus-size-comparison.html',
+  '/guides/id/tylosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/seismosaurus-size-comparison.html',
+  '/guides/id/seismosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/stygimoloch-size-comparison.html',
+  '/guides/id/stygimoloch-3d-viewer-vs-ar-apps.html',
+  '/guides/id/titanoboa-size-comparison.html',
+  '/guides/id/titanoboa-3d-viewer-vs-ar-apps.html',
+  '/guides/id/moropus-size-comparison.html',
+  '/guides/id/moropus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/titanosaurus-size-comparison.html',
+  '/guides/id/titanosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/sauropelta-size-comparison.html',
+  '/guides/id/sauropelta-3d-viewer-vs-ar-apps.html',
+  '/guides/id/shuangmiaosaurus-size-comparison.html',
+  '/guides/id/shuangmiaosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/quetzalcoatlus-size-comparison.html',
+  '/guides/id/quetzalcoatlus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/tarbosaurus-size-comparison.html',
+  '/guides/id/tarbosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/troodon-size-comparison.html',
+  '/guides/id/troodon-3d-viewer-vs-ar-apps.html',
+  '/guides/id/pentaceratops-size-comparison.html',
+  '/guides/id/pentaceratops-3d-viewer-vs-ar-apps.html',
+  '/guides/id/torvosaurus-size-comparison.html',
+  '/guides/id/torvosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/sarcosuchus-size-comparison.html',
+  '/guides/id/sarcosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/postosuchus-size-comparison.html',
+  '/guides/id/postosuchus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/psittacosaurus-size-comparison.html',
+  '/guides/id/psittacosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/ostafrikasaurus-size-comparison.html',
+  '/guides/id/ostafrikasaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/oviraptor-size-comparison.html',
+  '/guides/id/oviraptor-3d-viewer-vs-ar-apps.html',
+  '/guides/id/pinacosaurus-size-comparison.html',
+  '/guides/id/pinacosaurus-3d-viewer-vs-ar-apps.html',
+  '/guides/id/video-compressor-when.html',
+  '/guides/id/video-compressor-step-by-step.html',
+  '/guides/id/video-compressor-vs-alternatives.html',
+  '/guides/id/notepad-notes-when.html',
+  '/guides/id/notepad-notes-step-by-step.html',
+  '/guides/id/notepad-notes-vs-alternatives.html',
+  '/guides/id/rotate-pdf-when.html',
+  '/guides/id/rotate-pdf-step-by-step.html',
+  '/guides/id/rotate-pdf-vs-alternatives.html',
+  '/guides/id/audio-speed-changer-when.html',
+  '/guides/id/audio-speed-changer-step-by-step.html',
+  '/guides/id/audio-speed-changer-vs-alternatives.html',
+  '/guides/id/percentage-calculator-step-by-step.html',
+  '/guides/id/percentage-calculator-when.html',
+  '/guides/id/percentage-calculator-vs-alternatives.html',
+  '/guides/id/password-generator-step-by-step.html',
+  '/guides/id/password-generator-when.html',
+  '/guides/id/password-generator-vs-alternatives.html',
+  '/guides/id/png-webp-converter-step-by-step.html',
+  '/guides/id/png-webp-converter-when.html',
+  '/guides/id/png-webp-converter-vs-alternatives.html',
+  '/guides/id/webp-png-converter-step-by-step.html',
+  '/guides/id/webp-png-converter-when.html',
+  '/guides/id/webp-png-converter-vs-alternatives.html',
+  '/guides/id/webp-jpg-converter-step-by-step.html',
+  '/guides/id/webp-jpg-converter-when.html',
+  '/guides/id/webp-jpg-converter-vs-alternatives.html',
+  '/guides/id/png-jpg-converter-step-by-step.html',
+  '/guides/id/png-jpg-converter-when.html',
+  '/guides/id/png-jpg-converter-vs-alternatives.html',
+  '/guides/id/procedural-horde-game-when.html',
+  '/guides/id/procedural-horde-game-vs-alternatives.html',
+  '/guides/id/pixel-pipeline-reflex-when.html',
+  '/guides/id/pixel-pipeline-reflex-vs-alternatives.html',
+  '/guides/id/void-trader-when.html',
+  '/guides/id/void-trader-vs-alternatives.html',
+  '/guides/id/violence-town-when.html',
+  '/guides/id/violence-town-vs-alternatives.html',
+  '/guides/id/neon-energy-arena-when.html',
+  '/guides/id/neon-energy-arena-vs-alternatives.html',
+  '/guides/id/mono-minefield-grid-when.html',
+  '/guides/id/mono-minefield-grid-vs-alternatives.html',
+  '/guides/id/space-pi-defense-when.html',
+  '/guides/id/space-pi-defense-vs-alternatives.html',
+  '/guides/id/mono-paddle-duel-when.html',
+  '/guides/id/mono-paddle-duel-vs-alternatives.html',
+  '/guides/id/mono-stack-blocks-when.html',
+  '/guides/id/mono-stack-blocks-vs-alternatives.html',
+  '/guides/id/mono-grid-duel-when.html',
+  '/guides/id/mono-grid-duel-vs-alternatives.html',
+  '/guides/id/pipe-rotate-puzzle-when.html',
+  '/guides/id/pipe-rotate-puzzle-vs-alternatives.html',
+  '/guides/id/pixel-park-puzzle-when.html',
+  '/guides/id/pixel-park-puzzle-vs-alternatives.html',
+  '/guides/id/wash-the-cat-when.html',
+  '/guides/id/wash-the-cat-vs-alternatives.html',
+  '/guides/id/retro-highway-racer-when.html',
+  '/guides/id/retro-highway-racer-vs-alternatives.html',
+  '/guides/id/retro-arcade-shooter-when.html',
+  '/guides/id/retro-arcade-shooter-vs-alternatives.html',
+  '/guides/id/retro-fps-online-when.html',
+  '/guides/id/retro-fps-online-vs-alternatives.html',
+  '/guides/id/ritual-catacombs-when.html',
+  '/guides/id/ritual-catacombs-vs-alternatives.html',
+  '/guides/id/potion-brew-shop-when.html',
+  '/guides/id/potion-brew-shop-vs-alternatives.html',
+  '/guides/id/unlucky-crossing-when.html',
+  '/guides/id/unlucky-crossing-vs-alternatives.html',
+  '/guides/id/mystic-card-paw-when.html',
+  '/guides/id/mystic-card-paw-vs-alternatives.html',
+  '/guides/id/solo-battlefield-when.html',
+  '/guides/id/solo-battlefield-vs-alternatives.html',
+  '/guides/id/rune-keeper-when.html',
+  '/guides/id/rune-keeper-vs-alternatives.html',
+  '/guides/id/thirteen-hours-when.html',
+  '/guides/id/thirteen-hours-vs-alternatives.html',
+  '/guides/id/quantum-shift-when.html',
+  '/guides/id/quantum-shift-vs-alternatives.html',
+  '/guides/id/roller-maze-escape-when.html',
+  '/guides/id/roller-maze-escape-vs-alternatives.html',
+  '/guides/id/thirteen-case-files-when.html',
+  '/guides/id/thirteen-case-files-vs-alternatives.html',
+  '/guides/id/rock-paper-neural-when.html',
+  '/guides/id/rock-paper-neural-vs-alternatives.html',
+  '/guides/id/neuro-aim-arena-when.html',
+  '/guides/id/neuro-aim-arena-vs-alternatives.html',
+  '/guides/id/mochi-midnight-escape-when.html',
+  '/guides/id/mochi-midnight-escape-vs-alternatives.html',
+  '/guides/id/swing-block-tower-when.html',
+  '/guides/id/swing-block-tower-vs-alternatives.html',
+  '/guides/id/star-fuel-battle-when.html',
+  '/guides/id/star-fuel-battle-vs-alternatives.html',
+  '/guides/id/progress-knight-when.html',
+  '/guides/id/progress-knight-vs-alternatives.html',
+  '/guides/id/miami-mice-when.html',
+  '/guides/id/miami-mice-vs-alternatives.html',
+  '/guides/id/orbital-order-when.html',
+  '/guides/id/orbital-order-vs-alternatives.html',
+  '/guides/id/spike-sprint-when.html',
+  '/guides/id/spike-sprint-vs-alternatives.html',
+  '/guides/id/neon-deep-space-when.html',
+  '/guides/id/neon-deep-space-vs-alternatives.html',
+  '/guides/id/vim-master-when.html',
+  '/guides/id/vim-master-vs-alternatives.html',
+  '/guides/id/quantum-optics-puzzle-when.html',
+  '/guides/id/quantum-optics-puzzle-vs-alternatives.html',
+  '/guides/id/particle-clicker-when.html',
+
+  // pruned 2026-07-29 zero-evidence id (id-batch-7 FINAL: mercury-spin-orbit-resonance to yarkovsky-effect)
+  '/guides/id/mercury-spin-orbit-resonance-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/mercury-spin-orbit-resonance-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/mercury-spin-orbit-resonance-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/moon-formation-giant-impact-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/moon-formation-giant-impact-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/moon-formation-giant-impact-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/mor-chess-2-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/mor-chess-2-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/neon-cat-chase-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/neon-cat-chase-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/neon-circuit-racer-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/neon-circuit-racer-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/neon-surge-loop-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/neon-surge-loop-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/neon-tower-rush-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/neon-tower-rush-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/neptune-supersonic-winds-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/neptune-supersonic-winds-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/neptune-supersonic-winds-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/neural-particle-life-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/neural-particle-life-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/new-horizons-pluto-flyby-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/new-horizons-pluto-flyby-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/new-horizons-pluto-flyby-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/night-swarm-survivor-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/night-swarm-survivor-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/nova-star-barrage-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/nova-star-barrage-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/olympus-mons-mars-volcano-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/olympus-mons-mars-volcano-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/olympus-mons-mars-volcano-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/one-tap-platformer-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/one-tap-platformer-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/orbital-radius-shooter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/orbital-radius-shooter-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/particle-clicker-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/photon-sphere-isco-explorer-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/photon-sphere-isco-explorer-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/photon-sphere-isco-explorer-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/pixel-necromancer-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/pixel-necromancer-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/pixel-realm-rpg-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/pixel-realm-rpg-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/pixel-spike-run-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/pixel-spike-run-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/pluto-charon-double-planet-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/pluto-charon-double-planet-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/pluto-charon-double-planet-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/precision-bounce-loop-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/precision-bounce-loop-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/proton-proton-chain-fusion-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/proton-proton-chain-fusion-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/proton-proton-chain-fusion-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/relativistic-jets-agn-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/relativistic-jets-agn-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/relativistic-jets-agn-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/roman-numeral-converter-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/roman-numeral-converter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/roman-numeral-converter-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/saros-cycle-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/saros-cycle-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/saros-cycle-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/schematic-factory-game-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/schematic-factory-game-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/seasonal-witchcat-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/seasonal-witchcat-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/server-survival-td-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/server-survival-td-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sketch-turf-battle-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sketch-turf-battle-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sky-gates-flight-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sky-gates-flight-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sky-gates-flight-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/solar-flare-classification-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/solar-flare-classification-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/solar-flare-classification-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/space-debris-kessler-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/space-debris-kessler-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/space-debris-kessler-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/space-grid-puzzle-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/space-grid-puzzle-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/species-life-battle-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/species-life-battle-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/starlight-breaker-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/starlight-breaker-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/starlink-constellation-shells-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/starlink-constellation-shells-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/starlink-constellation-shells-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/strong-lensing-multiple-images-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/strong-lensing-multiple-images-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/strong-lensing-multiple-images-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sun-red-giant-future-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sun-red-giant-future-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/sun-red-giant-future-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/the-house-pointclick-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/the-house-pointclick-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/thirteen-card-duel-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/thirteen-card-duel-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/thirteen-step-escape-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/thirteen-step-escape-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/titan-methane-lakes-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/titan-methane-lakes-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/titan-methane-lakes-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/torino-impact-hazard-scale-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/torino-impact-hazard-scale-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/torino-impact-hazard-scale-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/twilight-types-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/twilight-types-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/twilight-types-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/venus-runaway-greenhouse-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/venus-runaway-greenhouse-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/venus-runaway-greenhouse-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/vim-motion-academy-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/vim-motion-academy-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/voxel-fps-arena-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/voxel-fps-arena-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/voyager-interstellar-position-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/voyager-interstellar-position-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/voyager-interstellar-position-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/white-dwarf-chandrasekhar-limit-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/white-dwarf-chandrasekhar-limit-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/white-dwarf-chandrasekhar-limit-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/yaml-json-converter-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/yaml-json-converter-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/yaml-json-converter-when.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/yarkovsky-effect-step-by-step.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/yarkovsky-effect-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
+  '/guides/id/yarkovsky-effect-when.html', // pruned 2026-07-29 zero-evidence id
 ]);
 for (const route of Object.keys(JSP_BY_ROUTE)) {
   if (!route.startsWith('/guides/')) continue;
