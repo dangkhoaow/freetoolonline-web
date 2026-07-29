@@ -9,7 +9,8 @@
     <h2 class="text-uppercase"><b>Mengapa menguji keyboard di browser</b></h2>
     <p>Tes browser lebih cepat daripada menginstal utilitas vendor, dan lebih jujur daripada mengetik ke dokumen - mengetik hanya mengungkap tombol yang kebetulan Anda tekan, sedangkan tes berbasis tata letak memaksa Anda berjalan setiap tombol secara berurutan. Browser melihat event tekan tombol yang sama yang diberikan sistem operasi ke aplikasi lainnya, jadi tombol yang gagal dalam tes juga akan gagal di editor, terminal, dan game Anda.</p>
 
-    <h2 class="text-uppercase"><b>Langkah demi langkah</b></h2><figure class="illustration"><img src="/img/illustrations/numbered-bars-4/guideshowtotestakeyboardonlinestepbystep__0a7fb03e.svg" alt="Compare empat langkah uji keyboard online using the four points in this diagram." loading="lazy" width="640" height="280"><figcaption>Buka penguji, cek setiap tombol, uji modifier at a glance.</figcaption></figure>
+    <h2 class="text-uppercase"><b>Langkah demi langkah</b></h2><p>Langkah demi langkah menguji keyboard online: buka Keyboard Test, klik halaman, tekan setiap tombol sekali, lihat kode yang menyala - tombol mati setelah tumpahan muncul sebagai highlight hilang.</p>
+<figure class="illustration"><img src="/img/illustrations/numbered-bars-4/guideshowtotestakeyboardonlinestepbystep__0a7fb03e.svg" alt="Compare empat langkah uji keyboard online using the four points in this diagram." loading="lazy" width="640" height="280"><figcaption>Buka penguji, cek setiap tombol, uji modifier at a glance.</figcaption></figure>
     <ol>
         <li><b>Buka tes.</b> Kunjungi <a href="/device-test-tools/keyboard-test.html">/keyboard-test.html</a>. Halaman memuat tata letak keyboard di layar. Tanpa login, tanpa permintaan izin.</li>
         <li><b>Jalani setiap tombol.</b> Mulai dari <code>Esc</code> (kiri atas), tekan, amati menyala di tata letak. Pindah ke kanan melewati baris tombol fungsi, lalu turun melalui baris angka, baris QWERTY, dan akhiri di tombol spasi dan tombol panah. Setiap tekanan harus menerangi tombol yang sesuai di layar.</li>
@@ -19,7 +20,8 @@
         <li><b>Cari tombol macet.</b> Setelah melepas setiap tombol, tata letak di layar harus benar-benar bersih. Tombol yang tetap menyala setelah Anda lepas macet - paling sering kotoran di bawah keycap, kadang switch yang aus.</li>
     </ol>
 
-    <h2 class="text-uppercase"><b>Apa arti setiap kegagalan</b></h2><figure class="illustration"><img src="/img/illustrations/card-row-4/guideshowtotestakeyboardonlinestepbystep__bf73c883.svg" alt="Compare arti setiap kerusakan keyboard using the four points in this diagram." loading="lazy" width="640" height="180"><figcaption>Tanpa sorot, tombol macet, gagal akord, baris atau kolom at a glance.</figcaption></figure>
+    <h2 class="text-uppercase"><b>Apa arti setiap kegagalan</b></h2><p>Apa arti setiap kegagalan pada tes keyboard browser: highlight hilang = switch tidak terdaftar; highlight macet = repeat atau modifier; layout beda = bahasa OS vs stiker.</p>
+<figure class="illustration"><img src="/img/illustrations/card-row-4/guideshowtotestakeyboardonlinestepbystep__bf73c883.svg" alt="Compare arti setiap kerusakan keyboard using the four points in this diagram." loading="lazy" width="640" height="180"><figcaption>Tanpa sorot, tombol macet, gagal akord, baris atau kolom at a glance.</figcaption></figure>
     <ul>
         <li><b>Tombol tidak menyala saat ditekan.</b> Tombol tidak berfungsi - kotoran, switch aus, atau jejak putus. Coba udara bertekanan dulu; jika gagal, switch kemungkinan perlu diganti pada keyboard mekanik atau keyboard itu sendiri pada keyboard membran.</li>
         <li><b>Tombol tetap menyala setelah dilepas.</b> Tombol macet - biasanya kotoran antara keycap dan switch. Lepas keycap, tiup keluar kotoran, pasang kembali. Jika persisten, switch rusak.</li>
@@ -29,15 +31,18 @@
     </ul>
 
     <h2 class="text-uppercase"><b>Yang tidak bisa diperiksa browser</b></h2><figure class="illustration"><img src="/img/illustrations/card-row-4/guideshowtotestakeyboardonlinestepbystep__aa2f2a1f.svg" alt="Compare apa yang browser tidak bisa cek pada keyboard using the four points in this diagram." loading="lazy" width="640" height="180"><figcaption>Polling USB, remap firmware, suara, RGB tak terlihat at a glance.</figcaption></figure>
-    <p>Browser melihat ketukan tombol setelah sistem operasi memprosesnya. Beberapa hal tetap tak terlihat oleh tes:</p>
+    <p>Yang tidak bisa diperiksa browser adalah kedalaman firmware - Keyboard Test melihat event OS, bukan ghosting multi-tombol atau backlight rusak tanpa kode.</p>
     <ul>
         <li><b>Laju laporan USB.</b> Polling pada 125 Hz, 500 Hz, atau 1000 Hz adalah pengaturan tingkat hardware; browser melihat tekanan saat tiba tetapi tidak mengukur interval pada resolusi sub-milidetik.</li>
         <li><b>Pemetaan ulang tingkat firmware.</b> Keyboard gaming dengan memori onboard memetakan ulang tombol sebelum mencapai OS. Browser melihat tombol yang dipetakan ulang, bukan yang fisik.</li>
         <li><b>Kebisingan akustik tombol.</b> Click dan clack bersifat fisik; browser melihat event tekan terlepas dari seberapa keras atau pelan switch-nya.</li>
         <li><b>Kegagalan backlight atau RGB.</b> Pencahayaan hanya hardware; browser tidak melihat bagaimana tombol Anda terlihat.</li>
+        <li><b>Pintasan yang dicadangkan OS.</b> Tombol seperti Cmd+Tab, Alt+F4, tombol Windows, atau Cmd+Q ditangkap oleh sistem operasi sebelum mencapai browser. Jika kombinasi tersebut tidak menyala dalam test, tombolnya mungkin masih berfungsi - coba di kolom teks biasa untuk konfirmasi.</li>
+        <li><b>Tombol Fn (sebagian besar laptop).</b> Tombol Fn pada keyboard laptop biasanya tidak mengirimkan event keydown yang dapat dideteksi browser; tombol ini memodifikasi tombol lain di tingkat firmware. Tombol Fn yang tetap gelap dalam tester adalah hal yang diharapkan, bukan kerusakan.</li>
     </ul>
 
     <h2 class="text-uppercase"><b>Bacaan terkait</b></h2>
+    <p>Panduan ini mencakup teori dan jalur perbaikan hardware di balik hasil test di atas:</p>
     <ul>
         <li><a href="/guides/id/keyboard-tester-online-rollover-vs-anti-ghosting.html">Penguji keyboard - rollover vs anti-ghosting</a> untuk teori matriks dan NKRO di balik langkah input akord di atas.</li>
         <li><a href="/guides/id/device-test-checklist-for-remote-work.html">Checklist tes perangkat untuk kerja jarak jauh</a> untuk irama mingguan yang menangkap tombol gagal sebelum panggilan daripada saat panggilan.</li>
