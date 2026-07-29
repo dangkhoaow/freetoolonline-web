@@ -1,0 +1,15 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="svg-minipictogram-cerescryovolcanism-title svg-minipictogram-cerescryovolcanism-desc">
+  <title id="svg-minipictogram-cerescryovolcanism-title">Ceres Cryovolcano Explorer - Ahuna Mons 3D</title>
+  <desc id="svg-minipictogram-cerescryovolcanism-desc">Bright ice volcano dome rising from the cratered gray surface of dwarf planet Ceres</desc>
+  <rect x="4" y="4" width="56" height="56" rx="12" ry="12" fill="#1C1C1E" aria-hidden="true"/>
+  <!-- cratered Ceres limb -->
+  <circle cx="32" cy="52" r="26" fill="#3C3C3E"/>
+  <ellipse cx="16" cy="46" rx="4" ry="2" fill="#1C1C1E"/>
+  <ellipse cx="47" cy="50" rx="3" ry="1.6" fill="#1C1C1E"/>
+  <!-- Ahuna Mons: bright cryovolcano dome with icy flank streaks -->
+  <path d="M20 40 L29 22 L35 22 L44 40 Z" fill="#FFFFFF"/>
+  <path d="M29 22 L27 40 L31 40 Z" fill="#5B73AE" opacity="0.55"/>
+  <path d="M35 22 L36 40 L40 40 Z" fill="#5B73AE" opacity="0.55"/>
+  <!-- faint bright-spot highlight in sky -->
+  <circle cx="49" cy="14" r="2.5" fill="#FFFFFF" opacity="0.8"/>
+</svg>
