@@ -1,0 +1,28 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title-sondonong desc-sondonong">
+  <title id="title-sondonong">Son Doong Cave pictogram</title>
+  <desc id="desc-sondonong">An underground cave with stalactites, river, and light shaft</desc>
+
+  <!-- Background: deep cave darkness -->
+  <rect width="64" height="64" fill="#1C1C1E"/>
+
+  <!-- Cave ceiling outline (charcoal arch) -->
+  <path d="M 12 28 Q 12 14 32 12 Q 52 14 52 28" stroke="#3C3C3E" stroke-width="2" fill="none"/>
+
+  <!-- Stalactites (charcoal cones) -->
+  <polygon points="22,12 20,20 24,20" fill="#3C3C3E"/>
+  <polygon points="32,10 30,18 34,18" fill="#3C3C3E"/>
+  <polygon points="42,12 40,21 44,21" fill="#3C3C3E"/>
+
+  <!-- Cave floor (champagne limestone) -->
+  <path d="M 12 28 L 52 28 L 50 36 Q 32 40 14 36 Z" fill="#D9C7A3"/>
+
+  <!-- Underground river (teal ribbon) -->
+  <ellipse cx="32" cy="32" rx="12" ry="2" fill="#7DAFA3"/>
+
+  <!-- Light ray through opening (champagne sunlight beam) -->
+  <polygon points="32,14 28,26 36,26" fill="#D9C7A3" opacity="0.8"/>
+
+  <!-- Cave walls (charcoal sides, suggest depth) -->
+  <line x1="12" y1="20" x2="20" y2="28" stroke="#3C3C3E" stroke-width="1"/>
+  <line x1="52" y1="20" x2="44" y2="28" stroke="#3C3C3E" stroke-width="1"/>
+</svg>
