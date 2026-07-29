@@ -364,6 +364,7 @@
     "moropus",
     "morsecodetranslator",
     "mosasaurus",
+    "mount-fuji",
     "mounteverest",
     "mountfuji",
     "mountkilimanjaro",
@@ -660,5 +661,8 @@
     "zipfile",
     "ziptools",
     "zodiacallight"
+  ],
+  "enrolled_slugs": [
+    "tibetan-plateau"
   ]
 }
