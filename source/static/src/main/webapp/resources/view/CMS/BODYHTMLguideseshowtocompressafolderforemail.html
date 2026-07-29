@@ -19,6 +19,7 @@
 
     <h2 class="text-uppercase"><b>Por que comprimir una carpeta para correo?</b></h2>
     <p>Los adjuntos de correo se miden en bytes. Las carpetas no comprimidas no pueden ser adjuntadas - los clientes de correo requieren un solo archivo, no un directorio. Comprimir colapsa la carpeta en un solo archivo ZIP que preserva la estructura interna, nombres de archivos y fechas de modificacion, mientras encoge el tamano total a traves de compresion LZ77 / DEFLATE. Para carpetas de contenido mixto (documentos, imagenes, hojas de calculo), espera reduccion de tamano del 20-50%; para carpetas ya dominadas por formatos comprimidos (JPG, MP3, MP4), espera solo unos pocos porcentajes porque esos formatos ya estan codificados por entropia.</p>
+    <p>La reducción real depende mucho del tipo de archivo. Texto, código, JSON y CSV se comprimen un 60-80 %; documentos Word y Excel un 10-25 %; PDFs un 5-15 %; fotos (JPG, PNG, HEIC) y vídeos casi nada (0-5 %) porque esos formatos ya están comprimidos internamente. Saber esto antes de comprimir le ayuda a decidir si el ZIP realmente reducirá el tamaño, o si un enlace de transferencia de archivos es la vía más rápida.</p>
     <p>Las tres razones practicas para comprimir antes de enviar:</p>
     <ul>
         <li><b>Limites de tamano del proveedor.</b> Gmail, Outlook e iCloud todos limitan los adjuntos individuales. Un ZIP puede caber bajo el limite cuando la carpeta cruda no puede.</li>
@@ -97,7 +98,7 @@
   <summary><b>Que pasa si el destinatario dice "el ZIP esta corrupto" o "la extraccion fallo"?</b></summary>
   <p>Tres causas comunes: (1) el escaner antivirus del proveedor de correo modifico el archivo en transito (inusual pero pasa con gateways antivirus mas antiguos); (2) el ZIP fue creado con Windows Explorer y contiene nombres de archivos no-ASCII que el extractor del destinatario no puede decodificar; (3) la descarga fue truncada (menos probable en HTTP moderno pero aun posible en redes moviles inestables). Arreglar: re-comprime la carpeta en un SO diferente (si fue creado en macOS, intenta de nuevo en Windows o usa <code>ditto</code> con <code>--sequesterRsrc</code>), o re-sube via un servicio de transferencia de archivos que verifica checksums del lado del servidor antes de exponer el enlace de descarga.</p>
 </details>
-<h2 class="text-uppercase"><b>Resumen</b></h2>
-    <p>Resumen: comprimir una carpeta para email es un zip nativo corto en Windows o macOS - la puerta real es si el ZIP cabe bajo el limite de adjuntos del destinatario.</p>
+<h2 class="text-uppercase"><b>Listo para comprimir</b></h2>
+    <p>Comprimir una carpeta para email es un zip nativo corto en Windows o macOS - la puerta real es si el ZIP cabe bajo el limite de adjuntos del destinatario, no tu limite de envio.</p>
     <p>Listo para crear tu ZIP? Comienza con <a href="/zip-tools/zip-file.html">Zip File</a> para compresion basada en navegador con proteccion opcional por contrasena. Para la direccion inversa, la herramienta <a href="/zip-tools/remove-zip-password.html">Quitar Contrasena ZIP</a> desbloquea archivos que ya tienes permiso para abrir. Para carpetas con muchas fotos, reduce primero las dimensiones de imagen con <a href="/guides/en/resize-image-online-free.html">redimensionar imagen en linea gratis</a> - una imagen fuente mas pequena significa un ZIP mas pequeno antes de comprimir la carpeta.</p>
 </div>
