@@ -14,6 +14,9 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/chart-maker-vs-alternatives.html',
+  '/guides/chart-maker-step-by-step.html',
+  '/guides/chart-maker-when.html',
   '/guides/sales-tax-calculator-vs-alternatives.html',
   '/guides/sales-tax-calculator-step-by-step.html',
   '/guides/sales-tax-calculator-when.html',
@@ -14182,6 +14185,7 @@ export const ALIAS_ROUTES = {
   '/retirement-calculator.html': '/utility-tools/retirement-calculator.html',
   '/roi-calculator.html': '/utility-tools/roi-calculator.html',
   '/sales-tax-calculator.html': '/utility-tools/sales-tax-calculator.html',
+  '/chart-maker.html': '/utility-tools/chart-maker.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -25927,6 +25931,10 @@ export const JSP_BY_ROUTE = {
   '/guides/de/sales-tax-calculator-step-by-step.html': 'guide/de/sales-tax-calculator-step-by-step.jsp',
   '/guides/de/sales-tax-calculator-when.html': 'guide/de/sales-tax-calculator-when.jsp',
   '/guides/de/sales-tax-calculator-vs-alternatives.html': 'guide/de/sales-tax-calculator-vs-alternatives.jsp',
+  '/utility-tools/chart-maker.html': 'utility/chart-maker.jsp',
+  '/guides/chart-maker-when.html': 'guide/chart-maker-when.jsp',
+  '/guides/chart-maker-step-by-step.html': 'guide/chart-maker-step-by-step.jsp',
+  '/guides/chart-maker-vs-alternatives.html': 'guide/chart-maker-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.

@@ -504,7 +504,6 @@
     "runekeeper",
     "sagittariusastar",
     "saharadesert",
-    "salestaxcalculator",
     "sarcosuchus",
     "satelliteorbitclasses",
     "saturnhexagon",
@@ -667,7 +666,8 @@
     "yesornowheel",
     "zipfile",
     "ziptools",
-    "zodiacallight"
+    "zodiacallight",
+    "chartmaker"
   ],
   "enrolled_slugs": [
     "tibetan-plateau",
