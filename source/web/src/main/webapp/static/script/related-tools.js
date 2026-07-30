@@ -849,6 +849,8 @@ try {
     { title: "Lottery Number Generator Online", url: "https://freetoolonline.com/utility-tools/lottery-number-generator.html", include: !1, tags: "utility" },
     { title: "XML Formatter Online", url: "https://freetoolonline.com/developer-tools/xml-formatter.html", include: !1, tags: "developer" },
     { title: "JSON Diff Checker Online", url: "https://freetoolonline.com/developer-tools/json-diff-checker.html", include: !1, tags: "developer" },
+    { title: "Savings Goal Calculator Online", url: "https://freetoolonline.com/utility-tools/savings-goal-calculator.html", include: !1, tags: "utility" },
+    { title: "Retirement Calculator Online", url: "https://freetoolonline.com/utility-tools/retirement-calculator.html", include: !1, tags: "utility" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
     allCurrentTags = "",
