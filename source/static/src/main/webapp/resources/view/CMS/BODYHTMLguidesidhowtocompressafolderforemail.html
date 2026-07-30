@@ -17,6 +17,7 @@
 
     <h2 class="text-uppercase"><b>Mengapa mengkompres folder untuk email?</b></h2>
     <p>Lampiran email diukur byte. Folder yang tidak dikompres tidak dapat dilampirkan sama sekali - klien email memerlukan satu file, bukan direktori. Mengkompres mengumpulkan folder menjadi satu arsip ZIP yang mempertahankan struktur internal, nama file, dan tanggal modifikasi, sambil menyusutkan ukuran total melalui kompresi LZ77 / DEFLATE. Untuk folder konten campuran (dokumen, gambar, spreadsheet), harapkan pengurangan ukuran 20-50%; untuk folder yang sudah didominasi oleh format yang dikompres (JPG, MP3, MP4), harapkan hanya beberapa persen karena format tersebut sudah dikodekan entropi.</p>
+    <p>Pengurangan ukuran sebenarnya sangat bergantung pada jenis file. Teks, kode, JSON, dan CSV terkompresi 60-80 %; dokumen Word dan Excel 10-25 %; PDF 5-15 %; foto (JPG, PNG, HEIC) dan video hampir tidak ada (0-5 %) karena format tersebut sudah dikodekan secara entropy di dalamnya. Mengetahui ini sebelum membuat ZIP membantu Anda memutuskan apakah kompresi benar-benar membantu, atau apakah tautan layanan transfer file adalah jalur yang lebih cepat.</p>
     <p>Tiga alasan praktis untuk ZIP sebelum mengirim:</p>
     <ul>
         <li><b>Batas ukuran penyedia.</b> Gmail, Outlook, dan iCloud semuanya membatasi lampiran individu. ZIP dapat muat di bawah batas ketika folder mentah tidak bisa.</li>
@@ -95,7 +96,7 @@
   <summary><b>Bagaimana jika penerima mengatakan "ZIP rusak" atau "ekstrak gagal"?</b></summary>
   <p>Tiga penyebab umum: (1) pemindai virus penyedia email memodifikasi arsip dalam perjalanan (tidak biasa tetapi terjadi dengan gateway antivirus yang lebih lama); (2) ZIP dibuat dengan Windows Explorer dan berisi nama file non-ASCII yang ekstraktor penerima tidak dapat decode; (3) unduhan dipotong (kurang mungkin pada HTTP modern tetapi masih mungkin pada jaringan seluler tidak stabil). Perbaikan: re-kompres folder pada OS yang berbeda (jika dibuat macOS, coba lagi di Windows atau gunakan <code>ditto</code> dengan <code>--sequesterRsrc</code>), atau unggah ulang via layanan transfer file yang memverifikasi checksum sisi server sebelum mengekspos tautan unduhan.</p>
 </details>
-<h2 class="text-uppercase"><b>Ringkasan</b></h2>
-    <p>Ringkasan: mengompres folder untuk email adalah zip native singkat di Windows atau macOS - batas sebenarnya adalah apakah ZIP muat di bawah batas lampiran penerima.</p>
+<h2 class="text-uppercase"><b>Siap mengompres</b></h2>
+    <p>Mengompres folder untuk email adalah zip native singkat di Windows atau macOS - batas sebenarnya adalah apakah ZIP muat di bawah batas lampiran penerima, bukan batas pengiriman Anda.</p>
     <p>Siap untuk membuat ZIP Anda? Mulai dengan <a href="/zip-tools/zip-file.html">Zip File</a> untuk kompresi berbasis browser dengan perlindungan kata sandi opsional. Untuk arah sebaliknya, alat <a href="/zip-tools/remove-zip-password.html">Hapus Kata Sandi ZIP</a> membuka arsip yang sudah Anda miliki izin untuk membuka. Untuk folder yang banyak foto, kurangi dimensi gambar terlebih dahulu dengan <a href="/guides/en/resize-image-online-free.html">ubah ukuran gambar online gratis</a> - gambar sumber yang lebih kecil berarti ZIP yang lebih kecil sebelum Anda mengompres folder.</p>
 </div>

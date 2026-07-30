@@ -21,6 +21,7 @@
 
     <h2 class="text-uppercase"><b>Why compress a folder for email at all?</b></h2>
     <p>Email attachments are byte-metered. Uncompressed folders cannot be attached at all - email clients require a single file, not a directory. Compressing collapses the folder into one ZIP archive that preserves the internal structure, file names, and modification dates, while shrinking the total size through LZ77 / DEFLATE compression. For mixed-content folders (documents, images, spreadsheets), expect 20-50% size reduction; for folders already dominated by compressed formats (JPG, MP3, MP4), expect only a few percent because those formats are already entropy-coded.</p>
+    <p>The actual reduction depends heavily on file types. Text, code, JSON, and CSV compress 60-80%; Word and Excel files 10-25%; PDFs 5-15%; photos (JPG, PNG, HEIC) and videos compress almost nothing (0-5%) because those formats are already entropy-coded internally. Knowing this before you ZIP tells you whether compressing will actually help, or whether switching to a file-transfer link is the faster path. For compressing a folder as a standalone task rather than for a specific email attachment, see <a href="/guides/en/compress-folder-online.html">compress a folder online</a>.</p>
     <p>The three practical reasons to ZIP before sending:</p>
     <ul>
         <li><b>Provider size limits.</b> Gmail, Outlook, and iCloud all cap individual attachments. A ZIP can fit under the limit when the raw folder cannot.</li>
@@ -108,7 +109,7 @@
   <summary><b>What if the recipient says "the ZIP is corrupted" or "extract failed"?</b></summary>
   <p>Three common causes: (1) email provider's virus scanner modified the archive in transit (unusual but happens with older anti-virus gateways); (2) the ZIP was created with Windows Explorer and contains non-ASCII filenames that the recipient's extractor cannot decode; (3) the download was truncated (less likely on modern HTTP but still possible on flaky mobile networks). Fix: re-compress the folder on a different OS (if macOS-created, try again on Windows or use <code>ditto</code> with <code>--sequesterRsrc</code>), or re-upload via a file-transfer service that verifies checksums server-side before exposing the download link.</p>
 </details>
-<h2 class="text-uppercase"><b>Summary</b></h2>
-    <p>Summary: compressing a folder for email is a short native zip on Windows or macOS - the real gate is whether the ZIP fits the recipient attachment ceiling.</p>
+<h2 class="text-uppercase"><b>Ready to compress</b></h2>
+    <p>Compressing a folder for email is a short native zip on Windows or macOS - the real gate is whether the ZIP fits the recipient's attachment ceiling, not your sending cap.</p>
     <p>Ready to create your ZIP? Start with <a href="/zip-tools/zip-file.html">Zip File</a> for browser-based compression with optional password protection. For the reverse direction, the <a href="/zip-tools/remove-zip-password.html">Remove ZIP Password</a> tool unlocks archives you already have permission to open. For photo-heavy folders, reduce image dimensions first with <a href="/guides/en/resize-image-online-free.html">resize image online free</a> - a smaller source image means a smaller ZIP before you even compress the folder.</p>
 </div>
