@@ -1,0 +1,1 @@
+Guia passo a passo do JSON Diff Checker Online gratuito - compare dois textos JSON no navegador e veja as alterações destacadas sem enviar dados.
