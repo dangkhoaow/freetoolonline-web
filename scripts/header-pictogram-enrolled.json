@@ -31,8 +31,8 @@
     "aspectratiocalculator",
     "asteroidbelt",
     "asteroidblaster",
+    "atacama",
     "audioconverter",
-    "audiospeedchanger",
     "audiotrimmer",
     "aurora",
     "austroraptor",
@@ -312,6 +312,7 @@
     "lakemichiganhuron",
     "lakesuperior",
     "laketiticaca",
+    "lakevictoria",
     "lambeosaurus",
     "layerflipplatformer",
     "lcdtest",
@@ -345,6 +346,7 @@
     "miamimice",
     "microphonetest",
     "microraptor",
+    "milfordsound",
     "milfordsound",
     "milkywaymap",
     "mimasherschel",
@@ -584,6 +586,7 @@
     "tidallocking",
     "tidaltails",
     "tidesearthmoon",
+    "tibetanplateau",
     "timezoneconverter",
     "tipcalculator",
     "titanoboa",
@@ -643,6 +646,7 @@
     "voyagerinterstellarposition",
     "washthecat",
     "wcagcontrastchecker",
+    "webcamrecorder",
     "webptojpg",
     "webptopng",
     "wendiceratops",
@@ -664,5 +668,8 @@
   ],
   "enrolled_slugs": [
     "tibetan-plateau"
-  ]
+  ],
+  "lotterynumbergenerator": true,
+  "xmlformatter": "xmlformatter__ad3086b4.svg",
+  "mercurydaynightcycle": "mercurydaynightcycle__de01dbe2.svg"
 }
