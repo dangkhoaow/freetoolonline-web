@@ -1,0 +1,177 @@
+<script type="module">
+import * as THREE from '/vendor/three/build/three.module.js';
+
+const MOBILE = window.innerWidth < 768;
+const canvasHost = document.getElementById('t3dCanvasHost');
+const statusDiv = document.getElementById('t3dStatus');
+const infoPanel = document.getElementById('t3dInfoPanel');
+const controlsSpan = document.getElementById('t3dAmazonControls');
+const fullscreenBtn = document.getElementById('t3dFullscreenBtn');
+const seasonBtn = document.getElementById('t3dAmazonSeasonBtn');
+const plumeBtn = document.getElementById('t3dAmazonPlumeBtn');
+
+let scene, camera, renderer, controls;
+let riverMesh, floodplainMesh, plumeMesh, atlanticMesh;
+let isDryMode = true;
+let showPlume = true;
+
+function initScene() {
+  const width = canvasHost.clientWidth;
+  const height = canvasHost.clientHeight;
+
+  scene = new THREE.Scene();
+  scene.background = new THREE.Color(0x1a1a2e);
+
+  camera = new THREE.PerspectiveCamera(60, width / height, 0.1, 10000);
+  camera.position.set(0, 80, 60);
+  camera.lookAt(0, 0, 0);
+
+  renderer = new THREE.WebGLRenderer({ antialias: true });
+  renderer.setSize(width, height);
+  renderer.setPixelRatio(window.devicePixelRatio);
+  canvasHost.appendChild(renderer.domElement);
+
+  initLights();
+  buildTerrain();
+  buildRiver();
+  buildPlume();
+
+  controlsSpan.style.display = 'inline';
+  statusDiv.textContent = '';
+
+  animate();
+}
+
+function initLights() {
+  const ambientLight = new THREE.AmbientLight(0xffffff, 0.7);
+  scene.add(ambientLight);
+
+  const sunLight = new THREE.DirectionalLight(0xffffff, 0.8);
+  sunLight.position.set(50, 100, 50);
+  sunLight.castShadow = true;
+  scene.add(sunLight);
+}
+
+function buildTerrain() {
+  const geometry = new THREE.PlaneGeometry(200, 200, 40, 40);
+  const positions = geometry.attributes.position;
+  
+  for (let i = 0; i < positions.count; i++) {
+    const x = positions.getX(i);
+    const y = positions.getY(i);
+    const baseZ = Math.sin(x / 40) * 2 + Math.cos(y / 50) * 1.5;
+    const floodZ = isDryMode ? baseZ : baseZ + 8;
+    positions.setZ(i, floodZ);
+  }
+  positions.needsUpdate = true;
+  geometry.computeVertexNormals();
+
+  const material = new THREE.MeshStandardMaterial({ color: 0x8b7355 });
+  floodplainMesh = new THREE.Mesh(geometry, material);
+  scene.add(floodplainMesh);
+
+  atlanticMesh = new THREE.Mesh(
+    new THREE.PlaneGeometry(300, 200),
+    new THREE.MeshStandardMaterial({ color: 0x1a5f7a })
+  );
+  atlanticMesh.position.z = -0.5;
+  atlanticMesh.position.y = -120;
+  scene.add(atlanticMesh);
+}
+
+function buildRiver() {
+  const curve = new THREE.CatmullRomCurve3([
+    new THREE.Vector3(-60, -40, 1), new THREE.Vector3(-50, -20, 1),
+    new THREE.Vector3(-40, 0, 1), new THREE.Vector3(-20, 20, 1),
+    new THREE.Vector3(0, 40, 1), new THREE.Vector3(20, 50, 1),
+    new THREE.Vector3(40, 55, 1), new THREE.Vector3(60, 50, 1),
+    new THREE.Vector3(70, 30, 1), new THREE.Vector3(75, -10, 1),
+    new THREE.Vector3(70, -40, 1), new THREE.Vector3(50, -60, 1),
+    new THREE.Vector3(20, -80, 1), new THREE.Vector3(-10, -110, 1)
+  ]);
+
+  const points = curve.getPoints(80);
+  const geometry = new THREE.BufferGeometry();
+  const widths = [];
+  for (let i = 0; i < points.length; i++) {
+    const t = i / points.length;
+    widths.push(3 + Math.sin(t * Math.PI * 4) * 1.5);
+  }
+
+  const tubeGeo = new THREE.TubeGeometry(curve, 60, 2, 4);
+  const riverMat = new THREE.MeshStandardMaterial({ color: 0x5a8f7b, roughness: 0.4 });
+  riverMesh = new THREE.Mesh(tubeGeo, riverMat);
+  scene.add(riverMesh);
+}
+
+function buildPlume() {
+  const plumeGeo = new THREE.ConeGeometry(50, 30, 32);
+  const plumeMat = new THREE.MeshStandardMaterial({
+    color: 0xd4a574, transparent: true, opacity: 0.3, side: THREE.DoubleSide
+  });
+  plumeMesh = new THREE.Mesh(plumeGeo, plumeMat);
+  plumeMesh.position.set(10, -130, 0.5);
+  plumeMesh.rotation.x = Math.PI / 2;
+  if (showPlume) scene.add(plumeMesh);
+}
+
+function updateFloodplain() {
+  if (floodplainMesh) scene.remove(floodplainMesh);
+  buildTerrain();
+}
+
+seasonBtn.addEventListener('click', () => {
+  isDryMode = !isDryMode;
+  seasonBtn.textContent = isDryMode ? 'Season: Dry' : 'Season: Wet';
+  updateFloodplain();
+});
+
+plumeBtn.addEventListener('click', () => {
+  showPlume = !showPlume;
+  plumeBtn.textContent = showPlume ? 'Plume: On' : 'Plume: Off';
+  if (showPlume && plumeMesh && !scene.children.includes(plumeMesh)) {
+    scene.add(plumeMesh);
+  } else if (!showPlume && plumeMesh && scene.children.includes(plumeMesh)) {
+    scene.remove(plumeMesh);
+  }
+});
+
+fullscreenBtn.addEventListener('click', () => {
+  document.getElementById('t3dWrapper').requestFullscreen();
+});
+
+let rafId;
+function animate() {
+  rafId = requestAnimationFrame(animate);
+  renderer.render(scene, camera);
+}
+
+window.addEventListener('resize', () => {
+  const width = canvasHost.clientWidth;
+  const height = canvasHost.clientHeight;
+  camera.aspect = width / height;
+  camera.updateProjectionMatrix();
+  renderer.setSize(width, height);
+});
+
+window.addEventListener('beforeunload', () => {
+  cancelAnimationFrame(rafId);
+  if (renderer) renderer.dispose();
+});
+
+infoPanel.innerHTML = `
+<h3>Amazon River</h3>
+<p><b>Length:</b> about 6,400 km</p>
+<p><b>Discharge:</b> about 209,000 m3/s (1/5 of world discharge)</p>
+<p><b>Basin area:</b> about 7,050,000 km2</p>
+<p><b>Flood inundation:</b> up to 40 m (wet season)</p>
+<p><b>Plume extent:</b> 100+ km into Atlantic</p>
+`;
+
+try {
+  initScene();
+} catch (e) {
+  statusDiv.textContent = 'Error: ' + e.message;
+  console.error(e);
+}
+</script>
