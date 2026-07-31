@@ -13160,6 +13160,7 @@ export const ALIAS_ROUTES = {
   '/salar-de-uyuni.html': '/places-3d/salar-de-uyuni.html',
   '/tibetan-plateau.html': '/places-3d/tibetan-plateau.html',
   '/dong-van-plateau.html': '/places-3d/dong-van-plateau.html',
+  '/cappadocia.html': '/places-3d/cappadocia.html',
   // dinosaur-loop (2026-07-15): dir-index alias for the /dinosaur-3d cluster
   // hub. MUST also be mirrored into the CloudFront 301 function (two-layer
   // redirect rule) - republish is an operator step. (Restored 2026-07-16: a
@@ -14711,6 +14712,7 @@ export const JSP_BY_ROUTE = {
   '/places-3d/salar-de-uyuni.html': 'place/salar-de-uyuni.jsp',
   '/places-3d/tibetan-plateau.html': 'place/tibetan-plateau.jsp',
   '/places-3d/dong-van-plateau.html': 'place/dong-van-plateau.jsp',
+  '/places-3d/cappadocia.html': 'place/cappadocia.jsp',
   // dinosaur-loop (2026-07-15): the /dinosaur-3d cluster hub (non-'-tools'
   // hubRoute, registered in SEO_CLUSTER_GROUPS; hub detection via isHubRoute()).
   // Member routes live at /dinosaur-3d/<slug>.html (JSP folder: dinosaur/).
