@@ -1,1 +1,1 @@
-Chart Maker Online Step By Step - the exact steps to run Chart Maker Online from open to downloaded result.
+Step-by-step guide to creating charts in your browser with Chart Maker Online. Paste data, click Visualize, and get a bar chart instantly - no upload, no account.
