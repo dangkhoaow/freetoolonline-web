@@ -374,6 +374,7 @@
     "morsecodetranslator",
     "mosasaurus",
     "mount-fuji",
+    "mountetna",
     "mounteverest",
     "mountfuji",
     "mountkilimanjaro",
@@ -685,6 +686,7 @@
   "lotterynumbergenerator": true,
   "xmlformatter": "xmlformatter__ad3086b4.svg",
   "mercurydaynightcycle": "mercurydaynightcycle__de01dbe2.svg",
+  "gravitationalmicrolensingexoplanet": "gravitationalmicrolensingexoplanet__0d874f11.svg",
   "savingsgoalcalculator": {
     "pictogram": "savingsgoalcalculator__2579ab26.svg",
     "enrolled_iso": "2026-07-30"
