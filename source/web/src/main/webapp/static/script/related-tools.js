@@ -875,6 +875,7 @@ try {
     { title: "Annuity Calculator Online", url: "https://freetoolonline.com/utility-tools/annuity-calculator.html", include: !1, tags: "utility" },
     { title: "Days From Today Calculator Online", url: "https://freetoolonline.com/utility-tools/days-from-today-calculator.html", include: !1, tags: "utility" },
     { title: "Body Fat Percentage Calculator Online", url: "https://freetoolonline.com/utility-tools/body-fat-percentage-calculator.html", include: !1, tags: "utility" },
+    { title: "Simple Interest Calculator Online", url: "https://freetoolonline.com/utility-tools/simple-interest-calculator.html", include: !1, tags: "utility" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
     allCurrentTags = "",
