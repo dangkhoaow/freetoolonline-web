@@ -6,6 +6,16 @@
         <p style="margin-bottom: 0;"><b>30-second answer.</b> A zip that says "corrupt" can mean four different things, with four different fixes. Re-download the file - most "corrupt" zips are interrupted downloads. If that fails, try a partial extract that pulls out what is readable. If that fails, run a desktop repair tool. If that fails, the data is likely gone and the right move is to ask the sender to resend.</p>
     </div>
 
+    <table class="w3-table w3-bordered w3-small" style="margin:1em 0">
+<thead><tr><th>Step</th><th>Method</th><th>Fixes</th><th>Cost</th></tr></thead>
+<tbody>
+<tr><td>1</td><td>Re-download</td><td>Truncated / interrupted download</td><td>Free</td></tr>
+<tr><td>2</td><td>Partial extract</td><td>Damage after some files, central directory intact</td><td>Free</td></tr>
+<tr><td>3</td><td>7-Zip raw scan / zip -FF</td><td>Damaged central directory, data still present</td><td>Free</td></tr>
+<tr><td>4</td><td>Desktop repair tool</td><td>Steps 1-3 did not recover enough</td><td>Free or paid</td></tr>
+</tbody>
+</table>
+
     <h2 class="text-uppercase"><b>Step 1 - re-download</b></h2>
     <p>Most "corrupt zip" reports come from a truncated download. The browser stopped the transfer early, or a CDN served a partial file. Fixes that work in seconds before any repair tool: clear the browser cache and re-download; pull the file with a different tool (curl on desktop, a download manager on mobile); or ask for a fresh link if the original came from a chat app where attachment URLs expire.</p>
     <p>The diagnostic: run a checksum on the downloaded zip and compare with the sender's. If they differ, the file is the problem, not the zip itself.</p>
@@ -21,6 +31,7 @@
         <li><b>7-Zip on Windows.</b> Right-click the corrupt zip, choose 7-Zip > Open. If it can scan the body, it lists what it finds - even with no central directory.</li>
         <li><b>zip on Linux/macOS.</b> The command <code>zip -FF broken.zip --out fixed.zip</code> attempts to fix a zip with damaged structure. Works for many cases where the file ends mid-entry.</li>
     </ul>
+    <p>If 7-Zip's raw scan or the <code>zip -FF</code> command does not recover enough, a dedicated Windows repair utility such as DiskInternals ZIP Repair or ZIP Repair Pro runs a deeper structural scan through a guided interface instead of a command line - at the cost of being a paid tool rather than free.</p>
     <p>Browser-based repair is rare because the algorithms scan large files and run faster on local disk. If you do not have a desktop available, the right path is usually to ask the sender to resend.</p>
 
     <h2 class="text-uppercase"><b>Step 4 - when to give up</b></h2>
