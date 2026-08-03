@@ -10,6 +10,8 @@
 <div class="w3-container w3-margin-top">
     <h1 class="text-uppercase"><b>Cách Nén một thư mục Cho Email - từng bước (2026)</b></h1>
     <p><em>Đã xem lại lần cuối 2026-04-24. Hoạt động trên Windows 10/11, macOS 13+ (Ventura - và sau), và trong trình duyệt quả <a href="/zip-tools/zip-file.html">Zip File</a> khi một quy trình shell-zip nguyen bạn không có san.</em></p>
+    <p class="reviewed">Last reviewed: 2026-08-04</p>
+    <address class="author"><a rel="author" href="/about-us.html">freetoolonline.com Editorial Team</a></address>
 
     <div class="w3-panel w3-pale-green w3-leftbar w3-border-green">
         <p style="margin-bottom: 0;"><b>Cấu trả lời 30 giây.</b> Nhập chuot phải vào thư mục &rarr; <b>"Gửi đến thư mục ZIP (nên)"</b> trên Windows (hoặc <b>"Nên"</b> trên macOS). Định kem <code>.zip</code> kết quả vào email. Nếu ZIP vuot quả gioi hán của nha cũng cập (thuong 20-25 MB, xem <a href="#email-size-limits">bằng cỡ email ben dưới</a>), thì (a) chia nguon thành hai thư mục và ZIP mới cài, hoặc (b) tải lên một dich vụ truyen file và dẫn liên kết vào than email.</p>
@@ -17,7 +19,7 @@
 
     <h2 class="text-uppercase"><b>Tải sao nên một thư mục cho email?</b></h2>
     <p>Các tệp định kem email được độ bằng byte. Các thư mục không nên không thể được định kem - các khach hang email yếu cấu một tệp duy nhất, không phải một thư mục. Nên sup độ thư mục thành một archive ZIP duy nhất bảo ton cấu trực bên trong, ten tệp và ngày sửa đổi, trong khi thư nhỏ tong cỡ thông quả nên LZ77 / DEFLATE. Cho các thư mục nơi dùng hon hợp (tải lieu, hình ảnh, bằng tính), mong đổi giam cỡ 20-50%; cho các thư mục đã bị chỉ phoi boi các định dạng nên (JPG, MP3, MP4), mong đổi chỉ vài phân tram vì các định dạng độ đã được mã hóa entropy.</p>
-    <p>Mức giảm thực tế phụ thuộc nhiều vào loại tệp. Văn bản, mã nguồn, JSON và CSV nén được 60-80 %; tài liệu Word và Excel 10-25 %; PDF 5-15 %; ảnh (JPG, PNG, HEIC) và video hầu như không giảm (0-5 %) vì các định dạng đó đã được mã hóa entropy bên trong. Biết điều này trước khi nén giúp bạn quyết định liệu ZIP có thực sự giúp giảm kích thước hay không, hay dùng liên kết dịch vụ truyền tệp là con đường nhanh hơn.</p>
+    <p>Mức giảm thực tế phụ thuộc nhiều vào loại tệp. Văn bản, mã nguồn, JSON và CSV nén được 60-80 %; tài liệu Word và Excel 10-25 %; PDF 5-15 %; ảnh (JPG, PNG, HEIC) và video hầu như không giảm (0-5 %) vì các định dạng đó đã được mã hóa entropy bên trong. Biết điều này trước khi nén giúp bạn quyết định liệu ZIP có thực sự giúp giảm kích thước hay không, hay dùng liên kết dịch vụ truyền tệp là con đường nhanh hơn. Để nén một thư mục như một nhiệm vụ độc lập thay vì cho một tệp đính kèm email cụ thể, xem <a href="/guides/vi/compress-folder-online.html">nén thư mục trực tuyến</a>.</p>
     <p>Ba lý độ thực te để ZIP trước khi gửi:</p>
     <ul>
         <li><b>Gioi han cỡ nha cũng cập.</b> Gmail, Outlook và iCloud đều gioi han tệp định kem riêng lệ. Một ZIP có thể vua dưới gioi han khi thư mục tho không thể.</li>
@@ -48,6 +50,15 @@
 
     <h2 id="email-size-limits" class="text-uppercase"><b>Gioi han tệp định kem email chắn một thư mục đã ZIPed trong 2026</b></h2>
     <figure class="illustration"><img src="/img/illustrations/hub-spoke-4/guideszipfolder-limits__48426305.svg" alt="See kiểm tra gìoi han định kem email cho file ZIP năm 2026: Gmail 25 MB, Microsoft 365 20 MB, Outlook miễn phí 10 MB, Yahoo 25 MB" loading="lazy" width="640" height="360"><figcaption>Kiểm tra gìoi han email trước khi gửi ZIP</figcaption></figure>
+    <div class="w3-responsive">
+    <table class="w3-table-all w3-small">
+    <tr><th>Dịch vụ email</th><th>Giới hạn gửi</th><th>Giới hạn nhận</th></tr>
+    <tr><td>Gmail</td><td>25 MB</td><td>50 MB</td></tr>
+    <tr><td>Outlook (Microsoft 365)</td><td>20 MB</td><td>25 MB</td></tr>
+    <tr><td>Outlook.com (miễn phí)</td><td>10 MB</td><td>25 MB</td></tr>
+    <tr><td>Yahoo Mail</td><td>25 MB</td><td>25 MB</td></tr>
+    </table>
+    </div>
     <p>Các gioi han cụ thể của nha cũng cập gay ra hau het các lỗi "ZIP thư mục của toi không sẽ gửi." Bộ chắn hau như luon là trán của người nhận, không phải gioi han gửi của bạn - biết cả hai trước khi bạn nên, vì một ZIP thư mục 30 MB mà Gmail của bạn gửi tot vẫn bị tra lại chong lại một người nhận Outlook 25 MB. Các thư mục bị ảnh hưởng đặc biết vì các archive thư mục có xu hướng đồng goi hang chuc mục cùng một luc; một ảnh quả có bên trong thư mục đủ để đây toàn bộ ZIP quả gioi hán của người nhận.</p>
     <ul>
         <li><b>Gmail:</b> gửi 25 MB / nhận 50 MB. Các tệp định kem lớn hon được từ đồng chuyển hướng quả Google Drive.</li>

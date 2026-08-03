@@ -19,7 +19,7 @@
 
     <h2 class="text-uppercase"><b>Por que comprimir una carpeta para correo?</b></h2>
     <p>Los adjuntos de correo se miden en bytes. Las carpetas no comprimidas no pueden ser adjuntadas - los clientes de correo requieren un solo archivo, no un directorio. Comprimir colapsa la carpeta en un solo archivo ZIP que preserva la estructura interna, nombres de archivos y fechas de modificacion, mientras encoge el tamano total a traves de compresion LZ77 / DEFLATE. Para carpetas de contenido mixto (documentos, imagenes, hojas de calculo), espera reduccion de tamano del 20-50%; para carpetas ya dominadas por formatos comprimidos (JPG, MP3, MP4), espera solo unos pocos porcentajes porque esos formatos ya estan codificados por entropia.</p>
-    <p>La reducción real depende mucho del tipo de archivo. Texto, código, JSON y CSV se comprimen un 60-80 %; documentos Word y Excel un 10-25 %; PDFs un 5-15 %; fotos (JPG, PNG, HEIC) y vídeos casi nada (0-5 %) porque esos formatos ya están comprimidos internamente. Saber esto antes de comprimir le ayuda a decidir si el ZIP realmente reducirá el tamaño, o si un enlace de transferencia de archivos es la vía más rápida.</p>
+    <p>La reducción real depende mucho del tipo de archivo. Texto, código, JSON y CSV se comprimen un 60-80 %; documentos Word y Excel un 10-25 %; PDFs un 5-15 %; fotos (JPG, PNG, HEIC) y vídeos casi nada (0-5 %) porque esos formatos ya están comprimidos internamente. Saber esto antes de comprimir le ayuda a decidir si el ZIP realmente reducirá el tamaño, o si un enlace de transferencia de archivos es la vía más rápida. Para comprimir una carpeta como tarea independiente en lugar de para un archivo adjunto de correo específico, consulte <a href="/guides/es/compress-folder-online.html">comprimir una carpeta en línea</a>.</p>
     <p>Las tres razones practicas para comprimir antes de enviar:</p>
     <ul>
         <li><b>Limites de tamano del proveedor.</b> Gmail, Outlook e iCloud todos limitan los adjuntos individuales. Un ZIP puede caber bajo el limite cuando la carpeta cruda no puede.</li>
@@ -50,6 +50,15 @@
 
     <h2 id="email-size-limits" class="text-uppercase"><b>Limites de adjuntos de correo que bloquean una carpeta ZIPada en 2026</b></h2>
     <figure class="illustration"><img src="/img/illustrations/hub-spoke-4/guideszipfolder-limits__48426305.svg" alt="See verifica los limites de adjunto de email para archivos ZIP en 2026: Gmail 25 MB, Microsoft 365 20 MB, Outlook gratis 10 MB, Yahoo 25 MB" loading="lazy" width="640" height="360"><figcaption>Verifica los limites de email antes de enviar un ZIP</figcaption></figure>
+    <div class="w3-responsive">
+    <table class="w3-table-all w3-small">
+    <tr><th>Servicio de correo</th><th>Limite de envio</th><th>Limite de recepcion</th></tr>
+    <tr><td>Gmail</td><td>25 MB</td><td>50 MB</td></tr>
+    <tr><td>Outlook (Microsoft 365)</td><td>20 MB</td><td>25 MB</td></tr>
+    <tr><td>Outlook.com (gratis)</td><td>10 MB</td><td>25 MB</td></tr>
+    <tr><td>Yahoo Mail</td><td>25 MB</td><td>25 MB</td></tr>
+    </table>
+    </div>
     <p>Los limites especificos del proveedor causan la mayoria de errores "mi ZIP de carpeta no envia". El bloqueador casi siempre es el techo del destinatario, no tu limite de envio - conoce ambos antes de comprimir, porque un ZIP de carpeta de 30 MB que tu Gmail envia bien aun rebota contra un destinatario Outlook de 25 MB. Las carpetas son particularmente afectadas porque los archivos de directorio tienden a empaquetar docenas de elementos a la vez; una foto sobredimensionada dentro de la carpeta es suficiente para empujar el ZIP entero sobre el limite de un destinatario.</p>
     <ul>
         <li><b>Gmail:</b> envio 25 MB / recibo 50 MB. Adjuntos mas grandes se auto-redirigen a traves de Google Drive.</li>

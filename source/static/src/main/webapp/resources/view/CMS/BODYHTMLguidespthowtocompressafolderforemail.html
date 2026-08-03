@@ -10,6 +10,8 @@
 <div class="w3-container w3-margin-top">
     <h1 class="text-uppercase"><b>Como Compactar uma Pasta para Email - Passo a Passo (2026)</b></h1>
     <p><em>Ultima revisao 2026-04-24. Funciona em Windows 10/11, macOS 13+ (Ventura e posterior) e no navegador via <a href="/zip-tools/zip-file.html">Zip File</a> quando um fluxo zip de shell nativo nao esta disponivel.</em></p>
+    <p class="reviewed">Last reviewed: 2026-08-04</p>
+    <address class="author"><a rel="author" href="/editorial-team.html">Equipe Editorial Free Tool Online</a></address>
 
     <div class="w3-panel w3-pale-green w3-leftbar w3-border-green">
         <p style="margin-bottom: 0;"><b>Resposta em 30 segundos.</b> Clique com o botao direito na pasta &rarr; <b>"Enviar para pasta ZIP (compactada)"</b> no Windows (ou <b>"Compactar"</b> no macOS). Anexe o <code>.zip</code> resultante ao email. Se o ZIP exceder o limite do provedor (tipicamente 20-25 MB, veja <a href="#email-size-limits">tabela de tamanho de email abaixo</a>), entao (a) divida a fonte em duas pastas e compacte cada uma, ou (b) envie para um servico de transferencia de arquivos e cole o link no corpo do email.</p>
@@ -17,7 +19,7 @@
 
     <h2 class="text-uppercase"><b>Por que compactar uma pasta para email?</b></h2>
     <p>Os anexos de email sao medidos em bytes. Pastas nao compactadas nao podem ser anexadas - clientes de email exigem um unico arquivo, nao um diretorio. Compactar colapsa a pasta em um unico arquivo ZIP que preserva a estrutura interna, nomes de arquivos e datas de modificacao, enquanto reduz o tamanho total atraves de compressao LZ77 / DEFLATE. Para pastas de conteudo misto (documentos, imagens, planilhas), espere reducao de tamanho de 20-50%; para pastas ja dominadas por formatos comprimidos (JPG, MP3, MP4), espere apenas alguns por cento porque esses formatos ja sao codificados por entropia.</p>
-    <p>A redução real depende muito do tipo de ficheiro. Texto, código, JSON e CSV comprimem 60-80 %; documentos Word e Excel 10-25 %; PDFs 5-15 %; fotos (JPG, PNG, HEIC) e vídeos quase nada (0-5 %) porque esses formatos já têm codificação de entropia internamente. Saber isso antes de compactar ajuda a decidir se o ZIP realmente vai reduzir o tamanho, ou se um link de transferência de ficheiros é o caminho mais rápido.</p>
+    <p>A redução real depende muito do tipo de ficheiro. Texto, código, JSON e CSV comprimem 60-80 %; documentos Word e Excel 10-25 %; PDFs 5-15 %; fotos (JPG, PNG, HEIC) e vídeos quase nada (0-5 %) porque esses formatos já têm codificação de entropia internamente. Saber isso antes de compactar ajuda a decidir se o ZIP realmente vai reduzir o tamanho, ou se um link de transferência de ficheiros é o caminho mais rápido. Para compactar uma pasta como tarefa independente, em vez de para um anexo de email específico, veja <a href="/guides/pt/compress-folder-online.html">compactar uma pasta online</a>.</p>
     <p>As tres razoes praticas para compactar antes de enviar:</p>
     <ul>
         <li><b>Limites de tamanho do provedor.</b> Gmail, Outlook e iCloud todos limitam anexos individuais. Um ZIP pode caber abaixo do limite quando a pasta crua nao pode.</li>
@@ -48,6 +50,15 @@
 
     <h2 id="email-size-limits" class="text-uppercase"><b>Limites de anexo de email que bloqueiam uma pasta ZIPada em 2026</b></h2>
     <figure class="illustration"><img src="/img/illustrations/hub-spoke-4/guideszipfolder-limits__48426305.svg" alt="See verifique os limites de anexo de email para arquivos ZIP em 2026: Gmail 25 MB, Microsoft 365 20 MB, Outlook gratuito 10 MB, Yahoo 25 MB" loading="lazy" width="640" height="360"><figcaption>Verifique os limites de email antes de enviar um ZIP</figcaption></figure>
+    <div class="w3-responsive">
+    <table class="w3-table-all w3-small">
+    <tr><th>Servico de email</th><th>Limite de envio</th><th>Limite de recebimento</th></tr>
+    <tr><td>Gmail</td><td>25 MB</td><td>50 MB</td></tr>
+    <tr><td>Outlook (Microsoft 365)</td><td>20 MB</td><td>25 MB</td></tr>
+    <tr><td>Outlook.com (gratuito)</td><td>10 MB</td><td>25 MB</td></tr>
+    <tr><td>Yahoo Mail</td><td>25 MB</td><td>25 MB</td></tr>
+    </table>
+    </div>
     <p>Limites especificos do provedor causam a maioria dos erros "meu ZIP de pasta nao envia". O bloqueador e quase sempre o teto do destinatario, nao seu limite de envio - conheca ambos antes de compactar, porque um ZIP de pasta de 30 MB que seu Gmail envia bem ainda devolve contra um destinatario Outlook de 25 MB. Pastas sao particularmente afetadas porque arquivos de diretorio tendem a empacotar dezenas de itens ao mesmo tempo; uma foto super dimensionada dentro da pasta e suficiente para empurrar o ZIP inteiro alem do limite de um destinatario.</p>
     <ul>
         <li><b>Gmail:</b> envio 25 MB / recebimento 50 MB. Anexos maiores sao auto-redirecionados pelo Google Drive.</li>

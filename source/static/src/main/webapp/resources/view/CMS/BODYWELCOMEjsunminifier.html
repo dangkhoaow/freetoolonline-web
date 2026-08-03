@@ -3,13 +3,6 @@
 <hr/>
 <p>Minified JavaScript and CSS strips spaces, line breaks, and shortens variable names to reduce file size - useful in production, unreadable when debugging. Paste the minified bundle here and js-beautify reformats it with two-space indentation so stack traces and code reviews become readable again. No upload, no account - the reformat runs entirely in your browser tab.</p>
 
-<figure class="illustration">
-  <img src="/img/illustrations/feature-badge/jsunminifier__8a5e2d45.svg"
-       alt="Your JavaScript stays in your browser - no upload"
-       loading="lazy" width="200" height="48">
-  <figcaption>Reformatted locally with js-beautify - the script never leaves your browser tab.</figcaption>
-</figure>
-
 <br/><h2 class="text-uppercase"><b>How the reformatter works</b></h2>
 <ul>
   <li><b>Two-space indentation, line breaks preserved.</b> Click <b>UnMinify</b> and js-beautify rebuilds the one-line bundle with two-space indents and kept blank lines, so nested callbacks and object literals stack the way you read them.</li>
@@ -29,7 +22,7 @@
 <br/>
 <section class="reader-task-extension" data-task-statement="json formatter online free">
   <h3>If you came here looking for a JSON formatter</h3>
-  <p>This page unminifies JavaScript and CSS for debugging - it adds spaces and line breaks back into a minified bundle so the reader-readable form returns. JSON formatting is a different reader task: the JSON formatter parses a JSON payload into a pretty-printed expandable tree, and the tool that handles it is at <a href="/developer-tools/json-parser.html">/developer-tools/json-parser.html</a>. The two pages both live under the developer-tools section of this site but consume different inputs - this one expects JS or CSS source, the JSON parser expects a JSON object or array.</p>
+  <p>The JavaScript and CSS unminifier adds spaces and line breaks back into a minified bundle for debugging, so the reader-readable form returns. JSON formatting is a different reader task: the JSON formatter parses a JSON payload into a pretty-printed expandable tree, and the tool that handles it is at <a href="/developer-tools/json-parser.html">/developer-tools/json-parser.html</a>. The two pages both live under the developer-tools section of this site but consume different inputs - this one expects JS or CSS source, the JSON parser expects a JSON object or array.</p>
 </section>
 
 <p><b>During a debugging session,</b> expanding the bundle is usually step one of a round trip. Once you have read the code and applied a fix, send the source back through the <a href="/developer-tools/js-minifier.html">JavaScript minifier</a> to return it to deploy weight, and reach for the <a href="/developer-tools/css-unminifier.html">CSS unminifier</a> when the same one-line build also hides the stylesheet rule you are chasing. The <a href="/developer-tools.html">developer tools hub</a> gathers the full minify, unminify, format, and hash set, each one client-side with nothing uploaded.</p>
@@ -40,5 +33,5 @@
   <p>A minified build collapses the entire file onto line 1, so a browser trace like <code>at r (app.min.js:1:48210)</code> points at column 48,210 of one unreadable line, which is no help when you want to set a breakpoint. Paste that bundle here and the reformatter expands it back to a readable, line-numbered form, so the same fault now sits on a line you can open straight in your editor. One limit is worth knowing first: minification already renamed the identifiers - a function once called <code>validateUserToken</code> is now <code>r</code> - and reformatting restores the structure but not those names, which are gone unless the build emitted a source map. When a <code>.js.map</code> file does exist, the browser DevTools Sources panel and its Pretty-Print toggle are the stronger pick, because they pair the bundle with the map to show original names and layout together; reach for this reformatter when no map shipped, or when you only need to scan a third-party script you cannot rebuild. The reformatting runs in your browser, so a proprietary bundle never leaves your machine.</p>
 </section>
 
-<p class="reviewed"><time itemprop="dateUpdated" datetime="2026-06-25">Last reviewed: 2026-06-25</time></p>
+<p class="reviewed"><time itemprop="dateUpdated" datetime="2026-08-04">Last reviewed: 2026-08-04</time></p>
 <p class="author-byline">Reviewed by the <a href="/editorial-team.html" rel="author">freetoolonline.com editorial team</a>.</p>
