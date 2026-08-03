@@ -11,6 +11,7 @@
             <li>Repeat with another input to verify matches.</li>
         </ol>
         <p style="margin-bottom: 0;"><b>Note:</b> MD5 is a checksum, not encryption - avoid it for passwords or sensitive data.</p>
+        <p style="margin-bottom: 0;"><b>Cache privacy note:</b> the "To MD5" panel adds every hash you generate to the shared lookup cache that "MD5 to Text" reads from, so a second reader who later pastes the same MD5 will retrieve your original text - only hash non-sensitive strings here, never a password or secret.</p>
     </div>
 
 <figure class="illustration">
@@ -34,6 +35,7 @@
 </ul>
 
 <br/><h2 class="text-uppercase"><b>MD5 vs SHA-256 vs bcrypt - when to pick which</b></h2>
+<p>Pick MD5 for cache keys, ETags, and checksums where speed matters and no attacker controls the input; pick SHA-256 when a longer digest or wider tooling support helps; reserve bcrypt or Argon2id for anything that stores a human password.</p>
 <div class="w3-responsive">
     <table class="w3-table-all w3-small">
         <tr><th>Algorithm</th><th>Output size</th><th>Typical use</th><th>Safe for passwords?</th></tr>
@@ -45,7 +47,7 @@
 </div>
 
 <br/><h2 class="text-uppercase"><b>Why not to use MD5 for password storage</b></h2>
-<p>MD5 can hash hundreds of millions of candidate passwords per second on a single GPU, defeating any credential-storage scheme even with a salt. If you inherited MD5 password hashes, treat every account as compromised, enforce a password reset, and migrate to bcrypt or Argon2id with an appropriate cost factor. For non-credential hashing, MD5 is fine - this guidance applies specifically to storing human secrets.</p>
+<p>MD5 can hash hundreds of millions of candidate passwords per second on a single GPU, defeating any credential-storage scheme even with a salt. If you inherited MD5 password hashes, treat every account as compromised, enforce a password reset, and migrate to bcrypt or Argon2id with an appropriate cost factor. For non-credential hashing, MD5 is fine - this guidance applies specifically to storing human secrets. See <a href="/guides/en/md5-password.html">hashing a password with MD5</a> for a full walkthrough of the risk and the safer alternatives.</p>
 
 <p>Format the source object first in the <a href="/developer-tools/json-parser.html">JSON parser</a> for a stable, canonical text before hashing; paste two digests into <a href="/developer-tools/text-diff.html">text diff</a> to spot a single hex character difference. More tools at the <a href="/developer-tools.html">developer tools hub</a>.</p>
 <address class="author"><a rel="author" href="/editorial-team.html">FreetoolOnline Editorial Team</a></address>
