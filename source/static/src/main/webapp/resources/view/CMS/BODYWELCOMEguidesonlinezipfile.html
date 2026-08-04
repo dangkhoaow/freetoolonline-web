@@ -4,3 +4,7 @@
   <p class="reviewed">Last reviewed: 2026-05-18</p>
   <p class="byline">Reviewed by the FreetoolOnline editorial team</p>
 </aside>
+<section class="ai-overview-recapture">
+  <h3>The second decision hiding inside "online zip file": shrink, or just bundle</h3>
+  <p>"Online zip file" first splits into two jobs - building a fresh archive at <a href="/zip-tools/zip-file.html">/zip-tools/zip-file.html</a> or opening one you were sent at <a href="/unzip-file.html">/unzip-file.html</a> - but on the build side a second, quieter decision usually matters more: are you zipping to make the payload smaller, or only to send it as one file? ZIP uses DEFLATE, so text-shaped inputs like source code, CSV, JSON, and server logs often shrink by half or more, while photos in JPG, video in MP4, audio in MP3, and most PDFs were already compressed when they were written and gain only 0 to 5 percent from the wrapper. That means a folder of 40 vacation photos comes out of the creator at very nearly its original size, and the honest reason to zip it is the single-file handoff, not the size cut - you name it once in the Settings modal and the recipient downloads one item instead of 40. When the folder is a code project or a stack of exports, the same step doubles as a genuine size reduction, which is the case where "zip it" and "shrink it" finally line up. Knowing which of the two you are actually doing is what tells you whether it is worth comparing archive sizes afterward at all.</p>
+</section>
