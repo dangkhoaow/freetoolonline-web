@@ -14,6 +14,25 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // pdf-editor-online companion guides (new-tool-discovery-loop fire713 mirror, 2026-08-05)
+  '/guides/pdf-editor-vs-alternatives.html',
+  '/guides/pdf-editor-step-by-step.html',
+  '/guides/pdf-editor-when.html',
+  '/guides/pt/pdf-editor-step-by-step.html',
+  '/guides/pt/pdf-editor-vs-alternatives.html',
+  '/guides/pt/pdf-editor-when.html',
+  '/guides/es/pdf-editor-step-by-step.html',
+  '/guides/es/pdf-editor-vs-alternatives.html',
+  '/guides/es/pdf-editor-when.html',
+  '/guides/de/pdf-editor-step-by-step.html',
+  '/guides/de/pdf-editor-vs-alternatives.html',
+  '/guides/de/pdf-editor-when.html',
+  '/guides/vi/pdf-editor-step-by-step.html',
+  '/guides/vi/pdf-editor-vs-alternatives.html',
+  '/guides/vi/pdf-editor-when.html',
+  '/guides/id/pdf-editor-step-by-step.html',
+  '/guides/id/pdf-editor-vs-alternatives.html',
+  '/guides/id/pdf-editor-when.html',
   // are-flags-at-half-mast-today guides (new-page-verify-runbook fire250 mirror, 2026-08-05)
   '/guides/are-flags-at-half-mast-today-us-federal-status-when.html',
   '/guides/are-flags-at-half-mast-today-us-federal-status-step-by-step.html',
@@ -13644,6 +13663,8 @@ export function isArticleFamilyRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  // pdf-editor-online (new-tool-discovery-loop fire713 mirror, 2026-08-05)
+  '/pdf-editor-online.html': '/pdf-tools/pdf-editor-online.html',
   // 2026-07-21 P1#6 mixed-language merge (review/20260720): en-tree Indonesian-
   // slug guides 301 to their id/ twins - the id twin now WINS on clicks in all
   // three pairs (357v27, 112v71, 64v12; gsc_top_pages_guides 2026-06-23..07-18)
@@ -27285,6 +27306,26 @@ export const JSP_BY_ROUTE = {
   '/guides/id/are-flags-at-half-mast-today-us-federal-status-step-by-step.html': 'guide/id/are-flags-at-half-mast-today-us-federal-status-step-by-step.jsp',
   '/guides/id/are-flags-at-half-mast-today-us-federal-status-when.html': 'guide/id/are-flags-at-half-mast-today-us-federal-status-when.jsp',
   '/guides/id/are-flags-at-half-mast-today-us-federal-status-vs-alternatives.html': 'guide/id/are-flags-at-half-mast-today-us-federal-status-vs-alternatives.jsp',
+  // pdf-editor-online + companion guides (new-tool-discovery-loop fire713 mirror, 2026-08-05)
+  '/pdf-tools/pdf-editor-online.html': 'pdf/pdf-editor-online.jsp',
+  '/guides/pdf-editor-when.html': 'guide/pdf-editor-when.jsp',
+  '/guides/pdf-editor-step-by-step.html': 'guide/pdf-editor-step-by-step.jsp',
+  '/guides/pdf-editor-vs-alternatives.html': 'guide/pdf-editor-vs-alternatives.jsp',
+  '/guides/pt/pdf-editor-step-by-step.html': 'guide/pt/pdf-editor-step-by-step.jsp',
+  '/guides/pt/pdf-editor-vs-alternatives.html': 'guide/pt/pdf-editor-vs-alternatives.jsp',
+  '/guides/pt/pdf-editor-when.html': 'guide/pt/pdf-editor-when.jsp',
+  '/guides/es/pdf-editor-step-by-step.html': 'guide/es/pdf-editor-step-by-step.jsp',
+  '/guides/es/pdf-editor-vs-alternatives.html': 'guide/es/pdf-editor-vs-alternatives.jsp',
+  '/guides/es/pdf-editor-when.html': 'guide/es/pdf-editor-when.jsp',
+  '/guides/de/pdf-editor-step-by-step.html': 'guide/de/pdf-editor-step-by-step.jsp',
+  '/guides/de/pdf-editor-vs-alternatives.html': 'guide/de/pdf-editor-vs-alternatives.jsp',
+  '/guides/de/pdf-editor-when.html': 'guide/de/pdf-editor-when.jsp',
+  '/guides/vi/pdf-editor-step-by-step.html': 'guide/vi/pdf-editor-step-by-step.jsp',
+  '/guides/vi/pdf-editor-vs-alternatives.html': 'guide/vi/pdf-editor-vs-alternatives.jsp',
+  '/guides/vi/pdf-editor-when.html': 'guide/vi/pdf-editor-when.jsp',
+  '/guides/id/pdf-editor-step-by-step.html': 'guide/id/pdf-editor-step-by-step.jsp',
+  '/guides/id/pdf-editor-vs-alternatives.html': 'guide/id/pdf-editor-vs-alternatives.jsp',
+  '/guides/id/pdf-editor-when.html': 'guide/id/pdf-editor-when.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
