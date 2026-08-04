@@ -14804,6 +14804,7 @@ export const ALIAS_ROUTES = {
   '/percent-error-calculator.html': '/utility-tools/percent-error-calculator.html',
   '/aqi-checker.html': '/utility-tools/aqi-checker.html',
   '/storm-tracker.html': '/utility-tools/storm-tracker.html',
+  '/earthquake-tracker.html': '/utility-tools/earthquake-tracker.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -26982,6 +26983,7 @@ export const JSP_BY_ROUTE = {
   '/guides/id/live-aqi-checker-by-city-when.html': 'guide/id/live-aqi-checker-by-city-when.jsp',
   '/guides/id/live-aqi-checker-by-city-vs-alternatives.html': 'guide/id/live-aqi-checker-by-city-vs-alternatives.jsp',
   '/utility-tools/storm-tracker.html': 'utility/storm-tracker.jsp',
+  '/utility-tools/earthquake-tracker.html': 'utility/earthquake-tracker.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
