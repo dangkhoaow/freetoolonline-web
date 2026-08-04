@@ -27569,7 +27569,7 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/create-zip-file-online.html',
   '/guides/vi/cron-expression-parser-step-by-step.html',
   '/guides/vi/cron-expression-parser-vs-alternatives.html',
-  '/guides/vi/cron-expression-parser-when.html',
+  // geo-batch-fire161: restored - Bing AI citations found (was pruned zero-evidence on GSC-only signal)
   '/guides/vi/crop-and-rotate-image.html',
   '/guides/vi/cryolophosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/vi/cryolophosaurus-size-comparison.html',
@@ -27580,7 +27580,7 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/css-grid-layout-generator-vs-alternatives.html',
   '/guides/vi/css-grid-layout-generator-when.html',
   '/guides/vi/css-minifier-vs-compressor.html',
-  '/guides/vi/css-minifier-vs-uglifier-vs-tree-shaking.html',
+  // geo-batch-fire161: restored - Bing AI citations found (was pruned zero-evidence on GSC-only signal)
   '/guides/vi/css-unminifier-vs-prettier-when-to-use-each.html',
   '/guides/vi/csv-json-converter-step-by-step.html',
   '/guides/vi/csv-json-converter-vs-alternatives.html',
@@ -28655,7 +28655,7 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/pixel-realm-rpg-when.html',
   '/guides/vi/pixel-spike-run-vs-alternatives.html',
   '/guides/vi/pixel-spike-run-when.html',
-  '/guides/vi/planet-size-comparison-step-by-step.html',
+  // geo-batch-fire161: restored - Bing AI citations found (was pruned zero-evidence on GSC-only signal)
   '/guides/vi/planet-size-comparison-vs-alternatives.html',
   '/guides/vi/planet-size-comparison-when.html',
   '/guides/vi/planetary-conjunction-step-by-step.html',
@@ -29657,7 +29657,7 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/cron-expression-parser-step-by-step.html",
   "/guides/de/cron-expression-parser-vs-alternatives.html",
   "/guides/de/css-minifier-vs-compressor.html",
-  "/guides/de/css-minifier-vs-uglifier-vs-tree-shaking.html",
+  // geo-batch-fire161: restored - Bing AI citations found (was pruned zero-evidence on GSC-only signal)
   "/guides/de/css-unminifier-vs-prettier-when-to-use-each.html",
   "/guides/de/debris-disk-step-by-step.html",
   "/guides/de/debris-disk-vs-alternatives.html",
@@ -30240,7 +30240,7 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/pixel-realm-rpg-when.html",
   "/guides/de/pixel-spike-run-vs-alternatives.html",
   "/guides/de/pixel-spike-run-when.html",
-  "/guides/de/planet-size-comparison-step-by-step.html",
+  // geo-batch-fire161: restored - Bing AI citations found (was pruned zero-evidence on GSC-only signal)
   "/guides/de/planet-size-comparison-vs-alternatives.html",
   "/guides/de/planet-size-comparison-when.html",
   "/guides/de/planetary-conjunction-step-by-step.html",
@@ -31516,11 +31516,11 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/create-zip-file-online.html',
   '/guides/pt/cron-expression-parser-step-by-step.html',
   '/guides/pt/cron-expression-parser-vs-alternatives.html',
-  '/guides/pt/cron-expression-parser-when.html',
+  // geo-batch-fire161: restored - Bing AI citations found (was pruned zero-evidence on GSC-only signal)
   '/guides/pt/crop-and-rotate-image.html',
   '/guides/pt/crop-image-online-free.html',
   '/guides/pt/css-minifier-vs-compressor.html',
-  '/guides/pt/css-minifier-vs-uglifier-vs-tree-shaking.html',
+  // geo-batch-fire161: restored - Bing AI citations found (was pruned zero-evidence on GSC-only signal)
   '/guides/pt/css-unminifier-vs-prettier-when-to-use-each.html',
   '/guides/pt/current-millis.html',
   '/guides/pt/dead-pixel-testing-guide.html',
@@ -32073,10 +32073,10 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/countdown-timer-step-by-step.html',
   '/guides/es/cron-expression-parser-step-by-step.html',
   '/guides/es/cron-expression-parser-vs-alternatives.html',
-  '/guides/es/cron-expression-parser-when.html',
+  // geo-batch-fire161: restored - Bing AI citations found (was pruned zero-evidence on GSC-only signal)
   '/guides/es/crop-and-rotate-image.html',
   '/guides/es/css-minifier-vs-compressor.html',
-  '/guides/es/css-minifier-vs-uglifier-vs-tree-shaking.html',
+  // geo-batch-fire161: restored - Bing AI citations found (was pruned zero-evidence on GSC-only signal)
   '/guides/es/css-unminifier-vs-prettier-when-to-use-each.html',
   '/guides/es/dead-pixel-testing-guide.html',
   '/guides/es/debris-disk-step-by-step.html',
@@ -34003,9 +34003,9 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/id/cosmic-ray-shower-step-by-step.html',
   '/guides/id/cron-expression-parser-step-by-step.html',
   '/guides/id/cron-expression-parser-vs-alternatives.html',
-  '/guides/id/cron-expression-parser-when.html',
+  // geo-batch-fire161: restored - Bing AI citations found (was pruned zero-evidence on GSC-only signal)
   '/guides/id/css-minifier-vs-compressor.html',
-  '/guides/id/css-minifier-vs-uglifier-vs-tree-shaking.html',
+  // geo-batch-fire161: restored - Bing AI citations found (was pruned zero-evidence on GSC-only signal)
   '/guides/id/css-unminifier-vs-prettier-when-to-use-each.html',
   '/guides/id/debris-disk-step-by-step.html',
   '/guides/id/device-test-checklist-for-remote-work.html',
