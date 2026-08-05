@@ -14916,6 +14916,7 @@ export const ALIAS_ROUTES = {
   '/galactic-coordinate-transforms.html': '/space-3d/galactic-coordinate-transforms.html',
   '/pulsar-timing-array.html': '/space-3d/pulsar-timing-array.html',
   '/eclipse-path-2026.html': '/space-3d/eclipse-path-2026.html',
+  '/milankovitch-cycles.html': '/space-3d/milankovitch-cycles.html',
   '/karman-line-atmosphere-layers.html': '/space-3d/karman-line-atmosphere-layers.html',
   '/exoplanet-atmosphere-spectroscopy.html': '/space-3d/exoplanet-atmosphere-spectroscopy.html',
   '/saros-cycle.html': '/space-3d/saros-cycle.html',
@@ -14996,6 +14997,7 @@ export const ALIAS_ROUTES = {
   '/heat-index-calculator.html': '/utility-tools/heat-index-calculator.html',
   '/sunrise-sunset-calculator.html': '/utility-tools/sunrise-sunset-calculator.html',
   '/half-mast-today.html': '/utility-tools/half-mast-today.html',
+  '/national-day-today.html': '/utility-tools/national-day-today.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -25340,6 +25342,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/galactic-coordinate-transforms.html': 'space/galactic-coordinate-transforms.jsp',
   '/space-3d/pulsar-timing-array.html': 'space/pulsar-timing-array.jsp',
   '/space-3d/eclipse-path-2026.html': 'space/eclipse-path-2026.jsp',
+  '/space-3d/milankovitch-cycles.html': 'space/milankovitch-cycles.jsp',
   '/space-3d/karman-line-atmosphere-layers.html': 'space/karman-line-atmosphere-layers.jsp',
   '/space-3d/venus-runaway-greenhouse.html': 'space/venus-runaway-greenhouse.jsp',
   '/space-3d/venus-atmospheric-superrotation.html': 'space/venus-atmospheric-superrotation.jsp',
@@ -27326,6 +27329,7 @@ export const JSP_BY_ROUTE = {
   '/guides/id/pdf-editor-step-by-step.html': 'guide/id/pdf-editor-step-by-step.jsp',
   '/guides/id/pdf-editor-vs-alternatives.html': 'guide/id/pdf-editor-vs-alternatives.jsp',
   '/guides/id/pdf-editor-when.html': 'guide/id/pdf-editor-when.jsp',
+  '/utility-tools/national-day-today.html': 'utility/national-day-today.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
