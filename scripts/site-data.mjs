@@ -14,6 +14,9 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/holiday-countdown-date-lookup-vs-alternatives.html',
+  '/guides/holiday-countdown-date-lookup-step-by-step.html',
+  '/guides/holiday-countdown-date-lookup-when.html',
   '/guides/what-national-day-is-today-step-by-step.html',
   '/guides/what-national-day-is-today-when.html',
   '/guides/what-national-day-is-today-vs-alternatives.html',
@@ -15035,6 +15038,7 @@ export const ALIAS_ROUTES = {
   '/sunrise-sunset-calculator.html': '/utility-tools/sunrise-sunset-calculator.html',
   '/half-mast-today.html': '/utility-tools/half-mast-today.html',
   '/national-day-today.html': '/utility-tools/national-day-today.html',
+  '/holiday-countdown.html': '/utility-tools/holiday-countdown.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -27385,6 +27389,10 @@ export const JSP_BY_ROUTE = {
   '/guides/id/pdf-editor-vs-alternatives.html': 'guide/id/pdf-editor-vs-alternatives.jsp',
   '/guides/id/pdf-editor-when.html': 'guide/id/pdf-editor-when.jsp',
   '/utility-tools/national-day-today.html': 'utility/national-day-today.jsp',
+  '/utility-tools/holiday-countdown.html': 'utility/holiday-countdown.jsp',
+  '/guides/holiday-countdown-date-lookup-when.html': 'guide/holiday-countdown-date-lookup-when.jsp',
+  '/guides/holiday-countdown-date-lookup-step-by-step.html': 'guide/holiday-countdown-date-lookup-step-by-step.jsp',
+  '/guides/holiday-countdown-date-lookup-vs-alternatives.html': 'guide/holiday-countdown-date-lookup-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
