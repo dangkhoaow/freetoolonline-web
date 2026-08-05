@@ -17,6 +17,21 @@ export const INFO_ROUTES = new Set([
   '/guides/holiday-countdown-date-lookup-vs-alternatives.html',
   '/guides/holiday-countdown-date-lookup-step-by-step.html',
   '/guides/holiday-countdown-date-lookup-when.html',
+  '/guides/pt/holiday-countdown-date-lookup-when.html',
+  '/guides/pt/holiday-countdown-date-lookup-step-by-step.html',
+  '/guides/pt/holiday-countdown-date-lookup-vs-alternatives.html',
+  '/guides/es/holiday-countdown-date-lookup-when.html',
+  '/guides/es/holiday-countdown-date-lookup-step-by-step.html',
+  '/guides/es/holiday-countdown-date-lookup-vs-alternatives.html',
+  '/guides/vi/holiday-countdown-date-lookup-when.html',
+  '/guides/vi/holiday-countdown-date-lookup-step-by-step.html',
+  '/guides/vi/holiday-countdown-date-lookup-vs-alternatives.html',
+  '/guides/id/holiday-countdown-date-lookup-when.html',
+  '/guides/id/holiday-countdown-date-lookup-step-by-step.html',
+  '/guides/id/holiday-countdown-date-lookup-vs-alternatives.html',
+  '/guides/de/holiday-countdown-date-lookup-when.html',
+  '/guides/de/holiday-countdown-date-lookup-step-by-step.html',
+  '/guides/de/holiday-countdown-date-lookup-vs-alternatives.html',
   '/guides/what-national-day-is-today-step-by-step.html',
   '/guides/what-national-day-is-today-when.html',
   '/guides/what-national-day-is-today-vs-alternatives.html',
@@ -35,7 +50,6 @@ export const INFO_ROUTES = new Set([
   '/guides/id/what-national-day-is-today-step-by-step.html',
   '/guides/id/what-national-day-is-today-when.html',
   '/guides/id/what-national-day-is-today-vs-alternatives.html',
-  // pdf-editor-online companion guides (new-tool-discovery-loop fire713 mirror, 2026-08-05)
   '/guides/pdf-editor-vs-alternatives.html',
   '/guides/pdf-editor-step-by-step.html',
   '/guides/pdf-editor-when.html',
@@ -54,9 +68,8 @@ export const INFO_ROUTES = new Set([
   '/guides/id/pdf-editor-step-by-step.html',
   '/guides/id/pdf-editor-vs-alternatives.html',
   '/guides/id/pdf-editor-when.html',
-  // are-flags-at-half-mast-today guides (new-page-verify-runbook fire250 mirror, 2026-08-05)
-  '/guides/are-flags-at-half-mast-today-us-federal-status-when.html',
   '/guides/are-flags-at-half-mast-today-us-federal-status-step-by-step.html',
+  '/guides/are-flags-at-half-mast-today-us-federal-status-when.html',
   '/guides/are-flags-at-half-mast-today-us-federal-status-vs-alternatives.html',
   '/guides/pt/are-flags-at-half-mast-today-us-federal-status-step-by-step.html',
   '/guides/pt/are-flags-at-half-mast-today-us-federal-status-when.html',
@@ -6928,6 +6941,7 @@ export const INFO_ROUTES = new Set([
   '/guides/vi/venus-atmospheric-superrotation-vs-alternatives.html',
   '/guides/id/venus-atmospheric-superrotation-vs-alternatives.html',
   '/guides/de/venus-atmospheric-superrotation-vs-alternatives.html',
+
 ]);
 
 // Guide routes subset of INFO_ROUTES - used by page-renderer.mjs to emit Article
@@ -10621,6 +10635,26 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/space-huggers-platformer-when.html',
   '/guides/de/space-huggers-platformer-vs-alternatives.html',
 
+  // game-discovery-loop-runbook fire208 (2026-08-05): level-13-incremental companion guides
+  '/guides/how-to-play-level-13-incremental.html',
+  '/guides/level-13-incremental-when.html',
+  '/guides/level-13-incremental-vs-alternatives.html',
+  '/guides/pt/how-to-play-level-13-incremental.html',
+  '/guides/pt/level-13-incremental-when.html',
+  '/guides/pt/level-13-incremental-vs-alternatives.html',
+  '/guides/es/how-to-play-level-13-incremental.html',
+  '/guides/es/level-13-incremental-when.html',
+  '/guides/es/level-13-incremental-vs-alternatives.html',
+  '/guides/vi/how-to-play-level-13-incremental.html',
+  '/guides/vi/level-13-incremental-when.html',
+  '/guides/vi/level-13-incremental-vs-alternatives.html',
+  '/guides/id/how-to-play-level-13-incremental.html',
+  '/guides/id/level-13-incremental-when.html',
+  '/guides/id/level-13-incremental-vs-alternatives.html',
+  '/guides/de/how-to-play-level-13-incremental.html',
+  '/guides/de/level-13-incremental-when.html',
+  '/guides/de/level-13-incremental-vs-alternatives.html',
+
   // new-tool-discovery-loop-runbook fire306 (2026-07-18): retro-arcade-shooter companion guides
   '/guides/how-to-play-retro-arcade-shooter.html',
   '/guides/retro-arcade-shooter-when.html',
@@ -13674,6 +13708,7 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/venus-atmospheric-superrotation-vs-alternatives.html',
   '/guides/id/venus-atmospheric-superrotation-vs-alternatives.html',
   '/guides/de/venus-atmospheric-superrotation-vs-alternatives.html',
+
 ]);
 
 export function isGuideRoute(route) {
@@ -13703,8 +13738,6 @@ export function isArticleFamilyRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
-  // pdf-editor-online (new-tool-discovery-loop fire713 mirror, 2026-08-05)
-  '/pdf-editor-online.html': '/pdf-tools/pdf-editor-online.html',
   // 2026-07-21 P1#6 mixed-language merge (review/20260720): en-tree Indonesian-
   // slug guides 301 to their id/ twins - the id twin now WINS on clicks in all
   // three pairs (357v27, 112v71, 64v12; gsc_top_pages_guides 2026-06-23..07-18)
@@ -13860,6 +13893,7 @@ export const ALIAS_ROUTES = {
   '/black-sea.html': '/places-3d/black-sea.html',
   '/lake-victoria.html': '/places-3d/lake-victoria.html',
   '/lake-superior.html': '/places-3d/lake-superior.html',
+  '/bryce-canyon.html': '/places-3d/bryce-canyon.html',
   '/sahara-desert.html': '/places-3d/sahara-desert.html',
   '/atacama-desert.html': '/places-3d/atacama-desert.html',
   '/stone-forest-shilin.html': '/places-3d/stone-forest-shilin.html',
@@ -15038,6 +15072,7 @@ export const ALIAS_ROUTES = {
   '/heat-index-calculator.html': '/utility-tools/heat-index-calculator.html',
   '/sunrise-sunset-calculator.html': '/utility-tools/sunrise-sunset-calculator.html',
   '/half-mast-today.html': '/utility-tools/half-mast-today.html',
+  '/pdf-editor-online.html': '/pdf-tools/pdf-editor-online.html',
   '/national-day-today.html': '/utility-tools/national-day-today.html',
   '/holiday-countdown.html': '/utility-tools/holiday-countdown.html',
 };
@@ -15477,6 +15512,7 @@ export const JSP_BY_ROUTE = {
   '/places-3d/black-sea.html': 'place/black-sea.jsp',
   '/places-3d/lake-victoria.html': 'place/lake-victoria.jsp',
   '/places-3d/lake-superior.html': 'place/lake-superior.jsp',
+  '/places-3d/bryce-canyon.html': 'place/bryce-canyon.jsp',
   '/places-3d/sahara-desert.html': 'place/sahara-desert.jsp',
   '/places-3d/atacama-desert.html': 'place/atacama-desert.jsp',
   '/places-3d/stone-forest-shilin.html': 'place/stone-forest-shilin.jsp',
@@ -15583,6 +15619,7 @@ export const JSP_BY_ROUTE = {
   '/news/de/fat32-four-gib-file-limit.html': 'news/de/fat32-four-gib-file-limit.jsp',
   '/news/de/windows-11-fat32-format-2tb.html': 'news/de/windows-11-fat32-format-2tb.jsp',
   '/news/exif-orientation-rotation-trap.html': 'news/exif-orientation-rotation-trap.jsp',
+  '/news/pt/exif-orientation-rotation-trap.html': 'news/pt/exif-orientation-rotation-trap.jsp',
   '/image-tools/resize-image.html': 'image/resize-image.jsp',
   '/image-tools/crop-image.html': 'image/crop-image.jsp',
   '/image-tools/compress-image.html': 'image/compress-image.jsp',
@@ -16799,6 +16836,26 @@ export const JSP_BY_ROUTE = {
   '/guides/de/how-to-play-space-huggers-platformer.html': 'guide/de/how-to-play-space-huggers-platformer.jsp',
   '/guides/de/space-huggers-platformer-when.html': 'guide/de/space-huggers-platformer-when.jsp',
   '/guides/de/space-huggers-platformer-vs-alternatives.html': 'guide/de/space-huggers-platformer-vs-alternatives.jsp',
+
+  // game-discovery-loop-runbook fire208 (2026-08-05): level-13-incremental companion guides
+  '/guides/how-to-play-level-13-incremental.html': 'guide/how-to-play-level-13-incremental.jsp',
+  '/guides/level-13-incremental-when.html': 'guide/level-13-incremental-when.jsp',
+  '/guides/level-13-incremental-vs-alternatives.html': 'guide/level-13-incremental-vs-alternatives.jsp',
+  '/guides/pt/how-to-play-level-13-incremental.html': 'guide/pt/how-to-play-level-13-incremental.jsp',
+  '/guides/pt/level-13-incremental-when.html': 'guide/pt/level-13-incremental-when.jsp',
+  '/guides/pt/level-13-incremental-vs-alternatives.html': 'guide/pt/level-13-incremental-vs-alternatives.jsp',
+  '/guides/es/how-to-play-level-13-incremental.html': 'guide/es/how-to-play-level-13-incremental.jsp',
+  '/guides/es/level-13-incremental-when.html': 'guide/es/level-13-incremental-when.jsp',
+  '/guides/es/level-13-incremental-vs-alternatives.html': 'guide/es/level-13-incremental-vs-alternatives.jsp',
+  '/guides/vi/how-to-play-level-13-incremental.html': 'guide/vi/how-to-play-level-13-incremental.jsp',
+  '/guides/vi/level-13-incremental-when.html': 'guide/vi/level-13-incremental-when.jsp',
+  '/guides/vi/level-13-incremental-vs-alternatives.html': 'guide/vi/level-13-incremental-vs-alternatives.jsp',
+  '/guides/id/how-to-play-level-13-incremental.html': 'guide/id/how-to-play-level-13-incremental.jsp',
+  '/guides/id/level-13-incremental-when.html': 'guide/id/level-13-incremental-when.jsp',
+  '/guides/id/level-13-incremental-vs-alternatives.html': 'guide/id/level-13-incremental-vs-alternatives.jsp',
+  '/guides/de/how-to-play-level-13-incremental.html': 'guide/de/how-to-play-level-13-incremental.jsp',
+  '/guides/de/level-13-incremental-when.html': 'guide/de/level-13-incremental-when.jsp',
+  '/guides/de/level-13-incremental-vs-alternatives.html': 'guide/de/level-13-incremental-vs-alternatives.jsp',
 
   // new-tool-discovery-loop-runbook fire306 (2026-07-18): retro-arcade-shooter companion guides
   '/guides/how-to-play-retro-arcade-shooter.html': 'guide/how-to-play-retro-arcade-shooter.jsp',
@@ -27370,7 +27427,6 @@ export const JSP_BY_ROUTE = {
   '/guides/id/are-flags-at-half-mast-today-us-federal-status-step-by-step.html': 'guide/id/are-flags-at-half-mast-today-us-federal-status-step-by-step.jsp',
   '/guides/id/are-flags-at-half-mast-today-us-federal-status-when.html': 'guide/id/are-flags-at-half-mast-today-us-federal-status-when.jsp',
   '/guides/id/are-flags-at-half-mast-today-us-federal-status-vs-alternatives.html': 'guide/id/are-flags-at-half-mast-today-us-federal-status-vs-alternatives.jsp',
-  // pdf-editor-online + companion guides (new-tool-discovery-loop fire713 mirror, 2026-08-05)
   '/pdf-tools/pdf-editor-online.html': 'pdf/pdf-editor-online.jsp',
   '/guides/pdf-editor-when.html': 'guide/pdf-editor-when.jsp',
   '/guides/pdf-editor-step-by-step.html': 'guide/pdf-editor-step-by-step.jsp',
@@ -27395,6 +27451,21 @@ export const JSP_BY_ROUTE = {
   '/guides/holiday-countdown-date-lookup-when.html': 'guide/holiday-countdown-date-lookup-when.jsp',
   '/guides/holiday-countdown-date-lookup-step-by-step.html': 'guide/holiday-countdown-date-lookup-step-by-step.jsp',
   '/guides/holiday-countdown-date-lookup-vs-alternatives.html': 'guide/holiday-countdown-date-lookup-vs-alternatives.jsp',
+  '/guides/pt/holiday-countdown-date-lookup-when.html': 'guide/pt/holiday-countdown-date-lookup-when.jsp',
+  '/guides/pt/holiday-countdown-date-lookup-step-by-step.html': 'guide/pt/holiday-countdown-date-lookup-step-by-step.jsp',
+  '/guides/pt/holiday-countdown-date-lookup-vs-alternatives.html': 'guide/pt/holiday-countdown-date-lookup-vs-alternatives.jsp',
+  '/guides/es/holiday-countdown-date-lookup-when.html': 'guide/es/holiday-countdown-date-lookup-when.jsp',
+  '/guides/es/holiday-countdown-date-lookup-step-by-step.html': 'guide/es/holiday-countdown-date-lookup-step-by-step.jsp',
+  '/guides/es/holiday-countdown-date-lookup-vs-alternatives.html': 'guide/es/holiday-countdown-date-lookup-vs-alternatives.jsp',
+  '/guides/vi/holiday-countdown-date-lookup-when.html': 'guide/vi/holiday-countdown-date-lookup-when.jsp',
+  '/guides/vi/holiday-countdown-date-lookup-step-by-step.html': 'guide/vi/holiday-countdown-date-lookup-step-by-step.jsp',
+  '/guides/vi/holiday-countdown-date-lookup-vs-alternatives.html': 'guide/vi/holiday-countdown-date-lookup-vs-alternatives.jsp',
+  '/guides/id/holiday-countdown-date-lookup-when.html': 'guide/id/holiday-countdown-date-lookup-when.jsp',
+  '/guides/id/holiday-countdown-date-lookup-step-by-step.html': 'guide/id/holiday-countdown-date-lookup-step-by-step.jsp',
+  '/guides/id/holiday-countdown-date-lookup-vs-alternatives.html': 'guide/id/holiday-countdown-date-lookup-vs-alternatives.jsp',
+  '/guides/de/holiday-countdown-date-lookup-when.html': 'guide/de/holiday-countdown-date-lookup-when.jsp',
+  '/guides/de/holiday-countdown-date-lookup-step-by-step.html': 'guide/de/holiday-countdown-date-lookup-step-by-step.jsp',
+  '/guides/de/holiday-countdown-date-lookup-vs-alternatives.html': 'guide/de/holiday-countdown-date-lookup-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
