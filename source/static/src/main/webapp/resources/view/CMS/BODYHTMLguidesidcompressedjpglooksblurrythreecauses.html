@@ -15,6 +15,18 @@
         <p style="margin-bottom: 0;"><b>Jawaban 30 detik.</b> Kualitas kompresi turun di bawah 50, ATAU sumber yang Anda kompres sudah merupakan JPG yang disimpan ulang beberapa kali, ATAU sumber telah di-upscale ke resolusi lebih besar sebelum Anda mengompresnya. Kompres ulang aslinya pada kualitas 70-85 dengan <a href="/image-tools/compress-image.html">kompresor gambar JPG / PNG / WebP</a> dan hasilnya biasanya kembali terlihat normal. Jika Anda dapat meluangkan 30 detik lagi, buka aslinya dan salinan yang dikompres berdampingan pada zoom 100%: bercak berkotak di area datar menunjuk ke nilai kualitas, derau berbintik pada tekstur halus menunjuk ke pengkodean ulang berulang, dan tepi bergelombang atau garis lurus yang kabur menunjuk ke sumber yang di-upscale.</p>
     </div>
 
+    <table class="quick-facts">
+        <caption>Kualitas kompresi JPG vs tampilan hasilnya</caption>
+        <thead><tr><th>Nilai kualitas</th><th>Tampilan JPG yang dikompres</th></tr></thead>
+        <tbody>
+        <tr><td>90</td><td>Identik secara visual dengan aslinya pada sebagian besar foto</td></tr>
+        <tr><td>80</td><td>Terlihat baik; default yang disarankan, menyusut menjadi sekitar sepertiga ukuran asli</td></tr>
+        <tr><td>70</td><td>Sedikit pemblokiran di wilayah warna datar; dapat diterima untuk web</td></tr>
+        <tr><td>50</td><td>Terlihat jelas lebih lembut</td></tr>
+        <tr><td>30</td><td>Berkotak di langit, kulit, dan pasir</td></tr>
+        </tbody>
+    </table>
+
     <h2 class="text-uppercase"><b>Penyebab 1: kualitas kompresi terlalu agresif</b></h2>
     <p>Kualitas kompresi JPG berjalan pada skala non-linier. Kualitas 90 terlihat identik secara visual dengan aslinya pada sebagian besar foto. Kualitas 70 mulai memperkenalkan sedikit pemblokiran di wilayah warna datar tetapi tetap dapat diterima untuk web. Kualitas 50 terlihat jelas lebih lembut; kualitas 30 terlihat berkotak di langit / kulit / pasir dan sebagian besar pembaca akan menyebut hasilnya "buram". Jika alat Anda secara default menggunakan nilai kualitas rendah (beberapa kompresor online secara default 50 atau bahkan 30 untuk mengiklankan pengurangan ukuran file yang dramatis), output akan terlihat lebih buruk dari yang seharusnya.</p>
     <p><b>Perbaikan.</b> Kompres ulang sumber yang sama pada kualitas 70-85. Sebagian besar foto terlihat baik pada kualitas 80 dan menyusut menjadi sekitar sepertiga dari ukuran aslinya; kualitas 85 adalah pilihan yang lebih aman ketika foto memiliki detail halus seperti rambut atau kain. Panduan <a href="/guides/id/compress-jpeg-without-losing-quality-quality-vs-size.html">kompres JPEG tanpa kehilangan kualitas - kualitas vs ukuran</a> menelusuri tabel keputusan proaktif kualitas-vs-ukuran jika Anda ingin memilih nilai sebelum Anda mengompres, bukan sesudahnya.</p>
@@ -26,7 +38,7 @@
     <p>Jika asli benar-benar hilang dan satu-satunya salinan yang Anda miliki adalah JPG yang disimpan ulang, artefak tidak dapat dihilangkan - hanya disembunyikan. Mengompres pada kualitas tinggi (90+) tidak akan mengembalikan detail yang hilang; langkah yang tepat adalah menggunakan JPG yang disimpan ulang pada resolusi yang sebenarnya difoto, bukan memperbesarnya kembali ke ukuran aslinya.</p>
 
     <h2 class="text-uppercase"><b>Penyebab 3: sumber di-upscale sebelum Anda mengompresnya</b></h2>
-    <p>Upscaling - mengambil foto lebar 1080 px dan mengambil sampel ulang ke 4K, misalnya - mengarang piksel dengan menginterpolasi di antara aslinya. Kompresi JPG kemudian mengelompokkan piksel ke dalam blok DCT 8x8 dan mengkuantisasinya; ketika piksel input itu sendiri merupakan tebakan terinterpolasi, langkah kuantisasi mengelompokkannya menjadi bubur. Hasilnya terlihat "lembut" atau "buram", dengan tepi lurus menjadi bergelombang dan tekstur halus menjadi abu-abu seragam.</p>
+    <p>Penyebab 3: sumber di-upscale sebelum Anda mengompresnya berarti detail palsu dari resampling terkunci di blok JPG - di Compressed JPG Looks Blurry? Three Causes kompres resolusi asli dulu.</p>
     <p><b>Perbaikan.</b> Kompres pada resolusi ASLI. Jika Anda butuh file kecil pada resolusi tinggi, pendekatan yang tepat adalah sebaliknya: pertahankan resolusi asli, kompres pada kualitas 75-85, dan biarkan browser atau alat slide menurunkan skala pada waktu tampilan. Browser menurunkan skala dengan tajam; upscaling pada waktu kompresi dan kemudian menurunkan skala pada waktu tampilan menumpuk dua langkah lossy tanpa keuntungan. Jika Anda memang memerlukan versi resolusi yang lebih tinggi dari asli kecil, upscaler AI (alat terpisah, bukan kompresor JPG) adalah alat yang tepat - mereka berhalusinasi detail secara konsisten daripada membiarkan kompresi JPG mengaburkannya.</p>
 
     <p>Versi terpendek dari aturan: kompres pada resolusi ASLI, dan biarkan browser menurunkan skala pada waktu tampilan. Menumpuk upscale sebelum kompresi dan downscale pada tampilan adalah dua langkah lossy tanpa keuntungan yang terlihat - downscale kedua tidak dapat memulihkan detail yang upscale pertama ciptakan, dan kuantizer JPG melihat kedua piksel terinterpolasi di antaranya. Satu pass pada resolusi native, lalu downscale CSS atau width-attribute di halaman, adalah jalur yang menjaga gambar tajam.</p>
