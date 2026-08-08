@@ -27937,7 +27937,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/black-body-radiation-when.html',
   '/guides/vi/black-cat-hot-tin-roof-vs-alternatives.html',
   '/guides/vi/black-cat-hot-tin-roof-when.html',
-  '/guides/vi/black-hole-3d-visualizer-step-by-step.html',
   '/guides/vi/black-hole-3d-visualizer-vs-alternatives.html',
   '/guides/vi/black-hole-3d-visualizer-when.html',
   '/guides/vi/black-hole-square-vs-alternatives.html',
@@ -28634,7 +28633,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/how-to-play-quantum-shift.html',
   '/guides/vi/how-to-play-retro-arcade-shooter.html',
   '/guides/vi/how-to-play-retro-fps-online.html',
-  '/guides/vi/how-to-play-retro-highway-racer.html',
   '/guides/vi/how-to-play-ritual-catacombs.html',
   '/guides/vi/how-to-play-rock-paper-neural.html',
   '/guides/vi/how-to-play-roller-maze-escape.html',
@@ -28861,7 +28859,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/kepler-orbits-when.html',
   '/guides/vi/keyboard-test-keys-not-detected-four-fixes.html',
   '/guides/vi/kilonova-step-by-step.html',
-  '/guides/vi/kilonova-vs-alternatives.html',
   '/guides/vi/kilonova-when.html',
   '/guides/vi/kirkwood-gaps-step-by-step.html',
   '/guides/vi/kirkwood-gaps-vs-alternatives.html',
@@ -28931,7 +28928,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/mars-terrain-vs-alternatives.html',
   '/guides/vi/mars-terrain-when.html',
   '/guides/vi/md5-alternatives-bcrypt-argon2id-sha256-when-each-fits.html',
-  '/guides/vi/md5-decode.html',
   '/guides/vi/md5-decrypt-online.html',
   '/guides/vi/md5-hash-decrypt.html',
   '/guides/vi/md5-password.html',
@@ -29841,7 +29837,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/galactic-coordinate-transforms-step-by-step.html",
   "/guides/de/galactic-coordinate-transforms-vs-alternatives.html",
   "/guides/de/galactic-coordinate-transforms-when.html",
-  "/guides/de/galactic-year-sun-orbit-step-by-step.html",
   "/guides/de/galactic-year-sun-orbit-vs-alternatives.html",
   "/guides/de/galactic-year-sun-orbit-when.html",
   "/guides/de/gallimimus-3d-viewer-vs-ar-apps.html",
@@ -30532,8 +30527,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/meme-maker-vs-alternatives.html",
   "/guides/de/meme-maker-when.html",
   "/guides/de/mengecilkan-ukuran-zip.html",
-  "/guides/de/mercury-spin-orbit-resonance-step-by-step.html",
-  "/guides/de/mercury-spin-orbit-resonance-vs-alternatives.html",
   "/guides/de/mercury-spin-orbit-resonance-when.html",
   "/guides/de/merge-pdf-online-free-unlimited.html",
   "/guides/de/meteor-airburst-size-comparison-step-by-step.html",
@@ -31437,7 +31430,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/how-to-play-void-trader.html',
   '/guides/pt/how-to-play-voxel-fps-arena.html',
   '/guides/pt/how-to-play-wash-the-cat.html',
-  '/guides/pt/how-to-reduce-zip-file-size-online.html',
   '/guides/pt/how-to-run-a-private-ai-chat-in-your-browser.html',
   '/guides/pt/how-to-sign-pdf-after-removing-a-password.html',
   '/guides/pt/how-to-split-a-gif-into-frames-for-editing.html',
@@ -31816,7 +31808,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/relativistic-jets-agn-vs-alternatives.html',
   '/guides/pt/relativistic-jets-agn-when.html',
   '/guides/pt/remove-audio-from-video-step-by-step.html',
-  '/guides/pt/remove-audio-from-video-vs-alternatives.html',
   '/guides/pt/remove-audio-from-video-when.html',
   '/guides/pt/remove-duplicate-lines-step-by-step.html',
   '/guides/pt/reorder-organize-pdf-pages-step-by-step.html',
@@ -32078,7 +32069,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/file-encryption-vs-alternatives.html',
   '/guides/pt/file-encryption-when.html',
   '/guides/pt/file-to-zip.html',
-  '/guides/pt/flashcards-spaced-repetition-step-by-step.html',
   '/guides/pt/flashcards-spaced-repetition-vs-alternatives.html',
   '/guides/pt/flashcards-spaced-repetition-when.html',
   '/guides/pt/folder-to-zip.html',
@@ -32132,7 +32122,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/hex-puzzle-blocks-when.html',
   '/guides/pt/hill-sphere-step-by-step.html',
   '/guides/pt/hill-sphere-vs-alternatives.html',
-  '/guides/pt/hill-sphere-when.html',
   '/guides/pt/hohmann-transfer-step-by-step.html',
   '/guides/pt/hohmann-transfer-vs-alternatives.html',
   '/guides/pt/hohmann-transfer-when.html',
@@ -32282,7 +32271,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/ankylosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/es/ankylosaurus-size-comparison.html',
   '/guides/es/apatosaurus-3d-viewer-vs-ar-apps.html',
-  '/guides/es/apatosaurus-size-comparison.html',
   '/guides/es/apollo-free-return-trajectory-step-by-step.html',
   '/guides/es/apollo-free-return-trajectory-vs-alternatives.html',
   '/guides/es/apollo-free-return-trajectory-when.html',
@@ -32463,7 +32451,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/add-watermark-image-when.html',
   '/guides/es/ai-background-remover-step-by-step.html',
   '/guides/es/ai-background-remover-vs-alternatives.html',
-  '/guides/es/ai-background-remover-when.html',
   '/guides/es/ai-photo-restoration-step-by-step.html',
   '/guides/es/ai-photo-restoration-vs-alternatives.html',
   '/guides/es/ai-photo-restoration-when.html',
@@ -32738,7 +32725,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/herd-cats-home-when.html',
   '/guides/es/hex-puzzle-blocks-step-by-step.html',
   '/guides/es/hex-puzzle-blocks-vs-alternatives.html',
-  '/guides/es/hex-puzzle-blocks-when.html',
   '/guides/es/hill-sphere-step-by-step.html',
   '/guides/es/hill-sphere-vs-alternatives.html',
   '/guides/es/hill-sphere-when.html',
@@ -32749,7 +32735,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/hover-racing-when.html',
   '/guides/es/how-to-check-camera-quality-on-your-phone.html',
   '/guides/es/how-to-check-webcam-and-microphone-before-an-interview.html',
-  '/guides/es/how-to-choose-a-compression-level.html',
   '/guides/es/how-to-convert-100-heic-photos-to-jpg.html',
   '/guides/es/how-to-convert-heic-to-jpg-step-by-step.html',
   '/guides/es/how-to-convert-units-online.html',
@@ -32884,7 +32869,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/how-to-view-brachylophosaurus-in-3d.html',
   '/guides/es/how-to-view-brontosaurus-in-3d.html',
   '/guides/es/how-to-view-brontotherium-in-3d.html',
-  '/guides/es/how-to-view-carnotaurus-in-3d.html',
   '/guides/es/how-to-view-ceratosaurus-in-3d.html',
   '/guides/es/how-to-view-chasmosaurus-in-3d.html',
   '/guides/es/how-to-view-coelophysis-in-3d.html',
@@ -32928,7 +32912,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/how-to-view-postosuchus-in-3d.html',
   '/guides/es/how-to-view-protoceratops-in-3d.html',
   '/guides/es/how-to-view-psittacosaurus-in-3d.html',
-  '/guides/es/how-to-view-pteranodon-in-3d.html',
   '/guides/es/how-to-view-quetzalcoatlus-in-3d.html',
   '/guides/es/how-to-view-sarcosuchus-in-3d.html',
   '/guides/es/how-to-view-sauropelta-in-3d.html',
@@ -33569,7 +33552,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/text-diff-vs-line-diff-vs-word-diff-vs-git-diff.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/when-to-compress-vs-convert-an-image.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/how-to-zip-folder-online-step-by-step.html', // pruned 2026-07-29 zero-evidence es
-  '/guides/es/image-compression-and-exif-metadata-what-gets-stripped.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/md5-alternatives-bcrypt-argon2id-sha256-when-each-fits.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/lcd-test-what-it-checks.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/zip-file-converter-what-it-actually-does.html', // pruned 2026-07-29 zero-evidence es
@@ -34113,7 +34095,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/id/habitable-zone-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/habitable-zone-when.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/hash-generator-sha-256-512-step-by-step.html', // pruned 2026-07-29 zero-evidence id
-  '/guides/id/hash-generator-sha-256-512-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/hash-generator-sha-256-512-when.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/haumea-elongated-step-by-step.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/haumea-elongated-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
@@ -34270,7 +34251,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/id/star-trails-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/tidal-heating-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/planetary-rings-comparison-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
-  '/guides/id/n-body-sandbox-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/coordinate-systems-sky-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/cmb-sky-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/stellar-nucleosynthesis-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
@@ -34486,7 +34466,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/id/compound-interest-calculator-vs-alternatives.html',
   '/guides/id/compound-interest-calculator-when.html',
   '/guides/id/compress-folder-online.html',
-  '/guides/id/compress-pdf-online-free.html',
   '/guides/id/constellation-sphere-step-by-step.html',
   '/guides/id/constellation-sphere-vs-alternatives.html',
   '/guides/id/constellation-sphere-when.html',
@@ -34836,7 +34815,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/id/monitor-refresh-rate-test-hz-when.html',
   '/guides/id/monitor-refresh-rate-test-hz-step-by-step.html',
   '/guides/id/monitor-refresh-rate-test-hz-vs-alternatives.html',
-  '/guides/id/touchscreen-test-when.html',
   '/guides/id/touchscreen-test-step-by-step.html',
   '/guides/id/touchscreen-test-vs-alternatives.html',
   '/guides/id/mouse-test-buttons-scroll-when.html',
