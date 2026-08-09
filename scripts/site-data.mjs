@@ -15272,6 +15272,7 @@ export const ALIAS_ROUTES = {
   '/av1-to-mp4-converter.html': '/video-tools/av1-to-mp4-converter.html',
   '/av1-to-webm-converter.html': '/video-tools/av1-to-webm-converter.html',
   '/subtitle-generator.html': '/video-tools/subtitle-generator.html',
+  '/ai-translator.html': '/utility-tools/ai-translator.html',
   '/annuity-calculator.html': '/utility-tools/annuity-calculator.html',
   '/days-from-today-calculator.html': '/utility-tools/days-from-today-calculator.html',
   '/mortgage-calculator.html': '/utility-tools/mortgage-calculator.html',
@@ -15350,6 +15351,7 @@ export const ALIAS_ROUTES = {
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
   '/utility-tools/text-summarizer.html': 'utility/text-summarizer.jsp',
+  '/utility-tools/ai-translator.html': 'utility/ai-translator.jsp',
   '/guides/text-summarizer-private-browser-when.html': 'guide/text-summarizer-private-browser-when.jsp',
   '/guides/text-summarizer-private-browser-step-by-step.html': 'guide/text-summarizer-private-browser-step-by-step.jsp',
   '/guides/text-summarizer-private-browser-vs-alternatives.html': 'guide/text-summarizer-private-browser-vs-alternatives.jsp',
