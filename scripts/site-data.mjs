@@ -52,6 +52,24 @@ export const INFO_ROUTES = new Set([
   '/guides/de/event-time-countdown-when.html',
   '/guides/wildfire-map-step-by-step.html',
   '/guides/wildfire-map-when.html',
+  '/guides/text-summarizer-private-browser-when.html',
+  '/guides/text-summarizer-private-browser-step-by-step.html',
+  '/guides/text-summarizer-private-browser-vs-alternatives.html',
+  '/guides/pt/text-summarizer-private-browser-when.html',
+  '/guides/pt/text-summarizer-private-browser-step-by-step.html',
+  '/guides/pt/text-summarizer-private-browser-vs-alternatives.html',
+  '/guides/es/text-summarizer-private-browser-when.html',
+  '/guides/es/text-summarizer-private-browser-step-by-step.html',
+  '/guides/es/text-summarizer-private-browser-vs-alternatives.html',
+  '/guides/vi/text-summarizer-private-browser-when.html',
+  '/guides/vi/text-summarizer-private-browser-step-by-step.html',
+  '/guides/vi/text-summarizer-private-browser-vs-alternatives.html',
+  '/guides/id/text-summarizer-private-browser-when.html',
+  '/guides/id/text-summarizer-private-browser-step-by-step.html',
+  '/guides/id/text-summarizer-private-browser-vs-alternatives.html',
+  '/guides/de/text-summarizer-private-browser-when.html',
+  '/guides/de/text-summarizer-private-browser-step-by-step.html',
+  '/guides/de/text-summarizer-private-browser-vs-alternatives.html',
   '/guides/wildfire-map-vs-alternatives.html',
   '/guides/pt/wildfire-map-step-by-step.html',
   '/guides/pt/wildfire-map-when.html',
@@ -13778,6 +13796,7 @@ export function isArticleFamilyRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  '/text-summarizer.html': '/utility-tools/text-summarizer.html',
   // 2026-08-09 content-consolidation fire38 step-1a: 2 cannibalized topical-map
   // nodes drained. gif-into-frames + gif-frame-extractor (EN-only stubs, 0 clicks)
   // retired into the canonical extractor; bmi-calculator-step-by-step +
@@ -15259,6 +15278,25 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  '/utility-tools/text-summarizer.html': 'utility/text-summarizer.jsp',
+  '/guides/text-summarizer-private-browser-when.html': 'guide/text-summarizer-private-browser-when.jsp',
+  '/guides/text-summarizer-private-browser-step-by-step.html': 'guide/text-summarizer-private-browser-step-by-step.jsp',
+  '/guides/text-summarizer-private-browser-vs-alternatives.html': 'guide/text-summarizer-private-browser-vs-alternatives.jsp',
+  '/guides/pt/text-summarizer-private-browser-when.html': 'guide/pt/text-summarizer-private-browser-when.jsp',
+  '/guides/pt/text-summarizer-private-browser-step-by-step.html': 'guide/pt/text-summarizer-private-browser-step-by-step.jsp',
+  '/guides/pt/text-summarizer-private-browser-vs-alternatives.html': 'guide/pt/text-summarizer-private-browser-vs-alternatives.jsp',
+  '/guides/es/text-summarizer-private-browser-when.html': 'guide/es/text-summarizer-private-browser-when.jsp',
+  '/guides/es/text-summarizer-private-browser-step-by-step.html': 'guide/es/text-summarizer-private-browser-step-by-step.jsp',
+  '/guides/es/text-summarizer-private-browser-vs-alternatives.html': 'guide/es/text-summarizer-private-browser-vs-alternatives.jsp',
+  '/guides/vi/text-summarizer-private-browser-when.html': 'guide/vi/text-summarizer-private-browser-when.jsp',
+  '/guides/vi/text-summarizer-private-browser-step-by-step.html': 'guide/vi/text-summarizer-private-browser-step-by-step.jsp',
+  '/guides/vi/text-summarizer-private-browser-vs-alternatives.html': 'guide/vi/text-summarizer-private-browser-vs-alternatives.jsp',
+  '/guides/id/text-summarizer-private-browser-when.html': 'guide/id/text-summarizer-private-browser-when.jsp',
+  '/guides/id/text-summarizer-private-browser-step-by-step.html': 'guide/id/text-summarizer-private-browser-step-by-step.jsp',
+  '/guides/id/text-summarizer-private-browser-vs-alternatives.html': 'guide/id/text-summarizer-private-browser-vs-alternatives.jsp',
+  '/guides/de/text-summarizer-private-browser-when.html': 'guide/de/text-summarizer-private-browser-when.jsp',
+  '/guides/de/text-summarizer-private-browser-step-by-step.html': 'guide/de/text-summarizer-private-browser-step-by-step.jsp',
+  '/guides/de/text-summarizer-private-browser-vs-alternatives.html': 'guide/de/text-summarizer-private-browser-vs-alternatives.jsp',
   '/guides/what-national-day-is-today-step-by-step.html': 'guide/what-national-day-is-today-step-by-step.jsp',
   '/guides/what-national-day-is-today-when.html': 'guide/what-national-day-is-today-when.jsp',
   '/guides/what-national-day-is-today-vs-alternatives.html': 'guide/what-national-day-is-today-vs-alternatives.jsp',
