@@ -740,6 +740,7 @@ try {
     { title: "Proxima Centauri System 3D Explorer", url: "https://freetoolonline.com/space-3d/proxima-centauri-system.html", include: !1, tags: "space-3d" },
     { title: "Globular Star Swarm 3D Explorer", url: "https://freetoolonline.com/space-3d/globular-cluster.html", include: !1, tags: "space-3d" },
     { title: "Titan Methane Lakes 3D Explorer", url: "https://freetoolonline.com/space-3d/titan-methane-lakes.html", include: !1, tags: "space-3d" },
+    { title: "Titan's Methane Weather Cycle 3D Explorer", url: "https://freetoolonline.com/space-3d/titan-hydrocarbon-weather-cycle.html", include: !1, tags: "space-3d" },
     { title: "Dead Sea 3D Explorer", url: "https://freetoolonline.com/places-3d/dead-sea.html", include: !1, tags: "places-3d" },
     { title: "Mount Everest 3D Explorer", url: "https://freetoolonline.com/places-3d/mount-everest.html", include: !1, tags: "places-3d" },
     { title: "Grand Canyon 3D Explorer", url: "https://freetoolonline.com/places-3d/grand-canyon.html", include: !1, tags: "places-3d" },
