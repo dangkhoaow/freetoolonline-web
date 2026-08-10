@@ -14,6 +14,24 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/ai-translator-offline-when.html',
+  '/guides/ai-translator-offline-step-by-step.html',
+  '/guides/ai-translator-offline-vs-alternatives.html',
+  '/guides/pt/ai-translator-offline-when.html',
+  '/guides/pt/ai-translator-offline-step-by-step.html',
+  '/guides/pt/ai-translator-offline-vs-alternatives.html',
+  '/guides/es/ai-translator-offline-when.html',
+  '/guides/es/ai-translator-offline-step-by-step.html',
+  '/guides/es/ai-translator-offline-vs-alternatives.html',
+  '/guides/vi/ai-translator-offline-when.html',
+  '/guides/vi/ai-translator-offline-step-by-step.html',
+  '/guides/vi/ai-translator-offline-vs-alternatives.html',
+  '/guides/id/ai-translator-offline-when.html',
+  '/guides/id/ai-translator-offline-step-by-step.html',
+  '/guides/id/ai-translator-offline-vs-alternatives.html',
+  '/guides/de/ai-translator-offline-when.html',
+  '/guides/de/ai-translator-offline-step-by-step.html',
+  '/guides/de/ai-translator-offline-vs-alternatives.html',
   '/guides/subtitle-generator-srt-vtt-when.html',
   '/guides/subtitle-generator-srt-vtt-step-by-step.html',
   '/guides/subtitle-generator-srt-vtt-vs-alternatives.html',
@@ -1565,8 +1583,8 @@ export const INFO_ROUTES = new Set([
   '/guides/age-calculator-vs-alternatives.html',
   '/guides/age-calculator-step-by-step.html',
   '/guides/age-calculator-when.html',
-  '/guides/passport-photo-maker-vs-alternatives.html',
-  '/guides/passport-photo-maker-step-by-step.html',
+  // passport-photo-maker step-by-step + vs-alternatives retired 2026-08-10
+  // (consolidation fire44 step-1a) into passport-photo-maker-when -> ALIAS_ROUTES.
   '/guides/passport-photo-maker-when.html',
   // new-tool-discovery-loop-runbook fire211 (2026-07-17): passport-photo-maker
   // locale fanout (pt/es/vi/id/de) for the 3 EN companion guide angles - locale
@@ -1576,16 +1594,6 @@ export const INFO_ROUTES = new Set([
   '/guides/vi/passport-photo-maker-when.html',
   '/guides/id/passport-photo-maker-when.html',
   '/guides/de/passport-photo-maker-when.html',
-  '/guides/pt/passport-photo-maker-step-by-step.html',
-  '/guides/es/passport-photo-maker-step-by-step.html',
-  '/guides/vi/passport-photo-maker-step-by-step.html',
-  '/guides/id/passport-photo-maker-step-by-step.html',
-  '/guides/de/passport-photo-maker-step-by-step.html',
-  '/guides/pt/passport-photo-maker-vs-alternatives.html',
-  '/guides/es/passport-photo-maker-vs-alternatives.html',
-  '/guides/vi/passport-photo-maker-vs-alternatives.html',
-  '/guides/id/passport-photo-maker-vs-alternatives.html',
-  '/guides/de/passport-photo-maker-vs-alternatives.html',
   '/guides/image-text-ocr-vs-alternatives.html',
   '/guides/image-text-ocr-step-by-step.html',
   '/guides/image-text-ocr-when.html',
@@ -15281,6 +15289,32 @@ export const ALIAS_ROUTES = {
   '/case-converter.html': '/developer-tools/case-converter.html',
   '/image-to-text-ocr.html': '/image-tools/image-to-text-ocr.html',
   '/passport-photo-maker.html': '/image-tools/passport-photo-maker.html',
+  // 2026-08-10 content-consolidation fire44 step-1a: the
+  // image-editing.passport-photo-maker.tool intent node carried 3 live guide
+  // families of ~180w each x 6 locales (18 routes) on ONE intent. Two
+  // paragraphs - the white-background/preset-pixel-size/300-DPI output fact and
+  // the local-Canvas-API/never-uploaded fact - were VERBATIM in all three; the
+  // anti-claims paragraph was verbatim in two. Unique content per page was one
+  // framing sentence, one 3-step sequence, and one 3-way comparison table. All
+  // three families: 0 clicks / <=1 impr / 0 AI citations / 0 revenue and ZERO
+  // editorial inbound links (content-graph 2026-08-10). The step-by-step and
+  // vs-alternatives families were retired into passport-photo-maker-when after
+  // folding their unique facts (the 3-step sequence + the full comparison table,
+  // cell for cell) into all 6 canonical locales. Edge layer mirrored in
+  // seo-reports/static-plan/20260510/cloudfront-function/url-migration-301.js
+  // per the two-layer redirect rule.
+  '/guides/passport-photo-maker-step-by-step.html': '/guides/passport-photo-maker-when.html',
+  '/guides/pt/passport-photo-maker-step-by-step.html': '/guides/pt/passport-photo-maker-when.html',
+  '/guides/es/passport-photo-maker-step-by-step.html': '/guides/es/passport-photo-maker-when.html',
+  '/guides/vi/passport-photo-maker-step-by-step.html': '/guides/vi/passport-photo-maker-when.html',
+  '/guides/id/passport-photo-maker-step-by-step.html': '/guides/id/passport-photo-maker-when.html',
+  '/guides/de/passport-photo-maker-step-by-step.html': '/guides/de/passport-photo-maker-when.html',
+  '/guides/passport-photo-maker-vs-alternatives.html': '/guides/passport-photo-maker-when.html',
+  '/guides/pt/passport-photo-maker-vs-alternatives.html': '/guides/pt/passport-photo-maker-when.html',
+  '/guides/es/passport-photo-maker-vs-alternatives.html': '/guides/es/passport-photo-maker-when.html',
+  '/guides/vi/passport-photo-maker-vs-alternatives.html': '/guides/vi/passport-photo-maker-when.html',
+  '/guides/id/passport-photo-maker-vs-alternatives.html': '/guides/id/passport-photo-maker-when.html',
+  '/guides/de/passport-photo-maker-vs-alternatives.html': '/guides/de/passport-photo-maker-when.html',
   '/age-calculator.html': '/utility-tools/age-calculator.html',
   '/photo-restoration.html': '/image-tools/photo-restoration.html',
   '/video-splitter.html': '/video-tools/video-splitter.html',
@@ -15459,6 +15493,24 @@ export const ALIAS_ROUTES = {
 export const JSP_BY_ROUTE = {
   '/utility-tools/text-summarizer.html': 'utility/text-summarizer.jsp',
   '/utility-tools/ai-translator.html': 'utility/ai-translator.jsp',
+  '/guides/ai-translator-offline-when.html': 'guide/ai-translator-offline-when.jsp',
+  '/guides/ai-translator-offline-step-by-step.html': 'guide/ai-translator-offline-step-by-step.jsp',
+  '/guides/ai-translator-offline-vs-alternatives.html': 'guide/ai-translator-offline-vs-alternatives.jsp',
+  '/guides/pt/ai-translator-offline-when.html': 'guide/pt/ai-translator-offline-when.jsp',
+  '/guides/pt/ai-translator-offline-step-by-step.html': 'guide/pt/ai-translator-offline-step-by-step.jsp',
+  '/guides/pt/ai-translator-offline-vs-alternatives.html': 'guide/pt/ai-translator-offline-vs-alternatives.jsp',
+  '/guides/es/ai-translator-offline-when.html': 'guide/es/ai-translator-offline-when.jsp',
+  '/guides/es/ai-translator-offline-step-by-step.html': 'guide/es/ai-translator-offline-step-by-step.jsp',
+  '/guides/es/ai-translator-offline-vs-alternatives.html': 'guide/es/ai-translator-offline-vs-alternatives.jsp',
+  '/guides/vi/ai-translator-offline-when.html': 'guide/vi/ai-translator-offline-when.jsp',
+  '/guides/vi/ai-translator-offline-step-by-step.html': 'guide/vi/ai-translator-offline-step-by-step.jsp',
+  '/guides/vi/ai-translator-offline-vs-alternatives.html': 'guide/vi/ai-translator-offline-vs-alternatives.jsp',
+  '/guides/id/ai-translator-offline-when.html': 'guide/id/ai-translator-offline-when.jsp',
+  '/guides/id/ai-translator-offline-step-by-step.html': 'guide/id/ai-translator-offline-step-by-step.jsp',
+  '/guides/id/ai-translator-offline-vs-alternatives.html': 'guide/id/ai-translator-offline-vs-alternatives.jsp',
+  '/guides/de/ai-translator-offline-when.html': 'guide/de/ai-translator-offline-when.jsp',
+  '/guides/de/ai-translator-offline-step-by-step.html': 'guide/de/ai-translator-offline-step-by-step.jsp',
+  '/guides/de/ai-translator-offline-vs-alternatives.html': 'guide/de/ai-translator-offline-vs-alternatives.jsp',
   '/guides/text-summarizer-private-browser-when.html': 'guide/text-summarizer-private-browser-when.jsp',
   '/guides/text-summarizer-private-browser-step-by-step.html': 'guide/text-summarizer-private-browser-step-by-step.jsp',
   '/guides/text-summarizer-private-browser-vs-alternatives.html': 'guide/text-summarizer-private-browser-vs-alternatives.jsp',
@@ -25323,24 +25375,12 @@ export const JSP_BY_ROUTE = {
   '/guides/de/image-text-ocr-vs-alternatives.html': 'guide/de/image-text-ocr-vs-alternatives.jsp',
   '/image-tools/passport-photo-maker.html': 'convert/passport-photo-maker.jsp',
   '/guides/passport-photo-maker-when.html': 'guide/passport-photo-maker-when.jsp',
-  '/guides/passport-photo-maker-step-by-step.html': 'guide/passport-photo-maker-step-by-step.jsp',
-  '/guides/passport-photo-maker-vs-alternatives.html': 'guide/passport-photo-maker-vs-alternatives.jsp',
   // new-tool-discovery-loop-runbook fire211 (2026-07-17): passport-photo-maker locale fanout.
   '/guides/pt/passport-photo-maker-when.html': 'guide/pt/passport-photo-maker-when.jsp',
   '/guides/es/passport-photo-maker-when.html': 'guide/es/passport-photo-maker-when.jsp',
   '/guides/vi/passport-photo-maker-when.html': 'guide/vi/passport-photo-maker-when.jsp',
   '/guides/id/passport-photo-maker-when.html': 'guide/id/passport-photo-maker-when.jsp',
   '/guides/de/passport-photo-maker-when.html': 'guide/de/passport-photo-maker-when.jsp',
-  '/guides/pt/passport-photo-maker-step-by-step.html': 'guide/pt/passport-photo-maker-step-by-step.jsp',
-  '/guides/es/passport-photo-maker-step-by-step.html': 'guide/es/passport-photo-maker-step-by-step.jsp',
-  '/guides/vi/passport-photo-maker-step-by-step.html': 'guide/vi/passport-photo-maker-step-by-step.jsp',
-  '/guides/id/passport-photo-maker-step-by-step.html': 'guide/id/passport-photo-maker-step-by-step.jsp',
-  '/guides/de/passport-photo-maker-step-by-step.html': 'guide/de/passport-photo-maker-step-by-step.jsp',
-  '/guides/pt/passport-photo-maker-vs-alternatives.html': 'guide/pt/passport-photo-maker-vs-alternatives.jsp',
-  '/guides/es/passport-photo-maker-vs-alternatives.html': 'guide/es/passport-photo-maker-vs-alternatives.jsp',
-  '/guides/vi/passport-photo-maker-vs-alternatives.html': 'guide/vi/passport-photo-maker-vs-alternatives.jsp',
-  '/guides/id/passport-photo-maker-vs-alternatives.html': 'guide/id/passport-photo-maker-vs-alternatives.jsp',
-  '/guides/de/passport-photo-maker-vs-alternatives.html': 'guide/de/passport-photo-maker-vs-alternatives.jsp',
   '/utility-tools/age-calculator.html': 'utility/age-calculator.jsp',
   '/guides/age-calculator-when.html': 'guide/age-calculator-when.jsp',
   '/guides/age-calculator-step-by-step.html': 'guide/age-calculator-step-by-step.jsp',
