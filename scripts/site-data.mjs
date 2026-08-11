@@ -14173,6 +14173,7 @@ export const ALIAS_ROUTES = {
   '/uluru.html': '/places-3d/uluru.html',
   '/waitomo-caves.html': '/places-3d/waitomo-caves.html',
   '/sossusvlei.html': '/places-3d/sossusvlei.html',
+  '/yosemite-valley.html': '/places-3d/yosemite-valley.html',
   '/sahara-desert.html': '/places-3d/sahara-desert.html',
   '/atacama-desert.html': '/places-3d/atacama-desert.html',
   '/stone-forest-shilin.html': '/places-3d/stone-forest-shilin.html',
@@ -15489,6 +15490,7 @@ export const ALIAS_ROUTES = {
   '/event-time-countdown.html': '/utility-tools/event-time-countdown.html',
   '/wildfire-map.html': '/utility-tools/wildfire-map.html',
   '/tournament-prize-money-lookup.html': '/utility-tools/tournament-prize-money-lookup.html',
+  '/vehicle-recall-lookup.html': '/utility-tools/vehicle-recall-lookup.html',
   // content-consolidation-loop fire39 (2026-08-09) - step-1a cannibalized-backlog drain.
   // topical-map nodes video.hd-video-converter + utility.grocery-list each carried 3 guide
   // families for ONE reader intent. The two weakest TEMPLATE families per node are retired
@@ -15993,6 +15995,7 @@ export const JSP_BY_ROUTE = {
   '/places-3d/uluru.html': 'place/uluru.jsp',
   '/places-3d/waitomo-caves.html': 'place/waitomo-caves.jsp',
   '/places-3d/sossusvlei.html': 'place/sossusvlei.jsp',
+  '/places-3d/yosemite-valley.html': 'place/yosemite-valley.jsp',
   '/places-3d/sahara-desert.html': 'place/sahara-desert.jsp',
   '/places-3d/atacama-desert.html': 'place/atacama-desert.jsp',
   '/places-3d/stone-forest-shilin.html': 'place/stone-forest-shilin.jsp',
@@ -27997,6 +28000,7 @@ export const JSP_BY_ROUTE = {
   '/guides/de/holiday-countdown-date-lookup-step-by-step.html': 'guide/de/holiday-countdown-date-lookup-step-by-step.jsp',
   '/guides/de/holiday-countdown-date-lookup-vs-alternatives.html': 'guide/de/holiday-countdown-date-lookup-vs-alternatives.jsp',
   '/utility-tools/tournament-prize-money-lookup.html': 'utility/tournament-prize-money-lookup.jsp',
+  '/utility-tools/vehicle-recall-lookup.html': 'utility/vehicle-recall-lookup.jsp',
   '/guides/tennis-grand-slam-prize-money-lookup-when.html': 'guide/tennis-grand-slam-prize-money-lookup-when.jsp',
   '/guides/tennis-grand-slam-prize-money-lookup-step-by-step.html': 'guide/tennis-grand-slam-prize-money-lookup-step-by-step.jsp',
   '/guides/tennis-grand-slam-prize-money-lookup-vs-alternatives.html': 'guide/tennis-grand-slam-prize-money-lookup-vs-alternatives.jsp',

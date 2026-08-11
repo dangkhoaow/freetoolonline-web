@@ -1,5 +1,5 @@
 <div class="w3-container">
-    <p>See where the Sun sits among the labeled spiral arms in a top-down 3D view of our galaxy.</p>
+    <p>Yosemite Valley is a glacier-carved granite trench about 1,200 m above sea level. Toggle the glacial polish bands to see how the ice sheet smoothed the lower walls, and the Yosemite Falls marker on the north wall.</p>
 </div>
 
 <div id="t3dWrapper" class="w3-container" style="background:#fafafa; padding:12px 8px 16px 8px;">
@@ -12,7 +12,7 @@
             <aside class="w3-col l4 m12">
                 <div id="t3dInfoPanel" class="w3-panel w3-pale-blue w3-leftbar w3-border-blue" style="margin-top:0; font-size:14px;">
                     <h3>About this scene</h3>
-                    <p>The facts panel fills in when the scene loads. Highlight the Sun, an arm, or the galactic center while the disk spins slowly.</p>
+                    <p>The facts panel fills when the scene loads. Use the toggles below the scene.</p>
                 </div>
             </aside>
         </div>
@@ -21,13 +21,9 @@
 
     <div style="text-align:center; margin-top:10px;">
         <button id="t3dFullscreenBtn" type="button" class="w3-button w3-blue">Fullscreen</button>
-        <span id="t3dMilkyWayMapControls" style="display:none;">
-            <button id="t3dMwPlayBtn" type="button" class="w3-button w3-amber">Pause spin</button>
-            <button id="t3dMwSunBtn" type="button" class="w3-button w3-light-grey">Sun</button>
-            <button id="t3dMwSagBtn" type="button" class="w3-button w3-light-grey">Sagittarius</button>
-            <button id="t3dMwOriBtn" type="button" class="w3-button w3-light-grey">Orion</button>
-            <button id="t3dMwPerBtn" type="button" class="w3-button w3-light-grey">Perseus</button>
-            <button id="t3dMwGcBtn" type="button" class="w3-button w3-light-grey">Center</button>
+        <span id="t3dPyvControls" style="display:none;">
+            <button id="t3dPyvPolishBtn" type="button" class="w3-button w3-grey">Glacial polish bands: Off</button>
+            <button id="t3dPyvFallsBtn" type="button" class="w3-button w3-grey">Yosemite Falls marker: On</button>
         </span>
     </div>
     <style>
@@ -36,4 +32,9 @@
         #t3dWrapper:fullscreen #t3dInfoPanel { background: #1c2331 !important; color: #dde; }
         .t3d-note { font-size: 12.5px; color: #555; }
     </style>
+</div>
+
+<div class="w3-container">
+    <p>Published figures: valley floor about 1,200 m elevation, about 12 km long and 1.6 km wide; El Capitan rises about 1,100 m above the floor; Half Dome rises about 1,444 m above the floor at Tenaya Canyon; Yosemite Falls drops about 739 m in three tiers.</p>
+    <p>Drag to orbit and scroll or pinch to zoom. Everything renders on your device with WebGL.</p>
 </div>
