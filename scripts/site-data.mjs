@@ -15521,6 +15521,7 @@ export const ALIAS_ROUTES = {
   '/av1-to-webm-converter.html': '/video-tools/av1-to-webm-converter.html',
   '/subtitle-generator.html': '/video-tools/subtitle-generator.html',
   '/ai-translator.html': '/utility-tools/ai-translator.html',
+  '/grammar-checker.html': '/utility-tools/grammar-checker.html',
   '/annuity-calculator.html': '/utility-tools/annuity-calculator.html',
   '/days-from-today-calculator.html': '/utility-tools/days-from-today-calculator.html',
   '/mortgage-calculator.html': '/utility-tools/mortgage-calculator.html',
@@ -15601,6 +15602,7 @@ export const ALIAS_ROUTES = {
 export const JSP_BY_ROUTE = {
   '/utility-tools/text-summarizer.html': 'utility/text-summarizer.jsp',
   '/utility-tools/ai-translator.html': 'utility/ai-translator.jsp',
+  '/utility-tools/grammar-checker.html': 'utility/grammar-checker.jsp',
   '/guides/ai-translator-offline-when.html': 'guide/ai-translator-offline-when.jsp',
   '/guides/ai-translator-offline-step-by-step.html': 'guide/ai-translator-offline-step-by-step.jsp',
   '/guides/ai-translator-offline-vs-alternatives.html': 'guide/ai-translator-offline-vs-alternatives.jsp',

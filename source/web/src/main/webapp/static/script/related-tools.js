@@ -916,6 +916,7 @@ try {
     { title: "Text Summarizer - Private, In Your Browser", url: "https://freetoolonline.com/utility-tools/text-summarizer.html", include: !1, tags: "utility" },
     { title: "Subtitle Generator - SRT and VTT, On Your Device", url: "https://freetoolonline.com/video-tools/subtitle-generator.html", include: !1, tags: "video" },
     { title: "AI Translator - Private, In Your Browser", url: "https://freetoolonline.com/utility-tools/ai-translator.html", include: !1, tags: "utility" },
+    { title: "AI Grammar Checker - Private, In Your Browser", url: "https://freetoolonline.com/utility-tools/grammar-checker.html", include: !1, tags: "utility" },
     { title: "Vehicle Recall Lookup", url: "https://freetoolonline.com/utility-tools/vehicle-recall-lookup.html", include: !1, tags: "utility" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
