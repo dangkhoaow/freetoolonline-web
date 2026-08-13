@@ -4,11 +4,11 @@
 <hr/>
 <p><a href="/image-tools/photo-restoration.html">AI Photo Restoration</a> runs in three steps: open the tool, provide your input, then download the result. This page walks through what each step expects.</p>
 <br/><h2><b>Step 1 - open the tool</b></h2>
-<p>Go to <a href="/image-tools/photo-restoration.html">AI Photo Restoration</a>. Nothing needs to be installed or signed in before you start.</p>
+<p>Open the tool by going to <a href="/image-tools/photo-restoration.html">AI Photo Restoration</a>. Nothing needs to be installed or signed in before you start.</p>
 <br/><h2><b>Step 2 - provide your input</b></h2>
-<p>The first run downloads the restoration model once (cached offline after that); on the WASM fallback (no WebGPU) it can take up to a minute to finish - the original photo previews immediately while you wait.</p>
+<p>Provide your input - the photo to restore. The first run downloads the restoration model once (cached offline after that); on the WASM fallback (no WebGPU) it can take up to a minute to finish - the original photo previews immediately while you wait.</p>
 <br/><h2><b>Step 3 - get the result</b></h2>
-<p>Everything runs locally via Transformers.js / ONNX Runtime Web - the photo is never uploaded to a server; only the model weights load from the Hugging Face hub.</p>
+<p>You get the result on the same page. Everything runs locally via Transformers.js / ONNX Runtime Web - the photo is never uploaded to a server; only the model weights load from the Hugging Face hub.</p>
 <p>This is a fixed 4x super-resolution/deblocking model - it sharpens and upscales, but it does not remove scratches, tears, or stains, and it does not colorize a black-and-white photo.</p>
 <br/><h2><b>Quick specs</b></h2>
 <table class="w3-table w3-bordered w3-small">
@@ -17,4 +17,4 @@
 <tr><td>First-run load on WASM fallback (no WebGPU)</td><td>up to ~60 s, then cached</td></tr>
 <tr><td>Photo bytes sent to a server</td><td>0 (runs in your browser)</td></tr>
 </table>
-<p><a href="/image-tools.html">&larr; Back to image editing tools</a></p>
+<p>Quick specs for AI Photo Restoration: upload a damaged or faded photo in the browser tool at /image-tools/photo-restoration.html, run one restore pass, then download the cleaned still without installing desktop software.</p>
