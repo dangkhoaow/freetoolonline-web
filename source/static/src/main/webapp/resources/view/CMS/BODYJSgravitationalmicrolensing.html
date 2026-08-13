@@ -55,6 +55,7 @@
         var coarse = window.matchMedia && window.matchMedia('(pointer: coarse)').matches;
         var low = coarse || ((navigator.hardwareConcurrency || 4) <= 4);
         var renderer = new THREE.WebGLRenderer({ antialias: !low, powerPreference: 'default' });
+        renderer.setClearColor(0x0a1535, 1); // deep space blue background
         renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
         var scene = new THREE.Scene();
         var camera = new THREE.PerspectiveCamera(opts.fov || 55, 1, 0.1, 4000);
@@ -133,6 +134,19 @@
         var scene = shell.scene;
         var time = { elapsed: 0 };
 
+        // Starfield background
+        var starCount = 400;
+        var starPos = new Float32Array(starCount * 3);
+        for (var si = 0; si < starCount; si++) {
+            starPos[si * 3] = (Math.random() - 0.5) * 300;
+            starPos[si * 3 + 1] = (Math.random() - 0.5) * 300;
+            starPos[si * 3 + 2] = (Math.random() - 0.5) * 300;
+        }
+        var starGeom = new THREE.BufferGeometry();
+        starGeom.setAttribute('position', new THREE.BufferAttribute(starPos, 3));
+        var starMat = new THREE.PointsMaterial({ color: 0xffffff, size: 0.3, sizeAttenuation: false });
+        scene.add(new THREE.Points(starGeom, starMat));
+
         // Foreground massive star (yellow)
         var fgStarGeom = new THREE.SphereGeometry(2, 24, 16);
         var fgStarMat = new THREE.MeshBasicMaterial({ color: 0xffdd44 });
@@ -154,7 +168,7 @@
         scene.add(exoPlanet);
 
         // Light rays showing bending (particles)
-        var rayCount = low ? 60 : 120;
+        var rayCount = shell.low ? 60 : 120;
         var rays = [];
         for (var i = 0; i < rayCount; i++) {
             var angle = (i / rayCount) * Math.PI * 2;
