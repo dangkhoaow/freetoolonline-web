@@ -7154,6 +7154,25 @@ export const INFO_ROUTES = new Set([
   '/guides/vi/jwst-deployment-sequence-vs-alternatives.html',
   '/guides/id/jwst-deployment-sequence-vs-alternatives.html',
   '/guides/de/jwst-deployment-sequence-vs-alternatives.html',
+  // sputnik-planitia-nitrogen-convection companion guides (space-3d-discovery-loop LEAN fire, 2026-08-13)
+  '/guides/how-to-use-sputnik-planitia-nitrogen-convection.html',
+  '/guides/pt/how-to-use-sputnik-planitia-nitrogen-convection.html',
+  '/guides/es/how-to-use-sputnik-planitia-nitrogen-convection.html',
+  '/guides/vi/how-to-use-sputnik-planitia-nitrogen-convection.html',
+  '/guides/id/how-to-use-sputnik-planitia-nitrogen-convection.html',
+  '/guides/de/how-to-use-sputnik-planitia-nitrogen-convection.html',
+  '/guides/sputnik-planitia-nitrogen-convection-when.html',
+  '/guides/pt/sputnik-planitia-nitrogen-convection-when.html',
+  '/guides/es/sputnik-planitia-nitrogen-convection-when.html',
+  '/guides/vi/sputnik-planitia-nitrogen-convection-when.html',
+  '/guides/id/sputnik-planitia-nitrogen-convection-when.html',
+  '/guides/de/sputnik-planitia-nitrogen-convection-when.html',
+  '/guides/sputnik-planitia-nitrogen-convection-vs-alternatives.html',
+  '/guides/pt/sputnik-planitia-nitrogen-convection-vs-alternatives.html',
+  '/guides/es/sputnik-planitia-nitrogen-convection-vs-alternatives.html',
+  '/guides/vi/sputnik-planitia-nitrogen-convection-vs-alternatives.html',
+  '/guides/id/sputnik-planitia-nitrogen-convection-vs-alternatives.html',
+  '/guides/de/sputnik-planitia-nitrogen-convection-vs-alternatives.html',
   '/guides/how-to-use-venus-atmospheric-superrotation.html',
   '/guides/pt/how-to-use-venus-atmospheric-superrotation.html',
   '/guides/es/how-to-use-venus-atmospheric-superrotation.html',
@@ -7515,30 +7534,17 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/mosasaurus-3d-viewer-vs-ar-apps.html',
   '/guides/id/mosasaurus-3d-viewer-vs-ar-apps.html',
   '/guides/de/mosasaurus-3d-viewer-vs-ar-apps.html',
-  // dinosaur-3d-guides-loop-runbook fire7 (2026-07-16): how-to-view-velociraptor-in-3d
-  // (EN + pt/es/vi/id/de) - how-to angle for the Velociraptor viewer.
-  '/guides/how-to-view-velociraptor-in-3d.html',
-  '/guides/pt/how-to-view-velociraptor-in-3d.html',
-  '/guides/es/how-to-view-velociraptor-in-3d.html',
-  '/guides/vi/how-to-view-velociraptor-in-3d.html',
-  '/guides/id/how-to-view-velociraptor-in-3d.html',
-  '/guides/de/how-to-view-velociraptor-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire8 (2026-07-16): velociraptor-size-comparison
-  // (EN + pt/es/vi/id/de) - size angle for the Velociraptor viewer.
+  // (EN + pt/es/vi/id/de) - size angle for the Velociraptor viewer. consolidation
+  // fire54 (2026-08-12): this is now the SOLE guide family for the
+  // dinosaur-3d.velociraptor.viewer intent node - the fire7 how-to-view and fire9
+  // vs-ar-apps families were folded into it and 301d (see ALIAS_ROUTES).
   '/guides/velociraptor-size-comparison.html',
   '/guides/pt/velociraptor-size-comparison.html',
   '/guides/es/velociraptor-size-comparison.html',
   '/guides/vi/velociraptor-size-comparison.html',
   '/guides/id/velociraptor-size-comparison.html',
   '/guides/de/velociraptor-size-comparison.html',
-  // dinosaur-3d-guides-loop-runbook fire9 (2026-07-16): velociraptor-3d-viewer-vs-ar-apps
-  // (EN + pt/es/vi/id/de) - vs-alternatives angle for the Velociraptor viewer.
-  '/guides/velociraptor-3d-viewer-vs-ar-apps.html',
-  '/guides/pt/velociraptor-3d-viewer-vs-ar-apps.html',
-  '/guides/es/velociraptor-3d-viewer-vs-ar-apps.html',
-  '/guides/vi/velociraptor-3d-viewer-vs-ar-apps.html',
-  '/guides/id/velociraptor-3d-viewer-vs-ar-apps.html',
-  '/guides/de/velociraptor-3d-viewer-vs-ar-apps.html',
   // dinosaur-3d-guides-loop-runbook fire11 (2026-07-16): triceratops-size-comparison
   // (EN + pt/es/vi/id/de) - size angle for the Triceratops viewer. consolidation
   // fire53 (2026-08-12): this is now the SOLE guide family for the
@@ -7598,30 +7604,17 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/stegosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/id/stegosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/de/stegosaurus-3d-viewer-vs-ar-apps.html',
-  // dinosaur-3d-guides-loop-runbook fire19 (2026-07-17): how-to-view-brachiosaurus-in-3d
-  // (EN + pt/es/vi/id/de) - how-to angle for the Brachiosaurus viewer.
-  '/guides/how-to-view-brachiosaurus-in-3d.html',
-  '/guides/pt/how-to-view-brachiosaurus-in-3d.html',
-  '/guides/es/how-to-view-brachiosaurus-in-3d.html',
-  '/guides/vi/how-to-view-brachiosaurus-in-3d.html',
-  '/guides/id/how-to-view-brachiosaurus-in-3d.html',
-  '/guides/de/how-to-view-brachiosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire20 (2026-07-17): brachiosaurus-size-comparison
-  // (EN + pt/es/vi/id/de) - size angle for the Brachiosaurus viewer.
+  // (EN + pt/es/vi/id/de) - size angle for the Brachiosaurus viewer. consolidation
+  // fire55 (2026-08-13): this is now the SOLE guide family for the
+  // dinosaur-3d.brachiosaurus.viewer intent node - the fire19 how-to-view and fire21
+  // vs-ar-apps families were folded into it and 301d (see ALIAS_ROUTES).
   '/guides/brachiosaurus-size-comparison.html',
   '/guides/pt/brachiosaurus-size-comparison.html',
   '/guides/es/brachiosaurus-size-comparison.html',
   '/guides/vi/brachiosaurus-size-comparison.html',
   '/guides/id/brachiosaurus-size-comparison.html',
   '/guides/de/brachiosaurus-size-comparison.html',
-  // dinosaur-3d-guides-loop-runbook fire21 (2026-07-17): brachiosaurus-3d-viewer-vs-ar-apps
-  // (EN + pt/es/vi/id/de) - vs-alternatives angle for the Brachiosaurus viewer.
-  '/guides/brachiosaurus-3d-viewer-vs-ar-apps.html',
-  '/guides/pt/brachiosaurus-3d-viewer-vs-ar-apps.html',
-  '/guides/es/brachiosaurus-3d-viewer-vs-ar-apps.html',
-  '/guides/vi/brachiosaurus-3d-viewer-vs-ar-apps.html',
-  '/guides/id/brachiosaurus-3d-viewer-vs-ar-apps.html',
-  '/guides/de/brachiosaurus-3d-viewer-vs-ar-apps.html',
   // dinosaur-3d-guides-loop-runbook fire22 (2026-07-17): how-to-view-ankylosaurus-in-3d
   // (EN + pt/es/vi/id/de) - how-to angle for the Ankylosaurus viewer.
   '/guides/how-to-view-ankylosaurus-in-3d.html',
@@ -14093,6 +14086,25 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/jwst-deployment-sequence-vs-alternatives.html',
   '/guides/id/jwst-deployment-sequence-vs-alternatives.html',
   '/guides/de/jwst-deployment-sequence-vs-alternatives.html',
+  // sputnik-planitia-nitrogen-convection companion guides (space-3d-discovery-loop LEAN fire, 2026-08-13)
+  '/guides/how-to-use-sputnik-planitia-nitrogen-convection.html',
+  '/guides/pt/how-to-use-sputnik-planitia-nitrogen-convection.html',
+  '/guides/es/how-to-use-sputnik-planitia-nitrogen-convection.html',
+  '/guides/vi/how-to-use-sputnik-planitia-nitrogen-convection.html',
+  '/guides/id/how-to-use-sputnik-planitia-nitrogen-convection.html',
+  '/guides/de/how-to-use-sputnik-planitia-nitrogen-convection.html',
+  '/guides/sputnik-planitia-nitrogen-convection-when.html',
+  '/guides/pt/sputnik-planitia-nitrogen-convection-when.html',
+  '/guides/es/sputnik-planitia-nitrogen-convection-when.html',
+  '/guides/vi/sputnik-planitia-nitrogen-convection-when.html',
+  '/guides/id/sputnik-planitia-nitrogen-convection-when.html',
+  '/guides/de/sputnik-planitia-nitrogen-convection-when.html',
+  '/guides/sputnik-planitia-nitrogen-convection-vs-alternatives.html',
+  '/guides/pt/sputnik-planitia-nitrogen-convection-vs-alternatives.html',
+  '/guides/es/sputnik-planitia-nitrogen-convection-vs-alternatives.html',
+  '/guides/vi/sputnik-planitia-nitrogen-convection-vs-alternatives.html',
+  '/guides/id/sputnik-planitia-nitrogen-convection-vs-alternatives.html',
+  '/guides/de/sputnik-planitia-nitrogen-convection-vs-alternatives.html',
   '/guides/how-to-use-venus-atmospheric-superrotation.html',
   '/guides/pt/how-to-use-venus-atmospheric-superrotation.html',
   '/guides/es/how-to-use-venus-atmospheric-superrotation.html',
@@ -15360,6 +15372,28 @@ export const ALIAS_ROUTES = {
   '/guides/de/n-body-sandbox-vs-alternatives.html': '/guides/de/n-body-sandbox-when.html',
   '/guides/vi/n-body-sandbox-vs-alternatives.html': '/guides/vi/n-body-sandbox-when.html',
   '/guides/id/n-body-sandbox-vs-alternatives.html': '/guides/id/n-body-sandbox-when.html',
+  // consolidation fire55 (2026-08-13): retire the how-to-view-brachiosaurus-in-3d
+  // + brachiosaurus-3d-viewer-vs-ar-apps doorway families into the
+  // brachiosaurus-size-comparison keeper, locale-matched. Backlog item
+  // topical-map-dinosaur-3d.brachiosaurus.viewer (2 live excess families; 0 clicks,
+  // 0 AI citations, 10 impr 28d across all 12 routes, 10 of 12 already
+  // sitemap-excluded). Unique facts were folded into the keeper BEFORE the 301 -
+  // the four canvas controls with their label flips, the five-row facts panel
+  // (no head-height row), the 8-pixel short-click threshold with its part list,
+  // and the 6-row viewer vs phone-AR vs museum table. The edge layer is patched
+  // in the same push.
+  '/guides/how-to-view-brachiosaurus-in-3d.html': '/guides/brachiosaurus-size-comparison.html',
+  '/guides/pt/how-to-view-brachiosaurus-in-3d.html': '/guides/pt/brachiosaurus-size-comparison.html',
+  '/guides/es/how-to-view-brachiosaurus-in-3d.html': '/guides/es/brachiosaurus-size-comparison.html',
+  '/guides/vi/how-to-view-brachiosaurus-in-3d.html': '/guides/vi/brachiosaurus-size-comparison.html',
+  '/guides/id/how-to-view-brachiosaurus-in-3d.html': '/guides/id/brachiosaurus-size-comparison.html',
+  '/guides/de/how-to-view-brachiosaurus-in-3d.html': '/guides/de/brachiosaurus-size-comparison.html',
+  '/guides/brachiosaurus-3d-viewer-vs-ar-apps.html': '/guides/brachiosaurus-size-comparison.html',
+  '/guides/pt/brachiosaurus-3d-viewer-vs-ar-apps.html': '/guides/pt/brachiosaurus-size-comparison.html',
+  '/guides/es/brachiosaurus-3d-viewer-vs-ar-apps.html': '/guides/es/brachiosaurus-size-comparison.html',
+  '/guides/vi/brachiosaurus-3d-viewer-vs-ar-apps.html': '/guides/vi/brachiosaurus-size-comparison.html',
+  '/guides/id/brachiosaurus-3d-viewer-vs-ar-apps.html': '/guides/id/brachiosaurus-size-comparison.html',
+  '/guides/de/brachiosaurus-3d-viewer-vs-ar-apps.html': '/guides/de/brachiosaurus-size-comparison.html',
   // consolidation fire50 (2026-08-12): retire the how-to-view-tyrannosaurus-rex-in-3d
   // + tyrannosaurus-rex-3d-viewer-vs-ar-apps doorway families into the
   // tyrannosaurus-rex-size-comparison keeper, locale-matched. Backlog item
@@ -15399,6 +15433,24 @@ export const ALIAS_ROUTES = {
   '/guides/vi/triceratops-3d-viewer-vs-ar-apps.html': '/guides/vi/triceratops-size-comparison.html',
   '/guides/id/triceratops-3d-viewer-vs-ar-apps.html': '/guides/id/triceratops-size-comparison.html',
   '/guides/de/triceratops-3d-viewer-vs-ar-apps.html': '/guides/de/triceratops-size-comparison.html',
+  // consolidation fire54 (2026-08-12): retire the how-to-view-velociraptor-in-3d
+  // + velociraptor-3d-viewer-vs-ar-apps doorway families into the
+  // velociraptor-size-comparison keeper, locale-matched. Backlog item
+  // topical-map-dinosaur-3d.velociraptor.viewer (2 live excess families; 0 clicks,
+  // 0 AI citations, 19 impr 28d across all 12 routes). Unique facts were folded
+  // into the keeper BEFORE the 301; the edge layer is patched in the same push.
+  '/guides/how-to-view-velociraptor-in-3d.html': '/guides/velociraptor-size-comparison.html',
+  '/guides/pt/how-to-view-velociraptor-in-3d.html': '/guides/pt/velociraptor-size-comparison.html',
+  '/guides/es/how-to-view-velociraptor-in-3d.html': '/guides/es/velociraptor-size-comparison.html',
+  '/guides/vi/how-to-view-velociraptor-in-3d.html': '/guides/vi/velociraptor-size-comparison.html',
+  '/guides/id/how-to-view-velociraptor-in-3d.html': '/guides/id/velociraptor-size-comparison.html',
+  '/guides/de/how-to-view-velociraptor-in-3d.html': '/guides/de/velociraptor-size-comparison.html',
+  '/guides/velociraptor-3d-viewer-vs-ar-apps.html': '/guides/velociraptor-size-comparison.html',
+  '/guides/pt/velociraptor-3d-viewer-vs-ar-apps.html': '/guides/pt/velociraptor-size-comparison.html',
+  '/guides/es/velociraptor-3d-viewer-vs-ar-apps.html': '/guides/es/velociraptor-size-comparison.html',
+  '/guides/vi/velociraptor-3d-viewer-vs-ar-apps.html': '/guides/vi/velociraptor-size-comparison.html',
+  '/guides/id/velociraptor-3d-viewer-vs-ar-apps.html': '/guides/id/velociraptor-size-comparison.html',
+  '/guides/de/velociraptor-3d-viewer-vs-ar-apps.html': '/guides/de/velociraptor-size-comparison.html',
   // consolidation fire51 (2026-08-12): retire the roche-limit-step-by-step +
   // roche-limit-vs-alternatives doorway families into the roche-limit-when
   // keeper, locale-matched. Backlog item topical-map-space-3d.roche-limit.3d-explorer
@@ -15613,6 +15665,7 @@ export const ALIAS_ROUTES = {
   '/ingenuity-mars-helicopter.html': '/space-3d/ingenuity-mars-helicopter.html',
   '/3i-atlas-interstellar-object.html': '/space-3d/3i-atlas-interstellar-object.html',
   '/jwst-deployment-sequence.html': '/space-3d/jwst-deployment-sequence.html',
+  '/sputnik-planitia-nitrogen-convection.html': '/space-3d/sputnik-planitia-nitrogen-convection.html',
   '/linux-online.html': '/utility-tools/linux-online.html',
   '/online-linux-terminal.html': '/utility-tools/linux-online.html',
   '/linux-emulator-online.html': '/utility-tools/linux-online.html',
@@ -15803,6 +15856,7 @@ export const ALIAS_ROUTES = {
   '/ai-translator.html': '/utility-tools/ai-translator.html',
   '/grammar-checker.html': '/utility-tools/grammar-checker.html',
   '/paraphrasing-tool.html': '/utility-tools/paraphrasing-tool.html',
+  '/chat-with-pdf.html': '/pdf-tools/chat-with-pdf.html',
   '/annuity-calculator.html': '/utility-tools/annuity-calculator.html',
   '/days-from-today-calculator.html': '/utility-tools/days-from-today-calculator.html',
   '/mortgage-calculator.html': '/utility-tools/mortgage-calculator.html',
@@ -15885,6 +15939,7 @@ export const JSP_BY_ROUTE = {
   '/utility-tools/ai-translator.html': 'utility/ai-translator.jsp',
   '/utility-tools/grammar-checker.html': 'utility/grammar-checker.jsp',
   '/utility-tools/paraphrasing-tool.html': 'utility/paraphrasing-tool.jsp',
+  '/pdf-tools/chat-with-pdf.html': 'pdf/chat-with-pdf.jsp',
   '/guides/ai-translator-offline-when.html': 'guide/ai-translator-offline-when.jsp',
   '/guides/ai-translator-offline-step-by-step.html': 'guide/ai-translator-offline-step-by-step.jsp',
   '/guides/ai-translator-offline-vs-alternatives.html': 'guide/ai-translator-offline-vs-alternatives.jsp',
@@ -19905,14 +19960,6 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/mosasaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/mosasaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/mosasaurus-3d-viewer-vs-ar-apps.html': 'guide/id/mosasaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/mosasaurus-3d-viewer-vs-ar-apps.html': 'guide/de/mosasaurus-3d-viewer-vs-ar-apps.jsp',
-  // dinosaur-3d-guides-loop-runbook fire7 (2026-07-16): how-to-view-velociraptor-in-3d
-  // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
-  '/guides/how-to-view-velociraptor-in-3d.html': 'guide/how-to-view-velociraptor-in-3d.jsp',
-  '/guides/pt/how-to-view-velociraptor-in-3d.html': 'guide/pt/how-to-view-velociraptor-in-3d.jsp',
-  '/guides/es/how-to-view-velociraptor-in-3d.html': 'guide/es/how-to-view-velociraptor-in-3d.jsp',
-  '/guides/vi/how-to-view-velociraptor-in-3d.html': 'guide/vi/how-to-view-velociraptor-in-3d.jsp',
-  '/guides/id/how-to-view-velociraptor-in-3d.html': 'guide/id/how-to-view-velociraptor-in-3d.jsp',
-  '/guides/de/how-to-view-velociraptor-in-3d.html': 'guide/de/how-to-view-velociraptor-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire8 (2026-07-16): velociraptor-size-comparison
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/velociraptor-size-comparison.html': 'guide/velociraptor-size-comparison.jsp',
@@ -19921,14 +19968,6 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/velociraptor-size-comparison.html': 'guide/vi/velociraptor-size-comparison.jsp',
   '/guides/id/velociraptor-size-comparison.html': 'guide/id/velociraptor-size-comparison.jsp',
   '/guides/de/velociraptor-size-comparison.html': 'guide/de/velociraptor-size-comparison.jsp',
-  // dinosaur-3d-guides-loop-runbook fire9 (2026-07-16): velociraptor-3d-viewer-vs-ar-apps
-  // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
-  '/guides/velociraptor-3d-viewer-vs-ar-apps.html': 'guide/velociraptor-3d-viewer-vs-ar-apps.jsp',
-  '/guides/pt/velociraptor-3d-viewer-vs-ar-apps.html': 'guide/pt/velociraptor-3d-viewer-vs-ar-apps.jsp',
-  '/guides/es/velociraptor-3d-viewer-vs-ar-apps.html': 'guide/es/velociraptor-3d-viewer-vs-ar-apps.jsp',
-  '/guides/vi/velociraptor-3d-viewer-vs-ar-apps.html': 'guide/vi/velociraptor-3d-viewer-vs-ar-apps.jsp',
-  '/guides/id/velociraptor-3d-viewer-vs-ar-apps.html': 'guide/id/velociraptor-3d-viewer-vs-ar-apps.jsp',
-  '/guides/de/velociraptor-3d-viewer-vs-ar-apps.html': 'guide/de/velociraptor-3d-viewer-vs-ar-apps.jsp',
   // dinosaur-3d-guides-loop-runbook fire11 (2026-07-16): triceratops-size-comparison
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/triceratops-size-comparison.html': 'guide/triceratops-size-comparison.jsp',
@@ -19985,30 +20024,15 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/stegosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/stegosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/id/stegosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/stegosaurus-3d-viewer-vs-ar-apps.jsp',
   '/guides/de/stegosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/stegosaurus-3d-viewer-vs-ar-apps.jsp',
-  // dinosaur-3d-guides-loop-runbook fire19 (2026-07-17): how-to-view-brachiosaurus-in-3d
-  // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
-  '/guides/how-to-view-brachiosaurus-in-3d.html': 'guide/how-to-view-brachiosaurus-in-3d.jsp',
-  '/guides/pt/how-to-view-brachiosaurus-in-3d.html': 'guide/pt/how-to-view-brachiosaurus-in-3d.jsp',
-  '/guides/es/how-to-view-brachiosaurus-in-3d.html': 'guide/es/how-to-view-brachiosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-brachiosaurus-in-3d.html': 'guide/vi/how-to-view-brachiosaurus-in-3d.jsp',
-  '/guides/id/how-to-view-brachiosaurus-in-3d.html': 'guide/id/how-to-view-brachiosaurus-in-3d.jsp',
-  '/guides/de/how-to-view-brachiosaurus-in-3d.html': 'guide/de/how-to-view-brachiosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire20 (2026-07-17): brachiosaurus-size-comparison
-  // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
+  // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate). consolidation fire55
+  // (2026-08-13): sole surviving guide family for this intent node.
   '/guides/brachiosaurus-size-comparison.html': 'guide/brachiosaurus-size-comparison.jsp',
   '/guides/pt/brachiosaurus-size-comparison.html': 'guide/pt/brachiosaurus-size-comparison.jsp',
   '/guides/es/brachiosaurus-size-comparison.html': 'guide/es/brachiosaurus-size-comparison.jsp',
   '/guides/vi/brachiosaurus-size-comparison.html': 'guide/vi/brachiosaurus-size-comparison.jsp',
   '/guides/id/brachiosaurus-size-comparison.html': 'guide/id/brachiosaurus-size-comparison.jsp',
   '/guides/de/brachiosaurus-size-comparison.html': 'guide/de/brachiosaurus-size-comparison.jsp',
-  // dinosaur-3d-guides-loop-runbook fire21 (2026-07-17): brachiosaurus-3d-viewer-vs-ar-apps
-  // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
-  '/guides/brachiosaurus-3d-viewer-vs-ar-apps.html': 'guide/brachiosaurus-3d-viewer-vs-ar-apps.jsp',
-  '/guides/pt/brachiosaurus-3d-viewer-vs-ar-apps.html': 'guide/pt/brachiosaurus-3d-viewer-vs-ar-apps.jsp',
-  '/guides/es/brachiosaurus-3d-viewer-vs-ar-apps.html': 'guide/es/brachiosaurus-3d-viewer-vs-ar-apps.jsp',
-  '/guides/vi/brachiosaurus-3d-viewer-vs-ar-apps.html': 'guide/vi/brachiosaurus-3d-viewer-vs-ar-apps.jsp',
-  '/guides/id/brachiosaurus-3d-viewer-vs-ar-apps.html': 'guide/id/brachiosaurus-3d-viewer-vs-ar-apps.jsp',
-  '/guides/de/brachiosaurus-3d-viewer-vs-ar-apps.html': 'guide/de/brachiosaurus-3d-viewer-vs-ar-apps.jsp',
   // dinosaur-3d-guides-loop-runbook fire22 (2026-07-17): how-to-view-ankylosaurus-in-3d
   // EN + pt/es/vi/id/de (locale-complete bundle; exit-12 gate).
   '/guides/how-to-view-ankylosaurus-in-3d.html': 'guide/how-to-view-ankylosaurus-in-3d.jsp',
@@ -22478,6 +22502,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/ingenuity-mars-helicopter.html': 'space/ingenuity-mars-helicopter.jsp',
   '/space-3d/3i-atlas-interstellar-object.html': 'space/3i-atlas-interstellar-object.jsp',
   '/space-3d/jwst-deployment-sequence.html': 'space/jwst-deployment-sequence.jsp',
+  '/space-3d/sputnik-planitia-nitrogen-convection.html': 'space/sputnik-planitia-nitrogen-convection.jsp',
   '/guides/escape-velocity-step-by-step.html': 'guide/escape-velocity-step-by-step.jsp',
   '/guides/pt/escape-velocity-step-by-step.html': 'guide/pt/escape-velocity-step-by-step.jsp',
   '/guides/es/escape-velocity-step-by-step.html': 'guide/es/escape-velocity-step-by-step.jsp',
@@ -28189,6 +28214,25 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/jwst-deployment-sequence-vs-alternatives.html': 'guide/vi/jwst-deployment-sequence-vs-alternatives.jsp',
   '/guides/id/jwst-deployment-sequence-vs-alternatives.html': 'guide/id/jwst-deployment-sequence-vs-alternatives.jsp',
   '/guides/de/jwst-deployment-sequence-vs-alternatives.html': 'guide/de/jwst-deployment-sequence-vs-alternatives.jsp',
+  // sputnik-planitia-nitrogen-convection companion guides (space-3d-discovery-loop LEAN fire, 2026-08-13)
+  '/guides/how-to-use-sputnik-planitia-nitrogen-convection.html': 'guide/how-to-use-sputnik-planitia-nitrogen-convection.jsp',
+  '/guides/pt/how-to-use-sputnik-planitia-nitrogen-convection.html': 'guide/pt/how-to-use-sputnik-planitia-nitrogen-convection.jsp',
+  '/guides/es/how-to-use-sputnik-planitia-nitrogen-convection.html': 'guide/es/how-to-use-sputnik-planitia-nitrogen-convection.jsp',
+  '/guides/vi/how-to-use-sputnik-planitia-nitrogen-convection.html': 'guide/vi/how-to-use-sputnik-planitia-nitrogen-convection.jsp',
+  '/guides/id/how-to-use-sputnik-planitia-nitrogen-convection.html': 'guide/id/how-to-use-sputnik-planitia-nitrogen-convection.jsp',
+  '/guides/de/how-to-use-sputnik-planitia-nitrogen-convection.html': 'guide/de/how-to-use-sputnik-planitia-nitrogen-convection.jsp',
+  '/guides/sputnik-planitia-nitrogen-convection-when.html': 'guide/sputnik-planitia-nitrogen-convection-when.jsp',
+  '/guides/pt/sputnik-planitia-nitrogen-convection-when.html': 'guide/pt/sputnik-planitia-nitrogen-convection-when.jsp',
+  '/guides/es/sputnik-planitia-nitrogen-convection-when.html': 'guide/es/sputnik-planitia-nitrogen-convection-when.jsp',
+  '/guides/vi/sputnik-planitia-nitrogen-convection-when.html': 'guide/vi/sputnik-planitia-nitrogen-convection-when.jsp',
+  '/guides/id/sputnik-planitia-nitrogen-convection-when.html': 'guide/id/sputnik-planitia-nitrogen-convection-when.jsp',
+  '/guides/de/sputnik-planitia-nitrogen-convection-when.html': 'guide/de/sputnik-planitia-nitrogen-convection-when.jsp',
+  '/guides/sputnik-planitia-nitrogen-convection-vs-alternatives.html': 'guide/sputnik-planitia-nitrogen-convection-vs-alternatives.jsp',
+  '/guides/pt/sputnik-planitia-nitrogen-convection-vs-alternatives.html': 'guide/pt/sputnik-planitia-nitrogen-convection-vs-alternatives.jsp',
+  '/guides/es/sputnik-planitia-nitrogen-convection-vs-alternatives.html': 'guide/es/sputnik-planitia-nitrogen-convection-vs-alternatives.jsp',
+  '/guides/vi/sputnik-planitia-nitrogen-convection-vs-alternatives.html': 'guide/vi/sputnik-planitia-nitrogen-convection-vs-alternatives.jsp',
+  '/guides/id/sputnik-planitia-nitrogen-convection-vs-alternatives.html': 'guide/id/sputnik-planitia-nitrogen-convection-vs-alternatives.jsp',
+  '/guides/de/sputnik-planitia-nitrogen-convection-vs-alternatives.html': 'guide/de/sputnik-planitia-nitrogen-convection-vs-alternatives.jsp',
   '/guides/how-to-use-venus-atmospheric-superrotation.html': 'guide/how-to-use-venus-atmospheric-superrotation.jsp',
   '/guides/pt/how-to-use-venus-atmospheric-superrotation.html': 'guide/pt/how-to-use-venus-atmospheric-superrotation.jsp',
   '/guides/es/how-to-use-venus-atmospheric-superrotation.html': 'guide/es/how-to-use-venus-atmospheric-superrotation.jsp',
@@ -28784,8 +28828,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/bortle-scale-light-pollution-when.html',
   '/guides/vi/bounce-back-vs-alternatives.html',
   '/guides/vi/bounce-back-when.html',
-  '/guides/vi/brachiosaurus-3d-viewer-vs-ar-apps.html',
-  '/guides/vi/brachiosaurus-size-comparison.html',
   '/guides/vi/brontotherium-3d-viewer-vs-ar-apps.html',
   '/guides/vi/brontotherium-size-comparison.html',
   '/guides/vi/brown-dwarf-step-by-step.html',
@@ -29516,7 +29558,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/how-to-view-barosaurus-in-3d.html',
   '/guides/vi/how-to-view-baryonyx-in-3d.html',
   '/guides/vi/how-to-view-becklespinax-in-3d.html',
-  '/guides/vi/how-to-view-brachiosaurus-in-3d.html',
   '/guides/vi/how-to-view-brachylophosaurus-in-3d.html',
   '/guides/vi/how-to-view-brontosaurus-in-3d.html',
   '/guides/vi/how-to-view-brontotherium-in-3d.html',
@@ -29584,7 +29625,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/how-to-view-tylosaurus-in-3d.html',
   '/guides/vi/how-to-view-tyrannosaurus-rex-in-3d.html',
   '/guides/vi/how-to-view-utahraptor-in-3d.html',
-  '/guides/vi/how-to-view-velociraptor-in-3d.html',
   '/guides/vi/how-to-visualize-data-online.html',
   '/guides/vi/how-to-zip-multiple-files-into-one.html',
   '/guides/vi/hr-diagram-step-by-step.html',
@@ -30393,8 +30433,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/vi/van-allen-belts-step-by-step.html",
   "/guides/vi/van-allen-belts-vs-alternatives.html",
   "/guides/vi/van-allen-belts-when.html",
-  "/guides/vi/velociraptor-3d-viewer-vs-ar-apps.html",
-  "/guides/vi/velociraptor-size-comparison.html",
   "/guides/vi/venus-phases-galileo-step-by-step.html",
   "/guides/vi/venus-phases-galileo-vs-alternatives.html",
   "/guides/vi/venus-phases-galileo-when.html",
@@ -30534,7 +30572,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/bortle-scale-light-pollution-when.html",
   "/guides/de/bounce-back-vs-alternatives.html",
   "/guides/de/bounce-back-when.html",
-  "/guides/de/brachiosaurus-3d-viewer-vs-ar-apps.html",
   "/guides/de/brachylophosaurus-3d-viewer-vs-ar-apps.html",
   "/guides/de/brachylophosaurus-size-comparison.html",
   "/guides/de/brontosaurus-3d-viewer-vs-ar-apps.html",
@@ -30835,7 +30872,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/how-to-view-barosaurus-in-3d.html",
   "/guides/de/how-to-view-baryonyx-in-3d.html",
   "/guides/de/how-to-view-becklespinax-in-3d.html",
-  "/guides/de/how-to-view-brachiosaurus-in-3d.html",
   "/guides/de/how-to-view-brachylophosaurus-in-3d.html",
   "/guides/de/how-to-view-brontosaurus-in-3d.html",
   "/guides/de/how-to-view-brontotherium-in-3d.html",
@@ -31170,7 +31206,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/how-to-view-tylosaurus-in-3d.html",
   "/guides/de/how-to-view-tyrannosaurus-rex-in-3d.html",
   "/guides/de/how-to-view-utahraptor-in-3d.html",
-  "/guides/de/how-to-view-velociraptor-in-3d.html",
   "/guides/de/how-to-zip-folder-online-step-by-step.html",
   "/guides/de/hr-diagram-step-by-step.html",
   "/guides/de/hr-diagram-vs-alternatives.html",
@@ -31633,8 +31668,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/touchscreen-test-step-by-step.html",
   "/guides/de/touchscreen-test-vs-alternatives.html",
   "/guides/de/tyrannosaurus-rex-3d-viewer-vs-ar-apps.html",
-  "/guides/de/velociraptor-size-comparison.html",
-  "/guides/de/velociraptor-3d-viewer-vs-ar-apps.html",
   "/guides/de/spinosaurus-size-comparison.html",
   "/guides/de/spinosaurus-3d-viewer-vs-ar-apps.html",
   "/guides/de/stegosaurus-size-comparison.html",
@@ -31914,8 +31947,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/bortle-scale-light-pollution-when.html',
   '/guides/pt/bounce-back-vs-alternatives.html',
   '/guides/pt/bounce-back-when.html',
-  '/guides/pt/brachiosaurus-3d-viewer-vs-ar-apps.html',
-  '/guides/pt/brachiosaurus-size-comparison.html',
   '/guides/pt/brachylophosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/pt/brachylophosaurus-size-comparison.html',
   '/guides/pt/brontosaurus-3d-viewer-vs-ar-apps.html',
@@ -32265,7 +32296,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/how-to-view-barosaurus-in-3d.html',
   '/guides/pt/how-to-view-baryonyx-in-3d.html',
   '/guides/pt/how-to-view-becklespinax-in-3d.html',
-  '/guides/pt/how-to-view-brachiosaurus-in-3d.html',
   '/guides/pt/how-to-view-brachylophosaurus-in-3d.html',
   '/guides/pt/how-to-view-brontosaurus-in-3d.html',
   '/guides/pt/how-to-view-brontotherium-in-3d.html',
@@ -32332,7 +32362,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/how-to-view-tylosaurus-in-3d.html',
   '/guides/pt/how-to-view-tyrannosaurus-rex-in-3d.html',
   '/guides/pt/how-to-view-utahraptor-in-3d.html',
-  '/guides/pt/how-to-view-velociraptor-in-3d.html',
   '/guides/pt/how-to-visualize-data-online.html',
   '/guides/pt/how-to-zip-folder-online-step-by-step.html',
   '/guides/pt/hr-diagram-step-by-step.html',
@@ -33012,8 +33041,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/unlucky-crossing-when.html',
   '/guides/pt/utahraptor-3d-viewer-vs-ar-apps.html',
   '/guides/pt/utahraptor-size-comparison.html',
-  '/guides/pt/velociraptor-3d-viewer-vs-ar-apps.html',
-  '/guides/pt/velociraptor-size-comparison.html',
   '/guides/pt/venus-runaway-greenhouse-step-by-step.html',
   '/guides/pt/venus-runaway-greenhouse-vs-alternatives.html',
   '/guides/pt/venus-runaway-greenhouse-when.html',
@@ -33122,8 +33149,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/bortle-scale-light-pollution-when.html',
   '/guides/es/bounce-back-vs-alternatives.html',
   '/guides/es/bounce-back-when.html',
-  '/guides/es/brachiosaurus-3d-viewer-vs-ar-apps.html',
-  '/guides/es/brachiosaurus-size-comparison.html',
   '/guides/es/brachylophosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/es/brachylophosaurus-size-comparison.html',
   '/guides/es/brontosaurus-3d-viewer-vs-ar-apps.html',
@@ -33677,7 +33702,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/how-to-view-barosaurus-in-3d.html',
   '/guides/es/how-to-view-baryonyx-in-3d.html',
   '/guides/es/how-to-view-becklespinax-in-3d.html',
-  '/guides/es/how-to-view-brachiosaurus-in-3d.html',
   '/guides/es/how-to-view-brachylophosaurus-in-3d.html',
   '/guides/es/how-to-view-brontosaurus-in-3d.html',
   '/guides/es/how-to-view-brontotherium-in-3d.html',
@@ -33739,7 +33763,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/how-to-view-tsintaosaurus-in-3d.html',
   '/guides/es/how-to-view-tylosaurus-in-3d.html',
   '/guides/es/how-to-view-utahraptor-in-3d.html',
-  '/guides/es/how-to-view-velociraptor-in-3d.html',
   '/guides/es/hybodus-3d-viewer-vs-ar-apps.html',
   '/guides/es/hybodus-size-comparison.html',
   '/guides/es/ichthyosaurus-3d-viewer-vs-ar-apps.html',
@@ -34236,8 +34259,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   // /guides/es/how-to-view-tyrannosaurus-rex-in-3d.html, the family's best measured
   // performer (4 clicks / 158 impr 28d), so the target must be crawlable.
   '/guides/es/tyrannosaurus-rex-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
-  '/guides/es/velociraptor-size-comparison.html', // pruned 2026-07-29 zero-evidence es
-  '/guides/es/velociraptor-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/stegosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/stegosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/therizinosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence es
@@ -34695,8 +34716,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/id/bortle-scale-light-pollution-when.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/bounce-back-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/bounce-back-when.html', // pruned 2026-07-29 zero-evidence id
-  '/guides/id/brachiosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
-  '/guides/id/brachiosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/brachylophosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/brachylophosaurus-size-comparison.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/brontosaurus-3d-viewer-vs-ar-apps.html', // pruned 2026-07-29 zero-evidence id
@@ -35384,7 +35403,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/id/how-to-view-barosaurus-in-3d.html',
   '/guides/id/how-to-view-baryonyx-in-3d.html',
   '/guides/id/how-to-view-becklespinax-in-3d.html',
-  '/guides/id/how-to-view-brachiosaurus-in-3d.html',
   '/guides/id/how-to-view-brachylophosaurus-in-3d.html',
   '/guides/id/how-to-view-brontosaurus-in-3d.html',
   '/guides/id/how-to-view-brontotherium-in-3d.html',
@@ -35453,7 +35471,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/id/how-to-view-tsintaosaurus-in-3d.html',
   '/guides/id/how-to-view-tylosaurus-in-3d.html',
   '/guides/id/how-to-view-utahraptor-in-3d.html',
-  '/guides/id/how-to-view-velociraptor-in-3d.html',
   '/guides/id/how-to-visualize-data-online.html',
   '/guides/id/html-entity-encoder-decoder-step-by-step.html',
   '/guides/id/html-entity-encoder-decoder-vs-alternatives.html',
@@ -35624,8 +35641,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/id/tyrannosaurus-rex-3d-viewer-vs-ar-apps.html',
   '/guides/id/mosasaurus-size-comparison.html',
   '/guides/id/mosasaurus-3d-viewer-vs-ar-apps.html',
-  '/guides/id/velociraptor-size-comparison.html',
-  '/guides/id/velociraptor-3d-viewer-vs-ar-apps.html',
   '/guides/id/spinosaurus-size-comparison.html',
   '/guides/id/spinosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/id/stegosaurus-size-comparison.html',
