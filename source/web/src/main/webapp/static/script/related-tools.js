@@ -752,6 +752,7 @@ try {
     { title: "Yosemite Valley 3D Explorer", url: "https://freetoolonline.com/places-3d/yosemite-valley.html", include: !1, tags: "places-3d" },
     { title: "Matterhorn 3D Explorer", url: "https://freetoolonline.com/places-3d/matterhorn.html", include: !1, tags: "places-3d" },
     { title: "Plitvice Lakes 3D Explorer", url: "https://freetoolonline.com/places-3d/plitvice-lakes.html", include: !1, tags: "places-3d" },
+    { title: "Mekong Delta 3D Explorer", url: "https://freetoolonline.com/places-3d/mekong-delta.html", include: !1, tags: "places-3d" },
     { title: "Caspian Sea 3D Explorer", url: "https://freetoolonline.com/places-3d/caspian-sea.html", include: !1, tags: "places-3d" },
     { title: "Lake Baikal 3D Explorer", url: "https://freetoolonline.com/places-3d/lake-baikal.html", include: !1, tags: "places-3d" },
     { title: "Milford Sound 3D Explorer", url: "https://freetoolonline.com/places-3d/milford-sound.html", include: !1, tags: "places-3d" },
