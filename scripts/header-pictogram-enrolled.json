@@ -436,7 +436,6 @@
     "notetakingapp",
     "novastarbarrage",
     "numberbaseconverter",
-    "objectremover",
     "occultationlunar",
     "olbersparadox",
     "olympusmonsmarsvolcano",
@@ -669,6 +668,7 @@
     "torvosaurus",
     "touchscreentest",
     "tournamentprizemoneylookup",
+    "transittimingvariation",
     "trappist1",
     "triceratops",
     "tritoncantaloupe",
@@ -747,6 +747,16 @@
     "yosemitevalley",
     "zipfile",
     "ziptools",
-    "zodiacallight"
+    "zodiacallight",
+    "objectremover",
+    "cappadocia",
+    "mortgagecalculator",
+    "percenterrorcalculator",
+    "exiforientationrotationtrap",
+    "esexiforientationrotationtrap",
+    "ptexiforientationrotationtrap",
+    "fireballatmosphericentry",
+    "spacehuggersplatformer",
+    "level13incremental"
   ]
 }
