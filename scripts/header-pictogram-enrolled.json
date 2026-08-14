@@ -436,7 +436,6 @@
     "notetakingapp",
     "novastarbarrage",
     "numberbaseconverter",
-    "objectremover",
     "occultationlunar",
     "olbersparadox",
     "olympusmonsmarsvolcano",
@@ -748,6 +747,10 @@
     "yosemitevalley",
     "zipfile",
     "ziptools",
-    "zodiacallight"
+    "zodiacallight",
+    "objectremover",
+    "cappadocia",
+    "mortgagecalculator",
+    "percenterrorcalculator"
   ]
 }
