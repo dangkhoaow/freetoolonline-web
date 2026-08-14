@@ -7097,6 +7097,44 @@ export const INFO_ROUTES = new Set([
   '/guides/vi/yorp-effect-spin-drift-vs-alternatives.html',
   '/guides/id/yorp-effect-spin-drift-vs-alternatives.html',
   '/guides/de/yorp-effect-spin-drift-vs-alternatives.html',
+  // local-bubble-interstellar-cavity companion guides (space-3d-discovery-loop LEAN fire, 2026-08-13)
+  '/guides/how-to-use-local-bubble-interstellar-cavity.html',
+  '/guides/pt/how-to-use-local-bubble-interstellar-cavity.html',
+  '/guides/es/how-to-use-local-bubble-interstellar-cavity.html',
+  '/guides/vi/how-to-use-local-bubble-interstellar-cavity.html',
+  '/guides/id/how-to-use-local-bubble-interstellar-cavity.html',
+  '/guides/de/how-to-use-local-bubble-interstellar-cavity.html',
+  '/guides/local-bubble-interstellar-cavity-when.html',
+  '/guides/pt/local-bubble-interstellar-cavity-when.html',
+  '/guides/es/local-bubble-interstellar-cavity-when.html',
+  '/guides/vi/local-bubble-interstellar-cavity-when.html',
+  '/guides/id/local-bubble-interstellar-cavity-when.html',
+  '/guides/de/local-bubble-interstellar-cavity-when.html',
+  '/guides/local-bubble-interstellar-cavity-vs-alternatives.html',
+  '/guides/pt/local-bubble-interstellar-cavity-vs-alternatives.html',
+  '/guides/es/local-bubble-interstellar-cavity-vs-alternatives.html',
+  '/guides/vi/local-bubble-interstellar-cavity-vs-alternatives.html',
+  '/guides/id/local-bubble-interstellar-cavity-vs-alternatives.html',
+  '/guides/de/local-bubble-interstellar-cavity-vs-alternatives.html',
+  // hubble-tuning-fork companion guides (space-3d-discovery-loop LEAN fire, 2026-08-13)
+  '/guides/how-to-use-hubble-tuning-fork.html',
+  '/guides/pt/how-to-use-hubble-tuning-fork.html',
+  '/guides/es/how-to-use-hubble-tuning-fork.html',
+  '/guides/vi/how-to-use-hubble-tuning-fork.html',
+  '/guides/id/how-to-use-hubble-tuning-fork.html',
+  '/guides/de/how-to-use-hubble-tuning-fork.html',
+  '/guides/hubble-tuning-fork-when.html',
+  '/guides/pt/hubble-tuning-fork-when.html',
+  '/guides/es/hubble-tuning-fork-when.html',
+  '/guides/vi/hubble-tuning-fork-when.html',
+  '/guides/id/hubble-tuning-fork-when.html',
+  '/guides/de/hubble-tuning-fork-when.html',
+  '/guides/hubble-tuning-fork-vs-alternatives.html',
+  '/guides/pt/hubble-tuning-fork-vs-alternatives.html',
+  '/guides/es/hubble-tuning-fork-vs-alternatives.html',
+  '/guides/vi/hubble-tuning-fork-vs-alternatives.html',
+  '/guides/id/hubble-tuning-fork-vs-alternatives.html',
+  '/guides/de/hubble-tuning-fork-vs-alternatives.html',
   // parker-solar-probe companion guides (space-3d-discovery-loop LEAN fire, 2026-08-10)
   '/guides/how-to-use-parker-solar-probe.html',
   '/guides/pt/how-to-use-parker-solar-probe.html',
@@ -12399,12 +12437,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/id/thirteen-step-escape-vs-alternatives.html',
   '/guides/de/thirteen-step-escape-vs-alternatives.html',
   // fire103 floor-thirteen-horror
-  '/guides/how-to-play-floor-thirteen-horror.html',
-  '/guides/pt/how-to-play-floor-thirteen-horror.html',
-  '/guides/es/how-to-play-floor-thirteen-horror.html',
-  '/guides/vi/how-to-play-floor-thirteen-horror.html',
-  '/guides/id/how-to-play-floor-thirteen-horror.html',
-  '/guides/de/how-to-play-floor-thirteen-horror.html',
   '/guides/floor-thirteen-horror-when.html',
   '/guides/pt/floor-thirteen-horror-when.html',
   '/guides/es/floor-thirteen-horror-when.html',
@@ -12437,12 +12469,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/id/voxel-fps-arena-vs-alternatives.html',
   '/guides/de/voxel-fps-arena-vs-alternatives.html',
   // fire105 lightning-math-battle
-  '/guides/how-to-play-lightning-math-battle.html',
-  '/guides/pt/how-to-play-lightning-math-battle.html',
-  '/guides/es/how-to-play-lightning-math-battle.html',
-  '/guides/vi/how-to-play-lightning-math-battle.html',
-  '/guides/id/how-to-play-lightning-math-battle.html',
-  '/guides/de/how-to-play-lightning-math-battle.html',
   '/guides/lightning-math-battle-when.html',
   '/guides/pt/lightning-math-battle-when.html',
   '/guides/es/lightning-math-battle-when.html',
@@ -14049,6 +14075,44 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/yorp-effect-spin-drift-vs-alternatives.html',
   '/guides/id/yorp-effect-spin-drift-vs-alternatives.html',
   '/guides/de/yorp-effect-spin-drift-vs-alternatives.html',
+  // local-bubble-interstellar-cavity companion guides (space-3d-discovery-loop LEAN fire, 2026-08-13)
+  '/guides/how-to-use-local-bubble-interstellar-cavity.html',
+  '/guides/pt/how-to-use-local-bubble-interstellar-cavity.html',
+  '/guides/es/how-to-use-local-bubble-interstellar-cavity.html',
+  '/guides/vi/how-to-use-local-bubble-interstellar-cavity.html',
+  '/guides/id/how-to-use-local-bubble-interstellar-cavity.html',
+  '/guides/de/how-to-use-local-bubble-interstellar-cavity.html',
+  '/guides/local-bubble-interstellar-cavity-when.html',
+  '/guides/pt/local-bubble-interstellar-cavity-when.html',
+  '/guides/es/local-bubble-interstellar-cavity-when.html',
+  '/guides/vi/local-bubble-interstellar-cavity-when.html',
+  '/guides/id/local-bubble-interstellar-cavity-when.html',
+  '/guides/de/local-bubble-interstellar-cavity-when.html',
+  '/guides/local-bubble-interstellar-cavity-vs-alternatives.html',
+  '/guides/pt/local-bubble-interstellar-cavity-vs-alternatives.html',
+  '/guides/es/local-bubble-interstellar-cavity-vs-alternatives.html',
+  '/guides/vi/local-bubble-interstellar-cavity-vs-alternatives.html',
+  '/guides/id/local-bubble-interstellar-cavity-vs-alternatives.html',
+  '/guides/de/local-bubble-interstellar-cavity-vs-alternatives.html',
+  // hubble-tuning-fork companion guides (space-3d-discovery-loop LEAN fire, 2026-08-13)
+  '/guides/how-to-use-hubble-tuning-fork.html',
+  '/guides/pt/how-to-use-hubble-tuning-fork.html',
+  '/guides/es/how-to-use-hubble-tuning-fork.html',
+  '/guides/vi/how-to-use-hubble-tuning-fork.html',
+  '/guides/id/how-to-use-hubble-tuning-fork.html',
+  '/guides/de/how-to-use-hubble-tuning-fork.html',
+  '/guides/hubble-tuning-fork-when.html',
+  '/guides/pt/hubble-tuning-fork-when.html',
+  '/guides/es/hubble-tuning-fork-when.html',
+  '/guides/vi/hubble-tuning-fork-when.html',
+  '/guides/id/hubble-tuning-fork-when.html',
+  '/guides/de/hubble-tuning-fork-when.html',
+  '/guides/hubble-tuning-fork-vs-alternatives.html',
+  '/guides/pt/hubble-tuning-fork-vs-alternatives.html',
+  '/guides/es/hubble-tuning-fork-vs-alternatives.html',
+  '/guides/vi/hubble-tuning-fork-vs-alternatives.html',
+  '/guides/id/hubble-tuning-fork-vs-alternatives.html',
+  '/guides/de/hubble-tuning-fork-vs-alternatives.html',
   // parker-solar-probe companion guides (space-3d-discovery-loop LEAN fire, 2026-08-10)
   '/guides/how-to-use-parker-solar-probe.html',
   '/guides/pt/how-to-use-parker-solar-probe.html',
@@ -14230,6 +14294,33 @@ export function isArticleFamilyRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  // consolidation fire59 (2026-08-13): retire the how-to-play-floor-thirteen-horror
+  // + how-to-play-lightning-math-battle doorway families into their canonical GAME
+  // pages. Backlog items topical-map-games.floor-thirteen-horror and
+  // topical-map-games.lightning-math-battle (1 live excess family each; across all
+  // 12 routes 0 clicks / 0 AI citations / 8 impr 28d, 10 of 12 already
+  // sitemap-excluded, and zero links_to edges into the floor-thirteen family from
+  // anywhere on the site). Unique facts were folded into the keepers BEFORE the
+  // 301: the key-to-numbered-room chain and the light It carries as an approach
+  // warning (floor-thirteen), and the full control walkthrough that the retired
+  // guide was linked for, plus the touch/desktop answer-grid parity, the mute
+  // button, and the ~1.29 MB payload (lightning). The lightning keeper's own
+  // pointer link to the retired route was removed and both keepers gained a
+  // /games.html hub link, so no internal link is lost. Edge layer patched in the
+  // same push. Locale mirrors 301 to the EN canonical because game pages have no
+  // locale variants.
+  '/guides/how-to-play-floor-thirteen-horror.html': '/games/floor-thirteen-horror.html',
+  '/guides/pt/how-to-play-floor-thirteen-horror.html': '/games/floor-thirteen-horror.html',
+  '/guides/es/how-to-play-floor-thirteen-horror.html': '/games/floor-thirteen-horror.html',
+  '/guides/vi/how-to-play-floor-thirteen-horror.html': '/games/floor-thirteen-horror.html',
+  '/guides/id/how-to-play-floor-thirteen-horror.html': '/games/floor-thirteen-horror.html',
+  '/guides/de/how-to-play-floor-thirteen-horror.html': '/games/floor-thirteen-horror.html',
+  '/guides/how-to-play-lightning-math-battle.html': '/games/lightning-math-battle.html',
+  '/guides/pt/how-to-play-lightning-math-battle.html': '/games/lightning-math-battle.html',
+  '/guides/es/how-to-play-lightning-math-battle.html': '/games/lightning-math-battle.html',
+  '/guides/vi/how-to-play-lightning-math-battle.html': '/games/lightning-math-battle.html',
+  '/guides/id/how-to-play-lightning-math-battle.html': '/games/lightning-math-battle.html',
+  '/guides/de/how-to-play-lightning-math-battle.html': '/games/lightning-math-battle.html',
   // consolidation fire56 (2026-08-13): retire the how-to-view-spinosaurus-in-3d
   // + spinosaurus-3d-viewer-vs-ar-apps doorway families into the
   // spinosaurus-size-comparison keeper, locale-matched. Backlog item
@@ -15310,6 +15401,7 @@ export const ALIAS_ROUTES = {
   // dinosaur-3d-discovery-loop-runbook LEAN fire (2026-07-26): flat-slug alias for dacentrurus.
   '/dacentrurus.html': '/dinosaur-3d/dacentrurus.html',
   '/background-remover.html': '/image-tools/background-remover.html',
+  '/object-remover.html': '/image-tools/object-remover.html',
   '/video-to-gif.html': '/video-tools/video-to-gif.html',
   '/audio-trimmer.html': '/video-tools/audio-trimmer.html',
   '/gpu-test.html': '/device-test-tools/gpu-test.html',
@@ -15734,6 +15826,8 @@ export const ALIAS_ROUTES = {
   '/annual-meteor-shower-calendar.html': '/space-3d/annual-meteor-shower-calendar.html',
   '/stellar-spectral-classification.html': '/space-3d/stellar-spectral-classification.html',
   '/yorp-effect-spin-drift.html': '/space-3d/yorp-effect-spin-drift.html',
+  '/local-bubble-interstellar-cavity.html': '/space-3d/local-bubble-interstellar-cavity.html',
+  '/hubble-tuning-fork.html': '/space-3d/hubble-tuning-fork.html',
   '/parker-solar-probe.html': '/space-3d/parker-solar-probe.html',
   '/rosetta-philae-67p.html': '/space-3d/rosetta-philae-67p.html',
   '/space-elevator-physics.html': '/space-3d/space-elevator-physics.html',
@@ -19423,12 +19517,6 @@ export const JSP_BY_ROUTE = {
   '/guides/de/thirteen-step-escape-vs-alternatives.html': 'guide/de/thirteen-step-escape-vs-alternatives.jsp',
   '/games/thirteen-step-escape.html': 'games/thirteen-step-escape.jsp',
   // fire103 floor-thirteen-horror guides
-  '/guides/how-to-play-floor-thirteen-horror.html': 'guide/how-to-play-floor-thirteen-horror.jsp',
-  '/guides/pt/how-to-play-floor-thirteen-horror.html': 'guide/pt/how-to-play-floor-thirteen-horror.jsp',
-  '/guides/es/how-to-play-floor-thirteen-horror.html': 'guide/es/how-to-play-floor-thirteen-horror.jsp',
-  '/guides/vi/how-to-play-floor-thirteen-horror.html': 'guide/vi/how-to-play-floor-thirteen-horror.jsp',
-  '/guides/id/how-to-play-floor-thirteen-horror.html': 'guide/id/how-to-play-floor-thirteen-horror.jsp',
-  '/guides/de/how-to-play-floor-thirteen-horror.html': 'guide/de/how-to-play-floor-thirteen-horror.jsp',
   '/guides/floor-thirteen-horror-when.html': 'guide/floor-thirteen-horror-when.jsp',
   '/guides/pt/floor-thirteen-horror-when.html': 'guide/pt/floor-thirteen-horror-when.jsp',
   '/guides/es/floor-thirteen-horror-when.html': 'guide/es/floor-thirteen-horror-when.jsp',
@@ -19463,12 +19551,6 @@ export const JSP_BY_ROUTE = {
   '/guides/de/voxel-fps-arena-vs-alternatives.html': 'guide/de/voxel-fps-arena-vs-alternatives.jsp',
   '/games/voxel-fps-arena.html': 'games/voxel-fps-arena.jsp',
   // fire105 lightning-math-battle guides
-  '/guides/how-to-play-lightning-math-battle.html': 'guide/how-to-play-lightning-math-battle.jsp',
-  '/guides/pt/how-to-play-lightning-math-battle.html': 'guide/pt/how-to-play-lightning-math-battle.jsp',
-  '/guides/es/how-to-play-lightning-math-battle.html': 'guide/es/how-to-play-lightning-math-battle.jsp',
-  '/guides/vi/how-to-play-lightning-math-battle.html': 'guide/vi/how-to-play-lightning-math-battle.jsp',
-  '/guides/id/how-to-play-lightning-math-battle.html': 'guide/id/how-to-play-lightning-math-battle.jsp',
-  '/guides/de/how-to-play-lightning-math-battle.html': 'guide/de/how-to-play-lightning-math-battle.jsp',
   '/guides/lightning-math-battle-when.html': 'guide/lightning-math-battle-when.jsp',
   '/guides/pt/lightning-math-battle-when.html': 'guide/pt/lightning-math-battle-when.jsp',
   '/guides/es/lightning-math-battle-when.html': 'guide/es/lightning-math-battle-when.jsp',
@@ -22061,6 +22143,7 @@ export const JSP_BY_ROUTE = {
   '/guides/id/galaxy-3d-simulator-step-by-step.html': 'guide/id/galaxy-3d-simulator-step-by-step.jsp',
   '/guides/id/galaxy-3d-simulator-vs-alternatives.html': 'guide/id/galaxy-3d-simulator-vs-alternatives.jsp',
   '/image-tools/background-remover.html': 'convert/background-remover.jsp',
+  '/image-tools/object-remover.html': 'convert/object-remover.jsp',
   '/guides/ai-background-remover-when.html': 'guide/ai-background-remover-when.jsp',
   '/guides/ai-background-remover-step-by-step.html': 'guide/ai-background-remover-step-by-step.jsp',
   '/guides/ai-background-remover-vs-alternatives.html': 'guide/ai-background-remover-vs-alternatives.jsp',
@@ -26330,6 +26413,8 @@ export const JSP_BY_ROUTE = {
   '/space-3d/annual-meteor-shower-calendar.html': 'space/annual-meteor-shower-calendar.jsp',
   '/space-3d/stellar-spectral-classification.html': 'space/stellar-spectral-classification.jsp',
   '/space-3d/yorp-effect-spin-drift.html': 'space/yorp-effect-spin-drift.jsp',
+  '/space-3d/local-bubble-interstellar-cavity.html': 'space/local-bubble-interstellar-cavity.jsp',
+  '/space-3d/hubble-tuning-fork.html': 'space/hubble-tuning-fork.jsp',
   '/space-3d/parker-solar-probe.html': 'space/parker-solar-probe.jsp',
   '/space-3d/rosetta-philae-67p.html': 'space/rosetta-philae-67p.jsp',
   '/space-3d/space-elevator-physics.html': 'space/space-elevator-physics.jsp',
@@ -28256,6 +28341,44 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/yorp-effect-spin-drift-vs-alternatives.html': 'guide/vi/yorp-effect-spin-drift-vs-alternatives.jsp',
   '/guides/id/yorp-effect-spin-drift-vs-alternatives.html': 'guide/id/yorp-effect-spin-drift-vs-alternatives.jsp',
   '/guides/de/yorp-effect-spin-drift-vs-alternatives.html': 'guide/de/yorp-effect-spin-drift-vs-alternatives.jsp',
+  // local-bubble-interstellar-cavity companion guides (space-3d-discovery-loop LEAN fire, 2026-08-13)
+  '/guides/how-to-use-local-bubble-interstellar-cavity.html': 'guide/how-to-use-local-bubble-interstellar-cavity.jsp',
+  '/guides/pt/how-to-use-local-bubble-interstellar-cavity.html': 'guide/pt/how-to-use-local-bubble-interstellar-cavity.jsp',
+  '/guides/es/how-to-use-local-bubble-interstellar-cavity.html': 'guide/es/how-to-use-local-bubble-interstellar-cavity.jsp',
+  '/guides/vi/how-to-use-local-bubble-interstellar-cavity.html': 'guide/vi/how-to-use-local-bubble-interstellar-cavity.jsp',
+  '/guides/id/how-to-use-local-bubble-interstellar-cavity.html': 'guide/id/how-to-use-local-bubble-interstellar-cavity.jsp',
+  '/guides/de/how-to-use-local-bubble-interstellar-cavity.html': 'guide/de/how-to-use-local-bubble-interstellar-cavity.jsp',
+  '/guides/local-bubble-interstellar-cavity-when.html': 'guide/local-bubble-interstellar-cavity-when.jsp',
+  '/guides/pt/local-bubble-interstellar-cavity-when.html': 'guide/pt/local-bubble-interstellar-cavity-when.jsp',
+  '/guides/es/local-bubble-interstellar-cavity-when.html': 'guide/es/local-bubble-interstellar-cavity-when.jsp',
+  '/guides/vi/local-bubble-interstellar-cavity-when.html': 'guide/vi/local-bubble-interstellar-cavity-when.jsp',
+  '/guides/id/local-bubble-interstellar-cavity-when.html': 'guide/id/local-bubble-interstellar-cavity-when.jsp',
+  '/guides/de/local-bubble-interstellar-cavity-when.html': 'guide/de/local-bubble-interstellar-cavity-when.jsp',
+  '/guides/local-bubble-interstellar-cavity-vs-alternatives.html': 'guide/local-bubble-interstellar-cavity-vs-alternatives.jsp',
+  '/guides/pt/local-bubble-interstellar-cavity-vs-alternatives.html': 'guide/pt/local-bubble-interstellar-cavity-vs-alternatives.jsp',
+  '/guides/es/local-bubble-interstellar-cavity-vs-alternatives.html': 'guide/es/local-bubble-interstellar-cavity-vs-alternatives.jsp',
+  '/guides/vi/local-bubble-interstellar-cavity-vs-alternatives.html': 'guide/vi/local-bubble-interstellar-cavity-vs-alternatives.jsp',
+  '/guides/id/local-bubble-interstellar-cavity-vs-alternatives.html': 'guide/id/local-bubble-interstellar-cavity-vs-alternatives.jsp',
+  '/guides/de/local-bubble-interstellar-cavity-vs-alternatives.html': 'guide/de/local-bubble-interstellar-cavity-vs-alternatives.jsp',
+  // hubble-tuning-fork companion guides (space-3d-discovery-loop LEAN fire, 2026-08-13)
+  '/guides/how-to-use-hubble-tuning-fork.html': 'guide/how-to-use-hubble-tuning-fork.jsp',
+  '/guides/pt/how-to-use-hubble-tuning-fork.html': 'guide/pt/how-to-use-hubble-tuning-fork.jsp',
+  '/guides/es/how-to-use-hubble-tuning-fork.html': 'guide/es/how-to-use-hubble-tuning-fork.jsp',
+  '/guides/vi/how-to-use-hubble-tuning-fork.html': 'guide/vi/how-to-use-hubble-tuning-fork.jsp',
+  '/guides/id/how-to-use-hubble-tuning-fork.html': 'guide/id/how-to-use-hubble-tuning-fork.jsp',
+  '/guides/de/how-to-use-hubble-tuning-fork.html': 'guide/de/how-to-use-hubble-tuning-fork.jsp',
+  '/guides/hubble-tuning-fork-when.html': 'guide/hubble-tuning-fork-when.jsp',
+  '/guides/pt/hubble-tuning-fork-when.html': 'guide/pt/hubble-tuning-fork-when.jsp',
+  '/guides/es/hubble-tuning-fork-when.html': 'guide/es/hubble-tuning-fork-when.jsp',
+  '/guides/vi/hubble-tuning-fork-when.html': 'guide/vi/hubble-tuning-fork-when.jsp',
+  '/guides/id/hubble-tuning-fork-when.html': 'guide/id/hubble-tuning-fork-when.jsp',
+  '/guides/de/hubble-tuning-fork-when.html': 'guide/de/hubble-tuning-fork-when.jsp',
+  '/guides/hubble-tuning-fork-vs-alternatives.html': 'guide/hubble-tuning-fork-vs-alternatives.jsp',
+  '/guides/pt/hubble-tuning-fork-vs-alternatives.html': 'guide/pt/hubble-tuning-fork-vs-alternatives.jsp',
+  '/guides/es/hubble-tuning-fork-vs-alternatives.html': 'guide/es/hubble-tuning-fork-vs-alternatives.jsp',
+  '/guides/vi/hubble-tuning-fork-vs-alternatives.html': 'guide/vi/hubble-tuning-fork-vs-alternatives.jsp',
+  '/guides/id/hubble-tuning-fork-vs-alternatives.html': 'guide/id/hubble-tuning-fork-vs-alternatives.jsp',
+  '/guides/de/hubble-tuning-fork-vs-alternatives.html': 'guide/de/hubble-tuning-fork-vs-alternatives.jsp',
   // parker-solar-probe companion guides (space-3d-discovery-loop LEAN fire, 2026-08-10)
   '/guides/how-to-use-parker-solar-probe.html': 'guide/how-to-use-parker-solar-probe.jsp',
   '/guides/pt/how-to-use-parker-solar-probe.html': 'guide/pt/how-to-use-parker-solar-probe.jsp',
@@ -29224,7 +29347,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/favicon-generator-when.html',
   '/guides/vi/feast-night-vs-alternatives.html',
   '/guides/vi/feast-night-when.html',
-  '/guides/vi/ffmpeg-online-conversion-stalled-three-fixes.html',
   '/guides/vi/ffmpeg-online-vs-local-ffmpeg-when-each-wins.html',
   '/guides/vi/ffmpeg-online-vs-video-converter-which-to-pick.html',
   '/guides/vi/file-compressor-online-when-to-zip-vs-when-to-compress-image.html',
@@ -29609,7 +29731,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/how-to-play-emoji-slot-machine.html',
   '/guides/vi/how-to-play-feast-night.html',
   '/guides/vi/how-to-play-flexbox-froggy.html',
-  '/guides/vi/how-to-play-floor-thirteen-horror.html',
   '/guides/vi/how-to-play-globe-siege.html',
   '/guides/vi/how-to-play-glow-firefly-cat.html',
   '/guides/vi/how-to-play-googol-stopping-game.html',
@@ -29622,7 +29743,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/how-to-play-inferno-soul-walker.html',
   '/guides/vi/how-to-play-iso-city-sandbox.html',
   '/guides/vi/how-to-play-layer-flip-platformer.html',
-  '/guides/vi/how-to-play-lightning-math-battle.html',
   '/guides/vi/how-to-play-machine-guard-corps.html',
   '/guides/vi/how-to-play-marble-maze.html',
   '/guides/vi/how-to-play-medieval-wall-defense.html',
@@ -30925,7 +31045,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/how-to-play-emoji-slot-machine.html",
   "/guides/de/how-to-play-feast-night.html",
   "/guides/de/how-to-play-flexbox-froggy.html",
-  "/guides/de/how-to-play-floor-thirteen-horror.html",
   "/guides/de/how-to-play-globe-siege.html",
   "/guides/de/how-to-play-glow-firefly-cat.html",
   "/guides/de/how-to-play-googol-stopping-game.html",
@@ -30938,7 +31057,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/how-to-play-inferno-soul-walker.html",
   "/guides/de/how-to-play-iso-city-sandbox.html",
   "/guides/de/how-to-play-layer-flip-platformer.html",
-  "/guides/de/how-to-play-lightning-math-battle.html",
   "/guides/de/how-to-play-machine-guard-corps.html",
   "/guides/de/how-to-play-marble-maze.html",
   "/guides/de/how-to-play-medieval-wall-defense.html",
@@ -31315,7 +31433,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/how-to-view-hybodus-in-3d.html",
   "/guides/de/how-to-view-ichthyosaurus-in-3d.html",
   "/guides/de/how-to-view-ichthyovenator-in-3d.html",
-  "/guides/de/how-to-view-iguanodon-in-3d.html",
   "/guides/de/how-to-view-kentrosaurus-in-3d.html",
   "/guides/de/how-to-view-lambeosaurus-in-3d.html",
   "/guides/de/how-to-view-majungasaurus-in-3d.html",
@@ -31697,7 +31814,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/pdf-editing-ladder.html",
   "/guides/de/pdf-filler-form-editor-step-by-step.html",
   "/guides/de/pdf-password-types-owner-vs-user.html",
-  "/guides/de/pdf-preflight-online-what-it-actually-checks.html",
   "/guides/de/pdf-to-text-online-i-love-pdf.html",
   "/guides/de/pentaceratops-3d-viewer-vs-ar-apps.html",
   "/guides/de/pentaceratops-size-comparison.html",
@@ -32336,7 +32452,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/how-to-play-emoji-slot-machine.html',
   '/guides/pt/how-to-play-feast-night.html',
   '/guides/pt/how-to-play-flexbox-froggy.html',
-  '/guides/pt/how-to-play-floor-thirteen-horror.html',
   '/guides/pt/how-to-play-globe-siege.html',
   '/guides/pt/how-to-play-glow-firefly-cat.html',
   '/guides/pt/how-to-play-googol-stopping-game.html',
@@ -32349,7 +32464,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/how-to-play-inferno-soul-walker.html',
   '/guides/pt/how-to-play-iso-city-sandbox.html',
   '/guides/pt/how-to-play-layer-flip-platformer.html',
-  '/guides/pt/how-to-play-lightning-math-battle.html',
   '/guides/pt/how-to-play-machine-guard-corps.html',
   '/guides/pt/how-to-play-marble-maze.html',
   '/guides/pt/how-to-play-medieval-wall-defense.html',
@@ -32976,7 +33090,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/cosmic-ray-shower-vs-alternatives.html',
   '/guides/pt/cosmic-ray-shower-when.html',
   '/guides/pt/countdown-timer-step-by-step.html',
-  '/guides/pt/create-zip-file-online.html',
   '/guides/pt/cron-expression-parser-step-by-step.html',
   '/guides/pt/cron-expression-parser-vs-alternatives.html',
   // geo-batch-fire161: restored - Bing AI citations found (was pruned zero-evidence on GSC-only signal)
@@ -33037,7 +33150,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/expanding-universe-vs-alternatives.html',
   '/guides/pt/expanding-universe-when.html',
   '/guides/pt/extract-gif-frames-png-vs-jpg-which-format.html',
-  '/guides/pt/favicon-generator-step-by-step.html',
   '/guides/pt/favicon-generator-vs-alternatives.html',
   '/guides/pt/favicon-generator-when.html',
   '/guides/pt/ffmpeg-online-conversion-stalled-three-fixes.html',
@@ -33742,7 +33854,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/how-to-play-emoji-slot-machine.html',
   '/guides/es/how-to-play-feast-night.html',
   '/guides/es/how-to-play-flexbox-froggy.html',
-  '/guides/es/how-to-play-floor-thirteen-horror.html',
   '/guides/es/how-to-play-globe-siege.html',
   '/guides/es/how-to-play-glow-firefly-cat.html',
   '/guides/es/how-to-play-googol-stopping-game.html',
@@ -33755,7 +33866,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/how-to-play-inferno-soul-walker.html',
   '/guides/es/how-to-play-iso-city-sandbox.html',
   '/guides/es/how-to-play-layer-flip-platformer.html',
-  '/guides/es/how-to-play-lightning-math-battle.html',
   '/guides/es/how-to-play-machine-guard-corps.html',
   '/guides/es/how-to-play-marble-maze.html',
   '/guides/es/how-to-play-medieval-wall-defense.html',
@@ -35112,7 +35222,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/id/how-to-play-emoji-slot-machine.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/how-to-play-feast-night.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/how-to-play-flexbox-froggy.html', // pruned 2026-07-29 zero-evidence id
-  '/guides/id/how-to-play-floor-thirteen-horror.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/how-to-play-globe-siege.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/how-to-play-glow-firefly-cat.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/how-to-play-googol-stopping-game.html', // pruned 2026-07-29 zero-evidence id
@@ -35125,7 +35234,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/id/how-to-play-inferno-soul-walker.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/how-to-play-iso-city-sandbox.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/how-to-play-layer-flip-platformer.html', // pruned 2026-07-29 zero-evidence id
-  '/guides/id/how-to-play-lightning-math-battle.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/how-to-play-machine-guard-corps.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/how-to-play-marble-maze.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/how-to-play-medieval-wall-defense.html', // pruned 2026-07-29 zero-evidence id
