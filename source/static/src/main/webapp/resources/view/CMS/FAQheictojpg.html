@@ -18,7 +18,7 @@
 </details>
 <details class="faq-item">
   <summary><b>Does the conversion strip my EXIF metadata?</b></summary>
-  <p>No - by default the EXIF metadata block is preserved on the JPG, PNG, or WebP output. To strip it, uncheck the EXIF option in Settings before you convert - useful for faster processing, or for privacy when you do not want device or shoot details to follow the converted file out to a recipient. The setting is per-batch, so the next conversion starts with EXIF preserved again unless you uncheck the option each time you want it stripped.</p>
+  <p>No - the EXIF metadata block is kept on the JPG, PNG, or WebP output, and on this tool that is not optional: the EXIF control in Settings is fixed on, so camera model, shutter speed, ISO, and capture date travel with the converted file. If you need a copy with no metadata attached, convert with the in-browser panel on this page instead and then strip the metadata locally, or share a screenshot of the photo rather than the converted file itself.</p>
 </details>
 <details class="faq-item">
   <summary><b>Does converting HEIC to JPG lose quality?</b></summary>
@@ -47,7 +47,7 @@
 <!-- shipped:cycle=20260605-9; strategy=page_framing_menu_uncovered_fix; skill=tool-heictojpg; paraphrases=Q4; angle=server-vs-browser-split-truthful; marker-anchor-clean-commit -->
 <details class="faq-item">
   <summary><b>Does the conversion happen in my browser or on a server?</b></summary>
-  <p>Both paths exist, and you choose. The default convert button uploads the file over HTTPS for fast server-side decoding, then sends the JPG, PNG, WebP, or PDF back to your device. There is also an opt-in "Or convert in your browser - no upload" panel: pick a HEIC photo there and it is decoded and re-encoded entirely on your device, so the file never leaves your browser. Use the in-browser panel when you want to keep the photo off any server; use the default upload path for the full batch and format options.</p>
+  <p>Both paths exist, and you choose. The default convert button uploads the file over HTTPS for fast server-side decoding, then sends the JPG, PNG, WebP, or PDF back to your device. There is also an opt-in "Or convert in your browser - no upload" panel: drop one photo or a whole batch there and each one is decoded and re-encoded on your own device, so the files never leave your browser. That panel converts the batch one photo at a time and gives you a preview and a download button for each, plus a single ZIP of the set. Use it whenever you want the photos to stay off any server; use the default upload path when you want the combined multi-page PDF, which only the server builds.</p>
 </details>
 <!-- shipped:cycle=20260623-53; strategy=page_framing_menu_uncovered_fix; skill=tool-heictojpg; paraphrases=Q3; angle=auto-optimise-mechanism; marker-anchor-clean-commit -->
 <details class="faq-item">
