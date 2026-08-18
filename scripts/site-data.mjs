@@ -14,6 +14,26 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // game-server-status companion guides (new-tool-discovery-loop fire728)
+  '/guides/game-server-status-step-by-step.html',
+  '/guides/game-server-status-when.html',
+  '/guides/game-server-status-vs-alternatives.html',
+  '/guides/pt/game-server-status-step-by-step.html',
+  '/guides/pt/game-server-status-when.html',
+  '/guides/pt/game-server-status-vs-alternatives.html',
+  '/guides/es/game-server-status-step-by-step.html',
+  '/guides/es/game-server-status-when.html',
+  '/guides/es/game-server-status-vs-alternatives.html',
+  '/guides/vi/game-server-status-step-by-step.html',
+  '/guides/vi/game-server-status-when.html',
+  '/guides/vi/game-server-status-vs-alternatives.html',
+  '/guides/id/game-server-status-step-by-step.html',
+  '/guides/id/game-server-status-when.html',
+  '/guides/id/game-server-status-vs-alternatives.html',
+  '/guides/de/game-server-status-step-by-step.html',
+  '/guides/de/game-server-status-when.html',
+  '/guides/de/game-server-status-vs-alternatives.html',
+
   // vehicle-recall-lookup guide family (new-tool-discovery lane; locale drain landed by ai-local fire8 S1.2 resume, 2026-08-12)
   '/guides/vehicle-recall-lookup-when.html',
   '/guides/vehicle-recall-lookup-step-by-step.html',
@@ -16281,6 +16301,7 @@ export const ALIAS_ROUTES = {
   '/wildfire-map.html': '/utility-tools/wildfire-map.html',
   '/tournament-prize-money-lookup.html': '/utility-tools/tournament-prize-money-lookup.html',
   '/vehicle-recall-lookup.html': '/utility-tools/vehicle-recall-lookup.html',
+  '/game-server-status.html': '/utility-tools/game-server-status.html',
   // content-consolidation-loop fire39 (2026-08-09) - step-1a cannibalized-backlog drain.
   // topical-map nodes video.hd-video-converter + utility.grocery-list each carried 3 guide
   // families for ONE reader intent. The two weakest TEMPLATE families per node are retired
@@ -16340,6 +16361,26 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // game-server-status companion guides (new-tool-discovery-loop fire728)
+  '/guides/game-server-status-step-by-step.html': 'guide/game-server-status-step-by-step.jsp',
+  '/guides/game-server-status-when.html': 'guide/game-server-status-when.jsp',
+  '/guides/game-server-status-vs-alternatives.html': 'guide/game-server-status-vs-alternatives.jsp',
+  '/guides/pt/game-server-status-step-by-step.html': 'guide/pt/game-server-status-step-by-step.jsp',
+  '/guides/pt/game-server-status-when.html': 'guide/pt/game-server-status-when.jsp',
+  '/guides/pt/game-server-status-vs-alternatives.html': 'guide/pt/game-server-status-vs-alternatives.jsp',
+  '/guides/es/game-server-status-step-by-step.html': 'guide/es/game-server-status-step-by-step.jsp',
+  '/guides/es/game-server-status-when.html': 'guide/es/game-server-status-when.jsp',
+  '/guides/es/game-server-status-vs-alternatives.html': 'guide/es/game-server-status-vs-alternatives.jsp',
+  '/guides/vi/game-server-status-step-by-step.html': 'guide/vi/game-server-status-step-by-step.jsp',
+  '/guides/vi/game-server-status-when.html': 'guide/vi/game-server-status-when.jsp',
+  '/guides/vi/game-server-status-vs-alternatives.html': 'guide/vi/game-server-status-vs-alternatives.jsp',
+  '/guides/id/game-server-status-step-by-step.html': 'guide/id/game-server-status-step-by-step.jsp',
+  '/guides/id/game-server-status-when.html': 'guide/id/game-server-status-when.jsp',
+  '/guides/id/game-server-status-vs-alternatives.html': 'guide/id/game-server-status-vs-alternatives.jsp',
+  '/guides/de/game-server-status-step-by-step.html': 'guide/de/game-server-status-step-by-step.jsp',
+  '/guides/de/game-server-status-when.html': 'guide/de/game-server-status-when.jsp',
+  '/guides/de/game-server-status-vs-alternatives.html': 'guide/de/game-server-status-vs-alternatives.jsp',
+
   '/utility-tools/text-summarizer.html': 'utility/text-summarizer.jsp',
   '/utility-tools/ai-translator.html': 'utility/ai-translator.jsp',
   '/utility-tools/grammar-checker.html': 'utility/grammar-checker.jsp',
@@ -29009,6 +29050,7 @@ export const JSP_BY_ROUTE = {
   '/guides/de/holiday-countdown-date-lookup-vs-alternatives.html': 'guide/de/holiday-countdown-date-lookup-vs-alternatives.jsp',
   '/utility-tools/tournament-prize-money-lookup.html': 'utility/tournament-prize-money-lookup.jsp',
   '/utility-tools/vehicle-recall-lookup.html': 'utility/vehicle-recall-lookup.jsp',
+  '/utility-tools/game-server-status.html': 'utility/game-server-status.jsp',
   '/guides/vehicle-recall-lookup-when.html': 'guide/vehicle-recall-lookup-when.jsp',
   '/guides/vehicle-recall-lookup-step-by-step.html': 'guide/vehicle-recall-lookup-step-by-step.jsp',
   '/guides/vehicle-recall-lookup-vs-alternatives.html': 'guide/vehicle-recall-lookup-vs-alternatives.jsp',
