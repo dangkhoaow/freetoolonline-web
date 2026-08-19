@@ -14248,6 +14248,7 @@ export function isArticleFamilyRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  '/client-side-pdf-editor-toolkit.html': '/image-converter-tools/client-side-pdf-editor-toolkit.html',
   '/guides/vi/egg-time-rewind-vs-alternatives.html': '/guides/egg-time-rewind-vs-alternatives.html', // Phase-B 301 vi-batch-3-cont2 fire335
   '/guides/vi/egg-time-rewind-when.html': '/guides/egg-time-rewind-when.html', // Phase-B 301 vi-batch-3-cont2 fire335
   '/guides/vi/eight-ball-pool-vs-alternatives.html': '/guides/eight-ball-pool-vs-alternatives.html', // Phase-B 301 vi-batch-3-cont2 fire335
@@ -16364,6 +16365,7 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  '/image-converter-tools/client-side-pdf-editor-toolkit.html': 'convert/client-side-pdf-editor-toolkit.jsp',
   // game-server-status companion guides (new-tool-discovery-loop fire728)
   '/guides/game-server-status-step-by-step.html': 'guide/game-server-status-step-by-step.jsp',
   '/guides/game-server-status-when.html': 'guide/game-server-status-when.jsp',
