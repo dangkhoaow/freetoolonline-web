@@ -14270,6 +14270,7 @@ export const ALIAS_ROUTES = {
   '/guides/vi/gas-giant-atmosphere-vs-alternatives.html': '/guides/gas-giant-atmosphere-vs-alternatives.html', // Phase-B 301 vi-batch-3-cont3 fire336
   '/guides/vi/gas-giant-atmosphere-when.html': '/guides/gas-giant-atmosphere-when.html', // Phase-B 301 vi-batch-3-cont3 fire336
   '/client-side-pdf-editor-toolkit.html': '/image-converter-tools/client-side-pdf-editor-toolkit.html',
+  '/devtools-style-pdf-element-inspector-editor-android.html': '/image-converter-tools/devtools-style-pdf-element-inspector-editor-android.html',
   '/guides/vi/egg-time-rewind-vs-alternatives.html': '/guides/egg-time-rewind-vs-alternatives.html', // Phase-B 301 vi-batch-3-cont2 fire335
   '/guides/vi/egg-time-rewind-when.html': '/guides/egg-time-rewind-when.html', // Phase-B 301 vi-batch-3-cont2 fire335
   '/guides/vi/eight-ball-pool-vs-alternatives.html': '/guides/eight-ball-pool-vs-alternatives.html', // Phase-B 301 vi-batch-3-cont2 fire335
@@ -16387,6 +16388,7 @@ export const ALIAS_ROUTES = {
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
   '/image-converter-tools/client-side-pdf-editor-toolkit.html': 'convert/client-side-pdf-editor-toolkit.jsp',
+  '/image-converter-tools/devtools-style-pdf-element-inspector-editor-android.html': 'convert/devtools-style-pdf-element-inspector-editor-android.jsp',
   // game-server-status companion guides (new-tool-discovery-loop fire728)
   '/guides/game-server-status-step-by-step.html': 'guide/game-server-status-step-by-step.jsp',
   '/guides/game-server-status-when.html': 'guide/game-server-status-when.jsp',
