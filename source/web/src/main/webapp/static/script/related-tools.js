@@ -943,6 +943,7 @@ try {
     { title: "Blur Faces in Photos", url: "https://freetoolonline.com/image-tools/face-blur.html", include: !1, tags: "image-editing" },
     { title: "Vehicle Recall Lookup", url: "https://freetoolonline.com/utility-tools/vehicle-recall-lookup.html", include: !1, tags: "utility" },
     { title: "Game Server Status Checker - Fortnite, Roblox, Discord, Minecraft", url: "https://freetoolonline.com/utility-tools/game-server-status.html", include: !1, tags: "utility" },
+    { title: "Is It Down? Website & Service Status Checker", url: "https://freetoolonline.com/utility-tools/is-it-down.html", include: !1, tags: "utility" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
     allCurrentTags = "",
