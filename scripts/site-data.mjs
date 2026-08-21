@@ -14,6 +14,12 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/adobe-pdf-editor-browser-vs-alternatives.html',
+  '/guides/pt/adobe-pdf-editor-browser-vs-alternatives.html',
+  '/guides/es/adobe-pdf-editor-browser-vs-alternatives.html',
+  '/guides/vi/adobe-pdf-editor-browser-vs-alternatives.html',
+  '/guides/id/adobe-pdf-editor-browser-vs-alternatives.html',
+  '/guides/de/adobe-pdf-editor-browser-vs-alternatives.html',
   // game-server-status companion guides (new-tool-discovery-loop fire728)
   '/guides/game-server-status-step-by-step.html',
   '/guides/game-server-status-when.html',
@@ -7289,6 +7295,16 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // adobe-pdf-editor-browser-vs-alternatives pt locale (create_new_guide_page)
+  '/guides/pt/adobe-pdf-editor-browser-vs-alternatives.html',
+  // adobe-pdf-editor-browser-vs-alternatives es locale (create_new_guide_page)
+  '/guides/es/adobe-pdf-editor-browser-vs-alternatives.html',
+  // adobe-pdf-editor-browser-vs-alternatives vi locale (create_new_guide_page)
+  '/guides/vi/adobe-pdf-editor-browser-vs-alternatives.html',
+  // adobe-pdf-editor-browser-vs-alternatives id locale (create_new_guide_page)
+  '/guides/id/adobe-pdf-editor-browser-vs-alternatives.html',
+  // adobe-pdf-editor-browser-vs-alternatives de locale (create_new_guide_page)
+  '/guides/de/adobe-pdf-editor-browser-vs-alternatives.html',
   // what-national-day-is-today companion guides (new-tool-discovery-loop-runbook fire718)
   '/guides/what-national-day-is-today-step-by-step.html',
   '/guides/what-national-day-is-today-when.html',
@@ -16389,6 +16405,12 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  '/guides/adobe-pdf-editor-browser-vs-alternatives.html': 'guide/adobe-pdf-editor-browser-vs-alternatives.jsp',
+  '/guides/pt/adobe-pdf-editor-browser-vs-alternatives.html': 'guide/pt/adobe-pdf-editor-browser-vs-alternatives.jsp',
+  '/guides/es/adobe-pdf-editor-browser-vs-alternatives.html': 'guide/es/adobe-pdf-editor-browser-vs-alternatives.jsp',
+  '/guides/vi/adobe-pdf-editor-browser-vs-alternatives.html': 'guide/vi/adobe-pdf-editor-browser-vs-alternatives.jsp',
+  '/guides/id/adobe-pdf-editor-browser-vs-alternatives.html': 'guide/id/adobe-pdf-editor-browser-vs-alternatives.jsp',
+  '/guides/de/adobe-pdf-editor-browser-vs-alternatives.html': 'guide/de/adobe-pdf-editor-browser-vs-alternatives.jsp',
   '/image-converter-tools/client-side-pdf-editor-toolkit.html': 'convert/client-side-pdf-editor-toolkit.jsp',
   '/image-converter-tools/devtools-style-pdf-element-inspector-editor-android.html': 'convert/devtools-style-pdf-element-inspector-editor-android.jsp',
   // game-server-status companion guides (new-tool-discovery-loop fire728)
