@@ -7608,7 +7608,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-mosasaurus-in-3d.html',
   '/guides/pt/how-to-view-mosasaurus-in-3d.html',
   '/guides/es/how-to-view-mosasaurus-in-3d.html',
-  '/guides/vi/how-to-view-mosasaurus-in-3d.html',
   '/guides/id/how-to-view-mosasaurus-in-3d.html',
   '/guides/de/how-to-view-mosasaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire5 (2026-07-15): mosasaurus-size-comparison
@@ -7665,7 +7664,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-stegosaurus-in-3d.html',
   '/guides/pt/how-to-view-stegosaurus-in-3d.html',
   '/guides/es/how-to-view-stegosaurus-in-3d.html',
-  '/guides/vi/how-to-view-stegosaurus-in-3d.html',
   '/guides/id/how-to-view-stegosaurus-in-3d.html',
   '/guides/de/how-to-view-stegosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire17 (2026-07-16): stegosaurus-size-comparison
@@ -7716,7 +7714,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-parasaurolophus-in-3d.html',
   '/guides/pt/how-to-view-parasaurolophus-in-3d.html',
   '/guides/es/how-to-view-parasaurolophus-in-3d.html',
-  '/guides/vi/how-to-view-parasaurolophus-in-3d.html',
   '/guides/id/how-to-view-parasaurolophus-in-3d.html',
   '/guides/de/how-to-view-parasaurolophus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire26 (2026-07-17): parasaurolophus-size-comparison
@@ -7740,7 +7737,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-pteranodon-in-3d.html',
   '/guides/pt/how-to-view-pteranodon-in-3d.html',
   '/guides/es/how-to-view-pteranodon-in-3d.html',
-  '/guides/vi/how-to-view-pteranodon-in-3d.html',
   '/guides/id/how-to-view-pteranodon-in-3d.html',
   '/guides/de/how-to-view-pteranodon-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire29 (2026-07-17): pteranodon-size-comparison
@@ -7785,7 +7781,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-giganotosaurus-in-3d.html',
   '/guides/pt/how-to-view-giganotosaurus-in-3d.html',
   '/guides/es/how-to-view-giganotosaurus-in-3d.html',
-  '/guides/vi/how-to-view-giganotosaurus-in-3d.html',
   '/guides/id/how-to-view-giganotosaurus-in-3d.html',
   '/guides/de/how-to-view-giganotosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire35 (2026-07-17): giganotosaurus-size-comparison
@@ -7807,7 +7802,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-diplodocus-in-3d.html',
   '/guides/pt/how-to-view-diplodocus-in-3d.html',
   '/guides/es/how-to-view-diplodocus-in-3d.html',
-  '/guides/vi/how-to-view-diplodocus-in-3d.html',
   '/guides/id/how-to-view-diplodocus-in-3d.html',
   '/guides/de/how-to-view-diplodocus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire38 (2026-07-17): diplodocus-size-comparison
@@ -7871,7 +7865,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-dilophosaurus-in-3d.html',
   '/guides/pt/how-to-view-dilophosaurus-in-3d.html',
   '/guides/es/how-to-view-dilophosaurus-in-3d.html',
-  '/guides/vi/how-to-view-dilophosaurus-in-3d.html',
   '/guides/id/how-to-view-dilophosaurus-in-3d.html',
   '/guides/de/how-to-view-dilophosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire47 (2026-07-18): dilophosaurus-size-comparison
@@ -7893,7 +7886,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-iguanodon-in-3d.html',
   '/guides/pt/how-to-view-iguanodon-in-3d.html',
   '/guides/es/how-to-view-iguanodon-in-3d.html',
-  '/guides/vi/how-to-view-iguanodon-in-3d.html',
   '/guides/id/how-to-view-iguanodon-in-3d.html',
   '/guides/de/how-to-view-iguanodon-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire50 (2026-07-18): iguanodon-size-comparison
@@ -7917,7 +7909,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-pachycephalosaurus-in-3d.html',
   '/guides/pt/how-to-view-pachycephalosaurus-in-3d.html',
   '/guides/es/how-to-view-pachycephalosaurus-in-3d.html',
-  '/guides/vi/how-to-view-pachycephalosaurus-in-3d.html',
   '/guides/id/how-to-view-pachycephalosaurus-in-3d.html',
   '/guides/de/how-to-view-pachycephalosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire53 (2026-07-18): pachycephalosaurus-size-comparison
@@ -7941,7 +7932,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-gallimimus-in-3d.html',
   '/guides/pt/how-to-view-gallimimus-in-3d.html',
   '/guides/es/how-to-view-gallimimus-in-3d.html',
-  '/guides/vi/how-to-view-gallimimus-in-3d.html',
   '/guides/id/how-to-view-gallimimus-in-3d.html',
   '/guides/de/how-to-view-gallimimus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire56 (2026-07-18): gallimimus-size-comparison
@@ -7963,7 +7953,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-therizinosaurus-in-3d.html',
   '/guides/pt/how-to-view-therizinosaurus-in-3d.html',
   '/guides/es/how-to-view-therizinosaurus-in-3d.html',
-  '/guides/vi/how-to-view-therizinosaurus-in-3d.html',
   '/guides/id/how-to-view-therizinosaurus-in-3d.html',
   '/guides/de/how-to-view-therizinosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire59 (2026-07-18): therizinosaurus-size-comparison
@@ -7987,7 +7976,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-deinonychus-in-3d.html',
   '/guides/pt/how-to-view-deinonychus-in-3d.html',
   '/guides/es/how-to-view-deinonychus-in-3d.html',
-  '/guides/vi/how-to-view-deinonychus-in-3d.html',
   '/guides/id/how-to-view-deinonychus-in-3d.html',
   '/guides/de/how-to-view-deinonychus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire62 (2026-07-18): deinonychus-size-comparison
@@ -8054,7 +8042,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-plesiosaurus-in-3d.html',
   '/guides/pt/how-to-view-plesiosaurus-in-3d.html',
   '/guides/es/how-to-view-plesiosaurus-in-3d.html',
-  '/guides/vi/how-to-view-plesiosaurus-in-3d.html',
   '/guides/id/how-to-view-plesiosaurus-in-3d.html',
   '/guides/de/how-to-view-plesiosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire71 (2026-07-18): plesiosaurus-size-comparison
@@ -8078,7 +8065,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-pachyrhinosaurus-in-3d.html',
   '/guides/pt/how-to-view-pachyrhinosaurus-in-3d.html',
   '/guides/es/how-to-view-pachyrhinosaurus-in-3d.html',
-  '/guides/vi/how-to-view-pachyrhinosaurus-in-3d.html',
   '/guides/id/how-to-view-pachyrhinosaurus-in-3d.html',
   '/guides/de/how-to-view-pachyrhinosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire74 (2026-07-18): pachyrhinosaurus-size-comparison
@@ -8102,7 +8088,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-ground-sloth-in-3d.html',
   '/guides/pt/how-to-view-ground-sloth-in-3d.html',
   '/guides/es/how-to-view-ground-sloth-in-3d.html',
-  '/guides/vi/how-to-view-ground-sloth-in-3d.html',
   '/guides/id/how-to-view-ground-sloth-in-3d.html',
   '/guides/de/how-to-view-ground-sloth-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire77 (2026-07-18): ground-sloth-size-comparison
@@ -8124,7 +8109,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-ichthyosaurus-in-3d.html',
   '/guides/pt/how-to-view-ichthyosaurus-in-3d.html',
   '/guides/es/how-to-view-ichthyosaurus-in-3d.html',
-  '/guides/vi/how-to-view-ichthyosaurus-in-3d.html',
   '/guides/id/how-to-view-ichthyosaurus-in-3d.html',
   '/guides/de/how-to-view-ichthyosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire80 (2026-07-18): ichthyosaurus-size-comparison
@@ -8148,7 +8132,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-edmontosaurus-in-3d.html',
   '/guides/pt/how-to-view-edmontosaurus-in-3d.html',
   '/guides/es/how-to-view-edmontosaurus-in-3d.html',
-  '/guides/vi/how-to-view-edmontosaurus-in-3d.html',
   '/guides/id/how-to-view-edmontosaurus-in-3d.html',
   '/guides/de/how-to-view-edmontosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire83 (2026-07-18): edmontosaurus-size-comparison
@@ -8191,7 +8174,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-protoceratops-in-3d.html',
   '/guides/pt/how-to-view-protoceratops-in-3d.html',
   '/guides/es/how-to-view-protoceratops-in-3d.html',
-  '/guides/vi/how-to-view-protoceratops-in-3d.html',
   '/guides/id/how-to-view-protoceratops-in-3d.html',
   '/guides/de/how-to-view-protoceratops-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire89 (2026-07-18): protoceratops-size-comparison
@@ -8236,7 +8218,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-megalosaurus-in-3d.html',
   '/guides/pt/how-to-view-megalosaurus-in-3d.html',
   '/guides/es/how-to-view-megalosaurus-in-3d.html',
-  '/guides/vi/how-to-view-megalosaurus-in-3d.html',
   '/guides/id/how-to-view-megalosaurus-in-3d.html',
   '/guides/de/how-to-view-megalosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire95 (2026-07-18): megalosaurus-size-comparison
@@ -8260,7 +8241,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-microraptor-in-3d.html',
   '/guides/pt/how-to-view-microraptor-in-3d.html',
   '/guides/es/how-to-view-microraptor-in-3d.html',
-  '/guides/vi/how-to-view-microraptor-in-3d.html',
   '/guides/id/how-to-view-microraptor-in-3d.html',
   '/guides/de/how-to-view-microraptor-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire98 (2026-07-18): microraptor-size-comparison
@@ -8284,7 +8264,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-majungasaurus-in-3d.html',
   '/guides/pt/how-to-view-majungasaurus-in-3d.html',
   '/guides/es/how-to-view-majungasaurus-in-3d.html',
-  '/guides/vi/how-to-view-majungasaurus-in-3d.html',
   '/guides/id/how-to-view-majungasaurus-in-3d.html',
   '/guides/de/how-to-view-majungasaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire101 (2026-07-18): majungasaurus-size-comparison
@@ -8397,7 +8376,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-ornithomimus-in-3d.html',
   '/guides/pt/how-to-view-ornithomimus-in-3d.html',
   '/guides/es/how-to-view-ornithomimus-in-3d.html',
-  '/guides/vi/how-to-view-ornithomimus-in-3d.html',
   '/guides/id/how-to-view-ornithomimus-in-3d.html',
   '/guides/de/how-to-view-ornithomimus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire116 (2026-07-18): ornithomimus-size-comparison
@@ -8445,7 +8423,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-gorgosaurus-in-3d.html',
   '/guides/pt/how-to-view-gorgosaurus-in-3d.html',
   '/guides/es/how-to-view-gorgosaurus-in-3d.html',
-  '/guides/vi/how-to-view-gorgosaurus-in-3d.html',
   '/guides/id/how-to-view-gorgosaurus-in-3d.html',
   '/guides/de/how-to-view-gorgosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire122 (2026-07-19): gorgosaurus-size-comparison
@@ -8467,7 +8444,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-dimetrodon-in-3d.html',
   '/guides/pt/how-to-view-dimetrodon-in-3d.html',
   '/guides/es/how-to-view-dimetrodon-in-3d.html',
-  '/guides/vi/how-to-view-dimetrodon-in-3d.html',
   '/guides/id/how-to-view-dimetrodon-in-3d.html',
   '/guides/de/how-to-view-dimetrodon-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire125 (2026-07-19): dimetrodon-size-comparison
@@ -8489,7 +8465,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-ichthyovenator-in-3d.html',
   '/guides/pt/how-to-view-ichthyovenator-in-3d.html',
   '/guides/es/how-to-view-ichthyovenator-in-3d.html',
-  '/guides/vi/how-to-view-ichthyovenator-in-3d.html',
   '/guides/id/how-to-view-ichthyovenator-in-3d.html',
   '/guides/de/how-to-view-ichthyovenator-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire128 (2026-07-19): ichthyovenator-size-comparison
@@ -8534,7 +8509,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-seismosaurus-in-3d.html',
   '/guides/pt/how-to-view-seismosaurus-in-3d.html',
   '/guides/es/how-to-view-seismosaurus-in-3d.html',
-  '/guides/vi/how-to-view-seismosaurus-in-3d.html',
   '/guides/id/how-to-view-seismosaurus-in-3d.html',
   '/guides/de/how-to-view-seismosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire134 (2026-07-19): seismosaurus-size-comparison
@@ -8558,7 +8532,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-stygimoloch-in-3d.html',
   '/guides/pt/how-to-view-stygimoloch-in-3d.html',
   '/guides/es/how-to-view-stygimoloch-in-3d.html',
-  '/guides/vi/how-to-view-stygimoloch-in-3d.html',
   '/guides/id/how-to-view-stygimoloch-in-3d.html',
   '/guides/de/how-to-view-stygimoloch-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire137 (2026-07-19): stygimoloch-size-comparison
@@ -8605,7 +8578,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-titanoboa-in-3d.html',
   '/guides/pt/how-to-view-titanoboa-in-3d.html',
   '/guides/es/how-to-view-titanoboa-in-3d.html',
-  '/guides/vi/how-to-view-titanoboa-in-3d.html',
   '/guides/id/how-to-view-titanoboa-in-3d.html',
   '/guides/de/how-to-view-titanoboa-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire143 (2026-07-19): titanoboa-size-comparison
@@ -8629,7 +8601,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-moropus-in-3d.html',
   '/guides/pt/how-to-view-moropus-in-3d.html',
   '/guides/es/how-to-view-moropus-in-3d.html',
-  '/guides/vi/how-to-view-moropus-in-3d.html',
   '/guides/id/how-to-view-moropus-in-3d.html',
   '/guides/de/how-to-view-moropus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire146 (2026-07-19): moropus-size-comparison
@@ -8653,7 +8624,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-titanosaurus-in-3d.html',
   '/guides/pt/how-to-view-titanosaurus-in-3d.html',
   '/guides/es/how-to-view-titanosaurus-in-3d.html',
-  '/guides/vi/how-to-view-titanosaurus-in-3d.html',
   '/guides/id/how-to-view-titanosaurus-in-3d.html',
   '/guides/de/how-to-view-titanosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire149 (2026-07-19): titanosaurus-size-comparison
@@ -8677,7 +8647,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-dracovenator-in-3d.html',
   '/guides/pt/how-to-view-dracovenator-in-3d.html',
   '/guides/es/how-to-view-dracovenator-in-3d.html',
-  '/guides/vi/how-to-view-dracovenator-in-3d.html',
   '/guides/id/how-to-view-dracovenator-in-3d.html',
   '/guides/de/how-to-view-dracovenator-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire152 (2026-07-19): dracovenator-size-comparison
@@ -8699,7 +8668,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-sauropelta-in-3d.html',
   '/guides/pt/how-to-view-sauropelta-in-3d.html',
   '/guides/es/how-to-view-sauropelta-in-3d.html',
-  '/guides/vi/how-to-view-sauropelta-in-3d.html',
   '/guides/id/how-to-view-sauropelta-in-3d.html',
   '/guides/de/how-to-view-sauropelta-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire155 (2026-07-19): sauropelta-size-comparison
@@ -8744,7 +8712,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-shuangmiaosaurus-in-3d.html',
   '/guides/pt/how-to-view-shuangmiaosaurus-in-3d.html',
   '/guides/es/how-to-view-shuangmiaosaurus-in-3d.html',
-  '/guides/vi/how-to-view-shuangmiaosaurus-in-3d.html',
   '/guides/id/how-to-view-shuangmiaosaurus-in-3d.html',
   '/guides/de/how-to-view-shuangmiaosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire161 (2026-07-20): shuangmiaosaurus-size-comparison
@@ -8789,7 +8756,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-doliosauriscus-in-3d.html',
   '/guides/pt/how-to-view-doliosauriscus-in-3d.html',
   '/guides/es/how-to-view-doliosauriscus-in-3d.html',
-  '/guides/vi/how-to-view-doliosauriscus-in-3d.html',
   '/guides/id/how-to-view-doliosauriscus-in-3d.html',
   '/guides/de/how-to-view-doliosauriscus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire167 (2026-07-20): doliosauriscus-size-comparison
@@ -8857,7 +8823,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-gigantoraptor-in-3d.html',
   '/guides/pt/how-to-view-gigantoraptor-in-3d.html',
   '/guides/es/how-to-view-gigantoraptor-in-3d.html',
-  '/guides/vi/how-to-view-gigantoraptor-in-3d.html',
   '/guides/id/how-to-view-gigantoraptor-in-3d.html',
   '/guides/de/how-to-view-gigantoraptor-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire176 (2026-07-20): gigantoraptor-size-comparison
@@ -8879,7 +8844,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-gryponyx-in-3d.html',
   '/guides/pt/how-to-view-gryponyx-in-3d.html',
   '/guides/es/how-to-view-gryponyx-in-3d.html',
-  '/guides/vi/how-to-view-gryponyx-in-3d.html',
   '/guides/id/how-to-view-gryponyx-in-3d.html',
   '/guides/de/how-to-view-gryponyx-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire179 (2026-07-20): gryponyx-size-comparison
@@ -8901,7 +8865,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-hybodus-in-3d.html',
   '/guides/pt/how-to-view-hybodus-in-3d.html',
   '/guides/es/how-to-view-hybodus-in-3d.html',
-  '/guides/vi/how-to-view-hybodus-in-3d.html',
   '/guides/id/how-to-view-hybodus-in-3d.html',
   '/guides/de/how-to-view-hybodus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire182 (2026-07-20): hybodus-size-comparison
@@ -8925,7 +8888,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-quetzalcoatlus-in-3d.html',
   '/guides/pt/how-to-view-quetzalcoatlus-in-3d.html',
   '/guides/es/how-to-view-quetzalcoatlus-in-3d.html',
-  '/guides/vi/how-to-view-quetzalcoatlus-in-3d.html',
   '/guides/id/how-to-view-quetzalcoatlus-in-3d.html',
   '/guides/de/how-to-view-quetzalcoatlus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire185 (2026-07-20): quetzalcoatlus-size-comparison
@@ -8949,7 +8911,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-tarbosaurus-in-3d.html',
   '/guides/pt/how-to-view-tarbosaurus-in-3d.html',
   '/guides/es/how-to-view-tarbosaurus-in-3d.html',
-  '/guides/vi/how-to-view-tarbosaurus-in-3d.html',
   '/guides/id/how-to-view-tarbosaurus-in-3d.html',
   '/guides/de/how-to-view-tarbosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire188 (2026-07-20): tarbosaurus-size-comparison
@@ -8973,7 +8934,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-mamenchisaurus-in-3d.html',
   '/guides/pt/how-to-view-mamenchisaurus-in-3d.html',
   '/guides/es/how-to-view-mamenchisaurus-in-3d.html',
-  '/guides/vi/how-to-view-mamenchisaurus-in-3d.html',
   '/guides/id/how-to-view-mamenchisaurus-in-3d.html',
   '/guides/de/how-to-view-mamenchisaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire191 (2026-07-20): mamenchisaurus-size-comparison
@@ -9065,7 +9025,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-pentaceratops-in-3d.html',
   '/guides/pt/how-to-view-pentaceratops-in-3d.html',
   '/guides/es/how-to-view-pentaceratops-in-3d.html',
-  '/guides/vi/how-to-view-pentaceratops-in-3d.html',
   '/guides/id/how-to-view-pentaceratops-in-3d.html',
   '/guides/de/how-to-view-pentaceratops-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire203 (2026-07-20): pentaceratops-size-comparison
@@ -9133,7 +9092,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-torvosaurus-in-3d.html',
   '/guides/pt/how-to-view-torvosaurus-in-3d.html',
   '/guides/es/how-to-view-torvosaurus-in-3d.html',
-  '/guides/vi/how-to-view-torvosaurus-in-3d.html',
   '/guides/id/how-to-view-torvosaurus-in-3d.html',
   '/guides/de/how-to-view-torvosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire212 (2026-07-20): torvosaurus-size-comparison
@@ -9157,7 +9115,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-sarcosuchus-in-3d.html',
   '/guides/pt/how-to-view-sarcosuchus-in-3d.html',
   '/guides/es/how-to-view-sarcosuchus-in-3d.html',
-  '/guides/vi/how-to-view-sarcosuchus-in-3d.html',
   '/guides/id/how-to-view-sarcosuchus-in-3d.html',
   '/guides/de/how-to-view-sarcosuchus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire215 (2026-07-20): sarcosuchus-size-comparison
@@ -9181,7 +9138,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-kentrosaurus-in-3d.html',
   '/guides/pt/how-to-view-kentrosaurus-in-3d.html',
   '/guides/es/how-to-view-kentrosaurus-in-3d.html',
-  '/guides/vi/how-to-view-kentrosaurus-in-3d.html',
   '/guides/id/how-to-view-kentrosaurus-in-3d.html',
   '/guides/de/how-to-view-kentrosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire218 (2026-07-20): kentrosaurus-size-comparison
@@ -9205,7 +9161,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-postosuchus-in-3d.html',
   '/guides/pt/how-to-view-postosuchus-in-3d.html',
   '/guides/es/how-to-view-postosuchus-in-3d.html',
-  '/guides/vi/how-to-view-postosuchus-in-3d.html',
   '/guides/id/how-to-view-postosuchus-in-3d.html',
   '/guides/de/how-to-view-postosuchus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire221 (2026-07-20): postosuchus-size-comparison
@@ -9315,7 +9270,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-psittacosaurus-in-3d.html',
   '/guides/pt/how-to-view-psittacosaurus-in-3d.html',
   '/guides/es/how-to-view-psittacosaurus-in-3d.html',
-  '/guides/vi/how-to-view-psittacosaurus-in-3d.html',
   '/guides/id/how-to-view-psittacosaurus-in-3d.html',
   '/guides/de/how-to-view-psittacosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire236 (2026-07-21): psittacosaurus-size-comparison
@@ -9362,7 +9316,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-ostafrikasaurus-in-3d.html',
   '/guides/pt/how-to-view-ostafrikasaurus-in-3d.html',
   '/guides/es/how-to-view-ostafrikasaurus-in-3d.html',
-  '/guides/vi/how-to-view-ostafrikasaurus-in-3d.html',
   '/guides/id/how-to-view-ostafrikasaurus-in-3d.html',
   '/guides/de/how-to-view-ostafrikasaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire242 (2026-07-21): ostafrikasaurus-size-comparison
@@ -9386,7 +9339,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-lambeosaurus-in-3d.html',
   '/guides/pt/how-to-view-lambeosaurus-in-3d.html',
   '/guides/es/how-to-view-lambeosaurus-in-3d.html',
-  '/guides/vi/how-to-view-lambeosaurus-in-3d.html',
   '/guides/id/how-to-view-lambeosaurus-in-3d.html',
   '/guides/de/how-to-view-lambeosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire245 (2026-07-21): lambeosaurus-size-comparison
@@ -9410,7 +9362,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-oviraptor-in-3d.html',
   '/guides/pt/how-to-view-oviraptor-in-3d.html',
   '/guides/es/how-to-view-oviraptor-in-3d.html',
-  '/guides/vi/how-to-view-oviraptor-in-3d.html',
   '/guides/id/how-to-view-oviraptor-in-3d.html',
   '/guides/de/how-to-view-oviraptor-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire248 (2026-07-21): oviraptor-size-comparison
@@ -9434,7 +9385,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/how-to-view-pinacosaurus-in-3d.html',
   '/guides/pt/how-to-view-pinacosaurus-in-3d.html',
   '/guides/es/how-to-view-pinacosaurus-in-3d.html',
-  '/guides/vi/how-to-view-pinacosaurus-in-3d.html',
   '/guides/id/how-to-view-pinacosaurus-in-3d.html',
   '/guides/de/how-to-view-pinacosaurus-in-3d.html',
   // dinosaur-3d-guides-loop-runbook fire251 (2026-07-21): pinacosaurus-size-comparison
@@ -16378,6 +16328,57 @@ export const ALIAS_ROUTES = {
   '/guides/vi/how-to-view-concavenator-in-3d.html': '/guides/how-to-view-concavenator-in-3d.html',
   '/guides/vi/how-to-view-cryolophosaurus-in-3d.html': '/guides/how-to-view-cryolophosaurus-in-3d.html',
   '/guides/vi/how-to-view-deinocheirus-in-3d.html': '/guides/how-to-view-deinocheirus-in-3d.html',
+  // vi-batch-6 Phase-B continuation: 301 alias to EN canonical (guide-farm-prune-runbook fire 340)
+  '/guides/vi/how-to-view-deinonychus-in-3d.html': '/guides/how-to-view-deinonychus-in-3d.html',
+  '/guides/vi/how-to-view-dilophosaurus-in-3d.html': '/guides/how-to-view-dilophosaurus-in-3d.html',
+  '/guides/vi/how-to-view-dimetrodon-in-3d.html': '/guides/how-to-view-dimetrodon-in-3d.html',
+  '/guides/vi/how-to-view-diplodocus-in-3d.html': '/guides/how-to-view-diplodocus-in-3d.html',
+  '/guides/vi/how-to-view-doliosauriscus-in-3d.html': '/guides/how-to-view-doliosauriscus-in-3d.html',
+  '/guides/vi/how-to-view-dracovenator-in-3d.html': '/guides/how-to-view-dracovenator-in-3d.html',
+  '/guides/vi/how-to-view-edmontosaurus-in-3d.html': '/guides/how-to-view-edmontosaurus-in-3d.html',
+  '/guides/vi/how-to-view-gallimimus-in-3d.html': '/guides/how-to-view-gallimimus-in-3d.html',
+  '/guides/vi/how-to-view-giganotosaurus-in-3d.html': '/guides/how-to-view-giganotosaurus-in-3d.html',
+  '/guides/vi/how-to-view-gigantoraptor-in-3d.html': '/guides/how-to-view-gigantoraptor-in-3d.html',
+  '/guides/vi/how-to-view-gorgosaurus-in-3d.html': '/guides/how-to-view-gorgosaurus-in-3d.html',
+  '/guides/vi/how-to-view-ground-sloth-in-3d.html': '/guides/how-to-view-ground-sloth-in-3d.html',
+  '/guides/vi/how-to-view-gryponyx-in-3d.html': '/guides/how-to-view-gryponyx-in-3d.html',
+  '/guides/vi/how-to-view-hybodus-in-3d.html': '/guides/how-to-view-hybodus-in-3d.html',
+  '/guides/vi/how-to-view-ichthyosaurus-in-3d.html': '/guides/how-to-view-ichthyosaurus-in-3d.html',
+  '/guides/vi/how-to-view-ichthyovenator-in-3d.html': '/guides/how-to-view-ichthyovenator-in-3d.html',
+  '/guides/vi/how-to-view-iguanodon-in-3d.html': '/guides/how-to-view-iguanodon-in-3d.html',
+  '/guides/vi/how-to-view-kentrosaurus-in-3d.html': '/guides/how-to-view-kentrosaurus-in-3d.html',
+  '/guides/vi/how-to-view-lambeosaurus-in-3d.html': '/guides/how-to-view-lambeosaurus-in-3d.html',
+  '/guides/vi/how-to-view-majungasaurus-in-3d.html': '/guides/how-to-view-majungasaurus-in-3d.html',
+  '/guides/vi/how-to-view-mamenchisaurus-in-3d.html': '/guides/how-to-view-mamenchisaurus-in-3d.html',
+  '/guides/vi/how-to-view-megalosaurus-in-3d.html': '/guides/how-to-view-megalosaurus-in-3d.html',
+  '/guides/vi/how-to-view-microraptor-in-3d.html': '/guides/how-to-view-microraptor-in-3d.html',
+  '/guides/vi/how-to-view-moropus-in-3d.html': '/guides/how-to-view-moropus-in-3d.html',
+  '/guides/vi/how-to-view-mosasaurus-in-3d.html': '/guides/how-to-view-mosasaurus-in-3d.html',
+  '/guides/vi/how-to-view-ornithomimus-in-3d.html': '/guides/how-to-view-ornithomimus-in-3d.html',
+  '/guides/vi/how-to-view-ostafrikasaurus-in-3d.html': '/guides/how-to-view-ostafrikasaurus-in-3d.html',
+  '/guides/vi/how-to-view-oviraptor-in-3d.html': '/guides/how-to-view-oviraptor-in-3d.html',
+  '/guides/vi/how-to-view-pachycephalosaurus-in-3d.html': '/guides/how-to-view-pachycephalosaurus-in-3d.html',
+  '/guides/vi/how-to-view-pachyrhinosaurus-in-3d.html': '/guides/how-to-view-pachyrhinosaurus-in-3d.html',
+  '/guides/vi/how-to-view-parasaurolophus-in-3d.html': '/guides/how-to-view-parasaurolophus-in-3d.html',
+  '/guides/vi/how-to-view-pentaceratops-in-3d.html': '/guides/how-to-view-pentaceratops-in-3d.html',
+  '/guides/vi/how-to-view-pinacosaurus-in-3d.html': '/guides/how-to-view-pinacosaurus-in-3d.html',
+  '/guides/vi/how-to-view-plesiosaurus-in-3d.html': '/guides/how-to-view-plesiosaurus-in-3d.html',
+  '/guides/vi/how-to-view-postosuchus-in-3d.html': '/guides/how-to-view-postosuchus-in-3d.html',
+  '/guides/vi/how-to-view-protoceratops-in-3d.html': '/guides/how-to-view-protoceratops-in-3d.html',
+  '/guides/vi/how-to-view-psittacosaurus-in-3d.html': '/guides/how-to-view-psittacosaurus-in-3d.html',
+  '/guides/vi/how-to-view-pteranodon-in-3d.html': '/guides/how-to-view-pteranodon-in-3d.html',
+  '/guides/vi/how-to-view-quetzalcoatlus-in-3d.html': '/guides/how-to-view-quetzalcoatlus-in-3d.html',
+  '/guides/vi/how-to-view-sarcosuchus-in-3d.html': '/guides/how-to-view-sarcosuchus-in-3d.html',
+  '/guides/vi/how-to-view-sauropelta-in-3d.html': '/guides/how-to-view-sauropelta-in-3d.html',
+  '/guides/vi/how-to-view-seismosaurus-in-3d.html': '/guides/how-to-view-seismosaurus-in-3d.html',
+  '/guides/vi/how-to-view-shuangmiaosaurus-in-3d.html': '/guides/how-to-view-shuangmiaosaurus-in-3d.html',
+  '/guides/vi/how-to-view-stegosaurus-in-3d.html': '/guides/how-to-view-stegosaurus-in-3d.html',
+  '/guides/vi/how-to-view-stygimoloch-in-3d.html': '/guides/how-to-view-stygimoloch-in-3d.html',
+  '/guides/vi/how-to-view-tarbosaurus-in-3d.html': '/guides/how-to-view-tarbosaurus-in-3d.html',
+  '/guides/vi/how-to-view-therizinosaurus-in-3d.html': '/guides/how-to-view-therizinosaurus-in-3d.html',
+  '/guides/vi/how-to-view-titanoboa-in-3d.html': '/guides/how-to-view-titanoboa-in-3d.html',
+  '/guides/vi/how-to-view-titanosaurus-in-3d.html': '/guides/how-to-view-titanosaurus-in-3d.html',
+  '/guides/vi/how-to-view-torvosaurus-in-3d.html': '/guides/how-to-view-torvosaurus-in-3d.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -20396,7 +20397,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-mosasaurus-in-3d.html': 'guide/how-to-view-mosasaurus-in-3d.jsp',
   '/guides/pt/how-to-view-mosasaurus-in-3d.html': 'guide/pt/how-to-view-mosasaurus-in-3d.jsp',
   '/guides/es/how-to-view-mosasaurus-in-3d.html': 'guide/es/how-to-view-mosasaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-mosasaurus-in-3d.html': 'guide/vi/how-to-view-mosasaurus-in-3d.jsp',
   '/guides/id/how-to-view-mosasaurus-in-3d.html': 'guide/id/how-to-view-mosasaurus-in-3d.jsp',
   '/guides/de/how-to-view-mosasaurus-in-3d.html': 'guide/de/how-to-view-mosasaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire5 (2026-07-15): mosasaurus-size-comparison
@@ -20445,7 +20445,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-stegosaurus-in-3d.html': 'guide/how-to-view-stegosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-stegosaurus-in-3d.html': 'guide/pt/how-to-view-stegosaurus-in-3d.jsp',
   '/guides/es/how-to-view-stegosaurus-in-3d.html': 'guide/es/how-to-view-stegosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-stegosaurus-in-3d.html': 'guide/vi/how-to-view-stegosaurus-in-3d.jsp',
   '/guides/id/how-to-view-stegosaurus-in-3d.html': 'guide/id/how-to-view-stegosaurus-in-3d.jsp',
   '/guides/de/how-to-view-stegosaurus-in-3d.html': 'guide/de/how-to-view-stegosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire17 (2026-07-16): stegosaurus-size-comparison
@@ -20492,7 +20491,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-parasaurolophus-in-3d.html': 'guide/how-to-view-parasaurolophus-in-3d.jsp',
   '/guides/pt/how-to-view-parasaurolophus-in-3d.html': 'guide/pt/how-to-view-parasaurolophus-in-3d.jsp',
   '/guides/es/how-to-view-parasaurolophus-in-3d.html': 'guide/es/how-to-view-parasaurolophus-in-3d.jsp',
-  '/guides/vi/how-to-view-parasaurolophus-in-3d.html': 'guide/vi/how-to-view-parasaurolophus-in-3d.jsp',
   '/guides/id/how-to-view-parasaurolophus-in-3d.html': 'guide/id/how-to-view-parasaurolophus-in-3d.jsp',
   '/guides/de/how-to-view-parasaurolophus-in-3d.html': 'guide/de/how-to-view-parasaurolophus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire26 (2026-07-17): parasaurolophus-size-comparison
@@ -20516,7 +20514,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-pteranodon-in-3d.html': 'guide/how-to-view-pteranodon-in-3d.jsp',
   '/guides/pt/how-to-view-pteranodon-in-3d.html': 'guide/pt/how-to-view-pteranodon-in-3d.jsp',
   '/guides/es/how-to-view-pteranodon-in-3d.html': 'guide/es/how-to-view-pteranodon-in-3d.jsp',
-  '/guides/vi/how-to-view-pteranodon-in-3d.html': 'guide/vi/how-to-view-pteranodon-in-3d.jsp',
   '/guides/id/how-to-view-pteranodon-in-3d.html': 'guide/id/how-to-view-pteranodon-in-3d.jsp',
   '/guides/de/how-to-view-pteranodon-in-3d.html': 'guide/de/how-to-view-pteranodon-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire29 (2026-07-17): pteranodon-size-comparison
@@ -20561,7 +20558,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-giganotosaurus-in-3d.html': 'guide/how-to-view-giganotosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-giganotosaurus-in-3d.html': 'guide/pt/how-to-view-giganotosaurus-in-3d.jsp',
   '/guides/es/how-to-view-giganotosaurus-in-3d.html': 'guide/es/how-to-view-giganotosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-giganotosaurus-in-3d.html': 'guide/vi/how-to-view-giganotosaurus-in-3d.jsp',
   '/guides/id/how-to-view-giganotosaurus-in-3d.html': 'guide/id/how-to-view-giganotosaurus-in-3d.jsp',
   '/guides/de/how-to-view-giganotosaurus-in-3d.html': 'guide/de/how-to-view-giganotosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire35 (2026-07-17): giganotosaurus-size-comparison
@@ -20583,7 +20579,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-diplodocus-in-3d.html': 'guide/how-to-view-diplodocus-in-3d.jsp',
   '/guides/pt/how-to-view-diplodocus-in-3d.html': 'guide/pt/how-to-view-diplodocus-in-3d.jsp',
   '/guides/es/how-to-view-diplodocus-in-3d.html': 'guide/es/how-to-view-diplodocus-in-3d.jsp',
-  '/guides/vi/how-to-view-diplodocus-in-3d.html': 'guide/vi/how-to-view-diplodocus-in-3d.jsp',
   '/guides/id/how-to-view-diplodocus-in-3d.html': 'guide/id/how-to-view-diplodocus-in-3d.jsp',
   '/guides/de/how-to-view-diplodocus-in-3d.html': 'guide/de/how-to-view-diplodocus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire38 (2026-07-17): diplodocus-size-comparison
@@ -20647,7 +20642,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-dilophosaurus-in-3d.html': 'guide/how-to-view-dilophosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-dilophosaurus-in-3d.html': 'guide/pt/how-to-view-dilophosaurus-in-3d.jsp',
   '/guides/es/how-to-view-dilophosaurus-in-3d.html': 'guide/es/how-to-view-dilophosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-dilophosaurus-in-3d.html': 'guide/vi/how-to-view-dilophosaurus-in-3d.jsp',
   '/guides/id/how-to-view-dilophosaurus-in-3d.html': 'guide/id/how-to-view-dilophosaurus-in-3d.jsp',
   '/guides/de/how-to-view-dilophosaurus-in-3d.html': 'guide/de/how-to-view-dilophosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire47 (2026-07-18): dilophosaurus-size-comparison
@@ -20669,7 +20663,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-iguanodon-in-3d.html': 'guide/how-to-view-iguanodon-in-3d.jsp',
   '/guides/pt/how-to-view-iguanodon-in-3d.html': 'guide/pt/how-to-view-iguanodon-in-3d.jsp',
   '/guides/es/how-to-view-iguanodon-in-3d.html': 'guide/es/how-to-view-iguanodon-in-3d.jsp',
-  '/guides/vi/how-to-view-iguanodon-in-3d.html': 'guide/vi/how-to-view-iguanodon-in-3d.jsp',
   '/guides/id/how-to-view-iguanodon-in-3d.html': 'guide/id/how-to-view-iguanodon-in-3d.jsp',
   '/guides/de/how-to-view-iguanodon-in-3d.html': 'guide/de/how-to-view-iguanodon-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire50 (2026-07-18): iguanodon-size-comparison
@@ -20693,7 +20686,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-pachycephalosaurus-in-3d.html': 'guide/how-to-view-pachycephalosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-pachycephalosaurus-in-3d.html': 'guide/pt/how-to-view-pachycephalosaurus-in-3d.jsp',
   '/guides/es/how-to-view-pachycephalosaurus-in-3d.html': 'guide/es/how-to-view-pachycephalosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-pachycephalosaurus-in-3d.html': 'guide/vi/how-to-view-pachycephalosaurus-in-3d.jsp',
   '/guides/id/how-to-view-pachycephalosaurus-in-3d.html': 'guide/id/how-to-view-pachycephalosaurus-in-3d.jsp',
   '/guides/de/how-to-view-pachycephalosaurus-in-3d.html': 'guide/de/how-to-view-pachycephalosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire53 (2026-07-18): pachycephalosaurus-size-comparison
@@ -20717,7 +20709,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-gallimimus-in-3d.html': 'guide/how-to-view-gallimimus-in-3d.jsp',
   '/guides/pt/how-to-view-gallimimus-in-3d.html': 'guide/pt/how-to-view-gallimimus-in-3d.jsp',
   '/guides/es/how-to-view-gallimimus-in-3d.html': 'guide/es/how-to-view-gallimimus-in-3d.jsp',
-  '/guides/vi/how-to-view-gallimimus-in-3d.html': 'guide/vi/how-to-view-gallimimus-in-3d.jsp',
   '/guides/id/how-to-view-gallimimus-in-3d.html': 'guide/id/how-to-view-gallimimus-in-3d.jsp',
   '/guides/de/how-to-view-gallimimus-in-3d.html': 'guide/de/how-to-view-gallimimus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire56 (2026-07-18): gallimimus-size-comparison
@@ -20739,7 +20730,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-therizinosaurus-in-3d.html': 'guide/how-to-view-therizinosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-therizinosaurus-in-3d.html': 'guide/pt/how-to-view-therizinosaurus-in-3d.jsp',
   '/guides/es/how-to-view-therizinosaurus-in-3d.html': 'guide/es/how-to-view-therizinosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-therizinosaurus-in-3d.html': 'guide/vi/how-to-view-therizinosaurus-in-3d.jsp',
   '/guides/id/how-to-view-therizinosaurus-in-3d.html': 'guide/id/how-to-view-therizinosaurus-in-3d.jsp',
   '/guides/de/how-to-view-therizinosaurus-in-3d.html': 'guide/de/how-to-view-therizinosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire59 (2026-07-18): therizinosaurus-size-comparison
@@ -20763,7 +20753,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-deinonychus-in-3d.html': 'guide/how-to-view-deinonychus-in-3d.jsp',
   '/guides/pt/how-to-view-deinonychus-in-3d.html': 'guide/pt/how-to-view-deinonychus-in-3d.jsp',
   '/guides/es/how-to-view-deinonychus-in-3d.html': 'guide/es/how-to-view-deinonychus-in-3d.jsp',
-  '/guides/vi/how-to-view-deinonychus-in-3d.html': 'guide/vi/how-to-view-deinonychus-in-3d.jsp',
   '/guides/id/how-to-view-deinonychus-in-3d.html': 'guide/id/how-to-view-deinonychus-in-3d.jsp',
   '/guides/de/how-to-view-deinonychus-in-3d.html': 'guide/de/how-to-view-deinonychus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire62 (2026-07-18): deinonychus-size-comparison
@@ -20830,7 +20819,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-plesiosaurus-in-3d.html': 'guide/how-to-view-plesiosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-plesiosaurus-in-3d.html': 'guide/pt/how-to-view-plesiosaurus-in-3d.jsp',
   '/guides/es/how-to-view-plesiosaurus-in-3d.html': 'guide/es/how-to-view-plesiosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-plesiosaurus-in-3d.html': 'guide/vi/how-to-view-plesiosaurus-in-3d.jsp',
   '/guides/id/how-to-view-plesiosaurus-in-3d.html': 'guide/id/how-to-view-plesiosaurus-in-3d.jsp',
   '/guides/de/how-to-view-plesiosaurus-in-3d.html': 'guide/de/how-to-view-plesiosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire71 (2026-07-18): plesiosaurus-size-comparison
@@ -20854,7 +20842,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-pachyrhinosaurus-in-3d.html': 'guide/how-to-view-pachyrhinosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-pachyrhinosaurus-in-3d.html': 'guide/pt/how-to-view-pachyrhinosaurus-in-3d.jsp',
   '/guides/es/how-to-view-pachyrhinosaurus-in-3d.html': 'guide/es/how-to-view-pachyrhinosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-pachyrhinosaurus-in-3d.html': 'guide/vi/how-to-view-pachyrhinosaurus-in-3d.jsp',
   '/guides/id/how-to-view-pachyrhinosaurus-in-3d.html': 'guide/id/how-to-view-pachyrhinosaurus-in-3d.jsp',
   '/guides/de/how-to-view-pachyrhinosaurus-in-3d.html': 'guide/de/how-to-view-pachyrhinosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire74 (2026-07-18): pachyrhinosaurus-size-comparison
@@ -20878,7 +20865,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-ground-sloth-in-3d.html': 'guide/how-to-view-ground-sloth-in-3d.jsp',
   '/guides/pt/how-to-view-ground-sloth-in-3d.html': 'guide/pt/how-to-view-ground-sloth-in-3d.jsp',
   '/guides/es/how-to-view-ground-sloth-in-3d.html': 'guide/es/how-to-view-ground-sloth-in-3d.jsp',
-  '/guides/vi/how-to-view-ground-sloth-in-3d.html': 'guide/vi/how-to-view-ground-sloth-in-3d.jsp',
   '/guides/id/how-to-view-ground-sloth-in-3d.html': 'guide/id/how-to-view-ground-sloth-in-3d.jsp',
   '/guides/de/how-to-view-ground-sloth-in-3d.html': 'guide/de/how-to-view-ground-sloth-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire77 (2026-07-18): ground-sloth-size-comparison
@@ -20900,7 +20886,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-ichthyosaurus-in-3d.html': 'guide/how-to-view-ichthyosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-ichthyosaurus-in-3d.html': 'guide/pt/how-to-view-ichthyosaurus-in-3d.jsp',
   '/guides/es/how-to-view-ichthyosaurus-in-3d.html': 'guide/es/how-to-view-ichthyosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-ichthyosaurus-in-3d.html': 'guide/vi/how-to-view-ichthyosaurus-in-3d.jsp',
   '/guides/id/how-to-view-ichthyosaurus-in-3d.html': 'guide/id/how-to-view-ichthyosaurus-in-3d.jsp',
   '/guides/de/how-to-view-ichthyosaurus-in-3d.html': 'guide/de/how-to-view-ichthyosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire80 (2026-07-18): ichthyosaurus-size-comparison
@@ -20924,7 +20909,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-edmontosaurus-in-3d.html': 'guide/how-to-view-edmontosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-edmontosaurus-in-3d.html': 'guide/pt/how-to-view-edmontosaurus-in-3d.jsp',
   '/guides/es/how-to-view-edmontosaurus-in-3d.html': 'guide/es/how-to-view-edmontosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-edmontosaurus-in-3d.html': 'guide/vi/how-to-view-edmontosaurus-in-3d.jsp',
   '/guides/id/how-to-view-edmontosaurus-in-3d.html': 'guide/id/how-to-view-edmontosaurus-in-3d.jsp',
   '/guides/de/how-to-view-edmontosaurus-in-3d.html': 'guide/de/how-to-view-edmontosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire83 (2026-07-18): edmontosaurus-size-comparison
@@ -20967,7 +20951,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-protoceratops-in-3d.html': 'guide/how-to-view-protoceratops-in-3d.jsp',
   '/guides/pt/how-to-view-protoceratops-in-3d.html': 'guide/pt/how-to-view-protoceratops-in-3d.jsp',
   '/guides/es/how-to-view-protoceratops-in-3d.html': 'guide/es/how-to-view-protoceratops-in-3d.jsp',
-  '/guides/vi/how-to-view-protoceratops-in-3d.html': 'guide/vi/how-to-view-protoceratops-in-3d.jsp',
   '/guides/id/how-to-view-protoceratops-in-3d.html': 'guide/id/how-to-view-protoceratops-in-3d.jsp',
   '/guides/de/how-to-view-protoceratops-in-3d.html': 'guide/de/how-to-view-protoceratops-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire89 (2026-07-18): protoceratops-size-comparison
@@ -21012,7 +20995,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-megalosaurus-in-3d.html': 'guide/how-to-view-megalosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-megalosaurus-in-3d.html': 'guide/pt/how-to-view-megalosaurus-in-3d.jsp',
   '/guides/es/how-to-view-megalosaurus-in-3d.html': 'guide/es/how-to-view-megalosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-megalosaurus-in-3d.html': 'guide/vi/how-to-view-megalosaurus-in-3d.jsp',
   '/guides/id/how-to-view-megalosaurus-in-3d.html': 'guide/id/how-to-view-megalosaurus-in-3d.jsp',
   '/guides/de/how-to-view-megalosaurus-in-3d.html': 'guide/de/how-to-view-megalosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire95 (2026-07-18): megalosaurus-size-comparison
@@ -21036,7 +21018,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-microraptor-in-3d.html': 'guide/how-to-view-microraptor-in-3d.jsp',
   '/guides/pt/how-to-view-microraptor-in-3d.html': 'guide/pt/how-to-view-microraptor-in-3d.jsp',
   '/guides/es/how-to-view-microraptor-in-3d.html': 'guide/es/how-to-view-microraptor-in-3d.jsp',
-  '/guides/vi/how-to-view-microraptor-in-3d.html': 'guide/vi/how-to-view-microraptor-in-3d.jsp',
   '/guides/id/how-to-view-microraptor-in-3d.html': 'guide/id/how-to-view-microraptor-in-3d.jsp',
   '/guides/de/how-to-view-microraptor-in-3d.html': 'guide/de/how-to-view-microraptor-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire98 (2026-07-18): microraptor-size-comparison
@@ -21060,7 +21041,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-majungasaurus-in-3d.html': 'guide/how-to-view-majungasaurus-in-3d.jsp',
   '/guides/pt/how-to-view-majungasaurus-in-3d.html': 'guide/pt/how-to-view-majungasaurus-in-3d.jsp',
   '/guides/es/how-to-view-majungasaurus-in-3d.html': 'guide/es/how-to-view-majungasaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-majungasaurus-in-3d.html': 'guide/vi/how-to-view-majungasaurus-in-3d.jsp',
   '/guides/id/how-to-view-majungasaurus-in-3d.html': 'guide/id/how-to-view-majungasaurus-in-3d.jsp',
   '/guides/de/how-to-view-majungasaurus-in-3d.html': 'guide/de/how-to-view-majungasaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire101 (2026-07-18): majungasaurus-size-comparison
@@ -21173,7 +21153,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-ornithomimus-in-3d.html': 'guide/how-to-view-ornithomimus-in-3d.jsp',
   '/guides/pt/how-to-view-ornithomimus-in-3d.html': 'guide/pt/how-to-view-ornithomimus-in-3d.jsp',
   '/guides/es/how-to-view-ornithomimus-in-3d.html': 'guide/es/how-to-view-ornithomimus-in-3d.jsp',
-  '/guides/vi/how-to-view-ornithomimus-in-3d.html': 'guide/vi/how-to-view-ornithomimus-in-3d.jsp',
   '/guides/id/how-to-view-ornithomimus-in-3d.html': 'guide/id/how-to-view-ornithomimus-in-3d.jsp',
   '/guides/de/how-to-view-ornithomimus-in-3d.html': 'guide/de/how-to-view-ornithomimus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire116 (2026-07-18): ornithomimus-size-comparison
@@ -21221,7 +21200,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-gorgosaurus-in-3d.html': 'guide/how-to-view-gorgosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-gorgosaurus-in-3d.html': 'guide/pt/how-to-view-gorgosaurus-in-3d.jsp',
   '/guides/es/how-to-view-gorgosaurus-in-3d.html': 'guide/es/how-to-view-gorgosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-gorgosaurus-in-3d.html': 'guide/vi/how-to-view-gorgosaurus-in-3d.jsp',
   '/guides/id/how-to-view-gorgosaurus-in-3d.html': 'guide/id/how-to-view-gorgosaurus-in-3d.jsp',
   '/guides/de/how-to-view-gorgosaurus-in-3d.html': 'guide/de/how-to-view-gorgosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire122 (2026-07-19): gorgosaurus-size-comparison
@@ -21243,7 +21221,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-dimetrodon-in-3d.html': 'guide/how-to-view-dimetrodon-in-3d.jsp',
   '/guides/pt/how-to-view-dimetrodon-in-3d.html': 'guide/pt/how-to-view-dimetrodon-in-3d.jsp',
   '/guides/es/how-to-view-dimetrodon-in-3d.html': 'guide/es/how-to-view-dimetrodon-in-3d.jsp',
-  '/guides/vi/how-to-view-dimetrodon-in-3d.html': 'guide/vi/how-to-view-dimetrodon-in-3d.jsp',
   '/guides/id/how-to-view-dimetrodon-in-3d.html': 'guide/id/how-to-view-dimetrodon-in-3d.jsp',
   '/guides/de/how-to-view-dimetrodon-in-3d.html': 'guide/de/how-to-view-dimetrodon-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire125 (2026-07-19): dimetrodon-size-comparison
@@ -21265,7 +21242,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-ichthyovenator-in-3d.html': 'guide/how-to-view-ichthyovenator-in-3d.jsp',
   '/guides/pt/how-to-view-ichthyovenator-in-3d.html': 'guide/pt/how-to-view-ichthyovenator-in-3d.jsp',
   '/guides/es/how-to-view-ichthyovenator-in-3d.html': 'guide/es/how-to-view-ichthyovenator-in-3d.jsp',
-  '/guides/vi/how-to-view-ichthyovenator-in-3d.html': 'guide/vi/how-to-view-ichthyovenator-in-3d.jsp',
   '/guides/id/how-to-view-ichthyovenator-in-3d.html': 'guide/id/how-to-view-ichthyovenator-in-3d.jsp',
   '/guides/de/how-to-view-ichthyovenator-in-3d.html': 'guide/de/how-to-view-ichthyovenator-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire128 (2026-07-19): ichthyovenator-size-comparison
@@ -21310,7 +21286,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-seismosaurus-in-3d.html': 'guide/how-to-view-seismosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-seismosaurus-in-3d.html': 'guide/pt/how-to-view-seismosaurus-in-3d.jsp',
   '/guides/es/how-to-view-seismosaurus-in-3d.html': 'guide/es/how-to-view-seismosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-seismosaurus-in-3d.html': 'guide/vi/how-to-view-seismosaurus-in-3d.jsp',
   '/guides/id/how-to-view-seismosaurus-in-3d.html': 'guide/id/how-to-view-seismosaurus-in-3d.jsp',
   '/guides/de/how-to-view-seismosaurus-in-3d.html': 'guide/de/how-to-view-seismosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire134 (2026-07-19): seismosaurus-size-comparison
@@ -21334,7 +21309,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-stygimoloch-in-3d.html': 'guide/how-to-view-stygimoloch-in-3d.jsp',
   '/guides/pt/how-to-view-stygimoloch-in-3d.html': 'guide/pt/how-to-view-stygimoloch-in-3d.jsp',
   '/guides/es/how-to-view-stygimoloch-in-3d.html': 'guide/es/how-to-view-stygimoloch-in-3d.jsp',
-  '/guides/vi/how-to-view-stygimoloch-in-3d.html': 'guide/vi/how-to-view-stygimoloch-in-3d.jsp',
   '/guides/id/how-to-view-stygimoloch-in-3d.html': 'guide/id/how-to-view-stygimoloch-in-3d.jsp',
   '/guides/de/how-to-view-stygimoloch-in-3d.html': 'guide/de/how-to-view-stygimoloch-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire137 (2026-07-19): stygimoloch-size-comparison
@@ -21381,7 +21355,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-titanoboa-in-3d.html': 'guide/how-to-view-titanoboa-in-3d.jsp',
   '/guides/pt/how-to-view-titanoboa-in-3d.html': 'guide/pt/how-to-view-titanoboa-in-3d.jsp',
   '/guides/es/how-to-view-titanoboa-in-3d.html': 'guide/es/how-to-view-titanoboa-in-3d.jsp',
-  '/guides/vi/how-to-view-titanoboa-in-3d.html': 'guide/vi/how-to-view-titanoboa-in-3d.jsp',
   '/guides/id/how-to-view-titanoboa-in-3d.html': 'guide/id/how-to-view-titanoboa-in-3d.jsp',
   '/guides/de/how-to-view-titanoboa-in-3d.html': 'guide/de/how-to-view-titanoboa-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire143 (2026-07-19): titanoboa-size-comparison
@@ -21405,7 +21378,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-moropus-in-3d.html': 'guide/how-to-view-moropus-in-3d.jsp',
   '/guides/pt/how-to-view-moropus-in-3d.html': 'guide/pt/how-to-view-moropus-in-3d.jsp',
   '/guides/es/how-to-view-moropus-in-3d.html': 'guide/es/how-to-view-moropus-in-3d.jsp',
-  '/guides/vi/how-to-view-moropus-in-3d.html': 'guide/vi/how-to-view-moropus-in-3d.jsp',
   '/guides/id/how-to-view-moropus-in-3d.html': 'guide/id/how-to-view-moropus-in-3d.jsp',
   '/guides/de/how-to-view-moropus-in-3d.html': 'guide/de/how-to-view-moropus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire146 (2026-07-19): moropus-size-comparison
@@ -21429,7 +21401,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-titanosaurus-in-3d.html': 'guide/how-to-view-titanosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-titanosaurus-in-3d.html': 'guide/pt/how-to-view-titanosaurus-in-3d.jsp',
   '/guides/es/how-to-view-titanosaurus-in-3d.html': 'guide/es/how-to-view-titanosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-titanosaurus-in-3d.html': 'guide/vi/how-to-view-titanosaurus-in-3d.jsp',
   '/guides/id/how-to-view-titanosaurus-in-3d.html': 'guide/id/how-to-view-titanosaurus-in-3d.jsp',
   '/guides/de/how-to-view-titanosaurus-in-3d.html': 'guide/de/how-to-view-titanosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire149 (2026-07-19): titanosaurus-size-comparison
@@ -21453,7 +21424,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-dracovenator-in-3d.html': 'guide/how-to-view-dracovenator-in-3d.jsp',
   '/guides/pt/how-to-view-dracovenator-in-3d.html': 'guide/pt/how-to-view-dracovenator-in-3d.jsp',
   '/guides/es/how-to-view-dracovenator-in-3d.html': 'guide/es/how-to-view-dracovenator-in-3d.jsp',
-  '/guides/vi/how-to-view-dracovenator-in-3d.html': 'guide/vi/how-to-view-dracovenator-in-3d.jsp',
   '/guides/id/how-to-view-dracovenator-in-3d.html': 'guide/id/how-to-view-dracovenator-in-3d.jsp',
   '/guides/de/how-to-view-dracovenator-in-3d.html': 'guide/de/how-to-view-dracovenator-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire152 (2026-07-19): dracovenator-size-comparison
@@ -21475,7 +21445,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-sauropelta-in-3d.html': 'guide/how-to-view-sauropelta-in-3d.jsp',
   '/guides/pt/how-to-view-sauropelta-in-3d.html': 'guide/pt/how-to-view-sauropelta-in-3d.jsp',
   '/guides/es/how-to-view-sauropelta-in-3d.html': 'guide/es/how-to-view-sauropelta-in-3d.jsp',
-  '/guides/vi/how-to-view-sauropelta-in-3d.html': 'guide/vi/how-to-view-sauropelta-in-3d.jsp',
   '/guides/id/how-to-view-sauropelta-in-3d.html': 'guide/id/how-to-view-sauropelta-in-3d.jsp',
   '/guides/de/how-to-view-sauropelta-in-3d.html': 'guide/de/how-to-view-sauropelta-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire155 (2026-07-19): sauropelta-size-comparison
@@ -21520,7 +21489,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-shuangmiaosaurus-in-3d.html': 'guide/how-to-view-shuangmiaosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-shuangmiaosaurus-in-3d.html': 'guide/pt/how-to-view-shuangmiaosaurus-in-3d.jsp',
   '/guides/es/how-to-view-shuangmiaosaurus-in-3d.html': 'guide/es/how-to-view-shuangmiaosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-shuangmiaosaurus-in-3d.html': 'guide/vi/how-to-view-shuangmiaosaurus-in-3d.jsp',
   '/guides/id/how-to-view-shuangmiaosaurus-in-3d.html': 'guide/id/how-to-view-shuangmiaosaurus-in-3d.jsp',
   '/guides/de/how-to-view-shuangmiaosaurus-in-3d.html': 'guide/de/how-to-view-shuangmiaosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire161 (2026-07-20): shuangmiaosaurus-size-comparison
@@ -21565,7 +21533,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-doliosauriscus-in-3d.html': 'guide/how-to-view-doliosauriscus-in-3d.jsp',
   '/guides/pt/how-to-view-doliosauriscus-in-3d.html': 'guide/pt/how-to-view-doliosauriscus-in-3d.jsp',
   '/guides/es/how-to-view-doliosauriscus-in-3d.html': 'guide/es/how-to-view-doliosauriscus-in-3d.jsp',
-  '/guides/vi/how-to-view-doliosauriscus-in-3d.html': 'guide/vi/how-to-view-doliosauriscus-in-3d.jsp',
   '/guides/id/how-to-view-doliosauriscus-in-3d.html': 'guide/id/how-to-view-doliosauriscus-in-3d.jsp',
   '/guides/de/how-to-view-doliosauriscus-in-3d.html': 'guide/de/how-to-view-doliosauriscus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire167 (2026-07-20): doliosauriscus-size-comparison
@@ -21633,7 +21600,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-gigantoraptor-in-3d.html': 'guide/how-to-view-gigantoraptor-in-3d.jsp',
   '/guides/pt/how-to-view-gigantoraptor-in-3d.html': 'guide/pt/how-to-view-gigantoraptor-in-3d.jsp',
   '/guides/es/how-to-view-gigantoraptor-in-3d.html': 'guide/es/how-to-view-gigantoraptor-in-3d.jsp',
-  '/guides/vi/how-to-view-gigantoraptor-in-3d.html': 'guide/vi/how-to-view-gigantoraptor-in-3d.jsp',
   '/guides/id/how-to-view-gigantoraptor-in-3d.html': 'guide/id/how-to-view-gigantoraptor-in-3d.jsp',
   '/guides/de/how-to-view-gigantoraptor-in-3d.html': 'guide/de/how-to-view-gigantoraptor-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire176 (2026-07-20): gigantoraptor-size-comparison
@@ -21655,7 +21621,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-gryponyx-in-3d.html': 'guide/how-to-view-gryponyx-in-3d.jsp',
   '/guides/pt/how-to-view-gryponyx-in-3d.html': 'guide/pt/how-to-view-gryponyx-in-3d.jsp',
   '/guides/es/how-to-view-gryponyx-in-3d.html': 'guide/es/how-to-view-gryponyx-in-3d.jsp',
-  '/guides/vi/how-to-view-gryponyx-in-3d.html': 'guide/vi/how-to-view-gryponyx-in-3d.jsp',
   '/guides/id/how-to-view-gryponyx-in-3d.html': 'guide/id/how-to-view-gryponyx-in-3d.jsp',
   '/guides/de/how-to-view-gryponyx-in-3d.html': 'guide/de/how-to-view-gryponyx-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire179 (2026-07-20): gryponyx-size-comparison
@@ -21677,7 +21642,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-hybodus-in-3d.html': 'guide/how-to-view-hybodus-in-3d.jsp',
   '/guides/pt/how-to-view-hybodus-in-3d.html': 'guide/pt/how-to-view-hybodus-in-3d.jsp',
   '/guides/es/how-to-view-hybodus-in-3d.html': 'guide/es/how-to-view-hybodus-in-3d.jsp',
-  '/guides/vi/how-to-view-hybodus-in-3d.html': 'guide/vi/how-to-view-hybodus-in-3d.jsp',
   '/guides/id/how-to-view-hybodus-in-3d.html': 'guide/id/how-to-view-hybodus-in-3d.jsp',
   '/guides/de/how-to-view-hybodus-in-3d.html': 'guide/de/how-to-view-hybodus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire182 (2026-07-20): hybodus-size-comparison
@@ -21701,7 +21665,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-quetzalcoatlus-in-3d.html': 'guide/how-to-view-quetzalcoatlus-in-3d.jsp',
   '/guides/pt/how-to-view-quetzalcoatlus-in-3d.html': 'guide/pt/how-to-view-quetzalcoatlus-in-3d.jsp',
   '/guides/es/how-to-view-quetzalcoatlus-in-3d.html': 'guide/es/how-to-view-quetzalcoatlus-in-3d.jsp',
-  '/guides/vi/how-to-view-quetzalcoatlus-in-3d.html': 'guide/vi/how-to-view-quetzalcoatlus-in-3d.jsp',
   '/guides/id/how-to-view-quetzalcoatlus-in-3d.html': 'guide/id/how-to-view-quetzalcoatlus-in-3d.jsp',
   '/guides/de/how-to-view-quetzalcoatlus-in-3d.html': 'guide/de/how-to-view-quetzalcoatlus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire185 (2026-07-20): quetzalcoatlus-size-comparison
@@ -21725,7 +21688,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-tarbosaurus-in-3d.html': 'guide/how-to-view-tarbosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-tarbosaurus-in-3d.html': 'guide/pt/how-to-view-tarbosaurus-in-3d.jsp',
   '/guides/es/how-to-view-tarbosaurus-in-3d.html': 'guide/es/how-to-view-tarbosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-tarbosaurus-in-3d.html': 'guide/vi/how-to-view-tarbosaurus-in-3d.jsp',
   '/guides/id/how-to-view-tarbosaurus-in-3d.html': 'guide/id/how-to-view-tarbosaurus-in-3d.jsp',
   '/guides/de/how-to-view-tarbosaurus-in-3d.html': 'guide/de/how-to-view-tarbosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire188 (2026-07-20): tarbosaurus-size-comparison
@@ -21749,7 +21711,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-mamenchisaurus-in-3d.html': 'guide/how-to-view-mamenchisaurus-in-3d.jsp',
   '/guides/pt/how-to-view-mamenchisaurus-in-3d.html': 'guide/pt/how-to-view-mamenchisaurus-in-3d.jsp',
   '/guides/es/how-to-view-mamenchisaurus-in-3d.html': 'guide/es/how-to-view-mamenchisaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-mamenchisaurus-in-3d.html': 'guide/vi/how-to-view-mamenchisaurus-in-3d.jsp',
   '/guides/id/how-to-view-mamenchisaurus-in-3d.html': 'guide/id/how-to-view-mamenchisaurus-in-3d.jsp',
   '/guides/de/how-to-view-mamenchisaurus-in-3d.html': 'guide/de/how-to-view-mamenchisaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire191 (2026-07-20): mamenchisaurus-size-comparison
@@ -21841,7 +21802,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-pentaceratops-in-3d.html': 'guide/how-to-view-pentaceratops-in-3d.jsp',
   '/guides/pt/how-to-view-pentaceratops-in-3d.html': 'guide/pt/how-to-view-pentaceratops-in-3d.jsp',
   '/guides/es/how-to-view-pentaceratops-in-3d.html': 'guide/es/how-to-view-pentaceratops-in-3d.jsp',
-  '/guides/vi/how-to-view-pentaceratops-in-3d.html': 'guide/vi/how-to-view-pentaceratops-in-3d.jsp',
   '/guides/id/how-to-view-pentaceratops-in-3d.html': 'guide/id/how-to-view-pentaceratops-in-3d.jsp',
   '/guides/de/how-to-view-pentaceratops-in-3d.html': 'guide/de/how-to-view-pentaceratops-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire203 (2026-07-20): pentaceratops-size-comparison
@@ -21909,7 +21869,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-torvosaurus-in-3d.html': 'guide/how-to-view-torvosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-torvosaurus-in-3d.html': 'guide/pt/how-to-view-torvosaurus-in-3d.jsp',
   '/guides/es/how-to-view-torvosaurus-in-3d.html': 'guide/es/how-to-view-torvosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-torvosaurus-in-3d.html': 'guide/vi/how-to-view-torvosaurus-in-3d.jsp',
   '/guides/id/how-to-view-torvosaurus-in-3d.html': 'guide/id/how-to-view-torvosaurus-in-3d.jsp',
   '/guides/de/how-to-view-torvosaurus-in-3d.html': 'guide/de/how-to-view-torvosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire212 (2026-07-20): torvosaurus-size-comparison
@@ -21933,7 +21892,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-sarcosuchus-in-3d.html': 'guide/how-to-view-sarcosuchus-in-3d.jsp',
   '/guides/pt/how-to-view-sarcosuchus-in-3d.html': 'guide/pt/how-to-view-sarcosuchus-in-3d.jsp',
   '/guides/es/how-to-view-sarcosuchus-in-3d.html': 'guide/es/how-to-view-sarcosuchus-in-3d.jsp',
-  '/guides/vi/how-to-view-sarcosuchus-in-3d.html': 'guide/vi/how-to-view-sarcosuchus-in-3d.jsp',
   '/guides/id/how-to-view-sarcosuchus-in-3d.html': 'guide/id/how-to-view-sarcosuchus-in-3d.jsp',
   '/guides/de/how-to-view-sarcosuchus-in-3d.html': 'guide/de/how-to-view-sarcosuchus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire215 (2026-07-20): sarcosuchus-size-comparison
@@ -21957,7 +21915,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-kentrosaurus-in-3d.html': 'guide/how-to-view-kentrosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-kentrosaurus-in-3d.html': 'guide/pt/how-to-view-kentrosaurus-in-3d.jsp',
   '/guides/es/how-to-view-kentrosaurus-in-3d.html': 'guide/es/how-to-view-kentrosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-kentrosaurus-in-3d.html': 'guide/vi/how-to-view-kentrosaurus-in-3d.jsp',
   '/guides/id/how-to-view-kentrosaurus-in-3d.html': 'guide/id/how-to-view-kentrosaurus-in-3d.jsp',
   '/guides/de/how-to-view-kentrosaurus-in-3d.html': 'guide/de/how-to-view-kentrosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire218 (2026-07-20): kentrosaurus-size-comparison
@@ -21981,7 +21938,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-postosuchus-in-3d.html': 'guide/how-to-view-postosuchus-in-3d.jsp',
   '/guides/pt/how-to-view-postosuchus-in-3d.html': 'guide/pt/how-to-view-postosuchus-in-3d.jsp',
   '/guides/es/how-to-view-postosuchus-in-3d.html': 'guide/es/how-to-view-postosuchus-in-3d.jsp',
-  '/guides/vi/how-to-view-postosuchus-in-3d.html': 'guide/vi/how-to-view-postosuchus-in-3d.jsp',
   '/guides/id/how-to-view-postosuchus-in-3d.html': 'guide/id/how-to-view-postosuchus-in-3d.jsp',
   '/guides/de/how-to-view-postosuchus-in-3d.html': 'guide/de/how-to-view-postosuchus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire221 (2026-07-20): postosuchus-size-comparison
@@ -22091,7 +22047,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-psittacosaurus-in-3d.html': 'guide/how-to-view-psittacosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-psittacosaurus-in-3d.html': 'guide/pt/how-to-view-psittacosaurus-in-3d.jsp',
   '/guides/es/how-to-view-psittacosaurus-in-3d.html': 'guide/es/how-to-view-psittacosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-psittacosaurus-in-3d.html': 'guide/vi/how-to-view-psittacosaurus-in-3d.jsp',
   '/guides/id/how-to-view-psittacosaurus-in-3d.html': 'guide/id/how-to-view-psittacosaurus-in-3d.jsp',
   '/guides/de/how-to-view-psittacosaurus-in-3d.html': 'guide/de/how-to-view-psittacosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire236 (2026-07-21): psittacosaurus-size-comparison
@@ -22138,7 +22093,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-ostafrikasaurus-in-3d.html': 'guide/how-to-view-ostafrikasaurus-in-3d.jsp',
   '/guides/pt/how-to-view-ostafrikasaurus-in-3d.html': 'guide/pt/how-to-view-ostafrikasaurus-in-3d.jsp',
   '/guides/es/how-to-view-ostafrikasaurus-in-3d.html': 'guide/es/how-to-view-ostafrikasaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-ostafrikasaurus-in-3d.html': 'guide/vi/how-to-view-ostafrikasaurus-in-3d.jsp',
   '/guides/id/how-to-view-ostafrikasaurus-in-3d.html': 'guide/id/how-to-view-ostafrikasaurus-in-3d.jsp',
   '/guides/de/how-to-view-ostafrikasaurus-in-3d.html': 'guide/de/how-to-view-ostafrikasaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire242 (2026-07-21): ostafrikasaurus-size-comparison
@@ -22162,7 +22116,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-lambeosaurus-in-3d.html': 'guide/how-to-view-lambeosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-lambeosaurus-in-3d.html': 'guide/pt/how-to-view-lambeosaurus-in-3d.jsp',
   '/guides/es/how-to-view-lambeosaurus-in-3d.html': 'guide/es/how-to-view-lambeosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-lambeosaurus-in-3d.html': 'guide/vi/how-to-view-lambeosaurus-in-3d.jsp',
   '/guides/id/how-to-view-lambeosaurus-in-3d.html': 'guide/id/how-to-view-lambeosaurus-in-3d.jsp',
   '/guides/de/how-to-view-lambeosaurus-in-3d.html': 'guide/de/how-to-view-lambeosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire245 (2026-07-21): lambeosaurus-size-comparison
@@ -22186,7 +22139,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-oviraptor-in-3d.html': 'guide/how-to-view-oviraptor-in-3d.jsp',
   '/guides/pt/how-to-view-oviraptor-in-3d.html': 'guide/pt/how-to-view-oviraptor-in-3d.jsp',
   '/guides/es/how-to-view-oviraptor-in-3d.html': 'guide/es/how-to-view-oviraptor-in-3d.jsp',
-  '/guides/vi/how-to-view-oviraptor-in-3d.html': 'guide/vi/how-to-view-oviraptor-in-3d.jsp',
   '/guides/id/how-to-view-oviraptor-in-3d.html': 'guide/id/how-to-view-oviraptor-in-3d.jsp',
   '/guides/de/how-to-view-oviraptor-in-3d.html': 'guide/de/how-to-view-oviraptor-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire248 (2026-07-21): oviraptor-size-comparison
@@ -22210,7 +22162,6 @@ export const JSP_BY_ROUTE = {
   '/guides/how-to-view-pinacosaurus-in-3d.html': 'guide/how-to-view-pinacosaurus-in-3d.jsp',
   '/guides/pt/how-to-view-pinacosaurus-in-3d.html': 'guide/pt/how-to-view-pinacosaurus-in-3d.jsp',
   '/guides/es/how-to-view-pinacosaurus-in-3d.html': 'guide/es/how-to-view-pinacosaurus-in-3d.jsp',
-  '/guides/vi/how-to-view-pinacosaurus-in-3d.html': 'guide/vi/how-to-view-pinacosaurus-in-3d.jsp',
   '/guides/id/how-to-view-pinacosaurus-in-3d.html': 'guide/id/how-to-view-pinacosaurus-in-3d.jsp',
   '/guides/de/how-to-view-pinacosaurus-in-3d.html': 'guide/de/how-to-view-pinacosaurus-in-3d.jsp',
   // dinosaur-3d-guides-loop-runbook fire251 (2026-07-21): pinacosaurus-size-comparison
@@ -29492,56 +29443,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/how-to-play-species-life-battle.html',
   '/guides/vi/how-to-play-spike-sprint.html',
   // pruned 2026-07-28 zero-evidence vi - batch vi-batch-6 (200 routes)
-  '/guides/vi/how-to-view-deinonychus-in-3d.html',
-  '/guides/vi/how-to-view-dilophosaurus-in-3d.html',
-  '/guides/vi/how-to-view-dimetrodon-in-3d.html',
-  '/guides/vi/how-to-view-diplodocus-in-3d.html',
-  '/guides/vi/how-to-view-doliosauriscus-in-3d.html',
-  '/guides/vi/how-to-view-dracovenator-in-3d.html',
-  '/guides/vi/how-to-view-edmontosaurus-in-3d.html',
-  '/guides/vi/how-to-view-gallimimus-in-3d.html',
-  '/guides/vi/how-to-view-giganotosaurus-in-3d.html',
-  '/guides/vi/how-to-view-gigantoraptor-in-3d.html',
-  '/guides/vi/how-to-view-gorgosaurus-in-3d.html',
-  '/guides/vi/how-to-view-ground-sloth-in-3d.html',
-  '/guides/vi/how-to-view-gryponyx-in-3d.html',
-  '/guides/vi/how-to-view-hybodus-in-3d.html',
-  '/guides/vi/how-to-view-ichthyosaurus-in-3d.html',
-  '/guides/vi/how-to-view-ichthyovenator-in-3d.html',
-  '/guides/vi/how-to-view-iguanodon-in-3d.html',
-  '/guides/vi/how-to-view-kentrosaurus-in-3d.html',
-  '/guides/vi/how-to-view-lambeosaurus-in-3d.html',
-  '/guides/vi/how-to-view-majungasaurus-in-3d.html',
-  '/guides/vi/how-to-view-mamenchisaurus-in-3d.html',
-  '/guides/vi/how-to-view-megalosaurus-in-3d.html',
-  '/guides/vi/how-to-view-microraptor-in-3d.html',
-  '/guides/vi/how-to-view-moropus-in-3d.html',
-  '/guides/vi/how-to-view-mosasaurus-in-3d.html',
-  '/guides/vi/how-to-view-ornithomimus-in-3d.html',
-  '/guides/vi/how-to-view-ostafrikasaurus-in-3d.html',
-  '/guides/vi/how-to-view-oviraptor-in-3d.html',
-  '/guides/vi/how-to-view-pachycephalosaurus-in-3d.html',
-  '/guides/vi/how-to-view-pachyrhinosaurus-in-3d.html',
-  '/guides/vi/how-to-view-parasaurolophus-in-3d.html',
-  '/guides/vi/how-to-view-pentaceratops-in-3d.html',
-  '/guides/vi/how-to-view-pinacosaurus-in-3d.html',
-  '/guides/vi/how-to-view-plesiosaurus-in-3d.html',
-  '/guides/vi/how-to-view-postosuchus-in-3d.html',
-  '/guides/vi/how-to-view-protoceratops-in-3d.html',
-  '/guides/vi/how-to-view-psittacosaurus-in-3d.html',
-  '/guides/vi/how-to-view-pteranodon-in-3d.html',
-  '/guides/vi/how-to-view-quetzalcoatlus-in-3d.html',
-  '/guides/vi/how-to-view-sarcosuchus-in-3d.html',
-  '/guides/vi/how-to-view-sauropelta-in-3d.html',
-  '/guides/vi/how-to-view-seismosaurus-in-3d.html',
-  '/guides/vi/how-to-view-shuangmiaosaurus-in-3d.html',
-  '/guides/vi/how-to-view-stegosaurus-in-3d.html',
-  '/guides/vi/how-to-view-stygimoloch-in-3d.html',
-  '/guides/vi/how-to-view-tarbosaurus-in-3d.html',
-  '/guides/vi/how-to-view-therizinosaurus-in-3d.html',
-  '/guides/vi/how-to-view-titanoboa-in-3d.html',
-  '/guides/vi/how-to-view-titanosaurus-in-3d.html',
-  '/guides/vi/how-to-view-torvosaurus-in-3d.html',
   '/guides/vi/how-to-view-troodon-in-3d.html',
   '/guides/vi/how-to-view-tsintaosaurus-in-3d.html',
   '/guides/vi/how-to-view-tylosaurus-in-3d.html',
