@@ -16398,6 +16398,7 @@ export const ALIAS_ROUTES = {
   '/guides/vi/json-vs-yaml-vs-toml-config-formats-explained.html': '/guides/en/json-vs-yaml-vs-toml-config-formats-explained.html', // vi-batch-6 cont#4 crammed-line fix restore (fire 342)
   '/ai-watermark-detector.html': '/image-tools/ai-watermark-detector.html',
   '/ai-text-detector.html': '/utility-tools/ai-text-detector.html',
+  '/ocr-pdf.html': '/pdf-tools/ocr-pdf.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -16475,6 +16476,7 @@ export const JSP_BY_ROUTE = {
   '/guides/de/is-it-down-vs-alternatives.html': 'guide/de/is-it-down-vs-alternatives.jsp',
   '/image-tools/ai-watermark-detector.html': 'convert/ai-watermark-detector.jsp',
   '/utility-tools/ai-text-detector.html': 'utility/ai-text-detector.jsp',
+  '/pdf-tools/ocr-pdf.html': 'pdf/ocr-pdf.jsp',
 
   '/utility-tools/text-summarizer.html': 'utility/text-summarizer.jsp',
   '/utility-tools/ai-translator.html': 'utility/ai-translator.jsp',
