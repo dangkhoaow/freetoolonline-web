@@ -14,6 +14,13 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // client-side-pdf-editor-toolkit-vs-alternatives EN + locale fanout (create_new_guide_page 20260823-7)
+  '/guides/client-side-pdf-editor-toolkit-vs-alternatives.html',
+  '/guides/pt/client-side-pdf-editor-toolkit-vs-alternatives.html',
+  '/guides/es/client-side-pdf-editor-toolkit-vs-alternatives.html',
+  '/guides/vi/client-side-pdf-editor-toolkit-vs-alternatives.html',
+  '/guides/id/client-side-pdf-editor-toolkit-vs-alternatives.html',
+  '/guides/de/client-side-pdf-editor-toolkit-vs-alternatives.html',
   '/guides/food-recall-lookup-step-by-step.html',
   '/guides/food-recall-lookup-when.html',
   '/guides/food-recall-lookup-vs-alternatives.html',
@@ -171,6 +178,24 @@ export const INFO_ROUTES = new Set([
   '/guides/de/object-remover-no-upload-when.html',
   '/guides/de/object-remover-no-upload-step-by-step.html',
   '/guides/de/object-remover-no-upload-vs-alternatives.html',
+  '/guides/face-blur-no-upload-when.html',
+  '/guides/face-blur-no-upload-step-by-step.html',
+  '/guides/face-blur-no-upload-vs-alternatives.html',
+  '/guides/pt/face-blur-no-upload-when.html',
+  '/guides/pt/face-blur-no-upload-step-by-step.html',
+  '/guides/pt/face-blur-no-upload-vs-alternatives.html',
+  '/guides/es/face-blur-no-upload-when.html',
+  '/guides/es/face-blur-no-upload-step-by-step.html',
+  '/guides/es/face-blur-no-upload-vs-alternatives.html',
+  '/guides/vi/face-blur-no-upload-when.html',
+  '/guides/vi/face-blur-no-upload-step-by-step.html',
+  '/guides/vi/face-blur-no-upload-vs-alternatives.html',
+  '/guides/id/face-blur-no-upload-when.html',
+  '/guides/id/face-blur-no-upload-step-by-step.html',
+  '/guides/id/face-blur-no-upload-vs-alternatives.html',
+  '/guides/de/face-blur-no-upload-when.html',
+  '/guides/de/face-blur-no-upload-step-by-step.html',
+  '/guides/de/face-blur-no-upload-vs-alternatives.html',
   '/guides/ai-translator-offline-when.html',
   '/guides/ai-translator-offline-step-by-step.html',
   '/guides/ai-translator-offline-vs-alternatives.html',
@@ -7249,6 +7274,13 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // client-side-pdf-editor-toolkit-vs-alternatives EN + locale fanout (create_new_guide_page 20260823-7)
+  '/guides/client-side-pdf-editor-toolkit-vs-alternatives.html',
+  '/guides/pt/client-side-pdf-editor-toolkit-vs-alternatives.html',
+  '/guides/es/client-side-pdf-editor-toolkit-vs-alternatives.html',
+  '/guides/vi/client-side-pdf-editor-toolkit-vs-alternatives.html',
+  '/guides/id/client-side-pdf-editor-toolkit-vs-alternatives.html',
+  '/guides/de/client-side-pdf-editor-toolkit-vs-alternatives.html',
   // adobe-pdf-editor-browser-vs-alternatives pt locale (create_new_guide_page)
   '/guides/pt/adobe-pdf-editor-browser-vs-alternatives.html',
   // adobe-pdf-editor-browser-vs-alternatives es locale (create_new_guide_page)
@@ -16452,6 +16484,13 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // client-side-pdf-editor-toolkit-vs-alternatives EN + locale fanout (create_new_guide_page 20260823-7)
+  '/guides/client-side-pdf-editor-toolkit-vs-alternatives.html': 'guide/client-side-pdf-editor-toolkit-vs-alternatives.jsp',
+  '/guides/pt/client-side-pdf-editor-toolkit-vs-alternatives.html': 'guide/pt/client-side-pdf-editor-toolkit-vs-alternatives.jsp',
+  '/guides/es/client-side-pdf-editor-toolkit-vs-alternatives.html': 'guide/es/client-side-pdf-editor-toolkit-vs-alternatives.jsp',
+  '/guides/vi/client-side-pdf-editor-toolkit-vs-alternatives.html': 'guide/vi/client-side-pdf-editor-toolkit-vs-alternatives.jsp',
+  '/guides/id/client-side-pdf-editor-toolkit-vs-alternatives.html': 'guide/id/client-side-pdf-editor-toolkit-vs-alternatives.jsp',
+  '/guides/de/client-side-pdf-editor-toolkit-vs-alternatives.html': 'guide/de/client-side-pdf-editor-toolkit-vs-alternatives.jsp',
   '/guides/adobe-pdf-editor-browser-vs-alternatives.html': 'guide/adobe-pdf-editor-browser-vs-alternatives.jsp',
   '/guides/pt/adobe-pdf-editor-browser-vs-alternatives.html': 'guide/pt/adobe-pdf-editor-browser-vs-alternatives.jsp',
   '/guides/es/adobe-pdf-editor-browser-vs-alternatives.html': 'guide/es/adobe-pdf-editor-browser-vs-alternatives.jsp',
@@ -16618,6 +16657,24 @@ export const JSP_BY_ROUTE = {
   '/guides/de/object-remover-no-upload-when.html': 'guide/de/object-remover-no-upload-when.jsp',
   '/guides/de/object-remover-no-upload-step-by-step.html': 'guide/de/object-remover-no-upload-step-by-step.jsp',
   '/guides/de/object-remover-no-upload-vs-alternatives.html': 'guide/de/object-remover-no-upload-vs-alternatives.jsp',
+  '/guides/face-blur-no-upload-when.html': 'guide/face-blur-no-upload-when.jsp',
+  '/guides/face-blur-no-upload-step-by-step.html': 'guide/face-blur-no-upload-step-by-step.jsp',
+  '/guides/face-blur-no-upload-vs-alternatives.html': 'guide/face-blur-no-upload-vs-alternatives.jsp',
+  '/guides/pt/face-blur-no-upload-when.html': 'guide/pt/face-blur-no-upload-when.jsp',
+  '/guides/pt/face-blur-no-upload-step-by-step.html': 'guide/pt/face-blur-no-upload-step-by-step.jsp',
+  '/guides/pt/face-blur-no-upload-vs-alternatives.html': 'guide/pt/face-blur-no-upload-vs-alternatives.jsp',
+  '/guides/es/face-blur-no-upload-when.html': 'guide/es/face-blur-no-upload-when.jsp',
+  '/guides/es/face-blur-no-upload-step-by-step.html': 'guide/es/face-blur-no-upload-step-by-step.jsp',
+  '/guides/es/face-blur-no-upload-vs-alternatives.html': 'guide/es/face-blur-no-upload-vs-alternatives.jsp',
+  '/guides/vi/face-blur-no-upload-when.html': 'guide/vi/face-blur-no-upload-when.jsp',
+  '/guides/vi/face-blur-no-upload-step-by-step.html': 'guide/vi/face-blur-no-upload-step-by-step.jsp',
+  '/guides/vi/face-blur-no-upload-vs-alternatives.html': 'guide/vi/face-blur-no-upload-vs-alternatives.jsp',
+  '/guides/id/face-blur-no-upload-when.html': 'guide/id/face-blur-no-upload-when.jsp',
+  '/guides/id/face-blur-no-upload-step-by-step.html': 'guide/id/face-blur-no-upload-step-by-step.jsp',
+  '/guides/id/face-blur-no-upload-vs-alternatives.html': 'guide/id/face-blur-no-upload-vs-alternatives.jsp',
+  '/guides/de/face-blur-no-upload-when.html': 'guide/de/face-blur-no-upload-when.jsp',
+  '/guides/de/face-blur-no-upload-step-by-step.html': 'guide/de/face-blur-no-upload-step-by-step.jsp',
+  '/guides/de/face-blur-no-upload-vs-alternatives.html': 'guide/de/face-blur-no-upload-vs-alternatives.jsp',
   '/guides/text-summarizer-private-browser-when.html': 'guide/text-summarizer-private-browser-when.jsp',
   '/guides/text-summarizer-private-browser-step-by-step.html': 'guide/text-summarizer-private-browser-step-by-step.jsp',
   '/guides/text-summarizer-private-browser-vs-alternatives.html': 'guide/text-summarizer-private-browser-vs-alternatives.jsp',
