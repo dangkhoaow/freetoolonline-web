@@ -16423,6 +16423,7 @@ export const ALIAS_ROUTES = {
   '/ai-watermark-detector.html': '/image-tools/ai-watermark-detector.html',
   '/ai-text-detector.html': '/utility-tools/ai-text-detector.html',
   '/ocr-pdf.html': '/pdf-tools/ocr-pdf.html',
+  '/audio-denoiser.html': '/video-tools/audio-denoiser.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -16519,6 +16520,7 @@ export const JSP_BY_ROUTE = {
   '/image-tools/ai-watermark-detector.html': 'convert/ai-watermark-detector.jsp',
   '/utility-tools/ai-text-detector.html': 'utility/ai-text-detector.jsp',
   '/pdf-tools/ocr-pdf.html': 'pdf/ocr-pdf.jsp',
+  '/video-tools/audio-denoiser.html': 'convert/audio-denoiser.jsp',
 
   '/utility-tools/text-summarizer.html': 'utility/text-summarizer.jsp',
   '/utility-tools/ai-translator.html': 'utility/ai-translator.jsp',
