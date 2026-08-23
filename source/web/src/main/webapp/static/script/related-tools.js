@@ -944,6 +944,7 @@ try {
     { title: "Vehicle Recall Lookup", url: "https://freetoolonline.com/utility-tools/vehicle-recall-lookup.html", include: !1, tags: "utility" },
     { title: "Game Server Status Checker - Fortnite, Roblox, Discord, Minecraft", url: "https://freetoolonline.com/utility-tools/game-server-status.html", include: !1, tags: "utility" },
     { title: "Is It Down? Website & Service Status Checker", url: "https://freetoolonline.com/utility-tools/is-it-down.html", include: !1, tags: "utility" },
+    { title: "Food Recall Lookup (FDA)", url: "https://freetoolonline.com/utility-tools/food-recall-lookup.html", include: !1, tags: "utility" },
     { title: "AI Watermark Detector - Check Content Credentials (C2PA)", url: "https://freetoolonline.com/image-tools/ai-watermark-detector.html", include: !1, tags: "image-editing" },
     { title: "AI Text Detector - LLM Writing Signals, In Your Browser", url: "https://freetoolonline.com/utility-tools/ai-text-detector.html", include: !1, tags: "utility" },
   ],
