@@ -19,6 +19,8 @@ export const INFO_ROUTES = new Set([
   '/guides/pt/client-side-pdf-editor-toolkit-when.html',
   '/guides/es/client-side-pdf-editor-toolkit-when.html',
   '/guides/vi/client-side-pdf-editor-toolkit-when.html',
+  '/guides/id/client-side-pdf-editor-toolkit-when.html',
+  '/guides/de/client-side-pdf-editor-toolkit-when.html',
   // client-side-pdf-editor-toolkit-vs-alternatives EN + locale fanout (create_new_guide_page 20260823-7)
   '/guides/client-side-pdf-editor-toolkit-vs-alternatives.html',
   '/guides/pt/client-side-pdf-editor-toolkit-vs-alternatives.html',
@@ -7283,6 +7285,8 @@ export const GUIDE_ROUTES = new Set([
   '/guides/pt/client-side-pdf-editor-toolkit-when.html',
   '/guides/es/client-side-pdf-editor-toolkit-when.html',
   '/guides/vi/client-side-pdf-editor-toolkit-when.html',
+  '/guides/id/client-side-pdf-editor-toolkit-when.html',
+  '/guides/de/client-side-pdf-editor-toolkit-when.html',
   // client-side-pdf-editor-toolkit-vs-alternatives EN + locale fanout (create_new_guide_page 20260823-7)
   '/guides/client-side-pdf-editor-toolkit-vs-alternatives.html',
   '/guides/pt/client-side-pdf-editor-toolkit-vs-alternatives.html',
@@ -16512,6 +16516,8 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/client-side-pdf-editor-toolkit-when.html': 'guide/pt/client-side-pdf-editor-toolkit-when.jsp',
   '/guides/es/client-side-pdf-editor-toolkit-when.html': 'guide/es/client-side-pdf-editor-toolkit-when.jsp',
   '/guides/vi/client-side-pdf-editor-toolkit-when.html': 'guide/vi/client-side-pdf-editor-toolkit-when.jsp',
+  '/guides/id/client-side-pdf-editor-toolkit-when.html': 'guide/id/client-side-pdf-editor-toolkit-when.jsp',
+  '/guides/de/client-side-pdf-editor-toolkit-when.html': 'guide/de/client-side-pdf-editor-toolkit-when.jsp',
   '/image-converter-tools/hilbert-editor.html': 'convert/hilbert-editor.jsp',
   // game-server-status companion guides (new-tool-discovery-loop fire728)
   '/guides/game-server-status-step-by-step.html': 'guide/game-server-status-step-by-step.jsp',
