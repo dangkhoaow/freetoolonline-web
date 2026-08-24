@@ -940,6 +940,7 @@ try {
     { title: "AI Paraphrasing Tool - Private, In Your Browser", url: "https://freetoolonline.com/utility-tools/paraphrasing-tool.html", include: !1, tags: "utility" },
     { title: "Chat with PDF - Ask Your PDF Questions Privately", url: "https://freetoolonline.com/pdf-tools/chat-with-pdf.html", include: !1, tags: "pdf" },
     { title: "Remove Background Noise from Audio - AI, In-Browser", url: "https://freetoolonline.com/video-tools/audio-denoiser.html", include: !1, tags: "video" },
+    { title: "Remove Silence from Audio - Auto Dead-Air Cutter, On-Device", url: "https://freetoolonline.com/video-tools/silence-remover.html", include: !1, tags: "video" },
     { title: "OCR PDF - Make a Scanned PDF Searchable in Your Browser", url: "https://freetoolonline.com/pdf-tools/ocr-pdf.html", include: !1, tags: "pdf" },
     { title: "Blur Faces in Photos", url: "https://freetoolonline.com/image-tools/face-blur.html", include: !1, tags: "image-editing" },
     { title: "Vehicle Recall Lookup", url: "https://freetoolonline.com/utility-tools/vehicle-recall-lookup.html", include: !1, tags: "utility" },
