@@ -14,6 +14,11 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // client-side-pdf-editor-toolkit-when EN + locale fanout (create_new_guide_page 20260824-2)
+  '/guides/client-side-pdf-editor-toolkit-when.html',
+  '/guides/pt/client-side-pdf-editor-toolkit-when.html',
+  '/guides/es/client-side-pdf-editor-toolkit-when.html',
+  '/guides/vi/client-side-pdf-editor-toolkit-when.html',
   // client-side-pdf-editor-toolkit-vs-alternatives EN + locale fanout (create_new_guide_page 20260823-7)
   '/guides/client-side-pdf-editor-toolkit-vs-alternatives.html',
   '/guides/pt/client-side-pdf-editor-toolkit-vs-alternatives.html',
@@ -7274,6 +7279,10 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // client-side-pdf-editor-toolkit-when locale fanout (create_new_guide_page 20260824-2)
+  '/guides/pt/client-side-pdf-editor-toolkit-when.html',
+  '/guides/es/client-side-pdf-editor-toolkit-when.html',
+  '/guides/vi/client-side-pdf-editor-toolkit-when.html',
   // client-side-pdf-editor-toolkit-vs-alternatives EN + locale fanout (create_new_guide_page 20260823-7)
   '/guides/client-side-pdf-editor-toolkit-vs-alternatives.html',
   '/guides/pt/client-side-pdf-editor-toolkit-vs-alternatives.html',
@@ -16499,6 +16508,10 @@ export const JSP_BY_ROUTE = {
   '/guides/id/adobe-pdf-editor-browser-vs-alternatives.html': 'guide/id/adobe-pdf-editor-browser-vs-alternatives.jsp',
   '/guides/de/adobe-pdf-editor-browser-vs-alternatives.html': 'guide/de/adobe-pdf-editor-browser-vs-alternatives.jsp',
   '/image-converter-tools/client-side-pdf-editor-toolkit.html': 'convert/client-side-pdf-editor-toolkit.jsp',
+  '/guides/client-side-pdf-editor-toolkit-when.html': 'guide/client-side-pdf-editor-toolkit-when.jsp',
+  '/guides/pt/client-side-pdf-editor-toolkit-when.html': 'guide/pt/client-side-pdf-editor-toolkit-when.jsp',
+  '/guides/es/client-side-pdf-editor-toolkit-when.html': 'guide/es/client-side-pdf-editor-toolkit-when.jsp',
+  '/guides/vi/client-side-pdf-editor-toolkit-when.html': 'guide/vi/client-side-pdf-editor-toolkit-when.jsp',
   '/image-converter-tools/hilbert-editor.html': 'convert/hilbert-editor.jsp',
   // game-server-status companion guides (new-tool-discovery-loop fire728)
   '/guides/game-server-status-step-by-step.html': 'guide/game-server-status-step-by-step.jsp',
