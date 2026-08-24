@@ -16456,6 +16456,7 @@ export const ALIAS_ROUTES = {
   '/ai-text-detector.html': '/utility-tools/ai-text-detector.html',
   '/ocr-pdf.html': '/pdf-tools/ocr-pdf.html',
   '/audio-denoiser.html': '/video-tools/audio-denoiser.html',
+  '/silence-remover.html': '/video-tools/silence-remover.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -16560,6 +16561,7 @@ export const JSP_BY_ROUTE = {
   '/utility-tools/ai-text-detector.html': 'utility/ai-text-detector.jsp',
   '/pdf-tools/ocr-pdf.html': 'pdf/ocr-pdf.jsp',
   '/video-tools/audio-denoiser.html': 'convert/audio-denoiser.jsp',
+  '/video-tools/silence-remover.html': 'convert/silence-remover.jsp',
 
   '/utility-tools/text-summarizer.html': 'utility/text-summarizer.jsp',
   '/utility-tools/ai-translator.html': 'utility/ai-translator.jsp',
