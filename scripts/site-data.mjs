@@ -14014,6 +14014,25 @@ export function isArticleFamilyRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  // consolidation fire67 2026-08-25 (content_consolidation_backlog:
+  // topical-map-space-3d.lagrange-points.3d-explorer, topical-map-developer.character-counter):
+  // duplicate guide families retired into their keepers; unique facts folded in FIRST.
+  '/guides/lagrange-points-step-by-step.html': '/guides/lagrange-points-when.html',
+  '/guides/lagrange-points-vs-alternatives.html': '/guides/lagrange-points-when.html',
+  '/guides/pt/lagrange-points-step-by-step.html': '/guides/pt/lagrange-points-when.html',
+  '/guides/pt/lagrange-points-vs-alternatives.html': '/guides/pt/lagrange-points-when.html',
+  '/guides/es/lagrange-points-step-by-step.html': '/guides/es/lagrange-points-when.html',
+  '/guides/es/lagrange-points-vs-alternatives.html': '/guides/es/lagrange-points-when.html',
+  '/guides/de/lagrange-points-step-by-step.html': '/guides/de/lagrange-points-when.html',
+  '/guides/de/lagrange-points-vs-alternatives.html': '/guides/de/lagrange-points-when.html',
+  '/guides/id/lagrange-points-step-by-step.html': '/guides/id/lagrange-points-when.html',
+  '/guides/id/lagrange-points-vs-alternatives.html': '/guides/id/lagrange-points-when.html',
+  '/guides/character-counter-step-by-step.html': '/guides/character-counter-vs-alternatives.html',
+  '/guides/pt/character-counter-step-by-step.html': '/guides/pt/character-counter-vs-alternatives.html',
+  '/guides/es/character-counter-step-by-step.html': '/guides/es/character-counter-vs-alternatives.html',
+  '/guides/vi/character-counter-step-by-step.html': '/guides/vi/character-counter-vs-alternatives.html',
+  '/guides/id/character-counter-step-by-step.html': '/guides/id/character-counter-vs-alternatives.html',
+  '/guides/de/character-counter-step-by-step.html': '/guides/de/character-counter-vs-alternatives.html',
   // consolidation fire65 (2026-08-25) step-1a: retire the -step-by-step and
   // -vs-alternatives doorway guide families for two intent nodes -
   // utility.date-difference-calculator and image-editing.document-scanner - into
@@ -14081,8 +14100,8 @@ export const ALIAS_ROUTES = {
   '/guides/vi/kuiper-belt-oort-cloud-step-by-step.html': '/guides/kuiper-belt-oort-cloud-step-by-step.html',
   '/guides/vi/kuiper-belt-oort-cloud-vs-alternatives.html': '/guides/kuiper-belt-oort-cloud-vs-alternatives.html',
   '/guides/vi/kuiper-belt-oort-cloud-when.html': '/guides/kuiper-belt-oort-cloud-when.html',
-  '/guides/vi/lagrange-points-step-by-step.html': '/guides/lagrange-points-step-by-step.html',
-  '/guides/vi/lagrange-points-vs-alternatives.html': '/guides/lagrange-points-vs-alternatives.html',
+  '/guides/vi/lagrange-points-step-by-step.html': '/guides/lagrange-points-when.html', // [consolidation fire67 2026-08-25: repointed off the retired EN route to the surviving -when family]
+  '/guides/vi/lagrange-points-vs-alternatives.html': '/guides/lagrange-points-when.html', // [consolidation fire67 2026-08-25: repointed off the retired EN route to the surviving -when family]
   '/guides/vi/lagrange-points-when.html': '/guides/lagrange-points-when.html',
   '/guides/vi/lambeosaurus-3d-viewer-vs-ar-apps.html': '/guides/lambeosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/vi/lambeosaurus-size-comparison.html': '/guides/lambeosaurus-size-comparison.html',
@@ -24755,16 +24774,6 @@ export const JSP_BY_ROUTE = {
   '/guides/es/lagrange-points-when.html': 'guide/es/lagrange-points-when.jsp',
   '/guides/de/lagrange-points-when.html': 'guide/de/lagrange-points-when.jsp',
   '/guides/id/lagrange-points-when.html': 'guide/id/lagrange-points-when.jsp',
-  '/guides/lagrange-points-step-by-step.html': 'guide/lagrange-points-step-by-step.jsp',
-  '/guides/pt/lagrange-points-step-by-step.html': 'guide/pt/lagrange-points-step-by-step.jsp',
-  '/guides/es/lagrange-points-step-by-step.html': 'guide/es/lagrange-points-step-by-step.jsp',
-  '/guides/de/lagrange-points-step-by-step.html': 'guide/de/lagrange-points-step-by-step.jsp',
-  '/guides/id/lagrange-points-step-by-step.html': 'guide/id/lagrange-points-step-by-step.jsp',
-  '/guides/lagrange-points-vs-alternatives.html': 'guide/lagrange-points-vs-alternatives.jsp',
-  '/guides/pt/lagrange-points-vs-alternatives.html': 'guide/pt/lagrange-points-vs-alternatives.jsp',
-  '/guides/es/lagrange-points-vs-alternatives.html': 'guide/es/lagrange-points-vs-alternatives.jsp',
-  '/guides/de/lagrange-points-vs-alternatives.html': 'guide/de/lagrange-points-vs-alternatives.jsp',
-  '/guides/id/lagrange-points-vs-alternatives.html': 'guide/id/lagrange-points-vs-alternatives.jsp',
   '/guides/neutron-star-pulsar-when.html': 'guide/neutron-star-pulsar-when.jsp',
   '/guides/pt/neutron-star-pulsar-when.html': 'guide/pt/neutron-star-pulsar-when.jsp',
   '/guides/es/neutron-star-pulsar-when.html': 'guide/es/neutron-star-pulsar-when.jsp',
@@ -25681,22 +25690,16 @@ export const JSP_BY_ROUTE = {
   '/guides/id/hex-puzzle-blocks-vs-alternatives.html': 'guide/id/hex-puzzle-blocks-vs-alternatives.jsp',
   '/developer-tools/character-counter.html': 'utility/character-counter.jsp',
   '/guides/character-counter-when.html': 'guide/character-counter-when.jsp',
-  '/guides/character-counter-step-by-step.html': 'guide/character-counter-step-by-step.jsp',
   '/guides/character-counter-vs-alternatives.html': 'guide/character-counter-vs-alternatives.jsp',
   '/guides/pt/character-counter-when.html': 'guide/pt/character-counter-when.jsp',
-  '/guides/pt/character-counter-step-by-step.html': 'guide/pt/character-counter-step-by-step.jsp',
   '/guides/pt/character-counter-vs-alternatives.html': 'guide/pt/character-counter-vs-alternatives.jsp',
   '/guides/es/character-counter-when.html': 'guide/es/character-counter-when.jsp',
-  '/guides/es/character-counter-step-by-step.html': 'guide/es/character-counter-step-by-step.jsp',
   '/guides/es/character-counter-vs-alternatives.html': 'guide/es/character-counter-vs-alternatives.jsp',
   '/guides/vi/character-counter-when.html': 'guide/vi/character-counter-when.jsp',
-  '/guides/vi/character-counter-step-by-step.html': 'guide/vi/character-counter-step-by-step.jsp',
   '/guides/vi/character-counter-vs-alternatives.html': 'guide/vi/character-counter-vs-alternatives.jsp',
   '/guides/id/character-counter-when.html': 'guide/id/character-counter-when.jsp',
-  '/guides/id/character-counter-step-by-step.html': 'guide/id/character-counter-step-by-step.jsp',
   '/guides/id/character-counter-vs-alternatives.html': 'guide/id/character-counter-vs-alternatives.jsp',
   '/guides/de/character-counter-when.html': 'guide/de/character-counter-when.jsp',
-  '/guides/de/character-counter-step-by-step.html': 'guide/de/character-counter-step-by-step.jsp',
   '/guides/de/character-counter-vs-alternatives.html': 'guide/de/character-counter-vs-alternatives.jsp',
   '/developer-tools/find-and-replace-text.html': 'utility/find-and-replace-text.jsp',
   '/guides/find-replace-text-when.html': 'guide/find-replace-text-when.jsp',
