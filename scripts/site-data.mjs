@@ -16471,6 +16471,7 @@ export const ALIAS_ROUTES = {
   '/ocr-pdf.html': '/pdf-tools/ocr-pdf.html',
   '/audio-denoiser.html': '/video-tools/audio-denoiser.html',
   '/silence-remover.html': '/video-tools/silence-remover.html',
+  '/vocal-remover.html': '/video-tools/vocal-remover.html',
   '/dst-countdown.html': '/utility-tools/dst-countdown.html',
 };
 
@@ -16583,6 +16584,7 @@ export const JSP_BY_ROUTE = {
   '/pdf-tools/ocr-pdf.html': 'pdf/ocr-pdf.jsp',
   '/video-tools/audio-denoiser.html': 'convert/audio-denoiser.jsp',
   '/video-tools/silence-remover.html': 'convert/silence-remover.jsp',
+  '/video-tools/vocal-remover.html': 'convert/vocal-remover.jsp',
   '/utility-tools/dst-countdown.html': 'utility/dst-countdown.jsp',
   '/guides/daylight-saving-time-countdown-next-clock-change-when.html': 'guide/daylight-saving-time-countdown-next-clock-change-when.jsp',
 
