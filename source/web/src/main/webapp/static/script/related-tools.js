@@ -951,6 +951,7 @@ try {
     { title: "Is It Down? Website & Service Status Checker", url: "https://freetoolonline.com/utility-tools/is-it-down.html", include: !1, tags: "utility" },
     { title: "Food Recall Lookup (FDA)", url: "https://freetoolonline.com/utility-tools/food-recall-lookup.html", include: !1, tags: "utility" },
     { title: "AI Watermark Detector - Check Content Credentials (C2PA)", url: "https://freetoolonline.com/image-tools/ai-watermark-detector.html", include: !1, tags: "image-editing" },
+    { title: "Photo Translator (On-Device)", url: "https://freetoolonline.com/image-tools/photo-translator.html", include: !1, tags: "image-editing" },
     { title: "AI Text Detector - LLM Writing Signals, In Your Browser", url: "https://freetoolonline.com/utility-tools/ai-text-detector.html", include: !1, tags: "utility" },
   ],
     currentTitle = $.trim($(".navPageName").text()),

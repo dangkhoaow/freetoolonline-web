@@ -16501,6 +16501,7 @@ export const ALIAS_ROUTES = {
   '/silence-remover.html': '/video-tools/silence-remover.html',
   '/vocal-remover.html': '/video-tools/vocal-remover.html',
   '/handwriting-to-text.html': '/image-converter-tools/handwriting-to-text.html',
+  '/photo-translator.html': '/image-tools/photo-translator.html',
   '/dst-countdown.html': '/utility-tools/dst-countdown.html',
 };
 
@@ -16622,6 +16623,7 @@ export const JSP_BY_ROUTE = {
   '/video-tools/silence-remover.html': 'convert/silence-remover.jsp',
   '/video-tools/vocal-remover.html': 'convert/vocal-remover.jsp',
   '/image-converter-tools/handwriting-to-text.html': 'convert/handwriting-to-text.jsp',
+  '/image-tools/photo-translator.html': 'convert/photo-translator.jsp',
   '/utility-tools/dst-countdown.html': 'utility/dst-countdown.jsp',
   '/guides/daylight-saving-time-countdown-next-clock-change-when.html': 'guide/daylight-saving-time-countdown-next-clock-change-when.jsp',
 
