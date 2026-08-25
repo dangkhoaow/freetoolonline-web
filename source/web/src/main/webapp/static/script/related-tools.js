@@ -942,6 +942,7 @@ try {
     { title: "Remove Background Noise from Audio - AI, In-Browser", url: "https://freetoolonline.com/video-tools/audio-denoiser.html", include: !1, tags: "video" },
     { title: "Remove Silence from Audio - Auto Dead-Air Cutter, On-Device", url: "https://freetoolonline.com/video-tools/silence-remover.html", include: !1, tags: "video" },
     { title: "Vocal Remover & Instrumental Maker (AI, Local)", url: "https://freetoolonline.com/video-tools/vocal-remover.html", include: !1, tags: "video" },
+    { title: "Handwriting to Text Converter (AI OCR, Local)", url: "https://freetoolonline.com/image-converter-tools/handwriting-to-text.html", include: !1, tags: "image-conversion" },
     { title: "Daylight Saving Time Countdown - Next Clock Change", url: "https://freetoolonline.com/utility-tools/dst-countdown.html", include: !1, tags: "utility" },
     { title: "OCR PDF - Make a Scanned PDF Searchable in Your Browser", url: "https://freetoolonline.com/pdf-tools/ocr-pdf.html", include: !1, tags: "pdf" },
     { title: "Blur Faces in Photos", url: "https://freetoolonline.com/image-tools/face-blur.html", include: !1, tags: "image-editing" },
