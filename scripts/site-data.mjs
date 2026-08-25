@@ -14,6 +14,13 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // devtools-style-pdf-element-inspector-editor-android-when EN + locale fanout (create_new_guide_page 20260825/20260826)
+  '/guides/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/pt/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/es/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/vi/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/id/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/de/devtools-style-pdf-element-inspector-editor-android-when.html',
   '/guides/daylight-saving-time-countdown-next-clock-change-when.html',
   // client-side-pdf-editor-toolkit-when EN + locale fanout (create_new_guide_page 20260824-2)
   '/guides/client-side-pdf-editor-toolkit-when.html',
@@ -7262,6 +7269,12 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // devtools-style-pdf-element-inspector-editor-android-when locale fanout (create_new_guide_page 20260825/20260826)
+  '/guides/pt/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/es/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/vi/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/id/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/de/devtools-style-pdf-element-inspector-editor-android-when.html',
   // client-side-pdf-editor-toolkit-when locale fanout (create_new_guide_page 20260824-2)
   '/guides/pt/client-side-pdf-editor-toolkit-when.html',
   '/guides/es/client-side-pdf-editor-toolkit-when.html',
@@ -16517,6 +16530,13 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // devtools-style-pdf-element-inspector-editor-android-when EN + locale fanout (create_new_guide_page 20260825/20260826)
+  '/guides/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/devtools-style-pdf-element-inspector-editor-android-when.jsp',
+  '/guides/pt/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/pt/devtools-style-pdf-element-inspector-editor-android-when.jsp',
+  '/guides/es/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/es/devtools-style-pdf-element-inspector-editor-android-when.jsp',
+  '/guides/vi/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/vi/devtools-style-pdf-element-inspector-editor-android-when.jsp',
+  '/guides/id/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/id/devtools-style-pdf-element-inspector-editor-android-when.jsp',
+  '/guides/de/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/de/devtools-style-pdf-element-inspector-editor-android-when.jsp',
   // client-side-pdf-editor-toolkit-vs-alternatives EN + locale fanout (create_new_guide_page 20260823-7)
   '/guides/client-side-pdf-editor-toolkit-vs-alternatives.html': 'guide/client-side-pdf-editor-toolkit-vs-alternatives.jsp',
   '/guides/pt/client-side-pdf-editor-toolkit-vs-alternatives.html': 'guide/pt/client-side-pdf-editor-toolkit-vs-alternatives.jsp',
