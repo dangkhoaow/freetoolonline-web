@@ -14,6 +14,13 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // devtools-style-pdf-element-inspector-editor-android-when EN + locale fanout (create_new_guide_page 20260825/20260826)
+  '/guides/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/pt/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/es/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/vi/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/id/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/de/devtools-style-pdf-element-inspector-editor-android-when.html',
   '/guides/daylight-saving-time-countdown-next-clock-change-when.html',
   // client-side-pdf-editor-toolkit-when EN + locale fanout (create_new_guide_page 20260824-2)
   '/guides/client-side-pdf-editor-toolkit-when.html',
@@ -7262,6 +7269,12 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // devtools-style-pdf-element-inspector-editor-android-when locale fanout (create_new_guide_page 20260825/20260826)
+  '/guides/pt/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/es/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/vi/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/id/devtools-style-pdf-element-inspector-editor-android-when.html',
+  '/guides/de/devtools-style-pdf-element-inspector-editor-android-when.html',
   // client-side-pdf-editor-toolkit-when locale fanout (create_new_guide_page 20260824-2)
   '/guides/pt/client-side-pdf-editor-toolkit-when.html',
   '/guides/es/client-side-pdf-editor-toolkit-when.html',
@@ -14001,6 +14014,25 @@ export function isArticleFamilyRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  // consolidation fire67 2026-08-25 (content_consolidation_backlog:
+  // topical-map-space-3d.lagrange-points.3d-explorer, topical-map-developer.character-counter):
+  // duplicate guide families retired into their keepers; unique facts folded in FIRST.
+  '/guides/lagrange-points-step-by-step.html': '/guides/lagrange-points-when.html',
+  '/guides/lagrange-points-vs-alternatives.html': '/guides/lagrange-points-when.html',
+  '/guides/pt/lagrange-points-step-by-step.html': '/guides/pt/lagrange-points-when.html',
+  '/guides/pt/lagrange-points-vs-alternatives.html': '/guides/pt/lagrange-points-when.html',
+  '/guides/es/lagrange-points-step-by-step.html': '/guides/es/lagrange-points-when.html',
+  '/guides/es/lagrange-points-vs-alternatives.html': '/guides/es/lagrange-points-when.html',
+  '/guides/de/lagrange-points-step-by-step.html': '/guides/de/lagrange-points-when.html',
+  '/guides/de/lagrange-points-vs-alternatives.html': '/guides/de/lagrange-points-when.html',
+  '/guides/id/lagrange-points-step-by-step.html': '/guides/id/lagrange-points-when.html',
+  '/guides/id/lagrange-points-vs-alternatives.html': '/guides/id/lagrange-points-when.html',
+  '/guides/character-counter-step-by-step.html': '/guides/character-counter-vs-alternatives.html',
+  '/guides/pt/character-counter-step-by-step.html': '/guides/pt/character-counter-vs-alternatives.html',
+  '/guides/es/character-counter-step-by-step.html': '/guides/es/character-counter-vs-alternatives.html',
+  '/guides/vi/character-counter-step-by-step.html': '/guides/vi/character-counter-vs-alternatives.html',
+  '/guides/id/character-counter-step-by-step.html': '/guides/id/character-counter-vs-alternatives.html',
+  '/guides/de/character-counter-step-by-step.html': '/guides/de/character-counter-vs-alternatives.html',
   // consolidation fire65 (2026-08-25) step-1a: retire the -step-by-step and
   // -vs-alternatives doorway guide families for two intent nodes -
   // utility.date-difference-calculator and image-editing.document-scanner - into
@@ -14024,6 +14056,18 @@ export const ALIAS_ROUTES = {
   '/guides/id/date-difference-calculator-vs-alternatives.html': '/guides/id/date-difference-calculator-when.html',
   '/guides/de/date-difference-calculator-step-by-step.html': '/guides/de/date-difference-calculator-when.html',
   '/guides/de/date-difference-calculator-vs-alternatives.html': '/guides/de/date-difference-calculator-when.html',
+  // consolidation fire66 2026-08-25 (content_consolidation_backlog: topical-map-video.video-trimmer,
+  // topical-map-developer.base64-encoder): the -step-by-step families duplicated the
+  // -vs-alternatives keeper's intent. Unique facts (mm:ss / h:mm:ss + blank-end time entry;
+  // base64 same-page read-only result + inline Invalid Base64 + nothing stored) were folded
+  // into the keepers FIRST. Locale-matched 301s; the edge layer is patched in the same push.
+  '/guides/video-trimmer-step-by-step.html': '/guides/video-trimmer-vs-alternatives.html',
+  '/guides/pt/video-trimmer-step-by-step.html': '/guides/pt/video-trimmer-vs-alternatives.html',
+  '/guides/es/video-trimmer-step-by-step.html': '/guides/es/video-trimmer-vs-alternatives.html',
+  '/guides/vi/video-trimmer-step-by-step.html': '/guides/vi/video-trimmer-vs-alternatives.html',
+  '/guides/id/video-trimmer-step-by-step.html': '/guides/id/video-trimmer-vs-alternatives.html',
+  '/guides/de/video-trimmer-step-by-step.html': '/guides/de/video-trimmer-vs-alternatives.html',
+  '/guides/base64-encoder-step-by-step.html': '/guides/base64-encoder-vs-alternatives.html',
   '/guides/document-scanner-pdf-step-by-step.html': '/guides/document-scanner-pdf-when.html',
   '/guides/document-scanner-pdf-vs-alternatives.html': '/guides/document-scanner-pdf-when.html',
   '/guides/pt/document-scanner-pdf-step-by-step.html': '/guides/pt/document-scanner-pdf-when.html',
@@ -14056,8 +14100,8 @@ export const ALIAS_ROUTES = {
   '/guides/vi/kuiper-belt-oort-cloud-step-by-step.html': '/guides/kuiper-belt-oort-cloud-step-by-step.html',
   '/guides/vi/kuiper-belt-oort-cloud-vs-alternatives.html': '/guides/kuiper-belt-oort-cloud-vs-alternatives.html',
   '/guides/vi/kuiper-belt-oort-cloud-when.html': '/guides/kuiper-belt-oort-cloud-when.html',
-  '/guides/vi/lagrange-points-step-by-step.html': '/guides/lagrange-points-step-by-step.html',
-  '/guides/vi/lagrange-points-vs-alternatives.html': '/guides/lagrange-points-vs-alternatives.html',
+  '/guides/vi/lagrange-points-step-by-step.html': '/guides/lagrange-points-when.html', // [consolidation fire67 2026-08-25: repointed off the retired EN route to the surviving -when family]
+  '/guides/vi/lagrange-points-vs-alternatives.html': '/guides/lagrange-points-when.html', // [consolidation fire67 2026-08-25: repointed off the retired EN route to the surviving -when family]
   '/guides/vi/lagrange-points-when.html': '/guides/lagrange-points-when.html',
   '/guides/vi/lambeosaurus-3d-viewer-vs-ar-apps.html': '/guides/lambeosaurus-3d-viewer-vs-ar-apps.html',
   '/guides/vi/lambeosaurus-size-comparison.html': '/guides/lambeosaurus-size-comparison.html',
@@ -16476,6 +16520,7 @@ export const ALIAS_ROUTES = {
   '/silence-remover.html': '/video-tools/silence-remover.html',
   '/vocal-remover.html': '/video-tools/vocal-remover.html',
   '/handwriting-to-text.html': '/image-converter-tools/handwriting-to-text.html',
+  '/photo-translator.html': '/image-tools/photo-translator.html',
   '/dst-countdown.html': '/utility-tools/dst-countdown.html',
 };
 
@@ -16505,6 +16550,13 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // devtools-style-pdf-element-inspector-editor-android-when EN + locale fanout (create_new_guide_page 20260825/20260826)
+  '/guides/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/devtools-style-pdf-element-inspector-editor-android-when.jsp',
+  '/guides/pt/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/pt/devtools-style-pdf-element-inspector-editor-android-when.jsp',
+  '/guides/es/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/es/devtools-style-pdf-element-inspector-editor-android-when.jsp',
+  '/guides/vi/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/vi/devtools-style-pdf-element-inspector-editor-android-when.jsp',
+  '/guides/id/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/id/devtools-style-pdf-element-inspector-editor-android-when.jsp',
+  '/guides/de/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/de/devtools-style-pdf-element-inspector-editor-android-when.jsp',
   // client-side-pdf-editor-toolkit-vs-alternatives EN + locale fanout (create_new_guide_page 20260823-7)
   '/guides/client-side-pdf-editor-toolkit-vs-alternatives.html': 'guide/client-side-pdf-editor-toolkit-vs-alternatives.jsp',
   '/guides/pt/client-side-pdf-editor-toolkit-vs-alternatives.html': 'guide/pt/client-side-pdf-editor-toolkit-vs-alternatives.jsp',
@@ -16590,6 +16642,7 @@ export const JSP_BY_ROUTE = {
   '/video-tools/silence-remover.html': 'convert/silence-remover.jsp',
   '/video-tools/vocal-remover.html': 'convert/vocal-remover.jsp',
   '/image-converter-tools/handwriting-to-text.html': 'convert/handwriting-to-text.jsp',
+  '/image-tools/photo-translator.html': 'convert/photo-translator.jsp',
   '/utility-tools/dst-countdown.html': 'utility/dst-countdown.jsp',
   '/guides/daylight-saving-time-countdown-next-clock-change-when.html': 'guide/daylight-saving-time-countdown-next-clock-change-when.jsp',
 
@@ -17847,23 +17900,17 @@ export const JSP_BY_ROUTE = {
   '/guides/de/password-generator-vs-alternatives.html': 'guide/de/password-generator-vs-alternatives.jsp',
   '/video-tools/video-trimmer.html': 'convert/video-trimmer.jsp',
   '/guides/video-trimmer-when.html': 'guide/video-trimmer-when.jsp',
-  '/guides/video-trimmer-step-by-step.html': 'guide/video-trimmer-step-by-step.jsp',
   '/guides/video-trimmer-vs-alternatives.html': 'guide/video-trimmer-vs-alternatives.jsp',
   // new-tool-discovery-loop-runbook guide-support drain (unit video-trimmer-guides,
   // runbook SS4b): pt/es/vi/id/de locale fanout for the 3 EN angles above.
-  '/guides/pt/video-trimmer-step-by-step.html': 'guide/pt/video-trimmer-step-by-step.jsp',
   '/guides/pt/video-trimmer-when.html': 'guide/pt/video-trimmer-when.jsp',
   '/guides/pt/video-trimmer-vs-alternatives.html': 'guide/pt/video-trimmer-vs-alternatives.jsp',
-  '/guides/es/video-trimmer-step-by-step.html': 'guide/es/video-trimmer-step-by-step.jsp',
   '/guides/es/video-trimmer-when.html': 'guide/es/video-trimmer-when.jsp',
   '/guides/es/video-trimmer-vs-alternatives.html': 'guide/es/video-trimmer-vs-alternatives.jsp',
-  '/guides/vi/video-trimmer-step-by-step.html': 'guide/vi/video-trimmer-step-by-step.jsp',
   '/guides/vi/video-trimmer-when.html': 'guide/vi/video-trimmer-when.jsp',
   '/guides/vi/video-trimmer-vs-alternatives.html': 'guide/vi/video-trimmer-vs-alternatives.jsp',
-  '/guides/id/video-trimmer-step-by-step.html': 'guide/id/video-trimmer-step-by-step.jsp',
   '/guides/id/video-trimmer-when.html': 'guide/id/video-trimmer-when.jsp',
   '/guides/id/video-trimmer-vs-alternatives.html': 'guide/id/video-trimmer-vs-alternatives.jsp',
-  '/guides/de/video-trimmer-step-by-step.html': 'guide/de/video-trimmer-step-by-step.jsp',
   '/guides/de/video-trimmer-when.html': 'guide/de/video-trimmer-when.jsp',
   '/guides/de/video-trimmer-vs-alternatives.html': 'guide/de/video-trimmer-vs-alternatives.jsp',
   '/utility-tools/voice-recorder.html': 'utility/voice-recorder.jsp',
@@ -20037,7 +20084,6 @@ export const JSP_BY_ROUTE = {
   '/guides/text-repeater-vs-alternatives.html': 'guide/text-repeater-vs-alternatives.jsp',
   '/developer-tools/base64-encoder.html': 'utility/base64-encoder.jsp',
   '/guides/base64-encoder-when.html': 'guide/base64-encoder-when.jsp',
-  '/guides/base64-encoder-step-by-step.html': 'guide/base64-encoder-step-by-step.jsp',
   '/guides/base64-encoder-vs-alternatives.html': 'guide/base64-encoder-vs-alternatives.jsp',
   '/developer-tools/url-decoder.html': 'utility/url-decoder.jsp',
   '/guides/url-decoder-when.html': 'guide/url-decoder-when.jsp',
@@ -24728,16 +24774,6 @@ export const JSP_BY_ROUTE = {
   '/guides/es/lagrange-points-when.html': 'guide/es/lagrange-points-when.jsp',
   '/guides/de/lagrange-points-when.html': 'guide/de/lagrange-points-when.jsp',
   '/guides/id/lagrange-points-when.html': 'guide/id/lagrange-points-when.jsp',
-  '/guides/lagrange-points-step-by-step.html': 'guide/lagrange-points-step-by-step.jsp',
-  '/guides/pt/lagrange-points-step-by-step.html': 'guide/pt/lagrange-points-step-by-step.jsp',
-  '/guides/es/lagrange-points-step-by-step.html': 'guide/es/lagrange-points-step-by-step.jsp',
-  '/guides/de/lagrange-points-step-by-step.html': 'guide/de/lagrange-points-step-by-step.jsp',
-  '/guides/id/lagrange-points-step-by-step.html': 'guide/id/lagrange-points-step-by-step.jsp',
-  '/guides/lagrange-points-vs-alternatives.html': 'guide/lagrange-points-vs-alternatives.jsp',
-  '/guides/pt/lagrange-points-vs-alternatives.html': 'guide/pt/lagrange-points-vs-alternatives.jsp',
-  '/guides/es/lagrange-points-vs-alternatives.html': 'guide/es/lagrange-points-vs-alternatives.jsp',
-  '/guides/de/lagrange-points-vs-alternatives.html': 'guide/de/lagrange-points-vs-alternatives.jsp',
-  '/guides/id/lagrange-points-vs-alternatives.html': 'guide/id/lagrange-points-vs-alternatives.jsp',
   '/guides/neutron-star-pulsar-when.html': 'guide/neutron-star-pulsar-when.jsp',
   '/guides/pt/neutron-star-pulsar-when.html': 'guide/pt/neutron-star-pulsar-when.jsp',
   '/guides/es/neutron-star-pulsar-when.html': 'guide/es/neutron-star-pulsar-when.jsp',
@@ -25654,22 +25690,16 @@ export const JSP_BY_ROUTE = {
   '/guides/id/hex-puzzle-blocks-vs-alternatives.html': 'guide/id/hex-puzzle-blocks-vs-alternatives.jsp',
   '/developer-tools/character-counter.html': 'utility/character-counter.jsp',
   '/guides/character-counter-when.html': 'guide/character-counter-when.jsp',
-  '/guides/character-counter-step-by-step.html': 'guide/character-counter-step-by-step.jsp',
   '/guides/character-counter-vs-alternatives.html': 'guide/character-counter-vs-alternatives.jsp',
   '/guides/pt/character-counter-when.html': 'guide/pt/character-counter-when.jsp',
-  '/guides/pt/character-counter-step-by-step.html': 'guide/pt/character-counter-step-by-step.jsp',
   '/guides/pt/character-counter-vs-alternatives.html': 'guide/pt/character-counter-vs-alternatives.jsp',
   '/guides/es/character-counter-when.html': 'guide/es/character-counter-when.jsp',
-  '/guides/es/character-counter-step-by-step.html': 'guide/es/character-counter-step-by-step.jsp',
   '/guides/es/character-counter-vs-alternatives.html': 'guide/es/character-counter-vs-alternatives.jsp',
   '/guides/vi/character-counter-when.html': 'guide/vi/character-counter-when.jsp',
-  '/guides/vi/character-counter-step-by-step.html': 'guide/vi/character-counter-step-by-step.jsp',
   '/guides/vi/character-counter-vs-alternatives.html': 'guide/vi/character-counter-vs-alternatives.jsp',
   '/guides/id/character-counter-when.html': 'guide/id/character-counter-when.jsp',
-  '/guides/id/character-counter-step-by-step.html': 'guide/id/character-counter-step-by-step.jsp',
   '/guides/id/character-counter-vs-alternatives.html': 'guide/id/character-counter-vs-alternatives.jsp',
   '/guides/de/character-counter-when.html': 'guide/de/character-counter-when.jsp',
-  '/guides/de/character-counter-step-by-step.html': 'guide/de/character-counter-step-by-step.jsp',
   '/guides/de/character-counter-vs-alternatives.html': 'guide/de/character-counter-vs-alternatives.jsp',
   '/developer-tools/find-and-replace-text.html': 'utility/find-and-replace-text.jsp',
   '/guides/find-replace-text-when.html': 'guide/find-replace-text-when.jsp',
