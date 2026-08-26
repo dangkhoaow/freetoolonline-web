@@ -955,6 +955,7 @@ try {
     { title: "AI Text Detector - LLM Writing Signals, In Your Browser", url: "https://freetoolonline.com/utility-tools/ai-text-detector.html", include: !1, tags: "utility" },
     { title: "Foxit Pdf Editor Browser", url: "https://freetoolonline.com/image-converter-tools/foxit-pdf-editor-browser.html", include: !1, tags: "image-conversion" },
     { title: "File Viewer", url: "https://freetoolonline.com/pdf-tools/file-viewer.html", include: !1, tags: "pdf" },
+    { title: "Alt Text Generator (On-Device)", url: "https://freetoolonline.com/image-tools/alt-text-generator.html", include: !1, tags: "image-editing" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
     allCurrentTags = "",
