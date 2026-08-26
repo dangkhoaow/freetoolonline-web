@@ -3729,18 +3729,6 @@ export const INFO_ROUTES = new Set([
   '/guides/de/parallax-distance-when.html',
   '/guides/vi/parallax-distance-when.html',
   '/guides/id/parallax-distance-when.html',
-  '/guides/parallax-distance-step-by-step.html',
-  '/guides/pt/parallax-distance-step-by-step.html',
-  '/guides/es/parallax-distance-step-by-step.html',
-  '/guides/de/parallax-distance-step-by-step.html',
-  '/guides/vi/parallax-distance-step-by-step.html',
-  '/guides/id/parallax-distance-step-by-step.html',
-  '/guides/parallax-distance-vs-alternatives.html',
-  '/guides/pt/parallax-distance-vs-alternatives.html',
-  '/guides/es/parallax-distance-vs-alternatives.html',
-  '/guides/de/parallax-distance-vs-alternatives.html',
-  '/guides/vi/parallax-distance-vs-alternatives.html',
-  '/guides/id/parallax-distance-vs-alternatives.html',
   '/guides/ecliptic-zodiac-when.html',
   '/guides/pt/ecliptic-zodiac-when.html',
   '/guides/es/ecliptic-zodiac-when.html',
@@ -4383,12 +4371,6 @@ export const INFO_ROUTES = new Set([
   '/guides/es/three-body-problem-vs-alternatives.html',
   '/guides/pt/three-body-problem-vs-alternatives.html',
   '/guides/three-body-problem-vs-alternatives.html',
-  '/guides/de/meteor-shower-radiant-vs-alternatives.html',
-  '/guides/id/meteor-shower-radiant-vs-alternatives.html',
-  '/guides/vi/meteor-shower-radiant-vs-alternatives.html',
-  '/guides/es/meteor-shower-radiant-vs-alternatives.html',
-  '/guides/pt/meteor-shower-radiant-vs-alternatives.html',
-  '/guides/meteor-shower-radiant-vs-alternatives.html',
   '/guides/de/kuiper-belt-oort-cloud-vs-alternatives.html',
   '/guides/id/kuiper-belt-oort-cloud-vs-alternatives.html',
   '/guides/es/kuiper-belt-oort-cloud-vs-alternatives.html',
@@ -4396,7 +4378,6 @@ export const INFO_ROUTES = new Set([
   '/guides/kuiper-belt-oort-cloud-vs-alternatives.html',
   '/guides/de/light-cone-vs-alternatives.html',
   '/guides/de/gravitational-waves-vs-alternatives.html',
-  '/guides/de/hill-sphere-vs-alternatives.html',
   '/guides/de/cepheid-variable-vs-alternatives.html',
   '/guides/de/expanding-universe-vs-alternatives.html',
   '/guides/de/doppler-radial-velocity-vs-alternatives.html',
@@ -4464,7 +4445,6 @@ export const INFO_ROUTES = new Set([
   '/guides/de/haumea-elongated-vs-alternatives.html',
   '/guides/id/light-cone-vs-alternatives.html',
   '/guides/id/gravitational-waves-vs-alternatives.html',
-  '/guides/id/hill-sphere-vs-alternatives.html',
   '/guides/id/cepheid-variable-vs-alternatives.html',
   '/guides/id/expanding-universe-vs-alternatives.html',
   '/guides/id/doppler-radial-velocity-vs-alternatives.html',
@@ -4746,7 +4726,6 @@ export const INFO_ROUTES = new Set([
   '/guides/de/io-plasma-torus-step-by-step.html',
   '/guides/de/io-plasma-torus-when.html',
   '/guides/de/io-plasma-torus-vs-alternatives.html',
-  '/guides/vi/hill-sphere-vs-alternatives.html',
   '/guides/vi/cepheid-variable-vs-alternatives.html',
   '/guides/vi/doppler-radial-velocity-vs-alternatives.html',
   '/guides/vi/star-trails-vs-alternatives.html',
@@ -4802,7 +4781,6 @@ export const INFO_ROUTES = new Set([
   '/guides/vi/haumea-elongated-vs-alternatives.html',
   '/guides/es/light-cone-vs-alternatives.html',
   '/guides/es/gravitational-waves-vs-alternatives.html',
-  '/guides/es/hill-sphere-vs-alternatives.html',
   '/guides/es/cepheid-variable-vs-alternatives.html',
   '/guides/es/expanding-universe-vs-alternatives.html',
   '/guides/es/doppler-radial-velocity-vs-alternatives.html',
@@ -4870,7 +4848,6 @@ export const INFO_ROUTES = new Set([
   '/guides/es/haumea-elongated-vs-alternatives.html',
   '/guides/pt/light-cone-vs-alternatives.html',
   '/guides/pt/gravitational-waves-vs-alternatives.html',
-  '/guides/pt/hill-sphere-vs-alternatives.html',
   '/guides/pt/cepheid-variable-vs-alternatives.html',
   '/guides/pt/expanding-universe-vs-alternatives.html',
   '/guides/pt/doppler-radial-velocity-vs-alternatives.html',
@@ -4938,7 +4915,6 @@ export const INFO_ROUTES = new Set([
   '/guides/pt/haumea-elongated-vs-alternatives.html',
   '/guides/light-cone-vs-alternatives.html',
   '/guides/gravitational-waves-vs-alternatives.html',
-  '/guides/hill-sphere-vs-alternatives.html',
   '/guides/cepheid-variable-vs-alternatives.html',
   '/guides/expanding-universe-vs-alternatives.html',
   '/guides/doppler-radial-velocity-vs-alternatives.html',
@@ -5426,7 +5402,6 @@ export const INFO_ROUTES = new Set([
   '/guides/kuiper-belt-oort-cloud-step-by-step.html',
   '/guides/de/light-cone-step-by-step.html',
   '/guides/de/gravitational-waves-step-by-step.html',
-  '/guides/de/hill-sphere-step-by-step.html',
   '/guides/de/cepheid-variable-step-by-step.html',
   '/guides/de/expanding-universe-step-by-step.html',
   '/guides/de/doppler-radial-velocity-step-by-step.html',
@@ -5494,7 +5469,6 @@ export const INFO_ROUTES = new Set([
   '/guides/de/haumea-elongated-step-by-step.html',
   '/guides/id/light-cone-step-by-step.html',
   '/guides/id/gravitational-waves-step-by-step.html',
-  '/guides/id/hill-sphere-step-by-step.html',
   '/guides/id/cepheid-variable-step-by-step.html',
   '/guides/id/expanding-universe-step-by-step.html',
   '/guides/id/doppler-radial-velocity-step-by-step.html',
@@ -5560,7 +5534,6 @@ export const INFO_ROUTES = new Set([
   '/guides/id/hyperion-sponge-step-by-step.html',
   '/guides/id/triton-cantaloupe-step-by-step.html',
   '/guides/id/haumea-elongated-step-by-step.html',
-  '/guides/vi/hill-sphere-step-by-step.html',
   '/guides/vi/cepheid-variable-step-by-step.html',
   '/guides/vi/doppler-radial-velocity-step-by-step.html',
   '/guides/vi/star-trails-step-by-step.html',
@@ -5615,7 +5588,6 @@ export const INFO_ROUTES = new Set([
   '/guides/vi/haumea-elongated-step-by-step.html',
   '/guides/es/light-cone-step-by-step.html',
   '/guides/es/gravitational-waves-step-by-step.html',
-  '/guides/es/hill-sphere-step-by-step.html',
   '/guides/es/cepheid-variable-step-by-step.html',
   '/guides/es/expanding-universe-step-by-step.html',
   '/guides/es/doppler-radial-velocity-step-by-step.html',
@@ -5683,7 +5655,6 @@ export const INFO_ROUTES = new Set([
   '/guides/es/haumea-elongated-step-by-step.html',
   '/guides/pt/light-cone-step-by-step.html',
   '/guides/pt/gravitational-waves-step-by-step.html',
-  '/guides/pt/hill-sphere-step-by-step.html',
   '/guides/pt/cepheid-variable-step-by-step.html',
   '/guides/pt/expanding-universe-step-by-step.html',
   '/guides/pt/doppler-radial-velocity-step-by-step.html',
@@ -5751,7 +5722,6 @@ export const INFO_ROUTES = new Set([
   '/guides/pt/haumea-elongated-step-by-step.html',
   '/guides/light-cone-step-by-step.html',
   '/guides/gravitational-waves-step-by-step.html',
-  '/guides/hill-sphere-step-by-step.html',
   '/guides/cepheid-variable-step-by-step.html',
   '/guides/expanding-universe-step-by-step.html',
   '/guides/doppler-radial-velocity-step-by-step.html',
@@ -5823,12 +5793,6 @@ export const INFO_ROUTES = new Set([
   '/guides/es/meteor-shower-radiant-when.html',
   '/guides/pt/meteor-shower-radiant-when.html',
   '/guides/meteor-shower-radiant-when.html',
-  '/guides/de/meteor-shower-radiant-step-by-step.html',
-  '/guides/id/meteor-shower-radiant-step-by-step.html',
-  '/guides/vi/meteor-shower-radiant-step-by-step.html',
-  '/guides/es/meteor-shower-radiant-step-by-step.html',
-  '/guides/pt/meteor-shower-radiant-step-by-step.html',
-  '/guides/meteor-shower-radiant-step-by-step.html',
   '/guides/de/three-body-problem-when.html',
   '/guides/id/three-body-problem-when.html',
   '/guides/vi/three-body-problem-when.html',
@@ -13980,6 +13944,30 @@ export function isArticleFamilyRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  '/guides/meteor-shower-radiant-step-by-step.html': '/guides/meteor-shower-radiant-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/meteor-shower-radiant-vs-alternatives.html': '/guides/meteor-shower-radiant-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/hill-sphere-step-by-step.html': '/guides/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/hill-sphere-vs-alternatives.html': '/guides/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/pt/meteor-shower-radiant-step-by-step.html': '/guides/pt/meteor-shower-radiant-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/pt/meteor-shower-radiant-vs-alternatives.html': '/guides/pt/meteor-shower-radiant-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/pt/hill-sphere-step-by-step.html': '/guides/pt/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/pt/hill-sphere-vs-alternatives.html': '/guides/pt/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/es/meteor-shower-radiant-step-by-step.html': '/guides/es/meteor-shower-radiant-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/es/meteor-shower-radiant-vs-alternatives.html': '/guides/es/meteor-shower-radiant-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/es/hill-sphere-step-by-step.html': '/guides/es/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/es/hill-sphere-vs-alternatives.html': '/guides/es/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/de/meteor-shower-radiant-step-by-step.html': '/guides/de/meteor-shower-radiant-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/de/meteor-shower-radiant-vs-alternatives.html': '/guides/de/meteor-shower-radiant-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/de/hill-sphere-step-by-step.html': '/guides/de/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/de/hill-sphere-vs-alternatives.html': '/guides/de/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/vi/meteor-shower-radiant-step-by-step.html': '/guides/vi/meteor-shower-radiant-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/vi/meteor-shower-radiant-vs-alternatives.html': '/guides/vi/meteor-shower-radiant-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/vi/hill-sphere-step-by-step.html': '/guides/vi/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/vi/hill-sphere-vs-alternatives.html': '/guides/vi/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/id/meteor-shower-radiant-step-by-step.html': '/guides/id/meteor-shower-radiant-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/id/meteor-shower-radiant-vs-alternatives.html': '/guides/id/meteor-shower-radiant-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/id/hill-sphere-step-by-step.html': '/guides/id/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/id/hill-sphere-vs-alternatives.html': '/guides/id/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
   '/guides/sidereal-vs-solar-day-step-by-step.html': '/guides/sidereal-vs-solar-day-when.html', // consolidation fire70: doorway family retired into the -when keeper
   '/guides/sidereal-vs-solar-day-vs-alternatives.html': '/guides/sidereal-vs-solar-day-when.html', // consolidation fire70: doorway family retired into the -when keeper
   '/guides/pt/sidereal-vs-solar-day-step-by-step.html': '/guides/pt/sidereal-vs-solar-day-when.html', // consolidation fire70: doorway family retired into the -when keeper
@@ -15899,6 +15887,18 @@ export const ALIAS_ROUTES = {
   '/orbital-resonance.html': '/space-3d/orbital-resonance.html',
   '/stellar-magnitude.html': '/space-3d/stellar-magnitude.html',
   '/parallax-distance.html': '/space-3d/parallax-distance.html',
+  '/guides/parallax-distance-step-by-step.html': '/guides/parallax-distance-when.html', // consolidation fire72: doorway family retired into the -when keeper
+  '/guides/parallax-distance-vs-alternatives.html': '/guides/parallax-distance-when.html', // consolidation fire72: doorway family retired into the -when keeper
+  '/guides/pt/parallax-distance-step-by-step.html': '/guides/pt/parallax-distance-when.html', // consolidation fire72: doorway family retired into the -when keeper
+  '/guides/pt/parallax-distance-vs-alternatives.html': '/guides/pt/parallax-distance-when.html', // consolidation fire72: doorway family retired into the -when keeper
+  '/guides/es/parallax-distance-step-by-step.html': '/guides/es/parallax-distance-when.html', // consolidation fire72: doorway family retired into the -when keeper
+  '/guides/es/parallax-distance-vs-alternatives.html': '/guides/es/parallax-distance-when.html', // consolidation fire72: doorway family retired into the -when keeper
+  '/guides/de/parallax-distance-step-by-step.html': '/guides/de/parallax-distance-when.html', // consolidation fire72: doorway family retired into the -when keeper
+  '/guides/de/parallax-distance-vs-alternatives.html': '/guides/de/parallax-distance-when.html', // consolidation fire72: doorway family retired into the -when keeper
+  '/guides/vi/parallax-distance-step-by-step.html': '/guides/vi/parallax-distance-when.html', // consolidation fire72: doorway family retired into the -when keeper
+  '/guides/vi/parallax-distance-vs-alternatives.html': '/guides/vi/parallax-distance-when.html', // consolidation fire72: doorway family retired into the -when keeper
+  '/guides/id/parallax-distance-step-by-step.html': '/guides/id/parallax-distance-when.html', // consolidation fire72: doorway family retired into the -when keeper
+  '/guides/id/parallax-distance-vs-alternatives.html': '/guides/id/parallax-distance-when.html', // consolidation fire72: doorway family retired into the -when keeper
   '/ecliptic-zodiac.html': '/space-3d/ecliptic-zodiac.html',
   '/gravity-well.html': '/space-3d/gravity-well.html',
   '/constellation-sphere.html': '/space-3d/constellation-sphere.html',
@@ -23128,11 +23128,9 @@ export const JSP_BY_ROUTE = {
   '/guides/venus-retrograde-rotation-vs-alternatives.html': 'guide/venus-retrograde-rotation-vs-alternatives.jsp',
   '/guides/gravitational-slingshot-vs-alternatives.html': 'guide/gravitational-slingshot-vs-alternatives.jsp',
   '/guides/three-body-problem-vs-alternatives.html': 'guide/three-body-problem-vs-alternatives.jsp',
-  '/guides/meteor-shower-radiant-vs-alternatives.html': 'guide/meteor-shower-radiant-vs-alternatives.jsp',
   '/guides/kuiper-belt-oort-cloud-vs-alternatives.html': 'guide/kuiper-belt-oort-cloud-vs-alternatives.jsp',
   '/guides/light-cone-vs-alternatives.html': 'guide/light-cone-vs-alternatives.jsp',
   '/guides/gravitational-waves-vs-alternatives.html': 'guide/gravitational-waves-vs-alternatives.jsp',
-  '/guides/hill-sphere-vs-alternatives.html': 'guide/hill-sphere-vs-alternatives.jsp',
   '/guides/cepheid-variable-vs-alternatives.html': 'guide/cepheid-variable-vs-alternatives.jsp',
   '/guides/expanding-universe-vs-alternatives.html': 'guide/expanding-universe-vs-alternatives.jsp',
   '/guides/doppler-radial-velocity-vs-alternatives.html': 'guide/doppler-radial-velocity-vs-alternatives.jsp',
@@ -23330,7 +23328,6 @@ export const JSP_BY_ROUTE = {
   '/guides/cepheid-variable-when.html': 'guide/cepheid-variable-when.jsp',
   '/guides/cepheid-variable-step-by-step.html': 'guide/cepheid-variable-step-by-step.jsp',
   '/guides/hill-sphere-when.html': 'guide/hill-sphere-when.jsp',
-  '/guides/hill-sphere-step-by-step.html': 'guide/hill-sphere-step-by-step.jsp',
   '/guides/gravitational-waves-when.html': 'guide/gravitational-waves-when.jsp',
   '/guides/gravitational-waves-step-by-step.html': 'guide/gravitational-waves-step-by-step.jsp',
   '/guides/spacetime-curvature-when.html': 'guide/spacetime-curvature-when.jsp',
@@ -23340,7 +23337,6 @@ export const JSP_BY_ROUTE = {
   '/guides/kuiper-belt-oort-cloud-when.html': 'guide/kuiper-belt-oort-cloud-when.jsp',
   '/guides/kuiper-belt-oort-cloud-step-by-step.html': 'guide/kuiper-belt-oort-cloud-step-by-step.jsp',
   '/guides/meteor-shower-radiant-when.html': 'guide/meteor-shower-radiant-when.jsp',
-  '/guides/meteor-shower-radiant-step-by-step.html': 'guide/meteor-shower-radiant-step-by-step.jsp',
   '/guides/three-body-problem-when.html': 'guide/three-body-problem-when.jsp',
   '/guides/three-body-problem-step-by-step.html': 'guide/three-body-problem-step-by-step.jsp',
   '/guides/gravitational-slingshot-when.html': 'guide/gravitational-slingshot-when.jsp',
@@ -23371,11 +23367,9 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/venus-retrograde-rotation-vs-alternatives.html': 'guide/pt/venus-retrograde-rotation-vs-alternatives.jsp',
   '/guides/pt/gravitational-slingshot-vs-alternatives.html': 'guide/pt/gravitational-slingshot-vs-alternatives.jsp',
   '/guides/pt/three-body-problem-vs-alternatives.html': 'guide/pt/three-body-problem-vs-alternatives.jsp',
-  '/guides/pt/meteor-shower-radiant-vs-alternatives.html': 'guide/pt/meteor-shower-radiant-vs-alternatives.jsp',
   '/guides/pt/kuiper-belt-oort-cloud-vs-alternatives.html': 'guide/pt/kuiper-belt-oort-cloud-vs-alternatives.jsp',
   '/guides/pt/light-cone-vs-alternatives.html': 'guide/pt/light-cone-vs-alternatives.jsp',
   '/guides/pt/gravitational-waves-vs-alternatives.html': 'guide/pt/gravitational-waves-vs-alternatives.jsp',
-  '/guides/pt/hill-sphere-vs-alternatives.html': 'guide/pt/hill-sphere-vs-alternatives.jsp',
   '/guides/pt/cepheid-variable-vs-alternatives.html': 'guide/pt/cepheid-variable-vs-alternatives.jsp',
   '/guides/pt/expanding-universe-vs-alternatives.html': 'guide/pt/expanding-universe-vs-alternatives.jsp',
   '/guides/pt/doppler-radial-velocity-vs-alternatives.html': 'guide/pt/doppler-radial-velocity-vs-alternatives.jsp',
@@ -23516,7 +23510,6 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/kuiper-belt-oort-cloud-step-by-step.html': 'guide/pt/kuiper-belt-oort-cloud-step-by-step.jsp',
   '/guides/pt/light-cone-step-by-step.html': 'guide/pt/light-cone-step-by-step.jsp',
   '/guides/pt/gravitational-waves-step-by-step.html': 'guide/pt/gravitational-waves-step-by-step.jsp',
-  '/guides/pt/hill-sphere-step-by-step.html': 'guide/pt/hill-sphere-step-by-step.jsp',
   '/guides/pt/cepheid-variable-step-by-step.html': 'guide/pt/cepheid-variable-step-by-step.jsp',
   '/guides/pt/expanding-universe-step-by-step.html': 'guide/pt/expanding-universe-step-by-step.jsp',
   '/guides/pt/doppler-radial-velocity-step-by-step.html': 'guide/pt/doppler-radial-velocity-step-by-step.jsp',
@@ -23583,7 +23576,6 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/triton-cantaloupe-step-by-step.html': 'guide/pt/triton-cantaloupe-step-by-step.jsp',
   '/guides/pt/haumea-elongated-step-by-step.html': 'guide/pt/haumea-elongated-step-by-step.jsp',
   '/guides/pt/meteor-shower-radiant-when.html': 'guide/pt/meteor-shower-radiant-when.jsp',
-  '/guides/pt/meteor-shower-radiant-step-by-step.html': 'guide/pt/meteor-shower-radiant-step-by-step.jsp',
   '/guides/pt/three-body-problem-when.html': 'guide/pt/three-body-problem-when.jsp',
   '/guides/pt/three-body-problem-step-by-step.html': 'guide/pt/three-body-problem-step-by-step.jsp',
   '/guides/pt/gravitational-slingshot-when.html': 'guide/pt/gravitational-slingshot-when.jsp',
@@ -23614,11 +23606,9 @@ export const JSP_BY_ROUTE = {
   '/guides/es/venus-retrograde-rotation-vs-alternatives.html': 'guide/es/venus-retrograde-rotation-vs-alternatives.jsp',
   '/guides/es/gravitational-slingshot-vs-alternatives.html': 'guide/es/gravitational-slingshot-vs-alternatives.jsp',
   '/guides/es/three-body-problem-vs-alternatives.html': 'guide/es/three-body-problem-vs-alternatives.jsp',
-  '/guides/es/meteor-shower-radiant-vs-alternatives.html': 'guide/es/meteor-shower-radiant-vs-alternatives.jsp',
   '/guides/es/kuiper-belt-oort-cloud-vs-alternatives.html': 'guide/es/kuiper-belt-oort-cloud-vs-alternatives.jsp',
   '/guides/es/light-cone-vs-alternatives.html': 'guide/es/light-cone-vs-alternatives.jsp',
   '/guides/es/gravitational-waves-vs-alternatives.html': 'guide/es/gravitational-waves-vs-alternatives.jsp',
-  '/guides/es/hill-sphere-vs-alternatives.html': 'guide/es/hill-sphere-vs-alternatives.jsp',
   '/guides/es/cepheid-variable-vs-alternatives.html': 'guide/es/cepheid-variable-vs-alternatives.jsp',
   '/guides/es/expanding-universe-vs-alternatives.html': 'guide/es/expanding-universe-vs-alternatives.jsp',
   '/guides/es/doppler-radial-velocity-vs-alternatives.html': 'guide/es/doppler-radial-velocity-vs-alternatives.jsp',
@@ -23759,7 +23749,6 @@ export const JSP_BY_ROUTE = {
   '/guides/es/kuiper-belt-oort-cloud-step-by-step.html': 'guide/es/kuiper-belt-oort-cloud-step-by-step.jsp',
   '/guides/es/light-cone-step-by-step.html': 'guide/es/light-cone-step-by-step.jsp',
   '/guides/es/gravitational-waves-step-by-step.html': 'guide/es/gravitational-waves-step-by-step.jsp',
-  '/guides/es/hill-sphere-step-by-step.html': 'guide/es/hill-sphere-step-by-step.jsp',
   '/guides/es/cepheid-variable-step-by-step.html': 'guide/es/cepheid-variable-step-by-step.jsp',
   '/guides/es/expanding-universe-step-by-step.html': 'guide/es/expanding-universe-step-by-step.jsp',
   '/guides/es/doppler-radial-velocity-step-by-step.html': 'guide/es/doppler-radial-velocity-step-by-step.jsp',
@@ -23826,7 +23815,6 @@ export const JSP_BY_ROUTE = {
   '/guides/es/triton-cantaloupe-step-by-step.html': 'guide/es/triton-cantaloupe-step-by-step.jsp',
   '/guides/es/haumea-elongated-step-by-step.html': 'guide/es/haumea-elongated-step-by-step.jsp',
   '/guides/es/meteor-shower-radiant-when.html': 'guide/es/meteor-shower-radiant-when.jsp',
-  '/guides/es/meteor-shower-radiant-step-by-step.html': 'guide/es/meteor-shower-radiant-step-by-step.jsp',
   '/guides/es/three-body-problem-when.html': 'guide/es/three-body-problem-when.jsp',
   '/guides/es/three-body-problem-step-by-step.html': 'guide/es/three-body-problem-step-by-step.jsp',
   '/guides/es/gravitational-slingshot-when.html': 'guide/es/gravitational-slingshot-when.jsp',
@@ -23857,11 +23845,9 @@ export const JSP_BY_ROUTE = {
   '/guides/de/venus-retrograde-rotation-vs-alternatives.html': 'guide/de/venus-retrograde-rotation-vs-alternatives.jsp',
   '/guides/de/gravitational-slingshot-vs-alternatives.html': 'guide/de/gravitational-slingshot-vs-alternatives.jsp',
   '/guides/de/three-body-problem-vs-alternatives.html': 'guide/de/three-body-problem-vs-alternatives.jsp',
-  '/guides/de/meteor-shower-radiant-vs-alternatives.html': 'guide/de/meteor-shower-radiant-vs-alternatives.jsp',
   '/guides/de/kuiper-belt-oort-cloud-vs-alternatives.html': 'guide/de/kuiper-belt-oort-cloud-vs-alternatives.jsp',
   '/guides/de/light-cone-vs-alternatives.html': 'guide/de/light-cone-vs-alternatives.jsp',
   '/guides/de/gravitational-waves-vs-alternatives.html': 'guide/de/gravitational-waves-vs-alternatives.jsp',
-  '/guides/de/hill-sphere-vs-alternatives.html': 'guide/de/hill-sphere-vs-alternatives.jsp',
   '/guides/de/cepheid-variable-vs-alternatives.html': 'guide/de/cepheid-variable-vs-alternatives.jsp',
   '/guides/de/expanding-universe-vs-alternatives.html': 'guide/de/expanding-universe-vs-alternatives.jsp',
   '/guides/de/doppler-radial-velocity-vs-alternatives.html': 'guide/de/doppler-radial-velocity-vs-alternatives.jsp',
@@ -24002,7 +23988,6 @@ export const JSP_BY_ROUTE = {
   '/guides/de/kuiper-belt-oort-cloud-step-by-step.html': 'guide/de/kuiper-belt-oort-cloud-step-by-step.jsp',
   '/guides/de/light-cone-step-by-step.html': 'guide/de/light-cone-step-by-step.jsp',
   '/guides/de/gravitational-waves-step-by-step.html': 'guide/de/gravitational-waves-step-by-step.jsp',
-  '/guides/de/hill-sphere-step-by-step.html': 'guide/de/hill-sphere-step-by-step.jsp',
   '/guides/de/cepheid-variable-step-by-step.html': 'guide/de/cepheid-variable-step-by-step.jsp',
   '/guides/de/expanding-universe-step-by-step.html': 'guide/de/expanding-universe-step-by-step.jsp',
   '/guides/de/doppler-radial-velocity-step-by-step.html': 'guide/de/doppler-radial-velocity-step-by-step.jsp',
@@ -24069,7 +24054,6 @@ export const JSP_BY_ROUTE = {
   '/guides/de/triton-cantaloupe-step-by-step.html': 'guide/de/triton-cantaloupe-step-by-step.jsp',
   '/guides/de/haumea-elongated-step-by-step.html': 'guide/de/haumea-elongated-step-by-step.jsp',
   '/guides/de/meteor-shower-radiant-when.html': 'guide/de/meteor-shower-radiant-when.jsp',
-  '/guides/de/meteor-shower-radiant-step-by-step.html': 'guide/de/meteor-shower-radiant-step-by-step.jsp',
   '/guides/de/three-body-problem-when.html': 'guide/de/three-body-problem-when.jsp',
   '/guides/de/three-body-problem-step-by-step.html': 'guide/de/three-body-problem-step-by-step.jsp',
   '/guides/de/gravitational-slingshot-when.html': 'guide/de/gravitational-slingshot-when.jsp',
@@ -24099,8 +24083,6 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/planetary-nebula-vs-alternatives.html': 'guide/vi/planetary-nebula-vs-alternatives.jsp',
   '/guides/vi/venus-retrograde-rotation-vs-alternatives.html': 'guide/vi/venus-retrograde-rotation-vs-alternatives.jsp',
   '/guides/vi/three-body-problem-vs-alternatives.html': 'guide/vi/three-body-problem-vs-alternatives.jsp',
-  '/guides/vi/meteor-shower-radiant-vs-alternatives.html': 'guide/vi/meteor-shower-radiant-vs-alternatives.jsp',
-  '/guides/vi/hill-sphere-vs-alternatives.html': 'guide/vi/hill-sphere-vs-alternatives.jsp',
   '/guides/vi/cepheid-variable-vs-alternatives.html': 'guide/vi/cepheid-variable-vs-alternatives.jsp',
   '/guides/vi/star-trails-vs-alternatives.html': 'guide/vi/star-trails-vs-alternatives.jsp',
   '/guides/vi/tidal-heating-vs-alternatives.html': 'guide/vi/tidal-heating-vs-alternatives.jsp',
@@ -24201,7 +24183,6 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/mimas-herschel-when.html': 'guide/vi/mimas-herschel-when.jsp',
   '/guides/vi/triton-cantaloupe-when.html': 'guide/vi/triton-cantaloupe-when.jsp',
   '/guides/vi/haumea-elongated-when.html': 'guide/vi/haumea-elongated-when.jsp',
-  '/guides/vi/hill-sphere-step-by-step.html': 'guide/vi/hill-sphere-step-by-step.jsp',
   '/guides/vi/cepheid-variable-step-by-step.html': 'guide/vi/cepheid-variable-step-by-step.jsp',
   '/guides/vi/star-trails-step-by-step.html': 'guide/vi/star-trails-step-by-step.jsp',
   '/guides/vi/tidal-heating-step-by-step.html': 'guide/vi/tidal-heating-step-by-step.jsp',
@@ -24251,7 +24232,6 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/triton-cantaloupe-step-by-step.html': 'guide/vi/triton-cantaloupe-step-by-step.jsp',
   '/guides/vi/haumea-elongated-step-by-step.html': 'guide/vi/haumea-elongated-step-by-step.jsp',
   '/guides/vi/meteor-shower-radiant-when.html': 'guide/vi/meteor-shower-radiant-when.jsp',
-  '/guides/vi/meteor-shower-radiant-step-by-step.html': 'guide/vi/meteor-shower-radiant-step-by-step.jsp',
   '/guides/vi/three-body-problem-when.html': 'guide/vi/three-body-problem-when.jsp',
   '/guides/vi/three-body-problem-step-by-step.html': 'guide/vi/three-body-problem-step-by-step.jsp',
   '/guides/vi/venus-retrograde-rotation-when.html': 'guide/vi/venus-retrograde-rotation-when.jsp',
@@ -24279,11 +24259,9 @@ export const JSP_BY_ROUTE = {
   '/guides/id/venus-retrograde-rotation-vs-alternatives.html': 'guide/id/venus-retrograde-rotation-vs-alternatives.jsp',
   '/guides/id/gravitational-slingshot-vs-alternatives.html': 'guide/id/gravitational-slingshot-vs-alternatives.jsp',
   '/guides/id/three-body-problem-vs-alternatives.html': 'guide/id/three-body-problem-vs-alternatives.jsp',
-  '/guides/id/meteor-shower-radiant-vs-alternatives.html': 'guide/id/meteor-shower-radiant-vs-alternatives.jsp',
   '/guides/id/kuiper-belt-oort-cloud-vs-alternatives.html': 'guide/id/kuiper-belt-oort-cloud-vs-alternatives.jsp',
   '/guides/id/light-cone-vs-alternatives.html': 'guide/id/light-cone-vs-alternatives.jsp',
   '/guides/id/gravitational-waves-vs-alternatives.html': 'guide/id/gravitational-waves-vs-alternatives.jsp',
-  '/guides/id/hill-sphere-vs-alternatives.html': 'guide/id/hill-sphere-vs-alternatives.jsp',
   '/guides/id/cepheid-variable-vs-alternatives.html': 'guide/id/cepheid-variable-vs-alternatives.jsp',
   '/guides/id/expanding-universe-vs-alternatives.html': 'guide/id/expanding-universe-vs-alternatives.jsp',
   '/guides/id/doppler-radial-velocity-vs-alternatives.html': 'guide/id/doppler-radial-velocity-vs-alternatives.jsp',
@@ -24475,7 +24453,6 @@ export const JSP_BY_ROUTE = {
   '/guides/id/kuiper-belt-oort-cloud-step-by-step.html': 'guide/id/kuiper-belt-oort-cloud-step-by-step.jsp',
   '/guides/id/light-cone-step-by-step.html': 'guide/id/light-cone-step-by-step.jsp',
   '/guides/id/gravitational-waves-step-by-step.html': 'guide/id/gravitational-waves-step-by-step.jsp',
-  '/guides/id/hill-sphere-step-by-step.html': 'guide/id/hill-sphere-step-by-step.jsp',
   '/guides/id/cepheid-variable-step-by-step.html': 'guide/id/cepheid-variable-step-by-step.jsp',
   '/guides/id/expanding-universe-step-by-step.html': 'guide/id/expanding-universe-step-by-step.jsp',
   '/guides/id/doppler-radial-velocity-step-by-step.html': 'guide/id/doppler-radial-velocity-step-by-step.jsp',
@@ -24542,7 +24519,6 @@ export const JSP_BY_ROUTE = {
   '/guides/id/triton-cantaloupe-step-by-step.html': 'guide/id/triton-cantaloupe-step-by-step.jsp',
   '/guides/id/haumea-elongated-step-by-step.html': 'guide/id/haumea-elongated-step-by-step.jsp',
   '/guides/id/meteor-shower-radiant-when.html': 'guide/id/meteor-shower-radiant-when.jsp',
-  '/guides/id/meteor-shower-radiant-step-by-step.html': 'guide/id/meteor-shower-radiant-step-by-step.jsp',
   '/guides/id/three-body-problem-when.html': 'guide/id/three-body-problem-when.jsp',
   '/guides/id/three-body-problem-step-by-step.html': 'guide/id/three-body-problem-step-by-step.jsp',
   '/guides/id/gravitational-slingshot-when.html': 'guide/id/gravitational-slingshot-when.jsp',
@@ -24831,18 +24807,6 @@ export const JSP_BY_ROUTE = {
   '/guides/de/parallax-distance-when.html': 'guide/de/parallax-distance-when.jsp',
   '/guides/vi/parallax-distance-when.html': 'guide/vi/parallax-distance-when.jsp',
   '/guides/id/parallax-distance-when.html': 'guide/id/parallax-distance-when.jsp',
-  '/guides/parallax-distance-step-by-step.html': 'guide/parallax-distance-step-by-step.jsp',
-  '/guides/pt/parallax-distance-step-by-step.html': 'guide/pt/parallax-distance-step-by-step.jsp',
-  '/guides/es/parallax-distance-step-by-step.html': 'guide/es/parallax-distance-step-by-step.jsp',
-  '/guides/de/parallax-distance-step-by-step.html': 'guide/de/parallax-distance-step-by-step.jsp',
-  '/guides/vi/parallax-distance-step-by-step.html': 'guide/vi/parallax-distance-step-by-step.jsp',
-  '/guides/id/parallax-distance-step-by-step.html': 'guide/id/parallax-distance-step-by-step.jsp',
-  '/guides/parallax-distance-vs-alternatives.html': 'guide/parallax-distance-vs-alternatives.jsp',
-  '/guides/pt/parallax-distance-vs-alternatives.html': 'guide/pt/parallax-distance-vs-alternatives.jsp',
-  '/guides/es/parallax-distance-vs-alternatives.html': 'guide/es/parallax-distance-vs-alternatives.jsp',
-  '/guides/de/parallax-distance-vs-alternatives.html': 'guide/de/parallax-distance-vs-alternatives.jsp',
-  '/guides/vi/parallax-distance-vs-alternatives.html': 'guide/vi/parallax-distance-vs-alternatives.jsp',
-  '/guides/id/parallax-distance-vs-alternatives.html': 'guide/id/parallax-distance-vs-alternatives.jsp',
   '/guides/ecliptic-zodiac-when.html': 'guide/ecliptic-zodiac-when.jsp',
   '/guides/pt/ecliptic-zodiac-when.html': 'guide/pt/ecliptic-zodiac-when.jsp',
   '/guides/es/ecliptic-zodiac-when.html': 'guide/es/ecliptic-zodiac-when.jsp',
@@ -29371,8 +29335,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/hex-puzzle-blocks-step-by-step.html',
   '/guides/vi/hex-puzzle-blocks-vs-alternatives.html',
   '/guides/vi/hex-puzzle-blocks-when.html',
-  '/guides/vi/hill-sphere-step-by-step.html',
-  '/guides/vi/hill-sphere-vs-alternatives.html',
   '/guides/vi/hill-sphere-when.html',
   '/guides/vi/hohmann-transfer-step-by-step.html',
   '/guides/vi/hohmann-transfer-vs-alternatives.html',
@@ -29538,8 +29500,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/meteor-airburst-size-comparison-step-by-step.html',
   '/guides/vi/meteor-airburst-size-comparison-vs-alternatives.html',
   '/guides/vi/meteor-airburst-size-comparison-when.html',
-  '/guides/vi/meteor-shower-radiant-step-by-step.html',
-  '/guides/vi/meteor-shower-radiant-vs-alternatives.html',
   '/guides/vi/meteor-shower-radiant-when.html',
   '/guides/vi/metronome-step-by-step.html',
   '/guides/vi/metronome-vs-alternatives.html',
@@ -29677,8 +29637,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/pale-blue-dot-step-by-step.html',
   '/guides/vi/pale-blue-dot-vs-alternatives.html',
   '/guides/vi/pale-blue-dot-when.html',
-  '/guides/vi/parallax-distance-step-by-step.html',
-  '/guides/vi/parallax-distance-vs-alternatives.html',
   '/guides/vi/parallax-distance-when.html',
   '/guides/vi/parasaurolophus-3d-viewer-vs-ar-apps.html',
   '/guides/vi/parasaurolophus-size-comparison.html',
@@ -30833,8 +30791,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/hex-puzzle-blocks-step-by-step.html",
   "/guides/de/hex-puzzle-blocks-vs-alternatives.html",
   "/guides/de/hex-puzzle-blocks-when.html",
-  "/guides/de/hill-sphere-step-by-step.html",
-  "/guides/de/hill-sphere-vs-alternatives.html",
   "/guides/de/hill-sphere-when.html",
   "/guides/de/hohmann-transfer-step-by-step.html",
   "/guides/de/hohmann-transfer-vs-alternatives.html",
@@ -31089,8 +31045,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/meteor-airburst-size-comparison-step-by-step.html",
   "/guides/de/meteor-airburst-size-comparison-vs-alternatives.html",
   "/guides/de/meteor-airburst-size-comparison-when.html",
-  "/guides/de/meteor-shower-radiant-step-by-step.html",
-  "/guides/de/meteor-shower-radiant-vs-alternatives.html",
   "/guides/de/meteor-shower-radiant-when.html",
   "/guides/de/metronome-step-by-step.html",
   "/guides/de/metronome-vs-alternatives.html",
@@ -31226,8 +31180,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   "/guides/de/pale-blue-dot-step-by-step.html",
   "/guides/de/pale-blue-dot-vs-alternatives.html",
   "/guides/de/pale-blue-dot-when.html",
-  "/guides/de/parallax-distance-step-by-step.html",
-  "/guides/de/parallax-distance-vs-alternatives.html",
   "/guides/de/parallax-distance-when.html",
   "/guides/de/parasaurolophus-3d-viewer-vs-ar-apps.html",
   "/guides/de/particle-clicker-vs-alternatives.html",
@@ -32634,8 +32586,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/hex-puzzle-blocks-step-by-step.html',
   '/guides/pt/hex-puzzle-blocks-vs-alternatives.html',
   '/guides/pt/hex-puzzle-blocks-when.html',
-  '/guides/pt/hill-sphere-step-by-step.html',
-  '/guides/pt/hill-sphere-vs-alternatives.html',
   '/guides/pt/hohmann-transfer-step-by-step.html',
   '/guides/pt/hohmann-transfer-vs-alternatives.html',
   '/guides/pt/hohmann-transfer-when.html',
@@ -33227,8 +33177,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/herd-cats-home-when.html',
   '/guides/es/hex-puzzle-blocks-step-by-step.html',
   '/guides/es/hex-puzzle-blocks-vs-alternatives.html',
-  '/guides/es/hill-sphere-step-by-step.html',
-  '/guides/es/hill-sphere-vs-alternatives.html',
   '/guides/es/hill-sphere-when.html',
   '/guides/es/hohmann-transfer-step-by-step.html',
   '/guides/es/hohmann-transfer-vs-alternatives.html',
@@ -33620,8 +33568,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/pale-blue-dot-step-by-step.html',
   '/guides/es/pale-blue-dot-vs-alternatives.html',
   '/guides/es/pale-blue-dot-when.html',
-  '/guides/es/parallax-distance-step-by-step.html',
-  '/guides/es/parallax-distance-vs-alternatives.html',
   '/guides/es/parallax-distance-when.html',
   '/guides/es/parasaurolophus-3d-viewer-vs-ar-apps.html',
   '/guides/es/parasaurolophus-size-comparison.html',
@@ -34080,7 +34026,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/supernova-remnant-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/venus-retrograde-rotation-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/three-body-problem-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
-  '/guides/es/meteor-shower-radiant-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/kuiper-belt-oort-cloud-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/jupiter-magnetosphere-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/light-cone-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
@@ -34167,7 +34112,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/meteor-airburst-size-comparison-step-by-step.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/meteor-airburst-size-comparison-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/meteor-airburst-size-comparison-when.html', // pruned 2026-07-29 zero-evidence es
-  '/guides/es/meteor-shower-radiant-step-by-step.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/meteor-shower-radiant-when.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/metronome-step-by-step.html', // pruned 2026-07-29 zero-evidence es
   '/guides/es/metronome-vs-alternatives.html', // pruned 2026-07-29 zero-evidence es
@@ -34587,8 +34531,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/id/hex-puzzle-blocks-step-by-step.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/hex-puzzle-blocks-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/hex-puzzle-blocks-when.html', // pruned 2026-07-29 zero-evidence id
-  '/guides/id/hill-sphere-step-by-step.html', // pruned 2026-07-29 zero-evidence id
-  '/guides/id/hill-sphere-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/hill-sphere-when.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/hohmann-transfer-step-by-step.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/hohmann-transfer-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
@@ -34709,7 +34651,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/id/planetary-nebula-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/venus-retrograde-rotation-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/three-body-problem-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
-  '/guides/id/meteor-shower-radiant-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/kuiper-belt-oort-cloud-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/jupiter-magnetosphere-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
   '/guides/id/light-cone-vs-alternatives.html', // pruned 2026-07-29 zero-evidence id
