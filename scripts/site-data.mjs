@@ -16523,6 +16523,7 @@ export const ALIAS_ROUTES = {
   '/vocal-remover.html': '/video-tools/vocal-remover.html',
   '/handwriting-to-text.html': '/image-converter-tools/handwriting-to-text.html',
   '/photo-translator.html': '/image-tools/photo-translator.html',
+  '/alt-text-generator.html': '/image-tools/alt-text-generator.html',
   '/dst-countdown.html': '/utility-tools/dst-countdown.html',
   // cycle20260826-5 prod-mirror: new tool + foxit tool aliases
   '/file-viewer.html': '/pdf-tools/file-viewer.html',
@@ -28789,6 +28790,7 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/foxit-pdf-editor-browser-step-by-step.html': 'guide/vi/foxit-pdf-editor-browser-step-by-step.jsp',
   '/guides/id/foxit-pdf-editor-browser-step-by-step.html': 'guide/id/foxit-pdf-editor-browser-step-by-step.jsp',
   '/guides/de/foxit-pdf-editor-browser-step-by-step.html': 'guide/de/foxit-pdf-editor-browser-step-by-step.jsp',
+  '/image-tools/alt-text-generator.html': 'convert/alt-text-generator.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
