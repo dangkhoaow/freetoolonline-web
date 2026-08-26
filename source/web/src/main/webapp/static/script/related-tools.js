@@ -953,6 +953,8 @@ try {
     { title: "AI Watermark Detector - Check Content Credentials (C2PA)", url: "https://freetoolonline.com/image-tools/ai-watermark-detector.html", include: !1, tags: "image-editing" },
     { title: "Photo Translator (On-Device)", url: "https://freetoolonline.com/image-tools/photo-translator.html", include: !1, tags: "image-editing" },
     { title: "AI Text Detector - LLM Writing Signals, In Your Browser", url: "https://freetoolonline.com/utility-tools/ai-text-detector.html", include: !1, tags: "utility" },
+    { title: "Foxit Pdf Editor Browser", url: "https://freetoolonline.com/image-converter-tools/foxit-pdf-editor-browser.html", include: !1, tags: "image-conversion" },
+    { title: "File Viewer", url: "https://freetoolonline.com/pdf-tools/file-viewer.html", include: !1, tags: "pdf" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
     allCurrentTags = "",
