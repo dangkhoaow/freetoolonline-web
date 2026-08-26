@@ -7239,6 +7239,13 @@ export const INFO_ROUTES = new Set([
   '/guides/vi/venus-atmospheric-superrotation-vs-alternatives.html',
   '/guides/id/venus-atmospheric-superrotation-vs-alternatives.html',
   '/guides/de/venus-atmospheric-superrotation-vs-alternatives.html',
+  // cycle20260826-5 prod-mirror: foxit-pdf-editor-browser-step-by-step guide family (locale-complete en/pt/es/vi/id/de)
+  '/guides/foxit-pdf-editor-browser-step-by-step.html',
+  '/guides/pt/foxit-pdf-editor-browser-step-by-step.html',
+  '/guides/es/foxit-pdf-editor-browser-step-by-step.html',
+  '/guides/vi/foxit-pdf-editor-browser-step-by-step.html',
+  '/guides/id/foxit-pdf-editor-browser-step-by-step.html',
+  '/guides/de/foxit-pdf-editor-browser-step-by-step.html',
 
 ]);
 
@@ -13960,6 +13967,13 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/venus-atmospheric-superrotation-vs-alternatives.html',
   '/guides/id/venus-atmospheric-superrotation-vs-alternatives.html',
   '/guides/de/venus-atmospheric-superrotation-vs-alternatives.html',
+  // cycle20260826-5 prod-mirror: foxit-pdf-editor-browser-step-by-step guide family (locale-complete en/pt/es/vi/id/de)
+  '/guides/foxit-pdf-editor-browser-step-by-step.html',
+  '/guides/pt/foxit-pdf-editor-browser-step-by-step.html',
+  '/guides/es/foxit-pdf-editor-browser-step-by-step.html',
+  '/guides/vi/foxit-pdf-editor-browser-step-by-step.html',
+  '/guides/id/foxit-pdf-editor-browser-step-by-step.html',
+  '/guides/de/foxit-pdf-editor-browser-step-by-step.html',
 
 ]);
 
@@ -16510,6 +16524,9 @@ export const ALIAS_ROUTES = {
   '/handwriting-to-text.html': '/image-converter-tools/handwriting-to-text.html',
   '/photo-translator.html': '/image-tools/photo-translator.html',
   '/dst-countdown.html': '/utility-tools/dst-countdown.html',
+  // cycle20260826-5 prod-mirror: new tool + foxit tool aliases
+  '/file-viewer.html': '/pdf-tools/file-viewer.html',
+  '/foxit-pdf-editor-browser.html': '/image-converter-tools/foxit-pdf-editor-browser.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -28787,6 +28804,15 @@ export const JSP_BY_ROUTE = {
   '/guides/de/tennis-grand-slam-prize-money-lookup-step-by-step.html': 'guide/de/tennis-grand-slam-prize-money-lookup-step-by-step.jsp',
   '/guides/de/tennis-grand-slam-prize-money-lookup-when.html': 'guide/de/tennis-grand-slam-prize-money-lookup-when.jsp',
   '/guides/de/tennis-grand-slam-prize-money-lookup-vs-alternatives.html': 'guide/de/tennis-grand-slam-prize-money-lookup-vs-alternatives.jsp',
+  // cycle20260826-5 prod-mirror: file-viewer tool + foxit tool + foxit step-by-step guide family (locale-complete)
+  '/pdf-tools/file-viewer.html': 'pdf/file-viewer.jsp',
+  '/image-converter-tools/foxit-pdf-editor-browser.html': 'convert/foxit-pdf-editor-browser.jsp',
+  '/guides/foxit-pdf-editor-browser-step-by-step.html': 'guide/foxit-pdf-editor-browser-step-by-step.jsp',
+  '/guides/pt/foxit-pdf-editor-browser-step-by-step.html': 'guide/pt/foxit-pdf-editor-browser-step-by-step.jsp',
+  '/guides/es/foxit-pdf-editor-browser-step-by-step.html': 'guide/es/foxit-pdf-editor-browser-step-by-step.jsp',
+  '/guides/vi/foxit-pdf-editor-browser-step-by-step.html': 'guide/vi/foxit-pdf-editor-browser-step-by-step.jsp',
+  '/guides/id/foxit-pdf-editor-browser-step-by-step.html': 'guide/id/foxit-pdf-editor-browser-step-by-step.jsp',
+  '/guides/de/foxit-pdf-editor-browser-step-by-step.html': 'guide/de/foxit-pdf-editor-browser-step-by-step.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
