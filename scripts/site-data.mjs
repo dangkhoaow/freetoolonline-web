@@ -14816,6 +14816,7 @@ export const ALIAS_ROUTES = {
   '/crater-lake.html': '/places-3d/crater-lake.html',
   '/okavango-delta.html': '/places-3d/okavango-delta.html',
   '/krakatoa.html': '/places-3d/krakatoa.html',
+  '/fish-river-canyon.html': '/places-3d/fish-river-canyon.html',
   '/perito-moreno-glacier.html': '/places-3d/perito-moreno-glacier.html',
   '/great-blue-hole.html': '/places-3d/great-blue-hole.html',
   '/niagara-falls.html': '/places-3d/niagara-falls.html',
@@ -16588,9 +16589,9 @@ export const ALIAS_ROUTES = {
   // cycle20260826-5 prod-mirror: new tool + foxit tool aliases
   '/file-viewer.html': '/pdf-tools/file-viewer.html',
   '/foxit-pdf-editor-browser.html': '/image-converter-tools/foxit-pdf-editor-browser.html',
-};
   // ship-pending mirror 20260828: duplicate-photo-finder tool alias (staging 7167d90b96)
   '/duplicate-photo-finder.html': '/image-tools/duplicate-photo-finder.html',
+};
 
 // ─────────────────────────────────────────────────────────────────────────
 // JSP_BY_ROUTE — URL → JSP wrapper mapping. EVERY new key MUST match the
@@ -17253,6 +17254,7 @@ export const JSP_BY_ROUTE = {
   '/places-3d/crater-lake.html': 'place/crater-lake.jsp',
   '/places-3d/okavango-delta.html': 'place/okavango-delta.jsp',
   '/places-3d/krakatoa.html': 'place/krakatoa.jsp',
+  '/places-3d/fish-river-canyon.html': 'place/fish-river-canyon.jsp',
   '/places-3d/perito-moreno-glacier.html': 'place/perito-moreno-glacier.jsp',
   '/places-3d/great-blue-hole.html': 'place/great-blue-hole.jsp',
   '/places-3d/niagara-falls.html': 'place/niagara-falls.jsp',
@@ -28809,8 +28811,6 @@ export const JSP_BY_ROUTE = {
   '/guides/de/foxit-pdf-editor-browser-step-by-step.html': 'guide/de/foxit-pdf-editor-browser-step-by-step.jsp',
   '/image-tools/alt-text-generator.html': 'convert/alt-text-generator.jsp',
   '/image-tools/image-colorizer.html': 'convert/image-colorizer.jsp',
-};
-
   // ship-pending mirror 20260828: duplicate-photo-finder tool + file-viewer guide families (files landed 560e1dec6 + staging 7167d90b96)
   '/image-tools/duplicate-photo-finder.html': 'convert/duplicate-photo-finder.jsp',
   '/guides/file-viewer-when.html': 'guide/file-viewer-when.jsp',
@@ -28823,6 +28823,8 @@ export const JSP_BY_ROUTE = {
   '/guides/file-viewer-vs-alternatives.html': 'guide/file-viewer-vs-alternatives.jsp',
   '/guides/pt/file-viewer-vs-alternatives.html': 'guide/pt/file-viewer-vs-alternatives.jsp',
   '/guides/es/file-viewer-vs-alternatives.html': 'guide/es/file-viewer-vs-alternatives.jsp',
+};
+
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
 //
 // Defect class: cycle agents shipping create_new_guide_page ALWAYS update
