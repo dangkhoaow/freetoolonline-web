@@ -14,6 +14,17 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // ship-pending mirror 20260828: file-viewer guide families (files landed 560e1dec6 + staging 7167d90b96; routes were never registered on prod)
+  '/guides/file-viewer-when.html',
+  '/guides/file-viewer-step-by-step.html',
+  '/guides/pt/file-viewer-step-by-step.html',
+  '/guides/es/file-viewer-step-by-step.html',
+  '/guides/vi/file-viewer-step-by-step.html',
+  '/guides/id/file-viewer-step-by-step.html',
+  '/guides/de/file-viewer-step-by-step.html',
+  '/guides/file-viewer-vs-alternatives.html',
+  '/guides/pt/file-viewer-vs-alternatives.html',
+  '/guides/es/file-viewer-vs-alternatives.html',
   // devtools-style-pdf-element-inspector-editor-android-when EN + locale fanout (create_new_guide_page 20260825/20260826)
   '/guides/devtools-style-pdf-element-inspector-editor-android-when.html',
   '/guides/pt/devtools-style-pdf-element-inspector-editor-android-when.html',
@@ -16578,6 +16589,8 @@ export const ALIAS_ROUTES = {
   '/file-viewer.html': '/pdf-tools/file-viewer.html',
   '/foxit-pdf-editor-browser.html': '/image-converter-tools/foxit-pdf-editor-browser.html',
 };
+  // ship-pending mirror 20260828: duplicate-photo-finder tool alias (staging 7167d90b96)
+  '/duplicate-photo-finder.html': '/image-tools/duplicate-photo-finder.html',
 
 // ─────────────────────────────────────────────────────────────────────────
 // JSP_BY_ROUTE — URL → JSP wrapper mapping. EVERY new key MUST match the
@@ -28798,6 +28811,18 @@ export const JSP_BY_ROUTE = {
   '/image-tools/image-colorizer.html': 'convert/image-colorizer.jsp',
 };
 
+  // ship-pending mirror 20260828: duplicate-photo-finder tool + file-viewer guide families (files landed 560e1dec6 + staging 7167d90b96)
+  '/image-tools/duplicate-photo-finder.html': 'convert/duplicate-photo-finder.jsp',
+  '/guides/file-viewer-when.html': 'guide/file-viewer-when.jsp',
+  '/guides/file-viewer-step-by-step.html': 'guide/file-viewer-step-by-step.jsp',
+  '/guides/pt/file-viewer-step-by-step.html': 'guide/pt/file-viewer-step-by-step.jsp',
+  '/guides/es/file-viewer-step-by-step.html': 'guide/es/file-viewer-step-by-step.jsp',
+  '/guides/vi/file-viewer-step-by-step.html': 'guide/vi/file-viewer-step-by-step.jsp',
+  '/guides/id/file-viewer-step-by-step.html': 'guide/id/file-viewer-step-by-step.jsp',
+  '/guides/de/file-viewer-step-by-step.html': 'guide/de/file-viewer-step-by-step.jsp',
+  '/guides/file-viewer-vs-alternatives.html': 'guide/file-viewer-vs-alternatives.jsp',
+  '/guides/pt/file-viewer-vs-alternatives.html': 'guide/pt/file-viewer-vs-alternatives.jsp',
+  '/guides/es/file-viewer-vs-alternatives.html': 'guide/es/file-viewer-vs-alternatives.jsp',
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
 //
 // Defect class: cycle agents shipping create_new_guide_page ALWAYS update
