@@ -3298,24 +3298,19 @@ export const INFO_ROUTES = new Set([
   '/guides/id/black-hole-3d-visualizer-step-by-step.html',
   '/guides/id/black-hole-3d-visualizer-vs-alternatives.html',
   '/guides/galaxy-3d-simulator-when.html',
-  '/guides/galaxy-3d-simulator-step-by-step.html',
   '/guides/galaxy-3d-simulator-vs-alternatives.html',
   // galaxy-3d-simulator-guides - locale fanout pt/es/vi/id/de for all 3 angles
   // (new-tool-discovery-loop-runbook fire60, LEAN one-off session).
   '/guides/pt/galaxy-3d-simulator-when.html',
-  '/guides/pt/galaxy-3d-simulator-step-by-step.html',
   '/guides/pt/galaxy-3d-simulator-vs-alternatives.html',
   '/guides/es/galaxy-3d-simulator-when.html',
-  '/guides/es/galaxy-3d-simulator-step-by-step.html',
   '/guides/es/galaxy-3d-simulator-vs-alternatives.html',
   '/guides/de/galaxy-3d-simulator-when.html',
-  '/guides/de/galaxy-3d-simulator-step-by-step.html',
   '/guides/de/galaxy-3d-simulator-vs-alternatives.html',
   '/guides/vi/galaxy-3d-simulator-when.html',
   '/guides/vi/galaxy-3d-simulator-step-by-step.html',
   '/guides/vi/galaxy-3d-simulator-vs-alternatives.html',
   '/guides/id/galaxy-3d-simulator-when.html',
-  '/guides/id/galaxy-3d-simulator-step-by-step.html',
   '/guides/id/galaxy-3d-simulator-vs-alternatives.html',
   // city-time-machine-3d-when-guides - GUIDE_ROUTES/INFO_ROUTES backfill for the
   // pre-existing EN angle (JSP_BY_ROUTE + CMS existed, never registered here -
@@ -4330,12 +4325,6 @@ export const INFO_ROUTES = new Set([
   '/guides/uranus-tilt-vs-alternatives.html',
   // consolidation fire51 (2026-08-12): the roche-limit-vs-alternatives family
   // (all 6 locales) was folded into roche-limit-when and 301d - see ALIAS_ROUTES.
-  '/guides/de/solar-analemma-vs-alternatives.html',
-  '/guides/id/solar-analemma-vs-alternatives.html',
-  '/guides/vi/solar-analemma-vs-alternatives.html',
-  '/guides/es/solar-analemma-vs-alternatives.html',
-  '/guides/pt/solar-analemma-vs-alternatives.html',
-  '/guides/solar-analemma-vs-alternatives.html',
   '/guides/de/saturn-hexagon-vs-alternatives.html',
   '/guides/id/saturn-hexagon-vs-alternatives.html',
   '/guides/vi/saturn-hexagon-vs-alternatives.html',
@@ -5869,12 +5858,6 @@ export const INFO_ROUTES = new Set([
   '/guides/es/solar-analemma-when.html',
   '/guides/pt/solar-analemma-when.html',
   '/guides/solar-analemma-when.html',
-  '/guides/de/solar-analemma-step-by-step.html',
-  '/guides/id/solar-analemma-step-by-step.html',
-  '/guides/vi/solar-analemma-step-by-step.html',
-  '/guides/es/solar-analemma-step-by-step.html',
-  '/guides/pt/solar-analemma-step-by-step.html',
-  '/guides/solar-analemma-step-by-step.html',
   // consolidation fire51 (2026-08-12): roche-limit-when is now the SOLE guide
   // family for the space-3d.roche-limit.3d-explorer intent node - the
   // step-by-step and vs-alternatives families were folded in here and 301d.
@@ -6972,6 +6955,24 @@ export const INFO_ROUTES = new Set([
   '/guides/vi/transit-timing-variation-vs-alternatives.html',
   '/guides/id/transit-timing-variation-vs-alternatives.html',
   '/guides/de/transit-timing-variation-vs-alternatives.html',
+  '/guides/how-to-use-observable-universe-horizon.html',
+  '/guides/pt/how-to-use-observable-universe-horizon.html',
+  '/guides/es/how-to-use-observable-universe-horizon.html',
+  '/guides/vi/how-to-use-observable-universe-horizon.html',
+  '/guides/id/how-to-use-observable-universe-horizon.html',
+  '/guides/de/how-to-use-observable-universe-horizon.html',
+  '/guides/observable-universe-horizon-when.html',
+  '/guides/pt/observable-universe-horizon-when.html',
+  '/guides/es/observable-universe-horizon-when.html',
+  '/guides/vi/observable-universe-horizon-when.html',
+  '/guides/id/observable-universe-horizon-when.html',
+  '/guides/de/observable-universe-horizon-when.html',
+  '/guides/observable-universe-horizon-vs-alternatives.html',
+  '/guides/pt/observable-universe-horizon-vs-alternatives.html',
+  '/guides/es/observable-universe-horizon-vs-alternatives.html',
+  '/guides/vi/observable-universe-horizon-vs-alternatives.html',
+  '/guides/id/observable-universe-horizon-vs-alternatives.html',
+  '/guides/de/observable-universe-horizon-vs-alternatives.html',
   // geomagnetic-pole-wander companion guides (authored by a space-3d fire that died before this step; stranded 2026-08-14, wired 2026-08-16)
   '/guides/how-to-use-geomagnetic-pole-wander.html',
   '/guides/pt/how-to-use-geomagnetic-pole-wander.html',
@@ -13700,6 +13701,24 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/transit-timing-variation-vs-alternatives.html',
   '/guides/id/transit-timing-variation-vs-alternatives.html',
   '/guides/de/transit-timing-variation-vs-alternatives.html',
+  '/guides/how-to-use-observable-universe-horizon.html',
+  '/guides/pt/how-to-use-observable-universe-horizon.html',
+  '/guides/es/how-to-use-observable-universe-horizon.html',
+  '/guides/vi/how-to-use-observable-universe-horizon.html',
+  '/guides/id/how-to-use-observable-universe-horizon.html',
+  '/guides/de/how-to-use-observable-universe-horizon.html',
+  '/guides/observable-universe-horizon-when.html',
+  '/guides/pt/observable-universe-horizon-when.html',
+  '/guides/es/observable-universe-horizon-when.html',
+  '/guides/vi/observable-universe-horizon-when.html',
+  '/guides/id/observable-universe-horizon-when.html',
+  '/guides/de/observable-universe-horizon-when.html',
+  '/guides/observable-universe-horizon-vs-alternatives.html',
+  '/guides/pt/observable-universe-horizon-vs-alternatives.html',
+  '/guides/es/observable-universe-horizon-vs-alternatives.html',
+  '/guides/vi/observable-universe-horizon-vs-alternatives.html',
+  '/guides/id/observable-universe-horizon-vs-alternatives.html',
+  '/guides/de/observable-universe-horizon-vs-alternatives.html',
   // geomagnetic-pole-wander companion guides (authored by a space-3d fire that died before this step; stranded 2026-08-14, wired 2026-08-16)
   '/guides/how-to-use-geomagnetic-pole-wander.html',
   '/guides/pt/how-to-use-geomagnetic-pole-wander.html',
@@ -13968,6 +13987,23 @@ export const ALIAS_ROUTES = {
   '/guides/id/meteor-shower-radiant-vs-alternatives.html': '/guides/id/meteor-shower-radiant-when.html', // consolidation fire71: doorway family retired into the -when keeper
   '/guides/id/hill-sphere-step-by-step.html': '/guides/id/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
   '/guides/id/hill-sphere-vs-alternatives.html': '/guides/id/hill-sphere-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/galaxy-3d-simulator-step-by-step.html': '/guides/galaxy-3d-simulator-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/pt/galaxy-3d-simulator-step-by-step.html': '/guides/pt/galaxy-3d-simulator-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/es/galaxy-3d-simulator-step-by-step.html': '/guides/es/galaxy-3d-simulator-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/de/galaxy-3d-simulator-step-by-step.html': '/guides/de/galaxy-3d-simulator-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/id/galaxy-3d-simulator-step-by-step.html': '/guides/id/galaxy-3d-simulator-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/solar-analemma-step-by-step.html': '/guides/solar-analemma-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/pt/solar-analemma-step-by-step.html': '/guides/pt/solar-analemma-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/es/solar-analemma-step-by-step.html': '/guides/es/solar-analemma-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/de/solar-analemma-step-by-step.html': '/guides/de/solar-analemma-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/vi/solar-analemma-step-by-step.html': '/guides/vi/solar-analemma-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/id/solar-analemma-step-by-step.html': '/guides/id/solar-analemma-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/solar-analemma-vs-alternatives.html': '/guides/solar-analemma-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/pt/solar-analemma-vs-alternatives.html': '/guides/pt/solar-analemma-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/es/solar-analemma-vs-alternatives.html': '/guides/es/solar-analemma-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/de/solar-analemma-vs-alternatives.html': '/guides/de/solar-analemma-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/vi/solar-analemma-vs-alternatives.html': '/guides/vi/solar-analemma-when.html', // consolidation fire71: doorway family retired into the -when keeper
+  '/guides/id/solar-analemma-vs-alternatives.html': '/guides/id/solar-analemma-when.html', // consolidation fire71: doorway family retired into the -when keeper
   '/guides/sidereal-vs-solar-day-step-by-step.html': '/guides/sidereal-vs-solar-day-when.html', // consolidation fire70: doorway family retired into the -when keeper
   '/guides/sidereal-vs-solar-day-vs-alternatives.html': '/guides/sidereal-vs-solar-day-when.html', // consolidation fire70: doorway family retired into the -when keeper
   '/guides/pt/sidereal-vs-solar-day-step-by-step.html': '/guides/pt/sidereal-vs-solar-day-when.html', // consolidation fire70: doorway family retired into the -when keeper
@@ -14192,7 +14228,7 @@ export const ALIAS_ROUTES = {
   '/guides/vi/galactic-year-sun-orbit-step-by-step.html': '/guides/galactic-year-sun-orbit-step-by-step.html', // Phase-B 301 vi-batch-3-cont3 fire336
   '/guides/vi/galactic-year-sun-orbit-vs-alternatives.html': '/guides/galactic-year-sun-orbit-vs-alternatives.html', // Phase-B 301 vi-batch-3-cont3 fire336
   '/guides/vi/galactic-year-sun-orbit-when.html': '/guides/galactic-year-sun-orbit-when.html', // Phase-B 301 vi-batch-3-cont3 fire336
-  '/guides/vi/galaxy-3d-simulator-step-by-step.html': '/guides/galaxy-3d-simulator-step-by-step.html', // Phase-B 301 vi-batch-3-cont3 fire336
+  '/guides/vi/galaxy-3d-simulator-step-by-step.html': '/guides/galaxy-3d-simulator-when.html', // consolidation fire71: doorway family retired into the -when keeper (repointed, chain removed)
   '/guides/vi/galaxy-3d-simulator-vs-alternatives.html': '/guides/galaxy-3d-simulator-vs-alternatives.html', // Phase-B 301 vi-batch-3-cont3 fire336
   '/guides/vi/galaxy-3d-simulator-when.html': '/guides/galaxy-3d-simulator-when.html', // Phase-B 301 vi-batch-3-cont3 fire336
   '/guides/vi/galilean-moons-step-by-step.html': '/guides/galilean-moons-step-by-step.html', // Phase-B 301 vi-batch-3-cont3 fire336
@@ -16022,6 +16058,7 @@ export const ALIAS_ROUTES = {
   '/transit-timing-variation.html': '/space-3d/transit-timing-variation.html',
   '/geomagnetic-pole-wander.html': '/space-3d/geomagnetic-pole-wander.html',
   '/kreutz-sungrazing-comets.html': '/space-3d/kreutz-sungrazing-comets.html',
+  '/observable-universe-horizon.html': '/space-3d/observable-universe-horizon.html',
   '/atmospheric-refraction-sunset.html': '/space-3d/atmospheric-refraction-sunset.html',
   '/parker-solar-probe.html': '/space-3d/parker-solar-probe.html',
   '/rosetta-philae-67p.html': '/space-3d/rosetta-philae-67p.html',
@@ -16524,6 +16561,7 @@ export const ALIAS_ROUTES = {
   '/handwriting-to-text.html': '/image-converter-tools/handwriting-to-text.html',
   '/photo-translator.html': '/image-tools/photo-translator.html',
   '/alt-text-generator.html': '/image-tools/alt-text-generator.html',
+  '/image-colorizer.html': '/image-tools/image-colorizer.html',
   '/dst-countdown.html': '/utility-tools/dst-countdown.html',
   // cycle20260826-5 prod-mirror: new tool + foxit tool aliases
   '/file-viewer.html': '/pdf-tools/file-viewer.html',
@@ -22422,21 +22460,16 @@ export const JSP_BY_ROUTE = {
   '/guides/de/black-hole-3d-visualizer-vs-alternatives.html': 'guide/de/black-hole-3d-visualizer-vs-alternatives.jsp',
   '/space-3d/galaxy.html': 'space/galaxy.jsp',
   '/guides/galaxy-3d-simulator-when.html': 'guide/galaxy-3d-simulator-when.jsp',
-  '/guides/galaxy-3d-simulator-step-by-step.html': 'guide/galaxy-3d-simulator-step-by-step.jsp',
   '/guides/galaxy-3d-simulator-vs-alternatives.html': 'guide/galaxy-3d-simulator-vs-alternatives.jsp',
   // galaxy-3d-simulator-guides - locale fanout pt/es/vi/id/de for all 3 angles
   // (new-tool-discovery-loop-runbook fire60, LEAN one-off session).
   '/guides/pt/galaxy-3d-simulator-when.html': 'guide/pt/galaxy-3d-simulator-when.jsp',
-  '/guides/pt/galaxy-3d-simulator-step-by-step.html': 'guide/pt/galaxy-3d-simulator-step-by-step.jsp',
   '/guides/pt/galaxy-3d-simulator-vs-alternatives.html': 'guide/pt/galaxy-3d-simulator-vs-alternatives.jsp',
   '/guides/es/galaxy-3d-simulator-when.html': 'guide/es/galaxy-3d-simulator-when.jsp',
-  '/guides/es/galaxy-3d-simulator-step-by-step.html': 'guide/es/galaxy-3d-simulator-step-by-step.jsp',
   '/guides/es/galaxy-3d-simulator-vs-alternatives.html': 'guide/es/galaxy-3d-simulator-vs-alternatives.jsp',
   '/guides/de/galaxy-3d-simulator-when.html': 'guide/de/galaxy-3d-simulator-when.jsp',
-  '/guides/de/galaxy-3d-simulator-step-by-step.html': 'guide/de/galaxy-3d-simulator-step-by-step.jsp',
   '/guides/de/galaxy-3d-simulator-vs-alternatives.html': 'guide/de/galaxy-3d-simulator-vs-alternatives.jsp',
   '/guides/id/galaxy-3d-simulator-when.html': 'guide/id/galaxy-3d-simulator-when.jsp',
-  '/guides/id/galaxy-3d-simulator-step-by-step.html': 'guide/id/galaxy-3d-simulator-step-by-step.jsp',
   '/guides/id/galaxy-3d-simulator-vs-alternatives.html': 'guide/id/galaxy-3d-simulator-vs-alternatives.jsp',
   '/image-tools/background-remover.html': 'convert/background-remover.jsp',
   '/image-tools/object-remover.html': 'convert/object-remover.jsp',
@@ -23121,7 +23154,6 @@ export const JSP_BY_ROUTE = {
   '/guides/orbital-velocity-vs-alternatives.html': 'guide/orbital-velocity-vs-alternatives.jsp',
   '/guides/sunspot-cycle-vs-alternatives.html': 'guide/sunspot-cycle-vs-alternatives.jsp',
   '/guides/uranus-tilt-vs-alternatives.html': 'guide/uranus-tilt-vs-alternatives.jsp',
-  '/guides/solar-analemma-vs-alternatives.html': 'guide/solar-analemma-vs-alternatives.jsp',
   '/guides/saturn-hexagon-vs-alternatives.html': 'guide/saturn-hexagon-vs-alternatives.jsp',
   '/guides/supernova-remnant-vs-alternatives.html': 'guide/supernova-remnant-vs-alternatives.jsp',
   '/guides/planetary-nebula-vs-alternatives.html': 'guide/planetary-nebula-vs-alternatives.jsp',
@@ -23350,7 +23382,6 @@ export const JSP_BY_ROUTE = {
   '/guides/saturn-hexagon-when.html': 'guide/saturn-hexagon-when.jsp',
   '/guides/saturn-hexagon-step-by-step.html': 'guide/saturn-hexagon-step-by-step.jsp',
   '/guides/solar-analemma-when.html': 'guide/solar-analemma-when.jsp',
-  '/guides/solar-analemma-step-by-step.html': 'guide/solar-analemma-step-by-step.jsp',
   '/guides/roche-limit-when.html': 'guide/roche-limit-when.jsp',
   '/guides/uranus-tilt-when.html': 'guide/uranus-tilt-when.jsp',
   '/guides/uranus-tilt-step-by-step.html': 'guide/uranus-tilt-step-by-step.jsp',
@@ -23360,7 +23391,6 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/orbital-velocity-vs-alternatives.html': 'guide/pt/orbital-velocity-vs-alternatives.jsp',
   '/guides/pt/sunspot-cycle-vs-alternatives.html': 'guide/pt/sunspot-cycle-vs-alternatives.jsp',
   '/guides/pt/uranus-tilt-vs-alternatives.html': 'guide/pt/uranus-tilt-vs-alternatives.jsp',
-  '/guides/pt/solar-analemma-vs-alternatives.html': 'guide/pt/solar-analemma-vs-alternatives.jsp',
   '/guides/pt/saturn-hexagon-vs-alternatives.html': 'guide/pt/saturn-hexagon-vs-alternatives.jsp',
   '/guides/pt/supernova-remnant-vs-alternatives.html': 'guide/pt/supernova-remnant-vs-alternatives.jsp',
   '/guides/pt/planetary-nebula-vs-alternatives.html': 'guide/pt/planetary-nebula-vs-alternatives.jsp',
@@ -23589,7 +23619,6 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/saturn-hexagon-when.html': 'guide/pt/saturn-hexagon-when.jsp',
   '/guides/pt/saturn-hexagon-step-by-step.html': 'guide/pt/saturn-hexagon-step-by-step.jsp',
   '/guides/pt/solar-analemma-when.html': 'guide/pt/solar-analemma-when.jsp',
-  '/guides/pt/solar-analemma-step-by-step.html': 'guide/pt/solar-analemma-step-by-step.jsp',
   '/guides/pt/roche-limit-when.html': 'guide/pt/roche-limit-when.jsp',
   '/guides/pt/uranus-tilt-when.html': 'guide/pt/uranus-tilt-when.jsp',
   '/guides/pt/uranus-tilt-step-by-step.html': 'guide/pt/uranus-tilt-step-by-step.jsp',
@@ -23599,7 +23628,6 @@ export const JSP_BY_ROUTE = {
   '/guides/es/orbital-velocity-vs-alternatives.html': 'guide/es/orbital-velocity-vs-alternatives.jsp',
   '/guides/es/sunspot-cycle-vs-alternatives.html': 'guide/es/sunspot-cycle-vs-alternatives.jsp',
   '/guides/es/uranus-tilt-vs-alternatives.html': 'guide/es/uranus-tilt-vs-alternatives.jsp',
-  '/guides/es/solar-analemma-vs-alternatives.html': 'guide/es/solar-analemma-vs-alternatives.jsp',
   '/guides/es/saturn-hexagon-vs-alternatives.html': 'guide/es/saturn-hexagon-vs-alternatives.jsp',
   '/guides/es/supernova-remnant-vs-alternatives.html': 'guide/es/supernova-remnant-vs-alternatives.jsp',
   '/guides/es/planetary-nebula-vs-alternatives.html': 'guide/es/planetary-nebula-vs-alternatives.jsp',
@@ -23828,7 +23856,6 @@ export const JSP_BY_ROUTE = {
   '/guides/es/saturn-hexagon-when.html': 'guide/es/saturn-hexagon-when.jsp',
   '/guides/es/saturn-hexagon-step-by-step.html': 'guide/es/saturn-hexagon-step-by-step.jsp',
   '/guides/es/solar-analemma-when.html': 'guide/es/solar-analemma-when.jsp',
-  '/guides/es/solar-analemma-step-by-step.html': 'guide/es/solar-analemma-step-by-step.jsp',
   '/guides/es/roche-limit-when.html': 'guide/es/roche-limit-when.jsp',
   '/guides/es/uranus-tilt-when.html': 'guide/es/uranus-tilt-when.jsp',
   '/guides/es/uranus-tilt-step-by-step.html': 'guide/es/uranus-tilt-step-by-step.jsp',
@@ -23838,7 +23865,6 @@ export const JSP_BY_ROUTE = {
   '/guides/de/orbital-velocity-vs-alternatives.html': 'guide/de/orbital-velocity-vs-alternatives.jsp',
   '/guides/de/sunspot-cycle-vs-alternatives.html': 'guide/de/sunspot-cycle-vs-alternatives.jsp',
   '/guides/de/uranus-tilt-vs-alternatives.html': 'guide/de/uranus-tilt-vs-alternatives.jsp',
-  '/guides/de/solar-analemma-vs-alternatives.html': 'guide/de/solar-analemma-vs-alternatives.jsp',
   '/guides/de/saturn-hexagon-vs-alternatives.html': 'guide/de/saturn-hexagon-vs-alternatives.jsp',
   '/guides/de/supernova-remnant-vs-alternatives.html': 'guide/de/supernova-remnant-vs-alternatives.jsp',
   '/guides/de/planetary-nebula-vs-alternatives.html': 'guide/de/planetary-nebula-vs-alternatives.jsp',
@@ -24067,7 +24093,6 @@ export const JSP_BY_ROUTE = {
   '/guides/de/saturn-hexagon-when.html': 'guide/de/saturn-hexagon-when.jsp',
   '/guides/de/saturn-hexagon-step-by-step.html': 'guide/de/saturn-hexagon-step-by-step.jsp',
   '/guides/de/solar-analemma-when.html': 'guide/de/solar-analemma-when.jsp',
-  '/guides/de/solar-analemma-step-by-step.html': 'guide/de/solar-analemma-step-by-step.jsp',
   '/guides/de/roche-limit-when.html': 'guide/de/roche-limit-when.jsp',
   '/guides/de/uranus-tilt-when.html': 'guide/de/uranus-tilt-when.jsp',
   '/guides/de/uranus-tilt-step-by-step.html': 'guide/de/uranus-tilt-step-by-step.jsp',
@@ -24077,7 +24102,6 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/orbital-velocity-vs-alternatives.html': 'guide/vi/orbital-velocity-vs-alternatives.jsp',
   '/guides/vi/sunspot-cycle-vs-alternatives.html': 'guide/vi/sunspot-cycle-vs-alternatives.jsp',
   '/guides/vi/uranus-tilt-vs-alternatives.html': 'guide/vi/uranus-tilt-vs-alternatives.jsp',
-  '/guides/vi/solar-analemma-vs-alternatives.html': 'guide/vi/solar-analemma-vs-alternatives.jsp',
   '/guides/vi/saturn-hexagon-vs-alternatives.html': 'guide/vi/saturn-hexagon-vs-alternatives.jsp',
   '/guides/vi/supernova-remnant-vs-alternatives.html': 'guide/vi/supernova-remnant-vs-alternatives.jsp',
   '/guides/vi/planetary-nebula-vs-alternatives.html': 'guide/vi/planetary-nebula-vs-alternatives.jsp',
@@ -24243,7 +24267,6 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/saturn-hexagon-when.html': 'guide/vi/saturn-hexagon-when.jsp',
   '/guides/vi/saturn-hexagon-step-by-step.html': 'guide/vi/saturn-hexagon-step-by-step.jsp',
   '/guides/vi/solar-analemma-when.html': 'guide/vi/solar-analemma-when.jsp',
-  '/guides/vi/solar-analemma-step-by-step.html': 'guide/vi/solar-analemma-step-by-step.jsp',
   '/guides/vi/roche-limit-when.html': 'guide/vi/roche-limit-when.jsp',
   '/guides/vi/uranus-tilt-when.html': 'guide/vi/uranus-tilt-when.jsp',
   '/guides/vi/uranus-tilt-step-by-step.html': 'guide/vi/uranus-tilt-step-by-step.jsp',
@@ -24252,7 +24275,6 @@ export const JSP_BY_ROUTE = {
   '/guides/id/orbital-velocity-vs-alternatives.html': 'guide/id/orbital-velocity-vs-alternatives.jsp',
   '/guides/id/sunspot-cycle-vs-alternatives.html': 'guide/id/sunspot-cycle-vs-alternatives.jsp',
   '/guides/id/uranus-tilt-vs-alternatives.html': 'guide/id/uranus-tilt-vs-alternatives.jsp',
-  '/guides/id/solar-analemma-vs-alternatives.html': 'guide/id/solar-analemma-vs-alternatives.jsp',
   '/guides/id/saturn-hexagon-vs-alternatives.html': 'guide/id/saturn-hexagon-vs-alternatives.jsp',
   '/guides/id/supernova-remnant-vs-alternatives.html': 'guide/id/supernova-remnant-vs-alternatives.jsp',
   '/guides/id/planetary-nebula-vs-alternatives.html': 'guide/id/planetary-nebula-vs-alternatives.jsp',
@@ -24532,7 +24554,6 @@ export const JSP_BY_ROUTE = {
   '/guides/id/saturn-hexagon-when.html': 'guide/id/saturn-hexagon-when.jsp',
   '/guides/id/saturn-hexagon-step-by-step.html': 'guide/id/saturn-hexagon-step-by-step.jsp',
   '/guides/id/solar-analemma-when.html': 'guide/id/solar-analemma-when.jsp',
-  '/guides/id/solar-analemma-step-by-step.html': 'guide/id/solar-analemma-step-by-step.jsp',
   '/guides/id/roche-limit-when.html': 'guide/id/roche-limit-when.jsp',
   '/guides/id/uranus-tilt-when.html': 'guide/id/uranus-tilt-when.jsp',
   '/guides/id/uranus-tilt-step-by-step.html': 'guide/id/uranus-tilt-step-by-step.jsp',
@@ -26403,6 +26424,7 @@ export const JSP_BY_ROUTE = {
   '/space-3d/transit-timing-variation.html': 'space/transit-timing-variation.jsp',
   '/space-3d/geomagnetic-pole-wander.html': 'space/geomagnetic-pole-wander.jsp',
   '/space-3d/kreutz-sungrazing-comets.html': 'space/kreutz-sungrazing-comets.jsp',
+  '/space-3d/observable-universe-horizon.html': 'space/observable-universe-horizon.jsp',
   '/space-3d/atmospheric-refraction-sunset.html': 'space/atmospheric-refraction-sunset.jsp',
   '/space-3d/parker-solar-probe.html': 'space/parker-solar-probe.jsp',
   '/space-3d/rosetta-philae-67p.html': 'space/rosetta-philae-67p.jsp',
@@ -28344,6 +28366,24 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/kreutz-sungrazing-comets-vs-alternatives.html': 'guide/vi/kreutz-sungrazing-comets-vs-alternatives.jsp',
   '/guides/id/kreutz-sungrazing-comets-vs-alternatives.html': 'guide/id/kreutz-sungrazing-comets-vs-alternatives.jsp',
   '/guides/de/kreutz-sungrazing-comets-vs-alternatives.html': 'guide/de/kreutz-sungrazing-comets-vs-alternatives.jsp',
+  '/guides/how-to-use-observable-universe-horizon.html': 'guide/how-to-use-observable-universe-horizon.jsp',
+  '/guides/pt/how-to-use-observable-universe-horizon.html': 'guide/pt/how-to-use-observable-universe-horizon.jsp',
+  '/guides/es/how-to-use-observable-universe-horizon.html': 'guide/es/how-to-use-observable-universe-horizon.jsp',
+  '/guides/vi/how-to-use-observable-universe-horizon.html': 'guide/vi/how-to-use-observable-universe-horizon.jsp',
+  '/guides/id/how-to-use-observable-universe-horizon.html': 'guide/id/how-to-use-observable-universe-horizon.jsp',
+  '/guides/de/how-to-use-observable-universe-horizon.html': 'guide/de/how-to-use-observable-universe-horizon.jsp',
+  '/guides/observable-universe-horizon-when.html': 'guide/observable-universe-horizon-when.jsp',
+  '/guides/pt/observable-universe-horizon-when.html': 'guide/pt/observable-universe-horizon-when.jsp',
+  '/guides/es/observable-universe-horizon-when.html': 'guide/es/observable-universe-horizon-when.jsp',
+  '/guides/vi/observable-universe-horizon-when.html': 'guide/vi/observable-universe-horizon-when.jsp',
+  '/guides/id/observable-universe-horizon-when.html': 'guide/id/observable-universe-horizon-when.jsp',
+  '/guides/de/observable-universe-horizon-when.html': 'guide/de/observable-universe-horizon-when.jsp',
+  '/guides/observable-universe-horizon-vs-alternatives.html': 'guide/observable-universe-horizon-vs-alternatives.jsp',
+  '/guides/pt/observable-universe-horizon-vs-alternatives.html': 'guide/pt/observable-universe-horizon-vs-alternatives.jsp',
+  '/guides/es/observable-universe-horizon-vs-alternatives.html': 'guide/es/observable-universe-horizon-vs-alternatives.jsp',
+  '/guides/vi/observable-universe-horizon-vs-alternatives.html': 'guide/vi/observable-universe-horizon-vs-alternatives.jsp',
+  '/guides/id/observable-universe-horizon-vs-alternatives.html': 'guide/id/observable-universe-horizon-vs-alternatives.jsp',
+  '/guides/de/observable-universe-horizon-vs-alternatives.html': 'guide/de/observable-universe-horizon-vs-alternatives.jsp',
   // atmospheric-refraction-sunset companion guides (space-3d-discovery-loop LEAN fire, 2026-08-14)
   '/guides/how-to-use-atmospheric-refraction-sunset.html': 'guide/how-to-use-atmospheric-refraction-sunset.jsp',
   '/guides/pt/how-to-use-atmospheric-refraction-sunset.html': 'guide/pt/how-to-use-atmospheric-refraction-sunset.jsp',
@@ -28755,6 +28795,7 @@ export const JSP_BY_ROUTE = {
   '/guides/id/foxit-pdf-editor-browser-step-by-step.html': 'guide/id/foxit-pdf-editor-browser-step-by-step.jsp',
   '/guides/de/foxit-pdf-editor-browser-step-by-step.html': 'guide/de/foxit-pdf-editor-browser-step-by-step.jsp',
   '/image-tools/alt-text-generator.html': 'convert/alt-text-generator.jsp',
+  '/image-tools/image-colorizer.html': 'convert/image-colorizer.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
@@ -29892,8 +29933,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/vi/snake-classic-step-by-step.html',
   '/guides/vi/snake-classic-vs-alternatives.html',
   '/guides/vi/snake-classic-when.html',
-  '/guides/vi/solar-analemma-step-by-step.html',
-  '/guides/vi/solar-analemma-vs-alternatives.html',
   '/guides/vi/solar-analemma-when.html',
   '/guides/vi/solar-eclipse-step-by-step.html',
   '/guides/vi/solar-eclipse-when.html',
@@ -32389,8 +32428,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/snake-classic-step-by-step.html',
   '/guides/pt/snake-classic-vs-alternatives.html',
   '/guides/pt/snake-classic-when.html',
-  '/guides/pt/solar-analemma-step-by-step.html',
-  '/guides/pt/solar-analemma-vs-alternatives.html',
   '/guides/pt/solar-analemma-when.html',
   '/guides/pt/solar-eclipse-step-by-step.html',
   '/guides/pt/solar-eclipse-vs-alternatives.html',
@@ -32542,7 +32579,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/pt/foucault-pendulum-vs-alternatives.html',
   '/guides/pt/foucault-pendulum-when.html',
   '/guides/pt/free-online-tools-that-work-without-uploading-files.html',
-  '/guides/pt/galaxy-3d-simulator-step-by-step.html',
   '/guides/pt/galaxy-3d-simulator-vs-alternatives.html',
   '/guides/pt/galaxy-3d-simulator-when.html',
   '/guides/pt/galilean-moons-step-by-step.html',
@@ -33078,7 +33114,6 @@ export const GUIDE_SITEMAP_EXCLUDE = new Set([
   '/guides/es/galactic-year-sun-orbit-step-by-step.html',
   '/guides/es/galactic-year-sun-orbit-vs-alternatives.html',
   '/guides/es/galactic-year-sun-orbit-when.html',
-  '/guides/es/galaxy-3d-simulator-step-by-step.html',
   '/guides/es/galaxy-3d-simulator-vs-alternatives.html',
   '/guides/es/galaxy-3d-simulator-when.html',
   '/guides/es/galilean-moons-step-by-step.html',
