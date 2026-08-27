@@ -16,6 +16,11 @@ export const DEFAULT_IO_INFOS = '[]';
 export const INFO_ROUTES = new Set([
   // ship-pending mirror 20260828: file-viewer guide families (files landed 560e1dec6 + staging 7167d90b96; routes were never registered on prod)
   '/guides/file-viewer-when.html',
+  '/guides/pt/file-viewer-when.html',
+  '/guides/es/file-viewer-when.html',
+  '/guides/vi/file-viewer-when.html',
+  '/guides/id/file-viewer-when.html',
+  '/guides/de/file-viewer-when.html',
   '/guides/file-viewer-step-by-step.html',
   '/guides/pt/file-viewer-step-by-step.html',
   '/guides/es/file-viewer-step-by-step.html',
@@ -23,6 +28,9 @@ export const INFO_ROUTES = new Set([
   '/guides/id/file-viewer-step-by-step.html',
   '/guides/de/file-viewer-step-by-step.html',
   '/guides/file-viewer-vs-alternatives.html',
+  '/guides/vi/file-viewer-vs-alternatives.html',
+  '/guides/id/file-viewer-vs-alternatives.html',
+  '/guides/de/file-viewer-vs-alternatives.html',
   '/guides/pt/file-viewer-vs-alternatives.html',
   '/guides/es/file-viewer-vs-alternatives.html',
   // devtools-style-pdf-element-inspector-editor-android-when EN + locale fanout (create_new_guide_page 20260825/20260826)
@@ -28820,6 +28828,11 @@ export const JSP_BY_ROUTE = {
   // ship-pending mirror 20260828: duplicate-photo-finder tool + file-viewer guide families (files landed 560e1dec6 + staging 7167d90b96)
   '/image-tools/duplicate-photo-finder.html': 'convert/duplicate-photo-finder.jsp',
   '/guides/file-viewer-when.html': 'guide/file-viewer-when.jsp',
+  '/guides/pt/file-viewer-when.html': 'guide/pt/file-viewer-when.jsp',
+  '/guides/es/file-viewer-when.html': 'guide/es/file-viewer-when.jsp',
+  '/guides/vi/file-viewer-when.html': 'guide/vi/file-viewer-when.jsp',
+  '/guides/id/file-viewer-when.html': 'guide/id/file-viewer-when.jsp',
+  '/guides/de/file-viewer-when.html': 'guide/de/file-viewer-when.jsp',
   '/guides/file-viewer-step-by-step.html': 'guide/file-viewer-step-by-step.jsp',
   '/guides/pt/file-viewer-step-by-step.html': 'guide/pt/file-viewer-step-by-step.jsp',
   '/guides/es/file-viewer-step-by-step.html': 'guide/es/file-viewer-step-by-step.jsp',
@@ -28827,6 +28840,9 @@ export const JSP_BY_ROUTE = {
   '/guides/id/file-viewer-step-by-step.html': 'guide/id/file-viewer-step-by-step.jsp',
   '/guides/de/file-viewer-step-by-step.html': 'guide/de/file-viewer-step-by-step.jsp',
   '/guides/file-viewer-vs-alternatives.html': 'guide/file-viewer-vs-alternatives.jsp',
+  '/guides/vi/file-viewer-vs-alternatives.html': 'guide/vi/file-viewer-vs-alternatives.jsp',
+  '/guides/id/file-viewer-vs-alternatives.html': 'guide/id/file-viewer-vs-alternatives.jsp',
+  '/guides/de/file-viewer-vs-alternatives.html': 'guide/de/file-viewer-vs-alternatives.jsp',
   '/guides/pt/file-viewer-vs-alternatives.html': 'guide/pt/file-viewer-vs-alternatives.jsp',
   '/guides/es/file-viewer-vs-alternatives.html': 'guide/es/file-viewer-vs-alternatives.jsp',
 };
