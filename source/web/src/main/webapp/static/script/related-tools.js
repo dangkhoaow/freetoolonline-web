@@ -987,6 +987,7 @@ try {
     { title: "File Viewer", url: "https://freetoolonline.com/pdf-tools/file-viewer.html", include: !1, tags: "pdf" },
     { title: "Alt Text Generator (On-Device)", url: "https://freetoolonline.com/image-tools/alt-text-generator.html", include: !1, tags: "image-editing" },
     { title: "Colorize Black and White Photos - AI, On-Device", url: "https://freetoolonline.com/image-tools/image-colorizer.html", include: !1, tags: "image-editing" },
+    { title: "Keyword Extractor - Pull Key Phrases from Text in Your Browser", url: "https://freetoolonline.com/developer-tools/keyword-extractor.html", include: !1, tags: "developer" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
     allCurrentTags = "",

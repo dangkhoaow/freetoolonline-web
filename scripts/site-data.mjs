@@ -16613,6 +16613,7 @@ export const ALIAS_ROUTES = {
   '/foxit-pdf-editor-browser.html': '/image-converter-tools/foxit-pdf-editor-browser.html',
   // ship-pending mirror 20260828: duplicate-photo-finder tool alias (staging 7167d90b96)
   '/duplicate-photo-finder.html': '/image-tools/duplicate-photo-finder.html',
+  '/keyword-extractor.html': '/developer-tools/keyword-extractor.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -28835,6 +28836,7 @@ export const JSP_BY_ROUTE = {
   '/image-tools/image-colorizer.html': 'convert/image-colorizer.jsp',
   // ship-pending mirror 20260828: duplicate-photo-finder tool + file-viewer guide families (files landed 560e1dec6 + staging 7167d90b96)
   '/image-tools/duplicate-photo-finder.html': 'convert/duplicate-photo-finder.jsp',
+  '/developer-tools/keyword-extractor.html': 'utility/keyword-extractor.jsp',
   '/guides/file-viewer-when.html': 'guide/file-viewer-when.jsp',
   '/guides/pt/file-viewer-when.html': 'guide/pt/file-viewer-when.jsp',
   '/guides/es/file-viewer-when.html': 'guide/es/file-viewer-when.jsp',
