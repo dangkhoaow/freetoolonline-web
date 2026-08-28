@@ -994,6 +994,7 @@ try {
     { title: "Colorize Black and White Photos - AI, On-Device", url: "https://freetoolonline.com/image-tools/image-colorizer.html", include: !1, tags: "image-editing" },
     { title: "Keyword Extractor - Pull Key Phrases from Text in Your Browser", url: "https://freetoolonline.com/developer-tools/keyword-extractor.html", include: !1, tags: "developer" },
     { title: "Text Similarity Checker - Semantic Comparison (Local, No Upload)", url: "https://freetoolonline.com/developer-tools/text-similarity-checker.html", include: !1, tags: "developer" },
+    { title: "Text Anonymizer - Remove Names & Emails (Local, No Upload)", url: "https://freetoolonline.com/developer-tools/text-anonymizer.html", include: !1, tags: "developer" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
     allCurrentTags = "",
