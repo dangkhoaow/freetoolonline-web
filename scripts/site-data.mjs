@@ -16688,6 +16688,7 @@ export const ALIAS_ROUTES = {
   '/duplicate-photo-finder.html': '/image-tools/duplicate-photo-finder.html',
   '/keyword-extractor.html': '/developer-tools/keyword-extractor.html',
   '/text-similarity-checker.html': '/developer-tools/text-similarity-checker.html',
+  '/text-anonymizer.html': '/developer-tools/text-anonymizer.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -28950,6 +28951,7 @@ export const JSP_BY_ROUTE = {
   '/image-tools/duplicate-photo-finder.html': 'convert/duplicate-photo-finder.jsp',
   '/developer-tools/keyword-extractor.html': 'utility/keyword-extractor.jsp',
   '/developer-tools/text-similarity-checker.html': 'utility/text-similarity-checker.jsp',
+  '/developer-tools/text-anonymizer.html': 'utility/text-anonymizer.jsp',
   '/guides/file-viewer-when.html': 'guide/file-viewer-when.jsp',
   '/guides/pt/file-viewer-when.html': 'guide/pt/file-viewer-when.jsp',
   '/guides/es/file-viewer-when.html': 'guide/es/file-viewer-when.jsp',
