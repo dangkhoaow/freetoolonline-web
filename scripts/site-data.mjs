@@ -16683,6 +16683,7 @@ export const ALIAS_ROUTES = {
   // ship-pending mirror 20260828: duplicate-photo-finder tool alias (staging 7167d90b96)
   '/duplicate-photo-finder.html': '/image-tools/duplicate-photo-finder.html',
   '/keyword-extractor.html': '/developer-tools/keyword-extractor.html',
+  '/text-similarity-checker.html': '/developer-tools/text-similarity-checker.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -28944,6 +28945,7 @@ export const JSP_BY_ROUTE = {
   // ship-pending mirror 20260828: duplicate-photo-finder tool + file-viewer guide families (files landed 560e1dec6 + staging 7167d90b96)
   '/image-tools/duplicate-photo-finder.html': 'convert/duplicate-photo-finder.jsp',
   '/developer-tools/keyword-extractor.html': 'utility/keyword-extractor.jsp',
+  '/developer-tools/text-similarity-checker.html': 'utility/text-similarity-checker.jsp',
   '/guides/file-viewer-when.html': 'guide/file-viewer-when.jsp',
   '/guides/pt/file-viewer-when.html': 'guide/pt/file-viewer-when.jsp',
   '/guides/es/file-viewer-when.html': 'guide/es/file-viewer-when.jsp',
