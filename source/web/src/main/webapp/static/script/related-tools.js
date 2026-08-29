@@ -995,6 +995,7 @@ try {
     { title: "Keyword Extractor - Pull Key Phrases from Text in Your Browser", url: "https://freetoolonline.com/developer-tools/keyword-extractor.html", include: !1, tags: "developer" },
     { title: "Text Similarity Checker - Semantic Comparison (Local, No Upload)", url: "https://freetoolonline.com/developer-tools/text-similarity-checker.html", include: !1, tags: "developer" },
     { title: "Text Anonymizer - Remove Names & Emails (Local, No Upload)", url: "https://freetoolonline.com/developer-tools/text-anonymizer.html", include: !1, tags: "developer" },
+    { title: "Meeting Notes Taker", url: "https://freetoolonline.com/utility-tools/meeting-notes-taker.html", include: !1, tags: "utility" },
   ],
     currentTitle = $.trim($(".navPageName").text()),
     allCurrentTags = "",
