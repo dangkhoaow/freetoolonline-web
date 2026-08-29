@@ -7145,6 +7145,12 @@ export const INFO_ROUTES = new Set([
   '/guides/vi/foxit-pdf-editor-browser-step-by-step.html',
   '/guides/id/foxit-pdf-editor-browser-step-by-step.html',
   '/guides/de/foxit-pdf-editor-browser-step-by-step.html',
+  '/guides/foxit-pdf-editor-browser-when.html',
+  '/guides/pt/foxit-pdf-editor-browser-when.html',
+  '/guides/es/foxit-pdf-editor-browser-when.html',
+  '/guides/vi/foxit-pdf-editor-browser-when.html',
+  '/guides/id/foxit-pdf-editor-browser-when.html',
+  '/guides/de/foxit-pdf-editor-browser-when.html',
 
 ]);
 
@@ -13941,6 +13947,12 @@ export const GUIDE_ROUTES = new Set([
   '/guides/vi/foxit-pdf-editor-browser-step-by-step.html',
   '/guides/id/foxit-pdf-editor-browser-step-by-step.html',
   '/guides/de/foxit-pdf-editor-browser-step-by-step.html',
+  '/guides/foxit-pdf-editor-browser-when.html',
+  '/guides/pt/foxit-pdf-editor-browser-when.html',
+  '/guides/es/foxit-pdf-editor-browser-when.html',
+  '/guides/vi/foxit-pdf-editor-browser-when.html',
+  '/guides/id/foxit-pdf-editor-browser-when.html',
+  '/guides/de/foxit-pdf-editor-browser-when.html',
 
 ]);
 
@@ -28945,6 +28957,12 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/foxit-pdf-editor-browser-step-by-step.html': 'guide/vi/foxit-pdf-editor-browser-step-by-step.jsp',
   '/guides/id/foxit-pdf-editor-browser-step-by-step.html': 'guide/id/foxit-pdf-editor-browser-step-by-step.jsp',
   '/guides/de/foxit-pdf-editor-browser-step-by-step.html': 'guide/de/foxit-pdf-editor-browser-step-by-step.jsp',
+  '/guides/foxit-pdf-editor-browser-when.html': 'guide/foxit-pdf-editor-browser-when.jsp',
+  '/guides/pt/foxit-pdf-editor-browser-when.html': 'guide/pt/foxit-pdf-editor-browser-when.jsp',
+  '/guides/es/foxit-pdf-editor-browser-when.html': 'guide/es/foxit-pdf-editor-browser-when.jsp',
+  '/guides/vi/foxit-pdf-editor-browser-when.html': 'guide/vi/foxit-pdf-editor-browser-when.jsp',
+  '/guides/id/foxit-pdf-editor-browser-when.html': 'guide/id/foxit-pdf-editor-browser-when.jsp',
+  '/guides/de/foxit-pdf-editor-browser-when.html': 'guide/de/foxit-pdf-editor-browser-when.jsp',
   '/image-tools/alt-text-generator.html': 'convert/alt-text-generator.jsp',
   '/image-tools/image-colorizer.html': 'convert/image-colorizer.jsp',
   // ship-pending mirror 20260828: duplicate-photo-finder tool + file-viewer guide families (files landed 560e1dec6 + staging 7167d90b96)
