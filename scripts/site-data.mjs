@@ -16695,7 +16695,14 @@ export const ALIAS_ROUTES = {
   '/dst-countdown.html': '/utility-tools/dst-countdown.html',
   // cycle20260826-5 prod-mirror: new tool + foxit tool aliases
   '/file-viewer.html': '/pdf-tools/file-viewer.html',
-  '/foxit-pdf-editor-browser.html': '/image-converter-tools/foxit-pdf-editor-browser.html',
+  // Retired 2026-08-30 (Phase 6 cluster-narrative axis_F CRITICAL, granted cards
+  // phase6-cluster-critical-image-conversion-1788029624 + cannibalization-foxit-vs-clientside-pdf):
+  // foxit-pdf-editor-browser is a functional duplicate of client-side-pdf-editor-toolkit
+  // (identical in-browser "add typed text to PDF" widget; only brand-name prose differs).
+  // G51 same-processing-model duplicate -> retire tool to canonical via ALIAS + CloudFront 301.
+  // Comparison guides (foxit-pdf-editor-browser-{when,step-by-step,vs-alternatives}) kept.
+  '/foxit-pdf-editor-browser.html': '/image-converter-tools/client-side-pdf-editor-toolkit.html',
+  '/image-converter-tools/foxit-pdf-editor-browser.html': '/image-converter-tools/client-side-pdf-editor-toolkit.html',
   // ship-pending mirror 20260828: duplicate-photo-finder tool alias (staging 7167d90b96)
   '/duplicate-photo-finder.html': '/image-tools/duplicate-photo-finder.html',
   '/keyword-extractor.html': '/developer-tools/keyword-extractor.html',
@@ -28954,7 +28961,8 @@ export const JSP_BY_ROUTE = {
   '/guides/de/tennis-grand-slam-prize-money-lookup-vs-alternatives.html': 'guide/de/tennis-grand-slam-prize-money-lookup-vs-alternatives.jsp',
   // cycle20260826-5 prod-mirror: file-viewer tool + foxit tool + foxit step-by-step guide family (locale-complete)
   '/pdf-tools/file-viewer.html': 'pdf/file-viewer.jsp',
-  '/image-converter-tools/foxit-pdf-editor-browser.html': 'convert/foxit-pdf-editor-browser.jsp',
+  // foxit-pdf-editor-browser tool route retired 2026-08-30 -> aliased to client-side-pdf-editor-toolkit
+  // (Phase 6 axis_F functional-duplicate merge). Comparison guides below are kept.
   '/guides/foxit-pdf-editor-browser-step-by-step.html': 'guide/foxit-pdf-editor-browser-step-by-step.jsp',
   '/guides/pt/foxit-pdf-editor-browser-step-by-step.html': 'guide/pt/foxit-pdf-editor-browser-step-by-step.jsp',
   '/guides/es/foxit-pdf-editor-browser-step-by-step.html': 'guide/es/foxit-pdf-editor-browser-step-by-step.jsp',
