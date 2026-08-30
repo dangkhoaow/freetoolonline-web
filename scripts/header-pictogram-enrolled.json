@@ -823,6 +823,7 @@
     "textsimilaritychecker",
     "textanonymizer",
     "aiemailwriter",
-    "coverlettergenerator"
+    "coverlettergenerator",
+    "rogueplanets"
   ]
 }
