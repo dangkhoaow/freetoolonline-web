@@ -822,6 +822,7 @@
     "sunsetsoar",
     "textsimilaritychecker",
     "textanonymizer",
-    "aiemailwriter"
+    "aiemailwriter",
+    "coverlettergenerator"
   ]
 }

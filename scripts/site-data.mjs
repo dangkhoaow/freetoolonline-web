@@ -16712,6 +16712,7 @@ export const ALIAS_ROUTES = {
   '/meeting-notes-taker.html': '/utility-tools/meeting-notes-taker.html',
   '/meeting-minutes-generator.html': '/utility-tools/meeting-notes-taker.html',
   '/ai-meeting-notes.html': '/utility-tools/meeting-notes-taker.html',
+  '/cover-letter-generator.html': '/utility-tools/cover-letter-generator.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -29002,6 +29003,7 @@ export const JSP_BY_ROUTE = {
   '/guides/es/file-viewer-vs-alternatives.html': 'guide/es/file-viewer-vs-alternatives.jsp',
   '/utility-tools/ai-email-writer.html': 'utility/ai-email-writer.jsp',
   '/utility-tools/meeting-notes-taker.html': 'utility/meeting-notes-taker.jsp',
+  '/utility-tools/cover-letter-generator.html': 'utility/cover-letter-generator.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
