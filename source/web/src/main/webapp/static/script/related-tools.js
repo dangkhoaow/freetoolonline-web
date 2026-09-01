@@ -70,6 +70,7 @@ try {
     { title: "Get Current Time In Millisecond", url: "https://freetoolonline.com/utility-tools/get-time-in-millisecond.html", include: !1, tags: "millis,utility" },
     { title: "Remove Zip Password", url: "https://freetoolonline.com/zip-tools/remove-zip-password.html", include: !1, tags: "password,zip" },
     { title: "UnZip File, Extract, Decompress Zip", url: "https://freetoolonline.com/zip-tools/unzip-file.html", include: !1, tags: "zip,unzip" },
+    { title: "Zstd Extractor", url: "https://freetoolonline.com/zip-tools/zstd-extractor.html", include: !1, tags: "zip" },
     { title: "Compress, Zip File and Folder", url: "https://freetoolonline.com/zip-tools/zip-file.html", include: !1, tags: "compress,zip" },
     { title: "Compress JPEG by AI", url: "https://freetoolonline.com/image-tools/compress-image.html", include: !1, tags: "compress,jpg,ai,image-editing,utility,image-conversion" },
     { title: "Insights Image Optimizer", url: "https://freetoolonline.com/image-tools/insights-image-optimizer.html", include: !1, tags: "pagespeed,jpg,png,compress,image-editing" },
