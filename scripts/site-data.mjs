@@ -14,6 +14,13 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // pdf-xchange-editor-browser-plugin-edge-when EN + locale fanout (locale-drain complete 20260901-2; en+pt+es+vi+id+de)
+  '/guides/pdf-xchange-editor-browser-plugin-edge-when.html',
+  '/guides/pt/pdf-xchange-editor-browser-plugin-edge-when.html',
+  '/guides/es/pdf-xchange-editor-browser-plugin-edge-when.html',
+  '/guides/vi/pdf-xchange-editor-browser-plugin-edge-when.html',
+  '/guides/id/pdf-xchange-editor-browser-plugin-edge-when.html',
+  '/guides/de/pdf-xchange-editor-browser-plugin-edge-when.html',
   // ship-pending mirror 20260828: file-viewer guide families (files landed 560e1dec6 + staging 7167d90b96; routes were never registered on prod)
   '/guides/file-viewer-when.html',
   '/guides/pt/file-viewer-when.html',
@@ -7151,6 +7158,12 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // pdf-xchange-editor-browser-plugin-edge-when locale fanout (locale-drain complete 20260901-2)
+  '/guides/pt/pdf-xchange-editor-browser-plugin-edge-when.html',
+  '/guides/es/pdf-xchange-editor-browser-plugin-edge-when.html',
+  '/guides/vi/pdf-xchange-editor-browser-plugin-edge-when.html',
+  '/guides/id/pdf-xchange-editor-browser-plugin-edge-when.html',
+  '/guides/de/pdf-xchange-editor-browser-plugin-edge-when.html',
   // devtools-style-pdf-element-inspector-editor-android-when locale fanout (create_new_guide_page 20260825/20260826)
   '/guides/pt/devtools-style-pdf-element-inspector-editor-android-when.html',
   '/guides/es/devtools-style-pdf-element-inspector-editor-android-when.html',
@@ -16784,6 +16797,13 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // pdf-xchange-editor-browser-plugin-edge-when EN + locale fanout (locale-drain complete 20260901-2)
+  '/guides/pdf-xchange-editor-browser-plugin-edge-when.html': 'guide/pdf-xchange-editor-browser-plugin-edge-when.jsp',
+  '/guides/pt/pdf-xchange-editor-browser-plugin-edge-when.html': 'guide/pt/pdf-xchange-editor-browser-plugin-edge-when.jsp',
+  '/guides/es/pdf-xchange-editor-browser-plugin-edge-when.html': 'guide/es/pdf-xchange-editor-browser-plugin-edge-when.jsp',
+  '/guides/vi/pdf-xchange-editor-browser-plugin-edge-when.html': 'guide/vi/pdf-xchange-editor-browser-plugin-edge-when.jsp',
+  '/guides/id/pdf-xchange-editor-browser-plugin-edge-when.html': 'guide/id/pdf-xchange-editor-browser-plugin-edge-when.jsp',
+  '/guides/de/pdf-xchange-editor-browser-plugin-edge-when.html': 'guide/de/pdf-xchange-editor-browser-plugin-edge-when.jsp',
   // devtools-style-pdf-element-inspector-editor-android-when EN + locale fanout (create_new_guide_page 20260825/20260826)
   '/guides/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/devtools-style-pdf-element-inspector-editor-android-when.jsp',
   '/guides/pt/devtools-style-pdf-element-inspector-editor-android-when.html': 'guide/pt/devtools-style-pdf-element-inspector-editor-android-when.jsp',
