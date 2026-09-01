@@ -14,6 +14,25 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // zstd-extractor tool + guides (new-tool-discovery-loop fire 739, 20260901-2)
+  '/guides/zstd-extractor-step-by-step.html',
+  '/guides/zstd-extractor-when.html',
+  '/guides/zstd-extractor-vs-alternatives.html',
+  '/guides/pt/zstd-extractor-step-by-step.html',
+  '/guides/pt/zstd-extractor-when.html',
+  '/guides/pt/zstd-extractor-vs-alternatives.html',
+  '/guides/es/zstd-extractor-step-by-step.html',
+  '/guides/es/zstd-extractor-when.html',
+  '/guides/es/zstd-extractor-vs-alternatives.html',
+  '/guides/vi/zstd-extractor-step-by-step.html',
+  '/guides/vi/zstd-extractor-when.html',
+  '/guides/vi/zstd-extractor-vs-alternatives.html',
+  '/guides/id/zstd-extractor-step-by-step.html',
+  '/guides/id/zstd-extractor-when.html',
+  '/guides/id/zstd-extractor-vs-alternatives.html',
+  '/guides/de/zstd-extractor-step-by-step.html',
+  '/guides/de/zstd-extractor-when.html',
+  '/guides/de/zstd-extractor-vs-alternatives.html',
   // pdf-xchange-editor-browser-plugin-edge-when EN + locale fanout (locale-drain complete 20260901-2; en+pt+es+vi+id+de)
   '/guides/pdf-xchange-editor-browser-plugin-edge-when.html',
   '/guides/pt/pdf-xchange-editor-browser-plugin-edge-when.html',
@@ -7158,6 +7177,25 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // zstd-extractor companion guides EN + 5 locales (new-tool-discovery-loop fire 739, 20260901-2)
+  '/guides/zstd-extractor-step-by-step.html',
+  '/guides/zstd-extractor-when.html',
+  '/guides/zstd-extractor-vs-alternatives.html',
+  '/guides/pt/zstd-extractor-step-by-step.html',
+  '/guides/pt/zstd-extractor-when.html',
+  '/guides/pt/zstd-extractor-vs-alternatives.html',
+  '/guides/es/zstd-extractor-step-by-step.html',
+  '/guides/es/zstd-extractor-when.html',
+  '/guides/es/zstd-extractor-vs-alternatives.html',
+  '/guides/vi/zstd-extractor-step-by-step.html',
+  '/guides/vi/zstd-extractor-when.html',
+  '/guides/vi/zstd-extractor-vs-alternatives.html',
+  '/guides/id/zstd-extractor-step-by-step.html',
+  '/guides/id/zstd-extractor-when.html',
+  '/guides/id/zstd-extractor-vs-alternatives.html',
+  '/guides/de/zstd-extractor-step-by-step.html',
+  '/guides/de/zstd-extractor-when.html',
+  '/guides/de/zstd-extractor-vs-alternatives.html',
   // pdf-xchange-editor-browser-plugin-edge-when locale fanout (locale-drain complete 20260901-2)
   '/guides/pt/pdf-xchange-editor-browser-plugin-edge-when.html',
   '/guides/es/pdf-xchange-editor-browser-plugin-edge-when.html',
@@ -13980,6 +14018,7 @@ export function isArticleFamilyRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  '/zstd-extractor.html': '/zip-tools/zstd-extractor.html',
   '/guides/id/vim-motion-academy-vs-alternatives.html': '/games/vim-motion-academy.html', // consolidation-fire88 2026-08-31: excess guide family merged into canonical
   '/guides/vi/vim-motion-academy-vs-alternatives.html': '/games/vim-motion-academy.html', // consolidation-fire88 2026-08-31: excess guide family merged into canonical
   '/guides/de/vim-motion-academy-vs-alternatives.html': '/games/vim-motion-academy.html', // consolidation-fire88 2026-08-31: excess guide family merged into canonical
@@ -16797,6 +16836,25 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  '/zip-tools/zstd-extractor.html': 'file/zstd-extractor.jsp',
+  '/guides/zstd-extractor-step-by-step.html': 'guide/zstd-extractor-step-by-step.jsp',
+  '/guides/zstd-extractor-when.html': 'guide/zstd-extractor-when.jsp',
+  '/guides/zstd-extractor-vs-alternatives.html': 'guide/zstd-extractor-vs-alternatives.jsp',
+  '/guides/pt/zstd-extractor-step-by-step.html': 'guide/pt/zstd-extractor-step-by-step.jsp',
+  '/guides/pt/zstd-extractor-when.html': 'guide/pt/zstd-extractor-when.jsp',
+  '/guides/pt/zstd-extractor-vs-alternatives.html': 'guide/pt/zstd-extractor-vs-alternatives.jsp',
+  '/guides/es/zstd-extractor-step-by-step.html': 'guide/es/zstd-extractor-step-by-step.jsp',
+  '/guides/es/zstd-extractor-when.html': 'guide/es/zstd-extractor-when.jsp',
+  '/guides/es/zstd-extractor-vs-alternatives.html': 'guide/es/zstd-extractor-vs-alternatives.jsp',
+  '/guides/vi/zstd-extractor-step-by-step.html': 'guide/vi/zstd-extractor-step-by-step.jsp',
+  '/guides/vi/zstd-extractor-when.html': 'guide/vi/zstd-extractor-when.jsp',
+  '/guides/vi/zstd-extractor-vs-alternatives.html': 'guide/vi/zstd-extractor-vs-alternatives.jsp',
+  '/guides/id/zstd-extractor-step-by-step.html': 'guide/id/zstd-extractor-step-by-step.jsp',
+  '/guides/id/zstd-extractor-when.html': 'guide/id/zstd-extractor-when.jsp',
+  '/guides/id/zstd-extractor-vs-alternatives.html': 'guide/id/zstd-extractor-vs-alternatives.jsp',
+  '/guides/de/zstd-extractor-step-by-step.html': 'guide/de/zstd-extractor-step-by-step.jsp',
+  '/guides/de/zstd-extractor-when.html': 'guide/de/zstd-extractor-when.jsp',
+  '/guides/de/zstd-extractor-vs-alternatives.html': 'guide/de/zstd-extractor-vs-alternatives.jsp',
   // pdf-xchange-editor-browser-plugin-edge-when EN + locale fanout (locale-drain complete 20260901-2)
   '/guides/pdf-xchange-editor-browser-plugin-edge-when.html': 'guide/pdf-xchange-editor-browser-plugin-edge-when.jsp',
   '/guides/pt/pdf-xchange-editor-browser-plugin-edge-when.html': 'guide/pt/pdf-xchange-editor-browser-plugin-edge-when.jsp',
