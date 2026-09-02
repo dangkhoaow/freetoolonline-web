@@ -14019,6 +14019,7 @@ export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
   '/zstd-extractor.html': '/zip-tools/zstd-extractor.html',
+  '/ai-code-explainer.html': '/developer-tools/ai-code-explainer.html',
   '/guides/id/vim-motion-academy-vs-alternatives.html': '/games/vim-motion-academy.html', // consolidation-fire88 2026-08-31: excess guide family merged into canonical
   '/guides/vi/vim-motion-academy-vs-alternatives.html': '/games/vim-motion-academy.html', // consolidation-fire88 2026-08-31: excess guide family merged into canonical
   '/guides/de/vim-motion-academy-vs-alternatives.html': '/games/vim-motion-academy.html', // consolidation-fire88 2026-08-31: excess guide family merged into canonical
@@ -16855,6 +16856,7 @@ export const JSP_BY_ROUTE = {
   '/guides/de/zstd-extractor-step-by-step.html': 'guide/de/zstd-extractor-step-by-step.jsp',
   '/guides/de/zstd-extractor-when.html': 'guide/de/zstd-extractor-when.jsp',
   '/guides/de/zstd-extractor-vs-alternatives.html': 'guide/de/zstd-extractor-vs-alternatives.jsp',
+  '/developer-tools/ai-code-explainer.html': 'utility/ai-code-explainer.jsp',
   // pdf-xchange-editor-browser-plugin-edge-when EN + locale fanout (locale-drain complete 20260901-2)
   '/guides/pdf-xchange-editor-browser-plugin-edge-when.html': 'guide/pdf-xchange-editor-browser-plugin-edge-when.jsp',
   '/guides/pt/pdf-xchange-editor-browser-plugin-edge-when.html': 'guide/pt/pdf-xchange-editor-browser-plugin-edge-when.jsp',
