@@ -14020,6 +14020,7 @@ export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 export const ALIAS_ROUTES = {
   '/zstd-extractor.html': '/zip-tools/zstd-extractor.html',
   '/ai-code-explainer.html': '/developer-tools/ai-code-explainer.html',
+  '/redact-pdf.html': '/pdf-tools/redact-pdf.html',
   '/guides/id/vim-motion-academy-vs-alternatives.html': '/games/vim-motion-academy.html', // consolidation-fire88 2026-08-31: excess guide family merged into canonical
   '/guides/vi/vim-motion-academy-vs-alternatives.html': '/games/vim-motion-academy.html', // consolidation-fire88 2026-08-31: excess guide family merged into canonical
   '/guides/de/vim-motion-academy-vs-alternatives.html': '/games/vim-motion-academy.html', // consolidation-fire88 2026-08-31: excess guide family merged into canonical
@@ -16952,6 +16953,7 @@ export const JSP_BY_ROUTE = {
   '/image-tools/ai-watermark-detector.html': 'convert/ai-watermark-detector.jsp',
   '/utility-tools/ai-text-detector.html': 'utility/ai-text-detector.jsp',
   '/pdf-tools/ocr-pdf.html': 'pdf/ocr-pdf.jsp',
+  '/pdf-tools/redact-pdf.html': 'pdf/redact-pdf.jsp',
   '/video-tools/audio-denoiser.html': 'convert/audio-denoiser.jsp',
   '/video-tools/silence-remover.html': 'convert/silence-remover.jsp',
   '/video-tools/vocal-remover.html': 'convert/vocal-remover.jsp',

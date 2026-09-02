@@ -983,6 +983,7 @@ try {
     { title: "Vocal Remover & Instrumental Maker (AI, Local)", url: "https://freetoolonline.com/video-tools/vocal-remover.html", include: !1, tags: "video" },
     { title: "Handwriting to Text Converter (AI OCR, Local)", url: "https://freetoolonline.com/image-converter-tools/handwriting-to-text.html", include: !1, tags: "image-conversion" },
     { title: "Daylight Saving Time Countdown - Next Clock Change", url: "https://freetoolonline.com/utility-tools/dst-countdown.html", include: !1, tags: "utility" },
+    { title: "Redact PDF - Black Out Text Permanently, No Upload", url: "https://freetoolonline.com/pdf-tools/redact-pdf.html", include: !1, tags: "pdf" },
     { title: "OCR PDF - Make a Scanned PDF Searchable in Your Browser", url: "https://freetoolonline.com/pdf-tools/ocr-pdf.html", include: !1, tags: "pdf" },
     { title: "Blur Faces in Photos", url: "https://freetoolonline.com/image-tools/face-blur.html", include: !1, tags: "image-editing" },
     { title: "Vehicle Recall Lookup", url: "https://freetoolonline.com/utility-tools/vehicle-recall-lookup.html", include: !1, tags: "utility" },
