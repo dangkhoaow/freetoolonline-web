@@ -15,6 +15,7 @@ export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
   '/guides/es/html-minifier-step-by-step.html',
+  '/guides/vi/html-minifier-step-by-step.html',
   // unix-timestamp-converter companion guides EN + 5 locale fanout (new_tool_page_discovery 20260902-8)
   '/guides/unix-timestamp-converter-vs-alternatives.html',
   '/guides/unix-timestamp-converter-step-by-step.html',
@@ -7198,6 +7199,7 @@ export const INFO_ROUTES = new Set([
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
   '/guides/es/html-minifier-step-by-step.html',
+  '/guides/vi/html-minifier-step-by-step.html',
   // unix-timestamp-converter companion guides EN + 5 locales (new_tool_page_discovery 20260902-8)
   '/guides/unix-timestamp-converter-when.html',
   '/guides/unix-timestamp-converter-step-by-step.html',
@@ -16882,6 +16884,7 @@ export const ALIAS_ROUTES = {
 export const JSP_BY_ROUTE = {
   '/developer-tools/yaml-formatter.html': 'utility/yaml-formatter.jsp',
   '/guides/es/html-minifier-step-by-step.html': 'guide/es/html-minifier-step-by-step.jsp',
+  '/guides/vi/html-minifier-step-by-step.html': 'guide/vi/html-minifier-step-by-step.jsp',
   '/zip-tools/zstd-extractor.html': 'file/zstd-extractor.jsp',
   '/guides/zstd-extractor-step-by-step.html': 'guide/zstd-extractor-step-by-step.jsp',
   '/guides/zstd-extractor-when.html': 'guide/zstd-extractor-when.jsp',
