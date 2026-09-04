@@ -14,6 +14,9 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/html-minifier-step-by-step.html',
+  '/guides/pt/html-minifier-step-by-step.html',
+  '/guides/de/html-minifier-step-by-step.html',
   '/guides/es/html-minifier-step-by-step.html',
   '/guides/vi/html-minifier-step-by-step.html',
   '/guides/id/html-minifier-step-by-step.html',
@@ -7199,6 +7202,8 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  '/guides/pt/html-minifier-step-by-step.html',
+  '/guides/de/html-minifier-step-by-step.html',
   '/guides/es/html-minifier-step-by-step.html',
   '/guides/vi/html-minifier-step-by-step.html',
   '/guides/id/html-minifier-step-by-step.html',
@@ -14062,6 +14067,7 @@ export function isArticleFamilyRoute(route) {
 export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
+  '/rich-text-editor.html': '/developer-tools/rich-text-editor.html',
   '/yaml-formatter.html': '/developer-tools/yaml-formatter.html',
   '/markdown-table-generator.html': '/developer-tools/markdown-table-generator.html',
   '/zstd-extractor.html': '/zip-tools/zstd-extractor.html',
@@ -16885,6 +16891,10 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  '/guides/html-minifier-step-by-step.html': 'guide/html-minifier-step-by-step.jsp',
+  '/guides/pt/html-minifier-step-by-step.html': 'guide/pt/html-minifier-step-by-step.jsp',
+  '/guides/de/html-minifier-step-by-step.html': 'guide/de/html-minifier-step-by-step.jsp',
+  '/developer-tools/rich-text-editor.html': 'utility/rich-text-editor.jsp',
   '/developer-tools/yaml-formatter.html': 'utility/yaml-formatter.jsp',
   '/guides/es/html-minifier-step-by-step.html': 'guide/es/html-minifier-step-by-step.jsp',
   '/guides/vi/html-minifier-step-by-step.html': 'guide/vi/html-minifier-step-by-step.jsp',
