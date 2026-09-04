@@ -986,6 +986,7 @@ try {
     { title: "Redact PDF - Black Out Text Permanently, No Upload", url: "https://freetoolonline.com/pdf-tools/redact-pdf.html", include: !1, tags: "pdf" },
     { title: "Unix Timestamp Converter Online", url: "https://freetoolonline.com/developer-tools/unix-timestamp-converter.html", include: !1, tags: "developer" },
     { title: "YAML Formatter Online", url: "https://freetoolonline.com/developer-tools/yaml-formatter.html", include: !1, tags: "developer" },
+    { title: "Markdown Table Generator Online", url: "https://freetoolonline.com/developer-tools/markdown-table-generator.html", include: !1, tags: "developer" },
     { title: "OCR PDF - Make a Scanned PDF Searchable in Your Browser", url: "https://freetoolonline.com/pdf-tools/ocr-pdf.html", include: !1, tags: "pdf" },
     { title: "Blur Faces in Photos", url: "https://freetoolonline.com/image-tools/face-blur.html", include: !1, tags: "image-editing" },
     { title: "Vehicle Recall Lookup", url: "https://freetoolonline.com/utility-tools/vehicle-recall-lookup.html", include: !1, tags: "utility" },
