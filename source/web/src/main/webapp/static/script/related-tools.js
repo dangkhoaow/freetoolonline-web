@@ -1004,6 +1004,7 @@ try {
     { title: "Text Similarity Checker - Semantic Comparison (Local, No Upload)", url: "https://freetoolonline.com/developer-tools/text-similarity-checker.html", include: !1, tags: "developer" },
     { title: "Text Anonymizer - Remove Names & Emails (Local, No Upload)", url: "https://freetoolonline.com/developer-tools/text-anonymizer.html", include: !1, tags: "developer" },
     { title: "Rich Text Editor Online", url: "https://freetoolonline.com/developer-tools/rich-text-editor.html", include: !1, tags: "developer" },
+    { title: "Hex to RGB Converter Online", url: "https://freetoolonline.com/developer-tools/hex-to-rgb-converter.html", include: !1, tags: "developer" },
     { title: "AI Email Writer - Draft Emails in Your Browser", url: "https://freetoolonline.com/utility-tools/ai-email-writer.html", include: !1, tags: "utility" },
     { title: "Meeting Notes Taker", url: "https://freetoolonline.com/utility-tools/meeting-notes-taker.html", include: !1, tags: "utility" },
     { title: "Architecture Diagram Maker", url: "https://freetoolonline.com/utility-tools/architecture-diagram-maker.html", include: !1, tags: "utility" },
