@@ -16,6 +16,7 @@ export const DEFAULT_IO_INFOS = '[]';
 export const INFO_ROUTES = new Set([
   '/guides/es/html-minifier-step-by-step.html',
   '/guides/vi/html-minifier-step-by-step.html',
+  '/guides/id/html-minifier-step-by-step.html',
   // unix-timestamp-converter companion guides EN + 5 locale fanout (new_tool_page_discovery 20260902-8)
   '/guides/unix-timestamp-converter-vs-alternatives.html',
   '/guides/unix-timestamp-converter-step-by-step.html',
@@ -7200,6 +7201,7 @@ export const INFO_ROUTES = new Set([
 export const GUIDE_ROUTES = new Set([
   '/guides/es/html-minifier-step-by-step.html',
   '/guides/vi/html-minifier-step-by-step.html',
+  '/guides/id/html-minifier-step-by-step.html',
   // unix-timestamp-converter companion guides EN + 5 locales (new_tool_page_discovery 20260902-8)
   '/guides/unix-timestamp-converter-when.html',
   '/guides/unix-timestamp-converter-step-by-step.html',
@@ -14061,6 +14063,7 @@ export const SPECIAL_ROUTES = new Set(['/alternatead.html']);
 
 export const ALIAS_ROUTES = {
   '/yaml-formatter.html': '/developer-tools/yaml-formatter.html',
+  '/markdown-table-generator.html': '/developer-tools/markdown-table-generator.html',
   '/zstd-extractor.html': '/zip-tools/zstd-extractor.html',
   '/ai-code-explainer.html': '/developer-tools/ai-code-explainer.html',
   '/unix-timestamp-converter.html': '/developer-tools/unix-timestamp-converter.html',
@@ -16885,6 +16888,8 @@ export const JSP_BY_ROUTE = {
   '/developer-tools/yaml-formatter.html': 'utility/yaml-formatter.jsp',
   '/guides/es/html-minifier-step-by-step.html': 'guide/es/html-minifier-step-by-step.jsp',
   '/guides/vi/html-minifier-step-by-step.html': 'guide/vi/html-minifier-step-by-step.jsp',
+  '/developer-tools/markdown-table-generator.html': 'utility/markdown-table-generator.jsp',
+  '/guides/id/html-minifier-step-by-step.html': 'guide/id/html-minifier-step-by-step.jsp',
   '/zip-tools/zstd-extractor.html': 'file/zstd-extractor.jsp',
   '/guides/zstd-extractor-step-by-step.html': 'guide/zstd-extractor-step-by-step.jsp',
   '/guides/zstd-extractor-when.html': 'guide/zstd-extractor-when.jsp',
