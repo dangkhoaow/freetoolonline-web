@@ -1006,6 +1006,7 @@ try {
     { title: "Rich Text Editor Online", url: "https://freetoolonline.com/developer-tools/rich-text-editor.html", include: !1, tags: "developer" },
     { title: "Hex to RGB Converter Online", url: "https://freetoolonline.com/developer-tools/hex-to-rgb-converter.html", include: !1, tags: "developer" },
     { title: "CMYK to RGB Converter Online", url: "https://freetoolonline.com/developer-tools/cmyk-to-rgb-converter.html", include: !1, tags: "developer" },
+    { title: "Random Color Generator Online", url: "https://freetoolonline.com/developer-tools/random-color-generator.html", include: !1, tags: "developer" },
     { title: "AI Email Writer - Draft Emails in Your Browser", url: "https://freetoolonline.com/utility-tools/ai-email-writer.html", include: !1, tags: "utility" },
     { title: "Meeting Notes Taker", url: "https://freetoolonline.com/utility-tools/meeting-notes-taker.html", include: !1, tags: "utility" },
     { title: "Aquarium Water Checker - Compare Before & After Photos", url: "https://freetoolonline.com/utility-tools/aquarium-water-checker.html", include: !1, tags: "utility" },
