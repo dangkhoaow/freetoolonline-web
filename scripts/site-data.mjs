@@ -17025,6 +17025,7 @@ export const ALIAS_ROUTES = {
   '/video-editor.html': '/video-tools/video-editor.html',
   '/online-video-editor.html': '/video-tools/video-editor.html',
   '/capcut-alternative.html': '/video-tools/video-editor.html',
+  '/random-color-generator.html': '/developer-tools/random-color-generator.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -17053,6 +17054,8 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // random-color-generator tool (new_tool_page_discovery 20260905-3 mirror; EN-only guides held back pending locale completion)
+  '/developer-tools/random-color-generator.html': 'utility/random-color-generator.jsp',
   // cmyk-to-rgb-converter tool + companion guides (new_tool_page_discovery 20260905 mirror)
   '/developer-tools/cmyk-to-rgb-converter.html': 'utility/cmyk-to-rgb-converter.jsp',
   '/guides/cmyk-rgb-converter-when.html': 'guide/cmyk-rgb-converter-when.jsp',
