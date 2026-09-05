@@ -14,6 +14,13 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // color-palette-generator-step-by-step guide family - locale-complete 20260906 (en+pt+es+vi+id+de)
+  '/guides/color-palette-generator-step-by-step.html',
+  '/guides/pt/color-palette-generator-step-by-step.html',
+  '/guides/es/color-palette-generator-step-by-step.html',
+  '/guides/vi/color-palette-generator-step-by-step.html',
+  '/guides/id/color-palette-generator-step-by-step.html',
+  '/guides/de/color-palette-generator-step-by-step.html',
   // cmyk-to-rgb-converter companion guides (new_tool_page_discovery 20260905 mirror)
   '/guides/cmyk-rgb-converter-when.html',
   '/guides/cmyk-rgb-converter-step-by-step.html',
@@ -7323,6 +7330,13 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // color-palette-generator-step-by-step guide family - locale-complete 20260906 (en+pt+es+vi+id+de)
+  '/guides/color-palette-generator-step-by-step.html',
+  '/guides/pt/color-palette-generator-step-by-step.html',
+  '/guides/es/color-palette-generator-step-by-step.html',
+  '/guides/vi/color-palette-generator-step-by-step.html',
+  '/guides/id/color-palette-generator-step-by-step.html',
+  '/guides/de/color-palette-generator-step-by-step.html',
   // cmyk-to-rgb-converter companion guides (new_tool_page_discovery 20260905 mirror)
   '/guides/cmyk-rgb-converter-when.html',
   '/guides/cmyk-rgb-converter-step-by-step.html',
@@ -17075,6 +17089,13 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // color-palette-generator-step-by-step guide family - locale-complete 20260906 (en+pt+es+vi+id+de)
+  '/guides/color-palette-generator-step-by-step.html': 'guide/color-palette-generator-step-by-step.jsp',
+  '/guides/pt/color-palette-generator-step-by-step.html': 'guide/pt/color-palette-generator-step-by-step.jsp',
+  '/guides/es/color-palette-generator-step-by-step.html': 'guide/es/color-palette-generator-step-by-step.jsp',
+  '/guides/vi/color-palette-generator-step-by-step.html': 'guide/vi/color-palette-generator-step-by-step.jsp',
+  '/guides/id/color-palette-generator-step-by-step.html': 'guide/id/color-palette-generator-step-by-step.jsp',
+  '/guides/de/color-palette-generator-step-by-step.html': 'guide/de/color-palette-generator-step-by-step.jsp',
   // random-color-generator tool (new_tool_page_discovery 20260905-3 mirror; EN-only guides held back pending locale completion)
   '/developer-tools/random-color-generator.html': 'utility/random-color-generator.jsp',
   '/developer-tools/color-palette-generator.html': 'utility/color-palette-generator.jsp',
