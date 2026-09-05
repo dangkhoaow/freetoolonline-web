@@ -14,6 +14,13 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // rich-text-editor + markdown-table-generator companion guides (staging b07020cdee / 5a67020bc6 mirror completion)
+  '/guides/rich-text-editor-vs-alternatives.html',
+  '/guides/rich-text-editor-step-by-step.html',
+  '/guides/rich-text-editor-when.html',
+  '/guides/markdown-table-generator-vs-alternatives.html',
+  '/guides/markdown-table-generator-step-by-step.html',
+  '/guides/markdown-table-generator-when.html',
   // aquarium-water-checker guides (ai-local aquarium-fire1) + locale fanout
   '/guides/aquarium-water-checker-when.html',
   '/guides/aquarium-water-checker-step-by-step.html',
@@ -16935,6 +16942,9 @@ export const JSP_BY_ROUTE = {
   '/guides/pt/html-minifier-step-by-step.html': 'guide/pt/html-minifier-step-by-step.jsp',
   '/guides/de/html-minifier-step-by-step.html': 'guide/de/html-minifier-step-by-step.jsp',
   '/developer-tools/rich-text-editor.html': 'utility/rich-text-editor.jsp',
+  '/guides/rich-text-editor-when.html': 'guide/rich-text-editor-when.jsp',
+  '/guides/rich-text-editor-step-by-step.html': 'guide/rich-text-editor-step-by-step.jsp',
+  '/guides/rich-text-editor-vs-alternatives.html': 'guide/rich-text-editor-vs-alternatives.jsp',
   '/developer-tools/hex-to-rgb-converter.html': 'utility/hex-to-rgb-converter.jsp',
   '/utility-tools/aquarium-water-checker.html': 'utility/aquarium-water-checker.jsp',
   '/guides/aquarium-water-checker-when.html': 'guide/aquarium-water-checker-when.jsp',
@@ -16977,6 +16987,9 @@ export const JSP_BY_ROUTE = {
   '/guides/es/html-minifier-step-by-step.html': 'guide/es/html-minifier-step-by-step.jsp',
   '/guides/vi/html-minifier-step-by-step.html': 'guide/vi/html-minifier-step-by-step.jsp',
   '/developer-tools/markdown-table-generator.html': 'utility/markdown-table-generator.jsp',
+  '/guides/markdown-table-generator-when.html': 'guide/markdown-table-generator-when.jsp',
+  '/guides/markdown-table-generator-step-by-step.html': 'guide/markdown-table-generator-step-by-step.jsp',
+  '/guides/markdown-table-generator-vs-alternatives.html': 'guide/markdown-table-generator-vs-alternatives.jsp',
   '/guides/id/html-minifier-step-by-step.html': 'guide/id/html-minifier-step-by-step.jsp',
   '/zip-tools/zstd-extractor.html': 'file/zstd-extractor.jsp',
   '/guides/zstd-extractor-step-by-step.html': 'guide/zstd-extractor-step-by-step.jsp',
