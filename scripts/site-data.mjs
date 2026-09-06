@@ -14,6 +14,12 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/color-palette-generator-vs-alternatives.html',
+  '/guides/pt/color-palette-generator-vs-alternatives.html',
+  '/guides/es/color-palette-generator-vs-alternatives.html',
+  '/guides/vi/color-palette-generator-vs-alternatives.html',
+  '/guides/id/color-palette-generator-vs-alternatives.html',
+  '/guides/de/color-palette-generator-vs-alternatives.html',
   // color-palette-generator-step-by-step guide family - locale-complete 20260906 (en+pt+es+vi+id+de)
   '/guides/color-palette-generator-step-by-step.html',
   '/guides/pt/color-palette-generator-step-by-step.html',
@@ -7330,6 +7336,12 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // color-palette-generator-vs-alternatives locale fanout (create_new_guide_page 20260906-2)
+  '/guides/pt/color-palette-generator-vs-alternatives.html',
+  '/guides/es/color-palette-generator-vs-alternatives.html',
+  '/guides/vi/color-palette-generator-vs-alternatives.html',
+  '/guides/id/color-palette-generator-vs-alternatives.html',
+  '/guides/de/color-palette-generator-vs-alternatives.html',
   // color-palette-generator-step-by-step guide family - locale-complete 20260906 (en+pt+es+vi+id+de)
   '/guides/color-palette-generator-step-by-step.html',
   '/guides/pt/color-palette-generator-step-by-step.html',
@@ -17096,6 +17108,12 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/color-palette-generator-step-by-step.html': 'guide/vi/color-palette-generator-step-by-step.jsp',
   '/guides/id/color-palette-generator-step-by-step.html': 'guide/id/color-palette-generator-step-by-step.jsp',
   '/guides/de/color-palette-generator-step-by-step.html': 'guide/de/color-palette-generator-step-by-step.jsp',
+  '/guides/color-palette-generator-vs-alternatives.html': 'guide/color-palette-generator-vs-alternatives.jsp',
+  '/guides/pt/color-palette-generator-vs-alternatives.html': 'guide/pt/color-palette-generator-vs-alternatives.jsp',
+  '/guides/es/color-palette-generator-vs-alternatives.html': 'guide/es/color-palette-generator-vs-alternatives.jsp',
+  '/guides/vi/color-palette-generator-vs-alternatives.html': 'guide/vi/color-palette-generator-vs-alternatives.jsp',
+  '/guides/id/color-palette-generator-vs-alternatives.html': 'guide/id/color-palette-generator-vs-alternatives.jsp',
+  '/guides/de/color-palette-generator-vs-alternatives.html': 'guide/de/color-palette-generator-vs-alternatives.jsp',
   // random-color-generator tool (new_tool_page_discovery 20260905-3 mirror; EN-only guides held back pending locale completion)
   '/developer-tools/random-color-generator.html': 'utility/random-color-generator.jsp',
   '/developer-tools/color-palette-generator.html': 'utility/color-palette-generator.jsp',
