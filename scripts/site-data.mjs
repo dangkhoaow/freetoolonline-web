@@ -39,6 +39,13 @@ export const INFO_ROUTES = new Set([
   '/guides/cmyk-rgb-converter-vs-alternatives.html',
   // css-border-radius-generator-step-by-step EN + locale fanout (create_new_guide_page 20260905 mirror)
   '/guides/css-border-radius-generator-step-by-step.html',
+  // css-border-radius-generator-vs-alternatives locale fanout (create_new_guide_page 20260905 mirror)
+  '/guides/css-border-radius-generator-vs-alternatives.html',
+  '/guides/pt/css-border-radius-generator-vs-alternatives.html',
+  '/guides/es/css-border-radius-generator-vs-alternatives.html',
+  '/guides/vi/css-border-radius-generator-vs-alternatives.html',
+  '/guides/id/css-border-radius-generator-vs-alternatives.html',
+  '/guides/de/css-border-radius-generator-vs-alternatives.html',
   '/guides/pt/css-border-radius-generator-step-by-step.html',
   '/guides/es/css-border-radius-generator-step-by-step.html',
   '/guides/pt/cmyk-rgb-converter-when.html',
@@ -7367,6 +7374,12 @@ export const GUIDE_ROUTES = new Set([
   '/guides/cmyk-rgb-converter-vs-alternatives.html',
   // css-border-radius-generator-step-by-step EN + locale fanout (create_new_guide_page 20260905 mirror)
   '/guides/css-border-radius-generator-step-by-step.html',
+  // css-border-radius-generator-vs-alternatives locale fanout (create_new_guide_page 20260905 mirror)
+  '/guides/pt/css-border-radius-generator-vs-alternatives.html',
+  '/guides/es/css-border-radius-generator-vs-alternatives.html',
+  '/guides/vi/css-border-radius-generator-vs-alternatives.html',
+  '/guides/id/css-border-radius-generator-vs-alternatives.html',
+  '/guides/de/css-border-radius-generator-vs-alternatives.html',
   '/guides/pt/css-border-radius-generator-step-by-step.html',
   '/guides/es/css-border-radius-generator-step-by-step.html',
   '/guides/pt/cmyk-rgb-converter-when.html',
@@ -17142,6 +17155,13 @@ export const JSP_BY_ROUTE = {
   '/guides/cmyk-rgb-converter-vs-alternatives.html': 'guide/cmyk-rgb-converter-vs-alternatives.jsp',
   // css-border-radius-generator-step-by-step EN + locale fanout (create_new_guide_page 20260905 mirror)
   '/guides/css-border-radius-generator-step-by-step.html': 'guide/css-border-radius-generator-step-by-step.jsp',
+  // css-border-radius-generator-vs-alternatives locale fanout (create_new_guide_page 20260905 mirror)
+  '/guides/css-border-radius-generator-vs-alternatives.html': 'guide/css-border-radius-generator-vs-alternatives.jsp',
+  '/guides/pt/css-border-radius-generator-vs-alternatives.html': 'guide/pt/css-border-radius-generator-vs-alternatives.jsp',
+  '/guides/es/css-border-radius-generator-vs-alternatives.html': 'guide/es/css-border-radius-generator-vs-alternatives.jsp',
+  '/guides/vi/css-border-radius-generator-vs-alternatives.html': 'guide/vi/css-border-radius-generator-vs-alternatives.jsp',
+  '/guides/id/css-border-radius-generator-vs-alternatives.html': 'guide/id/css-border-radius-generator-vs-alternatives.jsp',
+  '/guides/de/css-border-radius-generator-vs-alternatives.html': 'guide/de/css-border-radius-generator-vs-alternatives.jsp',
   '/guides/pt/css-border-radius-generator-step-by-step.html': 'guide/pt/css-border-radius-generator-step-by-step.jsp',
   '/guides/es/css-border-radius-generator-step-by-step.html': 'guide/es/css-border-radius-generator-step-by-step.jsp',
   '/guides/pt/cmyk-rgb-converter-when.html': 'guide/pt/cmyk-rgb-converter-when.jsp',
