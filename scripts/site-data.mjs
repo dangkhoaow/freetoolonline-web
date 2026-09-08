@@ -14,6 +14,9 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // css-border-radius-generator-when locale fanout (create_new_guide_page 20260908-4 prod mirror)
+  '/guides/css-border-radius-generator-when.html',
+  '/guides/pt/css-border-radius-generator-when.html',
   '/guides/color-palette-generator-vs-alternatives.html',
   '/guides/pt/color-palette-generator-vs-alternatives.html',
   '/guides/es/color-palette-generator-vs-alternatives.html',
@@ -7349,6 +7352,8 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // css-border-radius-generator-when locale fanout (create_new_guide_page 20260908-4 prod mirror)
+  '/guides/pt/css-border-radius-generator-when.html',
   // color-palette-generator-vs-alternatives locale fanout (create_new_guide_page 20260906-2)
   '/guides/pt/color-palette-generator-vs-alternatives.html',
   '/guides/es/color-palette-generator-vs-alternatives.html',
@@ -17126,6 +17131,9 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // css-border-radius-generator-when locale fanout (create_new_guide_page 20260908-4 prod mirror)
+  '/guides/css-border-radius-generator-when.html': 'guide/css-border-radius-generator-when.jsp',
+  '/guides/pt/css-border-radius-generator-when.html': 'guide/pt/css-border-radius-generator-when.jsp',
   // color-palette-generator-step-by-step guide family - locale-complete 20260906 (en+pt+es+vi+id+de)
   '/guides/color-palette-generator-step-by-step.html': 'guide/color-palette-generator-step-by-step.jsp',
   '/guides/pt/color-palette-generator-step-by-step.html': 'guide/pt/color-palette-generator-step-by-step.jsp',
