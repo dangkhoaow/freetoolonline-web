@@ -17,6 +17,10 @@ export const INFO_ROUTES = new Set([
   // css-border-radius-generator-when locale fanout (create_new_guide_page 20260908-4 prod mirror)
   '/guides/css-border-radius-generator-when.html',
   '/guides/pt/css-border-radius-generator-when.html',
+  '/guides/es/css-border-radius-generator-when.html',
+  '/guides/vi/css-border-radius-generator-when.html',
+  '/guides/id/css-border-radius-generator-when.html',
+  '/guides/de/css-border-radius-generator-when.html',
   '/guides/color-palette-generator-vs-alternatives.html',
   '/guides/pt/color-palette-generator-vs-alternatives.html',
   '/guides/es/color-palette-generator-vs-alternatives.html',
@@ -7354,6 +7358,10 @@ export const INFO_ROUTES = new Set([
 export const GUIDE_ROUTES = new Set([
   // css-border-radius-generator-when locale fanout (create_new_guide_page 20260908-4 prod mirror)
   '/guides/pt/css-border-radius-generator-when.html',
+  '/guides/es/css-border-radius-generator-when.html',
+  '/guides/vi/css-border-radius-generator-when.html',
+  '/guides/id/css-border-radius-generator-when.html',
+  '/guides/de/css-border-radius-generator-when.html',
   // color-palette-generator-vs-alternatives locale fanout (create_new_guide_page 20260906-2)
   '/guides/pt/color-palette-generator-vs-alternatives.html',
   '/guides/es/color-palette-generator-vs-alternatives.html',
@@ -17134,6 +17142,10 @@ export const JSP_BY_ROUTE = {
   // css-border-radius-generator-when locale fanout (create_new_guide_page 20260908-4 prod mirror)
   '/guides/css-border-radius-generator-when.html': 'guide/css-border-radius-generator-when.jsp',
   '/guides/pt/css-border-radius-generator-when.html': 'guide/pt/css-border-radius-generator-when.jsp',
+  '/guides/es/css-border-radius-generator-when.html': 'guide/es/css-border-radius-generator-when.jsp',
+  '/guides/vi/css-border-radius-generator-when.html': 'guide/vi/css-border-radius-generator-when.jsp',
+  '/guides/id/css-border-radius-generator-when.html': 'guide/id/css-border-radius-generator-when.jsp',
+  '/guides/de/css-border-radius-generator-when.html': 'guide/de/css-border-radius-generator-when.jsp',
   // color-palette-generator-step-by-step guide family - locale-complete 20260906 (en+pt+es+vi+id+de)
   '/guides/color-palette-generator-step-by-step.html': 'guide/color-palette-generator-step-by-step.jsp',
   '/guides/pt/color-palette-generator-step-by-step.html': 'guide/pt/color-palette-generator-step-by-step.jsp',
