@@ -14,6 +14,13 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // html-minifier-when locale fanout (create_new_guide_page 20260908-6, locale-complete 20260909-4)
+  '/guides/html-minifier-when.html',
+  '/guides/pt/html-minifier-when.html',
+  '/guides/es/html-minifier-when.html',
+  '/guides/vi/html-minifier-when.html',
+  '/guides/id/html-minifier-when.html',
+  '/guides/de/html-minifier-when.html',
   // css-border-radius-generator-when locale fanout (create_new_guide_page 20260908-4 prod mirror)
   '/guides/css-border-radius-generator-when.html',
   '/guides/pt/css-border-radius-generator-when.html',
@@ -7363,6 +7370,12 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // html-minifier-when locale fanout (create_new_guide_page 20260908-6, locale-complete 20260909-4)
+  '/guides/pt/html-minifier-when.html',
+  '/guides/es/html-minifier-when.html',
+  '/guides/vi/html-minifier-when.html',
+  '/guides/id/html-minifier-when.html',
+  '/guides/de/html-minifier-when.html',
   // css-border-radius-generator-when locale fanout (create_new_guide_page 20260908-4 prod mirror)
   '/guides/pt/css-border-radius-generator-when.html',
   '/guides/es/css-border-radius-generator-when.html',
@@ -17152,6 +17165,13 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // html-minifier-when locale fanout (create_new_guide_page 20260908-6, locale-complete 20260909-4)
+  '/guides/html-minifier-when.html': 'guide/html-minifier-when.jsp',
+  '/guides/pt/html-minifier-when.html': 'guide/pt/html-minifier-when.jsp',
+  '/guides/es/html-minifier-when.html': 'guide/es/html-minifier-when.jsp',
+  '/guides/vi/html-minifier-when.html': 'guide/vi/html-minifier-when.jsp',
+  '/guides/id/html-minifier-when.html': 'guide/id/html-minifier-when.jsp',
+  '/guides/de/html-minifier-when.html': 'guide/de/html-minifier-when.jsp',
   // css-border-radius-generator-when locale fanout (create_new_guide_page 20260908-4 prod mirror)
   '/guides/css-border-radius-generator-when.html': 'guide/css-border-radius-generator-when.jsp',
   '/guides/pt/css-border-radius-generator-when.html': 'guide/pt/css-border-radius-generator-when.jsp',
