@@ -14,6 +14,25 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // avif-jpg-converter locale fanout (new-tool-discovery-loop-runbook fire748, 2026-09-11)
+  '/guides/avif-jpg-converter-when.html',
+  '/guides/avif-jpg-converter-step-by-step.html',
+  '/guides/avif-jpg-converter-vs-alternatives.html',
+  '/guides/pt/avif-jpg-converter-when.html',
+  '/guides/pt/avif-jpg-converter-step-by-step.html',
+  '/guides/pt/avif-jpg-converter-vs-alternatives.html',
+  '/guides/es/avif-jpg-converter-when.html',
+  '/guides/es/avif-jpg-converter-step-by-step.html',
+  '/guides/es/avif-jpg-converter-vs-alternatives.html',
+  '/guides/vi/avif-jpg-converter-when.html',
+  '/guides/vi/avif-jpg-converter-step-by-step.html',
+  '/guides/vi/avif-jpg-converter-vs-alternatives.html',
+  '/guides/id/avif-jpg-converter-when.html',
+  '/guides/id/avif-jpg-converter-step-by-step.html',
+  '/guides/id/avif-jpg-converter-vs-alternatives.html',
+  '/guides/de/avif-jpg-converter-when.html',
+  '/guides/de/avif-jpg-converter-step-by-step.html',
+  '/guides/de/avif-jpg-converter-vs-alternatives.html',
   // html-minifier-when locale fanout (create_new_guide_page 20260908-6, locale-complete 20260909-4)
   '/guides/html-minifier-when.html',
   '/guides/pt/html-minifier-when.html',
@@ -7376,6 +7395,25 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // avif-jpg-converter locale fanout (new-tool-discovery-loop-runbook fire748, 2026-09-11)
+  '/guides/avif-jpg-converter-when.html',
+  '/guides/avif-jpg-converter-step-by-step.html',
+  '/guides/avif-jpg-converter-vs-alternatives.html',
+  '/guides/pt/avif-jpg-converter-when.html',
+  '/guides/pt/avif-jpg-converter-step-by-step.html',
+  '/guides/pt/avif-jpg-converter-vs-alternatives.html',
+  '/guides/es/avif-jpg-converter-when.html',
+  '/guides/es/avif-jpg-converter-step-by-step.html',
+  '/guides/es/avif-jpg-converter-vs-alternatives.html',
+  '/guides/vi/avif-jpg-converter-when.html',
+  '/guides/vi/avif-jpg-converter-step-by-step.html',
+  '/guides/vi/avif-jpg-converter-vs-alternatives.html',
+  '/guides/id/avif-jpg-converter-when.html',
+  '/guides/id/avif-jpg-converter-step-by-step.html',
+  '/guides/id/avif-jpg-converter-vs-alternatives.html',
+  '/guides/de/avif-jpg-converter-when.html',
+  '/guides/de/avif-jpg-converter-step-by-step.html',
+  '/guides/de/avif-jpg-converter-vs-alternatives.html',
   // html-minifier-when locale fanout (create_new_guide_page 20260908-6, locale-complete 20260909-4)
   '/guides/pt/html-minifier-when.html',
   '/guides/es/html-minifier-when.html',
@@ -16825,6 +16863,7 @@ export const ALIAS_ROUTES = {
   '/tsiolkovsky-rocket-equation.html': '/space-3d/tsiolkovsky-rocket-equation.html',
   '/fireball-atmospheric-entry.html': '/space-3d/fireball-atmospheric-entry.html',
   '/jpg-to-avif-converter.html': '/image-converter-tools/jpg-to-avif-converter.html',
+  '/avif-to-jpg.html': '/image-converter-tools/avif-to-jpg.html',
   '/gpa-calculator.html': '/utility-tools/gpa-calculator.html',
   '/sign-pdf.html': '/pdf-tools/sign-pdf.html',
   '/slug-generator.html': '/developer-tools/slug-generator.html',
@@ -17178,6 +17217,26 @@ export const ALIAS_ROUTES = {
 // non-kebab entries to this map.
 // ─────────────────────────────────────────────────────────────────────────
 export const JSP_BY_ROUTE = {
+  // avif-jpg-converter locale fanout (new-tool-discovery-loop-runbook fire748, 2026-09-11)
+  '/image-converter-tools/avif-to-jpg.html': 'convert/avif-to-jpg.jsp',
+  '/guides/avif-jpg-converter-when.html': 'guide/avif-jpg-converter-when.jsp',
+  '/guides/avif-jpg-converter-step-by-step.html': 'guide/avif-jpg-converter-step-by-step.jsp',
+  '/guides/avif-jpg-converter-vs-alternatives.html': 'guide/avif-jpg-converter-vs-alternatives.jsp',
+  '/guides/pt/avif-jpg-converter-when.html': 'guide/pt/avif-jpg-converter-when.jsp',
+  '/guides/pt/avif-jpg-converter-step-by-step.html': 'guide/pt/avif-jpg-converter-step-by-step.jsp',
+  '/guides/pt/avif-jpg-converter-vs-alternatives.html': 'guide/pt/avif-jpg-converter-vs-alternatives.jsp',
+  '/guides/es/avif-jpg-converter-when.html': 'guide/es/avif-jpg-converter-when.jsp',
+  '/guides/es/avif-jpg-converter-step-by-step.html': 'guide/es/avif-jpg-converter-step-by-step.jsp',
+  '/guides/es/avif-jpg-converter-vs-alternatives.html': 'guide/es/avif-jpg-converter-vs-alternatives.jsp',
+  '/guides/vi/avif-jpg-converter-when.html': 'guide/vi/avif-jpg-converter-when.jsp',
+  '/guides/vi/avif-jpg-converter-step-by-step.html': 'guide/vi/avif-jpg-converter-step-by-step.jsp',
+  '/guides/vi/avif-jpg-converter-vs-alternatives.html': 'guide/vi/avif-jpg-converter-vs-alternatives.jsp',
+  '/guides/id/avif-jpg-converter-when.html': 'guide/id/avif-jpg-converter-when.jsp',
+  '/guides/id/avif-jpg-converter-step-by-step.html': 'guide/id/avif-jpg-converter-step-by-step.jsp',
+  '/guides/id/avif-jpg-converter-vs-alternatives.html': 'guide/id/avif-jpg-converter-vs-alternatives.jsp',
+  '/guides/de/avif-jpg-converter-when.html': 'guide/de/avif-jpg-converter-when.jsp',
+  '/guides/de/avif-jpg-converter-step-by-step.html': 'guide/de/avif-jpg-converter-step-by-step.jsp',
+  '/guides/de/avif-jpg-converter-vs-alternatives.html': 'guide/de/avif-jpg-converter-vs-alternatives.jsp',
   // html-minifier-when locale fanout (create_new_guide_page 20260908-6, locale-complete 20260909-4)
   '/guides/html-minifier-when.html': 'guide/html-minifier-when.jsp',
   '/guides/pt/html-minifier-when.html': 'guide/pt/html-minifier-when.jsp',
