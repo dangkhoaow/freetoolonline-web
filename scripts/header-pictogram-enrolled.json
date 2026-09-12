@@ -61,6 +61,8 @@
     "av1towebmconverter",
     "av2codecfinalizednobrowsersupportyet",
     "avaceratops",
+    "aviftojpg",
+    "aviftopng",
     "axialtiltcomparison",
     "backgroundremover",
     "bangbangartillery",
@@ -96,6 +98,7 @@
     "cameratest",
     "cappadocia",
     "caribbeansea",
+    "carlsbadcaverns",
     "carnotaurus",
     "carringtonevent",
     "caseconverter",
@@ -469,6 +472,7 @@
     "mp3patentsexpired2017",
     "mysticcardpaw",
     "nameshuffler",
+    "namibdesert",
     "nationaldaytoday",
     "nbodysandbox",
     "neoncatchase",
@@ -594,6 +598,7 @@
     "quantumopticspuzzle",
     "quantumshift",
     "quetzalcoatlus",
+    "randomcolorgenerator",
     "randomnamepicker",
     "randomnumberpicker",
     "readinglisttracker",
@@ -832,7 +837,6 @@
     "zipfile",
     "ziptools",
     "zodiacallight",
-    "zstdextractor",
-    "randomcolorgenerator"
+    "zstdextractor"
   ]
 }
