@@ -14,9 +14,31 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  // image-ascii-art companion guides RESTORED 2026-09-19 by new-tool-discovery fire757:
+  // the same fire authored all 5 locked locale variants (pt/es/vi/id/de x 3 angles, 45 CMS
+  // fragments + 15 JSP wrappers on disk), so the EN-only deferral reason is resolved -
+  // full 18-route set registered below (G54 new-guide-locale-completeness satisfied).
+  '/guides/image-ascii-art-vs-alternatives.html',
+  '/guides/image-ascii-art-step-by-step.html',
+  '/guides/image-ascii-art-when.html',
+  '/guides/pt/image-ascii-art-step-by-step.html',
+  '/guides/pt/image-ascii-art-when.html',
+  '/guides/pt/image-ascii-art-vs-alternatives.html',
+  '/guides/es/image-ascii-art-step-by-step.html',
+  '/guides/es/image-ascii-art-when.html',
+  '/guides/es/image-ascii-art-vs-alternatives.html',
+  '/guides/vi/image-ascii-art-step-by-step.html',
+  '/guides/vi/image-ascii-art-when.html',
+  '/guides/vi/image-ascii-art-vs-alternatives.html',
+  '/guides/id/image-ascii-art-step-by-step.html',
+  '/guides/id/image-ascii-art-when.html',
+  '/guides/id/image-ascii-art-vs-alternatives.html',
+  '/guides/de/image-ascii-art-step-by-step.html',
+  '/guides/de/image-ascii-art-when.html',
+  '/guides/de/image-ascii-art-vs-alternatives.html',
+  '/guides/video-thumbnail-extractor-vs-alternatives.html',
   '/guides/video-thumbnail-extractor-step-by-step.html',
   '/guides/video-thumbnail-extractor-when.html',
-  '/guides/video-thumbnail-extractor-vs-alternatives.html',
   '/guides/pt/video-thumbnail-extractor-step-by-step.html',
   '/guides/pt/video-thumbnail-extractor-when.html',
   '/guides/pt/video-thumbnail-extractor-vs-alternatives.html',
@@ -15377,19 +15399,22 @@ export const ALIAS_ROUTES = {
   // qr-code-scanner-when doorway families into their surviving -vs-alternatives
   // keepers. Backlog items topical-map-utility.habit-tracker and
   // topical-map-utility.qr-code-scanner (1 live excess family each, 6 routes each).
-  // Section 3.5 gate re-run from graphify-out/content/graph.json: habit-tracker-when
-  // 0 clicks / 0 citations / 0 impr vs kept -step-by-step 0/1/2 and -vs-alternatives
-  // 0/0/14; qr-code-scanner-when 0/0/2 vs kept -vs-alternatives 0/1/19 and
-  // -step-by-step 0/0/44 - excess strictly weaker on clicks>citations>impressions,
-  // so no inversion (rule 2) and no all-zero triplet (rule 3). Both retired pages
-  // were thin templates whose every fact already appeared verbatim on a surviving
-  // sibling, so unique-to-excess is EMPTY. The one detail per family the 301 TARGET
-  // lacked was folded into it first (localStorage reload/clear-site-data behaviour;
-  // full-resolution photo downscale before decoding). Each keeper's pointer link to
-  // the retired route was rewritten to a live sibling and the qr tool page kept its
-  // surviving links, so no internal link is lost. Edge layer patched in the wrapper.
+  // Section 3.5 gate re-run this fire from graphify-out/content/graph.json:
+  // habit-tracker-when 0 clicks / 0 citations / 0 impr vs kept -step-by-step 0/1/2
+  // and -vs-alternatives 0/0/14; qr-code-scanner-when 0/0/2 vs kept
+  // -vs-alternatives 0/1/19 and -step-by-step 0/0/44 - the excess is strictly
+  // weaker on clicks>citations>impressions in both, so no inversion (rule 2) and
+  // no all-zero triplet (rule 3). Both retired pages were thin templates whose
+  // every fact already appeared verbatim on a surviving sibling, so the
+  // shared-fact list is non-empty and unique-to-excess is EMPTY. The one detail
+  // per family that the 301 TARGET lacked was folded into it first (local-storage
+  // reload/clear-site-data behaviour; full-resolution photo downscale before
+  // decoding). Each keeper's own pointer link to the retired route was rewritten
+  // to a live sibling, and the qr tool page's See-also line kept its surviving
+  // links, so no internal link is lost. Edge layer patched in the same push.
   // vi/habit-tracker-when 301s to the EN keeper because vi/habit-tracker-
-  // vs-alternatives is itself an alias - a locale-matched target would chain.
+  // vs-alternatives is itself an alias - a locale-matched target there would
+  // build a 301 chain.
   '/guides/habit-tracker-when.html': '/guides/habit-tracker-vs-alternatives.html',
   '/guides/pt/habit-tracker-when.html': '/guides/pt/habit-tracker-vs-alternatives.html',
   '/guides/es/habit-tracker-when.html': '/guides/es/habit-tracker-vs-alternatives.html',
@@ -17288,18 +17313,27 @@ export const ALIAS_ROUTES = {
   // (identical in-browser "add typed text to PDF" widget; only brand-name prose differs).
   // G51 same-processing-model duplicate -> retire tool to canonical via ALIAS + CloudFront 301.
   // Comparison guides (foxit-pdf-editor-browser-{when,step-by-step,vs-alternatives}) kept.
-  '/foxit-pdf-editor-browser.html': '/image-converter-tools/client-side-pdf-editor-toolkit.html',
-  '/image-converter-tools/foxit-pdf-editor-browser.html': '/image-converter-tools/client-side-pdf-editor-toolkit.html',
-  '/adobe-pdf-editor-browser.html': '/image-converter-tools/adobe-pdf-editor-browser.html',
-  '/pdf-xchange-editor-browser-plugin-edge.html': '/image-converter-tools/pdf-xchange-editor-browser-plugin-edge.html',
-  '/client-side-pdf-editor-toolkit.html': '/image-converter-tools/client-side-pdf-editor-toolkit.html',
-  '/devtools-style-pdf-element-inspector-editor-android.html': '/image-converter-tools/client-side-pdf-editor-toolkit.html',
-  // Retired 2026-08-23 (Phase 6 cluster-narrative axis_F CRITICAL, granted card
-  // phase6-cluster-imageconversion-structural-20260822-5): devtools-style-...-android
-  // was a byte-identical (paragraph_jaccard 1.0) SEO-spam clone of client-side-pdf-editor-toolkit
-  // (same "add typed text to a PDF" widget, one merely labelled "for Android"). G51 same-processing-model
-  // duplicate -> retire to canonical via ALIAS + CloudFront 301.
-  '/image-converter-tools/devtools-style-pdf-element-inspector-editor-android.html': '/image-converter-tools/client-side-pdf-editor-toolkit.html',
+  // Retired 2026-08-23, then fully consolidated 2026-09-19 (granted card
+  // phase6-cluster-critical-image-conversion-1789775500, Phase 6 cluster-narrative
+  // axis_E + axis_F CONSENSUS-FAIL, both models agree). The "add one typed line of
+  // text to a PDF page at an X%/Y% position" widget shipped as 5 near-identical clones
+  // (client-side-pdf-editor-toolkit / adobe-pdf-editor-browser / pdf-xchange-editor-
+  // browser-plugin-edge / foxit-pdf-editor-browser / devtools-style-...-android) under
+  // /image-converter-tools/ - identical task, features, and limits (jaccard 0.412),
+  // branded-query doorways with ~0 clicks. Consolidated ALL into the canonical
+  // /pdf-tools/pdf-editor-online.html (identical widget, correct pdf cluster, honest
+  // name) via ALIAS + CloudFront 301, pointed direct (no 301 chain). Comparison guides
+  // (foxit-pdf-editor-browser-{when,step-by-step,vs-alternatives}) kept.
+  '/foxit-pdf-editor-browser.html': '/pdf-tools/pdf-editor-online.html',
+  '/image-converter-tools/foxit-pdf-editor-browser.html': '/pdf-tools/pdf-editor-online.html',
+  '/adobe-pdf-editor-browser.html': '/pdf-tools/pdf-editor-online.html',
+  '/image-converter-tools/adobe-pdf-editor-browser.html': '/pdf-tools/pdf-editor-online.html',
+  '/pdf-xchange-editor-browser-plugin-edge.html': '/pdf-tools/pdf-editor-online.html',
+  '/image-converter-tools/pdf-xchange-editor-browser-plugin-edge.html': '/pdf-tools/pdf-editor-online.html',
+  '/client-side-pdf-editor-toolkit.html': '/pdf-tools/pdf-editor-online.html',
+  '/image-converter-tools/client-side-pdf-editor-toolkit.html': '/pdf-tools/pdf-editor-online.html',
+  '/devtools-style-pdf-element-inspector-editor-android.html': '/pdf-tools/pdf-editor-online.html',
+  '/image-converter-tools/devtools-style-pdf-element-inspector-editor-android.html': '/pdf-tools/pdf-editor-online.html',
   // vi-batch-6 Phase-B: 301 alias to EN canonical (guide-farm-prune-runbook fire 339)
   '/guides/vi/how-to-play-star-fuel-battle.html': '/guides/how-to-play-star-fuel-battle.html',
   '/guides/vi/how-to-play-starlight-breaker.html': '/guides/how-to-play-starlight-breaker.html',
@@ -17601,6 +17635,7 @@ export const ALIAS_ROUTES = {
   '/guides/id/uranus-tilt-vs-alternatives.html': '/guides/id/uranus-tilt-step-by-step.html',
   '/guides/de/uranus-tilt-vs-alternatives.html': '/guides/de/uranus-tilt-step-by-step.html',
   '/video-thumbnail-extractor.html': '/video-tools/video-thumbnail-extractor.html',
+  '/image-to-ascii-art.html': '/image-converter-tools/image-to-ascii-art.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -29709,7 +29744,7 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/foxit-pdf-editor-browser-vs-alternatives.html': 'guide/vi/foxit-pdf-editor-browser-vs-alternatives.jsp',
   '/guides/id/foxit-pdf-editor-browser-vs-alternatives.html': 'guide/id/foxit-pdf-editor-browser-vs-alternatives.jsp',
   '/guides/de/foxit-pdf-editor-browser-vs-alternatives.html': 'guide/de/foxit-pdf-editor-browser-vs-alternatives.jsp',
-  '/image-converter-tools/adobe-pdf-editor-browser.html': 'convert/adobe-pdf-editor-browser.jsp',
+  // '/image-converter-tools/adobe-pdf-editor-browser.html' retired 2026-09-19 -> ALIAS to /pdf-tools/pdf-editor-online.html (Phase 6 image-conversion consolidation).
   '/guides/pt/adobe-pdf-editor-browser-when.html': 'guide/pt/adobe-pdf-editor-browser-when.jsp',
   '/guides/es/adobe-pdf-editor-browser-when.html': 'guide/es/adobe-pdf-editor-browser-when.jsp',
   '/guides/vi/adobe-pdf-editor-browser-when.html': 'guide/vi/adobe-pdf-editor-browser-when.jsp',
@@ -29728,7 +29763,7 @@ export const JSP_BY_ROUTE = {
   '/guides/adobe-pdf-editor-browser-when.html': 'guide/adobe-pdf-editor-browser-when.jsp',
   '/guides/adobe-pdf-editor-browser-step-by-step.html': 'guide/adobe-pdf-editor-browser-step-by-step.jsp',
   '/guides/adobe-pdf-editor-browser-vs-alternatives.html': 'guide/adobe-pdf-editor-browser-vs-alternatives.jsp',
-  '/image-converter-tools/pdf-xchange-editor-browser-plugin-edge.html': 'convert/pdf-xchange-editor-browser-plugin-edge.jsp',
+  // '/image-converter-tools/pdf-xchange-editor-browser-plugin-edge.html' retired 2026-09-19 -> ALIAS to /pdf-tools/pdf-editor-online.html (Phase 6 image-conversion consolidation).
   '/guides/pdf-xchange-editor-browser-plugin-edge-when.html': 'guide/pdf-xchange-editor-browser-plugin-edge-when.jsp',
   '/guides/pt/pdf-xchange-editor-browser-plugin-edge-when.html': 'guide/pt/pdf-xchange-editor-browser-plugin-edge-when.jsp',
   '/guides/es/pdf-xchange-editor-browser-plugin-edge-when.html': 'guide/es/pdf-xchange-editor-browser-plugin-edge-when.jsp',
@@ -29747,7 +29782,7 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/pdf-xchange-editor-browser-plugin-edge-vs-alternatives.html': 'guide/vi/pdf-xchange-editor-browser-plugin-edge-vs-alternatives.jsp',
   '/guides/id/pdf-xchange-editor-browser-plugin-edge-vs-alternatives.html': 'guide/id/pdf-xchange-editor-browser-plugin-edge-vs-alternatives.jsp',
   '/guides/de/pdf-xchange-editor-browser-plugin-edge-vs-alternatives.html': 'guide/de/pdf-xchange-editor-browser-plugin-edge-vs-alternatives.jsp',
-  '/image-converter-tools/client-side-pdf-editor-toolkit.html': 'convert/client-side-pdf-editor-toolkit.jsp',
+  // '/image-converter-tools/client-side-pdf-editor-toolkit.html' retired 2026-09-19 -> ALIAS to /pdf-tools/pdf-editor-online.html (Phase 6 image-conversion consolidation).
   '/guides/client-side-pdf-editor-toolkit-when.html': 'guide/client-side-pdf-editor-toolkit-when.jsp',
   '/guides/pt/client-side-pdf-editor-toolkit-when.html': 'guide/pt/client-side-pdf-editor-toolkit-when.jsp',
   '/guides/id/client-side-pdf-editor-toolkit-when.html': 'guide/id/client-side-pdf-editor-toolkit-when.jsp',
@@ -29794,44 +29829,6 @@ export const JSP_BY_ROUTE = {
   '/guides/de/food-recall-lookup-when.html': 'guide/de/food-recall-lookup-when.jsp',
   '/guides/de/food-recall-lookup-vs-alternatives.html': 'guide/de/food-recall-lookup-vs-alternatives.jsp',
   '/utility-tools/drug-recall-lookup.html': 'utility/drug-recall-lookup.jsp',
-  '/utility-tools/product-recall-lookup.html': 'utility/product-recall-lookup.jsp',
-  '/utility-tools/social-security-cola-estimator.html': 'utility/social-security-cola-estimator.jsp',
-  '/guides/social-security-cola-estimator-step-by-step.html': 'guide/social-security-cola-estimator-step-by-step.jsp',
-  '/guides/social-security-cola-estimator-when.html': 'guide/social-security-cola-estimator-when.jsp',
-  '/guides/social-security-cola-estimator-vs-alternatives.html': 'guide/social-security-cola-estimator-vs-alternatives.jsp',
-  '/guides/pt/social-security-cola-estimator-step-by-step.html': 'guide/pt/social-security-cola-estimator-step-by-step.jsp',
-  '/guides/pt/social-security-cola-estimator-when.html': 'guide/pt/social-security-cola-estimator-when.jsp',
-  '/guides/pt/social-security-cola-estimator-vs-alternatives.html': 'guide/pt/social-security-cola-estimator-vs-alternatives.jsp',
-  '/guides/es/social-security-cola-estimator-step-by-step.html': 'guide/es/social-security-cola-estimator-step-by-step.jsp',
-  '/guides/es/social-security-cola-estimator-when.html': 'guide/es/social-security-cola-estimator-when.jsp',
-  '/guides/es/social-security-cola-estimator-vs-alternatives.html': 'guide/es/social-security-cola-estimator-vs-alternatives.jsp',
-  '/guides/vi/social-security-cola-estimator-step-by-step.html': 'guide/vi/social-security-cola-estimator-step-by-step.jsp',
-  '/guides/vi/social-security-cola-estimator-when.html': 'guide/vi/social-security-cola-estimator-when.jsp',
-  '/guides/vi/social-security-cola-estimator-vs-alternatives.html': 'guide/vi/social-security-cola-estimator-vs-alternatives.jsp',
-  '/guides/id/social-security-cola-estimator-step-by-step.html': 'guide/id/social-security-cola-estimator-step-by-step.jsp',
-  '/guides/id/social-security-cola-estimator-when.html': 'guide/id/social-security-cola-estimator-when.jsp',
-  '/guides/id/social-security-cola-estimator-vs-alternatives.html': 'guide/id/social-security-cola-estimator-vs-alternatives.jsp',
-  '/guides/de/social-security-cola-estimator-step-by-step.html': 'guide/de/social-security-cola-estimator-step-by-step.jsp',
-  '/guides/de/social-security-cola-estimator-when.html': 'guide/de/social-security-cola-estimator-when.jsp',
-  '/guides/de/social-security-cola-estimator-vs-alternatives.html': 'guide/de/social-security-cola-estimator-vs-alternatives.jsp',
-  '/guides/product-recall-lookup-step-by-step.html': 'guide/product-recall-lookup-step-by-step.jsp',
-  '/guides/product-recall-lookup-when.html': 'guide/product-recall-lookup-when.jsp',
-  '/guides/product-recall-lookup-vs-alternatives.html': 'guide/product-recall-lookup-vs-alternatives.jsp',
-  '/guides/pt/product-recall-lookup-step-by-step.html': 'guide/pt/product-recall-lookup-step-by-step.jsp',
-  '/guides/pt/product-recall-lookup-when.html': 'guide/pt/product-recall-lookup-when.jsp',
-  '/guides/pt/product-recall-lookup-vs-alternatives.html': 'guide/pt/product-recall-lookup-vs-alternatives.jsp',
-  '/guides/es/product-recall-lookup-step-by-step.html': 'guide/es/product-recall-lookup-step-by-step.jsp',
-  '/guides/es/product-recall-lookup-when.html': 'guide/es/product-recall-lookup-when.jsp',
-  '/guides/es/product-recall-lookup-vs-alternatives.html': 'guide/es/product-recall-lookup-vs-alternatives.jsp',
-  '/guides/vi/product-recall-lookup-step-by-step.html': 'guide/vi/product-recall-lookup-step-by-step.jsp',
-  '/guides/vi/product-recall-lookup-when.html': 'guide/vi/product-recall-lookup-when.jsp',
-  '/guides/vi/product-recall-lookup-vs-alternatives.html': 'guide/vi/product-recall-lookup-vs-alternatives.jsp',
-  '/guides/id/product-recall-lookup-step-by-step.html': 'guide/id/product-recall-lookup-step-by-step.jsp',
-  '/guides/id/product-recall-lookup-when.html': 'guide/id/product-recall-lookup-when.jsp',
-  '/guides/id/product-recall-lookup-vs-alternatives.html': 'guide/id/product-recall-lookup-vs-alternatives.jsp',
-  '/guides/de/product-recall-lookup-step-by-step.html': 'guide/de/product-recall-lookup-step-by-step.jsp',
-  '/guides/de/product-recall-lookup-when.html': 'guide/de/product-recall-lookup-when.jsp',
-  '/guides/de/product-recall-lookup-vs-alternatives.html': 'guide/de/product-recall-lookup-vs-alternatives.jsp',
   '/guides/drug-recall-lookup-step-by-step.html': 'guide/drug-recall-lookup-step-by-step.jsp',
   '/guides/drug-recall-lookup-when.html': 'guide/drug-recall-lookup-when.jsp',
   '/guides/drug-recall-lookup-vs-alternatives.html': 'guide/drug-recall-lookup-vs-alternatives.jsp',
@@ -30221,9 +30218,47 @@ export const JSP_BY_ROUTE = {
   '/guides/vi/avif-png-converter-vs-alternatives.html': 'guide/vi/avif-png-converter-vs-alternatives.jsp',
   '/guides/id/avif-png-converter-vs-alternatives.html': 'guide/id/avif-png-converter-vs-alternatives.jsp',
   '/guides/de/avif-png-converter-vs-alternatives.html': 'guide/de/avif-png-converter-vs-alternatives.jsp',
+  '/utility-tools/product-recall-lookup.html': 'utility/product-recall-lookup.jsp',
+  '/guides/product-recall-lookup-step-by-step.html': 'guide/product-recall-lookup-step-by-step.jsp',
+  '/guides/product-recall-lookup-when.html': 'guide/product-recall-lookup-when.jsp',
+  '/guides/product-recall-lookup-vs-alternatives.html': 'guide/product-recall-lookup-vs-alternatives.jsp',
+  '/guides/pt/product-recall-lookup-step-by-step.html': 'guide/pt/product-recall-lookup-step-by-step.jsp',
+  '/guides/pt/product-recall-lookup-when.html': 'guide/pt/product-recall-lookup-when.jsp',
+  '/guides/pt/product-recall-lookup-vs-alternatives.html': 'guide/pt/product-recall-lookup-vs-alternatives.jsp',
+  '/guides/es/product-recall-lookup-step-by-step.html': 'guide/es/product-recall-lookup-step-by-step.jsp',
+  '/guides/es/product-recall-lookup-when.html': 'guide/es/product-recall-lookup-when.jsp',
+  '/guides/es/product-recall-lookup-vs-alternatives.html': 'guide/es/product-recall-lookup-vs-alternatives.jsp',
+  '/guides/vi/product-recall-lookup-step-by-step.html': 'guide/vi/product-recall-lookup-step-by-step.jsp',
+  '/guides/vi/product-recall-lookup-when.html': 'guide/vi/product-recall-lookup-when.jsp',
+  '/guides/vi/product-recall-lookup-vs-alternatives.html': 'guide/vi/product-recall-lookup-vs-alternatives.jsp',
+  '/guides/id/product-recall-lookup-step-by-step.html': 'guide/id/product-recall-lookup-step-by-step.jsp',
+  '/guides/id/product-recall-lookup-when.html': 'guide/id/product-recall-lookup-when.jsp',
+  '/guides/id/product-recall-lookup-vs-alternatives.html': 'guide/id/product-recall-lookup-vs-alternatives.jsp',
+  '/guides/de/product-recall-lookup-step-by-step.html': 'guide/de/product-recall-lookup-step-by-step.jsp',
+  '/guides/de/product-recall-lookup-when.html': 'guide/de/product-recall-lookup-when.jsp',
+  '/guides/de/product-recall-lookup-vs-alternatives.html': 'guide/de/product-recall-lookup-vs-alternatives.jsp',
+  '/utility-tools/social-security-cola-estimator.html': 'utility/social-security-cola-estimator.jsp',
+  '/guides/social-security-cola-estimator-step-by-step.html': 'guide/social-security-cola-estimator-step-by-step.jsp',
+  '/guides/social-security-cola-estimator-when.html': 'guide/social-security-cola-estimator-when.jsp',
+  '/guides/social-security-cola-estimator-vs-alternatives.html': 'guide/social-security-cola-estimator-vs-alternatives.jsp',
+  '/guides/pt/social-security-cola-estimator-step-by-step.html': 'guide/pt/social-security-cola-estimator-step-by-step.jsp',
+  '/guides/pt/social-security-cola-estimator-when.html': 'guide/pt/social-security-cola-estimator-when.jsp',
+  '/guides/pt/social-security-cola-estimator-vs-alternatives.html': 'guide/pt/social-security-cola-estimator-vs-alternatives.jsp',
+  '/guides/es/social-security-cola-estimator-step-by-step.html': 'guide/es/social-security-cola-estimator-step-by-step.jsp',
+  '/guides/es/social-security-cola-estimator-when.html': 'guide/es/social-security-cola-estimator-when.jsp',
+  '/guides/es/social-security-cola-estimator-vs-alternatives.html': 'guide/es/social-security-cola-estimator-vs-alternatives.jsp',
+  '/guides/vi/social-security-cola-estimator-step-by-step.html': 'guide/vi/social-security-cola-estimator-step-by-step.jsp',
+  '/guides/vi/social-security-cola-estimator-when.html': 'guide/vi/social-security-cola-estimator-when.jsp',
+  '/guides/vi/social-security-cola-estimator-vs-alternatives.html': 'guide/vi/social-security-cola-estimator-vs-alternatives.jsp',
+  '/guides/id/social-security-cola-estimator-step-by-step.html': 'guide/id/social-security-cola-estimator-step-by-step.jsp',
+  '/guides/id/social-security-cola-estimator-when.html': 'guide/id/social-security-cola-estimator-when.jsp',
+  '/guides/id/social-security-cola-estimator-vs-alternatives.html': 'guide/id/social-security-cola-estimator-vs-alternatives.jsp',
+  '/guides/de/social-security-cola-estimator-step-by-step.html': 'guide/de/social-security-cola-estimator-step-by-step.jsp',
+  '/guides/de/social-security-cola-estimator-when.html': 'guide/de/social-security-cola-estimator-when.jsp',
+  '/guides/de/social-security-cola-estimator-vs-alternatives.html': 'guide/de/social-security-cola-estimator-vs-alternatives.jsp',
   '/video-tools/video-thumbnail-extractor.html': 'convert/video-thumbnail-extractor.jsp',
-  '/guides/video-thumbnail-extractor-step-by-step.html': 'guide/video-thumbnail-extractor-step-by-step.jsp',
   '/guides/video-thumbnail-extractor-when.html': 'guide/video-thumbnail-extractor-when.jsp',
+  '/guides/video-thumbnail-extractor-step-by-step.html': 'guide/video-thumbnail-extractor-step-by-step.jsp',
   '/guides/video-thumbnail-extractor-vs-alternatives.html': 'guide/video-thumbnail-extractor-vs-alternatives.jsp',
   '/guides/pt/video-thumbnail-extractor-step-by-step.html': 'guide/pt/video-thumbnail-extractor-step-by-step.jsp',
   '/guides/pt/video-thumbnail-extractor-when.html': 'guide/pt/video-thumbnail-extractor-when.jsp',
@@ -30240,6 +30275,27 @@ export const JSP_BY_ROUTE = {
   '/guides/de/video-thumbnail-extractor-step-by-step.html': 'guide/de/video-thumbnail-extractor-step-by-step.jsp',
   '/guides/de/video-thumbnail-extractor-when.html': 'guide/de/video-thumbnail-extractor-when.jsp',
   '/guides/de/video-thumbnail-extractor-vs-alternatives.html': 'guide/de/video-thumbnail-extractor-vs-alternatives.jsp',
+  '/image-converter-tools/image-to-ascii-art.html': 'convert/image-to-ascii-art.jsp',
+  // image-ascii-art guide routes RESTORED 2026-09-19 by new-tool-discovery fire757 with the
+  // full locale set (EN + pt/es/vi/id/de x 3 angles = 18 routes; G54 satisfied).
+  '/guides/image-ascii-art-when.html': 'guide/image-ascii-art-when.jsp',
+  '/guides/image-ascii-art-step-by-step.html': 'guide/image-ascii-art-step-by-step.jsp',
+  '/guides/image-ascii-art-vs-alternatives.html': 'guide/image-ascii-art-vs-alternatives.jsp',
+  '/guides/pt/image-ascii-art-when.html': 'guide/pt/image-ascii-art-when.jsp',
+  '/guides/pt/image-ascii-art-step-by-step.html': 'guide/pt/image-ascii-art-step-by-step.jsp',
+  '/guides/pt/image-ascii-art-vs-alternatives.html': 'guide/pt/image-ascii-art-vs-alternatives.jsp',
+  '/guides/es/image-ascii-art-when.html': 'guide/es/image-ascii-art-when.jsp',
+  '/guides/es/image-ascii-art-step-by-step.html': 'guide/es/image-ascii-art-step-by-step.jsp',
+  '/guides/es/image-ascii-art-vs-alternatives.html': 'guide/es/image-ascii-art-vs-alternatives.jsp',
+  '/guides/vi/image-ascii-art-when.html': 'guide/vi/image-ascii-art-when.jsp',
+  '/guides/vi/image-ascii-art-step-by-step.html': 'guide/vi/image-ascii-art-step-by-step.jsp',
+  '/guides/vi/image-ascii-art-vs-alternatives.html': 'guide/vi/image-ascii-art-vs-alternatives.jsp',
+  '/guides/id/image-ascii-art-when.html': 'guide/id/image-ascii-art-when.jsp',
+  '/guides/id/image-ascii-art-step-by-step.html': 'guide/id/image-ascii-art-step-by-step.jsp',
+  '/guides/id/image-ascii-art-vs-alternatives.html': 'guide/id/image-ascii-art-vs-alternatives.jsp',
+  '/guides/de/image-ascii-art-when.html': 'guide/de/image-ascii-art-when.jsp',
+  '/guides/de/image-ascii-art-step-by-step.html': 'guide/de/image-ascii-art-step-by-step.jsp',
+  '/guides/de/image-ascii-art-vs-alternatives.html': 'guide/de/image-ascii-art-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
