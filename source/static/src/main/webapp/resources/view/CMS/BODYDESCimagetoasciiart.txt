@@ -1,0 +1,1 @@
+Turn any photo into ASCII character art in your browser. Pick 40 to 240 columns, four palettes, invert for terminal use, download as .txt or PNG. No upload.
