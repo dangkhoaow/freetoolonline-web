@@ -11,18 +11,18 @@
 <h2 class="text-uppercase"><b>Frequently Asked Questions</b></h2>
 
 <details class="faq-item">
-  <summary>What does Image Color Palette Extractor do?</summary>
-  <p>Pick a color and read its HEX, RGB, and HSL values side by side.</p>
+  <summary>How does it decide which colors to return?</summary>
+  <p>It draws your image onto an HTML5 canvas, downscales it for speed, and groups near-identical pixels to find the most frequent tones. Each swatch is a dominant color from the image, ranked by how much of the picture it covers, so you get the colors that define the photo rather than a handful of random pixels.</p>
 </details>
 
 <details class="faq-item">
-  <summary>When should I reach for image color palette extractor?</summary>
-  <p>Copy any of the HEX, RGB, or HSL strings with one click.</p>
+  <summary>Will the extracted colors exactly match my image?</summary>
+  <p>They match the image's dominant tones, not every pixel: because similar pixels are grouped and averaged, a swatch is the blended average of a range of near-identical colors. If you need one precise shade or a brand-new color from scratch, use the Color Picker instead - the extractor only reports colors that are already in your image.</p>
 </details>
 
 <details class="faq-item">
   <summary>What complementary tools work well alongside image color palette extractor?</summary>
-  <p>For converting between color formats in bulk, see the related developer tools.</p>
+  <p>To pick one exact shade on a color wheel, use the Color Picker; to test text-and-background contrast, use the WCAG Contrast Checker.</p>
 </details>
 
 </div>
