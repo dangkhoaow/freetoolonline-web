@@ -14,6 +14,24 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/discount-calculator-vs-alternatives.html',
+  '/guides/discount-calculator-step-by-step.html',
+  '/guides/discount-calculator-when.html',
+  '/guides/pt/discount-calculator-step-by-step.html',
+  '/guides/pt/discount-calculator-when.html',
+  '/guides/pt/discount-calculator-vs-alternatives.html',
+  '/guides/es/discount-calculator-step-by-step.html',
+  '/guides/es/discount-calculator-when.html',
+  '/guides/es/discount-calculator-vs-alternatives.html',
+  '/guides/vi/discount-calculator-step-by-step.html',
+  '/guides/vi/discount-calculator-when.html',
+  '/guides/vi/discount-calculator-vs-alternatives.html',
+  '/guides/id/discount-calculator-step-by-step.html',
+  '/guides/id/discount-calculator-when.html',
+  '/guides/id/discount-calculator-vs-alternatives.html',
+  '/guides/de/discount-calculator-step-by-step.html',
+  '/guides/de/discount-calculator-when.html',
+  '/guides/de/discount-calculator-vs-alternatives.html',
   '/guides/hourly-to-salary-calculator-vs-alternatives.html',
   '/guides/hourly-to-salary-calculator-step-by-step.html',
   '/guides/hourly-to-salary-calculator-when.html',
@@ -17826,6 +17844,7 @@ export const ALIAS_ROUTES = {
   '/fuel-cost-calculator.html': '/utility-tools/fuel-cost-calculator.html',
   '/ovulation-calculator.html': '/utility-tools/ovulation-calculator.html',
   '/hourly-to-salary-calculator.html': '/utility-tools/hourly-to-salary-calculator.html',
+  '/discount-calculator.html': '/utility-tools/discount-calculator.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -18121,6 +18140,8 @@ export const JSP_BY_ROUTE = {
   // Phase 16 Cycle B P16.G1 hub + P16.N11 + P16.N16.
   '/guides.html': 'utility/guides.jsp',
   '/guides/en/how-to-convert-heic-to-jpg-step-by-step.html': 'guide/en/how-to-convert-heic-to-jpg-step-by-step.jsp',
+  // cycle 20261001-6 mirror: wire locale JSP mappings (routes list-registered 2026-07-29, never JSP-mapped -> 404). JSP wrappers + CMS fragments already on prod.
+  '/guides/pt/how-to-convert-heic-to-jpg-step-by-step.html': 'guide/pt/how-to-convert-heic-to-jpg-step-by-step.jsp', '/guides/es/how-to-convert-heic-to-jpg-step-by-step.html': 'guide/es/how-to-convert-heic-to-jpg-step-by-step.jsp', '/guides/vi/how-to-convert-heic-to-jpg-step-by-step.html': 'guide/vi/how-to-convert-heic-to-jpg-step-by-step.jsp', '/guides/de/how-to-convert-heic-to-jpg-step-by-step.html': 'guide/de/how-to-convert-heic-to-jpg-step-by-step.jsp',
   '/guides/en/what-an-lcd-test-does-and-when-to-run-one.html': 'guide/en/what-an-lcd-test-does-and-when-to-run-one.jsp',
   // Cycle 20260517-6 create_new_guide_page - "ms to date" synonym-coverage guide.
   '/guides/en/ms-to-date.html': 'guide/en/ms-to-date.jsp',
@@ -30504,6 +30525,25 @@ export const JSP_BY_ROUTE = {
   '/guides/de/hourly-to-salary-calculator-step-by-step.html': 'guide/de/hourly-to-salary-calculator-step-by-step.jsp',
   '/guides/de/hourly-to-salary-calculator-when.html': 'guide/de/hourly-to-salary-calculator-when.jsp',
   '/guides/de/hourly-to-salary-calculator-vs-alternatives.html': 'guide/de/hourly-to-salary-calculator-vs-alternatives.jsp',
+  '/utility-tools/discount-calculator.html': 'utility/discount-calculator.jsp',
+  '/guides/discount-calculator-when.html': 'guide/discount-calculator-when.jsp',
+  '/guides/discount-calculator-step-by-step.html': 'guide/discount-calculator-step-by-step.jsp',
+  '/guides/discount-calculator-vs-alternatives.html': 'guide/discount-calculator-vs-alternatives.jsp',
+  '/guides/pt/discount-calculator-step-by-step.html': 'guide/pt/discount-calculator-step-by-step.jsp',
+  '/guides/pt/discount-calculator-when.html': 'guide/pt/discount-calculator-when.jsp',
+  '/guides/pt/discount-calculator-vs-alternatives.html': 'guide/pt/discount-calculator-vs-alternatives.jsp',
+  '/guides/es/discount-calculator-step-by-step.html': 'guide/es/discount-calculator-step-by-step.jsp',
+  '/guides/es/discount-calculator-when.html': 'guide/es/discount-calculator-when.jsp',
+  '/guides/es/discount-calculator-vs-alternatives.html': 'guide/es/discount-calculator-vs-alternatives.jsp',
+  '/guides/vi/discount-calculator-step-by-step.html': 'guide/vi/discount-calculator-step-by-step.jsp',
+  '/guides/vi/discount-calculator-when.html': 'guide/vi/discount-calculator-when.jsp',
+  '/guides/vi/discount-calculator-vs-alternatives.html': 'guide/vi/discount-calculator-vs-alternatives.jsp',
+  '/guides/id/discount-calculator-step-by-step.html': 'guide/id/discount-calculator-step-by-step.jsp',
+  '/guides/id/discount-calculator-when.html': 'guide/id/discount-calculator-when.jsp',
+  '/guides/id/discount-calculator-vs-alternatives.html': 'guide/id/discount-calculator-vs-alternatives.jsp',
+  '/guides/de/discount-calculator-step-by-step.html': 'guide/de/discount-calculator-step-by-step.jsp',
+  '/guides/de/discount-calculator-when.html': 'guide/de/discount-calculator-when.jsp',
+  '/guides/de/discount-calculator-vs-alternatives.html': 'guide/de/discount-calculator-vs-alternatives.jsp',
   '/guides/fuel-cost-calculator-when.html': 'guide/fuel-cost-calculator-when.jsp',
   '/guides/fuel-cost-calculator-step-by-step.html': 'guide/fuel-cost-calculator-step-by-step.jsp',
   '/guides/fuel-cost-calculator-vs-alternatives.html': 'guide/fuel-cost-calculator-vs-alternatives.jsp',
