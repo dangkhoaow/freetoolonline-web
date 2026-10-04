@@ -14,6 +14,9 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/hevc-converter-mov-vs-alternatives.html',
+  '/guides/hevc-converter-mov-step-by-step.html',
+  '/guides/hevc-converter-mov-when.html',
   '/guides/markup-calculator-vs-alternatives.html',
   '/guides/markup-calculator-step-by-step.html',
   '/guides/markup-calculator-when.html',
@@ -17905,6 +17908,7 @@ export const ALIAS_ROUTES = {
   '/time-card-calculator.html': '/utility-tools/time-card-calculator.html',
   '/pace-calculator.html': '/utility-tools/pace-calculator.html',
   '/markup-calculator.html': '/utility-tools/markup-calculator.html',
+  '/hevc-converter-mov.html': '/image-converter-tools/hevc-converter-mov.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -30679,6 +30683,10 @@ export const JSP_BY_ROUTE = {
   '/guides/de/fuel-cost-calculator-step-by-step.html': 'guide/de/fuel-cost-calculator-step-by-step.jsp',
   '/guides/de/fuel-cost-calculator-when.html': 'guide/de/fuel-cost-calculator-when.jsp',
   '/guides/de/fuel-cost-calculator-vs-alternatives.html': 'guide/de/fuel-cost-calculator-vs-alternatives.jsp',
+  '/image-converter-tools/hevc-converter-mov.html': 'convert/hevc-converter-mov.jsp',
+  '/guides/hevc-converter-mov-when.html': 'guide/hevc-converter-mov-when.jsp',
+  '/guides/hevc-converter-mov-step-by-step.html': 'guide/hevc-converter-mov-step-by-step.jsp',
+  '/guides/hevc-converter-mov-vs-alternatives.html': 'guide/hevc-converter-mov-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
