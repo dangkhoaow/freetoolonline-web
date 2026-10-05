@@ -1017,6 +1017,7 @@ try {
     { title: "CMYK to RGB Converter Online", url: "https://freetoolonline.com/developer-tools/cmyk-to-rgb-converter.html", include: !1, tags: "developer" },
     { title: "Random Color Generator Online", url: "https://freetoolonline.com/developer-tools/random-color-generator.html", include: !1, tags: "developer" },
     { title: "Color Palette Generator Online", url: "https://freetoolonline.com/developer-tools/color-palette-generator.html", include: !1, tags: "developer" },
+    { title: "PCFG Password Cracking Patterns Generator in Pure Go 2026", url: "https://freetoolonline.com/developer-tools/pcfg-password-cracking-patterns-generator-pure-go-2026.html", include: !1, tags: "developer" },
     { title: "AI Story Generator - Offline, Private, No Sign-Up", url: "https://freetoolonline.com/utility-tools/ai-story-generator.html", include: !1, tags: "utility" },
     { title: "AVIF to JPG Converter", url: "https://freetoolonline.com/image-converter-tools/avif-to-jpg.html", include: !1, tags: "image-conversion" },
     { title: "AVIF to PNG Converter", url: "https://freetoolonline.com/image-converter-tools/avif-to-png.html", include: !1, tags: "image-conversion" },
