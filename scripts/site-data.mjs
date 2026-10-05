@@ -7216,6 +7216,12 @@ export const INFO_ROUTES = new Set([
   '/guides/de/strong-lensing-multiple-images-step-by-step.html',
   '/guides/de/strong-lensing-multiple-images-when.html',
   '/guides/de/strong-lensing-multiple-images-vs-alternatives.html',
+  '/guides/hevc-converter-mov-step-by-step.html',
+  '/guides/pt/hevc-converter-mov-step-by-step.html',
+  '/guides/es/hevc-converter-mov-step-by-step.html',
+  '/guides/vi/hevc-converter-mov-step-by-step.html',
+  '/guides/id/hevc-converter-mov-step-by-step.html',
+  '/guides/de/hevc-converter-mov-step-by-step.html', // hevc-converter-mov-step-by-step de locale fanout (locale completion 20261005-4)
   // interstellar-travel-timescales companion guides (space-3d-discovery-loop LEAN fire, 2026-07-26)
   '/guides/interstellar-travel-timescales-step-by-step.html',
   '/guides/interstellar-travel-timescales-when.html',
@@ -14239,6 +14245,12 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/strong-lensing-multiple-images-step-by-step.html',
   '/guides/de/strong-lensing-multiple-images-when.html',
   '/guides/de/strong-lensing-multiple-images-vs-alternatives.html',
+  '/guides/hevc-converter-mov-step-by-step.html',
+  '/guides/pt/hevc-converter-mov-step-by-step.html',
+  '/guides/es/hevc-converter-mov-step-by-step.html',
+  '/guides/vi/hevc-converter-mov-step-by-step.html',
+  '/guides/id/hevc-converter-mov-step-by-step.html',
+  '/guides/de/hevc-converter-mov-step-by-step.html', // hevc-converter-mov-step-by-step de locale fanout (locale completion 20261005-4)
   // interstellar-travel-timescales companion guides (space-3d-discovery-loop LEAN fire, 2026-07-26)
   '/guides/interstellar-travel-timescales-step-by-step.html',
   '/guides/interstellar-travel-timescales-when.html',
@@ -30683,6 +30695,12 @@ export const JSP_BY_ROUTE = {
   '/guides/de/fuel-cost-calculator-when.html': 'guide/de/fuel-cost-calculator-when.jsp',
   '/guides/de/fuel-cost-calculator-vs-alternatives.html': 'guide/de/fuel-cost-calculator-vs-alternatives.jsp',
   '/image-converter-tools/hevc-converter-mov.html': 'convert/hevc-converter-mov.jsp',
+  '/guides/hevc-converter-mov-step-by-step.html': 'guide/hevc-converter-mov-step-by-step.jsp',
+  '/guides/pt/hevc-converter-mov-step-by-step.html': 'guide/pt/hevc-converter-mov-step-by-step.jsp',
+  '/guides/es/hevc-converter-mov-step-by-step.html': 'guide/es/hevc-converter-mov-step-by-step.jsp',
+  '/guides/vi/hevc-converter-mov-step-by-step.html': 'guide/vi/hevc-converter-mov-step-by-step.jsp',
+  '/guides/id/hevc-converter-mov-step-by-step.html': 'guide/id/hevc-converter-mov-step-by-step.jsp',
+  '/guides/de/hevc-converter-mov-step-by-step.html': 'guide/de/hevc-converter-mov-step-by-step.jsp', // hevc-converter-mov-step-by-step de locale fanout (locale completion 20261005-4)
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
