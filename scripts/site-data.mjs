@@ -14,6 +14,48 @@ export const DEFAULT_BGS_COLLECTION = '[]';
 export const DEFAULT_IO_INFOS = '[]';
 
 export const INFO_ROUTES = new Set([
+  '/guides/pt/hevc-converter-mov-when.html', // hevc-converter-mov-when pt locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/es/hevc-converter-mov-when.html', // hevc-converter-mov-when es locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/vi/hevc-converter-mov-when.html', // hevc-converter-mov-when vi locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/id/hevc-converter-mov-when.html', // hevc-converter-mov-when id locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/de/hevc-converter-mov-when.html', // hevc-converter-mov-when de locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/pt/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html', // pcfg-password-cracking-patterns-generator-pure-go-2026-when pt locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/es/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html', // pcfg-password-cracking-patterns-generator-pure-go-2026-when es locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/vi/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html', // pcfg-password-cracking-patterns-generator-pure-go-2026-when vi locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/id/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html', // pcfg-password-cracking-patterns-generator-pure-go-2026-when id locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/de/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html', // pcfg-password-cracking-patterns-generator-pure-go-2026-when de locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/pt/layered-image-editor-linux-omarchy-when.html', // layered-image-editor-linux-omarchy-when pt locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/es/layered-image-editor-linux-omarchy-when.html', // layered-image-editor-linux-omarchy-when es locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/vi/layered-image-editor-linux-omarchy-when.html', // layered-image-editor-linux-omarchy-when vi locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/id/layered-image-editor-linux-omarchy-when.html', // layered-image-editor-linux-omarchy-when id locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/de/layered-image-editor-linux-omarchy-when.html', // layered-image-editor-linux-omarchy-when de locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/pt/layered-image-editor-linux-omarchy-step-by-step.html', // layered-image-editor-linux-omarchy-step-by-step pt locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/es/layered-image-editor-linux-omarchy-step-by-step.html', // layered-image-editor-linux-omarchy-step-by-step es locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/vi/layered-image-editor-linux-omarchy-step-by-step.html', // layered-image-editor-linux-omarchy-step-by-step vi locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/id/layered-image-editor-linux-omarchy-step-by-step.html', // layered-image-editor-linux-omarchy-step-by-step id locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/de/layered-image-editor-linux-omarchy-step-by-step.html', // layered-image-editor-linux-omarchy-step-by-step de locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/pt/layered-image-editor-linux-omarchy-vs-alternatives.html', // layered-image-editor-linux-omarchy-vs-alternatives pt locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/es/layered-image-editor-linux-omarchy-vs-alternatives.html', // layered-image-editor-linux-omarchy-vs-alternatives es locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/vi/layered-image-editor-linux-omarchy-vs-alternatives.html', // layered-image-editor-linux-omarchy-vs-alternatives vi locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/id/layered-image-editor-linux-omarchy-vs-alternatives.html', // layered-image-editor-linux-omarchy-vs-alternatives id locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/de/layered-image-editor-linux-omarchy-vs-alternatives.html', // layered-image-editor-linux-omarchy-vs-alternatives de locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/de/hevc-converter-mov-vs-alternatives.html', // hevc-converter-mov-vs-alternatives de locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/layered-image-editor-linux-omarchy-vs-alternatives.html',
+  '/guides/layered-image-editor-linux-omarchy-step-by-step.html',
+  '/guides/layered-image-editor-linux-omarchy-when.html',
+  '/guides/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html',
+  '/guides/hevc-converter-mov-vs-alternatives.html',
+  '/guides/hevc-converter-mov-step-by-step.html',
+  '/guides/hevc-converter-mov-when.html',
+  '/guides/pt/hevc-converter-mov-step-by-step.html', // hevc-converter-mov-step-by-step pt locale fanout (create_new_guide_page 20261004-5)
+  '/guides/pt/hevc-converter-mov-vs-alternatives.html', // hevc-converter-mov-vs-alternatives pt locale fanout (locale completion 20261005-aquarium-fire2)
+  '/guides/es/hevc-converter-mov-vs-alternatives.html', // hevc-converter-mov-vs-alternatives es locale fanout (locale completion 20261005-5)
+  '/guides/vi/hevc-converter-mov-vs-alternatives.html', // hevc-converter-mov-vs-alternatives vi locale fanout (locale completion 20261005-6)
+  '/guides/id/hevc-converter-mov-vs-alternatives.html', // hevc-converter-mov-vs-alternatives id locale fanout (locale completion 20261006)
+  '/guides/es/hevc-converter-mov-step-by-step.html', // hevc-converter-mov-step-by-step es locale fanout (locale completion 20261005)
+  '/guides/vi/hevc-converter-mov-step-by-step.html', // hevc-converter-mov-step-by-step vi locale fanout (locale completion 20261005-2)
+  '/guides/id/hevc-converter-mov-step-by-step.html', // hevc-converter-mov-step-by-step id locale fanout (locale completion 20261005-3)
+  '/guides/de/hevc-converter-mov-step-by-step.html', // hevc-converter-mov-step-by-step de locale fanout (locale completion 20261005-4)
   '/guides/markup-calculator-vs-alternatives.html',
   '/guides/markup-calculator-step-by-step.html',
   '/guides/markup-calculator-when.html',
@@ -632,21 +674,6 @@ export const INFO_ROUTES = new Set([
   // twins (pt/es/vi/id/de) lacked the X%/Y% capability-and-limitation paragraph and the pt
   // -step-by-step twin lacked the watermark/form-filler routing sentence. All 6 were folded
   // into the twins IN THEIR OWN LANGUAGE before these 301s.
-  // The -when angle below is deliberately KEPT: runbook section-3.5 rule 2 found it INVERTED -
-  // excess carries 1 click / 106 impressions and OUT-RANKS kept 0 clicks / 45 impressions on
-  // the first ranking key, so retiring it would discard the family's only click-earning surface.
-  // content-consolidation fire146 (2026-09-22): the -vs-alternatives and -step-by-step angles
-  // of the pdf-xchange-editor-browser-plugin-edge guide family were retired into their
-  // same-angle, same-locale canonical twins '/guides/{loc}/pdf-editor-{angle}.html' (see
-  // ALIAS_ROUTES). Their bodies were the same template as those twins, differing only in the
-  // tool name, an intro link pointing at the now-301'd '/image-converter-tools/pdf-xchange-
-  // editor-browser-plugin-edge.html', and a wrong-cluster '/image-converter-tools.html'
-  // backlink. Evidence: -vs-alternatives 0/0/0 loses to kept 0/0/58; -step-by-step 0/0/3 loses
-  // to kept 0/0/22; both 0 clicks / 0 citations / $0 revenue with ZERO inbound internal links,
-  // and every twin is live and non-alias, so there are no 301 chains.
-  // Unique facts were NOT zero here (unlike the adobe/foxit families): 5 of 6 -vs-alternatives
-  // twins (pt/es/vi/id/de) lacked the X%/Y% capability-and-limitation paragraph. All 5 were
-  // folded into the twins IN THEIR OWN LANGUAGE before these 301s.
   // The -when angle below is deliberately KEPT: runbook section-3.5 rule 2 found it INVERTED -
   // excess carries 1 click / 106 impressions and OUT-RANKS kept 0 clicks / 45 impressions on
   // the first ranking key, so retiring it would discard the family's only click-earning surface.
@@ -7208,12 +7235,6 @@ export const INFO_ROUTES = new Set([
   '/guides/de/strong-lensing-multiple-images-step-by-step.html',
   '/guides/de/strong-lensing-multiple-images-when.html',
   '/guides/de/strong-lensing-multiple-images-vs-alternatives.html',
-  '/guides/hevc-converter-mov-step-by-step.html',
-  '/guides/pt/hevc-converter-mov-step-by-step.html',
-  '/guides/es/hevc-converter-mov-step-by-step.html',
-  '/guides/vi/hevc-converter-mov-step-by-step.html',
-  '/guides/id/hevc-converter-mov-step-by-step.html',
-  '/guides/de/hevc-converter-mov-step-by-step.html', // hevc-converter-mov-step-by-step de locale fanout (locale completion 20261005-4)
   // interstellar-travel-timescales companion guides (space-3d-discovery-loop LEAN fire, 2026-07-26)
   '/guides/interstellar-travel-timescales-step-by-step.html',
   '/guides/interstellar-travel-timescales-when.html',
@@ -7707,6 +7728,76 @@ export const INFO_ROUTES = new Set([
 // the URL still renders (200, not 404) for inbound links, but sitemap-guides.xml
 // no longer publishes it. Used for legacy non-kebab URLs that already shipped.
 export const GUIDE_ROUTES = new Set([
+  // hevc-converter-mov-when pt locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/pt/hevc-converter-mov-when.html',
+  // hevc-converter-mov-when es locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/es/hevc-converter-mov-when.html',
+  // hevc-converter-mov-when vi locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/vi/hevc-converter-mov-when.html',
+  // hevc-converter-mov-when id locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/id/hevc-converter-mov-when.html',
+  // hevc-converter-mov-when de locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/de/hevc-converter-mov-when.html',
+  // pcfg-password-cracking-patterns-generator-pure-go-2026-when pt locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/pt/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html',
+  // pcfg-password-cracking-patterns-generator-pure-go-2026-when es locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/es/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html',
+  // pcfg-password-cracking-patterns-generator-pure-go-2026-when vi locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/vi/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html',
+  // pcfg-password-cracking-patterns-generator-pure-go-2026-when id locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/id/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html',
+  // pcfg-password-cracking-patterns-generator-pure-go-2026-when de locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/de/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html',
+  // layered-image-editor-linux-omarchy-when pt locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/pt/layered-image-editor-linux-omarchy-when.html',
+  // layered-image-editor-linux-omarchy-when es locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/es/layered-image-editor-linux-omarchy-when.html',
+  // layered-image-editor-linux-omarchy-when vi locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/vi/layered-image-editor-linux-omarchy-when.html',
+  // layered-image-editor-linux-omarchy-when id locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/id/layered-image-editor-linux-omarchy-when.html',
+  // layered-image-editor-linux-omarchy-when de locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/de/layered-image-editor-linux-omarchy-when.html',
+  // layered-image-editor-linux-omarchy-step-by-step pt locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/pt/layered-image-editor-linux-omarchy-step-by-step.html',
+  // layered-image-editor-linux-omarchy-step-by-step es locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/es/layered-image-editor-linux-omarchy-step-by-step.html',
+  // layered-image-editor-linux-omarchy-step-by-step vi locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/vi/layered-image-editor-linux-omarchy-step-by-step.html',
+  // layered-image-editor-linux-omarchy-step-by-step id locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/id/layered-image-editor-linux-omarchy-step-by-step.html',
+  // layered-image-editor-linux-omarchy-step-by-step de locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/de/layered-image-editor-linux-omarchy-step-by-step.html',
+  // layered-image-editor-linux-omarchy-vs-alternatives pt locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/pt/layered-image-editor-linux-omarchy-vs-alternatives.html',
+  // layered-image-editor-linux-omarchy-vs-alternatives es locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/es/layered-image-editor-linux-omarchy-vs-alternatives.html',
+  // layered-image-editor-linux-omarchy-vs-alternatives vi locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/vi/layered-image-editor-linux-omarchy-vs-alternatives.html',
+  // layered-image-editor-linux-omarchy-vs-alternatives id locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/id/layered-image-editor-linux-omarchy-vs-alternatives.html',
+  // layered-image-editor-linux-omarchy-vs-alternatives de locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/de/layered-image-editor-linux-omarchy-vs-alternatives.html',
+  // hevc-converter-mov-vs-alternatives de locale fanout (new_guide_locale_completeness backfill 20261006)
+  '/guides/de/hevc-converter-mov-vs-alternatives.html',
+  // hevc-converter-mov-step-by-step pt locale fanout (create_new_guide_page 20261004-5)
+  '/guides/pt/hevc-converter-mov-step-by-step.html',
+  // hevc-converter-mov-vs-alternatives pt locale fanout (locale completion 20261005-aquarium-fire2)
+  '/guides/pt/hevc-converter-mov-vs-alternatives.html',
+  // hevc-converter-mov-vs-alternatives es locale fanout (locale completion 20261005-5)
+  '/guides/es/hevc-converter-mov-vs-alternatives.html',
+  // hevc-converter-mov-vs-alternatives vi locale fanout (locale completion 20261005-6)
+  '/guides/vi/hevc-converter-mov-vs-alternatives.html',
+  // hevc-converter-mov-vs-alternatives id locale fanout (locale completion 20261006)
+  '/guides/id/hevc-converter-mov-vs-alternatives.html',
+  // hevc-converter-mov-step-by-step es locale fanout (locale completion 20261005)
+  '/guides/es/hevc-converter-mov-step-by-step.html',
+  // hevc-converter-mov-step-by-step vi locale fanout (locale completion 20261005-2)
+  '/guides/vi/hevc-converter-mov-step-by-step.html',
+  // hevc-converter-mov-step-by-step id locale fanout (locale completion 20261005-3)
+  '/guides/id/hevc-converter-mov-step-by-step.html',
+  // hevc-converter-mov-step-by-step de locale fanout (locale completion 20261005-4)
+  '/guides/de/hevc-converter-mov-step-by-step.html',
   // color-palette-generator-vs-alternatives locale fanout (create_new_guide_page 20260906-2)
   '/guides/pt/color-palette-generator-vs-alternatives.html',
   '/guides/es/color-palette-generator-vs-alternatives.html',
@@ -7921,7 +8012,6 @@ export const GUIDE_ROUTES = new Set([
   // content-consolidation fire147 (2026-09-23) into
   // '/guides/{loc}/pdf-editor-step-by-step.html' - see ALIAS_ROUTES + the INFO_ROUTES note.
   // Same bare-EN-via-JSP-auto-merge note as the -when angle above.
-  // foxit-pdf-editor-browser-step-by-step pt locale (create_new_guide_page 20260819-4)
   // foxit-pdf-editor-browser-step-by-step pt locale (create_new_guide_page 20260819-4)
   '/guides/pt/foxit-pdf-editor-browser-step-by-step.html',
   // foxit-pdf-editor-browser-step-by-step es locale (create_new_guide_page 20260826-2)
@@ -14229,12 +14319,6 @@ export const GUIDE_ROUTES = new Set([
   '/guides/de/strong-lensing-multiple-images-step-by-step.html',
   '/guides/de/strong-lensing-multiple-images-when.html',
   '/guides/de/strong-lensing-multiple-images-vs-alternatives.html',
-  '/guides/hevc-converter-mov-step-by-step.html',
-  '/guides/pt/hevc-converter-mov-step-by-step.html',
-  '/guides/es/hevc-converter-mov-step-by-step.html',
-  '/guides/vi/hevc-converter-mov-step-by-step.html',
-  '/guides/id/hevc-converter-mov-step-by-step.html',
-  '/guides/de/hevc-converter-mov-step-by-step.html', // hevc-converter-mov-step-by-step de locale fanout (locale completion 20261005-4)
   // interstellar-travel-timescales companion guides (space-3d-discovery-loop LEAN fire, 2026-07-26)
   '/guides/interstellar-travel-timescales-step-by-step.html',
   '/guides/interstellar-travel-timescales-when.html',
@@ -14936,10 +15020,9 @@ export const ALIAS_ROUTES = {
   // and the previous family's pattern must never be copied forward.
   // Unlike the adobe/foxit families the unique-fact set here was NOT empty: 5 of 6
   // -vs-alternatives twins (pt/es/vi/id/de) lacked the X%/Y% capability-and-limitation
-  // paragraph. Each was folded into the twin in ITS OWN language, verbatim from the excess
-  // fragment, in the same commit and BEFORE these 301s - so no reader-facing fact is lost in
-  // any locale. A 6th candidate fold (pt -step-by-step) was caught by the within-page
-  // redundancy gate as a 0.88 duplicate of the twin's own wording and was reverted.
+  // paragraph and the pt -step-by-step twin lacked the watermark/form-filler routing sentence.
+  // Each was folded into the twin in ITS OWN language, verbatim from the excess fragment, in
+  // the same commit and BEFORE these 301s - so no reader-facing fact is lost in any locale.
   // All 12 carried 0 clicks / 0 citations / $0 revenue and ZERO inbound internal links; every
   // twin is live and non-alias, so there are no 301 chains and no page loses a link.
   '/guides/pdf-xchange-editor-browser-plugin-edge-vs-alternatives.html': '/guides/pdf-editor-vs-alternatives.html', // consolidation 301 fire146
@@ -17888,7 +17971,6 @@ export const ALIAS_ROUTES = {
   '/cmyk-to-rgb-converter.html': '/developer-tools/cmyk-to-rgb-converter.html',
   '/random-color-generator.html': '/developer-tools/random-color-generator.html',
   '/color-palette-generator.html': '/developer-tools/color-palette-generator.html',
-  '/pcfg-password-cracking-patterns-generator-pure-go-2026.html': '/developer-tools/pcfg-password-cracking-patterns-generator-pure-go-2026.html',
   '/ai-story-generator.html': '/utility-tools/ai-story-generator.html',
   '/avif-to-jpg.html': '/image-converter-tools/avif-to-jpg.html',
   '/avif-to-png.html': '/image-converter-tools/avif-to-png.html',
@@ -17951,7 +18033,10 @@ export const ALIAS_ROUTES = {
   '/time-card-calculator.html': '/utility-tools/time-card-calculator.html',
   '/pace-calculator.html': '/utility-tools/pace-calculator.html',
   '/markup-calculator.html': '/utility-tools/markup-calculator.html',
+  '/commission-calculator.html': '/utility-tools/commission-calculator.html',
   '/hevc-converter-mov.html': '/image-converter-tools/hevc-converter-mov.html',
+  '/pcfg-password-cracking-patterns-generator-pure-go-2026.html': '/developer-tools/pcfg-password-cracking-patterns-generator-pure-go-2026.html',
+  '/layered-image-editor-linux-omarchy.html': '/image-converter-tools/layered-image-editor-linux-omarchy.html',
 };
 
 // ─────────────────────────────────────────────────────────────────────────
@@ -18235,7 +18320,7 @@ export const JSP_BY_ROUTE = {
   // Phase 16 Cycle B P16.G1 hub + P16.N11 + P16.N16.
   '/guides.html': 'utility/guides.jsp',
   '/guides/en/how-to-convert-heic-to-jpg-step-by-step.html': 'guide/en/how-to-convert-heic-to-jpg-step-by-step.jsp',
-  // cycle 20261001-6 mirror: wire locale JSP mappings (routes list-registered 2026-07-29, never JSP-mapped -> 404). JSP wrappers + CMS fragments already on prod.
+  // cycle 20261001-6: wire the locale JSP mappings for this guide (routes were list-registered 2026-07-29 but never JSP-mapped -> 404). JSP wrappers + CMS fragments already present.
   '/guides/pt/how-to-convert-heic-to-jpg-step-by-step.html': 'guide/pt/how-to-convert-heic-to-jpg-step-by-step.jsp', '/guides/es/how-to-convert-heic-to-jpg-step-by-step.html': 'guide/es/how-to-convert-heic-to-jpg-step-by-step.jsp', '/guides/vi/how-to-convert-heic-to-jpg-step-by-step.html': 'guide/vi/how-to-convert-heic-to-jpg-step-by-step.jsp', '/guides/de/how-to-convert-heic-to-jpg-step-by-step.html': 'guide/de/how-to-convert-heic-to-jpg-step-by-step.jsp',
   '/guides/en/what-an-lcd-test-does-and-when-to-run-one.html': 'guide/en/what-an-lcd-test-does-and-when-to-run-one.jsp',
   // Cycle 20260517-6 create_new_guide_page - "ms to date" synonym-coverage guide.
@@ -28562,7 +28647,6 @@ export const JSP_BY_ROUTE = {
   // drops each route from GUIDE_ROUTES (auto-merge at the bottom of this file) and therefore
   // from sitemap-guides*.xml. The JSP wrapper files + CMS fragments stay on disk (orphan,
   // harmless) so the merge is revertible.
-
   '/space-3d/bortle-scale-light-pollution.html': 'space/bortle-scale-light-pollution.jsp',
   '/guides/bortle-scale-light-pollution-step-by-step.html': 'guide/bortle-scale-light-pollution-step-by-step.jsp',
   '/guides/bortle-scale-light-pollution-when.html': 'guide/bortle-scale-light-pollution-when.jsp',
@@ -30445,7 +30529,6 @@ export const JSP_BY_ROUTE = {
   '/guides/id/random-color-generator-vs-alternatives.html': 'guide/id/random-color-generator-vs-alternatives.jsp',
   '/guides/de/random-color-generator-vs-alternatives.html': 'guide/de/random-color-generator-vs-alternatives.jsp',
   '/developer-tools/color-palette-generator.html': 'utility/color-palette-generator.jsp',
-  '/developer-tools/pcfg-password-cracking-patterns-generator-pure-go-2026.html': 'utility/pcfg-password-cracking-patterns-generator-pure-go-2026.jsp',
   '/guides/color-palette-generator-when.html': 'guide/color-palette-generator-when.jsp',
   '/guides/pt/color-palette-generator-when.html': 'guide/pt/color-palette-generator-when.jsp',
   '/guides/es/color-palette-generator-when.html': 'guide/es/color-palette-generator-when.jsp',
@@ -30583,6 +30666,24 @@ export const JSP_BY_ROUTE = {
   '/guides/de/image-ascii-art-step-by-step.html': 'guide/de/image-ascii-art-step-by-step.jsp',
   '/guides/de/image-ascii-art-vs-alternatives.html': 'guide/de/image-ascii-art-vs-alternatives.jsp',
   '/utility-tools/fuel-cost-calculator.html': 'utility/fuel-cost-calculator.jsp',
+  '/guides/fuel-cost-calculator-when.html': 'guide/fuel-cost-calculator-when.jsp',
+  '/guides/fuel-cost-calculator-step-by-step.html': 'guide/fuel-cost-calculator-step-by-step.jsp',
+  '/guides/fuel-cost-calculator-vs-alternatives.html': 'guide/fuel-cost-calculator-vs-alternatives.jsp',
+  '/guides/pt/fuel-cost-calculator-step-by-step.html': 'guide/pt/fuel-cost-calculator-step-by-step.jsp',
+  '/guides/pt/fuel-cost-calculator-when.html': 'guide/pt/fuel-cost-calculator-when.jsp',
+  '/guides/pt/fuel-cost-calculator-vs-alternatives.html': 'guide/pt/fuel-cost-calculator-vs-alternatives.jsp',
+  '/guides/es/fuel-cost-calculator-step-by-step.html': 'guide/es/fuel-cost-calculator-step-by-step.jsp',
+  '/guides/es/fuel-cost-calculator-when.html': 'guide/es/fuel-cost-calculator-when.jsp',
+  '/guides/es/fuel-cost-calculator-vs-alternatives.html': 'guide/es/fuel-cost-calculator-vs-alternatives.jsp',
+  '/guides/vi/fuel-cost-calculator-step-by-step.html': 'guide/vi/fuel-cost-calculator-step-by-step.jsp',
+  '/guides/vi/fuel-cost-calculator-when.html': 'guide/vi/fuel-cost-calculator-when.jsp',
+  '/guides/vi/fuel-cost-calculator-vs-alternatives.html': 'guide/vi/fuel-cost-calculator-vs-alternatives.jsp',
+  '/guides/id/fuel-cost-calculator-step-by-step.html': 'guide/id/fuel-cost-calculator-step-by-step.jsp',
+  '/guides/id/fuel-cost-calculator-when.html': 'guide/id/fuel-cost-calculator-when.jsp',
+  '/guides/id/fuel-cost-calculator-vs-alternatives.html': 'guide/id/fuel-cost-calculator-vs-alternatives.jsp',
+  '/guides/de/fuel-cost-calculator-step-by-step.html': 'guide/de/fuel-cost-calculator-step-by-step.jsp',
+  '/guides/de/fuel-cost-calculator-when.html': 'guide/de/fuel-cost-calculator-when.jsp',
+  '/guides/de/fuel-cost-calculator-vs-alternatives.html': 'guide/de/fuel-cost-calculator-vs-alternatives.jsp',
   '/utility-tools/ovulation-calculator.html': 'utility/ovulation-calculator.jsp',
   '/guides/ovulation-calculator-when.html': 'guide/ovulation-calculator-when.jsp',
   '/guides/ovulation-calculator-step-by-step.html': 'guide/ovulation-calculator-step-by-step.jsp',
@@ -30697,31 +30798,52 @@ export const JSP_BY_ROUTE = {
   '/guides/de/markup-calculator-step-by-step.html': 'guide/de/markup-calculator-step-by-step.jsp',
   '/guides/de/markup-calculator-when.html': 'guide/de/markup-calculator-when.jsp',
   '/guides/de/markup-calculator-vs-alternatives.html': 'guide/de/markup-calculator-vs-alternatives.jsp',
-  '/guides/fuel-cost-calculator-when.html': 'guide/fuel-cost-calculator-when.jsp',
-  '/guides/fuel-cost-calculator-step-by-step.html': 'guide/fuel-cost-calculator-step-by-step.jsp',
-  '/guides/fuel-cost-calculator-vs-alternatives.html': 'guide/fuel-cost-calculator-vs-alternatives.jsp',
-  '/guides/pt/fuel-cost-calculator-step-by-step.html': 'guide/pt/fuel-cost-calculator-step-by-step.jsp',
-  '/guides/pt/fuel-cost-calculator-when.html': 'guide/pt/fuel-cost-calculator-when.jsp',
-  '/guides/pt/fuel-cost-calculator-vs-alternatives.html': 'guide/pt/fuel-cost-calculator-vs-alternatives.jsp',
-  '/guides/es/fuel-cost-calculator-step-by-step.html': 'guide/es/fuel-cost-calculator-step-by-step.jsp',
-  '/guides/es/fuel-cost-calculator-when.html': 'guide/es/fuel-cost-calculator-when.jsp',
-  '/guides/es/fuel-cost-calculator-vs-alternatives.html': 'guide/es/fuel-cost-calculator-vs-alternatives.jsp',
-  '/guides/vi/fuel-cost-calculator-step-by-step.html': 'guide/vi/fuel-cost-calculator-step-by-step.jsp',
-  '/guides/vi/fuel-cost-calculator-when.html': 'guide/vi/fuel-cost-calculator-when.jsp',
-  '/guides/vi/fuel-cost-calculator-vs-alternatives.html': 'guide/vi/fuel-cost-calculator-vs-alternatives.jsp',
-  '/guides/id/fuel-cost-calculator-step-by-step.html': 'guide/id/fuel-cost-calculator-step-by-step.jsp',
-  '/guides/id/fuel-cost-calculator-when.html': 'guide/id/fuel-cost-calculator-when.jsp',
-  '/guides/id/fuel-cost-calculator-vs-alternatives.html': 'guide/id/fuel-cost-calculator-vs-alternatives.jsp',
-  '/guides/de/fuel-cost-calculator-step-by-step.html': 'guide/de/fuel-cost-calculator-step-by-step.jsp',
-  '/guides/de/fuel-cost-calculator-when.html': 'guide/de/fuel-cost-calculator-when.jsp',
-  '/guides/de/fuel-cost-calculator-vs-alternatives.html': 'guide/de/fuel-cost-calculator-vs-alternatives.jsp',
+  '/utility-tools/commission-calculator.html': 'utility/commission-calculator.jsp',
   '/image-converter-tools/hevc-converter-mov.html': 'convert/hevc-converter-mov.jsp',
+  '/guides/hevc-converter-mov-when.html': 'guide/hevc-converter-mov-when.jsp',
   '/guides/hevc-converter-mov-step-by-step.html': 'guide/hevc-converter-mov-step-by-step.jsp',
+  '/guides/hevc-converter-mov-vs-alternatives.html': 'guide/hevc-converter-mov-vs-alternatives.jsp',
   '/guides/pt/hevc-converter-mov-step-by-step.html': 'guide/pt/hevc-converter-mov-step-by-step.jsp',
+  '/guides/pt/hevc-converter-mov-vs-alternatives.html': 'guide/pt/hevc-converter-mov-vs-alternatives.jsp',
+  '/guides/es/hevc-converter-mov-vs-alternatives.html': 'guide/es/hevc-converter-mov-vs-alternatives.jsp',
+  '/guides/vi/hevc-converter-mov-vs-alternatives.html': 'guide/vi/hevc-converter-mov-vs-alternatives.jsp',
+  '/guides/pt/hevc-converter-mov-when.html': 'guide/pt/hevc-converter-mov-when.jsp',
+  '/guides/es/hevc-converter-mov-when.html': 'guide/es/hevc-converter-mov-when.jsp',
+  '/guides/vi/hevc-converter-mov-when.html': 'guide/vi/hevc-converter-mov-when.jsp',
+  '/guides/id/hevc-converter-mov-when.html': 'guide/id/hevc-converter-mov-when.jsp',
+  '/guides/de/hevc-converter-mov-when.html': 'guide/de/hevc-converter-mov-when.jsp',
+  '/guides/pt/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html': 'guide/pt/pcfg-password-cracking-patterns-generator-pure-go-2026-when.jsp',
+  '/guides/es/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html': 'guide/es/pcfg-password-cracking-patterns-generator-pure-go-2026-when.jsp',
+  '/guides/vi/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html': 'guide/vi/pcfg-password-cracking-patterns-generator-pure-go-2026-when.jsp',
+  '/guides/id/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html': 'guide/id/pcfg-password-cracking-patterns-generator-pure-go-2026-when.jsp',
+  '/guides/de/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html': 'guide/de/pcfg-password-cracking-patterns-generator-pure-go-2026-when.jsp',
+  '/guides/pt/layered-image-editor-linux-omarchy-when.html': 'guide/pt/layered-image-editor-linux-omarchy-when.jsp',
+  '/guides/es/layered-image-editor-linux-omarchy-when.html': 'guide/es/layered-image-editor-linux-omarchy-when.jsp',
+  '/guides/vi/layered-image-editor-linux-omarchy-when.html': 'guide/vi/layered-image-editor-linux-omarchy-when.jsp',
+  '/guides/id/layered-image-editor-linux-omarchy-when.html': 'guide/id/layered-image-editor-linux-omarchy-when.jsp',
+  '/guides/de/layered-image-editor-linux-omarchy-when.html': 'guide/de/layered-image-editor-linux-omarchy-when.jsp',
+  '/guides/pt/layered-image-editor-linux-omarchy-step-by-step.html': 'guide/pt/layered-image-editor-linux-omarchy-step-by-step.jsp',
+  '/guides/es/layered-image-editor-linux-omarchy-step-by-step.html': 'guide/es/layered-image-editor-linux-omarchy-step-by-step.jsp',
+  '/guides/vi/layered-image-editor-linux-omarchy-step-by-step.html': 'guide/vi/layered-image-editor-linux-omarchy-step-by-step.jsp',
+  '/guides/id/layered-image-editor-linux-omarchy-step-by-step.html': 'guide/id/layered-image-editor-linux-omarchy-step-by-step.jsp',
+  '/guides/de/layered-image-editor-linux-omarchy-step-by-step.html': 'guide/de/layered-image-editor-linux-omarchy-step-by-step.jsp',
+  '/guides/pt/layered-image-editor-linux-omarchy-vs-alternatives.html': 'guide/pt/layered-image-editor-linux-omarchy-vs-alternatives.jsp',
+  '/guides/es/layered-image-editor-linux-omarchy-vs-alternatives.html': 'guide/es/layered-image-editor-linux-omarchy-vs-alternatives.jsp',
+  '/guides/vi/layered-image-editor-linux-omarchy-vs-alternatives.html': 'guide/vi/layered-image-editor-linux-omarchy-vs-alternatives.jsp',
+  '/guides/id/layered-image-editor-linux-omarchy-vs-alternatives.html': 'guide/id/layered-image-editor-linux-omarchy-vs-alternatives.jsp',
+  '/guides/de/layered-image-editor-linux-omarchy-vs-alternatives.html': 'guide/de/layered-image-editor-linux-omarchy-vs-alternatives.jsp',
+  '/guides/de/hevc-converter-mov-vs-alternatives.html': 'guide/de/hevc-converter-mov-vs-alternatives.jsp',
+  '/guides/id/hevc-converter-mov-vs-alternatives.html': 'guide/id/hevc-converter-mov-vs-alternatives.jsp',
   '/guides/es/hevc-converter-mov-step-by-step.html': 'guide/es/hevc-converter-mov-step-by-step.jsp',
   '/guides/vi/hevc-converter-mov-step-by-step.html': 'guide/vi/hevc-converter-mov-step-by-step.jsp',
   '/guides/id/hevc-converter-mov-step-by-step.html': 'guide/id/hevc-converter-mov-step-by-step.jsp',
-  '/guides/de/hevc-converter-mov-step-by-step.html': 'guide/de/hevc-converter-mov-step-by-step.jsp', // hevc-converter-mov-step-by-step de locale fanout (locale completion 20261005-4)
+  '/guides/de/hevc-converter-mov-step-by-step.html': 'guide/de/hevc-converter-mov-step-by-step.jsp',
+  '/developer-tools/pcfg-password-cracking-patterns-generator-pure-go-2026.html': 'utility/pcfg-password-cracking-patterns-generator-pure-go-2026.jsp',
+  '/guides/pcfg-password-cracking-patterns-generator-pure-go-2026-when.html': 'guide/pcfg-password-cracking-patterns-generator-pure-go-2026-when.jsp',
+  '/image-converter-tools/layered-image-editor-linux-omarchy.html': 'convert/layered-image-editor-linux-omarchy.jsp',
+  '/guides/layered-image-editor-linux-omarchy-when.html': 'guide/layered-image-editor-linux-omarchy-when.jsp',
+  '/guides/layered-image-editor-linux-omarchy-step-by-step.html': 'guide/layered-image-editor-linux-omarchy-step-by-step.jsp',
+  '/guides/layered-image-editor-linux-omarchy-vs-alternatives.html': 'guide/layered-image-editor-linux-omarchy-vs-alternatives.jsp',
 };
 
 // Cycle 50 follow-up #2 - GUIDE_ROUTES auto-merge from JSP_BY_ROUTE.
