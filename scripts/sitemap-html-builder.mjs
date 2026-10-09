@@ -168,10 +168,10 @@ function classifyGuide(slug) {
   // city-time-machine, sky-gates-flight / solar-system, black-hole, galaxy)
   // + generic genre words so future game/space guides classify without
   // edits here.
-  if (/(^|-)(snake|tank|garden-defense|voxel|city-time-machine|sky-gates|2048|city-drive|browser-game|how-to-play|fps|freedoom|highway|hover|shooter|horde|procedural|server-survival|survival-td|connect-four|connect-four-ai)/.test(slug)) {
+  if (/(^|-)(snake|tank|garden-defense|voxel|city-time-machine|sky-gates|2048|city-drive|browser-game|how-to-play|fps|freedoom|highway|hover|shooter|horde|procedural|server-survival|survival-td|connect-four|connect-four-ai|elm-street|elm-street-delivery)/.test(slug)) {
     return 'games';
   }
-  if (/(^|-)(solar-system|black-hole|galaxy|planet|space-3d|earth-3d|sagittarius|red-giant|supernova|chandrasekhar|standard-candle|helioseismology|pulsar|stellar-spectral|yorp|kreutz|sungrazing|atmospheric-refraction|refraction|green-flash|observable-universe|particle-horizon|universe-horizon)/.test(slug)) {
+  if (/(^|-)(solar-system|black-hole|galaxy|planet|space-3d|earth-3d|sagittarius|radio-burst|red-giant|supernova|chandrasekhar|standard-candle|helioseismology|pulsar|stellar-spectral|yorp|kreutz|sungrazing|atmospheric-refraction|refraction|green-flash|observable-universe|particle-horizon|universe-horizon)/.test(slug)) {
     return 'space';
   }
   // dinosaur-loop (2026-07-15): guides for the /dinosaur-3d cluster. Species
@@ -356,6 +356,16 @@ export async function buildDynamicGuidesHubBody({ cmsRoot } = {}) {
     const items = guideMetaByTopic.get(topic);
     if (!items || items.length === 0) continue;
     sections.push(renderGuideHubTopicSection(topic, items));
+    if (topic === 'developer-and-encoding') {
+      sections.push(`    <figure class="illustration">
+      <img src="/img/illustrations/comparison-card-pair/guides__caec21ab.svg"
+           alt="Compare MD5 and SHA-256 checksum length and speed before picking the matching hash guide below."
+           loading="lazy"
+           width="640"
+           height="240">
+      <figcaption>Hold a hash question, a JSON task, or a PDF merge/split/password case? The Developer and PDF groups above sort by exactly that, so you find the matching guide fast.</figcaption>
+    </figure>`);
+    }
   }
 
   const html = `<div class='w3-container'>
