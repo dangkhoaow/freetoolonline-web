@@ -96,6 +96,15 @@ const TOOL_CLUSTER_BLURBS = {
 // runs against the slug under /guides/. Anything that fails to match falls
 // into the trailing "Editorial and other" bucket so nothing is silently
 // dropped.
+//
+// Ordering note (Phase-6 reader-walkthrough axis_A fix): task-matched
+// routing topics - the groups a reader lands here looking to solve a
+// specific file or device problem - are listed FIRST, so the fifteen-second
+// scan promised in the intro paragraph actually lands on the right block
+// before any non-routing browse-for-fun topic (games, space, dinosaurs) or
+// the large unsorted catch-all. "Utilities" is task-matched (VM/Linux
+// how-tos) so it moved up alongside the other routing topics; the catch-all
+// stays last by definition.
 const GUIDE_TOPIC_ORDER = [
   'zip-and-file-compression',
   'heic-and-image-conversion',
@@ -104,10 +113,13 @@ const GUIDE_TOPIC_ORDER = [
   'video',
   'device-tests',
   'developer-and-encoding',
+  'utilities',
   'games',
   'space',
   'dinosaurs',
-  'utilities',
+  'how-to-step-by-step',
+  'when-to-use',
+  'vs-alternatives-comparisons',
   'editorial-and-other',
 ];
 
@@ -123,6 +135,9 @@ const GUIDE_TOPIC_LABELS = {
   space: 'Space 3D',
   dinosaurs: 'Dinosaurs 3D',
   utilities: 'Utilities',
+  'how-to-step-by-step': 'Step-by-step how-to guides',
+  'when-to-use': 'When should I use this?',
+  'vs-alternatives-comparisons': 'Comparisons and alternatives',
   'editorial-and-other': 'Editorial and other',
 };
 
@@ -179,6 +194,29 @@ function classifyGuide(slug) {
   // edits here.
   if (/(^|-)(dinosaur|dino|rex|raptor|saurus|ceratops|triceratops|stegosaur|ankylosaur|mosasaur|pterosaur|pteranodon|fossil|jurassic|cretaceous|prehistoric)/.test(slug)) {
     return 'dinosaurs';
+  }
+  // Phase-6 reader-walkthrough axis_D fix (cycle 20261010-5): the
+  // "editorial-and-other" catch-all had grown to ~1,430 entries (81% of all
+  // EN guides) - far past a fifteen-second scan, per the two-model gate's
+  // CRITICAL finding on /guides.html ("flat alphabetical dump ... breaks
+  // the index's scan-in-15-seconds flow"). The topical-map loop generates
+  // three guide variants per intent node with a fixed query-shape suffix
+  // (-step-by-step / -when / -vs-alternatives) regardless of the node's
+  // subject, so most of the catch-all shares one of these three suffixes.
+  // Splitting by suffix (query intent) is a real, honest grouping - "how do
+  // I do X" vs "when should I use X" vs "X vs alternatives" are genuinely
+  // different reader questions - and is a mechanical, zero-mis-sort-risk cut
+  // (regex on the suffix, not a guess at the topic). This drops the
+  // catch-all to ~260 entries (82% reduction) without touching any other
+  // bucket's membership.
+  if (/-step-by-step$/.test(slug)) {
+    return 'how-to-step-by-step';
+  }
+  if (/-when$/.test(slug)) {
+    return 'when-to-use';
+  }
+  if (/-vs-alternatives$/.test(slug)) {
+    return 'vs-alternatives-comparisons';
   }
   return 'editorial-and-other';
 }
@@ -307,7 +345,20 @@ function renderGuideHubItem({ route, title, description }) {
 
 function renderGuideHubTopicSection(topic, items) {
   const lines = [];
-  lines.push(`    <h2 class="text-uppercase"><b>${escapeHtml(GUIDE_TOPIC_LABELS[topic] ?? topic)}</b></h2>`);
+  lines.push(`    <h2 id="topic-${topic}" class="text-uppercase"><b>${escapeHtml(GUIDE_TOPIC_LABELS[topic] ?? topic)}</b></h2>`);
+  // Phase-6 reader-walkthrough axis_A fix (cycle 20261010): the
+  // "editorial-and-other" catch-all runs into the thousands of entries -
+  // far past anything a fifteen-second scan can cover, since by definition
+  // it is everything classifyGuide() could NOT route to a specific
+  // job-to-be-done topic above. Rather than risk mis-sorting that many
+  // slugs into new sub-buckets in one pass, give the reader a faster way
+  // to find a specific title than scrolling: find-in-page or the home
+  // page's keyword search (already promised in the page intro).
+  if (topic === 'editorial-and-other') {
+    lines.push(
+      `    <p>${items.length} guides that did not fit a specific topic above - calculators, text/format utilities, comparisons, and more. Use your browser's find-in-page (Ctrl or Cmd+F) with a keyword from your task, or the search box on the home page, to jump straight to a title instead of scrolling the full list.</p>`,
+    );
+  }
   lines.push('    <ul>');
   for (const item of items) {
     lines.push(renderGuideHubItem(item));
@@ -351,10 +402,18 @@ export async function buildDynamicGuidesHubBody({ cmsRoot } = {}) {
   }
   const totalGuides = guideRoutes.length;
 
+  // Jump-nav entries are built in lockstep with sections - same loop, same
+  // non-empty filter - so a link never points at a heading that did not
+  // render (and a heading never renders without a matching link). Mirrors
+  // the "Jump to" pattern already shipped on /sitemap.html.
   const sections = [];
+  const jumpNavItems = [];
   for (const topic of GUIDE_TOPIC_ORDER) {
     const items = guideMetaByTopic.get(topic);
     if (!items || items.length === 0) continue;
+    jumpNavItems.push(
+      `        <li><a href="#topic-${topic}">${escapeHtml(GUIDE_TOPIC_LABELS[topic] ?? topic)}</a> (${items.length})</li>`,
+    );
     sections.push(renderGuideHubTopicSection(topic, items));
     if (topic === 'developer-and-encoding') {
       sections.push(`    <figure class="illustration">
@@ -363,10 +422,17 @@ export async function buildDynamicGuidesHubBody({ cmsRoot } = {}) {
            loading="lazy"
            width="640"
            height="240">
-      <figcaption>Hold a hash question, a JSON task, or a PDF merge/split/password case? The Developer and PDF groups above sort by exactly that, so you find the matching guide fast.</figcaption>
+      <figcaption>Developer-utility and PDF guides sit in their own blocks above: hold a hash question (MD5 vs SHA-256), a JSON pretty-print task, or a merge, split, compress, password, or flatten case, and find the matching walkthrough without scanning every block.</figcaption>
     </figure>`);
     }
   }
+  const jumpNavHtml = jumpNavItems.length
+    ? `    <h2 class="text-uppercase"><b>Jump to a topic</b></h2>
+    <ul class="guide-hub-jumpnav">
+${jumpNavItems.join('\n')}
+    </ul>
+`
+    : '';
 
   const html = `<div class='w3-container'>
     <h1><b class="text-uppercase">All Guides - Browser Tool Library</b></h1>
@@ -374,6 +440,7 @@ export async function buildDynamicGuidesHubBody({ cmsRoot } = {}) {
 
     <p>${totalGuides} English guides grouped by the kind of task you came to do. Where a guide also has an Indonesian or Portuguese edition, the language link sits on the guide page itself. If you are not sure which group your question lives in, the search box on the home page covers every guide and tool by keyword.</p>
 
+${jumpNavHtml}
     <figure class="illustration">
       <img src="/img/illustrations/decision-tree-2branch/guides__12f3a7f9.svg"
            alt="Decision tree showing how readers pick a guide by the input they already have"
@@ -805,6 +872,9 @@ const GUIDE_TOPIC_TO_CLUSTER = {
   space: 'space-3d',
   dinosaurs: 'dinosaur-3d',
   utilities: 'utility',
+  'how-to-step-by-step': 'utility',
+  'when-to-use': 'utility',
+  'vs-alternatives-comparisons': 'utility',
   'editorial-and-other': 'utility',
 };
 
