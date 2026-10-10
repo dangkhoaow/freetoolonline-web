@@ -6,7 +6,7 @@
 <br/><h2 class="text-uppercase"><b>Key features</b></h2>
 <ul>
 <li>The "as of" field defaults to today's date, but you can pick any date to check age as of that day.</li>
-<li>The birth date and the "as of" date stay in the browser - the age is worked out on this device, with no upload and no account.</li>
+<li>Both the birth date and the "as of" date are read and subtracted right here on your device - there is no server call behind the scenes and no account required.</li>
 </ul>
 
 <br/><h2 class="text-uppercase"><b>Common uses</b></h2>
@@ -20,5 +20,7 @@
 <p>Age Calculator builds the years/months/days line from the two calendar dates you enter, not from a fixed 30-day-month shortcut. It first subtracts the year, month, and day components directly. When that leaves a negative day count, it re-adds the actual number of days in the previous calendar month - 28, 29, 30, or 31, whichever that specific month really has - instead of always subtracting a flat 30. That ties the day figure to the real calendar rather than an approximation. For example, a birth date of January 15 checked against March 1 of the same year comes back as 1 month and 14 days, not a rounded-off "1 month and a bit" - the 14 days come from February contributing its own real length to the borrow.</p>
 <p>Alongside the years/months/days line, Age Calculator also reports total days lived: the exact number of days between the two dates, rounded to the nearest whole day and shown with thousands separators once the count climbs into the thousands - 13,394 rather than 13394, for example. Both figures come from the same pair of date fields and update together, so you always see the breakdown and the day total side by side. A birth date of January 1, 1990 checked against September 3, 2026, for example, comes back with a total of 13,394 days lived - a scale that's easy to lose track of from the years/months/days figure alone.</p>
 <p>Before you change anything, the birth-date field opens pre-filled with January 1, 2000, and the as-of field opens pre-filled with today's date - both editable right away rather than starting blank.</p>
+
+<p>Counting the gap between two dates that are not a birthday? The <a href="/utility-tools/date-difference-calculator.html">date difference calculator</a> answers that more general question.</p>
 
 <p><a href="/utility-tools.html">&larr; Back to Utility Tools</a></p>
