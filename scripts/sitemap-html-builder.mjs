@@ -192,7 +192,21 @@ function classifyGuide(slug) {
   // dinosaur-loop (2026-07-15): guides for the /dinosaur-3d cluster. Species
   // tokens + generic paleo words so future dinosaur guides classify without
   // edits here.
-  if (/(^|-)(dinosaur|dino|rex|raptor|saurus|ceratops|triceratops|stegosaur|ankylosaur|mosasaur|pterosaur|pteranodon|fossil|jurassic|cretaceous|prehistoric)/.test(slug)) {
+  //
+  // Phase-6 reader-walkthrough axis_A/C fix (cycle 20261011-4): most dinosaur
+  // genus names are single unhyphenated compound words (abelisaurus,
+  // acrocanthosaurus, velociraptor, pentaceratops) where the matching root
+  // ("saurus" / "raptor" / "ceratops") sits mid-word, not at the slug start
+  // or right after a hyphen. The `(^|-)` anchor only caught species whose
+  // name happens to START with the exact listed token (stegosaurus,
+  // ankylosaurus, mosasaurus, triceratops) - every other "-saurus"/"-raptor"/
+  // "-ceratops" genus fell through to "editorial-and-other", which grew to
+  // 262 entries "dominated by dinosaur 3D viewers and prehistoric-animal
+  // size comparisons" per the two-model gate's MEDIUM finding on /guides.html.
+  // These three suffixes are dinosaur-specific enough to match anywhere in
+  // the slug (no collision with any zip/image/pdf/video/device/developer
+  // keyword above, which all run first); the rest stay hyphen-anchored.
+  if (/saurus|raptor|ceratops|(^|-)(dinosaur|dino|rex|stegosaur|ankylosaur|mosasaur|pterosaur|pteranodon|fossil|jurassic|cretaceous|prehistoric)/.test(slug)) {
     return 'dinosaurs';
   }
   // Phase-6 reader-walkthrough axis_D fix (cycle 20261010-5): the
@@ -414,6 +428,17 @@ export async function buildDynamicGuidesHubBody({ cmsRoot } = {}) {
     jumpNavItems.push(
       `        <li><a href="#topic-${topic}">${escapeHtml(GUIDE_TOPIC_LABELS[topic] ?? topic)}</a> (${items.length})</li>`,
     );
+    // Phase-6 reader-walkthrough axis_D fix (2026-10-11): the jump from the
+    // task-matched blocks (zip/image/pdf/video/device/developer/utilities)
+    // into the browse-for-fun catalogues (games, space, dinosaurs) read as a
+    // break in the page's own utility framing with no cue explaining why
+    // entertainment content shares the hub. One transition line, emitted
+    // once before the first such topic.
+    if (topic === 'games') {
+      sections.push(
+        '    <p id="guides-browse-for-fun" class="w3-text-grey"><i>The groups below are for browsing, not a file/device task - open one when you want to play a game or explore in 3D instead.</i></p>',
+      );
+    }
     sections.push(renderGuideHubTopicSection(topic, items));
     if (topic === 'developer-and-encoding') {
       sections.push(`    <figure class="illustration">
@@ -436,7 +461,7 @@ ${jumpNavItems.join('\n')}
 
   const html = `<div class='w3-container'>
     <h1><b class="text-uppercase">All Guides - Browser Tool Library</b></h1>
-    <p>Hands-on, no-fluff guides for the people landing on freetoolonline.com tools. Every guide pairs the problem to the right tool, walks the steps, and explains the trade-offs, so you finish in a couple of minutes instead of two browser tabs. Many linked tools run right in your browser; the file-conversion tools upload over HTTPS and clear the working copy after a short window.</p>
+    <p>Hands-on, no-fluff guides for the people landing on freetoolonline.com tools. Every guide pairs the problem to the right tool, walks the steps, and explains the trade-offs, so you finish in a couple of minutes instead of two browser tabs. Most linked tools run right in your browser and never leave your device; a few heavier file-conversion tools upload over HTTPS instead and clear the working copy after a short window.</p>
 
     <p>${totalGuides} English guides grouped by the kind of task you came to do. Where a guide also has an Indonesian or Portuguese edition, the language link sits on the guide page itself. If you are not sure which group your question lives in, the search box on the home page covers every guide and tool by keyword.</p>
 
